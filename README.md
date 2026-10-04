@@ -1,24 +1,13 @@
 # ಮುದ್ಗಲ ಪುರಾಣ
 
-Kannada book sample with a flat illustrated cover and six interior sections. This is a book, not a web application. No toolbar, navigation controls, scripts, or application notices are included in the reading view.
+Kannada reading draft of source pages 1–10 of `1 TO 25(1).pdf`. Plain HTML book, not an application. Approved cover and Tiro Kannada are retained.
 
-## Read and print
+Includes front matter, 371 contents entries, first-khanda divider and opening illustrations. Narrative begins on source page 14 and is excluded. Devotional passages are transliterated without translation. Output page count differs from source page count.
 
-Open `book/index.html` in a browser. Keep its `assets` directory beside it. Use the browser's print command for the A4 layout and enable background graphics to retain the page colours.
+Open `book/index.html` beside its assets. Print on A4 with background graphics enabled. EPUB: `dist/mudgala_purana.epub`.
 
-## EPUB
+Build: install `requirements.txt`, then run `python3 build_book.py` and `python3 build_epub.py`.
 
-The generated ebook is `dist/mudgala_purana.epub`. It includes UTF-8 XHTML, Kannada language metadata (`kn`), an EPUB navigation document, the corrected cover, and embedded Tiro Kannada Regular. Text reflows for the reader's screen, so screen page counts vary.
+See `translation/verification.md`. This is a review draft, not a scholarly certified translation. XML/ZIP/assets/text checks are automated; full EPUBCheck and reader testing remain recommended.
 
-Regenerate with Python 3.10 or newer:
-
-```sh
-python3 -m pip install -r requirements.txt
-python3 build_epub.py
-```
-
-The build checks XML parsing, ZIP integrity, manifest files, reading order count, and unchanged book content. Full EPUBCheck and visual testing on target ebook readers are still recommended before publication.
-
-## Content and assets
-
-Interior wording is sample text, not a verified translation of the Purana. The cover artwork is 1055 × 1491 pixels, a design proof rather than a 300 ppi A4 print master. Tiro Kannada is included under the SIL Open Font License in `book/assets/TiroKannada-OFL.txt`. No licence for the book text or artwork is granted by the font licence.
+Cover remains 1055 × 1491 pixels, not a 300 ppi A4 press master. Tiro Kannada is supplied under the SIL Open Font License, which does not license book text or illustrations.
