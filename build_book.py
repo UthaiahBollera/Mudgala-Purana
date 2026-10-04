@@ -67,8 +67,8 @@ for src in range(3,9):
                 if r['source_page']=='8':body+=f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(r["text"])}</p>'
         pages.append(section(f'contents-{src:02}-{part}','ವಿಷಯ ಸೂಚಿ',body,str(src),'contents-page'))
 pages.extend(front_page(n) for n in range(9,14))
-chapter_names={1:'ಶೌನಕ ಮತ್ತು ಸೂತನ ಸಂವಾದ',2:'ದಕ್ಷ ಮತ್ತು ನಂದಿಯ ವಿವಾದ',3:'ಪಾರ್ವತಿಯ ದೇಹತ್ಯಾಗ',4:'ದಕ್ಷನ ಚರಿತ್ರೆ',5:'ಪಾರ್ವತಿ ಮತ್ತು ಶಿವರ ವಿಚಾರ',6:'ಪ್ರಕೃತಿ ಮತ್ತು ಪುರುಷರಿಗೆ ವರಪ್ರದಾನ'}
-chapter_ord={1:'ಪ್ರಥಮ',2:'ದ್ವಿತೀಯ',3:'ತೃತೀಯ',4:'ಚತುರ್ಥ',5:'ಪಂಚಮ',6:'ಷಷ್ಠ',7:'ಸಪ್ತಮ'}
+chapter_names={1:'ಶೌನಕ ಮತ್ತು ಸೂತನ ಸಂವಾದ',2:'ದಕ್ಷ ಮತ್ತು ನಂದಿಯ ವಿವಾದ',3:'ಪಾರ್ವತಿಯ ದೇಹತ್ಯಾಗ',4:'ದಕ್ಷನ ಚರಿತ್ರೆ',5:'ಪಾರ್ವತಿ ಮತ್ತು ಶಿವರ ವಿಚಾರ',6:'ಪ್ರಕೃತಿ ಮತ್ತು ಪುರುಷರಿಗೆ ವರಪ್ರದಾನ',7:'ತತ್ತ್ವಗಳು ಮಾಡಿದ ಸ್ತುತಿಯ ವರ್ಣನೆ',8:'ಗುಣೇಶನಿಗೆ ವರಪ್ರದಾನ',9:'ಪ್ರಕೃತಿಯ ವರ್ಣನೆ',10:'ನಾನಾ ಬ್ರಹ್ಮಾಂಡಗಳ ವರ್ಣನೆ'}
+chapter_ord={1:'ಪ್ರಥಮ',2:'ದ್ವಿತೀಯ',3:'ತೃತೀಯ',4:'ಚತುರ್ಥ',5:'ಪಂಚಮ',6:'ಷಷ್ಠ',7:'ಸಪ್ತಮ',8:'ಅಷ್ಟಮ',9:'ನವಮ',10:'ದಶಮ',11:'ಏಕಾದಶ'}
 chapters=sorted({int(r['chapter']) for r in narrative})
 for chapter in chapters:
     entries=[r for r in narrative if int(r['chapter'])==chapter]
@@ -106,7 +106,7 @@ css='''@font-face{font-family:"Tiro Kannada";src:url("assets/TiroKannada-Regular
 @page cover{size:A4 portrait;margin:0;counter-reset:page 0;@top-center{content:none}@bottom-center{content:none}}
 @media print{html,body{margin:0;background:var(--paper)}.book{display:block;padding:0}.page{width:auto;min-height:0;height:auto;margin:0;padding:0;background:var(--paper);box-shadow:none;break-after:page;-webkit-print-color-adjust:exact;print-color-adjust:exact}.page:last-child{break-after:auto}.page::before,.page-number{display:none}p{font-size:12.5pt;line-height:1.8;margin-bottom:4mm}h2{font-size:21pt;margin-bottom:6mm}h3{font-size:15pt;margin-bottom:6mm}.colophon{font-size:10pt}.contents{font-size:10.5pt;line-height:1.65}.contents td,.contents th{padding:2.2mm 1.5mm}.cover{page:cover;width:210mm;height:297mm;padding:0;aspect-ratio:auto;overflow:hidden;background:#4c1420}.cover-art{inset:0;width:210mm;height:297mm}.cover-art img{width:100%;height:100%;object-fit:contain}.frontmatter{display:flex;min-height:240mm;flex-direction:column;justify-content:center}.illustrated figure img{max-height:190mm}.illustrated .mantra,.illustrated .caption{font-size:12pt}figure{margin:5mm 0}}
 '''
-html='<!doctype html>\n<html lang="kn"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>ಮುದ್ಗಲ ಪುರಾಣ</title><meta name="description" content="ಲಗತ್ತಿನ ಇಪ್ಪತ್ತು ಮೂಲಪುಟಗಳ ಕನ್ನಡ ಓದುವ ಆವೃತ್ತಿ. ಕಥಾಭಾಗಗಳ ಅನುವಾದ, ಮಂತ್ರಗಳ ಕನ್ನಡ ಲಿಪ್ಯಂತರ ಮತ್ತು ಮೂಲಚಿತ್ರಗಳು." /><style>'+css+'</style></head><body><main class="book">'+''.join(pages)+'</main></body></html>\n'
+html='<!doctype html>\n<html lang="kn"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>ಮುದ್ಗಲ ಪುರಾಣ</title><meta name="description" content="ಮೂಲಪುಟಗಳ ಕನ್ನಡ ಓದುವ ಆವೃತ್ತಿ. ಕಥಾಭಾಗಗಳ ಅನುವಾದ, ಮಂತ್ರಗಳ ಕನ್ನಡ ಲಿಪ್ಯಂತರ ಮತ್ತು ಮೂಲಚಿತ್ರಗಳು." /><style>'+css+'</style></head><body><main class="book">'+''.join(pages)+'</main></body></html>\n'
 BOOK.mkdir(exist_ok=True);DIST.mkdir(exist_ok=True)
 (BOOK/'index.html').write_text(html,encoding='utf-8')
 # A downloadable edition with no external assets or application controls.
