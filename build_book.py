@@ -13,9 +13,12 @@ DIST = BASE / 'dist'
 def rows(name):
     with (DATA / (name + '.tsv')).open(encoding='utf-8', newline='') as f:
         return list(csv.DictReader(f, delimiter='\t'))
-toc, front = rows('contents'), rows('frontmatter')
-narrative = []  # The requested first ten source pages contain no narrative chapters.
+toc, front, narrative = rows('contents'), rows('frontmatter'), rows('narrative')
 assert len(toc) == 371
+assert len(narrative) == 162
+for chapter, count in [(1, 59), (2, 45), (3, 58)]:
+    assert [int(r['verse']) for r in narrative if int(r['chapter']) == chapter] == list(range(1, count + 1))
+assert narrative[-1]['type'] == 'translation-partial'
 KN = str.maketrans('0123456789', '೦೧೨೩೪೫೬೭೮೯')
 def kn(s): return str(s).translate(KN)
 def e(s): return escape(str(s), quote=True)
@@ -58,7 +61,33 @@ for src in range(3,9):
             for r in front:
                 if r['source_page']=='8':body+=f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(r["text"])}</p>'
         pages.append(section(f'contents-{src:02}-{part}','ವಿಷಯ ಸೂಚಿ',body,str(src),'contents-page'))
-pages.extend(front_page(n) for n in range(9,11))
+pages.extend(front_page(n) for n in range(9,14))
+chapter_names={1:'ಶೌನಕ ಮತ್ತು ಸೂತನ ಸಂವಾದ',2:'ದಕ್ಷ ಮತ್ತು ನಂದಿಯ ವಿವಾದ',3:'ದಕ್ಷನ ಯಜ್ಞದ ಪ್ರಸಂಗ'}
+chapter_ord={1:'ಪ್ರಥಮ',2:'ದ್ವಿತೀಯ',3:'ತೃತೀಯ'}
+for chapter in range(1,4):
+    entries=[r for r in narrative if int(r['chapter'])==chapter]
+    groups=[]; group=[]; length=0
+    for r in entries:
+        size=len(r['text'])
+        if group and (length+size>1950 or len(group)>=6):
+            groups.append(group);group=[];length=0
+        group.append(r);length+=size
+    if group: groups.append(group)
+    for part,chunk in enumerate(groups,1):
+        body=''
+        if part==1:
+            body+=f'<h3>{e(chapter_names[chapter])}</h3>'
+            if chapter==1:
+                body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಓಂ ನಮಃ ಶ್ರೀಸ್ವಾನಂದೇಶಗಣೇಶಾಯ ಪೂರ್ಣಯೋಗಾತ್ಮನೇ ॥</p>'
+                body+='<p class="caption">ಶ್ರೀಮುದ್ಗಲಪುರಾಣದ ಆರಂಭ</p>'
+            body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥</p>'
+        for r in chunk:
+            mantra=r['type']=='mantra'
+            body+=f'<p id="ch{chapter}-v{r["verse"]}" class="'+('mantra' if mantra else 'narrative')+f'" lang="'+('sa-Knda' if mantra else 'kn')+f'" data-source-pages="{r["source_pages"]}" data-treatment="{r["type"]}">{e(r["text"])}</p>'
+        if part==len(groups) and chapter in (1,2):
+            body+=f'<p class="colophon">ಓಂ. ಶ್ರೀಮುದ್ಗಲ ಮಹಾಪುರಾಣವೆಂಬ ಪುರಾಣೋಪನಿಷತ್ತಿನ ಪ್ರಥಮ ಖಂಡವಾದ ವಕ್ರತುಂಡಚರಿತ್ರೆಯಲ್ಲಿ “{e(chapter_names[chapter])}” ಎಂಬ {chapter_ord[chapter]} ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.</p>'
+        source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=int)
+        pages.append(section(f'chapter-{chapter}-{part}',chapter_ord[chapter]+' ಅಧ್ಯಾಯ',body,','.join(source_pages),'chapter',part>1))
 css='''@font-face{font-family:"Tiro Kannada";src:url("assets/TiroKannada-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
 :root{--paper:#f4ead6;--ink:#3d3027;--red:#8c302b}*{box-sizing:border-box}body{margin:0;background:#30201e;color:var(--ink);font-family:"Tiro Kannada",serif;font-synthesis:none}
 .book{counter-reset:leaf;display:grid;gap:32px;padding:28px 18px 50px}.page{counter-increment:leaf;position:relative;width:min(740px,100%);min-height:1046px;margin:auto;background:var(--paper);padding:92px 64px 90px;box-shadow:0 16px 40px #140b0b88}.page::before{content:"ಶ್ರೀ ಮುದ್ಗಲ ಪುರಾಣ";position:absolute;left:64px;right:64px;top:32px;text-align:center;border-bottom:1px solid #9c704475;padding-bottom:12px;font-size:12px;color:#624939}.page-number{position:absolute;bottom:32px;left:0;right:0;text-align:center;color:var(--red);font-size:14px}.page-number::after{content:counter(leaf,kannada)}
@@ -70,7 +99,7 @@ css='''@font-face{font-family:"Tiro Kannada";src:url("assets/TiroKannada-Regular
 @page cover{size:A4 portrait;margin:0;counter-reset:page 0;@top-center{content:none}@bottom-center{content:none}}
 @media print{html,body{margin:0;background:var(--paper)}.book{display:block;padding:0}.page{width:auto;min-height:0;height:auto;margin:0;padding:0;background:var(--paper);box-shadow:none;break-after:page;-webkit-print-color-adjust:exact;print-color-adjust:exact}.page:last-child{break-after:auto}.page::before,.page-number{display:none}p{font-size:12.5pt;line-height:1.8;margin-bottom:4mm}h2{font-size:21pt;margin-bottom:6mm}h3{font-size:15pt;margin-bottom:6mm}.colophon{font-size:10pt}.contents{font-size:10.5pt;line-height:1.65}.contents td,.contents th{padding:2.2mm 1.5mm}.cover{page:cover;width:210mm;height:297mm;padding:0;aspect-ratio:auto;overflow:hidden;background:#4c1420}.cover-art{inset:0;width:210mm;height:297mm}.cover-art img{width:100%;height:100%;object-fit:contain}.frontmatter{display:flex;min-height:240mm;flex-direction:column;justify-content:center}.illustrated figure img{max-height:190mm}.illustrated .mantra,.illustrated .caption{font-size:12pt}figure{margin:5mm 0}}
 '''
-html='<!doctype html>\n<html lang="kn"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>ಮುದ್ಗಲ ಪುರಾಣ</title><meta name="description" content="ಲಗತ್ತಿನ ಮೊದಲ ಹತ್ತು ಮೂಲಪುಟಗಳ ಕನ್ನಡ ಓದುವ ಆವೃತ್ತಿ. ಮಂತ್ರಗಳ ಕನ್ನಡ ಲಿಪ್ಯಂತರ, ವಿಷಯ ಸೂಚಿ ಮತ್ತು ಮೂಲಚಿತ್ರಗಳು." /><style>'+css+'</style></head><body><main class="book">'+''.join(pages)+'</main></body></html>\n'
+html='<!doctype html>\n<html lang="kn"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>ಮುದ್ಗಲ ಪುರಾಣ</title><meta name="description" content="ಲಗತ್ತಿನ ಇಪ್ಪತ್ತು ಮೂಲಪುಟಗಳ ಕನ್ನಡ ಓದುವ ಆವೃತ್ತಿ. ಕಥಾಭಾಗಗಳ ಅನುವಾದ, ಮಂತ್ರಗಳ ಕನ್ನಡ ಲಿಪ್ಯಂತರ ಮತ್ತು ಮೂಲಚಿತ್ರಗಳು." /><style>'+css+'</style></head><body><main class="book">'+''.join(pages)+'</main></body></html>\n'
 BOOK.mkdir(exist_ok=True);DIST.mkdir(exist_ok=True)
 (BOOK/'index.html').write_text(html,encoding='utf-8')
 # A downloadable edition with no external assets or application controls.
@@ -84,4 +113,4 @@ for path in sorted(ASSETS.iterdir()):
 licence=(ASSETS/'TiroKannada-OFL.txt').read_text().replace('--','- -')
 standalone=standalone.replace('</head>','<!-- Embedded font licence: '+licence+' -->\n</head>')
 (DIST/'mudgala_purana_kannada.html').write_text(standalone,encoding='utf-8')
-print(f'Built {len(pages)} book sections; 371 contents entries; first 10 source pages only.')
+print(f'Built {len(pages)} book sections; 371 contents entries; 162 numbered entries including one review-marked verse and one truncated verse; source pages 1–20.')

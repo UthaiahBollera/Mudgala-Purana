@@ -1,11 +1,13 @@
-# First-ten-source-page edition
+# Twenty-source-page reading draft
 
-Scope reduced to source pages 1–10 at the user's request. All ten scans visually inspected. Attachment has twenty pages despite its filename. Narrative on pages 14–20 is not included.
+Includes the prior first ten source pages plus source pages 11–20. Pages 11–13 preserve the three original illustrations and captions. Pages 14–20 contain chapters 1 (verses 1–59), 2 (1–45), and 3 (1–57 complete, verse 58 truncated by the attachment). All ten added scans were visually checked against the draft.
 
-Source 1: title, devotional transliteration, original illustration. Source 2: five translated maxims. Sources 3–8: all 371 contents entries, proper-name transliterations and printed references. Source 9: first-khanda divider. Source 10: original Ganesha illustration and caption.
+Narrative is translated into formal Kannada. Invocations, chapter 1 verses 1–7 and Sati devotional prayer (chapter 3 verses 41–42) are Kannada-script transliterations without explanation. Chapter-ending descriptive colophons are translated.
 
-Approved cover is an additional opening sheet. Contents are split for readability, so output exceeds ten pages.
+Open issues: chapter 1 verse 15 first pada remains unreadable and is explicitly marked in the book. Illustration captions on source 11–12 contain a provisional place-name reading (Dhemwad), also marked. Chapter 3 verse 58 stops at the supplied source boundary; no ending was invented. Chapter 1 verse 25 speaker name differs from the following speaker label in the source, and that distinction is preserved. Index names noted in the prior edition (Anasakta, Shaila, Karmangada) still require editorial verification.
 
-The index starts midway through a prior khanda at chapter 4. Missing heading and earlier entries were not invented. Proper names need editorial verification, especially Anasakta (source 3, chapter 65), Shaila (khanda 5, chapters 17–18), and Karmangada (khanda 5, chapter 34). Lunar-view fault entry corrected against scan. This is a reading draft, not an error-free scholarly edition.
+Second-pass source checks corrected chapter 1 mantra readings to sthirena and ca naram; recovered chapter 2 verse 33 across pages 17–18; clarified chapter 3 verse 17 syntax. Prior page 2 maxims are devotional transliterations, not semantic translations.
 
-Builders check 371 rows, XML, ZIP, manifest, spine and text identity. Required font and images embedded. HTML has no application controls or scripts. Print-render inspection performed; browser QA, target-reader testing and full EPUBCheck are not claimed.
+All 20 source pages are represented. There are 371 contents entries and 162 numbered verse entries: 9 devotional transliterations, 151 narrative translations, one review-marked partial translation, and one truncated source verse. These counts measure coverage, not certification of linguistic accuracy.
+
+Builders check source order, XML, ZIP integrity, manifest assets, spine and unchanged Kannada text. Font and illustrations are embedded; HTML has no scripts or application controls. Print render inspected; browser QA, full EPUBCheck and target-reader tests are not claimed. Review draft, not an error-free publication master.

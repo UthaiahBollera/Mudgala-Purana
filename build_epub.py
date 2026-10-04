@@ -55,8 +55,8 @@ def dc(tag,text,id=None):
     node=etree.SubElement(metadata,'{http://purl.org/dc/elements/1.1/}'+tag);node.text=text
     if id:node.set('id',id)
 dc('identifier','urn:uuid:'+str(uuid5(NAMESPACE_URL,'https://github.com/UthaiahBollera/Mudgala-Purana')),'book-id')
-dc('title','ಮುದ್ಗಲ ಪುರಾಣ');dc('language','kn');dc('source','1 TO 25(1).pdf; source pages 1–10 only')
-dc('description','Kannada reading draft of the first ten source pages: front matter, contents and opening illustrations. Devotional passages are transliterated without translation. Narrative chapters are outside this edition. Proper-name readings require editorial review.')
+dc('title','ಮುದ್ಗಲ ಪುರಾಣ');dc('language','kn');dc('source','1 TO 25(1).pdf; source pages 1–20')
+dc('description','Kannada reading draft of the twenty attached source pages. Narrative is translated; devotional passages are transliterated without translation. One verse has an unclear first pada; the attachment ends midway through chapter 3 verse 58. Proper names require editorial review.')
 for prop,value in [('dcterms:modified',datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')),('rendition:layout','reflowable')]:etree.SubElement(metadata,'{%s}meta'%P,property=prop).text=value
 manifest=etree.SubElement(root,'{%s}manifest'%P)
 for id,href,mime,prop in items:
