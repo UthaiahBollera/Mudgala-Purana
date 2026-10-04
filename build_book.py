@@ -32,7 +32,7 @@ def front_page(n):
     body=''
     for r in front:
         if int(r['source_page'])!=n: continue
-        text=r['text']
+        text=re.sub(r'\s*\[[^\]]*\]', '', r['text'])
         if r['type']=='image':
             body+=f'<figure><img src="assets/{e(text)}" alt="ಮೂಲಗ್ರಂಥದಲ್ಲಿನ ಗಣೇಶನ ಚಿತ್ರ" /></figure>'
         elif r['type']=='mantra':
@@ -52,8 +52,8 @@ for src in range(3,9):
         for r in chunk:
             khanda=r['khanda']
             if khanda!=last:
-                label='ಹಿಂದಿನ ಖಂಡದ ವಿಷಯ ಸೂಚಿ (ಮುಂದುವರಿಕೆ)' if khanda=='ಪೂರ್ವ ಖಂಡ' else 'ಖಂಡ '+kn(khanda)
-                body+=f'<tr class="khanda"><th colspan="3">{e(label)}</th></tr>'
+                if khanda!='ಪೂರ್ವ ಖಂಡ':
+                    body+=f'<tr class="khanda"><th colspan="3">{e("ಖಂಡ "+kn(khanda))}</th></tr>'
                 last=khanda
             body+=f'<tr data-source-page="{src}" data-source-chapter="{r["chapter"]}" data-khanda="{e(khanda)}"><td>{kn(r["chapter"])}</td><td>{e(r["title"])}</td><td>{e(kn(r["original_pages"]))}</td></tr>'
         body+='</tbody></table>'
@@ -83,7 +83,8 @@ for chapter in range(1,4):
             body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥</p>'
         for r in chunk:
             mantra=r['type']=='mantra'
-            body+=f'<p id="ch{chapter}-v{r["verse"]}" class="'+('mantra' if mantra else 'narrative')+f'" lang="'+('sa-Knda' if mantra else 'kn')+f'" data-source-pages="{r["source_pages"]}" data-treatment="{r["type"]}">{e(r["text"])}</p>'
+            reading_text=re.sub(r'\s*\[[^\]]*\]', '', r['text'])
+            body+=f'<p id="ch{chapter}-v{r["verse"]}" class="'+('mantra' if mantra else 'narrative')+f'" lang="'+('sa-Knda' if mantra else 'kn')+f'" data-source-pages="{r["source_pages"]}" data-treatment="{r["type"]}">{e(reading_text)}</p>'
         if part==len(groups) and chapter in (1,2):
             body+=f'<p class="colophon">ಓಂ. ಶ್ರೀಮುದ್ಗಲ ಮಹಾಪುರಾಣವೆಂಬ ಪುರಾಣೋಪನಿಷತ್ತಿನ ಪ್ರಥಮ ಖಂಡವಾದ ವಕ್ರತುಂಡಚರಿತ್ರೆಯಲ್ಲಿ “{e(chapter_names[chapter])}” ಎಂಬ {chapter_ord[chapter]} ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.</p>'
         source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=int)
