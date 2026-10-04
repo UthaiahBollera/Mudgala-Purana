@@ -19,3 +19,11 @@ Checks passed: 1535 unique entries, sources 14–81, 1 expected partial tail, Ka
 Enlarged source recheck corrected 32:15–18 to sindura, actual ornaments and lotus in trunk rather than invented generic attributes; 32:31 nabhi compound and 32:35 Shukra wording corrected. Remaining editorial rechecks: 31:22–25 and 36–39 (dharma/suffering syntax), 32:17 and 36–37 (faint ornament/epithet lettering), 33:5 and 34:5 (negative wish/curse construction). No editorial additions in book.
 
 Final prayer recheck corrected 32:45 Maya-tunda and 32:49 tadidam lettering; 34:5 no longer introduces an unsupported curse. Checks passed: 1758 entries, complete source 14–91, no partial tail, all five chapter endings; EPUB XML/ZIP/spine/text checks. Added print layout inspected in 338-page proof; font substitutions absent. No browser/reader QA or EPUBCheck.
+
+## Batch 3: PDF pages 21–22, printed 79–80
+
+48 new translated narrative entries, chapter 35:1–48; chapter ending confirmed as Shiva-vijaya in the scan. Merged total 1806 unique entries, chapters 1–35 complete, source boundary 93 with no partial tail. No formal hymn in these two pages. No editorial additions in book.
+
+Rechecked combat subjects against enlarged scans, especially 35:19–26 and 35:30–40. Source 35:21–22 has an unusual Vayu/Andhaka/Shankara sequence; retained the printed sequence without harmonizing it or adding an explanation. Scholarly recheck remains advisable for that passage and 35:1's karma clause. Prior batches' faint-letter and interpretation issues remain in the above review log.
+
+Checks passed: 1806 unique entries, contiguous chapter/verse and source coverage through 93, all 35 colophons, Kannada glyphs, EPUB XML/ZIP/manifest/spine and unchanged text. Added print pages 339–346 inspected in the final 346-page proof, with no clipping or absent Kannada glyphs observed. No full EPUBCheck or reader/browser QA.

@@ -11,11 +11,12 @@
 ## Batch 2: PDF pages 11–20
 - [x] Inspect, translate and recheck.
 - [x] Validate coverage, Kannada glyphs, XHTML/EPUB and print layout.
-- [ ] Push before batch 3.
+- [x] Push before batch 3: 6adc976032acc85d3fff74e35361a4bf8cc67a4e.
 
 ## Batch 3: PDF pages 21–22
-- [ ] Inspect, translate and recheck.
-- [ ] Validate and push.
+- [x] Inspect, translate and recheck.
+- [x] Validate source coverage, Kannada glyphs, XHTML/EPUB and print layout.
+- [ ] Push final two pages.
 - [ ] Update final HTML, EPUB and published book.
 
 Structural checks do not certify scholarly interpretation. Keep uncertain readings in a separate review report, outside book content.
