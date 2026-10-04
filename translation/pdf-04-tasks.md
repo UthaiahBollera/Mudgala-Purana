@@ -6,11 +6,12 @@
 - [x] Inspect scans and chapter/verse boundaries.
 - [x] Translate and recheck source, including split verses.
 - [x] Validate coverage, glyphs, HTML, EPUB and print layout.
-- [ ] Push feature branch before reading batch 2.
+- [x] Push feature branch before reading batch 2: `1139a2d0f99a98bcde4438504409371de6e768c2`.
 
 ## Batch 2: PDF pages 11–20
-- [ ] Inspect, translate and recheck.
-- [ ] Validate and push before batch 3.
+- [x] Inspect, translate and recheck.
+- [x] Validate coverage, Kannada glyphs, XHTML/EPUB and print layout.
+- [ ] Push before batch 3.
 
 ## Batch 3: PDF pages 21–22
 - [ ] Inspect, translate and recheck.
