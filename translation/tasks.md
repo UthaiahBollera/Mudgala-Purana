@@ -19,8 +19,8 @@ Authority: 26 TO 55(2).pdf, actual PDF pages 11–30. Preserve original content;
 - [x] Translate narrative and transliterate devotional passages.
 - [x] Recheck against source and record genuine uncertainties separately.
 - [x] Verify ordered coverage, glyphs, EPUB and print layout.
-- [ ] Commit and push separately; confirm main unchanged.
-- [ ] Publish combined book and replace saved HTML/EPUB.
+- [x] Commit and push separately: `920f1544ec79503e4503c161926a3729178b73f0`; main unchanged at `9eda6e902f3f1cfe536d73ff9f26655f10044c4b`.
+- [x] Publish combined book successfully and replace saved HTML/EPUB.
 - [x] Prepare reusable four-section system prompt with exact HTML examples.
 
 Acceptance: every supplied verse or partial verse represented once, no invented source continuation, preserved cover/font/illustrations, no application controls or added prose. Automated checks do not certify scholarly accuracy; unresolved readings require editorial review.

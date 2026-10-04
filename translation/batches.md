@@ -24,3 +24,7 @@ Batch 2: 222 data rows, including two boundary corrections. Merged count 613 uni
 Batch 2 pushed before batch 3 translation began: `68bbf71d1e2b96578972ce379c9f568622bb3338`.
 
 Batch 3: 227 rows, including completion of chapter 11 verse 14. Merged book has 839 unique numbered entries across 15 chapters; no trailing partial verse. All 30 pages of the current PDF are represented. Source 50 is PDF page 30, printed page 37, ending with chapter 15 verse 22 and its colophon. Report: `batch-02-03-review.md`. Added print pages 140–178 inspected. This completes the uploaded excerpt only, not the whole Purana.
+
+Batch 3 pushed: `920f1544ec79503e4503c161926a3729178b73f0`. Main verified unchanged. Standalone HTML and EPUB saved successfully as updated versions.
+
+Combined book published successfully from Site source commit `fba2f4d846e6f086f88f1ac9bcf3ea1a04b27873`. All batch checklist tasks complete. The final PDF has been covered, but the separate reports retain unresolved readings for scholarly review.
