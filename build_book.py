@@ -14,11 +14,16 @@ def rows(name):
     with (DATA / (name + '.tsv')).open(encoding='utf-8', newline='') as f:
         return list(csv.DictReader(f, delimiter='\t'))
 toc, front, narrative = rows('contents'), rows('frontmatter'), rows('narrative')
+verse_map={(int(r['chapter']),int(r['verse'])):r for r in narrative}
+for batch in sorted(DATA.glob('batch-*.tsv')):
+    with batch.open(encoding='utf-8',newline='') as f:
+        for r in csv.DictReader(f,delimiter='\t'):
+            verse_map[(int(r['chapter']),int(r['verse']))]=r
+narrative=[verse_map[k] for k in sorted(verse_map)]
 assert len(toc) == 371
-assert len(narrative) == 162
-for chapter, count in [(1, 59), (2, 45), (3, 58)]:
-    assert [int(r['verse']) for r in narrative if int(r['chapter']) == chapter] == list(range(1, count + 1))
-assert narrative[-1]['type'] == 'translation-partial'
+for chapter in sorted({int(r['chapter']) for r in narrative}):
+    verses=[int(r['verse']) for r in narrative if int(r['chapter'])==chapter]
+    assert verses==list(range(1,max(verses)+1)), (chapter,verses)
 KN = str.maketrans('0123456789', '೦೧೨೩೪೫೬೭೮೯')
 def kn(s): return str(s).translate(KN)
 def e(s): return escape(str(s), quote=True)
@@ -62,9 +67,10 @@ for src in range(3,9):
                 if r['source_page']=='8':body+=f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(r["text"])}</p>'
         pages.append(section(f'contents-{src:02}-{part}','ವಿಷಯ ಸೂಚಿ',body,str(src),'contents-page'))
 pages.extend(front_page(n) for n in range(9,14))
-chapter_names={1:'ಶೌನಕ ಮತ್ತು ಸೂತನ ಸಂವಾದ',2:'ದಕ್ಷ ಮತ್ತು ನಂದಿಯ ವಿವಾದ',3:'ದಕ್ಷನ ಯಜ್ಞದ ಪ್ರಸಂಗ'}
-chapter_ord={1:'ಪ್ರಥಮ',2:'ದ್ವಿತೀಯ',3:'ತೃತೀಯ'}
-for chapter in range(1,4):
+chapter_names={1:'ಶೌನಕ ಮತ್ತು ಸೂತನ ಸಂವಾದ',2:'ದಕ್ಷ ಮತ್ತು ನಂದಿಯ ವಿವಾದ',3:'ಪಾರ್ವತಿಯ ದೇಹತ್ಯಾಗ',4:'ದಕ್ಷನ ಚರಿತ್ರೆ',5:'ಪಾರ್ವತಿ ಮತ್ತು ಶಿವರ ವಿಚಾರ',6:'ಪ್ರಕೃತಿ ಮತ್ತು ಪುರುಷರಿಗೆ ವರಪ್ರದಾನ'}
+chapter_ord={1:'ಪ್ರಥಮ',2:'ದ್ವಿತೀಯ',3:'ತೃತೀಯ',4:'ಚತುರ್ಥ',5:'ಪಂಚಮ',6:'ಷಷ್ಠ',7:'ಸಪ್ತಮ'}
+chapters=sorted({int(r['chapter']) for r in narrative})
+for chapter in chapters:
     entries=[r for r in narrative if int(r['chapter'])==chapter]
     groups=[]; group=[]; length=0
     for r in entries:
@@ -76,7 +82,7 @@ for chapter in range(1,4):
     for part,chunk in enumerate(groups,1):
         body=''
         if part==1:
-            body+=f'<h3>{e(chapter_names[chapter])}</h3>'
+            if chapter in chapter_names:body+=f'<h3>{e(chapter_names[chapter])}</h3>'
             if chapter==1:
                 body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಓಂ ನಮಃ ಶ್ರೀಸ್ವಾನಂದೇಶಗಣೇಶಾಯ ಪೂರ್ಣಯೋಗಾತ್ಮನೇ ॥</p>'
                 body+='<p class="caption">ಶ್ರೀಮುದ್ಗಲಪುರಾಣದ ಆರಂಭ</p>'
@@ -85,7 +91,7 @@ for chapter in range(1,4):
             mantra=r['type']=='mantra'
             reading_text=re.sub(r'\s*\[[^\]]*\]', '', r['text'])
             body+=f'<p id="ch{chapter}-v{r["verse"]}" class="'+('mantra' if mantra else 'narrative')+f'" lang="'+('sa-Knda' if mantra else 'kn')+f'" data-source-pages="{r["source_pages"]}" data-treatment="{r["type"]}">{e(reading_text)}</p>'
-        if part==len(groups) and chapter in (1,2):
+        if part==len(groups) and chapter!=chapters[-1]:
             body+=f'<p class="colophon">ಓಂ. ಶ್ರೀಮುದ್ಗಲ ಮಹಾಪುರಾಣವೆಂಬ ಪುರಾಣೋಪನಿಷತ್ತಿನ ಪ್ರಥಮ ಖಂಡವಾದ ವಕ್ರತುಂಡಚರಿತ್ರೆಯಲ್ಲಿ “{e(chapter_names[chapter])}” ಎಂಬ {chapter_ord[chapter]} ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.</p>'
         source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=int)
         pages.append(section(f'chapter-{chapter}-{part}',chapter_ord[chapter]+' ಅಧ್ಯಾಯ',body,','.join(source_pages),'chapter',part>1))
@@ -114,4 +120,4 @@ for path in sorted(ASSETS.iterdir()):
 licence=(ASSETS/'TiroKannada-OFL.txt').read_text().replace('--','- -')
 standalone=standalone.replace('</head>','<!-- Embedded font licence: '+licence+' -->\n</head>')
 (DIST/'mudgala_purana_kannada.html').write_text(standalone,encoding='utf-8')
-print(f'Built {len(pages)} book sections; 371 contents entries; 162 numbered entries including one review-marked verse and one truncated verse; source pages 1–20.')
+print(f'Built {len(pages)} book sections; 371 contents entries; {len(narrative)} unique numbered entries; {len(chapters)} chapters represented.')
