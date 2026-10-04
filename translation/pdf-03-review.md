@@ -19,3 +19,13 @@ Structural checks passed: 1060 unique entries, one tail partial; contiguous chap
 Source readings needing editorial comparison with a clearer Sanskrit edition: 21:7,39,44–46 (faint/irregular compounds); 22:24,33–34,46 (dense syntax and Chatushuka proper name); 23:28–32 (Indra emission/birth and quoted rebuke); 23:48 (printed ten divine years, retained without harmonizing against other editions). These review notes are outside book content. Translation is a checked draft, not certified scholarly text.
 
 Checks passed: 1276 entries, source coverage 14–70, four supplied chapter endings, no tail partial; EPUB XML/ZIP/manifest/spine/text identity. All added print pages inspected in a 255-page proof. Two accidental Malayalam characters in 21:41 were detected by print-font warnings and corrected; a cross-script validator was added. Indra narrative 23:26 was corrected to narration rather than invented speech. EPUBCheck and ebook-reader QA not performed.
+
+## Batch 3: PDF page 21, printed page 58
+
+Chapter 24 verses 26–48, with the source-confirmed Matsarasura departure colophon. No partial verse or missing continuation at this attachment boundary. All 21 pages supplied in this PDF are represented; total 1299 unique numbered entries, chapters 1–24. Remaining book pages outside supplied excerpts are not claimed complete. Recheck dense/blurred wording in 24:40–42 (Indra's counsel and the daityas' account) with a clearer Sanskrit edition. No added notes appear in book content.
+
+Enlarged-source recheck corrected 24:40 to following dharma (not abandoning it), 24:43 to birth from Shiva virya (not a Shiva yogi), and removed an unsupported dance from 24:44. Its damaged verbal wording and 24:41 still need clearer-edition comparison.
+
+Final enlarged hymn recheck corrected 21:5 aganya, 21:6 printed stutaya, 21:7 yoga/yoni compound reading, 21:41 akritiraya and 21:42 siddhisvarupadhrta. 21:7 and 21:39 remain provisional readings requiring a clearer scan, as previously logged. These follow-up corrections are included in the final-page commit.
+
+Final checks passed: 1299 unique entries; complete chapter 24 ending; source coverage through 71; no partial tail; Kannada and shared danda glyphs; EPUB XML/ZIP/manifest/spine/text identity. Final 258-page print proof inspected for appended pages. Browser and ebook-reader testing were not performed.

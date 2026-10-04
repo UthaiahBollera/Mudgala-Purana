@@ -13,10 +13,10 @@ Actual source length: 21 PDF pages, printed pages 38–58. Global source mapping
 - [x] Inspect and complete previous partial verse.
 - [x] Translate and transliterate; recheck against scans.
 - [x] Validate coverage, EPUB and print layout.
-- [ ] Commit and push before final source page.
+- [x] Commit and push before final source page: `21bf30a1dd74db0a1ec3e3c8ab40980dc77467ed`.
 
 ## Batch 3: PDF page 21
-- [ ] Translate all supplied text without invented continuation.
+- [x] Translate all supplied text without invented continuation.
 - [ ] Validate, commit and push.
 - [ ] Update standalone HTML/EPUB and published book.
 
