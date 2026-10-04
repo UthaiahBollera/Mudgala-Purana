@@ -1,11 +1,13 @@
 """Structural checks only; not a substitute for Sanskrit/Kannada review."""
-import csv, re, sys
+import csv, re, sys, json
 from pathlib import Path
 from lxml import html
 from fontTools.ttLib import TTFont
 
 root = Path(__file__).resolve().parent
-expected = int(sys.argv[1]) if len(sys.argv) > 1 else 50
+coverage = json.loads((root/'translation/coverage.json').read_text(encoding='utf-8'))
+expected = int(sys.argv[1]) if len(sys.argv) > 1 else max(map(int,coverage))
+boundary = coverage[str(expected)]
 merged = {}
 for path in [root/'translation/narrative.tsv', *sorted((root/'translation').glob('batch-*.tsv'))]:
     with path.open(encoding='utf-8', newline='') as f:
@@ -33,7 +35,11 @@ pages = {int(p) for r in merged.values() for p in r['source_pages'].split(',')}
 assert set(range(14,expected+1)) <= pages, sorted(set(range(14,expected+1))-pages)
 assert max(pages) == expected
 partials = [k for k,r in merged.items() if r['type']=='translation-partial']
-assert partials == ([] if expected==50 else [max(merged)]), partials
+assert partials == ([max(merged)] if boundary['tail_partial'] else []), partials
+counts = [sum(c==ch for c,v in merged) for ch in range(1,max(c for c,v in merged)+1)]
+assert counts == boundary['chapter_counts'], (counts,boundary)
+completed = json.loads((root/'translation/completed-chapters.json').read_text(encoding='utf-8'))
+assert len(doc.xpath('//p[@class="colophon"]')) == len(completed)
 assert not doc.xpath('//script|//button|//form')
 assert 'ಹಿಂದಿನ ಖಂಡದ ವಿಷಯ ಸೂಚಿ (ಮುಂದುವರಿಕೆ)' not in source
 font = TTFont(root/'book/assets/TiroKannada-Regular.ttf')
