@@ -7,12 +7,12 @@ Actual source length: 21 PDF pages, printed pages 38–58. Global source mapping
 - [x] Translate and transliterate all supplied text; check continuity.
 - [x] Recheck source, document unclear readings separately.
 - [x] Validate verse coverage, Kannada glyphs, HTML/EPUB and print layout.
-- [ ] Commit and push feature branch before batch 2.
+- [x] Commit and push feature branch before batch 2: `31d6278fbe2146f8eb883814f20191e5726ee6bb`.
 
 ## Batch 2: PDF pages 11–20
-- [ ] Inspect and complete previous partial verse.
-- [ ] Translate and transliterate; recheck against scans.
-- [ ] Validate coverage, EPUB and print layout.
+- [x] Inspect and complete previous partial verse.
+- [x] Translate and transliterate; recheck against scans.
+- [x] Validate coverage, EPUB and print layout.
 - [ ] Commit and push before final source page.
 
 ## Batch 3: PDF page 21

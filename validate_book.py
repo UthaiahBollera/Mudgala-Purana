@@ -42,6 +42,8 @@ completed = json.loads((root/'translation/completed-chapters.json').read_text(en
 assert len(doc.xpath('//p[@class="colophon"]')) == len(completed)
 assert not doc.xpath('//script|//button|//form')
 assert 'ಹಿಂದಿನ ಖಂಡದ ವಿಷಯ ಸೂಚಿ (ಮುಂದುವರಿಕೆ)' not in source
+foreign_indic = sorted({c for p in actual for c in p.text_content() if 0x0900 <= ord(c) <= 0x0DFF and not 0x0C80 <= ord(c) <= 0x0CFF and c not in "।॥"})
+assert not foreign_indic, ('Unexpected non-Kannada Indic characters', foreign_indic)
 font = TTFont(root/'book/assets/TiroKannada-Regular.ttf')
 cmap = font.getBestCmap()
 missing = sorted({c for c in doc.text_content() if 0xC80 <= ord(c) <= 0xCFF and ord(c) not in cmap})
