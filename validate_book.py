@@ -33,11 +33,11 @@ pages = {int(p) for r in merged.values() for p in r['source_pages'].split(',')}
 assert set(range(14,expected+1)) <= pages, sorted(set(range(14,expected+1))-pages)
 assert max(pages) == expected
 partials = [k for k,r in merged.items() if r['type']=='translation-partial']
-assert partials == [max(merged)], partials
+assert partials == ([] if expected==50 else [max(merged)]), partials
 assert not doc.xpath('//script|//button|//form')
 assert 'ಹಿಂದಿನ ಖಂಡದ ವಿಷಯ ಸೂಚಿ (ಮುಂದುವರಿಕೆ)' not in source
 font = TTFont(root/'book/assets/TiroKannada-Regular.ttf')
 cmap = font.getBestCmap()
 missing = sorted({c for c in doc.text_content() if 0xC80 <= ord(c) <= 0xCFF and ord(c) not in cmap})
 assert not missing, missing
-print(f'Structure passed: {len(merged)} unique verse entries, source pages through {expected}, one tail partial, Kannada glyphs and plain-book markup.')
+print(f'Structure passed: {len(merged)} unique verse entries, source pages through {expected}, {len(partials)} tail partials, Kannada glyphs and plain-book markup.')

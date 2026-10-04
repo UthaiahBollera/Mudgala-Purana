@@ -67,8 +67,8 @@ for src in range(3,9):
                 if r['source_page']=='8':body+=f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(r["text"])}</p>'
         pages.append(section(f'contents-{src:02}-{part}','ವಿಷಯ ಸೂಚಿ',body,str(src),'contents-page'))
 pages.extend(front_page(n) for n in range(9,14))
-chapter_names={1:'ಶೌನಕ ಮತ್ತು ಸೂತನ ಸಂವಾದ',2:'ದಕ್ಷ ಮತ್ತು ನಂದಿಯ ವಿವಾದ',3:'ಪಾರ್ವತಿಯ ದೇಹತ್ಯಾಗ',4:'ದಕ್ಷನ ಚರಿತ್ರೆ',5:'ಪಾರ್ವತಿ ಮತ್ತು ಶಿವರ ವಿಚಾರ',6:'ಪ್ರಕೃತಿ ಮತ್ತು ಪುರುಷರಿಗೆ ವರಪ್ರದಾನ',7:'ತತ್ತ್ವಗಳು ಮಾಡಿದ ಸ್ತುತಿಯ ವರ್ಣನೆ',8:'ಗುಣೇಶನಿಗೆ ವರಪ್ರದಾನ',9:'ಪ್ರಕೃತಿಯ ವರ್ಣನೆ',10:'ನಾನಾ ಬ್ರಹ್ಮಾಂಡಗಳ ವರ್ಣನೆ'}
-chapter_ord={1:'ಪ್ರಥಮ',2:'ದ್ವಿತೀಯ',3:'ತೃತೀಯ',4:'ಚತುರ್ಥ',5:'ಪಂಚಮ',6:'ಷಷ್ಠ',7:'ಸಪ್ತಮ',8:'ಅಷ್ಟಮ',9:'ನವಮ',10:'ದಶಮ',11:'ಏಕಾದಶ'}
+chapter_names={1:'ಶೌನಕ ಮತ್ತು ಸೂತನ ಸಂವಾದ',2:'ದಕ್ಷ ಮತ್ತು ನಂದಿಯ ವಿವಾದ',3:'ಪಾರ್ವತಿಯ ದೇಹತ್ಯಾಗ',4:'ದಕ್ಷನ ಚರಿತ್ರೆ',5:'ಪಾರ್ವತಿ ಮತ್ತು ಶಿವರ ವಿಚಾರ',6:'ಪ್ರಕೃತಿ ಮತ್ತು ಪುರುಷರಿಗೆ ವರಪ್ರದಾನ',7:'ತತ್ತ್ವಗಳು ಮಾಡಿದ ಸ್ತುತಿಯ ವರ್ಣನೆ',8:'ಗುಣೇಶನಿಗೆ ವರಪ್ರದಾನ',9:'ಪ್ರಕೃತಿಯ ವರ್ಣನೆ',10:'ನಾನಾ ಬ್ರಹ್ಮಾಂಡಗಳ ವರ್ಣನೆ',11:'ಪಂಚದೇವತೆಗಳಿಗೆ ವರಪ್ರದಾನ',12:'ಮಹಾವಿಷ್ಣುವಿನ ವಿವಾದ',13:'ಪಂಚದೇವತೆಗಳ ವಿವಾದ',14:'ಗಣೇಶನ ಉದ್ಭವ',15:'ಗಣೇಶನ ಪ್ರಸನ್ನಭಾವ'}
+chapter_ord={1:'ಪ್ರಥಮ',2:'ದ್ವಿತೀಯ',3:'ತೃತೀಯ',4:'ಚತುರ್ಥ',5:'ಪಂಚಮ',6:'ಷಷ್ಠ',7:'ಸಪ್ತಮ',8:'ಅಷ್ಟಮ',9:'ನವಮ',10:'ದಶಮ',11:'ಏಕಾದಶ',12:'ದ್ವಾದಶ',13:'ತ್ರಯೋದಶ',14:'ಚತುರ್ದಶ',15:'ಪಂಚದಶ'}
 chapters=sorted({int(r['chapter']) for r in narrative})
 for chapter in chapters:
     entries=[r for r in narrative if int(r['chapter'])==chapter]
@@ -91,7 +91,8 @@ for chapter in chapters:
             mantra=r['type']=='mantra'
             reading_text=re.sub(r'\s*\[[^\]]*\]', '', r['text'])
             body+=f'<p id="ch{chapter}-v{r["verse"]}" class="'+('mantra' if mantra else 'narrative')+f'" lang="'+('sa-Knda' if mantra else 'kn')+f'" data-source-pages="{r["source_pages"]}" data-treatment="{r["type"]}">{e(reading_text)}</p>'
-        if part==len(groups) and chapter!=chapters[-1]:
+        # A colophon is generated only where the supplied scans show one.
+        if part==len(groups) and (chapter!=chapters[-1] or (chapter==15 and entries[-1]['verse']=='22')):
             body+=f'<p class="colophon">ಓಂ. ಶ್ರೀಮುದ್ಗಲ ಮಹಾಪುರಾಣವೆಂಬ ಪುರಾಣೋಪನಿಷತ್ತಿನ ಪ್ರಥಮ ಖಂಡವಾದ ವಕ್ರತುಂಡಚರಿತ್ರೆಯಲ್ಲಿ “{e(chapter_names[chapter])}” ಎಂಬ {chapter_ord[chapter]} ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.</p>'
         source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=int)
         pages.append(section(f'chapter-{chapter}-{part}',chapter_ord[chapter]+' ಅಧ್ಯಾಯ',body,','.join(source_pages),'chapter',part>1))
