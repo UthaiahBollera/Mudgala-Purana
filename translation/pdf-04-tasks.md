@@ -16,7 +16,9 @@
 ## Batch 3: PDF pages 21–22
 - [x] Inspect, translate and recheck.
 - [x] Validate source coverage, Kannada glyphs, XHTML/EPUB and print layout.
-- [ ] Push final two pages.
-- [ ] Update final HTML, EPUB and published book.
+- [x] Push final two pages: aba04252a763b0a0741a877f86f3a006e0fe98d3.
+- [x] Update final HTML, EPUB and published book.
+
+Published source commit: 82f4884c1f50fde42819624677f68d36b153db07. Deployment succeeded. Saved standalone HTML version 5 and EPUB version 6.
 
 Structural checks do not certify scholarly interpretation. Keep uncertain readings in a separate review report, outside book content.
