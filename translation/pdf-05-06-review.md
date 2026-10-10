@@ -27,3 +27,11 @@ Scans rotated upright before visual review. Chapter 45 verse 4 completed across 
 Readings requiring further philological review: 45:4 negative construction across PDF boundary; 47:47 printed kṣudrādhāriṇe; 47:49 and 55 hymn compounds; 48:33–38 hunting/horse-gift account has unusual phrasing; 49:18–23 transition between two mothers and sons. No guessed explanatory material added to the book. Narrative and devotional treatment were checked against scans, but structural validation does not certify translation accuracy.
 
 Validation: contiguous chapter/verse and source-page coverage through 123, font glyph coverage, HTML and EPUB XML/manifest/spine/text checks. Print proof inspected separately.
+
+## PDF 06, pages 11–20 (global 124–133)
+
+235 overlay rows (234 new verses); chapter 49 verse 26 completed, chapters 49–52 end in visible colophons; chapter 53 verse 39 stops midway on the final supplied page. No completion invented. All 40 newly uploaded pages are represented, with 2731 numbered entries overall. Formal Shiva/Kashi stotras and final tattva prayer kept as Kannada-script transliteration. Corrected 47:49 mantra reading to yatra after renewed visual comparison.
+
+Further review needed: 49:28–29 battle account; 50:38–39 Shiva inner monologue; 51:2 faded wording; 51:47 janturūpiṇe and 51:54 printed brahmāṇa ending; 52:14 and 30–36 unusual philosophical/dialogue readings; 53:27 abrahma category and 53:31–34 hierarchy of Brahman forms. These notes are outside the reading edition. No scholarly certification is implied.
+
+Validation: source coverage through 133, contiguous chapter/verse IDs and expected counts, sole partial final verse, Kannada font coverage, plain HTML markup, EPUB UTF-8 XML/ZIP/manifest/spine/text equivalence. A4 proof inspected for the changed pages.
