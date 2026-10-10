@@ -35,3 +35,5 @@ Validation: contiguous chapter/verse and source-page coverage through 123, font 
 Further review needed: 49:28–29 battle account; 50:38–39 Shiva inner monologue; 51:2 faded wording; 51:47 janturūpiṇe and 51:54 printed brahmāṇa ending; 52:14 and 30–36 unusual philosophical/dialogue readings; 53:27 abrahma category and 53:31–34 hierarchy of Brahman forms. These notes are outside the reading edition. No scholarly certification is implied.
 
 Validation: source coverage through 133, contiguous chapter/verse IDs and expected counts, sole partial final verse, Kannada font coverage, plain HTML markup, EPUB UTF-8 XML/ZIP/manifest/spine/text equivalence. A4 proof inspected for the changed pages.
+
+Final delivery: feature branch translation head 94e0b0182e72d30aff49fbd64d1be6c3b9feae88; main unchanged at 9eda6e902f3f1cfe536d73ff9f26655f10044c4b. Site source 31c3977a916432ab967df72795469c5b256de9b7 published successfully. Standalone HTML and EPUB downloads updated. All four ten-page batches are complete.
