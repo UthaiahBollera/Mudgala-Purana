@@ -19,3 +19,11 @@ Recheck issues for editorial review: 40:18 (bala-kridana wording); 41:23–24 (D
 Checks passed: cumulative 2264 unique entries, contiguous chapter/verse/source coverage through 113, one partial tail, all confirmed colophons, Kannada glyphs, EPUB XML/ZIP/manifest/spine/text. Full EPUBCheck and browser/reader QA not performed.
 
 New/changed print pages 386–425 inspected in a 425-page proof. No clipping, overlaps or absent Kannada glyphs observed.
+
+## PDF 06, pages 1–10 (global 114–123)
+
+Scans rotated upright before visual review. Chapter 45 verse 4 completed across PDFs; chapters 45–48 end in visible colophons; chapter 49 verse 26 is intentionally partial. 234 overlay rows, 233 new unique verses. Vāmana and Bali prayers preserved in Kannada transliteration.
+
+Readings requiring further philological review: 45:4 negative construction across PDF boundary; 47:47 printed kṣudrādhāriṇe; 47:49 and 55 hymn compounds; 48:33–38 hunting/horse-gift account has unusual phrasing; 49:18–23 transition between two mothers and sons. No guessed explanatory material added to the book. Narrative and devotional treatment were checked against scans, but structural validation does not certify translation accuracy.
+
+Validation: contiguous chapter/verse and source-page coverage through 123, font glyph coverage, HTML and EPUB XML/manifest/spine/text checks. Print proof inspected separately.
