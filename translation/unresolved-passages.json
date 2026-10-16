@@ -5023,6 +5023,35 @@
       ],
       "prior_provenance": null,
       "resolution_provenance": []
+    },
+    {
+      "id": "kh2-ch1-v9",
+      "kind": "verse",
+      "book_id": "fZcHEQAAQBAJ",
+      "volume": 2,
+      "khanda": 2,
+      "chapter": 1,
+      "verse_start": 9,
+      "verse_end": 9,
+      "google_books_pages": [
+        "PT69"
+      ],
+      "google_books_page_url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT69",
+      "status": "open_google_books_reading_question",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source-semantic-uncertainty",
+          "source_reading": "गतो मतोऽधुना",
+          "message": "Printed wording confirmed in PT69; मतो is semantically uncertain. Clear surrounding meaning is translated, and the unresolved phrase is disclosed visibly in Kannada. No emendation adopted."
+        }
+      ],
+      "source_sanskrit": "यज्ञविध्वंसशोकोऽपि गतो मतोऽधुना प्रभो ।\nहर्षयुक्तः कृतो भक्त्या ढुण्ढेस्तु मुनिसत्तम ॥९॥",
+      "evidence_notes": [
+        "Original Sanskrit pixels independently checked. Printed गतो मतोऽधुना retained; the semantic question is not resolved by acceptance of the visibly qualified rendering."
+      ],
+      "prior_provenance": null,
+      "resolution_provenance": []
     }
   ]
 }

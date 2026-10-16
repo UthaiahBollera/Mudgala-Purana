@@ -42,11 +42,19 @@ def load_rows(commit=None):
         merged.update(parse_rows(raw))
     return merged
 
-def source_ids(value):
+GOOGLE_BOOKS_BY_KHANDA = {1: 'Lh0FEQAAQBAJ', 2: 'fZcHEQAAQBAJ'}
+
+def source_ids(value, khanda=None):
     ids = value.split(',')
-    assert ids and len(ids) == len(set(ids)) and all(
-        re.fullmatch(r'[1-9]\d*|gb:Lh0FEQAAQBAJ:PT[1-9]\d*', page) for page in ids
-    ), ('Invalid or duplicate source identifiers', value)
+    assert ids and len(ids) == len(set(ids)), ('Invalid or duplicate source identifiers', value)
+    for page in ids:
+        if re.fullmatch(r'[1-9]\d*', page):
+            assert khanda in (None, 1), ('Historical PDF source belongs to Khanda 1', khanda, page)
+            continue
+        match = re.fullmatch(r'gb:([^:]+):PT[1-9]\d*', page)
+        assert match and match[1] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Invalid or duplicate source identifiers', value)
+        if khanda is not None:
+            assert match[1] == GOOGLE_BOOKS_BY_KHANDA.get(khanda), ('Google Books source does not match khanda', khanda, page)
     return set(ids)
 
 def row_content(row):
@@ -185,7 +193,9 @@ if manifest is not None:
         assert hashlib.sha256(review_path.read_bytes()).hexdigest() == batch['review_sha256'], ('Review artifact checksum mismatch', name)
         google_batch = manifest['schema_version'] == 2
         if google_batch:
-            assert batch['source_kind'] == 'google_books' and batch['book_id'] == 'Lh0FEQAAQBAJ', ('Wrong Google Books source', name)
+            assert batch['source_kind'] == 'google_books' and batch['book_id'] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Wrong Google Books source', name)
+            if 'volume' in batch:
+                assert type(batch['volume']) is int and GOOGLE_BOOKS_BY_KHANDA.get(batch['volume']) == batch['book_id'], ('Batch volume does not match Google Books source', name)
             assert not {'source_pdf', 'source_sha256', 'pdf_page_range', 'source_page_range'} & batch.keys(), ('Google Books batch must not claim PDF coverage', name)
             source_pages = batch['source_pages']
             assert source_pages, ('Missing Google Books pages', name)
@@ -217,10 +227,14 @@ if manifest is not None:
         if google_batch:
             review = json.loads(review_path.read_text(encoding='utf-8'))
             assert review['source_kind'] == 'google_books' and review['book_id'] == batch['book_id'], ('Wrong review source', name)
+            if 'volume' in review:
+                assert type(review['volume']) is int and GOOGLE_BOOKS_BY_KHANDA.get(review['volume']) == review['book_id'], ('Review volume does not match Google Books source', name)
             records = review['verses']
             reviewed_keys = [tuple(map(int, record['key'])) for record in records]
             assert len(reviewed_keys) == len(set(reviewed_keys)) and set(reviewed_keys) == set(rows), ('Missing, duplicate or extra verse reviews', name)
             for key, record in zip(reviewed_keys, records):
+                assert len(key) == 3 and GOOGLE_BOOKS_BY_KHANDA.get(key[0]) == batch['book_id'], ('Reviewed verse khanda does not match Google Books volume', key)
+                source_ids(rows[key]['source_pages'], key[0])
                 status = record['review_status']
                 assert status in {'accepted', 'accepted_with_unresolved_reading'}, ('Verse review not accepted', key)
                 open_issues = [issue for issue in record.get('issues', []) if isinstance(issue, dict) and issue.get('status') == 'open']

@@ -530,6 +530,219 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-08-google-books-01.tsv",
+      "sha256": "366d266e8887209dfff2a946c7a962c31faebbf1b3aa369ac113706cbd81d5ff",
+      "source_kind": "google_books",
+      "book_id": "fZcHEQAAQBAJ",
+      "volume": 2,
+      "source_pages": [
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT66",
+          "page_id": "PT66",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT66",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT66",
+          "verse_range": "2.1:1",
+          "sanskrit_crop_sha256": "f808457d6222fa1b7ceec92918295055284a36307450a7ec186c79931d966d57"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT67",
+          "page_id": "PT67",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT67",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT67",
+          "verse_range": "2.1:2–4",
+          "sanskrit_crop_sha256": "12febba067362dee3a0983854454345cbd8bba91d1d7c3b18e7bc6f85f53369e"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT68",
+          "page_id": "PT68",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT68",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT68",
+          "verse_range": "2.1:5–8",
+          "sanskrit_crop_sha256": "f0ce619f3abc1d852dc1382558d796a8b8ef9bd91accaf2e66fedce093f554d0"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT69",
+          "page_id": "PT69",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT69",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT69",
+          "verse_range": "2.1:9–11",
+          "sanskrit_crop_sha256": "699056c3d9beedbccf1a1da0e4ada80290328076e7af9e6841f4bc724290ac27"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT70",
+          "page_id": "PT70",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT70",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT70",
+          "verse_range": "2.1:12–14",
+          "sanskrit_crop_sha256": "b4b1c6aa5d9240a0bee53f98e52f2921d7a6b82237a95cad4699d028e1e179c2"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT71",
+          "page_id": "PT71",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT71",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT71",
+          "verse_range": "2.1:15–18",
+          "sanskrit_crop_sha256": "1cdf8ce1f8c2ead7ee9713f4bdf87d5107c3870df8f131f57378a8c0da1b3143"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT72",
+          "page_id": "PT72",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT72",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT72",
+          "verse_range": "2.1:19–20",
+          "sanskrit_crop_sha256": "fd35c32a0334b9910fb1d8bc017e337005fbfc386bf3e0c489e5dd13e087ec82"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT73",
+          "page_id": "PT73",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT73",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT73",
+          "verse_range": "2.1:21–23",
+          "sanskrit_crop_sha256": "06c6dc0e6e5bed55cc993e59b3da81adf7828fe10ce6e18c8abf24f66326a32d"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT74",
+          "page_id": "PT74",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT74",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT74",
+          "verse_range": "2.1:24–25",
+          "sanskrit_crop_sha256": "11bc37f753c5824476ae54bff6b0e91ccc29e15ca217a4c3ecff71d674b275ef"
+        }
+      ],
+      "coverage_boundary": "google-books-khanda2-opening",
+      "review_status": "accepted",
+      "review_file": "translation/google-books-khanda2-opening-review.json",
+      "review_sha256": "4d449f4d29975b5ebacbb0ac885131fb83579347e35d123c001c0ea5cdc49ef6",
+      "added_keys": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          2,
+          1,
+          6
+        ],
+        [
+          2,
+          1,
+          7
+        ],
+        [
+          2,
+          1,
+          8
+        ],
+        [
+          2,
+          1,
+          9
+        ],
+        [
+          2,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          11
+        ],
+        [
+          2,
+          1,
+          12
+        ],
+        [
+          2,
+          1,
+          13
+        ],
+        [
+          2,
+          1,
+          14
+        ],
+        [
+          2,
+          1,
+          15
+        ],
+        [
+          2,
+          1,
+          16
+        ],
+        [
+          2,
+          1,
+          17
+        ],
+        [
+          2,
+          1,
+          18
+        ],
+        [
+          2,
+          1,
+          19
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          21
+        ],
+        [
+          2,
+          1,
+          22
+        ],
+        [
+          2,
+          1,
+          23
+        ],
+        [
+          2,
+          1,
+          24
+        ],
+        [
+          2,
+          1,
+          25
+        ]
+      ],
+      "boundary_completions": []
     }
   ]
 }

@@ -1,8 +1,15 @@
 # ಮುದ್ಗಲ ಪುರಾಣ
 
-Kannada reading draft of **Khanda 1, Vakratunda Charita**: 54 chapters and 2,796 numbered entries. All chapter/verse positions through 54:55 are represented, but unresolved readings remain; this is not a scholarly certified translation. Narrative is translated into formal Kannada; devotional verses remain Sanskrit transliterated in Kannada script.
+Kannada reading draft spanning **two volumes, 55 represented chapters and 2,821 numbered entries**: Khanda 1, Vakratunda Charita, through 54:55 (2,796 entries), plus **Khanda 2 chapter 1 verses 1–25, partial**. Unresolved readings remain; this is not a scholarly certified translation. Narrative is translated into formal Kannada; devotional verses remain Sanskrit transliterated in Kannada script.
 
 ## Latest source-backed continuation
+
+**Khanda 2 chapter 1 verses 1–25** were checked against original Sanskrit at [Google Books fZcHEQAAQBAJ, PT66–PT74](https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT66). All 25 records received independent review. Verse **2.1.9 remains unresolved**, visibly marked in Kannada and indexed in the issue registry. This chapter remains partial; no thematic title or ending colophon is inferred. All 2,796 prior entries remain unchanged.
+
+- [Khanda 2 opening review](translation/google-books-khanda2-opening-review.md)
+- [Khanda 2 per-verse evidence and decisions](translation/google-books-khanda2-opening-review.json)
+
+### Previous continuation: Khanda 1 ending
 
 The ending, **53:39–49 and 54:1–55**, was checked directly against the original Sanskrit visible in [Google Books Khand 1](https://books.google.com/books?id=Lh0FEQAAQBAJ), locations **PT881–884 and PT886–902**. This batch adds 65 entries and completes the previously partial 53:39. Its 66 records received an independent second review. Readings at **53:41, 54:10 and 54:53 remain unresolved**, with visible Kannada notices and exact source locations in the issue registry.
 
@@ -26,7 +33,7 @@ Install `requirements.txt`, then run:
 ```
 python3 build_book.py
 python3 build_epub.py
-python3 validate_book.py google-books-khanda1-ending
+python3 validate_book.py google-books-khanda2-opening
 python3 validate_source_review.py
 python3 tests/test_reading_contents.py
 python3 tests/test_google_source_validation.py

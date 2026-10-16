@@ -41,13 +41,25 @@ def check(base):
     for row, chapter in zip(rows, chapters):
         link = row.find('.//a')
         target = doc.get_element_by_id(link.get('href')[1:])
-        name = target.find('h3').text
+        subtitle = target.find('h3')
+        if subtitle is not None:
+            name = subtitle.text
+        else:
+            metadata = json.loads((base/'translation/chapter-metadata.json').read_text())
+            item = next(item for item in metadata['chapters'] if chapter_key(item) == chapter)
+            name = item['title']
+            assert name == item['ordinal']+' ಅಧ್ಯಾಯ', 'Only generic duplicate subtitle may be omitted'
+            assert target.find('h2').text == item['section_title']
         partial = chapter not in completed
         assert link.text == name + (' (ಭಾಗಶಃ)' if partial else '')
         assert row.get('data-completion') == ('partial' if partial else 'complete')
         verses = [k[2] for k in merged if k[:2] == chapter]
         assert row.findall('td')[-1].text == f'{min(verses)}–{max(verses)}'.translate(KN)
-        assert target.get('data-toc-label').endswith(link.text)
+        if subtitle is not None:
+            assert target.get('data-toc-label').endswith(link.text)
+        else:
+            expected_label = f'ಖಂಡ {chapter[0]} · ಅಧ್ಯಾಯ {chapter[1]}'.translate(KN)
+            assert target.get('data-toc-label') == expected_label + (' (ಭಾಗಶಃ)' if partial else '')
     for k, row in merged.items():
         khanda, chapter, verse = k
         vid = ('' if khanda == 1 else f'kh{khanda}-') + f'ch{chapter}-v{verse}'

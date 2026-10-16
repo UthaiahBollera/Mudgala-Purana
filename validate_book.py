@@ -20,12 +20,21 @@ expected = (sys.argv[1] if len(sys.argv) > 1 else
             str(max(int(key) for key in coverage if key.isdecimal())))
 boundary = coverage[expected]
 google_boundary = not expected.isdecimal()
-def source_ids(value):
+GOOGLE_BOOKS_BY_KHANDA = {1: 'Lh0FEQAAQBAJ', 2: 'fZcHEQAAQBAJ'}
+
+def source_ids(value, khanda=None):
     ids = value.split(',')
-    assert ids and len(ids) == len(set(ids)) and all(
-        re.fullmatch(r'[1-9]\d*|gb:Lh0FEQAAQBAJ:PT[1-9]\d*', page) for page in ids
-    ), ('Invalid or duplicate source identifiers', value)
+    assert ids and len(ids) == len(set(ids)), ('Invalid or duplicate source identifiers', value)
+    for page in ids:
+        if re.fullmatch(r'[1-9]\d*', page):
+            assert khanda in (None, 1), ('Historical PDF source belongs to Khanda 1', khanda, page)
+            continue
+        match = re.fullmatch(r'gb:([^:]+):PT[1-9]\d*', page)
+        assert match and match[1] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Invalid or duplicate source identifiers', value)
+        if khanda is not None:
+            assert match[1] == GOOGLE_BOOKS_BY_KHANDA.get(khanda), ('Google Books source does not match khanda', khanda, page)
     return set(ids)
+
 merged = {}
 for path in [root/'translation/narrative.tsv', *sorted((root/'translation').glob('batch-*.tsv'))]:
     with path.open(encoding='utf-8', newline='') as f:
@@ -51,7 +60,7 @@ chapter_keys = {key[:2] for key in merged}
 for chapter in chapter_keys:
     verses = sorted(key[2] for key in merged if key[:2] == chapter)
     assert verses == list(range(1,max(verses)+1)), chapter
-pages = set().union(*(source_ids(r['source_pages']) for r in merged.values()))
+pages = set().union(*(source_ids(r['source_pages'], key[0]) for key, r in merged.items()))
 metadata_path = root/'translation/chapter-metadata.json'
 metadata = json.loads(metadata_path.read_text(encoding='utf-8')) if metadata_path.exists() else {}
 interstitials = metadata.get('interstitial_pages', [])
@@ -71,7 +80,8 @@ if google_boundary:
     assert not non_narrative, 'Google Books coverage must not inherit PDF interstitial pages'
     declared = boundary['source_pages']
     assert declared and len(declared) == len(set(declared)), 'Missing or duplicate Google Books coverage pages'
-    assert all(re.fullmatch(r'gb:Lh0FEQAAQBAJ:PT[1-9]\d*', page) for page in declared), 'Invalid Google Books coverage page'
+    assert all(page.startswith('gb:') for page in declared), 'Invalid Google Books coverage page'
+    source_ids(','.join(declared))
     assert {page for page in covered_pages if page.isdecimal()} == {str(page) for page in range(14,134)}, 'Historical PDF coverage must stay exactly 14–133'
     assert {page for page in covered_pages if not page.isdecimal()} == set(declared), 'Unknown or missing Google Books coverage pages'
 else:

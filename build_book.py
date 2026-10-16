@@ -120,8 +120,10 @@ def chapter_section_id(khanda, chapter, part=1):
     return f'chapter-{chapter}-{part}' if khanda == 1 else f'chapter-kh{khanda}-{chapter}-{part}'
 
 def chapter_contents_label(key):
-    _, name, _ = chapter_heading(key)
-    label = f'ಖಂಡ {kn(key[0])} · ಅಧ್ಯಾಯ {kn(key[1])} · {name}'
+    _, name, ordinal = chapter_heading(key)
+    label = f'ಖಂಡ {kn(key[0])} · ಅಧ್ಯಾಯ {kn(key[1])}'
+    if name != ordinal+' ಅಧ್ಯಾಯ':
+        label += ' · '+name
     if key not in completed_chapters:
         label += ' (ಭಾಗಶಃ)'
     return label
@@ -167,7 +169,8 @@ for khanda, chapter in chapters:
     for part,chunk in enumerate(groups,1):
         body=''
         if part==1:
-            body+=f'<h3>{e(name)}</h3>'
+            if name != ordinal+' ಅಧ್ಯಾಯ':
+                body+=f'<h3>{e(name)}</h3>'
             if key==(1,1):
                 body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಓಂ ನಮಃ ಶ್ರೀಸ್ವಾನಂದೇಶಗಣೇಶಾಯ ಪೂರ್ಣಯೋಗಾತ್ಮನೇ ॥</p>'
                 body+='<p class="caption">ಶ್ರೀಮುದ್ಗಲಪುರಾಣದ ಆರಂಭ</p>'
