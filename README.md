@@ -1,8 +1,15 @@
 # ಮುದ್ಗಲ ಪುರಾಣ
 
-Kannada reading draft spanning **two volumes, 55 represented chapters and 2,821 numbered entries**: Khanda 1, Vakratunda Charita, through 54:55 (2,796 entries), plus **Khanda 2 chapter 1 verses 1–25, partial**. Unresolved readings remain; this is not a scholarly certified translation. Narrative is translated into formal Kannada; devotional verses remain Sanskrit transliterated in Kannada script.
+Kannada reading draft spanning **two volumes, 55 represented chapters and 2,846 numbered entries**: Khanda 1, Vakratunda Charita, through 54:55 (2,796 entries), plus **Khanda 2 chapter 1 verses 1–50, partial**. Unresolved readings remain; this is not a scholarly certified translation. Narrative is translated into formal Kannada; devotional verses remain Sanskrit transliterated in Kannada script.
 
 ## Latest source-backed continuation
+
+**Khanda 2 chapter 1 verses 26–50** were independently reviewed against original Sanskrit at [Google Books fZcHEQAAQBAJ, PT74–PT81](https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT74). The batch adds 25 entries (17 narrative translations and eight Kannada-script Sanskrit prayers), preserving all 2,821 earlier entries. Four source-reading questions were resolved by enlarged-pixel review and retained in the JSON register. No new open semantic question remains in this batch; the existing **2.1.9** notice and historical issues remain. Chapter 1 is still partial, now **verses 1–50**, and its body heading displays that range. No ending colophon is inferred. Cumulative Google Books coverage is 37 distinct page locations; the two PT74 crops retain separate batch evidence.
+
+- [Verses 26–50 review](translation/google-books-khanda2-next-review.md)
+- [Per-verse evidence and decisions](translation/google-books-khanda2-next-review.json)
+
+### Previous continuation: Khanda 2 opening
 
 **Khanda 2 chapter 1 verses 1–25** were checked against original Sanskrit at [Google Books fZcHEQAAQBAJ, PT66–PT74](https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT66). All 25 records received independent review. Verse **2.1.9 remains unresolved**, visibly marked in Kannada and indexed in the issue registry. This chapter remains partial; no thematic title or ending colophon is inferred. All 2,796 prior entries remain unchanged.
 
@@ -33,7 +40,7 @@ Install `requirements.txt`, then run:
 ```
 python3 build_book.py
 python3 build_epub.py
-python3 validate_book.py google-books-khanda2-opening
+python3 validate_book.py google-books-khanda2-next
 python3 validate_source_review.py
 python3 tests/test_reading_contents.py
 python3 tests/test_google_source_validation.py

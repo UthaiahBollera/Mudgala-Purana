@@ -49,7 +49,11 @@ def check(base):
             item = next(item for item in metadata['chapters'] if chapter_key(item) == chapter)
             name = item['title']
             assert name == item['ordinal']+' ಅಧ್ಯಾಯ', 'Only generic duplicate subtitle may be omitted'
-            assert target.find('h2').text == item['section_title']
+            expected_heading = item['section_title']
+            if chapter not in completed:
+                included = sorted(k[2] for k in merged if k[:2] == chapter)
+                expected_heading += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {included[0]}–{included[-1]})'.translate(KN)
+            assert target.find('h2').text == expected_heading
         partial = chapter not in completed
         assert link.text == name + (' (ಭಾಗಶಃ)' if partial else '')
         assert row.get('data-completion') == ('partial' if partial else 'complete')

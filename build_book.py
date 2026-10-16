@@ -188,7 +188,10 @@ for khanda, chapter in chapters:
                 body+=f'<p class="colophon">{e(info["colophon"])}</p>'
         source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=source_page_key)
         section_id = chapter_section_id(khanda, chapter, part)
-        chapter_page = section(section_id, info.get('section_title', ordinal+' ಅಧ್ಯಾಯ'),body,','.join(source_pages),'chapter',part>1)
+        section_title = info.get('section_title', ordinal+' ಅಧ್ಯಾಯ')
+        if part == 1 and key not in completed_chapters:
+            section_title += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {kn(entries[0]["verse"])}–{kn(entries[-1]["verse"])})'
+        chapter_page = section(section_id, section_title,body,','.join(source_pages),'chapter',part>1)
         if part == 1:
             chapter_page = chapter_page.replace('<section ', f'<section data-toc-label="{e(chapter_contents_label(key))}" ', 1)
         pages.append(chapter_page)
