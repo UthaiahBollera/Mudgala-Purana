@@ -13,3 +13,7 @@ Batch checklists: `translation/tasks.md` and `translation/pdf-03-tasks.md` and `
 See `translation/verification.md`. This is a review draft, not a scholarly certified translation. XML/ZIP/assets/text checks are automated; full EPUBCheck and reader testing remain recommended.
 
 Cover remains 1055 × 1491 pixels, not a 300 ppi A4 press master. Tiro Kannada is supplied under the SIL Open Font License, which does not license book text or illustrations.
+
+## Source correction review (15 October 2026)
+
+1676 verse texts and 10 chapter headings corrected after source comparison and separate review. All 2731 entries were read; 152 numbered-verse records still have unresolved or partially resolved issues. See [review summary](translation/source-review/README.md) and [remaining questions](translation/source-review/unresolved.md). Run `python3 validate_source_review.py` after the normal build and validation commands. Google Books volume 1 was identified; verse-level scan corroboration remains unavailable. The published site is unchanged.
