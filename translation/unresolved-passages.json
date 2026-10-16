@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-16",
-  "active_source_policy": "New translation and resolution use the original Sanskrit visible in Google Books. User-supplied PDFs are excluded from active source checking. Historical files and provenance are retained.",
+  "active_source_policy": "Scanned user PDF is authoritative for ongoing Khanda2 work; OCR is a transcription aid checked against original pixels. Google Books is a cross-reference for corrections, illegibility and documented source gaps. No silent edition harmonization. Historical provenance retained.",
   "location_policy": "Unknown Google Books page identifiers and links remain null; old scan page numbers must never be converted into guessed PT locations.",
   "records": [
     {
@@ -5579,6 +5579,96 @@
       ],
       "prior_provenance": null,
       "resolution_provenance": []
+    },
+    {
+      "id": "kh2-ch2-v27-typography",
+      "kind": "source_metadata",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 27,
+      "verse_end": 27,
+      "status": "open_pdf_typography_question",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 13,
+        "printed_page": 4,
+        "audit_global_page": 146,
+        "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "google_books_page_url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT92",
+      "issues": [
+        {
+          "key": [
+            2,
+            2,
+            27
+          ],
+          "status": "open",
+          "primary_pdf": "चंद्रः/चंद्राः exact typography uncertain",
+          "reference_reading": "चन्द्रः",
+          "note": "Google Books reference legible; PDF typography uncertainty remains recorded without semantic certification."
+        }
+      ]
+    },
+    {
+      "id": "kh2-ch2-v30",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 30,
+      "verse_end": 30,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 13,
+        "printed_page": 4,
+        "audit_global_page": 146,
+        "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "source_sanskrit": "रुद्रान्नानाविधान् शम्भुः ससर्ज बहुतेजसः ।\nअनन्तान्विविधाकारानमृतात्मप्रधारकान् ॥३०॥",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "lexical_review",
+          "source_reading": "अमृतात्मप्रधारकान्",
+          "description": "Unusual compound retained as immortal-form-bearing provisionally; exact lexical interpretation remains under review. Not carrying nectar. Earlier death-form edition difference was a misreading and is retracted."
+        }
+      ],
+      "google_books_page_url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT93"
+    },
+    {
+      "id": "kh2-ch2-v30-false-variant-retraction",
+      "kind": "review_history",
+      "khanda": 2,
+      "chapter": 2,
+      "status": "retracted_false_variant",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 13,
+        "printed_page": 4,
+        "audit_global_page": 146,
+        "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f",
+        "printed_page_verified": true
+      },
+      "issues": [
+        {
+          "key": [
+            2,
+            2,
+            30
+          ],
+          "status": "retracted_false_variant",
+          "earlier_claim": "PDF death-form versus Google Books amrita-form",
+          "correction": "Tight PDF crop shows अमृतात्म- / प्रधारकान् matching reference. Earlier OCR-influenced scan misreading withdrawn; no edition harmonization performed."
+        }
+      ]
     }
   ]
 }

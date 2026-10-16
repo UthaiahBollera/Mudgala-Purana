@@ -22,6 +22,8 @@ def chapter_key(item):
 def source_page_key(page):
     if page.isdigit():
         return (0, '', int(page))
+    pdf = re.fullmatch(r'pdf:([0-9a-f]{64}):p([1-9]\d*)', page)
+    if pdf: return (2, pdf[1], int(pdf[2]))
     match = re.fullmatch(r'gb:([^:]+):PT(\d+)', page)
     assert match, ('Unknown source-page token', page)
     return (1, match[1], int(match[2]))

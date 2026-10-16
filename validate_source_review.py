@@ -51,6 +51,8 @@ def source_ids(value, khanda=None):
         if re.fullmatch(r'[1-9]\d*', page):
             assert khanda in (None, 1), ('Historical PDF source belongs to Khanda 1', khanda, page)
             continue
+        if re.fullmatch(r'pdf:[0-9a-f]{64}:p[1-9]\d*', page):
+            continue
         match = re.fullmatch(r'gb:([^:]+):PT[1-9]\d*', page)
         assert match and match[1] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Invalid or duplicate source identifiers', value)
         if khanda is not None:
@@ -179,6 +181,7 @@ if manifest is not None:
     assert manifest_paths == new_paths, ('Unlisted, duplicate, or out-of-order continuation batches', manifest_paths, new_paths)
     previous_end = 133
     google_pages = set()
+    pdf_pages = set()
     google_unresolved_keys = set()
     coverage = json.loads((ROOT/'translation/coverage.json').read_text(encoding='utf-8'))
     for batch, name in zip(batches, manifest_paths):
@@ -191,7 +194,8 @@ if manifest is not None:
         review_path = (ROOT/review_path).resolve()
         assert review_path.is_relative_to((ROOT/'translation').resolve()) and review_path.is_file(), ('Review artifact missing or outside translation', name)
         assert hashlib.sha256(review_path.read_bytes()).hexdigest() == batch['review_sha256'], ('Review artifact checksum mismatch', name)
-        google_batch = manifest['schema_version'] == 2
+        pdf_batch = batch.get('source_kind') == 'local_pdf'
+        google_batch = manifest['schema_version'] == 2 and not pdf_batch
         if google_batch:
             assert batch['source_kind'] == 'google_books' and batch['book_id'] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Wrong Google Books source', name)
             if 'volume' in batch:
@@ -214,6 +218,17 @@ if manifest is not None:
             assert {'chapter_counts_by_khanda', 'partial_keys', 'non_narrative_source_pages', 'source_pages'} <= boundary.keys(), ('Incomplete Google Books coverage', name)
             assert boundary['non_narrative_source_pages'] == [], ('Unexpected Google Books interstitial coverage', name)
             assert len(boundary['source_pages']) == len(set(boundary['source_pages'])) and set(boundary['source_pages']) == google_pages, ('Google Books coverage differs from declared pages', name)
+        elif pdf_batch:
+            from validate_pdf_review import validate_pdf_batch
+            review = json.loads(review_path.read_text(encoding='utf-8'))
+            registry = json.loads((ROOT/'translation/unresolved-passages.json').read_text())
+            allowed_pages, unresolved_pdf = validate_pdf_batch(ROOT, batch, parse_rows(raw_batch), review, registry)
+            pdf_pages.update(allowed_pages)
+            google_unresolved_keys.update(unresolved_pdf)
+            boundary = coverage[batch['coverage_boundary']]
+            assert set(boundary['source_pages']) == google_pages and len(boundary['source_pages']) == len(google_pages), 'PDF batch changed Google coverage'
+            assert set(boundary['pdf_source_pages']) == pdf_pages and len(boundary['pdf_source_pages']) == len(pdf_pages), 'PDF coverage differs from pages'
+            assert {tuple(k) for k in boundary['review_required_keys']} == google_unresolved_keys, 'PDF unresolved coverage mismatch'
         else:
             assert batch['source_pdf'] and re.fullmatch(r'[0-9a-f]{64}', batch['source_sha256']), ('Missing source identity', name)
             pdf_start, pdf_end = map(int, batch['pdf_page_range'])

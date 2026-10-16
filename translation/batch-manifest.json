@@ -1226,6 +1226,54 @@
         ]
       ],
       "boundary_completions": []
+    },
+    {
+      "file": "batch-12-local-pdf-01.tsv",
+      "sha256": "612ac36f88556ddd91c7fe7ea9fadb72604974ce3cd8074dd1540cd24149cf6e",
+      "source_kind": "local_pdf",
+      "source_pdf": "139 TO 163.pdf",
+      "source_sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+      "source_pages": [
+        {
+          "id": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+          "pdf_page": 13,
+          "printed_page": 4,
+          "printed_page_verified": true,
+          "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch2-30",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch2-26-30-review.json",
+      "review_sha256": "67746f0c654f6b734d1a30b21d842d2c9c7585a7ddd2efe9c0323b1077d3d025",
+      "added_keys": [
+        [
+          2,
+          2,
+          26
+        ],
+        [
+          2,
+          2,
+          27
+        ],
+        [
+          2,
+          2,
+          28
+        ],
+        [
+          2,
+          2,
+          29
+        ],
+        [
+          2,
+          2,
+          30
+        ]
+      ],
+      "boundary_completions": []
     }
   ]
 }

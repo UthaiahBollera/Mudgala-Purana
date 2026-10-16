@@ -29,6 +29,8 @@ def source_ids(value, khanda=None):
         if re.fullmatch(r'[1-9]\d*', page):
             assert khanda in (None, 1), ('Historical PDF source belongs to Khanda 1', khanda, page)
             continue
+        if re.fullmatch(r'pdf:[0-9a-f]{64}:p[1-9]\d*', page):
+            continue
         match = re.fullmatch(r'gb:([^:]+):PT[1-9]\d*', page)
         assert match and match[1] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Invalid or duplicate source identifiers', value)
         if khanda is not None:
@@ -83,7 +85,8 @@ if google_boundary:
     assert all(page.startswith('gb:') for page in declared), 'Invalid Google Books coverage page'
     source_ids(','.join(declared))
     assert {page for page in covered_pages if page.isdecimal()} == {str(page) for page in range(14,134)}, 'Historical PDF coverage must stay exactly 14–133'
-    assert {page for page in covered_pages if not page.isdecimal()} == set(declared), 'Unknown or missing Google Books coverage pages'
+    assert {page for page in covered_pages if page.startswith('gb:')} == set(declared), 'Unknown or missing Google Books coverage pages'
+    assert {page for page in covered_pages if page.startswith('pdf:')} == set(boundary.get('pdf_source_pages', [])), 'Unknown or missing local PDF coverage pages'
 else:
     assert all(page.isdecimal() for page in covered_pages), 'Google Books source pages require a named coverage boundary'
     numeric_pages = {int(page) for page in covered_pages}
@@ -91,7 +94,7 @@ else:
     assert max(numeric_pages) == int(expected)
 if google_boundary:
     review_required = sorted(tuple(map(int, key)) for key in boundary.get('review_required_keys', []))
-    actual_review_required = sorted(key for key, row in merged.items() if row['type'] == 'translation-review' and any(page.startswith('gb:') for page in source_ids(row['source_pages'])))
+    actual_review_required = sorted(key for key, row in merged.items() if row['type'] == 'translation-review' and any(page.startswith(('gb:', 'pdf:')) for page in source_ids(row['source_pages'])))
     assert review_required == actual_review_required, 'Google Books review-required coverage differs from marked verses'
 partials = sorted(k for k,r in merged.items() if r['type']=='translation-partial')
 expected_partials = (sorted(tuple(map(int, key)) for key in boundary['partial_keys'])

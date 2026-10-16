@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "source_kind": "local_pdf",
+  "source_priority": "scanned_pdf_primary_ocr_aid_google_books_reference",
+  "primary_source": {
+    "filename": "139 TO 163.pdf",
+    "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+    "pdf_page": 13,
+    "printed_page": 4,
+    "audit_global_page": 146,
+    "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f",
+    "printed_page_verified": true
+  },
+  "source_pages": [
+    {
+      "id": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "pdf_page": 13,
+      "printed_page": 4,
+      "printed_page_verified": true,
+      "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f"
+    }
+  ],
+  "scope": "Khanda2 chapter2 verses26–30, partial chapter now1–30",
+  "source_method": "Actual original PDF full page and tightened orientation-corrected pixel crop checked against OCR; normal Google Books PT92–PT93 preview used only as cross-reference. No scan/OCR uploaded.",
+  "verses": [
+    {
+      "key": [
+        2,
+        2,
+        26
+      ],
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "source_sanskrit": "वरदानप्रभावेणाधुना सर्वेश्वरः प्रभो ।\nसाक्षाच्छङ्करवेषेण पुत्रतां मे समागतः ॥२६॥",
+      "primary_pdf_reading": "वरदानप्रभावेणाधुना सर्वेश्वरः प्रभो ।\nसाक्षाच्छङ्करवेषेण पुत्रतां मे समागतः ॥२६॥",
+      "google_books_reference": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT92",
+        "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT92"
+      },
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Brahma naming/abode dialogue26–28; mixed speech/narration29; creation narration30. No standalone mantra."
+      },
+      "type": "translation",
+      "text": "ಪ್ರಭುವೇ, ವರದಾನದ ಪ್ರಭಾವದಿಂದ ಸರ್ವೇಶ್ವರನಾದ ನೀನು ಈಗ ಸಾಕ್ಷಾತ್ ಶಂಕರನ ರೂಪದಲ್ಲಿ ನನ್ನ ಮಗನಾಗಿ ಬಂದಿರುವೆ. ॥೨೬॥",
+      "review_status": "accepted",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent linguistic review returned through parent task; Kannada27/29 refined, lexical flag30 retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        2,
+        27
+      ],
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "source_sanskrit": "पृथ्वी जलं तथा तेजो वायुराकाशमेव च ।\nचन्द्रः सूर्यो दीक्षितोऽष्टौ तव स्थानानि शङ्कर ॥२७॥",
+      "primary_pdf_reading": "पृथ्वी जलं तथा तेजो वायुराकाशमेव च । [चंद्रः/चंद्राः: exact glyph uncertain] सूर्यो दीक्षितोऽष्टौ तव स्थानानि शंकर ॥२७॥",
+      "google_books_reference": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT92",
+        "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT92"
+      },
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Brahma naming/abode dialogue26–28; mixed speech/narration29; creation narration30. No standalone mantra."
+      },
+      "type": "translation",
+      "text": "ಶಂಕರನೇ, ಪೃಥ್ವಿ, ಜಲ, ತೇಜಸ್ಸು, ವಾಯು, ಆಕಾಶ, ಚಂದ್ರನು, ಸೂರ್ಯನು ಮತ್ತು ದೀಕ್ಷಿತನು ಇವು ನಿನ್ನ ಎಂಟು ಸ್ಥಾನಗಳು. ॥೨೭॥",
+      "review_status": "accepted",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent linguistic review returned through parent task; Kannada27/29 refined, lexical flag30 retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        2,
+        28
+      ],
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "source_sanskrit": "अष्टमूर्तिधरः शर्वः सर्वेशः फलदायकः ।\nतव नामानि देवेश एकादश भवन्तु वै ॥२८॥",
+      "primary_pdf_reading": "अष्टमूर्तिधरः शर्वः सर्वेशः फलदायकः ।\nतव नामानि देवेश एकादश भवन्तु वै ॥२८॥",
+      "google_books_reference": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT92",
+        "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT92"
+      },
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Brahma naming/abode dialogue26–28; mixed speech/narration29; creation narration30. No standalone mantra."
+      },
+      "type": "translation",
+      "text": "ದೇವೇಶನೇ, ಅಷ್ಟಮೂರ್ತಿಧರ, ಶರ್ವ, ಸರ್ವೇಶ ಮತ್ತು ಫಲದಾಯಕ ಎಂಬವುಗಳೂ ಸೇರಿ ನಿನ್ನ ಹೆಸರುಗಳು ಹನ್ನೊಂದಾಗಲಿ. ॥೨೮॥",
+      "review_status": "accepted",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent linguistic review returned through parent task; Kannada27/29 refined, lexical flag30 retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        2,
+        29
+      ],
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "source_sanskrit": "कुरु सृष्टिं महादेव ध्यात्वा देवं गजाननम् ।\nतथेति सृष्टिमारेभे ध्यात्वा गणपतिं शिवः ॥२९॥",
+      "primary_pdf_reading": "कुरु सृष्टिं महादेव ध्यात्वा देवं गजाननम् ।\nतथेति सृष्टिमारेभे ध्यात्वा गणपतिं शिवः ॥२९॥",
+      "google_books_reference": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT93",
+        "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT93"
+      },
+      "classification": {
+        "category": "narrative",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Brahma naming/abode dialogue26–28; mixed speech/narration29; creation narration30. No standalone mantra."
+      },
+      "type": "translation",
+      "text": "“ಮಹಾದೇವನೇ, ಗಜಾನನ ದೇವನನ್ನು ಧ್ಯಾನಿಸಿ ಸೃಷ್ಟಿಯನ್ನು ಮಾಡು.” ಶಿವನು “ಹಾಗೆಯೇ ಆಗಲಿ” ಎಂದು ಹೇಳಿ, ಗಣಪತಿಯನ್ನು ಧ್ಯಾನಿಸಿ ಸೃಷ್ಟಿಯನ್ನು ಆರಂಭಿಸಿದನು. ॥೨೯॥",
+      "review_status": "accepted",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent linguistic review returned through parent task; Kannada27/29 refined, lexical flag30 retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        2,
+        30
+      ],
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "source_sanskrit": "रुद्रान्नानाविधान् शम्भुः ससर्ज बहुतेजसः ।\nअनन्तान्विविधाकारानमृतात्मप्रधारकान् ॥३०॥",
+      "primary_pdf_reading": "रुद्रान्नानाविधान् शंभुः ससर्ज बहुतेजसः । अनंतान्विविधाकारानमृतात्म- / प्रधारकान् ॥३०॥",
+      "google_books_reference": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT93",
+        "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT93"
+      },
+      "classification": {
+        "category": "narrative",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Brahma naming/abode dialogue26–28; mixed speech/narration29; creation narration30. No standalone mantra."
+      },
+      "type": "translation-review",
+      "text": "ಶಂಭುವು ಬಹಳ ತೇಜಸ್ಸುಳ್ಳ, ಅನಂತ ಸಂಖ್ಯೆಯ, ವಿವಿಧ ಆಕಾರಗಳ, ಅಮೃತಸ್ವರೂಪವನ್ನು ಧರಿಸಿದ ನಾನಾವಿಧ ರುದ್ರರನ್ನು ಸೃಷ್ಟಿಸಿದನು. ॥೩೦॥ (ಪರಿಶೀಲನೆ: “ಅಮೃತಾತ್ಮಪ್ರಧಾರಕಾನ್” ಎಂಬ ಅಪರೂಪದ ಸಮಾಸದ ನಿಖರ ಅರ್ಥ ಇನ್ನೂ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.)",
+      "review_status": "accepted_with_unresolved_reading",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "lexical_review",
+          "source_reading": "अमृतात्मप्रधारकान्",
+          "description": "Unusual compound retained as immortal-form-bearing provisionally; exact lexical interpretation remains under review. Not carrying nectar. Earlier death-form edition difference was a misreading and is retracted."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent linguistic review returned through parent task; Kannada27/29 refined, lexical flag30 retained."
+      }
+    }
+  ],
+  "typography_issues": [
+    {
+      "key": [
+        2,
+        2,
+        27
+      ],
+      "status": "open",
+      "primary_pdf": "चंद्रः/चंद्राः exact typography uncertain",
+      "reference_reading": "चन्द्रः",
+      "note": "Google Books reference legible; PDF typography uncertainty remains recorded without semantic certification."
+    }
+  ],
+  "retractions": [
+    {
+      "key": [
+        2,
+        2,
+        30
+      ],
+      "status": "retracted_false_variant",
+      "earlier_claim": "PDF death-form versus Google Books amrita-form",
+      "correction": "Tight PDF crop shows अमृतात्म- / प्रधारकान् matching reference. Earlier OCR-influenced scan misreading withdrawn; no edition harmonization performed."
+    }
+  ],
+  "colophons": []
+}

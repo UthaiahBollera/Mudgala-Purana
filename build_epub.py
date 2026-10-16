@@ -73,6 +73,8 @@ if manifest_path.exists():
         if batch.get('source_kind') == 'google_books':
             source_description += (f' Google Books {batch["book_id"]}; '
                                    f'page IDs {", ".join(page["id"] for page in batch["source_pages"])}.')
+        elif batch.get('source_kind') == 'local_pdf':
+            source_description += f' Primary scanned PDF {batch["source_pdf"]}; SHA-256 {batch["source_sha256"]}; PDF pages '+', '.join(str(p['pdf_page']) for p in batch['source_pages'])+'. Google Books is a cross-reference; OCR is a transcription aid.'
         else:
             start, end = batch['pdf_page_range']
             source_description += f' {batch["source_pdf"]}; PDF pages {start}–{end}.'

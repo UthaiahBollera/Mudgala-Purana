@@ -1,0 +1,11 @@
+# Khanda 2 chapter 2 verses 26–30
+
+The scanned PDF is authoritative: 139 TO 163.pdf, PDF page13, printed page4, audit global146. Exact PDF SHA-256, verified page number and source-image hash are in the JSON. OCR is only a transcription aid. Normal Google Books fZcHEQAAQBAJ preview PT92 (26–28) and PT93 (29–30) was inspected with ordinary viewer zoom as a cross-reference. No scan, raw OCR, private handoff or new artwork is published.
+
+All five verses are narrative translation:26–28 continue Brahma’s naming/abode-assignment dialogue,29 combines speech and narration, and30 reports creation. They are not standalone mantra quotations. The independent reviewer checked language and context; source pixels were checked separately by the integrator. The fixed final Kannada includes the reviewer’s refinements at27 and29. Mantras continue to require Sanskrit wording transliterated into Kannada script.
+
+Verse27 retains the original-PDF चंद्रः/चंद्राः typography question; Google Books reads चन्द्रः. No semantic resolution is implied. Verse30 retains a visible Kannada lexical-review notice for the unusual अमृतात्मप्रधारकान्, provisionally rendered as bearing immortal form, not carrying nectar. The earlier claimed PDF death-form/Google Books amrita-form variant was false: a tight source crop shows अमृतात्म- / प्रधारकान् in the PDF too. That OCR-influenced scan misreading is retracted in the issue register rather than retained as a source variant.
+
+Validation: exactly five new ordered entries, total2,881; all2,876 earlier rows and prior issue records unchanged. HTML/EPUB builds, structural and source-integrity checks, reading-contents checks,36 Google-source regression tests and11 new scan-provenance/treatment tests pass. The new validator checks PDF identity, page/image hashes, review-to-text equality, source priority, honest independent-review scope, treatment classification and visible uncertainty/registry correspondence. Historical Google Books checks remain active. Missing Khanda2 printed pages104–112 remain unresolved.
+
+Chapter2 remains partial1–30 with no inferred colophon. Existing assets, mobile CSS, anchors and translation/system-prompt.md remain unchanged. Historical quotation verification lacks its local cache; full EPUBCheck and physical reader tests are not claimed.

@@ -1,8 +1,15 @@
 # ಮುದ್ಗಲ ಪುರಾಣ
 
-Kannada reading draft spanning **two volumes, 56 represented chapters and 2,876 numbered entries**: Khanda 1, Vakratunda Charita, through 54:55 (2,796 entries), plus **Khanda 2 chapter 1 verses 1–55, complete, and **chapter 2 verses 1–25, partial****. Unresolved readings remain; this is not a scholarly certified translation. Narrative is translated into formal Kannada; devotional verses remain Sanskrit transliterated in Kannada script.
+Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 numbered entries**: Khanda 1, Vakratunda Charita, through 54:55 (2,796 entries), plus **Khanda 2 chapter 1 verses 1–55, complete, and **chapter 2 verses 1–30, partial****. Unresolved readings remain; this is not a scholarly certified translation. Narrative is translated into formal Kannada; devotional verses remain Sanskrit transliterated in Kannada script.
 
 ## Latest source-backed continuation
+
+**Khanda 2 chapter 2 verses 26–30** add five independently reviewed narrative translations from the authoritative scanned PDF, checked against original pixels. Google Books PT92–PT93 is a cross-reference, with no silent edition harmonization. All 2,876 earlier entries remain unchanged. Verse 27 retains a source-typography flag; verse 30 has a visible lexical-review notice for अमृतात्मप्रधारकान्. The earlier reported death-form/amrita-form edition difference was a scan misreading and is explicitly retracted.
+
+- [PDF source and language review](translation/local-pdf-khanda2-ch2-26-30-review.json)
+- [Review notes and validation](translation/local-pdf-khanda2-ch2-26-30-review.md)
+
+### Previous continuation: Khanda 2 chapter 2 opening
 
 **Khanda 2 chapter 2 verses 1–25** add 25 independently reviewed narrative entries, preserving all 2,851 earlier entries. The accepted [Google Books review](translation/google-books-khanda2-ch2-opening-review.json) covers original Sanskrit at PT84–PT92. A [local PDF alignment](translation/local-pdf-khanda2-ch2-opening-alignment.json) locates these verses on printed pages 3–4 of the user’s scan and records source hashes without publishing scans or raw OCR. Four semantic questions at **2.2.4, 6, 12 and 17** retain visible Kannada notices; verse 9 typography remains a separate metadata issue. The chapter is partial, with no colophon or inferred thematic title.
 
@@ -53,10 +60,11 @@ Install `requirements.txt`, then run:
 ```
 python3 build_book.py
 python3 build_epub.py
-python3 validate_book.py google-books-khanda2-ch2-opening
+python3 validate_book.py local-pdf-khanda2-ch2-30
 python3 validate_source_review.py
 python3 tests/test_reading_contents.py
 python3 tests/test_google_source_validation.py
+python3 tests/test_pdf_source_validation.py
 ```
 
 HTML/EPUB structure, links, asset references, Kannada glyph coverage, exact verse order, historical text preservation and source/review consistency are checked. Full EPUBCheck and reader-device testing are not claimed. The approved cover and Tiro Kannada font remain; the font's SIL Open Font License does not license book text or illustrations.
