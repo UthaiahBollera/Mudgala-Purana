@@ -5222,6 +5222,71 @@
           "method": "Independent enlarged-pixel comparison"
         }
       ]
+    },
+    {
+      "id": "kh2-ch1-ending-cumulative-count",
+      "kind": "source_metadata",
+      "book_id": "fZcHEQAAQBAJ",
+      "volume": 2,
+      "khanda": 2,
+      "chapter": 1,
+      "verse_start": null,
+      "verse_end": null,
+      "google_books_pages": [
+        "PT83"
+      ],
+      "google_books_page_url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT83",
+      "status": "open_google_books_metadata_question",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "uncertain_cumulative_numeral",
+          "tentative_reading": "२८५१",
+          "message": "The parenthesized numeral below the chapter colophon is not sufficiently certain to reproduce as a verified source count. It does not affect the explicit ending at verse55. Do not infer missing verses or reconcile historical count discrepancies from it."
+        }
+      ],
+      "evidence_notes": [
+        "Number excluded from Kannada reading text. Canonical entry totals are computed independently from actual verse records."
+      ],
+      "prior_provenance": null,
+      "resolution_provenance": []
+    },
+    {
+      "id": "kh2-ch1-colophon-opening",
+      "kind": "source_metadata",
+      "book_id": "fZcHEQAAQBAJ",
+      "volume": 2,
+      "khanda": 2,
+      "chapter": 1,
+      "verse_start": null,
+      "verse_end": null,
+      "google_books_pages": [
+        "PT83"
+      ],
+      "google_books_page_url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT83",
+      "status": "resolved_source_transcription_question",
+      "issues": [
+        {
+          "status": "resolved",
+          "kind": "source-transcription-corrected",
+          "draft_reading": "ॐमिति",
+          "source_reading": "ओमिति",
+          "message": "Original pixels and independent enlargement confirm ओमिति."
+        }
+      ],
+      "source_sanskrit": "॥ ओमिति श्रीमदन्त्ये पुराणोपनिषदि मौद्गले द्वितीयखण्डे\nएकदन्तचरिते ब्रह्मसृष्टिप्रारम्भो नाम\nप्रथमोऽध्यायः ॥",
+      "evidence_notes": [
+        "Corrected the draft transcription only; no conjectural emendation of the edition."
+      ],
+      "prior_provenance": null,
+      "resolution_provenance": [
+        {
+          "date": "2026-10-16",
+          "source_url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT83",
+          "review_file": "translation/google-books-khanda2-ch1-ending-review.json",
+          "method": "Independent original-pixel and enlarged-pixel reading"
+        }
+      ]
     }
   ]
 }

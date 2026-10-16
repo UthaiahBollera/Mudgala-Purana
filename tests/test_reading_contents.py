@@ -55,6 +55,14 @@ def check(base):
                 expected_heading += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {included[0]}–{included[-1]})'.translate(KN)
             assert target.find('h2').text == expected_heading
         partial = chapter not in completed
+        if not partial:
+            assert 'ಭಾಗಶಃ' not in target.find('h2').text
+        if chapter[0] > 1 and not partial:
+            metadata = json.loads((base/'translation/chapter-metadata.json').read_text())
+            item = next(item for item in metadata['chapters'] if chapter_key(item) == chapter)
+            sections = doc.xpath('//section[starts-with(@id,$prefix)]', prefix=f'chapter-kh{chapter[0]}-{chapter[1]}-')
+            colophons = [p.text_content() for section in sections for p in section.xpath('.//p[@class="colophon"]')]
+            assert colophons == [item['colophon']], 'Completed chapter must retain its exact supplied colophon'
         assert link.text == name + (' (ಭಾಗಶಃ)' if partial else '')
         assert row.get('data-completion') == ('partial' if partial else 'complete')
         verses = [k[2] for k in merged if k[:2] == chapter]

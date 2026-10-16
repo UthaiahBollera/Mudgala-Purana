@@ -948,6 +948,71 @@
         ]
       ],
       "boundary_completions": []
+    },
+    {
+      "file": "batch-10-google-books-01.tsv",
+      "sha256": "15f0ed5170b3d62af056137f3ded1235ff85f694b8f6fba298e984c0919deb77",
+      "source_kind": "google_books",
+      "book_id": "fZcHEQAAQBAJ",
+      "volume": 2,
+      "source_pages": [
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT81",
+          "page_id": "PT81",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT81",
+          "observed_viewer_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&pg=PT81",
+          "verse_range": "1:51–51",
+          "sanskrit_crop_sha256": "c61277355efd446e5fa0dfe26d10d8b72167794f33f5a5c32961e079d0cb783a"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT82",
+          "page_id": "PT82",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT82",
+          "observed_viewer_url": "https://www.google.co.in/books/edition/Shri_Mudgala_Purana_Khand_2/fZcHEQAAQBAJ?hl=en&gbpv=1&pg=PT82&printsec=frontcover",
+          "verse_range": "1:52–54",
+          "sanskrit_crop_sha256": "4d19b8aded5807cd9e1ff8b0cccaa66758b036cf0008e2c292aadcf47df0a258"
+        },
+        {
+          "id": "gb:fZcHEQAAQBAJ:PT83",
+          "page_id": "PT83",
+          "url": "https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT83",
+          "observed_viewer_url": "https://www.google.co.in/books/edition/Shri_Mudgala_Purana_Khand_2/fZcHEQAAQBAJ?hl=en&gbpv=1&pg=PT83&printsec=frontcover",
+          "verse_range": "1:55–55 and chapter colophon",
+          "sanskrit_crop_sha256": "4482f882290ba66259c7d1702fb1e8d885c5de1b574939fb6e71f3c6ff521bfa"
+        }
+      ],
+      "coverage_boundary": "google-books-khanda2-ch1-ending",
+      "review_status": "accepted",
+      "review_file": "translation/google-books-khanda2-ch1-ending-review.json",
+      "review_sha256": "ca6abd24b9e8ed022db0281eb8a7d9edb71d09bb5dd7608ddd242325aa7b0092",
+      "added_keys": [
+        [
+          2,
+          1,
+          51
+        ],
+        [
+          2,
+          1,
+          52
+        ],
+        [
+          2,
+          1,
+          53
+        ],
+        [
+          2,
+          1,
+          54
+        ],
+        [
+          2,
+          1,
+          55
+        ]
+      ],
+      "boundary_completions": []
     }
   ]
 }
