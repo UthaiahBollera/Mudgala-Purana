@@ -1,8 +1,14 @@
 # ಮುದ್ಗಲ ಪುರಾಣ
 
-Kannada reading draft spanning **two volumes, 55 represented chapters and 2,851 numbered entries**: Khanda 1, Vakratunda Charita, through 54:55 (2,796 entries), plus **Khanda 2 chapter 1 verses 1–55, complete**. Unresolved readings remain; this is not a scholarly certified translation. Narrative is translated into formal Kannada; devotional verses remain Sanskrit transliterated in Kannada script.
+Kannada reading draft spanning **two volumes, 56 represented chapters and 2,876 numbered entries**: Khanda 1, Vakratunda Charita, through 54:55 (2,796 entries), plus **Khanda 2 chapter 1 verses 1–55, complete, and **chapter 2 verses 1–25, partial****. Unresolved readings remain; this is not a scholarly certified translation. Narrative is translated into formal Kannada; devotional verses remain Sanskrit transliterated in Kannada script.
 
 ## Latest source-backed continuation
+
+**Khanda 2 chapter 2 verses 1–25** add 25 independently reviewed narrative entries, preserving all 2,851 earlier entries. The accepted [Google Books review](translation/google-books-khanda2-ch2-opening-review.json) covers original Sanskrit at PT84–PT92. A [local PDF alignment](translation/local-pdf-khanda2-ch2-opening-alignment.json) locates these verses on printed pages 3–4 of the user’s scan and records source hashes without publishing scans or raw OCR. Four semantic questions at **2.2.4, 6, 12 and 17** retain visible Kannada notices; verse 9 typography remains a separate metadata issue. The chapter is partial, with no colophon or inferred thematic title.
+
+[Human-readable review](translation/google-books-khanda2-ch2-opening-review.md). The local OCR is a transcription aid checked against original page pixels. Missing Khanda 2 printed pages 104–112 remain flagged; no source gap is silently filled.
+
+### Previous continuation: Khanda 2 chapter 1 ending
 
 **Khanda 2 chapter 1 is complete through verse 55**, with its original-Sanskrit colophon confirming the title **ಬ್ರಹ್ಮಸೃಷ್ಟಿಯ ಆರಂಭ**. [Google Books fZcHEQAAQBAJ, PT81–PT83](https://books.google.com/books?id=fZcHEQAAQBAJ&pg=PT81) supports these five independently reviewed narrative entries and the colophon. All 2,846 earlier entries are unchanged. The body and contents now mark this chapter complete. Existing unresolved passages remain; the uncertain printed cumulative numeral is flagged as metadata and excluded from the reading text. Actual entries independently total 2,851; cumulative Google Books locations total 39.
 
@@ -29,7 +35,7 @@ The ending, **53:39–49 and 54:1–55**, was checked directly against the origi
 
 The displayed contents now index only the translated body, using matching chapter titles, verse ranges and links. The inherited full-source contents file remains archival evidence and is not the reading edition's navigation.
 
-New work uses Google Books Sanskrit only. Previously supplied PDFs are no longer active sources or fallback references; earlier translations and their dated provenance are retained. Modern English commentary and new artwork are not reproduced. This batch does not claim that the earlier 2,731 entries have all been checked against Google Books.
+The accepted batches below retain their original Google Books Sanskrit evidence. Under the later user instruction, ongoing Khanda 2 work also uses local PDF OCR checked against original scan pixels, with separately recorded provenance and unresolved gaps; earlier translations and their dated provenance are retained. Modern English commentary and new artwork are not reproduced. This batch does not claim that the earlier 2,731 entries have all been checked against Google Books.
 
 - [Unresolved passages and resolution history (JSON)](translation/unresolved-passages.json)
 - [Google Books ending review](translation/google-books-khanda1-ending-review.md)
@@ -47,7 +53,7 @@ Install `requirements.txt`, then run:
 ```
 python3 build_book.py
 python3 build_epub.py
-python3 validate_book.py google-books-khanda2-ch1-ending
+python3 validate_book.py google-books-khanda2-ch2-opening
 python3 validate_source_review.py
 python3 tests/test_reading_contents.py
 python3 tests/test_google_source_validation.py
