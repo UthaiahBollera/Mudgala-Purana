@@ -1,0 +1,181 @@
+"""Isolated schema-2 provenance regression tests; never modify the working data."""
+import copy
+import csv
+import hashlib
+import io
+import json
+from pathlib import Path
+import shutil
+import subprocess
+import tempfile
+import unittest
+
+ROOT = Path(__file__).resolve().parents[1]
+CODE = (ROOT/'validate_source_review.py').read_text().split("raw = (ROOT/'book/index.html').read_text()", 1)[0]
+BOOK_ID = 'Lh0FEQAAQBAJ'
+PAGE = f'gb:{BOOK_ID}:PT897'
+
+class GoogleSourceValidation(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        shutil.copytree(ROOT/'translation', self.root/'translation')
+        (self.root/'.git').symlink_to(ROOT/'.git', target_is_directory=True)
+        (self.root/'build_book.py').symlink_to(ROOT/'build_book.py')
+        reviewed = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', 'dcd504671e5ed48c84344c20174bb7c6b28c37f8', 'translation'], cwd=ROOT).decode().splitlines()
+        for file in (self.root/'translation').glob('batch-*.tsv'):
+            if str(file.relative_to(self.root)) not in reviewed:
+                file.unlink()
+        self.row = {'khanda':'1', 'chapter':'53', 'verse':'40', 'source_pages':PAGE, 'type':'translation', 'text':'ಪರೀಕ್ಷೆ'}
+        self.review = {'source_kind':'google_books', 'book_id':BOOK_ID, 'verses':[{'key':[1,53,40], 'source_pages':PAGE, 'text':'ಪರೀಕ್ಷೆ', 'source_sanskrit':'गणेश', 'review_status':'accepted'}]}
+        self.batch = {'file':'batch-google-test.tsv', 'sha256':'', 'source_kind':'google_books', 'book_id':BOOK_ID, 'source_pages':[{'id':PAGE, 'page_id':'PT897', 'url':f'https://books.google.com/books?id={BOOK_ID}&pg=PT897'}], 'coverage_boundary':'google-books-test', 'review_status':'accepted', 'review_file':'translation/google-test-review.json', 'review_sha256':'', 'added_keys':[[1,53,40]], 'boundary_completions':[]}
+        self.manifest = {'schema_version':2, 'reviewed_commit':'dcd504671e5ed48c84344c20174bb7c6b28c37f8', 'batches':[self.batch]}
+        self.registry = None
+        self.coverage = {'chapter_counts_by_khanda':{}, 'partial_keys':[], 'non_narrative_source_pages':[], 'source_pages':[PAGE]}
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def run_case(self, accepted=False):
+        out = io.StringIO()
+        writer = csv.DictWriter(out, fieldnames=list(self.row), delimiter='\t', lineterminator='\n')
+        writer.writeheader(); writer.writerow(self.row)
+        data = out.getvalue().encode()
+        (self.root/'translation'/self.batch['file']).write_bytes(data)
+        self.batch['sha256'] = hashlib.sha256(data).hexdigest()
+        review_data = json.dumps(self.review).encode()
+        (self.root/self.batch['review_file']).write_bytes(review_data)
+        self.batch['review_sha256'] = hashlib.sha256(review_data).hexdigest()
+        (self.root/'translation/batch-manifest.json').write_text(json.dumps(self.manifest))
+        coverage = json.loads((self.root/'translation/coverage.json').read_text())
+        coverage['google-books-test'] = self.coverage
+        (self.root/'translation/coverage.json').write_text(json.dumps(coverage))
+        if self.registry is not None:
+            (self.root/'translation/unresolved-passages.json').write_text(json.dumps(self.registry))
+        result = subprocess.run(['python3', '-c', f'__file__={str(self.root/"validate_source_review.py")!r}\n'+CODE], capture_output=True, text=True)
+        self.assertEqual(result.returncode == 0, accepted, result.stderr)
+
+    def test_valid_review(self):
+        self.run_case(True)
+
+    def configure_unresolved(self):
+        text = 'ಪರೀಕ್ಷೆ (ಈ ಅರ್ಥಕ್ಕೆ ಹೆಚ್ಚಿನ ಪರಿಶೀಲನೆ ಅಗತ್ಯ.)'
+        issues = [{'status':'open', 'description':'Synthetic unresolved test reading'}]
+        self.row.update(type='translation-review', text=text)
+        self.review['verses'][0].update(text=text, issues=issues, review_status='accepted_with_unresolved_reading')
+        self.coverage['review_required_keys'] = [[1,53,40]]
+        self.registry = {'records':[{'id':'kh1-ch53-v40', 'book_id':BOOK_ID, 'chapter':53,
+            'verse_start':40, 'verse_end':40, 'status':'open_google_books_reading_question',
+            'issues':issues, 'source_sanskrit':'गणेश', 'google_books_pages':['PT897'],
+            'google_books_page_url':f'https://books.google.com/books?id={BOOK_ID}&pg=PT897'}]}
+
+    def test_valid_unresolved(self):
+        self.configure_unresolved()
+        self.run_case(True)
+
+    def test_unresolved_missing_notice(self):
+        self.configure_unresolved()
+        self.row['text'] = self.review['verses'][0]['text'] = 'ಪರೀಕ್ಷೆ'
+        self.run_case()
+
+    def test_unresolved_hidden_notice(self):
+        self.configure_unresolved()
+        self.row['text'] = self.review['verses'][0]['text'] = 'ಪರೀಕ್ಷೆ [(ಪರಿಶೀಲನೆ ಅಗತ್ಯ)]'
+        self.run_case()
+
+    def test_unresolved_missing_registry(self):
+        self.configure_unresolved()
+        self.registry['records'] = []
+        self.run_case()
+
+    def test_unresolved_wrong_registry_url(self):
+        self.configure_unresolved()
+        self.registry['records'][0]['google_books_page_url'] += '0'
+        self.run_case()
+
+    def test_unresolved_missing_coverage(self):
+        self.configure_unresolved()
+        self.coverage['review_required_keys'] = []
+        self.run_case()
+
+    def test_unresolved_falsely_accepted(self):
+        self.configure_unresolved()
+        self.review['verses'][0]['review_status'] = 'accepted'
+        self.run_case()
+
+    def configure_completion(self):
+        old = None
+        for path in [self.root/'translation/narrative.tsv', *sorted((self.root/'translation').glob('batch-*.tsv'))]:
+            with path.open() as stream:
+                for row in csv.DictReader(stream, delimiter='\t'):
+                    if (int(row.get('khanda') or 1), int(row['chapter']), int(row['verse'])) == (1,53,39):
+                        old = {field:row[field] for field in ('source_pages','type','text')}
+        assert old and old['type'] == 'translation-partial'
+        self.row.update(verse='39', source_pages='133,'+PAGE)
+        self.review['verses'][0].update(key=[1,53,39], source_pages=self.row['source_pages'])
+        self.batch['added_keys'] = []
+        self.batch['boundary_completions'] = [{'key':[1,53,39], 'old_row':old,
+            'new_row':{field:self.row[field] for field in old}, 'rationale':'Synthetic test completion',
+            'source_evidence':'Synthetic evidence, not publication content', 'review_status':'accepted'}]
+
+    def test_valid_boundary_completion(self):
+        self.configure_completion()
+        self.run_case(True)
+
+    def test_boundary_drops_historical_source(self):
+        self.configure_completion()
+        self.row['source_pages'] = self.review['verses'][0]['source_pages'] = PAGE
+        self.batch['boundary_completions'][0]['new_row']['source_pages'] = PAGE
+        self.run_case()
+
+    def test_unlisted_boundary_replacement(self):
+        self.configure_completion()
+        self.batch['boundary_completions'] = []
+        self.run_case()
+
+    def test_unknown_page(self):
+        self.row['source_pages'] = self.review['verses'][0]['source_pages'] = f'gb:{BOOK_ID}:PT898'
+        self.run_case()
+
+    def test_wrong_book(self):
+        self.batch['book_id'] = 'wrong'
+        self.run_case()
+
+    def test_empty_page_id(self):
+        self.batch['source_pages'][0]['page_id'] = 'PT'
+        self.run_case()
+
+    def test_wrong_url(self):
+        self.batch['source_pages'][0]['url'] += '0'
+        self.run_case()
+
+    def test_missing_review(self):
+        self.review['verses'] = []
+        self.run_case()
+
+    def test_changed_translation(self):
+        self.review['verses'][0]['text'] = 'ಬದಲಾವಣೆ'
+        self.run_case()
+
+    def test_empty_sanskrit(self):
+        self.review['verses'][0]['source_sanskrit'] = ''
+        self.run_case()
+
+    def test_unlisted_addition(self):
+        self.batch['added_keys'] = []
+        self.run_case()
+
+    def test_numeric_pdf_addition(self):
+        self.row['source_pages'] = self.review['verses'][0]['source_pages'] = '134'
+        self.run_case()
+
+    def test_duplicate_page(self):
+        self.batch['source_pages'].append(copy.deepcopy(self.batch['source_pages'][0]))
+        self.run_case()
+
+    def test_missing_coverage_page(self):
+        self.coverage['source_pages'] = []
+        self.run_case()
+
+if __name__ == '__main__':
+    unittest.main()

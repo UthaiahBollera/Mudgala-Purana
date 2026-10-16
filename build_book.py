@@ -14,17 +14,30 @@ DIST = BASE / 'dist'
 def rows(name):
     with (DATA / (name + '.tsv')).open(encoding='utf-8', newline='') as f:
         return list(csv.DictReader(f, delimiter='\t'))
-toc, front, narrative = rows('contents'), rows('frontmatter'), rows('narrative')
-verse_map={(int(r['chapter']),int(r['verse'])):r for r in narrative}
+def verse_key(row):
+    # Older TSVs intentionally omit khanda and retain their original IDs.
+    return int(row.get('khanda') or 1), int(row['chapter']), int(row['verse'])
+def chapter_key(item):
+    return (1, int(item)) if isinstance(item, int) else (int(item.get('khanda', 1)), int(item['chapter']))
+def source_page_key(page):
+    if page.isdigit():
+        return (0, '', int(page))
+    match = re.fullmatch(r'gb:([^:]+):PT(\d+)', page)
+    assert match, ('Unknown source-page token', page)
+    return (1, match[1], int(match[2]))
+
+def verse_id(khanda, chapter, verse):
+    return ('' if khanda == 1 else f'kh{khanda}-') + f'ch{chapter}-v{verse}'
+front, narrative = rows('frontmatter'), rows('narrative')
+verse_map={verse_key(r):r for r in narrative}
 for batch in sorted(DATA.glob('batch-*.tsv')):
     with batch.open(encoding='utf-8',newline='') as f:
         for r in csv.DictReader(f,delimiter='\t'):
-            verse_map[(int(r['chapter']),int(r['verse']))]=r
+            verse_map[verse_key(r)]=r
 narrative=[verse_map[k] for k in sorted(verse_map)]
-assert len(toc) == 371
-for chapter in sorted({int(r['chapter']) for r in narrative}):
-    verses=[int(r['verse']) for r in narrative if int(r['chapter'])==chapter]
-    assert verses==list(range(1,max(verses)+1)), (chapter,verses)
+for key in sorted({verse_key(r)[:2] for r in narrative}):
+    verses=[int(r['verse']) for r in narrative if verse_key(r)[:2]==key]
+    assert verses==list(range(1,max(verses)+1)), (key,verses)
 KN = str.maketrans('0123456789', '೦೧೨೩೪೫೬೭೮೯')
 def kn(s): return str(s).translate(KN)
 def e(s): return escape(str(s), quote=True)
@@ -48,26 +61,6 @@ def front_page(n):
     titles={1:'ಶ್ರೀ ಮುದ್ಗಲ ಪುರಾಣ',2:'ಮಂಗಳವಚನಗಳು',9:'ಪ್ರಥಮ ಖಂಡ',10:'ಶ್ರೀಮಯೂರೇಶ್ವರ',11:'ಶ್ರೀಮಯೂರೇಶ್ವರ',12:'ಶ್ರೀವಕ್ರತುಂಡ ಮಯೂರೇಶ್ವರ',13:'ಶ್ರೀಅಷ್ಟವಿನಾಯಕ'}
     return section(f'source-{n:02}',titles[n],body,str(n),'illustrated' if n in [1,10,11,12,13] else 'frontmatter',True)
 pages.extend([front_page(1),front_page(2)])
-for src in range(3,9):
-    entries=[r for r in toc if int(r['source_page'])==src]
-    # Small physical groups, with automatic print continuation if a title wraps.
-    for part,start in enumerate(range(0,len(entries),16),1):
-        chunk=entries[start:start+16]
-        body='<table class="contents"><thead><tr><th>ಅಧ್ಯಾಯ</th><th>ವಿಷಯ</th><th>ಮೂಲಪುಟ</th></tr></thead><tbody>'
-        last=None
-        for r in chunk:
-            khanda=r['khanda']
-            if khanda!=last:
-                if khanda!='ಪೂರ್ವ ಖಂಡ':
-                    body+=f'<tr class="khanda"><th colspan="3">{e("ಖಂಡ "+kn(khanda))}</th></tr>'
-                last=khanda
-            body+=f'<tr data-source-page="{src}" data-source-chapter="{r["chapter"]}" data-khanda="{e(khanda)}"><td>{kn(r["chapter"])}</td><td>{e(r["title"])}</td><td>{e(kn(r["original_pages"]))}</td></tr>'
-        body+='</tbody></table>'
-        if src==8 and start+16>=len(entries):
-            for r in front:
-                if r['source_page']=='8':body+=f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(r["text"])}</p>'
-        pages.append(section(f'contents-{src:02}-{part}','ವಿಷಯ ಸೂಚಿ',body,str(src),'contents-page'))
-pages.extend(front_page(n) for n in range(9,14))
 chapter_names={1:'ಶೌನಕ ಮತ್ತು ಸೂತನ ಸಂವಾದ',2:'ದಕ್ಷ ಮತ್ತು ನಂದಿಯ ವಿವಾದ',3:'ಪಾರ್ವತಿಯ ದೇಹತ್ಯಾಗ',4:'ದಕ್ಷನ ಚರಿತ್ರೆ',5:'ಪಾರ್ವತಿ ಮತ್ತು ಶಿವರ ವಿಚಾರ',6:'ಪ್ರಕೃತಿ ಮತ್ತು ಪುರುಷರಿಗೆ ವರಪ್ರದಾನ',7:'ತತ್ತ್ವಗಳು ಮಾಡಿದ ಸ್ತುತಿಯ ವರ್ಣನೆ',8:'ಗುಣೇಶನಿಗೆ ವರಪ್ರದಾನ',9:'ಪ್ರಕೃತಿಯ ವರ್ಣನೆ',10:'ನಾನಾ ಬ್ರಹ್ಮಾಂಡಗಳ ವರ್ಣನೆ',11:'ಪಂಚದೇವತೆಗಳಿಗೆ ವರಪ್ರದಾನ',12:'ಬ್ರಹ್ಮ ಮತ್ತು ವಿಷ್ಣುವಿನ ವಿವಾದ',13:'ಪಂಚದೇವತೆಗಳ ವಿವಾದ',14:'ಗಣೇಶನ ಉದ್ಭವ',15:'ಗಣೇಶನ ಪ್ರಸನ್ನಭಾವ'}
 chapter_ord={1:'ಪ್ರಥಮ',2:'ದ್ವಿತೀಯ',3:'ತೃತೀಯ',4:'ಚತುರ್ಥ',5:'ಪಂಚಮ',6:'ಷಷ್ಠ',7:'ಸಪ್ತಮ',8:'ಅಷ್ಟಮ',9:'ನವಮ',10:'ದಶಮ',11:'ಏಕಾದಶ',12:'ದ್ವಾದಶ',13:'ತ್ರಯೋದಶ',14:'ಚತುರ್ದಶ',15:'ಪಂಚದಶ'}
 chapter_names.update({16:'ಗಾಣೇಶಗೀತೆಯ ಸಾರಕಥನ',17:'ಶಿವ ಮತ್ತು ಶಕ್ತಿಯ ಸಂವಾದದ ಸಮಾಪ್ತಿ',18:'ಮುದ್ಗಲ ಮತ್ತು ದೇವದೂತನ ಸಂವಾದ',19:'ಅಂಗಿರಸ ಮತ್ತು ಮುದ್ಗಲನ ಸಂವಾದ'})
@@ -84,10 +77,86 @@ chapter_names.update({53:'ನಾರಾಯಣ ಮತ್ತು ಯಾಜ್ಞವ�
 chapter_ord.update({51:'ಏಕಪಂಚಾಶ',52:'ದ್ವಿಪಂಚಾಶ',53:'ತ್ರಿಪಂಚಾಶ'})
 chapter_ord.update({41:'ಏಕಚತ್ವಾರಿಂಶ',42:'ದ್ವಿಚತ್ವಾರಿಂಶ',43:'ತ್ರಿಚತ್ವಾರಿಂಶ',44:'ಚತುಶ್ಚತ್ವಾರಿಂಶ',45:'ಪಂಚಚತ್ವಾರಿಂಶ',46:'ಷಟ್ಚತ್ವಾರಿಂಶ',47:'ಸಪ್ತಚತ್ವಾರಿಂಶ',48:'ಅಷ್ಟಚತ್ವಾರಿಂಶ',49:'ಏಕೋನಪಂಚಾಶ',50:'ಪಂಚಾಶ'})
 chapter_ord.update({31:'ಏಕತ್ರಿಂಶ',32:'ದ್ವಾತ್ರಿಂಶ',33:'ತ್ರಯಸ್ತ್ರಿಂಶ',34:'ಚತುಸ್ತ್ರಿಂಶ',35:'ಪಂಚತ್ರಿಂಶ',36:'ಷಟ್ತ್ರಿಂಶ',37:'ಸಪ್ತತ್ರಿಂಶ',38:'ಅಷ್ಟಾತ್ರಿಂಶ',39:'ಏಕೋನಚತ್ವಾರಿಂಶ',40:'ಚತ್ವಾರಿಂಶ'})
-completed_chapters=set(json.loads((DATA/'completed-chapters.json').read_text(encoding='utf-8')))
-chapters=sorted({int(r['chapter']) for r in narrative})
-for chapter in chapters:
-    entries=[r for r in narrative if int(r['chapter'])==chapter]
+metadata_path = DATA/'chapter-metadata.json'
+metadata = json.loads(metadata_path.read_text(encoding='utf-8')) if metadata_path.exists() else {}
+chapter_metadata = {}
+for item in metadata.get('chapters', []):
+    key = chapter_key(item)
+    assert key not in chapter_metadata, ('Duplicate chapter metadata', key)
+    chapter_metadata[key] = item
+interstitials = metadata.get('interstitial_pages', [])
+assert len({item['id'] for item in interstitials}) == len(interstitials), 'Duplicate interstitial IDs'
+def interstitial_page(item):
+    body = ''
+    for block in item.get('blocks', []):
+        text = re.sub(r'\s*\[[^\]]*\]', '', block['text'])
+        if block['type'] == 'image':
+            body += f'<figure><img src="assets/{e(text)}" alt="{e(block.get("alt", "ಮೂಲಗ್ರಂಥದಲ್ಲಿನ ಗಣೇಶನ ಚಿತ್ರ"))}" /></figure>'
+        elif block['type'] == 'mantra':
+            body += f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(text)}</p>'
+        else:
+            body += f'<p class="caption">{e(text)}</p>'
+    return section(item['id'], item['title'], body, str(item['source_page']),
+                   item.get('kind', 'frontmatter'), item.get('hidden_title', True))
+completed_rows = json.loads((DATA/'completed-chapters.json').read_text(encoding='utf-8'))
+completed_chapters = {chapter_key(item) for item in completed_rows}
+assert len(completed_chapters) == len(completed_rows), 'Duplicate completed chapters'
+chapters = sorted({verse_key(r)[:2] for r in narrative})
+assert completed_chapters <= set(chapters), 'Unknown completed chapter'
+assert all(chapter_key(item['after']) in chapters for item in interstitials), 'Unknown interstitial placement'
+def chapter_heading(key):
+    khanda, chapter = key
+    info = chapter_metadata.get(key, {})
+    name = info.get('title', chapter_names.get(chapter) if khanda == 1 else None)
+    ordinal = info.get('ordinal', chapter_ord.get(chapter))
+    assert name and ordinal, ('Chapter title or ordinal missing', key)
+    # Metadata may extend the book, but may not silently replace reviewed headings.
+    if khanda == 1 and chapter in chapter_names:
+        assert name == chapter_names[chapter], ('Existing chapter title changed', key)
+        assert ordinal == chapter_ord[chapter], ('Existing chapter ordinal changed', key)
+    return info, name, ordinal
+
+def chapter_section_id(khanda, chapter, part=1):
+    return f'chapter-{chapter}-{part}' if khanda == 1 else f'chapter-kh{khanda}-{chapter}-{part}'
+
+def chapter_contents_label(key):
+    _, name, _ = chapter_heading(key)
+    label = f'ಖಂಡ {kn(key[0])} · ಅಧ್ಯಾಯ {kn(key[1])} · {name}'
+    if key not in completed_chapters:
+        label += ' (ಭಾಗಶಃ)'
+    return label
+
+# Reading-edition contents describe only the translated body. The inherited
+# scan contents.tsv remains archival evidence, not this edition's navigation.
+for part, start in enumerate(range(0, len(chapters), 16), 1):
+    body = '<p class="caption">ಈ ಓದುವ ಆವೃತ್ತಿಯಲ್ಲಿ ಒಳಗೊಂಡಿರುವ ಅಧ್ಯಾಯಗಳು. ಸಂಖ್ಯೆಗಳು ಇಲ್ಲಿ ನೀಡಿರುವ ಶ್ಲೋಕಗಳ ವ್ಯಾಪ್ತಿಯನ್ನು ಸೂಚಿಸುತ್ತವೆ; ಮೂಲಗ್ರಂಥದ ಪುಟಸಂಖ್ಯೆಗಳಲ್ಲ. ಅಪೂರ್ಣ ಅಧ್ಯಾಯಗಳನ್ನು “ಭಾಗಶಃ” ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ.</p>'
+    body += '<table class="contents"><thead><tr><th>ಅಧ್ಯಾಯ</th><th>ವಿಷಯ</th><th>ಶ್ಲೋಕಗಳು</th></tr></thead><tbody>'
+    last = None
+    for key in chapters[start:start+16]:
+        khanda, chapter = key
+        _, name, _ = chapter_heading(key)
+        if khanda != last:
+            body += f'<tr class="khanda"><th colspan="3">ಖಂಡ {kn(khanda)}</th></tr>'
+            last = khanda
+        verses = [int(r['verse']) for r in narrative if verse_key(r)[:2] == key]
+        status = 'complete' if key in completed_chapters else 'partial'
+        if status == 'partial':
+            name += ' (ಭಾಗಶಃ)'
+        body += (f'<tr data-chapter="{chapter}" data-khanda="{khanda}" data-completion="{status}">'
+                 f'<td>{kn(chapter)}</td><td><a href="#{chapter_section_id(*key)}">{e(name)}</a></td>'
+                 f'<td>{kn(min(verses))}–{kn(max(verses))}</td></tr>')
+    body += '</tbody></table>'
+    pages.append(section(f'contents-reading-{part}', 'ಈ ಆವೃತ್ತಿಯ ವಿಷಯ ಸೂಚಿ', body, kind='contents-page'))
+# The devotional text on scan page 8 keeps its own source provenance.
+page8 = [r for r in front if r['source_page'] == '8' and r['type'] == 'mantra']
+if page8:
+    body = ''.join(f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(r["text"])}</p>' for r in page8)
+    pages.append(section('source-08', 'ಮಂಗಳವಚನಗಳು', body, '8', 'frontmatter', True))
+pages.extend(front_page(n) for n in range(9,14))
+for khanda, chapter in chapters:
+    key = khanda, chapter
+    info, name, ordinal = chapter_heading(key)
+    entries=[r for r in narrative if verse_key(r)[:2]==key]
     groups=[]; group=[]; length=0
     for r in entries:
         size=len(r['text'])
@@ -98,20 +167,31 @@ for chapter in chapters:
     for part,chunk in enumerate(groups,1):
         body=''
         if part==1:
-            if chapter in chapter_names:body+=f'<h3>{e(chapter_names[chapter])}</h3>'
-            if chapter==1:
+            body+=f'<h3>{e(name)}</h3>'
+            if key==(1,1):
                 body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಓಂ ನಮಃ ಶ್ರೀಸ್ವಾನಂದೇಶಗಣೇಶಾಯ ಪೂರ್ಣಯೋಗಾತ್ಮನೇ ॥</p>'
                 body+='<p class="caption">ಶ್ರೀಮುದ್ಗಲಪುರಾಣದ ಆರಂಭ</p>'
             body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥</p>'
         for r in chunk:
             mantra=r['type']=='mantra'
             reading_text=re.sub(r'\s*\[[^\]]*\]', '', r['text'])
-            body+=f'<p id="ch{chapter}-v{r["verse"]}" class="'+('mantra' if mantra else 'narrative')+f'" lang="'+('sa-Knda' if mantra else 'kn')+f'" data-source-pages="{r["source_pages"]}" data-treatment="{r["type"]}">{e(reading_text)}</p>'
+            body+=f'<p id="{verse_id(khanda,chapter,r["verse"])}" class="'+('mantra' if mantra else 'narrative')+f'" lang="'+('sa-Knda' if mantra else 'kn')+f'" data-source-pages="{r["source_pages"]}" data-treatment="{r["type"]}">{e(reading_text)}</p>'
         # A colophon is generated only where the supplied scans show one.
-        if part==len(groups) and chapter in completed_chapters:
-            body+=f'<p class="colophon">ಓಂ. ಶ್ರೀಮುದ್ಗಲ ಮಹಾಪುರಾಣವೆಂಬ ಪುರಾಣೋಪನಿಷತ್ತಿನ ಪ್ರಥಮ ಖಂಡವಾದ ವಕ್ರತುಂಡಚರಿತ್ರೆಯಲ್ಲಿ “{e(chapter_names[chapter])}” ಎಂಬ {chapter_ord[chapter]} ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.</p>'
-        source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=int)
-        pages.append(section(f'chapter-{chapter}-{part}',chapter_ord[chapter]+' ಅಧ್ಯಾಯ',body,','.join(source_pages),'chapter',part>1))
+        if part==len(groups) and key in completed_chapters:
+            if khanda == 1:
+                body+=f'<p class="colophon">ಓಂ. ಶ್ರೀಮುದ್ಗಲ ಮಹಾಪುರಾಣವೆಂಬ ಪುರಾಣೋಪನಿಷತ್ತಿನ ಪ್ರಥಮ ಖಂಡವಾದ ವಕ್ರತುಂಡಚರಿತ್ರೆಯಲ್ಲಿ “{e(name)}” ಎಂಬ {ordinal} ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.</p>'
+            else:
+                assert info.get('colophon'), ('Source-confirmed colophon missing', key)
+                body+=f'<p class="colophon">{e(info["colophon"])}</p>'
+        source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=source_page_key)
+        section_id = chapter_section_id(khanda, chapter, part)
+        chapter_page = section(section_id, info.get('section_title', ordinal+' ಅಧ್ಯಾಯ'),body,','.join(source_pages),'chapter',part>1)
+        if part == 1:
+            chapter_page = chapter_page.replace('<section ', f'<section data-toc-label="{e(chapter_contents_label(key))}" ', 1)
+        pages.append(chapter_page)
+    for item in interstitials:
+        if chapter_key(item['after']) == key and item.get('render', True):
+            pages.append(interstitial_page(item))
 css='''@font-face{font-family:"Tiro Kannada";src:url("assets/TiroKannada-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
 :root{--paper:#f4ead6;--ink:#3d3027;--red:#8c302b}*{box-sizing:border-box}body{margin:0;background:#30201e;color:var(--ink);font-family:"Tiro Kannada",serif;font-synthesis:none}
 .book{counter-reset:leaf;display:grid;gap:32px;padding:28px 18px 50px}.page{counter-increment:leaf;position:relative;width:min(740px,100%);min-height:1046px;margin:auto;background:var(--paper);padding:92px 64px 90px;box-shadow:0 16px 40px #140b0b88}.page::before{content:"ಶ್ರೀ ಮುದ್ಗಲ ಪುರಾಣ";position:absolute;left:64px;right:64px;top:32px;text-align:center;border-bottom:1px solid #9c704475;padding-bottom:12px;font-size:12px;color:#624939}.page-number{position:absolute;bottom:32px;left:0;right:0;text-align:center;color:var(--red);font-size:14px}.page-number::after{content:counter(leaf,kannada)}
@@ -137,4 +217,4 @@ for path in sorted(ASSETS.iterdir()):
 licence=(ASSETS/'TiroKannada-OFL.txt').read_text().replace('--','- -')
 standalone=standalone.replace('</head>','<!-- Embedded font licence: '+licence+' -->\n</head>')
 (DIST/'mudgala_purana_kannada.html').write_text(standalone,encoding='utf-8')
-print(f'Built {len(pages)} book sections; 371 contents entries; {len(narrative)} unique numbered entries; {len(chapters)} chapters represented.')
+print(f'Built {len(pages)} book sections; {len(chapters)} reading-edition contents entries; {len(narrative)} unique numbered entries; {len(chapters)} chapters represented.')

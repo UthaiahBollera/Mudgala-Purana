@@ -5,6 +5,8 @@ from zipfile import ZipFile, ZIP_STORED, ZIP_DEFLATED
 from datetime import datetime, timezone
 from uuid import uuid5, NAMESPACE_URL
 import mimetypes
+import json
+import re
 
 BASE=Path(__file__).resolve().parent
 SOURCE=BASE/'book'
@@ -29,12 +31,20 @@ def document(title,children):
 nav=etree.Element('{%s}nav'%X);nav.set('{%s}type'%E,'toc')
 etree.SubElement(nav,'{%s}h1'%X).text='ವಿಷಯ ಸೂಚಿ'
 ol=etree.SubElement(nav,'{%s}ol'%X)
+# HTML fragment links must cross EPUB spine documents after splitting.
+id_documents = {el.get('id'): section.get('id')+'.xhtml'
+                for section in sections for el in section.iter() if el.get('id')}
+for section in sections:
+    for anchor in section.xpath('.//a[starts-with(@href, "#")]'):
+        target = anchor.get('href')[1:]
+        assert target in id_documents, ('Unknown internal link', target)
+        anchor.set('href', id_documents[target]+'#'+target)
 for i,section in enumerate(sections):
     id=section.get('id');name=id+'.xhtml';title=section.get('data-title') or 'ಮುದ್ಗಲ ಪುರಾಣ'
     files[name]=document(title,[section]);items.append((f's{i}',name,'application/xhtml+xml',''))
     if not id.startswith(('chapter-','contents-')) or id.endswith('-1'):
         li=etree.SubElement(ol,'{%s}li'%X)
-        label=title if not id.startswith('contents-') else title+' ('+section.get('data-source-pages')+')'
+        label=section.get('data-toc-label') or title
         etree.SubElement(li,'{%s}a'%X,href=name).text=label
 files['nav.xhtml']=document('ವಿಷಯ ಸೂಚಿ',[nav]);items.append(('nav','nav.xhtml','application/xhtml+xml','nav'))
 files['styles.css']='''@font-face{font-family:"Tiro Kannada";src:url("assets/TiroKannada-Regular.ttf") format("truetype");font-weight:400;font-style:normal}
@@ -55,7 +65,18 @@ def dc(tag,text,id=None):
     node=etree.SubElement(metadata,'{http://purl.org/dc/elements/1.1/}'+tag);node.text=text
     if id:node.set('id',id)
 dc('identifier','urn:uuid:'+str(uuid5(NAMESPACE_URL,'https://github.com/UthaiahBollera/Mudgala-Purana')),'book-id')
-dc('title','ಮುದ್ಗಲ ಪುರಾಣ');dc('language','kn');dc('source','1 TO 25(1).pdf; all 20 pages. 26 TO 55(2).pdf; all 30 pages. 55 TO 76(1).pdf; all 21 pages. 77 TO 98(1).pdf; all 22 pages. 99 TO 118(1).pdf; all 20 pages. 119 TO 138(1).pdf; all 20 pages.')
+source_description = '1 TO 25(1).pdf; all 20 pages. 26 TO 55(2).pdf; all 30 pages. 55 TO 76(1).pdf; all 21 pages. 77 TO 98(1).pdf; all 22 pages. 99 TO 118(1).pdf; all 20 pages. 119 TO 138(1).pdf; all 20 pages.'
+manifest_path = BASE/'translation/batch-manifest.json'
+if manifest_path.exists():
+    manifest_data = json.loads(manifest_path.read_text(encoding='utf-8'))
+    for batch in manifest_data['batches']:
+        if batch.get('source_kind') == 'google_books':
+            source_description += (f' Google Books {batch["book_id"]}; '
+                                   f'page IDs {", ".join(page["id"] for page in batch["source_pages"])}.')
+        else:
+            start, end = batch['pdf_page_range']
+            source_description += f' {batch["source_pdf"]}; PDF pages {start}–{end}.'
+dc('title','ಮುದ್ಗಲ ಪುರಾಣ');dc('language','kn');dc('source',source_description)
 dc('description','Kannada reading draft. Narrative is translated; devotional passages are transliterated without translation. Editorial uncertainties and batch boundaries are recorded outside the reading text.')
 for prop,value in [('dcterms:modified',datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')),('rendition:layout','reflowable')]:etree.SubElement(metadata,'{%s}meta'%P,property=prop).text=value
 manifest=etree.SubElement(root,'{%s}manifest'%P)

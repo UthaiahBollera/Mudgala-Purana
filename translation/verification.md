@@ -1,9 +1,10 @@
-# Current source-reviewed reading draft
+# Current verification checkpoint
 
-Review date: 15 October 2026. All 133 uploaded source pages remain represented. The book contains 2731 numbered entries: complete chapters 1–52 and chapter 53 through partial 39. 1676 verse texts and 10 chapter headings were corrected by comparison with first-khanda Sanskrit; all applied corrections received a separate comparison pass.
+- 2,796 numbered entries; Khanda 1 chapters 1–54 represented through 54:55.
+- Google Books ending batch: 66 independently reviewed records, 65 additions, one logged completion of 53:39.
+- Three new readings remain explicitly unresolved: 53:41, 54:10, 54:53. Their Kannada notices stay visible and their exact PT locations are in `unresolved-passages.json`.
+- Historical review files and all 2,730 other earlier verse texts, treatments, IDs and source mappings remain unchanged.
+- Source: original Sanskrit images at Google Books Lh0FEQAAQBAJ, PT881–884 and PT886–902. No new PDF source, English commentary or artwork used.
+- Contents derive from the actual translated body; HTML and EPUB chapter links are checked.
 
-See [the complete source-review summary](source-review/README.md), [chapter checklist](source-review/checklist.json), [correction provenance](source-review/corrections.json) and [remaining questions](source-review/unresolved.md). 152 numbered-verse issue records remain unresolved or partially resolved. Source-page coverage and structural checks do not certify philological accuracy.
-
-Chapter 1:15's previously unreadable first portion was recovered from the online Sanskrit. Chapter 53:39 remains partial. No unknown continuation was invented. Plausible edition differences were held for scan comparison. The original scan edition could not be fully corroborated. Google Books volume 1 was identified, but only title/chapter-heading/preface pages were inspected; the user-suggested volume 2 is a different khanda.
-
-The final HTML and EPUB are rebuilt and structurally checked. Full EPUBCheck, target-reader testing and new visual/print QA are not claimed. Previous PDF batch review logs are historical and may describe readings superseded by this source review. The previously published site is unchanged.
+Run the build and validation commands in the repository README. Automated checks establish structural/provenance consistency, not scholarly certification. Full EPUBCheck, browser viewport rendering and reader-device testing are not claimed by this checkpoint.
