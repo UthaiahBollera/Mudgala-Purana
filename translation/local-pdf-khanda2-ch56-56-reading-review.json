@@ -1,0 +1,1721 @@
+{
+  "schema_version": 1,
+  "source_kind": "local_pdf",
+  "source_priority": "scanned_pdf_primary_ocr_aid_google_books_reference",
+  "primary_source": {
+    "filename": "265. To.  305. ( 2 ).pdf",
+    "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+    "pdf_page": 5,
+    "printed_page": 117,
+    "audit_global_page": 269,
+    "image_sha256": "58d92753bfcd6405695afead51698b0350ed4be34d0f3017a6f521422b8a5d41",
+    "printed_page_verified": true
+  },
+  "additional_source_pdfs": [],
+  "source_pages": [
+    {
+      "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "pdf_page": 5,
+      "printed_page": 117,
+      "handwritten_page": 269,
+      "printed_page_verified": true,
+      "image_sha256": "58d92753bfcd6405695afead51698b0350ed4be34d0f3017a6f521422b8a5d41",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+    },
+    {
+      "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "pdf_page": 6,
+      "printed_page": 118,
+      "handwritten_page": 270,
+      "printed_page_verified": true,
+      "image_sha256": "f01f37f0029488f22ad46813973e7a3ce649af45a9f4db8fe0152d2e56aa8425",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+    }
+  ],
+  "scope": "Original 265. To.  305. ( 2 ).pdf pages05-06; independently reviewed complete verses; all source and linguistic holds retained; trailing candidate fragment deferred to its later completed packet, no fabrication.",
+  "source_method": "Primary PDF pixels frozen; independent language review; explicit boundary completion and joins counted once.",
+  "verses": [
+    {
+      "key": [
+        2,
+        56,
+        1
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "दक्ष उवाच । प्रह्लादेन श्रुतं पूर्णं मदासुरचरित्रकम् । पुनः किं च कृतं योगिंस्तद्वद त्वं महामते ॥१॥",
+      "text": "ದಕ್ಷನು ಹೇಳಿದನು: ಎಲೈ ಮಹಾಮತಿಯಾದ ಯೋಗಿಯೇ, ಪ್ರಹ್ಲಾದನಿಂದ ಪೂರ್ಣವಾದ ಮದಾಸುರಚರಿತ್ರವು ಕೇಳಲ್ಪಟ್ಟಿತು; ಬಳಿಕ ಅವನಿಂದ ಏನು ಮಾಡಲ್ಪಟ್ಟಿತು ಎಂಬುದನ್ನು ನೀನು ಹೇಳು ॥ ೧ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        2
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "श्रुत्वा कथामृतं पूर्णं हर्षश्चेतसि मुद्गल । जाय[?:N265-P5-U-01] नाऽत्र संदेहो न तृप्तोऽहं भवाम्यतः ॥२॥",
+      "text": "ಎಲೈ ಮುದ್ಗಲನೇ, ಪೂರ್ಣವಾದ ಕಥಾಮೃತವನ್ನು ಕೇಳಿ ಚಿತ್ತದಲ್ಲಿ ಹರ್ಷವು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-01), ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ; ಆದ್ದರಿಂದ ನಾನು ತೃಪ್ತನಾಗುತ್ತಿಲ್ಲ ॥ ೨ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-01",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 2,
+          "verse": "2.56.2",
+          "position": "word 6, akshara 3 (जाय[?])",
+          "visual_notes": "Small ink dot/fleck appears to the right of the e-matra above ते (जायतें vs जायते)",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            2
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        3
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "सूत उवाच । दक्षस्य वचनं श्रुत्वा मुद्गलो हर्षितोऽभवत् । उवाच तं महाभागं तत्त्वं शृणु च शौनक ॥३॥",
+      "text": "ಸೂತನು ಹೇಳಿದನು: ದಕ್ಷನ ಮಾತನ್ನು ಕೇಳಿ ಮುದ್ಗಲನು ಹರ್ಷಿತನಾದನು ಮತ್ತು ಆ ಮಹಾಭಾಗನಿಗೆ ಹೇಳಿದನು; ಎಲೈ ಶೌನಕನೇ, ಆ ತತ್ತ್ವವನ್ನು ನೀನೂ ಕೇಳು ॥ ೩ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        4
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "मुद्गल उवाच । धन्योऽसि दक्ष सारज्ञ गणेशस्य कथामृतम् । श्रुत्वा हृष्यसि ते पुण्यं कथयामि कथानकम् ॥४॥",
+      "text": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಎಲೈ ಸಾರಜ್ಞನಾದ ದಕ್ಷನೇ, ನೀನು ಧನ್ಯನಾಗಿರುವೆ; ಗಣೇಶನ ಕಥಾಮೃತವನ್ನು ಕೇಳಿ ಸಂತೋಷಪಡುತ್ತಿರುವೆ; ನಿನಗೆ ಪುಣ್ಯವಾದ ಕಥಾನಕವನ್ನು ಹೇಳುತ್ತೇನೆ ॥ ೪ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        5
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "मदासुरस्य संशांतिं श्रुत्वा पप्रच्छ दैत्यपः । प्रह्लादस्तं गृत्समदं विनयावनतः कथाम् ॥५॥",
+      "text": "ಮದಾಸುರನ ಸಂಶಾಂತಿಯನ್ನು ಕೇಳಿ ದೈತ್ಯಪತಿಯಾದ ಪ್ರಹ್ಲಾದನು ವಿನಯದಿಂದ ಬಾಗಿದವನಾಗಿ ಆ ಗೃತ್ಸಮದನನ್ನು ಕಥೆಯನ್ನು ಕುರಿತು ಕೇಳಿದನು ॥ ೫ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        6
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "प्रल्हाद उवाच । महद्भाग्यं [?:N265-P5-U-02]ने मे यद्येन संश्रावितं त्वया । एकदंतस्य माहात्म्यं परमानंददायकम् ॥६॥",
+      "text": "ಪ್ರಹ್ಲಾದನು ಹೇಳಿದನು: ಎಲೈ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-02), ಯಾವ ಕಾರಣದಿಂದ ನಿನ್ನಿಂದ ಪರಮಾನಂದದಾಯಕವಾದ ಏಕದಂತನ ಮಾಹಾತ್ಮ್ಯವು ಕೇಳಿಸಲ್ಪಟ್ಟಿತೋ ಅದು ನನ್ನ ಮಹದ್ಭಾಗ್ಯವು ॥ ೬ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-02",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 5,
+          "verse": "2.56.6",
+          "position": "word 7, akshara 1 ([?]ने)",
+          "visual_notes": "Initial akshara has a slightly curved/smudged left loop under u-matra, ambiguous between मु and सु",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            6
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        7
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "तथापि न सुतृप्तोऽहं श्रुत्वा ज्ञानप्रदायकम् । चरितं च पुनस्त्वं मे गणेशस्य कथां वद ॥७॥",
+      "text": "ಆದರೂ ಜ್ಞಾನಪ್ರದಾಯಕವಾದ ಚರಿತೆಯನ್ನು ಕೇಳಿ ನಾನು ಪೂರ್ಣವಾಗಿ ತೃಪ್ತನಾಗಿಲ್ಲ; ನೀನು ಪುನಃ ನನಗೆ ಗಣೇಶನ ಕಥೆಯನ್ನು ಹೇಳು ॥ ೭ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        8
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "कश्यपस्य गृहे देवः कथं पुत्रत्वमागतः । कथं दैत्यौ हतौ योगिन् विस्तरेण वदस्व माम् ॥८॥",
+      "text": "ಎಲೈ ಯೋಗಿಯೇ, ಕಶ್ಯಪನ ಮನೆಯಲ್ಲಿ ದೇವನು ಹೇಗೆ ಪುತ್ರತ್ವವನ್ನು ಹೊಂದಿದನು? ಮತ್ತು ಆ ಇಬ್ಬರು ದೈತ್ಯರು ಹೇಗೆ ಕೊಲ್ಲಲ್ಪಟ್ಟರು? ಇದನ್ನು ನನಗೆ ವಿಸ್ತಾರವಾಗಿ ಹೇಳು ॥ ೮ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        9
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "कथं स शिवपुत्रोऽभूत् कथं दुर्मतिकं प्र[?:N265-P5-U-03]ः । अहनत्तं वद[?:N265-P5-U-04] त्वं सर्वज्ञोऽसि कृपानिधे ॥९॥",
+      "text": "ಅವನು ಹೇಗೆ ಶಿವಪುತ್ರನಾದನು? ಮತ್ತು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-03) ದುರ್ಮತಿಯನ್ನು ಹೇಗೆ ಸಂಹರಿಸಿದನು? ಎಲೈ ಕೃಪಾನಿಧಿಯೇ, ನೀನು ಸರ್ವಜ್ಞನಾಗಿರುವೆ, ಅದನ್ನು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-04) ॥ ೯ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-03",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 8,
+          "verse": "2.56.9",
+          "position": "word 2, akshara 2 (प्र[?]ः)",
+          "visual_notes": "Left loop of भ above u-matra is slightly closed/smudged, resembling सु (प्रसुः vs प्रभुः)",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            9
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        },
+        {
+          "id": "N265-P5-U-04",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 8,
+          "verse": "2.56.9",
+          "position": "word 5, akshara 3 (वद[?])",
+          "visual_notes": "Subscript in conjunct after स is heavily inked/angular, visually ambiguous between स्व and स्त्र",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            9
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        10
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "कथं गणासुरं दैत्यं कापिलो हतवान् पुरा । एतत् सर्वं वद स्वामिन्नेकदंतचरित्रकम् ॥१०॥",
+      "text": "ಹಿಂದೆ ಕಾಪಿಲನು ಗಣಾಸುರನೆಂಬ ದೈತ್ಯನನ್ನು ಹೇಗೆ ಕೊಂದನು? ಎಲೈ ಸ್ವಾಮಿಯೇ, ಈ ಸಮಸ್ತ ಏಕದಂತಚರಿತ್ರವನ್ನೂ ಹೇಳು ॥ ೧೦ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        11
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "भवादृशा महाभागा नौकारूपेण संस्थिताः । संसारा[?:N265-P5-U-05]ौ नराणां वै मज्जतां तरणाय तु ॥११॥",
+      "text": "(ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-05) ಮುಳುಗುತ್ತಿರುವ ಮನುಷ್ಯರು ದಾಟುವುದಕ್ಕಾಗಿ ತಮ್ಮಂತಹ ಮಹಾಭಾಗರು ದೋಣಿಯ ರೂಪದಿಂದ ನೆಲೆಸಿದ್ದಾರೆ ॥ ೧೧ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-05",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 9,
+          "verse": "2.56.11",
+          "position": "word 6, akshara 4 (संसारा[?]ौ)",
+          "visual_notes": "Medial conjunct before au-matra is compressed/smudged (ब्धौ vs व्यौ)",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            11
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        12
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "मुद्गल उवाच । एवं पृष्टो महायोगी तमुवाच सुहर्षितः । गुणैर्युक्तं गृत्समदः प्रह्लादं भावधारकम् ॥१२॥",
+      "text": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಹೀಗೆ ಕೇಳಲ್ಪಟ್ಟ ಮಹಾಯೋಗಿಯಾದ ಗೃತ್ಸಮದನು ಅತಿ ಹರ್ಷಿತನಾಗಿ ಗುಣಯುಕ್ತನೂ ಭಾವಧಾರಕನೂ ಆದ ಆ ಪ್ರಹ್ಲಾದನಿಗೆ ಹೇಳಿದನು ॥ ೧೨ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        13
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "गृत्समद उवाच । शृणु प्रह्लाद यत् पृष्टं तत्सर्वं कथयामि ते । सुखदं च समासेन एकदंतचरित्रकम् ॥१३॥",
+      "text": "ಗೃತ್ಸಮದನು ಹೇಳಿದನು: ಎಲೈ ಪ್ರಹ್ಲಾದನೇ, ಕೇಳು; ನೀನು ಏನನ್ನು ಕೇಳಿರುವೆಯೋ ಆ ಸುಖದಾಯಕವಾದ ಸಮಸ್ತ ಏಕದಂತಚರಿತ್ರವನ್ನು ಸಂಕ್ಷೇಪವಾಗಿ ನಿನಗೆ ಹೇಳುತ್ತೇನೆ ॥ ೧೩ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        14
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "पुरा कृतयुगे दैत्य गौडदेशे बभूव ह । नगरे गौडसंज्ञे च रौद्रकेतुस्तपोधनः ॥१४॥",
+      "text": "ಎಲೈ ದೈತ್ಯನೇ, ಹಿಂದೆ ಕೃತಯುಗದಲ್ಲಿ ಗೌಡದೇಶದಲ್ಲಿ ಗೌಡವೆಂಬ ಹೆಸರಿನ ನಗರದಲ್ಲಿ ರೌದ್ರಕೇತುವೆಂಬ ತಪೋಧನನಿದ್ದನು ॥ ೧೪ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        15
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "तस्य पत्नी महाभागा शारदा रूपशालिनी । गर्भयुक्ता कदाचित् सा [?:N265-P5-U-06]भू[?:N265-P5-U-07] हर्षिताऽभवत् ॥१५॥",
+      "text": "ಅವನ ಪತ್ನಿಯು ಮಹಾಭಾಗಳೂ ರೂಪಶಾಲಿನಿಯೂ ಆದ ಶಾರದೆಯು; ಒಮ್ಮೆ ಅವಳು ಗರ್ಭಿಣಿಯಾಗಿ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-06)(ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-07) ಹರ್ಷಿತಳಾದಳು ॥ ೧೫ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-06",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 13,
+          "verse": "2.56.15",
+          "position": "word 1, akshara 1 ([?]भू[?])",
+          "visual_notes": "Initial akshara has a slightly open top-left contour resembling ध or ब",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            15
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        },
+        {
+          "id": "N265-P5-U-07",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 13,
+          "verse": "2.56.15",
+          "position": "word 1, akshara 3 ([?]भू[?])",
+          "visual_notes": "Third akshara is printed with an e-matra stroke above व (बभूवे vs बभूव)",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            15
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        16
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "समये सुषुवे पुत्रौ यमलौ लोकभीतिदौ । ना[?:N265-P5-U-08] चक्रे द्विजातिः स देवांतकनरांतकौ ॥१६॥",
+      "text": "ಸಕಾಲದಲ್ಲಿ ಅವಳು ಲೋಕಕ್ಕೆ ಭೀತಿಯನ್ನುಂಟುಮಾಡುವ ಅವಳಿ ಪುತ್ರರನ್ನು ಹೆತ್ತಳು; ಆ ದ್ವಿಜಾತಿಯು ಅವರಿಬ್ಬರನ್ನು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-08) ದೇವಾಂತಕ ಮತ್ತು ನರಾಂತಕ ಎಂಬುದಾಗಿ ಮಾಡಿದನು ॥ ೧೬ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-08",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 13,
+          "verse": "2.56.16",
+          "position": "word 8, akshara 2 (ना[?])",
+          "visual_notes": "Conjunct before long a-matra is compressed/smudged, visually ambiguous between म्ना and ना",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            16
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        17
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "कदाचिन्नारदेनाऽपि गत्वा तत्र शिवस्य च । पंचाक्षरेणोपदिष्टौ चेरतुः परमं तपः ॥१७॥",
+      "text": "ಒಮ್ಮೆ ಅಲ್ಲಿಗೆ ಬಂದ ನಾರದನಿಂದಲೂ ಶಿವನ ಪಂಚಾಕ್ಷರಮಂತ್ರದ ಉಪದೇಶವನ್ನು ಪಡೆದ ಅವರಿಬ್ಬರೂ ಪರಮ ತಪಸ್ಸನ್ನು ಆಚರಿಸಿದರು ॥ ೧೭ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        18
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "दिव्यवर्षसहस्रैस्तु संतुष्टः स सदाशिवः । अ[?:N265-P5-U-09]ं गुणरूपेभ्यो प्रददौ दैत्ययोः परम् ॥१८॥",
+      "text": "ಸಾವಿರಾರು ದಿವ್ಯವರ್ಷಗಳಿಂದ ಸಂತುಷ್ಟನಾದ ಆ ಸದಾಶಿವನು ಆ ಇಬ್ಬರು ದೈತ್ಯರಿಗೆ ಗುಣರೂಪಗಳಿಂದ ಪರಮವಾದ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-09) ಕೊಟ್ಟನು ॥ ೧೮ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-09",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 15,
+          "verse": "2.56.18",
+          "position": "word 3, akshara 2-3 (अ[?]ं)",
+          "visual_notes": "Vertical stem of भ is slightly faint/shortened next to य, making भयं visually resemble भ्यं",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            18
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        19
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "वरगर्वेण दैत्येंद्रौ जित्वा सर्वं चराचरम् । ततस्तु कर्मनाशं तौ चक्रतुः पृथिवीतले ॥१९॥",
+      "text": "ವರದ ಗರ್ವದಿಂದ ಆ ದೈತ್ಯೇಂದ್ರರಿಬ್ಬರೂ ಸಮಸ್ತ ಚರಾಚರವನ್ನು ಗೆದ್ದು, ಬಳಿಕ ಪೃಥ್ವೀತಲದಲ್ಲಿ ಕರ್ಮನಾಶವನ್ನು ಮಾಡಿದರು ॥ ೧೯ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        20
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "न स्वाहा न स्वधा कुत्र न वषट्कार एव च । अभवन्नमराः सर्वे क्षुधितास्तृषितास्ततः ॥२०॥",
+      "text": "ಎಲ್ಲಿಯೂ ಸ್ವಾಹಾಕಾರವಾಗಲಿ, ಸ್ವಧಾಕಾರವಾಗಲಿ, ವಷಟ್ಕಾರವಾಗಲಿ ಇಲ್ಲದಂತಾಯಿತು; ಅದರಿಂದ ದೇವತೆಗಳೆಲ್ಲರೂ ಹಸಿದವರೂ ಬಾಯಾರಿದವರೂ ಆದರು ॥ ೨೦ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        21
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "तैः सर्वैः प्रार्थितो देव एकदंतः प्रतापवान् । तपसोग्रेण संतुष्टो बभूव प्रददौ वरम् ॥२१॥",
+      "text": "ಅವರೆಲ್ಲರಿಂದಲೂ ಪ್ರಾರ್ಥಿಸಲ್ಪಟ್ಟ ಪ್ರತಾಪವಂತನಾದ ಏಕದಂತ ದೇವನು ಅವರ ಉಗ್ರವಾದ ತಪಸ್ಸಿನಿಂದ ಸಂತುಷ್ಟನಾಗಿ ವರವನ್ನು ಕೊಟ್ಟನು ॥ ೨೧ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        22
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "कश्यपस्य च पुत्रोऽहं भविष्यामि प्रसिद्धये । दैत्येंद्रयोर्वधस्यैवमुक्त्वा गणपति[?:N265-P5-U-10]यौ ॥२२॥",
+      "text": "«ಇಬ್ಬರು ದೈತ್ಯೇಂದ್ರರ ವಧೆಯ ಸಿದ್ಧಿಗಾಗಿ ನಾನು ಕಶ್ಯಪನ ಪುತ್ರನಾಗುವೆನು» ಎಂದು ಹೇಳಿ ಗಣಪತಿಯು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-10) ॥ ೨೨ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-10",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 18,
+          "verse": "2.56.22",
+          "position": "word 5, akshara 5 (गणपति[?]यौ)",
+          "visual_notes": "Repha hook above the first य in ययौ is very faint/partially unprinted",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            22
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        23
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "अथ देवजनित्री सा कदाचित् कश्यपं मुनिम् । जगाद [?:N265-P5-U-11]स्यसंयुक्ता ह्यदितिः कृतसंपुटा ॥२३॥",
+      "text": "ಬಳಿಕ ದೇವಮಾತೆಯಾದ ಆ ಅದಿತಿಯು ಒಮ್ಮೆ ಕೈಮುಗಿದು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P5-U-11) ಕೂಡಿದವಳಾಗಿ ಕಶ್ಯಪ ಮುನಿಗೆ ಹೇಳಿದಳು ॥ ೨೩ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P5-U-11",
+          "pdf_page": 5,
+          "printed_page": "११७",
+          "handwritten_page": 269,
+          "line": 19,
+          "verse": "2.56.23",
+          "position": "word 2, akshara 1 ([?]स्यसंयुक्ता)",
+          "visual_notes": "Initial akshara before स्य has a compressed lower curve, ambiguous between हा and दा",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            23
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        24
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "इंद्रो विष्णुश्च सूर्यश्च देवाः पुत्राश्च मेऽभवन् । स्वामिन् ब्रह्म कथं पुत्रः संभविष्यति मे परम् ॥२४॥",
+      "text": "«ಇಂದ್ರನೂ ವಿಷ್ಣುವೂ ಸೂರ್ಯನೂ ಹಾಗೂ ದೇವತೆಗಳೂ ನನಗೆ ಪುತ್ರರಾದರು; ಎಲೈ ಸ್ವಾಮಿಯೇ, ಪರಮ ಬ್ರಹ್ಮವು ನನಗೆ ಹೇಗೆ ಪುತ್ರನಾಗಿ ಜನಿಸುವುದು?» ॥ ೨೪ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        25
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p5",
+      "source_sanskrit": "तदा मे निश्चलं चेतो भवेच्चैव न संशयः । तस्य सेवां कर्तुमीहे तत्रोपायं वद प्रभो ॥२५॥",
+      "text": "«ಆಗಲೇ ನನ್ನ ಚಿತ್ತವು ನಿಶ್ಚಲವಾಗುವುದು, ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ; ಆತನ ಸೇವೆಯನ್ನು ಮಾಡಲು ಇಚ್ಛಿಸುತ್ತೇನೆ, ಎಲೈ ಪ್ರಭುವೇ, ಅದಕ್ಕೆ ಉಪಾಯವನ್ನು ಹೇಳು.» ॥ ೨೫ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        26
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "तस्यास्तद्वचनं श्रुत्वा गणेशस्य मनुं ददौ । अष्टाक्षरं तया तेनाराधितो ह्येकदंतकः ॥२६॥",
+      "text": "ಅವಳ ಆ ಮಾತನ್ನು ಕೇಳಿ ಅವನು ಗಣೇಶನ ಅಷ್ಟಾಕ್ಷರ ಮಂತ್ರವನ್ನು ಕೊಟ್ಟನು; ಅದರಿಂದ ಅವಳಿಂದ ಏಕದಂತನು ಆರಾಧಿಸಲ್ಪಟ್ಟನು ॥ ೨೬ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        27
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "सहस्रवर्षपू[?:N265-P6-U-01] तां वरदः स समाययौ । तया पुत्रो भव स्वामिन् याचितः स तथाऽकरोत् ॥२७॥",
+      "text": "ಸಹಸ್ರವರ್ಷ(ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-01) ವರದನಾದ ಅವನು ಅವಳ ಬಳಿಗೆ ಬಂದನು; «ಎಲೈ ಸ್ವಾಮಿಯೇ, ಪುತ್ರನಾಗು» ಎಂದು ಅವಳಿಂದ ಯಾಚಿಸಲ್ಪಟ್ಟ ಅವನು ಹಾಗೆಯೇ ಮಾಡಿದನು ॥ ೨೭ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-01",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 1,
+          "verse": "2.56.27",
+          "position": "word 10, akshara 6 (सहस्रवर्षपू[?])",
+          "visual_notes": "Matra cluster above त combines repha and vowel strokes that are closely merged (र्तौ vs र्ती)",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            27
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        28
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "अदित्यां कश्यपा[?:N265-P6-U-02]व संभूतः पुत्रतां गतः । मायामास्थाय विघ्नेशश्चिक्रीड प्राकृतो यथा ॥२८॥",
+      "text": "ಅದಿತಿಯಲ್ಲಿ ಕಶ್ಯಪನಿಂದ(ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-02) ಹುಟ್ಟಿ ಪುತ್ರತ್ವವನ್ನು ಹೊಂದಿದ ವಿಘ್ನೇಶನು ಮಾಯೆಯನ್ನು ಆಶ್ರಯಿಸಿ ಪ್ರಾಕೃತನಂತೆಯೇ ಕ್ರೀಡಿಸಿದನು ॥ ೨೮ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-02",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 2,
+          "verse": "2.56.28",
+          "position": "word 9, akshara 4 (कश्यपा[?]व)",
+          "visual_notes": "Left half of geminate च्च under ai-matra is faint/compressed (च्चै vs चै)",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            28
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        29
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "एकदा राक्षसी घोरा विरजास्तं जगा[?:N265-P6-U-03] ह । विदार्य जठरं तस्या बहिर्यातो ममार सा ॥२९॥",
+      "text": "ಒಮ್ಮೆ ವಿರಜೆಯೆಂಬ ಘೋರಳಾದ ರಾಕ್ಷಸಿಯು ಅವನನ್ನು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-03); ಅವಳ ಹೊಟ್ಟೆಯನ್ನು ಸೀಳಿ ಅವನು ಹೊರಬಂದನು ಮತ್ತು ಅವಳು ಸತ್ತುಹೋದಳು ॥ ೨೯ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-03",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 3,
+          "verse": "2.56.29",
+          "position": "word 9, akshara 3 (जगा[?])",
+          "visual_notes": "Third akshara is printed as ल (जगाल) where र (जगार) might be expected",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            29
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        30
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "उद्धतौ धुंधुरत्युग्रौ शुकरूपौ समागतौ । धृत्वा तौ स्फालितौ शैले मृतौ दैत्यौ तथाऽकरोत् ॥३०॥",
+      "text": "ಉದ್ಧತರೂ ಅತ್ಯುಗ್ರರೂ ಆದ ಧುಂಧುರರೆಂಬ ಇಬ್ಬರು ಗಿಳಿಯ ರೂಪದಿಂದ ಬಂದರು; ಅವರಿಬ್ಬರನ್ನೂ ಹಿಡಿದು ಬಂಡೆಯ ಮೇಲೆ ಬಡಿದು ಆ ಇಬ್ಬರು ದೈತ್ಯರೂ ಸಾಯುವಂತೆ ಮಾಡಿದನು ॥ ೩೦ ॥ (ಪರಿಶೀಲನೆ: N265-P6-56-30-NAME-DIVISION — ಧುಂಧುರತ್ಯುಗ್ರೌ ಎಂಬಲ್ಲಿನ ಹೆಸರುಗಳ ವಿಭಾಗ ಖಚಿತವಲ್ಲ; ಧುಂಧುರರೆಂಬ ಇಬ್ಬರು ಎಂಬ ಅನುವಾದವನ್ನು ದೃಢಪಡಿಸಿಲ್ಲ; ಹೆಸರುಗಳನ್ನು ಊಹಿಸಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-56-30-NAME-DIVISION",
+          "status": "open",
+          "kind": "linguistic_interpretation",
+          "detail": "धुंधुरत्युग्रौ name segmentation uncertain; candidate ಧುಂಧುರರೆಂಬ ಇಬ್ಬರು is not certified; no names invented."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        31
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "कदाचित् सहिता तेन स्नानार्थमदितिर्ययौ । तत्र तं मकराकारो गंधर्वश्च पदेऽग्रहीत् ॥३१॥",
+      "text": "ಒಮ್ಮೆ ಅದಿತಿಯು ಅವನೊಡನೆ ಕೂಡಿ ಸ್ನಾನಕ್ಕಾಗಿ ಹೋದಳು; ಅಲ್ಲಿ ಮೊಸಳೆಯ ಆಕಾರದಲ್ಲಿದ್ದ ಗಂಧರ್ವನೊಬ್ಬನು ಅವನನ್ನು ಕಾಲಿನಲ್ಲಿ ಹಿಡಿದನು ॥ ೩೧ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        32
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "तेनोड्डीनं कृतं पश्चा[?:N265-P6-U-04]हिः स च ममार ह । शापमुक्तोऽभवच्चित्रं तं प्र[?:N265-P6-U-05]म्य ययौ दिवम् ॥३२॥",
+      "text": "ಆ ಮಕರರೂಪಿಯು ಬಾಲಕನಿಂದ ಮೇಲಕ್ಕೆ ಹಾರುವಂತೆ ಮಾಡಲ್ಪಟ್ಟನು, ಬಳಿಕ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-04) ಅವನು ಸತ್ತುಹೋದನು; ಆಶ್ಚರ್ಯಕರವಾಗಿ ಶಾಪಮುಕ್ತನಾಗಿ ಅವನಿಗೆ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-05) ಸ್ವರ್ಗಕ್ಕೆ ಹೋದನು ॥ ೩೨ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-04",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 5,
+          "verse": "2.56.32",
+          "position": "word 11, akshara 3 (पश्चा[?]हिः)",
+          "visual_notes": "Conjunct under द before हिः is compressed, ambiguous between द्ब and द्व",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            32
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        },
+        {
+          "id": "N265-P6-U-05",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 6,
+          "verse": "2.56.32",
+          "position": "word 6, akshara 2 (प्र[?]म्य)",
+          "visual_notes": "Extra half-glyph/loop appears between ण and म्य, making प्रणम्य look like प्रण्यम्य",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            32
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        33
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "उपवीतप्रदाने वै राक्षसा विप्रलिंगिनः । पंच तं हंतुमायाता हतास्तेन क्षणेन ते ॥३३॥",
+      "text": "ಉಪವೀತಪ್ರದಾನದ ಸಮಯದಲ್ಲಿ ವಿಪ್ರವೇಷಧಾರಿಗಳಾದ ಐವರು ರಾಕ್ಷಸರು ಅವನನ್ನು ಕೊಲ್ಲಲು ಬಂದರು; ಕ್ಷಣಮಾತ್ರದಲ್ಲಿ ಅವರು ಅವನಿಂದ ಹತರಾದರು ॥ ೩೩ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        34
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "कर्मणि प्रसमाप्ते तं ब्रह्मविष्ण्वादयः सुराः । [?:N265-P6-U-06]नयश्च वसिष्ठाद्या नेमुर्भक्तिसमन्विताः ॥३४॥",
+      "text": "ಆ ಕರ್ಮವು ಸಮಾಪ್ತವಾದಾಗ ಬ್ರಹ್ಮ-ವಿಷ್ಣು ಮುಂತಾದ ದೇವತೆಗಳೂ ವಸಿಷ್ಠನೇ ಮೊದಲಾದ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-06) ಭಕ್ತಿಸಮನ್ವಿತರಾಗಿ ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿದರು ॥ ೩೪ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-06",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 7,
+          "verse": "2.56.34",
+          "position": "word 9, akshara 1 ([?]नयश्च)",
+          "visual_notes": "Initial akshara under u-matra has a curved left stroke resembling सु rather than मु",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            34
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        35
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "इंद्रस्तत्र मदेनैव संसिक्तो न ननाम तम् । कश्यपेन समाज्ञप्तस्तथाऽपि ज्येष्ठभावतः ॥३५॥",
+      "text": "ಅಲ್ಲಿ ಇಂದ್ರನು ಮದದಿಂದಲೇ ತುಂಬಿದವನಾಗಿ, ಕಶ್ಯಪನಿಂದ ಆಜ್ಞಾಪಿಸಲ್ಪಟ್ಟರೂ ಸಹ ತನ್ನ ಜ್ಯೇಷ್ಠಭಾವದಿಂದ ಅವನಿಗೆ ನಮಸ್ಕರಿಸಲಿಲ್ಲ ॥ ೩೫ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        36
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "परीक्षार्थं महेंद्रेण बालं हंतुं प्रभंजनः । प्रेरितः सोऽपि भग्नोऽभूत्ततोऽग्निं स समादिशत् ॥३६॥",
+      "text": "ಪರೀಕ್ಷೆಗಾಗಿ ಮಹೇಂದ್ರನಿಂದ ಆ ಬಾಲಕನನ್ನು ಕೊಲ್ಲಲು ಪ್ರಭಂಜನನು (ವಾಯುವು) ಪ್ರೇರೇಪಿಸಲ್ಪಟ್ಟನು; ಅವನೂ ಸಹ ಭಗ್ನನಾದನು, ಬಳಿಕ ಇಂದ್ರನು ಅಗ್ನಿಗೆ ಆದೇಶಿಸಿದನು ॥ ೩೬ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        37
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "इंद्रेणाऽऽज्ञापितो वह्निस्तं दग्धुं सहसाऽऽगतः । गिलितस्तेन बालेन महेंद्रो विस्मितोऽभवत् ॥३७॥",
+      "text": "ಇಂದ್ರನಿಂದ ಆಜ್ಞಾಪಿಸಲ್ಪಟ್ಟ ಅಗ್ನಿಯು ಅವನನ್ನು ಸುಡಲು ಒಮ್ಮೆಲೇ ಬಂದನು; ಆದರೆ ಆ ಬಾಲಕನಿಂದ ನುಂಗಲ್ಪಟ್ಟನು, ಆಗ ಮಹೇಂದ್ರನು ವಿಸ್ಮಿತನಾದನು ॥ ೩೭ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        38
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "विनायकेन देवेंद्रः श्वासेन जठरे स्वके । नीतस्तत्र सविस्तारं ददर्श सकलं जगत् ॥३८॥",
+      "text": "ವಿನಾಯಕನು ತನ್ನ ಉಸಿರಿನ ಮೂಲಕ ದೇವೇಂದ್ರನನ್ನು ತನ್ನದೇ ಹೊಟ್ಟೆಯೊಳಗೆ ಕರೆದೊಯ್ದನು; ಅಲ್ಲಿ ದೇವೇಂದ್ರನು ವಿಸ್ತಾರವಾಗಿ ಸಮಸ್ತ ಜಗತ್ತನ್ನು ಕಂಡನು ॥ ೩೮ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        39
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "एवं नानांडकं दृष्ट्वा हतग[?:N265-P6-U-07]ऽभवत् स्वयम् । न ददर्श बहिर्यातुं मार्गं वर्षशतेन वै ॥३९॥",
+      "text": "ಹೀಗೆ ನಾನಾ ಬ್ರಹ್ಮಾಂಡಗಳನ್ನು ಕಂಡು ಅವನು ಸ್ವಯಂ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-07) ಆದನು; ನೂರು ವರ್ಷಗಳವರೆಗೂ ಹೊರಗೆ ಹೋಗಲು ಮಾರ್ಗವನ್ನು ಕಾಣಲಿಲ್ಲ ॥ ೩೯ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-07",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 11,
+          "verse": "2.56.39",
+          "position": "word 5, akshara 4 (हतग[?]ऽभवत्)",
+          "visual_notes": "Left side of व under repha has a double-inked/smudged contour (हतगर्वो vs हतगवर्वो)",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            39
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        40
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "ततस्तं प्रार्थयामास विनायकमनामयम् । तेनाऽपि श्वासमार्गेण बहिर्निष्कासितो हरिः ॥४०॥",
+      "text": "ಬಳಿಕ ಅನಾಮಯನಾದ ಆ ವಿನಾಯಕನನ್ನು ಪ್ರಾರ್ಥಿಸಿದನು; ಅವನಿಂದಲೂ ಸಹ ಶ್ವಾಸಮಾರ್ಗದಿಂದ ಹರಿಯು (ಇಂದ್ರನು) ಹೊರಗೆ ಹಾಕಲ್ಪಟ್ಟನು ॥ ೪೦ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        41
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "ततस्तेन महेंद्रेण दृष्टं कौतुकमुत्तमम् । कालोद्भवं मह[?:N265-P6-U-08]त्रं तच्छृणुष्व महासुर ॥४१॥",
+      "text": "ಎಲೈ ಮಹಾಸುರನೇ, ಬಳಿಕ ಆ ಮಹೇಂದ್ರನಿಂದ ಕಾಲೋದ್ಭವವಾದ, (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-08) ಉತ್ತಮವಾದ ಕೌತುಕವು ಕಾಣಲ್ಪಟ್ಟಿತು; ಅದನ್ನು ಕೇಳು ॥ ೪೧ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-08",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 13,
+          "verse": "2.56.41",
+          "position": "word 2, akshara 3 (मह[?]त्रं)",
+          "visual_notes": "Geminate stroke in च्चि is unprinted or merged into the vertical stem, appearing as चि (महचित्रं vs महच्चित्रं)",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            41
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        42
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "विनायकस्य वर्षाणि जठरे स शतं स्वयम् । संस्थितश्च बहिस्तत्र क्षण एकस्तथाऽभवत् ॥४२॥",
+      "text": "ವಿನಾಯಕನ ಹೊಟ್ಟೆಯಲ್ಲಿ ಅವನು ಸ್ವಯಂ ನೂರು ವರ್ಷಗಳವರೆಗೆ ಇದ್ದನು; ಆದರೆ ಅಲ್ಲಿ ಹೊರಗಡೆ ಅದು ಒಂದೇ ಒಂದು ಕ್ಷಣವಾಗಿತ್ತು ॥ ೪೨ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        43
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "ततस्तं प्रणनामाऽऽदौ स्तुत्वा च विविधैः स्तवैः । चकार साधुभावेन स भक्तिं नित्यमादरात् ॥४३॥",
+      "text": "ಬಳಿಕ ಮೊದಲು ಅವನಿಗೆ ಪ್ರಣಾಮ ಮಾಡಿ ವಿವಿಧ ಸ್ತವಗಳಿಂದ ಸ್ತುತಿಸಿ, ಅವನು ಸಾಧುಭಾವದಿಂದ ನಿತ್ಯವೂ ಆದರದಿಂದ ಭಕ್ತಿಯನ್ನು ಮಾಡಿದನು ॥ ೪೩ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        44
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "ततः कदाचित् काशीपो मुनिगेहं समाययौ । पुत्रस्योद्वाहसिद्ध्यर्थं कश्यपं तममंत्रयत् ॥४४॥",
+      "text": "ಬಳಿಕ ಒಮ್ಮೆ ಕಾಶೀರಾಜನು ಮುನಿಯ ಮನೆಗೆ ಬಂದನು; ಪುತ್ರನ ವಿವಾಹಸಿದ್ಧಿಗಾಗಿ ಆ ಕಶ್ಯಪನನ್ನು ಆಮಂತ್ರಿಸಿದನು ॥ ೪೪ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        45
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "मुनिर्यज्ञेन रुद्धो वै पुत्रं तस्मै ददौ लघुम् । उपाध्यायत्वसिद्ध्यर्थं विधानज्ञो विनायकम् ॥४५॥",
+      "text": "ಯಜ್ಞದಿಂದ ತಡೆಯಲ್ಪಟ್ಟಿದ್ದ ವಿಧಾನಜ್ಞನಾದ ಮುನಿಯು ಉಪಾಧ್ಯಾಯತ್ವಸಿದ್ಧಿಗಾಗಿ ಕಿರಿಯ ಪುತ್ರನಾದ ವಿನಾಯಕನನ್ನು ಅವನಿಗೆ ಕೊಟ್ಟನು ॥ ೪೫ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        46
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "काशिराजो गणेशं संगृह्य मार्गे जगाम ह । तत्र धूम्राक्षदैत्येशं सूर्यास्त्रेण जघान सः ॥४६॥",
+      "text": "ಕಾಶಿರಾಜನು ಗಣೇಶನನ್ನು ಕರೆದುಕೊಂಡು ದಾರಿಯಲ್ಲಿ ಹೊರಟನು; ಅಲ್ಲಿ ಅವನು ಧೂಮ್ರಾಕ್ಷನೆಂಬ ದೈತ್ಯೇಶನನ್ನು ಸೂರ್ಯಾಸ್ತ್ರದಿಂದ ಕೊಂದನು ॥ ೪೬ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        47
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "तस्य पुत्रौ महावी[?:N265-P6-U-09] जघनश्च मनुः स्मृतौ । भक्षणार्थं समायातौ विनायकमनामयम् ॥४७॥",
+      "text": "(ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-09) ಅವನ ಇಬ್ಬರು ಪುತ್ರರು ಜಘನ ಮತ್ತು ಮನು ಎಂದು ಸ್ಮರಿಸಲ್ಪಟ್ಟಿದ್ದಾರೆ; ಅವರು ಅನಾಮಯನಾದ ವಿನಾಯಕನನ್ನು ಭಕ್ಷಿಸುವುದಕ್ಕಾಗಿ ಬಂದರು ॥ ೪೭ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-09",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 17,
+          "verse": "2.56.47",
+          "position": "word 6, akshara 4 (महावी[?])",
+          "visual_notes": "Two vowel strokes above य with repha are closely merged, ambiguous between र्यौ and र्यो",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            47
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        48
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "विनायकेन निःश्वासेन नीतौ गगने गतौ । भ्रमंतौ पतितौ तत्र नरांतकसुमंदिरे ॥४८॥",
+      "text": "ವಿನಾಯಕನಿಂದ ನಿಃಶ್ವಾಸದಿಂದ ಒಯ್ಯಲ್ಪಟ್ಟ ಅವರಿಬ್ಬರೂ ಗಗನಕ್ಕೆ ಹೋದರು ಮತ್ತು ಸುತ್ತುತ್ತಾ ಅಲ್ಲಿ ನರಾಂತಕನ ಸುಮಂದಿರದಲ್ಲಿ ಬಿದ್ದರು ॥ ೪೮ ॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        49
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "नरांतकस्ततस्ताभ्यां ज्ञात्वा वृत्तांतमु[?:N265-P6-U-10]णम् । शतानि पंच रक्षांसि प्रेषयामास दैत्यपः ॥४९॥",
+      "text": "ಬಳಿಕ ದೈತ್ಯಪತಿಯಾದ ನರಾಂತಕನು ಅವರಿಬ್ಬರಿಂದ ಆ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-10) ವೃತ್ತಾಂತವನ್ನು ತಿಳಿದು ಐನೂರು ರಾಕ್ಷಸರನ್ನು ಕಳುಹಿಸಿದನು ॥ ೪೯ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-10",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 19,
+          "verse": "2.56.49",
+          "position": "word 3, akshara 5 (वृत्तांतमु[?]णम्)",
+          "visual_notes": "Conjunct before णम् has an open right contour, ambiguous between ल्ब and ल्य",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            49
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    },
+    {
+      "key": [
+        2,
+        56,
+        50
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p6",
+      "source_sanskrit": "तेन दृष्टा महावीरा राक्षसा गणपेन च । हुंकारेण महोग्रेण म[?:N265-P6-U-11]ः सर्वे भयातुराः ॥५०॥",
+      "text": "ಆ ಗಣಪನಿಂದ ಮಹಾವೀರರಾದ ರಾಕ್ಷಸರು ನೋಡಲ್ಪಟ್ಟರು; ಮತ್ತು ಮಹೋಗ್ರವಾದ ಹುಂಕಾರದಿಂದ ಭಯಾತುರರಾದ ಅವರೆಲ್ಲರೂ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: N265-P6-U-11) ॥ ೫೦ ॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P6-U-11",
+          "pdf_page": 6,
+          "printed_page": "११८",
+          "handwritten_page": 270,
+          "line": 20,
+          "verse": "2.56.50",
+          "position": "word 3, akshara 2 (म[?]ः)",
+          "visual_notes": "Conjunct with subscript r and u-matra is heavily inked, visually ambiguous between म्रु, भ्रु, and नु",
+          "reading": null,
+          "canonical_key": [
+            2,
+            56,
+            50
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, ancillary text and deferred fragment; source pixels checked by Mac integrator."
+      }
+    }
+  ],
+  "colophons": [],
+  "chapter_headings": [
+    {
+      "chapter": 56,
+      "identity": "2.56.chapter_heading",
+      "source_pdf_pages": [
+        5
+      ],
+      "source_sanskrit": "॥ षट्पंचाशत्तमोऽध्यायः ॥",
+      "kannada_review_candidate": "॥ ಐವತ್ತಾರನೆಯ ಅಧ್ಯಾಯ ॥",
+      "status": "accepted",
+      "kind": "chapter_heading"
+    }
+  ],
+  "invocations": [
+    {
+      "chapter": 56,
+      "identity": "2.56.invocation",
+      "source_pdf_pages": [
+        5
+      ],
+      "source_sanskrit": "॥ श्रीगणेशाय नमः ॥",
+      "kannada_review_candidate": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "status": "accepted",
+      "kind": "invocation"
+    }
+  ],
+  "ending_status": "Only source-present colophons included; deferred trailing fragments not counted as translations.",
+  "review_receipt": {
+    "status": "independent_language_review_complete",
+    "changes": [
+      {
+        "key": [
+          2,
+          56,
+          17
+        ],
+        "before": "ಒಮ್ಮೆ ನಾರದನೂ ಅಲ್ಲಿಗೆ ಹೋಗಿ ಅವನಿಂದ ಶಿವನ ಪಂಚಾಕ್ಷರದಿಂದ ಉಪದೇಶಿಸಲ್ಪಟ್ಟ ಅವರಿಬ್ಬರೂ ಪರಮ ತಪಸ್ಸನ್ನು ಆಚರಿಸಿದರು ॥ ೧೭ ॥",
+        "after": "ಒಮ್ಮೆ ಅಲ್ಲಿಗೆ ಬಂದ ನಾರದನಿಂದಲೂ ಶಿವನ ಪಂಚಾಕ್ಷರಮಂತ್ರದ ಉಪದೇಶವನ್ನು ಪಡೆದ ಅವರಿಬ್ಬರೂ ಪರಮ ತಪಸ್ಸನ್ನು ಆಚರಿಸಿದರು ॥ ೧೭ ॥"
+      },
+      {
+        "key": [
+          2,
+          56,
+          32
+        ],
+        "before": "ಅವನಿಂದ ಹಾರಾಟವು ಮಾಡಲ್ಪಟ್ಟಿತು, ಬಳಿಕ [ಅಸ್ಪಷ್ಟ: N265-P6-U-04] ಅವನು ಸತ್ತುಹೋದನು; ಆಶ್ಚರ್ಯಕರವಾಗಿ ಶಾಪಮುಕ್ತನಾಗಿ ಅವನಿಗೆ [ಅಸ್ಪಷ್ಟ: N265-P6-U-05] ಸ್ವರ್ಗಕ್ಕೆ ಹೋದನು ॥ ೩೨ ॥",
+        "after": "ಆ ಮಕರರೂಪಿಯು ಬಾಲಕನಿಂದ ಮೇಲಕ್ಕೆ ಹಾರುವಂತೆ ಮಾಡಲ್ಪಟ್ಟನು, ಬಳಿಕ [ಅಸ್ಪಷ್ಟ: N265-P6-U-04] ಅವನು ಸತ್ತುಹೋದನು; ಆಶ್ಚರ್ಯಕರವಾಗಿ ಶಾಪಮುಕ್ತನಾಗಿ ಅವನಿಗೆ [ಅಸ್ಪಷ್ಟ: N265-P6-U-05] ಸ್ವರ್ಗಕ್ಕೆ ಹೋದನು ॥ ೩೨ ॥"
+      },
+      {
+        "key": [
+          2,
+          56,
+          36
+        ],
+        "before": "ಪರೀಕ್ಷೆಗಾಗಿ ಮಹೇಂದ್ರನಿಂದ ಆ ಬಾಲಕನನ್ನು ಕೊಲ್ಲಲು ಪ್ರಭಂಜನನು (ವಾಯುವು) ಪ್ರೇರೇಪಿಸಲ್ಪಟ್ಟನು; ಅವನೂ ಸಹ ಭಗ್ನನಾದನು, ಬಳಿಕ ಅವನು ಅಗ್ನಿಯನ್ನು ಆದೇಶಿಸಿದನು ॥ ೩೬ ॥",
+        "after": "ಪರೀಕ್ಷೆಗಾಗಿ ಮಹೇಂದ್ರನಿಂದ ಆ ಬಾಲಕನನ್ನು ಕೊಲ್ಲಲು ಪ್ರಭಂಜನನು (ವಾಯುವು) ಪ್ರೇರೇಪಿಸಲ್ಪಟ್ಟನು; ಅವನೂ ಸಹ ಭಗ್ನನಾದನು, ಬಳಿಕ ಇಂದ್ರನು ಅಗ್ನಿಗೆ ಆದೇಶಿಸಿದನು ॥ ೩೬ ॥"
+      },
+      {
+        "key": [
+          2,
+          56,
+          38
+        ],
+        "before": "ವಿನಾಯಕನಿಂದ ಉಸಿರಿನ ಮೂಲಕ ದೇವೇಂದ್ರನು ತನ್ನ ಹೊಟ್ಟೆಯೊಳಗೆ ಒಯ್ಯಲ್ಪಟ್ಟನು; ಅಲ್ಲಿ ಅವನು ವಿಸ್ತಾರವಾಗಿ ಸಮಸ್ತ ಜಗತ್ತನ್ನು ಕಂಡನು ॥ ೩೮ ॥",
+        "after": "ವಿನಾಯಕನು ತನ್ನ ಉಸಿರಿನ ಮೂಲಕ ದೇವೇಂದ್ರನನ್ನು ತನ್ನದೇ ಹೊಟ್ಟೆಯೊಳಗೆ ಕರೆದೊಯ್ದನು; ಅಲ್ಲಿ ದೇವೇಂದ್ರನು ವಿಸ್ತಾರವಾಗಿ ಸಮಸ್ತ ಜಗತ್ತನ್ನು ಕಂಡನು ॥ ೩೮ ॥"
+      }
+    ],
+    "interpretive_notes": [
+      {
+        "key": [
+          2,
+          56,
+          30
+        ],
+        "id": "N265-P6-56-30-NAME-DIVISION",
+        "detail": "धुंधुरत्युग्रौ name segmentation uncertain; candidate ಧುಂಧುರರೆಂಬ ಇಬ್ಬರು is not certified; no names invented.",
+        "notice": "ಧುಂಧುರತ್ಯುಗ್ರೌ ಎಂಬಲ್ಲಿನ ಹೆಸರುಗಳ ವಿಭಾಗ ಖಚಿತವಲ್ಲ; ಧುಂಧುರರೆಂಬ ಇಬ್ಬರು ಎಂಬ ಅನುವಾದವನ್ನು ದೃಢಪಡಿಸಿಲ್ಲ; ಹೆಸರುಗಳನ್ನು ಊಹಿಸಿಲ್ಲ."
+      }
+    ],
+    "deferred_keys": [
+      [
+        2,
+        56,
+        51
+      ]
+    ]
+  }
+}
