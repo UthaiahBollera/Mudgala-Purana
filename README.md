@@ -4,6 +4,8 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+Reviewed original pages7–8 add completed56.51–64 and its source colophon, then57.1–32:46 new keys for5,325 entries. Verses56.51 and57.8 are joined once. All30 glyph holds remain, including two colophon holds and a printed-numeral hold. The pixel-verified57.26 नमामि is preserved;57.33a is deferred to its single reviewed completion in pages9–10. Earlier source gaps remain unchanged.
+
 Reviewed original pages5–6 add56.1–50:50 new keys for5,279 entries. All22 glyph holds and the56.30 name-division note remain visible across20 passages. Verse56.51a is deferred to its reviewed completion in pages7–8; no colophon is supplied for this partial range. Earlier gaps and exact source references remain.
 
 Reviewed original pages3–4 complete55.7 once, add55.8–52 and its source colophon:45 new keys for5,229 entries. Verse55.28 is joined once; two glyph holds and five interpretation notes remain visible. The source gap before53.49b is unchanged.
