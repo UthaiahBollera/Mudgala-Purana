@@ -4,6 +4,9 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+**Khanda 2 chapters 3–4 reading draft:** 122 additional numbered entries bring the edition to **3,034 entries**, preserving all 2,912 prior rows. Actual chapter endings and corrected source colophons are present, while TOC/body/EPUB labels retain **ಭಾಗಶಃ** because source and meaning questions remain. Visible Kannada notices identify faithful partial readings and technical/edition questions; this is not a fully resolved translation. PDF remains primary; exact verified Google Books references are recorded without silent harmonization. [Chapter 3 review](translation/local-pdf-khanda2-ch3-reading-review.json), [chapter 4 review](translation/local-pdf-khanda2-ch4-reading-review.json), [validation and limits](translation/chapters34-reading-validation.json). Desktop 1470 px and mobile 375/390 px layout/navigation/labels passed QA.
+
+
 **Khanda 2 chapter 2 is complete through verse 61**, including its scan-supported colophon. This continuation adds verses 31–61 to the prior 1–30, preserving earlier Kannada. Unclear Sanskrit at 45 and 61 was resolved against verified Google Books original Sanskrit (PT97/PT102), with separate grammar review. Verse 39 retains its PDF/reference edition difference; interpretation notices at 48 and 60 remain visible alongside prior flags. [Completion review](translation/local-pdf-khanda2-ch2-45-61-review.json). HTML/EPUB and provenance checks passed. Chrome QA passed at 375/390 px and desktop 1470 px; mobile text and colophon fit without overflow. Direct browser EPUB download was client-blocked, so browser download success is not claimed.
 
 
@@ -63,7 +66,7 @@ Install `requirements.txt`, then run:
 ```
 python3 build_book.py
 python3 build_epub.py
-python3 validate_book.py local-pdf-khanda2-ch2-61
+python3 validate_book.py local-pdf-khanda2-ch4-65
 python3 validate_source_review.py
 python3 tests/test_reading_contents.py
 python3 tests/test_google_source_validation.py

@@ -31,6 +31,7 @@ def check(base):
             merged.update((key(row), row) for row in csv.DictReader(stream, delimiter='\t'))
     chapters = sorted({k[:2] for k in merged})
     completed = {chapter_key(row) for row in json.loads((base/'translation/completed-chapters.json').read_text())}
+    reading_partial = {chapter_key(item) for item in json.loads((base/'translation/chapter-metadata.json').read_text())['chapters'] if item.get('reading_status') == 'partial'}
     doc = html.fromstring((base/'book/index.html').read_bytes())
     assert len(doc.xpath('//@id')) == len(set(doc.xpath('//@id')))
     rows = doc.xpath('//table[@class="contents"]//tr[@data-chapter]')
@@ -50,14 +51,14 @@ def check(base):
             name = item['title']
             assert name == item['ordinal']+' ಅಧ್ಯಾಯ', 'Only generic duplicate subtitle may be omitted'
             expected_heading = item['section_title']
-            if chapter not in completed:
+            if chapter not in completed or chapter in reading_partial:
                 included = sorted(k[2] for k in merged if k[:2] == chapter)
                 expected_heading += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {included[0]}–{included[-1]})'.translate(KN)
             assert target.find('h2').text == expected_heading
-        partial = chapter not in completed
+        partial = chapter not in completed or chapter in reading_partial
         if not partial:
             assert 'ಭಾಗಶಃ' not in target.find('h2').text
-        if chapter[0] > 1 and not partial:
+        if chapter[0] > 1 and chapter in completed:
             metadata = json.loads((base/'translation/chapter-metadata.json').read_text())
             item = next(item for item in metadata['chapters'] if chapter_key(item) == chapter)
             sections = doc.xpath('//section[starts-with(@id,$prefix)]', prefix=f'chapter-kh{chapter[0]}-{chapter[1]}-')

@@ -1,0 +1,38 @@
+{
+  "status": "desktop_mobile_and_partial_label_QA_passed",
+  "entries": 3034,
+  "added_entries": 122,
+  "prior_published_entries_preserved": 2912,
+  "source_ending_chapters": [
+    {
+      "khanda": 2,
+      "chapter": 3,
+      "verses": 57,
+      "reading_status": "partial"
+    },
+    {
+      "khanda": 2,
+      "chapter": 4,
+      "verses": 65,
+      "reading_status": "partial"
+    }
+  ],
+  "remaining_questions": "Visible Kannada notices and unresolved-passages.json retain partial readings, technical terms and edition differences; not fully resolved.",
+  "widths": [
+    1470,
+    375,
+    390
+  ],
+  "checks": [
+    "HTML structure/source coverage/order/glyphs",
+    "EPUB ZIP/XML/assets/text",
+    "provenance/integrity",
+    "contents/body/EPUB partial labels and links",
+    "36 Google-source tests",
+    "11 PDF-source tests",
+    "2912 prior effective TSV rows unchanged"
+  ],
+  "epub_browser_download": "client_blocked_not_verified",
+  "html_sha256": "8788f82c9a71b94b286b2665f94b6365a5844b99c1daa0ca9552de4de8250023",
+  "epub_sha256": "6a0c0963ff2a19dd5c0bb6f673a839d3735273dfb8f7334b80cb2458b3268568"
+}

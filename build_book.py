@@ -121,19 +121,22 @@ def chapter_heading(key):
 def chapter_section_id(khanda, chapter, part=1):
     return f'chapter-{chapter}-{part}' if khanda == 1 else f'chapter-kh{khanda}-{chapter}-{part}'
 
+def chapter_reading_partial(key):
+    return key not in completed_chapters or chapter_metadata.get(key, {}).get("reading_status") == "partial"
+
 def chapter_contents_label(key):
     _, name, ordinal = chapter_heading(key)
     label = f'ಖಂಡ {kn(key[0])} · ಅಧ್ಯಾಯ {kn(key[1])}'
     if name != ordinal+' ಅಧ್ಯಾಯ':
         label += ' · '+name
-    if key not in completed_chapters:
+    if chapter_reading_partial(key):
         label += ' (ಭಾಗಶಃ)'
     return label
 
 # Reading-edition contents describe only the translated body. The inherited
 # scan contents.tsv remains archival evidence, not this edition's navigation.
 for part, start in enumerate(range(0, len(chapters), 16), 1):
-    body = '<p class="caption">ಈ ಓದುವ ಆವೃತ್ತಿಯಲ್ಲಿ ಒಳಗೊಂಡಿರುವ ಅಧ್ಯಾಯಗಳು. ಸಂಖ್ಯೆಗಳು ಇಲ್ಲಿ ನೀಡಿರುವ ಶ್ಲೋಕಗಳ ವ್ಯಾಪ್ತಿಯನ್ನು ಸೂಚಿಸುತ್ತವೆ; ಮೂಲಗ್ರಂಥದ ಪುಟಸಂಖ್ಯೆಗಳಲ್ಲ. ಅಪೂರ್ಣ ಅಧ್ಯಾಯಗಳನ್ನು “ಭಾಗಶಃ” ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ.</p>'
+    body = '<p class="caption">ಈ ಓದುವ ಆವೃತ್ತಿಯಲ್ಲಿ ಒಳಗೊಂಡಿರುವ ಅಧ್ಯಾಯಗಳು. ಸಂಖ್ಯೆಗಳು ಇಲ್ಲಿ ನೀಡಿರುವ ಶ್ಲೋಕಗಳ ವ್ಯಾಪ್ತಿಯನ್ನು ಸೂಚಿಸುತ್ತವೆ; ಮೂಲಗ್ರಂಥದ ಪುಟಸಂಖ್ಯೆಗಳಲ್ಲ. ಅಪೂರ್ಣ ಅನುವಾದ ಅಥವಾ ಬಾಕಿಯಿರುವ ಪಾಠಾರ್ಥ ಪರಿಶೀಲನೆಯ ಅಧ್ಯಾಯಗಳನ್ನು “ಭಾಗಶಃ” ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ.</p>'
     body += '<table class="contents"><thead><tr><th>ಅಧ್ಯಾಯ</th><th>ವಿಷಯ</th><th>ಶ್ಲೋಕಗಳು</th></tr></thead><tbody>'
     last = None
     for key in chapters[start:start+16]:
@@ -143,7 +146,7 @@ for part, start in enumerate(range(0, len(chapters), 16), 1):
             body += f'<tr class="khanda"><th colspan="3">ಖಂಡ {kn(khanda)}</th></tr>'
             last = khanda
         verses = [int(r['verse']) for r in narrative if verse_key(r)[:2] == key]
-        status = 'complete' if key in completed_chapters else 'partial'
+        status = 'partial' if chapter_reading_partial(key) else 'complete'
         if status == 'partial':
             name += ' (ಭಾಗಶಃ)'
         body += (f'<tr data-chapter="{chapter}" data-khanda="{khanda}" data-completion="{status}">'
@@ -191,7 +194,7 @@ for khanda, chapter in chapters:
         source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=source_page_key)
         section_id = chapter_section_id(khanda, chapter, part)
         section_title = info.get('section_title', ordinal+' ಅಧ್ಯಾಯ')
-        if part == 1 and key not in completed_chapters:
+        if part == 1 and chapter_reading_partial(key):
             section_title += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {kn(entries[0]["verse"])}–{kn(entries[-1]["verse"])})'
         chapter_page = section(section_id, section_title,body,','.join(source_pages),'chapter',part>1)
         if part == 1:
