@@ -12830,6 +12830,309 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-57-local-pdf-01.tsv",
+      "sha256": "75648c41c5cb15b222802671e14e738c44082f2ef39bc5b7df114bc98fe3ad9e",
+      "source_kind": "local_pdf",
+      "source_pdf": "206 TO 255.pdf",
+      "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p36",
+          "pdf_page": 36,
+          "printed_page": 89,
+          "printed_page_verified": true,
+          "image_sha256": "bb32aac1a8ee70e922899d385afd8fd9ce02bdc07135f4860a795fc40589ee97",
+          "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+        },
+        {
+          "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p37",
+          "pdf_page": 37,
+          "printed_page": 90,
+          "printed_page_verified": true,
+          "image_sha256": "83ad245c06bba5fa2b68e61da807857323475892e9f5ca2925da731ac9474b19",
+          "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+        },
+        {
+          "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p38",
+          "pdf_page": 38,
+          "printed_page": 91,
+          "printed_page_verified": true,
+          "image_sha256": "45b67ee923204d9518792f781def484d3bb73394c50f36186d44bdc6db4b2421",
+          "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch42-74",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch42-42-reading-review.json",
+      "review_sha256": "8b14c4e148ef5d1f5fa426fbc7e9a8ff1b6858b23bca470f37c8215872d3488d",
+      "added_keys": [
+        [
+          2,
+          42,
+          27
+        ],
+        [
+          2,
+          42,
+          28
+        ],
+        [
+          2,
+          42,
+          29
+        ],
+        [
+          2,
+          42,
+          30
+        ],
+        [
+          2,
+          42,
+          31
+        ],
+        [
+          2,
+          42,
+          32
+        ],
+        [
+          2,
+          42,
+          33
+        ],
+        [
+          2,
+          42,
+          34
+        ],
+        [
+          2,
+          42,
+          35
+        ],
+        [
+          2,
+          42,
+          36
+        ],
+        [
+          2,
+          42,
+          37
+        ],
+        [
+          2,
+          42,
+          38
+        ],
+        [
+          2,
+          42,
+          39
+        ],
+        [
+          2,
+          42,
+          40
+        ],
+        [
+          2,
+          42,
+          41
+        ],
+        [
+          2,
+          42,
+          42
+        ],
+        [
+          2,
+          42,
+          43
+        ],
+        [
+          2,
+          42,
+          44
+        ],
+        [
+          2,
+          42,
+          45
+        ],
+        [
+          2,
+          42,
+          46
+        ],
+        [
+          2,
+          42,
+          47
+        ],
+        [
+          2,
+          42,
+          48
+        ],
+        [
+          2,
+          42,
+          49
+        ],
+        [
+          2,
+          42,
+          50
+        ],
+        [
+          2,
+          42,
+          51
+        ],
+        [
+          2,
+          42,
+          52
+        ],
+        [
+          2,
+          42,
+          53
+        ],
+        [
+          2,
+          42,
+          54
+        ],
+        [
+          2,
+          42,
+          55
+        ],
+        [
+          2,
+          42,
+          56
+        ],
+        [
+          2,
+          42,
+          57
+        ],
+        [
+          2,
+          42,
+          58
+        ],
+        [
+          2,
+          42,
+          59
+        ],
+        [
+          2,
+          42,
+          60
+        ],
+        [
+          2,
+          42,
+          61
+        ],
+        [
+          2,
+          42,
+          62
+        ],
+        [
+          2,
+          42,
+          63
+        ],
+        [
+          2,
+          42,
+          64
+        ],
+        [
+          2,
+          42,
+          65
+        ],
+        [
+          2,
+          42,
+          66
+        ],
+        [
+          2,
+          42,
+          67
+        ],
+        [
+          2,
+          42,
+          68
+        ],
+        [
+          2,
+          42,
+          69
+        ],
+        [
+          2,
+          42,
+          70
+        ],
+        [
+          2,
+          42,
+          71
+        ],
+        [
+          2,
+          42,
+          72
+        ],
+        [
+          2,
+          42,
+          73
+        ],
+        [
+          2,
+          42,
+          74
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            42,
+            26
+          ],
+          "old_row": {
+            "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p36",
+            "type": "translation",
+            "text": "ಸುರಶ್ರೇಷ್ಠನಾದ ಆತನು ನನ್ನನ್ನು ಕುರಿತು ಹೇಳಿದನು... (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಭಾಗ 26a ಮಾತ್ರ — ಪುಟ 36 ಉವಾಚ ಮಾಂ ಸುರಶ್ರೇಷ್ಠಃ ಎಂಬಲ್ಲಿಗೆ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ; 26b ಅಥವಾ ಅಧ್ಯಾಯ 42ರ ಸಮಾಪ್ತಿಯನ್ನು ಸೇರಿಸಿಲ್ಲ)"
+          },
+          "new_row": {
+            "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p36,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p37",
+            "type": "translation",
+            "text": "ದೇವಶ್ರೇಷ್ಠನಾದ ಅವನು (ಬ್ರಹ್ಮನು) ನನ್ನನ್ನು ಕುರಿತು ಹೀಗೆಂದನು: \"ಎಲೈ ದುರ್ಬುದ್ಧಿಯೇ! ಮದದಿಂದ ಕೂಡಿದವನಾಗಿ ನೀನು ಏಕೆ ಇಲ್ಲಿಗೆ ಬಂದಿರುವೆ? ಈಗಲೇ ನೀನು ನಿನ್ನ ಮನೆಗೆ ಹೊರಟುಹೋಗು.\" ॥೨೬॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch41-42-reading-review.json",
+          "rationale": "Earlierdeclaredfragmentcompletedbyfollowingprimarypage;fulljoinedversereviewed;onekeyonly.",
+          "source_evidence": "Primaryfrozenp37-38SHAf93a61743000be660004e4cc36c357dafdf23b7c6babc37e9c4f745cd714d8a9",
+          "review_status": "accepted"
+        }
+      ]
     }
   ]
 }

@@ -26114,6 +26114,88 @@
       "book_id": null,
       "google_books_pages": null,
       "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch42-v39",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 42,
+      "verse_start": 39,
+      "verse_end": 39,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 37,
+        "printed_page": 90,
+        "audit_global_page": 232,
+        "image_sha256": "83ad245c06bba5fa2b68e61da807857323475892e9f5ca2925da731ac9474b19",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p37",
+      "source_sanskrit": "मदीया स्त्री त्वया दुष्ट वधिता गर्हितं कृतम् । इत्याद्यैर्विविधैर्वाक्यैर्मयाऽसौ निंदितो भृश[?]म् ॥३९॥",
+      "issues": [
+        {
+          "id": "P37-42-39-BHRSHAM",
+          "canonical_key": [
+            2,
+            42,
+            39
+          ],
+          "pdf_page": 37,
+          "line": 11,
+          "position": "भृश[?]म्",
+          "candidate": "भृशाम्",
+          "reading": null,
+          "status": "open",
+          "note": "Candidate long-a mark not securely distinguishable from adjacent consonant stroke; no grammatical normalization.",
+          "integrator_pixels_compared": true,
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch42-v59",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 42,
+      "verse_start": 59,
+      "verse_end": 59,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 37,
+        "printed_page": 90,
+        "audit_global_page": 232,
+        "image_sha256": "83ad245c06bba5fa2b68e61da807857323475892e9f5ca2925da731ac9474b19",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p38",
+      "source_sanskrit": "पुनश्च देवरूपास्ते जातास्तस्य प्रसादतः । गणेशस्य न संदेहोंशरूपेण जले स्थितः ॥५९॥",
+      "issues": [
+        {
+          "id": "P38-42-59-SUBJECT-AGREEMENT",
+          "canonical_key": [
+            2,
+            42,
+            59
+          ],
+          "pdf_page": 38,
+          "kind": "source_or_interpretation",
+          "status": "open",
+          "reading": null,
+          "source_cluster": "ते…जाताः … अंशरूपेण जले स्थितः",
+          "note": "Pluralतेजाताःversussingularस्थितः;finalclauseantecedentunresolved;donotregularizetopluraloraddpossessive.",
+          "independent_review_scope": "language_and_context_only"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
     }
   ]
 }
