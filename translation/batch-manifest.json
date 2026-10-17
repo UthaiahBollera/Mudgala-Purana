@@ -12249,6 +12249,294 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-55-local-pdf-01.tsv",
+      "sha256": "1ef15328f7bebff49f58eedf672e21df451baaa7c9622b3eb67ebd9d65c1d494",
+      "source_kind": "local_pdf",
+      "source_pdf": "206 TO 255.pdf",
+      "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p32",
+          "pdf_page": 32,
+          "printed_page": 85,
+          "printed_page_verified": true,
+          "image_sha256": "2345a9dc1fee5f03639d19be208d183f6f717791114e118e5de40f8d5813bb3a",
+          "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+        },
+        {
+          "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p33",
+          "pdf_page": 33,
+          "printed_page": 86,
+          "printed_page_verified": true,
+          "image_sha256": "69ba769e7e1083c03cabbcea90608be2d68a63d3cd15c2d575fc946eeb917614",
+          "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+        },
+        {
+          "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p34",
+          "pdf_page": 34,
+          "printed_page": 87,
+          "printed_page_verified": true,
+          "image_sha256": "f99ce7174e9088aa60f0f0a6db2cf4c23424ae78cb265ce78f8019a4273015a8",
+          "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch41-34",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch40-41-reading-review.json",
+      "review_sha256": "cfc7122a0a2a93514048988e576e0a525fd46f9d3560a129f58e65bcd468ebea",
+      "added_keys": [
+        [
+          2,
+          40,
+          46
+        ],
+        [
+          2,
+          40,
+          47
+        ],
+        [
+          2,
+          40,
+          48
+        ],
+        [
+          2,
+          40,
+          49
+        ],
+        [
+          2,
+          40,
+          50
+        ],
+        [
+          2,
+          40,
+          51
+        ],
+        [
+          2,
+          40,
+          52
+        ],
+        [
+          2,
+          40,
+          53
+        ],
+        [
+          2,
+          40,
+          54
+        ],
+        [
+          2,
+          40,
+          55
+        ],
+        [
+          2,
+          40,
+          56
+        ],
+        [
+          2,
+          41,
+          1
+        ],
+        [
+          2,
+          41,
+          2
+        ],
+        [
+          2,
+          41,
+          3
+        ],
+        [
+          2,
+          41,
+          4
+        ],
+        [
+          2,
+          41,
+          5
+        ],
+        [
+          2,
+          41,
+          6
+        ],
+        [
+          2,
+          41,
+          7
+        ],
+        [
+          2,
+          41,
+          8
+        ],
+        [
+          2,
+          41,
+          9
+        ],
+        [
+          2,
+          41,
+          10
+        ],
+        [
+          2,
+          41,
+          11
+        ],
+        [
+          2,
+          41,
+          12
+        ],
+        [
+          2,
+          41,
+          13
+        ],
+        [
+          2,
+          41,
+          14
+        ],
+        [
+          2,
+          41,
+          15
+        ],
+        [
+          2,
+          41,
+          16
+        ],
+        [
+          2,
+          41,
+          17
+        ],
+        [
+          2,
+          41,
+          18
+        ],
+        [
+          2,
+          41,
+          19
+        ],
+        [
+          2,
+          41,
+          20
+        ],
+        [
+          2,
+          41,
+          21
+        ],
+        [
+          2,
+          41,
+          22
+        ],
+        [
+          2,
+          41,
+          23
+        ],
+        [
+          2,
+          41,
+          24
+        ],
+        [
+          2,
+          41,
+          25
+        ],
+        [
+          2,
+          41,
+          26
+        ],
+        [
+          2,
+          41,
+          27
+        ],
+        [
+          2,
+          41,
+          28
+        ],
+        [
+          2,
+          41,
+          29
+        ],
+        [
+          2,
+          41,
+          30
+        ],
+        [
+          2,
+          41,
+          31
+        ],
+        [
+          2,
+          41,
+          32
+        ],
+        [
+          2,
+          41,
+          33
+        ],
+        [
+          2,
+          41,
+          34
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            40,
+            45
+          ],
+          "old_row": {
+            "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p32",
+            "type": "translation-review",
+            "text": "ಹೀಗೆ ಹೇಳಿ ಭಕ್ತಿಯುಕ್ತನಾಗಿ ಗಣಾಧೀಶನಿಗೆ ಪ್ರಣಾಮ ಮಾಡಿದನು; ಅವನನ್ನು ಕುರಿತು (ಪರಿಶೀಲನೆ: ಇಲ್ಲಿ ಕರ್ತೃ ಇನ್ನೂ ಸ್ಪಷ್ಟವಾಗಿಲ್ಲ) ಹೇಳಿದನು... (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಭಾಗ 45a ಮಾತ್ರ — ಪುಟ 32 ತಮುವಾಚ ಎಂಬಲ್ಲಿಗೆ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ; 45b ಅಥವಾ ಅಧ್ಯಾಯ 40ರ ಸಮಾಪ್ತಿಯನ್ನು ಸೇರಿಸಿಲ್ಲ)"
+          },
+          "new_row": {
+            "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p32,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p33",
+            "type": "translation",
+            "text": "ಹೀಗೆ ಹೇಳಿ ಭಕ್ತಿಯುಕ್ತನಾಗಿ ಗಣಾಧೀಶನಿಗೆ ಪ್ರಣಾಮ ಮಾಡಿದ ಅವನನ್ನು (ಅಗ್ನಿಯನ್ನು) ಕುರಿತು ಭಕ್ತವತ್ಸಲಭಾವದಿಂದ ಗಣಾಧ್ಯಕ್ಷನು ಹೀಗೆ ಹೇಳಿದನು ॥೪೫॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch39-40-reading-review.json",
+          "rationale": "Earlierdeclaredfragmentcompletedbyfollowingprimarypage;fulljoinedversereviewed;onekeyonly.",
+          "source_evidence": "Primaryfrozenp33-34SHA4d2b7e874721ffc772f831ae9c39ac390c8d173beecbaf1bbcd8cbc74ca0c31e",
+          "review_status": "accepted"
+        }
+      ]
     }
   ]
 }

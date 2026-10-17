@@ -25494,7 +25494,7 @@
       "chapter": 40,
       "verse_start": 45,
       "verse_end": 45,
-      "status": "open_pdf_reading_question",
+      "status": "resolved_by_verified_boundary_completion",
       "primary_source": {
         "filename": "206 TO 255.pdf",
         "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
@@ -25511,6 +25511,292 @@
           "id": "P32-40-45-AGENCY",
           "status": "open",
           "description": "45a ends तमुवाच without supplied speaker; second verb agent unresolved; no45b supplied.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "resolution": {
+        "key": [
+          2,
+          40,
+          45
+        ],
+        "review_file": "translation/local-pdf-khanda2-ch40-41-reading-review.json",
+        "review_sha256": "cfc7122a0a2a93514048988e576e0a525fd46f9d3560a129f58e65bcd468ebea",
+        "source_sanskrit": "एवमुक्त्वा गणाधीशं प्रणतो भक्तिसंयुतः । तमुवाच गणाध्यक्षो भक्तवत्सलभावतः ॥४५॥",
+        "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p32,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p33",
+        "text": "ಹೀಗೆ ಹೇಳಿ ಭಕ್ತಿಯುಕ್ತನಾಗಿ ಗಣಾಧೀಶನಿಗೆ ಪ್ರಣಾಮ ಮಾಡಿದ ಅವನನ್ನು (ಅಗ್ನಿಯನ್ನು) ಕುರಿತು ಭಕ್ತವತ್ಸಲಭಾವದಿಂದ ಗಣಾಧ್ಯಕ್ಷನು ಹೀಗೆ ಹೇಳಿದನು ॥೪೫॥",
+        "reason": "Followingprimarypageidentifiessecondverbsubject;joinedfullverseindependentlyreviewed;historicalfragmentissuepreserved."
+      }
+    },
+    {
+      "id": "kh2-ch40-v54",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 40,
+      "verse_start": 54,
+      "verse_end": 54,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 33,
+        "printed_page": 86,
+        "audit_global_page": 228,
+        "image_sha256": "69ba769e7e1083c03cabbcea90608be2d68a63d3cd15c2d575fc946eeb917614",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p33",
+      "source_sanskrit": "तद[?]हनो\nदैत्य सर्वभक्षो बभूव ह । शुचिश्चामृतभुग् देवो योगशांतिधरः स्वयम् ॥५४॥",
+      "issues": [
+        {
+          "id": "P33-40-53-L7",
+          "pdf_page": 33,
+          "printed_page": "८६",
+          "handwritten_page": "238",
+          "line": 7,
+          "verse": "40.54a",
+          "position": "End of line 7, after ॥५३॥ inside तद[?]हनो (between तद and हनो)",
+          "reading": null,
+          "notes": "Medial cluster between तद and हनो shows ह with a subscript stroke and ा matra followed by a stacked द्द/द ligature (resembling तदहादहनो or तदह्नाद्दहनो). Flagged without grammatical normalization.",
+          "status": "open",
+          "canonical_key": [
+            2,
+            40,
+            54
+          ],
+          "independent_pixels_compared": true,
+          "review_policy": "No grammatical/conventional normalization; translate clear context, retain precise glyph/meaning placeholder.",
+          "original_id_preserved": true,
+          "original_model_verse_field": "40.54a",
+          "mapping_resolution": "Token is after printed53endmark and before54endmark; belongs54a. ID embeds53 but is immutable audit handle, not verse authority.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch41-v6",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 41,
+      "verse_start": 6,
+      "verse_end": 6,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 33,
+        "printed_page": 86,
+        "audit_global_page": 228,
+        "image_sha256": "69ba769e7e1083c03cabbcea90608be2d68a63d3cd15c2d575fc946eeb917614",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p33",
+      "source_sanskrit": "मत्स्या जलवियोगेन व्याकुला मरणोन्मुखाः । तान् स्वर्गे स्थापयामास सांसर्गिक[?]भावतः ॥६॥",
+      "issues": [
+        {
+          "id": "P33-41-6-L17",
+          "pdf_page": 33,
+          "printed_page": "८६",
+          "handwritten_page": "238",
+          "line": 17,
+          "verse": "41.6b",
+          "position": "End of line 17, 5th syllable of सांसर्गिक[?]भावतः (between सांसर्गिक and भावतः)",
+          "reading": null,
+          "notes": "The syllable after सांसर्गिक prints with a lower hook resembling सु (सांसर्गिकसुभावतः) or a worn/broken स्व ligature (सांसर्गिकस्वभावतः).",
+          "status": "open",
+          "canonical_key": [
+            2,
+            41,
+            6
+          ],
+          "independent_pixels_compared": true,
+          "review_policy": "No grammatical/conventional normalization; translate clear context, retain precise glyph/meaning placeholder.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch41-v7",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 41,
+      "verse_start": 7,
+      "verse_end": 7,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 33,
+        "printed_page": 86,
+        "audit_global_page": 228,
+        "image_sha256": "69ba769e7e1083c03cabbcea90608be2d68a63d3cd15c2d575fc946eeb917614",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p33",
+      "source_sanskrit": "कृतांजलिपुटं दृष्ट्वा नहुषं मुनिसत्तमः । उवाच मोचय प्राज्ञ धृतं धीवर[?]तोऽधुना ॥७॥",
+      "issues": [
+        {
+          "id": "P33-41-7-L18",
+          "pdf_page": 33,
+          "printed_page": "८६",
+          "handwritten_page": "238",
+          "line": 18,
+          "verse": "41.7b",
+          "position": "Middle of line 18, inside धीवर[?]तोऽधुना (above/after र in धीवर)",
+          "reading": null,
+          "notes": "A prominent dark dot appears directly above र in धीवरतोऽधुना, making the printed token look like धीवरंतोऽधुना (either an erroneous typeset anusvara or a heavy ink spot).",
+          "status": "open",
+          "canonical_key": [
+            2,
+            41,
+            7
+          ],
+          "independent_pixels_compared": true,
+          "review_policy": "No grammatical/conventional normalization; translate clear context, retain precise glyph/meaning placeholder.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch41-v13",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 41,
+      "verse_start": 13,
+      "verse_end": 13,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 33,
+        "printed_page": 86,
+        "audit_global_page": 228,
+        "image_sha256": "69ba769e7e1083c03cabbcea90608be2d68a63d3cd15c2d575fc946eeb917614",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p34",
+      "source_sanskrit": "तथाऽपि मुनिना मान्यं\nन कृतं तत्ततो नृपः । राज्यमर्धं त[?] मौल्यं धीवरान् दातुमुद्यतः ॥१३॥",
+      "issues": [
+        {
+          "id": "P34-41-13-L4",
+          "pdf_page": 34,
+          "printed_page": "८७",
+          "handwritten_page": "239",
+          "line": 4,
+          "verse": "41.13b",
+          "position": "Middle of line 4, second syllable of त[?] between राज्यमर्धं and मौल्यं",
+          "reading": null,
+          "notes": "The second syllable prints with two top strokes resembling ततौ (with ौ matra) rather than ततो (with single ो matra) immediately before मौल्यं. Held without grammatical normalization.",
+          "status": "open",
+          "canonical_key": [
+            2,
+            41,
+            13
+          ],
+          "independent_pixels_compared": true,
+          "review_policy": "No grammatical/conventional normalization; translate clear context, retain precise glyph/meaning placeholder.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch41-v16",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 41,
+      "verse_start": 16,
+      "verse_end": 16,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 33,
+        "printed_page": 86,
+        "audit_global_page": 228,
+        "image_sha256": "69ba769e7e1083c03cabbcea90608be2d68a63d3cd15c2d575fc946eeb917614",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p34",
+      "source_sanskrit": "अधुना कोपसंयुक्त[?]वनः शापयिष्यति । मां तत्र नैव संदेहो मद्दैवेन प्रचोदितः ॥१६॥",
+      "issues": [
+        {
+          "id": "P34-41-16-L6",
+          "pdf_page": 34,
+          "printed_page": "८७",
+          "handwritten_page": "239",
+          "line": 6,
+          "verse": "41.16a",
+          "position": "First half of line 6, medial conjunct in कोपसंयुक्त[?]वनः between कोपसंयुक्त and वनः",
+          "reading": null,
+          "notes": "Compressed/heavily inked ligature between कोपसंयुक्त and वनः (where श्च्य is expected); the upper-left loop of the conjunct is filled with ink and visually ambiguous.",
+          "status": "open",
+          "canonical_key": [
+            2,
+            41,
+            16
+          ],
+          "independent_pixels_compared": true,
+          "review_policy": "No grammatical/conventional normalization; translate clear context, retain precise glyph/meaning placeholder.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch41-v28",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 41,
+      "verse_start": 28,
+      "verse_end": 28,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 33,
+        "printed_page": 86,
+        "audit_global_page": 228,
+        "image_sha256": "69ba769e7e1083c03cabbcea90608be2d68a63d3cd15c2d575fc946eeb917614",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p34",
+      "source_sanskrit": "नरान् सर्वान्निवार्यैव\nसंस्थितस्तत्र भूमिपः । मा कुरुध्वं प्रवेशं स[?]वनाश्रममंडले ॥ २८ ॥",
+      "issues": [
+        {
+          "id": "P34-41-28-L16",
+          "pdf_page": 34,
+          "printed_page": "८७",
+          "handwritten_page": "239",
+          "line": 16,
+          "verse": "41.28b",
+          "position": "Middle of line 16, inside स[?]वनाश्रममंडले after मा कुरुध्वं प्रवेशं स",
+          "reading": null,
+          "notes": "The conjunct immediately following स and preceding वनाश्रममंडले prints with a stacked rounded ligature resembling द्ध्य (सद्ध्यवनाश्रममंडले) rather than a clear च्च्य/च्य. Flagged without guessing or normalizing.",
+          "status": "open",
+          "canonical_key": [
+            2,
+            41,
+            28
+          ],
+          "independent_pixels_compared": true,
+          "review_policy": "No grammatical/conventional normalization; translate clear context, retain precise glyph/meaning placeholder.",
           "kind": "source_or_interpretation"
         }
       ],

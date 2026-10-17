@@ -4,6 +4,8 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+Reviewed original pages33–34 complete the single40.45 fragment, add40.46–56 and its colophon, and add41.1–33 plus34a only:45 new keys and4,801 total entries. Six new source holds remain visible; the old40.45 fragment-agency question is resolved by the verified following page and reviewed full verse, with historical evidence retained.
+
 This reviewed batch replaces the single chapter39.50a fragment with joined verse50, adds verse51 and the source colophon, and adds chapter40.1–44 plus45a only: 46 new numbered keys, 4,756 total. Chapter39 retains its three earlier review holds; chapter40 retains its glyph33 and fragment-agency45 holds. TOC/body labels preserve the partial reading status and explicit45a boundary.
 
 Chapter 39 adds 49 complete verses and the explicitly marked 50a fragment, bringing the reading edition to 4,710 numbered verse units. Three source/meaning holds remain visible (36 negation, 42 disputed glyph, 45 return-home agency). TOC/body labels stop at 50a; no 50b or colophon is supplied.

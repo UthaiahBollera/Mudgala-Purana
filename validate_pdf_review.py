@@ -2,6 +2,19 @@
 import hashlib,json,re
 from pathlib import Path
 
+def validate_boundary_resolution(root, issue, key):
+    resolution = issue.get('resolution', {})
+    assert resolution.get('key') == list(key), 'Resolution key mismatch'
+    path = (root/resolution.get('review_file', '')).resolve()
+    assert path.is_relative_to((root/'translation').resolve()) and path.is_file(), 'Resolution review missing'
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == resolution.get('review_sha256'), 'Resolution review checksum mismatch'
+    records = [r for r in json.loads(path.read_text())['verses'] if tuple(r['key']) == key]
+    assert len(records) == 1, 'Resolution verse missing'
+    row = records[0]
+    assert row['review_status'] == 'accepted' and not row.get('issues') and not row.get('fragment'), 'Resolution remains unresolved'
+    assert all(row[f] == resolution[f] for f in ('source_sanskrit', 'source_pages', 'text')), 'Resolution evidence mismatch'
+    assert set(issue['source_pages'].split(',')) < set(row['source_pages'].split(',')), 'Resolution adds no primary page'
+
 def validate_declared_fragment_completion(root, old_row, key, item, prior_batches, coverage):
     """Allow an explicit reviewed fragment without rewriting its historical TSV type."""
     matches = [b for b in prior_batches if b['review_file'] == item.get('old_fragment_review_file')]
@@ -60,7 +73,9 @@ def validate_pdf_batch(root,batch,rows,review,registry):
             matches=[i for i in registry['records'] if i['id']==f'kh{key[0]}-ch{key[1]}-v{key[2]}']
             assert len(matches)==1, 'PDF issue register missing/duplicate'
             issue=matches[0]
-            assert issue['status']=='open_pdf_reading_question' and issue['issues']==x['issues'] and issue['source_sanskrit']==x['source_sanskrit'], 'PDF issue evidence mismatch'
+            assert issue['status'] in {'open_pdf_reading_question', 'resolved_by_verified_boundary_completion'} and issue['issues']==x['issues'] and issue['source_sanskrit']==x['source_sanskrit'], 'PDF issue evidence mismatch'
+            if issue['status'] == 'resolved_by_verified_boundary_completion':
+                validate_boundary_resolution(root, issue, key)
             assert issue['primary_source']==review['primary_source'] and issue['source_pages']==x['source_pages'], 'PDF issue source mismatch'
             unresolved.add(key)
         else:

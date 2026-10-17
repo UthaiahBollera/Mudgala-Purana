@@ -224,6 +224,7 @@ if manifest is not None:
             registry = json.loads((ROOT/'translation/unresolved-passages.json').read_text())
             allowed_pages, unresolved_pdf = validate_pdf_batch(ROOT, batch, parse_rows(raw_batch), review, registry)
             pdf_pages.update(allowed_pages)
+            google_unresolved_keys.difference_update(parse_rows(raw_batch))
             google_unresolved_keys.update(unresolved_pdf)
             boundary = coverage[batch['coverage_boundary']]
             assert set(boundary['source_pages']) == google_pages and len(boundary['source_pages']) == len(google_pages), 'PDF batch changed Google coverage'
