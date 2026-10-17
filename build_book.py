@@ -37,9 +37,14 @@ for batch in sorted(DATA.glob('batch-*.tsv')):
         for r in csv.DictReader(f,delimiter='\t'):
             verse_map[verse_key(r)]=r
 narrative=[verse_map[k] for k in sorted(verse_map)]
+source_gaps = json.loads((DATA/'chapter-metadata.json').read_text(encoding='utf-8')).get('source_gaps', [])
 for key in sorted({verse_key(r)[:2] for r in narrative}):
     verses=[int(r['verse']) for r in narrative if verse_key(r)[:2]==key]
-    assert verses==list(range(1,max(verses)+1)), (key,verses)
+    missing = {v for gap in source_gaps for r in gap.get('missing_verse_ranges', [])
+               if gap['status'] == 'awaiting_replacement_scan' and chapter_key(r) == key
+               for v in range(r['verse_start'], r['verse_end']+1)}
+    assert not missing & set(verses), ('Source gap overlaps supplied verses', key)
+    assert verses==[v for v in range(1,max(verses)+1) if v not in missing], (key,verses)
 KN = str.maketrans('0123456789', '೦೧೨೩೪೫೬೭೮೯')
 def kn(s): return str(s).translate(KN)
 def e(s): return escape(str(s), quote=True)
@@ -179,7 +184,10 @@ for khanda, chapter in chapters:
             if key==(1,1):
                 body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಓಂ ನಮಃ ಶ್ರೀಸ್ವಾನಂದೇಶಗಣೇಶಾಯ ಪೂರ್ಣಯೋಗಾತ್ಮನೇ ॥</p>'
                 body+='<p class="caption">ಶ್ರೀಮುದ್ಗಲಪುರಾಣದ ಆರಂಭ</p>'
-            body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥</p>'
+            if not info.get('omit_opening_invocation'):
+                body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥</p>'
+            if info.get('coverage_note'):
+                body+=f'<p class="caption">{e(info["coverage_note"])}</p>'
         for r in chunk:
             mantra=r['type']=='mantra'
             reading_text=re.sub(r'\s*\[[^\]]*\]', '', r['text'])
@@ -203,6 +211,11 @@ for khanda, chapter in chapters:
     for item in interstitials:
         if chapter_key(item['after']) == key and item.get('render', True):
             pages.append(interstitial_page(item))
+    for gap in metadata.get('source_gaps', []):
+        if chapter_key(gap['after']) == key:
+            pages.append(section(gap['id'], gap['title'],
+                                 f'<p class="caption">{e(gap["text"])}</p>',
+                                 gap['source_page'], 'source-gap'))
 css='''@font-face{font-family:"Tiro Kannada";src:url("assets/TiroKannada-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
 :root{--paper:#f4ead6;--ink:#3d3027;--red:#8c302b}*{box-sizing:border-box}body{margin:0;background:#30201e;color:var(--ink);font-family:"Tiro Kannada",serif;font-synthesis:none}
 .book{counter-reset:leaf;display:grid;grid-template-columns:minmax(0,1fr);gap:32px;padding:28px 18px 50px}.page{counter-increment:leaf;position:relative;min-width:0;max-width:100%;width:min(740px,100%);min-height:1046px;margin:auto;background:var(--paper);padding:92px 64px 90px;box-shadow:0 16px 40px #140b0b88}.page::before{content:"ಶ್ರೀ ಮುದ್ಗಲ ಪುರಾಣ";position:absolute;left:64px;right:64px;top:32px;text-align:center;border-bottom:1px solid #9c704475;padding-bottom:12px;font-size:12px;color:#624939}.page-number{position:absolute;bottom:32px;left:0;right:0;text-align:center;color:var(--red);font-size:14px}.page-number::after{content:counter(leaf,kannada)}

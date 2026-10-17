@@ -4,6 +4,8 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+Chapters 36–38 add 128 independently language-reviewed entries, bringing the reading edition to 4,660 entries. 71 source/meaning/edition holds remain visible; partial labels and withheld provisional colophons preserve review limits.
+
 Chapters 34–35 add 101 independently language-reviewed entries, bringing the reading edition to 4,532 entries. 71 source/meaning/edition holds remain visible; partial labels and withheld provisional colophons preserve review limits.
 
 Chapters 32–33 add 104 independently language-reviewed entries, bringing the reading edition to 4,431 entries. 56 source/meaning/edition holds remain visible; partial labels and withheld provisional colophons preserve review limits.

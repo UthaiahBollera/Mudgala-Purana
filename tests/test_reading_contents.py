@@ -33,6 +33,18 @@ def check(base):
     completed = {chapter_key(row) for row in json.loads((base/'translation/completed-chapters.json').read_text())}
     reading_partial = {chapter_key(item) for item in json.loads((base/'translation/chapter-metadata.json').read_text())['chapters'] if item.get('reading_status') == 'partial'}
     doc = html.fromstring((base/'book/index.html').read_bytes())
+    gaps = json.loads((base/'translation/chapter-metadata.json').read_text()).get('source_gaps', [])
+    for gap in gaps:
+        notice = doc.get_element_by_id(gap['id'])
+        assert notice.get('data-source-pages') == gap['source_page']
+        assert gap['text'] in notice.text_content()
+        for missing in gap.get('missing_verse_ranges', []):
+            assert not any((missing['khanda'], missing['chapter'], v) in merged
+                           for v in range(missing['verse_start'], missing['verse_end']+1)), 'Missing scan must not create numbered filler'
+    for item in json.loads((base/'translation/chapter-metadata.json').read_text())['chapters']:
+        if item.get('omit_opening_invocation'):
+            section = doc.get_element_by_id(f'chapter-kh{item["khanda"]}-{item["chapter"]}-1')
+            assert not section.xpath('.//p[@class="mantra"]'), 'Mid-chapter continuation must not invent an opening invocation'
     assert len(doc.xpath('//@id')) == len(set(doc.xpath('//@id')))
     rows = doc.xpath('//table[@class="contents"]//tr[@data-chapter]')
     assert [(int(r.get('data-khanda')), int(r.get('data-chapter'))) for r in rows] == chapters
@@ -88,6 +100,9 @@ def check(base):
         assert page8.xpath('.//p[@class="mantra"]/text()') == mantras
     with ZipFile(base/'dist/mudgala_purana.epub') as archive:
         parsed = {name: etree.fromstring(archive.read(name)) for name in archive.namelist() if name.endswith('.xhtml')}
+        for gap in gaps:
+            notices = [node for content in parsed.values() for node in content.xpath('//*[@id=$id]', id=gap['id'])]
+            assert len(notices) == 1 and gap['text'] in ''.join(notices[0].itertext()), 'EPUB must retain source-gap notice'
         for name, content in parsed.items():
             for link in content.xpath('//x:a', namespaces=X):
                 filename, _, fragment = link.get('href').partition('#')

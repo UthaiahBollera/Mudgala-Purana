@@ -59,9 +59,25 @@ for key, row in merged.items():
     assert p.get('lang') == ('sa-Knda' if row['type']=='mantra' else 'kn')
     assert p.get('data-source-pages') == row['source_pages']
 chapter_keys = {key[:2] for key in merged}
+metadata = json.loads((root/'translation/chapter-metadata.json').read_text(encoding='utf-8'))
+gaps = metadata.get('source_gaps', [])
+assert {g['id'] for g in gaps} == set(boundary.get('source_gaps', [])), 'Untracked source gap'
+declared_missing = boundary.get('missing_verse_ranges', [])
+assert declared_missing == [r for g in gaps for r in g.get('missing_verse_ranges', []) if (r['khanda'], r['chapter']) in chapter_keys], 'Missing verse range lacks source-gap evidence'
+for gap in gaps:
+    assert gap['status'] == 'awaiting_replacement_scan'
+    source_ids(gap['source_page'])
+    node = doc.get_element_by_id(gap['id'])
+    assert node.get('data-source-pages') == gap['source_page']
+    assert gap['text'] in node.text_content()
+for fragment in boundary.get('fragment_only_keys', []):
+    key = tuple(fragment)
+    assert key in merged and 'ಅಪೂರ್ಣ ಶ್ಲೋಕ' in merged[key]['text'], 'Fragment lacks visible incomplete-verse notice'
 for chapter in chapter_keys:
     verses = sorted(key[2] for key in merged if key[:2] == chapter)
-    assert verses == list(range(1,max(verses)+1)), chapter
+    missing = {v for r in declared_missing if (r['khanda'], r['chapter']) == chapter for v in range(r['verse_start'], r['verse_end']+1)}
+    assert not missing & set(verses), 'Gap overlaps supplied verses'
+    assert verses == [v for v in range(1,max(verses)+1) if v not in missing], chapter
 pages = set().union(*(source_ids(r['source_pages'], key[0]) for key, r in merged.items()))
 metadata_path = root/'translation/chapter-metadata.json'
 metadata = json.loads(metadata_path.read_text(encoding='utf-8')) if metadata_path.exists() else {}
