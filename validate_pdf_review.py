@@ -9,10 +9,23 @@ def validate_pdf_batch(root,batch,rows,review,registry):
     assert re.fullmatch('[0-9a-f]{64}',digest), 'Invalid PDF hash'
     assert review['primary_source']['filename']==identity and review['primary_source']['sha256']==digest, 'Primary PDF identity mismatch'
     assert review['source_priority']=='scanned_pdf_primary_ocr_aid_google_books_reference', 'Wrong source priority'
+    # Cross-file verses retain both page tokens, each tied to a declared PDF.
+    sources=batch.get('additional_source_pdfs',[])
+    assert sources==review.get('additional_source_pdfs',[]), 'Additional PDF identities mismatch'
+    digests={digest}
+    identities={identity}
+    for source in sources:
+        name=source['filename'];other=source['sha256']
+        assert Path(name).name==name and name.endswith('.pdf'), 'PDF identity must be a basename'
+        assert re.fullmatch('[0-9a-f]{64}',other), 'Invalid additional PDF hash'
+        assert name not in identities and other not in digests, 'Duplicate PDF identity'
+        identities.add(name);digests.add(other)
     pages=batch['source_pages'];allowed=set()
     for p in pages:
         assert type(p['pdf_page']) is int and p['pdf_page']>0, 'Invalid PDF page'
-        assert p['id']==f'pdf:{digest}:p{p["pdf_page"]}', 'Mismatched PDF page token'
+        page_digest=p.get('source_sha256',digest)
+        assert page_digest in digests, 'Undeclared PDF source'
+        assert p['id']==f'pdf:{page_digest}:p{p["pdf_page"]}', 'Mismatched PDF page token'
         assert p['id'] not in allowed, 'Duplicate PDF page'
         assert re.fullmatch('[0-9a-f]{64}',p['image_sha256']), 'Missing source image hash'
         assert type(p['printed_page']) is int and p['printed_page']>0 and p['printed_page_verified'] is True, 'Unverified printed page'

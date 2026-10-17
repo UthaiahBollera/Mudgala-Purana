@@ -12,6 +12,20 @@ class PDFReview(unittest.TestCase):
  def reject(self):
   with self.assertRaises(AssertionError):self.check()
  def test_valid(self):self.assertEqual(self.check()[1],{(2,2,30)})
+ def add_cross_file(self):
+  source={'filename':'continuation.pdf','sha256':'a'*64}
+  self.batch['additional_source_pdfs']=[source];self.review['additional_source_pdfs']=[copy.deepcopy(source)]
+  page=copy.deepcopy(self.batch['source_pages'][0]);page.update(source_sha256=source['sha256'],id='pdf:'+source['sha256']+':p'+str(page['pdf_page']))
+  self.batch['source_pages'].append(page)
+  item=self.review['verses'][0];key=tuple(item['key']);item['source_pages']+=','+page['id'];self.rows[key]['source_pages']=item['source_pages']
+ def test_cross_file_verse(self):
+  self.add_cross_file();self.check()
+ def test_undeclared_cross_file(self):
+  self.add_cross_file();self.batch['additional_source_pdfs']=[];self.review['additional_source_pdfs']=[];self.reject()
+ def test_mismatched_additional_identity(self):
+  self.add_cross_file();self.review['additional_source_pdfs'][0]['filename']='other.pdf';self.reject()
+ def test_wrong_cross_file_token(self):
+  self.add_cross_file();self.batch['source_pages'][-1]['id']+='0';self.reject()
  def test_source_hash(self):self.batch['source_sha256']='bad';self.reject()
  def test_wrong_primary(self):self.review['primary_source']['filename']='wrong.pdf';self.reject()
  def test_wrong_page(self):self.batch['source_pages'][0]['id']+='0';self.reject()
