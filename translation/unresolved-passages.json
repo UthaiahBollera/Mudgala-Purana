@@ -31066,6 +31066,417 @@
       "book_id": null,
       "google_books_pages": null,
       "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch58-v23",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 58,
+      "verse_start": 23,
+      "verse_end": 23,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p11",
+      "source_sanskrit": "ततो गृत्समदः [?:N265-P11-U-01]ह प्रह्लादं सर्वमंजसा । आह्लादेन समायुक्तो गाणपत्यो महायशाः ॥२३॥",
+      "issues": [
+        {
+          "id": "N265-P11-U-01",
+          "pdf_page": 11,
+          "printed_page": 123,
+          "handwritten_page": 275,
+          "line": 5,
+          "verse": "2.58.23",
+          "position": "1st akshara of '[?:N265-P11-U-01]ह' at the start of line 5 before 'प्रह्लादं'",
+          "context": "ततो गृत्समदः\n[?:N265-P11-U-01]ह प्रह्लादं सर्वमंजसा ।",
+          "visual_reason": "The lower-left diagonal stroke of 'प्र' is filled/closed like the loop of 'म', making the glyph visually ambiguous between 'प्रा' ('प्राह') and 'मा' ('माह').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            58,
+            23
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch58-v24",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 58,
+      "verse_start": 24,
+      "verse_end": 24,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p11",
+      "source_sanskrit": "गृत्समद उवाच । अत्र ते कथयिष्यामि [?:N265-P11-U-02]तिहासं पुरातनम् । सूर्यस्य यमराजस्य संवादं पापनाशनम् ॥२४॥",
+      "issues": [
+        {
+          "id": "N265-P11-U-02",
+          "pdf_page": 11,
+          "printed_page": 123,
+          "handwritten_page": 275,
+          "line": 6,
+          "verse": "2.58.24",
+          "position": "1st akshara of '[?:N265-P11-U-02]तिहासं' at the start of line 6",
+          "context": "अत्र ते कथयिष्यामि\n[?:N265-P11-U-02]तिहासं पुरातनम् ।",
+          "visual_reason": "An internal ink bridge across the bowl of the consonant makes the initial glyph visually ambiguous between 'चे' ('चेतिहासं') and 'षे' ('षेतिहासं').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            58,
+            24
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch58-v34",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 58,
+      "verse_start": 34,
+      "verse_end": 34,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p11",
+      "source_sanskrit": "ततः संज्ञा ययौ गेहं पितुस्तेन तिरस्कृता । भर्तारं त्यज मैवं त्वं स्वगृहं गच्छ मा कुरु ॥३४॥",
+      "issues": [
+        {
+          "id": "N265-P11-58-34-NEGATIVE-CONSTRUCTION",
+          "status": "open",
+          "kind": "linguistic_interpretation",
+          "detail": "Printed भर्तारं त्यज मैवं and negative construction retained without source emendation."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch58-v45",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 58,
+      "verse_start": 45,
+      "verse_end": 45,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p12",
+      "source_sanskrit": "सा स्वभावं स्वकीयं तं न तत्याज कदाचन । कुपितो [?:N265-P12-U-01]र्मराजस्तां पदा हन्तुं प्रचक्रमे ॥४५॥",
+      "issues": [
+        {
+          "id": "N265-P12-U-01",
+          "pdf_page": 12,
+          "printed_page": 124,
+          "handwritten_page": 276,
+          "line": 2,
+          "verse": "2.58.45",
+          "position": "1st akshara of '[?:N265-P12-U-01]र्मराजस्तां' after 'कुपितो'",
+          "context": "कुपितो [?:N265-P12-U-01]र्मराजस्तां पदा हन्तुं",
+          "visual_reason": "The top-left loop is flat/uncurled under a full top bar, making the glyph visually resemble 'घ' ('घर्मराजस्तां') rather than 'ध' ('धर्मराजस्तां').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            58,
+            45
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch58-v46",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 58,
+      "verse_start": 46,
+      "verse_end": 46,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p12",
+      "source_sanskrit": "तं चाविनयसंयुक्तं शशाप जननी सुतम् । पादस्ते क्लेद्यतां प्राप्य पतिष्यति [?:N265-P12-U-02]रातले ॥४६॥",
+      "issues": [
+        {
+          "id": "N265-P12-U-02",
+          "pdf_page": 12,
+          "printed_page": 124,
+          "handwritten_page": 276,
+          "line": 3,
+          "verse": "2.58.46",
+          "position": "1st akshara of '[?:N265-P12-U-02]रातले' after 'पतिष्यति'",
+          "context": "पादस्ते क्लेद्यतां प्राप्य पतिष्यति [?:N265-P12-U-02]रातले ॥४६॥",
+          "visual_reason": "The initial consonant has a continuous flat top bar without an open upper-left curl, appearing visually as 'घ' ('घरातले') or 'ध' ('धरातले').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            58,
+            46
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch58-v47",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 58,
+      "verse_start": 47,
+      "verse_end": 47,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p12",
+      "source_sanskrit": "[?:N265-P12-U-03]र्मः क्रोधं समागृ[?:N265-P12-U-04] सवितारं जगाम ह । भयभीतश्च शापेन वृत्तांतं तं जगाद सः ॥४७॥",
+      "issues": [
+        {
+          "id": "N265-P12-U-03",
+          "pdf_page": 12,
+          "printed_page": 124,
+          "handwritten_page": 276,
+          "line": 3,
+          "verse": "2.58.47",
+          "position": "1st akshara of '[?:N265-P12-U-03]र्मः' after '॥४६॥'",
+          "context": "पतिष्यति [?:N265-P12-U-02]रातले ॥४६॥ [?:N265-P12-U-03]र्मः क्रोधं",
+          "visual_reason": "The initial consonant is printed with a flat top bar like 'घ' ('घर्मः') instead of a curled 'ध' ('धर्मः').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            58,
+            47
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        },
+        {
+          "id": "N265-P12-U-04",
+          "pdf_page": 12,
+          "printed_page": 124,
+          "handwritten_page": 276,
+          "line": 4,
+          "verse": "2.58.47",
+          "position": "4th akshara conjunct of 'समागृ[?:N265-P12-U-04]' at the start of line 4",
+          "context": "समागृ[?:N265-P12-U-04] सवितारं जगाम ह ।",
+          "visual_reason": "The conjunct after 'समागृ' is smudged in the upper-left curve, appearing visually ambiguous between 'ह्य' ('समागृह्य') and 'श्य' ('समागृश्य').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            58,
+            47
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch59-v4",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 59,
+      "verse_start": 4,
+      "verse_end": 4,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p12",
+      "source_sanskrit": "अ[?:N265-P12-U-05] विनायकं देवं भज त्वं भक्तिभावतः । स चेत् प्रसन्नतां यातस्तदा सुखमवाप्स्यसि ॥४॥",
+      "issues": [
+        {
+          "id": "N265-P12-U-05",
+          "pdf_page": 12,
+          "printed_page": 124,
+          "handwritten_page": 276,
+          "line": 9,
+          "verse": "2.59.4",
+          "position": "2nd akshara of 'अ[?:N265-P12-U-05]' after '॥३॥'",
+          "context": "मातुः शापं कदा मिथ्या मया कर्तुं न शक्यते ॥३॥ अ[?:N265-P12-U-05] विनायकं देवं भज त्वं भक्तिभावतः ।",
+          "visual_reason": "The vowel sign above 'त' arches slightly to the left, making the glyph visually ambiguous between 'तो' ('अतो') and 'ती' ('अती').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            59,
+            4
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch59-v7",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 59,
+      "verse_start": 7,
+      "verse_end": 7,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p12",
+      "source_sanskrit": "सा भीता सत्यमेवेदं वचनं तं जगाद ह । पितुर्गेहं गता संज्ञाऽस्थाप्य मां त्व[?:N265-P12-U-06]हे प्रभो ॥७॥",
+      "issues": [
+        {
+          "id": "N265-P12-U-06",
+          "pdf_page": 12,
+          "printed_page": 124,
+          "handwritten_page": 276,
+          "line": 12,
+          "verse": "2.59.7",
+          "position": "2nd akshara conjunct of 'त्व[?:N265-P12-U-06]हे' before 'प्रभो ॥७॥'",
+          "context": "पितुर्गेहं गता संज्ञाऽस्थाप्य मां त्व[?:N265-P12-U-06]हे प्रभो ॥७॥",
+          "visual_reason": "The subscript cluster under 'द' is tightly compressed and inked, appearing visually ambiguous between 'द्गृ' ('त्वद्गृहे') and 'द्दृ' ('त्वद्दृहे').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            59,
+            7
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch59-v15",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 59,
+      "verse_start": 15,
+      "verse_end": 15,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 10,
+        "printed_page": 122,
+        "audit_global_page": 274,
+        "image_sha256": "1a3943987b623e53cd2941eb260bcc0497e8d0aed8dd7d71956563879c30ce21",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p12",
+      "source_sanskrit": "साऽपरं पुरुषं ज्ञात्वा गणेशं मनसाऽस्मरत् । ततः सूर्येण वीर्यं स्वं नसि नि[?:N265-P12-U-07]प्तमादरात् ॥१५॥",
+      "issues": [
+        {
+          "id": "N265-P12-U-07",
+          "pdf_page": 12,
+          "printed_page": 124,
+          "handwritten_page": 276,
+          "line": 19,
+          "verse": "2.59.15",
+          "position": "2nd akshara conjunct of 'नि[?:N265-P12-U-07]प्तमादरात्' at the start of line 19",
+          "context": "नसि नि[?:N265-P12-U-07]प्तमादरात् ॥१५॥",
+          "visual_reason": "Extra ink on the left side of the conjunct before 'प्त' makes it appear visually ambiguous between 'क्षि' ('निक्षिप्तमादरात्') and 'श्क्षि' ('निश्क्षिप्तमादरात्').",
+          "reading": null,
+          "canonical_key": [
+            2,
+            59,
+            15
+          ],
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
     }
   ]
 }
