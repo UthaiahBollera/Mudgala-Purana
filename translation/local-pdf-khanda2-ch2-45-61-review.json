@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "source_kind": "local_pdf",
+  "source_priority": "scanned_pdf_primary_ocr_aid_google_books_reference",
+  "primary_source": {
+    "filename": "139 TO 163.pdf",
+    "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+    "pdf_page": 14,
+    "printed_page": 5,
+    "audit_global_page": 147,
+    "image_sha256": "2aeb8dfb358e6d5ece40d5842626fce83f333394be634a8701cc79d0e62e98c7",
+    "printed_page_verified": true
+  },
+  "source_pages": [
+    {
+      "id": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "pdf_page": 14,
+      "printed_page": 5,
+      "printed_page_verified": true,
+      "image_sha256": "2aeb8dfb358e6d5ece40d5842626fce83f333394be634a8701cc79d0e62e98c7"
+    }
+  ],
+  "scope": "Khanda2 chapter2 verses45–61 and actual ending colophon",
+  "source_method": "Primary PDF printedpage5 original pixels checked; unclear45/61 cross-checked against verified Google Books original Sanskrit PT97/PT102. Independent grammar review separate from source inspection. No modern English used.",
+  "verses": [
+    {
+      "key": [
+        2,
+        2,
+        45
+      ],
+      "source_sanskrit": "मायामयं सर्वमिदं मिथ्याभूतं भ्रमात्मकम् ।\nश्राम्येज्ज्ञाता तदर्थं यो मूर्खवन्नात्र संशयः ॥ ४५ ॥",
+      "text": "ಇದೆಲ್ಲವೂ ಮಾಯಾಮಯವೂ ಮಿಥ್ಯಾಭೂತವೂ ಭ್ರಮಾತ್ಮಕವೂ ಆಗಿದೆ. ಜ್ಞಾನಿಯಾದವನು ಇದಕ್ಕಾಗಿ ಶ್ರಮಿಸಿದರೆ, ಮೂರ್ಖನಂತೆ ಶ್ರಮಿಸಿದಂತೆಯೇ; ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ. ॥೪೫॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "boundary_note": "Verse43 includes reported assent ओम्, proposed ಓಂ transliteration within otherwise translated narration; no separately quoted mantra/stotra."
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted",
+      "prior_unaccepted_source_candidate": "मायामयं सर्वमिदं मिथ्याभूतं भ्रमात्मकम् ।\nश्राम्येदज्ञाता तदर्थं यो मूर्खवन्नात्र संशयः ॥४५॥",
+      "grammar_review": "श्राम्येत् + ज्ञाता; not अज्ञाता. No source emendation.",
+      "reference_resolution": {
+        "book_id": "fZcHEQAAQBAJ",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT97",
+        "page_id": "PT97",
+        "visible_reading": "मायामयं सर्वमिदं मिथ्याभूतं भ्रमात्मकम् ।\nश्राम्येज्ज्ञाता तदर्थं यो मूर्खवन्नात्र संशयः ॥ ४५ ॥",
+        "screenshot_sha256": "aec534cc20e834dcc45315ee3458031c028890a54ef4d03e858c29fe3f4d27c8",
+        "integrator_reconciliation": "PDF conjunct previously unsettled; crop is compatible with श्राम्येज्ज्ञाता. Google Books Sanskrit pixels visibly support that candidate; retire श्राम्येदज्ञाता as unaccepted OCR/candidate, not a clear PDF variant. Exact grammar/Kannada awaits independent review.",
+        "source_method": "Separate Chrome helper visible original Sanskrit image verification, then local integrator inspection of screenshot pixels and primary PDF crop. Modern English not used."
+      }
+    },
+    {
+      "key": [
+        2,
+        2,
+        46
+      ],
+      "source_sanskrit": "ततस्तं पुनरप्याह सृज त्वं विविधाः प्रजाः ।\nअन्त्ये वयसि देवेश गणेशं भज पुत्रक ॥४६॥",
+      "text": "ಅನಂತರ ಬ್ರಹ್ಮನು ಅವನಿಗೆ ಮತ್ತೆ, “ನೀನು ನಾನಾವಿಧ ಪ್ರಜೆಗಳನ್ನು ಸೃಷ್ಟಿಸು. ಮಗನೇ, ದೇವೇಶನೇ, ವಯಸ್ಸಿನ ಅಂತ್ಯಭಾಗದಲ್ಲಿ ಗಣೇಶನನ್ನು ಭಜಿಸು” ಎಂದು ಹೇಳಿದನು. ॥೪೬॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Reported dialogue/curses and narration. Verse50 mentions an ekakshara mantra but does not supply its wording; do not invent or insert a mantra."
+      },
+      "independent_review_scope": "language_and_context_not_source_pixels",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        47
+      ],
+      "source_sanskrit": "स उवाच त्वं बोधयसि किमर्थं मां प्रजापते ।\nमिथ्याभूतार्थमादौ कः सृजति भ्रान्तिसंयुतः ॥४७॥",
+      "text": "ಅವನು ಹೇಳಿದನು: “ಪ್ರಜಾಪತಿಯೇ, ನೀನು ನನಗೆ ಈ ಉಪದೇಶವನ್ನು ಏಕೆ ಮಾಡುತ್ತಿರುವೆ? ಮಿಥ್ಯಾಭೂತವಾದುದಕ್ಕಾಗಿ ಮೊದಲಿಗೆ ಭ್ರಾಂತಿಯುಳ್ಳವನಾಗಿ ಸೃಷ್ಟಿಸುವವನು ಯಾರು?” ॥೪೭॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Reported dialogue/curses and narration. Verse50 mentions an ekakshara mantra but does not supply its wording; do not invent or insert a mantra."
+      },
+      "independent_review_scope": "language_and_context_not_source_pixels",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        48
+      ],
+      "source_sanskrit": "ततस्तं शप्तवान् ब्रह्मा पत त्वं शूद्रयोनितः ।\nगन्धर्वश्च तथा भावी नानास्त्रीभोगकारकः ॥४८॥",
+      "text": "ಅನಂತರ ಬ್ರಹ್ಮನು ಅವನಿಗೆ, “ನೀನು ಶೂದ್ರಜನ್ಮಕ್ಕೆ ಪತನಹೊಂದು. ಹಾಗೆಯೇ ನಾನಾ ಸ್ತ್ರೀಯರ ಸಂಗಸುಖವನ್ನು ಅನುಭವಿಸುವ ಗಂಧರ್ವನೂ ಆಗುವೆ” ಎಂದು ಶಪಿಸಿದನು. ॥೪೮॥ (ಪರಿಶೀಲನೆ: “ಶೂದ್ರಯೋನಿತಃ” ಪದದ ವ್ಯಾಕರಣಸಂಬಂಧ ಇನ್ನೂ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.)",
+      "type": "translation-review",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Reported dialogue/curses and narration. Verse50 mentions an ekakshara mantra but does not supply its wording; do not invent or insert a mantra."
+      },
+      "independent_review_scope": "language_and_context_not_source_pixels",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "grammar_interpretation",
+          "source_reading": "शूद्रयोनितः",
+          "description": "Unusual ending with पत; accepted Kannada contextual, not source emendation. No birth chronology added."
+        }
+      ],
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted_with_unresolved_reading"
+    },
+    {
+      "key": [
+        2,
+        2,
+        49
+      ],
+      "source_sanskrit": "ततस्तं नारदस्तातं शशाप क्रोधसंयुतः ।\nअपूज्यो भविताऽसि त्वं वृथा शपसि मां यतः ॥४९॥",
+      "text": "ಅನಂತರ ಕ್ರೋಧಗೊಂಡ ನಾರದನು ತನ್ನ ತಂದೆಗೆ, “ನೀನು ನನ್ನನ್ನು ವ್ಯರ್ಥವಾಗಿ ಶಪಿಸುತ್ತಿರುವುದರಿಂದ, ನೀನು ಪೂಜಿಸಲ್ಪಡದವನಾಗುವೆ” ಎಂದು ಶಪಿಸಿದನು. ॥೪೯॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Reported dialogue/curses and narration. Verse50 mentions an ekakshara mantra but does not supply its wording; do not invent or insert a mantra."
+      },
+      "independent_review_scope": "language_and_context_not_source_pixels",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        50
+      ],
+      "source_sanskrit": "ततो नारद एवाऽसौ गत्वा तपसि संस्थितः ।\nगणेशं तोषयामास मन्त्रेणैकाक्षरेण च ॥५०॥",
+      "text": "ಅನಂತರ ಆ ನಾರದನು ತೆರಳಿ ತಪಸ್ಸಿನಲ್ಲಿ ನೆಲೆಗೊಂಡನು. ಏಕಾಕ್ಷರಮಂತ್ರದಿಂದ ಗಣೇಶನನ್ನು ಸಂತೋಷಪಡಿಸಿದನು. ॥೫೦॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Reported dialogue/curses and narration. Verse50 mentions an ekakshara mantra but does not supply its wording; do not invent or insert a mantra."
+      },
+      "independent_review_scope": "language_and_context_not_source_pixels",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        51
+      ],
+      "source_sanskrit": "दिव्यवर्षशते पूर्णे तं ययौ गणपः स्वयम् ।\nवरं वृणु महाभाग दास्यामि मनसीप्सितम् ॥५१॥",
+      "text": "ನೂರು ದಿವ್ಯವರ್ಷಗಳು ಕಳೆದಾಗ ಗಣಪನು ಸ್ವತಃ ಅವನ ಬಳಿಗೆ ಬಂದು, “ಮಹಾಭಾಗನೇ, ವರವನ್ನು ಆರಿಸಿಕೋ; ಮನಸ್ಸಿನಲ್ಲಿ ಬಯಸಿದುದನ್ನು ನೀಡುತ್ತೇನೆ” ಎಂದನು. ॥೫೧॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        52
+      ],
+      "source_sanskrit": "ततस्तं स्तुतवान् देवं गणेशं सर्वसिद्धिदम् ।\nअब्रवीच्च वरं चेति शापं मे विनिवर्तय ॥५२॥",
+      "text": "ಅನಂತರ ನಾರದನು ಸರ್ವಸಿದ್ಧಿಗಳನ್ನೂ ನೀಡುವ ಗಣೇಶದೇವನನ್ನು ಸ್ತುತಿಸಿ, “ನನ್ನ ಶಾಪವನ್ನು ನಿವಾರಿಸು ಎಂಬುದೇ ನನ್ನ ವರದ ಬೇಡಿಕೆ” ಎಂದು ಹೇಳಿದನು. ॥೫೨॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        53
+      ],
+      "source_sanskrit": "ततस्तं गणराजः स ऊचिवान् भक्तवत्सलः ।\nपितृशापं कथं मिथ्या करोमि वद साम्प्रतम् ॥५३॥",
+      "text": "ಅನಂತರ ಭಕ್ತವತ್ಸಲನಾದ ಗಣರಾಜನು ಅವನಿಗೆ, “ತಂದೆಯ ಶಾಪವನ್ನು ನಾನು ಹೇಗೆ ವ್ಯರ್ಥಗೊಳಿಸಲಿ? ಈಗ ಹೇಳು” ಎಂದು ಹೇಳಿದನು. ॥೫೩॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        54
+      ],
+      "source_sanskrit": "मया वरस्तथा दत्तो ब्रह्मणे तेन सत्यवाक् ।\nअतः शृणु महाभाग वचनं मे सदा हितम् ॥५४॥",
+      "text": "ನಾನು ಬ್ರಹ್ಮನಿಗೆ ಹಾಗೆ ವರವನ್ನು ನೀಡಿದ್ದೇನೆ; ಆದ್ದರಿಂದ ಅವನ ಮಾತು ಸತ್ಯವಾಗುತ್ತದೆ. ಆದುದರಿಂದ ಮಹಾಭಾಗನೇ, ಸದಾ ಹಿತಕರವಾದ ನನ್ನ ಮಾತನ್ನು ಕೇಳು. ॥೫೪॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        55
+      ],
+      "source_sanskrit": "गन्धर्वो भविताऽसि त्वं तत्र ज्ञानं वदामि ते ।\nसदा स्त्रीभिः समायुक्तं त्वां माया न प्रबाधते ॥५५॥",
+      "text": "ನೀನು ಗಂಧರ್ವನಾಗುವೆ; ಅಲ್ಲಿ ನಿನಗೆ ಜ್ಞಾನವನ್ನು ತಿಳಿಸುತ್ತೇನೆ. ಸದಾ ಸ್ತ್ರೀಯರ ಸಂಗದಲ್ಲಿದ್ದರೂ ಮಾಯೆಯು ನಿನ್ನನ್ನು ಬಾಧಿಸುವುದಿಲ್ಲ. ॥೫೫॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        56
+      ],
+      "source_sanskrit": "पुनस्त्वं शूद्रयोनौ च भविष्यसि न संशयः ।\nतत्र संन्यासिभिः सङ्गो भविष्यति यदाऽनघ ॥५६॥",
+      "text": "ಮತ್ತೆ ನೀನು ಶೂದ್ರಯೋನಿಯಲ್ಲಿ ಹುಟ್ಟುವೆ; ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ. ಅನಘನೇ, ಅಲ್ಲಿ ನಿನಗೆ ಸಂನ್ಯಾಸಿಗಳ ಸಂಗವು ದೊರೆಯುವಾಗ, ॥೫೬॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        57
+      ],
+      "source_sanskrit": "तेभ्यो ज्ञानं समासाद्य गमिष्यसि वनेषु च ।\nतत्र वैष्णवमार्गेषु त्वं संसक्तो भविष्यसि ॥५७॥",
+      "text": "ಆಗ ಅವರಿಂದ ಜ್ಞಾನವನ್ನು ಪಡೆದು ನೀನು ಅರಣ್ಯಗಳಿಗೆ ತೆರಳುವೆ. ಅಲ್ಲಿ ವೈಷ್ಣವಮಾರ್ಗಗಳಲ್ಲಿ ಆಸಕ್ತನಾಗುವೆ. ॥೫೭॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        58
+      ],
+      "source_sanskrit": "तद्देहपतनात् भावी पुनस्त्वं ब्रह्मणः सुतः ।\nनारदो नाऽत्र सन्देहस्तत्र शम्भुं भजिष्यसि ॥५८॥",
+      "text": "ಆ ದೇಹವು ಬಿದ್ದ ಬಳಿಕ ನೀನು ಮತ್ತೆ ಬ್ರಹ್ಮನ ಮಗನಾದ ನಾರದನಾಗುವೆ; ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ. ಆಗ ನೀನು ಶಂಭುವನ್ನು ಭಜಿಸುವೆ. ॥೫೮॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        59
+      ],
+      "source_sanskrit": "नारायणमुखात्तत्र मां ज्ञात्वा मत्प्रियो मुने ।\nभविष्यसि च योगीन्द्रो गाणपत्यो न संशयः ॥५९॥",
+      "text": "ಮುನಿಯೇ, ಆಗ ನಾರಾಯಣನ ಮಾತುಗಳಿಂದ ನನ್ನನ್ನು ತಿಳಿದುಕೊಂಡು ನೀನು ನನಗೆ ಪ್ರಿಯನಾಗುವೆ. ಯೋಗೀಂದ್ರನೂ ಗಾಣಪತ್ಯನೂ ಆಗುವೆ; ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ. ॥೫೯॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted"
+    },
+    {
+      "key": [
+        2,
+        2,
+        60
+      ],
+      "source_sanskrit": "इत्युक्त्वा गणनाथस्तं तत्रैवान्तरधीयत ।\nनारदस्तं नमस्कृत्य शापं मुक्त्वा दिवं गतः ॥६०॥",
+      "text": "ಹೀಗೆ ಹೇಳಿ ಗಣನಾಥನು ಅಲ್ಲಿಯೇ ಅಂತರ್ಧಾನನಾದನು. ನಾರದನು ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ, ಶಾಪದಿಂದ ಮುಕ್ತನಾಗಿ ಸ್ವರ್ಗಕ್ಕೆ ತೆರಳಿದನು. ॥೬೦॥ (ಪರಿಶೀಲನೆ: “ಶಾಪಂ ಮುಕ್ತ್ವಾ” ಎಂಬುದರ ಕಾಲಕ್ರಮ ಮತ್ತು ವ್ಯಾಪ್ತಿ ಇನ್ನೂ ಪರಿಶೀಲನೆಯಲ್ಲಿವೆ.)",
+      "type": "translation-review",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "independent_review_scope": "language_and_context_only_source_pixels_checked_by_integrator",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "interpretation",
+          "source_reading": "शापं मुक्त्वा",
+          "description": "Scope retained for review. Do not infer immediate cancellation of Brahma curse or unstated chronology."
+        }
+      ],
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted_with_unresolved_reading"
+    },
+    {
+      "key": [
+        2,
+        2,
+        61
+      ],
+      "source_sanskrit": "पुनः स नारदो जातः शिवभक्तिपरायणः ।\nनारायणेन संज्ञप्तो गाणपत्यो बभूव ह ॥ ६१ ॥",
+      "text": "ಅವನು ಪುನಃ ನಾರದನಾಗಿ ಜನಿಸಿ ಶಿವಭಕ್ತಿಪರಾಯಣನಾದನು. ನಾರಾಯಣನಿಂದ ಬೋಧಿಸಲ್ಪಟ್ಟು ಗಾಣಪತ್ಯನಾದನು. ॥೬೧॥",
+      "type": "translation",
+      "classification": {
+        "category": "narrative_dialogue",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Blessing/dialogue and narrative. Verse52 reports praise without quoting hymn words; no mantra supplied."
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Independent language/context reviews supplied through parent; final45/61 grammar review explicitly distinguishes ज्ञाता from अज्ञाता and संज्ञप्तो as instructed."
+      },
+      "review_status": "accepted",
+      "prior_unaccepted_source_candidate": "पुनः स नारदो जातः शिवभक्तिपरायणः ।\nनारायणेन [conjunct/word unclear: source check held] गाणपत्यो बभूव ह ॥६१॥",
+      "grammar_review": "संज्ञप्तो rendered instructed; no inferred initiation.",
+      "reference_resolution": {
+        "book_id": "fZcHEQAAQBAJ",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT102",
+        "page_id": "PT102",
+        "visible_reading": "पुनः स नारदो जातः शिवभक्तिपरायणः ।\nनारायणेन संज्ञप्तो गाणपत्यो बभूव ह ॥ ६१ ॥",
+        "screenshot_sha256": "0353ac002b1cb5aabcc5572fddfdbca8eb793fe51a9db030d7e66ab08ac0bcc5",
+        "integrator_reconciliation": "PDF following नारायणेन remains too degraded to independently settle conjunct; Google Books Sanskrit pixels resolve reference संज्ञप्तो. Do not label PDF independently legible. Kannada awaits independent review.",
+        "source_method": "Separate Chrome helper visible original Sanskrit image verification, then local integrator inspection of screenshot pixels and primary PDF crop. Modern English not used."
+      }
+    }
+  ],
+  "colophons": [
+    {
+      "status": "accepted_source_supported",
+      "source_sanskrit": "॥ ओमिति श्रीमदन्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खण्डे एकदन्तचरिते नारदशापनिवर्तनं नाम द्वितीयोऽध्यायः ॥",
+      "candidate_title": "ನಾರದನ ಶಾಪನಿವಾರಣ",
+      "text": "ಓಂ. ಹೀಗೆ ಶ್ರೀಮದಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ “ನಾರದನ ಶಾಪನಿವಾರಣ” ಎಂಬ ದ್ವಿತೀಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+      "visible_terminal_verse": 61,
+      "note": "Terminal61andcolophon visible. Do not mark canonical chapter complete while45/61 unresolved or preceding draft rows unaccepted.",
+      "completion_claim": true,
+      "reference_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT102"
+    }
+  ]
+}

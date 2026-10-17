@@ -4,6 +4,9 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+**Khanda 2 chapter 2 is complete through verse 61**, including its scan-supported colophon. This continuation adds verses 31–61 to the prior 1–30, preserving earlier Kannada. Unclear Sanskrit at 45 and 61 was resolved against verified Google Books original Sanskrit (PT97/PT102), with separate grammar review. Verse 39 retains its PDF/reference edition difference; interpretation notices at 48 and 60 remain visible alongside prior flags. [Completion review](translation/local-pdf-khanda2-ch2-45-61-review.json). HTML/EPUB and provenance checks passed. Chrome QA passed at 375/390 px and desktop 1470 px; mobile text and colophon fit without overflow. Direct browser EPUB download was client-blocked, so browser download success is not claimed.
+
+
 **Khanda 2 chapter 2 verses 26–30** add five independently reviewed narrative translations from the authoritative scanned PDF, checked against original pixels. Google Books PT92–PT93 is a cross-reference, with no silent edition harmonization. All 2,876 earlier entries remain unchanged. Verse 27 retains a source-typography flag; verse 30 has a visible lexical-review notice for अमृतात्मप्रधारकान्. The earlier reported death-form/amrita-form edition difference was a scan misreading and is explicitly retracted.
 
 - [PDF source and language review](translation/local-pdf-khanda2-ch2-26-30-review.json)
@@ -60,7 +63,7 @@ Install `requirements.txt`, then run:
 ```
 python3 build_book.py
 python3 build_epub.py
-python3 validate_book.py local-pdf-khanda2-ch2-30
+python3 validate_book.py local-pdf-khanda2-ch2-61
 python3 validate_source_review.py
 python3 tests/test_reading_contents.py
 python3 tests/test_google_source_validation.py

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "active_source_policy": "Scanned user PDF is authoritative for ongoing Khanda2 work; OCR is a transcription aid checked against original pixels. Google Books is a cross-reference for corrections, illegibility and documented source gaps. No silent edition harmonization. Historical provenance retained.",
   "location_policy": "Unknown Google Books page identifiers and links remain null; old scan page numbers must never be converted into guessed PT locations.",
   "records": [
@@ -5669,6 +5669,258 @@
           "correction": "Tight PDF crop shows अमृतात्म- / प्रधारकान् matching reference. Earlier OCR-influenced scan misreading withdrawn; no edition harmonization performed."
         }
       ]
+    },
+    {
+      "id": "kh2-ch2-v31-primary-scan-correction",
+      "kind": "review_history",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 31,
+      "verse_end": 31,
+      "status": "resolved_primary_scan_transcription",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 13,
+        "printed_page": 4,
+        "audit_global_page": 146,
+        "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "source_sanskrit": "तान् दृष्ट्वा ब्रह्मदेवोऽपि मा कुरुष्व जगत्पते ।\nजन्ममृत्युयुतान् शम्भो सृजस्व विविधांस्तथा ॥३१॥",
+      "issues": [
+        {
+          "key": [
+            2,
+            2,
+            31
+          ],
+          "earlier_supplied_transcription": "प्रजापते",
+          "verified_primary_pdf": "जगत्पते",
+          "accepted_Kannada": "ಜಗತ್ಪತಿಯೇ",
+          "status": "resolved_primary_scan_correction_independently_reviewed"
+        }
+      ]
+    },
+    {
+      "id": "kh2-ch2-v39",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 39,
+      "verse_end": 39,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 13,
+        "printed_page": 4,
+        "audit_global_page": 146,
+        "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "source_sanskrit": "आज्ञां देहि पितर्मह्यं त्वं ततस्तं विधिरब्रवीत् ।\nसृष्टिं कुरु गणेशं त्वं तथा स्मृत्वा चकार सः ॥३९॥",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "syntax_review",
+          "source_reading": "स्मृत्वा",
+          "description": "Independent reviewer prefers attachment to narrated चकार सः, not necessarily inside the command. Syntax remains explicitly qualified."
+        }
+      ],
+      "google_books_page_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT96",
+      "book_id": "fZcHEQAAQBAJ",
+      "google_books_pages": [
+        "PT96"
+      ],
+      "resolution_provenance": [
+        {
+          "status": "verified_reference_variant_primary_retained",
+          "primary_pdf": "गणेश",
+          "google_books": "गणेशं",
+          "note": "Clear PDF variant retained; existing syntax question remains open.",
+          "screenshot_sha256": "bb6c7fa8f7aa92a020fc304f9dc4daa1036c81495e05244651f3333eeae5b199"
+        }
+      ]
+    },
+    {
+      "id": "kh2-ch2-v39-typography",
+      "kind": "source_metadata",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 39,
+      "verse_end": 39,
+      "status": "documented_edition_variant",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 13,
+        "printed_page": 4,
+        "audit_global_page": 146,
+        "image_sha256": "3a5db8838cdf6447281ba326b704eaa9f39784a80d9bc9a6a740e898217f2b8f",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p13",
+      "issues": [
+        {
+          "status": "documented_variant",
+          "primary_pdf": "गणेश",
+          "reference_reading": "गणेशं",
+          "note": "No silent harmonization; semantic referent unchanged."
+        }
+      ],
+      "google_books_page_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT96",
+      "book_id": "fZcHEQAAQBAJ",
+      "google_books_pages": [
+        "PT96"
+      ],
+      "resolution_provenance": [
+        {
+          "status": "verified_reference_variant_primary_retained",
+          "primary_pdf": "गणेश",
+          "google_books": "गणेशं",
+          "note": "Clear PDF variant retained; existing syntax question remains open.",
+          "screenshot_sha256": "bb6c7fa8f7aa92a020fc304f9dc4daa1036c81495e05244651f3333eeae5b199"
+        }
+      ]
+    },
+    {
+      "id": "kh2-ch2-v45-source-resolution",
+      "kind": "review_history",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 45,
+      "verse_end": 45,
+      "status": "resolved_unclear_pdf_with_verified_google_books_sanskrit",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 14,
+        "printed_page": 5,
+        "audit_global_page": 147,
+        "image_sha256": "2aeb8dfb358e6d5ece40d5842626fce83f333394be634a8701cc79d0e62e98c7",
+        "printed_page_verified": true
+      },
+      "book_id": "fZcHEQAAQBAJ",
+      "google_books_pages": [
+        "PT97"
+      ],
+      "google_books_page_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT97",
+      "prior_unaccepted_source_candidate": "मायामयं सर्वमिदं मिथ्याभूतं भ्रमात्मकम् ।\nश्राम्येदज्ञाता तदर्थं यो मूर्खवन्नात्र संशयः ॥४५॥",
+      "accepted_source_sanskrit": "मायामयं सर्वमिदं मिथ्याभूतं भ्रमात्मकम् ।\nश्राम्येज्ज्ञाता तदर्थं यो मूर्खवन्नात्र संशयः ॥ ४५ ॥",
+      "resolution_provenance": [
+        {
+          "book_id": "fZcHEQAAQBAJ",
+          "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT97",
+          "page_id": "PT97",
+          "visible_reading": "मायामयं सर्वमिदं मिथ्याभूतं भ्रमात्मकम् ।\nश्राम्येज्ज्ञाता तदर्थं यो मूर्खवन्नात्र संशयः ॥ ४५ ॥",
+          "screenshot_sha256": "aec534cc20e834dcc45315ee3458031c028890a54ef4d03e858c29fe3f4d27c8",
+          "integrator_reconciliation": "PDF conjunct previously unsettled; crop is compatible with श्राम्येज्ज्ञाता. Google Books Sanskrit pixels visibly support that candidate; retire श्राम्येदज्ञाता as unaccepted OCR/candidate, not a clear PDF variant. Exact grammar/Kannada awaits independent review.",
+          "source_method": "Separate Chrome helper visible original Sanskrit image verification, then local integrator inspection of screenshot pixels and primary PDF crop. Modern English not used."
+        }
+      ],
+      "grammar_review": "श्राम्येत् + ज्ञाता; not अज्ञाता. No source emendation."
+    },
+    {
+      "id": "kh2-ch2-v48",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 48,
+      "verse_end": 48,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 14,
+        "printed_page": 5,
+        "audit_global_page": 147,
+        "image_sha256": "2aeb8dfb358e6d5ece40d5842626fce83f333394be634a8701cc79d0e62e98c7",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "source_sanskrit": "ततस्तं शप्तवान् ब्रह्मा पत त्वं शूद्रयोनितः ।\nगन्धर्वश्च तथा भावी नानास्त्रीभोगकारकः ॥४८॥",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "grammar_interpretation",
+          "source_reading": "शूद्रयोनितः",
+          "description": "Unusual ending with पत; accepted Kannada contextual, not source emendation. No birth chronology added."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch2-v60",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 60,
+      "verse_end": 60,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 14,
+        "printed_page": 5,
+        "audit_global_page": 147,
+        "image_sha256": "2aeb8dfb358e6d5ece40d5842626fce83f333394be634a8701cc79d0e62e98c7",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba:p14",
+      "source_sanskrit": "इत्युक्त्वा गणनाथस्तं तत्रैवान्तरधीयत ।\nनारदस्तं नमस्कृत्य शापं मुक्त्वा दिवं गतः ॥६०॥",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "interpretation",
+          "source_reading": "शापं मुक्त्वा",
+          "description": "Scope retained for review. Do not infer immediate cancellation of Brahma curse or unstated chronology."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch2-v61-source-resolution",
+      "kind": "review_history",
+      "khanda": 2,
+      "chapter": 2,
+      "verse_start": 61,
+      "verse_end": 61,
+      "status": "resolved_unclear_pdf_with_verified_google_books_sanskrit",
+      "primary_source": {
+        "filename": "139 TO 163.pdf",
+        "sha256": "e85dd3dd52d798c2c97910ddddf596e0ffcf1bb41b62cd41b36f1bd57b0baeba",
+        "pdf_page": 14,
+        "printed_page": 5,
+        "audit_global_page": 147,
+        "image_sha256": "2aeb8dfb358e6d5ece40d5842626fce83f333394be634a8701cc79d0e62e98c7",
+        "printed_page_verified": true
+      },
+      "book_id": "fZcHEQAAQBAJ",
+      "google_books_pages": [
+        "PT102"
+      ],
+      "google_books_page_url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT102",
+      "prior_unaccepted_source_candidate": "पुनः स नारदो जातः शिवभक्तिपरायणः ।\nनारायणेन [conjunct/word unclear: source check held] गाणपत्यो बभूव ह ॥६१॥",
+      "accepted_source_sanskrit": "पुनः स नारदो जातः शिवभक्तिपरायणः ।\nनारायणेन संज्ञप्तो गाणपत्यो बभूव ह ॥ ६१ ॥",
+      "resolution_provenance": [
+        {
+          "book_id": "fZcHEQAAQBAJ",
+          "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT102",
+          "page_id": "PT102",
+          "visible_reading": "पुनः स नारदो जातः शिवभक्तिपरायणः ।\nनारायणेन संज्ञप्तो गाणपत्यो बभूव ह ॥ ६१ ॥",
+          "screenshot_sha256": "0353ac002b1cb5aabcc5572fddfdbca8eb793fe51a9db030d7e66ab08ac0bcc5",
+          "integrator_reconciliation": "PDF following नारायणेन remains too degraded to independently settle conjunct; Google Books Sanskrit pixels resolve reference संज्ञप्तो. Do not label PDF independently legible. Kannada awaits independent review.",
+          "source_method": "Separate Chrome helper visible original Sanskrit image verification, then local integrator inspection of screenshot pixels and primary PDF crop. Modern English not used."
+        }
+      ],
+      "grammar_review": "संज्ञप्तो rendered instructed; no inferred initiation."
     }
   ]
 }

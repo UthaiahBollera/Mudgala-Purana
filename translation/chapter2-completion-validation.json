@@ -1,0 +1,38 @@
+{
+  "result": "PASS_layout_and_navigation; EPUB_browser_route_blocked",
+  "mobile": [
+    {
+      "viewport_width": 375,
+      "document_width": 375,
+      "section_width": 357
+    },
+    {
+      "viewport_width": 390,
+      "document_width": 390,
+      "section_width": 372
+    }
+  ],
+  "visual": "Kannada font loaded, wrapping readable, v61 and colophon contained without clipping. Mobile chapter heading wraps within page.",
+  "toc": "PASS click navigated to #chapter-kh2-2-1; target y -0.15625; range ೧–೬೧",
+  "desktop": {
+    "viewport_width": 1470,
+    "document_width": 1470,
+    "visual": "No overflow, Kannada/v61/colophon intact"
+  },
+  "epub": {
+    "url": "http://127.0.0.1:8767/mudgala_purana.epub",
+    "action": "Supported Chrome createBrowserTab direct navigation",
+    "status": "blocked; download outcome unconfirmed",
+    "reason": "Browser reported net::ERR_BLOCKED_BY_CLIENT",
+    "note": "No bypass attempted. Does not prove endpoint missing or EPUB invalid. Absence of page download banner intentional per user preference."
+  },
+  "scope": "Khanda2 chapter2 completion1–61;2912entries",
+  "automated_checks": [
+    "HTML structure/order/glyphs",
+    "EPUB ZIP/XML/assets/text",
+    "Source provenance/integrity",
+    "Reading contents/links/completion labels",
+    "36 Google-source and11 PDF-source tests",
+    "All2881 prior effective TSV rows unchanged"
+  ]
+}
