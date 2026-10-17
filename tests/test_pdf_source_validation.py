@@ -18,6 +18,18 @@ class PDFReview(unittest.TestCase):
   page=copy.deepcopy(self.batch['source_pages'][0]);page.update(source_sha256=source['sha256'],id='pdf:'+source['sha256']+':p'+str(page['pdf_page']))
   self.batch['source_pages'].append(page)
   item=self.review['verses'][0];key=tuple(item['key']);item['source_pages']+=','+page['id'];self.rows[key]['source_pages']=item['source_pages']
+ def test_actual_chapter5_cross_pdf_verse(self):
+  manifest=json.loads((ROOT/'translation/batch-manifest.json').read_text())
+  batch=next(x for x in manifest['batches'] if x['file']=='batch-19-local-pdf-01.tsv')
+  review=json.loads((ROOT/batch['review_file']).read_text())
+  with (ROOT/'translation'/batch['file']).open() as f:
+   rows={(int(x['khanda']),int(x['chapter']),int(x['verse'])):x for x in csv.DictReader(f,delimiter='\t')}
+  tokens=rows[(2,5,20)]['source_pages'].split(',')
+  self.assertEqual(len(tokens),2)
+  self.assertEqual(len({x.split(':')[1] for x in tokens}),2)
+  validate_pdf_batch(ROOT,batch,rows,review,self.registry)
+  batch['additional_source_pdfs']=[];review['additional_source_pdfs']=[]
+  with self.assertRaises(AssertionError):validate_pdf_batch(ROOT,batch,rows,review,self.registry)
  def test_cross_file_verse(self):
   self.add_cross_file();self.check()
  def test_undeclared_cross_file(self):
