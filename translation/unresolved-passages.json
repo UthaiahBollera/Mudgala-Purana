@@ -25447,6 +25447,76 @@
         "image_sha256": "30ad9c052403513b855a06286e91a6f63a75394a6e7b9e998ef45368777dc1e6",
         "printed_page_verified": true
       }
+    },
+    {
+      "id": "kh2-ch40-v33",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 40,
+      "verse_start": 33,
+      "verse_end": 33,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 31,
+        "printed_page": 84,
+        "audit_global_page": 226,
+        "image_sha256": "a3d6edee3ced86dcf791c250c1cc213b25acbe9f2b483f18067ed964c93358e2",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p32",
+      "source_sanskrit": "पूजयित्वा यथान्यायं तुष्टाव स कृतां[?]जलिः ।\nहव्यवाहः प्रसन्नात्मा गणेशं योगशांतिदम् ॥३३॥",
+      "issues": [
+        {
+          "id": "P32-40-33-L11",
+          "pdf_page": 32,
+          "printed_page": "८५",
+          "handwritten_page": "237",
+          "line": 11,
+          "verse": "40.33a",
+          "position": "End of line 11, inside कृतां[?]जलिः between कृतां and जलिः",
+          "reading": null,
+          "notes": "Shirorekha breaks between कृतां (which already carries a visible anusvara dot above ता) and जलिः; inside the gap sits an anomalous curved mark resembling either an extraneous avagraha (ऽ) or an inked justification spacer sort.",
+          "status": "open",
+          "integrator_assessment": "Anomalous curved glyph between कृतां and जलिः remains unresolved. Do not silently normalize to कृताञ्जलिः or erase the mark. All other page31–32 readings compared, not only model-flagged token.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch40-v45",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 40,
+      "verse_start": 45,
+      "verse_end": 45,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 31,
+        "printed_page": 84,
+        "audit_global_page": 226,
+        "image_sha256": "a3d6edee3ced86dcf791c250c1cc213b25acbe9f2b483f18067ed964c93358e2",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p32",
+      "source_sanskrit": "एवमुक्त्वा गणाधीशं प्रणतो भक्तिसंयुतः । तमुवाच",
+      "issues": [
+        {
+          "id": "P32-40-45-AGENCY",
+          "status": "open",
+          "description": "45a ends तमुवाच without supplied speaker; second verb agent unresolved; no45b supplied.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
     }
   ]
 }

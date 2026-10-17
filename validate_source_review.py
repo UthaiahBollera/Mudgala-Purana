@@ -294,7 +294,10 @@ if manifest is not None:
             old_row, new_row = replayed[key], rows[key]
             assert row_content(old_row) == item['old_row'], ('Boundary old row mismatch', key)
             assert row_content(new_row) == item['new_row'], ('Boundary new row mismatch', key)
-            assert old_row['type'] == 'translation-partial' and new_row['type'] != 'translation-partial', ('Only partial completions may replace an existing verse', key)
+            assert new_row['type'] != 'translation-partial', ('Boundary completion remains incomplete', key)
+            if old_row['type'] != 'translation-partial':
+                from validate_pdf_review import validate_declared_fragment_completion
+                validate_declared_fragment_completion(ROOT, old_row, key, item, batches[:batches.index(batch)], coverage)
             assert item['rationale'] and item['source_evidence'] and item['review_status'] == 'accepted', ('Unreviewed boundary completion', key)
             old_pages = source_ids(old_row['source_pages'])
             new_pages = source_ids(new_row['source_pages'])

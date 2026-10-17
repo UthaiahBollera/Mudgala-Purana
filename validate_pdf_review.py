@@ -2,6 +2,17 @@
 import hashlib,json,re
 from pathlib import Path
 
+def validate_declared_fragment_completion(root, old_row, key, item, prior_batches, coverage):
+    """Allow an explicit reviewed fragment without rewriting its historical TSV type."""
+    matches = [b for b in prior_batches if b['review_file'] == item.get('old_fragment_review_file')]
+    assert len(matches) == 1, 'Fragment completion lacks an earlier accepted review'
+    batch = matches[0]
+    assert list(key) in coverage[batch['coverage_boundary']].get('fragment_only_keys', []), 'Old key was not declared fragment-only'
+    review = json.loads((root/batch['review_file']).read_text(encoding='utf-8'))
+    records = [r for r in review['verses'] if tuple(r['key']) == key]
+    assert len(records) == 1 and records[0].get('fragment') in {'a_only', 'b_only'}, 'Old review lacks explicit fragment evidence'
+    assert all(records[0][f] == old_row[f] for f in ('source_pages', 'type', 'text')), 'Fragment evidence differs from historical row'
+
 def validate_pdf_batch(root,batch,rows,review,registry):
     assert batch['source_kind']==review['source_kind']=='local_pdf', 'Wrong PDF review kind'
     identity=batch['source_pdf'];digest=batch['source_sha256']
