@@ -1,0 +1,1596 @@
+{
+  "schema_version": 1,
+  "source_kind": "local_pdf",
+  "source_priority": "scanned_pdf_primary_ocr_aid_google_books_reference",
+  "primary_source": {
+    "filename": "206 TO 255.pdf",
+    "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+    "pdf_page": 13,
+    "printed_page": 66,
+    "audit_global_page": 208,
+    "image_sha256": "7e77de66bc31808961e53dfb49708cea931f6d1114aa896694d20e170fd901ee",
+    "printed_page_verified": true
+  },
+  "additional_source_pdfs": [],
+  "source_pages": [
+    {
+      "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p13",
+      "pdf_page": 13,
+      "printed_page": 66,
+      "printed_page_verified": true,
+      "image_sha256": "7e77de66bc31808961e53dfb49708cea931f6d1114aa896694d20e170fd901ee",
+      "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+    },
+    {
+      "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "pdf_page": 14,
+      "printed_page": 67,
+      "printed_page_verified": true,
+      "image_sha256": "f7c351ff4d45da2215a9794e020ec0e07bd29637fe297fd71a4c258cbafa0ea5",
+      "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+    },
+    {
+      "id": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "pdf_page": 15,
+      "printed_page": 68,
+      "printed_page_verified": true,
+      "image_sha256": "d240de3c20599e56c48f511348362c7dcad075e9feb6091f67961024f9affb92",
+      "source_sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f"
+    }
+  ],
+  "scope": "Khanda2 chapter32 numbered entries1–50; faithful partial reading edition, unresolved flags visible; colophon withheld",
+  "source_method": "Original-PDF render pixels inspected; existing OCR aid only. Exact Google Books Sanskrit references compared where supplied. No modern English used. New interpretations not autoaccepted.",
+  "verses": [
+    {
+      "key": [
+        2,
+        32,
+        1
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p13",
+      "source_sanskrit": "एकदा तं सभायां वै संस्थितं दैत्यनायकम् । आययौ सहसा तत्र नारदः कौतुकी मुनिः ॥१॥",
+      "text": "ಮುದ್ಗಲರು ಹೇಳಿದರು — ಒಮ್ಮೆ ಸಭೆಯಲ್ಲಿ ಕುಳಿತಿದ್ದ ಆ ದೈತ್ಯನಾಯಕನ ಬಳಿಗೆ ಕೌತುಕಿಯಾದ ನಾರದ ಮುನಿಯು ತಕ್ಷಣವೇ ಅಲ್ಲಿಗೆ ಬಂದನು. ॥೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        2
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p13",
+      "source_sanskrit": "दैत्येन मानितो दक्ष तमुवाच महामुनिः । शृणु दैत्याधिप प्राज्ञ हितं ते वचनं महत् ॥२॥",
+      "text": "ಹೇ ದಕ್ಷನೇ, ದೈತ್ಯನಿಂದ ಸನ್ಮಾನಿತನಾದ ಮಹಾಮುನಿಯು ಅವನಿಗೆ ಹೇಳಿದನು — ಹೇ ಪ್ರಾಜ್ಞನಾದ ದೈತ್ಯಾಧಿಪನೇ, ನಿನಗೆ ಹಿತಕರವಾದ ಮಹತ್ತಾದ ಮಾತನ್ನು ಕೇಳು. ॥೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        3
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p13",
+      "source_sanskrit": "अरण्ये मुनिभिर्देवैर्गणेशो भक्तिभावितः । आराधितो वधाय ते पराशरसुतोऽभवत् ॥३॥",
+      "text": "ಅರಣ್ಯದಲ್ಲಿ ಮುನಿಗಳಿಂದಲೂ ದೇವತೆಗಳಿಂದಲೂ ಭಕ್ತಿಭಾವಿತನಾಗಿ ಆರಾಧಿಸಲ್ಪಟ್ಟ ಗಣೇಶನು ನಿನ್ನ ವಧೆಗಾಗಿ ಪರಾಶರನ ಪುತ್ರನಾಗಿದ್ದಾನೆ. ॥೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        4
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p13",
+      "source_sanskrit": "इत्युक्त्वा प्रययौ तस्मान्नारदो दिव्यदर्शनः । दैत्यो रोषसमाविष्टो देवर्षीणां वधे रतः ॥४॥",
+      "text": "ಹೀಗೆ ಹೇಳಿ ದಿವ್ಯದರ್ಶನನಾದ ನಾರದನು ಅಲ್ಲಿಂದ ಹೊರಟುಹೋದನು. ದೈತ್ಯನು ರೋಷಸಮಾವಿಷ್ಟನಾಗಿ ದೇವರ್ಷಿಗಳ ವಧೆಯಲ್ಲಿ ನಿರತನಾದನು. ॥೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        5
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p13,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "आययौ यत्र देवाश्च मुनयः संस्थिताः खलः । दैत्यैः समावृतः सर्वैर्महाबलपराक्रमैः ॥५॥",
+      "text": "ಎಲ್ಲಿ ದೇವತೆಗಳೂ ಮುನಿಗಳೂ ನೆಲೆಸಿದ್ದರೋ ಅಲ್ಲಿಗೆ ಆ ಖಳನು ಮಹಾಬಲಪರಾಕ್ರಮಶಾಲಿಗಳಾದ ಸಮಸ್ತ ದೈತ್ಯರಿಂದ ಸುತ್ತುವರಿಯಲ್ಪಟ್ಟು ಬಂದನು. ॥೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        6
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "धृत्वा स सकलान् देवान् खलः सर्षिगणांस्तदा । तान् हंतुं शस्त्रमादत्ते तावत्तैर्विघ्नपः स्मृतः ॥६॥",
+      "text": "ಆಗ ಆ ಖಳನು ಋಷಿಗಣಗಳೊಡನೆ ಸಮಸ್ತ ದೇವತೆಗಳನ್ನು ಹಿಡಿದು, ಅವರನ್ನು ಕೊಲ್ಲಲು ಶಸ್ತ್ರವನ್ನು ತೆಗೆದುಕೊಂಡನು; ಅಷ್ಟರಲ್ಲಿ ಅವರಿಂದ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P9-U-01; null) ಸ್ಮರಿಸಲ್ಪಟ್ಟನು. ॥೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        7
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "स्मृतमात्रो गणाध्यक्षो बुद्धिभेदं चकार ह । दैत्यस्य तेन दैत्येन मनसि धारितं महत् ॥७॥",
+      "text": "ಸ್ಮರಿಸಿದ ಮಾತ್ರದಿಂದಲೇ ಗಣಾಧ್ಯಕ್ಷನು ದೈತ್ಯನ ಬುದ್ಧಿಭೇದವನ್ನು ಮಾಡಿದನು; ಅದರಿಂದ ಆ ದೈತ್ಯನಿಂದ ಮನಸ್ಸಿನಲ್ಲಿ ಮಹತ್ತಾದ ವಿಚಾರವು ಧರಿಸಲ್ಪಟ್ಟಿತು. ॥೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        8
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "ममाधीना इमे विप्रा देवाश्चैव न संशयः । एषां दंडः प्रकर्तव्यो येन सत्त्वं गमिष्यति ॥८॥",
+      "text": "ಈ ವಿಪ್ರರೂ ದೇವತೆಗಳೂ ನನ್ನ ಅಧೀನರಾಗಿದ್ದಾರೆ, ಸಂಶಯವಿಲ್ಲ; ಯಾವುದರಿಂದ ಇವರ ಸತ್ತ್ವವು ನಾಶವಾಗುವುದೋ ಅಂತಹ ದಂಡನೆಯು ಇವರಿಗೆ ಮಾಡಲ್ಪಡಬೇಕು. ॥೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        9
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "पश्चात्कियति कालेऽहं हनिष्यामि बलात्किल । एवं निश्चितसंकल्पस्तानुवाच गजासुरः ॥९॥",
+      "text": "ತದನಂತರ ಕೆಲಕಾಲದ ಬಳಿಕ ನಾನು ಬಲದಿಂದ ಇವರನ್ನು ಖಂಡಿತವಾಗಿ ಕೊಲ್ಲುವೆನು — ಹೀಗೆ ನಿಶ್ಚಿತ ಸಂಕಲ್ಪವುಳ್ಳವನಾಗಿ ಆ ಗಜಾಸುರನು ಅವರಿಗೆ ಹೇಳಿದನು. ॥೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        10
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "देवा मुनिगणाः सर्वे वचः शृण्वंतु मे हितम् । कर्तव्यं तच्च यदीच्छथ जीवितुं च सत्वरैः ॥१०॥",
+      "text": "ಗಜಾಸುರನು ಹೇಳಿದನು — ಸಮಸ್ತ ದೇವತೆಗಳೂ ಮುನಿಗಣಗಳೂ ನನ್ನ ಹಿತಕರವಾದ ಮಾತನ್ನು ಕೇಳಲಿ; ನೀವು ಬದುಕಲು ಇಚ್ಛಿಸುವುದಾದರೆ ಶೀಘ್ರವಾಗಿ ಅದನ್ನು ಮಾಡತಕ್ಕದ್ದು. ॥೧೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        11
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "कर्णौ संपीड्य पाणिभ्यामुत्तमांगं धरातले । नित्यमास्फालयध्वं वै मम पादस्य सन्निधौ ॥११॥",
+      "text": "ಕೈಗಳಿಂದ ಎರಡೂ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P9-U-02; null) ಹಿಚುಕಿ ಹಿಡಿದು, ನನ್ನ ಪಾದದ ಸನ್ನಿಧಿಯಲ್ಲಿ ನಿತ್ಯವೂ ಉತ್ತಮಾಂಗವನ್ನು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P9-U-03; null) ಬಡಿಯಿರಿ. ॥೧೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT577"
+          ],
+          "page": "PT577",
+          "reference_reading": "कर्णौ सम्पीड्य पाणिभ्यामुत्तमाङ्गं धरातले",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v11-v12-PT577.jpg",
+          "helper_resolution": "कर्णौ and धरातले clear",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary कर्णौ/धरातले corroborated by Google; gesture syntax separate hold."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        12
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "तदा मुंचामि देवेशानन्यथा मुनिसत्तमान् । शिरश्छेदं च सर्वेषां करिष्यामि न संशयः ॥१२॥",
+      "text": "ಆಗ ದೇವೇಶರನ್ನೂ ಮುನಿಸತ್ತಮರನ್ನೂ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P9-U-04; null); ಇಲ್ಲವಾದರೆ ಎಲ್ಲರ ಶಿರಚ್ಛೇದವನ್ನು ಮಾಡುವೆನು, ಸಂಶಯವಿಲ್ಲ. ॥೧೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT577"
+          ],
+          "page": "PT577",
+          "reference_reading": "तदा मुञ्चामि देवेशानन्यथा मुनिसत्तमान् । शिरश्छेदं च सर्वेषां करिष्यामि न संशयः ॥१२॥",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v11-v12-PT577.jpg",
+          "helper_resolution": "मुञ्चामि clear; interpretation/recipient hold remains separate",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary मुञ्चामि corroborated; देवेशानन्यथा segmentation and recipients remain held."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        13
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "भवद्भिः प्रार्थितो देवो गणेशो देववल्लभः । पराशरसुतो जातः कुरुध्वं तेन संयुताः ॥१३॥",
+      "text": "ನಿಮ್ಮಿಂದ ಪ್ರಾರ್ಥಿಸಲ್ಪಟ್ಟ ದೇವವಲ್ಲಭನಾದ ಗಣೇಶ ದೇವನು ಪರಾಶರನ ಪುತ್ರನಾಗಿ ಹುಟ್ಟಿದ್ದಾನೆ; ಅವನೊಡನೆ ಕೂಡಿ ಇದನ್ನು ಮಾಡಿರಿ. ॥೧೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        14
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "एवं तस्य वचः श्रुत्वोवाच तं विष्णुरादरात् । गणेशं मनसा स्मृत्वा सामयुक्तं वचः शुभम् ॥१४॥",
+      "text": "ಹೀಗೆ ಅವನ ಮಾತನ್ನು ಕೇಳಿ, ವಿಷ್ಣುವು ಮನಸ್ಸಿನಿಂದ ಗಣೇಶನನ್ನು ಸ್ಮರಿಸಿ, ಆದರದಿಂದ ಅವನಿಗೆ ಸಾಮಯುಕ್ತವಾದ ಶುಭವಾದ ಮಾತನ್ನು ಹೇಳಿದನು. ॥೧೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        15
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "त्वया यः कथितो दंडो वयं तं करवामहै । सर्वान् देवमुनीन् मुंच गमिष्यामो गजाननम् ॥१५॥",
+      "text": "ನಿನ್ನಿಂದ ಯಾವ ದಂಡನೆಯು ಹೇಳಲ್ಪಟ್ಟಿದೆಯೋ ಅದನ್ನು ನಾವು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P9-U-05; null); ಸಮಸ್ತ ದೇವತೆಗಳನ್ನೂ ಮುನಿಗಳನ್ನೂ ಬಿಡು, ನಾವು ಗಜಾನನನ ಬಳಿಗೆ ಹೋಗುತ್ತೇವೆ. ॥೧೫॥ (ಪಾಠಾಂತರ ಪರಿಶೀಲನೆ ಬಾಕಿ: ಪ್ರಾಥಮಿಕ ಪಾಠ — ತ್ವಯಾ ಯಃ ಕಥಿತೋ ದಂಡೋ ವಯಂ ತಂ ಕರವಾಮಹೈ । ಸರ್ವಾನ್ ದೇವಮುನೀನ್ ಮುಂಚ ಗಮಿಷ್ಯಾಮೋ ಗಜಾನನಮ್ ॥೧೫॥ ; Google Books ಪಾಠ — ತ್ವಯಾ ಯಃ ಕಥಿತೋ ದಣ್ಡೋ ವಯಂ ತಂ ಕರವಾಮಹೇ ; ಮೂಲ ಉಲ್ಲೇಖ: https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT578 . ಪ್ರಾಥಮಿಕ ಪಾಠವನ್ನು ಉಳಿಸಲಾಗಿದೆ; ಅರ್ಥದ ಮರುಪರಿಶೀಲನೆ ಬಾಕಿ.) (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT578"
+          ],
+          "page": "PT578",
+          "reference_reading": "त्वया यः कथितो दण्डो वयं तं करवामहे",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v15-PT578.jpg",
+          "helper_resolution": "करवामहे clear versus करवाम है segmentation",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary करवामहै is visible; Google करवामहे. Preserve clear primary form; no silent normalization."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        16
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "आनयित्वा च देवेशं तेन सार्धं प्रयत्नतः । त्वत्पादकमले नित्यं करिष्यामो यथातथम् ॥१६॥",
+      "text": "ಮತ್ತು ದೇವೇಶನನ್ನು ಕರೆತಂದು ಅವನೊಡನೆ ಪ್ರಯತ್ನಪೂರ್ವಕವಾಗಿ ನಿನ್ನ ಪಾದಕಮಲದಲ್ಲಿ ನಿತ್ಯವೂ ಯಥಾವತ್ತಾಗಿ ಮಾಡುತ್ತೇವೆ. ॥೧೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        17
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "गणेशमायया भ्रांतो दैत्यराजः प्रतापवान् । सकलान् मोचयामास देवानृषिसमन्वितान् ॥१७॥",
+      "text": "ಗಣೇಶನ ಮಾಯೆಯಿಂದ ಭ್ರಾಂತನಾದ ಪ್ರತಾಪವಂತನಾದ ದೈತ್ಯರಾಜನು ಋಷಿಸಮನ್ವಿತರಾದ ಸಮಸ್ತ ದೇವತೆಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಿದನು. ॥೧೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        18
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "दिवसे पंचमे प्राप्ते नागता मे प्रसन्निधौ । तदा सर्वान् हनिष्यामि गणेशेन समन्वितान् ॥१८॥",
+      "text": "ಐದನೆಯ ದಿನವು ಬಂದಾಗ ನನ್ನ ಸನ್ನಿಧಿಗೆ ಬಾರದಿದ್ದರೆ, ಆಗ ಗಣೇಶನೊಡನೆ ಕೂಡಿದ ನಿಮ್ಮೆಲ್ಲರನ್ನೂ ಕೊಲ್ಲುವೆನು. ॥೧೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        19
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "तथेत्युक्त्वा गताः सर्वे पराशरगृहं प्रति । गजाननं तत्र दृष्ट्वा प्रणेमुर्दंडवत् क्षितौ ॥१९॥",
+      "text": "ಹಾಗೆಯೇ ಆಗಲಿ ಎಂದು ಹೇಳಿ ಅವರೆಲ್ಲರೂ ಪರಾಶರನ ಮನೆಯ ಕಡೆಗೆ ಹೋದರು; ಅಲ್ಲಿ ಗಜಾನನನನ್ನು ಕಂಡು ಭೂಮಿಯಲ್ಲಿ ದಂಡದಂತೆ ಪ್ರಣಮಿಸಿದರು. ॥೧೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        20
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "पराशरो विस्मितोऽसौ पूजयामास तान् स्वयम् । सहसा सकलान् प्राप्तान् मुनीन् देवान् विशेषतः ॥२०॥",
+      "text": "ವಿಸ್ಮಿತನಾದ ಆ ಪರಾಶರನು ತಕ್ಷಣವೇ ಅಲ್ಲಿಗೆ ಬಂದ ಸಮಸ್ತ ಮುನಿಗಳನ್ನೂ ದೇವತೆಗಳನ್ನೂ ಸ್ವಯಂ ವಿಶೇಷವಾಗಿ ಪೂಜಿಸಿದನು. ॥೨೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        21
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "पराशरेण संयुक्ताः सर्वे तेऽकथयंस्तदा । स्तुत्वा च विविधैः स्तोत्रैर्गजासुरविचेष्टितम् ॥२१॥",
+      "text": "ಆಗ ಪರಾಶರನೊಡನೆ ಕೂಡಿದ ಅವರೆಲ್ಲರೂ ವಿವಿಧ ಸ್ತೋತ್ರಗಳಿಂದ ಸ್ತುತಿಸಿ ಗಜಾಸುರನ ವಿಚೇಷ್ಟಿತವನ್ನು ಹೇಳಿದರು. ॥೨೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        22
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "कर्णौ संपीड्य देवेश शिरःस्फालनमंजसा । कथं कुर्मोऽसुरस्याग्रे चरणावनताः प्रभो ॥२२॥",
+      "text": "ಹೇ ದೇವೇಶನೇ, ಪ್ರಭುವೇ, ಎರಡೂ ಕಿವಿಗಳನ್ನು ಹಿಚುಕಿ ಹಿಡಿದು ಅಸುರನ ಪಾದಗಳಿಗೆ ಬಾಗಿ ಶಿರಸ್ಸನ್ನು ಬಡಿಯುವುದನ್ನು ನಾವು ಸುಲಭವಾಗಿ ಹೇಗೆ ಮಾಡೋಣ? ॥೨೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        23
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "नीचस्य नमनाद्देव मरणं हि वरं स्मृतम् । तस्मात्त्वं जहि देवान् वा मुनीन् दैत्यान् गजानन ॥२३॥",
+      "text": "ನೀಚನಿಗೆ ನಮಿಸುವುದಕ್ಕಿಂತ ಮರಣವೇ ಶ್ರೇಷ್ಠವೆಂದು ಸ್ಮರಿಸಲ್ಪಟ್ಟಿದೆ; ಆದುದರಿಂದ ಹೇ ಗಜಾನನನೇ, ನೀನು ದೇವತೆಗಳನ್ನೂ ಮುನಿಗಳನ್ನೂ ಕೊಲ್ಲು ಅಥವಾ ದೈತ್ಯರನ್ನು ಕೊಲ್ಲು. ॥೨೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        24
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "देवादीनां वचः श्रुत्वा स्मित्वा तानब्रवीच प्रभुः । भक्तवत्सलभावेन यंत्रितः स प्रजापते ॥२४॥",
+      "text": "ಮುದ್ಗಲರು ಹೇಳಿದರು — ಹೇ ಪ್ರಜಾಪತಿಯೇ, ದೇವಾದಿಗಳ ಮಾತನ್ನು ಕೇಳಿ, ಭಕ್ತವತ್ಸಲಭಾವದಿಂದ ನಿಯಂತ್ರಿತನಾದ ಆ ಪ್ರಭುವು ಮುಗುಳ್ನಕ್ಕು ಅವರಿಗೆ ಹೇಳಿದನು. ॥೨೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        25
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "चिंता नैव प्रकर्तव्या हनिष्याम्यसुरं क्षणात् । कुरुध्वं मे वचो रम्यं सर्वेषां सुखदं भवेत् ॥२५॥",
+      "text": "ಗಣೇಶನು ಹೇಳಿದನು — ಚಿಂತೆಯನ್ನು ಮಾಡಲೇಬಾರದು, ಕ್ಷಣಮಾತ್ರದಲ್ಲಿ ಅಸುರನನ್ನು ಕೊಲ್ಲುವೆನು; ನನ್ನ ರಮ್ಯವಾದ ಮಾತನ್ನು ನಡೆಸಿರಿ, ಅದು ಎಲ್ಲರಿಗೂ ಸುಖದಾಯಕವಾಗುವುದು. ॥೨೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        26
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "दैत्येंद्रेण प्रकथितो दंड एव स मे प्रियः । मम पादस्य सामीप्ये कुरुध्वं सर्वभावतः ॥२६॥",
+      "text": "ದೈತ್ಯೇಂದ್ರನಿಂದ ಹೇಳಲ್ಪಟ್ಟ ಆ ದಂಡನೆಯೇ ನನಗೆ ಪ್ರಿಯವಾದುದು; ನನ್ನ ಪಾದದ ಸಾಮೀಪ್ಯದಲ್ಲಿ ಸರ್ವಭಾವದಿಂದ ಅದನ್ನು ಮಾಡಿರಿ. ॥೨೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        27
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "तदा दैत्यं महाघोरं हनिष्यामि पश्यताम् । भवतां नात्र संदेहः क्षणार्धेन च सत्तमाः ॥२७॥",
+      "text": "ಹೇ ಸತ್ತಮರೇ, ಆಗ ನೀವು ನೋಡುತ್ತಿರುವಂತೆಯೇ ಅರ್ಧಕ್ಷಣದಲ್ಲಿ ಮಹಾಘೋರನಾದ ದೈತ್ಯನನ್ನು ಕೊಲ್ಲುವೆನು; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ॥೨೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        28
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "गणेशस्य वचो रम्यं श्रुत्वा देवर्षिसत्तमाः । परस्परं मुखालोकमकुर्वन् स्मितपूर्वकम् ॥२८॥",
+      "text": "ಗಣೇಶನ ರಮ್ಯವಾದ ಮಾತನ್ನು ಕೇಳಿ ದೇವರ್ಷಿಸತ್ತಮರು ಮುಗುಳ್ನಗೆಯೊಡನೆ ಪರಸ್ಪರ ಮುಖಾವಲೋಕನವನ್ನು ಮಾಡಿದರು. ॥೨೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        29
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14",
+      "source_sanskrit": "तत्र शंभुर्जगादेदं वचनं हितकारकम् । अस्माकं कुलदेवोऽयं तस्मात् कुर्वंतु सत्तमाः ॥२९॥",
+      "text": "ಅಲ್ಲಿ ಶಂಭುವು ಹಿತಕಾರಕವಾದ ಈ ಮಾತನ್ನು ಹೇಳಿದನು — ಇವನು ನಮ್ಮ ಕುಲದೇವತೆಯು; ಆದುದರಿಂದ ಹೇ ಸತ್ತಮರೇ, (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P9-U-06; null). ॥೨೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT582"
+          ],
+          "page": "PT582",
+          "reference_reading": "तस्मात् कुर्वन्तु सत्तमाः",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v29-v30-PT582.jpg",
+          "helper_resolution": "कुर्वन्तु clear versus कुर्वतु",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary कुर्वन्तु corroborated; lexical gap source-supported, renewed review if filled."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        30
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p14,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "इत्युक्त्वा शंकरस्तत्र पाणिभिः श्रवसि स्वयम् । पीडयित्वा शिरोभिस्तच्चरणे ध्वनिमाचरत् ॥३०॥",
+      "text": "ಹೀಗೆ ಹೇಳಿ ಶಂಕರನು ಅಲ್ಲಿ ಕೈಗಳಿಂದ ಸ್ವಯಂ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-02; null) ಹಿಚುಕಿ ಹಿಡಿದು, (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-03; null) ಧ್ವನಿಯನ್ನು ಮಾಡಿದನು. ॥೩೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT582"
+          ],
+          "page": "PT582",
+          "reference_reading": "इत्युक्त्वा शङ्करस्तत्र पाणिभिः श्रवसि स्वयम् । पीडयित्वा शिरोभिस्तच्चरणे ध्वनिमाचरत् ॥३०॥",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v29-v30-PT582.jpg",
+          "helper_resolution": "श्रवसि and शिरोभिस्तच्चरणे clear; corroboration only, keep syntax question.",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary श्रवसि/शिरोभिस्तच्चरणे corroborated; plural/head gesture syntax remains held."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        31
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "मृदुर्मधुररूपः स शब्दश्च शिरसाऽभवत् । श्रुत्वा गजाननो हृष्टो बभूव परमं तदा ॥३१॥",
+      "text": "ಶಿರಸ್ಸಿನಿಂದ ಮೃದುವೂ ಮಧುರರೂಪವೂ ಆದ ಆ ಶಬ್ದವು ಉಂಟಾಯಿತು; ಆಗ ಅದನ್ನು ಕೇಳಿ ಗಜಾನನನು ಪರಮ ಹೃಷ್ಟನಾದನು. ॥೩೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        32
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "ततो विष्ण्वादिभिर्देवैर्भृग्वादिमुखैस्तथा । मुनिभिश्च कृतं दक्ष ततोऽत्यंतं मुमोद सः ॥३२॥",
+      "text": "ಹೇ ದಕ್ಷನೇ, ಬಳಿಕ ವಿಷ್ಣುವೇ ಮೊದಲಾದ ದೇವತೆಗಳಿಂದಲೂ ಹಾಗೆಯೇ ಭೃಗುವೇ ಮೊದಲಾದ ಪ್ರಮುಖ ಮುನಿಗಳಿಂದಲೂ ಅದು ಮಾಡಲ್ಪಟ್ಟಿತು; ಬಳಿಕ ಅವನು ಅತ್ಯಂತವಾಗಿ ಸಂತೋಷಪಟ್ಟನು. ॥೩೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        33
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "भूत्वा तु मूषकारूढो चतुरायुधभूषितः । गजासुरवधार्थाय ययौ गणपतिः स्वयम् ॥३३॥",
+      "text": "ಬಳಿಕ ಗಣಪತಿಯು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-04; null) ಆಗಿ ಚತುರಾಯುಧಭೂಷಿತನಾಗಿ ಗಜಾಸುರನ ವಧೆಗಾಗಿ ಸ್ವಯಂ ತೆರಳಿದನು. ॥೩೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT583"
+          ],
+          "page": "PT583",
+          "reference_reading": "श्रुत्वा तु मूषकारूढो",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v33-v34-v35-PT583.jpg",
+          "helper_resolution": "मूषकारूढो clear",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "IMPORTANT helper JSON reading श्रुत्वा is not supported by its own screenshot: Google pixels read भूत्वा तु मूषकारूढो, matching primary भूत्वा. Helper transcription error recorded; primary candidate unchanged."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        34
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "महिषाख्ये पुरे गत्वा सिंहनादं चकार सः । तेन भ्रांताश्चासुरास्ते गजदैत्यस्तथा स्वयम् ॥३४॥",
+      "text": "ಮಹಿಷಾಖ್ಯ ಪುರಕ್ಕೆ ಹೋಗಿ ಅವನು ಸಿಂಹನಾದವನ್ನು ಮಾಡಿದನು; ಅದರಿಂದ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-05; null) ಹಾಗೂ ಸ್ವಯಂ ಗಜದೈತ್ಯನೂ ಆದರು. ॥೩೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT583"
+          ],
+          "page": "PT583",
+          "reference_reading": "तेन भ्रान्ताश्चासुरास्ते",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v33-v34-v35-PT583.jpg",
+          "helper_resolution": "भ्रान्ताश्चासुरास्ते clear versus श्रांताब्यासुरास्ते",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary भ्रान्ताश्चासुरास्ते corroborated; lexical gap supported."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        35
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "एतस्मिन्नंतरे तत्र गुल्मस्थाः असुरा ययुः । छिन्नभिन्नीकृतांगा वै शशंसुर्देवचेष्टितम् ॥३५॥",
+      "text": "ಈ ನಡುವೆ ಅಲ್ಲಿ ಗುಲ್ಮದಲ್ಲಿ ನೆಲೆಸಿದ್ದ ಅಸುರರು ಛಿನ್ನಭಿನ್ನವಾದ ಅಂಗಗಳುಳ್ಳವರಾಗಿ ಬಂದು, ದೇವತೆಗಳ ಚೇಷ್ಟಿತವನ್ನು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-06; null). ॥೩೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT583"
+          ],
+          "page": "PT583",
+          "reference_reading": "छिन्नभिन्नीकृताङ्गा वै शशंसुर्देवचेष्टितम्",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v33-v34-v35-PT583.jpg",
+          "helper_resolution": "शशंसुः clear; no philosophical interpretation involved",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary शशंसुर्देवचेष्टितम् corroborated; गुल्मस्थाः military/post context remains meaning hold."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        36
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "गणेशेन समायुक्ता देवा मुनिगणाः प्रभो । आययुर्योद्धुमत्यंतं मदयुक्ता गजासुर ॥३६॥",
+      "text": "ಅಸುರರು ಹೇಳಿದರು — ಹೇ ಪ್ರಭುವೇ, ಗಜಾಸುರನೇ, ಗಣೇಶನೊಡನೆ ಸಮಾಯುಕ್ತರಾದ ದೇವತೆಗಳೂ ಮುನಿಗಣಗಳೂ ಅತ್ಯಂತವಾಗಿ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-08; null) ಆಗಿ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-07; null). ॥೩೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT583"
+          ],
+          "page": "PT583",
+          "reference_reading": "आययुर्योद्धुमत्यन्तं मदयुक्ता गजासुर",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v36-v37-PT583-584.jpg",
+          "helper_resolution": "योद्धुमत्यन्तं and मदयुक्ता clear",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary आययुर्योद्धुमत्यन्तं मदयुक्ता corroborated; drunken/exultant interpretation kept for review."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        37
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "तेषां वचनमाकर्ण्य गजदैत्यः प्रतापवान् । सर्वानाज्ञापयामास दैत्यान् सज्जीभवंत्विति ॥३७॥",
+      "text": "ಅವರ ಮಾತನ್ನು ಕೇಳಿ ಪ್ರತಾಪವಂತನಾದ ಗಜದೈತ್ಯನು ಸಮಸ್ತ ದೈತ್ಯರನ್ನು ಕುರಿತು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-09; null) ಎಂದು ಆಜ್ಞಾಪಿಸಿದನು. ॥೩೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT584"
+          ],
+          "page": "PT584",
+          "reference_reading": "सर्वानाज्ञापयामास दैत्यान् सज्जीभवन्त्विति",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v36-v37-PT583-584.jpg",
+          "helper_resolution": "सज्जीभवन्त्विति clear",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary सज्जीभवन्त्विति corroborated; source letters supported."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        38
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "स्वयं सुसज्जितो भूत्वा रथारूढश्च निर्ययौ । अनु तं दैत्यसैन्येशा दैत्यास्ते निर्ययुः पुरात् ॥३८॥",
+      "text": "ಸ್ವಯಂ ಸುಸಜ್ಜಿತನಾಗಿ ರಥಾರೂಢನಾಗಿ ಹೊರಟನು; ಅವನನ್ನು ಅನುಸರಿಸಿ ದೈತ್ಯಸೈನ್ಯಾಧಿಪತಿಗಳಾದ ಆ ದೈತ್ಯರು ಪುರದಿಂದ ಹೊರಟರು. ॥೩೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        39
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "अपारसेनया युक्तं तं ददर्श गजासुरम् । गजाननः प्रसन्नात्मा कालस्य भयदायकः ॥३९॥",
+      "text": "ಪ್ರಸನ್ನಾತ್ಮನೂ ಕಾಲನಿಗೂ ಭಯದಾಯಕನೂ ಆದ ಗಜಾನನನು ಅಪಾರ ಸೇನೆಯಿಂದ ಕೂಡಿದ ಆ ಗಜಾಸುರನನ್ನು ಕಂಡನು. ॥೩೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        40
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "ततो गजासुरः कोपाद्दैत्यानाज्ञापयत्तदा । संहरध्वं सुरान् सर्वान् मुनीन् यक्षादिसंयुतान् ॥४०॥",
+      "text": "ಬಳಿಕ ಆಗ ಗಜಾಸುರನು ಕೋಪದಿಂದ ದೈತ್ಯರಿಗೆ ಆಜ್ಞಾಪಿಸಿದನು — ಯಕ್ಷಾದಿಗಳಿಂದ ಕೂಡಿದ ಸಮಸ್ತ ಸುರರನ್ನೂ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-10; null) ಸಂಹರಿಸಿರಿ. ॥೪೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT584"
+          ],
+          "page": "PT584",
+          "reference_reading": "मुनीन् यक्षादिसंयुतान्",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v40-v41-PT584-585.jpg",
+          "helper_resolution": "मुनीन् clear",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary मुनीन् corroborated; source letters supported."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        41
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "दैत्येंद्रेण समाज्ञप्ता असुरा जयशालिनः । अस्त्रैः शस्त्रैश्च ते देवान् पीडयामासुरोजसा ॥४१॥",
+      "text": "ದೈತ್ಯೇಂದ್ರನಿಂದ ಸಮಾಜ್ಞಪ್ತರಾದ ಜಯಶಾಲಿಗಳಾದ ಆ ಅಸುರರು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-11; null) ಮತ್ತು ಶಸ್ತ್ರಗಳಿಂದ ಓಜಸ್ಸಿನಿಂದ ದೇವತೆಗಳನ್ನು ಪೀಡಿಸಿದರು. ॥೪೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT585"
+          ],
+          "page": "PT585",
+          "reference_reading": "अस्त्रैः शस्त्रैश्च ते देवान्",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v40-v41-PT584-585.jpg",
+          "helper_resolution": "अस्त्रैः clear versus अखैः glyph",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary अस्त्रैः corroborated; source letters supported."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        42
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "देवाः क्रोधसमाविष्टा मरणे कृतनिश्चयाः । दैत्यान् प्रहरणैर्जघ्नुः शस्त्रैर्नानाविधैस्तदा ॥४२॥",
+      "text": "ಆಗ ಕ್ರೋಧಸಮಾವಿಷ್ಟರಾಗಿ ಮರಣಕ್ಕೂ ಸಿದ್ಧರಾದ ದೇವತೆಗಳು ನಾನಾವಿಧವಾದ ಪ್ರಹರಣಗಳಿಂದಲೂ ಶಸ್ತ್ರಗಳಿಂದಲೂ ದೈತ್ಯರನ್ನು ಹೊಡೆದರು. ॥೪೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        43
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "दैत्यानां चैव देवानां युद्धं परमदारुणम् । बभूव तुमुलं तत्र परस्परविनाशकम् ॥४३॥",
+      "text": "ಅಲ್ಲಿ ದೈತ್ಯರಿಗೂ ದೇವತೆಗಳಿಗೂ ಪರಸ್ಪರ ವಿನಾಶಕಾರಿಯಾದ, ಪರಮದಾರುಣವಾದ ತುಮುಲ ಯುದ್ಧವು ಉಂಟಾಯಿತು. ॥೪೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        44
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "असृङ्नदी प्रवृत्ता च महौघा वीरमोहिनी । भग्ना दैत्यगणास्तत्र प्रहारपरिपीडिताः ॥४४॥",
+      "text": "ಮಹಾ ಪ್ರವಾಹವುಳ್ಳ ಮತ್ತು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-12; null) ಆದ ರಕ್ತನದಿಯು ಹರಿಯಿತು; ಅಲ್ಲಿ ಪ್ರಹಾರಪರಿಪೀಡಿತರಾದ ದೈತ್ಯಗಣಗಳು ಭಗ್ನರಾದರು. ॥೪೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT585"
+          ],
+          "page": "PT585",
+          "reference_reading": "वीरमोहिनी",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v44-PT585.jpg",
+          "helper_resolution": "वीरमोहिनी clear",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary वीरमोहिनी corroborated; no new interpretation imposed."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        45
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "त्यक्त्वा दैत्यगणा लज्जां पलायंत दिशो दश । तत् दृष्ट्वा दैत्यराजस्तु विस्मितोऽभूत् प्रजापते ॥४५॥",
+      "text": "ದೈತ್ಯಗಣಗಳು ಲಜ್ಜೆಯನ್ನು ಬಿಟ್ಟು ಹತ್ತು ದಿಕ್ಕುಗಳಿಗೆ ಪಲಾಯನ ಮಾಡಿದರು; ಹೇ ಪ್ರಜಾಪತಿಯೇ, ಅದನ್ನು (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-13; null) ದೈತ್ಯರಾಜನಾದರೋ ವಿಸ್ಮಿತನಾದನು. ॥೪೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_evidence": [
+        {
+          "provider": "Google Books original Sanskrit",
+          "book_id": "fZcHEQAAQBAJ",
+          "page_urls": [
+            "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT586"
+          ],
+          "page": "PT586",
+          "reference_reading": "त्यक्त्वा दैत्यगणा लज्जां पलायन्त दिशो दश । तत् दृष्ट्वा दैत्यराजस्तु विस्मितोऽभूत् प्रजापते ॥४५॥",
+          "screenshot": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/google-books-evidence/ch32-v45-PT586.jpg",
+          "helper_resolution": "दृष्ट्वा clearly printed in recorded erased gap",
+          "status": "pixels_reconciled_meaning_review_hold",
+          "primary_variant_policy": "Preserve clear primary scan variants; no silent substitution.",
+          "visual_reconciliation": "Primary तत् दृष्ट्वा corroborated; source letters supported."
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        32,
+        46
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "ततो दैत्याधिपाः क्रूराः प्रधानमुख्या रणम् । आययुर्देवसेनां ते निजघ्नुश्च महाबलाः ॥४६॥",
+      "text": "ಬಳಿಕ ಪ್ರಧಾನ ಪ್ರಮುಖರಾದ ಕ್ರೂರರಾದ ಮಹಾಬಲಶಾಲಿಗಳಾದ ದೈತ್ಯಾಧಿಪರು ರಣರಂಗಕ್ಕೆ ಬಂದರು ಮತ್ತು ಅವರು ದೇವಸೇನೆಯನ್ನು ಹೊಡೆದುರುಳಿಸಿದರು. ॥೪೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        47
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "तत इंद्रादिभिस्ते वै रणं कृत्वा सुदारुणम् । निहता मूर्छिताः केचिद्रणे भूमौ निपातिताः ॥४७॥",
+      "text": "ಬಳಿಕ ಇಂದ್ರಾದಿಗಳೊಡನೆ ಸುದಾರುಣವಾದ ಯುದ್ಧವನ್ನು ಮಾಡಿ ಅವರು ಹತರಾದರು; ಕೆಲವರು ಮೂರ್ಛಿತರಾಗಿ ರಣರಂಗದಲ್ಲಿ ಭೂಮಿಯ ಮೇಲೆ ಕೆಡವಲ್ಪಟ್ಟರು. ॥೪೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        48
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "हा हा दैत्यगणाः कृत्वा पलायंत दिशो दश । तद् दृष्ट्वा दैत्यराजः स विस्मयं परमं ययौ ॥४८॥",
+      "text": "ದೈತ್ಯಗಣಗಳು ಹಾ ಹಾ ಎಂದು ಕೂಗುತ್ತಾ ಹತ್ತು ದಿಕ್ಕುಗಳಿಗೆ ಪಲಾಯನ ಮಾಡಿದರು; ಅದನ್ನು ಕಂಡು ಆ ದೈತ್ಯರಾಜನು ಪರಮ ವಿಸ್ಮಯವನ್ನು ಹೊಂದಿದನು. ॥೪೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        49
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "विपरीतं मया दृष्टं वह्निः शीतो यथाऽभवत् । तथा देवैर्मदीयं सेना सर्वा पराजिता ॥४९॥",
+      "text": "ಬೆಂಕಿಯು ತಣ್ಣಗಾದಂತೆ ವಿಪರೀತವು ನನ್ನಿಂದ ನೋಡಲ್ಪಟ್ಟಿತು; ಹಾಗೆ ದೇವತೆಗಳಿಂದ ನನ್ನ ಈ ಸಮಸ್ತ ಸೇನೆಯು ಪರಾಜಿತವಾಯಿತು. ॥೪೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        32,
+        50
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p15",
+      "source_sanskrit": "एवं मनसि संतप्तः क्रोधारुणविलोचनः । रथारूढः स्वयं योद्धुमाययौ स गजासुरः ॥५०॥",
+      "text": "ಹೀಗೆ ಮನಸ್ಸಿನಲ್ಲಿ ಸಂತಪ್ತನಾಗಿ ಕ್ರೋಧದಿಂದ ಕೆಂಪಾದ ಕಣ್ಣುಳ್ಳವನಾಗಿ ರಥಾರೂಢನಾಗಿ ಆ ಗಜಾಸುರನು ಸ್ವಯಂ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-14; null). ॥೫೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_dialogue_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source/meaning/edition hold retained from independently reviewed v2 packet; exact reference evidence preserved."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    }
+  ],
+  "review_questions": [],
+  "colophons": [],
+  "ending_status": "Actual ending known from scan, but colophon not integrated pending source spelling/earlier review discrepancy; no completion certification."
+}
