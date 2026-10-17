@@ -1,0 +1,67 @@
+{
+  "entries": 3561,
+  "coverage": "local-pdf-khanda2-ch14-41",
+  "added_entries": 84,
+  "chapters": {
+    "13": {
+      "verses": [
+        1,
+        43
+      ],
+      "open_questions": 10
+    },
+    "14": {
+      "verses": [
+        1,
+        41
+      ],
+      "open_questions": 11
+    }
+  },
+  "reading_status": "partial_visible_notices_colophons_withheld",
+  "reviewed_prior_corrections": [
+    [
+      2,
+      5,
+      20
+    ],
+    [
+      2,
+      5,
+      51
+    ],
+    [
+      2,
+      5,
+      63
+    ]
+  ],
+  "resolved_reading": [
+    2,
+    13,
+    38
+  ],
+  "validation": {
+    "structure": "pass",
+    "provenance": "pass",
+    "contents": "pass",
+    "pdf_tests": 16,
+    "google_tests": 36,
+    "browser_widths": [
+      1470,
+      375,
+      390
+    ],
+    "final_affected_anchor_checks": 27,
+    "browser_final": "pass"
+  },
+  "limitations": [
+    "Unresolved readings remain flagged",
+    "Browser EPUB download client blocked; package and HTTP bytes checked",
+    "Historical Sanskrit quotation comparison not rerun: cache absent"
+  ],
+  "artifact_sha256": {
+    "book/index.html": "fec4c3fdf28e3874d33b6fa1ed9a8dbcdc025ca74a616607d608887b5ca37a5c",
+    "dist/mudgala_purana.epub": "ad7c651acba73e766158b8a566551aa7eb82061225cd5dffa15647119c1c988f"
+  }
+}
