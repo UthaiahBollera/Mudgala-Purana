@@ -4,6 +4,9 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+**Khanda 2 chapters 24–25:** 118 independently reviewed v2 entries bring the reading draft to **4,040 entries**. Thirty-five passages retain visible source/meaning/edition notices and exact available Google Books Sanskrit references. Partial labels remain; provisional colophons are withheld.
+
+
 **Khanda 2 chapters 21–23:** 93 reviewed numbered entries bring the draft to **3,922 entries**. Forty-one source/meaning notices remain visible; partial labels and withheld provisional colophons preserve the review limits. Exact source mappings and prior text remain intact.
 
 
