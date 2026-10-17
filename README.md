@@ -4,6 +4,8 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+Reviewed original pages13–14 add59.17–51 and its source colophon, then60.1–12:47 new keys for5,465 entries. Verse59.42 is joined once. Eight glyph holds and the59.49 attachment note remain visible; parenthetical guesses at59.45 and60.5 are removed. Verse60.13a is deferred to its completed unit in pages15–16. Earlier gaps and unresolved readings remain intact.
+
 Reviewed original pages11–12 add completed58.18–47 and its colophon, then59.1–16:46 new keys for5,418 entries. Verses58.18 and58.43 are joined once. Nine glyph holds and the58.34 negative-construction note remain visible; the earlier58.12 interpretive note is retained. No unspecified mantra syllables or missing source text are supplied.
 
 Reviewed original pages9–10 add completed57.33–62 and its colophon, then58.1–17:47 new keys for5,372 entries. Cross-queue57.33 and57.59 are joined once. Five source glyph holds, including the carried page8 hold, and three interpretation notes remain visible. Verse58.18a is deferred to its complete unit in pages11–12. All earlier gaps remain explicit.
