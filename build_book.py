@@ -146,7 +146,7 @@ for part, start in enumerate(range(0, len(chapters), 16), 1):
     last = None
     for key in chapters[start:start+16]:
         khanda, chapter = key
-        _, name, _ = chapter_heading(key)
+        info, name, _ = chapter_heading(key)
         if khanda != last:
             body += f'<tr class="khanda"><th colspan="3">ಖಂಡ {kn(khanda)}</th></tr>'
             last = khanda
@@ -156,7 +156,7 @@ for part, start in enumerate(range(0, len(chapters), 16), 1):
             name += ' (ಭಾಗಶಃ)'
         body += (f'<tr data-chapter="{chapter}" data-khanda="{khanda}" data-completion="{status}">'
                  f'<td>{kn(chapter)}</td><td><a href="#{chapter_section_id(*key)}">{e(name)}</a></td>'
-                 f'<td>{kn(min(verses))}–{kn(max(verses))}</td></tr>')
+                 f'<td>{e(info.get("included_verse_range_label", f"{kn(min(verses))}–{kn(max(verses))}"))}</td></tr>')
     body += '</tbody></table>'
     pages.append(section(f'contents-reading-{part}', 'ಈ ಆವೃತ್ತಿಯ ವಿಷಯ ಸೂಚಿ', body, kind='contents-page'))
 # The devotional text on scan page 8 keeps its own source provenance.
@@ -203,7 +203,8 @@ for khanda, chapter in chapters:
         section_id = chapter_section_id(khanda, chapter, part)
         section_title = info.get('section_title', ordinal+' ಅಧ್ಯಾಯ')
         if part == 1 and chapter_reading_partial(key):
-            section_title += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {kn(entries[0]["verse"])}–{kn(entries[-1]["verse"])})'
+            verse_range = info.get('included_verse_range_label', f'{kn(entries[0]["verse"])}–{kn(entries[-1]["verse"])}')
+            section_title += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {verse_range})'
         chapter_page = section(section_id, section_title,body,','.join(source_pages),'chapter',part>1)
         if part == 1:
             chapter_page = chapter_page.replace('<section ', f'<section data-toc-label="{e(chapter_contents_label(key))}" ', 1)

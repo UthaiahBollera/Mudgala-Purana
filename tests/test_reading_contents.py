@@ -65,7 +65,8 @@ def check(base):
             expected_heading = item['section_title']
             if chapter not in completed or chapter in reading_partial:
                 included = sorted(k[2] for k in merged if k[:2] == chapter)
-                expected_heading += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {included[0]}–{included[-1]})'.translate(KN)
+                verse_range = item.get('included_verse_range_label', f'{included[0]}–{included[-1]}'.translate(KN))
+                expected_heading += f' (ಭಾಗಶಃ · ಶ್ಲೋಕಗಳು {verse_range})'
             assert target.find('h2').text == expected_heading
         partial = chapter not in completed or chapter in reading_partial
         if not partial:
@@ -79,7 +80,9 @@ def check(base):
         assert link.text == name + (' (ಭಾಗಶಃ)' if partial else '')
         assert row.get('data-completion') == ('partial' if partial else 'complete')
         verses = [k[2] for k in merged if k[:2] == chapter]
-        assert row.findall('td')[-1].text == f'{min(verses)}–{max(verses)}'.translate(KN)
+        metadata = json.loads((base/'translation/chapter-metadata.json').read_text())
+        item = next((item for item in metadata['chapters'] if chapter_key(item) == chapter), {})
+        assert row.findall('td')[-1].text == item.get('included_verse_range_label', f'{min(verses)}–{max(verses)}'.translate(KN))
         if subtitle is not None:
             assert target.get('data-toc-label').endswith(link.text)
         else:

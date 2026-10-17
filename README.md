@@ -4,6 +4,8 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+Chapter 39 adds 49 complete verses and the explicitly marked 50a fragment, bringing the reading edition to 4,710 numbered verse units. Three source/meaning holds remain visible (36 negation, 42 disputed glyph, 45 return-home agency). TOC/body labels stop at 50a; no 50b or colophon is supplied.
+
 Chapters 36–38 add 128 independently language-reviewed entries, bringing the reading edition to 4,660 entries. 71 source/meaning/edition holds remain visible; partial labels and withheld provisional colophons preserve review limits.
 
 Chapters 34–35 add 101 independently language-reviewed entries, bringing the reading edition to 4,532 entries. 71 source/meaning/edition holds remain visible; partial labels and withheld provisional colophons preserve review limits.
