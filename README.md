@@ -4,6 +4,8 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+Reviewed original page45 adds46.26–47 and its verified colophon:22 new keys for5,051 entries. The previously reviewed full46.25 remains once; all prior glyph/semantic holds and source gaps remain.
+
 Reviewed pages43–44 add45.27–43 and its colophon, then46.1–25 with the full46.25 join across44–45 once. This adds42 keys for5,029 entries. All glyph holds remain and45.41 carries an explicit देवपः referent hold; earlier flags/gaps are preserved.
 
 Reviewed pages41–42 add44.26–46 and its colophon plus45.1–26:47 new keys for4,987 entries. The already integrated full44.25 is retained once. All17 glyph questions remain visible, including the44 colophon; earlier semantic flags and source gaps remain.
