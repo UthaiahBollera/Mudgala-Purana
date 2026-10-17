@@ -1,0 +1,30 @@
+{
+  "entries": 3659,
+  "coverage": "local-pdf-khanda2-ch16-58",
+  "added_entries": 98,
+  "chapter15_verses": 40,
+  "chapter16_verses": 58,
+  "new_visible_notices": 28,
+  "reading_status": "partial_colophons_withheld",
+  "validation": {
+    "HTML_EPUB_structure_provenance_contents": "pass",
+    "pdf_tests": 16,
+    "google_tests": 36,
+    "browser_widths": [
+      1470,
+      375,
+      390
+    ],
+    "anchor_checks": 93,
+    "browser_status": "pass"
+  },
+  "artifact_sha256": {
+    "book/index.html": "e112c0c6d65f77ad08c7a6cedda324775dd95d6c72587dce29a02aae38253fbd",
+    "dist/mudgala_purana.epub": "86a048a88bc80f095eb7ac6cd536b301d25f2291c37c5fee890e4042764cb9a3"
+  },
+  "limitations": [
+    "Unresolved source/meaning readings remain visibly held",
+    "Browser EPUB download client blocked; no retry",
+    "Historical Sanskrit cache absent, quotation comparison not rerun"
+  ]
+}

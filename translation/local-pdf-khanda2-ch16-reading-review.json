@@ -1,0 +1,1987 @@
+{
+  "schema_version": 1,
+  "source_kind": "local_pdf",
+  "source_priority": "scanned_pdf_primary_ocr_aid_google_books_reference",
+  "primary_source": {
+    "filename": "184 TO 205.pdf",
+    "sha256": "986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1",
+    "pdf_page": 4,
+    "printed_page": 35,
+    "audit_global_page": 177,
+    "image_sha256": "ffaca6c49abf2a9426a788443fde7981f13d1cffce57283ba87573aecf50014d",
+    "printed_page_verified": true
+  },
+  "additional_source_pdfs": [],
+  "source_pages": [
+    {
+      "id": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "pdf_page": 4,
+      "printed_page": 35,
+      "printed_page_verified": true,
+      "image_sha256": "ffaca6c49abf2a9426a788443fde7981f13d1cffce57283ba87573aecf50014d",
+      "source_sha256": "986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1"
+    },
+    {
+      "id": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "pdf_page": 5,
+      "printed_page": 36,
+      "printed_page_verified": true,
+      "image_sha256": "ca33e3a56dfeb3df28f14621f32858e7d5661b6260621558d85dea15beff0cf1",
+      "source_sha256": "986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1"
+    },
+    {
+      "id": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "pdf_page": 6,
+      "printed_page": 37,
+      "printed_page_verified": true,
+      "image_sha256": "98cb8115ffebd0c012a8a805bd53dfc912ad76b24b828b4828eb84db63a8e0fc",
+      "source_sha256": "986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1"
+    }
+  ],
+  "scope": "Khanda2 chapter16 numbered entries1–58; faithful partial reading edition, unresolved flags visible; colophon withheld",
+  "source_method": "Original-PDF render pixels inspected; existing OCR aid only. Exact Google Books Sanskrit references compared where supplied. No modern English used. New interpretations not autoaccepted.",
+  "verses": [
+    {
+      "key": [
+        2,
+        16,
+        1
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "प्रियव्रतात्मजश्चैवाग्नीध्रस्तस्याभवत्सुतः । नाभिस्तस्य च यज्ञाद्वै समुत्पन्नः सुतः परः ॥१॥",
+      "text": "ಪ್ರಿಯವ್ರತನ ಪುತ್ರನು ಅಗ್ನೀಧ್ರ; ಅವನ ಪುತ್ರನು ನಾಭಿ. ಯಜ್ಞದಿಂದ ಶ್ರೇಷ್ಠ ಪುತ್ರನು ಜನಿಸಿದನು. (ಪರಿಶೀಲನೆ: ಮೊದಲ ಶ್ಲೋಕದ ವಂಶಸಂಬಂಧ ಮತ್ತು “ಯಜ್ಞಾದ್ವೈ” ಎಂಬ ಪಾಠದ ಪರಿಶೀಲನೆ ಬಾಕಿ.) ॥೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT327",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT327",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 1,
+            "page_id": "PT327",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT327",
+            "sanskrit_visible": "प्रियव्रतात्मजश्चैवाग्नीध्रस्तस्याभवत्सुतः । नाभिस्तस्य च यज्ञाद्वै समुत्पन्नः सुतः परः ॥१॥",
+            "note": "यज्ञाद्वै confirmed; no Rishabha identity inserted into this verse.",
+            "screenshot": "ch16-v1-PT327.jpg",
+            "evidence_file": "chapter16-readings.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v1-PT327.jpg": "21f53e55ed3aa5e8568c32cffb76cd474d3430ffe1ed33672dcbebc12d69365e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        2
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "यज्ञरूपः स्वयं विष्णुः कलारूपेण देहधृत् । पुत्रभावसमायुक्तः स्थितस्तस्य च सद्मनि ॥२॥",
+      "text": "ಯಜ್ಞಸ್ವರೂಪನಾದ ಸ್ವಯಂ ವಿಷ್ಣುವು ತನ್ನ ಕಲಾರೂಪದಿಂದ ದೇಹವನ್ನು ಧರಿಸಿ, ಪುತ್ರಭಾವದಿಂದ ಅವನ ಮನೆಯಲ್ಲಿಯೇ ನೆಲೆಸಿದ್ದನು. ॥೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        3
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "तस्य पुत्रशतं जज्ञे भरताग्रं प्रजापते । एकाशीतिश्च पुत्रा वै ब्राह्मणास्तपसाऽभवन् ॥३॥",
+      "text": "ಪ್ರಜಾಪತಿಯೇ, ಅವನಿಗೆ ಭರತನು ಮೊದಲಿಗನಾಗಿರುವ ನೂರು ಪುತ್ರರು ಹುಟ್ಟಿದರು. ಅವರಲ್ಲಿ ಎಂಬತ್ತೊಂದು ಮಂದಿ ತಪಸ್ಸಿನಿಂದ ಬ್ರಾಹ್ಮಣರಾದರು. ॥೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        4
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "नवयोगिन एवान्येऽभवन् सर्वत्र संमताः । गाणपत्या महाभागाः स्वदेहविवर्जिताः ॥४॥",
+      "text": "ಇನ್ನೂ ಒಂಬತ್ತು ಮಂದಿ ಎಲ್ಲೆಡೆಯೂ ಗೌರವಿಸಲ್ಪಡುವ ಮಹಾಭಾಗರಾದ ಗಾಣಪತ್ಯ ಯೋಗಿಗಳಾದರು. (ಪರಿಶೀಲನೆ: “ಸ್ವದೇಹವಿವರ್ಜಿತಾಃ” ಎಂಬುದರ ನಿಖರ ಅರ್ಥದ ಪರಿಶೀಲನೆ ಬಾಕಿ.) ॥೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT328",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT328",
+        "status": "explicitly_unresolved",
+        "note": "स्वदेह/सर्वदेह primary cluster remains unresolved; no body-identification gloss.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 4,
+            "page_id": "PT328",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT328",
+            "sanskrit_visible": "नवयोगिन एवान्येऽभवन् सर्वत्र संमताः । गाणपत्या महाभागाः सर्वदेह - विवर्जिताः ॥४॥",
+            "note": "Reference सर्वदेह - विवर्जिताः differs from candidate स्वदेहविवर्जिताः. Printed hyphen retained; no physical-disembodiment inference.",
+            "screenshot": "ch16-v4-v5-PT328.jpg",
+            "evidence_file": "chapter16-readings.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v4-v5-PT328.jpg": "1aa69c81a8a9a53fc307b526614ecef12c262e50420ace30b6cc7a3f529a21d0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        5
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "कविर्हरिश्चांतरिक्षः प्रबुद्धः पिप्पलायनः । आविर्होत्रोऽथ द्रुमिलश्चमसः करभाजनः ॥५॥",
+      "text": "ಕವಿ, ಹರಿ, ಅಂತರಿಕ್ಷ, ಪ್ರಬುದ್ಧ, ಪಿಪ್ಪಲಾಯನ, ಆವಿರ್ಹೋತ್ರ, ದ್ರುಮಿಲ, ಚಮಸ ಮತ್ತು ಕರಭಾಜನ. (ಪರಿಶೀಲನೆ: ಹೆಸರುಗಳ ಮೂಲಪಾಠದ ಪರಿಶೀಲನೆ ಬಾಕಿ.) ॥೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT328",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT328",
+        "status": "explicitly_unresolved",
+        "note": "Primary आविर्होत्र versus reference अविर्होत्र; preserve primary.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 5,
+            "page_id": "PT328",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT328",
+            "sanskrit_visible": "कविर्हरिश्चान्तरिक्षः प्रबुद्धः पिप्पलायनः । अविर्होत्रोऽथ द्रुमिलश्चमसः करभाजनः ॥५॥",
+            "note": "Reference initial अविर्होत्रो short अ retained versus candidate आविर्होत्रो. No conventional list replacement.",
+            "screenshot": "ch16-v4-v5-PT328.jpg",
+            "evidence_file": "chapter16-readings.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v4-v5-PT328.jpg": "1aa69c81a8a9a53fc307b526614ecef12c262e50420ace30b6cc7a3f529a21d0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        6
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "सदा योगधरा मुख्या ऊर्ध्वरेतस एव च । सर्वगाः सर्वसंमान्या भ्रमंति भुवनेषु च ॥६॥",
+      "text": "ಅವರು ಸದಾ ಯೋಗನಿಷ್ಠರಾದ ಶ್ರೇಷ್ಠರೂ ಊರ್ಧ್ವರೇತಸರೂ ಎಲ್ಲೆಡೆ ಸಂಚರಿಸುವವರೂ ಎಲ್ಲರಿಂದಲೂ ಗೌರವಿಸಲ್ಪಡುವವರೂ ಆಗಿ ಲೋಕಗಳಲ್ಲಿ ಸಂಚರಿಸುತ್ತಾರೆ. ॥೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        7
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "नव तत्र च राजानो जंबुद्वीपे प्रजापते । खंडेषु तेषु मुख्यो वै भरतो ज्येष्ठपुत्रकः ॥७॥",
+      "text": "ಪ್ರಜಾಪತಿಯೇ, ಅವರಲ್ಲಿ ಒಂಬತ್ತು ಮಂದಿ ಜಂಬೂದ್ವೀಪದ ಖಂಡಗಳಲ್ಲಿ ರಾಜರಾದರು. ಜ್ಯೇಷ್ಠಪುತ್ರನಾದ ಭರತನು ಪ್ರಧಾನನಾಗಿದ್ದನು. ॥೭॥ (ಪರಿಶೀಲನೆ: ನೂರು ಪುತ್ರರು, ಎಂಬತ್ತೊಂದು ಬ್ರಾಹ್ಮಣರು, ಒಂಬತ್ತು ಯೋಗಿಗಳು ಮತ್ತು ಒಂಬತ್ತು ರಾಜರು ಎಂಬ ಸಂಖ್ಯಾಸಂಬಂಧದ ಪ್ರಶ್ನೆ ಬಾಕಿ.) (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": null,
+        "url": null,
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": []
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        8
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "सभ्रातृणां नवानां वै सम्राट् भावेन संस्थितः । एवं विभज्य राज्यं स्वमृषभश्च वनं ययौ ॥८॥",
+      "text": "ಅವನು ಸಮ್ರಾಟನಾಗಿ ನೆಲೆಸಿದ್ದನು. ಹೀಗೆ ತನ್ನ ರಾಜ್ಯವನ್ನು ಹಂಚಿಕೊಟ್ಟು ಋಷಭನು ವನಕ್ಕೆ ಹೋದನು. (ಪರಿಶೀಲನೆ: “ಸಭ್ರಾತೃಣಾಂ ನವಾನಾಂ” ಎಂಬ ಪದಸಂಬಂಧದ ಪರಿಶೀಲನೆ ಬಾಕಿ.) ॥೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT329",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT329",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 8,
+            "page_id": "PT329",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT329",
+            "sanskrit_visible": "स भ्रातृणां नवानां वै सम्राड्भावेन संस्थितः । एवं विभज्य राज्यं स्वमृषभश्च वनं ययौ ॥८॥",
+            "note": "Printed separate स भ्रातृणां, not candidate सभ्रातृणां. सम्राड्भावेन visible. Relationship still requires review.",
+            "screenshot": "ch16-v8-PT329.jpg",
+            "evidence_file": "chapter16-readings.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v8-PT329.jpg": "5e7d116ae75eefccbfd96aa39381c9d89fc0c35a6574c3737d66f6dade49a770"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        9
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "तत्र नाना तपः कृत्वा क्रमेण स बभूव च । अवधूतो महाभागो योगमभ्यस्य योगवित् ॥९॥",
+      "text": "ಅಲ್ಲಿ ನಾನಾವಿಧ ತಪಸ್ಸನ್ನು ಮಾಡಿ, ಯೋಗವನ್ನು ಅಭ್ಯಾಸಿಸಿ, ಯೋಗಜ್ಞನಾದ ಆ ಮಹಾಭಾಗನು ಕ್ರಮೇಣ ಅವಧೂತನಾದನು. ॥೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        10
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "नानायोगविभेदेन नानाभूमिं विशोधयन् । जडोन्मत्तपिशाचादिं ततः सहजसंस्थितः ॥१०॥",
+      "text": "ನಾನಾವಿಧ ಯೋಗಭೇದಗಳ ಮೂಲಕ ಜಡ, ಉನ್ಮತ್ತ, ಪಿಶಾಚ ಮೊದಲಾದ ನಾನಾ ಭೂಮಿಕೆಗಳನ್ನು ಶುದ್ಧಗೊಳಿಸುತ್ತ, ಅನಂತರ ಸಹಜಸ್ಥಿತಿಯಲ್ಲಿ ನೆಲೆಸಿದನು. (ಪರಿಶೀಲನೆ: ಭೂಮಿಕೆಗಳ ಪದಸಂಬಂಧದ ಪರಿಶೀಲನೆ ಬಾಕಿ.) ॥೧೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga_genealogy",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT330",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT330",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 10,
+            "page_id": "PT330",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT330",
+            "sanskrit_visible": "नानायोगविभेदेन नानाभूमिं विशोधयन् । जडोन्मत्तपिशाचादिं ततः सहजसंस्थितः ॥१०॥",
+            "note": "Candidate wording confirmed. Grammatical/technical relationship not adjudicated.",
+            "screenshot": "ch16-v10-PT330.jpg",
+            "evidence_file": "chapter16-readings.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v10-PT330.jpg": "bb0bc47ad256aaa4e851d208e390bdb936b8630ef9fcffb58b7278ed78633647"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        11
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4",
+      "source_sanskrit": "सहजं शांकरं ब्रह्म मोहहीनं चतुर्थकम् । स्वाधीनं नेति रूपं यदव्यक्तं तेन संगतम् ॥११॥",
+      "text": "ಸಹಜವೆಂಬ ಶಾಂಕರಬ್ರಹ್ಮವು ಮೋಹರಹಿತವಾದ ನಾಲ್ಕನೆಯದು. (ಪರಿಶೀಲನೆ: “ಸ್ವಾಧೀನಂ ನೇತಿ ರೂಪಂ ಯದವ್ಯಕ್ತಂ ತೇನ ಸಂಗತಂ” ಎಂಬ ಭಾಗದ ಪದಸಂಬಂಧದ ಅರ್ಥ ಬಾಕಿ.) ॥೧೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT330",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT330",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 11,
+            "page_id": "PT330",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT330",
+            "sanskrit_visible": "सहजं शांकरं ब्रह्म मोहहीनं चतुर्थकम् । स्वाधीनं नेति रूपं यदव्यक्तं तेन संगतम् ॥११॥",
+            "note": "Candidate corroborated; technical interpretation remains held.",
+            "screenshot": "ch16-v11-PT330.jpg",
+            "evidence_file": "chapter16-source-audit-supplement.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v11-PT330.jpg": "0971f7e443c584710dcf3d044fc056adb436bfc23aaca54d06b862d4ec4924df"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        12
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p4,pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "तेनासौ शांभवो जातः शिवमार्गप्रकाशकः । यत्रतत्राचरद्योगी जनानां बोधयन् शिवम् ॥१२॥",
+      "text": "ಅದರಿಂದ ಅವನು ಶಾಂಭವನಾಗಿ ಶಿವಮಾರ್ಗವನ್ನು ಪ್ರಕಾಶಪಡಿಸುವವನಾದನು. ಆ ಯೋಗಿಯು ಜನರಿಗೆ ಶಿವನನ್ನು ಬೋಧಿಸುತ್ತ ಎಲ್ಲೆಡೆ ಸಂಚರಿಸಿದನು. ॥೧೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        13
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "ततो योगेन तत्रैव स्वाधीनब्रह्मदूषणम् । दृष्ट्वा शान्तिं परित्यज्य विस्मितः प्रबभूव सः ॥१३॥",
+      "text": "ಅನಂತರ ಯೋಗದ ಮೂಲಕ ಅಲ್ಲಿಯೇ ಸ್ವಾಧೀನಬ್ರಹ್ಮವೆಂಬುದರ ದೋಷವನ್ನು ಕಂಡು, ಶಾಂತಿಯನ್ನು ತೊರೆದು ಆಶ್ಚರ್ಯಗೊಂಡನು. (ಪರಿಶೀಲನೆ: “ಸ್ವಾಧೀನಬ್ರಹ್ಮದೂಷಣಂ” ಎಂಬುದರ ನಿಖರ ಅರ್ಥ ಬಾಕಿ.) ॥೧೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT331",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT331",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 13,
+            "page_id": "PT331",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT331",
+            "sanskrit_visible": "ततो योगेन तत्रैव स्वाधीनब्रह्मदूषणम् । दृष्ट्वा शान्तिं परित्यज्य विस्मितः प्रबभूव सः ॥१३॥",
+            "note": "Candidate corroborated; technical meaning remains held.",
+            "screenshot": "ch16-v13-v14-PT331.jpg",
+            "evidence_file": "chapter16-source-audit-supplement.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v13-v14-PT331.jpg": "d44b5a7a46989f76a076b8ec9ec9f2912045c7d19c1e88408d8668a5d0dbf855"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        14
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "न ब्रह्मणि पराधीनस्वाधीनत्वं कदाचन । शिवः स्वाधीनरूपोऽयं न योगीन्द्रस्ततो भवेत् ॥१४॥",
+      "text": "ಬ್ರಹ್ಮದಲ್ಲಿ ಎಂದಿಗೂ ಪರಾಧೀನತ್ವವಾಗಲಿ ಸ್ವಾಧೀನತ್ವವಾಗಲಿ ಇಲ್ಲ. ಈ ಶಿವನು ಸ್ವಾಧೀನಸ್ವರೂಪನಾಗಿರುವುದರಿಂದ ಯೋಗೀಂದ್ರನಾಗಲಾರನು. (ಪರಿಶೀಲನೆ: ನಿರಾಕರಣೆಯ ಸಂದರ್ಭಾರ್ಥ ಬಾಕಿ.) ॥೧೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT331",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT331",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 14,
+            "page_id": "PT331",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT331",
+            "sanskrit_visible": "न ब्रह्मणि पराधीनस्वाधीनत्वं कदाचन । शिवः स्वाधीनरूपोऽयं न योगीन्द्रस्ततो भवेत् ॥१४॥",
+            "note": "Both न negations visible. Contextual interpretation still held.",
+            "screenshot": "ch16-v13-v14-PT331.jpg",
+            "evidence_file": "chapter16-source-audit-supplement.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v13-v14-PT331.jpg": "d44b5a7a46989f76a076b8ec9ec9f2912045c7d19c1e88408d8668a5d0dbf855"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        15
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "एवं विचार्य विक्षेपाच्छंकरालयमाययौ । तं प्रणम्य स्थितो योगी शिवसंमानितो भृशम् ॥१५॥",
+      "text": "ಹೀಗೆ ವಿಚಾರಿಸಿ, ವಿಕ್ಷೇಪದಿಂದ ಶಂಕರನ ಆಲಯಕ್ಕೆ ಬಂದನು. ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ ನಿಂತ ಆ ಯೋಗಿಯನ್ನು ಶಿವನು ಬಹಳವಾಗಿ ಸನ್ಮಾನಿಸಿದನು. ॥೧೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        16
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "तत्र स्थिता महाभागा योगिनः शिवशिष्यकाः । गाणपत्याः स तान् दृष्ट्वा विस्मितो मानसेऽभवत् ॥१६॥",
+      "text": "ಅಲ್ಲಿ ಶಿವನ ಶಿಷ್ಯರಾದ ಮಹಾಭಾಗ ಗಾಣಪತ್ಯ ಯೋಗಿಗಳು ನೆಲೆಸಿದ್ದರು. ಅವರನ್ನು ನೋಡಿ ಅವನು ಮನಸ್ಸಿನಲ್ಲಿ ಆಶ್ಚರ್ಯಗೊಂಡನು. ॥೧೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        17
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "ततोऽवसरमासाद्य शिवं नत्वा कृतांजलिः । जगाद तं स योगीन्द्रो भक्तियुक्तेन चेतसा ॥१७॥",
+      "text": "ಬಳಿಕ ಅವಕಾಶವನ್ನು ಪಡೆದು, ಶಿವನಿಗೆ ನಮಸ್ಕರಿಸಿ, ಕೈಮುಗಿದು, ಆ ಯೋಗೀಂದ್ರನು ಭಕ್ತಿಯುಳ್ಳ ಮನಸ್ಸಿನಿಂದ ಅವನಿಗೆ ಹೇಳಿದನು. ॥೧೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        18
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "नमस्ते शंकरायैव नमस्ते योगरूपिणे । नमस्ते जगदाधार ब्रह्माधिपतये नमः ॥१८॥",
+      "text": "ಶಂಕರನಾದ ನಿನಗೆ ನಮಸ್ಕಾರ; ಯೋಗಸ್ವರೂಪನಿಗೆ ನಮಸ್ಕಾರ. ಜಗದಾಧಾರನೇ, ನಿನಗೆ ನಮಸ್ಕಾರ; ಬ್ರಹ್ಮಾಧಿಪತಿಗೆ ನಮಸ್ಕಾರ. ॥೧೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        19
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "शान्तियोगं वद स्वामिन् पूर्णशान्तिप्रदायकम् । दासोऽहं तेऽधुना शिष्यो मह्यं देव दयानिधे ॥१९॥",
+      "text": "ಸ್ವಾಮಿಯೇ, ದಯಾನಿಧಿಯಾದ ದೇವನೇ, ಪೂರ್ಣಶಾಂತಿಯನ್ನು ನೀಡುವ ಶಾಂತಿಯೋಗವನ್ನು ನನಗೆ ಹೇಳು. ನಾನು ನಿನ್ನ ದಾಸನು; ಈಗ ನಿನ್ನ ಶಿಷ್ಯನಾಗಿದ್ದೇನೆ. ॥೧೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        20
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "सहजान्न परं ब्रह्म मया ज्ञातं विवेकतः । तत्र स्वाधीनता दृष्टा तया शान्तिर्गता च मे ॥२०॥",
+      "text": "ವಿವೇಕದಿಂದ ಸಹಜಕ್ಕಿಂತ ಪರವಾದ ಬ್ರಹ್ಮವನ್ನು ನಾನು ತಿಳಿದಿರಲಿಲ್ಲ. ಅಲ್ಲಿ ಸ್ವಾಧೀನತೆಯನ್ನು ಕಂಡೆನು; ಅದರಿಂದ ನನ್ನ ಶಾಂತಿಯೂ ಹೋಯಿತು. (ಪರಿಶೀಲನೆ: ತಾಂತ್ರಿಕ ಸಂಬಂಧಾರ್ಥ ಬಾಕಿ.) ॥೨೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT333",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT333",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 20,
+            "page_id": "PT333",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT333",
+            "sanskrit_visible": "सहजान्न परं ब्रह्म मया ज्ञातं विवेकतः । तत्र स्वाधीनता दृष्टा तया शान्तिर्गता च मे ॥२०॥",
+            "note": "Candidate corroborated.",
+            "screenshot": "ch16-v20-v21-PT333.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v20-v21-PT333.jpg": "52ec37bdfd8b9d4b738746e45fe5c015ebcf27584e4e77b996186828d8564323"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        21
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "ऋषभस्य वचः श्रुत्वा शंकरो हर्षनिर्भरः । जगाद तं महाभक्तं पूर्णपाशुपतं वचः ॥२१॥",
+      "text": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಋಷಭನ ಮಾತನ್ನು ಕೇಳಿ, ಶಂಕರನು ಹರ್ಷಭರಿತನಾಗಿ, ಆ ಮಹಾಭಕ್ತನಿಗೆ ಹೇಳಿದನು. (ಪರಿಶೀಲನೆ: “ಪೂರ್ಣಪಾಶುಪತಂ” ಎಂಬುದರ ಸಂಬಂಧಾರ್ಥ ಬಾಕಿ.) ॥೨೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT333",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT333",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 21,
+            "page_id": "PT333",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT333",
+            "sanskrit_visible": "ऋषभस्य वचः श्रुत्वा शङ्करो हर्षनिर्भरः । जगाद तं महाभक्तं पूर्णपाशुपतं वचः ॥२१॥",
+            "note": "पूर्णपाशुपतं visible; शङ्करो uses explicit nasal consonant in reference.",
+            "screenshot": "ch16-v20-v21-PT333.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v20-v21-PT333.jpg": "52ec37bdfd8b9d4b738746e45fe5c015ebcf27584e4e77b996186828d8564323"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        22
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "त्वया पृष्टं महायोगिंस्तारकं योगिनां मतम् । कथयामि महाप्रीत्या शृणुष्वैकाग्रमानसः ॥२२॥",
+      "text": "ಶಿವನು ಹೇಳಿದನು: ಮಹಾಯೋಗಿಯೇ, ನೀನು ಕೇಳಿರುವುದು ಯೋಗಿಗಳಿಗೆ ತಾರಕವೆಂದು ಮಾನ್ಯವಾದ ವಿಷಯ. ಬಹುಪ್ರೀತಿಯಿಂದ ಹೇಳುವೆನು; ಏಕಾಗ್ರಮನಸ್ಸಿನಿಂದ ಕೇಳು. ॥೨೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        23
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "शान्तियोगात्मकः साक्षाद्वेदेषु कथितः पुरा । गणेशो योगरूपाख्यो योगिभिः सेवितः सदा ॥२३॥",
+      "text": "ಯೋಗಸ್ವರೂಪನೆಂದು ಕರೆಯಲ್ಪಡುವ ಗಣೇಶನನ್ನು ಸಾಕ್ಷಾತ್ ಶಾಂತಿಯೋಗಾತ್ಮಕನೆಂದು ವೇದಗಳಲ್ಲಿ ಹಿಂದೆಯೇ ಹೇಳಲಾಗಿದೆ. ಯೋಗಿಗಳು ಅವನನ್ನು ಸದಾ ಸೇವಿಸುತ್ತಾರೆ. ॥೨೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        24
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "तस्मात् सर्वं समुद्भूतं तदाधारेण संस्थितम् । अन्ते चेदं तदाकारं योगेन भवति प्रभो ॥२४॥",
+      "text": "ಪ್ರಭುವೇ, ಅವನಿಂದ ಎಲ್ಲವೂ ಹುಟ್ಟಿದೆ; ಅವನ ಆಧಾರದಿಂದಲೇ ನೆಲೆಸಿದೆ. ಅಂತ್ಯದಲ್ಲಿ ಯೋಗದ ಮೂಲಕ ಇದು ಅವನ ಆಕಾರವಾಗುತ್ತದೆ. ॥೨೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        25
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "सामवेदे प्रकथितं शृणु वेदरहस्यकम् । येन त्वं शान्तिसंयुक्तो भविष्यसि न संशयः ॥२५॥",
+      "text": "ಸಾಮವೇದದಲ್ಲಿ ಹೇಳಲ್ಪಟ್ಟ ವೇದರಹಸ್ಯವನ್ನು ಕೇಳು. ಅದರಿಂದ ನೀನು ಶಾಂತಿಯುಳ್ಳವನಾಗುವೆ; ಸಂಶಯವಿಲ್ಲ. ॥೨೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        26
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "मनोवाणीमयं सर्वं दृश्यादृश्यस्वरूपकम् । गकारात्मकमेतत्तु तत्र ब्रह्म गकारकः ॥२६॥",
+      "text": "ಕಾಣುವ ಮತ್ತು ಕಾಣದ ಸ್ವರೂಪವುಳ್ಳ, ಮನೋವಾಣೀಮಯವಾದ ಈ ಎಲ್ಲವೂ ಗಕಾರಾತ್ಮಕವಾಗಿದೆ. ಅಲ್ಲಿ ಗಕಾರವೇ ಬ್ರಹ್ಮವಾಗಿದೆ. (ಪರಿಶೀಲನೆ: ಅಕ್ಷರಗಳ ತಾಂತ್ರಿಕ ನಿರೂಪಣೆಯ ಅರ್ಥ ಬಾಕಿ.) ॥೨೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT335",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT335",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 26,
+            "page_id": "PT335",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT335",
+            "sanskrit_visible": "मनोवाणीमयं सर्वं दृश्यादृश्यस्वरूपकम् । गकारात्मकमेतत्तु तत्र ब्रह्म गकारकः ॥२६॥",
+            "note": "Candidate corroborated.",
+            "screenshot": "ch16-v26-v27-PT335.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v26-v27-PT335.jpg": "1e4c0e9d8dc286f7f494fd5ab9bb8718512893ab6c972c57be99424f522ddbe0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        27
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "मनोवाणीविहीनं च संयोगायोगसंस्थितम् । णकारात्मकमेतत्तु णकारस्तत्र संस्थितः ॥२७॥",
+      "text": "ಮನೋವಾಣೀರಹಿತವೂ ಸಂಯೋಗಾಯೋಗಗಳಲ್ಲಿ ನೆಲೆಸಿರುವುದೂ ಆದ ಇದು ಣಕಾರಾತ್ಮಕವಾಗಿದೆ. ಅಲ್ಲಿ ಣಕಾರವು ನೆಲೆಸಿದೆ. (ಪರಿಶೀಲನೆ: ಸಂಯೋಗಾಯೋಗ ಪದಸಂಬಂಧದ ಅರ್ಥ ಬಾಕಿ.) ॥೨೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT335",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT335",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 27,
+            "page_id": "PT335",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT335",
+            "sanskrit_visible": "मनोवाणीविहीनं च संयोगायोगसंस्थितम् । णकारात्मकमेतत्तु णकारस्तत्र संस्थितः ॥२७॥",
+            "note": "Candidate corroborated.",
+            "screenshot": "ch16-v26-v27-PT335.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v26-v27-PT335.jpg": "1e4c0e9d8dc286f7f494fd5ab9bb8718512893ab6c972c57be99424f522ddbe0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        28
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "विविधानि गकाराच्च प्रसूतानि महामते । ब्रह्माणि तानि कथ्यन्ते तत्त्वरूपाणि योगिभिः ॥२८॥",
+      "text": "ಮಹಾಮತಿಯೇ, ಗಕಾರದಿಂದ ಹುಟ್ಟಿದ ನಾನಾವಿಧ ಬ್ರಹ್ಮಗಳನ್ನು ಯೋಗಿಗಳು ತತ್ತ್ವರೂಪಗಳೆಂದು ಹೇಳುತ್ತಾರೆ. ॥೨೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        29
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "ब्रह्माणि तु णकाराच्च संप्रसूतानि योगिभिः । निरोधात्मकरूपाणि कथितानि समन्ततः ॥२९॥",
+      "text": "ಣಕಾರದಿಂದ ಹುಟ್ಟಿದ ಬ್ರಹ್ಮಗಳನ್ನು ಯೋಗಿಗಳು ಎಲ್ಲೆಡೆಯೂ ನಿರೋಧಾತ್ಮಕ ಸ್ವರೂಪವುಳ್ಳವುಗಳೆಂದು ಹೇಳುತ್ತಾರೆ. (ಪರಿಶೀಲನೆ: “ನಿರೋಧಾತ್ಮಕ” ತಾಂತ್ರಿಕ ಅರ್ಥ ಬಾಕಿ.) ॥೨೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT337",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT337",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 29,
+            "page_id": "PT337",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT337",
+            "sanskrit_visible": "ब्रह्माणि तु णकाराच्च सम्प्रसूतानि योगिभिः । निरोधात्मकरूपाणि कथितानि समन्ततः ॥२९॥",
+            "note": "निरोधात्मकरूपाणि visible; सम्प्र/संप्र orthography only.",
+            "screenshot": "ch16-v29-PT337.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v29-PT337.jpg": "76afebab243141c9df993df682b061cc2c725d177974c66377a9d99d0ed27f60"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        30
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "गकारश्च णकारश्चाह्वये गणपतेः स्थितौ । ततो जानीहि भो योगिन् ब्रह्माकारौ श्रुतेर्मुखात् ॥३०॥",
+      "text": "ಗಕಾರವೂ ಣಕಾರವೂ ಗಣಪತಿಯ ಹೆಸರಿನಲ್ಲಿ ನೆಲೆಸಿವೆ. ಯೋಗಿಯೇ, ಅವೆರಡನ್ನೂ ಬ್ರಹ್ಮಾಕಾರಗಳೆಂದು ಶ್ರುತಿಯ ಮುಖದಿಂದ ತಿಳಿ. ॥೩೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        31
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "तयोः स्वामी गणेशानो योगरूपेण संस्थितः । तं भजस्व विधानेन शान्तिमार्गेण पुत्रक ॥३१॥",
+      "text": "ಪುತ್ರನೇ, ಅವೆರಡರ ಸ್ವಾಮಿಯಾದ ಗಣೇಶಾನನು ಯೋಗಸ್ವರೂಪದಿಂದ ನೆಲೆಸಿದ್ದಾನೆ. ಶಾಂತಿಮಾರ್ಗದಲ್ಲಿ ವಿಧಿಯನುಸರಿಸಿ ಅವನನ್ನು ಭಜಿಸು. ॥೩೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        32
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "मनोवाणीमयं सर्वं गणेशाकारभाविनम् । मनोवाणीविहीनं च तदाकारं प्रभावय ॥३२॥",
+      "text": "ಮನೋವಾಣೀಮಯವಾದ ಎಲ್ಲವನ್ನೂ ಗಣೇಶಾಕಾರವಾಗಿ ಭಾವಿಸು. ಮನೋವಾಣೀರಹಿತವಾದುದನ್ನೂ ಅವನ ಆಕಾರವಾಗಿ ಭಾವಿಸು. (ಪರಿಶೀಲನೆ: “ಗಣೇಶಾಕಾರಭಾವಿನಂ” ಎಂಬ ಪಾಠದ ಪದಸಂಬಂಧ ಬಾಕಿ.) ॥೩೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT337",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT337",
+        "status": "explicitly_unresolved",
+        "note": "Primary गणेशाकारभाविनम् versus reference भावितम्; preserve primary.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 32,
+            "page_id": "PT337",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT337",
+            "sanskrit_visible": "मनोवाणीमयं सर्वं गणेशाकारभावितम् । मनोवाणीविहीनं च तदाकारं प्रभावय ॥३२॥",
+            "note": "Reference गणेशाकारभावितम् differs from candidate गणेशाकारभाविनम्. Primary reconciliation required.",
+            "screenshot": "ch16-v32-PT337.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v32-PT337.jpg": "571900e535d8b5c1ea508b6b171c5cb01e18d113a2d420ee85ac41535f477951"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        33
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "मनोवाणीमयं सर्वं मायारूपं प्रकथ्यते । मनोवाणीविहीनं यत्तदेव तादृशं मतम् ॥३३॥",
+      "text": "ಮನೋವಾಣೀಮಯವಾದ ಎಲ್ಲವೂ ಮಾಯಾರೂಪವೆಂದು ಹೇಳಲಾಗಿದೆ. ಮನೋವಾಣೀರಹಿತವಾದುದನ್ನೂ ಅಂತಹುದೇ ಎಂದು ಪರಿಗಣಿಸಲಾಗಿದೆ. ॥೩೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        34
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "चित्तस्य पञ्च भूमीनां प्रकाशकहृदयं स्मृतः । तेन चिन्तामणिर्नाम जातोऽसौ गणनायकः ॥३४॥",
+      "text": "ಚಿತ್ತದ ಐದು ಭೂಮಿಗಳ ವಿಷಯದಲ್ಲಿ ಆ ಗಣನಾಯಕನನ್ನು “ಪ್ರಕಾಶಕಹೃದಯಂ” ಎಂದು ಹೇಳಲಾಗಿದೆ; ಅದರಿಂದ ಅವನಿಗೆ ಚಿಂತಾಮಣಿ ಎಂಬ ಹೆಸರು ಬಂತು. (ಪರಿಶೀಲನೆ: ದಟ್ಟ ಸಮಾಸದ ಮೂಲಪಾಠ ಮತ್ತು ಅರ್ಥ ಬಾಕಿ.) ॥೩೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT338",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT338",
+        "status": "explicitly_unresolved",
+        "note": "Primary प्रकाशकृदयं/प्रकाशकहृदयं cluster not resolved; hold.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 34,
+            "page_id": "PT338",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT338",
+            "sanskrit_visible": "चित्तस्य पञ्च भूमीनां प्रकाशकृदयं स्मृतः । तेन चिन्तामणिर्नाम जातोऽसौ गणनायकः ॥३४॥",
+            "note": "Reference visibly प्रकाशकृदयं, NOT candidate प्रकाशकहृदयं. Possible segmentation प्रकाशकृत् + अयं is linguistic analysis only, not a source substitution. Primary packet must be rechecked.",
+            "screenshot": "ch16-v34-PT338.jpg",
+            "evidence_file": "chapter16-source-audit-supplement.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v34-PT338.jpg": "221b1ff2213e5a5d7eec1d29ba48d1a23a3627c3fbdc1195bd944dd727d95092"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        35
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "तं भजस्व महायोगिन् योगाकारेण संस्थितः । भूमीनां त्यागमार्गेण शान्तिं चित्तस्य चाप्स्यसि ॥३५॥",
+      "text": "ಮಹಾಯೋಗಿಯೇ, ಯೋಗಾಕಾರದಲ್ಲಿ ನೆಲೆಸಿ ಅವನನ್ನು ಭಜಿಸು. ಭೂಮಿಗಳನ್ನು ತೊರೆಯುವ ಮಾರ್ಗದಿಂದ ಚಿತ್ತದ ಶಾಂತಿಯನ್ನು ಪಡೆಯುವೆ. ॥೩೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        36
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5",
+      "source_sanskrit": "गणेशस्तु गणेशोऽयं संयोगायोगवर्जितः । मायया भ्रान्तिरुत्पन्ना तां त्यक्त्वा सुखमाप्स्यसि ॥३६॥",
+      "text": "ಈ ಗಣೇಶನು ಗಣೇಶನೇ; ಅವನು ಸಂಯೋಗಾಯೋಗಗಳಿಂದ ರಹಿತನು. ಮಾಯೆಯಿಂದ ಭ್ರಾಂತಿ ಉಂಟಾಗಿದೆ; ಅದನ್ನು ತೊರೆದು ಸುಖವನ್ನು ಪಡೆಯುವೆ. ॥೩೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        37
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p5,pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "इत्युक्त्वा विररामाथ शिवः शिवकरः सताम् । ऋषभोऽपि प्रसन्नात्मा तं प्रणम्य ययौ वनम् ॥३७॥",
+      "text": "ಹೀಗೆ ಹೇಳಿ, ಸಜ್ಜನರಿಗೆ ಮಂಗಳವನ್ನು ಮಾಡುವ ಶಿವನು ಮೌನವಾದನು. ಋಷಭನೂ ಪ್ರಸನ್ನಮನಸ್ಸಿನಿಂದ ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ ವನಕ್ಕೆ ಹೋದನು. ॥೩೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        38
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "कथितं शंकरेणैवमभ्यस्यन् योगमुत्तमम् । क्रमेण पूर्णयोगी स जातः शान्तिस्वरूपधृक् ॥३८॥",
+      "text": "ಶಂಕರನು ಹೀಗೆ ಹೇಳಿದ ಉತ್ತಮ ಯೋಗವನ್ನು ಅಭ್ಯಾಸಮಾಡುತ್ತ, ಅವನು ಕ್ರಮೇಣ ಪೂರ್ಣಯೋಗಿಯಾಗಿ ಶಾಂತಿಸ್ವರೂಪವನ್ನು ಧರಿಸಿದನು. ॥೩೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        39
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "तथापि गणपं दक्ष न मुमोच क्षणं मुनिः । तेन तस्य समीपेऽसौ गणेशानः समाययौ ॥३९॥",
+      "text": "ದಕ್ಷನೇ, ಆದರೂ ಆ ಮುನಿಯು ಕ್ಷಣಮಾತ್ರವೂ ಗಣಪತಿಯನ್ನು ಬಿಡಲಿಲ್ಲ. ಅದರಿಂದ ಗಣೇಶಾನನು ಅವನ ಬಳಿಗೆ ಬಂದನು. ॥೩೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        40
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "आगतं गणपं दृष्ट्वा भक्तिभावेन यन्त्रितम् । प्रणनाम स साष्टांगं हर्षगद्गदभाषणः ॥४०॥",
+      "text": "ಭಕ್ತಿಭಾವದಿಂದ ವಶನಾಗಿ ಬಂದ ಗಣಪತಿಯನ್ನು ಕಂಡು, ಹರ್ಷದಿಂದ ಗದ್ಗದವಾದ ಮಾತುಗಳೊಂದಿಗೆ ಅವನು ಸಾಷ್ಟಾಂಗವಾಗಿ ನಮಸ್ಕರಿಸಿದನು. ॥೪೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        41
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "सरोमांचशरीरश्च साश्रुनेत्रो महायशाः । तुष्टाव तं गणाधीशं प्रांजलिर्हृष्टमानसः ॥४१॥",
+      "text": "ಮಹಾಯಶಸ್ವಿಯಾದ ಅವನ ಶರೀರವು ರೋಮಾಂಚಗೊಂಡಿತು; ಕಣ್ಣುಗಳಲ್ಲಿ ನೀರು ತುಂಬಿತು. ಕೈಮುಗಿದು ಹರ್ಷಿತಮನಸ್ಸಿನಿಂದ ಆ ಗಣಾಧೀಶನನ್ನು ಸ್ತುತಿಸಿದನು. ॥೪೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        42
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "नमस्ते ब्रह्मरूपाय गणेश करुणानिधे । भेदाभेदादिहीनाय गणानां पतये नमः ॥४२॥",
+      "text": "ಋಷಭನು ಹೇಳಿದನು: ಕರುಣಾನಿಧಿಯಾದ ಗಣೇಶನೇ, ಬ್ರಹ್ಮಸ್ವರೂಪನಾದ ನಿನಗೆ ನಮಸ್ಕಾರ. ಭೇದಾಭೇದಾದಿಗಳಿಂದ ರಹಿತನಾದ ಗಣಗಳ ಪತಿಗೆ ನಮಸ್ಕಾರ. ॥೪೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        43
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "निराकाराय नित्याय जगदाकारमूर्तये । अनन्ताय परेशाय परात्परतराय ते ॥४३॥",
+      "text": "ನಿರಾಕಾರನಿಗೂ ನಿತ್ಯನಿಗೂ ಜಗದಾಕಾರವೇ ಮೂರ್ತಿಯಾಗಿರುವವನಿಗೂ ಅನಂತನಿಗೂ ಪರೇಶನಿಗೂ ಪರಾತ್ಪರತರನಾದ ನಿನಗೂ ನಮಸ್ಕಾರ. ॥೪೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        44
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "आदिमध्यान्तहीनाय गुणाकाराय ते नमः । गुणाय जगत्स्रष्ट्रे पालकाय हराय च ॥४४॥",
+      "text": "ಆದಿ, ಮಧ್ಯ ಮತ್ತು ಅಂತ್ಯಗಳಿಂದ ರಹಿತನಿಗೂ ಗುಣಾಕಾರನಾದ ನಿನಗೂ ನಮಸ್ಕಾರ. ಗುಣಸ್ವರೂಪನಿಗೂ ಜಗತ್ತಿನ ಸೃಷ್ಟಿಕರ್ತನಿಗೂ ಪಾಲಕನಿಗೂ ಸಂಹರಿಸುವವನಿಗೂ ನಮಸ್ಕಾರ. ॥೪೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        45
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "नमो नानावताराय भक्तपालनहेतवे । सुरासुरमयायैव सुरासुरसुपूजित ॥४५॥",
+      "text": "ನಾನಾ ಅವತಾರಗಳನ್ನು ಹೊಂದಿದವನಿಗೂ ಭಕ್ತರ ಪಾಲನೆಗೆ ಕಾರಣನಿಗೂ ಸುರಾಸುರಮಯನಿಗೂ ನಮಸ್ಕಾರ. ಸುರಾಸುರರಿಂದ ಚೆನ್ನಾಗಿ ಪೂಜಿಸಲ್ಪಡುವವನೇ! ॥೪೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        46
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "योगाय योगदात्रे च योगाकाराय ते नमः । योगानां पतये तुभ्यं ब्रह्मणां पतये नमः ॥४६॥",
+      "text": "ಯೋಗಸ್ವರೂಪನಿಗೂ ಯೋಗವನ್ನು ನೀಡುವವನಿಗೂ ಯೋಗಾಕಾರನಾದ ನಿನಗೂ ನಮಸ್ಕಾರ. ಯೋಗಗಳ ಪತಿಯಾದ ನಿನಗೆ, ಬ್ರಹ್ಮಗಳ ಪತಿಗೆ ನಮಸ್ಕಾರ. ॥೪೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        47
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "सर्वादये गणाध्यक्ष सर्वपूज्याय ढुंढये । सर्वान्ते ह्यवशिष्टाय विघ्नेशाय नमो नमः ॥४७॥",
+      "text": "ಗಣಾಧ್ಯಕ್ಷನೇ, ಎಲ್ಲಕ್ಕೂ ಆದಿಯಾದವನಿಗೂ ಎಲ್ಲರಿಂದ ಪೂಜಿಸಲ್ಪಡುವ ಢುಂಢಿಗೂ ಎಲ್ಲದರ ಅಂತ್ಯದಲ್ಲಿಯೂ ಉಳಿಯುವ ವಿಘ್ನೇಶನಿಗೂ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ. ॥೪೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        48
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "हेरंबाय निजानन्दवासिने सिद्धसेवित । सिद्धिबुद्धिपते तुभ्यं नाना खेलकराय ते ॥४८॥",
+      "text": "ಸಿದ್ಧರಿಂದ ಸೇವಿಸಲ್ಪಡುವವನೇ, ನಿಜಾನಂದದಲ್ಲಿ ವಾಸಿಸುವ ಹೇರಂಬನಿಗೆ, ಸಿದ್ಧಿಬುದ್ಧಿಪತಿಯಾದ ನಿನಗೆ, ನಾನಾ ಕ್ರೀಡೆಗಳನ್ನು ಮಾಡುವ ನಿನಗೆ ನಮಸ್ಕಾರ. ॥೪೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        49
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "धर्मार्थकाममोक्षाणां दायकाय नमो नमः । ब्रह्मीभूतकरायैव ब्रह्मभूतमयाय च ॥४९॥",
+      "text": "ಧರ್ಮ, ಅರ್ಥ, ಕಾಮ ಮತ್ತು ಮೋಕ್ಷಗಳನ್ನು ನೀಡುವವನಿಗೆ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ. ಬ್ರಹ್ಮೀಭೂತನನ್ನಾಗಿಸುವವನಿಗೂ ಬ್ರಹ್ಮಭೂತಮಯನಿಗೂ ನಮಸ್ಕಾರ. (ಪರಿಶೀಲನೆ: ಬ್ರಹ್ಮೀಭೂತ/ಬ್ರಹ್ಮಭೂತ ಪದಗಳ ತಾಂತ್ರಿಕ ಅರ್ಥ ಬಾಕಿ.) ॥೪೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT343",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT343",
+        "status": "explicitly_unresolved",
+        "note": "Primary ब्रह्मीभूतकरायैव versus reference ब्रह्मभूतकरायैव; preserve primary.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 49,
+            "page_id": "PT343",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT343",
+            "sanskrit_visible": "धर्मार्थकाममोक्षाणां दायकाय नमो नमः । ब्रह्मभूतकरायैव ब्रह्मभूतमयाय च ॥४९॥",
+            "note": "Reference ब्रह्मभूतकरायैव differs from candidate ब्रह्मीभूतकरायैव. Primary reconciliation required.",
+            "screenshot": "ch16-v49-PT343.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v49-PT343.jpg": "4a472391a654deb17d00019a3efe322463b048737b4819a5e930580ea30ad607"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        50
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "किं स्तौमि त्वां गणाधीश योगशान्तिमयं प्रभो । यं स्तोतुं न समर्थाश्च वेदाद्याः शिवमुख्यकाः ॥५०॥",
+      "text": "ಪ್ರಭುವಾದ ಗಣಾಧೀಶನೇ, ಯೋಗಶಾಂತಿಮಯನಾದ ನಿನ್ನನ್ನು ನಾನು ಹೇಗೆ ಸ್ತುತಿಸಲಿ? ವೇದಾದಿಗಳೂ ಶಿವನು ಮೊದಲಾದವರೂ ಯಾರನ್ನು ಸ್ತುತಿಸಲು ಸಮರ್ಥರಲ್ಲವೋ, ಅಂಥವನನ್ನು! ॥೫೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        51
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "तथापि च यथाबुद्धिज्ञानं त्वं संस्तुतो मया । भक्तिं देहि त्वदीयां मे दृढामव्यभिचारिणीम् ॥५१॥",
+      "text": "ಆದರೂ ನನ್ನ ಬುದ್ಧಿ ಮತ್ತು ಜ್ಞಾನಕ್ಕೆ ತಕ್ಕಂತೆ ನಾನು ನಿನ್ನನ್ನು ಸ್ತುತಿಸಿದ್ದೇನೆ. ನಿನ್ನಲ್ಲಿ ದೃಢವಾದ, ಚ್ಯುತಿಯಾಗದ ಭಕ್ತಿಯನ್ನು ನನಗೆ ಕೊಡು. ॥೫೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "translated_stuti",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        52
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "इत्युक्त्वा निपपातोर्व्यां पदं धृत्वा महायशाः । गणेशस्य च तेनापि समुत्थापित आदरात् ॥५२॥",
+      "text": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಹೀಗೆ ಹೇಳಿ, ಮಹಾಯಶಸ್ವಿಯಾದ ಅವನು ಗಣೇಶನ ಪಾದವನ್ನು ಹಿಡಿದು ಭೂಮಿಯಲ್ಲಿ ಬಿದ್ದನು. ಗಣೇಶನೂ ಅವನನ್ನು ಆದರದಿಂದ ಎಬ್ಬಿಸಿದನು. ॥೫೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        53
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "जगाद गणनाथः स ऋषभं भक्तमुत्तमम् । शिवशिष्यं शिवप्रज्ञं साक्षाद्विष्णुं सनातनम् ॥५३॥",
+      "text": "ಆ ಗಣನಾಥನು ಶಿವಶಿಷ್ಯನೂ ಶಿವಪ್ರಜ್ಞನೂ ಸಾಕ್ಷಾತ್ ಸನಾತನ ವಿಷ್ಣುವೂ ಆದ ಉತ್ತಮ ಭಕ್ತ ಋಷಭನಿಗೆ ಹೇಳಿದನು. ॥೫೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        54
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "मदीया भक्तिरत्यन्तं भविष्यत्यचलानघ । स्तोत्रं त्वया कृतं मे तु शान्तिदं प्रभविष्यति ॥५४॥",
+      "text": "ಗಣೇಶನು ಹೇಳಿದನು: ಅನಘನೇ, ನನ್ನಲ್ಲಿ ನಿನ್ನ ಭಕ್ತಿಯು ಅತ್ಯಂತ ಅಚಲವಾಗುವುದು. ನೀನು ನನ್ನ ಕುರಿತು ರಚಿಸಿದ ಈ ಸ್ತೋತ್ರವು ಶಾಂತಿಯನ್ನು ನೀಡುವುದು. ॥೫೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        55
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "यं यमिच्छति तं तं वै दास्यामि स्तोत्रपाठतः । श्रवणान्नात्र संदेहो भावपूर्णं मतं मम ॥५५॥",
+      "text": "ಈ ಸ್ತೋತ್ರದ ಪಠನದಿಂದಲೂ ಶ್ರವಣದಿಂದಲೂ ಯಾವ ಯಾವ ಇಚ್ಛಿತವನ್ನು ಬಯಸುವನೋ ಅದನ್ನು ನೀಡುವೆನು; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. (ಪರಿಶೀಲನೆ: “ಭಾವಪೂರ್ಣಂ ಮತಂ ಮಮ” ಎಂಬ ಅಂತಿಮ ಭಾಗದ ಪದಸಂಬಂಧ ಬಾಕಿ.) ॥೫೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT344",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT344",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 55,
+            "page_id": "PT344",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT344",
+            "sanskrit_visible": "यं यमिच्छति तं तं वै दास्यामि स्तोत्रपाठतः । श्रवणान्नात्र सन्देहो भावपूर्णं मतं मम ॥५५॥",
+            "note": "Candidate corroborated, with सन्देहो nasal spelling in reference.",
+            "screenshot": "ch16-v55-PT344.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v55-PT344.jpg": "a5cb5ef91e421e6a9b00b8b31149b04eb5b2e7b7330c921308937607377fbdcf"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        56
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "इत्युक्त्वान्तर्दधे देवो गणेशो गणवल्लभः । ऋषभश्च सदा शान्तो योगी गाणेशतां गतः ॥५६॥",
+      "text": "ಹೀಗೆ ಹೇಳಿ, ಗಣಗಳಿಗೆ ಪ್ರಿಯನಾದ ದೇವ ಗಣೇಶನು ಅಂತರ್ಧಾನನಾದನು. ಋಷಭನು ಸದಾ ಶಾಂತನಾದ ಯೋಗಿಯಾಗಿ ಗಾಣೇಶತ್ವವನ್ನು ಪಡೆದನು. (ಪರಿಶೀಲನೆ: “ಗಾಣೇಶತಾಂ” ಎಂಬುದರ ತಾಂತ್ರಿಕ ಅರ್ಥ ಬಾಕಿ.) ॥೫೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT345",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT345",
+        "status": "explicitly_unresolved",
+        "note": "Primary/reference comparison or linguistic interpretation has not been accepted for this item; no inferred replacement.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 56,
+            "page_id": "PT345",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT345",
+            "sanskrit_visible": "इत्युक्त्वान्तर्दधे देवो गणेशो गणवल्लभः । ऋषभश्च सदा शान्तो योगी गाणेशतां गतः ॥५६॥",
+            "note": "Candidate corroborated; गाणेशतां retained.",
+            "screenshot": "ch16-v56-v58-PT345.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v56-v58-PT345.jpg": "e6957a5908287b9a15de89f9f680a54dc030e87fdd066477bce697c29ea54acd"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        57
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "इदं चरित्रं मुख्यं वै यः शृणोति नरोत्तमः । ऋषभस्य महापुण्यं पठेद्वा तस्य सर्वदम् ॥५७॥",
+      "text": "ಯಾವ ನರೋತ್ತಮನು ಋಷಭನ ಈ ಪ್ರಮುಖವಾದ ಮಹಾಪುಣ್ಯ ಚರಿತ್ರೆಯನ್ನು ಕೇಳುವನೋ ಅಥವಾ ಓದುವನೋ, ಅವನಿಗೆ ಇದು ಎಲ್ಲವನ್ನೂ ನೀಡುವುದು. ॥೫೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      }
+    },
+    {
+      "key": [
+        2,
+        16,
+        58
+      ],
+      "source_pages": "pdf:986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1:p6",
+      "source_sanskrit": "भविष्यति न संदेहो ब्रह्मभूयपदायकम् । शान्तिदं शान्तचित्तेभ्यः कथितं भक्तिसंयुतम् ॥५८॥",
+      "text": "ಇದು ಬ್ರಹ್ಮಭೂಯಪದವನ್ನು ನೀಡುವುದು; ಸಂಶಯವಿಲ್ಲ. ಭಕ್ತಿಯಿಂದ ಕೂಡಿದುದಾಗಿ ಹೇಳಲ್ಪಟ್ಟ ಇದು ಶಾಂತಚಿತ್ತರಿಗೆ ಶಾಂತಿಯನ್ನು ನೀಡುವುದು. (ಪರಿಶೀಲನೆ: “ಭಕ್ತಿಸಂಯುತಂ” ಎಂಬುದರ ಸಂಬಂಧಾರ್ಥ ಬಾಕಿ.) ॥೫೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_yoga",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and translated stuti; mantra mention does not supply syllables. Opening invocation remains separate metadata."
+      },
+      "issues": [
+        {
+          "status": "open",
+          "kind": "source_or_interpretation",
+          "description": "Source or technical interpretation question remains visibly held; no guessed repair or missing enumeration supplied."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Prior independent language/context review through parent. Held new source/meaning content omitted or explicitly partial; no new corrected-source interpretation accepted."
+      },
+      "reference_reconciliation": {
+        "book_id": "fZcHEQAAQBAJ",
+        "page_id": "PT345",
+        "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT345",
+        "status": "explicitly_unresolved",
+        "note": "Primary ब्रह्मभूयपदायकम् versus reference प्रदायकम्; preserve primary.",
+        "reference_checks": [
+          {
+            "chapter": 16,
+            "verse": 58,
+            "page_id": "PT345",
+            "url": "https://books.google.co.in/books?id=fZcHEQAAQBAJ&newbks=0&pg=PT345",
+            "sanskrit_visible": "भविष्यति न सन्देहो ब्रह्मभूयप्रदायकम् । शान्तिदं शान्तचित्तेभ्यः कथितं भक्तिसंयुतम् ॥५८॥",
+            "note": "Reference ब्रह्मभूयप्रदायकम् differs from candidate ब्रह्मभूयपदायकम्. Primary reconciliation required.",
+            "screenshot": "ch16-v56-v58-PT345.jpg",
+            "evidence_file": "chapter16-source-audit-supplement2.json",
+            "book_id": "fZcHEQAAQBAJ",
+            "reference_reader": "Independent Google Books helper; this field does not assert integrator screenshot inspection",
+            "screenshot_byte_hashes": {
+              "ch16-v56-v58-PT345.jpg": "e6957a5908287b9a15de89f9f680a54dc030e87fdd066477bce697c29ea54acd"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "review_questions": [
+    "1 dense genealogy and यज्ञाद्वै need source/reference review; do not insert familiar Rishabha identity into first verse.",
+    "4 स्वदेहविवर्जिताः interpretation provisional; do not infer physical disembodiment.",
+    "5 names transcribed from pixels, no conventional-list replacement.",
+    "8 सभ्रातृणां relationship held; ऋषभ visible.",
+    "10 जडोन्मत्तपिशाचादिं and नानाभूमिं grammar/technical relationship held.",
+    "Technical Yoga terms translated provisionally and held where uncertain. No philosophical harmonization.",
+    "42–51 stuti translated, not automatically mantra.",
+    "Source-spelling candidates retain unusual wording; unclear passages need Google Sanskrit reference.",
+    "Technical Yoga terms translated provisionally and held where uncertain. No philosophical harmonization.",
+    "42–51 stuti translated, not automatically mantra.",
+    "Source-spelling candidates retain unusual wording; unclear passages need Google Sanskrit reference.",
+    "Technical Yoga terms translated provisionally and held where uncertain. No philosophical harmonization.",
+    "42–51 stuti translated, not automatically mantra.",
+    "Source-spelling candidates retain unusual wording; unclear passages need Google Sanskrit reference.",
+    "Technical Yoga terms translated provisionally and held where uncertain. No philosophical harmonization.",
+    "42–51 stuti translated, not automatically mantra.",
+    "Source-spelling candidates retain unusual wording; unclear passages need Google Sanskrit reference.",
+    "Technical Yoga terms translated provisionally and held where uncertain. No philosophical harmonization.",
+    "42–51 stuti translated, not automatically mantra.",
+    "Source-spelling candidates retain unusual wording; unclear passages need Google Sanskrit reference."
+  ],
+  "colophons": [],
+  "ending_status": "Actual ending known from scan, but colophon not integrated pending source spelling/earlier review discrepancy; no completion certification."
+}
