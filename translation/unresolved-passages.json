@@ -26196,6 +26196,47 @@
       "book_id": null,
       "google_books_pages": null,
       "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch43-v13",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 43,
+      "verse_start": 13,
+      "verse_end": 13,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "206 TO 255.pdf",
+        "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
+        "pdf_page": 39,
+        "printed_page": 92,
+        "audit_global_page": 234,
+        "image_sha256": "de44852afdb01f94435ca143b97a8792e3db02ea21e167cd9b4ac824f0015a58",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p39",
+      "source_sanskrit": "तं गणेशो ययौ दैत्य मूषकोपरि संस्थितः । गजाननश्चतु[?:P39-43-13-BVA]ाहुः प्रतापी च महोदरः ॥१३॥",
+      "issues": [
+        {
+          "id": "P39-43-13-BVA",
+          "canonical_key": [
+            2,
+            43,
+            13
+          ],
+          "pdf_page": 39,
+          "position": "चतु[?]ाहुः",
+          "candidate": "चतुर्वाहुः",
+          "reading": null,
+          "status": "open",
+          "integrator_pixels_compared": true,
+          "note": "Medialba/va/conjunctnotsecurelydistinguished; no grammaticalsubstitution.",
+          "kind": "source_or_interpretation"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
     }
   ]
 }
