@@ -32,7 +32,7 @@ def verse_id(khanda, chapter, verse):
     return ('' if khanda == 1 else f'kh{khanda}-') + f'ch{chapter}-v{verse}'
 front, narrative = rows('frontmatter'), rows('narrative')
 verse_map={verse_key(r):r for r in narrative}
-for batch in sorted(DATA.glob('batch-*.tsv')):
+for batch in sorted(DATA.glob('batch-*.tsv'), key=lambda p: (int(p.name.split('-')[1]) if p.name.split('-')[1].isdigit() else 0, p.name)):
     with batch.open(encoding='utf-8',newline='') as f:
         for r in csv.DictReader(f,delimiter='\t'):
             verse_map[verse_key(r)]=r

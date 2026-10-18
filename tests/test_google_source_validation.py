@@ -195,7 +195,7 @@ class GoogleSourceValidation(unittest.TestCase):
                      coverage_boundary='google-books-test-2', added_keys=[[2,1,1]],
                      source_pages=[{'id':PAGE_2, 'page_id':'PT15',
                                     'url':f'https://books.google.com/books?id={BOOK_ID_2}&pg=PT15'}])
-        # Lexical replay order is part of the provenance contract.
+        # Named fixtures retain lexical replay order; numbered batches use numeric order.
         self.batch['file'] = 'batch-google-test-1.tsv'
         boundary['source_pages'] = [PAGE, PAGE_2]
         boundary['chapter_counts_by_khanda'] = {'1':[40], '2':[1]}
@@ -213,6 +213,19 @@ class GoogleSourceValidation(unittest.TestCase):
     def test_valid_two_khanda_batches(self):
         self.configure_second_khanda()
         self.run_case(True)
+
+    def test_three_digit_batch_continuation_order(self):
+        self.configure_second_khanda()
+        self.batch['file'] = 'batch-99-google-test.tsv'
+        self.extra_batches[0][2]['file'] = 'batch-100-google-test.tsv'
+        self.run_case(True)
+
+    def test_reject_reversed_three_digit_batch_manifest(self):
+        self.configure_second_khanda()
+        self.batch['file'] = 'batch-99-google-test.tsv'
+        self.extra_batches[0][2]['file'] = 'batch-100-google-test.tsv'
+        self.manifest['batches'].reverse()
+        self.run_case(False)
 
     def test_valid_two_khanda_unresolved_registry(self):
         self.configure_second_khanda(unresolved=True)

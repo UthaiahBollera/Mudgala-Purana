@@ -168,7 +168,8 @@ assert supplementary and all(x.get('issue') and x.get('status') for x in supplem
 # Replay every continuation batch against the reviewed snapshot. Existing
 # entries are immutable except exact, independently accepted partial completions.
 manifest_path = ROOT/'translation/batch-manifest.json'
-new_paths = sorted(set(translation_paths()) - set(translation_paths(REVIEWED)))
+new_paths = sorted(set(translation_paths()) - set(translation_paths(REVIEWED)),
+                   key=lambda name: (int(Path(name).name.split('-')[1]) if Path(name).name.split('-')[1].isdigit() else 0, name))
 manifest = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else None
 assert manifest is not None or not new_paths, 'Continuation batch manifest missing'
 replayed = dict(after)

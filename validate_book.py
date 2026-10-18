@@ -38,7 +38,7 @@ def source_ids(value, khanda=None):
     return set(ids)
 
 merged = {}
-for path in [root/'translation/narrative.tsv', *sorted((root/'translation').glob('batch-*.tsv'))]:
+for path in [root/'translation/narrative.tsv', *sorted((root/'translation').glob('batch-*.tsv'), key=lambda p: (int(p.name.split('-')[1]) if p.name.split('-')[1].isdigit() else 0, p.name))]:
     with path.open(encoding='utf-8', newline='') as f:
         rows = list(csv.DictReader(f, delimiter='\t'))
     keys = [verse_key(r) for r in rows]
