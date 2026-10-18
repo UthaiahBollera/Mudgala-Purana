@@ -53333,6 +53333,2562 @@
         "exact_verse_span_candidates": [],
         "accepted_reference_reading": null
       }
+    },
+    {
+      "id": "kh3-ch21-v1",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 1,
+      "verse_end": 1,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "नरनारायणावूचतुः । स्त्रीणां धर्मं प्रवक्ष्यावस्तं शृणुष्व महामते । जातमात्रा च सा देवैर्भुज्यते त्रिभिरादरात् ॥१॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ನರನಾರಾಯಣರು ಹೇಳಿದರು: ಹೇ ಮಹಾಮತಿಯೇ, ಸ್ತ್ರೀಯರ ಧರ್ಮವನ್ನು ನಾವು ಹೇಳುತ್ತೇವೆ, ಅದನ್ನು ಕೇಳು. ಅವಳು ಹುಟ್ಟಿದ ಮಾತ್ರದಿಂದಲೇ ಮೂವರು ದೇವತೆಗಳಿಂದ ಆದರದಿಂದ ಅನುಭವಿಸಲ್ಪಡುತ್ತಾಳೆ ॥೧॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": "\n\n॥ ओमिति श्रीमदात्ये पुणणोपनिषदि श्रीमन्मौद्रे महापुराणे तृतीये खंडे महोदरच रिते वणधर्मप्रकाश्ो नाम विंशतितमोऽध्यायः ॥\n\n\"> >> <€\n\n॥ श्रीगणेशाय नमः ॥ नरनारायणावूचतुः । स्त्रीणां धर्म ॒प्रवक्ष्यावस्तं श्रुणुष्व महामते । जातमात्रा च सा देवैभुज्यत\nच्रिभिरादरात्‌ ॥१॥",
+            "similarity_to_scan_source": 0.5902,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9648,
+            "line_end": 9655,
+            "char_start": 694808,
+            "char_end_exclusive": 695071,
+            "byte_start": 1829148,
+            "byte_end_exclusive": 1829851
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v2",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 2,
+      "verse_end": 2,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "चंद्रो गंधर्वको वह्निर्द्वे द्वे वर्षे महामते । कन्यां भुनक्ति धर्मेण षट् वर्षाणि विभागशः ॥२॥",
+      "issues": [
+        {
+          "id": "P344-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The final character of 'विभागशः' or 'विभागतः' has a slightly smudged consonant before visarga."
+        },
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " चंद्रो गंधर्वो बहदं द्रे वर्ष महामने । कन्यां खुनक्ति धर्मेण षट्‌ वर्षाणि विभागतः ॥२॥",
+            "similarity_to_scan_source": 0.8414,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9655,
+            "line_end": 9655,
+            "char_start": 695071,
+            "char_end_exclusive": 695157,
+            "byte_start": 1829851,
+            "byte_end_exclusive": 1830081
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v3",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 3,
+      "verse_end": 3,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "तन्मध्ये न प्रदातव्या कन्या कस्मै सुहृज्जनैः । दत्ता चेद्देवताक्षोभो भवेद्वै धर्मनाशनात् ॥३॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಆ ನಡುವಿನ ಕಾಲದಲ್ಲಿ ಬಂಧುಜನರು ಕನ್ಯೆಯನ್ನು ಯಾರಿಗೂ ಕೊಡಬಾರದು. ಒಂದು ವೇಳೆ ಕೊಟ್ಟರೆ ಧರ್ಮನಾಶವಾಗುವುದರಿಂದ ದೇವತೆಗಳ ಕ್ಷೋಭೆಯು ಉಂಟಾಗುತ್ತದೆ ॥೩॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " तन्मध्ये न\nभदातव्या कन्या कर्मे खुन्ननैः । दत्ता चेदेवताक्चो भो भवेद्र धर्मनारानात्‌ ॥३॥",
+            "similarity_to_scan_source": 0.8267,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9655,
+            "line_end": 9656,
+            "char_start": 695157,
+            "char_end_exclusive": 695246,
+            "byte_start": 1830081,
+            "byte_end_exclusive": 1830322
+          },
+          {
+            "reference_page": 326,
+            "raw_ocr": " पदे पदे ब्रह्महत्यां रमंते जनकादयः । अतः कन्या प्रदातव्या विधिना स्वमदा भवेत्‌ ॥३॥",
+            "similarity_to_scan_source": 0.375,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9659,
+            "line_end": 9659,
+            "char_start": 695405,
+            "char_end_exclusive": 695488,
+            "byte_start": 1830753,
+            "byte_end_exclusive": 1830976
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v4",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 4,
+      "verse_end": 4,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "सप्ताष्टनवद्विवर्षवयोयुक्ता सुहृज्जनैः । कन्या नराय दातव्या साधवे कुलजाय वै ॥४॥",
+      "issues": [
+        {
+          "id": "P344-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The compound 'सप्ताष्टनवद्विवर्षवयोयुक्ता' has 'द्वि' or 'दि' printed where 'दश' is semantically expected in the age sequence 7, 8, 9, 10."
+        },
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " स्ा्टनवदिग्वर्षवयोयुकता खुह्दज्ञनेः ।\n\nकन्या नराय दातत्या साधवे कुलजाय वै ॥४॥",
+            "similarity_to_scan_source": 0.855,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9656,
+            "line_end": 9658,
+            "char_start": 695246,
+            "char_end_exclusive": 695324,
+            "byte_start": 1830322,
+            "byte_end_exclusive": 1830534
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v5",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 5,
+      "verse_end": 5,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "दशवर्षाधिका कन्या रजोयुक्ता च संमता । न दत्ता यदि तन्मध्ये महापापप्रवर्धिनी ॥५॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಹತ್ತು ವರ್ಷಕ್ಕಿಂತ ಅಧಿಕ ವಯಸ್ಸಿನ ಕನ್ಯೆಯು ರಜೋಯುಕ್ತಳೆಂದೇ ಪರಿಗಣಿಸಲ್ಪಡುತ್ತಾಳೆ. ಆ ಸಮಯದೊಳಗೆ ಅವಳನ್ನು ಕೊಡದಿದ್ದರೆ ಅವಳು ಮಹಾಪಾಪವನ್ನು ವೃದ್ಧಿಸುವವಳಾಗುತ್ತಾಳೆ ॥೫॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " दद्यावर्षाधिका कन्या रजोयुक्ता च संमता । न दत्ता यदि तन्मध्ये\nमहापापप्रवधिनी ॥५॥",
+            "similarity_to_scan_source": 0.9466,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9658,
+            "line_end": 9659,
+            "char_start": 695324,
+            "char_end_exclusive": 695405,
+            "byte_start": 1830534,
+            "byte_end_exclusive": 1830753
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v6",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 6,
+      "verse_end": 6,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "पदे पदे ब्रह्महत्यां लभंते जनकादयः । अतः कन्या प्रदातव्या विधिना स्वर्गदा भवेत् ॥६॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ತಂದೆ ಮೊದಲಾದವರು ಹೆಜ್ಜೆ ಹೆಜ್ಜೆಗೂ ಬ್ರಹ್ಮಹತ್ಯಾ ದೋಷವನ್ನು ಪಡೆಯುತ್ತಾರೆ. ಆದುದರಿಂದ ವಿಧಿಪೂರ್ವಕವಾಗಿ ಕನ್ಯೆಯನ್ನು ದಾನ ಮಾಡಬೇಕು; ಆಗ ಅವಳು ಸ್ವರ್ಗವನ್ನು ನೀಡುವವಳಾಗುತ್ತಾಳೆ ॥೬॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v7",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 7,
+      "verse_end": 7,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "कन्यादानसमं पुण्यं विद्यते न कदाचन । यया वंशः प्रवर्धेत सर्वेभ्यः सुखदायकः ॥७॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಕನ್ಯಾದಾನಕ್ಕೆ ಸಮಾನವಾದ ಪುಣ್ಯವು ಎಂದಿಗೂ ಇಲ್ಲ. ಆ ಕನ್ಯೆಯಿಂದ ಎಲ್ಲರಿಗೂ ಸುಖವನ್ನುಂಟುಮಾಡುವ ವಂಶವು ವೃದ್ಧಿಗೊಳ್ಳುತ್ತದೆ ॥೭॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v8",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 8,
+      "verse_end": 8,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "रजोदर्शनयुक्ता चेज्जाता स्त्री सा तदा भवेत् । वशगा स्वपतेस्तस्या एव तद्दैवतं मतम् ॥८॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಅವಳು ರಜೋದರ್ಶನಯುಕ್ತಳಾದಾಗ ಸ್ತ್ರೀಯೆನಿಸಿಕೊಳ್ಳುತ್ತಾಳೆ. ಆಗ ಅವಳು ತನ್ನ ಪತಿಯ ವಶದಲ್ಲಿರಬೇಕು ಮತ್ತು ಪತಿಯೇ ಅವಳಿಗೆ ದೈವವೆಂದು ಸಮ್ಮತವಾಗಿದೆ ॥೮॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": "\n\nन्यादानसमं पुण्यं विद्ते न कदाचन । यया वंशः प्रवर्धेत सर्वेभ्यः सखुखदायकः ॥॥। रजोद्ीनयुक्ता चेल्नाता खी सा\nतदा भवत्‌ । वशगा स्वपतेस्तस्या एव तद्दैवतं मतम्‌ ॥८॥",
+            "similarity_to_scan_source": 0.6122,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9659,
+            "line_end": 9662,
+            "char_start": 695488,
+            "char_end_exclusive": 695649,
+            "byte_start": 1830976,
+            "byte_end_exclusive": 1831407
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v9",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 9,
+      "verse_end": 9,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "दासीवत्तं पतिं सा वै संभजेद्भक्तिसंयुता । वने पतिर्यदा यातस्तदा तमनुगा भवेत् ॥९॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಅವಳು ಭಕ್ತಿಯಿಂದ ಕೂಡಿದವಳಾಗಿ ದಾಸಿಯಂತೆ ಆ ಪತಿಯನ್ನು ಸೇವಿಸಬೇಕು. ಪತಿಯು ವನಕ್ಕೆ ಹೋದಾಗ ಅವಳೂ ಅವನನ್ನು ಅನುಸರಿಸಿ ಹೋಗುವವಳಾಗಬೇಕು ॥೯॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " दासीवत्तं पतिं सा वै संभजेद्धक्तिसंयुता । वने पतिर्यदा : यात-\nस्तदा तमनुगा मवेत्‌ ॥९॥",
+            "similarity_to_scan_source": 0.9697,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9662,
+            "line_end": 9663,
+            "char_start": 695649,
+            "char_end_exclusive": 695735,
+            "byte_start": 1831407,
+            "byte_end_exclusive": 1831633
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v10",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 10,
+      "verse_end": 10,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "यदि पुत्रादयो बालास्तदा तेषां प्रसंनिधौ । पोषणार्थं भवेच्चैव संस्थिता वनगे पतौ ॥१०॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಒಂದು ವೇಳೆ ಪುತ್ರನೇ ಮೊದಲಾದವರು ಬಾಲಕರಾಗಿದ್ದರೆ, ಆಗ ಪತಿಯು ವನಕ್ಕೆ ಹೋದಾಗಲೂ ಅವಳು ಅವರ ಪೋಷಣೆಗಾಗಿ ಅವರ ಸಮೀಪದಲ್ಲಿಯೇ ನೆಲೆಸಿರಬೇಕು ॥೧೦॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " यदि पुत्रादयो बालास्तदा तेषां परसननिधौ । पोषणार्थं भवेच्चैव संस्थिता वनगे पतौ ॥१०॥",
+            "similarity_to_scan_source": 0.9781,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9663,
+            "line_end": 9663,
+            "char_start": 695735,
+            "char_end_exclusive": 695818,
+            "byte_start": 1831633,
+            "byte_end_exclusive": 1831858
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v11",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 11,
+      "verse_end": 11,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "यदि संन्यासधारी चेत् पतिर्भवति भो मुने । तदा स्त्रिया प्रदातव्या तस्मा आज्ञा महामुने ॥११॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಹೇ ಮುನಿಯೇ, ಒಂದು ವೇಳೆ ಪತಿಯು ಸಂನ್ಯಾಸಧಾರಿಯಾದರೆ, ಆಗ ಸ್ತ್ರೀಯು ಅವನಿಗೆ ಅನುಮತಿಯನ್ನು ಕೊಡಬೇಕು, ಹೇ ಮಹಾಮುನಿಯೇ ॥೧೧॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": "\nयदि संन्यासधारी चेत्‌ पतिभेवति भो सुने । तदा चिया परदातव्या तस्मा आज्ञा महासने ॥११॥",
+            "similarity_to_scan_source": 0.8921,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9663,
+            "line_end": 9664,
+            "char_start": 695818,
+            "char_end_exclusive": 695902,
+            "byte_start": 1831858,
+            "byte_end_exclusive": 1832082
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v12",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 12,
+      "verse_end": 12,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "यदा गृहस्थितो भर्ता मृतश्चेत् सहगा भवेत् । वनस्थितस्तदा तद्वत् कर्तव्यं सुस्त्रिया किल ॥१२॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಗೃಹಸ್ಥನಾದ ಪತಿಯು ಮೃತಪಟ್ಟರೆ ಅವಳು ಸಹಗಮನ ಮಾಡುವವಳಾಗಬೇಕು. ಪತಿಯು ವನದಲ್ಲಿದ್ದಾಗ ಮೃತಪಟ್ಟರೂ ಉತ್ತಮ ಸ್ತ್ರೀಯು ಅದೇ ರೀತಿ ಮಾಡತಕ್ಕದ್ದು ॥೧೨॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " यदा गृहस्थितो\nभता तश्चत्‌ सहगा मवेत्‌ । वनस्थितस्तदा तद्वत्‌ कर्वव्यं सुखिया किल ॥१२।",
+            "similarity_to_scan_source": 0.8951,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9664,
+            "line_end": 9665,
+            "char_start": 695902,
+            "char_end_exclusive": 695988,
+            "byte_start": 1832082,
+            "byte_end_exclusive": 1832314
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v13",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 13,
+      "verse_end": 13,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "मृते भर्तरि पत्नी सा गर्भयुक्ता रजस्वला । तदा पत्या न संगच्छेद्विधवाधर्मगा भवेत् ॥१३॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        },
+        {
+          "id": "CH21-V13-14-SCOPE",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Pregnancy/rajasvala exception and4th/5thdaypurification antecedentneedprecisescope; historicalsourceclaimsnotexpanded."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v14",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 14,
+      "verse_end": 14,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "चतुर्थे दिवसे शुद्धा भवेत् सा पतिकर्मणि । पंचमे दिवसे विप्रादिपूजायां शुचिर्भवेत् ॥१४॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        },
+        {
+          "id": "CH21-V13-14-SCOPE",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Pregnancy/rajasvala exception and4th/5thdaypurification antecedentneedprecisescope; historicalsourceclaimsnotexpanded."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " सूने भर्तरि पत्नी सा गर्भयुक्ता रजस्वला ।\nतदा पत्या न संगच्छेद्धिधवाधमगा भवेत्‌ ॥ १३ चतुर्थ दिवसे ददा भवत्‌ सा पतिक्रमेणि । पंचमे दिवसे विप्रादिप्रूजायां\nखचि भवेत्‌ ॥१४॥",
+            "similarity_to_scan_source": 0.5894,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9665,
+            "line_end": 9667,
+            "char_start": 695988,
+            "char_end_exclusive": 696158,
+            "byte_start": 1832314,
+            "byte_end_exclusive": 1832770
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v15",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 15,
+      "verse_end": 15,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "विधवा स्त्री सदा विप्र एकभुक्तपरायणा । व्रतादिना स्वदेहं वै शोषयेन्नित्यमादरात् ॥१५॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಎಲೈ ವಿಪ್ರನೇ, ವಿಧವಾ ಸ್ತ್ರೀಯು ಯಾವಾಗಲೂ ಏಕಭುಕ್ತಪರಾಯಣಳಾಗಿರಬೇಕು. ವ್ರತಾದಿಗಳಿಂದ ತನ್ನ ದೇಹವನ್ನು ಪ್ರತಿನಿತ್ಯವೂ ಆದರದಿಂದ ಶೋಷಿಸಿಕೊಳ್ಳಬೇಕು ॥೧೫॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " विधवा स्त्री सदा विप्र एकसुक्तपरायणा । ब्रतादिना स्वदेहं वै रोषयेन्नित्यमादरात्‌ ॥१५॥",
+            "similarity_to_scan_source": 0.9577,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9667,
+            "line_end": 9667,
+            "char_start": 696158,
+            "char_end_exclusive": 696244,
+            "byte_start": 1832770,
+            "byte_end_exclusive": 1833006
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v16",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 16,
+      "verse_end": 16,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "एवमादिः सतीनां वै धर्मो मुख्यः प्रकीर्तितः । श्रवणात् पुण्यदस्तासां भवत्येव महामुने ॥१६॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಹೇ ಮಹಾಮುನಿಯೇ, ಇವೇ ಮೊದಲಾದವುಗಳು ಸತಿಯರ ಮುಖ್ಯ ಧರ್ಮವೆಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ. ಇದನ್ನು ಶ್ರವಣ ಮಾಡುವುದರಿಂದ ಅವರಿಗೆ ಪುಣ್ಯವನ್ನು ಕೊಡುವುದಾಗುತ್ತದೆ ॥೧೬॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " एवमादिः\nसतीनां वै धमां सुख्य: परकीर्तितः । श्रवणात्‌ पुण्यवस्तासां वत्येव महासुने ॥१६॥",
+            "similarity_to_scan_source": 0.9028,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9667,
+            "line_end": 9668,
+            "char_start": 696244,
+            "char_end_exclusive": 696331,
+            "byte_start": 1833006,
+            "byte_end_exclusive": 1833241
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v17",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 17,
+      "verse_end": 17,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "सर्वेषां पितृदेवानां कर्म कर्तव्यमादरात् । मनुजैस्तत्र पितॄणां कर्म संक्षेपतः शृणु ॥१७॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಮನುಷ್ಯರು ಎಲ್ಲ ಪಿತೃಗಳ ಮತ್ತು ದೇವತೆಗಳ ಕರ್ಮಗಳನ್ನು ಆದರದಿಂದ ಮಾಡಬೇಕು. ಅದರಲ್ಲಿ ಪಿತೃಗಳ ಕರ್ಮವನ್ನು ಸಂಕ್ಷೇಪವಾಗಿ ಕೇಳು ॥೧೭॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " सर्वेषा पितदेवानः क॑ कलेन्यमादरात्‌।\nमनुजैस्तत्र पितृणां कर्म संक्षेपतः श्रृणु ॥१७॥",
+            "similarity_to_scan_source": 0.8611,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9668,
+            "line_end": 9669,
+            "char_start": 696331,
+            "char_end_exclusive": 696415,
+            "byte_start": 1833241,
+            "byte_end_exclusive": 1833473
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v18",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 18,
+      "verse_end": 18,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "अथ श्राद्धममावास्यां प्राप्य कार्यं द्विजोत्तमैः । पिंडान्वाहार्यकं भक्त्या भुक्तिमुक्तिफलप्रदम् ॥१८॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ದ್ವಿಜೋತ್ತಮರು ಅಮಾವಾಸ್ಯೆಯು ಬಂದಾಗ ಭಕ್ತಿಯಿಂದ ಪಿಂಡಾನ್ವಾಹಾರ್ಯಕ ಶ್ರಾದ್ಧವನ್ನು ಮಾಡಬೇಕು; ಅದು ಭುಕ್ತಿ ಮತ್ತು ಮುಕ್ತಿಗಳೆಂಬ ಫಲವನ್ನು ಕೊಡುವಂತಹುದು ॥೧೮॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " जय आाद्धममावास्या पाप्य कार्य द्विजोत्तमः । पिडान्वाहायकं भक्त्या\nशक्तिखुक्तिफलप्रदम्‌ ॥१८॥",
+            "similarity_to_scan_source": 0.8743,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9669,
+            "line_end": 9670,
+            "char_start": 696415,
+            "char_end_exclusive": 696507,
+            "byte_start": 1833473,
+            "byte_end_exclusive": 1833729
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v19",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 19,
+      "verse_end": 19,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p12",
+      "source_sanskrit": "पिंडान्वाहार्यकं श्राद्धं संक्रमेषु प्रशस्यते । अपराह्णे द्विजातीनां प्रशस्तेनामिषेण वै ॥१९॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        },
+        {
+          "id": "CH21-V19-AMISHA",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Sourceआमिषेण versus rawKannadaಹವಿಷ್ಯದಿಂದ; no silentlexicalsubstitutionbeforeindependentreview."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 326,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0326.txt",
+            "individual_page_sha256": "9733945c6838b1cab1e35c8a35024e5d463cb66687f0bb8ec0625afcce0f6418",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9641,
+            "line_end": 9674,
+            "char_start": 694653,
+            "char_end_exclusive": 696603,
+            "byte_start": 1828749,
+            "byte_end_exclusive": 1833983
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 326,
+            "raw_ocr": " पिंडान्वाहायंक श्राद्ध संकमेषु पररास्यते । अपराहे द्विजातीनां प्रदास्तेनामिषेण वे ॥१९॥",
+            "similarity_to_scan_source": 0.8831,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9670,
+            "line_end": 9670,
+            "char_start": 696507,
+            "char_end_exclusive": 696594,
+            "byte_start": 1833729,
+            "byte_end_exclusive": 1833970
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v20",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 20,
+      "verse_end": 20,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "पूर्णिमाद्या अमांता यास्तिथयः कृष्णपक्षके । चतुर्दशीं वर्जयित्वा प्रशस्ताः श्राद्धकर्मणि ॥२०॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಕೃಷ್ಣಪಕ್ಷದಲ್ಲಿ ಹುಣ್ಣಿಮೆಯಿಂದ ಮೊದಲ್ಗೊಂಡು ಅಮಾವಾಸ್ಯೆಯವರೆಗಿನ ತಿಥಿಗಳು ಚತುರ್ದಶಿಯನ್ನು ಹೊರತುಪಡಿಸಿ ಶ್ರಾದ್ಧಕರ್ಮದಲ್ಲಿ ಪ್ರಶಸ್ತವಾಗಿವೆ ॥೨೦॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v21",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 21,
+      "verse_end": 21,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "शस्त्रादिविषयोगैर्ये मृतास्तेषां महामुने । चतुर्दश्यां समाख्यातं श्राद्धं नान्यत्र शस्यते ॥२१॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಎಲೈ ಮಹಾಮುನಿಯೇ, ಶಸ್ತ್ರಾದಿ ಹಾಗೂ ವಿಷದ ಯೋಗಗಳಿಂದ ಯಾರು ಮೃತರಾಗಿರುವರೋ ಅವರಿಗೆ ಚತುರ್ದಶಿಯಂದು ಶ್ರಾದ್ಧವು ಹೇಳಲ್ಪಟ್ಟಿದೆ; ಇತರರಿಗೆ ಅದು ಶ್ಲಾಘ್ಯವಲ್ಲ ॥೨೧॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": "\n\nसय. ३ अ. २९ पान ४३\n26 46446169 34441333 93349566 6.\n\nपूर्णिमाद्या अमांता यास्तिथयः कृष्णपक्षके । चतुर्दरीं वजोधित्वा परस्ताः आ्आद्धकमेणि ॥२० दास्त्रादिविषयोगैर्य\nसतास्तेषां मदाखुने । चतदंदयां समाख्यातं श्राद्ध नान्यत्र हास्यते ॥२१॥",
+            "similarity_to_scan_source": 0.5587,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9676,
+            "line_end": 9682,
+            "char_start": 696653,
+            "char_end_exclusive": 696886,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1834606
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v22",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 22,
+      "verse_end": 22,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "कृष्णपक्षेऽष्टकास्तिस्रः पौषमासादिषु त्रिषु । चतस्रोऽप्यष्टकाः पुण्याः श्राद्धकर्मणि सर्वदा ॥२२॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        },
+        {
+          "id": "CH21-V22-NUMBERS",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Threeashtakasin3monthsandfourashtakasbothprinted; keepwithoutcalendarharmonization."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " कृष्णपक्षेऽ्टकास्तिखः पौषमासादिषु चिषु ।\nचतस्रोऽप्यष्टकाः पुण्याः आद्धकमेणि सवदा ॥२२॥",
+            "similarity_to_scan_source": 0.8774,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9682,
+            "line_end": 9683,
+            "char_start": 696886,
+            "char_end_exclusive": 696972,
+            "byte_start": 1834606,
+            "byte_end_exclusive": 1834846
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v23",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 23,
+      "verse_end": 23,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "त्रयोदशी समायुक्ता युगादितिथयः स्मृताः । मन्वादितिथयः श्राद्धे प्रशस्ताः पुण्यदा मताः ॥२३॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ತ್ರಯೋದಶಿಯಿಂದ ಕೂಡಿದ ಯುಗಾದಿ ತಿಥಿಗಳು ಸ್ಮರಿಸಲ್ಪಟ್ಟಿವೆ ಮತ್ತು ಮನ್ವಾದಿ ತಿಥಿಗಳು ಶ್ರಾದ್ಧದಲ್ಲಿ ಪ್ರಶಸ್ತವಾದವುಗಳೆಂದೂ ಪುಣ್ಯದಾಯಕವಾದವುಗಳೆಂದೂ ಮತವಾಗಿದೆ ॥೨೩॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " चयोदशी समायुक्ता युगादितिथयः स्मरताः । मन्वादितिथयः श्राद्ध\nप्रहास्ताः पुण्यदा मताः ॥२३॥",
+            "similarity_to_scan_source": 0.9342,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9683,
+            "line_end": 9684,
+            "char_start": 696972,
+            "char_end_exclusive": 697061,
+            "byte_start": 1834846,
+            "byte_end_exclusive": 1835091
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v24",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 24,
+      "verse_end": 24,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "नैमित्तिकमिदं प्रोक्तं व्यतीपाते च वैधृतौ । बांधवानां मृतानां च दशपिंडादिकं मुने ॥२४॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಎಲೈ ಮುನಿಯೇ, ವ್ಯತೀಪಾತ ಮತ್ತು ವೈಧೃತಿ ಯೋಗಗಳಲ್ಲಿ ಹಾಗೂ ಮೃತರಾದ ಬಾಂಧವರ ದಶಪಿಂಡಾದಿ ಕರ್ಮವು ನೈಮಿತ್ತಿಕವೆಂದು ಹೇಳಲ್ಪಟ್ಟಿದೆ ॥೨೪॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " नैमित्तिकमिदं परोक्तं व्यतीपाते च बैधुलौ । बांधवानां श्रूतानां च दद्रापिडादिकं सुने\n॥२४॥",
+            "similarity_to_scan_source": 0.8552,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9684,
+            "line_end": 9685,
+            "char_start": 697061,
+            "char_end_exclusive": 697150,
+            "byte_start": 1835091,
+            "byte_end_exclusive": 1835334
+          },
+          {
+            "reference_page": 327,
+            "raw_ocr": " इत्यादिबह्ुरूपेषु\n\nयदि श्राद्धं समाचरत्‌ । तदा सुक्तिप्रदं प्रोक्तमपवगप्रदं भवेत्‌ ॥२४॥",
+            "similarity_to_scan_source": 0.2657,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9692,
+            "line_end": 9694,
+            "char_start": 697913,
+            "char_end_exclusive": 698001,
+            "byte_start": 1837407,
+            "byte_end_exclusive": 1837649
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v25",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 25,
+      "verse_end": 25,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "काम्यानि चैव श्राद्धानि शस्यंते ग्रहणादिषु । अयने विषुवे चैव तीर्थे क्षेत्रे त्वनित्यकम् ॥२५॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಗ್ರಹಣ ಮುಂತಾದವುಗಳಲ್ಲಿ, ಅಯನದಲ್ಲಿ, ವಿಷುವತ್ ಕಾಲದಲ್ಲಿ ಹಾಗೂ ತೀರ್ಥಕ್ಷೇತ್ರದಲ್ಲಿ ಮಾಡುವ ಅನಿಯತವಾದ ಶ್ರಾದ್ಧಗಳು ಕಾಮ್ಯ ಶ್ರಾದ್ಧಗಳೆಂದು ಶ್ಲಾಘಿಸಲ್ಪಡುತ್ತವೆ ॥೨೫॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v26",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 26,
+      "verse_end": 26,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "अक्षय्यं वारतिथिषु स्वस्वजन्मदिनेष्वपि । नक्षत्रेषु च सर्वेषु कार्यं श्राद्धं विशेषतः ॥२६॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ವಾರ ಮತ್ತು ತಿಥಿಗಳಲ್ಲಿ, ತಮ್ಮ ತಮ್ಮ ಜನ್ಮದಿನಗಳಲ್ಲಿಯೂ ಹಾಗೂ ಎಲ್ಲ ನಕ್ಷತ್ರಗಳಲ್ಲಿಯೂ ವಿಶೇಷವಾಗಿ ಶ್ರಾದ್ಧವನ್ನು ಮಾಡಬೇಕು; ಅದು ಅಕ್ಷಯವಾದುದು ॥೨೬॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " काम्यानि चैव आ्राद्धानि रस्थते ग्रहणादिषु । अयने विषुवे चैव तीर्थं क्षेत्र त्वनित्यकम्‌ ।(२८॥ अक्षय्यं वारतिधिषु\nस्वस्वजन्मदिनेष्वपि । नक्षत्रेषु च सर्वेषु कायं श्राद्ध विरोषतः ॥२६॥",
+            "similarity_to_scan_source": 0.6256,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9685,
+            "line_end": 9686,
+            "char_start": 697150,
+            "char_end_exclusive": 697332,
+            "byte_start": 1835334,
+            "byte_end_exclusive": 1835830
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v27",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 27,
+      "verse_end": 27,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "अथवेह सुखप्राप्त्यै पितृलोकसुखाय च । श्राद्धं कामप्रदं प्रोक्तं सर्वदा नित्यवन् मुने ॥२७॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಅಥವಾ ಇಲ್ಲಿ ಸುಖಪ್ರಾಪ್ತಿಗಾಗಿ ಮತ್ತು ಪಿತೃಲೋಕದ ಸುಖಕ್ಕಾಗಿ ಮಾಡುವ ಶ್ರಾದ್ಧವು ಎಲೈ ಮುನಿಯೇ, ನಿತ್ಯಕರ್ಮದಂತೆ ಯಾವಾಗಲೂ ಕಾಮಪ್ರದವೆಂದು ಹೇಳಲ್ಪಟ್ಟಿದೆ ॥೨೭॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " अथवेह खुखप्रास्यै पितृलखोकसुखाय च । श्राद्ध\nकामप्रदं प्रो क्तं सवेदा नित्यवन्‌ सुने ॥२७॥",
+            "similarity_to_scan_source": 0.9116,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9686,
+            "line_end": 9687,
+            "char_start": 697332,
+            "char_end_exclusive": 697421,
+            "byte_start": 1835830,
+            "byte_end_exclusive": 1836071
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v28",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 28,
+      "verse_end": 28,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "गयायामक्षयं श्राद्धं प्रयागेऽमरकंटके । मयूरेशपुरे चैव काश्यादिषु विशेषतः ॥२८॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಗಯೆಯಲ್ಲಿ, ಪ್ರಯಾಗದಲ್ಲಿ, ಅಮರಕಂಟಕದಲ್ಲಿ, ಮಯೂರೇಶಪುರದಲ್ಲಿ ಮತ್ತು ಕಾಶಿ ಮುಂತಾದ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ವಿಶೇಷವಾಗಿ ಮಾಡಿದ ಶ್ರಾದ್ಧವು ಅಕ್ಷಯವಾಗುತ್ತದೆ ॥೨೮॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " गयायामक्षयं श्राद्ध प्रयागेऽमरकंटके । मयूरेडापुरे चेव काद्यादिषु विरोषतः\n॥२८॥",
+            "similarity_to_scan_source": 0.9077,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9687,
+            "line_end": 9688,
+            "char_start": 697421,
+            "char_end_exclusive": 697499,
+            "byte_start": 1836071,
+            "byte_end_exclusive": 1836287
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v29",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 29,
+      "verse_end": 29,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "गायंति पितरो गाथां नर्तयंति मनीषिणः । एष्टव्या बहवः पुत्राः शीलवंतो गुणान्विताः ॥२९॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಜ್ಞಾನಿಗಳಾದ ಪಿತೃಗಳು ಗಾಥೆಯನ್ನು ಹಾಡುತ್ತಾರೆ ಮತ್ತು ನರ್ತಿಸುತ್ತಾರೆ: ಶೀಲವಂತರೂ ಗುಣಾನ್ವಿತರೂ ಆದ ಬಹಳಷ್ಟು ಪುತ್ರರನ್ನು ಬಯಸಬೇಕು ॥೨೯॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " गायंति पितरो गाथां नतेयंति मनीषिणः । एष्या बह्वः पुत्राः चीलवंतों गुणान्विताः ॥२९॥",
+            "similarity_to_scan_source": 0.9275,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9688,
+            "line_end": 9688,
+            "char_start": 697499,
+            "char_end_exclusive": 697582,
+            "byte_start": 1836287,
+            "byte_end_exclusive": 1836512
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v30",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 30,
+      "verse_end": 30,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "तेषां तु समवेतानां यद्येकोऽपि गयां व्रजेत् । गयां प्राप्यानुसर्गेण यदि श्राद्धं समाचरेत् ॥३०॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಒಟ್ಟುಗೂಡಿದ ಅವರಲ್ಲಿ ಒಬ್ಬನಾದರೂ ಗಯೆಗೆ ಹೋದರೆ ಮತ್ತು ಗಯೆಯನ್ನು ತಲುಪಿ ಕ್ರಮವಾಗಿ ಶ್ರಾದ್ಧವನ್ನು ಆಚರಿಸಿದರೆ, ॥೩೦॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " तेषां तु समवलानां\nयद्येकोऽपि गयां व्रजत्‌ । गयां प्राप्यानुसर्गेण यदि श्राद्ध समाचरेत्‌ ॥३०॥",
+            "similarity_to_scan_source": 0.9669,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9688,
+            "line_end": 9689,
+            "char_start": 697582,
+            "char_end_exclusive": 697675,
+            "byte_start": 1836512,
+            "byte_end_exclusive": 1836765
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v31",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 31,
+      "verse_end": 31,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "तारिताः पितरस्तेन स याति परमां गतिम् । वाराहे पर्वते चैव गयायां च विशेषतः ॥३१॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಅವನಿಂದ ಪಿತೃಗಳು ಉದ್ಧರಿಸಲ್ಪಡುತ್ತಾರೆ ಮತ್ತು ಅವನು ಪರಮ ಗತಿಯನ್ನು ಹೊಂದುತ್ತಾನೆ. ವಾರಾಹ ಪರ್ವತದಲ್ಲಿ ಹಾಗೂ ವಿಶೇಷವಾಗಿ ಗಯೆಯಲ್ಲಿ, ॥೩೧॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " तारिताः पितरस्तेन स याति परमां गतिम्‌ ।\nवाराहे पवेते चैव गयायां च विरोषतः ॥३१॥",
+            "similarity_to_scan_source": 0.9431,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9689,
+            "line_end": 9690,
+            "char_start": 697675,
+            "char_end_exclusive": 697754,
+            "byte_start": 1836765,
+            "byte_end_exclusive": 1836974
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v32",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 32,
+      "verse_end": 32,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "मयूरे च तथा काश्यामष्टवैनायकस्थले । गंगाद्वारे प्रभासे च बिल्वके नीलपर्वते ॥३२॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಹಾಗೆಯೇ ಮಯೂರಕ್ಷೇತ್ರದಲ್ಲಿ, ಕಾಶಿಯಲ್ಲಿ, ಅಷ್ಟವೈನಾಯಕ ಸ್ಥಳದಲ್ಲಿ, ಗಂಗಾದ್ವಾರದಲ್ಲಿ, ಪ್ರಭಾಸದಲ್ಲಿ, ಬಿಲ್ವಕದಲ್ಲಿ, ನೀಲಪರ್ವತದಲ್ಲಿ, ॥೩೨॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " मयूरे च तथा काइयामछवैनायकस्थले । गंगाद्रारे प्रभासे च विल्वके\n\nनीटपवते ॥३२॥",
+            "similarity_to_scan_source": 0.8819,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9690,
+            "line_end": 9692,
+            "char_start": 697754,
+            "char_end_exclusive": 697830,
+            "byte_start": 1836974,
+            "byte_end_exclusive": 1837178
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v33",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 33,
+      "verse_end": 33,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "कुरुक्षेत्रे सेतुबंधे भृगुतुंगे महालये । केदारे फल्गुतीर्थे वै नैमिषारण्यकादिषु ॥३३॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಕುರುಕ್ಷೇತ್ರದಲ್ಲಿ, ಸೇತುಬಂಧದಲ್ಲಿ, ಭೃಗುತುಂಗದಲ್ಲಿ, ಮಹಾಲಯದಲ್ಲಿ, ಕೇದಾರದಲ್ಲಿ, ಫಲ್ಗುತೀರ್ಥದಲ್ಲಿ ಮತ್ತು ನೈಮಿಷಾರಣ್ಯ ಮುಂತಾದವುಗಳಲ್ಲಿ, ॥೩೩॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " कुरुक्षेत्र सेतुबंधे श्रगतंगे महालये । केदारे फल्गुतीर्थे वै नैभिषारण्यकादिषु ॥३३॥",
+            "similarity_to_scan_source": 0.9296,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9692,
+            "line_end": 9692,
+            "char_start": 697830,
+            "char_end_exclusive": 697913,
+            "byte_start": 1837178,
+            "byte_end_exclusive": 1837407
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v34",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 34,
+      "verse_end": 34,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "इत्यादिबहुरूपेषु यदि श्राद्धं समाचरेत् । तदा मुक्तिप्रदं प्रोक्तमपवर्गप्रदं भवेत् ॥३४॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಇವೇ ಮೊದಲಾದ ನಾನಾವಿಧ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಶ್ರಾದ್ಧವನ್ನು ಆಚರಿಸಿದರೆ, ಆಗ ಅದು ಮುಕ್ತಿಯನ್ನು ನೀಡುವುದೆಂದು ಹೇಳಲ್ಪಟ್ಟಿದೆ; ಅದು ಅಪವರ್ಗಪ್ರದವಾಗುತ್ತದೆ ॥೩೪॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v35",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 35,
+      "verse_end": 35,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "चतुर्थी शुक्लकृष्णैवैकादशी रविवासरः । प्रदोषश्च तथा विप्र अष्टमी सर्वसिद्धिदा ॥३५॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಎಲೈ ವಿಪ್ರನೇ, ಶುಕ್ಲ ಮತ್ತು ಕೃಷ್ಣ ಪಕ್ಷಗಳ ಚತುರ್ಥಿ, ಏಕಾದಶಿ, ಭಾನುವಾರ, ಪ್ರದೋಷ ಹಾಗೂ ಅಷ್ಟಮಿಯು ಸರ್ವಸಿದ್ಧಿದಾಯಕವಾಗಿದೆ; ॥೩೫॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " चतुर्थी शुद्ककरष्णैवैकाद री रविवासरः । प्रदोष तथा\nविप्र अष्टमी सवेसिद्धिदा ॥३५॥",
+            "similarity_to_scan_source": 0.8971,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9694,
+            "line_end": 9695,
+            "char_start": 698001,
+            "char_end_exclusive": 698081,
+            "byte_start": 1837649,
+            "byte_end_exclusive": 1837867
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v36",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 36,
+      "verse_end": 36,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "नित्यं देवार्चनं प्रोक्तं व्रतादिषु विशेषतः । एवं नानाव्रतादीनां कर्तव्यं सेवनं नरैः ॥३६॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ವ್ರತಾದಿಗಳಲ್ಲಿ ವಿಶೇಷವಾಗಿ ನಿತ್ಯ ದೇವಾರ್ಚನೆಯು ಹೇಳಲ್ಪಟ್ಟಿದೆ. ಹೀಗೆ ಮನುಷ್ಯರಿಂದ ನಾನಾ ವ್ರತಾದಿಗಳ ಸೇವನೆಯು ಮಾಡಲ್ಪಡಬೇಕು ॥೩೬॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v37",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 37,
+      "verse_end": 37,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "अग्निहोत्रादिमार्गैश्च देवानां सेवनं मतम् । तीर्थादिदानसंभावैरिष्टापूर्तादिसंमतम् ॥३७॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        },
+        {
+          "id": "CH21-V37-COMPOUND",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First half (Agnihotra etc. as modes of deity service) aligns. Compound तीर्थादिदानसंभावैः is opaque in supplied transcription and OCR; candidate ದಾನಗಳ ಭಾವಗಳಿಂದ is an ungrounded literal breakup. Add source/lexical hold instead of inventing travel/donation ritual details or silently changing संभा‌व to संभव."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " नियं देवाचनं प्रोक्तः व्रतादिषु विशेषतः । एवं नानाव्रतादीनां ऋतब्यं सेवनं नरैः \\३६॥\nअ्रिहोच्रादिमार्गिश्च देवानां सेवनं मतम्‌ । लीथादिदानस'भावैरिष्यप्ूलादिसंमतम्‌ ॥३७।",
+            "similarity_to_scan_source": 0.5899,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9695,
+            "line_end": 9696,
+            "char_start": 698081,
+            "char_end_exclusive": 698249,
+            "byte_start": 1837867,
+            "byte_end_exclusive": 1838329
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v38",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 38,
+      "verse_end": 38,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "एवं दैवं तथा पित्र्यं विविधं कर्म कथ्यते । तदेव ब्रह्मणि प्राज्ञैरर्पितं योगदं भवेत् ॥३८॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ಹೀಗೆ ದೈವ ಹಾಗೂ ಪಿತ್ರ್ಯ ಎಂಬ ವಿವಿಧ ಕರ್ಮವು ಹೇಳಲ್ಪಡುತ್ತದೆ. ಅದೇ ಕರ್ಮವು ಪ್ರಾಜ್ಞರಿಂದ ಬ್ರಹ್ಮನಲ್ಲಿ ಅರ್ಪಿಸಲ್ಪಟ್ಟಾಗ ಯೋಗಪ್ರದವಾಗುತ್ತದೆ ॥೩೮॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " एवं दैवं तथा पिच्य विविध\nकमे कथ्यते । तदेव ब्रह्मणि प्राज्ञैरपितं योगदं मवेत्‌ ॥३८॥",
+            "similarity_to_scan_source": 0.9065,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9696,
+            "line_end": 9697,
+            "char_start": 698249,
+            "char_end_exclusive": 698333,
+            "byte_start": 1838329,
+            "byte_end_exclusive": 1838553
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch21-v39",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 21,
+      "verse_start": 39,
+      "verse_end": 39,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 12,
+        "printed_page": 42,
+        "printed_page_verified": true,
+        "image_sha256": "8a27b928fee9b1b05f3004e87c151e0322e392ea929dfe8543dcf760c04dc2da"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p13",
+      "source_sanskrit": "इदं मायामयं प्रोक्तं कर्म वर्णाश्रमात्मकम् । मायामोहनिवृत्त्यर्थं रचितं विश्वयोनिना ॥३९॥",
+      "issues": [
+        {
+          "id": "CH21-UNNUMBERED-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Both raw Kannada pages unnumbered; exact clause/verse alignment is provisional,especially31–34continuouspilgrimagelist."
+        }
+      ],
+      "accepted_translation": "ವರ್ಣಾಶ್ರಮಾತ್ಮಕವಾದ ಈ ಕರ್ಮವು ಮಾಯಾಮಯವೆಂದು ಹೇಳಲ್ಪಟ್ಟಿದೆ. ಮಾಯಾಮೋಹದ ನಿವೃತ್ತಿಗಾಗಿ ವಿಶ್ವಯೋನಿಯಿಂದ ಇದು ರಚಿಸಲ್ಪಟ್ಟಿದೆ ॥೩೯॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 327,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0327.txt",
+            "individual_page_sha256": "9ec5299563a33df2bd2cc81b9e0d625116e25f3e6d4705e35741aa65cb9c13b7",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9676,
+            "line_end": 9700,
+            "char_start": 696653,
+            "char_end_exclusive": 698418,
+            "byte_start": 1834033,
+            "byte_end_exclusive": 1838782
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 327,
+            "raw_ocr": " इदं मायामयं प्रोक्तं कमं वणाश्र्ात्मकम्‌ । मायामोहनिवृत्यथ\nराचत विश्वयोनेना ॥३९॥",
+            "similarity_to_scan_source": 0.8252,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9697,
+            "line_end": 9698,
+            "char_start": 698333,
+            "char_end_exclusive": 698414,
+            "byte_start": 1838553,
+            "byte_end_exclusive": 1838776
+          }
+        ],
+        "accepted_reference_reading": null
+      }
     }
   ]
 }
