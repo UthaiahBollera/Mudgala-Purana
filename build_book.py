@@ -179,6 +179,8 @@ for khanda, chapter in chapters:
     for part,chunk in enumerate(groups,1):
         body=''
         if part==1:
+            if info.get("khanda_opening_note"):
+                body+=f'<p class="caption" data-source-pages="{e(info["khanda_opening_source"])}">{e(info["khanda_opening_note"])}</p>'
             if name != ordinal+' ಅಧ್ಯಾಯ':
                 body+=f'<h3>{e(name)}</h3>'
             if key==(1,1):

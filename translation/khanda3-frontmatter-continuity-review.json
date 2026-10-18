@@ -1,0 +1,226 @@
+{
+  "status": "source_sequence_continuous_no_missing_body_between_khandas",
+  "prior_ending": "Khanda2 chapter74 verse28, colophon and explicit Khanda2 completion on physical3–4",
+  "source_pdf_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+  "between_body_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "blank_pages": [
+    5,
+    7,
+    9,
+    11,
+    13,
+    15
+  ],
+  "title_page": 6,
+  "illustration_text_pages": [
+    8,
+    10,
+    12,
+    14
+  ],
+  "khanda3_body_start": {
+    "physical_page": 16,
+    "printed_page": 1,
+    "handwritten_page": 321,
+    "first_verse": "3.1.1"
+  },
+  "illustration_reproduction": false,
+  "records": [
+    {
+      "pair": "05-06",
+      "source_freeze_sha256": "a136b112ede9592f76185e1ed78c574e97a2b5df5846de15411f3095e06f4774",
+      "nonverse": [
+        {
+          "kind": "khanda_heading",
+          "khanda": 3,
+          "pdf_page": 6,
+          "text": "॥ अथ श्रीमुद्गलपुराणे तृतीयः खंडः प्रारभ्यते ॥",
+          "uncertainty_ids": [],
+          "numbered_verse": false
+        }
+      ],
+      "uncertainties": [],
+      "pages": [
+        {
+          "pdf_page": 5,
+          "printed_page": null,
+          "handwritten_page": 310,
+          "image_sha256": "49312e3ec8a0ad296c549785be40e7ba491cca3e58aa06f41aafca8e0a94b2a5"
+        },
+        {
+          "pdf_page": 6,
+          "printed_page": null,
+          "handwritten_page": 311,
+          "image_sha256": "eeee23869904c740011c1719cfe95c7127adbe78923d21e6a08c73db1a806fed"
+        }
+      ]
+    },
+    {
+      "pair": "07-08",
+      "source_freeze_sha256": "543f248dbd45a31a028f64024f521374d8963c87604c8ff2bf1e74b1bfc70e3e",
+      "nonverse": [
+        {
+          "kind": "caption",
+          "khanda": 3,
+          "pdf_page": 8,
+          "text": "॥ आद्य क्षेत्र श्री मयुरेश्वर [?:N306-P8-U-01][?:N306-P8-U-02]कारण्ये, मोरगांव ॥",
+          "uncertainty_ids": [
+            "N306-P8-U-01",
+            "N306-P8-U-02"
+          ],
+          "numbered_verse": false
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "N306-P8-U-01",
+          "line": 1,
+          "position": "word 5, akshara 1 (immediately preceding '[?:N306-P8-U-02]कारण्ये,')",
+          "context": "॥ आद्य क्षेत्र श्री मयुरेश्वर [?:N306-P8-U-01][?:N306-P8-U-02]कारण्ये, मोरगांव ॥",
+          "visual_reason": "While the lower consonant body ('द') below the shirorekha is visible, a dark dried botanical leaf resting at the top center of the page physically covers the superscript space directly above the shirorekha, obscuring whether a printed anusvara or superscript mark is present.",
+          "reading": null,
+          "status": "open_source_glyph_question",
+          "source_pdf_page": 8,
+          "kind": "caption",
+          "verified_by": "Mac original pixels; physical botanical occlusion of marks retained; no place-name reconstruction"
+        },
+        {
+          "id": "N306-P8-U-02",
+          "line": 1,
+          "position": "word 5, akshara 2 (between '[?:N306-P8-U-01]' and 'कारण्ये,')",
+          "context": "॥ आद्य क्षेत्र श्री मयुरेश्वर [?:N306-P8-U-01][?:N306-P8-U-02]कारण्ये, मोरगांव ॥",
+          "visual_reason": "While the lower consonant body ('ड') below the shirorekha is visible, a stem from the dried botanical specimen crosses diagonally across the shirorekha and superscript zone at the angle of a top matra/dot, making the presence or absence of a printed superscript diacritic visually ambiguous without external reconstruction.",
+          "reading": null,
+          "status": "open_source_glyph_question",
+          "source_pdf_page": 8,
+          "kind": "caption",
+          "verified_by": "Mac original pixels; physical botanical occlusion of marks retained; no place-name reconstruction"
+        }
+      ],
+      "pages": [
+        {
+          "pdf_page": 7,
+          "printed_page": null,
+          "handwritten_page": 312,
+          "image_sha256": "3dc1d70fc68e491acfd370cf2d46a0f83bc08cc0c7f03b370bb5fe7913ffc956"
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": null,
+          "handwritten_page": 313,
+          "image_sha256": "48f9476c5a791be6efbf1d56ce23cc682fe65513f2e7df723fb1325b2b2a4a07"
+        }
+      ]
+    },
+    {
+      "pair": "09-10",
+      "source_freeze_sha256": "8570b404e50d7361dcf1e5f758d81f1a4e65dd0a320e289c1694ac75dbf4a579",
+      "nonverse": [
+        {
+          "kind": "caption",
+          "khanda": 3,
+          "pdf_page": 10,
+          "text": "॥ आद्य क्षेत्र श्री मयुरेश्वर दंडकारण्ये, केंपवाड ॥",
+          "uncertainty_ids": []
+        }
+      ],
+      "uncertainties": [],
+      "pages": [
+        {
+          "pdf_page": 9,
+          "printed_page": null,
+          "handwritten_page": 314,
+          "image_sha256": "dfc722aa37bc120d27c2e7e0bad54261f7f5a7c6292b4673c73a9ca4dd407c6e"
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": null,
+          "handwritten_page": 315,
+          "image_sha256": "aa44e5aad3bc554ec4ea158dee712c97483fe8fb8401a964a5b518b271d30668"
+        }
+      ]
+    },
+    {
+      "raw_response_sha256": "987a348d72eb3fa48e39827bd1d2eb3d59d43ee9389472ffd313967703cd9c4d",
+      "source_raw": "/Users/uthaiahbb/Documents/Codex/2026-10-18/task-3/sanskrit-kannada/work-audited/continuation-298-300/299/attempt-8/response.json",
+      "raw_classification": "illustration",
+      "reviewed_classification": "illustration_with_text",
+      "schema_mapping": "Separate review semantic class; queue enum and validator unchanged",
+      "text_derivative": {
+        "classification": "illustration",
+        "printedPage": null,
+        "extractedSanskrit": "खंड ३\n॥ श्री महोदर मयुरेश्वर दंडकारण्ये, केंपवाड ॥\n॥ श्री महोदर मयुरेश्वराय नमः ॥",
+        "formalKannadaNarrative": "ಖಂಡ ೩\nಶ್ರೀ ಮಹೋದರ ಮಯೂರೇಶ್ವರ ದಂಡಕಾರಣ್ಯದಲ್ಲಿ, ಕೆಂಪವಾಡ.",
+        "mantras": [
+          {
+            "sanskrit": "॥ श्री महोदर मयुरेश्वराय नमः ॥",
+            "kannadaTransliteration": "॥ ಶ್ರೀ ಮಹೋದರ ಮಯುರೇಶ್ವರಾಯ ನಮಃ ॥",
+            "reference": {
+              "verse": null,
+              "sourcePage": 299,
+              "partial": "none"
+            }
+          }
+        ],
+        "shortOverview": "ಈ ಪುಟವು ದಂಡಕಾರಣ್ಯದ ಕೆಂಪವಾಡದಲ್ಲಿರುವ ಶ್ರೀ ಮಹೋದರ ಮಯೂರೇಶ್ವರನ ಮೂರ್ತಿಯ ಚಿತ್ರವನ್ನು ಮತ್ತು ನಮನದ ಮಂತ್ರವನ್ನು ಒಳಗೊಂಡಿದೆ.",
+        "sourceVerseReferences": [],
+        "uncertainties": []
+      },
+      "source_spelling_preserved": true,
+      "no_numbered_verses": true,
+      "illustration_reproduction": false,
+      "status": "mixed_content_source_verified_native_text_review_pending",
+      "publication_status": "withheld",
+      "source_review_note": "Caption and invocation are actual printed text; preserve separately from illustration; no new API request needed.",
+      "classification_review": "resolved_locally_as_illustration_with_text_outside_queue_schema",
+      "text_review_status": "pending_native_review"
+    },
+    {
+      "raw_response_sha256": "a48724ad7aeafd846a2ba634d8eb49f994382c35c720635666c1f5abaea1b4bf",
+      "source_raw": "/Users/uthaiahbb/projects/mudgala-purana-translator/output/000301/attempt-10/raw-response.json",
+      "raw_classification": "illustration",
+      "reviewed_classification": "illustration_with_text",
+      "schema_mapping": "Separate review semantic class; queue enum and validator unchanged",
+      "text_derivative": {
+        "classification": "illustration",
+        "printedPage": null,
+        "extractedSanskrit": "खंड ३\n॥ श्री महोदर मयुरेश्वराय नमः ॥\n॥ श्री सिद्धिबुद्धिलक्षलाभसहितः श्रीमहोदरः ॥",
+        "formalKannadaNarrative": "ಖಂಡ ೩\nಶ್ರೀ ಸಿದ್ಧಿ, ಬುದ್ಧಿ, ಲಕ್ಷ ಮತ್ತು ಲಾಭರೊಡಗೂಡಿದ ಶ್ರೀ ಮಹೋದರನು.",
+        "mantras": [
+          {
+            "sanskrit": "॥ श्री महोदर मयुरेश्वराय नमः ॥",
+            "kannadaTransliteration": "॥ ಶ್ರೀ ಮಹೋದರ ಮಯುರೇಶ್ವರಾಯ ನಮಃ ॥",
+            "reference": {
+              "verse": null,
+              "sourcePage": 301,
+              "partial": "none"
+            }
+          }
+        ],
+        "shortOverview": "ಈ ಪುಟವು ಮೂರನೇ ಖಂಡದ ಆರಂಭಿಕ ಚಿತ್ರಪಟವಾಗಿದ್ದು, ಶ್ರೀ ಸಿದ್ಧಿ, ಬುದ್ಧಿ, ಲಕ್ಷ ಮತ್ತು ಲಾಭರ ಸಹಿತನಾದ ಶ್ರೀ ಮಹೋದರ (ಮಯೂರೇಶ್ವರ) ಗಣಪತಿಯ ಚಿತ್ರವನ್ನು ಮತ್ತು ನಮನವನ್ನು ಒಳಗೊಂಡಿದೆ.",
+        "sourceVerseReferences": [],
+        "uncertainties": []
+      },
+      "source_spelling_preserved": true,
+      "no_numbered_verses": true,
+      "illustration_reproduction": false,
+      "status": "mixed_content_source_verified_native_text_review_pending",
+      "publication_status": "withheld",
+      "source_review_note": "Caption and invocation are actual printed text; preserve separately from illustration; no new API request needed. Printed सिद्धिबुद्धिलक्षलाभसहितः retained. Do not normalize लक्ष to लाभ or invent narrative.",
+      "classification_review": "resolved_locally_as_illustration_with_text_outside_queue_schema",
+      "text_review_status": "pending_native_review"
+    }
+  ]
+}

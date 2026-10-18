@@ -34613,6 +34613,966 @@
       "book_id": null,
       "google_books_pages": null,
       "google_books_page_url": null
+    },
+    {
+      "id": "kh3-ch1-v4",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 1,
+      "verse_start": 4,
+      "verse_end": 4,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p16",
+      "source_sanskrit": "कुरुक्षेत्रं महत्तस्य कस्माद्भूमौ समागतः । इत्यादि सर्वमत्यंतं माहात्म्यं वद तस्य मे॥४॥",
+      "issues": [
+        {
+          "id": "PAGE303-V4-ELLIPSIS",
+          "status": "open",
+          "reading": null,
+          "kind": "linguistic_interpretation",
+          "detail": "First clause कुरुक्षेत्रं महत्तस्य remains elliptical; Kannada ಅವನ ಮಹತ್ತಾದ ಕುರುಕ್ಷೇತ್ರದ ವಿಷಯವೇನು? is provisional. Masculine समागतः translated ಅವನು ಭೂಮಿಗೆ ಏಕೆ ಬಂದನು?."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch1-v25",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 1,
+      "verse_start": 25,
+      "verse_end": 25,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p16",
+      "source_sanskrit": "असत्यं ब्रह्म यत् प्रोक्तं तत्राहं जीवधारकः । एक एवाद्वितीयश्च सत्यरूपो महर्षयः॥२५॥",
+      "issues": [
+        {
+          "id": "PAGE303-V25-ASATYA-BRAHMA",
+          "status": "open",
+          "reading": null,
+          "kind": "linguistic_interpretation",
+          "detail": "Printed असत्यं ब्रह्म retained literally as ಅಸತ್ಯವಾದ ಬ್ರಹ್ಮವು; unsupported parenthetical ಪ್ರಪಂಚರೂಪ removed; interpretation unresolved."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch1-v27",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 1,
+      "verse_start": 27,
+      "verse_end": 27,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p17",
+      "source_sanskrit": "तयोरभेदभावे यत् समरूपं परात्परम् । आनंद उभयानंदाद्ब्रह्म यद्विष्णुरुच्यते ॥२७॥",
+      "issues": [
+        {
+          "id": "R-3.1.27",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "आनंद उभयानंदाद् syntax unresolved; Kannada provisional, no settled doctrinal reading."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch2-v4",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 2,
+      "verse_start": 4,
+      "verse_end": 4,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p17",
+      "source_sanskrit": "तेन मे वै तपस्तप्तं वर्षाणामयुतं द्विजाः । आकृष्णेनेति मंत्रेण ध्याननिष्ठो बभूव ह ॥४॥",
+      "issues": [
+        {
+          "id": "P304-V4-PRINTED-TAPAS",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Pixel candidate तपस्तप्तं differs from raw तप्तस्तप्तं; retain exact printed form pending independent source adjudication, no conjectural alternatives accepted."
+        },
+        {
+          "id": "P304-MANTRA-QUOTE",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "आकृष्णेनेति मंत्रेण contains a quoted mantra opening plus इति and narrative मंत्रेण. Do not label the entire phrase mantra or fabricate omitted mantra. Suggested cue only आकृष्णेन / ಆಕೃಷ್ಣೇನ."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch2-v33",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 2,
+      "verse_start": 33,
+      "verse_end": 33,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p19",
+      "source_sanskrit": "माली सुमालिको दैत्यौ तपतुस्तप उत्तमम् । दिव्यवर्षसहस्राणि शिवः संतोषितोऽभवत् ॥३३॥",
+      "issues": [
+        {
+          "id": "P306-V33-DURATION",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Attach thousands of divine years to austerity, not duration Shiva remained pleased. Candidate: ಅವರ ತಪಸ್ಸಿನಿಂದ ಸಾವಿರಾರು ದಿವ್ಯವರ್ಷಗಳ ಬಳಿಕ ಶಿವನು ಸಂತುಷ್ಟನಾದನು."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch2-v40",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 2,
+      "verse_start": 40,
+      "verse_end": 40,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p19",
+      "source_sanskrit": "अहं संक्षुभितोऽत्यंतं जातस्तदपि भो द्विजाः । असहे वरदानस्य बलं ज्ञात्वा विशेषतः ॥४०॥",
+      "issues": [
+        {
+          "id": "P306-V40-ASAHE",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "असहे means I endured here; draft ಸಹಿಸಲಾರದೆ reverses meaning. Candidate: ವರದಾನದ ಬಲವನ್ನು ವಿಶೇಷವಾಗಿ ಅರಿತು ಅದನ್ನು ಸಹಿಸಿಕೊಂಡೆನು; ಆದರೂ ನಾನು ಅತ್ಯಂತ ಕ್ಷೋಭೆಗೊಂಡವನಾಗಿದ್ದೆನು."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch2-v41",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 2,
+      "verse_start": 41,
+      "verse_end": 41,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p19",
+      "source_sanskrit": "एवं सप्त गतास्तत्र दिवसास्तदपि द्विजाः । न समे संस्थितौ दैत्यौ लोकाः सर्वे सुविस्मताः ॥४१॥",
+      "issues": [
+        {
+          "id": "R-3.2.41",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "न समे संस्थितौ ambiguous; draft ನನ್ನೊಡನೆ ಸಮಭಾವದಲ್ಲಿ ನಿಲ್ಲಲಿಲ್ಲ over-specifies. Second clause retained only as flagged candidate, not accepted meaning."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v19",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 19,
+      "verse_end": 19,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p20,pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p21",
+      "source_sanskrit": "तयोर्मोहविनाशार्थं योगमार्गं गजाननः । चकार सर्वशांतिभ्यः शांतिदं योगसेवया ॥१९॥",
+      "issues": [
+        {
+          "id": "P308-V19-JOIN",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "चकार governs योगमार्गम् from previous page; draft ಶಾಂತಿದಾಯಕನಾದನು wrongly makes him become a giver. Full-join candidate: ಅವೆರಡರ ಮೋಹವಿನಾಶಕ್ಕಾಗಿ ಗಜಾನನನು ಯೋಗಸೇವೆಯಿಂದ ಸಕಲಶಾಂತಿಗಳಿಗಿಂತಲೂ ಶಾಂತಿಯನ್ನು ನೀಡುವ ಯೋಗಮಾರ್ಗವನ್ನು ರೂಪಿಸಿದನು."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v21",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 21,
+      "verse_end": 21,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p21",
+      "source_sanskrit": "तेभ्यः शांतिप्रदानार्थं विघ्नदाता गजाननः । भवते तेन ते सर्वे गर्वहीना भवंति वै ॥२१॥",
+      "issues": [
+        {
+          "id": "P308-V21-BHAVATE",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Pixels support भवते; preserve it without silently emending grammar to भवति. Interpretation/source adjudication remains open."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v31",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 31,
+      "verse_end": 31,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p21",
+      "source_sanskrit": "तयोः स्रष्टा सदानंदो विष्णुः साम्यप्रधारकः । त्रिभिर्हीनः शिवो व्यक्तस्त्रिभिर्जानीहि संयुतः ॥३१॥",
+      "issues": [
+        {
+          "id": "P308-V31-PHILOSOPHY",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Printed शिवो व्यक्तस्त्रिभिर्जानीहि संयुतः should remain; resolve philosophical syntax by native review, no emendation to अव्यक्त."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v34",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 34,
+      "verse_end": 34,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p21",
+      "source_sanskrit": "अयोगे मायया हीनो गणेशो ब्रह्मवाचकः । सर्वसंयोगहीनश्चासमाधिसुखदायकः ॥३४॥",
+      "issues": [
+        {
+          "id": "P308-V34-SEGMENTATION",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "हीनश्चासमाधिसुखदायकः segmentation requires review; avoid automatically accepting ಅಸಮಾಧಿಸುಖದಾಯಕ as settled meaning."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v48",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 48,
+      "verse_end": 48,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "भानुरुवाच । नमस्ते विघ्ननाथाय विघ्नकर्त्रे दुरात्मनाम् । भक्तानां विघ्नहर्त्रे ते गणेशाय नमो नमः ॥४८॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v49",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 49,
+      "verse_end": 49,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "चतुर्बाहुधरायैव मूषकवाहनाय ते । नागयज्ञोपवीताय नाभिशेषाय ते नमः ॥४९॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v50",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 50,
+      "verse_end": 50,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "महोदराय देवाय सिद्धिबुद्धियुताय ते । शूर्पकर्णाय सर्वाय चैकदंताय वै नमः ॥५०॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v51",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 51,
+      "verse_end": 51,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "गजवक्त्रधरायैव भालचंद्राय ते नमः । चिंतामणिधरायैव हृदये ते नमो नमः ॥५१॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v52",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 52,
+      "verse_end": 52,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "रक्तांबराय रक्ताय नानाभूषणशालिने । अमेयाय नमस्तुभ्यं नानालीलाकराय च ॥५२॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v53",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 53,
+      "verse_end": 53,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "अनाधाराय सर्वेषामाधाराय च ते नमः । स्वानंदवासिने तुभ्यमिक्षुसागरखेलिने ॥५३॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v54",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 54,
+      "verse_end": 54,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "हेरंबाय नमस्तुभ्यं लंबोदर नमो नमः । जगतां ब्रह्मणाम् पात्रे ब्रह्माधीशाय ते नमः ॥५४॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        },
+        {
+          "id": "P309-V54-TITLE",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Source ब्रह्माधीशाय; mantra transliteration ಬ್ರಹ್ಮಧೀಶಾಯ must not propagate raw extraction error. Candidate ಬ್ರಹ್ಮಾಧೀಶಾಯ if separately quoted; keep stotra meaning."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v55",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 55,
+      "verse_end": 55,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "निराकाराय सर्वेश पालकाय नमो नमः । साकाराय च भो ढुंढे ताभ्यां योगाय ते नमः ॥५५॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v56",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 56,
+      "verse_end": 56,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "योगशांतिप्रदात्रे ते योगशांतिमयाय च । योगिभ्यो योगदात्रे ते योगेशाय नमो नमः ॥५६॥",
+      "issues": [
+        {
+          "id": "P309-STOTRA-NOT-MANTRA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Nine stotra verses erroneously duplicated under mantras; retain full Kannada meaning, move stotra classification to narrative/stotra; no canonical mantra duplication."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v58",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 58,
+      "verse_end": 58,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "पुलकांकितदेहं तं दृष्ट्वा खिन्नमिव स्थितम् । जगाद गणनायो वै सूर्यं भक्तिरसप्लुतम् ॥५८॥",
+      "issues": [
+        {
+          "id": "P309-GANANAYA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Printed गणनायो / गणनाय retained; Kannada ಗಣನಾಥ silently supplies an unprinted थ. Keep explicit source-form note pending native adjudication."
+        },
+        {
+          "id": "R-3.3.58",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Printed गणनायो unresolved; Kannada ಗಣನಾಯನು is source-preserving candidate, not a restoration of ಗಣನಾಥ."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "kh3-ch3-v63",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 3,
+      "verse_start": 63,
+      "verse_end": 63,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 16,
+        "printed_page": 1,
+        "audit_global_page": 303,
+        "image_sha256": "e66b9bfcd2d66f8f527c15c9f72abb75e023199cb63f1b1d64ba8d338b118bef",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p22",
+      "source_sanskrit": "सूर्य उवाच । तुष्टोऽसि गणनाय त्वं यदि दास्यसि मे वरम् । तदा भक्तिं दृढां ते वै देहि नाथ नमोऽस्तु ते ॥६३॥",
+      "issues": [
+        {
+          "id": "P309-GANANAYA",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Printed गणनायो / गणनाय retained; Kannada ಗಣನಾಥ silently supplies an unprinted थ. Keep explicit source-form note pending native adjudication."
+        },
+        {
+          "id": "R-3.3.63",
+          "status": "open",
+          "reading": null,
+          "kind": "source_or_linguistic_review",
+          "detail": "Printed गणनाय unresolved; Kannada ಗಣನಾಯನೇ is source-preserving candidate, not a restoration of ಗಣನಾಥ."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "google_books_attempt": {
+        "book_id": "35cHEQAAQBAJ",
+        "metadata_url": "https://books.google.com/books/about/Shri_Mudgala_Purana_Khand_3.html?id=35cHEQAAQBAJ",
+        "query_url": "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE%E0%A4%AF",
+        "result": "search_within_volume_inaccessible; no verse-bearing page verified",
+        "page_id": null,
+        "page_url": null
+      }
+    },
+    {
+      "id": "N306-P8-U-01",
+      "kind": "frontmatter_caption",
+      "khanda": 3,
+      "chapter": 1,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 8,
+        "printed_page": null
+      },
+      "source_sanskrit": "॥ आद्य क्षेत्र श्री मयुरेश्वर [?:N306-P8-U-01][?:N306-P8-U-02]कारण्ये, मोरगांव ॥",
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p8",
+      "issues": [
+        {
+          "id": "N306-P8-U-01",
+          "reading": null,
+          "status": "open",
+          "detail": "While the lower consonant body ('द') below the shirorekha is visible, a dark dried botanical leaf resting at the top center of the page physically covers the superscript space directly above the shirorekha, obscuring whether a printed anusvara or superscript mark is present."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "N306-P8-U-02",
+      "kind": "frontmatter_caption",
+      "khanda": 3,
+      "chapter": 1,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 8,
+        "printed_page": null
+      },
+      "source_sanskrit": "॥ आद्य क्षेत्र श्री मयुरेश्वर [?:N306-P8-U-01][?:N306-P8-U-02]कारण्ये, मोरगांव ॥",
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p8",
+      "issues": [
+        {
+          "id": "N306-P8-U-02",
+          "reading": null,
+          "status": "open",
+          "detail": "While the lower consonant body ('ड') below the shirorekha is visible, a stem from the dried botanical specimen crosses diagonally across the shirorekha and superscript zone at the angle of a top matra/dot, making the presence or absence of a printed superscript diacritic visually ambiguous without external reconstruction."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
     }
   ]
 }
