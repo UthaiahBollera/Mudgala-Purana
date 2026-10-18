@@ -181,3 +181,5 @@ Khanda3 chapters14–15 add74complete numbered entries (45reviewed Kannada trans
 Khanda3chapter16adds36complete numbered entries (15reviewed Kannada translations;21visible unresolved placeholders),bringing edition to6,917entries in141representedchapters. All11originalholdobjectsremainnull;nojoins;originalreferenceevidenceunchanged.
 
 Khanda3chapter17adds56complete numbered entries (34reviewed Kannada translations;22visible unresolved placeholders),bringing edition to6,973entries in142representedchapters. All19originalholdobjectsremainnull;51joinonce;originalreferenceevidenceunchanged.
+
+Khanda3chapter18adds41complete numbered entries (30reviewed Kannada translations;11visible unresolved placeholders),bringing edition to7,014entries in143representedchapters. All5originalplus3integratorholdobjectsremainnull;17joinonce;originalreferenceevidenceunchanged.
