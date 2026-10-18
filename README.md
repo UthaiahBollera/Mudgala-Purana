@@ -175,3 +175,5 @@ Latest continuation: Khanda3 chapter4verses26–64 and chapters5–8 add232numbe
 Latest continuation: Khanda3chapters9–12 andchapter13verses1–36 adds231complete numbered entries:192textuallyacceptedKannadaentries and39explicit unresolved placeholders. The edition totals6,805entries in138chapters. All70originalholdsremainopen/null;3.13.37aisretainedunpublishedforthenextbatch. Sevenboundaryjoinscountonce.
 
 Khanda3chapter13nowextends through38withitsactualcolophon. Two independently reviewed Kannada entries complete the source extent, bringing the edition to6,807entries. Verse37joins physical43/44once andretains allhistoricalsourceholds;prior1–36unchanged. UploadedreferenceOCRpage313hasverse38reading-orderdisplacement;scan/Argonpreferred. Partialreadinglabelsremain.
+
+Khanda3 chapters14–15 add74complete numbered entries (45reviewed Kannada translations; 29visible unresolved placeholders), bringing the edition to6,881entries in140representedchapters. All21originalholdrecords remainnull. Threeboundaryjoins occur once;15.13retains bothPDFidentities. Originalreference spansremainunchanged;demonstrablemappingfindingsareseparate derivatives.
