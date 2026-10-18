@@ -18503,6 +18503,173 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-78-local-pdf-01.tsv",
+      "sha256": "8eaaf39c2421635db7b53afe92849dca1948f05b686b6524d5b2e1464f529ea1",
+      "source_kind": "local_pdf",
+      "source_pdf": "265. To.  305. ( 2 ).pdf",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p28",
+          "pdf_page": 28,
+          "printed_page": 140,
+          "handwritten_page": 292,
+          "printed_page_verified": true,
+          "image_sha256": "637422bd42caf494991b603dd8109c4d483b60a30bbd934be4e5b412f4b3f3b6",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        },
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+          "pdf_page": 29,
+          "printed_page": 141,
+          "handwritten_page": 293,
+          "printed_page_verified": true,
+          "image_sha256": "cb73a6fcdb3629fcedea2b2d8edec9f6b116f6f0f54f996e14632c5243279aea",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch67-20",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch66-67-reading-review.json",
+      "review_sha256": "3adcbef86e07c847ca9106abfe7966a7c66a8ad4a316d44fee1487cc4654a7fc",
+      "added_keys": [
+        [
+          2,
+          66,
+          61
+        ],
+        [
+          2,
+          66,
+          62
+        ],
+        [
+          2,
+          67,
+          1
+        ],
+        [
+          2,
+          67,
+          2
+        ],
+        [
+          2,
+          67,
+          3
+        ],
+        [
+          2,
+          67,
+          4
+        ],
+        [
+          2,
+          67,
+          5
+        ],
+        [
+          2,
+          67,
+          6
+        ],
+        [
+          2,
+          67,
+          7
+        ],
+        [
+          2,
+          67,
+          8
+        ],
+        [
+          2,
+          67,
+          9
+        ],
+        [
+          2,
+          67,
+          10
+        ],
+        [
+          2,
+          67,
+          11
+        ],
+        [
+          2,
+          67,
+          12
+        ],
+        [
+          2,
+          67,
+          13
+        ],
+        [
+          2,
+          67,
+          14
+        ],
+        [
+          2,
+          67,
+          15
+        ],
+        [
+          2,
+          67,
+          16
+        ],
+        [
+          2,
+          67,
+          17
+        ],
+        [
+          2,
+          67,
+          18
+        ],
+        [
+          2,
+          67,
+          19
+        ],
+        [
+          2,
+          67,
+          20
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            66,
+            60
+          ],
+          "old_row": {
+            "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p28",
+            "type": "translation",
+            "text": "ಬಳಿಕ ಆ ಶಾಪವನ್ನು ಅರಿತು ಗೋಪನಾಯಕನಾದ ಶ್ರೀದಾಮನು — (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಮೂಲದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಭಾಗ ಮಾತ್ರ; ಉಳಿದ ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.)"
+          },
+          "new_row": {
+            "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p28,pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+            "type": "translation",
+            "text": "ಬಳಿಕ ಆ ಶಾಪವನ್ನು ತಿಳಿದು, ಕೃಷ್ಣನ ಮಿತ್ರನೂ ಪ್ರತಾಪಶಾಲಿಯೂ ಆದ ಗೋಪನಾಯಕ ಶ್ರೀದಾಮನು ಕ್ರುದ್ಧನಾಗಿ ಅವಳನ್ನು (ರಾಧೆಯನ್ನು) ನಿಂದಿಸಿದನು ॥೬೦॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch66-66-reading-review.json",
+          "rationale": "Earlier explicit a_only fragment completed by verified following original page and independently reviewed once.",
+          "source_evidence": "f4ea5c7773b1e18cda60ed4f2646251ba618c07f485fafb0794a9bc4faf82184",
+          "review_status": "accepted"
+        }
+      ]
     }
   ]
 }

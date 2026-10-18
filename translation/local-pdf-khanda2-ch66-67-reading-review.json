@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "source_kind": "local_pdf",
+  "source_priority": "scanned_pdf_primary_ocr_aid_google_books_reference",
+  "primary_source": {
+    "filename": "265. To.  305. ( 2 ).pdf",
+    "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+    "pdf_page": 28,
+    "printed_page": 140,
+    "audit_global_page": 292,
+    "image_sha256": "637422bd42caf494991b603dd8109c4d483b60a30bbd934be4e5b412f4b3f3b6",
+    "printed_page_verified": true
+  },
+  "additional_source_pdfs": [],
+  "source_pages": [
+    {
+      "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p28",
+      "pdf_page": 28,
+      "printed_page": 140,
+      "handwritten_page": 292,
+      "printed_page_verified": true,
+      "image_sha256": "637422bd42caf494991b603dd8109c4d483b60a30bbd934be4e5b412f4b3f3b6",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+    },
+    {
+      "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "pdf_page": 29,
+      "printed_page": 141,
+      "handwritten_page": 293,
+      "printed_page_verified": true,
+      "image_sha256": "cb73a6fcdb3629fcedea2b2d8edec9f6b116f6f0f54f996e14632c5243279aea",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+    }
+  ],
+  "scope": "Original PDF pages29-30; independently reviewed complete verses and explicit historical trailing fragment; source and interpretation holds retained.",
+  "source_method": "Primary PDF pixels frozen; independent language review; explicit boundary completion and joins counted once.",
+  "verses": [
+    {
+      "key": [
+        2,
+        66,
+        60
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p28,pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "ततः शापं च तं ज्ञात्वा श्रीदामा गोपनायकः । न्यभर्त्सयत् स तां क्रुद्धः कृष्णमित्रं प्रतापवान् ॥६०॥",
+      "text": "ಬಳಿಕ ಆ ಶಾಪವನ್ನು ತಿಳಿದು, ಕೃಷ್ಣನ ಮಿತ್ರನೂ ಪ್ರತಾಪಶಾಲಿಯೂ ಆದ ಗೋಪನಾಯಕ ಶ್ರೀದಾಮನು ಕ್ರುದ್ಧನಾಗಿ ಅವಳನ್ನು (ರಾಧೆಯನ್ನು) ನಿಂದಿಸಿದನು ॥೬೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        66,
+        61
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "तमतिक्रोधसंयुक्ता राधिका ह्यसुरो भव । शशाप सा मुनिश्रेष्ठ सोऽपि क्रोधयुतोऽभवत् ॥६१॥",
+      "text": "ಹೇ ಮುನಿಶ್ರೇಷ್ಠನೇ, ಅತಿಕ್ರೋಧಗೊಂಡ ಆ ರಾಧಿಕೆಯು \"ನೀನು ಅಸುರನಾಗು\" ಎಂದು ಅವನಿಗೆ ಶಾಪ ನೀಡಿದಳು; ಆಗ ಅವನೂ ಸಹ ಕ್ರೋಧಾವಿಷ್ಟನಾದನು ॥೬೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        66,
+        62
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "राधां शशाप मर्त्येषु भव नारी त्वमंजसा । शतवर्षाणि कृष्णस्य वियोगेन समन्विता ॥६२॥",
+      "text": "ಅವನು ರಾಧೆಗೆ, \"ನೀನು ಶೀಘ್ರವೇ ಮರ್ತ್ಯಲೋಕದಲ್ಲಿ ನಾರಿಯಾಗಿ ಹುಟ್ಟು ಮತ್ತು ನೂರು ವರ್ಷಗಳ ಕಾಲ ಕೃಷ್ಣನ ವಿಯೋಗದಿಂದ ಕೂಡಿರು\" ಎಂದು ಶಾಪ ನೀಡಿದನು ॥೬೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        1
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "ब्रह्मोवाच । एवं परस्परं शप्त्वा खेदयुक्ता बभूविरे । गतगर्वाश्च सर्वे ते विचारं चक्रुरादरात् ॥१॥",
+      "text": "ಬ್ರಹ್ಮನು ಹೇಳಿದನು: ಹೀಗೆ ಪರಸ್ಪರ ಶಪಿಸಿಕೊಂಡು ಅವರೆಲ್ಲರೂ ಖೇದಗೊಂಡವರಾದರು; ಗರ್ವವನ್ನೆಲ್ಲ ಕಳೆದುಕೊಂಡವರಾಗಿ ಅವರೆಲ್ಲರೂ ಆದರದಿಂದ ವಿಚಾರ ಮಾಡಿದರು ॥೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        2
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "अहं गोलोकराजोऽहं सर्वाधीशो न संशयः । इयं प्रकृतिरूपा मे कृतौ केनापराधिनौ ॥२॥",
+      "text": "\"ನಾನು ಗೋಲೋಕರಾಜನು, ನಾನು ಸರ್ವಾಧೀಶನು ಎಂಬುದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ; ಇವಳು ನನ್ನ ಪ್ರಕೃತಿರೂಪಳು; ಹೀಗಿರುವಾಗ ಯಾರಿಂದ ನಾವಿಬ್ಬರೂ ಅಪರಾಧಿಗಳಾಗಿ ಮಾಡಲ್ಪಟ್ಟೆವು?\" ॥೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        3
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "कृष्णोऽहं सर्वदेवेश अपि मां विघ्न उत्थितः । अतो वै विघ्नराजः स गणेशः कुरुतेऽखिलम् ॥३॥",
+      "text": "\"ಸರ್ವದೇವೇಶನಾದ ಕೃಷ್ಣನಾದ ನನಗೂ ಸಹ ವಿಘ್ನವು ಉಂಟಾಗಿದೆ; ಆದ್ದರಿಂದ ಆ ವಿಘ್ನರಾಜನಾದ ಗಣೇಶನೇ ಸಮಸ್ತವನ್ನೂ ಮಾಡುತ್ತಾನೆ\" ॥೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        4
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "हिताहितं न संदेहस्तदाधारमिदं जगत् । सस्त्रीकः शरणं यामि ब्रह्माकारमतश्च तम् ॥४॥",
+      "text": "\"ಹಿತವನ್ನೂ ಅಹಿತವನ್ನೂ ಅವನೇ ಮಾಡುತ್ತಾನೆ ಎಂಬುದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ, ಈ ಜಗತ್ತು ಆತನನ್ನೇ ಆಧರಿಸಿದೆ; ಆದ್ದರಿಂದ ಪತ್ನೀಸಮೇತನಾಗಿ ಬ್ರಹ್ಮಾಕಾರನಾದ ಆತನಿಗೆ ನಾನು ಶರಣು ಹೋಗುತ್ತೇನೆ\" ॥೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        5
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "एवं विचार्य देवेशः सस्त्रीको मित्रसंयुतः । पपात भगवान् कृष्णो मृत्युलोके महामुने ॥[?:N265-P30-U-01]५॥",
+      "text": "ಹೇ ಮಹಾಮುನಿಯೇ, ಹೀಗೆ ವಿಚಾರ ಮಾಡಿ ದೇವೇಶನಾದ ಭಗವಾನ್ ಕೃಷ್ಣನು ಪತ್ನೀಸಮೇತನಾಗಿ ಹಾಗೂ ಮಿತ್ರನೊಡಗೂಡಿ ಮೃತ್ಯುಲೋಕಕ್ಕೆ ಬಿದ್ದನು ॥(ಪರಿಶೀಲನೆ: ?:N265-P30-U-01)೫॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P30-U-01",
+          "pdf_page": 30,
+          "canonical_pdf_page": 29,
+          "line": 9,
+          "context": "2.67.5b, verse numeral ॥५॥ after महामुने",
+          "position": "inside ॥५॥, between opening double danda and ५",
+          "visual_reason": "Small stray ink dot visible between the opening double danda and ५ in both page 29 and page 30 scans.",
+          "reading": null,
+          "canonical_key": [
+            2,
+            67,
+            5
+          ],
+          "chapter": 67,
+          "comparison_pdf_page": 30,
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        6
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "मथुरायां च देवक्यां वसुदेवात् समुद्भवः । कृष्णो यादववंशे वै तेषां स सुखदोऽभवत् ॥६॥",
+      "text": "ಮಥುರೆಯಲ್ಲಿ ಯಾದವವಂಶದಲ್ಲಿ ವಸುದೇವನಿಂದ ದೇವಕಿಯಲ್ಲಿ ಜನಿಸಿದ ಆ ಕೃಷ್ಣನು ಅವರಿಗೆಲ್ಲ ಸುಖವನ್ನು ನೀಡುವವನಾದನು ॥೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        7
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "वृषभानुसुता जाता राधा सा गोकुले मुने । शंखचूडो बभूवाऽथ श्रीदामाऽसुरसत्तमः ॥७॥",
+      "text": "ಹೇ ಮುನಿಯೇ, ಆ ರಾಧೆಯು ಗೋಕುಲದಲ್ಲಿ ವೃಷಭಾನುವಿನ ಪುತ್ರಿಯಾಗಿ ಜನಿಸಿದಳು; ಬಳಿಕ ಶ್ರೀದಾಮನು ಅಸುರಶ್ರೇಷ್ಠನಾದ ಶಂಖಚೂಡನಾಗಿ ಹುಟ್ಟಿದನು ॥೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        8
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "ततश्च गोकुलं कृष्णः कंसस्यैव भयाद्ययौ । तत्र राधासमायुक्तो बभूव स जनार्दनः ॥८॥",
+      "text": "ಅನಂತರ ಕೃಷ್ಣನು ಕಂಸನ ಭಯದಿಂದ ಗೋಕುಲಕ್ಕೆ ಹೋದನು; ಅಲ್ಲಿ ಆ ಜನಾರ್ದನನು ರಾಧೆಯೊಡನೆ ಕೂಡಿದವನಾದನು ॥೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        9
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "ततो विघ्नेशमत्यंतं भेजतुस्तौ स्वभावतः । षोडशाक्षरमंत्रेण परे तपसि संस्थितौ ॥९॥",
+      "text": "ಬಳಿಕ ಅವರಿಬ್ಬರೂ ಶ್ರೇಷ್ಠವಾದ ತಪಸ್ಸಿನಲ್ಲಿ ನೆಲೆಗೊಂಡು, ಹದಿನಾರು ಅಕ್ಷರಗಳ (ಷೋಡಶಾಕ್ಷರ) ಮಂತ್ರದಿಂದ ಸ್ವಭಾವತಃ ವಿಘ್ನೇಶನನ್ನು ಅತ್ಯಂತ ಭಕ್ತಿಯಿಂದ ಭಜಿಸಿದರು ॥೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        10
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "पुरश्चरणमेकं तौ चक्रतुः[?:N265-P29-U-02]परमादरात् । बभूवतुस्ततो ध्यानसमायुक्तौ निरंतरम् ॥१०॥",
+      "text": "ಅವರಿಬ್ಬರೂ ಪರಮ ಆದರದಿಂದ ಒಂದು ಪುರಶ್ಚರಣವನ್ನು ಮಾಡಿದರು(ಪರಿಶೀಲನೆ: ?:N265-P29-U-02); ತದನಂತರ ನಿರಂತರವಾಗಿ ಧ್ಯಾನಯುಕ್ತರಾದರು ॥೧೦॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P29-U-02",
+          "pdf_page": 29,
+          "line": 12,
+          "context": "2.67.10a, between चक्रतुः and परमादरात्",
+          "position": "between the visarga of चक्रतुः and the initial प of परमादरात्",
+          "visual_reason": "Small ink smudge/bridge connecting the lower dot of the visarga to the left curve of प; flagged for comparison with duplicate scan page 30.",
+          "reading": null,
+          "canonical_key": [
+            2,
+            67,
+            10
+          ],
+          "chapter": 67,
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        11
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "तपस्त्यक्त्वा तस्य हृदि ध्यानयुक्तौ विशेषतः । तपसोऽधिकमु[?:N265-P30-U-02]ग्रं वै ध्यानं शास्त्रेषु संमतम् ॥११॥",
+      "text": "ತಪಸ್ಸನ್ನು ಬಿಟ್ಟು ವಿಶೇಷವಾಗಿ ತಮ್ಮ ಹೃದಯದಲ್ಲಿ ಆತನ ಧ್ಯಾನದಲ್ಲಿ ತೊಡಗಿದರು; ತಪಸ್ಸಿಗಿಂತಲೂ ಧ್ಯಾನವು ಅಧಿಕ ಉ(ಪರಿಶೀಲನೆ: ?:N265-P30-U-02)ಗ್ರವಾದುದು ಎಂದು ಶಾಸ್ತ್ರಗಳಲ್ಲಿ ಸಮ್ಮತವಾಗಿದೆ ॥೧೧॥",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "N265-P30-U-02",
+          "pdf_page": 30,
+          "canonical_pdf_page": 29,
+          "line": 13,
+          "context": "2.67.11b, तपसोऽधिकमुग्रं",
+          "position": "subscript u-matra under म in अधिकमुग्रं",
+          "visual_reason": "Slight ink blot/thickening on the subscript u-matra of मु in both page 29 and page 30 scans.",
+          "reading": null,
+          "canonical_key": [
+            2,
+            67,
+            11
+          ],
+          "chapter": 67,
+          "comparison_pdf_page": 30,
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        12
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "संवत्सरान् स तत्रैव कृष्णश्चैकादश स्थितः । ततश्च मथुरायां स जगामाक्रूरसंयुतः ॥१२॥",
+      "text": "ಆ ಕೃಷ್ಣನು ಅಲ್ಲಿಯೇ ಹನ್ನೊಂದು ವರ್ಷಗಳ ಕಾಲ ನೆಲೆಸಿದ್ದನು; ಬಳಿಕ ಅವನು ಅಕ್ರೂರನೊಡಗೂಡಿ ಮಥುರೆಗೆ ತೆರಳಿದನು ॥೧೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        13
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "शतवर्षं वियोगेन राधाकृष्णौ बभूवतुः । युक्तौ परमदुःखार्तौ ध्यायंतौ गणनायकम् ॥१३॥",
+      "text": "ರಾಧಾಕೃಷ್ಣರು ನೂರು ವರ್ಷಗಳ ಕಾಲ ವಿಯೋಗದಿಂದ ಕೂಡಿ ಪರಮ ದುಃಖಾರ್ತರಾಗಿ ಗಣನಾಯಕನನ್ನು ಧ್ಯಾನಿಸುತ್ತಿದ್ದರು ॥೧೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        14
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "ततस्तयोश्च संप्राप्तो योगः शांतिप्रदायकः । तेन संतोषमापन्नौ गाणपत्यौ बभूवतुः ॥१४॥",
+      "text": "ಬಳಿಕ ಅವರಿಬ್ಬರಿಗೂ ಶಾಂತಿದಾಯಕವಾದ ಯೋಗವು ಪ್ರಾಪ್ತವಾಯಿತು; ಅದರಿಂದ ಸಂತೋಷವನ್ನು ಹೊಂದಿದ ಅವರಿಬ್ಬರೂ ಗಾಣಪತ್ಯರಾದರು ॥೧೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        15
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "गते वर्षशते विप्र जग्मतुस्तौ सहानुगौ । वैशाखपूर्णिमायां वै मुने बदरिकाश्रमम् ॥१५॥",
+      "text": "ಹೇ ವಿಪ್ರನೇ, ಹೇ ಮುನಿಯೇ, ನೂರು ವರ್ಷಗಳು ಕಳೆದ ಬಳಿಕ ವೈಶಾಖ ಪೂರ್ಣಿಮೆಯಂದು ಅವರಿಬ್ಬರೂ ಅನುಚರರೊಡಗೂಡಿ ಬದರಿಕಾಶ್ರಮಕ್ಕೆ ತೆರಳಿದರು ॥೧೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        16
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "तत्र शंभुमुखा देवाः सस्त्रीकाश्च समागताः । यात्रार्थं गणनाथस्य मुनयश्च ययुर्मुदा ॥१६॥",
+      "text": "ಅಲ್ಲಿಗೆ ಶಂಭುವೇ ಮೊದಲಾದ ದೇವತೆಗಳು ಪತ್ನೀಸಮೇತರಾಗಿ ಆಗಮಿಸಿದ್ದರು; ಮುನಿಗಳೂ ಸಹ ಗಣನಾಥನ ಯಾತ್ರೆಗಾಗಿ ಸಂತೋಷದಿಂದ ಅಲ್ಲಿಗೆ ಬಂದಿದ್ದರು ॥೧೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        17
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "शेषादयो महानागा राजानश्च विशेषतः । त्रिलोकस्था जनाः सर्वे जग्मुस्तत्र महामुने ॥१७॥",
+      "text": "ಹೇ ಮಹಾಮುನಿಯೇ, ಶೇಷನೇ ಮೊದಲಾದ ಮಹಾನಾಗಗಳೂ, ವಿಶೇಷವಾಗಿ ರಾಜರುಗಳೂ ಹಾಗೂ ಮೂರು ಲೋಕಗಳಲ್ಲಿರುವ ಸಮಸ್ತ ಜನರೂ ಅಲ್ಲಿಗೆ ಬಂದಿದ್ದರು ॥೧೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        18
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "योगिनः कपिलाद्याश्च तत्राऽहं संगतो मुने । सर्वैर्महोत्सवस्तत्र वार्षिकः क्रियते सदा ॥१८॥",
+      "text": "ಹೇ ಮುನಿಯೇ, ಕಪಿಲನೇ ಮೊದಲಾದ ಯೋಗಿಗಳೂ ಹಾಗೂ ನಾನೂ (ಬ್ರಹ್ಮನೂ) ಅಲ್ಲಿ ಸೇರಿದ್ದೆವು; ಅಲ್ಲಿ ಎಲ್ಲರಿಂದಲೂ ಸದಾ ವಾರ್ಷಿಕ ಮಹೋತ್ಸವವು ಆಚರಿಸಲ್ಪಡುತ್ತದೆ ॥೧೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        19
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "ततस्तं पूजयित्वा ते सर्वे चोपोषणान्विताः । स्थिताश्चक्रुः प्रतिपदि पारणं ते महामुने ॥१९॥",
+      "text": "ಹೇ ಮಹಾಮುನಿಯೇ, ಬಳಿಕ ಅವರೆಲ್ಲರೂ ಉಪವಾಸವ್ರತದಿಂದ ಕೂಡಿ ಆತನನ್ನು ಪೂಜಿಸಿ ಅಲ್ಲಿಯೇ ತಂಗಿದ್ದು, ಪ್ರತಿಪದೆಯಂದು ಪಾರಣೆಯನ್ನು ಮಾಡಿದರು ॥೧೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      }
+    },
+    {
+      "key": [
+        2,
+        67,
+        20
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+      "source_sanskrit": "तत्र राधा च कृष्णश्च",
+      "text": "ಅಲ್ಲಿ ರಾಧೆಯೂ ಮತ್ತು ಕೃಷ್ಣನೂ (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಮೂಲದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಭಾಗ ಮಾತ್ರ; ಉಳಿದ ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.)",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent review of all assigned complete verses, historical partial and ancillary items;69 distinct complete verses across29–32 after joins."
+      },
+      "fragment": "a_only"
+    }
+  ],
+  "colophons": [
+    {
+      "kind": "colophon",
+      "chapter": 66,
+      "pdf_page": 29,
+      "text": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते कृष्णराधाशापवर्णनं नाम षट्[?:N265-P29-U-01]ष्टितमोऽध्यायः ॥",
+      "uncertainty_ids": [
+        "N265-P29-U-01"
+      ],
+      "kannada_review_candidate": "॥ ಓಂ ಎಂದು ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ 'ಕೃಷ್ಣರಾಧಾಶಾಪವರ್ಣನ' ಎಂಬ ಷಟ್(ಪರಿಶೀಲನೆ: ?:N265-P29-U-01)ಷ್ಟಿತಮ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾದುದು ॥",
+      "status": "accepted",
+      "candidate_fields": {
+        "chapter": 66,
+        "pdf_page": 29,
+        "text": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते कृष्णराधाशापवर्णनं नाम षट्[?:N265-P29-U-01]ष्टितमोऽध्यायः ॥",
+        "kannada": "॥ ಓಂ ಎಂದು ಶ್ರೀಮದಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ 'ಕೃಷ್ಣರಾಧಾಶಾಪವರ್ಣನ' ಎಂಬ ಷಟ್[?:N265-P29-U-01]ಷ್ಟಿತಮ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾದುದು ॥",
+        "uncertainty_ids": [
+          "N265-P29-U-01"
+        ]
+      },
+      "identity": "2.66.colophon",
+      "source_sanskrit": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते कृष्णराधाशापवर्णनं नाम षट्[?:N265-P29-U-01]ष्टितमोऽध्यायः ॥",
+      "source_pdf_pages": [
+        29
+      ],
+      "issues": [
+        {
+          "id": "N265-P29-U-01",
+          "pdf_page": 29,
+          "line": 3,
+          "context": "Adhyaya 66 colophon, second syllable of षट्षष्टितमोऽध्यायः",
+          "position": "immediately after षट् and before ष्टितमोऽध्यायः",
+          "visual_reason": "The internal diagonal stroke of ष is faint or absent in this impression, making the glyph visually resemble प (षट्पष्टितमोऽध्यायः vs. षट्षष्टितमोऽध्यायः); flagged for comparison with duplicate scan page 30.",
+          "reading": null,
+          "canonical_key": null,
+          "chapter": 66,
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ]
+    }
+  ],
+  "chapter_headings": [
+    {
+      "kind": "heading",
+      "chapter": 67,
+      "pdf_page": 29,
+      "text": "॥ सप्तषष्टितमोऽध्यायः ॥",
+      "kannada_review_candidate": "॥ ಅರವತ್ತೇಳನೆಯ ಅಧ್ಯಾಯವು ॥",
+      "status": "accepted",
+      "candidate_fields": {
+        "chapter": 67,
+        "pdf_page": 29,
+        "text": "॥ सप्तषष्टितमोऽध्यायः ॥",
+        "kannada": "॥ ಅರವತ್ತೇಳನೆಯ ಅಧ್ಯಾಯವು ॥"
+      },
+      "identity": "2.67.heading",
+      "source_sanskrit": "॥ सप्तषष्टितमोऽध्यायः ॥",
+      "source_pdf_pages": [
+        29
+      ]
+    }
+  ],
+  "invocations": [
+    {
+      "kind": "invocation",
+      "chapter": 67,
+      "pdf_page": 29,
+      "text": "॥ श्रीगणेशाय नमः ॥",
+      "future_kannada_policy": "transliterate_invocation_only",
+      "kannada_review_candidate": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "status": "accepted",
+      "candidate_fields": {
+        "chapter": 67,
+        "pdf_page": 29,
+        "text": "॥ श्रीगणेशाय नमः ॥",
+        "kannada": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+        "future_kannada_policy": "transliterate_invocation_only"
+      },
+      "identity": "2.67.invocation",
+      "source_sanskrit": "॥ श्रीगणेशाय नमः ॥",
+      "source_pdf_pages": [
+        29
+      ]
+    }
+  ],
+  "ending_status": "Only source-present colophons included; explicit trailing fragments remain partial.",
+  "review_receipt": {
+    "status": "independent_language_review_complete",
+    "changes": [
+      {
+        "key": [
+          2,
+          67,
+          2
+        ],
+        "before": "\"ನಾನು ಗೋಲೋಕರಾಜನು, ನಾನು ಸರ್ವಾಧೀಶನು ಎಂಬುದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ; ಇವಳು ನನ್ನ ಪ್ರಕೃತಿರೂಪಳು; ಹೀಗಿರುವಾಗ ಯಾವ ಕಾರ್ಯದಲ್ಲಿ ಯಾರಿಂದ ನಾವಿಬ್ಬರೂ ಅಪರಾಧಿಗಳಾದೆವು?\" ॥೨॥",
+        "after": "\"ನಾನು ಗೋಲೋಕರಾಜನು, ನಾನು ಸರ್ವಾಧೀಶನು ಎಂಬುದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ; ಇವಳು ನನ್ನ ಪ್ರಕೃತಿರೂಪಳು; ಹೀಗಿರುವಾಗ ಯಾರಿಂದ ನಾವಿಬ್ಬರೂ ಅಪರಾಧಿಗಳಾಗಿ ಮಾಡಲ್ಪಟ್ಟೆವು?\" ॥೨॥"
+      },
+      {
+        "key": [
+          2,
+          67,
+          5
+        ],
+        "before": "ಹೇ ಮಹಾಮುನಿಯೇ, ಹೀಗೆ ವಿಚಾರ ಮಾಡಿ ದೇವೇಶನಾದ ಭಗವಾನ್ ಕೃಷ್ಣನು ಪತ್ನೀಸಮೇತನಾಗಿ ಹಾಗೂ ಮಿತ್ರನೊಡಗೂಡಿ ಮೃತ್ಯುಲೋಕದಲ್ಲಿ ಅವತರಿಸಿದನು ॥[?:N265-P30-U-01]೫॥",
+        "after": "ಹೇ ಮಹಾಮುನಿಯೇ, ಹೀಗೆ ವಿಚಾರ ಮಾಡಿ ದೇವೇಶನಾದ ಭಗವಾನ್ ಕೃಷ್ಣನು ಪತ್ನೀಸಮೇತನಾಗಿ ಹಾಗೂ ಮಿತ್ರನೊಡಗೂಡಿ ಮೃತ್ಯುಲೋಕಕ್ಕೆ ಬಿದ್ದನು ॥[?:N265-P30-U-01]೫॥"
+      },
+      {
+        "identity": "2.66.colophon",
+        "before": "॥ ಓಂ ಎಂದು ಶ್ರೀಮದಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ 'ಕೃಷ್ಣರಾಧಾಶಾಪವರ್ಣನ' ಎಂಬ ಷಟ್[?:N265-P29-U-01]ಷ್ಟಿತಮ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾದುದು ॥",
+        "after": "॥ ಓಂ ಎಂದು ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ 'ಕೃಷ್ಣರಾಧಾಶಾಪವರ್ಣನ' ಎಂಬ ಷಟ್[?:N265-P29-U-01]ಷ್ಟಿತಮ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾದುದು ॥"
+      }
+    ],
+    "interpretive_notes": [],
+    "deferred_keys": []
+  },
+  "source_provenance": [
+    {
+      "pdf_page": 29,
+      "printed_page": 141,
+      "handwritten_page": 293,
+      "image_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/local-pdf-checkpoints/next-source265-305/pages25-32/original-29.png",
+      "image_sha256": "cb73a6fcdb3629fcedea2b2d8edec9f6b116f6f0f54f996e14632c5243279aea",
+      "candidate_path": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/gemini-source265-305-p25-32/page29-raw-body.txt",
+      "candidate_sha256": "afcc065ae23bf43fc7b0f6391a7c0710f089e22fd9d12e535cc44b6c7a07a98c",
+      "candidate_diplomatic_transcription": "न्यभर्त्सयत् स तां क्रुद्धः कृष्णमित्रं प्रतापवान् ॥६०॥ तमतिक्रोधसंयुक्ता राधिका ह्यसुरो भव । शशाप सा मुनिश्रेष्ठ\nसोऽपि क्रोधयुतोऽभवत् ॥६१॥ राधां शशाप मर्त्येषु भव नारी त्वमंजसा । शतवर्षाणि कृष्णस्य वियोगेन समन्विता ॥६२॥\n॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते कृष्णराधाशापवर्णनं नाम षट्[?:N265-P29-U-01]ष्टितमोऽध्यायः ॥\n॥ सप्तषष्टितमोऽध्यायः ॥\n॥ श्रीगणेशाय नमः ॥ ब्रह्मोवाच । एवं परस्परं शप्त्वा खेदयुक्ता बभूविरे । गतगर्वाश्च सर्वे ते विचारं चक्रुरादरात् ॥१॥\nअहं गोलोकराजोऽहं सर्वाधीशो न संशयः । इयं प्रकृतिरूपा मे कृतौ केनापराधिनौ ॥२॥ कृष्णोऽहं सर्वदेवेश अपि मां\nविघ्न उत्थितः । अतो वै विघ्नराजः स गणेशः कुरुतेऽखिलम् ॥३॥ हिताहितं न संदेहस्तदाधारमिदं जगत् । सस्त्रीकः\nशरणं यामि ब्रह्माकारमतश्च तम् ॥४॥ एवं विचार्य देवेशः सस्त्रीको मित्रसंयुतः । पपात भगवान् कृष्णो मृत्युलोके\nमहामुने ॥५॥ मथुरायां च देवक्यां वसुदेवात् समुद्भवः । कृष्णो यादववंशे वै तेषां स सुखदोऽभवत् ॥६॥ वृषभानुसुता\nजाता राधा सा गोकुले मुने । शंखचूडो बभूवाऽथ श्रीदामाऽसुरसत्तमः ॥७॥ ततश्च गोकुलं कृष्णः कंसस्यैव भयाद्ययौ ।\nतत्र राधासमायुक्तो बभूव स जनार्दनः ॥८॥ ततो विघ्नेशमत्यंतं भेजतुस्तौ स्वभावतः । षोडशाक्षरमंत्रेण परे तपसि\nसंस्थितौ ॥९॥ पुरश्चरणमेकं तौ चक्रतुः[?:N265-P29-U-02]परमादरात् । बभूवतुस्ततो ध्यानसमायुक्तौ निरंतरम् ॥१०॥ तपस्त्यक्त्वा तस्य\nहृदि ध्यानयुक्तौ विशेषतः । तपसोऽधिकमुग्रं वै ध्यानं शास्त्रेषु संमतम् ॥११॥ संवत्सरान् स तत्रैव कृष्णश्चैकादश स्थितः ।\nततश्च मथुरायां स जगामाक्रूरसंयुतः ॥१२॥ शतवर्षं वियोगेन राधाकृष्णौ बभूवतुः । युक्तौ परमदुःखार्तौ ध्यायंतौ\nगणनायकम् ॥१३॥ ततस्तयोश्च संप्राप्तो योगः शांतिप्रदायकः । तेन संतोषमापन्नौ गाणपत्यौ बभूवतुः ॥१४॥ गते\nवर्षशते विप्र जग्मतुस्तौ सहानुगौ । वैशाखपूर्णिमायां वै मुने बदरिकाश्रमम् ॥१५॥ तत्र शंभुमुखा देवाः सस्त्रीकाश्च\nसमागताः । यात्रार्थं गणनाथस्य मुनयश्च ययुर्मुदा ॥१६॥ शेषादयो महानागा राजानश्च विशेषतः । त्रिलोकस्था जनाः\nसर्वे जग्मुस्तत्र महामुने ॥१७॥ योगिनः कपिलाद्याश्च तत्राऽहं संगतो मुने । सर्वैर्महोत्सवस्तत्र वार्षिकः क्रियते सदा ॥१८॥\nततस्तं पूजयित्वा ते सर्वे चोपोषणान्विताः । स्थिताश्चक्रुः प्रतिपदि पारणं ते महामुने ॥१९॥ तत्र राधा च कृष्णश्च\n",
+      "diplomatic_transcription_with_holds": "न्यभर्त्सयत् स तां क्रुद्धः कृष्णमित्रं प्रतापवान् ॥६०॥ तमतिक्रोधसंयुक्ता राधिका ह्यसुरो भव । शशाप सा मुनिश्रेष्ठ\nसोऽपि क्रोधयुतोऽभवत् ॥६१॥ राधां शशाप मर्त्येषु भव नारी त्वमंजसा । शतवर्षाणि कृष्णस्य वियोगेन समन्विता ॥६२॥\n॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते कृष्णराधाशापवर्णनं नाम षट्[?:N265-P29-U-01]ष्टितमोऽध्यायः ॥\n॥ सप्तषष्टितमोऽध्यायः ॥\n॥ श्रीगणेशाय नमः ॥ ब्रह्मोवाच । एवं परस्परं शप्त्वा खेदयुक्ता बभूविरे । गतगर्वाश्च सर्वे ते विचारं चक्रुरादरात् ॥१॥\nअहं गोलोकराजोऽहं सर्वाधीशो न संशयः । इयं प्रकृतिरूपा मे कृतौ केनापराधिनौ ॥२॥ कृष्णोऽहं सर्वदेवेश अपि मां\nविघ्न उत्थितः । अतो वै विघ्नराजः स गणेशः कुरुतेऽखिलम् ॥३॥ हिताहितं न संदेहस्तदाधारमिदं जगत् । सस्त्रीकः\nशरणं यामि ब्रह्माकारमतश्च तम् ॥४॥ एवं विचार्य देवेशः सस्त्रीको मित्रसंयुतः । पपात भगवान् कृष्णो मृत्युलोके\nमहामुने ॥[?:N265-P30-U-01]५॥ मथुरायां च देवक्यां वसुदेवात् समुद्भवः । कृष्णो यादववंशे वै तेषां स सुखदोऽभवत् ॥६॥ वृषभानुसुता\nजाता राधा सा गोकुले मुने । शंखचूडो बभूवाऽथ श्रीदामाऽसुरसत्तमः ॥७॥ ततश्च गोकुलं कृष्णः कंसस्यैव भयाद्ययौ ।\nतत्र राधासमायुक्तो बभूव स जनार्दनः ॥८॥ ततो विघ्नेशमत्यंतं भेजतुस्तौ स्वभावतः । षोडशाक्षरमंत्रेण परे तपसि\nसंस्थितौ ॥९॥ पुरश्चरणमेकं तौ चक्रतुः[?:N265-P29-U-02]परमादरात् । बभूवतुस्ततो ध्यानसमायुक्तौ निरंतरम् ॥१०॥ तपस्त्यक्त्वा तस्य\nहृदि ध्यानयुक्तौ विशेषतः । तपसोऽधिकमु[?:N265-P30-U-02]ग्रं वै ध्यानं शास्त्रेषु संमतम् ॥११॥ संवत्सरान् स तत्रैव कृष्णश्चैकादश स्थितः ।\nततश्च मथुरायां स जगामाक्रूरसंयुतः ॥१२॥ शतवर्षं वियोगेन राधाकृष्णौ बभूवतुः । युक्तौ परमदुःखार्तौ ध्यायंतौ\nगणनायकम् ॥१३॥ ततस्तयोश्च संप्राप्तो योगः शांतिप्रदायकः । तेन संतोषमापन्नौ गाणपत्यौ बभूवतुः ॥१४॥ गते\nवर्षशते विप्र जग्मतुस्तौ सहानुगौ । वैशाखपूर्णिमायां वै मुने बदरिकाश्रमम् ॥१५॥ तत्र शंभुमुखा देवाः सस्त्रीकाश्च\nसमागताः । यात्रार्थं गणनाथस्य मुनयश्च ययुर्मुदा ॥१६॥ शेषादयो महानागा राजानश्च विशेषतः । त्रिलोकस्था जनाः\nसर्वे जग्मुस्तत्र महामुने ॥१७॥ योगिनः कपिलाद्याश्च तत्राऽहं संगतो मुने । सर्वैर्महोत्सवस्तत्र वार्षिकः क्रियते सदा ॥१८॥\nततस्तं पूजयित्वा ते सर्वे चोपोषणान्विताः । स्थिताश्चक्रुः प्रतिपदि पारणं ते महामुने ॥१९॥ तत्र राधा च कृष्णश्च\n",
+      "full_page_pixel_comparison_completed": true,
+      "origin": "Gemini_Argon_High_candidate_then_writer_pixel_comparison",
+      "provenance_path": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/gemini-source265-305-p25-32/page29-provenance.json",
+      "provenance_sha256": "5c3a66db26c9b10470805ec22a125d23e4128ef2cdc69400d3ed5d4b820b9042"
+    }
+  ],
+  "duplicate_comparison": {
+    "canonical_page": 29,
+    "comparison_page": 30,
+    "comparison_image_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/local-pdf-checkpoints/next-source265-305/pages25-32/original-30.png",
+    "comparison_image_sha256": "8d6807bab447152b023d88a583e0f9f281ac63135476c31e6337248d4deef67e",
+    "full_page_pixel_comparison_completed": true,
+    "policy": "29 canonical once;30 comparison only, no additional verses/colophon/invocation/joins",
+    "comparison_report_path": "/Users/uthaiahbb/Documents/Codex/2026-10-17/task/gemini-source265-305-p25-32/page30-comparison-only.md",
+    "comparison_report_sha256": "241f5adeff45310be396c11d19ebb4d242e06151423b0fb448ee0a8b22f98865"
+  }
+}
