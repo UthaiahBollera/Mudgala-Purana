@@ -56511,6 +56511,745 @@
         ],
         "accepted_reference_reading": null
       }
+    },
+    {
+      "id": "kh3-ch23-v1",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 1,
+      "verse_end": 1,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p16",
+      "source_sanskrit": "मुनिरुवाच । मनोर्वंशे महाभागोंऽबरीषश्च बभूव यः । एकादशीव्रती नित्यं वदतं तस्य चेष्टितम् ॥१॥",
+      "issues": [
+        {
+          "id": "CH23-V1-EPITHET",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "महाभागोंऽबरीषश्च is anomalous, but महाभागो in the reference OCR points to a nominative epithet of Ambarisha, not the Kannada vocative ಮಹಾಭಾಗರೇ addressed to Nara-Narayana. वदतं addresses the two narrators. Prefer moving the epithet to Ambarisha, conditional on source verification; do not silently emend Sanskrit."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 330,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0330.txt",
+            "individual_page_sha256": "f0bd3d36e7d1144abb4e216411aee17da34397d79ae57c02e80a37866ad3f4f0",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9769,
+            "line_end": 9797,
+            "char_start": 703478,
+            "char_end_exclusive": 705543,
+            "byte_start": 1851842,
+            "byte_end_exclusive": 1857369
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 330,
+            "raw_ocr": "\n\n॥ ओमिति श्रीमदन्ये पुराणोपनिषदि श्रीमन्मौ दले महापुराणे ठृतीये खंडे मद्दोदरचरिते मांघातुश्वरित्रकथनं नाम द्वार्षिशतितमो 5ध्याय: |\n\n\">> <€\n\n॥ श्रीगणेराय नमः ॥ उनिरुवच । मनोवंदो महाभागो ऽवरीषश्च वभ्रूव यः। एकादरीव्रती नित्यं वदतं तस्य चेष्टितम्‌ ॥१॥",
+            "similarity_to_scan_source": 0.4833,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9779,
+            "line_end": 9785,
+            "char_start": 704219,
+            "char_end_exclusive": 704468,
+            "byte_start": 1853797,
+            "byte_end_exclusive": 1854456
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v7",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 7,
+      "verse_end": 7,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p16",
+      "source_sanskrit": "तत्र शीघ्रतया तेन कृतं संध्यादिकं मुने । तथापि कालयोगेन द्वादशी प्रगता ततः ॥७॥",
+      "issues": [
+        {
+          "id": "CH23-V7-ASPECT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "शीघ्रतया correctly says Durvasas performed rites quickly. प्रगता is completed/past rather than the candidate’s progressive ಕಳೆದುಹೋಗುತ್ತಿತ್ತು. Link this new tense/timeline hold to inherited v8 hold; do not smooth chronology by making Durvasas deliberately delay."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 330,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0330.txt",
+            "individual_page_sha256": "f0bd3d36e7d1144abb4e216411aee17da34397d79ae57c02e80a37866ad3f4f0",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9769,
+            "line_end": 9797,
+            "char_start": 703478,
+            "char_end_exclusive": 705543,
+            "byte_start": 1851842,
+            "byte_end_exclusive": 1857369
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 330,
+            "raw_ocr": " तच\nरीघ्रतया तेन कतं संध्यादिकं सुने । तथापि कालयोगेन द्वादशी प्रगता तत; ॥७॥",
+            "similarity_to_scan_source": 0.9344,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9789,
+            "line_end": 9790,
+            "char_start": 704899,
+            "char_end_exclusive": 704975,
+            "byte_start": 1855629,
+            "byte_end_exclusive": 1855829
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v8",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 8,
+      "verse_end": 8,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p16",
+      "source_sanskrit": "मुहूर्तमात्रकालस्योत्क्रमणं तेन वै कृतम् । नृपेण पलमात्रा सा द्वादशी साधिताऽभवत् ॥८॥",
+      "issues": [
+        {
+          "id": "CH23-V8-TIMING",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "MuhurtamatrakalasyotkramanaandpalamatraDvadashitimeunits/agencyneedreview;noharmonizedritualtimeline."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 330,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0330.txt",
+            "individual_page_sha256": "f0bd3d36e7d1144abb4e216411aee17da34397d79ae57c02e80a37866ad3f4f0",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9769,
+            "line_end": 9797,
+            "char_start": 703478,
+            "char_end_exclusive": 705543,
+            "byte_start": 1851842,
+            "byte_end_exclusive": 1857369
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 330,
+            "raw_ocr": " मुहूतेमात्रकाटस्योत्कमणं तन वै\nकृतम्‌ । खपेण पलमात्रा सा द्वादशी साधिताऽभवत्‌ ॥८॥",
+            "similarity_to_scan_source": 0.9185,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9790,
+            "line_end": 9791,
+            "char_start": 704975,
+            "char_end_exclusive": 705057,
+            "byte_start": 1855829,
+            "byte_end_exclusive": 1856053
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v14",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 14,
+      "verse_end": 14,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p16,pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p17",
+      "source_sanskrit": "अतिथिं त्वागतं त्यक्त्वा कथं कुर्वे हि भोजनम् । निमंत्र्य तं विशेषेण जपध्यानपरायणः ॥१४॥",
+      "issues": [
+        {
+          "id": "CH23-V14-JOIN",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Complete14joins348/349once;questionandfollowinginvitation/japa-clauseneedreview."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 330,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0330.txt",
+            "individual_page_sha256": "f0bd3d36e7d1144abb4e216411aee17da34397d79ae57c02e80a37866ad3f4f0",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9769,
+            "line_end": 9797,
+            "char_start": 703478,
+            "char_end_exclusive": 705543,
+            "byte_start": 1851842,
+            "byte_end_exclusive": 1857369
+          },
+          {
+            "reference_page": 331,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0331.txt",
+            "individual_page_sha256": "093983a126f590b189cddfa78dbff67ef9e6e7bddafd3eef93b795054acbf85b",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9799,
+            "line_end": 9825,
+            "char_start": 705593,
+            "char_end_exclusive": 707611,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1862867
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 331,
+            "raw_ocr": "\n\n1 ता व अ अ अ माम जन\n\nख. ३ अ. २३ . पान ७७\n\nनिर्मच्य तं विशेषेण जपध्यानपरायणः ॥१४॥",
+            "similarity_to_scan_source": 0.496,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9799,
+            "line_end": 9805,
+            "char_start": 705593,
+            "char_end_exclusive": 705675,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1857611
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v22",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 22,
+      "verse_end": 22,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p17",
+      "source_sanskrit": "चित्तं बुद्धिसवरूपं यत्तत्र चिंतामणिः स्थितः । तं गच्छ शरणं वत्स पतिं बुद्धेर्विशेषतः ॥२२॥",
+      "issues": [
+        {
+          "id": "CH23-V22-26-SOURCE",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "बुद्धिसवरूपं/सिद्धिंमिच्छति/अभेदेनेनcompressedsourceandfourformsscopeneedtextreview;noSanskritrepairsaccepted."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 331,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0331.txt",
+            "individual_page_sha256": "093983a126f590b189cddfa78dbff67ef9e6e7bddafd3eef93b795054acbf85b",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9799,
+            "line_end": 9825,
+            "char_start": 705593,
+            "char_end_exclusive": 707611,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1862867
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 331,
+            "raw_ocr": " चित्तं बुद्धिस्वरूषं यत्तत्र चितामणिः\nस्थितः । तं गच्छ रारणं वत्स पतिं बुद्र्विरोषतः ॥२२॥",
+            "similarity_to_scan_source": 0.9128,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9810,
+            "line_end": 9811,
+            "char_start": 706253,
+            "char_end_exclusive": 706343,
+            "byte_start": 1859175,
+            "byte_end_exclusive": 1859419
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v23",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 23,
+      "verse_end": 23,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p17",
+      "source_sanskrit": "त्यक्त्वा सिद्धिपतिं देवं सिद्धिंमिच्छति दुर्मतिः । तस्यासिद्धिर्भवेन्नित्यं सर्वत्राऽत्र न संशयः ॥२३॥",
+      "issues": [
+        {
+          "id": "CH23-V22-26-SOURCE",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "बुद्धिसवरूपं/सिद्धिंमिच्छति/अभेदेनेनcompressedsourceandfourformsscopeneedtextreview;noSanskritrepairsaccepted."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 331,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0331.txt",
+            "individual_page_sha256": "093983a126f590b189cddfa78dbff67ef9e6e7bddafd3eef93b795054acbf85b",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9799,
+            "line_end": 9825,
+            "char_start": 705593,
+            "char_end_exclusive": 707611,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1862867
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 331,
+            "raw_ocr": " त्यक्त्वा सिद्धिपतिं देवं सिद्धिमिच्छति दुर्मतिः।\nतस्यासिद्धि भवेन्नित्यं सर्वत्राऽ्र न संरायः ॥२३॥",
+            "similarity_to_scan_source": 0.9595,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9811,
+            "line_end": 9812,
+            "char_start": 706343,
+            "char_end_exclusive": 706443,
+            "byte_start": 1859419,
+            "byte_end_exclusive": 1859697
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v24",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 24,
+      "verse_end": 24,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p17",
+      "source_sanskrit": "एवमुक्त्वा मुनिस्तस्मै ददौ मंत्रं षडक्षरम् । महाविष्णुर्जपति यं ततः सोऽंतर्हितोऽभवत् ॥२४॥",
+      "issues": [
+        {
+          "id": "CH23-V22-26-SOURCE",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "बुद्धिसवरूपं/सिद्धिंमिच्छति/अभेदेनेनcompressedsourceandfourformsscopeneedtextreview;noSanskritrepairsaccepted."
+        }
+      ],
+      "accepted_translation": "ಹೀಗೆಂದು ಹೇಳಿ ಮುನಿಯು, ಮಹಾವಿಷ್ಣುವು ಯಾವ ಮಂತ್ರವನ್ನು ಜಪಿಸುತ್ತಾನೋ ಆ ಆರು ಅಕ್ಷರಗಳ ಮಂತ್ರವನ್ನು ಅವನಿಗೆ ನೀಡಿದನು; ಬಳಿಕ ಅವನು ಅಂತರ್ಧಾನನಾದನು ॥೨೪॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 331,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0331.txt",
+            "individual_page_sha256": "093983a126f590b189cddfa78dbff67ef9e6e7bddafd3eef93b795054acbf85b",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9799,
+            "line_end": 9825,
+            "char_start": 705593,
+            "char_end_exclusive": 707611,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1862867
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 331,
+            "raw_ocr": " एवसखुक्त्वा सुनिस्तसमै ददौ मन्नं षडक्चरम्‌ । महाविष्णुर्जपति यं ततः\nसोंऽतर्दितोऽ भवत्‌ ॥२४॥",
+            "similarity_to_scan_source": 0.898,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9812,
+            "line_end": 9813,
+            "char_start": 706443,
+            "char_end_exclusive": 706535,
+            "byte_start": 1859697,
+            "byte_end_exclusive": 1859949
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v25",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 25,
+      "verse_end": 25,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p17",
+      "source_sanskrit": "अंबरीषस्तदारभ्य विघ्नेशं शरणं गतः । जजाप मंत्रराजं तं पूजयित्वा विनायकम् ॥२५॥",
+      "issues": [
+        {
+          "id": "CH23-V22-26-SOURCE",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "बुद्धिसवरूपं/सिद्धिंमिच्छति/अभेदेनेनcompressedsourceandfourformsscopeneedtextreview;noSanskritrepairsaccepted."
+        }
+      ],
+      "accepted_translation": "ಅಂಬರೀಷನು ಅಂದಿನಿಂದ ವಿಘ್ನೇಶನನ್ನು ಶರಣು ಹೊಂದಿದನು. ವಿನಾಯಕನನ್ನು ಪೂಜಿಸಿ ಆ ಮಂತ್ರರಾಜವನ್ನು ಜಪಿಸಿದನು ॥೨೫॥",
+      "hard_hold": false,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 331,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0331.txt",
+            "individual_page_sha256": "093983a126f590b189cddfa78dbff67ef9e6e7bddafd3eef93b795054acbf85b",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9799,
+            "line_end": 9825,
+            "char_start": 705593,
+            "char_end_exclusive": 707611,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1862867
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 331,
+            "raw_ocr": " अंवरीषस्तदारभ्य विघ्रं हरणं गततः । जजाप मंत्रराज॑ तं पूजयित्वा विनायकम्‌ ॥२५॥",
+            "similarity_to_scan_source": 0.9134,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9813,
+            "line_end": 9813,
+            "char_start": 706535,
+            "char_end_exclusive": 706613,
+            "byte_start": 1859949,
+            "byte_end_exclusive": 1860161
+          },
+          {
+            "reference_page": 331,
+            "raw_ocr": " तमनुगरद्य दुवांसा ययौ स्वस्याश्रमं झुभम्‌ । अंबरीषस्ततो देवं गणेराम भजत्‌ सदा ॥२५॥",
+            "similarity_to_scan_source": 0.2,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9820,
+            "line_end": 9820,
+            "char_start": 707258,
+            "char_end_exclusive": 707341,
+            "byte_start": 1861914,
+            "byte_end_exclusive": 1862139
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v26",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 26,
+      "verse_end": 26,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p17",
+      "source_sanskrit": "विष्णोर्गणेशस्य चैवाभेदेनेन समाश्रितः । गणेशस्य चतुर्धा सा मूर्तिः सर्वत्र दृश्यते ॥२६॥",
+      "issues": [
+        {
+          "id": "CH23-V22-26-SOURCE",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "बुद्धिसवरूपं/सिद्धिंमिच्छति/अभेदेनेनcompressedsourceandfourformsscopeneedtextreview;noSanskritrepairsaccepted."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 331,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0331.txt",
+            "individual_page_sha256": "093983a126f590b189cddfa78dbff67ef9e6e7bddafd3eef93b795054acbf85b",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9799,
+            "line_end": 9825,
+            "char_start": 705593,
+            "char_end_exclusive": 707611,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1862867
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 331,
+            "raw_ocr": "\nविष्णोेणशस्य चैवामेदस्तेन समाभितः । गणेशास्य चतुर्धा सा मूर्तिः सर्वत्र ददयते ॥२६॥",
+            "similarity_to_scan_source": 0.8531,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9813,
+            "line_end": 9814,
+            "char_start": 706613,
+            "char_end_exclusive": 706696,
+            "byte_start": 1860161,
+            "byte_end_exclusive": 1860388
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v32",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 32,
+      "verse_end": 32,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p17",
+      "source_sanskrit": "मां त्यक्त्वा जलपानेन पारणं यत्त्वया कृतम् । सैव निष्फलरूपैकादशी तव भविष्यति ॥३२॥",
+      "issues": [
+        {
+          "id": "CH23-V32-FRUIT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "PrintedoneEkadashiremainsfruitless;othersfruitful33;preserveunusualsourceoutcomewithoutharmonizinganotherAmbarishanarrative."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 331,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0331.txt",
+            "individual_page_sha256": "093983a126f590b189cddfa78dbff67ef9e6e7bddafd3eef93b795054acbf85b",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9799,
+            "line_end": 9825,
+            "char_start": 705593,
+            "char_end_exclusive": 707611,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1862867
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 331,
+            "raw_ocr": " मां त्यक्त्वा जलपानेन पारणं\nयत्त्वया क्तम्‌ । सेव निष्फलरूपैकाद शी तव भविष्यति ॥३२॥",
+            "similarity_to_scan_source": 0.9701,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9818,
+            "line_end": 9819,
+            "char_start": 707092,
+            "char_end_exclusive": 707176,
+            "byte_start": 1861466,
+            "byte_end_exclusive": 1861692
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch23-v37",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 23,
+      "verse_start": 37,
+      "verse_end": 37,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 16,
+        "printed_page": 46,
+        "printed_page_verified": true,
+        "image_sha256": "f84cfeb0dfee22e17fdb690a48ff7eccc27c06ab03f2aca51563099d50c922b1"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p17",
+      "source_sanskrit": "अंबरीषस्य पठति चित्रं यच्च शृणोति यः । चरित्रं तस्य भक्तिश्च मुक्तिर्भवति शाश्वती ॥३७॥",
+      "issues": [
+        {
+          "id": "CH23-V37-SYNTAX",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "अंबरीषस्यपठतिचित्रंयच्च...चरित्रंcompressedwordorderandbenefitclause;donotcertifyrepairfromfluentKannada."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 331,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0331.txt",
+            "individual_page_sha256": "093983a126f590b189cddfa78dbff67ef9e6e7bddafd3eef93b795054acbf85b",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9799,
+            "line_end": 9825,
+            "char_start": 705593,
+            "char_end_exclusive": 707611,
+            "byte_start": 1857419,
+            "byte_end_exclusive": 1862867
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
     }
   ]
 }
