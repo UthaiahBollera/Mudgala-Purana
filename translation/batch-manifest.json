@@ -20680,6 +20680,153 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-86-local-pdf-01.tsv",
+      "sha256": "0984ac3522c45df07b7fbe50ae4495cdc818cca9675708ab7b0bd14feec00fae",
+      "source_kind": "local_pdf",
+      "source_pdf": "306 TO 350.pdf",
+      "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+          "pdf_page": 2,
+          "printed_page": 155,
+          "handwritten_page": 307,
+          "printed_page_verified": true,
+          "image_sha256": "ab7756afd9372377586ca0b374d4a5c92f7a051a4fe048aa1961b83254973783",
+          "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+        },
+        {
+          "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p3",
+          "pdf_page": 3,
+          "printed_page": 156,
+          "handwritten_page": 308,
+          "printed_page_verified": true,
+          "image_sha256": "5c6ad94d11c6a2d8026c86d75e9d66566619f8d2b47583a10e97f1a1b399fd33",
+          "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch74-28",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch74-74-reading-review.json",
+      "review_sha256": "c95002821e25718b05dd0e7f204f5006b723039cb444757557c06f591862fff8",
+      "added_keys": [
+        [
+          2,
+          74,
+          11
+        ],
+        [
+          2,
+          74,
+          12
+        ],
+        [
+          2,
+          74,
+          13
+        ],
+        [
+          2,
+          74,
+          14
+        ],
+        [
+          2,
+          74,
+          15
+        ],
+        [
+          2,
+          74,
+          16
+        ],
+        [
+          2,
+          74,
+          17
+        ],
+        [
+          2,
+          74,
+          18
+        ],
+        [
+          2,
+          74,
+          19
+        ],
+        [
+          2,
+          74,
+          20
+        ],
+        [
+          2,
+          74,
+          21
+        ],
+        [
+          2,
+          74,
+          22
+        ],
+        [
+          2,
+          74,
+          23
+        ],
+        [
+          2,
+          74,
+          24
+        ],
+        [
+          2,
+          74,
+          25
+        ],
+        [
+          2,
+          74,
+          26
+        ],
+        [
+          2,
+          74,
+          27
+        ],
+        [
+          2,
+          74,
+          28
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            74,
+            10
+          ],
+          "old_row": {
+            "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+            "type": "translation",
+            "text": "ಭಾದ್ರಪದ ಶುಕ್ಲ ಚತುರ್ಥಿಯಂದು ಅಲ್ಲಿ ಮಹೋತ್ಸವವು ನಡೆಯುತ್ತದೆ; ಯಾತ್ರೆಗಾಗಿ ಸರ್ವಲೋಕವೂ ಹಾಗೂ ಮೂರು ಲೋಕಗಳಲ್ಲಿ ನೆಲೆಸಿರುವ (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಮೂಲದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಭಾಗ ಮಾತ್ರ; ಉಳಿದ ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.)"
+          },
+          "new_row": {
+            "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2,pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p3",
+            "type": "translation",
+            "text": "ಭಾದ್ರಪದ ಶುಕ್ಲ ಚತುರ್ಥಿಯಂದು ಅಲ್ಲಿ ಮಹೋತ್ಸವವು ನಡೆಯುತ್ತದೆ. ಯಾತ್ರೆಗಾಗಿ ಮೂರು ಲೋಕಗಳಲ್ಲಿ ನೆಲೆಸಿರುವವರೂ ಹಾಗೂ ಸಮಸ್ತ ಲೋಕದವರೂ ಅಲ್ಲಿಗೆ ತೆರಳುತ್ತಾರೆ ॥೧೦॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch73-74-reading-review.json",
+          "rationale": "Earlier explicit a_only fragment completed by verified following original page and independently reviewed once.",
+          "source_evidence": "66436247d5b34c26358acbe20d29df3528dfe3d45b33546f3a8a04d6f88b705d",
+          "review_status": "accepted"
+        }
+      ]
     }
   ]
 }

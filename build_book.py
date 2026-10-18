@@ -199,6 +199,8 @@ for khanda, chapter in chapters:
             else:
                 assert info.get('colophon'), ('Source-confirmed colophon missing', key)
                 body+=f'<p class="colophon">{e(info["colophon"])}</p>'
+            for closing_note in info.get("source_closing_notes", []):
+                body+=f'<p class="caption">{e(closing_note)}</p>'
         source_pages=sorted(set(p for r in chunk for p in r['source_pages'].split(',')),key=source_page_key)
         section_id = chapter_section_id(khanda, chapter, part)
         section_title = info.get('section_title', ordinal+' ಅಧ್ಯಾಯ')
