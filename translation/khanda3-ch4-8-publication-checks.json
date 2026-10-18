@@ -1,0 +1,145 @@
+{
+  "status": "passed_before_publication",
+  "entries": 6574,
+  "new_numbered_entries": 232,
+  "accepted_textual_candidates": 227,
+  "unresolved_placeholders": 5,
+  "hard_hold_keys": [
+    [
+      3,
+      4,
+      50
+    ],
+    [
+      3,
+      5,
+      28
+    ],
+    [
+      3,
+      5,
+      41
+    ],
+    [
+      3,
+      5,
+      45
+    ],
+    [
+      3,
+      7,
+      43
+    ]
+  ],
+  "retained_null_issues": 38,
+  "flagged_new_entries": 134,
+  "boundary_joins": [
+    [
+      3,
+      4,
+      51
+    ],
+    [
+      3,
+      5,
+      8
+    ],
+    [
+      3,
+      6,
+      26
+    ],
+    [
+      3,
+      7,
+      25
+    ]
+  ],
+  "continuity": "Prior3.4.25 followed by3.4.26; four joins counted once",
+  "prior6342texts_CSS_TSVs_prompt_registry_prefix_raw_hashes_preserved": true,
+  "tests": {
+    "google_source": 36,
+    "pdf_source": 16,
+    "reading_contents": 133
+  },
+  "html_epub_structure_assets_links_glyphs_provenance": "passed",
+  "qa": [
+    {
+      "width": 1470,
+      "entries": 6574,
+      "counts": [
+        64,
+        57,
+        44,
+        47,
+        45
+      ],
+      "holds": true,
+      "hard": true,
+      "joins": true,
+      "numbered": true,
+      "toc": true,
+      "overflow": false,
+      "font": true,
+      "banner": false,
+      "dead": 0
+    },
+    {
+      "width": 375,
+      "entries": 6574,
+      "counts": [
+        64,
+        57,
+        44,
+        47,
+        45
+      ],
+      "holds": true,
+      "hard": true,
+      "joins": true,
+      "numbered": true,
+      "toc": true,
+      "overflow": false,
+      "font": true,
+      "banner": false,
+      "dead": 0
+    },
+    {
+      "width": 390,
+      "entries": 6574,
+      "counts": [
+        64,
+        57,
+        44,
+        47,
+        45
+      ],
+      "holds": true,
+      "hard": true,
+      "joins": true,
+      "numbered": true,
+      "toc": true,
+      "overflow": false,
+      "font": true,
+      "banner": false,
+      "dead": 0
+    }
+  ],
+  "google_books": {
+    "book_id": "35cHEQAAQBAJ",
+    "query_urls": [
+      "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%9A%E0%A4%B0%E0%A4%B8%E0%A4%BF",
+      "https://books.google.com/books?id=35cHEQAAQBAJ&jscmd=SearchWithinVolume2&q=%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A4%9A%E0%A5%8D%E0%A4%9A"
+    ],
+    "result": "Both exact original-Sanskrit search requests inaccessible via web tool on 2026-10-18; no verse page verified",
+    "page_id": null,
+    "page_url": null
+  },
+  "limitations": [
+    "All38source/meaningholdsremainnull",
+    "Fivehard-heldKannadatranslationswithheld",
+    "EPUBCheck/device-reader checks not run",
+    "Sanskrit comparison cache absent"
+  ],
+  "no_API_queue_ledger_changes": true
+}

@@ -169,3 +169,5 @@ HTML/EPUB structure, links, asset references, Kannada glyph coverage, exact vers
 The dated review corrected 1,676 verse texts and 10 chapter headings among the original 2,731 entries and recorded 152 unresolved verse records. Its original evidence remains unchanged. The current issue registry records subsequent resolutions separately, including the completed 53:39. Unknown Google Books page IDs remain null rather than guessed.
 
 Latest reviewed publication: Khanda3 chapters1–3 source extents and chapter4verses1–25, adding191entries for6,342total. Unresolved readings remain visibly flagged; existing gaps remain open.
+
+Latest continuation: Khanda3 chapter4verses26–64 and chapters5–8 add232numbered entries (227reviewed Kannada candidates with retained flags;5explicit unresolved placeholders), bringing the edition to6,574entries. All38review holds remain null; rejected Kannada is excluded from reading text. Chapters retain partial reading labels.
