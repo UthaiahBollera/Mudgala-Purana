@@ -17060,6 +17060,302 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-73-local-pdf-01.tsv",
+      "sha256": "05c1b7ef7dace5b03e3408c075d9132f444588f9c3567f713641ad1bd6d068a5",
+      "source_kind": "local_pdf",
+      "source_pdf": "265. To.  305. ( 2 ).pdf",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p18",
+          "pdf_page": 18,
+          "printed_page": 130,
+          "handwritten_page": 282,
+          "printed_page_verified": true,
+          "image_sha256": "5e922cacb6959a6c43de4f190be02a1ecc4172b9bf817062f1f2ede2148ba60c",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        },
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p19",
+          "pdf_page": 19,
+          "printed_page": 131,
+          "handwritten_page": 283,
+          "printed_page_verified": true,
+          "image_sha256": "3b620aaa440d1a095920f97d06a1eb5894fd22664352042fd0707e5558434fde",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        },
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p20",
+          "pdf_page": 20,
+          "printed_page": 132,
+          "handwritten_page": 284,
+          "printed_page_verified": true,
+          "image_sha256": "a08e3b8a4d83846d6ca3bf4fef07425be8c8963f470f47ca32adaccae44fa5ef",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch63-18",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch62-63-reading-review.json",
+      "review_sha256": "ea1217d6a01cf674e2a3900a9f5a4430d3c5741d7d91fe30b844fc9bcd97a099",
+      "added_keys": [
+        [
+          2,
+          62,
+          27
+        ],
+        [
+          2,
+          62,
+          28
+        ],
+        [
+          2,
+          62,
+          29
+        ],
+        [
+          2,
+          62,
+          30
+        ],
+        [
+          2,
+          62,
+          31
+        ],
+        [
+          2,
+          62,
+          32
+        ],
+        [
+          2,
+          62,
+          33
+        ],
+        [
+          2,
+          62,
+          34
+        ],
+        [
+          2,
+          62,
+          35
+        ],
+        [
+          2,
+          62,
+          36
+        ],
+        [
+          2,
+          62,
+          37
+        ],
+        [
+          2,
+          62,
+          38
+        ],
+        [
+          2,
+          62,
+          39
+        ],
+        [
+          2,
+          62,
+          40
+        ],
+        [
+          2,
+          62,
+          41
+        ],
+        [
+          2,
+          62,
+          42
+        ],
+        [
+          2,
+          62,
+          43
+        ],
+        [
+          2,
+          62,
+          44
+        ],
+        [
+          2,
+          62,
+          45
+        ],
+        [
+          2,
+          62,
+          46
+        ],
+        [
+          2,
+          62,
+          47
+        ],
+        [
+          2,
+          62,
+          48
+        ],
+        [
+          2,
+          62,
+          49
+        ],
+        [
+          2,
+          62,
+          50
+        ],
+        [
+          2,
+          62,
+          51
+        ],
+        [
+          2,
+          62,
+          52
+        ],
+        [
+          2,
+          62,
+          53
+        ],
+        [
+          2,
+          62,
+          54
+        ],
+        [
+          2,
+          63,
+          1
+        ],
+        [
+          2,
+          63,
+          2
+        ],
+        [
+          2,
+          63,
+          3
+        ],
+        [
+          2,
+          63,
+          4
+        ],
+        [
+          2,
+          63,
+          5
+        ],
+        [
+          2,
+          63,
+          6
+        ],
+        [
+          2,
+          63,
+          7
+        ],
+        [
+          2,
+          63,
+          8
+        ],
+        [
+          2,
+          63,
+          9
+        ],
+        [
+          2,
+          63,
+          10
+        ],
+        [
+          2,
+          63,
+          11
+        ],
+        [
+          2,
+          63,
+          12
+        ],
+        [
+          2,
+          63,
+          13
+        ],
+        [
+          2,
+          63,
+          14
+        ],
+        [
+          2,
+          63,
+          15
+        ],
+        [
+          2,
+          63,
+          16
+        ],
+        [
+          2,
+          63,
+          17
+        ],
+        [
+          2,
+          63,
+          18
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            62,
+            26
+          ],
+          "old_row": {
+            "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p18",
+            "type": "translation",
+            "text": "ಗಣೇಶನನ್ನು ಪಲ್ಲಕ್ಕಿಯಲ್ಲಿ ಕುಳ್ಳಿರಿಸಿ ರಾಜನು ತನ್ನ ಮನೆಗೆ ಹೊರಟನು … (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಮೂಲದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಭಾಗ ಮಾತ್ರ; ಉಳಿದ ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.)"
+          },
+          "new_row": {
+            "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p18,pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p19",
+            "type": "translation",
+            "text": "ರಾಜನು ಗಣೇಶನನ್ನು ಪಲ್ಲಕ್ಕಿಯಲ್ಲಿ ಕುಳ್ಳಿರಿಸಿ ತನ್ನ ಮನೆಗೆ ತೆರಳಿದನು. ಅಲ್ಲಿಗೆ ಮಿಂಚಿನಂತಹ ರೂಪವುಳ್ಳ ಇಬ್ಬರು ದೈತ್ಯರು ಬಂದು ಎರಗಿದರು. ॥೨೬॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch60-62-reading-review.json",
+          "rationale": "Earlier explicit a_only fragment completed by verified following original page and independently reviewed once.",
+          "source_evidence": "b42874b83fa57d2e931e94e5ae74a80472f4fcc22beec785fb59af723602c9ad",
+          "review_status": "accepted"
+        }
+      ]
     }
   ]
 }

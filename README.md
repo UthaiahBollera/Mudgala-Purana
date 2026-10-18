@@ -4,6 +4,8 @@ Kannada reading draft spanning **two volumes, 56 represented chapters and 2,881 
 
 ## Latest source-backed continuation
 
+Chapters 62–63 add 46 independently language-reviewed entries, bringing the reading edition to 5,601 entries. 6 source/meaning/edition holds remain visible; partial labels and withheld provisional colophons preserve review limits.
+
 Chapters 60–62 add 41 independently language-reviewed entries, bringing the reading edition to 5,555 entries. 3 source/meaning/edition holds remain visible; partial labels and withheld provisional colophons preserve review limits.
 
 Reviewed original pages15–16 add completed60.13–60 and61a only:49 new keys for5,514 entries. Verses60.13 and60.37 are joined once. All nine source holds remain, including the nonverse footer hold, alongside the60.37/60.45 interpretation notes. Quoted गणेशाय नमो remains transliteration only; no unspecified mantra syllable,61b or chapter60 colophon is supplied. Earlier source gaps remain explicit.
