@@ -57950,6 +57950,351 @@
         ],
         "accepted_reference_reading": null
       }
+    },
+    {
+      "id": "kh3-ch25-v8",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 25,
+      "verse_start": 8,
+      "verse_end": 8,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 19,
+        "printed_page": 49,
+        "printed_page_verified": true,
+        "image_sha256": "c40280f7ee1825410ed10e279276116c15e0cb0ddd54e1e429a9d07b5f03128e"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p19,pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p20",
+      "source_sanskrit": "ताभ्यामाराधितो योगी भृगुः परमपावनः । पुत्रार्थं स ददौ ताभ्यां वरं पुत्रप्रदं परम् ॥८॥",
+      "issues": [
+        {
+          "id": "CH3-25-INTEGRATOR-V8",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Join351/352once; Bhṛgu remains agent of the gift; retain genealogy without importing alternate Purana names."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 333,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0333.txt",
+            "individual_page_sha256": "eca997c2993ee8edf9ba5aaa0b2bbbc4fe8ac7bc9825afff405974d03041cc7e",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9875,
+            "line_end": 9882,
+            "char_start": 711427,
+            "char_end_exclusive": 712103,
+            "byte_start": 1872955,
+            "byte_end_exclusive": 1874805
+          },
+          {
+            "reference_page": 334,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0334.txt",
+            "individual_page_sha256": "ded1d25ba6c49b7d65bd9dbc7b9a53d56a260022e07f030253c228389e74751a",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9884,
+            "line_end": 9912,
+            "char_start": 712153,
+            "char_end_exclusive": 714279,
+            "byte_start": 1874855,
+            "byte_end_exclusive": 1880569
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 334,
+            "raw_ocr": "\n\nसल, २ ५. < पान ५०\nव\n\nत्रां स ददौ ताभ्यां वरं पुत्रपदं परम्‌ ॥८॥",
+            "similarity_to_scan_source": 0.625,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9884,
+            "line_end": 9889,
+            "char_start": 712153,
+            "char_end_exclusive": 712218,
+            "byte_start": 1874855,
+            "byte_end_exclusive": 1875010
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch25-v27",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 25,
+      "verse_start": 27,
+      "verse_end": 27,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 19,
+        "printed_page": 49,
+        "printed_page_verified": true,
+        "image_sha256": "c40280f7ee1825410ed10e279276116c15e0cb0ddd54e1e429a9d07b5f03128e"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p20",
+      "source_sanskrit": "तस्य पुत्रो दिलीपश्च दिलीपात्तु भगीरथः । दिलीपोऽन्यस्य राज्ये तं ययौ विघ्नेशमुत्तमम् ॥२७॥",
+      "issues": [
+        {
+          "id": "CH3-25-INTEGRATOR-V27",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw Sanskrit dilIpo anyasya rAjye taM differs from Kannada assigning the kingdom; compare visible scan/reference, no guessed repair."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 334,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0334.txt",
+            "individual_page_sha256": "ded1d25ba6c49b7d65bd9dbc7b9a53d56a260022e07f030253c228389e74751a",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9884,
+            "line_end": 9912,
+            "char_start": 712153,
+            "char_end_exclusive": 714279,
+            "byte_start": 1874855,
+            "byte_end_exclusive": 1880569
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 334,
+            "raw_ocr": " तस्य पुत्रो दिलीपश्च\nदिरीपात्तु भगीरथः । दिली पोऽन्यस्य राज्ये तं ययौ विघ्ररासुत्तमम्‌ ॥२७॥",
+            "similarity_to_scan_source": 0.9324,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9903,
+            "line_end": 9904,
+            "char_start": 713720,
+            "char_end_exclusive": 713812,
+            "byte_start": 1879078,
+            "byte_end_exclusive": 1879328
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch25-v33",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 25,
+      "verse_start": 33,
+      "verse_end": 33,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 19,
+        "printed_page": 49,
+        "printed_page_verified": true,
+        "image_sha256": "c40280f7ee1825410ed10e279276116c15e0cb0ddd54e1e429a9d07b5f03128e"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p20,pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p21",
+      "source_sanskrit": "एवमुक्त्वा महायोगी नारदो गणपं स्मरन् । ययौ स्वर्गं ततो विप्र राजा संदुःखितोऽभवत् ॥३३॥",
+      "issues": [
+        {
+          "id": "CH3-25-INTEGRATOR-V33",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Join352/353once. Sanskrit Narada is subject of yayau svargam; raw Kannada appears to send king to heaven. Reviewer must correct only with source support."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 334,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0334.txt",
+            "individual_page_sha256": "ded1d25ba6c49b7d65bd9dbc7b9a53d56a260022e07f030253c228389e74751a",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9884,
+            "line_end": 9912,
+            "char_start": 712153,
+            "char_end_exclusive": 714279,
+            "byte_start": 1874855,
+            "byte_end_exclusive": 1880569
+          },
+          {
+            "reference_page": 335,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0335.txt",
+            "individual_page_sha256": "1641ce45860f71b3c6838c0a0d0c4d1b7d335c2015913f0d9e6eda9bb48717ca",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9914,
+            "line_end": 9937,
+            "char_start": 714329,
+            "char_end_exclusive": 716276,
+            "byte_start": 1880619,
+            "byte_end_exclusive": 1885832
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 335,
+            "raw_ocr": "\n\nख. ३ अ. २५ चान \"नर\n\nययौ स्वर्ग तलो विप्र राजा संदुःखिलोऽभवत्‌ ॥३३॥",
+            "similarity_to_scan_source": 0.6435,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9914,
+            "line_end": 9918,
+            "char_start": 714329,
+            "char_end_exclusive": 714397,
+            "byte_start": 1880619,
+            "byte_end_exclusive": 1880787
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch25-v38",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 25,
+      "verse_start": 38,
+      "verse_end": 38,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 19,
+        "printed_page": 49,
+        "printed_page_verified": true,
+        "image_sha256": "c40280f7ee1825410ed10e279276116c15e0cb0ddd54e1e429a9d07b5f03128e"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p21",
+      "source_sanskrit": "मदीयमुग्रवेगं संघारणार्यं महामते । पात्रं पश्य महाभागाऽऽगमिष्यामि महीतलम् ॥३८॥",
+      "issues": [
+        {
+          "id": "P353-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'संघारणार्यं' (or 'संधारणार्यं' with blurred ध/घ and र्य/र्थ); preserved raw visible print 'संघारणार्यं'."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 335,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0335.txt",
+            "individual_page_sha256": "1641ce45860f71b3c6838c0a0d0c4d1b7d335c2015913f0d9e6eda9bb48717ca",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9914,
+            "line_end": 9937,
+            "char_start": 714329,
+            "char_end_exclusive": 716276,
+            "byte_start": 1880619,
+            "byte_end_exclusive": 1885832
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 335,
+            "raw_ocr": " मदीयसुग्रवेगं सधारणाथ\nमहामते । पात्र पडय सहाभागाऽऽगमिष्यामि महीतलम्‌ ॥३८॥",
+            "similarity_to_scan_source": 0.871,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9921,
+            "line_end": 9922,
+            "char_start": 714747,
+            "char_end_exclusive": 714821,
+            "byte_start": 1881731,
+            "byte_end_exclusive": 1881935
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch25-v45",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 25,
+      "verse_start": 45,
+      "verse_end": 45,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 19,
+        "printed_page": 49,
+        "printed_page_verified": true,
+        "image_sha256": "c40280f7ee1825410ed10e279276116c15e0cb0ddd54e1e429a9d07b5f03128e"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p21",
+      "source_sanskrit": "नांतं जगाम शंभोः सा जटायास्तं नमाम वै । ततः शिवेन राजार्थे मोचिता धरणीं ययौ ॥४५॥",
+      "issues": [
+        {
+          "id": "CH3-25-INTEGRATOR-V45",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Check subject of namAma against scan; raw Kannada inserts king in parentheses, source agency must not be guessed."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 335,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0335.txt",
+            "individual_page_sha256": "1641ce45860f71b3c6838c0a0d0c4d1b7d335c2015913f0d9e6eda9bb48717ca",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9914,
+            "line_end": 9937,
+            "char_start": 714329,
+            "char_end_exclusive": 716276,
+            "byte_start": 1880619,
+            "byte_end_exclusive": 1885832
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
     }
   ]
 }
