@@ -1,7 +1,7 @@
 {
-  "source_commit": "f85ea252423b3f41a50c25d6c3e5685ef151edad",
-  "coverage": "Publish reviewed Khanda3 opening and chapters1–4 with explicit reading holds",
-  "entries": 6342,
+  "source_commit": "a53701c505569550077df5fb538fc859b67ca178",
+  "coverage": "Extend Khanda3 through chapter8 with five unresolved placeholders",
+  "entries": 6574,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
   "chapter4_verses": 65,
@@ -32,9 +32,9 @@
   "chapters1718_reading_status": "partial_with_twentyfive_visible_notices_colophons_withheld",
   "chapter17_verses": 59,
   "chapter18_verses": 37,
-  "chapter_range": "Khanda3 chapters1–3 andchapter4verses1–25",
-  "html_sha256": "818b5b5e6901a4880e8f20f9bed2e4d5f071b0737251d94eb670b8e22d3401ad",
-  "epub_sha256": "17522bd559bf9a0212f9a7d0ef44d053e16cff7f7a11ececfc605a56cd9f06b7",
+  "chapter_range": "Khanda3 chapters1–8; partial reading labels and explicit holds",
+  "html_sha256": "e64347753494f813003b1fdbcca55c3ee7d80455ebec1d824a12edd999aec5f4",
+  "epub_sha256": "830fa68929e85101e29c0d7b9fe61836374206a0e995552ac1bf48cbaedf1dff",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -76,7 +76,7 @@
   "chapter39_boundary_completion": "50ajoinedwith50bonce;51andcolophonadded;3priorholdsretained",
   "chapter40_complete_verses": 56,
   "chapter40_fragment": null,
-  "new_numbered_keys": 46,
+  "new_numbered_keys": 232,
   "chapter40_new_holds": [
     "P32-40-33-L11",
     "P32-40-45-AGENCY"
@@ -190,10 +190,39 @@
     41,
     57,
     68,
-    25
+    64,
+    57,
+    44,
+    47,
+    45
   ],
   "khanda3_joins_counted_once": 4,
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
-  "khanda3_all191_visible_verse_numbers_verified": true
+  "khanda3_all191_visible_verse_numbers_verified": true,
+  "new_accepted_textual_candidates": 227,
+  "new_unresolved_placeholders": 5,
+  "new_retained_null_issues": 38,
+  "new_four_joins": [
+    [
+      3,
+      4,
+      51
+    ],
+    [
+      3,
+      5,
+      8
+    ],
+    [
+      3,
+      6,
+      26
+    ],
+    [
+      3,
+      7,
+      25
+    ]
+  ]
 }
