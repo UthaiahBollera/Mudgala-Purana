@@ -1,7 +1,7 @@
 {
-  "source_commit": "b6faf7ecbb4956c7b99c877b3e00ab576ab00d33",
-  "coverage": "Extend Khanda3 through chapter13 verse36 with unresolved placeholders",
-  "entries": 6805,
+  "source_commit": "fddc9b519a70141ca8376ac74e406053927e51ff",
+  "coverage": "Complete reviewed Khanda3 chapter13 through verse38",
+  "entries": 6807,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
   "chapter4_verses": 65,
@@ -32,9 +32,9 @@
   "chapters1718_reading_status": "partial_with_twentyfive_visible_notices_colophons_withheld",
   "chapter17_verses": 59,
   "chapter18_verses": 37,
-  "chapter_range": "Khanda3chapters1–12 andchapter13verses1–36;partialreadinglabelsandexplicit holds",
-  "html_sha256": "6ed6ac2e379db243f1e205803ef801cca6be0baec613265eca4cef54118c8b16",
-  "epub_sha256": "5a07c53ad73f35b4701230c6001d07aa58efc3e08c1bbc6e7976a877a3c09cb4",
+  "chapter_range": "Khanda3chapters1–13;chapter13numberedextent1–38;partialreadinglabelsandholdsretained",
+  "html_sha256": "a228643369638a33ec2107e780d55233f8be2096ca5acf25b4a7623e4c6d93ac",
+  "epub_sha256": "12b83dc7e33b50a117f208fb196b6caab37eecae5646d0c7ffc27f9cfca3118f",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -76,7 +76,7 @@
   "chapter39_boundary_completion": "50ajoinedwith50bonce;51andcolophonadded;3priorholdsretained",
   "chapter40_complete_verses": 56,
   "chapter40_fragment": null,
-  "new_numbered_keys": 231,
+  "new_numbered_keys": 2,
   "chapter40_new_holds": [
     "P32-40-33-L11",
     "P32-40-45-AGENCY"
@@ -199,14 +199,14 @@
     46,
     40,
     48,
-    36
+    38
   ],
   "khanda3_joins_counted_once": 4,
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 192,
-  "new_unresolved_placeholders": 39,
+  "new_accepted_textual_candidates": 2,
+  "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 70,
   "new_seven_joins": [
     [
@@ -245,7 +245,15 @@
       12
     ]
   ],
-  "new_outgoing_fragment": "3.13.37a retained unpublished for nextbatch",
+  "new_outgoing_fragment": null,
   "new_native_additional_holds": 1,
-  "new_fragment_published": false
+  "new_fragment_published": "3.13.37joined43/44once",
+  "chapter13_source_holds_retained": true,
+  "new_join": [
+    [
+      3,
+      13,
+      37
+    ]
+  ]
 }
