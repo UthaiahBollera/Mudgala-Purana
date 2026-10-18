@@ -179,3 +179,5 @@ Khanda3chapter13nowextends through38withitsactualcolophon. Two independently rev
 Khanda3 chapters14–15 add74complete numbered entries (45reviewed Kannada translations; 29visible unresolved placeholders), bringing the edition to6,881entries in140representedchapters. All21originalholdrecords remainnull. Threeboundaryjoins occur once;15.13retains bothPDFidentities. Originalreference spansremainunchanged;demonstrablemappingfindingsareseparate derivatives.
 
 Khanda3chapter16adds36complete numbered entries (15reviewed Kannada translations;21visible unresolved placeholders),bringing edition to6,917entries in141representedchapters. All11originalholdobjectsremainnull;nojoins;originalreferenceevidenceunchanged.
+
+Khanda3chapter17adds56complete numbered entries (34reviewed Kannada translations;22visible unresolved placeholders),bringing edition to6,973entries in142representedchapters. All19originalholdobjectsremainnull;51joinonce;originalreferenceevidenceunchanged.
