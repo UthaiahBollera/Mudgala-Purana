@@ -17647,6 +17647,276 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-75-local-pdf-01.tsv",
+      "sha256": "f6197ff4a9c3bbf50c50b5726ce67d7d10e3e1d856159da402937bf48ae59b64",
+      "source_kind": "local_pdf",
+      "source_pdf": "265. To.  305. ( 2 ).pdf",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p23",
+          "pdf_page": 23,
+          "printed_page": 135,
+          "handwritten_page": 287,
+          "printed_page_verified": true,
+          "image_sha256": "28b34f976134962312095af379af39366a6673f401568878eff06416dee1fc5e",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        },
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p24",
+          "pdf_page": 24,
+          "printed_page": 136,
+          "handwritten_page": 288,
+          "printed_page_verified": true,
+          "image_sha256": "a203b5df05f22c8be5c1a14e748d7c73c8567c7a34549f9ea0171e14c0578d27",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch65-19",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch64-65-reading-review.json",
+      "review_sha256": "7718f97f5ac22f40b67c67a27fffed6edcf5cb3fd4453438fc9e9dda80976877",
+      "added_keys": [
+        [
+          2,
+          64,
+          20
+        ],
+        [
+          2,
+          64,
+          21
+        ],
+        [
+          2,
+          64,
+          22
+        ],
+        [
+          2,
+          64,
+          23
+        ],
+        [
+          2,
+          64,
+          24
+        ],
+        [
+          2,
+          64,
+          25
+        ],
+        [
+          2,
+          64,
+          26
+        ],
+        [
+          2,
+          64,
+          27
+        ],
+        [
+          2,
+          64,
+          28
+        ],
+        [
+          2,
+          64,
+          29
+        ],
+        [
+          2,
+          64,
+          30
+        ],
+        [
+          2,
+          64,
+          31
+        ],
+        [
+          2,
+          64,
+          32
+        ],
+        [
+          2,
+          64,
+          33
+        ],
+        [
+          2,
+          64,
+          34
+        ],
+        [
+          2,
+          64,
+          35
+        ],
+        [
+          2,
+          64,
+          36
+        ],
+        [
+          2,
+          64,
+          37
+        ],
+        [
+          2,
+          64,
+          38
+        ],
+        [
+          2,
+          64,
+          39
+        ],
+        [
+          2,
+          64,
+          40
+        ],
+        [
+          2,
+          64,
+          41
+        ],
+        [
+          2,
+          64,
+          42
+        ],
+        [
+          2,
+          64,
+          43
+        ],
+        [
+          2,
+          64,
+          44
+        ],
+        [
+          2,
+          64,
+          45
+        ],
+        [
+          2,
+          64,
+          46
+        ],
+        [
+          2,
+          64,
+          47
+        ],
+        [
+          2,
+          65,
+          1
+        ],
+        [
+          2,
+          65,
+          2
+        ],
+        [
+          2,
+          65,
+          3
+        ],
+        [
+          2,
+          65,
+          4
+        ],
+        [
+          2,
+          65,
+          5
+        ],
+        [
+          2,
+          65,
+          6
+        ],
+        [
+          2,
+          65,
+          7
+        ],
+        [
+          2,
+          65,
+          8
+        ],
+        [
+          2,
+          65,
+          9
+        ],
+        [
+          2,
+          65,
+          10
+        ],
+        [
+          2,
+          65,
+          11
+        ],
+        [
+          2,
+          65,
+          12
+        ],
+        [
+          2,
+          65,
+          13
+        ],
+        [
+          2,
+          65,
+          14
+        ],
+        [
+          2,
+          65,
+          15
+        ],
+        [
+          2,
+          65,
+          16
+        ],
+        [
+          2,
+          65,
+          17
+        ],
+        [
+          2,
+          65,
+          18
+        ],
+        [
+          2,
+          65,
+          19
+        ]
+      ],
+      "boundary_completions": []
     }
   ]
 }
