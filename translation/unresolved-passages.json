@@ -33974,6 +33974,83 @@
       "book_id": null,
       "google_books_pages": null,
       "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch67-v21",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 67,
+      "verse_start": 21,
+      "verse_end": 21,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 29,
+        "printed_page": 141,
+        "audit_global_page": 293,
+        "image_sha256": "cb73a6fcdb3629fcedea2b2d8edec9f6b116f6f0f54f996e14632c5243279aea",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p31",
+      "source_sanskrit": "ततस्तयोर्गणेशानो दर्शयामास चोत्तमम् । रूपं चतुर्भुजं सक्षाद्ध्वज[?:N265-P31-U-01]दिचिह्नितम् ॥२१॥",
+      "issues": [
+        {
+          "hold_id": "N265-P31-U-01",
+          "pdf_page": 31,
+          "printed_page": 142,
+          "handwritten_page": 294,
+          "line": 2,
+          "verse": "2.67.21",
+          "context": "सक्षाद्ध्वज[?:N265-P31-U-01]दिचिह्नितम् ॥२१॥",
+          "visual_reason": "Two-akṣara sequence between 'सक्षाद्ध्वज' and 'दिचिह्नितम्' in the washed-out upper-left zone resembles 'वका' or 'चका' with possible worn/missing subscript stroke; held without normalization.",
+          "reading": null,
+          "id": "N265-P31-U-01",
+          "canonical_key": [
+            2,
+            67,
+            21
+          ],
+          "chapter": 67,
+          "status": "open",
+          "integrator_pixel_compared": true,
+          "kind": "source_glyph"
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch68-v14",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 68,
+      "verse_start": 14,
+      "verse_end": 14,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "265. To.  305. ( 2 ).pdf",
+        "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+        "pdf_page": 29,
+        "printed_page": 141,
+        "audit_global_page": 293,
+        "image_sha256": "cb73a6fcdb3629fcedea2b2d8edec9f6b116f6f0f54f996e14632c5243279aea",
+        "printed_page_verified": true
+      },
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p32",
+      "source_sanskrit": "स्वसंवेद्यात् परं ब्रह्म नास्ति संयोगधारकम् । सर्वत्राऽयं निजानंदः स्वानंदे सकलो भवेत् ॥१४॥",
+      "issues": [
+        {
+          "id": "N265-P32-68-14-COMPRESSED-CLAUSE",
+          "status": "open",
+          "kind": "linguistic_interpretation",
+          "detail": "Compressed सर्वत्राऽयं निजानंदः स्वानंदे सकलो भवेत् remains interpretively uncertain; reviewed literal vocabulary retained without doctrinal rewrite."
+        }
+      ],
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
     }
   ]
 }

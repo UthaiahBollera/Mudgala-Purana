@@ -18670,6 +18670,302 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-79-local-pdf-01.tsv",
+      "sha256": "955f67347b023019d46054da81e17e9f88c379a87992c933da2bfead0a246b5f",
+      "source_kind": "local_pdf",
+      "source_pdf": "265. To.  305. ( 2 ).pdf",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+          "pdf_page": 29,
+          "printed_page": 141,
+          "handwritten_page": 293,
+          "printed_page_verified": true,
+          "image_sha256": "cb73a6fcdb3629fcedea2b2d8edec9f6b116f6f0f54f996e14632c5243279aea",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        },
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p31",
+          "pdf_page": 31,
+          "printed_page": 142,
+          "handwritten_page": 294,
+          "printed_page_verified": true,
+          "image_sha256": "7f5a91522953cefb69e939fa7ef77933167cb23e88f9abd436b325cb778c2cdc",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        },
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p32",
+          "pdf_page": 32,
+          "printed_page": 143,
+          "handwritten_page": 295,
+          "printed_page_verified": true,
+          "image_sha256": "7dc964fca15527e86d5c9bc4a757621a26f23b8c93e2640e044c77596fa9bc9e",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch68-19",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch67-68-reading-review.json",
+      "review_sha256": "544feaf0f174971618c2c6a70dc62ef0fc76d5d5b98b6a32e052dae5bf086dcd",
+      "added_keys": [
+        [
+          2,
+          67,
+          21
+        ],
+        [
+          2,
+          67,
+          22
+        ],
+        [
+          2,
+          67,
+          23
+        ],
+        [
+          2,
+          67,
+          24
+        ],
+        [
+          2,
+          67,
+          25
+        ],
+        [
+          2,
+          67,
+          26
+        ],
+        [
+          2,
+          67,
+          27
+        ],
+        [
+          2,
+          67,
+          28
+        ],
+        [
+          2,
+          67,
+          29
+        ],
+        [
+          2,
+          67,
+          30
+        ],
+        [
+          2,
+          67,
+          31
+        ],
+        [
+          2,
+          67,
+          32
+        ],
+        [
+          2,
+          67,
+          33
+        ],
+        [
+          2,
+          67,
+          34
+        ],
+        [
+          2,
+          67,
+          35
+        ],
+        [
+          2,
+          67,
+          36
+        ],
+        [
+          2,
+          67,
+          37
+        ],
+        [
+          2,
+          67,
+          38
+        ],
+        [
+          2,
+          67,
+          39
+        ],
+        [
+          2,
+          67,
+          40
+        ],
+        [
+          2,
+          67,
+          41
+        ],
+        [
+          2,
+          67,
+          42
+        ],
+        [
+          2,
+          67,
+          43
+        ],
+        [
+          2,
+          67,
+          44
+        ],
+        [
+          2,
+          67,
+          45
+        ],
+        [
+          2,
+          67,
+          46
+        ],
+        [
+          2,
+          67,
+          47
+        ],
+        [
+          2,
+          68,
+          1
+        ],
+        [
+          2,
+          68,
+          2
+        ],
+        [
+          2,
+          68,
+          3
+        ],
+        [
+          2,
+          68,
+          4
+        ],
+        [
+          2,
+          68,
+          5
+        ],
+        [
+          2,
+          68,
+          6
+        ],
+        [
+          2,
+          68,
+          7
+        ],
+        [
+          2,
+          68,
+          8
+        ],
+        [
+          2,
+          68,
+          9
+        ],
+        [
+          2,
+          68,
+          10
+        ],
+        [
+          2,
+          68,
+          11
+        ],
+        [
+          2,
+          68,
+          12
+        ],
+        [
+          2,
+          68,
+          13
+        ],
+        [
+          2,
+          68,
+          14
+        ],
+        [
+          2,
+          68,
+          15
+        ],
+        [
+          2,
+          68,
+          16
+        ],
+        [
+          2,
+          68,
+          17
+        ],
+        [
+          2,
+          68,
+          18
+        ],
+        [
+          2,
+          68,
+          19
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            67,
+            20
+          ],
+          "old_row": {
+            "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29",
+            "type": "translation",
+            "text": "ಅಲ್ಲಿ ರಾಧೆಯೂ ಮತ್ತು ಕೃಷ್ಣನೂ (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಮೂಲದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಭಾಗ ಮಾತ್ರ; ಉಳಿದ ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.)"
+          },
+          "new_row": {
+            "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p29,pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p31",
+            "type": "translation",
+            "text": "ಅಲ್ಲಿ ರಾಧೆಯೂ ಮತ್ತು ಕೃಷ್ಣನೂ ಒಟ್ಟಾಗಿ ಸೇರಿ, ರಾತ್ರಿಯಲ್ಲಿ ಭಾವಯುಕ್ತರಾಗಿ ಗಣಪತಿಯನ್ನು ಧ್ಯಾನಿಸುತ್ತಾ ಉತ್ತಮವಾದ ಮಂತ್ರವನ್ನು ಜಪಿಸಿದರು ॥೨೦॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch66-67-reading-review.json",
+          "rationale": "Earlier explicit a_only fragment completed by verified following original page and independently reviewed once.",
+          "source_evidence": "7e29f6ef801736a73c5294244c345469016f6fd2f853b5a3be9b8625ed13fc9f",
+          "review_status": "accepted"
+        }
+      ]
     }
   ]
 }
