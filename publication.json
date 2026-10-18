@@ -1,7 +1,7 @@
 {
-  "source_commit": "2ba584c8d39718a04ef0642b25b843805e931040",
-  "coverage": "Publish reviewed Khanda 3 chapters 31–35 with explicit unresolved passages",
-  "entries": 8002,
+  "source_commit": "c8d30a996401132568845c21bf2651ba313ba69d",
+  "coverage": "Publish reviewed Khanda 3 chapters 36–40 with explicit unresolved passages",
+  "entries": 8281,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
   "chapter4_verses": 65,
@@ -32,9 +32,9 @@
   "chapters1718_reading_status": "partial_with_twentyfive_visible_notices_colophons_withheld",
   "chapter17_verses": 59,
   "chapter18_verses": 37,
-  "chapter_range": "Khanda3chapters1–35;chapters31–35combinedflaggedrelease;partialreadinglabelsretained",
-  "html_sha256": "a7577523aed5a1232b9c52023871f65552d4c25a09b376f2992dc456f94014fa",
-  "epub_sha256": "49ff5e5bfda58b40e07b1adaf705e895a04e342eea0867ad0ddf04e46c16d5b1",
+  "chapter_range": "Khanda3chapters1–40;chapters36–40combinedflaggedrelease;partialreadinglabelsretained",
+  "html_sha256": "e9610e37e4d78d33881a01f44491c9be2910f044072ac42bfa1f29210006a0a1",
+  "epub_sha256": "d2d6cab23ea747614659648a5b9f422343920d4bcdafab230a8a819668feb0c5",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -76,7 +76,7 @@
   "chapter39_boundary_completion": "50ajoinedwith50bonce;51andcolophonadded;3priorholdsretained",
   "chapter40_complete_verses": 56,
   "chapter40_fragment": null,
-  "new_numbered_keys": 293,
+  "new_numbered_keys": 279,
   "chapter40_new_holds": [
     "P32-40-33-L11",
     "P32-40-45-AGENCY"
@@ -221,14 +221,19 @@
     57,
     32,
     64,
-    52
+    52,
+    46,
+    76,
+    56,
+    46,
+    55
   ],
   "khanda3_joins_counted_once": 4,
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 277,
-  "new_unresolved_placeholders": 16,
+  "new_accepted_textual_candidates": 253,
+  "new_unresolved_placeholders": 26,
   "new_retained_null_issues": 70,
   "new_seven_joins": [
     [
@@ -274,53 +279,58 @@
   "new_join": [
     [
       3,
-      31,
-      25
+      36,
+      44
     ],
     [
       3,
-      31,
-      50
+      37,
+      20
     ],
     [
       3,
-      31,
-      75
+      37,
+      45
     ],
     [
       3,
-      32,
-      8
+      37,
+      71
     ],
     [
       3,
-      32,
-      34
+      38,
+      16
     ],
     [
       3,
-      33,
-      26
+      38,
+      41
     ],
     [
       3,
-      34,
-      40
+      39,
+      31
     ],
     [
       3,
-      35,
-      26
+      40,
+      7
+    ],
+    [
+      3,
+      40,
+      32
     ]
   ],
   "release_group": [
-    31,
-    32,
-    33,
-    34,
-    35
+    36,
+    37,
+    38,
+    39,
+    40
   ],
-  "represented_chapters": 160,
-  "new_translation_units": 276,
-  "new_shared_reference_entries": 1
+  "represented_chapters": 165,
+  "new_translation_units": 253,
+  "new_shared_reference_entries": 0
 }
