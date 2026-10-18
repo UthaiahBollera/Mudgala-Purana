@@ -20379,6 +20379,307 @@
           "review_status": "accepted"
         }
       ]
+    },
+    {
+      "file": "batch-85-local-pdf-01.tsv",
+      "sha256": "afd41efa5dd65365c52aa3e5a8f673625ea0f034f1d715e4107471581c6b5049",
+      "source_kind": "local_pdf",
+      "source_pdf": "306 TO 350.pdf",
+      "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+      "additional_source_pdfs": [
+        {
+          "filename": "265. To.  305. ( 2 ).pdf",
+          "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        }
+      ],
+      "source_pages": [
+        {
+          "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+          "pdf_page": 1,
+          "printed_page": 154,
+          "handwritten_page": 306,
+          "printed_page_verified": true,
+          "image_sha256": "46a294d6f234dc48f6885065d025af7bab01af26ae4655197f8d4f3d586de954",
+          "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+        },
+        {
+          "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+          "pdf_page": 2,
+          "printed_page": 155,
+          "handwritten_page": 307,
+          "printed_page_verified": true,
+          "image_sha256": "ab7756afd9372377586ca0b374d4a5c92f7a051a4fe048aa1961b83254973783",
+          "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+        },
+        {
+          "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p42",
+          "pdf_page": 42,
+          "printed_page": 153,
+          "handwritten_page": 305,
+          "printed_page_verified": true,
+          "image_sha256": "c912d91814edb4bfd05b2c1e1526e1c1abb18096c3daae9c0d1e91252652792b",
+          "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda2-ch74-10",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda2-ch73-74-reading-review.json",
+      "review_sha256": "ac4bb2cab744cf853d359179c8da4c0e1e38dc484382f366f874e1fe3801129a",
+      "added_keys": [
+        [
+          2,
+          73,
+          15
+        ],
+        [
+          2,
+          73,
+          16
+        ],
+        [
+          2,
+          73,
+          17
+        ],
+        [
+          2,
+          73,
+          18
+        ],
+        [
+          2,
+          73,
+          19
+        ],
+        [
+          2,
+          73,
+          20
+        ],
+        [
+          2,
+          73,
+          21
+        ],
+        [
+          2,
+          73,
+          22
+        ],
+        [
+          2,
+          73,
+          23
+        ],
+        [
+          2,
+          73,
+          24
+        ],
+        [
+          2,
+          73,
+          25
+        ],
+        [
+          2,
+          73,
+          26
+        ],
+        [
+          2,
+          73,
+          27
+        ],
+        [
+          2,
+          73,
+          28
+        ],
+        [
+          2,
+          73,
+          29
+        ],
+        [
+          2,
+          73,
+          30
+        ],
+        [
+          2,
+          73,
+          31
+        ],
+        [
+          2,
+          73,
+          32
+        ],
+        [
+          2,
+          73,
+          33
+        ],
+        [
+          2,
+          73,
+          34
+        ],
+        [
+          2,
+          73,
+          35
+        ],
+        [
+          2,
+          73,
+          36
+        ],
+        [
+          2,
+          73,
+          37
+        ],
+        [
+          2,
+          73,
+          38
+        ],
+        [
+          2,
+          73,
+          39
+        ],
+        [
+          2,
+          73,
+          40
+        ],
+        [
+          2,
+          73,
+          41
+        ],
+        [
+          2,
+          73,
+          42
+        ],
+        [
+          2,
+          73,
+          43
+        ],
+        [
+          2,
+          73,
+          44
+        ],
+        [
+          2,
+          73,
+          45
+        ],
+        [
+          2,
+          73,
+          46
+        ],
+        [
+          2,
+          73,
+          47
+        ],
+        [
+          2,
+          73,
+          48
+        ],
+        [
+          2,
+          73,
+          49
+        ],
+        [
+          2,
+          73,
+          50
+        ],
+        [
+          2,
+          74,
+          1
+        ],
+        [
+          2,
+          74,
+          2
+        ],
+        [
+          2,
+          74,
+          3
+        ],
+        [
+          2,
+          74,
+          4
+        ],
+        [
+          2,
+          74,
+          5
+        ],
+        [
+          2,
+          74,
+          6
+        ],
+        [
+          2,
+          74,
+          7
+        ],
+        [
+          2,
+          74,
+          8
+        ],
+        [
+          2,
+          74,
+          9
+        ],
+        [
+          2,
+          74,
+          10
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            73,
+            14
+          ],
+          "old_row": {
+            "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p42",
+            "type": "translation",
+            "text": "ಆ ಗಣೇಶ್ವರನು ಮಾಯೆಯಿಂದ ನಾಲ್ವರನ್ನೂ ಮೋಹಗೊಳಿಸಿ ನೆಲೆಸಿದ್ದಾನೆ (ಪರಿಶೀಲನೆ: ೧೪ - ಅಪೂರ್ಣ ಭಾಗ (a_only)) (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಮೂಲದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಭಾಗ ಮಾತ್ರ; ಉಳಿದ ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.)"
+          },
+          "new_row": {
+            "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p42,pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+            "type": "translation",
+            "text": "ಆ ಗಣೇಶ್ವರನಾದ ಗಜಾನನನು ಮಾಯೆಯಿಂದ ಆ ನಾಲ್ವರನ್ನೂ ಮೋಹಗೊಳಿಸಿ, ಅವರ ಹೃದಯದಲ್ಲಿ ತನ್ನ ಸ್ವಸ್ವರೂಪದಿಂದ ನೆಲೆಸಿರುತ್ತಾನೆ ॥೧೪॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch72-73-reading-review.json",
+          "rationale": "Earlier explicit a_only fragment completed by verified following original page and independently reviewed once.",
+          "source_evidence": "e2ecaf0f59c05502c82a3e4fc69ed614ef2beb149bf550da55130d7d0c1d8ebc",
+          "review_status": "accepted"
+        }
+      ]
     }
   ]
 }

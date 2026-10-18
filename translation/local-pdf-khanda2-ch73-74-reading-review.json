@@ -1,0 +1,1340 @@
+{
+  "schema_version": 1,
+  "source_kind": "local_pdf",
+  "source_priority": "scanned_pdf_primary_ocr_aid_google_books_reference",
+  "primary_source": {
+    "filename": "306 TO 350.pdf",
+    "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+    "pdf_page": 1,
+    "printed_page": 154,
+    "audit_global_page": 306,
+    "image_sha256": "46a294d6f234dc48f6885065d025af7bab01af26ae4655197f8d4f3d586de954",
+    "printed_page_verified": true
+  },
+  "additional_source_pdfs": [
+    {
+      "filename": "265. To.  305. ( 2 ).pdf",
+      "sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+    }
+  ],
+  "source_pages": [
+    {
+      "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "pdf_page": 1,
+      "printed_page": 154,
+      "handwritten_page": 306,
+      "printed_page_verified": true,
+      "image_sha256": "46a294d6f234dc48f6885065d025af7bab01af26ae4655197f8d4f3d586de954",
+      "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+    },
+    {
+      "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "pdf_page": 2,
+      "printed_page": 155,
+      "handwritten_page": 307,
+      "printed_page_verified": true,
+      "image_sha256": "ab7756afd9372377586ca0b374d4a5c92f7a051a4fe048aa1961b83254973783",
+      "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+    },
+    {
+      "id": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p42",
+      "pdf_page": 42,
+      "printed_page": 153,
+      "handwritten_page": 305,
+      "printed_page_verified": true,
+      "image_sha256": "c912d91814edb4bfd05b2c1e1526e1c1abb18096c3daae9c0d1e91252652792b",
+      "source_sha256": "6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34"
+    }
+  ],
+  "scope": "Original PDF pages01-02; independently reviewed complete verses and explicit historical trailing fragment; source and interpretation holds retained.",
+  "source_method": "Primary PDF pixels frozen; independent language review; explicit boundary completion and joins counted once.",
+  "verses": [
+    {
+      "key": [
+        2,
+        73,
+        14
+      ],
+      "source_pages": "pdf:6046bfe1da2a5cbab09eda236e24ebfc665983069fc6bb16c984b989d4b29e34:p42,pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "चतुरो मोहयित्वा वै मायया स गणेश्वरः । तिष्ठति स्वस्वरूपेण तेषां हृदि गजाननः ॥१४॥",
+      "text": "ಆ ಗಣೇಶ್ವರನಾದ ಗಜಾನನನು ಮಾಯೆಯಿಂದ ಆ ನಾಲ್ವರನ್ನೂ ಮೋಹಗೊಳಿಸಿ, ಅವರ ಹೃದಯದಲ್ಲಿ ತನ್ನ ಸ್ವಸ್ವರೂಪದಿಂದ ನೆಲೆಸಿರುತ್ತಾನೆ ॥೧೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        15
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "नामरूपात्मकेष्वेव ब्रह्म यत् परितिष्ठति । जानीहि वेदेषु तदसद्रूपं शक्तिवाचकम् ॥१५॥",
+      "text": "ನಾಮರೂಪಾತ್ಮಕವಾದವುಗಳಲ್ಲಿಯೇ ಯಾವ ಬ್ರಹ್ಮವು ನೆಲೆಸಿದೆಯೋ, ವೇದಗಳಲ್ಲಿ ಅದನ್ನು ಅಸದ್ರೂಪವೆಂದೂ ಶಕ್ತಿವಾಚಕವೆಂದೂ ತಿಳಿ ॥೧೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        16
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "तेष्वात्माऽमृतरूपश्च भानुः सद्रूपवाचकः । तयोरभेदभावेष्वानंदो विष्णुः स उच्यते ॥१६॥",
+      "text": "ಅವುಗಳಲ್ಲಿ ಅಮೃತರೂಪನಾದ ಆತ್ಮನು ಸದ್ರೂಪವಾಚಕನಾದ ಭಾನುವು; ಅವೆರಡರ ಅಭೇದಭಾವಗಳಲ್ಲಿ ಆನಂದರೂಪನಾದವನೇ ಆ ವಿಷ್ಣುವೆಂದು ಹೇಳಲ್ಪಡುತ್ತಾನೆ ॥೧೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        17
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "त्रिष्वव्यक्तस्वरूपं यन्नेति कर्ता विशेषतः । निर्मोहः शिव एवाऽसौ तुर्यो वेदे प्रकथ्यते ॥१७॥",
+      "text": "ಈ ಮೂರರಲ್ಲಿ ಅವ್ಯಕ್ತಸ್ವರೂಪವಾಗಿರುವ ಹಾಗೂ ವಿಶೇಷವಾಗಿ 'ನೇತಿ' (ಇದಲ್ಲ) ಎಂಬುದರ ಕರ್ತನಾಗಿರುವ, ನಿರ್ಮೋಹನಾದ ಆ ಶಿವನೇ ವೇದದಲ್ಲಿ ತುರ್ಯನೆಂದು ಹೇಳಲ್ಪಡುತ್ತಾನೆ ॥೧೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        18
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "चतुर्णां चैव संयोगे स्वानंदः परिकीर्तितः । तद्ब्रह्म गणनाथोऽयं नानाखेलकरोऽभवत् ॥१८॥",
+      "text": "ಆ ನಾಲ್ಕರ ಸಂಯೋಗದಲ್ಲಿಯೇ ಸ್ವಾನಂದವು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ; ಆ ಬ್ರಹ್ಮವೇ ಈ ಗಣನಾಥನಾಗಿದ್ದು, ನಾನಾವಿಧವಾದ ಲೀಲೆಗಳನ್ನು ಮಾಡುವವನಾದನು ॥೧೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        19
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "एवं तस्यावताराश्च चत्वारः परिकीर्तिताः । चतुर्भावप्रसिद्ध्यर्थं गौणरूपास्ततोऽभवन् ॥१९॥",
+      "text": "ಹೀಗೆ ಅವನ ನಾಲ್ಕು ಅವತಾರಗಳು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿವೆ; ನಾಲ್ಕು ಭಾವಗಳ ಪ್ರಸಿದ್ಧಿಗಾಗಿ ಅವು ತದನಂತರ ಗೌಣರೂಪಗಳಾದವು ॥೧೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        20
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "आनंदात्मकलांशेन विष्णुं गणपरूपिणम् । जानीहि तं गणेशानान्न भिन्नं दानवोत्तम ॥२०॥",
+      "text": "ಹೇ ದಾನವೋತ್ತಮನೇ, ಆನಂದಾತ್ಮಕವಾದ ಕಲಾಂಶದಿಂದ ಗಣಪತಿರೂಪಿಯಾಗಿರುವ ಆ ವಿಷ್ಣುವನ್ನು ಗಣೇಶಾನನಿಂದ ಭಿನ್ನನಲ್ಲವೆಂದು ತಿಳಿ ॥೨೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        21
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "चतुर्णां भजनेनैव मनः शुद्धिमवाप्नुयात् । ततो गाणेशयोगे सोऽधिकारी भवति स्वयम् ॥२१॥",
+      "text": "ಆ ನಾಲ್ವರ ಭಜನೆಯಿಂದಲೇ ಮನಃಶುದ್ಧಿಯನ್ನು ಪಡೆಯುತ್ತಾನೆ; ತದನಂತರ ಅವನು ತಾನೇ ಗಾಣೇಶಯೋಗದಲ್ಲಿ ಅಧಿಕಾರಿಯಾಗುತ್ತಾನೆ ॥೨೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        22
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "यथाऽऽश्रमविभागेन नरः क्रमपरायणः । एकं त्यक्त्वा स गृह्णाति द्वितीयं भक्तिसंयुतः ॥२२॥",
+      "text": "ಹೇಗೆ ಆಶ್ರಮವಿಭಾಗಕ್ಕನುಗುಣವಾಗಿ ಕ್ರಮಪರಾಯಣನಾದ ಮನುಷ್ಯನು ಭಕ್ತಿಯುಕ್ತನಾಗಿ ಒಂದನ್ನು ತ್ಯಜಿಸಿ ಎರಡನೆಯದನ್ನು ಸ್ವೀಕರಿಸುತ್ತಾನೆಯೋ, ॥೨೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        23
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "अंते योगी स शांतिस्थ आश्रमै रहितो भवेत् । तद्वत् क्रमेण गाणेशा भवेयुर्वैष्णवादिकाः ॥२३॥",
+      "text": "ಮತ್ತು ಕೊನೆಯಲ್ಲಿ ಶಾಂತಿನಿಷ್ಠನಾದ ಆ ಯೋಗಿಯು ಆಶ್ರಮಗಳಿಂದ ರಹಿತನಾಗುತ್ತಾನೆಯೋ, ಹಾಗೆಯೇ ವೈಷ್ಣವಾದಿಗಳು ಕ್ರಮವಾಗಿ ಗಾಣೇಶರಾಗುತ್ತಾರೆ ॥೨೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        24
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "अधुना शृणु देवस्य साधनं योगदं परम् । साधयित्वा स्वयं योगी भविष्यति न संशयः ॥२४॥",
+      "text": "ಈಗ ಯೋಗಪ್ರದವಾದ ದೇವನ ಪರಮ ಸಾಧನವನ್ನು ಕೇಳು; ಇದನ್ನು ಸಾಧಿಸಿ ಸಾಧಕನು ಸ್ವಯಂ ಯೋಗಿಯಾಗುತ್ತಾನೆ, ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ ॥೨೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        25
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "स्वानंदः स विहारेण संयुक्तश्च विशेषतः । सर्वसंयोगकारित्वाद्गणेशो मायया युतः ॥२५॥",
+      "text": "ಸ್ವಾನಂದರೂಪನಾದ ಅವನು ವಿಶೇಷವಾಗಿ ವಿಹಾರದಿಂದ ಕೂಡಿದವನಾಗಿದ್ದಾನೆ; ಸರ್ವಸಂಯೋಗಕಾರಿಯಾಗಿರುವುದರಿಂದ ಗಣೇಶನು ಮಾಯೆಯಿಂದ ಯುಕ್ತನಾಗಿದ್ದಾನೆ ॥೨೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        26
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "विहारेण विहीनश्चायोगो निर्मायिकः स्मृतः । संयोगाभेदहीनत्वाद्भवहा गणनायकः ॥२६॥",
+      "text": "ವಿಹಾರರಹಿತನಾದವನು ನಿರ್ಮಾಯಿಕನಾದ 'ಅಯೋಗ' ಎಂದು ಸ್ಮರಿಸಲ್ಪಟ್ಟಿದ್ದಾನೆ; ಸಂಯೋಗಾಭೇದಹೀನನಾಗಿರುವುದರಿಂದ ಗಣನಾಯಕನು ಭವನಾಶಕನಾಗಿದ್ದಾನೆ ॥೨೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        27
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "संयोगायोगयोर्योगः पूर्णयोगः प्रकीर्तितः । प्रह्लाद गणनायस्तु पूर्णो ब्रह्ममयः परः ॥२७॥",
+      "text": "ಸಂಯೋಗ ಮತ್ತು ಅಯೋಗಗಳ ಯೋಗವು 'ಪೂರ್ಣಯೋಗ' ಎಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ; ಹೇ ಪ್ರಹ್ಲಾದನೇ, ಗಣನಾಯನಾದರೋ ಪೂರ್ಣನೂ ಬ್ರಹ್ಮಮಯನೂ ಪರಮನೂ ಆಗಿದ್ದಾನೆ ॥೨೭॥ (ಪರಿಶೀಲನೆ: KN-N306-01-02-U-01 — ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'ಗಣನಾಯಸ್ತು' ಎಂದಿದೆ; ಇದನ್ನು 'ಗಣನಾಥಸ್ತು' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನಾದರೋ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "KN-N306-01-02-U-01",
+          "status": "open",
+          "kind": "linguistic_interpretation",
+          "reading": null,
+          "detail": "ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'गणनायस्तु' ಎಂದಿದೆ; ಇದನ್ನು 'गणनाथस्तु' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನಾದರೋ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        28
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "योगेन तं गणाधीशं प्राप्नुवंतीह योगिनः । तं विद्धि पूर्णभावेन संयोगायोगवर्जितम् ॥२८॥",
+      "text": "ಯೋಗಿಗಳು ಇಲ್ಲಿ ಯೋಗದಿಂದ ಆ ಗಣಾಧೀಶನನ್ನು ಪಡೆಯುತ್ತಾರೆ; ಪೂರ್ಣಭಾವದಿಂದ ಅವನನ್ನು ಸಂಯೋಗ ಮತ್ತು ಅಯೋಗಗಳಿಂದ ವರ್ಜಿತನಾದವನೆಂದು ತಿಳಿ ॥೨೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        29
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "तस्य माया द्विधा प्रोक्ता सिद्धिर्बुद्धिश्च दैत्यप । बुद्धिः सा पंचधा जाता चित्तरूपा स्वभावतः ॥२९॥",
+      "text": "ಹೇ ದೈತ್ಯಪತಿಯೇ, ಅವನ ಮಾಯೆಯು ಸಿದ್ಧಿ ಮತ್ತು ಬುದ್ಧಿ ಎಂದು ಎರಡು ಬಗೆಯಾಗಿ ಹೇಳಲ್ಪಟ್ಟಿದೆ; ಸ್ವಭಾವತಃ ಚಿತ್ತರೂಪವಾದ ಆ ಬುದ್ಧಿಯು ಐದು ವಿಧವಾಗಿದೆ ॥೨೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        30
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "क्षिप्तं मूढं च विक्षिप्तमेकाग्रं च निरोधकम् । पंचधा चित्तवृत्तिश्च सा माया गणपस्य वै ॥३०॥",
+      "text": "ಕ್ಷಿಪ್ತ, ಮೂಢ, ವಿಕ್ಷಿಪ್ತ, ಏಕಾಗ್ರ ಮತ್ತು ನಿರೋಧಕ ಎಂಬ ಐದು ಬಗೆಯ ಚಿತ್ತವೃತ್ತಿಯೇ ಗಣಪತಿಯ ಆ ಮಾಯೆಯಾಗಿದೆ ॥೩೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        31
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "क्षिप्तं मूढं च चित्तं यत् कर्मण्यपि विकर्मणि । संस्थितं तेन विश्वं वै चलति स्वस्वभावतः ॥३१॥",
+      "text": "ಯಾವ ಕ್ಷಿಪ್ತ ಮತ್ತು ಮೂಢ ಚಿತ್ತವಿದೆಯೋ ಅದು ಕರ್ಮದಲ್ಲಿಯೂ ವಿಕರ್ಮದಲ್ಲಿಯೂ ನೆಲೆಸಿದೆ; ಅದರಿಂದಲೇ ವಿಶ್ವವು ತನ್ನ ಸ್ವಭಾವದಂತೆ ಚಲಿಸುತ್ತದೆ ॥೩೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        32
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "अकर्मणि च विक्षिप्तं चित्तं जानीहि मानद । तेन मोक्षमवाप्नोति शुक्लगत्या न संशयः ॥३२॥",
+      "text": "ಹೇ ಮಾನದನೇ, ವಿಕ್ಷಿಪ್ತ ಚಿತ್ತವು ಅಕರ್ಮದಲ್ಲಿರುವುದೆಂದು ತಿಳಿ; ಅದರಿಂದ ಶುಕ್ಲಗತಿಯ ಮೂಲಕ ಮೋಕ್ಷವನ್ನು ಪಡೆಯುತ್ತಾನೆ, ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ ॥೩೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        33
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "एकाग्रमष्टधा चित्तं तदेवैकात्मनि स्थितम् । संप्रज्ञातसमाधिस्थं साधु जानीहि सत्तम ॥३३॥",
+      "text": "ಹೇ ಸತ್ತಮನೇ, ಏಕಾಗ್ರ ಚಿತ್ತವು ಎಂಟು ಬಗೆಯದಾಗಿದ್ದು ಅದೇ ಏಕಾತ್ಮನಲ್ಲಿ ನೆಲೆಸಿರುತ್ತದೆ; ಅದನ್ನು ಸಂಪ್ರಜ್ಞಾತ ಸಮಾಧಿಸ್ಥವಾದುದೆಂದು ಚೆನ್ನಾಗಿ ತಿಳಿ ॥೩೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        34
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "निरोधसंज्ञितं चित्तं निवृत्ते रूपधारकम् । असंप्रज्ञातयोगस्थं जानीयाद्योगसेवया ॥३४॥",
+      "text": "ನಿರೋಧವೆಂಬ ಹೆಸರಿನ ಚಿತ್ತವು ನಿವೃತ್ತಿಯಲ್ಲಿ ರೂಪಧಾರಕವಾದುದು; ಯೋಗಸೇವೆಯಿಂದ ಅದನ್ನು ಅಸಂಪ್ರಜ್ಞಾತ ಯೋಗದಲ್ಲಿ ನೆಲೆಸಿರುವುದೆಂದು ತಿಳಿಯಬೇಕು ॥೩೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        35
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "पंचधा चित्तवृत्तिश्च बुद्धिरूपा प्रकीर्तिता । माया सा गणनायस्य त्यक्तव्या योगसेवया ॥३५॥",
+      "text": "ಐದು ಬಗೆಯ ಚಿತ್ತವೃತ್ತಿಯು ಬುದ್ಧಿರೂಪವಾದುದೆಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ; ಗಣನಾಯನ ಆ ಮಾಯೆಯನ್ನು ಯೋಗಸೇವೆಯಿಂದ ತ್ಯಜಿಸಬೇಕು ॥೩೫॥ (ಪರಿಶೀಲನೆ: KN-N306-01-02-U-02 — ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'ಗಣನಾಯಸ್ಯ' ಎಂದಿದೆ; ಇದನ್ನು 'ಗಣನಾಥಸ್ಯ' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ.)",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [
+        {
+          "id": "KN-N306-01-02-U-02",
+          "status": "open",
+          "kind": "linguistic_interpretation",
+          "reading": null,
+          "detail": "ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'गणनायस्य' ಎಂದಿದೆ; ಇದನ್ನು 'गणनाथस्य' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ."
+        }
+      ],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        36
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "सिद्धिर्नानाविधा प्रोक्ता भ्रांतिदा तत्र संमता । सिद्ध्यर्थं तत्र लोकाश्च भ्रमयुक्ता भवंत्यतः ॥३६॥",
+      "text": "ಸಿದ್ಧಿಯು ನಾನಾವಿಧವಾದುದೆಂದು ಹೇಳಲ್ಪಟ್ಟಿದ್ದು, ಅಲ್ಲಿ ಅದು ಭ್ರಾಂತಿದಾಯಕವೆಂದು ಸಮ್ಮತವಾಗಿದೆ; ಆದುದರಿಂದ ಅಲ್ಲಿ ಜನರು ಸಿದ್ಧಿಗಾಗಿ ಭ್ರಮೆಯುಕ್ತರಾಗುತ್ತಾರೆ ॥೩೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        37
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "धर्मार्थकाममोक्षाणां सिद्धिर्भिन्ना प्रकीर्तिता । ब्रह्मभूतकरी सिद्धिस्त्यक्तव्या पंचधा सदा ॥३७॥",
+      "text": "ಧರ್ಮ, ಅರ್ಥ, ಕಾಮ ಮತ್ತು ಮೋಕ್ಷಗಳ ಸಿದ್ಧಿಯು ಭಿನ್ನವಾಗಿ ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ; ಬ್ರಹ್ಮಭೂತಕರಿಯಾದ ಸಿದ್ಧಿಯೊಂದಿಗೆ ಈ ಐದು ಬಗೆಯ ಸಿದ್ಧಿಯನ್ನೂ ಯಾವಾಗಲೂ ತ್ಯಜಿಸಬೇಕು ॥೩೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        38
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1",
+      "source_sanskrit": "मोहदा सिद्धिरत्यंतं मोहधारकतां गता । बुद्धिश्चैव स सर्वत्र ताभ्यां खेलति विघ्नपः ॥३८॥",
+      "text": "ಸಿದ್ಧಿಯು ಅತ್ಯಂತ ಮೋಹದಾಯಕವಾಗಿದೆ; ಬುದ್ಧಿಯು ಮೋಹವನ್ನು ಧರಿಸುವ ಸ್ಥಿತಿಯನ್ನು ಹೊಂದಿದೆ. ಆ ವಿಘ್ನಪನು ಎಲ್ಲೆಡೆಯೂ ಅವೆರಡರೊಂದಿಗೆ ಲೀಲೆಯಾಡುತ್ತಾನೆ ॥೩೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        39
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p1,pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "बुद्ध्या यद् बुध्यते तत्र पश्चान् मोहः प्रवर्तते । अतो गणेशभक्त्या स मायाभ्यां वर्जितो भवेत् ॥३९॥",
+      "text": "ಬುದ್ಧಿಯಿಂದ ಅಲ್ಲಿ ಏನು ತಿಳಿಯಲ್ಪಡುತ್ತದೆಯೋ ಅದರ ತರುವಾಯ ಮೋಹವು ಪ್ರವರ್ತಿಸುತ್ತದೆ; ಆದುದರಿಂದ ಗಣೇಶಭಕ್ತಿಯಿಂದ ಅವನು ಆ ಎರಡು ಮಾಯೆಗಳಿಂದಲೂ ರಹಿತನಾಗುತ್ತಾನೆ ॥೩೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        40
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "पंचधा चित्तवृत्तिं च पंचधा सिद्धिमादरात् । त्यक्त्वा गाणेशयोगेन गणेशं भज भावतः ॥४०॥",
+      "text": "ಐದು ಬಗೆಯ ಚಿತ್ತವೃತ್ತಿಯನ್ನೂ ಐದು ಬಗೆಯ ಸಿದ್ಧಿಯನ್ನೂ ಆದರದಿಂದ ತ್ಯಜಿಸಿ, ಗಾಣೇಶಯೋಗದಿಂದ ಭಾವಪೂರ್ವಕವಾಗಿ ಗಣೇಶನನ್ನು ಭಜಿಸು ॥೪೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        41
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "ततः स गणराजस्य मंत्रं तस्मै ददौ स्वयम् । गणानां त्वेति वेदोक्तं स विधिं मुनिसत्तमः ॥४१॥",
+      "text": "ತದನಂತರ ಆ ಮುನಿಸತ್ತಮನು ‘ಗಣಾನಾಂ ತ್ವಾ’ ಎಂದು ಆರಂಭವಾಗುವ ವೇದೋಕ್ತ ಗಣರಾಜಮಂತ್ರವನ್ನು ವಿಧಿಸಹಿತವಾಗಿ ಸ್ವಯಂ ಅವನಿಗೆ ನೀಡಿದನು ॥೪೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        42
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "तेन संपूजितो योगी प्रह्लादेन महात्मना । ययौ गृत्समदो दक्ष स्वर्गलोकं विहायसा ॥४२॥",
+      "text": "ಹೇ ದಕ್ಷನೇ, ಮಹಾತ್ಮನಾದ ಆ ಪ್ರಹ್ಲಾದನಿಂದ ಸಂಪೂಜಿತನಾದ ಯೋಗಿ ಗೃತ್ಸಮದನು ಆಕಾಶಮಾರ್ಗವಾಗಿ ಸ್ವರ್ಗಲೋಕಕ್ಕೆ ತೆರಳಿದನು ॥೪೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        43
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "प्रह्लादश्च तथा साधुः साधयित्वा विशेषतः । योगी योगींद्रवंद्यः स शांतिसंधारकोऽभवत् ॥४३॥",
+      "text": "ಹಾಗೆಯೇ ಸಾಧುವಾದ ಪ್ರಹ್ಲಾದನೂ ವಿಶೇಷವಾಗಿ ಸಾಧಿಸಿ, ಯೋಗಿಯೂ ಯೋಗೀಂದ್ರವಂದ್ಯನೂ ಶಾಂತಿಸಂಧಾರಕನೂ ಆದನು ॥೪೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        44
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "विरोचनाय राज्यं स ददौ पुत्राय दैत्यपः । गणेशभजने योगी संसक्तः सर्वदाऽभवत् ॥४४॥",
+      "text": "ಆ ದೈತ್ಯಪತಿಯು ಪುತ್ರನಾದ ವಿರೋಚನನಿಗೆ ರಾಜ್ಯವನ್ನು ಕೊಟ್ಟನು; ಮತ್ತು ಯೋಗಿಯಾಗಿ ಯಾವಾಗಲೂ ಗಣೇಶಭಜನೆಯಲ್ಲಿ ಆಸಕ್ತನಾದನು ॥೪೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        45
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "सगुणं विष्णुरूपं च निर्गुणं ब्रह्मवाचकम् । गणेशेन धृतं सर्वं कलांशेन न संशयः ॥४५॥",
+      "text": "ಸಗುಣವಾದ ವಿಷ್ಣುರೂಪವೂ ನಿರ್ಗುಣವಾದ ಬ್ರಹ್ಮವಾಚಕವೂ ಆದ ಇವೆಲ್ಲವೂ ಗಣೇಶನಿಂದ ತನ್ನ ಕಲಾಂಶದಿಂದ ಧರಿಸಲ್ಪಟ್ಟಿವೆ, ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ ॥೪೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        46
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "एवं ज्ञात्वा महायोगी प्रह्लादोऽभेदमाश्रितः । हृदि चिंतामणिं ज्ञात्वाऽभजच्चानन्यभावतः ॥४६॥",
+      "text": "ಹೀಗೆ ಅರಿತು ಮಹಾಯೋಗಿಯಾದ ಪ್ರಹ್ಲಾದನು ಅಭೇದಭಾವವನ್ನು ಆಶ್ರಯಿಸಿ, ಹೃದಯದಲ್ಲಿ ಚಿಂತಾಮಣಿಯನ್ನು ತಿಳಿದು ಅನನ್ಯಭಾವದಿಂದ ಭಜಿಸಿದನು ॥೪೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        47
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "स्वल्पकालेन दैत्येंद्रः शांतियोगपरायणः । शांतिं प्राप्तो गणेशे चैकभावः सोऽभवत्परः ॥४७॥",
+      "text": "ಸ್ವಲ್ಪಕಾಲದಲ್ಲಿಯೇ ಶಾಂತಿಯೋಗಪರಾಯಣನಾದ ಆ ದೈತ್ಯೇಂದ್ರನು ಶಾಂತಿಯನ್ನು ಹೊಂದಿ, ಗಣೇಶನಲ್ಲಿ ಪರಮ ಏಕಭಾವವುಳ್ಳವನಾದನು ॥೪೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        48
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "शापश्चैव गणेशेन प्रह्लादस्य निराकृतः । न पुनर्दुष्टसंगेनाऽभवद् भ्रांतः स मानद ॥४८॥",
+      "text": "ಹೇ ಮಾನದನೇ, ಪ್ರಹ್ಲಾದನ ಶಾಪವೂ ಗಣೇಶನಿಂದ ನಿವಾರಿಸಲ್ಪಟ್ಟಿತು; ಅವನು ಮತ್ತೆ ದುಷ್ಟಸಂಗದಿಂದ ಭ್ರಾಂತನಾಗಲಿಲ್ಲ ॥೪೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        49
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "एवं मदं परित्यज्यैकदंतस्य समाश्रयात् । असुरोऽपि महायोगी प्रह्लादः संबभूव ह ॥४९॥",
+      "text": "ಹೀಗೆ ಮದವನ್ನು ಪರಿತ್ಯಜಿಸಿ ಏಕದಂತನ ಸಮಾಶ್ರಯದಿಂದ ಪ್ರಹ್ಲಾದನು ಅಸುರನಾಗಿದ್ದರೂ ಮಹಾಯೋಗಿಯಾದನು ॥೪೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        73,
+        50
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "एतत् प्रह्लादमाहात्म्यं यः शृणोति नरोत्तमः । पठेत्तु तस्य वै दक्ष भवेदीप्सितदायकम् ॥५०॥",
+      "text": "ಹೇ ದಕ್ಷನೇ, ಈ ಪ್ರಹ್ಲಾದಮಾಹಾತ್ಮ್ಯವನ್ನು ಯಾವ ನರೋತ್ತಮನು ಕೇಳುತ್ತಾನೆಯೋ ಅಥವಾ ಪಠಿಸುತ್ತಾನೆಯೋ, ಅವನಿಗೆ ಇದು ಇಷ್ಟಾರ್ಥಪ್ರದಾಯಕವಾಗುತ್ತದೆ ॥೫೦॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        1
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "दक्ष उवाच । एकदंतस्य यत् क्षेत्रं संक्षेपेण मया श्रुतम् । यात्रादि विस्तरेणैव कथयस्व महामुने ॥१॥",
+      "text": "ದಕ್ಷನು ಹೇಳಿದನು — ಹೇ ಮಹಾಮುನಿಯೇ, ಏಕದಂತನ ಯಾವ ಕ್ಷೇತ್ರದ ಕುರಿತು ನಾನು ಸಂಕ್ಷೇಪವಾಗಿ ಕೇಳಿರುವೆನೋ, ಅದರ ಯಾತ್ರೆ ಮುಂತಾದವುಗಳನ್ನು ವಿಸ್ತಾರವಾಗಿಯೇ ಹೇಳು ॥೧॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        2
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "मुद्गल उवाच । अग्निकोणे दिशां प्रांते स्वस्वखंडेषु मानद । एकदंतस्य च क्षेत्रं ज्ञातव्यं जलधेस्तटे ॥२॥",
+      "text": "ಮುದ್ಗಲನು ಹೇಳಿದನು — ಹೇ ಮಾನದನೇ, ಆಯಾ ಖಂಡಗಳಲ್ಲಿ ದಿಕ್ಕುಗಳ ಪ್ರಾಂತದ ಅಗ್ನಿಕೋನದಲ್ಲಿ ಸಮುದ್ರದ ತೀರದಲ್ಲಿ ಏಕದಂತನ ಕ್ಷೇತ್ರವಿದೆಯೆಂದು ತಿಳಿಯಬೇಕು ॥೨॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        3
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "दश योजनविस्तारं समंतात्तत्र मध्यगः । एकदंतो गणेशानः पूज्यते सिद्धसाधकैः ॥३॥",
+      "text": "ಸುತ್ತಲೂ ಹತ್ತು ಯೋಜನ ವಿಸ್ತಾರವುಳ್ಳ ಆ ಕ್ಷೇತ್ರದ ಮಧ್ಯದಲ್ಲಿ ನೆಲೆಸಿರುವ ಏಕದಂತನಾದ ಗಣೇಶಾನನು ಸಿದ್ಧರಿಂದಲೂ ಸಾಧಕರಿಂದಲೂ ಪೂಜಿಸಲ್ಪಡುತ್ತಾನೆ ॥೩॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        4
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "तद्वामांगे स्वयं सिद्धिर्दक्षिणांगे प्रजापते । बुद्धिश्च मूषकस्तस्य समीपे संस्थितः प्रभोः ॥४॥",
+      "text": "ಹೇ ಪ್ರಜಾಪತಿಯೇ, ಅವನ ಎಡಭಾಗದಲ್ಲಿ ಸ್ವಯಂ ಸಿದ್ಧಿಯೂ ಬಲಭಾಗದಲ್ಲಿ ಬುದ್ಧಿಯೂ ಇದ್ದಾರೆ; ಹಾಗೂ ಆ ಪ್ರಭುವಿನ ಸಮೀಪದಲ್ಲಿ ಮೂಷಕನು ನೆಲೆಸಿದ್ದಾನೆ ॥೪॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        5
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "सिद्धयोऽष्टौ पुरस्तस्य संस्थिता भक्तिकारिकाः । वामे देवादयः सर्वे भक्त्या तिष्ठंति संयुताः ॥५॥",
+      "text": "ಭಕ್ತಿಕಾರಿಕೆಯರಾದ ಎಂಟು ಸಿದ್ಧಿಗಳು ಅವನ ಮುಂಭಾಗದಲ್ಲಿ ನೆಲೆಸಿವೆ; ಎಡಭಾಗದಲ್ಲಿ ದೇವತೆಗಳೇ ಮೊದಲಾದವರೆಲ್ಲರೂ ಭಕ್ತಿಯಿಂದ ಕೂಡಿದವರಾಗಿ ನೆಲೆಸಿದ್ದಾರೆ ॥೫॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        6
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "दक्षिणांगे च वेदादि शास्त्राणि प्रस्तुवंति तम् । पृष्ठे काश्यादि क्षेत्राणि तीर्थानि च भजंति तम् ॥६॥",
+      "text": "ಬಲಭಾಗದಲ್ಲಿ ವೇದವೇ ಮೊದಲಾದ ಶಾಸ್ತ್ರಗಳು ಅವನನ್ನು ಸ್ತುತಿಸುತ್ತವೆ; ಹಿಂಭಾಗದಲ್ಲಿ ಕಾಶಿಯೇ ಮೊದಲಾದ ಕ್ಷೇತ್ರಗಳೂ ತೀರ್ಥಗಳೂ ಅವನನ್ನು ಭಜಿಸುತ್ತವೆ ॥೬॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        7
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "श्रेष्ठस्वरूपकाः संस्थाः सर्वे त्रिभुवनेषु ये । ते क्षेत्रवासिनो भूत्वा भजंते त्वेकदंतकम् ॥७॥",
+      "text": "ಮೂರು ಲೋಕಗಳಲ್ಲಿ ಶ್ರೇಷ್ಠ ಸ್ವರೂಪವುಳ್ಳವರಾಗಿ ನೆಲೆಸಿರುವವರು ಯಾರೇ ಆಗಲಿ, ಅವರೆಲ್ಲರೂ ಕ್ಷೇತ್ರವಾಸಿಗಳಾಗಿ ಏಕದಂತನನ್ನು ಭಜಿಸುತ್ತಾರೆ ॥೭॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        8
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "समुद्रे स्नानकर्तारः स्वस्वनाम्नांकितेषु वै । तीर्थेषु सूक्ष्मरूपेषु सूक्ष्मरूपधराः सदा ॥८॥",
+      "text": "ಅವರು ಸದಾ ಸೂಕ್ಷ್ಮರೂಪಧಾರಿಗಳಾಗಿ, ಸಮುದ್ರದಲ್ಲಿ ತಮ್ಮ ತಮ್ಮ ಹೆಸರುಗಳಿಂದ ಅಂಕಿತವಾದ ಸೂಕ್ಷ್ಮರೂಪದ ತೀರ್ಥಗಳಲ್ಲಿ ಸ್ನಾನ ಮಾಡುವವರಾಗಿರುತ್ತಾರೆ ॥೮॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        9
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "तत्रैकदंततीर्थं वै सर्वलोकेषु विश्रुतम् । दर्शनात् सर्वपापघ्नं भुक्तिमुक्तिप्रदं भवेत् ॥९॥",
+      "text": "ಅಲ್ಲಿರುವ ಏಕದಂತತೀರ್ಥವು ಸರ್ವಲೋಕಗಳಲ್ಲಿಯೂ ಪ್ರಸಿದ್ಧವಾಗಿದೆ; ಅದು ದರ್ಶನಮಾತ್ರದಿಂದಲೇ ಸರ್ವಪಾಪಗಳನ್ನು ನಾಶಪಡಿಸುವಂಥದ್ದೂ ಭುಕ್ತಿ-ಮುಕ್ತಿಗಳನ್ನು ಕರುಣಿಸುವಂಥದ್ದೂ ಆಗಿದೆ ॥೯॥",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      }
+    },
+    {
+      "key": [
+        2,
+        74,
+        10
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p2",
+      "source_sanskrit": "भाद्रशुक्लचतुर्थ्यां महोत्सवस्तत्र वर्तते । यात्रार्थं सर्वलोकश्च त्रिलोकस्था",
+      "text": "ಭಾದ್ರಪದ ಶುಕ್ಲ ಚತುರ್ಥಿಯಂದು ಅಲ್ಲಿ ಮಹೋತ್ಸವವು ನಡೆಯುತ್ತದೆ; ಯಾತ್ರೆಗಾಗಿ ಸರ್ವಲೋಕವೂ ಹಾಗೂ ಮೂರು ಲೋಕಗಳಲ್ಲಿ ನೆಲೆಸಿರುವ (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಮೂಲದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಭಾಗ ಮಾತ್ರ; ಉಳಿದ ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.)",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative_or_stotra",
+        "required_treatment": "formal Kannada translation",
+        "rationale": "Narrative and stotra meaning translated; actual invocation transliterated separately; no invented mantra syllables."
+      },
+      "issues": [],
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Parent independent textual review of all seven complete transfer parts:66rows,overviews,sixancillaryrecords,both interpretation holds and joins; accepted with specified minimal corrections."
+      },
+      "fragment": "a_only"
+    }
+  ],
+  "colophons": [
+    {
+      "kind": "colophon",
+      "khanda": 2,
+      "chapter": 73,
+      "pdf_page": 2,
+      "text": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते गृत्समदप्रह्लादसंवादसमाप्तिवर्णनं नाम त्रिसप्ततितमोऽध्यायः ॥",
+      "uncertainty_ids": [],
+      "stable_id": "kh2-ch73-colophon-p02",
+      "kannada_review_candidate": "॥ ಓಂ ಎಂದು ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ 'ಗೃತ್ಸಮದ-ಪ್ರಹ್ಲಾದ ಸಂವಾದ ಸಮಾಪ್ತಿ ವರ್ಣನ' ಎಂಬ ಎಪ್ಪತ್ತಮೂರನೆಯ ಅಧ್ಯಾಯವು ॥",
+      "status": "accepted",
+      "identity": "2.73.colophon",
+      "source_sanskrit": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते गृत्समदप्रह्लादसंवादसमाप्तिवर्णनं नाम त्रिसप्ततितमोऽध्यायः ॥",
+      "source_pdf_pages": [
+        2
+      ],
+      "issues": []
+    }
+  ],
+  "chapter_headings": [
+    {
+      "kind": "heading",
+      "khanda": 2,
+      "chapter": 74,
+      "pdf_page": 2,
+      "text": "॥ चतुःसप्ततितमोऽध्यायः ॥",
+      "uncertainty_ids": [],
+      "stable_id": "kh2-ch74-heading-p02",
+      "kannada_review_candidate": "॥ ಎಪ್ಪತ್ತನಾಲ್ಕನೆಯ ಅಧ್ಯಾಯವು ॥",
+      "status": "accepted",
+      "identity": "2.74.heading",
+      "source_sanskrit": "॥ चतुःसप्ततितमोऽध्यायः ॥",
+      "source_pdf_pages": [
+        2
+      ]
+    }
+  ],
+  "invocations": [
+    {
+      "kind": "invocation",
+      "khanda": 2,
+      "chapter": 74,
+      "pdf_page": 2,
+      "text": "॥ श्रीगणेशाय नमः ॥",
+      "uncertainty_ids": [],
+      "treatment": "transliteration_only_actual_invocation",
+      "stable_id": "kh2-ch74-invocation-p02",
+      "kannada_review_candidate": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "status": "accepted",
+      "identity": "2.74.invocation",
+      "source_sanskrit": "॥ श्रीगणेशाय नमः ॥",
+      "source_pdf_pages": [
+        2
+      ]
+    }
+  ],
+  "ending_status": "Only source-present colophons included; explicit trailing fragments remain partial.",
+  "review_receipt": {
+    "status": "independent_language_review_complete",
+    "changes": [
+      {
+        "key": [
+          2,
+          73,
+          19
+        ],
+        "before": "ಹೀಗೆ ಅವನ ನಾಲ್ಕು ಅವತಾರಗಳು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿವೆ; ನಾಲ್ಕು ಭಾವಗಳ ಪ್ರಸಿದ್ಧಿಗಾಗಿ ತದನಂತರ ಗೌಣರೂಪಗಳು ಉಂಟಾದವು ॥೧೯॥",
+        "after": "ಹೀಗೆ ಅವನ ನಾಲ್ಕು ಅವತಾರಗಳು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿವೆ; ನಾಲ್ಕು ಭಾವಗಳ ಪ್ರಸಿದ್ಧಿಗಾಗಿ ಅವು ತದನಂತರ ಗೌಣರೂಪಗಳಾದವು ॥೧೯॥"
+      },
+      {
+        "key": [
+          2,
+          73,
+          38
+        ],
+        "before": "ಮೋಹದಾಯಕವಾದ ಸಿದ್ಧಿಯು ಅತ್ಯಂತ ಮೋಹಧಾರಕತ್ವವನ್ನು ಹೊಂದಿದೆ, ಹಾಗೂ ಬುದ್ಧಿಯೂ ಹಾಗೆಯೇ ಆಗಿದೆ; ಆ ವಿಘ್ನಪನು ಎಲ್ಲೆಡೆಯೂ ಅವೆರಡರಿಂದ ಲೀಲೆಯಾಡುತ್ತಾನೆ ॥೩೮॥",
+        "after": "ಸಿದ್ಧಿಯು ಅತ್ಯಂತ ಮೋಹದಾಯಕವಾಗಿದೆ; ಬುದ್ಧಿಯು ಮೋಹವನ್ನು ಧರಿಸುವ ಸ್ಥಿತಿಯನ್ನು ಹೊಂದಿದೆ. ಆ ವಿಘ್ನಪನು ಎಲ್ಲೆಡೆಯೂ ಅವೆರಡರೊಂದಿಗೆ ಲೀಲೆಯಾಡುತ್ತಾನೆ ॥೩೮॥"
+      },
+      {
+        "key": [
+          2,
+          73,
+          41
+        ],
+        "before": "ತದನಂತರ ಆ ಮುನಿಸತ್ತಮನು ವೇದೋಕ್ತವಾದ 'ಗಣಾನಾಂ ತ್ವೇತಿ' ಎಂಬ ಗಣರಾಜನ ಮಂತ್ರವನ್ನು ವಿಧಿಸಹಿತವಾಗಿ ಸ್ವಯಂ ಅವನಿಗೆ ನೀಡಿದನು ॥೪೧॥",
+        "after": "ತದನಂತರ ಆ ಮುನಿಸತ್ತಮನು ‘ಗಣಾನಾಂ ತ್ವಾ’ ಎಂದು ಆರಂಭವಾಗುವ ವೇದೋಕ್ತ ಗಣರಾಜಮಂತ್ರವನ್ನು ವಿಧಿಸಹಿತವಾಗಿ ಸ್ವಯಂ ಅವನಿಗೆ ನೀಡಿದನು ॥೪೧॥"
+      },
+      {
+        "key": [
+          2,
+          74,
+          8
+        ],
+        "before": "ಅವರು ಯಾವಾಗಲೂ ಸೂಕ್ಷ್ಮರೂಪಧಾರಿಗಳಾಗಿ ಸಮುದ್ರದಲ್ಲಿಯೂ ತಮ್ಮ ತಮ್ಮ ಹೆಸರುಗಳಿಂದ ಅಂಕಿತವಾದ ಸೂಕ್ಷ್ಮರೂಪದ ತೀರ್ಥಗಳಲ್ಲಿಯೂ ಸ್ನಾನ ಮಾಡುವವರಾಗಿರುತ್ತಾರೆ ॥೮॥",
+        "after": "ಅವರು ಸದಾ ಸೂಕ್ಷ್ಮರೂಪಧಾರಿಗಳಾಗಿ, ಸಮುದ್ರದಲ್ಲಿ ತಮ್ಮ ತಮ್ಮ ಹೆಸರುಗಳಿಂದ ಅಂಕಿತವಾದ ಸೂಕ್ಷ್ಮರೂಪದ ತೀರ್ಥಗಳಲ್ಲಿ ಸ್ನಾನ ಮಾಡುವವರಾಗಿರುತ್ತಾರೆ ॥೮॥"
+      },
+      {
+        "kind": "separate_overview",
+        "before": "ಈ ಕಂತು '306 TO 350.pdf' ಮೂಲದ ೦೧–೦೨ನೇ ಭೌತಿಕ ಪುಟಗಳನ್ನೊಳಗೊಂಡಿದ್ದು, ಎರಡನೇ ಖಂಡದ (ಏಕದಂತಚರಿತ) ೭೩ನೇ ಅಧ್ಯಾಯದ ೧೪ರಿಂದ ೫೦ರವರೆಗಿನ ಪೂರ್ಣ ಶ್ಲೋಕಗಳನ್ನು (ಹಿಂದಿನ ಪಿಡಿಎಫ್‌ನ ಆರಂಭಿಕ ಭಾಗದೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ೭೩.೧೪ ಹಾಗೂ ಪುಟ ೧–೨ರ ನಡುವೆ ಜೋಡಿಸಲಾದ ೭೩.೩೯ ಸೇರಿದಂತೆ), ೭೩ನೇ ಅಧ್ಯಾಯದ ಸಮಾಪ್ತಿ ವಾಕ್ಯವನ್ನು, ಹಾಗೂ ೭೪ನೇ ಅಧ್ಯಾಯದ ಶೀರ್ಷಿಕೆ, ಮಂಗಳಾಚರಣೆ, ೧ರಿಂದ ೯ರವರೆಗಿನ ಪೂರ್ಣ ಶ್ಲೋಕಗಳನ್ನು ಮತ್ತು ೧೦ನೇ ಶ್ಲೋಕದ ಲಭ್ಯವಿರುವ ಆರಂಭಿಕ ಭಾಗವನ್ನು ('ತ್ರಿಲೋಕಸ್ಥಾ' ವರೆಗೆ ಮಾತ್ರ) ಒಳಗೊಂಡಿದೆ. ಹಿಂದಿನ ೪೯–೫೩ನೇ ಅಧ್ಯಾಯಗಳ ಮೂಲ ಕಡತದ ಕೊರತೆಗಳು ಇನ್ನೂ ಬಾಕಿಯಿರುವುದರಿಂದ ಎರಡನೇ ಖಂಡದ ಆವೃತ್ತಿಯು ಇನ್ನೂ ಪೂರ್ಣಗೊಂಡಿಲ್ಲ.",
+        "after": "ಈ ಕಂತು '306 TO 350.pdf' ಮೂಲದ ೦೧–೦೨ನೇ ಭೌತಿಕ ಪುಟಗಳನ್ನೊಳಗೊಂಡಿದ್ದು, ಎರಡನೇ ಖಂಡದ (ಏಕದಂತಚರಿತ) ೭೩ನೇ ಅಧ್ಯಾಯದ ೧೪ರಿಂದ ೫೦ರವರೆಗಿನ ಪೂರ್ಣ ಶ್ಲೋಕಗಳನ್ನು (ಹಿಂದಿನ ಪಿಡಿಎಫ್‌ನ ಭೌತಿಕ ಪುಟ ೪೨ರಲ್ಲಿರುವ ಶ್ಲೋಕದ ಪೂರ್ವಭಾಗದೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ೭೩.೧೪ ಹಾಗೂ ಪುಟ ೧–೨ರ ನಡುವೆ ಜೋಡಿಸಲಾದ ೭೩.೩೯ ಸೇರಿದಂತೆ), ೭೩ನೇ ಅಧ್ಯಾಯದ ಸಮಾಪ್ತಿ ವಾಕ್ಯವನ್ನು, ಹಾಗೂ ೭೪ನೇ ಅಧ್ಯಾಯದ ಶೀರ್ಷಿಕೆ, ಮಂಗಳಾಚರಣೆ, ೧ರಿಂದ ೯ರವರೆಗಿನ ಪೂರ್ಣ ಶ್ಲೋಕಗಳನ್ನು ಮತ್ತು ೧೦ನೇ ಶ್ಲೋಕದ ಲಭ್ಯವಿರುವ ಆರಂಭಿಕ ಭಾಗವನ್ನು ('ತ್ರಿಲೋಕಸ್ಥಾ' ವರೆಗೆ ಮಾತ್ರ) ಒಳಗೊಂಡಿದೆ. ಹಿಂದಿನ ೪೯–೫೩ನೇ ಅಧ್ಯಾಯಗಳ ಮೂಲ ಕಡತದ ಕೊರತೆಗಳು ಇನ್ನೂ ಬಾಕಿಯಿರುವುದರಿಂದ ಎರಡನೇ ಖಂಡದ ಆವೃತ್ತಿಯು ಇನ್ನೂ ಪೂರ್ಣಗೊಂಡಿಲ್ಲ."
+      }
+    ],
+    "interpretive_notes": [
+      {
+        "key": [
+          2,
+          73,
+          27
+        ],
+        "id": "KN-N306-01-02-U-01",
+        "stable_id": "kh2-ch73-v27",
+        "span": "गणनायस्तु",
+        "reading": null,
+        "kannada": "ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'गणनायस्तु' ಎಂದಿದೆ; ಇದನ್ನು 'गणनाथस्तु' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನಾದರೋ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ.",
+        "detail": "ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'गणनायस्तु' ಎಂದಿದೆ; ಇದನ್ನು 'गणनाथस्तु' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನಾದರೋ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ.",
+        "notice": "ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'गणनायस्तु' ಎಂದಿದೆ; ಇದನ್ನು 'गणनाथस्तु' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನಾದರೋ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ."
+      },
+      {
+        "key": [
+          2,
+          73,
+          35
+        ],
+        "id": "KN-N306-01-02-U-02",
+        "stable_id": "kh2-ch73-v35",
+        "span": "गणनायस्य",
+        "reading": null,
+        "kannada": "ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'गणनायस्य' ಎಂದಿದೆ; ಇದನ್ನು 'गणनाथस्य' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ.",
+        "detail": "ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'गणनायस्य' ಎಂದಿದೆ; ಇದನ್ನು 'गणनाथस्य' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ.",
+        "notice": "ಮೂಲ ಮುದ್ರಿತ ಪಠ್ಯದಲ್ಲಿ 'गणनायस्य' ಎಂದಿದೆ; ಇದನ್ನು 'गणनाथस्य' ಎಂದು ತಿದ್ದದೆ ಮುದ್ರಿತ ರೂಪಕ್ಕನುಗುಣವಾಗಿ 'ಗಣನಾಯನ' ಎಂದು ಅನುವಾದಿಸಲಾಗಿದೆ."
+      }
+    ],
+    "deferred_keys": []
+  },
+  "source_provenance": [
+    {
+      "pdf_page": 1,
+      "printed_page": 154,
+      "handwritten_page": 306,
+      "source_pdf_path": "/Users/uthaiahbb/Mudugal Purana/306 TO 350.pdf",
+      "source_pdf_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+      "source_image_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/local-pdf-checkpoints/next-source306-350/pages1-10/original-01.png",
+      "source_image_sha256": "46a294d6f234dc48f6885065d025af7bab01af26ae4655197f8d4f3d586de954",
+      "jpeg_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/local-pdf-checkpoints/next-source306-350/pages1-10/compatibility-jpeg/original-01-q95.jpg",
+      "jpeg_sha256": "7432f52ce42eb5f681caf43478b6d5f574b262b866d6a1f97a36959a02f1d32c",
+      "original_pixels_inspected": true,
+      "raw_candidate_path": "/Users/uthaiahbb/Documents/Codex/2026-10-18/task/gemini-source306-350-p01-10-preparation/extraction-run-1/p01-raw-candidate.txt",
+      "raw_candidate_sha256": "d5581034a4eb21c058bf62858d7798e8d07038e055bff72725aa0cfa884e4a1d",
+      "response_path": "/Users/uthaiahbb/Documents/Codex/2026-10-18/task/gemini-source306-350-p01-10-preparation/extraction-run-1/p01-response.json",
+      "response_sha256": "c320dac7299397fb736a3d8edb058cd1f5cbd5a6f7f89b7d1d9eaaf29e1fed3d",
+      "screenshot_path": "/Users/uthaiahbb/Documents/Codex/2026-10-18/task/gemini-source306-350-p01-10-preparation/extraction-run-1/p01-response.png",
+      "screenshot_sha256": "7766f436ad6e049894e234e6eef78a96df39baa5f39467660aacccf4ec2180a3",
+      "candidate_chat_url": "https://gemini.google.com/app/0f1ff262b3fa5823",
+      "model_selected_at_submission": "Argon High",
+      "actual_response_model_independently_exposed": false,
+      "actual_response_model": null,
+      "captured_at": "2026-10-18T05:02:23.624Z",
+      "image_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/local-pdf-checkpoints/next-source306-350/pages1-10/original-01.png",
+      "image_sha256": "46a294d6f234dc48f6885065d025af7bab01af26ae4655197f8d4f3d586de954",
+      "prior_single_page_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/local-pdf-checkpoints/next-source306-350/p01-03-05-07-single-page-verification/page01-verified-transcription.json",
+      "prior_single_page_sha256": "7eda806b969ab5a0a104f0e03dfea07c12cef6c3a961308b01d6ff4a2b7ea84b"
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 155,
+      "handwritten_page": 307,
+      "image_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/local-pdf-checkpoints/next-source306-350/pages1-10/original-02.png",
+      "image_sha256": "ab7756afd9372377586ca0b374d4a5c92f7a051a4fe048aa1961b83254973783",
+      "candidate_path": "/Users/uthaiahbb/Documents/Codex/2026-10-18/task/gemini-source306-350-p01-10-preparation/reset-resumption/p02-raw-candidate.txt",
+      "candidate_sha256": "09810a61c03868bee73704ea95704050b1fc41a93aae52b5785c33dc6370be48",
+      "response_path": "/Users/uthaiahbb/Documents/Codex/2026-10-18/task/gemini-source306-350-p01-10-preparation/reset-resumption/p02-response.json",
+      "response_sha256": "9b1777902451b80e3c1486211fd81bf6e909f309ac24705e73555ca7ee3ebe1d",
+      "jpeg_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/local-pdf-checkpoints/next-source306-350/pages1-10/compatibility-jpeg/original-02-q95.jpg",
+      "jpeg_sha256": "7b8d022c6c21733b7f4072d0b7e6cd1f35924a4322bffdd16357b85f0321a0bb",
+      "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+      "source_pdf_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+      "model_selected_at_submission": "Argon High",
+      "actual_response_model_independently_exposed": false,
+      "actual_response_model": null,
+      "candidate_chat_url": "https://gemini.google.com/app/0f1ff262b3fa5823",
+      "captured_at": "2026-10-18T06:40:40.295Z",
+      "original_pixels_inspected": true
+    }
+  ],
+  "separate_overview": {
+    "kannada": "ಈ ಕಂತು '306 TO 350.pdf' ಮೂಲದ ೦೧–೦೨ನೇ ಭೌತಿಕ ಪುಟಗಳನ್ನೊಳಗೊಂಡಿದ್ದು, ಎರಡನೇ ಖಂಡದ (ಏಕದಂತಚರಿತ) ೭೩ನೇ ಅಧ್ಯಾಯದ ೧೪ರಿಂದ ೫೦ರವರೆಗಿನ ಪೂರ್ಣ ಶ್ಲೋಕಗಳನ್ನು (ಹಿಂದಿನ ಪಿಡಿಎಫ್‌ನ ಭೌತಿಕ ಪುಟ ೪೨ರಲ್ಲಿರುವ ಶ್ಲೋಕದ ಪೂರ್ವಭಾಗದೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ೭೩.೧೪ ಹಾಗೂ ಪುಟ ೧–೨ರ ನಡುವೆ ಜೋಡಿಸಲಾದ ೭೩.೩೯ ಸೇರಿದಂತೆ), ೭೩ನೇ ಅಧ್ಯಾಯದ ಸಮಾಪ್ತಿ ವಾಕ್ಯವನ್ನು, ಹಾಗೂ ೭೪ನೇ ಅಧ್ಯಾಯದ ಶೀರ್ಷಿಕೆ, ಮಂಗಳಾಚರಣೆ, ೧ರಿಂದ ೯ರವರೆಗಿನ ಪೂರ್ಣ ಶ್ಲೋಕಗಳನ್ನು ಮತ್ತು ೧೦ನೇ ಶ್ಲೋಕದ ಲಭ್ಯವಿರುವ ಆರಂಭಿಕ ಭಾಗವನ್ನು ('ತ್ರಿಲೋಕಸ್ಥಾ' ವರೆಗೆ ಮಾತ್ರ) ಒಳಗೊಂಡಿದೆ. ಹಿಂದಿನ ೪೯–೫೩ನೇ ಅಧ್ಯಾಯಗಳ ಮೂಲ ಕಡತದ ಕೊರತೆಗಳು ಇನ್ನೂ ಬಾಕಿಯಿರುವುದರಿಂದ ಎರಡನೇ ಖಂಡದ ಆವೃತ್ತಿಯು ಇನ್ನೂ ಪೂರ್ಣಗೊಂಡಿಲ್ಲ.",
+    "canonical": false
+  },
+  "nonverse_closings": []
+}
