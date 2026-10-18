@@ -50897,6 +50897,466 @@
         "exact_verse_span_candidates": [],
         "accepted_reference_reading": null
       }
+    },
+    {
+      "id": "kh3-ch19-v7",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 19,
+      "verse_start": 7,
+      "verse_end": 7,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 8,
+        "printed_page": 38,
+        "printed_page_verified": true,
+        "image_sha256": "4d05d04399b42500ca5c1d9ff2ae5a9bb6ad376c2235d0c2c9562c9990c59baf"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p8",
+      "source_sanskrit": "चतुर्थीव्रतहीनस्य नाधिकारो व्रतेषु वै । सदा शौची भवेन्नूनं चतुःपदविवर्जितः ॥७॥",
+      "issues": [
+        {
+          "id": "R19-7-SEMANTIC",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "चतुःपदविवर्जितः is unexplained in packet. Candidate adds ಧರ್ಮವಿರುದ್ಧ ನಡವಳಿಕೆಗಳಿಂದ without textual support. Literal four-foot/four-part sense cannot be safely specialized; require contextual/native review. No accepted translation."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 322,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0322.txt",
+            "individual_page_sha256": "33df98d0e50e4263117af42a5fedbb413726490a849200a3ff90e0257d122d66",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9524,
+            "line_end": 9550,
+            "char_start": 685685,
+            "char_end_exclusive": 687908,
+            "byte_start": 1804855,
+            "byte_end_exclusive": 1810894
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 322,
+            "raw_ocr": " चतुर्थव्रतमाद्यं च कर्तव्य॑ त्वाश्रमस्थितैः । तथाऽन्यानि घ्रतादीनि कर्तव्यानि विराषतः। ।द॥ चतुर्थी\nब्रतहीनस्य नाधिकारो वरतेषु वै । सदा शौची भवेन्नूनं चतुःपदविवरजितः ॥७॥",
+            "similarity_to_scan_source": 0.6117,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9533,
+            "line_end": 9534,
+            "char_start": 686165,
+            "char_end_exclusive": 686334,
+            "byte_start": 1806139,
+            "byte_end_exclusive": 1806604
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch19-v23",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 19,
+      "verse_start": 23,
+      "verse_end": 23,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 8,
+        "printed_page": 38,
+        "printed_page_verified": true,
+        "image_sha256": "4d05d04399b42500ca5c1d9ff2ae5a9bb6ad376c2235d0c2c9562c9990c59baf"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p8",
+      "source_sanskrit": "चतुर्थांशायुषि स्थातां संन्यासं सं समाचरेत् । तदा स्त्रियाऽपि तस्यैवाशां त्यक्त्वा ज्ञापितो भवेत् ॥२३॥",
+      "issues": [
+        {
+          "id": "R19-23-SOURCE",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Source स्थातां and संन्यासं सं conflict with OCR स्थाता and संन्यासं स. Candidate ಚೆನ್ನಾಗಿ depends on doubtful सं. ज्ञापितो also needs an intelligible rendering in wife-consent context (24). Do not silently repair source or approve current literal passive."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 322,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0322.txt",
+            "individual_page_sha256": "33df98d0e50e4263117af42a5fedbb413726490a849200a3ff90e0257d122d66",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9524,
+            "line_end": 9550,
+            "char_start": 685685,
+            "char_end_exclusive": 687908,
+            "byte_start": 1804855,
+            "byte_end_exclusive": 1810894
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 322,
+            "raw_ocr": " चतुर्थारायुषि स्थाता संन्यासं स समाचरेत्‌ । तदा स्तियाऽपि तस्थैवारां त्यक्त्वा\nज्ञापितो भवेत्‌ ॥२३॥",
+            "similarity_to_scan_source": 0.9341,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9546,
+            "line_end": 9547,
+            "char_start": 687608,
+            "char_end_exclusive": 687708,
+            "byte_start": 1810080,
+            "byte_end_exclusive": 1810354
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch19-v35",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 19,
+      "verse_start": 35,
+      "verse_end": 35,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 8,
+        "printed_page": 38,
+        "printed_page_verified": true,
+        "image_sha256": "4d05d04399b42500ca5c1d9ff2ae5a9bb6ad376c2235d0c2c9562c9990c59baf"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p9",
+      "source_sanskrit": "कुटीं देहमयीं योगी चालयेत्\nबिंबभावतः । ब्रह्मणि ब्रह्मभूतश्च स कुटीचक उच्यते ॥३५॥",
+      "issues": [
+        {
+          "id": "P341-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The first akshara of 'बिंबभावतः' has a mark above it resembling a repha or smudge, printed as 'र्बिंबभावतः' or 'बिंबभावतः'."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 323,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0323.txt",
+            "individual_page_sha256": "1539358488294d370ea25d44bd3e70738e38d182f5c4da9fcd3ba4aa22c7f7b4",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9552,
+            "line_end": 9580,
+            "char_start": 687958,
+            "char_end_exclusive": 690172,
+            "byte_start": 1810944,
+            "byte_end_exclusive": 1816920
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 323,
+            "raw_ocr": "\n\nवत्र रसहीनं च मानसं वतते यथा । कतेव्यं तत्तथा तेन मनोदंडः प्रकीर्तितः ॥३५॥",
+            "similarity_to_scan_source": 0.2222,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9562,
+            "line_end": 9564,
+            "char_start": 688629,
+            "char_end_exclusive": 688705,
+            "byte_start": 1812747,
+            "byte_end_exclusive": 1812947
+          },
+          {
+            "reference_page": 323,
+            "raw_ocr": " कुटीं देहमयीं योगी चाल्येत्‌\nविंबमावतः । ब्रह्मणि ब्रह्मभूत स कुटीचक उच्यते ॥३५॥",
+            "similarity_to_scan_source": 0.9394,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9564,
+            "line_end": 9565,
+            "char_start": 688705,
+            "char_end_exclusive": 688786,
+            "byte_start": 1812947,
+            "byte_end_exclusive": 1813166
+          },
+          {
+            "reference_page": 323,
+            "raw_ocr": " ततो बहूदको योगी द्विदडी स भवेन्‌ सुने । देहदंड-\nविरीनत्वात्‌ स्वेच्छाचारी विद्योषतः ॥३द॥ एकगतस्यसुदकं सर्वैः संगरद्यते यथा। गर्ते दोषो नराणां वे विद्यते न कदाचन ।॥३५॥",
+            "similarity_to_scan_source": 0.201,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9565,
+            "line_end": 9566,
+            "char_start": 688786,
+            "char_end_exclusive": 688953,
+            "byte_start": 1813166,
+            "byte_end_exclusive": 1813615
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch19-v42",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 19,
+      "verse_start": 42,
+      "verse_end": 42,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 8,
+        "printed_page": 38,
+        "printed_page_verified": true,
+        "image_sha256": "4d05d04399b42500ca5c1d9ff2ae5a9bb6ad376c2235d0c2c9562c9990c59baf"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p9",
+      "source_sanskrit": "द्वंद्वं जलमयं प्रोक्तं देहदेहिस्यरूपकम् । तत्र दुग्धं भवेद्ब्रह्म हंसस्तद् ग्राहको भवेत् ॥४२॥",
+      "issues": [
+        {
+          "id": "P341-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'देहदेहिस्यरूपकम्' appears printed as 'स्य' instead of expected 'स्व'. Preserved raw printed appearance."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 323,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0323.txt",
+            "individual_page_sha256": "1539358488294d370ea25d44bd3e70738e38d182f5c4da9fcd3ba4aa22c7f7b4",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9552,
+            "line_end": 9580,
+            "char_start": 687958,
+            "char_end_exclusive": 690172,
+            "byte_start": 1810944,
+            "byte_end_exclusive": 1816920
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 323,
+            "raw_ocr": " द्रं जलमयं प्रोक्तं देहदेहिस्वरूपकम्‌ । तत्र दुग्धं भवद्भ्य दंसस्तद्‌ ग्राहको भवेत्‌ ॥४२॥",
+            "similarity_to_scan_source": 0.8816,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9570,
+            "line_end": 9570,
+            "char_start": 689300,
+            "char_end_exclusive": 689390,
+            "byte_start": 1814554,
+            "byte_end_exclusive": 1814800
+          }
+        ],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch19-v47",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 19,
+      "verse_start": 47,
+      "verse_end": 47,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 8,
+        "printed_page": 38,
+        "printed_page_verified": true,
+        "image_sha256": "4d05d04399b42500ca5c1d9ff2ae5a9bb6ad376c2235d0c2c9562c9990c59baf"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p9",
+      "source_sanskrit": "यद्यज्ञानं\nभवेत्तस्य तत्तत् सर्वं विकारजम् । तत्यक्त्वा द्वंद्वहीनश्च स्वेच्छाचारी भवेत् स्वयम् ॥४७॥",
+      "issues": [
+        {
+          "id": "P341-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'तत्यक्त्वा' without double त् (तत्त्यक्त्वा). Preserved exact printed spelling."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 323,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0323.txt",
+            "individual_page_sha256": "1539358488294d370ea25d44bd3e70738e38d182f5c4da9fcd3ba4aa22c7f7b4",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9552,
+            "line_end": 9580,
+            "char_start": 687958,
+            "char_end_exclusive": 690172,
+            "byte_start": 1810944,
+            "byte_end_exclusive": 1816920
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch19-v53",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 19,
+      "verse_start": 53,
+      "verse_end": 53,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 8,
+        "printed_page": 38,
+        "printed_page_verified": true,
+        "image_sha256": "4d05d04399b42500ca5c1d9ff2ae5a9bb6ad376c2235d0c2c9562c9990c59baf"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p10",
+      "source_sanskrit": "त्रेतायां चंचलं चित्तं धर्मस्य पादहीनतः । तमस्तत्र कृतं मुख्यं तेन सर्वं लभेन्नरः ॥५३॥",
+      "issues": [
+        {
+          "id": "P342-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The second character in the word 'तपस्तत्र' / 'तमस्तत्र' is slightly smudged, making it ambiguous between 'प' and 'म'."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 324,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0324.txt",
+            "individual_page_sha256": "7438afc41f56896ac382a104256aff033bb97581a0dacaf7f14325499858f9ba",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9582,
+            "line_end": 9597,
+            "char_start": 690222,
+            "char_end_exclusive": 691544,
+            "byte_start": 1816970,
+            "byte_end_exclusive": 1820532
+          }
+        ],
+        "exact_verse_span_candidates": [],
+        "accepted_reference_reading": null
+      }
+    },
+    {
+      "id": "kh3-ch19-v54",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 19,
+      "verse_start": 54,
+      "verse_end": 54,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "351 TO 400.pdf",
+        "sha256": "93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792",
+        "pdf_page": 8,
+        "printed_page": 38,
+        "printed_page_verified": true,
+        "image_sha256": "4d05d04399b42500ca5c1d9ff2ae5a9bb6ad376c2235d0c2c9562c9990c59baf"
+      },
+      "source_pages": "pdf:93676e4f6d2240be3f2fb84d35e9053a9090bc1e44e11730e59e73efd9bb9792:p10",
+      "source_sanskrit": "द्वापरे देहकष्टं यज्ञ भवेत्तेन तत्र च । मुख्यः स्वधर्माचारश्च तेन सर्वं लभेन्नरः ॥५४॥",
+      "issues": [
+        {
+          "id": "R19-54-NEGATION",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Argon यज्ञ versus embedded OCR यन्न: OCR suggests यत् न, potentially a negation of bodily austerity. Current Kannada adds sacrifice and a conjunction without secure source support. Require scan check; do not auto-correct from OCR."
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "page_contexts": [
+          {
+            "reference_page": 324,
+            "fulltext_path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "fulltext_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0324.txt",
+            "individual_page_sha256": "7438afc41f56896ac382a104256aff033bb97581a0dacaf7f14325499858f9ba",
+            "status": "Chapter/pagecontextverified;OCRverseassignmentcandidateonly",
+            "line_start": 9582,
+            "line_end": 9597,
+            "char_start": 690222,
+            "char_end_exclusive": 691544,
+            "byte_start": 1816970,
+            "byte_end_exclusive": 1820532
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 324,
+            "raw_ocr": " द्वापरे देहकष्टं यन्न भवेत्तेन तत्र च । सख्यः स्वधर्माचारश्च तेन सर्वं लमेन्नरः ॥५४॥",
+            "similarity_to_scan_source": 0.9353,
+            "status": "OCR_numeric_text_alignment_candidate_not_accepted_source_repair",
+            "line_start": 9585,
+            "line_end": 9585,
+            "char_start": 690364,
+            "char_end_exclusive": 690449,
+            "byte_start": 1817348,
+            "byte_end_exclusive": 1817577
+          }
+        ],
+        "accepted_reference_reading": null
+      }
     }
   ]
 }
