@@ -1,7 +1,7 @@
 {
-  "source_commit": "535b7bd537960c5affc7e8198a96338a3b6357b4",
-  "coverage": "Publish reviewed Khanda3 chapter18 with explicit reading holds",
-  "entries": 7014,
+  "source_commit": "72c0a1f1190555be47a455b8281c9afa6b7d4063",
+  "coverage": "Publish reviewed Khanda3 chapter19 with explicit reading holds",
+  "entries": 7081,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
   "chapter4_verses": 65,
@@ -32,9 +32,9 @@
   "chapters1718_reading_status": "partial_with_twentyfive_visible_notices_colophons_withheld",
   "chapter17_verses": 59,
   "chapter18_verses": 37,
-  "chapter_range": "Khanda3chapters1–18;complete numbered extent18:41;partialreadinglabelsandholdsretained",
-  "html_sha256": "f7ef4cca85c5e3c1b919c86c39ab5f29da9e3fc15fca2bef624453f4f3198937",
-  "epub_sha256": "0153f1c8efc7ce032ddb60893e21ae2ff25ddb7741602d82855404cab93f059a",
+  "chapter_range": "Khanda3chapters1–19;complete numbered extent19:67;partialreadinglabelsandholdsretained",
+  "html_sha256": "edcfc635f1f12e7eafb0f438f21a8a2e1a321419a5e426d87c85b270c778a3ef",
+  "epub_sha256": "2b3da6cf793c17a857319d98d588f3082e61bde2adf48221428dee4957cc5dcc",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -76,7 +76,7 @@
   "chapter39_boundary_completion": "50ajoinedwith50bonce;51andcolophonadded;3priorholdsretained",
   "chapter40_complete_verses": 56,
   "chapter40_fragment": null,
-  "new_numbered_keys": 41,
+  "new_numbered_keys": 67,
   "chapter40_new_holds": [
     "P32-40-33-L11",
     "P32-40-45-AGENCY"
@@ -204,14 +204,15 @@
     46,
     36,
     56,
-    41
+    41,
+    67
   ],
   "khanda3_joins_counted_once": 4,
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 30,
-  "new_unresolved_placeholders": 11,
+  "new_accepted_textual_candidates": 60,
+  "new_unresolved_placeholders": 7,
   "new_retained_null_issues": 70,
   "new_seven_joins": [
     [
@@ -257,8 +258,13 @@
   "new_join": [
     [
       3,
-      18,
-      17
+      19,
+      26
+    ],
+    [
+      3,
+      19,
+      52
     ]
   ]
 }
