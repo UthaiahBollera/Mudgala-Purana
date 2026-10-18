@@ -1,7 +1,7 @@
 {
-  "source_commit": "f0b69832c85de733f0614eeadd2a5ed51e2cda11",
-  "coverage": "Publish reviewed Kannada source306 pages03–04 and Khanda2 source ending",
-  "entries": 6151,
+  "source_commit": "7be7d37fbf6f3ac91a6d67993837041022e6245b",
+  "coverage": "Publish reviewed Khanda3 opening and chapters1–4 with explicit reading holds",
+  "entries": 6342,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
   "chapter4_verses": 65,
@@ -32,9 +32,9 @@
   "chapters1718_reading_status": "partial_with_twentyfive_visible_notices_colophons_withheld",
   "chapter17_verses": 59,
   "chapter18_verses": 37,
-  "chapter_range": "Khanda2chapters74–74",
-  "html_sha256": "030014c8f5c515c8749be78e50392a3c5e209d802e12e78d1a83ba2eeb47aae1",
-  "epub_sha256": "5c8a15fd1f5d8afcf4a7c876884af41375146dc891034a0e757cfe53a1d3d2d8",
+  "chapter_range": "Khanda3 chapters1–3 andchapter4verses1–25",
+  "html_sha256": "895348c716bb909bec8c84e9992657b3823f45bb10f709ebe8ce85597a6199d0",
+  "epub_sha256": "ad160f903c9cc4fb33ecd2c1ded7db1fafbf5307654c042cc3b3bb0b262be8d6",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -185,5 +185,14 @@
   "chapter73_fragment": null,
   "chapter74_verses": 28,
   "chapter74_complete_verses": 28,
-  "chapter74_fragment": null
+  "chapter74_fragment": null,
+  "khanda3_chapter_counts": [
+    41,
+    57,
+    68,
+    25
+  ],
+  "khanda3_joins_counted_once": 4,
+  "khanda3_held_verses": 22,
+  "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately"
 }
