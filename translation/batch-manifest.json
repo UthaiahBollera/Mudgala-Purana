@@ -24380,6 +24380,49 @@
         ]
       ],
       "boundary_completions": []
+    },
+    {
+      "file": "batch-90-local-pdf-01.tsv",
+      "sha256": "fec67bfd925f01eb2990e344a29151bc9dba20ff20f8e9951499333c551b60ae",
+      "source_kind": "local_pdf",
+      "source_pdf": "306 TO 350.pdf",
+      "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p43",
+          "pdf_page": 43,
+          "printed_page": 28,
+          "printed_page_verified": true,
+          "image_sha256": "ba7fd1771194e23d63380e82e3e489e5c52283159270a37ad82da154812efc8a",
+          "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+        },
+        {
+          "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44",
+          "pdf_page": 44,
+          "printed_page": 29,
+          "printed_page_verified": true,
+          "image_sha256": "07f710faa1279ccf95a685adc7cb2d357157b5716f3947f0dc6ac77866267342",
+          "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda3-ch13-38",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda3-ch13-ending-review.json",
+      "review_sha256": "bbe627869012e1cd3571b89e1d078b93a4d911056cbb94e39f6ff5d6751790d6",
+      "added_keys": [
+        [
+          3,
+          13,
+          37
+        ],
+        [
+          3,
+          13,
+          38
+        ]
+      ],
+      "boundary_completions": []
     }
   ]
 }

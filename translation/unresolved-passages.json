@@ -45359,6 +45359,77 @@
       "book_id": null,
       "google_books_pages": null,
       "google_books_page_url": null
+    },
+    {
+      "id": "kh3-ch13-v37",
+      "kind": "verse",
+      "khanda": 3,
+      "chapter": 13,
+      "verse_start": 37,
+      "verse_end": 37,
+      "status": "open_pdf_reading_question",
+      "primary_source": {
+        "filename": "306 TO 350.pdf",
+        "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+        "pdf_page": 43,
+        "printed_page": 28,
+        "printed_page_verified": true,
+        "image_sha256": "ba7fd1771194e23d63380e82e3e489e5c52283159270a37ad82da154812efc8a"
+      },
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p43,pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44",
+      "source_sanskrit": "दर्शयेथां महामायां तां ज्ञात्वा संत्यजाम्यहम् । भक्तिरेव गुरोः पादे दीयतां मे वरस्त्वयम् ॥३७॥",
+      "issues": [
+        {
+          "id": "P330-V37-OBJECT",
+          "verse": "3.13.37",
+          "reading": null,
+          "status": "open",
+          "detail": "Trailingसं（संत्यजाम्यहम्）objectcontextमहामाया, rawಸಮಸ್ತವನ್ನೂ addsallnotprinted; sentencecontinues331, donotcertifyfullverse."
+        },
+        {
+          "id": "P331-CH13-V37-JOIN",
+          "verse": "3.13.37",
+          "reading": null,
+          "status": "open",
+          "detail": "Join prior330fragmentbeforeभक्तिरेव...; objectofabandonmentMahāmāyānotallthings. वरस्त्वयम् printedoddendingretained; no silentemendation."
+        }
+      ],
+      "accepted_translation": "ಮಹಾಮಾಯೆಯನ್ನು ನನಗೆ ತೋರಿಸಿರಿ; ಅವಳನ್ನು ಅರಿತುಕೊಂಡು ತ್ಯಜಿಸುವೆನು. ಗುರುವಿನ ಪಾದಗಳಲ್ಲಿ ಭಕ್ತಿಯೇ ನನಗೆ ನೀಡಲ್ಪಡಲಿ; ಇದೇ ನನ್ನ ವರ ॥೩೭॥",
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null,
+      "reference_evidence": {
+        "reference_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+        "page": 313,
+        "full_page_bytes_checked": true,
+        "reading_order_displacement_verified": true,
+        "source38_fragments": [
+          "\n\nभक्तिरेव गुरोः पादे दीयतां मे वरस्त्वयम्‌ ॥३७॥ रविरुवाच ।\nगाणेद्ां सुनिपुंगवौ ॥३८॥\n\n॥ ",
+          "तथेति तं महात्मानावूचतुज्ञानसुत्तमम्‌ । शां तियोगपवं पूर्ण\n\n"
+        ],
+        "same_printing_possible_not_independent_critical_witness": true
+      },
+      "grammatical_analysis": {
+        "source": "वरस्त्वयम्",
+        "analysis": "वरः तु अयम्",
+        "source_emendation": false,
+        "scan_certification": false,
+        "detail": "Regularsandhianalysis;doesnotrequireconjecturalending. Originalholdsremainopen/null."
+      }
+    },
+    {
+      "id": "kh3-ch13-v37-fragment-completion-event",
+      "kind": "source_fragment_completion_event",
+      "khanda": 3,
+      "chapter": 13,
+      "verse_start": 37,
+      "verse_end": 37,
+      "status": "complete_source_join_with_retained_source_holds",
+      "historical_fragment_id": "kh3-ch13-v37-unpublished-fragment",
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p43,pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44",
+      "source_reading": null,
+      "source_holds_closed": false,
+      "detail": "The earlier unpublished37afragment is now joined with37b exactlyonce; historicalrecordpreservedasdatedevidence."
     }
   ]
 }

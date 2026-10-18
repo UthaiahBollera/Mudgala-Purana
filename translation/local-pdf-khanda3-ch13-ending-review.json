@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "source_kind": "local_pdf",
+  "source_priority": "scanned_pdf_primary_ocr_aid_google_books_reference",
+  "primary_source": {
+    "filename": "306 TO 350.pdf",
+    "sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84",
+    "pdf_page": 43,
+    "printed_page": 28,
+    "printed_page_verified": true,
+    "image_sha256": "ba7fd1771194e23d63380e82e3e489e5c52283159270a37ad82da154812efc8a"
+  },
+  "additional_source_pdfs": [],
+  "source_pages": [
+    {
+      "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p43",
+      "pdf_page": 43,
+      "printed_page": 28,
+      "printed_page_verified": true,
+      "image_sha256": "ba7fd1771194e23d63380e82e3e489e5c52283159270a37ad82da154812efc8a",
+      "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+    },
+    {
+      "id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44",
+      "pdf_page": 44,
+      "printed_page": 29,
+      "printed_page_verified": true,
+      "image_sha256": "07f710faa1279ccf95a685adc7cb2d357157b5716f3947f0dc6ac77866267342",
+      "source_sha256": "33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84"
+    }
+  ],
+  "scope": "Khanda3chapter13verses37–38;twoacceptedtextualentries,37withretainedsourceholds;chapter13numberedextentnow1–38.",
+  "verses": [
+    {
+      "key": [
+        3,
+        13,
+        37
+      ],
+      "source_sanskrit": "दर्शयेथां महामायां तां ज्ञात्वा संत्यजाम्यहम् । भक्तिरेव गुरोः पादे दीयतां मे वरस्त्वयम् ॥३७॥",
+      "source_parts": [
+        {
+          "global_page": 330,
+          "physical_page": 43,
+          "image_sha256": "ba7fd1771194e23d63380e82e3e489e5c52283159270a37ad82da154812efc8a",
+          "text": "दर्शयेथां महामायां तां ज्ञात्वा संत्यजाम्यहम् ।"
+        },
+        {
+          "global_page": 331,
+          "physical_page": 44,
+          "image_sha256": "07f710faa1279ccf95a685adc7cb2d357157b5716f3947f0dc6ac77866267342",
+          "text": "भक्तिरेव गुरोः पादे दीयतां मे वरस्त्वयम् ॥३७॥"
+        }
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p43,pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44",
+      "reviewed_kannada_candidate": "ಮಹಾಮಾಯೆಯನ್ನು ನನಗೆ ತೋರಿಸಿರಿ; ಅವಳನ್ನು ಅರಿತುಕೊಂಡು ತ್ಯಜಿಸುವೆನು. ಗುರುವಿನ ಪಾದಗಳಲ್ಲಿ ಭಕ್ತಿಯೊಂದೇ ನನ್ನ ಈ ವರವಾಗಿ ನೀಡಲ್ಪಡಲಿ. ॥೩೭॥",
+      "accepted_translation": "ಮಹಾಮಾಯೆಯನ್ನು ನನಗೆ ತೋರಿಸಿರಿ; ಅವಳನ್ನು ಅರಿತುಕೊಂಡು ತ್ಯಜಿಸುವೆನು. ಗುರುವಿನ ಪಾದಗಳಲ್ಲಿ ಭಕ್ತಿಯೇ ನನಗೆ ನೀಡಲ್ಪಡಲಿ; ಇದೇ ನನ್ನ ವರ ॥೩೭॥",
+      "issues": [
+        {
+          "id": "P330-V37-OBJECT",
+          "verse": "3.13.37",
+          "reading": null,
+          "status": "open",
+          "detail": "Trailingसं（संत्यजाम्यहम्）objectcontextमहामाया, rawಸಮಸ್ತವನ್ನೂ addsallnotprinted; sentencecontinues331, donotcertifyfullverse."
+        },
+        {
+          "id": "P331-CH13-V37-JOIN",
+          "verse": "3.13.37",
+          "reading": null,
+          "status": "open",
+          "detail": "Join prior330fragmentbeforeभक्तिरेव...; objectofabandonmentMahāmāyānotallthings. वरस्त्वयम् printedoddendingretained; no silentemendation."
+        }
+      ],
+      "joined_once": true,
+      "complete": true,
+      "status": "pending_independent_native_review_of_completed_join",
+      "reference_alignment": {
+        "page_contexts": [
+          {
+            "reference_page": 312,
+            "path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "reference_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0312.txt",
+            "line_start": 9227,
+            "line_end": 9252,
+            "char_start": 664037,
+            "char_end_exclusive": 666180,
+            "byte_start": 1747429,
+            "byte_end_exclusive": 1753242,
+            "alignment": "Chapter/printed-page sequence verified against scan-backed packet; OCR per-verse span separately evaluated"
+          },
+          {
+            "reference_page": 313,
+            "path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "reference_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0313.txt",
+            "line_start": 9254,
+            "line_end": 9281,
+            "char_start": 666230,
+            "char_end_exclusive": 668157,
+            "byte_start": 1753292,
+            "byte_end_exclusive": 1758533,
+            "alignment": "Chapter/printed-page sequence verified against scan-backed packet; OCR per-verse span separately evaluated"
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 313,
+            "raw_ocr": "\n\nभक्तिरेव गुरोः पादे दीयतां मे वरस्त्वयम्‌ ॥३७॥",
+            "similarity_to_scan_source": 0.6435,
+            "status": "OCR_numeric_and_text_alignment_candidate_not_source_correction",
+            "line_start": 9254,
+            "line_end": 9256,
+            "char_start": 666230,
+            "char_end_exclusive": 666278,
+            "byte_start": 1753292,
+            "byte_end_exclusive": 1753420
+          }
+        ],
+        "accepted_reference_reading": null,
+        "edition_relationship": "May derive from same printing as scans; bibliographicidentitynotverified; not independentcriticalwitness"
+      },
+      "argon_outputs": [
+        {
+          "global_page": 330,
+          "result_path": "/Users/uthaiahbb/projects/mudgala-purana-translator/output/000330/result.json",
+          "result_sha256": "d674d68c07ea8dfa1eccd9f95cb59f470ceb21aa80fd843a23cf2f6beb42fd58",
+          "scan_source_id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p43",
+          "scan_image_sha256": "ba7fd1771194e23d63380e82e3e489e5c52283159270a37ad82da154812efc8a"
+        },
+        {
+          "global_page": 331,
+          "result_path": "/Users/uthaiahbb/projects/mudgala-purana-translator/output/000331/result.json",
+          "result_sha256": "fd8efee328bebbb0762f82de21a8a14011ca785cc6f6e87cdc961aa845ad0684",
+          "scan_source_id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44",
+          "scan_image_sha256": "07f710faa1279ccf95a685adc7cb2d357157b5716f3947f0dc6ac77866267342"
+        }
+      ],
+      "publication_status": "unpublished_pending_review",
+      "raw_argon_first_preference": true,
+      "text": "ಮಹಾಮಾಯೆಯನ್ನು ನನಗೆ ತೋರಿಸಿರಿ; ಅವಳನ್ನು ಅರಿತುಕೊಂಡು ತ್ಯಜಿಸುವೆನು. ಗುರುವಿನ ಪಾದಗಳಲ್ಲಿ ಭಕ್ತಿಯೇ ನನಗೆ ನೀಡಲ್ಪಡಲಿ; ಇದೇ ನನ್ನ ವರ ॥೩೭॥ (ಪರಿಶೀಲನೆ: P330-V37-OBJECT, P331-CH13-V37-JOIN — ಮೂಲಪಾಠದ ಹಿಂದಿನ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ವ್ಯಾಕರಣಪರಿಶೀಲನೆ ಮಾತ್ರದಿಂದ ಪಾಠಪ್ರಮಾಣೀಕರಣ ನೀಡಿಲ್ಲ.)",
+      "textual_review_status": "accepted_with_original_source_holds_retained",
+      "grammatical_analysis": {
+        "source": "वरस्त्वयम्",
+        "analysis": "वरः तु अयम्",
+        "source_emendation": false,
+        "scan_certification": false,
+        "detail": "Regularsandhianalysis;doesnotrequireconjecturalending. Originalholdsremainopen/null."
+      },
+      "publication_clearance": "Standinguserauthorizationafterreviewandchecks",
+      "type": "translation-review",
+      "review_status": "accepted_with_unresolved_reading",
+      "classification": {
+        "category": "narrative",
+        "required_treatment": "formal Kannada translation"
+      },
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Native text reviewrelayedby01a14f3b-b78a-71cc-8a9d-2db5c3c470f6;localpixelscheckedseparately;allpriorholdspreserved."
+      }
+    },
+    {
+      "key": [
+        3,
+        13,
+        38
+      ],
+      "source_sanskrit": "रविरुवाच । तथेति तं महात्मानमूचतुर्ज्ञानमुत्तमम् । शांतियोगप्रदं पूर्णं गाणेशं मुनिपुंगवौ॥३८॥",
+      "source_parts": [
+        {
+          "global_page": 331,
+          "physical_page": 44,
+          "image_sha256": "07f710faa1279ccf95a685adc7cb2d357157b5716f3947f0dc6ac77866267342",
+          "text": "रविरुवाच । तथेति तं महात्मानमूचतुर्ज्ञानमुत्तमम् । शांतियोगप्रदं पूर्णं गाणेशं मुनिपुंगवौ॥३८॥"
+        }
+      ],
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44",
+      "reviewed_kannada_candidate": "ರವಿಯು ಹೇಳಿದನು: ಹಾಗೆಯೇ ಆಗಲಿ ಎಂದು ಮುನಿಶ್ರೇಷ್ಠರಿಬ್ಬರು ಆ ಮಹಾತ್ಮನಿಗೆ ಶಾಂತಿಯೋಗವನ್ನು ನೀಡುವಂತಹ ಪೂರ್ಣವಾದ ಹಾಗೂ ಉತ್ತಮವಾದ ಗಣೇಶಸಂಬಂಧಿಯಾದ ಜ್ಞಾನವನ್ನು ಹೇಳಿದರು ॥೩೮॥",
+      "accepted_translation": "ರವಿಯು ಹೇಳಿದನು: ಹಾಗೆಯೇ ಆಗಲಿ ಎಂದು ಮುನಿಶ್ರೇಷ್ಠರಿಬ್ಬರು ಆ ಮಹಾತ್ಮನಿಗೆ ಶಾಂತಿಯೋಗವನ್ನು ನೀಡುವಂತಹ ಪೂರ್ಣವಾದ ಹಾಗೂ ಉತ್ತಮವಾದ ಗಣೇಶಸಂಬಂಧಿಯಾದ ಜ್ಞಾನವನ್ನು ಹೇಳಿದರು ॥೩೮॥",
+      "issues": [],
+      "joined_once": false,
+      "complete": true,
+      "status": "pending_independent_native_review",
+      "reference_alignment": {
+        "page_contexts": [
+          {
+            "reference_page": 313,
+            "path": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/original/Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+            "reference_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+            "individual_page": "/Users/uthaiahbb/Documents/Codex/2026-10-16/task-3/mudgala-reference-intake/individual-pages/pages/page_0313.txt",
+            "line_start": 9254,
+            "line_end": 9281,
+            "char_start": 666230,
+            "char_end_exclusive": 668157,
+            "byte_start": 1753292,
+            "byte_end_exclusive": 1758533,
+            "alignment": "Chapter/printed-page sequence verified against scan-backed packet; OCR per-verse span separately evaluated"
+          }
+        ],
+        "exact_verse_span_candidates": [
+          {
+            "reference_page": 313,
+            "raw_ocr": " रविरुवाच ।\nगाणेद्ां सुनिपुंगवौ ॥३८॥",
+            "similarity_to_scan_source": 0.4444,
+            "status": "OCR_numeric_and_text_alignment_candidate_not_source_correction",
+            "line_start": 9256,
+            "line_end": 9257,
+            "char_start": 666278,
+            "char_end_exclusive": 666314,
+            "byte_start": 1753420,
+            "byte_end_exclusive": 1753518
+          }
+        ],
+        "accepted_reference_reading": null,
+        "edition_relationship": "May derive from same printing as scans; bibliographicidentitynotverified; not independentcriticalwitness"
+      },
+      "argon_outputs": [
+        {
+          "global_page": 331,
+          "result_path": "/Users/uthaiahbb/projects/mudgala-purana-translator/output/000331/result.json",
+          "result_sha256": "fd8efee328bebbb0762f82de21a8a14011ca785cc6f6e87cdc961aa845ad0684",
+          "scan_source_id": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44",
+          "scan_image_sha256": "07f710faa1279ccf95a685adc7cb2d357157b5716f3947f0dc6ac77866267342"
+        }
+      ],
+      "publication_status": "unpublished_pending_review",
+      "raw_argon_first_preference": true,
+      "text": "ರವಿಯು ಹೇಳಿದನು: ಹಾಗೆಯೇ ಆಗಲಿ ಎಂದು ಮುನಿಶ್ರೇಷ್ಠರಿಬ್ಬರು ಆ ಮಹಾತ್ಮನಿಗೆ ಶಾಂತಿಯೋಗವನ್ನು ನೀಡುವಂತಹ ಪೂರ್ಣವಾದ ಹಾಗೂ ಉತ್ತಮವಾದ ಗಣೇಶಸಂಬಂಧಿಯಾದ ಜ್ಞಾನವನ್ನು ಹೇಳಿದರು ॥೩೮॥",
+      "textual_review_status": "accepted_language_context",
+      "publication_clearance": "Standinguserauthorizationafterreviewandchecks",
+      "type": "translation",
+      "review_status": "accepted",
+      "classification": {
+        "category": "narrative",
+        "required_treatment": "formal Kannada translation"
+      },
+      "independent_review": {
+        "status": "accepted",
+        "scope": "language_and_context_only_source_pixels_checked_by_integrator",
+        "attribution": "Native text reviewrelayedby01a14f3b-b78a-71cc-8a9d-2db5c3c470f6;localpixelscheckedseparately;allpriorholdspreserved."
+      }
+    }
+  ],
+  "colophons": [
+    {
+      "chapter": 13,
+      "source_sanskrit": "॥ ओमितिश्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे तृतीये खंडे महोदरचरिते नरनारायणमार्कंडेयसमागमो नाम त्रयोदशोऽध्यायः ॥",
+      "text": "ಇಲ್ಲಿಗೆ ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ತೃತೀಯ ಖಂಡದ ಮಹೋದರಚರಿತೆಯಲ್ಲಿ ‘ನರನಾರಾಯಣಮಾರ್ಕಂಡೇಯಸಮಾಗಮ’ ಎಂಬ ಹದಿಮೂರನೆಯ ಅಧ್ಯಾಯವು ಮುಕ್ತಾಯವಾಯಿತು.",
+      "source_pages": "pdf:33004dfe204b01a77a44201999258e82c657e981a9442dd3f43712da27c71e84:p44"
+    }
+  ],
+  "boundary_joins": [
+    [
+      3,
+      13,
+      37
+    ]
+  ],
+  "all_retained_review_holds": [
+    {
+      "id": "P330-V37-OBJECT",
+      "verse": "3.13.37",
+      "reading": null,
+      "status": "open_pending_independent_review",
+      "detail": "Trailingसं（संत्यजाम्यहम्）objectcontextमहामाया, rawಸಮಸ್ತವನ್ನೂ addsallnotprinted; sentencecontinues331, donotcertifyfullverse."
+    },
+    {
+      "id": "P331-CH13-V37-JOIN",
+      "verse": "3.13.37",
+      "reading": null,
+      "status": "open_pending_independent_review",
+      "detail": "Join prior330fragmentbeforeभक्तिरेव...; objectofabandonmentMahāmāyānotallthings. वरस्त्वयम् printedoddendingretained; no silentemendation."
+    }
+  ],
+  "native_review_receipt_sha256": "e919d9c9460b3d2826486a2383f79883a9d2740b63b9f2962d14d1bd56098022",
+  "reference_page_check": {
+    "reference_sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+    "page": 313,
+    "full_page_bytes_checked": true,
+    "reading_order_displacement_verified": true,
+    "source38_fragments": [
+      "\n\nभक्तिरेव गुरोः पादे दीयतां मे वरस्त्वयम्‌ ॥३७॥ रविरुवाच ।\nगाणेद्ां सुनिपुंगवौ ॥३८॥\n\n॥ ",
+      "तथेति तं महात्मानावूचतुज्ञानसुत्तमम्‌ । शां तियोगपवं पूर्ण\n\n"
+    ],
+    "same_printing_possible_not_independent_critical_witness": true
+  },
+  "reference_findings": [
+    {
+      "key": [
+        3,
+        13,
+        16
+      ],
+      "detail": "Reference OCR नाभिरोषाय differs scan candidate नाभिशेषाय; both uncertain, no repair certified.",
+      "raw_reference": "नाभिरोषाय",
+      "reference_page": 312,
+      "accepted_reading": null,
+      "line_start": 9234,
+      "line_end": 9234,
+      "char_start": 664378,
+      "char_end_exclusive": 664387,
+      "byte_start": 1748352,
+      "byte_end_exclusive": 1748379
+    },
+    {
+      "key": [
+        3,
+        13,
+        20
+      ],
+      "detail": "Reference retains unusual स्तुवस् sequence; no grammar emendation certified.",
+      "raw_reference": "स्तुवस्त्वां",
+      "reference_page": 312,
+      "accepted_reading": null,
+      "line_start": 9236,
+      "line_end": 9236,
+      "char_start": 664636,
+      "char_end_exclusive": 664648,
+      "byte_start": 1749048,
+      "byte_end_exclusive": 1749084
+    },
+    {
+      "key": [
+        3,
+        13,
+        25
+      ],
+      "detail": "Reference OCR मातुरुबाच disagrees local scan Bhanu candidate; no source hold closed.",
+      "raw_reference": "मातुरुबाच",
+      "reference_page": 312,
+      "accepted_reading": null,
+      "line_start": 9240,
+      "line_end": 9240,
+      "char_start": 665069,
+      "char_end_exclusive": 665078,
+      "byte_start": 1750229,
+      "byte_end_exclusive": 1750256
+    },
+    {
+      "key": [
+        3,
+        13,
+        27
+      ],
+      "detail": "Reference supports local candidate गणनाथस्तौ but verse numeral mis-OCR२.५; concordanceonly.",
+      "raw_reference": "गणनाथस्तौ",
+      "reference_page": 312,
+      "accepted_reading": null,
+      "line_start": 9242,
+      "line_end": 9242,
+      "char_start": 665254,
+      "char_end_exclusive": 665263,
+      "byte_start": 1750730,
+      "byte_end_exclusive": 1750757
+    },
+    {
+      "key": [
+        3,
+        13,
+        37
+      ],
+      "detail": "Reference repeats odd ending; no forced grammatical repair.",
+      "raw_reference": "वरस्त्वयम्",
+      "reference_page": 313,
+      "accepted_reading": null,
+      "line_start": 9256,
+      "line_end": 9256,
+      "char_start": 666262,
+      "char_end_exclusive": 666272,
+      "byte_start": 1753374,
+      "byte_end_exclusive": 1753404
+    },
+    {
+      "key": [
+        3,
+        13,
+        38
+      ],
+      "detail": "ReferenceOCRreadorderdisplaces तथेति...ज्ञान...शांतियोग... line tobottom ofpage afterchapter14body. Fullpagecontextrequired; scan/Argon preferred. Earlier quick observation of omittedtext refinedtodisplacedtext.",
+      "reference_page": 313,
+      "accepted_reading": null
+    }
+  ],
+  "source_method": "OriginalPDFpage43/44pixelscheckedlocally;fullOCRreferencepage313readanddisplaced38lineverified;Argonscanreadingpreferred;referenceOCRnotindependentcriticalwitness."
+}
