@@ -2,7 +2,7 @@
 from pathlib import Path
 import unittest,json,copy,hashlib,tempfile,shutil,sys
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
-from validate_text_correction import validate_base_translation_correction
+from validate_text_correction import validate_base_translation_correction,validate_no_change_base_adjudications
 class BaseTranslation(unittest.TestCase):
  def setUp(self):
   self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');b=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('source_kind')=='reviewed_base_translation');self.items=copy.deepcopy(b['text_corrections']);self.review=json.loads((ROOT/b['review_file']).read_text())
@@ -52,4 +52,30 @@ class PartialClauseRepair(OriginalOnlyRepair):
   for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].split(' (ಪರಿಶೀಲನೆ:')[0]
   self.reject()
  def test_glyph_cannot_be_certified(self):self.review['reviews'][0]['source_reading_status']='accepted';self.reject()
+class FivePassageRepair(OriginalOnlyRepair):
+ def setUp(self):
+  super().setUp();self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch4-five-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def test_both_valid(self):
+  for i in range(4):self.check(i)
+ def test_no_guessed_demonstrative(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಅಲ್ಲಿ','ಶೂಲಪಾಣಿಯನ್ನು ಹೊಗಳಿ ಅಲ್ಲಿ')
+  self.reject()
+ def test_note_cannot_be_omitted(self):self.review['reviews'][0]['partial_suffix']='';self.reject()
+ def test_worker_acceptance_remains_null(self):
+  p=self.root/self.review['candidate_file'];d=json.loads(p.read_text());d['records'][0]['accepted_kannada']='promoted';p.write_text(json.dumps(d));h=hashlib.sha256(p.read_bytes()).hexdigest();self.review['candidate_sha256']=h;next(x for x in self.review['evidence_files']if x['file']==self.review['candidate_file'])['sha256']=h;self.reject()
+ def test_mantra_single_token_only(self):
+  for x in [self.items[2]['new_row'],self.review['reviews'][2]['new_row']]:x['text']=x['text'].replace('ಲಂಬೋದರಾಯ','ಲಂಬೋದರ')
+  self.reject(2)
+ def test_mantra_treatment_preserved(self):self.items[3]['new_row']['type']='translation';self.review['reviews'][3]['new_row']['type']='translation';self.reject(3)
+ def nochange(self):
+  x=self.review['no_change_adjudications'][0];validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']},self.batch)
+ def test_15_valid_no_change(self):self.nochange()
+ def test_15_cannot_rewrite(self):
+  self.review['no_change_adjudications'][0]['new_row']['text']='rewritten'
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_15_cannot_close_hold(self):
+  self.review['no_change_adjudications'][0]['accepted_translation']='accepted'
+  with self.assertRaises(AssertionError):self.nochange()
 if __name__=='__main__':unittest.main()

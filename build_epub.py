@@ -78,7 +78,7 @@ if manifest_path.exists():
         elif batch.get('source_kind') == 'reviewed_base_correction':
             source_description += ' Reviewed token-only base-edition correction; historical source mapping and edition variants retained. Evidence: '+batch['review_file']+'.'
         elif batch.get('source_kind') == 'reviewed_base_translation':
-            source_description += ' Reviewed base-edition Kannada meaning correction; immutable historical source mapping and unresolved meanings retained. Evidence: '+batch['review_file']+'.'
+            source_description += ' Reviewed base-edition text correction; immutable historical source mapping and unresolved readings or meanings retained. Evidence: '+batch['review_file']+'.'
         elif batch.get('source_kind') == 'original_png_archive':
             source_description += ' Additional original PNG archive '+batch['source_archive']['filename']+'; SHA-256 '+batch['source_archive']['sha256']+'; members '+', '.join(p['member'] for p in batch['source_pages'])+'. Frozen candidates and independent review retained; lexical holds remain explicit.'
         else:

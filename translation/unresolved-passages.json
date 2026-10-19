@@ -358,7 +358,7 @@
       "verse_end": 3,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "partially_corrected_meaning_hold",
       "issues": [
         "Second half has instrumental stutibhiḥ but no explicit finite verb; proposed stuti performance is an elliptical supply, not secure complete syntax.",
         "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
@@ -379,7 +379,39 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "partially_corrected_meaning_hold",
+          "review_file": "translation/khanda1-ch4-five-writer-review.json",
+          "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-five-writer-review.json",
+        "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+        "source_sanskrit": "नानाऽपशकुनं तत्र बभूवातिभयानकम् । स्तुतिभिस्तेन सर्वे ते उत्पाताशंकया भृशम् ॥३॥",
+        "new_row": {
+          "source_pages": "21",
+          "type": "translation-review",
+          "text": "ಅಲ್ಲಿ ಅತ್ಯಂತ ಭಯಂಕರವಾದ ನಾನಾ ಅಪಶಕುನಗಳು ಉಂಟಾದವು. (ಪರಿಶೀಲನೆ: ಉತ್ತರಾರ್ಧದ “ಸ್ತುತಿಭಿಸ್ತೇನ ಸರ್ವೇ ತೇ ಉತ್ಪಾತಾಶಂಕಯಾ ಭೃಶಮ್” ಎಂಬ ಭಾಗದಲ್ಲಿ ಸ್ಪಷ್ಟ ಕ್ರಿಯಾಪದವಿಲ್ಲ; ಪೂರ್ಣ ಪದಸಂಬಂಧ ಮತ್ತು ಅನುವಾದ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೩॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "elliptical_second_half",
+            "reading": null,
+            "token": "स्तुतिभिस्तेन सर्वे ते उत्पाताशंकया भृशम्",
+            "detail": "Second half has stutibhiḥ and no explicit finite verb. Do not retain an unmarked supplied praise action or identify its object as Śūlapāṇi. First-sentence replacement is secure; full replacement remains withheld."
+          }
+        ],
+        "review_status": "accepted_with_unresolved_meaning",
+        "accepted_transliteration": null
+      }
     },
     {
       "id": "kh1-ch4-v8",
@@ -391,7 +423,7 @@
       "verse_end": 8,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "partially_corrected_meaning_hold",
       "issues": [
         "śokāgnir māṃ dahet kiṃ vā clause has uncertain speaker/attachment. Proposed replacement preserves literal question without inventing statements about Sati; scholarly syntax check desirable.",
         "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
@@ -412,7 +444,39 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "partially_corrected_meaning_hold",
+          "review_file": "translation/khanda1-ch4-five-writer-review.json",
+          "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-five-writer-review.json",
+        "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+        "source_sanskrit": "न किंचिदुक्तवांस्तत्र शंभुक्रोधभयाकुलः । शोकाग्निर्मां दहेत्किं वा ततो देवोऽन्वबुध्यत ॥८॥",
+        "new_row": {
+          "source_pages": "21",
+          "type": "translation-review",
+          "text": "ಶಂಭುವಿನ ಕೋಪದ ಭಯದಿಂದ ವ್ಯಾಕುಲನಾದ ಅವನು ಅಲ್ಲಿ ಏನನ್ನೂ ಹೇಳಲಿಲ್ಲ. “ಶೋಕಾಗ್ನಿಯು ನನ್ನನ್ನು ಸುಟ್ಟೀತೋ?” ಬಳಿಕ ದೇವನು ಅರಿತುಕೊಂಡನು. (ಪರಿಶೀಲನೆ: ಪ್ರಶ್ನೆಯ ವಕ್ತೃ ಮತ್ತು ವಾಕ್ಯಗಳ ಅನ್ವಯ ಪರಿಶೀಲನೆಯಲ್ಲಿವೆ.) ॥೮॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "speaker_attachment_and_object",
+            "reading": null,
+            "token": "शोकाग्निर्मां दहेत्किं वा ततो देवोऽन्वबुध्यत",
+            "detail": "The first subject is contextually Nārada but not named in this verse; the candidate uses a pronoun. The speaker/attachment of māṃ dahet kiṃ vā and the object of anvabudhyata remain unresolved. The question is preserved without attributing it to Satī or converting it to a claim about her body."
+          }
+        ],
+        "review_status": "accepted_with_unresolved_meaning",
+        "accepted_transliteration": null
+      }
     },
     {
       "id": "kh1-ch4-v15",
@@ -424,7 +488,7 @@
       "verse_end": 15,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "reviewed_no_text_change_transition_hold",
       "issues": [
         "iti gatvā may express movement or progression; candidate corrects invented breath-control/one-syllable claims but does not expand gatvā."
       ],
@@ -443,7 +507,39 @@
         ],
         "status": "partially_corrected_issue_remains"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "reviewed_no_text_change_transition_hold",
+          "review_file": "translation/khanda1-ch4-five-writer-review.json",
+          "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": true
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-five-writer-review.json",
+        "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+        "source_sanskrit": "इति गत्वा स्वयं शंभुर्मनसा गणपं भजन् । भक्त्यैकचेतसा चैव ध्यात्वा रूपमनुत्तमम् ॥१५॥",
+        "new_row": {
+          "source_pages": "22",
+          "type": "translation",
+          "text": "ಹೀಗೆ ಮನಸ್ಸಿನಲ್ಲಿ ಗಣಪತಿಯನ್ನು ಭಜಿಸುತ್ತಾ ಶಂಭುವು ಭಕ್ತಿಯಿಂದ ಏಕಾಗ್ರಚಿತ್ತನಾಗಿ ಅವನ ಅನುಪಮ ರೂಪವನ್ನು ಧ್ಯಾನಿಸಿದನು. ॥೧೫॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "transition_and_absolutive",
+            "reading": null,
+            "token": "इति गत्वा;ध्यात्वा",
+            "detail": "Current text already removes the historical breath-control and one-syllable additions. Retain iti gatvā as an unresolved transition/movement expression. Do not invent a destination or silently emend gatvā to jñātvā. Dhyātvā is an absolutive in the extended meditation sequence; current finite Kannada is narrative recasting, not evidence of a Sanskrit finite verb."
+          }
+        ],
+        "review_status": "reviewed_no_text_change_hold",
+        "accepted_transliteration": null
+      }
     },
     {
       "id": "kh1-ch4-v21",
@@ -455,7 +551,7 @@
       "verse_end": 21,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "resolved_original_scan_transliteration_correction",
       "issues": [
         "Mantra wording divergence requiring printed-edition comparison; do not silently harmonize. Online nānābhedapradhāriṇe versus Kannada nānābhedātmadhāriṇe."
       ],
@@ -474,7 +570,31 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_original_scan_transliteration_correction",
+          "review_file": "translation/khanda1-ch4-five-writer-review.json",
+          "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-five-writer-review.json",
+        "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+        "source_sanskrit": "लंबोदराय सर्वाय वक्रतुंडस्वरूपिणे । त्रैगुण्येन जगद्रूपनानाभेदप्रधारिणे ॥२१॥",
+        "new_row": {
+          "source_pages": "22",
+          "type": "mantra",
+          "text": "ಲಂಬೋದರಾಯ ಸರ್ವಾಯ ವಕ್ರತುಂಡಸ್ವರೂಪಿಣೇ । ತ್ರೈಗುಣ್ಯೇನ ಜಗದ್ರೂಪನಾನಾಭೇದಪ್ರಧಾರಿಣೇ ॥೨೧॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "accepted_transliteration": "ಲಂಬೋದರಾಯ ಸರ್ವಾಯ ವಕ್ರತುಂಡಸ್ವರೂಪಿಣೇ । ತ್ರೈಗುಣ್ಯೇನ ಜಗದ್ರೂಪನಾನಾಭೇದಪ್ರಧಾರಿಣೇ ॥೨೧॥"
+      }
     },
     {
       "id": "kh1-ch4-v22",
@@ -486,7 +606,7 @@
       "verse_end": 22,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "resolved_original_scan_transliteration_correction",
       "issues": [
         "Mantra wording divergence requiring printed-edition comparison; do not silently harmonize. Online bandhahantre versus Kannada vedavedya."
       ],
@@ -505,7 +625,31 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_original_scan_transliteration_correction",
+          "review_file": "translation/khanda1-ch4-five-writer-review.json",
+          "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-five-writer-review.json",
+        "review_sha256": "66b57208db3e3927cee044ea73969b5cb4a01d9df9f59972c962250bfd36045a",
+        "source_sanskrit": "नैर्गुण्येन च वै साक्षाद् ब्रह्मरूपधराय च । नमो नमो बंधहंत्रे भक्तानां पालकाय ते ॥२२॥",
+        "new_row": {
+          "source_pages": "22",
+          "type": "mantra",
+          "text": "ನೈರ್ಗುಣ್ಯೇನ ಚ ವೈ ಸಾಕ್ಷಾದ್ ಬ್ರಹ್ಮರೂಪಧರಾಯ ಚ । ನಮೋ ನಮೋ ಬಂಧಹಂತ್ರೇ ಭಕ್ತಾನಾಂ ಪಾಲಕಾಯ ತೇ ॥೨೨॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "accepted_transliteration": "ನೈರ್ಗುಣ್ಯೇನ ಚ ವೈ ಸಾಕ್ಷಾದ್ ಬ್ರಹ್ಮರೂಪಧರಾಯ ಚ । ನಮೋ ನಮೋ ಬಂಧಹಂತ್ರೇ ಭಕ್ತಾನಾಂ ಪಾಲಕಾಯ ತೇ ॥೨೨॥"
+      }
     },
     {
       "id": "kh1-ch4-v30",

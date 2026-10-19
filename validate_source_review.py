@@ -264,6 +264,8 @@ if manifest is not None:
             allowed_pages = set()
             boundary = coverage[batch['coverage_boundary']]
             if batch['source_kind']=='reviewed_base_translation':
+                from validate_text_correction import validate_no_change_base_adjudications
+                validate_no_change_base_adjudications(ROOT,review,replayed,batch)
                 base_unresolved_keys.difference_update(tuple(x['key'])for x in review['reviews'])
                 base_unresolved_keys.update(tuple(x['key'])for x in review['reviews']if x['issues'])
                 assert {tuple(k)for k in boundary['base_review_required_keys']}==base_unresolved_keys,'Base holds missing from coverage'
