@@ -1,0 +1,3555 @@
+{
+  "scope": "Every independent-review correct decision in Khanda8 chapters21–25 compared to actual uploaded Sanskrit OCR bytes. Literal excerpts are recorded; mechanically aligned candidates are not certified verse readings.",
+  "reference_fulltext_library_id": "libfile_706e2c6d7f9c81919364c79356578fdb",
+  "normalization": "Devanagari letters/marks only; whitespace, punctuation, verse numbers and non-Devanagari characters excluded. This does not validate numeric labels or emend OCR.",
+  "comparisons": [
+    {
+      "key": [
+        8,
+        21,
+        11
+      ],
+      "source_sanskrit_unchanged": "शमीमंदारसेवां च प्रदक्षिणपरा- यणाम् । गवां शुश्रूषणं तद्वत् सर्वसिद्धिप्रदं भवेत् ॥११॥",
+      "reviewed_kannada": "ಶಮೀ ಮತ್ತು ಮಂದಾರಗಳ ಸೇವೆ ಹಾಗೂ ಅವುಗಳಿಗೆ ಪ್ರದಕ್ಷಿಣೆ ಮಾಡುವುದು, ಅದೇ ರೀತಿ ಗೋವುಗಳ ಶುಶ್ರೂಷೆ ಇವು ಸರ್ವಸಿದ್ಧಿಗಳನ್ನು ನೀಡುತ್ತವೆ.",
+      "reviewed_kannada_candidate_unaccepted": "ಶಮೀ ಮತ್ತು ಮಂದಾರಗಳ ಸೇವೆ ಹಾಗೂ ಅವುಗಳಿಗೆ ಪ್ರದಕ್ಷಿಣೆ ಮಾಡುವುದು, ಅದೇ ರೀತಿ ಗೋವುಗಳ ಶುಶ್ರೂಷೆ ಇವು ಸರ್ವಸಿದ್ಧಿಗಳನ್ನು ನೀಡುತ್ತವೆ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 921,
+          "reference_page": 854,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0854.txt",
+          "reference_sha256": "94197793244ac7bdf47fe0f9bda8ad69957275dba1d1931f8327765fbd5ed058",
+          "source_part_exact": "शमीमंदारसेवां च प्रदक्षिणपरा-",
+          "reference_char_start": 1837,
+          "reference_char_end_exclusive": 1866,
+          "exact_reference_excerpt": "चामीमदारसेवां च प्रदक्षि णपरा",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9231,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "replace",
+              0,
+              1,
+              0,
+              2
+            ],
+            [
+              "equal",
+              1,
+              4,
+              2,
+              5
+            ],
+            [
+              "delete",
+              4,
+              5,
+              5,
+              5
+            ],
+            [
+              "equal",
+              5,
+              26,
+              5,
+              26
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 922,
+          "reference_page": 855,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0855.txt",
+          "reference_sha256": "3c33f89729e2b66a6c44af1deccde8bce807ed5e86d44d6efd3c7b3f8278bcb1",
+          "source_part_exact": "यणाम् । गवां शुश्रूषणं तद्वत् सर्वसिद्धिप्रदं भवेत् ॥११॥",
+          "reference_char_start": 61,
+          "reference_char_end_exclusive": 111,
+          "exact_reference_excerpt": "यणाम्‌ । गवां शुश्रूषणे तद्रत्‌ सवेसिद्धिपदं भवेत्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8941,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              17,
+              0,
+              17
+            ],
+            [
+              "replace",
+              17,
+              18,
+              17,
+              18
+            ],
+            [
+              "equal",
+              18,
+              21,
+              18,
+              21
+            ],
+            [
+              "replace",
+              21,
+              22,
+              21,
+              22
+            ],
+            [
+              "equal",
+              22,
+              25,
+              22,
+              25
+            ],
+            [
+              "delete",
+              25,
+              27,
+              25,
+              25
+            ],
+            [
+              "equal",
+              27,
+              28,
+              25,
+              26
+            ],
+            [
+              "insert",
+              28,
+              28,
+              26,
+              27
+            ],
+            [
+              "equal",
+              28,
+              35,
+              27,
+              34
+            ],
+            [
+              "delete",
+              35,
+              37,
+              34,
+              34
+            ],
+            [
+              "equal",
+              37,
+              44,
+              34,
+              41
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 921,
+          "physical_page": 45,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "5f4bf3efcf48f2b8e12bed46b32dd7f41fa66a446a886bbb57b27ed7e9284320",
+          "text": "शमीमंदारसेवां च प्रदक्षिणपरा-",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 922,
+          "physical_page": 46,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "c3272f2006a34b2dcfd835fb7cace9c47fb4a57eded001d168b73fcf7c301623",
+          "text": "यणाम् । गवां शुश्रूषणं तद्वत् सर्वसिद्धिप्रदं भवेत् ॥११॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        21,
+        23
+      ],
+      "source_sanskrit_unchanged": "तेन विघ्नविहीनस्त्वं विजेष्यसि महाबलम् । शंखासुरं न संदेहो नान्यथा पुरुषोत्तम ॥२३॥",
+      "reviewed_kannada": "ಹೇ ಪುರುಷೋತ್ತಮನೇ, ಅದರಿಂದ ವಿಘ್ನರಹಿತನಾಗಿ ನೀನು ಮಹಾಬಲಶಾಲಿಯಾದ ಶಂಖಾಸುರನನ್ನು ಜಯಿಸುವೆ. ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ; ಬೇರೆ ರೀತಿಯಿಂದ ಸಾಧ್ಯವಿಲ್ಲ.",
+      "reviewed_kannada_candidate_unaccepted": "ಹೇ ಪುರುಷೋತ್ತಮನೇ, ಅದರಿಂದ ವಿಘ್ನರಹಿತನಾಗಿ ನೀನು ಮಹಾಬಲಶಾಲಿಯಾದ ಶಂಖಾಸುರನನ್ನು ಜಯಿಸುವೆ. ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ; ಬೇರೆ ರೀತಿಯಿಂದ ಸಾಧ್ಯವಿಲ್ಲ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 922,
+          "reference_page": 855,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0855.txt",
+          "reference_sha256": "3c33f89729e2b66a6c44af1deccde8bce807ed5e86d44d6efd3c7b3f8278bcb1",
+          "source_part_exact": "तेन विघ्नविहीनस्त्वं विजेष्यसि महाबलम् । शंखासुरं न संदेहो नान्यथा पुरुषोत्तम ॥२३॥",
+          "reference_char_start": 1166,
+          "reference_char_end_exclusive": 1248,
+          "exact_reference_excerpt": "तेन विज्वविहीनस्त्वं विजेष्यसि महाबलम्‌ । दांखाखुर न संदेहो नान्यथा\n\nभ\n\nपुरुषोत्तम",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9185,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              5,
+              0,
+              5
+            ],
+            [
+              "replace",
+              5,
+              6,
+              5,
+              6
+            ],
+            [
+              "equal",
+              6,
+              7,
+              6,
+              7
+            ],
+            [
+              "replace",
+              7,
+              8,
+              7,
+              8
+            ],
+            [
+              "equal",
+              8,
+              35,
+              8,
+              35
+            ],
+            [
+              "replace",
+              35,
+              36,
+              35,
+              37
+            ],
+            [
+              "equal",
+              36,
+              39,
+              37,
+              40
+            ],
+            [
+              "replace",
+              39,
+              40,
+              40,
+              41
+            ],
+            [
+              "equal",
+              40,
+              42,
+              41,
+              43
+            ],
+            [
+              "delete",
+              42,
+              43,
+              43,
+              43
+            ],
+            [
+              "equal",
+              43,
+              57,
+              43,
+              57
+            ],
+            [
+              "insert",
+              57,
+              57,
+              57,
+              58
+            ],
+            [
+              "equal",
+              57,
+              67,
+              58,
+              68
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 922,
+          "physical_page": 46,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "c3272f2006a34b2dcfd835fb7cace9c47fb4a57eded001d168b73fcf7c301623",
+          "text": "तेन विघ्नविहीनस्त्वं विजेष्यसि महाबलम् । शंखासुरं न संदेहो नान्यथा पुरुषोत्तम ॥२३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        21,
+        39
+      ],
+      "source_sanskrit_unchanged": "एवमुक्त्वा विधिं तस्मै कथयित्वा ददौ परम् । स्थानं स्वस्याश्रमे सोऽपि तत्रारंभं चकार ह ॥३९॥",
+      "reviewed_kannada": "ಹೀಗೆಂದು ಹೇಳಿ, ಅವನಿಗೆ ವಿಧಿಯನ್ನು ತಿಳಿಸಿ, ತನ್ನ ಆಶ್ರಮದಲ್ಲಿ ಉತ್ತಮವಾದ ಸ್ಥಳವನ್ನು ಕೊಟ್ಟನು. ಅವನೂ ಅಲ್ಲಿಯೇ ವ್ರತವನ್ನು ಆರಂಭಿಸಿದನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಹೀಗೆಂದು ಹೇಳಿ, ಅವನಿಗೆ ವಿಧಿಯನ್ನು ತಿಳಿಸಿ, ತನ್ನ ಆಶ್ರಮದಲ್ಲಿ ಉತ್ತಮವಾದ ಸ್ಥಳವನ್ನು ಕೊಟ್ಟನು. ಅವನೂ ಅಲ್ಲಿಯೇ ವ್ರತವನ್ನು ಆರಂಭಿಸಿದನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 923,
+          "reference_page": 856,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0856.txt",
+          "reference_sha256": "bcb5e4b4c761d388800c78fcabeea0e2e74e67d6bfad11fa7c98f7183583810a",
+          "source_part_exact": "एवमुक्त्वा विधिं तस्मै कथयित्वा ददौ परम् । स्थानं स्वस्याश्रमे सोऽपि तत्रारंभं चकार ह ॥३९॥",
+          "reference_char_start": 366,
+          "reference_char_end_exclusive": 451,
+          "exact_reference_excerpt": "एवसुक्त्वा विधि तस्मै कथयित्वा ददौ परम्‌ । स्थानं स्वस्याश्रमे सोऽपि तन्रारंभ चकार\n\nह",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9577,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "replace",
+              2,
+              3,
+              2,
+              3
+            ],
+            [
+              "equal",
+              3,
+              14,
+              3,
+              14
+            ],
+            [
+              "delete",
+              14,
+              15,
+              14,
+              14
+            ],
+            [
+              "equal",
+              15,
+              59,
+              14,
+              58
+            ],
+            [
+              "replace",
+              59,
+              60,
+              58,
+              59
+            ],
+            [
+              "equal",
+              60,
+              66,
+              59,
+              65
+            ],
+            [
+              "delete",
+              66,
+              67,
+              65,
+              65
+            ],
+            [
+              "equal",
+              67,
+              72,
+              65,
+              70
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 923,
+          "physical_page": 47,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "1f2cd8040b88f8ce97adb7758773192ccc423788a680a382e67bc07fac5df65c",
+          "text": "एवमुक्त्वा विधिं तस्मै कथयित्वा ददौ परम् । स्थानं स्वस्याश्रमे सोऽपि तत्रारंभं चकार ह ॥३९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        21,
+        47
+      ],
+      "source_sanskrit_unchanged": "अतो लोमानि सर्वाणि त्वचायुक्तानि भावतः । दास्यामि गणनाथाय दूर्वा शम्यादिकारणात् ॥४७॥",
+      "reviewed_kannada": "ಆದ್ದರಿಂದ ದೂರ್ವೆ, ಶಮೀ ಮೊದಲಾದವುಗಳಿಗೆ ಬದಲಾಗಿ ನನ್ನ ಚರ್ಮಸಹಿತವಾದ ಎಲ್ಲಾ ರೋಮಗಳನ್ನು ಭಾವಪೂರ್ವಕವಾಗಿ ಗಣನಾಥನಿಗೆ ಅರ್ಪಿಸುವೆನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಆದ್ದರಿಂದ ದೂರ್ವೆ, ಶಮೀ ಮೊದಲಾದವುಗಳಿಗೆ ಬದಲಾಗಿ ನನ್ನ ಚರ್ಮಸಹಿತವಾದ ಎಲ್ಲಾ ರೋಮಗಳನ್ನು ಭಾವಪೂರ್ವಕವಾಗಿ ಗಣನಾಥನಿಗೆ ಅರ್ಪಿಸುವೆನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 923,
+          "reference_page": 856,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0856.txt",
+          "reference_sha256": "bcb5e4b4c761d388800c78fcabeea0e2e74e67d6bfad11fa7c98f7183583810a",
+          "source_part_exact": "अतो लोमानि सर्वाणि त्वचायुक्तानि भावतः । दास्यामि गणनाथाय दूर्वा शम्यादिकारणात् ॥४७॥",
+          "reference_char_start": 1031,
+          "reference_char_end_exclusive": 1109,
+          "exact_reference_excerpt": "अतो लोमानि सर्वाणि त्वचायुक्तानि भावतः। दास्यामि\n\nगणनाथाय दूवों शम्यादिकारणात्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9635,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              51,
+              0,
+              51
+            ],
+            [
+              "delete",
+              51,
+              53,
+              51,
+              51
+            ],
+            [
+              "equal",
+              53,
+              54,
+              51,
+              52
+            ],
+            [
+              "replace",
+              54,
+              55,
+              52,
+              54
+            ],
+            [
+              "equal",
+              55,
+              69,
+              54,
+              68
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 923,
+          "physical_page": 47,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "1f2cd8040b88f8ce97adb7758773192ccc423788a680a382e67bc07fac5df65c",
+          "text": "अतो लोमानि सर्वाणि त्वचायुक्तानि भावतः । दास्यामि गणनाथाय दूर्वा शम्यादिकारणात् ॥४७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        21,
+        61
+      ],
+      "source_sanskrit_unchanged": "सोमदत्त उवाच । गणेशाय परेशाय सदा शांतिप्रदायिने । योगिनां योगरूपाय हृदिस्थाय नमो नमः ॥६१॥",
+      "reviewed_kannada": "ಸೋಮದತ್ತನು ಹೇಳಿದನು: ಗಣೇಶನೂ ಪರೇಶನೂ, ಸದಾ ಶಾಂತಿಯನ್ನು ಕರುಣಿಸುವವನೂ, ಯೋಗಿಗಳ ಯೋಗಸ್ವರೂಪನೂ, ಹೃದಯದಲ್ಲಿ ನೆಲೆಸಿರುವವನೂ ಆದ ನಿನಗೆ ನಮೋ ನಮಃ.",
+      "reviewed_kannada_candidate_unaccepted": "ಸೋಮದತ್ತನು ಹೇಳಿದನು: ಗಣೇಶನೂ ಪರೇಶನೂ, ಸದಾ ಶಾಂತಿಯನ್ನು ಕರುಣಿಸುವವನೂ, ಯೋಗಿಗಳ ಯೋಗಸ್ವರೂಪನೂ, ಹೃದಯದಲ್ಲಿ ನೆಲೆಸಿರುವವನೂ ಆದ ನಿನಗೆ ನಮೋ ನಮಃ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 923,
+          "reference_page": 856,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0856.txt",
+          "reference_sha256": "bcb5e4b4c761d388800c78fcabeea0e2e74e67d6bfad11fa7c98f7183583810a",
+          "source_part_exact": "सोमदत्त उवाच । गणेशाय परेशाय सदा शांतिप्रदायिने । योगिनां",
+          "reference_char_start": 2252,
+          "reference_char_end_exclusive": 2311,
+          "exact_reference_excerpt": "सोमदत्त उवाच । गणेदाय परेशाय सदा द्वांतिप्रदायिने । योगिनां",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9375,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              14,
+              0,
+              14
+            ],
+            [
+              "replace",
+              14,
+              15,
+              14,
+              15
+            ],
+            [
+              "equal",
+              15,
+              26,
+              15,
+              26
+            ],
+            [
+              "replace",
+              26,
+              27,
+              26,
+              29
+            ],
+            [
+              "equal",
+              27,
+              47,
+              29,
+              49
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 924,
+          "reference_page": 857,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0857.txt",
+          "reference_sha256": "d6531ca0b7c74abe97e0d0cf8e2db62a9f4f2128091c181ed8bb148176612b04",
+          "source_part_exact": "योगरूपाय हृदिस्थाय नमो नमः ॥६१॥",
+          "reference_char_start": 46,
+          "reference_char_end_exclusive": 72,
+          "exact_reference_excerpt": "योगरूपाय हृदिस्थाय नमो नमः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 1.0,
+          "normalized_agreement": true,
+          "status": "normalized_literal_agreement_not_source_certification",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              23,
+              0,
+              23
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 923,
+          "physical_page": 47,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "1f2cd8040b88f8ce97adb7758773192ccc423788a680a382e67bc07fac5df65c",
+          "text": "सोमदत्त उवाच । गणेशाय परेशाय सदा शांतिप्रदायिने । योगिनां",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 924,
+          "physical_page": 48,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "a33a547018ba4891b323f8aa379ba6116d05195b579bcbed61724d7d4762e59a",
+          "text": "योगरूपाय हृदिस्थाय नमो नमः ॥६१॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        21,
+        63
+      ],
+      "source_sanskrit_unchanged": "अनादये महाकाल कालाय कालरूपिणे । अंते विहारयुक्तायादिनाथाय नमो नमः ॥६३॥",
+      "reviewed_kannada": "ಅನಾದಿಯಾದವನೂ, ಮಹಾಕಾಲನಿಗೂ ಕಾಲನಾದವನೂ, ಕಾಲಸ್ವರೂಪಿಯೂ, ಅಂತ್ಯದಲ್ಲಿ ವಿಹಾರಯುಕ್ತನೂ ಆದ ಆದಿನಾಥನಿಗೆ ನಮೋ ನಮಃ.",
+      "reviewed_kannada_candidate_unaccepted": "ಅನಾದಿಯಾದವನೂ, ಮಹಾಕಾಲನಿಗೂ ಕಾಲನಾದವನೂ, ಕಾಲಸ್ವರೂಪಿಯೂ, ಅಂತ್ಯದಲ್ಲಿ ವಿಹಾರಯುಕ್ತನೂ ಆದ ಆದಿನಾಥನಿಗೆ ನಮೋ ನಮಃ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 924,
+          "reference_page": 857,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0857.txt",
+          "reference_sha256": "d6531ca0b7c74abe97e0d0cf8e2db62a9f4f2128091c181ed8bb148176612b04",
+          "source_part_exact": "अनादये महाकाल कालाय कालरूपिणे । अंते विहारयुक्तायादिनाथाय नमो नमः ॥६३॥",
+          "reference_char_start": 158,
+          "reference_char_end_exclusive": 228,
+          "exact_reference_excerpt": "द६२॥ अनादये महाकाल कालाय कालरूपिणे । अंते विहारयुक्तायादिनाथाय नमो नमः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9912,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "insert",
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              "equal",
+              0,
+              56,
+              1,
+              57
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 924,
+          "physical_page": 48,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "a33a547018ba4891b323f8aa379ba6116d05195b579bcbed61724d7d4762e59a",
+          "text": "अनादये महाकाल कालाय कालरूपिणे । अंते विहारयुक्तायादिनाथाय नमो नमः ॥६३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        22,
+        12
+      ],
+      "source_sanskrit_unchanged": "अंते स्वानंदगाः सर्वे गणेशं नम्य तत्क्षणात् । ब्रह्मभूता बभूवुश्च कार्तिकव्रतपुण्यतः ॥१२॥",
+      "reviewed_kannada": "ಕೊನೆಯಲ್ಲಿ ಅವರೆಲ್ಲರೂ ಕಾರ್ತಿಕ ವ್ರತದ ಪುಣ್ಯದಿಂದ ಸ್ವಾನಂದವನ್ನು ಸೇರಿ, ಗಣೇಶನಿಗೆ ನಮಸ್ಕರಿಸಿ, ತಕ್ಷಣವೇ ಬ್ರಹ್ಮರೂಪರಾದರು.",
+      "reviewed_kannada_candidate_unaccepted": "ಕೊನೆಯಲ್ಲಿ ಅವರೆಲ್ಲರೂ ಕಾರ್ತಿಕ ವ್ರತದ ಪುಣ್ಯದಿಂದ ಸ್ವಾನಂದವನ್ನು ಸೇರಿ, ಗಣೇಶನಿಗೆ ನಮಸ್ಕರಿಸಿ, ತಕ್ಷಣವೇ ಬ್ರಹ್ಮರೂಪರಾದರು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 925,
+          "reference_page": 858,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0858.txt",
+          "reference_sha256": "3f8bb4cbf749d6d2a7cec83595b234c0d3687f023ff81ad56192a087c1f53867",
+          "source_part_exact": "अंते स्वानंदगाः सर्वे गणेशं नम्य तत्क्षणात् । ब्रह्मभूता बभूवुश्च कार्तिकव्रतपुण्यतः ॥१२॥",
+          "reference_char_start": 1022,
+          "reference_char_end_exclusive": 1105,
+          "exact_reference_excerpt": "अते\nस्वान॑दगाः सर्वे गणेदां नम्य तत्क्षणात्‌ । ब्रह्मभूता बभूवुश्च कार्तिकवतपुण्यतः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9452,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "delete",
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              "equal",
+              2,
+              9,
+              1,
+              8
+            ],
+            [
+              "replace",
+              9,
+              10,
+              8,
+              9
+            ],
+            [
+              "equal",
+              10,
+              22,
+              9,
+              21
+            ],
+            [
+              "replace",
+              22,
+              23,
+              21,
+              23
+            ],
+            [
+              "equal",
+              23,
+              64,
+              23,
+              64
+            ],
+            [
+              "delete",
+              64,
+              66,
+              64,
+              64
+            ],
+            [
+              "equal",
+              66,
+              74,
+              64,
+              72
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 925,
+          "physical_page": 49,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "0773668b4ac34eacdfe6d9a3c664d468556f7674f1bf7e63409818a9dbdc9d6e",
+          "text": "अंते स्वानंदगाः सर्वे गणेशं नम्य तत्क्षणात् । ब्रह्मभूता बभूवुश्च कार्तिकव्रतपुण्यतः ॥१२॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        22,
+        17
+      ],
+      "source_sanskrit_unchanged": "करोति यः कार्तिके चेत् पंचकं गणपप्रियम् । स गणेशप्रियोऽत्यंतं भवत्यत्र न संशयः ॥१७॥",
+      "reviewed_kannada": "ಕಾರ್ತಿಕ ಮಾಸದಲ್ಲಿ ಗಣಪತಿಗೆ ಪ್ರಿಯವಾದ ಪಂಚಕವನ್ನು ಯಾರು ಆಚರಿಸುತ್ತಾನೋ ಅವನು ಗಣೇಶನಿಗೆ ಅತ್ಯಂತ ಪ್ರಿಯನಾಗುತ್ತಾನೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "reviewed_kannada_candidate_unaccepted": "ಕಾರ್ತಿಕ ಮಾಸದಲ್ಲಿ ಗಣಪತಿಗೆ ಪ್ರಿಯವಾದ ಪಂಚಕವನ್ನು ಯಾರು ಆಚರಿಸುತ್ತಾನೋ ಅವನು ಗಣೇಶನಿಗೆ ಅತ್ಯಂತ ಪ್ರಿಯನಾಗುತ್ತಾನೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 925,
+          "reference_page": 858,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0858.txt",
+          "reference_sha256": "3f8bb4cbf749d6d2a7cec83595b234c0d3687f023ff81ad56192a087c1f53867",
+          "source_part_exact": "करोति यः कार्तिके चेत् पंचकं गणपप्रियम् । स गणेशप्रियोऽत्यंतं भवत्यत्र न संशयः ॥१७॥",
+          "reference_char_start": 1481,
+          "reference_char_end_exclusive": 1559,
+          "exact_reference_excerpt": "करोति यः कार्तिके चेत्‌ पंचकं\nगणपप्रियम्‌। स गणेरपियोऽत्यंतं भवत्यत्र न संदायः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9466,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              38,
+              0,
+              38
+            ],
+            [
+              "replace",
+              38,
+              39,
+              38,
+              39
+            ],
+            [
+              "equal",
+              39,
+              40,
+              39,
+              40
+            ],
+            [
+              "delete",
+              40,
+              42,
+              40,
+              40
+            ],
+            [
+              "equal",
+              42,
+              63,
+              40,
+              61
+            ],
+            [
+              "replace",
+              63,
+              64,
+              61,
+              63
+            ],
+            [
+              "equal",
+              64,
+              66,
+              63,
+              65
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 925,
+          "physical_page": 49,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "0773668b4ac34eacdfe6d9a3c664d468556f7674f1bf7e63409818a9dbdc9d6e",
+          "text": "करोति यः कार्तिके चेत् पंचकं गणपप्रियम् । स गणेशप्रियोऽत्यंतं भवत्यत्र न संशयः ॥१७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        22,
+        18
+      ],
+      "source_sanskrit_unchanged": "दानं होमादिकं किंचित् कार्तिकेऽनंतपुण्यदम् । भवेत्तु गणनाथाय चार्पितं कर्मजं फलम् ॥१८॥",
+      "reviewed_kannada": "ಕಾರ್ತಿಕ ಮಾಸದಲ್ಲಿ ಮಾಡಿದ ಸ್ವಲ್ಪ ದಾನ, ಹೋಮ ಮೊದಲಾದವುಗಳ ಕರ್ಮಫಲವನ್ನು ಗಣನಾಥನಿಗೆ ಅರ್ಪಿಸಿದಾಗ ಅವು ಅನಂತ ಪುಣ್ಯವನ್ನು ನೀಡುತ್ತವೆ.",
+      "reviewed_kannada_candidate_unaccepted": "ಕಾರ್ತಿಕ ಮಾಸದಲ್ಲಿ ಮಾಡಿದ ಸ್ವಲ್ಪ ದಾನ, ಹೋಮ ಮೊದಲಾದವುಗಳ ಕರ್ಮಫಲವನ್ನು ಗಣನಾಥನಿಗೆ ಅರ್ಪಿಸಿದಾಗ ಅವು ಅನಂತ ಪುಣ್ಯವನ್ನು ನೀಡುತ್ತವೆ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 925,
+          "reference_page": 858,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0858.txt",
+          "reference_sha256": "3f8bb4cbf749d6d2a7cec83595b234c0d3687f023ff81ad56192a087c1f53867",
+          "source_part_exact": "दानं होमादिकं किंचित् कार्तिकेऽनंतपुण्यदम् । भवेत्तु गणनाथाय चार्पितं कर्मजं फलम् ॥१८॥",
+          "reference_char_start": 1565,
+          "reference_char_end_exclusive": 1647,
+          "exact_reference_excerpt": "दानं होमादिकं किंचित्‌ कार्तिकेऽनेतपुण्यदम्‌ । भवेत्तु\nगणनाथाय चार्पितं कमेजं फलम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9645,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              29,
+              0,
+              29
+            ],
+            [
+              "replace",
+              29,
+              30,
+              29,
+              30
+            ],
+            [
+              "equal",
+              30,
+              62,
+              30,
+              62
+            ],
+            [
+              "delete",
+              62,
+              64,
+              62,
+              62
+            ],
+            [
+              "equal",
+              64,
+              65,
+              62,
+              63
+            ],
+            [
+              "insert",
+              65,
+              65,
+              63,
+              64
+            ],
+            [
+              "equal",
+              65,
+              71,
+              64,
+              70
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 925,
+          "physical_page": 49,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "0773668b4ac34eacdfe6d9a3c664d468556f7674f1bf7e63409818a9dbdc9d6e",
+          "text": "दानं होमादिकं किंचित् कार्तिकेऽनंतपुण्यदम् । भवेत्तु गणनाथाय चार्पितं कर्मजं फलम् ॥१८॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        23,
+        7
+      ],
+      "source_sanskrit_unchanged": "कर्मनाशप्रभावेणोपोषणेन समन्वितान् । देवांस्तान् रक्ष विप्रेश द्विजान् कर्मपरायणान् ॥७॥",
+      "reviewed_kannada": "ಎಲೈ ವಿಪ್ರಶ್ರೇಷ್ಠನೇ, ಕರ್ಮಗಳು ನಾಶವಾದುದರಿಂದ ಆಹಾರವಿಲ್ಲದೆ ಇರುವ ಆ ದೇವತೆಗಳನ್ನೂ, ಕರ್ಮಪರಾಯಣರಾದ ದ್ವಿಜರನ್ನೂ ರಕ್ಷಿಸು.",
+      "reviewed_kannada_candidate_unaccepted": "ಎಲೈ ವಿಪ್ರಶ್ರೇಷ್ಠನೇ, ಕರ್ಮಗಳು ನಾಶವಾದುದರಿಂದ ಆಹಾರವಿಲ್ಲದೆ ಇರುವ ಆ ದೇವತೆಗಳನ್ನೂ, ಕರ್ಮಪರಾಯಣರಾದ ದ್ವಿಜರನ್ನೂ ರಕ್ಷಿಸು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 926,
+          "reference_page": 859,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0859.txt",
+          "reference_sha256": "dfdb3b0e8d52c4d2ba919ab4e7b2f51093db81bfbeef5f6be9715f70026a4db5",
+          "source_part_exact": "कर्मनाशप्रभावेणोपोषणेन समन्वितान् । देवांस्तान् रक्ष विप्रेश द्विजान् कर्मपरायणान् ॥७॥",
+          "reference_char_start": 615,
+          "reference_char_end_exclusive": 695,
+          "exact_reference_excerpt": "कमनाशप्रभावेणोपोषणेन समन्वितान्‌ । देवांस्तान्‌ रक्ष विप्रे द्विजान्‌ कमपरायणान्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.965,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "delete",
+              1,
+              3,
+              1,
+              1
+            ],
+            [
+              "equal",
+              3,
+              53,
+              1,
+              51
+            ],
+            [
+              "delete",
+              53,
+              54,
+              51,
+              51
+            ],
+            [
+              "equal",
+              54,
+              63,
+              51,
+              60
+            ],
+            [
+              "delete",
+              63,
+              65,
+              60,
+              60
+            ],
+            [
+              "equal",
+              65,
+              74,
+              60,
+              69
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 926,
+          "physical_page": 50,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "a4ab1883886439c93f441e79f908e60526064a1755e0c36e3fb2bbc6d05fe1e0",
+          "text": "कर्मनाशप्रभावेणोपोषणेन समन्वितान् । देवांस्तान् रक्ष विप्रेश द्विजान् कर्मपरायणान् ॥७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        23,
+        20
+      ],
+      "source_sanskrit_unchanged": "मूषकवाहनायैव नमः परशुपाणये । दंताभयधरायैव त्रिनेत्राय नमो नमः ॥२०॥",
+      "reviewed_kannada": "ಮೂಷಕವಾಹನನೂ ಪರಶುಪಾಣಿಯೂ ಆದ ನಿನಗೆ ನಮಸ್ಕಾರ. ದಂತವನ್ನೂ ಅಭಯಮುದ್ರೆಯನ್ನೂ ಧರಿಸಿದ ತ್ರಿನೇತ್ರನಾದ ನಿನಗೆ ನಮೋ ನಮಃ.",
+      "reviewed_kannada_candidate_unaccepted": "ಮೂಷಕವಾಹನನೂ ಪರಶುಪಾಣಿಯೂ ಆದ ನಿನಗೆ ನಮಸ್ಕಾರ. ದಂತವನ್ನೂ ಅಭಯಮುದ್ರೆಯನ್ನೂ ಧರಿಸಿದ ತ್ರಿನೇತ್ರನಾದ ನಿನಗೆ ನಮೋ ನಮಃ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 926,
+          "reference_page": 859,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0859.txt",
+          "reference_sha256": "dfdb3b0e8d52c4d2ba919ab4e7b2f51093db81bfbeef5f6be9715f70026a4db5",
+          "source_part_exact": "मूषकवाहनायैव नमः परशुपाणये । दंताभयधरायैव त्रिनेत्राय नमो नमः ॥२०॥",
+          "reference_char_start": 1708,
+          "reference_char_end_exclusive": 1766,
+          "exact_reference_excerpt": "मूषकवाहनायैव नमः परदुपाणये । द॑ताभयधराथैव अनेत्राय नमो नमः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8932,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              17,
+              0,
+              17
+            ],
+            [
+              "replace",
+              17,
+              18,
+              17,
+              18
+            ],
+            [
+              "equal",
+              18,
+              25,
+              18,
+              25
+            ],
+            [
+              "replace",
+              25,
+              26,
+              25,
+              26
+            ],
+            [
+              "equal",
+              26,
+              33,
+              26,
+              33
+            ],
+            [
+              "replace",
+              33,
+              34,
+              33,
+              34
+            ],
+            [
+              "equal",
+              34,
+              36,
+              34,
+              36
+            ],
+            [
+              "replace",
+              36,
+              40,
+              36,
+              37
+            ],
+            [
+              "equal",
+              40,
+              53,
+              37,
+              50
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 926,
+          "physical_page": 50,
+          "pdf_sha256": "128026a8ce43c2eaa2476ee32118c63b049aa8e967e5fdda5dcc76d4090594f2",
+          "filename": "901 TO 950.pdf",
+          "image_sha256": "a4ab1883886439c93f441e79f908e60526064a1755e0c36e3fb2bbc6d05fe1e0",
+          "text": "मूषकवाहनायैव नमः परशुपाणये । दंताभयधरायैव त्रिनेत्राय नमो नमः ॥२०॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        23,
+        36
+      ],
+      "source_sanskrit_unchanged": "श्रीशिव उवाच । वज्रपंजरकं नाथ ब्रूहि मे गणपप्रियम् । ज्ञानमयं महांधस्य नाशकं सुखदायकम् ॥३६॥",
+      "reviewed_kannada": "ಶ್ರೀಶಿವನು ಹೇಳಿದನು: ಎಲೈ ನಾಥನೇ, ಗಣಪತಿಗೆ ಪ್ರಿಯವಾದ, ಜ್ಞಾನಮಯವಾದ, ಮಹಾ ಅಜ್ಞಾನಾಂಧತೆಯನ್ನು ನಾಶಮಾಡುವ, ಸುಖವನ್ನು ನೀಡುವ ವಜ್ರಪಂಜರಕವನ್ನು ನನಗೆ ಹೇಳು.",
+      "reviewed_kannada_candidate_unaccepted": "ಶ್ರೀಶಿವನು ಹೇಳಿದನು: ಎಲೈ ನಾಥನೇ, ಗಣಪತಿಗೆ ಪ್ರಿಯವಾದ, ಜ್ಞಾನಮಯವಾದ, ಮಹಾ ಅಜ್ಞಾನಾಂಧತೆಯನ್ನು ನಾಶಮಾಡುವ, ಸುಖವನ್ನು ನೀಡುವ ವಜ್ರಪಂಜರಕವನ್ನು ನನಗೆ ಹೇಳು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 927,
+          "reference_page": 860,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0860.txt",
+          "reference_sha256": "d3bedec8a343b252fce0dda0a2f72fa211c079a6e64d0cedb3c4641ba6e2817d",
+          "source_part_exact": "श्रीशिव उवाच । वज्रपंजरकं नाथ ब्रूहि मे गणपप्रियम् । ज्ञानमयं महांधस्य नाशकं सुखदायकम् ॥३६॥",
+          "reference_char_start": 843,
+          "reference_char_end_exclusive": 927,
+          "exact_reference_excerpt": "श्रीशिव उवाच । वज्रपंजरकं नाथ बरहि मे गणपप्रियम्‌ । ज्ञानमयं महांघस्य नाकं सुखदायकम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9645,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              25,
+              0,
+              25
+            ],
+            [
+              "delete",
+              25,
+              26,
+              25,
+              25
+            ],
+            [
+              "equal",
+              26,
+              27,
+              25,
+              26
+            ],
+            [
+              "delete",
+              27,
+              28,
+              26,
+              26
+            ],
+            [
+              "equal",
+              28,
+              54,
+              26,
+              52
+            ],
+            [
+              "replace",
+              54,
+              55,
+              52,
+              53
+            ],
+            [
+              "equal",
+              55,
+              60,
+              53,
+              58
+            ],
+            [
+              "delete",
+              60,
+              61,
+              58,
+              58
+            ],
+            [
+              "equal",
+              61,
+              72,
+              58,
+              69
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 927,
+          "physical_page": 1,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "5a3453a204b0cb4a869efe4ddbd791e1619339d324d9c4e1c5877114335431e0",
+          "text": "श्रीशिव उवाच । वज्रपंजरकं नाथ ब्रूहि मे गणपप्रियम् । ज्ञानमयं महांधस्य नाशकं सुखदायकम् ॥३६॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        23,
+        52
+      ],
+      "source_sanskrit_unchanged": "ऊर्ध्वं सिद्धिपतिः पातु बुद्धीशोऽधः स्थितं सदा । सर्वांगेषु मयूरेशः पातु मां भक्तिलालसः ॥५२॥",
+      "reviewed_kannada": "ಮೇಲೆ ಸಿದ್ಧಿಪತಿಯೂ, ಕೆಳಗೆ ಬುದ್ಧೀಶನೂ ನನ್ನನ್ನು ಸದಾ ಕಾಪಾಡಲಿ. ಭಕ್ತಿಯಲ್ಲಿ ಆಸಕ್ತನಾದ ಮಯೂರೇಶನು ನನ್ನ ಸರ್ವಾಂಗಗಳನ್ನೂ ಕಾಪಾಡಲಿ.",
+      "reviewed_kannada_candidate_unaccepted": "ಮೇಲೆ ಸಿದ್ಧಿಪತಿಯೂ, ಕೆಳಗೆ ಬುದ್ಧೀಶನೂ ನನ್ನನ್ನು ಸದಾ ಕಾಪಾಡಲಿ. ಭಕ್ತಿಯಲ್ಲಿ ಆಸಕ್ತನಾದ ಮಯೂರೇಶನು ನನ್ನ ಸರ್ವಾಂಗಗಳನ್ನೂ ಕಾಪಾಡಲಿ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 927,
+          "reference_page": 860,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0860.txt",
+          "reference_sha256": "d3bedec8a343b252fce0dda0a2f72fa211c079a6e64d0cedb3c4641ba6e2817d",
+          "source_part_exact": "ऊर्ध्वं",
+          "reference_char_start": 2270,
+          "reference_char_end_exclusive": 2272,
+          "exact_reference_excerpt": "उष",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.0,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "replace",
+              0,
+              7,
+              0,
+              2
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 928,
+          "reference_page": 861,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0861.txt",
+          "reference_sha256": "a4c901984ac43f22c047ba12b6c3f8c350974305aec2e5177d6cb64532421650",
+          "source_part_exact": "सिद्धिपतिः पातु बुद्धीशोऽधः स्थितं सदा । सर्वांगेषु मयूरेशः पातु मां भक्तिलालसः ॥५२॥",
+          "reference_char_start": 72,
+          "reference_char_end_exclusive": 148,
+          "exact_reference_excerpt": "सिद्धिपतिः पातु बुद्धीरोऽधः स्थितं सदा । स्वगिषु मयूरेशः पातु मां भक्तिलालसः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9474,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              20,
+              0,
+              20
+            ],
+            [
+              "replace",
+              20,
+              21,
+              20,
+              21
+            ],
+            [
+              "equal",
+              21,
+              35,
+              21,
+              35
+            ],
+            [
+              "delete",
+              35,
+              36,
+              35,
+              35
+            ],
+            [
+              "equal",
+              36,
+              38,
+              35,
+              37
+            ],
+            [
+              "delete",
+              38,
+              40,
+              37,
+              37
+            ],
+            [
+              "equal",
+              40,
+              41,
+              37,
+              38
+            ],
+            [
+              "replace",
+              41,
+              42,
+              38,
+              39
+            ],
+            [
+              "equal",
+              42,
+              68,
+              39,
+              65
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 927,
+          "physical_page": 1,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "5a3453a204b0cb4a869efe4ddbd791e1619339d324d9c4e1c5877114335431e0",
+          "text": "ऊर्ध्वं",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 928,
+          "physical_page": 2,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "02fa9deebda822c2ef33b51cafb7afee2ccf20aa5de6d237be46e05114fd3acb",
+          "text": "सिद्धिपतिः पातु बुद्धीशोऽधः स्थितं सदा । सर्वांगेषु मयूरेशः पातु मां भक्तिलालसः ॥५२॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        23,
+        64
+      ],
+      "source_sanskrit_unchanged": "लक्षावृत्ति चकाराऽसौ यथाविधि परायणः । सिद्धपंजरको भूत्वा ययावंधकदैत्यपम् ॥६४॥",
+      "reviewed_kannada": "ಅವನು ತತ್ಪರನಾಗಿ ವಿಧಿಪೂರ್ವಕವಾಗಿ ಒಂದು ಲಕ್ಷ ಆವೃತ್ತಿಗಳನ್ನು ಮಾಡಿದನು. ವಜ್ರಪಂಜರಸಿದ್ಧಿಯನ್ನು ಪಡೆದು ದೈತ್ಯಾಧಿಪತಿಯಾದ ಅಂಧಕನ ಬಳಿಗೆ ಹೋದನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಅವನು ತತ್ಪರನಾಗಿ ವಿಧಿಪೂರ್ವಕವಾಗಿ ಒಂದು ಲಕ್ಷ ಆವೃತ್ತಿಗಳನ್ನು ಮಾಡಿದನು. ವಜ್ರಪಂಜರಸಿದ್ಧಿಯನ್ನು ಪಡೆದು ದೈತ್ಯಾಧಿಪತಿಯಾದ ಅಂಧಕನ ಬಳಿಗೆ ಹೋದನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 928,
+          "reference_page": 861,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0861.txt",
+          "reference_sha256": "a4c901984ac43f22c047ba12b6c3f8c350974305aec2e5177d6cb64532421650",
+          "source_part_exact": "लक्षावृत्ति चकाराऽसौ यथाविधि परायणः । सिद्धपंजरको भूत्वा ययावंधकदैत्यपम् ॥६४॥",
+          "reference_char_start": 1071,
+          "reference_char_end_exclusive": 1148,
+          "exact_reference_excerpt": "द६३॥ लक्षाब्त्ति चकाराऽसौ\nयथाविधि परायणः । सिद्धप॑जरको भूत्वा यया्वधकदेत्यपम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9147,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "insert",
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              "equal",
+              0,
+              5,
+              1,
+              6
+            ],
+            [
+              "replace",
+              5,
+              7,
+              6,
+              8
+            ],
+            [
+              "equal",
+              7,
+              38,
+              8,
+              39
+            ],
+            [
+              "replace",
+              38,
+              39,
+              39,
+              40
+            ],
+            [
+              "equal",
+              39,
+              52,
+              40,
+              53
+            ],
+            [
+              "insert",
+              52,
+              52,
+              53,
+              54
+            ],
+            [
+              "equal",
+              52,
+              53,
+              54,
+              55
+            ],
+            [
+              "delete",
+              53,
+              54,
+              55,
+              55
+            ],
+            [
+              "equal",
+              54,
+              57,
+              55,
+              58
+            ],
+            [
+              "replace",
+              57,
+              58,
+              58,
+              59
+            ],
+            [
+              "equal",
+              58,
+              64,
+              59,
+              65
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 928,
+          "physical_page": 2,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "02fa9deebda822c2ef33b51cafb7afee2ccf20aa5de6d237be46e05114fd3acb",
+          "text": "लक्षावृत्ति चकाराऽसौ यथाविधि परायणः । सिद्धपंजरको भूत्वा ययावंधकदैत्यपम् ॥६४॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        24,
+        4
+      ],
+      "source_sanskrit_unchanged": "भरद्वाज उवाच । मार्गशीर्षव्रतं पुत्र कुरु शीघ्रं समागतम् । तेन त्वं गणनाधस्य प्रियोऽत्यंतं भविष्यसि ॥४॥",
+      "reviewed_kannada": "ಭರದ್ವಾಜನು ಹೇಳಿದನು: ಪುತ್ರನೇ, ಸಮೀಪಿಸಿರುವ ಮಾರ್ಗಶೀರ್ಷ ಮಾಸದ ವ್ರತವನ್ನು ಶೀಘ್ರವಾಗಿ ಆಚರಿಸು. ಅದರಿಂದ ನೀನು ಗಣನಾಥನಿಗೆ ಅತ್ಯಂತ ಪ್ರಿಯನಾಗುವೆ.",
+      "reviewed_kannada_candidate_unaccepted": "ಭರದ್ವಾಜನು ಹೇಳಿದನು: ಪುತ್ರನೇ, ಸಮೀಪಿಸಿರುವ ಮಾರ್ಗಶೀರ್ಷ ಮಾಸದ ವ್ರತವನ್ನು ಶೀಘ್ರವಾಗಿ ಆಚರಿಸು. ಅದರಿಂದ ನೀನು ಗಣನಾಥನಿಗೆ ಅತ್ಯಂತ ಪ್ರಿಯನಾಗುವೆ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 928,
+          "reference_page": 861,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0861.txt",
+          "reference_sha256": "a4c901984ac43f22c047ba12b6c3f8c350974305aec2e5177d6cb64532421650",
+          "source_part_exact": "भरद्वाज उवाच । मार्गशीर्षव्रतं",
+          "reference_char_start": 1965,
+          "reference_char_end_exclusive": 1997,
+          "exact_reference_excerpt": "भरद्वाज उवाच । मार्मक्रीर्षव्रतं",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8889,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              15,
+              0,
+              15
+            ],
+            [
+              "replace",
+              15,
+              17,
+              15,
+              19
+            ],
+            [
+              "equal",
+              17,
+              26,
+              19,
+              28
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 929,
+          "reference_page": 862,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0862.txt",
+          "reference_sha256": "e643f45cb978975397f13768754f2e13320a0ae07c6fad0891c2ea11198a002a",
+          "source_part_exact": "पुत्र कुरु शीघ्रं समागतम् । तेन त्वं गणनाधस्य प्रियोऽत्यंतं भविष्यसि ॥४॥",
+          "reference_char_start": 112,
+          "reference_char_end_exclusive": 179,
+          "exact_reference_excerpt": "पुत्र कुरु चीघ॑ समागतम्‌ । तेन त्वं गणनाथस्य प्रियो5त्यंत॑ भविष्यसि",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9027,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              9,
+              0,
+              9
+            ],
+            [
+              "replace",
+              9,
+              10,
+              9,
+              10
+            ],
+            [
+              "equal",
+              10,
+              12,
+              10,
+              12
+            ],
+            [
+              "replace",
+              12,
+              15,
+              12,
+              13
+            ],
+            [
+              "equal",
+              15,
+              33,
+              13,
+              31
+            ],
+            [
+              "replace",
+              33,
+              34,
+              31,
+              32
+            ],
+            [
+              "equal",
+              34,
+              43,
+              32,
+              41
+            ],
+            [
+              "delete",
+              43,
+              44,
+              41,
+              41
+            ],
+            [
+              "equal",
+              44,
+              49,
+              41,
+              46
+            ],
+            [
+              "replace",
+              49,
+              50,
+              46,
+              47
+            ],
+            [
+              "equal",
+              50,
+              58,
+              47,
+              55
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 928,
+          "physical_page": 2,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "02fa9deebda822c2ef33b51cafb7afee2ccf20aa5de6d237be46e05114fd3acb",
+          "text": "भरद्वाज उवाच । मार्गशीर्षव्रतं",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 929,
+          "physical_page": 3,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "7438e3f671275499315b86a9386a9f5bd39c51fe7bb6e70e4a5651564add38b8",
+          "text": "पुत्र कुरु शीघ्रं समागतम् । तेन त्वं गणनाधस्य प्रियोऽत्यंतं भविष्यसि ॥४॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        24,
+        6
+      ],
+      "source_sanskrit_unchanged": "साधुस्तं नम्य तत्रस्थश्चकार व्रतमृत्तमम् । उपोषणपरो भूत्वा तोषयामास विघ्नपम् ॥६॥",
+      "reviewed_kannada": "ಸಾಧುವು ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ ಅಲ್ಲಿಯೇ ನೆಲೆಸಿ ಉತ್ತಮವಾದ ವ್ರತವನ್ನು ಆಚರಿಸಿದನು. ಉಪವಾಸನಿರತನಾಗಿ ವಿಘ್ನಪನನ್ನು ಸಂತೋಷಪಡಿಸಿದನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಸಾಧುವು ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ ಅಲ್ಲಿಯೇ ನೆಲೆಸಿ ಉತ್ತಮವಾದ ವ್ರತವನ್ನು ಆಚರಿಸಿದನು. ಉಪವಾಸನಿರತನಾಗಿ ವಿಘ್ನಪನನ್ನು ಸಂತೋಷಪಡಿಸಿದನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 929,
+          "reference_page": 862,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0862.txt",
+          "reference_sha256": "e643f45cb978975397f13768754f2e13320a0ae07c6fad0891c2ea11198a002a",
+          "source_part_exact": "साधुस्तं नम्य तत्रस्थश्चकार व्रतमृत्तमम् । उपोषणपरो भूत्वा तोषयामास विघ्नपम् ॥६॥",
+          "reference_char_start": 262,
+          "reference_char_end_exclusive": 338,
+          "exact_reference_excerpt": "साधुस्तं नम्य तच्रस्यश्चकार व्रतसुत्तमम्‌। उपोषणपरो भूत्वा तोषयामास\nविघ्नपम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9403,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              13,
+              0,
+              13
+            ],
+            [
+              "replace",
+              13,
+              14,
+              13,
+              14
+            ],
+            [
+              "equal",
+              14,
+              18,
+              14,
+              18
+            ],
+            [
+              "replace",
+              18,
+              19,
+              18,
+              19
+            ],
+            [
+              "equal",
+              19,
+              29,
+              19,
+              29
+            ],
+            [
+              "replace",
+              29,
+              31,
+              29,
+              31
+            ],
+            [
+              "equal",
+              31,
+              67,
+              31,
+              67
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 929,
+          "physical_page": 3,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "7438e3f671275499315b86a9386a9f5bd39c51fe7bb6e70e4a5651564add38b8",
+          "text": "साधुस्तं नम्य तत्रस्थश्चकार व्रतमृत्तमम् । उपोषणपरो भूत्वा तोषयामास विघ्नपम् ॥६॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        24,
+        9
+      ],
+      "source_sanskrit_unchanged": "तथेति तं प्रणम्यादौ पुपूज भक्तिसंयुतः । भोजयामास भक्त्या स नानारसयुताधकैः ॥९॥",
+      "reviewed_kannada": "ಹಾಗೆಯೇ ಆಗಲಿ ಎಂದು ಮೊದಲು ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ ಭಕ್ತಿಯಿಂದ ಪೂಜಿಸಿದನು. ನಾನಾ ರಸಗಳಿಂದ ಕೂಡಿದ ಅನ್ನಾದಿಗಳನ್ನು ಭಕ್ತಿಯಿಂದ ಬಡಿಸಿ ಭೋಜನ ಮಾಡಿಸಿದನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಹಾಗೆಯೇ ಆಗಲಿ ಎಂದು ಮೊದಲು ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ ಭಕ್ತಿಯಿಂದ ಪೂಜಿಸಿದನು. ನಾನಾ ರಸಗಳಿಂದ ಕೂಡಿದ ಅನ್ನಾದಿಗಳನ್ನು ಭಕ್ತಿಯಿಂದ ಬಡಿಸಿ ಭೋಜನ ಮಾಡಿಸಿದನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 929,
+          "reference_page": 862,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0862.txt",
+          "reference_sha256": "e643f45cb978975397f13768754f2e13320a0ae07c6fad0891c2ea11198a002a",
+          "source_part_exact": "तथेति तं प्रणम्यादौ पुपूज भक्तिसंयुतः । भोजयामास भक्त्या स नानारसयुताधकैः ॥९॥",
+          "reference_char_start": 503,
+          "reference_char_end_exclusive": 579,
+          "exact_reference_excerpt": "तथेति तं प्रणम्यादौ पुप्ूज भक्तिसंयुतः । मोजया-\nमास भक्या स नानारसयुतान्नकेः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9134,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              20,
+              0,
+              20
+            ],
+            [
+              "insert",
+              20,
+              20,
+              20,
+              21
+            ],
+            [
+              "equal",
+              20,
+              33,
+              21,
+              34
+            ],
+            [
+              "replace",
+              33,
+              34,
+              34,
+              35
+            ],
+            [
+              "equal",
+              34,
+              43,
+              35,
+              44
+            ],
+            [
+              "delete",
+              43,
+              45,
+              44,
+              44
+            ],
+            [
+              "equal",
+              45,
+              59,
+              44,
+              58
+            ],
+            [
+              "replace",
+              59,
+              60,
+              58,
+              61
+            ],
+            [
+              "equal",
+              60,
+              61,
+              61,
+              62
+            ],
+            [
+              "replace",
+              61,
+              62,
+              62,
+              63
+            ],
+            [
+              "equal",
+              62,
+              63,
+              63,
+              64
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 929,
+          "physical_page": 3,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "7438e3f671275499315b86a9386a9f5bd39c51fe7bb6e70e4a5651564add38b8",
+          "text": "तथेति तं प्रणम्यादौ पुपूज भक्तिसंयुतः । भोजयामास भक्त्या स नानारसयुताधकैः ॥९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        24,
+        17
+      ],
+      "source_sanskrit_unchanged": "तेनाऽहं तृप्तिसंयुक्तः संशयो न कृतस्त्वया । वरं ब्रूहि महाभाग दास्यामि विनयाच्च ते ॥१७॥",
+      "reviewed_kannada": "ಅದರಿಂದ ನಾನು ತೃಪ್ತನಾಗಿದ್ದೇನೆ; ನೀನು ಸಂಶಯಪಡಲಿಲ್ಲ. ಎಲೈ ಮಹಾಭಾಗನೇ, ವರವನ್ನು ಕೇಳು. ನಿನ್ನ ವಿನಯದ ಕಾರಣ ನಿನಗೆ ಅದನ್ನು ನೀಡುವೆನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಅದರಿಂದ ನಾನು ತೃಪ್ತನಾಗಿದ್ದೇನೆ; ನೀನು ಸಂಶಯಪಡಲಿಲ್ಲ. ಎಲೈ ಮಹಾಭಾಗನೇ, ವರವನ್ನು ಕೇಳು. ನಿನ್ನ ವಿನಯದ ಕಾರಣ ನಿನಗೆ ಅದನ್ನು ನೀಡುವೆನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 929,
+          "reference_page": 862,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0862.txt",
+          "reference_sha256": "e643f45cb978975397f13768754f2e13320a0ae07c6fad0891c2ea11198a002a",
+          "source_part_exact": "तेनाऽहं तृप्तिसंयुक्तः संशयो न कृतस्त्वया । वरं ब्रूहि महाभाग दास्यामि विनयाच्च ते ॥१७॥",
+          "reference_char_start": 1189,
+          "reference_char_end_exclusive": 1267,
+          "exact_reference_excerpt": "तेनाऽदहं\nतृषिसंयुक्तः संयो न क्रतस्त्वया । वरं ब्रहि महाभाग दास्यामि विनयाच ते",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9118,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              5,
+              0,
+              5
+            ],
+            [
+              "insert",
+              5,
+              5,
+              5,
+              6
+            ],
+            [
+              "equal",
+              5,
+              9,
+              6,
+              10
+            ],
+            [
+              "replace",
+              9,
+              12,
+              10,
+              11
+            ],
+            [
+              "equal",
+              12,
+              23,
+              11,
+              22
+            ],
+            [
+              "delete",
+              23,
+              24,
+              22,
+              22
+            ],
+            [
+              "equal",
+              24,
+              28,
+              22,
+              26
+            ],
+            [
+              "replace",
+              28,
+              29,
+              26,
+              28
+            ],
+            [
+              "equal",
+              29,
+              43,
+              28,
+              42
+            ],
+            [
+              "delete",
+              43,
+              44,
+              42,
+              42
+            ],
+            [
+              "equal",
+              44,
+              66,
+              42,
+              64
+            ],
+            [
+              "delete",
+              66,
+              68,
+              64,
+              64
+            ],
+            [
+              "equal",
+              68,
+              70,
+              64,
+              66
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 929,
+          "physical_page": 3,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "7438e3f671275499315b86a9386a9f5bd39c51fe7bb6e70e4a5651564add38b8",
+          "text": "तेनाऽहं तृप्तिसंयुक्तः संशयो न कृतस्त्वया । वरं ब्रूहि महाभाग दास्यामि विनयाच्च ते ॥१७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        24,
+        19
+      ],
+      "source_sanskrit_unchanged": "तस्य तद्वचनं श्रुत्वा ब्राह्मणो गणपोऽभवत् । तं दृष्ट्वा हर्षितोSत्यंतं साधुः साधुगुणान्वितः ॥१९॥",
+      "reviewed_kannada": "ಅವನ ಆ ಮಾತನ್ನು ಕೇಳಿ ಬ್ರಾಹ್ಮಣನು ಗಣಪನ ರೂಪವನ್ನು ತೋರಿಸಿದನು. ಅವನನ್ನು ನೋಡಿ ಸಾಧುಗುಣಗಳಿಂದ ಕೂಡಿದ ಸಾಧುವು ಅತ್ಯಂತ ಹರ್ಷಿತನಾದನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಅವನ ಆ ಮಾತನ್ನು ಕೇಳಿ ಬ್ರಾಹ್ಮಣನು ಗಣಪನ ರೂಪವನ್ನು ತೋರಿಸಿದನು. ಅವನನ್ನು ನೋಡಿ ಸಾಧುಗುಣಗಳಿಂದ ಕೂಡಿದ ಸಾಧುವು ಅತ್ಯಂತ ಹರ್ಷಿತನಾದನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 929,
+          "reference_page": 862,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0862.txt",
+          "reference_sha256": "e643f45cb978975397f13768754f2e13320a0ae07c6fad0891c2ea11198a002a",
+          "source_part_exact": "तस्य तद्वचनं श्रुत्वा ब्राह्मणो गणपोऽभवत् । तं दृष्ट्वा हर्षितोSत्यंतं साधुः साधुगुणान्वितः ॥१९॥",
+          "reference_char_start": 1365,
+          "reference_char_end_exclusive": 1451,
+          "exact_reference_excerpt": "तस्य तद्रचन श्रुत्वा ब्राह्मणो गणपोऽभमवत्‌।\nतं दृष्टा हषितो5त्यंत॑ साधुः साघुयणान्वितः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.902,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              7,
+              0,
+              7
+            ],
+            [
+              "replace",
+              7,
+              8,
+              7,
+              8
+            ],
+            [
+              "equal",
+              8,
+              10,
+              8,
+              10
+            ],
+            [
+              "delete",
+              10,
+              11,
+              10,
+              10
+            ],
+            [
+              "equal",
+              11,
+              34,
+              10,
+              33
+            ],
+            [
+              "insert",
+              34,
+              34,
+              33,
+              34
+            ],
+            [
+              "equal",
+              34,
+              44,
+              34,
+              44
+            ],
+            [
+              "delete",
+              44,
+              46,
+              44,
+              44
+            ],
+            [
+              "equal",
+              46,
+              48,
+              44,
+              46
+            ],
+            [
+              "delete",
+              48,
+              50,
+              46,
+              46
+            ],
+            [
+              "equal",
+              50,
+              59,
+              46,
+              55
+            ],
+            [
+              "replace",
+              59,
+              60,
+              55,
+              56
+            ],
+            [
+              "equal",
+              60,
+              67,
+              56,
+              63
+            ],
+            [
+              "replace",
+              67,
+              68,
+              63,
+              64
+            ],
+            [
+              "equal",
+              68,
+              69,
+              64,
+              65
+            ],
+            [
+              "replace",
+              69,
+              71,
+              65,
+              66
+            ],
+            [
+              "equal",
+              71,
+              79,
+              66,
+              74
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 929,
+          "physical_page": 3,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "7438e3f671275499315b86a9386a9f5bd39c51fe7bb6e70e4a5651564add38b8",
+          "text": "तस्य तद्वचनं श्रुत्वा ब्राह्मणो गणपोऽभवत् । तं दृष्ट्वा हर्षितोSत्यंतं साधुः साधुगुणान्वितः ॥१९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        24,
+        22
+      ],
+      "source_sanskrit_unchanged": "लंबोदराय वीराय शूर्पकर्णाय ढुंढये । अनादये परेशाय गणेशाय नमो नमः ॥२२॥",
+      "reviewed_kannada": "ಲಂಬೋದರನಿಗೆ, ವೀರನಿಗೆ, ಶೂರ್ಪಕರ್ಣನಿಗೆ, ಢುಂಢಿಗೆ, ಅನಾದಿಗೆ, ಪರೇಶನಿಗೆ, ಗಣೇಶನಿಗೆ ನಮೋ ನಮಃ.",
+      "reviewed_kannada_candidate_unaccepted": "ಲಂಬೋದರನಿಗೆ, ವೀರನಿಗೆ, ಶೂರ್ಪಕರ್ಣನಿಗೆ, ಢುಂಢಿಗೆ, ಅನಾದಿಗೆ, ಪರೇಶನಿಗೆ, ಗಣೇಶನಿಗೆ ನಮೋ ನಮಃ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 929,
+          "reference_page": 862,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0862.txt",
+          "reference_sha256": "e643f45cb978975397f13768754f2e13320a0ae07c6fad0891c2ea11198a002a",
+          "source_part_exact": "लंबोदराय वीराय शूर्पकर्णाय ढुंढये । अनादये परेशाय गणेशाय नमो नमः ॥२२॥",
+          "reference_char_start": 1631,
+          "reference_char_end_exclusive": 1691,
+          "exact_reference_excerpt": "लंबोद्राय वीराय झपकणाय दुंदये । अनादये परेशाय गणेराय नमो नमः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8654,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              5,
+              0,
+              5
+            ],
+            [
+              "insert",
+              5,
+              5,
+              5,
+              6
+            ],
+            [
+              "equal",
+              5,
+              13,
+              6,
+              14
+            ],
+            [
+              "replace",
+              13,
+              17,
+              14,
+              15
+            ],
+            [
+              "equal",
+              17,
+              19,
+              15,
+              17
+            ],
+            [
+              "delete",
+              19,
+              21,
+              17,
+              17
+            ],
+            [
+              "equal",
+              21,
+              24,
+              17,
+              20
+            ],
+            [
+              "replace",
+              24,
+              25,
+              20,
+              21
+            ],
+            [
+              "equal",
+              25,
+              27,
+              21,
+              23
+            ],
+            [
+              "replace",
+              27,
+              28,
+              23,
+              24
+            ],
+            [
+              "equal",
+              28,
+              45,
+              24,
+              41
+            ],
+            [
+              "replace",
+              45,
+              46,
+              41,
+              42
+            ],
+            [
+              "equal",
+              46,
+              54,
+              42,
+              50
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 929,
+          "physical_page": 3,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "7438e3f671275499315b86a9386a9f5bd39c51fe7bb6e70e4a5651564add38b8",
+          "text": "लंबोदराय वीराय शूर्पकर्णाय ढुंढये । अनादये परेशाय गणेशाय नमो नमः ॥२२॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        24,
+        31
+      ],
+      "source_sanskrit_unchanged": "धन्योऽहं सर्वभावेन तवांध्रियुगदर्शनात् । वरं देहि गणेशान तव भक्तिं दृढात्मिकाम् ॥३१॥",
+      "reviewed_kannada": "ನಿನ್ನ ಪಾದಯುಗಳದ ದರ್ಶನದಿಂದ ನಾನು ಸರ್ವಭಾವದಿಂದಲೂ ಧನ್ಯನಾದೆನು. ಎಲೈ ಗಣೇಶಾನನೇ, ನಿನ್ನಲ್ಲಿ ದೃಢವಾದ ಭಕ್ತಿಯ ವರವನ್ನು ನನಗೆ ನೀಡು.",
+      "reviewed_kannada_candidate_unaccepted": "ನಿನ್ನ ಪಾದಯುಗಳದ ದರ್ಶನದಿಂದ ನಾನು ಸರ್ವಭಾವದಿಂದಲೂ ಧನ್ಯನಾದೆನು. ಎಲೈ ಗಣೇಶಾನನೇ, ನಿನ್ನಲ್ಲಿ ದೃಢವಾದ ಭಕ್ತಿಯ ವರವನ್ನು ನನಗೆ ನೀಡು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 930,
+          "reference_page": 863,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0863.txt",
+          "reference_sha256": "6dbeaeb1ca5f0e4a20d5ae83ebfd65d375f8cd6374f8ba65976c1d800facf27f",
+          "source_part_exact": "धन्योऽहं सर्वभावेन तवांध्रियुगदर्शनात् । वरं देहि गणेशान तव भक्तिं दृढात्मिकाम् ॥३१॥",
+          "reference_char_start": 215,
+          "reference_char_end_exclusive": 291,
+          "exact_reference_excerpt": "धन्योऽहं\nसवे भावेन तवांधियुगद हीनात्‌ । वरं देहि गणेदान तव भक्ति दढात्मिकाम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8939,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              9,
+              0,
+              9
+            ],
+            [
+              "delete",
+              9,
+              11,
+              9,
+              9
+            ],
+            [
+              "equal",
+              11,
+              12,
+              9,
+              10
+            ],
+            [
+              "insert",
+              12,
+              12,
+              10,
+              11
+            ],
+            [
+              "equal",
+              12,
+              22,
+              11,
+              21
+            ],
+            [
+              "delete",
+              22,
+              24,
+              21,
+              21
+            ],
+            [
+              "equal",
+              24,
+              29,
+              21,
+              26
+            ],
+            [
+              "replace",
+              29,
+              32,
+              26,
+              28
+            ],
+            [
+              "equal",
+              32,
+              46,
+              28,
+              42
+            ],
+            [
+              "replace",
+              46,
+              47,
+              42,
+              43
+            ],
+            [
+              "equal",
+              47,
+              56,
+              43,
+              52
+            ],
+            [
+              "delete",
+              56,
+              57,
+              52,
+              52
+            ],
+            [
+              "equal",
+              57,
+              58,
+              52,
+              53
+            ],
+            [
+              "delete",
+              58,
+              59,
+              53,
+              53
+            ],
+            [
+              "equal",
+              59,
+              69,
+              53,
+              63
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 930,
+          "physical_page": 4,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "9e72e27b3ef0d1aa598ba900542f28c98c79cee925cd7bf14ed55cf7fe5d8000",
+          "text": "धन्योऽहं सर्वभावेन तवांध्रियुगदर्शनात् । वरं देहि गणेशान तव भक्तिं दृढात्मिकाम् ॥३१॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        24,
+        43
+      ],
+      "source_sanskrit_unchanged": "तदपि ब्रह्मभूतः स बभूव व्रतसेवनात् । एवं नाना जना ब्रह्मन् सिद्धिं प्राप्ता व्रतेन वै ॥४३॥",
+      "reviewed_kannada": "ಆದರೂ ಅವನು ವ್ರತಸೇವನೆಯಿಂದ ಬ್ರಹ್ಮಭೂತನಾದನು. ಎಲೈ ಬ್ರಾಹ್ಮಣನೇ, ಹೀಗೆ ಅನೇಕ ಜನರು ವ್ರತದಿಂದ ಸಿದ್ಧಿಯನ್ನು ಪಡೆದರು.",
+      "reviewed_kannada_candidate_unaccepted": "ಆದರೂ ಅವನು ವ್ರತಸೇವನೆಯಿಂದ ಬ್ರಹ್ಮಭೂತನಾದನು. ಎಲೈ ಬ್ರಾಹ್ಮಣನೇ, ಹೀಗೆ ಅನೇಕ ಜನರು ವ್ರತದಿಂದ ಸಿದ್ಧಿಯನ್ನು ಪಡೆದರು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 930,
+          "reference_page": 863,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0863.txt",
+          "reference_sha256": "6dbeaeb1ca5f0e4a20d5ae83ebfd65d375f8cd6374f8ba65976c1d800facf27f",
+          "source_part_exact": "तदपि ब्रह्मभूतः स बभूव व्रतसेवनात् । एवं नाना जना ब्रह्मन् सिद्धिं प्राप्ता व्रतेन वै ॥४३॥",
+          "reference_char_start": 1224,
+          "reference_char_end_exclusive": 1306,
+          "exact_reference_excerpt": "तदपि ब्रह्मभूतः स वभूव ब्रतसेवनात्‌ । एवं नाना जना ब्रह्मन्‌ सिद्धि पराप्ता तेन वै",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9343,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              15,
+              0,
+              15
+            ],
+            [
+              "replace",
+              15,
+              16,
+              15,
+              16
+            ],
+            [
+              "equal",
+              16,
+              19,
+              16,
+              19
+            ],
+            [
+              "replace",
+              19,
+              20,
+              19,
+              20
+            ],
+            [
+              "equal",
+              20,
+              54,
+              20,
+              54
+            ],
+            [
+              "delete",
+              54,
+              55,
+              54,
+              54
+            ],
+            [
+              "equal",
+              55,
+              56,
+              54,
+              55
+            ],
+            [
+              "delete",
+              56,
+              57,
+              55,
+              55
+            ],
+            [
+              "equal",
+              57,
+              63,
+              55,
+              61
+            ],
+            [
+              "delete",
+              63,
+              66,
+              61,
+              61
+            ],
+            [
+              "equal",
+              66,
+              71,
+              61,
+              66
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 930,
+          "physical_page": 4,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "9e72e27b3ef0d1aa598ba900542f28c98c79cee925cd7bf14ed55cf7fe5d8000",
+          "text": "तदपि ब्रह्मभूतः स बभूव व्रतसेवनात् । एवं नाना जना ब्रह्मन् सिद्धिं प्राप्ता व्रतेन वै ॥४३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        25,
+        25
+      ],
+      "source_sanskrit_unchanged": "एवं बहौ गते काले देवाश्चोपोषणान्विताः । मुनिभिः केशवं सर्वे तुष्टुवुस्तद्वधाय तम् ॥२५॥",
+      "reviewed_kannada": "ಹೀಗೆ ಬಹಳ ಕಾಲ ಕಳೆದ ಬಳಿಕ ಹಸಿವಿನಿಂದ ಬಳಲುತ್ತಿದ್ದ ದೇವತೆಗಳೆಲ್ಲರೂ ಮುನಿಗಳೊಡನೆ ವಿರೋಚನನ ವಧೆಗಾಗಿ ಕೇಶವನನ್ನು ಸ್ತುತಿಸಿದರು.",
+      "reviewed_kannada_candidate_unaccepted": "ಹೀಗೆ ಬಹಳ ಕಾಲ ಕಳೆದ ಬಳಿಕ ಹಸಿವಿನಿಂದ ಬಳಲುತ್ತಿದ್ದ ದೇವತೆಗಳೆಲ್ಲರೂ ಮುನಿಗಳೊಡನೆ ವಿರೋಚನನ ವಧೆಗಾಗಿ ಕೇಶವನನ್ನು ಸ್ತುತಿಸಿದರು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 931,
+          "reference_page": 864,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0864.txt",
+          "reference_sha256": "5a375585e771bbc532193ea6963c509cf660e7ef17bb00955f848552db740e62",
+          "source_part_exact": "एवं बहौ गते काले देवाश्चोपोषणान्विताः । मुनिभिः केशवं सर्वे तुष्टुवुस्तद्वधाय तम् ॥२५॥",
+          "reference_char_start": 2137,
+          "reference_char_end_exclusive": 2219,
+          "exact_reference_excerpt": "एवं बहौ गते काले देवाश्चोपोषणान्विताः । सुनिभिः केदावं सर्वे तुष्टुवुस्तद्रधाय तम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9504,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              33,
+              0,
+              33
+            ],
+            [
+              "replace",
+              33,
+              34,
+              33,
+              34
+            ],
+            [
+              "equal",
+              34,
+              42,
+              34,
+              42
+            ],
+            [
+              "replace",
+              42,
+              43,
+              42,
+              44
+            ],
+            [
+              "equal",
+              43,
+              63,
+              44,
+              64
+            ],
+            [
+              "replace",
+              63,
+              64,
+              64,
+              65
+            ],
+            [
+              "equal",
+              64,
+              70,
+              65,
+              71
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 931,
+          "physical_page": 5,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "00e716c958294e76659f25da4010b46cb8652caedcc2a7dd43b3b1747ee3ada9",
+          "text": "एवं बहौ गते काले देवाश्चोपोषणान्विताः । मुनिभिः केशवं सर्वे तुष्टुवुस्तद्वधाय तम् ॥२५॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        25,
+        33
+      ],
+      "source_sanskrit_unchanged": "संपूर्णें तद्व्रते तत्र खवाणी तानुवाच ह । विष्णो स्त्रीवेषगो भूत्वा जहि दैत्यं महाबलम् ॥३३॥",
+      "reviewed_kannada": "ಆ ವ್ರತವು ಪೂರ್ಣಗೊಂಡಾಗ ಆಕಾಶವಾಣಿಯು ಅವರಿಗೆ ಹೀಗೆ ಹೇಳಿತು: ಎಲೈ ವಿಷ್ಣುವೇ, ಸ್ತ್ರೀವೇಷಧಾರಿಯಾಗಿ ಮಹಾಬಲಶಾಲಿಯಾದ ಆ ದೈತ್ಯನನ್ನು ಸಂಹರಿಸು.",
+      "reviewed_kannada_candidate_unaccepted": "ಆ ವ್ರತವು ಪೂರ್ಣಗೊಂಡಾಗ ಆಕಾಶವಾಣಿಯು ಅವರಿಗೆ ಹೀಗೆ ಹೇಳಿತು: ಎಲೈ ವಿಷ್ಣುವೇ, ಸ್ತ್ರೀವೇಷಧಾರಿಯಾಗಿ ಮಹಾಬಲಶಾಲಿಯಾದ ಆ ದೈತ್ಯನನ್ನು ಸಂಹರಿಸು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 932,
+          "reference_page": 865,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0865.txt",
+          "reference_sha256": "5a9d06f548be024f9abf74a5ec6e47d0cc5f780264500cfbe8bc87b7e5929c46",
+          "source_part_exact": "संपूर्णें तद्व्रते तत्र खवाणी तानुवाच ह । विष्णो स्त्रीवेषगो भूत्वा जहि दैत्यं महाबलम् ॥३३॥",
+          "reference_char_start": 620,
+          "reference_char_end_exclusive": 703,
+          "exact_reference_excerpt": "संपूर्णे तद्रते तन्न खवाणी तानुवाच ह्‌ । विष्णो खीवेषगो भूत्वा जहि दैत्यं महा-\nवलम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8857,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              8,
+              0,
+              8
+            ],
+            [
+              "delete",
+              8,
+              9,
+              8,
+              8
+            ],
+            [
+              "equal",
+              9,
+              11,
+              8,
+              10
+            ],
+            [
+              "delete",
+              11,
+              13,
+              10,
+              10
+            ],
+            [
+              "equal",
+              13,
+              18,
+              10,
+              15
+            ],
+            [
+              "replace",
+              18,
+              19,
+              15,
+              16
+            ],
+            [
+              "equal",
+              19,
+              20,
+              16,
+              17
+            ],
+            [
+              "replace",
+              20,
+              21,
+              17,
+              18
+            ],
+            [
+              "equal",
+              21,
+              34,
+              18,
+              31
+            ],
+            [
+              "insert",
+              34,
+              34,
+              31,
+              32
+            ],
+            [
+              "equal",
+              34,
+              40,
+              32,
+              38
+            ],
+            [
+              "replace",
+              40,
+              45,
+              38,
+              39
+            ],
+            [
+              "equal",
+              45,
+              69,
+              39,
+              63
+            ],
+            [
+              "replace",
+              69,
+              70,
+              63,
+              64
+            ],
+            [
+              "equal",
+              70,
+              73,
+              64,
+              67
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 932,
+          "physical_page": 6,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "e3e8dfdf8607ac3e1c9bb40da8747fd9bc179e87d54a4cf4de4e1bac9abc137c",
+          "text": "संपूर्णें तद्व्रते तत्र खवाणी तानुवाच ह । विष्णो स्त्रीवेषगो भूत्वा जहि दैत्यं महाबलम् ॥३३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        8,
+        25,
+        55
+      ],
+      "source_sanskrit_unchanged": "नानाचातुर्यभावेन मोहयामास तं हरिः । मोहिनीरूपसंस्थश्च खलं यभितुमुद्यतम् ॥५५॥",
+      "reviewed_kannada": "ಮೋಹಿನಿಯ ರೂಪದಲ್ಲಿದ್ದ ಹರಿಯು ಸಂಭೋಗಕ್ಕೆ ಉದ್ಯುಕ್ತನಾಗಿದ್ದ ಆ ದುಷ್ಟನನ್ನು ನಾನಾ ಚಾತುರ್ಯಗಳಿಂದ ಮೋಹಗೊಳಿಸಿದನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಮೋಹಿನಿಯ ರೂಪದಲ್ಲಿದ್ದ ಹರಿಯು ಸಂಭೋಗಕ್ಕೆ ಉದ್ಯುಕ್ತನಾಗಿದ್ದ ಆ ದುಷ್ಟನನ್ನು ನಾನಾ ಚಾತುರ್ಯಗಳಿಂದ ಮೋಹಗೊಳಿಸಿದನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 933,
+          "reference_page": 866,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0866.txt",
+          "reference_sha256": "4f3beee19a96c5baa9b4449e375506c2a2d0199e583baebacfbca8ed9e3f7a2a",
+          "source_part_exact": "नानाचातुर्यभावेन मोहयामास तं हरिः । मोहिनीरूपसंस्थश्च खलं यभितुमुद्यतम् ॥५५॥",
+          "reference_char_start": 395,
+          "reference_char_end_exclusive": 465,
+          "exact_reference_excerpt": "नानाचातु्यभावेन मोहयामास तं हरिः । मोदिनीरूपसंस्थश्च खलं यभितुखुद्यतम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.96,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              8,
+              0,
+              8
+            ],
+            [
+              "delete",
+              8,
+              9,
+              8,
+              8
+            ],
+            [
+              "equal",
+              9,
+              32,
+              8,
+              31
+            ],
+            [
+              "replace",
+              32,
+              33,
+              31,
+              32
+            ],
+            [
+              "equal",
+              33,
+              55,
+              32,
+              54
+            ],
+            [
+              "replace",
+              55,
+              56,
+              54,
+              55
+            ],
+            [
+              "equal",
+              56,
+              63,
+              55,
+              62
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 933,
+          "physical_page": 7,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "3153fd8464c413fd10841e431eae310c3a8746ae2961140f4cdf7c0b6d947ed0",
+          "text": "नानाचातुर्यभावेन मोहयामास तं हरिः । मोहिनीरूपसंस्थश्च खलं यभितुमुद्यतम् ॥५५॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        25,
+        56
+      ],
+      "source_sanskrit_unchanged": "तमुवाच महाभागा मोहिनी सर्वमोहिनी । अभ्यंगं कुरु नाथ त्वं मद्धस्तेन महामते ॥५६॥",
+      "reviewed_kannada": "ಎಲ್ಲರನ್ನೂ ಮೋಹಗೊಳಿಸುವ ಮಹಾಭಾಗಳಾದ ಮೋಹಿನಿಯು ಅವನಿಗೆ ಹೇಳಿದಳು: ಎಲೈ ಮಹಾಮತಿಯಾದ ನಾಥನೇ, ನನ್ನ ಕೈಗಳಿಂದ ಎಣ್ಣೆಯ ಅಭ್ಯಂಗವನ್ನು ಮಾಡಿಸಿಕೊ.",
+      "reviewed_kannada_candidate_unaccepted": "ಎಲ್ಲರನ್ನೂ ಮೋಹಗೊಳಿಸುವ ಮಹಾಭಾಗಳಾದ ಮೋಹಿನಿಯು ಅವನಿಗೆ ಹೇಳಿದಳು: ಎಲೈ ಮಹಾಮತಿಯಾದ ನಾಥನೇ, ನನ್ನ ಕೈಗಳಿಂದ ಎಣ್ಣೆಯ ಅಭ್ಯಂಗವನ್ನು ಮಾಡಿಸಿಕೊ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 933,
+          "reference_page": 866,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0866.txt",
+          "reference_sha256": "4f3beee19a96c5baa9b4449e375506c2a2d0199e583baebacfbca8ed9e3f7a2a",
+          "source_part_exact": "तमुवाच महाभागा मोहिनी सर्वमोहिनी । अभ्यंगं कुरु नाथ त्वं मद्धस्तेन महामते ॥५६॥",
+          "reference_char_start": 472,
+          "reference_char_end_exclusive": 542,
+          "exact_reference_excerpt": "तसुवाच\nमहाभागा मोदिनी सवंमोदिनी । अभ्यंग कुर नाय त्वं मद्धस्तेन महामते",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8926,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "replace",
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              "equal",
+              2,
+              15,
+              2,
+              15
+            ],
+            [
+              "replace",
+              15,
+              16,
+              15,
+              16
+            ],
+            [
+              "equal",
+              16,
+              20,
+              16,
+              20
+            ],
+            [
+              "delete",
+              20,
+              22,
+              20,
+              20
+            ],
+            [
+              "equal",
+              22,
+              23,
+              20,
+              21
+            ],
+            [
+              "insert",
+              23,
+              23,
+              21,
+              22
+            ],
+            [
+              "equal",
+              23,
+              25,
+              22,
+              24
+            ],
+            [
+              "replace",
+              25,
+              26,
+              24,
+              25
+            ],
+            [
+              "equal",
+              26,
+              35,
+              25,
+              34
+            ],
+            [
+              "delete",
+              35,
+              36,
+              34,
+              34
+            ],
+            [
+              "equal",
+              36,
+              39,
+              34,
+              37
+            ],
+            [
+              "delete",
+              39,
+              40,
+              37,
+              37
+            ],
+            [
+              "equal",
+              40,
+              42,
+              37,
+              39
+            ],
+            [
+              "replace",
+              42,
+              43,
+              39,
+              40
+            ],
+            [
+              "equal",
+              43,
+              62,
+              40,
+              59
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 933,
+          "physical_page": 7,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "3153fd8464c413fd10841e431eae310c3a8746ae2961140f4cdf7c0b6d947ed0",
+          "text": "तमुवाच महाभागा मोहिनी सर्वमोहिनी । अभ्यंगं कुरु नाथ त्वं मद्धस्तेन महामते ॥५६॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        25,
+        59
+      ],
+      "source_sanskrit_unchanged": "प्रगृह्य मोहिनी तैलमुत्तार्य मुकुटं परम् । मस्तकात्तस्य हस्ताभ्यां मूर्ध्नि हृष्टा व्यमर्दयत् ॥५९॥",
+      "reviewed_kannada": "ಮೋಹಿನಿಯು ಎಣ್ಣೆಯನ್ನು ತೆಗೆದುಕೊಂಡು, ಅವನ ತಲೆಯಿಂದ ಶ್ರೇಷ್ಠವಾದ ಮುಕುಟವನ್ನು ತೆಗೆದು, ಸಂತೋಷದಿಂದ ತನ್ನ ಎರಡೂ ಕೈಗಳಿಂದ ಅವನ ತಲೆಗೆ ಎಣ್ಣೆಯನ್ನು ತಿಕ್ಕಿದಳು.",
+      "reviewed_kannada_candidate_unaccepted": "ಮೋಹಿನಿಯು ಎಣ್ಣೆಯನ್ನು ತೆಗೆದುಕೊಂಡು, ಅವನ ತಲೆಯಿಂದ ಶ್ರೇಷ್ಠವಾದ ಮುಕುಟವನ್ನು ತೆಗೆದು, ಸಂತೋಷದಿಂದ ತನ್ನ ಎರಡೂ ಕೈಗಳಿಂದ ಅವನ ತಲೆಗೆ ಎಣ್ಣೆಯನ್ನು ತಿಕ್ಕಿದಳು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 933,
+          "reference_page": 866,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0866.txt",
+          "reference_sha256": "4f3beee19a96c5baa9b4449e375506c2a2d0199e583baebacfbca8ed9e3f7a2a",
+          "source_part_exact": "प्रगृह्य मोहिनी तैलमुत्तार्य मुकुटं परम् । मस्तकात्तस्य हस्ताभ्यां मूर्ध्नि हृष्टा व्यमर्दयत् ॥५९॥",
+          "reference_char_start": 718,
+          "reference_char_end_exclusive": 807,
+          "exact_reference_excerpt": "पयद्य मोदिनी तैलमुत्तार्य सुकरं परम्‌ । मस्तकात्तस्य हस्ताभ्यां सूर्धि हृष्टा व्यमर्व॑यत्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8679,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "replace",
+              1,
+              6,
+              1,
+              3
+            ],
+            [
+              "equal",
+              6,
+              10,
+              3,
+              7
+            ],
+            [
+              "replace",
+              10,
+              11,
+              7,
+              8
+            ],
+            [
+              "equal",
+              11,
+              26,
+              8,
+              23
+            ],
+            [
+              "replace",
+              26,
+              27,
+              23,
+              24
+            ],
+            [
+              "equal",
+              27,
+              29,
+              24,
+              26
+            ],
+            [
+              "replace",
+              29,
+              31,
+              26,
+              27
+            ],
+            [
+              "equal",
+              31,
+              58,
+              27,
+              54
+            ],
+            [
+              "replace",
+              58,
+              59,
+              54,
+              55
+            ],
+            [
+              "equal",
+              59,
+              63,
+              55,
+              59
+            ],
+            [
+              "delete",
+              63,
+              65,
+              59,
+              59
+            ],
+            [
+              "equal",
+              65,
+              78,
+              59,
+              72
+            ],
+            [
+              "replace",
+              78,
+              79,
+              72,
+              74
+            ],
+            [
+              "equal",
+              79,
+              82,
+              74,
+              77
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 933,
+          "physical_page": 7,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "3153fd8464c413fd10841e431eae310c3a8746ae2961140f4cdf7c0b6d947ed0",
+          "text": "प्रगृह्य मोहिनी तैलमुत्तार्य मुकुटं परम् । मस्तकात्तस्य हस्ताभ्यां मूर्ध्नि हृष्टा व्यमर्दयत् ॥५९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        25,
+        62
+      ],
+      "source_sanskrit_unchanged": "देवर्षिभिस्ततो विष्णुः खलोकमगमच्च तैः । स्वस्वधर्मयुतान् लोकान् कारयामास माधवः ॥६२॥",
+      "reviewed_kannada": "ತರುವಾಯ ವಿಷ್ಣುವು ಆ ದೇವರ್ಷಿಗಳೊಡನೆ ತನ್ನ ಲೋಕಕ್ಕೆ ತೆರಳಿದನು. ಮಾಧವನು ಲೋಕಗಳನ್ನು ತಂತಮ್ಮ ಧರ್ಮಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ನಡೆಯುವಂತೆ ಮಾಡಿದನು.",
+      "reviewed_kannada_candidate_unaccepted": "ತರುವಾಯ ವಿಷ್ಣುವು ಆ ದೇವರ್ಷಿಗಳೊಡನೆ ತನ್ನ ಲೋಕಕ್ಕೆ ತೆರಳಿದನು. ಮಾಧವನು ಲೋಕಗಳನ್ನು ತಂತಮ್ಮ ಧರ್ಮಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ನಡೆಯುವಂತೆ ಮಾಡಿದನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 933,
+          "reference_page": 866,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0866.txt",
+          "reference_sha256": "4f3beee19a96c5baa9b4449e375506c2a2d0199e583baebacfbca8ed9e3f7a2a",
+          "source_part_exact": "देवर्षिभिस्ततो विष्णुः खलोकमगमच्च तैः । स्वस्वधर्मयुतान् लोकान् कारयामास माधवः ॥६२॥",
+          "reference_char_start": 991,
+          "reference_char_end_exclusive": 1080,
+          "exact_reference_excerpt": "देवर्षिभिस्ततो विष्णुः खलोकमगमच तैः । खखधर्म-\nषि कक न © $\n\nयुतान्‌ लोकान्‌ कारयामास माधवः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8905,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              29,
+              0,
+              29
+            ],
+            [
+              "delete",
+              29,
+              31,
+              29,
+              29
+            ],
+            [
+              "equal",
+              31,
+              34,
+              29,
+              32
+            ],
+            [
+              "replace",
+              34,
+              40,
+              32,
+              34
+            ],
+            [
+              "equal",
+              40,
+              44,
+              34,
+              38
+            ],
+            [
+              "insert",
+              44,
+              44,
+              38,
+              43
+            ],
+            [
+              "equal",
+              44,
+              69,
+              43,
+              68
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 933,
+          "physical_page": 7,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "3153fd8464c413fd10841e431eae310c3a8746ae2961140f4cdf7c0b6d947ed0",
+          "text": "देवर्षिभिस्ततो विष्णुः खलोकमगमच्च तैः । स्वस्वधर्मयुतान् लोकान् कारयामास माधवः ॥६२॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        8,
+        25,
+        63
+      ],
+      "source_sanskrit_unchanged": "एवं माघव्रतेनैव गणेशेन जनार्दनः । जघान दैत्यनाथं तं त्रैलोक्यजयकारिणम् ॥६३॥",
+      "reviewed_kannada": "ಹೀಗೆ ಗಣೇಶಸಂಬಂಧಿಯಾದ ಮಾಘವ್ರತದಿಂದಲೇ ಜನಾರ್ದನನು ಮೂರು ಲೋಕಗಳನ್ನು ಗೆದ್ದಿದ್ದ ಆ ದೈತ್ಯನಾಥನನ್ನು ಸಂಹರಿಸಿದನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಹೀಗೆ ಗಣೇಶಸಂಬಂಧಿಯಾದ ಮಾಘವ್ರತದಿಂದಲೇ ಜನಾರ್ದನನು ಮೂರು ಲೋಕಗಳನ್ನು ಗೆದ್ದಿದ್ದ ಆ ದೈತ್ಯನಾಥನನ್ನು ಸಂಹರಿಸಿದನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 933,
+          "reference_page": 866,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0866.txt",
+          "reference_sha256": "4f3beee19a96c5baa9b4449e375506c2a2d0199e583baebacfbca8ed9e3f7a2a",
+          "source_part_exact": "एवं माघव्रतेनैव गणेशेन जनार्दनः । जघान दैत्यनाथं तं त्रैलोक्यजयकारिणम् ॥६३॥",
+          "reference_char_start": 1082,
+          "reference_char_end_exclusive": 1155,
+          "exact_reference_excerpt": "द२॥ एवं माघव्रतेनैव गाणेदोन जनार्दनः । जघान दैत्यनाथ तं चरैलोक्यजयकारिणम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.918,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "insert",
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              "equal",
+              0,
+              15,
+              1,
+              16
+            ],
+            [
+              "insert",
+              15,
+              15,
+              16,
+              17
+            ],
+            [
+              "equal",
+              15,
+              17,
+              17,
+              19
+            ],
+            [
+              "replace",
+              17,
+              19,
+              19,
+              21
+            ],
+            [
+              "equal",
+              19,
+              40,
+              21,
+              42
+            ],
+            [
+              "delete",
+              40,
+              41,
+              42,
+              42
+            ],
+            [
+              "equal",
+              41,
+              43,
+              42,
+              44
+            ],
+            [
+              "replace",
+              43,
+              45,
+              44,
+              45
+            ],
+            [
+              "equal",
+              45,
+              61,
+              45,
+              61
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 933,
+          "physical_page": 7,
+          "pdf_sha256": "41a92b24ed6ceac61198a1b2d13631a271071f9346602c223fec9142ca32525e",
+          "filename": "951   TO. 1000.pdf",
+          "image_sha256": "3153fd8464c413fd10841e431eae310c3a8746ae2961140f4cdf7c0b6d947ed0",
+          "text": "एवं माघव्रतेनैव गणेशेन जनार्दनः । जघान दैत्यनाथं तं त्रैलोक्यजयकारिणम् ॥६३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    }
+  ],
+  "context_inspections": 12,
+  "nonverse_comparisons": [
+    {
+      "chapter": 21,
+      "reference_page": 857,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0857.txt",
+      "reference_sha256": "d6531ca0b7c74abe97e0d0cf8e2db62a9f4f2128091c181ed8bb148176612b04",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 1752,
+      "exact_reference_excerpt": "<--- Page 857 starts --->\n\nख. ८ अ. २१ पान ४८\n\nयोगरूपाय हृदिस्थाय नमो नमः ॥६१॥ विघ्रेराय महाविघ्रविच्नदाय परात्मने । विघ्रहर्वे स्वभक्तानां सत्ताधाराय ते नमः\n॥द६२॥ अनादये महाकाल कालाय कालरूपिणे । अंते विहारयुक्तायादिनाथाय नमो नमः ॥६२॥ विनायकाय देवाय सर्वेषां\nनायकाय च । नायकेभ्यः पदादीनां दात्रे तुभ्यं नमो नमः ॥६०॥ लंबोद्राय सर्वेषासुदरस्थाय ते नमः । अपारोदारभावाय\n५ र [ ९ के वि $ क $ [क च # क\nब्रह्मदाय नमो नमः ॥६५॥ आदिमध्यांतहीनाय तदाकारखरूपिणे । खानंदपतये तुभ्य स्वसंवेद्याय ते नमः ॥द९॥ सिद्धि-\nठ ५. प # (*  ह/+ | सोत + । कवा अ एषति ति | क ® त\nदात्रे खुभक्तेभ्यो दुष्टानां सिद्धिहारिणे । सिद्धिपते महासिद्धिरूपाय ते नमो नमः ॥६७॥ बुद्धिपते खुबुद्धीनां दात्रे साघु-\nजनप्रिय । दुरबुद्धिदायिने तुभ्यं दुष्टेभ्यो वै नमो नमः ॥६८॥ संप्रज्ञातखरूपायासंप्रज्ञात॑ महाशिरः । तयोर्योगे नराकार\nगजाकाराय ते नमः ॥६९॥ कि स्तौमि गणनाथ त्वां सदा योगखरूपिणि । अतस्ते नमनं करत्वा क्रतकरत्यो भवाम्यहम्‌\n॥७०॥ धन्योऽहं सर्वभूतेषु त्वां दष्टा गणनायकम्‌ । कुल रीटं यदो धन्यं जनको तप आश्रमः ॥५१॥ धन्यं वरतं\nगणाधीदा महत्‌ कारतिकमासगम्‌ । तस्याचरणमातच्रेण त्वं मे दष्टिगतः प्रभो ॥७२॥ भक्ति त्वदीयपादेषु देहि मे द्विरदानन ।\nनान्यव्याचे भ्रमैयुक्त गाणपत्यपरायणः ॥७६३॥ तस्य तद्वचनं श्युत्वा गणद्चास्तमुवाच ह । यद्यदिच्छसि तत्तत्ते सफल\nप्रभविष्यति ॥७४॥ गाणपत्यपियोऽत्यंतं भविष्यसि महासने । भक्तो मदीयपादस्य सवेमान्यो भविष्यसि ॥५५॥ त्वया\nक्रतमिदं स्तोत्र सर्वसिद्धिप्रदायकम्‌ । भविष्यति चरणां विप्र पठतां श्रुण्वतां सदा ॥७द\\। एवसुक्त्वांऽतद॑धेऽसौ विघ्रेशः\n। क निर वेर भ ४ | अ | क र [ कर वैरे र । ५. कै\nकरुणानिधिः । सोमदत्तो महाभागो गौतमं प्रणनाम ह ॥७७॥ तदादि स मुनिः ख्यातो वरू गणपपरियः। योगी योगविदां\nशरेष्ठः स्वैवेदाथेतच््ववित्‌ ॥७८॥\n\n॥ ओमिति श्रीमदान्य पुराणोपनिषदि श्रीमन्मौ रटे महापुराणे अष्टमे खंड धूम्रबणच रिते धूम्रमहिमावणेनं नाम एकविङतितमोऽध्यायः ॥\n\n<--- Page 857 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे अष्टमे खंडे धूम्रवर्णचरिते धूम्रमहिमावर्णनं नाम एकविंशतितमोऽध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    },
+    {
+      "chapter": 22,
+      "reference_page": 858,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0858.txt",
+      "reference_sha256": "3f8bb4cbf749d6d2a7cec83595b234c0d3687f023ff81ad56192a087c1f53867",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 2160,
+      "exact_reference_excerpt": "<--- Page 858 starts --->\n\n` खं. ८अ.रर 7 -------\n\n॥ श्रीगणेाय नमः ॥ सूत उवाच । कर्णटे ब्राह्मणः कश्चिदतिगोच्रससुद्धवः। नान्ना सर्वपरियः सोऽपि कातिकव्रतमाचरत्‌\n॥१॥ प्रातः सानं स कृत्वा तु गणेदापूजने रतः । नियमन समाविष्टो गाणपत्यप्रियोऽमवत्‌ ॥२॥ तत्रैकः क्षत्रियः राद्धः\nस्नान करत्वा रामी पराम्‌ । जलेनासिच्य भीमाख्यः परदक्षिणपरोऽ भवत्‌ ॥३॥ अन्यः कैवतेकस्तत्र तथा मंदारकं सुने ।\nपूज्य मेघभियः खात्वा पदक्षिणपरोऽभवत्‌ ॥४॥ बैदयों गवां पुष्पवाहः इुश्रषायां रतोऽभवत्‌ । सनात्वा गणपतिं ध्यात्वा\nगोरूपभरमादरात्‌ ॥५॥ शद्रः इयामलसंज्ञस्तु दीपदानं चकार ह । गणेदाप्रीतये नित्यं खात्वा मासब्रते रतः । ।६॥ अन्यो\nवैरयो महावाहुनोम्ना खात्वा बते स्थितः । ब्राह्मणान्‌ मोजयामास निलयं माचपरायणः ॥७॥ कारकः; पद्मनामा वे सनात्वा\nनित्यं नमाम ह। गणेदां भावसंयुक्तः कार्तिकव्तसंस्थितः ॥८॥ दाद्रः कश़िन्महीपालो नागा गुणयुतोऽभवत्‌ । तीर्थ\nकातिकमासे स जग्राह गणपस्य तु ॥९॥ एवं नाना जनास्तच्र गणेद्याप्रीतये सुने । सनात्वा किंचित्‌ स्वभवेनाभजंस्तं\nगणनायक्रम्‌ ॥१०॥ रोगवंध्यादिदोचैस्ते सुक्ता जाता विशेषत! । समाप्ति ब्रतसुख्ये तु धनधान्ययुता वसुः ॥११॥ अते\nस्वान॑दगाः सर्वे गणेदां नम्य तत्क्षणात्‌ । ब्रह्मभूता बभूवुश्च कार्तिकवतपुण्यतः ॥१२॥ अतः का्तिकमासस्यं ततं कार्थं\nविशेषतः । गणेशाप्ीतये_ विप्र स्वसिद्धिपदायकम्‌ ॥१३॥ नियेमन समा भक्तिन भूता न भविष्यति । किंचिन्नियम-\nव) ५ $ __. हक (क ^ १९ लि र हक द ॐ + ५ कड + ३\nसंयुक्तो गणां वामानयत्‌ ॥१४॥ नियमेन कृतं किंचिद्भणेरप्रीतये नैैः। भवेत्‌ कोटिगुण विप सर्वसिद्धिपदायकम्‌ ॥१८५॥\nकार्तिक लानमल्य॑तं मुख्य विपरशासेवनम्‌ । यथाशक्ति कृतं सर्वसिद्धिदं प्रभविष्यति ॥२६॥ करोति यः कार्तिके चेत्‌ पंचकं\nगणपप्रियम्‌। स गणेरपियोऽत्यंतं भवत्यत्र न संदायः ॥१७॥ दानं होमादिकं किंचित्‌ कार्तिकेऽनेतपुण्यदम्‌ । भवेत्तु\nगणनाथाय चार्पितं कमेजं फलम्‌ ॥१८॥ बहुनात्र किमुक्तेन कार्तिके नमनं सकृत्‌ । गणेशाय कृत नित्य तदक्चय्यपरदं\nमवत्‌ ॥१९॥ इदं कार्तिकमासस्य मादात्म्य कथितं मया । गणेदालोकर्द पुण्यं इह सौख्यपदं परम्‌ ॥२०॥ यः झणोति नरो\nभक्त्या पठत मावसयुतः । सोऽपि कामानवाप्यैव गाणपत्यपियो भवेत्‌ ॥२१॥ अन्यदेवपरा ये वै का्तिकवतसंस्थिताः ।\nतेषां लोकसुखं सबेमंते सुंजंति निथितम्‌ ॥२२॥ |\n\n॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौ दरे महापुराणे अष्टमे खंडे धूम्रव्णचपति कार्तिकमासमाहास्म्य नानानियमनिरूपणं नाम द्वाविंशोऽध्यायः ।।\n\nभरे\nध खश\n\n<--- Page 858 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मुद्गले महापुराणे अष्टमे खंडे धूम्रवर्णचरिते कार्तिकमासमाहात्म्ये नानानियमनिरूपणं नाम द्वाविंशोऽध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    },
+    {
+      "chapter": 23,
+      "reference_page": 861,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0861.txt",
+      "reference_sha256": "a4c901984ac43f22c047ba12b6c3f8c350974305aec2e5177d6cb64532421650",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 2037,
+      "exact_reference_excerpt": "<--- Page 861 starts --->\n\n=. ८ अ, ४ । कका ठठककक गन पर | प्र\nत्सवः न्ख\n\nसिद्धिपतिः पातु बुद्धीरोऽधः स्थितं सदा । स्वगिषु मयूरेशः पातु मां भक्तिलालसः ॥५२॥ यत्र तच्र स्थितं मां तु सदा\nरक्षतु योगपः। पुर्छपारसंयुक्तो वरदाभयधारकः ॥५३॥ हदं गणपतेः पोक्तं वज्जपंजरकं परम्‌ । धारयस्व महादेव विजयी\nत्वं मविष्यसि ॥५४॥ य इदं पंजरं शृत्वा यत्र कुत्र स्थितो भवेत्‌। न तस्य जायते क्रापि भयं नानास्वभावजम्‌ ॥५५॥\nयः पठेत्‌ पंजरं निलयं स इंप्सितमवाप्लुयात्‌। वञ्रसारतनु भूत्वा चरेत्‌ सर्वत्र मानवः ॥५९॥ त्रिकालें यः पठेन्नित्यं स गणका\nइवापरः । निर्वि्रः सवेकायैषु ब्रह्मभूतो भवेन्नरः ॥५७॥ यः श्रुणोति गणेरास्य पंजरं वज्रसंज्ञकम्‌ । आरोग्यादिसमायुक्तो\nभवते गणपप्रियः ॥५८॥ धनं धान्यं पद्यन्‌ विद्यामायुष्यं पुत्रपौत्रकम्‌ । सर्वसंपत्समायुक्तमैश्वर्य पठनाछ भेत्‌ ॥५९॥ न भयं\nतस्य वज्रा चक्रच्छ्लाद्भवेत्‌ कदा । रांकरादे्महादेव पठनादस्य नित्यराः॥६०॥ यं य॑ चितयते मसत तं प्नोति राश्वतम्‌।\nपठनादस्य विज्नेदा पंजरस्य निरंतरम्‌ ॥६१॥ लक्षावृत्तिभिरेव॑ स सिद्धपंजरको भवेत्‌ । स्तंभयेदपि सूर्य तु ब्रह्मांडं वचामा-\nनयेत्‌ ॥द२॥ एवसुक्त्वा गणेदानोंऽतदे सुनिसत्तम । शिवो देवादिभि्ुक्तो दर्षितः संबभूव ह ॥द६३॥ लक्षाब्त्ति चकाराऽसौ\nयथाविधि परायणः । सिद्धप॑जरको भूत्वा यया्वधकदेत्यपम्‌ ॥६४॥ गणेरां मनसा ध्यात्वा कृत्वा युद्ध ॒सखदारुणम्‌ ।\nत्रिशलेनां धकं सोऽपि विभ्याघ गर्वसंयुतम्‌ ॥६०॥ एवभंघकदैत्येरौ जित्वा शंयुः पतापवान्‌ । देवान्‌ संस्थापयामास खस्थानेषु\nखुनि भयान्‌ ॥६द॥ विश्वं खधर्मसंयुक्तं चकार रांकरः स्यम्‌ । मागेरीरषत्रतेनैव पंजरेण समन्वितः ॥द७॥ इदमंधकनाराख्यं\nचरितं यः श्णोति वा । पटेद्वा स लभेत्‌ भीतिं गणेदो सर्वसिद्धये ॥६८॥\n\n॥ ओमिति श्रीमदान्तये पुराणोपनिषदि श्रीमन्मो द्रे महापुराणे अष्टमे खंड भूम्रवणंचरिते मार्गशीर्षमासमाहात्म्ये वजरपंजरकथनं नाम त्रयोविदोऽध्यायः ॥\n\n\"33\n\n॥ श्रीगणेदाय नमः ॥ सूत उवाच । भारट्राजो द्विजः कथिन्नान्ना साधुरिति स्तः । गणे भजने परीतिसंयुक्तोऽभू-\nचिरंतरम्‌ ॥१॥ जगाम सुनिख॒ख्यं स एकदा भक्तिसंयुतः। भरद्वाजं प्रणम्यादौ पप्च्छ विनयान्वितः ॥२॥ साधुस्वाच । गणेशा-\n\n$ ॥ १ के विस ८\nप्राप्तये स्वामिन्‌ वदोपायं खुसिद्धिदम । येनात्मानं गणाधीकरो दरोयेन्‌ मे महाखुने ॥३॥ भरद्वाज उवाच । मार्मक्रीर्षव्रतं\n\n| न वसः व दे\n\n<--- Page 861 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मुद्गले महापुराणे अष्टमे खंडे धूम्रवर्णचरिते मार्गशीर्षमासमाहात्म्ये वज्रपंजरकथनं नाम त्रयोविंशोऽध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    },
+    {
+      "chapter": 24,
+      "reference_page": 863,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0863.txt",
+      "reference_sha256": "6dbeaeb1ca5f0e4a20d5ae83ebfd65d375f8cd6374f8ba65976c1d800facf27f",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 1748,
+      "exact_reference_excerpt": "<--- Page 863 starts --->\n\nपान ५४\n\nनराय पशुरूपाय नमो नागाखुराय ते ॥२८॥ चराचरमयायैव चराचरविवलित । समाय सहजायेव स्वसंवेयाय ते\nनमः ॥२९॥ योगाय दांतिनाथाय चांतिदाय नमो नमः । किं स्तौमि त्वां गणाधीदा योगाकार नमो नमः ॥३०॥ धन्योऽहं\nसवे भावेन तवांधियुगद हीनात्‌ । वरं देहि गणेदान तव भक्ति दढात्मिकाम्‌ ॥३१॥ एवं स्तुत्वा गणाधीडदं साधुं प्रणनाम\nच । तखुवाच गणेदानो भक्तं भक्तजनप्रियः ॥३२॥ श्रीगणेश उवाच । मदीया मक्तिसग्रा ते भविष्यति महामते । यद्यदिच्छसि\nतत्तत्ते सफलं परभविष्यति ॥३३॥ स्वया कृतं मदीयं यत्‌ स्तोत्रं मक्तिविवधनम्‌। भविष्यति महाभाग पठतां श्रुण्वतां\nसदा ॥३४॥ स्वेसिद्धिप्रद॑ पूर्ण मत्परसादादिदं परम्‌ । नानाकार्यकरं भावि अते स्वानेददायकम्‌ ॥३५॥ एवसुक्त्वांऽतदेधेऽसै\nगणशो ब्रह्मनायकः। साधुस्तं हृदि सं ध्यात्वाऽभवत्तन्ैव संस्थितः ॥६६॥ एवं नाना जना विप्र सिद्धि प्राप्ता विद्वोषतः ।\nमागंदीषवतेनैव गाणपत्यपरायणाः ॥३७॥ अन्यच शण विमद चस्ति सवेसिद्धिदम्‌ । मार्मशीर्षभवं चिनच्नं श्रवणात्‌\nपठनाच्रुणाम्‌ ॥३८॥ एकः कैवतंकः कचिन्ना्ना श बुरिति स्मरतः । स मार्मरीर्षमाहात्म्य झुश्राव गणपाभितम्‌ ॥२९॥\nसमागते मा्गैशीषे लानं कृत्वा महामतिः । गणे पणनामाऽथ नित्यं कु डंबपोषकः ॥४०॥ ततः परं चपस्यैव चकार\nसेवनं सदा । पौषे सतश्व तं धृत्वा गाणेराः स्वपदं ययुः ॥४१॥ तत्र विघ्नेश्वर दष्टा ब्रह्मभूतो बभूव ह । मागरीरषत्रतं\nतेन कृतमंशाधकारतः ॥४२॥ तदपि ब्रह्मभूतः स वभूव ब्रतसेवनात्‌ । एवं नाना जना ब्रह्मन्‌ सिद्धि पराप्ता तेन वै ॥४३॥\nइद सुक्त्वाऽखिखान्‌ भोगानंते स्वानदगामिनः । किंचिन्नियमसंयुक्ताः किं पुनर्विधिचारिणः ॥४४॥ इदं यः खछणुयान्नित्यं\nमागरीपं नरोत्तमः । पटेत्‌ स सिद्धिसंयुक्तो भविष्यति निरंतरम्‌ ॥४५॥ मार्मरीर्भवतस्यैव माहात्म्यं लेदातो मया । कथितं\nकि पुनः श्रोतुमिच्छसि मुनिसत्तम ॥४९॥\n\n॥ ओमिति श्रीमदांत्य पुराणोपनिषदि श्रीमन्मौद्ररे महापुराणे अष्टमे खंड धून्रवणचरिते मागैशीषमासमाहात्म्यसाघुचरितिवणैनं नाम चतुर्विशो5ध्याय: ॥\n\nका कल\n\n<--- Page 863 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे अष्टमे खंडे धूम्रवर्णचरिते मार्गशीर्षमासमाहात्म्यसाधुचरितवर्णनं नाम चतुर्विंशोऽध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    },
+    {
+      "chapter": 25,
+      "reference_page": 866,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0866.txt",
+      "reference_sha256": "4f3beee19a96c5baa9b4449e375506c2a2d0199e583baebacfbca8ed9e3f7a2a",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 1957,
+      "exact_reference_excerpt": "<--- Page 866 starts --->\n\nक:्मर {1 ~ ८ अ. २६ पान ५७\nतर\n\nबरह्मविष्णुमदेशदराया जिताः सचराचराः । मथा ब्रह्मांडनायेन तव दासेन भामिनि ॥५ १॥ तवाज्ञावशगोऽहं तु भविष्यामि\nनिरंतरम्‌ । पत्नी भव मदीया त्वं गृहमागच्छ मे प्रिये ॥५२॥ एवं तस्य वचः; श्रुत्वा तमुवाच खुमोहिनी । यदा वचो-\nऽन्यथा मे त्वं करिष्यसि त्यजाम्यहम्‌ ॥५३॥ तयेति तां समागृह्य ययौ खमगृहसुत्तमम्‌ । त्चिष्टस्तत्परः सोऽपि वभव\nसमीपस्थितः ॥५४॥ नानाचातु्यभावेन मोहयामास तं हरिः । मोदिनीरूपसंस्थश्च खलं यभितुखुद्यतम्‌ ॥५५॥ तसुवाच\nमहाभागा मोदिनी सवंमोदिनी । अभ्यंग कुर नाय त्वं मद्धस्तेन महामते ॥५६॥ पञ्चात्‌ खानं च करत्वा तु भोजनं कुरु\nसुचत । ततो मां र्णा दैत्येंद्र तवाधीनां निरंतरम्‌ ॥५०॥ गणेदामायया भ्रांतस्तासुवाच तथेति सः । सुवासितन लैलेना-\nभ्यंगं कतु सखुयतः ॥५८॥ पयद्य मोदिनी तैलमुत्तार्य सुकरं परम्‌ । मस्तकात्तस्य हस्ताभ्यां सूर्धि हृष्टा व्यमर्व॑यत्‌ ॥५९॥\n\nहस्तयोः स्परोमान्नेण रातचूर्णोऽभवत्तदा । मस्तकस्तस्य दैत्यस्य मोहिनी ह्षिताऽभवत्‌ ॥६०॥ जय टवोदरेत्युकत्वांऽतर्दे सा\n\nतु मोदिनी । दैलया मृतं समालोच्य विविद्युस्ते रसातलम्‌ ॥६१॥ देवर्षिभिस्ततो विष्णुः खलोकमगमच तैः । खखधर्म-\nषि कक न © $\n\nयुतान्‌ लोकान्‌ कारयामास माधवः ॥द२॥ एवं माघव्रतेनैव गाणेदोन जनार्दनः । जघान दैत्यनाथ तं चरैलोक्यजयकारिणम्‌\n\n॥९३॥ इदं यः श्रुणुयात्‌ जंतुः पटेद्रा गणप॑ स्मरन्‌ । स सवसुखसंयुक्तो भविष्यति निरंतरम्‌ ॥६४॥\n\n॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्रके महापुराणे अष्टमे खंडे भूम्रवणेचरिते माघमासमाहात्म्ये विरोचनवधो नाम पंचविकोऽध्यायः |)\n\n“22. 65२\n\n॥ श्रीगणेशाय नमः ॥ सूत उवाच । मौद्धलो ब्राह्मण! कथिन्नाम्ना विश्वसहोऽभवत्‌ । गाणपल्यपियोऽत्य॑तं सदा सत्संग-\nलालसः ॥१॥ स कदाचिन्‌ महाभागो माघव्रतपरोऽभवत्‌। गाणेरापचकं नित्यमसेवद्क्तिसंयुतः ॥२॥ प्राततः काले\nसमुत्थाय स्नानां चागतं द्विजम्‌ । तत्रैका राक्षसी घोरा त॑ द्रा भक्षितुं ययौ ॥३॥ विकरालसुखीं तां स दष्ठा भयसम-\nन्वितः । गणेदोति समुचाय जलं चिक्षेप दूर्वया ॥४॥ दूवायुक्तं जलं तस्या देहे लगन महामुने । तेन झुद्धा विश्वसहं ननामैव\nजगाद ह ॥५॥ राक्षस्यवाच । अहं त्वां शरणं प्राकता तारयख भवाणवात्‌ । तव दर्शनमात्रेण जाताऽहं शुद्धमानसा ॥६॥\n\n<--- Page 866 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे अष्टमे खंडे धूम्रवर्णचरिते माघमासमाहात्म्ये विरोचनवधो नाम पंचविंशोऽध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    }
+  ]
+}
