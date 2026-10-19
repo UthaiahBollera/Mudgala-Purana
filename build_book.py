@@ -187,7 +187,8 @@ for khanda, chapter in chapters:
                 body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಓಂ ನಮಃ ಶ್ರೀಸ್ವಾನಂದೇಶಗಣೇಶಾಯ ಪೂರ್ಣಯೋಗಾತ್ಮನೇ ॥</p>'
                 body+='<p class="caption">ಶ್ರೀಮುದ್ಗಲಪುರಾಣದ ಆರಂಭ</p>'
             if not info.get('omit_opening_invocation'):
-                body+='<p class="mantra" lang="sa-Knda" data-treatment="transliteration">॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥</p>'
+                invocation = info.get('opening_invocation', '॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥')
+                body+=f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(invocation)}</p>'
             if info.get('coverage_note'):
                 body+=f'<p class="caption">{e(info["coverage_note"])}</p>'
         for r in chunk:

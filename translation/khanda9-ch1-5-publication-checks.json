@@ -1,0 +1,204 @@
+{
+  "status": "passed_before_publication",
+  "prior_entries_preserved": 20812,
+  "entries": 21202,
+  "new_entries": 390,
+  "accepted_keys": 363,
+  "accepted_translation_units": 363,
+  "shared_reference_entries": 0,
+  "placeholders": 27,
+  "chapters": 389,
+  "joins_once": [
+    [
+      9,
+      1,
+      23
+    ],
+    [
+      9,
+      1,
+      42
+    ],
+    [
+      9,
+      2,
+      4
+    ],
+    [
+      9,
+      2,
+      27
+    ],
+    [
+      9,
+      2,
+      48
+    ],
+    [
+      9,
+      3,
+      13
+    ],
+    [
+      9,
+      3,
+      38
+    ],
+    [
+      9,
+      3,
+      64
+    ],
+    [
+      9,
+      3,
+      90
+    ],
+    [
+      9,
+      3,
+      116
+    ],
+    [
+      9,
+      4,
+      10
+    ],
+    [
+      9,
+      4,
+      32
+    ],
+    [
+      9,
+      5,
+      13
+    ],
+    [
+      9,
+      5,
+      38
+    ],
+    [
+      9,
+      5,
+      64
+    ],
+    [
+      9,
+      5,
+      89
+    ]
+  ],
+  "CSS_TSVs_prompt_registry_prefix_raw_evidence_preserved": true,
+  "shared_Kannada_not_duplicated": true,
+  "reference_comparisons": {
+    "verse_corrections": 96,
+    "unresolved_OCR_or_assignment_questions": 95,
+    "critical_context_inspections": 12,
+    "no_source_reading_accepted": true,
+    "report_sha256": "f9d3a67c62ca9944806f6d9a974d9bb30e2a72e5f78066668b4fbcc81587ee23"
+  },
+  "Khanda9_nonverse_source_and_page_offsets_verified": true,
+  "Khanda9_shared_span_metadata_matches_canonical": true,
+  "opening_invocation_exact_HTML_and_EPUB_once": true,
+  "chapter3_colophon_hold_visible": true,
+  "full_navigation_checks_both_passed": true,
+  "regression_tests_passed": 62,
+  "release_group": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "chapter_counts": [
+    57,
+    54,
+    124,
+    39,
+    116
+  ],
+  "chapter_accepted": [
+    56,
+    52,
+    112,
+    33,
+    110
+  ],
+  "chapter_placeholders": [
+    1,
+    2,
+    12,
+    6,
+    6
+  ],
+  "tests": {
+    "google_source": 38,
+    "pdf_source": 16,
+    "text_corrections": 8,
+    "reading_contents": 389
+  },
+  "qa": [
+    {
+      "width": 1470,
+      "entries": 21202,
+      "chapters": {
+        "1": 57,
+        "2": 54,
+        "3": 124,
+        "4": 39,
+        "5": 116
+      },
+      "holds": true,
+      "toc": true,
+      "partial": true,
+      "no_next": true,
+      "overflow": false,
+      "font": true,
+      "dead": 0
+    },
+    {
+      "width": 375,
+      "entries": 21202,
+      "chapters": {
+        "1": 57,
+        "2": 54,
+        "3": 124,
+        "4": 39,
+        "5": 116
+      },
+      "holds": true,
+      "toc": true,
+      "partial": true,
+      "no_next": true,
+      "overflow": false,
+      "font": true,
+      "dead": 0
+    },
+    {
+      "width": 390,
+      "entries": 21202,
+      "chapters": {
+        "1": 57,
+        "2": 54,
+        "3": 124,
+        "4": 39,
+        "5": 116
+      },
+      "holds": true,
+      "toc": true,
+      "partial": true,
+      "no_next": true,
+      "overflow": false,
+      "font": true,
+      "dead": 0
+    }
+  ],
+  "no_paid_calls_queue_or_ledger_writes": true,
+  "limitations": [
+    "No EPUBCheck/device-reader validation",
+    "Sanskrit quotation cache absent; uploaded reference context provenance retained",
+    "Text review does not certify every source glyph"
+  ]
+}
