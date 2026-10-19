@@ -91,6 +91,10 @@ def validate_base_translation_correction(root,old,new,item,review):
             assert replacement and expected.count(replacement['before'])==1,'Declared mantra token absent or repeated'
             expected=expected.replace(replacement['before'],replacement['after'])
         assert expected==new['text']==p['proposed_full_replacement']and record['accepted_transliteration']==new['text']and record['accepted_translation']is None,'Mantra repair exceeds declared source edits'
+        if 'printed_target_form' in record:
+            assert record['printed_target_form'] in record['source_sanskrit'] and record['unusual_form_not_grammatically_normalized'] is True,'Unusual printed form normalized'
+            if key== (1,21,41):assert record['printed_target_form']=='सुधात्रे' and record['avagraha_convention_preserved'] is True,'Sudhatre or preserved avagraha altered'
+            if key== (1,21,45):assert record['printed_target_form']=='तेषामपारप्रधात्रे' and record['sandhi_and_negation_preserved'] is True,'Aparapradhatre, sandhi or negation altered'
         if 'replacements'in p:
             assert replacements==p['replacements'],'Declared spans differ from independent proposal'
         if 'minimal_edits'in p:
@@ -187,6 +191,13 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
                 assert x['numerical_compound_expansion_accepted'] is False and x['current_wording_source_verified'] is False,'Difficult compound interpretation certified'
             else:
                 assert x['printed_base_token']=='धात्रे' and x['historical_comparison_token']=='धाम्ने' and x['named_edition_variant_established'] is False,'Base dhatre harmonized or uninspected edition invented'
+        if unit['status'] in {'unchanged_source_supported_meaning_hold','unchanged_source_supported_segmentation_hold'}:
+            assert x['counted_as_new_correction'] is False and x['target_readings_source_verified'] is True and x['accepted_transliteration'] is None and x['current_wording_source_verified'] is False,'Unchanged transcription promoted to settled meaning'
+            assert x['source_sanskrit']==unit['source_reading'] and x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Source or unknown Google location altered'
+            if unit['status']=='unchanged_source_supported_meaning_hold':
+                assert x['compound_paraphrase_accepted'] is False,'Compressed compound paraphrase accepted'
+            else:
+                assert x['printed_negation_cluster']=='न पुंस्त्री' and x['segmentation_settled'] is False and x['editorial_avagraha_claimed_printed'] is False,'Negation segmentation or editorial avagraha falsely certified'
         if unit['status']=='unchanged_source_confirmed':
             assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None and x['source_sanskrit']==unit['source_reading'],'Unchanged source confirmation promoted or source altered'
             assert x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'Unknown confirmed-source Google page invented'

@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "e213f8a308db718ec65d44241cdcec5be222a59a",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        21,
+        33
+      ],
+      "old_row": {
+        "source_pages": "64",
+        "type": "mantra",
+        "text": "ನಮಶ್ಚಂದ್ರರೂಪಾಯ ಪುಷ್ಟಿಪ್ರದಾಯ ಕಲಾಭಿಸ್ತ್ರಿಲೋಕಸ್ಥಭೂತಾದಿಕೇಭ್ಯಃ । ಸುಧಾಧಾರಕಾಯಾಥ ನಕ್ಷತ್ರಕಾದಿಪ್ರಭಾಯ ತೇ ಹ್ಯನ್ನಹೀನಾಯ ಢುಂಢೇ । ॥೩೩॥"
+      },
+      "new_row": {
+        "source_pages": "64",
+        "type": "mantra",
+        "text": "ನಮಶ್ಚಂದ್ರರೂಪಾಯ ಪುಷ್ಟಿಪ್ರದಾಯ ಕಲಾಭಿಸ್ತ್ರಿಲೋಕಸ್ಥಭೂತಾದಿಕೇಭ್ಯಃ । ಸುಧಾಧಾರಕಾಯಾಥ ನಕ್ಷತ್ರಕಾದಿಪ್ರಕಾಶಾಯ ತೇ ಹ್ಯನ್ನಹೀನಾಯ ಢುಂಢೇ । ॥೩೩॥"
+      },
+      "base_file": "translation/batch-03-02.tsv",
+      "source_sanskrit": "नमश्चंद्ररूपाय पुष्टिप्रदाय कलाभिस्त्रिलोकस्थभूतादिकेभ्यः । सुधाधारकायाथ नक्षत्रकादिप्रकाशाय ते ह्यन्नहीनाय ढुंढे ॥३३॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_unsettled",
+          "reading": null,
+          "token": "नमश्चंद्ररूपाय पुष्टिप्रदाय कलाभिस्त्रिलोकस्थभूतादिकेभ्यः । सुधाधारकायाथ नक्षत्रकादिप्रकाशाय ते ह्यन्नहीनाय ढुंढे ॥३३॥",
+          "detail": "Original clearly has नक्षत्रकादिप्रकाशाय. Restore only prakasha in place of prabha; other mantra wording unchanged."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ನಮಶ್ಚಂದ್ರರೂಪಾಯ ಪುಷ್ಟಿಪ್ರದಾಯ ಕಲಾಭಿಸ್ತ್ರಿಲೋಕಸ್ಥಭೂತಾದಿಕೇಭ್ಯಃ । ಸುಧಾಧಾರಕಾಯಾಥ ನಕ್ಷತ್ರಕಾದಿಪ್ರಕಾಶಾಯ ತೇ ಹ್ಯನ್ನಹೀನಾಯ ಢುಂಢೇ । ॥೩೩॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/independent-review.md",
+        "sha256": "5689a06e23a3cb871b12a58f6c92e836da3815e044388f61aaaf40da3f110a9d"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0051.png",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/original-page_0051.png",
+        "sha256": "1b7c07495c69995643b9081d81d7428e350ab2eae05fc5f47235a4e245289a0e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          650,
+          3710,
+          1240
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly has नक्षत्रकादिप्रकाशाय. Restore only prakasha in place of prabha; other mantra wording unchanged.",
+      "replacements": [
+        {
+          "before": "ನಕ್ಷತ್ರಕಾದಿಪ್ರಭಾಯ",
+          "after": "ನಕ್ಷತ್ರಕಾದಿಪ್ರಕಾಶಾಯ"
+        }
+      ],
+      "meaning_scope": "transcription_only_interpretation_unsettled"
+    },
+    {
+      "key": [
+        1,
+        21,
+        41
+      ],
+      "old_row": {
+        "source_pages": "64",
+        "type": "mantra",
+        "text": "ನಮಸ್ತ್ವಮ್ಪದಾಕಾರದೇಹಾಯ ತುಭ್ಯಂ ನಮಸ್ತತ್ಪದಾಕಾರತುಣ್ಡಾಯ ತೇಽಸ್ತು । ತಯೋರೇಕಭಾವಾಽಸಿರೂಪಪ್ರಯುಕ್ತಶರೀರಾಯ ಸಾಕ್ಷಾತ್ ಸುಧಾಮ್ನೇ ನಮಸ್ತೇ ॥೪೧॥"
+      },
+      "new_row": {
+        "source_pages": "64",
+        "type": "mantra",
+        "text": "ನಮಸ್ತ್ವಮ್ಪದಾಕಾರದೇಹಾಯ ತುಭ್ಯಂ ನಮಸ್ತತ್ಪದಾಕಾರತುಣ್ಡಾಯ ತೇಽಸ್ತು । ತಯೋರೇಕಭಾವಾಽಸಿರೂಪಪ್ರಯುಕ್ತಶರೀರಾಯ ಸಾಕ್ಷಾತ್ ಸುಧಾತ್ರೇ ನಮಸ್ತೇ ॥೪೧॥"
+      },
+      "base_file": "translation/batch-03-02.tsv",
+      "source_sanskrit": "नमस्त्वंपदाकारदेहाय तुभ्यं नमस्तत्पदाकारतुंडाय तेऽस्तु । तयोरेकभावासिरूपप्रयुक्तशरीराय साक्षात् सुधात्रे नमस्ते ॥४१॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_unsettled",
+          "reading": null,
+          "token": "नमस्त्वंपदाकारदेहाय तुभ्यं नमस्तत्पदाकारतुंडाय तेऽस्तु । तयोरेकभावासिरूपप्रयुक्तशरीराय साक्षात् सुधात्रे नमस्ते ॥४१॥",
+          "detail": "Original detail has सुधात्रे, with त्रे, not सुधाम्ने. Compare same-page सृष्टिकर्त्रे, included in detail crop. Restore only this target-edition form. Preserve the current avagraha/segmentation convention in ಭಾವಾಽಸಿ; it does not change the underlying sound sequence, and the source is continuous भावासि. Meaning/attachment of the compound and unusual sudhatre form remains held; do not silently normalize to a more familiar sudhamne."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ನಮಸ್ತ್ವಮ್ಪದಾಕಾರದೇಹಾಯ ತುಭ್ಯಂ ನಮಸ್ತತ್ಪದಾಕಾರತುಣ್ಡಾಯ ತೇಽಸ್ತು । ತಯೋರೇಕಭಾವಾಽಸಿರೂಪಪ್ರಯುಕ್ತಶರೀರಾಯ ಸಾಕ್ಷಾತ್ ಸುಧಾತ್ರೇ ನಮಸ್ತೇ ॥೪೧॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/independent-review.md",
+        "sha256": "5689a06e23a3cb871b12a58f6c92e836da3815e044388f61aaaf40da3f110a9d"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0051.png",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/original-page_0051.png",
+        "sha256": "1b7c07495c69995643b9081d81d7428e350ab2eae05fc5f47235a4e245289a0e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          1320,
+          3710,
+          2150
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original detail has सुधात्रे, with त्रे, not सुधाम्ने. Compare same-page सृष्टिकर्त्रे, included in detail crop. Restore only this target-edition form. Preserve the current avagraha/segmentation convention in ಭಾವಾಽಸಿ; it does not change the underlying sound sequence, and the source is continuous भावासि. Meaning/attachment of the compound and unusual sudhatre form remains held; do not silently normalize to a more familiar sudhamne.",
+      "replacements": [
+        {
+          "before": "ಸುಧಾಮ್ನೇ",
+          "after": "ಸುಧಾತ್ರೇ"
+        }
+      ],
+      "meaning_scope": "transcription_only_interpretation_unsettled",
+      "printed_target_form": "सुधात्रे",
+      "avagraha_convention_preserved": true,
+      "unusual_form_not_grammatically_normalized": true
+    },
+    {
+      "key": [
+        1,
+        21,
+        45
+      ],
+      "old_row": {
+        "source_pages": "64,65",
+        "type": "mantra",
+        "text": "ಜನಾನಾಂ ಸದಾ ತ್ರ್ಯಕ್ಷರಂ ಶೃಣ್ವತಾಂ ಚ ಗಣೇಶೇತಿ ಚಾನನ್ದದಾಯಿನ್ನಮಸ್ತೇ । ಸಕೃಜ್ಜಲ್ಪತಾಂ ಜನ್ಮಮೃತ್ಯೂ ನ ತೇಷಾಮಪಾರಪ್ರಧಾಮ್ನೇ ಚ ಢುಣ್ಢೀಶ್ವರಾಯ ॥೪೫॥"
+      },
+      "new_row": {
+        "source_pages": "64,65",
+        "type": "mantra",
+        "text": "ಜನಾನಾಂ ಸದಾ ತ್ರ್ಯಕ್ಷರಂ ಶೃಣ್ವತಾಂ ಚ ಗಣೇಶೇತಿ ಚಾನನ್ದದಾಯಿನ್ನಮಸ್ತೇ । ಸಕೃಜ್ಜಲ್ಪತಾಂ ಜನ್ಮಮೃತ್ಯೂ ನ ತೇಷಾಮಪಾರಪ್ರಧಾತ್ರೇ ಚ ಢುಣ್ಢೀಶ್ವರಾಯ ॥೪೫॥"
+      },
+      "base_file": "translation/batch-03-02.tsv",
+      "source_sanskrit": "जनानां सदा त्र्यक्षरं शृण्वतां च गणेशेति चानंददायिन्नमस्ते । सकृज्जल्पतां जन्ममृत्यू न तेषामपारप्रधात्रे च ढुंढीश्वराय ॥४५॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_unsettled",
+          "reading": null,
+          "token": "जनानां सदा त्र्यक्षरं शृण्वतां च गणेशेति चानंददायिन्नमस्ते । सकृज्जल्पतां जन्ममृत्यू न तेषामपारप्रधात्रे च ढुंढीश्वराय ॥४५॥",
+          "detail": "Original page52 continuation reads अपारप्रधात्रे with त्रे, not प्रधाम्ने. Restore only that source form; preserve जन्ममृत्यू न and all remaining words, including the name. The unusual compound’s interpretation remains held. This is target-edition transcription, not harmonization to the historical quotation."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಜನಾನಾಂ ಸದಾ ತ್ರ್ಯಕ್ಷರಂ ಶೃಣ್ವತಾಂ ಚ ಗಣೇಶೇತಿ ಚಾನನ್ದದಾಯಿನ್ನಮಸ್ತೇ । ಸಕೃಜ್ಜಲ್ಪತಾಂ ಜನ್ಮಮೃತ್ಯೂ ನ ತೇಷಾಮಪಾರಪ್ರಧಾತ್ರೇ ಚ ಢುಣ್ಢೀಶ್ವರಾಯ ॥೪೫॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/independent-review.md",
+        "sha256": "5689a06e23a3cb871b12a58f6c92e836da3815e044388f61aaaf40da3f110a9d"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0052.png",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/original-page_0052.png",
+        "sha256": "cda7a01a2714edd5b02f7946678a288310629ceadd71fcb8fb160d46dbce4575",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          340,
+          3710,
+          650
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original page52 continuation reads अपारप्रधात्रे with त्रे, not प्रधाम्ने. Restore only that source form; preserve जन्ममृत्यू न and all remaining words, including the name. The unusual compound’s interpretation remains held. This is target-edition transcription, not harmonization to the historical quotation.",
+      "replacements": [
+        {
+          "before": "ಪ್ರಧಾಮ್ನೇ",
+          "after": "ಪ್ರಧಾತ್ರೇ"
+        }
+      ],
+      "meaning_scope": "transcription_only_interpretation_unsettled",
+      "printed_target_form": "तेषामपारप्रधात्रे",
+      "sandhi_and_negation_preserved": true,
+      "unusual_form_not_grammatically_normalized": true
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        21,
+        39
+      ],
+      "old_row": {
+        "source_pages": "64",
+        "type": "mantra",
+        "text": "ನಮೋಽನನ್ತಶಕ್ತೇ ಗುಣಾನಾಮಧೀಶ ಮಯೂರೇಶ ಯೋಗೇಶ ಮಾಯೇಶ ತುಭ್ಯಮ್ । ನಮೋಽವ್ಯಕ್ತಸುವ್ಯಕ್ತರೂಪಾಯ ದನ್ತಿನ್ ಗಜಾಕಾರಸಾಕಾರಮೋಹಾಯ ತೇಽಸ್ತು ॥೩೯॥"
+      },
+      "new_row": {
+        "source_pages": "64",
+        "type": "mantra",
+        "text": "ನಮೋಽನನ್ತಶಕ್ತೇ ಗುಣಾನಾಮಧೀಶ ಮಯೂರೇಶ ಯೋಗೇಶ ಮಾಯೇಶ ತುಭ್ಯಮ್ । ನಮೋಽವ್ಯಕ್ತಸುವ್ಯಕ್ತರೂಪಾಯ ದನ್ತಿನ್ ಗಜಾಕಾರಸಾಕಾರಮೋಹಾಯ ತೇಽಸ್ತು ॥೩೯॥"
+      },
+      "base_file": "translation/batch-03-02.tsv",
+      "source_sanskrit": "नमोऽनंतशक्ते गुणानामधीश मयूरेश योगेश मायेश तुभ्यम् । नमोऽव्यक्तसुव्यक्तरूपाय दंतिन् गजाकारसाकारमोहाय तेऽस्तु ॥३९॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "compressed_compound_interpretation_hold",
+          "reading": null,
+          "token": "नमोऽनंतशक्ते गुणानामधीश मयूरेश योगेश मायेश तुभ्यम् । नमोऽव्यक्तसुव्यक्तरूपाय दंतिन् गजाकारसाकारमोहाय तेऽस्तु ॥३९॥",
+          "detail": "Current Kannada-script Sanskrit matches the inspected source letters, allowing anusvara/homorganic-nasal orthographic equivalence. Preserve the compressed गजाकारसाकारमोहाय and its interpretation hold; the scan does not authorize a smoother replacement or philosophical paraphrase."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/independent-review.md",
+        "sha256": "5689a06e23a3cb871b12a58f6c92e836da3815e044388f61aaaf40da3f110a9d"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0051.png",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/original-page_0051.png",
+        "sha256": "1b7c07495c69995643b9081d81d7428e350ab2eae05fc5f47235a4e245289a0e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          1320,
+          3710,
+          2150
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Current Kannada-script Sanskrit matches the inspected source letters, allowing anusvara/homorganic-nasal orthographic equivalence. Preserve the compressed गजाकारसाकारमोहाय and its interpretation hold; the scan does not authorize a smoother replacement or philosophical paraphrase.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "compound_paraphrase_accepted": false
+    },
+    {
+      "key": [
+        1,
+        21,
+        44
+      ],
+      "old_row": {
+        "source_pages": "64",
+        "type": "mantra",
+        "text": "ಅಖಣ್ಡಾಮೃತಂ ಯತ್ರ ತೋಯಂ ಸುತಾಮ್ರಂ ಸಮುದ್ರೇ ಸ್ಥಿತಂ ಚೇಕ್ಷುಸಂಜ್ಞೇ ನಮಸ್ತೇ । ನಿರಾಧಾರರೂಪೇ ಚ ಪಾನೇನ ತಸ್ಯ ನ ಪುಂಸ್ತ್ರೀಪ್ರದಾಯಾಽತ್ರ ಖೇಲಂಶ್ಚ ತೇಽಸ್ತು ॥೪೪॥"
+      },
+      "new_row": {
+        "source_pages": "64",
+        "type": "mantra",
+        "text": "ಅಖಣ್ಡಾಮೃತಂ ಯತ್ರ ತೋಯಂ ಸುತಾಮ್ರಂ ಸಮುದ್ರೇ ಸ್ಥಿತಂ ಚೇಕ್ಷುಸಂಜ್ಞೇ ನಮಸ್ತೇ । ನಿರಾಧಾರರೂಪೇ ಚ ಪಾನೇನ ತಸ್ಯ ನ ಪುಂಸ್ತ್ರೀಪ್ರದಾಯಾಽತ್ರ ಖೇಲಂಶ್ಚ ತೇಽಸ್ತು ॥೪೪॥"
+      },
+      "base_file": "translation/batch-03-02.tsv",
+      "source_sanskrit": "अखंडामृतं यत्र तोयं सुताम्रं समुद्रे स्थितं चेक्षुसंज्ञे नमस्ते । निराधाररूपे च पानेन तस्य न पुंस्त्रीप्रदायात्र खेलंश्च तेऽस्तु ॥४४॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "na_pumstri_segmentation_interpretation_hold",
+          "reading": null,
+          "token": "अखंडामृतं यत्र तोयं सुताम्रं समुद्रे स्थितं चेक्षुसंज्ञे नमस्ते । निराधाररूपे च पानेन तस्य न पुंस्त्रीप्रदायात्र खेलंश्च तेऽस्तु ॥४४॥",
+          "detail": "Current Kannada preserves the visible wording, including sutamra and न पुंस्त्री. The latter is line-broken after पुंस्त्री in print; layout spacing and line breaks alone do not settle the compound/negation interpretation. Current avagraha in प्रदायाऽत्र is an editorial sandhi convention, not proof of a separate printed avagraha. No new letter repair proposed; retain meaning and segmentation holds."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/independent-review.md",
+        "sha256": "5689a06e23a3cb871b12a58f6c92e836da3815e044388f61aaaf40da3f110a9d"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0051.png",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/original-page_0051.png",
+        "sha256": "1b7c07495c69995643b9081d81d7428e350ab2eae05fc5f47235a4e245289a0e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          2090,
+          3710,
+          2400
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Current Kannada preserves the visible wording, including sutamra and न पुंस्त्री. The latter is line-broken after पुंस्त्री in print; layout spacing and line breaks alone do not settle the compound/negation interpretation. Current avagraha in प्रदायाऽत्र is an editorial sandhi convention, not proof of a separate printed avagraha. No new letter repair proposed; retain meaning and segmentation holds.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "printed_negation_cluster": "न पुंस्त्री",
+      "segmentation_settled": false,
+      "editorial_avagraha_claimed_printed": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch21-late/before-after-proposals.json",
+  "candidate_sha256": "e2d6c97ad72dc5f66d028483eaac2da3b13a862659408411c2da5d9e5554cc3f",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/before-after-proposals.json",
+      "sha256": "e2d6c97ad72dc5f66d028483eaac2da3b13a862659408411c2da5d9e5554cc3f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/crops/ch21-31-35.png",
+      "sha256": "aa89f4cf22ba0c800b58fb2243e0532b60708c8a7844e128f7157f7946772e98"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/crops/ch21-37-43.png",
+      "sha256": "20f44300f79f3137b8deacc2af3c06557897abbfccb3cedd9ab075b94d252f2d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/crops/ch21-43-45.png",
+      "sha256": "8fd7b6192ee95f6d874a70fe5fff3ac9f1f94eacefbd1d2207e2c6f6e3f67ba9"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/crops/ch21-45-47.png",
+      "sha256": "3d51462d734972ff1fb33849bc7b37a6d2b11944c95a52189c0f93a2e9ef2f69"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/crops/kartr-comparison.png",
+      "sha256": "58d74ac569a3c9c4029b2d3d71ace1876260ff0b1d98f6adfcb56cee1d3b67c5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/crops/v33-word.png",
+      "sha256": "3d4e65748d27672702bb6c4bebb961cf83bf5bd89ccd43a6b182943acf3aa02c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/crops/v41-sudhamne.png",
+      "sha256": "99ad8103c2b6088be28c8719d780641e607299fae1efe18b078f64ff3674d463"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/crops/v45-tail.png",
+      "sha256": "69ae78da04453c60df023aa443671086c674542c33c202d13f58f5cb3f2307c0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/independent-review.md",
+      "sha256": "5689a06e23a3cb871b12a58f6c92e836da3815e044388f61aaaf40da3f110a9d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/manifest.json",
+      "sha256": "6c71effb92414c630c793301e1851375cd852459c435e9d85f73a66b1a17e610"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/khanda1-ch21-late-next-five-review-packet.json",
+      "sha256": "dbc713605acc507246e60b8b1772bf79121bbb8a3d6cca7a7287cbcbe188af8d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/original-page_0051.png",
+      "sha256": "1b7c07495c69995643b9081d81d7428e350ab2eae05fc5f47235a4e245289a0e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/original-page_0052.png",
+      "sha256": "cda7a01a2714edd5b02f7946678a288310629ceadd71fcb8fb160d46dbce4575"
+    }
+  ],
+  "handoff_Library_file": "libfile_e45edff5861c8191a426537297a652ef",
+  "handoff_sha256": "4b9b578ce39ac512d4c568d43f32bebb8d5aa9c52ff4d40c318ba7c4608865e8",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

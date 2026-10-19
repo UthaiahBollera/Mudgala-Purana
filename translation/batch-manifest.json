@@ -117096,6 +117096,97 @@
           28
         ]
       ]
+    },
+    {
+      "file": "batch-380-reviewed-base-translation.tsv",
+      "sha256": "4878559090dd2951652aa4ce58c57dfa258b0dd8d3c8782792344e22d6ac19e0",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch21-late-writer-review.json",
+      "review_sha256": "79926cf7895ba6a384be4ada2869c3ff87de7f310482c5596b347a16e20e1a99",
+      "coverage_boundary": "reviewed-base-khanda1-ch21-late",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            21,
+            33
+          ],
+          "old_row": {
+            "source_pages": "64",
+            "type": "mantra",
+            "text": "ನಮಶ್ಚಂದ್ರರೂಪಾಯ ಪುಷ್ಟಿಪ್ರದಾಯ ಕಲಾಭಿಸ್ತ್ರಿಲೋಕಸ್ಥಭೂತಾದಿಕೇಭ್ಯಃ । ಸುಧಾಧಾರಕಾಯಾಥ ನಕ್ಷತ್ರಕಾದಿಪ್ರಭಾಯ ತೇ ಹ್ಯನ್ನಹೀನಾಯ ಢುಂಢೇ । ॥೩೩॥"
+          },
+          "new_row": {
+            "source_pages": "64",
+            "type": "mantra",
+            "text": "ನಮಶ್ಚಂದ್ರರೂಪಾಯ ಪುಷ್ಟಿಪ್ರದಾಯ ಕಲಾಭಿಸ್ತ್ರಿಲೋಕಸ್ಥಭೂತಾದಿಕೇಭ್ಯಃ । ಸುಧಾಧಾರಕಾಯಾಥ ನಕ್ಷತ್ರಕಾದಿಪ್ರಕಾಶಾಯ ತೇ ಹ್ಯನ್ನಹೀನಾಯ ಢುಂಢೇ । ॥೩೩॥"
+          },
+          "base_snapshot_commit": "e213f8a308db718ec65d44241cdcec5be222a59a",
+          "adjudication_file": "translation/khanda1-ch21-late-writer-review.json",
+          "adjudication_sha256": "79926cf7895ba6a384be4ada2869c3ff87de7f310482c5596b347a16e20e1a99",
+          "review_status": "accepted",
+          "rationale": "Original clearly has नक्षत्रकादिप्रकाशाय. Restore only prakasha in place of prabha; other mantra wording unchanged."
+        },
+        {
+          "key": [
+            1,
+            21,
+            41
+          ],
+          "old_row": {
+            "source_pages": "64",
+            "type": "mantra",
+            "text": "ನಮಸ್ತ್ವಮ್ಪದಾಕಾರದೇಹಾಯ ತುಭ್ಯಂ ನಮಸ್ತತ್ಪದಾಕಾರತುಣ್ಡಾಯ ತೇಽಸ್ತು । ತಯೋರೇಕಭಾವಾಽಸಿರೂಪಪ್ರಯುಕ್ತಶರೀರಾಯ ಸಾಕ್ಷಾತ್ ಸುಧಾಮ್ನೇ ನಮಸ್ತೇ ॥೪೧॥"
+          },
+          "new_row": {
+            "source_pages": "64",
+            "type": "mantra",
+            "text": "ನಮಸ್ತ್ವಮ್ಪದಾಕಾರದೇಹಾಯ ತುಭ್ಯಂ ನಮಸ್ತತ್ಪದಾಕಾರತುಣ್ಡಾಯ ತೇಽಸ್ತು । ತಯೋರೇಕಭಾವಾಽಸಿರೂಪಪ್ರಯುಕ್ತಶರೀರಾಯ ಸಾಕ್ಷಾತ್ ಸುಧಾತ್ರೇ ನಮಸ್ತೇ ॥೪೧॥"
+          },
+          "base_snapshot_commit": "e213f8a308db718ec65d44241cdcec5be222a59a",
+          "adjudication_file": "translation/khanda1-ch21-late-writer-review.json",
+          "adjudication_sha256": "79926cf7895ba6a384be4ada2869c3ff87de7f310482c5596b347a16e20e1a99",
+          "review_status": "accepted",
+          "rationale": "Original detail has सुधात्रे, with त्रे, not सुधाम्ने. Compare same-page सृष्टिकर्त्रे, included in detail crop. Restore only this target-edition form. Preserve the current avagraha/segmentation convention in ಭಾವಾಽಸಿ; it does not change the underlying sound sequence, and the source is continuous भावासि. Meaning/attachment of the compound and unusual sudhatre form remains held; do not silently normalize to a more familiar sudhamne."
+        },
+        {
+          "key": [
+            1,
+            21,
+            45
+          ],
+          "old_row": {
+            "source_pages": "64,65",
+            "type": "mantra",
+            "text": "ಜನಾನಾಂ ಸದಾ ತ್ರ್ಯಕ್ಷರಂ ಶೃಣ್ವತಾಂ ಚ ಗಣೇಶೇತಿ ಚಾನನ್ದದಾಯಿನ್ನಮಸ್ತೇ । ಸಕೃಜ್ಜಲ್ಪತಾಂ ಜನ್ಮಮೃತ್ಯೂ ನ ತೇಷಾಮಪಾರಪ್ರಧಾಮ್ನೇ ಚ ಢುಣ್ಢೀಶ್ವರಾಯ ॥೪೫॥"
+          },
+          "new_row": {
+            "source_pages": "64,65",
+            "type": "mantra",
+            "text": "ಜನಾನಾಂ ಸದಾ ತ್ರ್ಯಕ್ಷರಂ ಶೃಣ್ವತಾಂ ಚ ಗಣೇಶೇತಿ ಚಾನನ್ದದಾಯಿನ್ನಮಸ್ತೇ । ಸಕೃಜ್ಜಲ್ಪತಾಂ ಜನ್ಮಮೃತ್ಯೂ ನ ತೇಷಾಮಪಾರಪ್ರಧಾತ್ರೇ ಚ ಢುಣ್ಢೀಶ್ವರಾಯ ॥೪೫॥"
+          },
+          "base_snapshot_commit": "e213f8a308db718ec65d44241cdcec5be222a59a",
+          "adjudication_file": "translation/khanda1-ch21-late-writer-review.json",
+          "adjudication_sha256": "79926cf7895ba6a384be4ada2869c3ff87de7f310482c5596b347a16e20e1a99",
+          "review_status": "accepted",
+          "rationale": "Original page52 continuation reads अपारप्रधात्रे with त्रे, not प्रधाम्ने. Restore only that source form; preserve जन्ममृत्यू न and all remaining words, including the name. The unusual compound’s interpretation remains held. This is target-edition transcription, not harmonization to the historical quotation."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          21,
+          39
+        ],
+        [
+          1,
+          21,
+          44
+        ]
+      ]
     }
   ],
   "reference_only_index": {

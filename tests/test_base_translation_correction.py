@@ -386,4 +386,32 @@ class TwoMantrasOnePartialTwoConfirmations(unittest.TestCase):
  def test_compound_not_expanded(self):self.review['no_change_adjudications'][0]['numerical_compound_expansion_accepted']=True;self.reject_nochange()
  def test_dhatre_not_harmonized(self):self.review['no_change_adjudications'][1]['printed_base_token']='धाम्ने';self.reject_nochange()
  def test_uninspected_edition_not_invented(self):self.review['no_change_adjudications'][1]['named_edition_variant_established']=True;self.reject_nochange()
+class ThreeLateChapterTwentyOneRepairs(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch21-late-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):
+  for i in range(3):self.check(i)
+  self.nochange()
+ def test_prakasha_required(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಪ್ರಕಾಶಾಯ','ಪ್ರಭಾಯ')
+  self.reject()
+ def test_sudhatre_not_normalized(self):self.review['reviews'][1]['printed_target_form']='सुधाम्ने';self.reject(1)
+ def test_41_avagraha_preserved(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಭಾವಾಽಸಿ','ಭಾವಾಸಿ')
+  self.reject(1)
+ def test_45_negation_preserved(self):
+  for x in [self.items[2]['new_row'],self.review['reviews'][2]['new_row']]:x['text']=x['text'].replace('ಜನ್ಮಮೃತ್ಯೂ ನ','ಜನ್ಮಮೃತ್ಯೂ')
+  self.reject(2)
+ def test_45_sandhi_preserved(self):self.review['reviews'][2]['sandhi_and_negation_preserved']=False;self.reject(2)
+ def test_meaning_not_settled(self):self.review['reviews'][1].update(issues=[],review_status='accepted');self.reject(1)
+ def test_39_not_paraphrased(self):self.review['no_change_adjudications'][0]['compound_paraphrase_accepted']=True;self.reject_nochange()
+ def test_44_segmentation_not_settled(self):self.review['no_change_adjudications'][1]['segmentation_settled']=True;self.reject_nochange()
+ def test_avagraha_not_claimed_printed(self):self.review['no_change_adjudications'][1]['editorial_avagraha_claimed_printed']=True;self.reject_nochange()
 if __name__=='__main__':unittest.main()
