@@ -291,7 +291,14 @@ if manifest is not None:
         completions = batch['boundary_completions']
         completion_keys = [tuple(map(int, item['key'])) for item in completions]
         assert len(completion_keys) == len(set(completion_keys)), ('Duplicate boundary completion', name)
-        assert set(rows) - additions == set(completion_keys), ('Unlogged replacement of existing verse', name)
+        corrections = batch.get('text_corrections', [])
+        correction_keys = [tuple(item['key']) for item in corrections]
+        assert len(correction_keys) == len(set(correction_keys)), ('Duplicate textual correction', name)
+        assert not set(correction_keys) & set(completion_keys), ('Overlapping correction/completion', name)
+        assert set(rows) - additions == set(completion_keys) | set(correction_keys), ('Unlogged replacement of existing verse', name)
+        for item, key in zip(corrections, correction_keys):
+            from validate_text_correction import validate_text_correction
+            validate_text_correction(ROOT, replayed[key], rows[key], item, batches[:batches.index(batch)])
         for item, key in zip(completions, completion_keys):
             old_row, new_row = replayed[key], rows[key]
             assert row_content(old_row) == item['old_row'], ('Boundary old row mismatch', key)
