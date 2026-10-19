@@ -128,6 +128,17 @@ def validate_base_translation_correction(root,old,new,item,review):
             assert record['printed_abhaya_cluster']=='मेऽभयप्राप्तिः' and record['printed_abhaya_cluster'] in record['source_sanskrit'] and record['meaning_nuance_settled'] is False and record['westward_sunrise_is_interpretation'] is True,'Abhaya or sunrise interpretation falsely settled'
             assert record['slain_daityas_not_in_verse5'] is True and record['following_verse6_unchanged'] is True and 'ಮೃತಾ ದೈತ್ಯಾ' not in new['text'],'Adjacent slain-daityas wording misplaced'
             assert record['uninspected_edition_variant_accepted'] is False,'Uninspected edition variant accepted'
+        elif record.get('correction_mode')=='original_only_reviewed_partial_edits':
+            assert key==(1,39,32) and p['status']=='partial_correction_second_half_hold' and p['proposed_full_replacement'] is None,'Partial edits promoted to full translation'
+            expected=old['text']
+            for change in p['replacements']:
+                assert expected.count(change['before'])==1,'Reviewed partial span absent or repeated'
+                expected=expected.replace(change['before'],change['after'])
+            assert expected==p['proposed_text_after_partial_edits'] and record['replacements']==p['replacements'],'Partial edits exceed independent proposal'
+            marker=old['text'][old['text'].rfind(' ॥'):];note=record['display_note']
+            assert note.startswith(' (ಪರಿಶೀಲನೆ:') and new['text']==expected.replace(marker,note+marker) and record['edition_variant'] is None,'Visible second-half hold omitted or edition invented'
+            assert record['whole_target_resolved'] is False and record['remaining_second_half_syntax_settled'] is False and record['retained_second_half_paraphrase_certified'] is False,'Unresolved second half falsely certified'
+            assert record['printed_numeral']==21 and record['unsupported_yogi_removed'] is True and 'ಮುನಿಯೋಗಿಗಳೇ' not in new['text'],'Numeral or unsupported yogi altered'
         elif record.get('correction_mode')=='original_only_reviewed_sentence_replacement':
             assert p['status']=='partial_source_term_correction_meaning_hold' and p['proposed_full_replacement'] is None,'Partial source-term repair promoted to complete translation'
             assert record['replace_from']==p['replace_from'] and record['replacement_sentence']==p['proposed_partial_text'] and old['text'].count(p['replace_from'])==1,'Source-term repair differs from reviewed sentence'
@@ -266,6 +277,10 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
             if key==(1,37,39):assert x['printed_instrumentals']=='अष्टावरणैर्देहधारिभिः' and x['instrumental_coordination_certified'] is False and x['weapons_reading_accepted'] is False,'Instrumental relationship falsely certified'
             elif key==(1,38,34):assert x['printed_first_half_cluster']=='न समं चात्मना न च' and x['atmana_nominalization_certified'] is False and x['first_half_syntax_settled'] is False,'Atmana nominalization falsely certified'
             else:assert key==(1,39,7) and x['printed_organ_token']=='घ्राण' and x['printed_form_token']=='स्वरूप' and x['compound_segmentation_and_philosophical_meananing_certified'] is False,'Organ transcription confirmation promoted to philosophical certainty'
+        if unit['status']=='unchanged_printed_grammar_hold':
+            assert key==(1,41,29) and x['counted_as_new_correction'] is False and x['accepted_transliteration'] is None and x['current_wording_source_verified'] is False and x['target_readings_source_verified'] is True and x['source_sanskrit']==unit['source_reading'],'Printed grammar hold promoted'
+            assert x['printed_grammar_cluster']=='प्रभावान् मे' and x['conjectural_ablative_accepted'] is False and x['unrendered_source_tokens']==['प्रभावान् मे'] and x['irregular_phrase_meaning_settled'] is False,'Printed final na emended or omitted phrase certified'
+            assert x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Unknown Google location invented'
         if unit['status']=='unchanged_syntax_meaning_hold':
             assert x['counted_as_new_correction'] is False and x['accepted_transliteration'] is None and x['current_wording_source_verified'] is False and x['source_sanskrit']==unit['source_reading'],'Unchanged syntax hold promoted'
             assert x['printed_syntax_cluster']=='न भिन्नौ मयि तिष्ठतः' and x['negation_dual_and_first_person_locative_preserved'] is True and x['syntax_settled'] is False,'Dual/locative syntax altered or settled'

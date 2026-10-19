@@ -559,4 +559,28 @@ class SvahridiPrakasheAndThreeHolds(unittest.TestCase):
  def test_instrumental_not_settled(self):self.review['no_change_adjudications'][0]['instrumental_coordination_certified']=True;self.reject_nochange()
  def test_atmana_not_certified(self):self.review['no_change_adjudications'][1]['atmana_nominalization_certified']=True;self.reject_nochange()
  def test_transcription_not_philosophy(self):self.review['no_change_adjudications'][2]['compound_segmentation_and_philosophical_meananing_certified']=True;self.reject_nochange()
+class ThreeMantrasPartialComposerAndPrintedNa(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch39-ch41-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):
+  for i in range(4):self.check(i)
+  self.nochange()
+ def test_partial_not_full_acceptance(self):self.review['reviews'][3]['whole_target_resolved']=True;self.reject(3)
+ def test_second_half_not_certified(self):self.review['reviews'][3]['retained_second_half_paraphrase_certified']=True;self.reject(3)
+ def test_visible_partial_hold_required(self):
+  for x in [self.items[3]['new_row'],self.review['reviews'][3]['new_row']]:x['text']=x['text'].split(' (ಪರಿಶೀಲನೆ:')[0]+' ॥೩೨॥'
+  self.reject(3)
+ def test_yogi_not_restored(self):
+  for x in [self.items[3]['new_row'],self.review['reviews'][3]['new_row']]:x['text']=x['text'].replace('ಮುನಿಗಳೇ','ಮುನಿಯೋಗಿಗಳೇ')
+  self.reject(3)
+ def test_peace_clause_meaning_held(self):self.review['reviews'][2]['issues']=[];self.reject(2)
+ def test_printed_na_not_ablative(self):self.review['no_change_adjudications'][0]['conjectural_ablative_accepted']=True;self.reject_nochange()
+ def test_irregular_omission_not_hidden(self):self.review['no_change_adjudications'][0]['unrendered_source_tokens']=[];self.reject_nochange()
 if __name__=='__main__':unittest.main()
