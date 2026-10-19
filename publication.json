@@ -1,6 +1,6 @@
 {
-  "source_commit": "e9c236d9ead1b89329499ba5842233b15c9e6837",
-  "coverage": "Restore chapter39 mantra forms and bounded composer wording",
+  "source_commit": "0e5274084a4c48d73a231e4ace982aef5fe4c68f",
+  "coverage": "Restore three chapter43 mantra forms and preserve coordination number holds",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "963428896a60b5123e3ab22841ec586819d3c59ead114d831c26bb0569a56af3",
-  "epub_sha256": "b558cd75141049abfdeebc845295e06146cf3bd2863c80e274794ef5b0df6e1d",
+  "html_sha256": "ab688cd19c037181cc29ed99269ab4ea37c33d7972c57ceed786094bebf6f6c9",
+  "epub_sha256": "de717d80251b94feae817c46c5296db5363cd23c60189da90349f9267b4a7100",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 4,
+  "new_accepted_textual_candidates": 3,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 0,
   "new_seven_joins": [],
@@ -253,8 +253,8 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    39,
-    41
+    43,
+    44
   ],
   "represented_chapters": 425,
   "new_translation_units": 0,
@@ -482,34 +482,26 @@
     {
       "key": [
         1,
-        39,
-        11
+        43,
+        18
       ],
       "scope": "original_only_mantra_token"
     },
     {
       "key": [
         1,
-        39,
-        13
+        43,
+        24
       ],
       "scope": "original_only_mantra_token"
     },
     {
       "key": [
         1,
-        39,
-        20
+        43,
+        25
       ],
       "scope": "original_only_mantra_token"
-    },
-    {
-      "key": [
-        1,
-        39,
-        32
-      ],
-      "scope": "original_only_reviewed_partial_edits"
     }
   ],
   "prior_reviewed_text_corrections": [
@@ -593,9 +585,8 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "39.20 printed peace-bearer/world clause meaning remains held",
-    "39.32 partial edits only;second-half syntax and retained paraphrase not certified",
-    "41.29 printed prabhavan me irregular phrase/omission held;no conjectural ablative",
+    "43.16 participant coordination remains held",
+    "44.25 printed putrau with singular harati retained;singular Kannada contextual,not literal or source emendation",
     "Earlier holds and unknown Google targets preserved"
   ],
   "chapter50_verses": 48,
@@ -605,12 +596,17 @@
   "reviewed_no_text_change_keys": [
     [
       1,
-      41,
-      29
+      43,
+      16
+    ],
+    [
+      1,
+      44,
+      25
     ]
   ],
-  "new_reviewed_partial_corrections": 1,
-  "new_no_change_reviews": 1,
+  "new_reviewed_partial_corrections": 0,
+  "new_no_change_reviews": 2,
   "mantra_meaning_hold_keys": [
     [
       1,
@@ -721,12 +717,17 @@
   "source_unverified_unchanged_keys": [
     [
       1,
-      41,
-      29
+      43,
+      16
+    ],
+    [
+      1,
+      44,
+      25
     ]
   ],
   "earlier_reading_holds_preserved": true,
-  "new_target_reading_confirmations": 1,
+  "new_target_reading_confirmations": 2,
   "release_scope": "reviewed_text_corrections",
   "prior_publication_commit": "afb13cd9c29cf07241887c59d283c14ca8c1557c",
   "book_text_and_flags_unchanged": false,
@@ -744,6 +745,6 @@
   "print_quality_certification": null,
   "approved_cover_v5_unchanged": true,
   "confirmed_existing_subverse_tokens": {},
-  "fully_resolved_targets": 2,
+  "fully_resolved_targets": 3,
   "new_full_accepted_translations": 0
 }
