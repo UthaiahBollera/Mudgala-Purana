@@ -1,6 +1,6 @@
 {
-  "source_commit": "6c3ca5d59d48d9880a7b9cb72343835f4f460293",
-  "coverage": "Publish provisional OCR-only Khanda 9 chapters 31–35 with distinct editorial locators",
+  "source_commit": "b1eb10fed96c04744463f5e8afce7a6b0b2e7f1f",
+  "coverage": "Publish provisional OCR-only Khanda 9 chapters 36–40 with distinct editorial locators",
   "entries": 22434,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -32,9 +32,9 @@
   "chapters1718_reading_status": "partial_with_twentyfive_visible_notices_colophons_withheld",
   "chapter17_verses": 59,
   "chapter18_verses": 37,
-  "chapter_range": "Khanda9numbered1–24;provisionalOCR-only25–35",
-  "html_sha256": "8a102d4984e4f4fe8ece39c629d0f5da3549c5ad6829bf9551be91259352d79d",
-  "epub_sha256": "25f30f7180e2fdd44369539693e5cfcbfe99bd6ad1bb7fc4b14f6a25c5326002",
+  "chapter_range": "Khanda9numbered1–24;provisionalOCR-only25–40",
+  "html_sha256": "01f752c45b0ab94d8aadc16594c91338b1fe49f008a52a44b9c12d7a8000b36a",
+  "epub_sha256": "0f8c59ac1d21c04cd9a08d6b145f332a97cc806c05b2e271fb78bcb71a5bc1ab",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -289,13 +289,13 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    31,
-    32,
-    33,
-    34,
-    35
+    36,
+    37,
+    38,
+    39,
+    40
   ],
-  "represented_chapters": 419,
+  "represented_chapters": 424,
   "new_translation_units": 0,
   "new_shared_reference_entries": 0,
   "khanda4_chapter_counts": [
@@ -569,8 +569,8 @@
   "numbered_entries": 22434,
   "numbered_chapters": 408,
   "release_source_kind": "user_uploaded_reference_OCR_only",
-  "reference_only_chapters": 11,
-  "reference_only_editorial_locators": 206,
+  "reference_only_chapters": 16,
+  "reference_only_editorial_locators": 242,
   "reference_only_verified_verse_total": null,
   "reference_only_locator_counts_by_chapter": {
     "25": 44,
@@ -583,11 +583,16 @@
     "32": 6,
     "33": 17,
     "34": 24,
-    "35": 14
+    "35": 14,
+    "36": 8,
+    "37": 7,
+    "38": 7,
+    "39": 9,
+    "40": 5
   },
   "new_reference_only_chapters": 5,
-  "new_editorial_locators": 68,
-  "reference_data_sha256": "176333e4713c881211519691c18233c5a17a05c485ed636a1d8728409c40e8e9",
-  "reference_registry_sha256": "46b22518527cae85c73617953ffc5af3f4b7d7e20d4440a1693700f5d0852589",
+  "new_editorial_locators": 36,
+  "reference_data_sha256": "3e0e8543d1edcc44d6a92787dac144a834ed4335e818e8f105f774f08a2f3200",
+  "reference_registry_sha256": "0c391ca97c504031547ac080f4e7eb036ec8a7ca847c6dd7dcfc014c55d28c6b",
   "all_reference_readings_and_acceptance_null": true
 }
