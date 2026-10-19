@@ -1,6 +1,6 @@
 {
-  "source_commit": "b7ca3d5c949082eacfda20fce002f3f54e9ff2eb",
-  "coverage": "Correct Khanda 1 verse 3.63 clear clauses with glyph and attachment holds",
+  "source_commit": "93b699a5f10b8f91ea771485753f87025789c16d",
+  "coverage": "Review five Khanda 1 chapter 4 passages with two mantra repairs and explicit partial holds",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "f613a4b666b73c1abd5416cf18830ac232672cfff5442d7ae8515792631487ca",
-  "epub_sha256": "6de9bceb55b75a2456d5778feaada3cfcf92611fb21d2d168c678b5fdc97d026",
+  "html_sha256": "87a38f291eebb8bf7bc7d4842453f6117b4ff466273b3692b94f7dc453f1f135",
+  "epub_sha256": "367d403e1f805f0453ac0b5b0e5d03d28ee9671729efe9461f368cf23cba194d",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 0,
+  "new_accepted_textual_candidates": 2,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 70,
   "new_seven_joins": [
@@ -289,7 +289,7 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    3
+    4
   ],
   "represented_chapters": 425,
   "new_translation_units": 0,
@@ -517,10 +517,34 @@
     {
       "key": [
         1,
-        3,
-        63
+        4,
+        3
       ],
-      "scope": "Partial clear-clause correction;remove unsupported sages-address/childhood;restore Parvati subject;dense glyph and attachment held;Google target unknown"
+      "scope": "partial with explicit hold"
+    },
+    {
+      "key": [
+        1,
+        4,
+        8
+      ],
+      "scope": "partial with explicit hold"
+    },
+    {
+      "key": [
+        1,
+        4,
+        21
+      ],
+      "scope": "original-only single mantra token repair"
+    },
+    {
+      "key": [
+        1,
+        4,
+        22
+      ],
+      "scope": "original-only single mantra token repair"
     }
   ],
   "prior_reviewed_text_corrections": [
@@ -604,11 +628,21 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "1.3.63 यत्तेन/यत्नेन dense cluster",
-    "1.3.63 चात्मवशेन attachment"
+    "1.4.3 elliptical second half",
+    "1.4.8 speaker attachment/object",
+    "1.4.15 iti gatva transition;no text change"
   ],
   "chapter50_verses": 48,
   "chapter51_verses": 42,
   "chapter52_verses": 50,
-  "new_numbered_chapters": 0
+  "new_numbered_chapters": 0,
+  "reviewed_no_text_change_keys": [
+    [
+      1,
+      4,
+      15
+    ]
+  ],
+  "new_reviewed_partial_corrections": 2,
+  "new_no_change_reviews": 1
 }
