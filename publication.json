@@ -1,7 +1,7 @@
 {
-  "source_commit": "8b9efd046d0b8303790c7fa897ea387886e96d96",
-  "coverage": "Recover Khanda 2 chapter 47 opening with reviewed light and recognition boundary",
-  "entries": 22479,
+  "source_commit": "5e34a89cb1069f53d4066c3e158ebd88062db674",
+  "coverage": "Recover Khanda 2 long scan gap with reviewed joins and 23 explicit holds",
+  "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
   "chapter4_verses": 65,
@@ -32,9 +32,9 @@
   "chapters1718_reading_status": "partial_with_twentyfive_visible_notices_colophons_withheld",
   "chapter17_verses": 59,
   "chapter18_verses": 37,
-  "chapter_range": "Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "24eacdd9b1b385016dd38d9e2a07b17fa705795d764f36a12273c1b8100ad0bc",
-  "epub_sha256": "995609786a7c016d7fe3f6674e3b3224e79c3902c5a1edbe4430fb06a38c48e8",
+  "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
+  "html_sha256": "0300e49e4a5ef8dcf0797a8520d14781b4ec275c1152ff758d7d66defe2df075",
+  "epub_sha256": "419f0a4009576e0eb84f6ce37327f0c7049d9b1f815275c25abe472b3745b681",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -76,7 +76,7 @@
   "chapter39_boundary_completion": "50ajoinedwith50bonce;51andcolophonadded;3priorholdsretained",
   "chapter40_complete_verses": 56,
   "chapter40_fragment": null,
-  "new_numbered_keys": 25,
+  "new_numbered_keys": 214,
   "chapter40_new_holds": [
     "P32-40-33-L11",
     "P32-40-45-AGENCY"
@@ -110,10 +110,10 @@
   "chapter48_verses": 36,
   "chapter48_complete_verses": 36,
   "chapter48_fragment": null,
-  "chapter49_verses": 26,
+  "chapter49_verses": 52,
   "chapter49_complete_verses": 25,
   "chapter49_fragment": "26aonly",
-  "chapter53_verses": 3,
+  "chapter53_verses": 51,
   "chapter53_complete_verses": 2,
   "chapter53_fragment": "49bonly",
   "chapter54_verses": 33,
@@ -290,15 +290,24 @@
   "new_join": [
     [
       2,
-      47,
+      49,
       26
+    ],
+    [
+      2,
+      53,
+      49
     ]
   ],
   "release_group": [
-    47
+    49,
+    50,
+    51,
+    52,
+    53
   ],
   "represented_chapters": 425,
-  "new_translation_units": 26,
+  "new_translation_units": 216,
   "new_shared_reference_entries": 0,
   "khanda4_chapter_counts": [
     62,
@@ -568,8 +577,8 @@
     36,
     50
   ],
-  "numbered_entries": 22479,
-  "numbered_chapters": 408,
+  "numbered_entries": 22693,
+  "numbered_chapters": 411,
   "release_source_kind": "original_png_archive",
   "reference_only_chapters": 17,
   "reference_only_editorial_locators": 264,
@@ -598,11 +607,33 @@
   "reference_data_sha256": "c54b54a99974e838c64a7cc09b2fe848c593b86302146ea76ff565e4d506847a",
   "reference_registry_sha256": "3e57eab34a8320f597315afb0350e2a071e1e8cd27ce12546de528c1afaef2da",
   "all_reference_readings_and_acceptance_null": true,
-  "active_primary_source_gaps": 1,
-  "new_nonverse_units": 2,
+  "active_primary_source_gaps": 0,
+  "new_nonverse_units": 8,
   "remaining_release_holds": [
-    "47.8 untranslated compound",
-    "47.16 glyph caution",
-    "47.25 source spelling editorial note"
-  ]
+    "2.49.27",
+    "2.49.36",
+    "2.49.38",
+    "2.50.33",
+    "2.50.35",
+    "2.50.39",
+    "2.50.46",
+    "2.51.15",
+    "2.51.41",
+    "2.52.1",
+    "2.52.8",
+    "2.52.9;2.52.25",
+    "2.52.10;2.52.26",
+    "2.52.32",
+    "2.52.36",
+    "2.53.10",
+    "2.53.33",
+    "2.53.37",
+    "2.53.38",
+    "2.53.45",
+    "2.53.47"
+  ],
+  "chapter50_verses": 48,
+  "chapter51_verses": 42,
+  "chapter52_verses": 50,
+  "new_numbered_chapters": 3
 }
