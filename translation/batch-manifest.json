@@ -116551,6 +116551,97 @@
           14
         ]
       ]
+    },
+    {
+      "file": "batch-374-reviewed-base-translation.tsv",
+      "sha256": "cd9565cc962ef73927698dde1f47daf6f16823055d1c02435565872fd9a0e0bd",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch10-ch11-writer-review.json",
+      "review_sha256": "6e49f75132f6c1540e8573ccc3dac94b8fb4f7ad8d04991aa75fc657ab78faa7",
+      "coverage_boundary": "reviewed-base-khanda1-ch10-ch11",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            10,
+            25
+          ],
+          "old_row": {
+            "source_pages": "39",
+            "type": "mantra",
+            "text": "ಸ್ರಷ್ಟ್ರೇ ಪಾತ್ರೇ ಚ ಸಂಹರ್ತ್ರೇ ಬ್ರಹ್ಮರೂಪಧರಾಯ ಚ । ಸರ್ವೇಭ್ಯೋ ಜ್ಞಾನದಾತ್ರೇ ಚ ನಿರ್ಮಲಾಯ ನಮೋ ನಮಃ ॥೨೫॥"
+          },
+          "new_row": {
+            "source_pages": "39",
+            "type": "mantra",
+            "text": "ಸ್ರಷ್ಟ್ರೇ ಪಾತ್ರೇ ಚ ಸಂಹರ್ತ್ರೇ ಚರಾಚರಮಯಾಯ ಚ । ಸರ್ವೇಭ್ಯೋ ಜ್ಞಾನದಾತ್ರೇ ಚ ನಿರ್ಮಲಾಯ ನಮೋ ನಮಃ ॥೨೫॥"
+          },
+          "base_snapshot_commit": "b1e0b8b7f64720728f85e7f611eb3a15a98759da",
+          "adjudication_file": "translation/khanda1-ch10-ch11-writer-review.json",
+          "adjudication_sha256": "6e49f75132f6c1540e8573ccc3dac94b8fb4f7ad8d04991aa75fc657ab78faa7",
+          "review_status": "accepted",
+          "rationale": "Actual print clearly has चराचरमयाय. Replace only the unsupported brahmarupadhara epithet. Source and supplied historical quotation agree here. No independently verified edition variant supports the current alternative."
+        },
+        {
+          "key": [
+            1,
+            11,
+            29
+          ],
+          "old_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಲಂಬೋಷ್ಠಾಯೈಕದಂತಾಯ ಸರ್ವೇಶಾಯ ಗಣಾಧಿಪ । ಅನಂತಮಹಿಮಾಪಾರಧಾರಿಣೇ ತೇ ನಮಃ ॥೨೯॥"
+          },
+          "new_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಲಂಬೋಷ್ಠಾಯೈಕದಂತಾಯ ಸರ್ವೇಶಾಯ ಗಣಾಧಿಪ । ಅನಂತಮಹಿಮಾಧಾರ ಧರಣೀಧರ ತೇ ನಮಃ ॥೨೯॥"
+          },
+          "base_snapshot_commit": "b1e0b8b7f64720728f85e7f611eb3a15a98759da",
+          "adjudication_file": "translation/khanda1-ch10-ch11-writer-review.json",
+          "adjudication_sha256": "6e49f75132f6c1540e8573ccc3dac94b8fb4f7ad8d04991aa75fc657ab78faa7",
+          "review_status": "accepted",
+          "rationale": "Original clearly separates अनंतमहिमाधार and धरणीधर. Preserve the printed vocative forms rather than rewriting them as a dative compound. No meaning paraphrase is proposed."
+        },
+        {
+          "key": [
+            1,
+            11,
+            34
+          ],
+          "old_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ವಿಜ್ಞಾನಾಯ ಚ ವಿಜ್ಞಾನಪತಯೇ ದ್ವಂದ್ವಧಾರಿಣೇ । ವಿಜ್ಞಾನದ್ವಯಹೀನಾಯ ತೇ ನಮೋ ನಮಃ ॥೩೪॥"
+          },
+          "new_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ವಿಜ್ಞಾನಾಯ ಚ ವಿಜ್ಞಾನಪತಯೇ ದ್ವಂದ್ವಧಾರಿಣೇ । ವಿಜ್ಞಾನೇಭ್ಯಃ ಸ್ವವಿಜ್ಞಾನದಾಯಿನೇ ತೇ ನಮೋ ನಮಃ ॥೩೪॥"
+          },
+          "base_snapshot_commit": "b1e0b8b7f64720728f85e7f611eb3a15a98759da",
+          "adjudication_file": "translation/khanda1-ch10-ch11-writer-review.json",
+          "adjudication_sha256": "6e49f75132f6c1540e8573ccc3dac94b8fb4f7ad8d04991aa75fc657ab78faa7",
+          "review_status": "accepted",
+          "rationale": "Original clearly has positive विज्ञानेभ्यः स्वविज्ञानदायिने. Restore both words; the current knowledge-duality-free epithet is unsupported by this original. Preserve the remainder. Precise philosophical referents of vijnana and sva are not settled through this transliteration repair."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          11,
+          27
+        ],
+        [
+          1,
+          11,
+          33
+        ]
+      ]
     }
   ],
   "reference_only_index": {

@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "b1e0b8b7f64720728f85e7f611eb3a15a98759da",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        10,
+        25
+      ],
+      "old_row": {
+        "source_pages": "39",
+        "type": "mantra",
+        "text": "ಸ್ರಷ್ಟ್ರೇ ಪಾತ್ರೇ ಚ ಸಂಹರ್ತ್ರೇ ಬ್ರಹ್ಮರೂಪಧರಾಯ ಚ । ಸರ್ವೇಭ್ಯೋ ಜ್ಞಾನದಾತ್ರೇ ಚ ನಿರ್ಮಲಾಯ ನಮೋ ನಮಃ ॥೨೫॥"
+      },
+      "new_row": {
+        "source_pages": "39",
+        "type": "mantra",
+        "text": "ಸ್ರಷ್ಟ್ರೇ ಪಾತ್ರೇ ಚ ಸಂಹರ್ತ್ರೇ ಚರಾಚರಮಯಾಯ ಚ । ಸರ್ವೇಭ್ಯೋ ಜ್ಞಾನದಾತ್ರೇ ಚ ನಿರ್ಮಲಾಯ ನಮೋ ನಮಃ ॥೨೫॥"
+      },
+      "base_file": "translation/batch-02-02.tsv",
+      "source_sanskrit": "स्रष्ट्रे पात्रे च संहर्त्रे चराचरमयाय च । सर्वेभ्यो ज्ञानदात्रे च निर्मलाय नमो नमः ॥२५॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಸ್ರಷ್ಟ್ರೇ ಪಾತ್ರೇ ಚ ಸಂಹರ್ತ್ರೇ ಚರಾಚರಮಯಾಯ ಚ । ಸರ್ವೇಭ್ಯೋ ಜ್ಞಾನದಾತ್ರೇ ಚ ನಿರ್ಮಲಾಯ ನಮೋ ನಮಃ ॥೨೫॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/independent-review.md",
+        "sha256": "333b2fbb21fb82d01846e5e17e4013928953949955ea0f8cd62ee1640e61de67"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0026.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0026.png",
+        "sha256": "2d5e62e1ec36e2aa36aa0e3d61df7f37cea9f47fdcbcd5c37ca17fa2470fd1e2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1090,
+          3720,
+          1620
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Actual print clearly has चराचरमयाय. Replace only the unsupported brahmarupadhara epithet. Source and supplied historical quotation agree here. No independently verified edition variant supports the current alternative.",
+      "replacements": [
+        {
+          "before": "ಬ್ರಹ್ಮರೂಪಧರಾಯ",
+          "after": "ಚರಾಚರಮಯಾಯ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        11,
+        29
+      ],
+      "old_row": {
+        "source_pages": "41",
+        "type": "mantra",
+        "text": "ಲಂಬೋಷ್ಠಾಯೈಕದಂತಾಯ ಸರ್ವೇಶಾಯ ಗಣಾಧಿಪ । ಅನಂತಮಹಿಮಾಪಾರಧಾರಿಣೇ ತೇ ನಮಃ ॥೨೯॥"
+      },
+      "new_row": {
+        "source_pages": "41",
+        "type": "mantra",
+        "text": "ಲಂಬೋಷ್ಠಾಯೈಕದಂತಾಯ ಸರ್ವೇಶಾಯ ಗಣಾಧಿಪ । ಅನಂತಮಹಿಮಾಧಾರ ಧರಣೀಧರ ತೇ ನಮಃ ॥೨೯॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "लंबोष्ठायैकदंताय सर्वेशाय गणाधिप । अनंतमहिमाधार धरणीधर ते नमः ॥२९॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಲಂಬೋಷ್ಠಾಯೈಕದಂತಾಯ ಸರ್ವೇಶಾಯ ಗಣಾಧಿಪ । ಅನಂತಮಹಿಮಾಧಾರ ಧರಣೀಧರ ತೇ ನಮಃ ॥೨೯॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/independent-review.md",
+        "sha256": "333b2fbb21fb82d01846e5e17e4013928953949955ea0f8cd62ee1640e61de67"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1240,
+          3700,
+          1830
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly separates अनंतमहिमाधार and धरणीधर. Preserve the printed vocative forms rather than rewriting them as a dative compound. No meaning paraphrase is proposed.",
+      "replacements": [
+        {
+          "before": "ಅನಂತಮಹಿಮಾಪಾರಧಾರಿಣೇ",
+          "after": "ಅನಂತಮಹಿಮಾಧಾರ ಧರಣೀಧರ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        11,
+        34
+      ],
+      "old_row": {
+        "source_pages": "41",
+        "type": "mantra",
+        "text": "ವಿಜ್ಞಾನಾಯ ಚ ವಿಜ್ಞಾನಪತಯೇ ದ್ವಂದ್ವಧಾರಿಣೇ । ವಿಜ್ಞಾನದ್ವಯಹೀನಾಯ ತೇ ನಮೋ ನಮಃ ॥೩೪॥"
+      },
+      "new_row": {
+        "source_pages": "41",
+        "type": "mantra",
+        "text": "ವಿಜ್ಞಾನಾಯ ಚ ವಿಜ್ಞಾನಪತಯೇ ದ್ವಂದ್ವಧಾರಿಣೇ । ವಿಜ್ಞಾನೇಭ್ಯಃ ಸ್ವವಿಜ್ಞಾನದಾಯಿನೇ ತೇ ನಮೋ ನಮಃ ॥೩೪॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "विज्ञानाय च विज्ञानपतये द्वंद्वधारिणे । विज्ञानेभ्यः स्वविज्ञानदायिने ते नमो नमः ॥३४॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "vijnana_and_sva_philosophical_referents_unsettled",
+          "reading": null,
+          "token": "विज्ञानेभ्यः;स्वविज्ञानदायिने",
+          "detail": "Original clearly has positive विज्ञानेभ्यः स्वविज्ञानदायिने. Restore both words; the current knowledge-duality-free epithet is unsupported by this original. Preserve the remainder. Precise philosophical referents of vijnana and sva are not settled through this transliteration repair."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ವಿಜ್ಞಾನಾಯ ಚ ವಿಜ್ಞಾನಪತಯೇ ದ್ವಂದ್ವಧಾರಿಣೇ । ವಿಜ್ಞಾನೇಭ್ಯಃ ಸ್ವವಿಜ್ಞಾನದಾಯಿನೇ ತೇ ನಮೋ ನಮಃ ॥೩೪॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/independent-review.md",
+        "sha256": "333b2fbb21fb82d01846e5e17e4013928953949955ea0f8cd62ee1640e61de67"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1740,
+          3700,
+          2210
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly has positive विज्ञानेभ्यः स्वविज्ञानदायिने. Restore both words; the current knowledge-duality-free epithet is unsupported by this original. Preserve the remainder. Precise philosophical referents of vijnana and sva are not settled through this transliteration repair.",
+      "replacements": [
+        {
+          "before": "ವಿಜ್ಞಾನದ್ವಯಹೀನಾಯ",
+          "after": "ವಿಜ್ಞಾನೇಭ್ಯಃ ಸ್ವವಿಜ್ಞಾನದಾಯಿನೇ"
+        }
+      ],
+      "meaning_scope": "transcription_only_interpretation_unsettled"
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        11,
+        27
+      ],
+      "old_row": {
+        "source_pages": "41",
+        "type": "mantra",
+        "text": "ಹೇರಂಬಾಯ ನಮಸ್ತುಭ್ಯಂ ಢುಂಢಿರಾಜಾಯ ತೇ ನಮಃ । ವಿನಾಯಕಾಯ ದೇವಾಯ ಬ್ರಹ್ಮಣಾಂ ನಾಯಕಾಯ ಚ ॥೨೭॥"
+      },
+      "new_row": {
+        "source_pages": "41",
+        "type": "mantra",
+        "text": "ಹೇರಂಬಾಯ ನಮಸ್ತುಭ್ಯಂ ಢುಂಢಿರಾಜಾಯ ತೇ ನಮಃ । ವಿನಾಯಕಾಯ ದೇವಾಯ ಬ್ರಹ್ಮಣಾಂ ನಾಯಕಾಯ ಚ ॥೨೭॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "हेरंबाय नमस्तुभ्यं ढुंढिराजाय ते नमः । विनायकाय देवाय ब्रह्मणां नायकाय च ॥२७॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "Google_target_verification_pending",
+          "reading": null,
+          "token": "Google target page unknown",
+          "detail": "The name detail shows initial ढ with u and anusvara, followed by ढि: ढुंढिराजाय. Existing ಢುಂಢಿರಾಜಾಯ is supported. Do not introduce the historical दुढिराजाय corruption. No new correction."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/independent-review.md",
+        "sha256": "333b2fbb21fb82d01846e5e17e4013928953949955ea0f8cd62ee1640e61de67"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1240,
+          3700,
+          1830
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The name detail shows initial ढ with u and anusvara, followed by ढि: ढुंढिराजाय. Existing ಢುಂಢಿರಾಜಾಯ is supported. Do not introduce the historical दुढिराजाय corruption. No new correction.",
+      "target_readings_source_verified": true,
+      "counted_as_new_correction": false
+    },
+    {
+      "key": [
+        1,
+        11,
+        33
+      ],
+      "old_row": {
+        "source_pages": "41",
+        "type": "mantra",
+        "text": "ಪ್ರಾಣಾಯ ಪ್ರಾಣನಾಥಾಯ ಪ್ರಾಣಾನಾಂ ಪ್ರಾಣರೂಪಿಣೇ । ಚಿತ್ತಾಯ ಚಿತ್ತಹೀನಾಯ ಚಿತ್ತೇಭ್ಯಶ್ಚಿತ್ತದಾಯಿನೇ ॥೩೩॥"
+      },
+      "new_row": {
+        "source_pages": "41",
+        "type": "mantra",
+        "text": "ಪ್ರಾಣಾಯ ಪ್ರಾಣನಾಥಾಯ ಪ್ರಾಣಾನಾಂ ಪ್ರಾಣರೂಪಿಣೇ । ಚಿತ್ತಾಯ ಚಿತ್ತಹೀನಾಯ ಚಿತ್ತೇಭ್ಯಶ್ಚಿತ್ತದಾಯಿನೇ ॥೩೩॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "प्राणाय प्राणनाथाय प्राणानां प्राणरूपिणे । चित्ताय चित्तहीनाय चित्तेभ्यश्चित्तदायिने ॥३३॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "Google_target_verification_pending",
+          "reading": null,
+          "token": "Google target page unknown",
+          "detail": "The original prints ३३ after this stanza; preceding adhyatman stanza is ३२, and following vijnana and ananda stanzas are ३४ and ३५. Thus logical33 and printed33 agree. The historical duplicated32 report is not true of this original. Current text and numeral need no correction."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/independent-review.md",
+        "sha256": "333b2fbb21fb82d01846e5e17e4013928953949955ea0f8cd62ee1640e61de67"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1740,
+          3700,
+          2210
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The original prints ३३ after this stanza; preceding adhyatman stanza is ३२, and following vijnana and ananda stanzas are ३४ and ३५. Thus logical33 and printed33 agree. The historical duplicated32 report is not true of this original. Current text and numeral need no correction.",
+      "target_readings_source_verified": true,
+      "counted_as_new_correction": false,
+      "printed_numeral": 33,
+      "logical_numeral": 33,
+      "printed_sequence": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "historical_duplicate32_not_this_original": true
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch10-ch11/before-after-proposals.json",
+  "candidate_sha256": "0a81ffc811921fed4f0537fe5b90c5713136772f33499f89d147f1182452c588",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/before-after-proposals.json",
+      "sha256": "0a81ffc811921fed4f0537fe5b90c5713136772f33499f89d147f1182452c588"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/crops/ch10-23-27.png",
+      "sha256": "fce92abfdb5cc6d8ac0c5c45171cd6202b9fc52ef56fb37a00f2df68465c1ea3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/crops/ch11-25-31.png",
+      "sha256": "7713ec1d366ee52e5a9ebaed68d5d7edc2b2d7ad05fb2b8adc0a6a36900a9708"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/crops/ch11-31-36.png",
+      "sha256": "f411351a7b1b0818718ea48c8993bcb7aaea91ad8741e5d67d84776dd3fe8665"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/crops/ch11-v27-name.png",
+      "sha256": "9b9eef273f26c41dbde430807d084fd4600e1818b66e527079cec9dc54cb9cf4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/independent-review.md",
+      "sha256": "333b2fbb21fb82d01846e5e17e4013928953949955ea0f8cd62ee1640e61de67"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/manifest.json",
+      "sha256": "3c78234c0f632027365ad0b527ae1892b0994f6992b01480e32666d6bfa7c456"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/khanda1-ch10-ch11-next-five-review-packet.json",
+      "sha256": "503c4fdffc2209569273269810425f30ed7fa3755d39c1b826c5f3e30e151aaf"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0026.png",
+      "sha256": "2d5e62e1ec36e2aa36aa0e3d61df7f37cea9f47fdcbcd5c37ca17fa2470fd1e2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0028.png",
+      "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02"
+    }
+  ],
+  "handoff_Library_file": "libfile_1930709d1d8881918d586f187e805f4d",
+  "handoff_sha256": "cae0b183caad3a1153306266e0f74168e17fea121f760494d833c25093eaa8ed",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

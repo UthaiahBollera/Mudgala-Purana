@@ -82,6 +82,8 @@ def validate_base_translation_correction(root,old,new,item,review):
     original=record['additional_original_source'];evidence(original['file'],original['sha256']);assert original['Mac_bytes_archive_identical_and_pixels_checked']and original['dimensions']==[3840,2508],'Original pixels not checked'
     if record.get('correction_mode')in ('original_only_reviewed_partial','original_only_partial_clauses','original_only_bounded_meaning'):
         assert record['issues'],'Partial meaning hold omitted'
+    if record.get('meaning_scope')=='transcription_only_interpretation_unsettled':
+        assert record['issues']and record['accepted_translation']is None,'Transcription-only meaning hold closed'
     if record.get('correction_mode')=='original_only_mantra_token':
         replacements=record.get('replacements',[record.get('replacement')]);expected=old['text']
         assert replacements and old['type']==new['type']=='mantra','Mantra treatment changed'
@@ -145,6 +147,11 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
                 assert x['printed_earth_extent']=='fifty crore'and x['comparison_10_2_extent']=='five crore yojanas'and x['comparison_10_2_referent']=='Virat body'and x['same_referent_assumed']is False and x['yojana_unit_printed_in_9_38']is False and x['numerals_harmonized']is False,'Source measurements harmonized or referents/units invented'
             if unit['status']=='no_change_compressed_meaning_hold':
                 assert x['current_wording_source_verified']is False,'Compressed meaning falsely certified'
+        if unit['status']=='unchanged_source_confirmed':
+            assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None and x['source_sanskrit']==unit['source_reading'],'Unchanged source confirmation promoted or source altered'
+            assert x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'Unknown confirmed-source Google page invented'
+            if 'printed_sequence'in x:
+                assert x['printed_numeral']==x['logical_numeral']==33 and x['printed_sequence']==[31,32,33,34,35]and x['historical_duplicate32_not_this_original']is True,'Printed/logical numeral confirmation altered'
         if unit['status']=='no_change_current_target_readings_confirmed':
             assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None,'Confirmed no-change target promoted to new correction'
             assert x['source_sanskrit']==unit['source_reading']and x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'No-change source or unknown Google field altered'
