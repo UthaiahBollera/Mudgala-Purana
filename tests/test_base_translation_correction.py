@@ -334,4 +334,28 @@ class TwoFullOnePartialTwoUnchanged(unittest.TestCase):
  def test_separate_negative_not_invented(self):self.review['no_change_adjudications'][1]['separate_negative_word_printed']=True;self.reject_nochange()
  def test_no_emendation_claim(self):self.review['no_change_adjudications'][1]['source_emendation_accepted']=True;self.reject_nochange()
  def test_unchanged_not_fixed(self):self.review['no_change_adjudications'][1]['counted_as_new_correction']=True;self.reject_nochange()
+class TwoSourceTermsThreeHolds(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch19-ch20-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):self.check();self.check(1);self.nochange()
+ def test_partial_not_finalized(self):self.review['reviews'][0]['whole_target_resolved']=True;self.reject()
+ def test_antecedent_hold_not_closed(self):self.review['reviews'][0].update(issues=[],review_status='accepted');self.reject()
+ def test_other_sentence_preserved(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಪುತ್ರನೇ','ತಂದೆಯೇ')
+  self.reject()
+ def test_nandana_not_tatpada(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ನಂದನಾತ್ಮಕವೆಂದು','ತತ್ಪದಾತ್ಮಕವೆಂದು')
+  self.reject(1)
+ def test_dwelling_not_diplomatic(self):self.review['no_change_adjudications'][0]['dwelling_is_contextual_not_diplomatic']=False;self.reject_nochange()
+ def test_lomasura_print_preserved(self):self.review['no_change_adjudications'][1]['printed_name']='लोभासुर';self.reject_nochange()
+ def test_unseen_narrative_not_claimed(self):self.review['no_change_adjudications'][1]['independent_narrative_name_scan_checked']=True;self.reject_nochange()
+ def test_junction_not_settled(self):self.review['no_change_adjudications'][2]['segmentation_settled']=True;self.reject_nochange()
+ def test_absent_a_not_inserted(self):self.review['no_change_adjudications'][2]['absent_a_inserted']=True;self.reject_nochange()
 if __name__=='__main__':unittest.main()

@@ -116931,6 +116931,80 @@
           10
         ]
       ]
+    },
+    {
+      "file": "batch-378-reviewed-base-translation.tsv",
+      "sha256": "8821b67a6a0b4ca11e8158674010fd0a7cebc81dfc4ad3cb0e711533e3872e57",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch19-ch20-writer-review.json",
+      "review_sha256": "34aef58b5131b8c65b533ea1fb380093b247e796d3d3fc113e404e58a70e643c",
+      "coverage_boundary": "reviewed-base-khanda1-ch19-ch20",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            19,
+            53
+          ],
+          "old_row": {
+            "source_pages": "59",
+            "type": "translation",
+            "text": "ಸಾಂಖ್ಯಬ್ರಹ್ಮವು ವಿದೇಹವನ್ನು ಧರಿಸಿರುವುದೆಂದು ಹೇಳಲಾಗಿದೆ, ಪುತ್ರನೇ. ವೇದದಲ್ಲಿ ಕರ್ಮಜ್ಞಾನವನ್ನು ತ್ವಂಪದಾತ್ಮಕವೆಂದು ಹೇಳಲಾಗಿದೆ. ॥೫೩॥"
+          },
+          "new_row": {
+            "source_pages": "59",
+            "type": "translation-review",
+            "text": "ಸಾಂಖ್ಯಬ್ರಹ್ಮವು ವಿದೇಹವನ್ನು ಧರಿಸಿರುವುದೆಂದು ಹೇಳಲಾಗಿದೆ, ಪುತ್ರನೇ. ವೇದದಲ್ಲಿ ಕರ್ಮ ಮತ್ತು ಜ್ಞಾನಗಳೆರಡನ್ನೂ “ತದಾತ್ಮಕ”ವೆಂದು ಹೇಳಲಾಗಿದೆ. (ಪರಿಶೀಲನೆ: “ತದಾತ್ಮಕ” ಎಂಬುದರಲ್ಲಿನ “ತದ್” ಯಾವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ ಎಂಬುದು ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೫೩॥"
+          },
+          "base_snapshot_commit": "3998b86b8c5bf2cdb55299f726f70bcd8dfa9a61",
+          "adjudication_file": "translation/khanda1-ch19-ch20-writer-review.json",
+          "adjudication_sha256": "34aef58b5131b8c65b533ea1fb380093b247e796d3d3fc113e404e58a70e643c",
+          "review_status": "accepted",
+          "rationale": "The second half has कर्मज्ञाने/कथिते/ते/तदात्मके with dual forms, and no explicit त्वंपद. Replace only the current second sentence with the supplied source-term-preserving sentence. Do not resolve the antecedent of tad or treat the technical transliteration as a completed doctrinal explanation. First sentence unchanged. Full finalized replacement remains null."
+        },
+        {
+          "key": [
+            1,
+            19,
+            54
+          ],
+          "old_row": {
+            "source_pages": "59",
+            "type": "translation",
+            "text": "ಸಮಬ್ರಹ್ಮವನ್ನು ತತ್ಪದಾತ್ಮಕವೆಂದು ಹೇಳಿರುವುದನ್ನು ತಿಳಿ. ಅವ್ಯಕ್ತವಾದ ಸಹಜಬ್ರಹ್ಮವನ್ನು ನೇತಿರೂಪವೆಂದು ತಿಳಿಯಬೇಕು. ॥೫೪॥"
+          },
+          "new_row": {
+            "source_pages": "59",
+            "type": "translation-review",
+            "text": "ಸಮಬ್ರಹ್ಮವನ್ನು ನಂದನಾತ್ಮಕವೆಂದು ಹೇಳಿರುವುದನ್ನು ತಿಳಿ. ಅವ್ಯಕ್ತವಾದ ಸಹಜಬ್ರಹ್ಮವನ್ನು ನೇತಿರೂಪವೆಂದು ತಿಳಿಯಬೇಕು. (ಪರಿಶೀಲನೆ: ಮೂಲದಲ್ಲಿ ಮುದ್ರಿತ “ನಂದನಾತ್ಮಕ” ಪದದ ನಿಖರ ಅರ್ಥ ಮತ್ತು ಮೂಲಪಾಠದ ಸಮರ್ಪಕತೆ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೫೪॥"
+          },
+          "base_snapshot_commit": "3998b86b8c5bf2cdb55299f726f70bcd8dfa9a61",
+          "adjudication_file": "translation/khanda1-ch19-ch20-writer-review.json",
+          "adjudication_sha256": "34aef58b5131b8c65b533ea1fb380093b247e796d3d3fc113e404e58a70e643c",
+          "review_status": "accepted",
+          "rationale": "Actual original clearly reads नंदनात्मकम्. Current ತತ್ಪದಾತ್ಮಕ is not supported by these pixels. Replace only the first sentence with the source-term-preserving proposal. Nandana meaning and whether the printed term itself is defective remain unresolved; do not silently turn it into tatpada or ananda. The second sentence is unchanged. Full finalized replacement remains null."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          19,
+          29
+        ],
+        [
+          1,
+          20,
+          8
+        ],
+        [
+          1,
+          20,
+          9
+        ]
+      ]
     }
   ],
   "reference_only_index": {

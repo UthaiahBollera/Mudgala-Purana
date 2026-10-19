@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "3998b86b8c5bf2cdb55299f726f70bcd8dfa9a61",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        19,
+        53
+      ],
+      "old_row": {
+        "source_pages": "59",
+        "type": "translation",
+        "text": "ಸಾಂಖ್ಯಬ್ರಹ್ಮವು ವಿದೇಹವನ್ನು ಧರಿಸಿರುವುದೆಂದು ಹೇಳಲಾಗಿದೆ, ಪುತ್ರನೇ. ವೇದದಲ್ಲಿ ಕರ್ಮಜ್ಞಾನವನ್ನು ತ್ವಂಪದಾತ್ಮಕವೆಂದು ಹೇಳಲಾಗಿದೆ. ॥೫೩॥"
+      },
+      "new_row": {
+        "source_pages": "59",
+        "type": "translation-review",
+        "text": "ಸಾಂಖ್ಯಬ್ರಹ್ಮವು ವಿದೇಹವನ್ನು ಧರಿಸಿರುವುದೆಂದು ಹೇಳಲಾಗಿದೆ, ಪುತ್ರನೇ. ವೇದದಲ್ಲಿ ಕರ್ಮ ಮತ್ತು ಜ್ಞಾನಗಳೆರಡನ್ನೂ “ತದಾತ್ಮಕ”ವೆಂದು ಹೇಳಲಾಗಿದೆ. (ಪರಿಶೀಲನೆ: “ತದಾತ್ಮಕ” ಎಂಬುದರಲ್ಲಿನ “ತದ್” ಯಾವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ ಎಂಬುದು ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೫೩॥"
+      },
+      "base_file": "translation/batch-03-01.tsv",
+      "source_sanskrit": "सांख्यं ब्रह्मेति यत्प्रोक्तं विदेहधारकं सुत । कर्मज्ञाने तु वेदे च कथिते ते तदात्मके ॥५३॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "tad_antecedent_unsettled",
+          "reading": null,
+          "token": "सांख्यं ब्रह्मेति यत्प्रोक्तं विदेहधारकं सुत । कर्मज्ञाने तु वेदे च कथिते ते तदात्मके ॥५३॥",
+          "detail": "The second half has कर्मज्ञाने/कथिते/ते/तदात्मके with dual forms, and no explicit त्वंपद. Replace only the current second sentence with the supplied source-term-preserving sentence. Do not resolve the antecedent of tad or treat the technical transliteration as a completed doctrinal explanation. First sentence unchanged. Full finalized replacement remains null."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_reviewed_sentence_replacement",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/independent-review.md",
+        "sha256": "cf5021c200f717e6c277d6600ef4af8b962b461f31de8091e8b151edb88cb0ea"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0046.png",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0046.png",
+        "sha256": "0c380167c0989b411161cadd2f595c04081c7a66ab3ea378bc53f4f80361c929",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1690,
+          3710,
+          2250
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The second half has कर्मज्ञाने/कथिते/ते/तदात्मके with dual forms, and no explicit त्वंपद. Replace only the current second sentence with the supplied source-term-preserving sentence. Do not resolve the antecedent of tad or treat the technical transliteration as a completed doctrinal explanation. First sentence unchanged. Full finalized replacement remains null.",
+      "display_note": " (ಪರಿಶೀಲನೆ: “ತದಾತ್ಮಕ” ಎಂಬುದರಲ್ಲಿನ “ತದ್” ಯಾವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ ಎಂಬುದು ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.)",
+      "replace_from": "ವೇದದಲ್ಲಿ ಕರ್ಮಜ್ಞಾನವನ್ನು ತ್ವಂಪದಾತ್ಮಕವೆಂದು ಹೇಳಲಾಗಿದೆ.",
+      "replacement_sentence": "ವೇದದಲ್ಲಿ ಕರ್ಮ ಮತ್ತು ಜ್ಞಾನಗಳೆರಡನ್ನೂ “ತದಾತ್ಮಕ”ವೆಂದು ಹೇಳಲಾಗಿದೆ.",
+      "whole_target_resolved": false
+    },
+    {
+      "key": [
+        1,
+        19,
+        54
+      ],
+      "old_row": {
+        "source_pages": "59",
+        "type": "translation",
+        "text": "ಸಮಬ್ರಹ್ಮವನ್ನು ತತ್ಪದಾತ್ಮಕವೆಂದು ಹೇಳಿರುವುದನ್ನು ತಿಳಿ. ಅವ್ಯಕ್ತವಾದ ಸಹಜಬ್ರಹ್ಮವನ್ನು ನೇತಿರೂಪವೆಂದು ತಿಳಿಯಬೇಕು. ॥೫೪॥"
+      },
+      "new_row": {
+        "source_pages": "59",
+        "type": "translation-review",
+        "text": "ಸಮಬ್ರಹ್ಮವನ್ನು ನಂದನಾತ್ಮಕವೆಂದು ಹೇಳಿರುವುದನ್ನು ತಿಳಿ. ಅವ್ಯಕ್ತವಾದ ಸಹಜಬ್ರಹ್ಮವನ್ನು ನೇತಿರೂಪವೆಂದು ತಿಳಿಯಬೇಕು. (ಪರಿಶೀಲನೆ: ಮೂಲದಲ್ಲಿ ಮುದ್ರಿತ “ನಂದನಾತ್ಮಕ” ಪದದ ನಿಖರ ಅರ್ಥ ಮತ್ತು ಮೂಲಪಾಠದ ಸಮರ್ಪಕತೆ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೫೪॥"
+      },
+      "base_file": "translation/batch-03-01.tsv",
+      "source_sanskrit": "समं ब्रह्मेति जानीहि कथितं नंदनात्मकम् । अव्यक्तं सहजं ब्रह्म ज्ञातव्यं नेतिरूपकम् ॥५४॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "nandana_meaning_source_integrity_unsettled",
+          "reading": null,
+          "token": "समं ब्रह्मेति जानीहि कथितं नंदनात्मकम् । अव्यक्तं सहजं ब्रह्म ज्ञातव्यं नेतिरूपकम् ॥५४॥",
+          "detail": "Actual original clearly reads नंदनात्मकम्. Current ತತ್ಪದಾತ್ಮಕ is not supported by these pixels. Replace only the first sentence with the source-term-preserving proposal. Nandana meaning and whether the printed term itself is defective remain unresolved; do not silently turn it into tatpada or ananda. The second sentence is unchanged. Full finalized replacement remains null."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_reviewed_sentence_replacement",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/independent-review.md",
+        "sha256": "cf5021c200f717e6c277d6600ef4af8b962b461f31de8091e8b151edb88cb0ea"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0046.png",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0046.png",
+        "sha256": "0c380167c0989b411161cadd2f595c04081c7a66ab3ea378bc53f4f80361c929",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1690,
+          3710,
+          2250
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Actual original clearly reads नंदनात्मकम्. Current ತತ್ಪದಾತ್ಮಕ is not supported by these pixels. Replace only the first sentence with the source-term-preserving proposal. Nandana meaning and whether the printed term itself is defective remain unresolved; do not silently turn it into tatpada or ananda. The second sentence is unchanged. Full finalized replacement remains null.",
+      "display_note": " (ಪರಿಶೀಲನೆ: ಮೂಲದಲ್ಲಿ ಮುದ್ರಿತ “ನಂದನಾತ್ಮಕ” ಪದದ ನಿಖರ ಅರ್ಥ ಮತ್ತು ಮೂಲಪಾಠದ ಸಮರ್ಪಕತೆ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.)",
+      "replace_from": "ಸಮಬ್ರಹ್ಮವನ್ನು ತತ್ಪದಾತ್ಮಕವೆಂದು ಹೇಳಿರುವುದನ್ನು ತಿಳಿ.",
+      "replacement_sentence": "ಸಮಬ್ರಹ್ಮವನ್ನು ನಂದನಾತ್ಮಕವೆಂದು ಹೇಳಿರುವುದನ್ನು ತಿಳಿ.",
+      "whole_target_resolved": false
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        19,
+        29
+      ],
+      "old_row": {
+        "source_pages": "58",
+        "type": "translation",
+        "text": "ಮಹಾಭಾಗನೇ, ಅಲ್ಲಿ ವೇದಘೋಷಗಳಿಂದ ನಿನದಿಸುತ್ತಿದ್ದ ನಾನಾ ಮುನಿಗಳ ಅತ್ಯಂತ ಸುಂದರವಾದ ನಿವಾಸಗಳನ್ನು ನಾನು ಕಂಡೆನು. ॥೨೯॥"
+      },
+      "new_row": {
+        "source_pages": "58",
+        "type": "translation",
+        "text": "ಮಹಾಭಾಗನೇ, ಅಲ್ಲಿ ವೇದಘೋಷಗಳಿಂದ ನಿನದಿಸುತ್ತಿದ್ದ ನಾನಾ ಮುನಿಗಳ ಅತ್ಯಂತ ಸುಂದರವಾದ ನಿವಾಸಗಳನ್ನು ನಾನು ಕಂಡೆನು. ॥೨೯॥"
+      },
+      "base_file": "translation/batch-03-01.tsv",
+      "source_sanskrit": "तत्र नानामुनीनां च वत्साः परमशोभनाः । मया दृष्टा महाभाग वेदघोषनिनादिताः ॥२९॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "printed_vatsah_contextual_dwelling_hold",
+          "reading": null,
+          "token": "तत्र नानामुनीनां च वत्साः परमशोभनाः । मया दृष्टा महाभाग वेदघोषनिनादिताः ॥२९॥",
+          "detail": "Actual original reads वत्साः, not a clear वासाः. Existing ನಿವಾಸಗಳು is a contextual dwelling interpretation supported by the ashram setting and following fire-ritual/tree descriptions, not a diplomatic reading of a dwelling noun. Retain provisionally with lexical/source hold. Do not introduce “calves” mechanically or claim the scan fixes the anomalous noun."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/independent-review.md",
+        "sha256": "cf5021c200f717e6c277d6600ef4af8b962b461f31de8091e8b151edb88cb0ea"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0045.png",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0045.png",
+        "sha256": "6d7a8f558f21287a4a7b68d97c806df4afdbe230a22981c36fa7914245acafa4",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1900,
+          3720,
+          2400
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Actual original reads वत्साः, not a clear वासाः. Existing ನಿವಾಸಗಳು is a contextual dwelling interpretation supported by the ashram setting and following fire-ritual/tree descriptions, not a diplomatic reading of a dwelling noun. Retain provisionally with lexical/source hold. Do not introduce “calves” mechanically or claim the scan fixes the anomalous noun.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": false,
+      "printed_disputed_noun": "वत्साः",
+      "dwelling_is_contextual_not_diplomatic": true
+    },
+    {
+      "key": [
+        1,
+        20,
+        8
+      ],
+      "old_row": {
+        "source_pages": "60,61",
+        "type": "translation",
+        "text": "ಸಾಂಖ್ಯರಿಗೆ ಸಿದ್ಧಿಯನ್ನು ಕೊಡುವವನು ಗಜಾನನನೆಂದು ತಿಳಿಯಬೇಕು. ಅವನು ಲೋಭಾಸುರನ ಸಂಹಾರಕ; ಇಲಿಯ ವಾಹನವುಳ್ಳವನೆಂದು ಪ್ರಸಿದ್ಧನಾಗಿದ್ದಾನೆ. ॥೮॥"
+      },
+      "new_row": {
+        "source_pages": "60,61",
+        "type": "translation",
+        "text": "ಸಾಂಖ್ಯರಿಗೆ ಸಿದ್ಧಿಯನ್ನು ಕೊಡುವವನು ಗಜಾನನನೆಂದು ತಿಳಿಯಬೇಕು. ಅವನು ಲೋಭಾಸುರನ ಸಂಹಾರಕ; ಇಲಿಯ ವಾಹನವುಳ್ಳವನೆಂದು ಪ್ರಸಿದ್ಧನಾಗಿದ್ದಾನೆ. ॥೮॥"
+      },
+      "base_file": "translation/batch-03-02.tsv",
+      "source_sanskrit": "गजाननः स विज्ञेयः सांख्येभ्यः सिद्धिदायकः । लोमासुरप्रहर्ता वै आखुगश्च प्रकीर्तितः ॥८॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "printed_lomasura_editorial_lobhasura_discrepancy",
+          "reading": null,
+          "token": "गजाननः स विज्ञेयः सांख्येभ्यः सिद्धिदायकः । लोमासुरप्रहर्ता वै आखुगश्च प्रकीर्तितः ॥८॥",
+          "detail": "Important: original page48 actually reads लोमासुर, matching the supplied historical problematic quotation. Existing ಲೋಭಾಸುರ is retained provisionally as the narrative/editorial name choice identified in the packet; it is not scan-confirmed here. No independent narrative-name scan was inspected within this scope. Do not label the problem online-only or mechanically replace the current name with Lomasura. Sankhya recipients, siddhi-giving and mouse mount are supported."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/independent-review.md",
+        "sha256": "cf5021c200f717e6c277d6600ef4af8b962b461f31de8091e8b151edb88cb0ea"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0048.png",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0048.png",
+        "sha256": "42936aadb2981965e947ec7588302ad1a5c4426198b2438cfd7234a514093eb6",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          300,
+          3700,
+          640
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Important: original page48 actually reads लोमासुर, matching the supplied historical problematic quotation. Existing ಲೋಭಾಸುರ is retained provisionally as the narrative/editorial name choice identified in the packet; it is not scan-confirmed here. No independent narrative-name scan was inspected within this scope. Do not label the problem online-only or mechanically replace the current name with Lomasura. Sankhya recipients, siddhi-giving and mouse mount are supported.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": false,
+      "printed_name": "लोमासुर",
+      "retained_Kannada_name": "ಲೋಭಾಸುರ",
+      "retained_name_is_editorial_not_scan_confirmed": true,
+      "independent_narrative_name_scan_checked": false
+    },
+    {
+      "key": [
+        1,
+        20,
+        9
+      ],
+      "old_row": {
+        "source_pages": "61",
+        "type": "translation",
+        "text": "ಲಂಬೋದರನು ಕ್ರೋಧಾಸುರನ ಸಂಹಾರಕನೆಂದು ಹೇಳಲ್ಪಟ್ಟಿದ್ದಾನೆ. ಶಕ್ತಿಬ್ರಹ್ಮವು ಸತ್‌ಸ್ವರೂಪವಾಗಿದ್ದು, ಮೂಷಕವಾಹನನಾದ ಅವನು ಅದರ ಆಧಾರವೆಂದು ಕರೆಯಲ್ಪಡುತ್ತಾನೆ. ॥೯॥"
+      },
+      "new_row": {
+        "source_pages": "61",
+        "type": "translation",
+        "text": "ಲಂಬೋದರನು ಕ್ರೋಧಾಸುರನ ಸಂಹಾರಕನೆಂದು ಹೇಳಲ್ಪಟ್ಟಿದ್ದಾನೆ. ಶಕ್ತಿಬ್ರಹ್ಮವು ಸತ್‌ಸ್ವರೂಪವಾಗಿದ್ದು, ಮೂಷಕವಾಹನನಾದ ಅವನು ಅದರ ಆಧಾರವೆಂದು ಕರೆಯಲ್ಪಡುತ್ತಾನೆ. ॥೯॥"
+      },
+      "base_file": "translation/batch-03-02.tsv",
+      "source_sanskrit": "लंबोदरावतारो वै क्रोधासुरनिबर्हणः । शक्तिब्रह्माखुगः सद्यत्तस्य धारक उच्यते ॥९॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "compressed_sat_junction_doctrinal_hold",
+          "reading": null,
+          "token": "लंबोदरावतारो वै क्रोधासुरनिबर्हणः । शक्तिब्रह्माखुगः सद्यत्तस्य धारक उच्यते ॥९॥",
+          "detail": "The original confirms continuous शक्तिब्रह्माखुगः सद्यत्तस्य. आखुगः supports the mouse mount already present. The sat/junction and attachment remain compressed; existing sat wording is retained provisionally, not certified as settled. Context19.55 explicitly associates Shakti with asat-prakashaka, but that does not license inserting an absent अ or harmonizing20.9. No new minimal correction is justified without further philological/edition evidence."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/independent-review.md",
+        "sha256": "cf5021c200f717e6c277d6600ef4af8b962b461f31de8091e8b151edb88cb0ea"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0048.png",
+        "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0048.png",
+        "sha256": "42936aadb2981965e947ec7588302ad1a5c4426198b2438cfd7234a514093eb6",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          300,
+          3700,
+          640
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The original confirms continuous शक्तिब्रह्माखुगः सद्यत्तस्य. आखुगः supports the mouse mount already present. The sat/junction and attachment remain compressed; existing sat wording is retained provisionally, not certified as settled. Context19.55 explicitly associates Shakti with asat-prakashaka, but that does not license inserting an absent अ or harmonizing20.9. No new minimal correction is justified without further philological/edition evidence.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": false,
+      "printed_continuous_junction": "शक्तिब्रह्माखुगः सद्यत्तस्य",
+      "segmentation_settled": false,
+      "absent_a_inserted": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch19-ch20/before-after-proposals.json",
+  "candidate_sha256": "829bacb06604ea8a3817452489517b9665d08c1b9f571acd339122481bdd9824",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/before-after-proposals.json",
+      "sha256": "829bacb06604ea8a3817452489517b9665d08c1b9f571acd339122481bdd9824"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/crops/ch19-27-31.png",
+      "sha256": "34cafec8d605ad680b66ea38f31cbadf1b09f59c13ccc2a4f539fe1d6b01af5c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/crops/ch19-51-56.png",
+      "sha256": "b118c628bc7bd46f395fbb41f4e3e6d6995c608eca2b1d056384027c99e3c78c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/crops/ch20-6-8-opening.png",
+      "sha256": "de7d54a2883ae0e7bf42133d52600b4511c588b3e47f5689914db7fd38d8f8cf"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/crops/ch20-8-11.png",
+      "sha256": "ae826cdea3e975462d443018be454501a62e05dd29ca38160f4c876fab79d683"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/independent-review.md",
+      "sha256": "cf5021c200f717e6c277d6600ef4af8b962b461f31de8091e8b151edb88cb0ea"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/manifest.json",
+      "sha256": "afc91d8f21828dc6929174668b01b1efd04845ddbe68cdb3066bf1097728babe"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/khanda1-ch19-ch20-next-five-review-packet.json",
+      "sha256": "67a32e048a6f1f761eeca7ffd15133db0f17f7b342a3ff4bb67fcd8145daad47"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0045.png",
+      "sha256": "6d7a8f558f21287a4a7b68d97c806df4afdbe230a22981c36fa7914245acafa4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0046.png",
+      "sha256": "0c380167c0989b411161cadd2f595c04081c7a66ab3ea378bc53f4f80361c929"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0047.png",
+      "sha256": "01a0155c5ee50bc1a770c4fee62d837ee23193edbc1b62f40e59aadbaa9ac2d7"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch19-ch20/original-and-input/original-page_0048.png",
+      "sha256": "42936aadb2981965e947ec7588302ad1a5c4426198b2438cfd7234a514093eb6"
+    }
+  ],
+  "handoff_Library_file": "libfile_75cd0632956c8191bef35296e1e56bb2",
+  "handoff_sha256": "7fa1c08ffb78288835d5b07808e5e4361ee41bb632c66a6a32a463cdc4b741e0",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}
