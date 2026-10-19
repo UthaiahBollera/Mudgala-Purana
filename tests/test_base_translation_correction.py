@@ -107,4 +107,33 @@ class FourTranscriptionRepairs(unittest.TestCase):
   with self.assertRaises(AssertionError):self.nochange()
  def test_unknown_google_stays_null(self):self.review['reviews'][0]['reference_source']['page_id']='PT1';self.reject()
  def test_source_reading_immutable(self):self.review['reviews'][0]['source_sanskrit']='emended';self.reject()
+class TwoMeaningCorrections(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch5-ch6-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def test_all_valid(self):self.check();self.check(1);self.nochange()
+ def test_full_must_match_supported_proposal(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ದೇವನು','ದೇವತೆಗಳು')
+  self.reject()
+ def test_partial_hold_not_closed(self):self.review['reviews'][1]['issues']=[];self.reject(1)
+ def test_partial_note_not_stripped(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].split(' (ಪರಿಶೀಲನೆ:')[0]
+  self.reject(1)
+ def test_no_google_guess(self):self.review['reviews'][0]['reference_source']['page_id']='PT200';self.reject()
+ def test_6_8_negation_not_rewritten(self):
+  self.review['no_change_adjudications'][0]['new_row']['text']=self.review['no_change_adjudications'][0]['new_row']['text'].replace('ಉಂಟಾಗಲಿಲ್ಲ','ಉಂಟಾಯಿತು')
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_6_13_not_accepted(self):
+  self.review['no_change_adjudications'][1]['accepted_translation']='accepted'
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_6_20_coverage_gloss_flags_present(self):
+  x=self.review['no_change_adjudications'][2];self.assertEqual(x['unrendered_source_tokens'],['वृथा']);self.assertTrue(x['interpretive_gloss_concerns']);self.assertFalse(x['current_wording_source_verified'])
+ def test_6_20_not_fixed(self):
+  self.review['no_change_adjudications'][2]['issues']=[]
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_source_not_emended(self):self.review['reviews'][0]['source_sanskrit']='harmonized';self.reject()
 if __name__=='__main__':unittest.main()

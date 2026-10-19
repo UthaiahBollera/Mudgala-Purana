@@ -962,7 +962,7 @@
       "verse_end": 40,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "resolved_original_scan_meaning_correction",
       "issues": [
         "Online yāgapāragaiḥ (accomplished in sacrifice), context may intend yogapāragaiḥ; proposed broad ಸಾಧನೆಯಲ್ಲಿ ಪಾರಂಗತರಾದ avoids speculative normalization. Compare print.",
         "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
@@ -983,7 +983,33 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_original_scan_meaning_correction",
+          "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+          "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": "ಯೋಗದಲ್ಲಿ ಪಾರಂಗತರಾದ ಯೋಗಿಗಳಿಗೆ ದೇವನು ಅಲ್ಲಿಯೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಾನೆ. ಆದ್ದರಿಂದ ವೇದವಾದಿಗಳು ಅವನನ್ನು ಸ್ವಾನಂದವಾಸಿ ಎಂದು ಕರೆಯುತ್ತಾರೆ. ॥೪೦॥",
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+        "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+        "source_sanskrit": "तत्रैव दृश्यते देवो योगिभिर्योगपारगैः । तेन स्वानंदवासी स कथ्यते वेदवादिभिः ॥४०॥",
+        "new_row": {
+          "source_pages": "27",
+          "type": "translation",
+          "text": "ಯೋಗದಲ್ಲಿ ಪಾರಂಗತರಾದ ಯೋಗಿಗಳಿಗೆ ದೇವನು ಅಲ್ಲಿಯೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಾನೆ. ಆದ್ದರಿಂದ ವೇದವಾದಿಗಳು ಅವನನ್ನು ಸ್ವಾನಂದವಾಸಿ ಎಂದು ಕರೆಯುತ್ತಾರೆ. ॥೪೦॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "current_wording_source_verified": true,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch6-v8",
@@ -995,7 +1021,7 @@
       "verse_end": 8,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "reviewed_no_text_change_meaning_hold",
       "issues": [
         "Online svata utthānake naiva vikalpaḥ sadṛśaḥ kṛtaḥ is difficult. Do not remove naiva or import a philosophical system; proposed literal replacement provisional."
       ],
@@ -1014,7 +1040,41 @@
         ],
         "status": "partially_corrected_issue_remains"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "reviewed_no_text_change_meaning_hold",
+          "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+          "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": true
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+        "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+        "source_sanskrit": "स्वत उत्थानके नैव विकल्पः सदृशः कृतः । अहमस्मीति भावेन बिंबं भिन्नं विनिःसृतम् ॥८॥",
+        "new_row": {
+          "source_pages": "28",
+          "type": "translation",
+          "text": "ಸ್ವತಃ ಉತ್ಥಾನದಲ್ಲಿ ಅಂತಹ ವಿಕಲ್ಪವೇ ಉಂಟಾಗಲಿಲ್ಲ. ‘ನಾನಿದ್ದೇನೆ’ ಎಂಬ ಭಾವದಿಂದ ಪ್ರತ್ಯೇಕವಾದ ಬಿಂಬವೊಂದು ಹೊರಹೊಮ್ಮಿತು. ॥೮॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "negation_and_compressed_meaning",
+            "reading": null,
+            "token": "स्वत उत्थानके नैव विकल्पः सदृशः",
+            "detail": "नैव is clear. Current Kannada preserves the negation, I-am thought, distinct bimba and emergence. The force of स्वत उत्थानके and सदृशः remains compressed; no new minimal correction is demonstrated. Do not remove the negation, recast this as affirmative differentiation, or import a philosophical system. Not counted as fixed."
+          }
+        ],
+        "review_status": "reviewed_no_text_change_hold",
+        "current_wording_source_verified": false,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch6-v12",
@@ -1026,7 +1086,7 @@
       "verse_end": 12,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "partially_corrected_meaning_hold",
       "issues": [
         "bimbarūpo’yaṃ ... nāmataḥ / māyā bimbaṃ dvitīyaṃ has compressed metaphysical syntax. Current translation is unsupported; proposed literal bimba account remains provisional.",
         "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
@@ -1047,7 +1107,41 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "partially_corrected_meaning_hold",
+          "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+          "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+        "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+        "source_sanskrit": "मायया बिंबरूपोऽयं जातः सद्यश्च नामतः । माया बिंबं द्वितीयं तत्तत्र मोहप्रधारणात् ॥१२॥",
+        "new_row": {
+          "source_pages": "28",
+          "type": "translation-review",
+          "text": "ಮಾಯೆಯಿಂದ ಇದು ತಕ್ಷಣವೇ ಬಿಂಬರೂಪವಾಯಿತು. ಅಲ್ಲಿ ಮೋಹವನ್ನು ಧರಿಸುವುದರಿಂದ ಮಾಯೆಯೇ ಎರಡನೆಯ ಬಿಂಬವಾಗಿದೆ. (ಪರಿಶೀಲನೆ: ‘ಚ ನಾಮತಃ’ ಎಂಬುದರ ಅನ್ವಯ ಮತ್ತು ಬಿಂಬಗಳ ನಿಖರ ಸಂಬಂಧ ಪರಿಶೀಲನೆಯಲ್ಲಿವೆ.) ॥೧೨॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "namatah_antecedents_and_bimba_relation",
+            "reading": null,
+            "token": "च नामतः;अयम्/तत्;बिंब",
+            "detail": "The current world-form, many faces and intellect are not stated in this verse. Bimba occurs twice; māyā, second, immediate arising and bearing delusion are explicit. Intellect is discussed in subsequent context but must not be imported into this verse as its subject. Candidate is a provisional literal account, not a complete doctrinal resolution: the attachment of ca nāmataḥ, the antecedent of ayam/tat and the precise relationship of the bimbas remain held. Full unqualified replacement is null."
+          }
+        ],
+        "review_status": "accepted_with_unresolved_meaning",
+        "current_wording_source_verified": false,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch6-v13",
@@ -1059,7 +1153,7 @@
       "verse_end": 13,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "reviewed_no_text_change_meaning_hold",
       "issues": [
         "māyāsukhepsunā can be segmented māyā sukhepsunā; grammatical connection merits commentary/scan check. Keep this candidate provisional."
       ],
@@ -1078,7 +1172,41 @@
         ],
         "status": "partially_corrected_issue_remains"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "reviewed_no_text_change_meaning_hold",
+          "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+          "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": true
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+        "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+        "source_sanskrit": "मोहधारणमात्रेण विस्मृतं स्वस्वरूपकम् । मायासुखेप्सुना जाता तस्य देवस्य तत्क्षणात् ॥१३॥",
+        "new_row": {
+          "source_pages": "28",
+          "type": "translation",
+          "text": "ಮೋಹವನ್ನು ಧರಿಸಿದ ಮಾತ್ರದಿಂದ ಸ್ವಸ್ವರೂಪವು ಮರೆತುಹೋಯಿತು. ಸುಖವನ್ನು ಬಯಸಿದ ಆ ದೇವನಿಗೆ ತಕ್ಷಣವೇ ಮಾಯೆಯು ಉಂಟಾಯಿತು. ॥೧೩॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "segmentation_and_instrumental_attachment",
+            "reading": null,
+            "token": "मायासुखेप्सुना;जाता;तस्य देवस्य",
+            "detail": "Printed मायासुखेप्सुना is continuous. The current Kannada follows māyā sukhepsunā and associates the desire for happiness with that deva. This remains a provisional construal: the instrumental सुखेप्सुना and its relation to जाता / तस्य देवस्य are not settled by typography. First half matches overt source. No new replacement is recommended and the verse is not counted as fixed."
+          }
+        ],
+        "review_status": "reviewed_no_text_change_hold",
+        "current_wording_source_verified": false,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch6-v20",
@@ -1090,7 +1218,7 @@
       "verse_end": 20,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "reviewed_no_text_change_meaning_hold",
       "issues": [
         "sa eva nāmatastatra na gato nijarūpadhṛk and bimbabimbiprabhāvatvāt require philosophical commentary; proposed literal account marked medium."
       ],
@@ -1109,7 +1237,47 @@
         ],
         "status": "partially_corrected_issue_remains"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "reviewed_no_text_change_meaning_hold",
+          "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+          "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": true
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+        "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+        "source_sanskrit": "स एव नामतस्तत्र न गतो निजरूपधृक् । बिंबबिंबिप्रभावत्वाद्भासते तादृशो वृथा ॥२०॥",
+        "new_row": {
+          "source_pages": "28",
+          "type": "translation",
+          "text": "ತನ್ನ ನಿಜರೂಪವನ್ನು ಹೊಂದಿರುವ ಅವನು ಅಲ್ಲಿಗೆ ನಿಜವಾಗಿ ಬಂದವನಲ್ಲ; ಹೆಸರಿನಿಂದ ಮಾತ್ರ ಹಾಗೆ ಹೇಳಲ್ಪಡುತ್ತಾನೆ. ಬಿಂಬ ಮತ್ತು ಪ್ರತಿಬಿಂಬಗಳ ಪ್ರಭಾವದಿಂದ ಹಾಗೆ ತೋರುತ್ತಾನೆ. ॥೨೦॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "meaning_coverage_and_interpretive_gloss",
+            "reading": null,
+            "token": "नामतस्तत्र न गतो;बिंबबिंबि;वृथा",
+            "detail": "The negative न गतो is clear, as are नामतस्तत्र and the bimba-bimbi compound. Current Kannada preserves the negative and name-related clause, but its ನಿಜವಾಗಿ / ಮಾತ್ರ are interpretive, and ಪ್ರತಿಬಿಂಬ is a gloss for bimbi rather than the printed pratibimba. The force of वृथा (e.g. vainly/falsely) is not separately rendered. These remain interpretation/coverage holds; without resolving the compound and clause attachment, no unconditional replacement is recommended. Do not count it as fixed or certify the existing philosophical gloss."
+          }
+        ],
+        "review_status": "reviewed_no_text_change_hold",
+        "current_wording_source_verified": false,
+        "unrendered_source_tokens": [
+          "वृथा"
+        ],
+        "interpretive_gloss_concerns": [
+          "ನಿಜವಾಗಿ",
+          "ಮಾತ್ರ",
+          "ಪ್ರತಿಬಿಂಬ for बिंबि"
+        ]
+      }
     },
     {
       "id": "kh1-ch6-v25",

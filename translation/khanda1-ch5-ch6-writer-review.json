@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "8348acd011ebda8e79d57a7efac855501ece90f8",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        5,
+        40
+      ],
+      "old_row": {
+        "source_pages": "27",
+        "type": "translation",
+        "text": "ದೇವತೆಗಳೂ ಯೋಗಿಗಳೂ ಅವನನ್ನೇ ಆರಾಧಿಸುತ್ತಾರೆ. ಆದ್ದರಿಂದ ವೇದಗಳು ಅವನನ್ನು ಸ್ವಾನಂದವಾಸಿ ಎಂದು ಕರೆಯುತ್ತವೆ. ॥೪೦॥"
+      },
+      "new_row": {
+        "source_pages": "27",
+        "type": "translation",
+        "text": "ಯೋಗದಲ್ಲಿ ಪಾರಂಗತರಾದ ಯೋಗಿಗಳಿಗೆ ದೇವನು ಅಲ್ಲಿಯೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಾನೆ. ಆದ್ದರಿಂದ ವೇದವಾದಿಗಳು ಅವನನ್ನು ಸ್ವಾನಂದವಾಸಿ ಎಂದು ಕರೆಯುತ್ತಾರೆ. ॥೪೦॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "तत्रैव दृश्यते देवो योगिभिर्योगपारगैः । तेन स्वानंदवासी स कथ्यते वेदवादिभिः ॥४०॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": "ಯೋಗದಲ್ಲಿ ಪಾರಂಗತರಾದ ಯೋಗಿಗಳಿಗೆ ದೇವನು ಅಲ್ಲಿಯೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಾನೆ. ಆದ್ದರಿಂದ ವೇದವಾದಿಗಳು ಅವನನ್ನು ಸ್ವಾನಂದವಾಸಿ ಎಂದು ಕರೆಯುತ್ತಾರೆ. ॥೪೦॥",
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_full_translation",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/independent-review.md",
+        "sha256": "f630c5edb968eccbbe5f0ce08d2b10dae2e32fc11591ea44d75b381db2dfff92"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0014.png",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/original-and-input/original-page_0014.png",
+        "sha256": "42f03c5221e705c1041453e0db782239ffdbf8f119102ce0fd756d6af8c04951",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1350,
+          3720,
+          1830
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Actual print at line end is योगिभिर्योग- and the next line begins पारगैः. The visible yoga spelling is the basis of the correction, not expected doctrine. Current plural gods are unsupported: देवः is the singular subject of दृश्यते, with yogins as perceivers. Worship is not the printed verb. वेदवादिभिः refers to speakers/exponents of the Veda, not the Vedas themselves. The historical online याग reading differs from this original; retain that discrepancy as a transcription/source difference, not an established printed-edition variant.",
+      "historical_quotation_discrepancy": {
+        "original": "योगिभिर्योगपारगैः",
+        "historical_quoted_reading": "यागपारगैः",
+        "status": "original_pixels_govern;not_established_printed_edition_variant"
+      }
+    },
+    {
+      "key": [
+        1,
+        6,
+        12
+      ],
+      "old_row": {
+        "source_pages": "28",
+        "type": "translation",
+        "text": "ಮಾಯೆಯಿಂದ ವಿಶ್ವಸ್ವರೂಪವು ಹುಟ್ಟಿತು. ಅದರ ನಾನಾ ಮುಖಗಳಲ್ಲಿ ಮೋಹವನ್ನು ಹೊತ್ತ ಬುದ್ಧಿಯು ಇನ್ನೊಂದು ಮಾಯೆಯಾಯಿತು. ॥೧೨॥"
+      },
+      "new_row": {
+        "source_pages": "28",
+        "type": "translation-review",
+        "text": "ಮಾಯೆಯಿಂದ ಇದು ತಕ್ಷಣವೇ ಬಿಂಬರೂಪವಾಯಿತು. ಅಲ್ಲಿ ಮೋಹವನ್ನು ಧರಿಸುವುದರಿಂದ ಮಾಯೆಯೇ ಎರಡನೆಯ ಬಿಂಬವಾಗಿದೆ. (ಪರಿಶೀಲನೆ: ‘ಚ ನಾಮತಃ’ ಎಂಬುದರ ಅನ್ವಯ ಮತ್ತು ಬಿಂಬಗಳ ನಿಖರ ಸಂಬಂಧ ಪರಿಶೀಲನೆಯಲ್ಲಿವೆ.) ॥೧೨॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "मायया बिंबरूपोऽयं जातः सद्यश्च नामतः । माया बिंबं द्वितीयं तत्तत्र मोहप्रधारणात् ॥१२॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "namatah_antecedents_and_bimba_relation",
+          "reading": null,
+          "token": "च नामतः;अयम्/तत्;बिंब",
+          "detail": "The current world-form, many faces and intellect are not stated in this verse. Bimba occurs twice; māyā, second, immediate arising and bearing delusion are explicit. Intellect is discussed in subsequent context but must not be imported into this verse as its subject. Candidate is a provisional literal account, not a complete doctrinal resolution: the attachment of ca nāmataḥ, the antecedent of ayam/tat and the precise relationship of the bimbas remain held. Full unqualified replacement is null."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_reviewed_partial",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/independent-review.md",
+        "sha256": "f630c5edb968eccbbe5f0ce08d2b10dae2e32fc11591ea44d75b381db2dfff92"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0015.png",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/original-and-input/original-page_0015.png",
+        "sha256": "5a52752e44bb6d4bf3cf02b11e9dab904edd010a82b910b7e51195c3603b3d24",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1000,
+          3700,
+          1510
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The current world-form, many faces and intellect are not stated in this verse. Bimba occurs twice; māyā, second, immediate arising and bearing delusion are explicit. Intellect is discussed in subsequent context but must not be imported into this verse as its subject. Candidate is a provisional literal account, not a complete doctrinal resolution: the attachment of ca nāmataḥ, the antecedent of ayam/tat and the precise relationship of the bimbas remain held. Full unqualified replacement is null."
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        6,
+        8
+      ],
+      "old_row": {
+        "source_pages": "28",
+        "type": "translation",
+        "text": "ಸ್ವತಃ ಉತ್ಥಾನದಲ್ಲಿ ಅಂತಹ ವಿಕಲ್ಪವೇ ಉಂಟಾಗಲಿಲ್ಲ. ‘ನಾನಿದ್ದೇನೆ’ ಎಂಬ ಭಾವದಿಂದ ಪ್ರತ್ಯೇಕವಾದ ಬಿಂಬವೊಂದು ಹೊರಹೊಮ್ಮಿತು. ॥೮॥"
+      },
+      "new_row": {
+        "source_pages": "28",
+        "type": "translation",
+        "text": "ಸ್ವತಃ ಉತ್ಥಾನದಲ್ಲಿ ಅಂತಹ ವಿಕಲ್ಪವೇ ಉಂಟಾಗಲಿಲ್ಲ. ‘ನಾನಿದ್ದೇನೆ’ ಎಂಬ ಭಾವದಿಂದ ಪ್ರತ್ಯೇಕವಾದ ಬಿಂಬವೊಂದು ಹೊರಹೊಮ್ಮಿತು. ॥೮॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "स्वत उत्थानके नैव विकल्पः सदृशः कृतः । अहमस्मीति भावेन बिंबं भिन्नं विनिःसृतम् ॥८॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "negation_and_compressed_meaning",
+          "reading": null,
+          "token": "स्वत उत्थानके नैव विकल्पः सदृशः",
+          "detail": "नैव is clear. Current Kannada preserves the negation, I-am thought, distinct bimba and emergence. The force of स्वत उत्थानके and सदृशः remains compressed; no new minimal correction is demonstrated. Do not remove the negation, recast this as affirmative differentiation, or import a philosophical system. Not counted as fixed."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/independent-review.md",
+        "sha256": "f630c5edb968eccbbe5f0ce08d2b10dae2e32fc11591ea44d75b381db2dfff92"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0015.png",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/original-and-input/original-page_0015.png",
+        "sha256": "5a52752e44bb6d4bf3cf02b11e9dab904edd010a82b910b7e51195c3603b3d24",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          690,
+          3700,
+          1110
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "नैव is clear. Current Kannada preserves the negation, I-am thought, distinct bimba and emergence. The force of स्वत उत्थानके and सदृशः remains compressed; no new minimal correction is demonstrated. Do not remove the negation, recast this as affirmative differentiation, or import a philosophical system. Not counted as fixed."
+    },
+    {
+      "key": [
+        1,
+        6,
+        13
+      ],
+      "old_row": {
+        "source_pages": "28",
+        "type": "translation",
+        "text": "ಮೋಹವನ್ನು ಧರಿಸಿದ ಮಾತ್ರದಿಂದ ಸ್ವಸ್ವರೂಪವು ಮರೆತುಹೋಯಿತು. ಸುಖವನ್ನು ಬಯಸಿದ ಆ ದೇವನಿಗೆ ತಕ್ಷಣವೇ ಮಾಯೆಯು ಉಂಟಾಯಿತು. ॥೧೩॥"
+      },
+      "new_row": {
+        "source_pages": "28",
+        "type": "translation",
+        "text": "ಮೋಹವನ್ನು ಧರಿಸಿದ ಮಾತ್ರದಿಂದ ಸ್ವಸ್ವರೂಪವು ಮರೆತುಹೋಯಿತು. ಸುಖವನ್ನು ಬಯಸಿದ ಆ ದೇವನಿಗೆ ತಕ್ಷಣವೇ ಮಾಯೆಯು ಉಂಟಾಯಿತು. ॥೧೩॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "मोहधारणमात्रेण विस्मृतं स्वस्वरूपकम् । मायासुखेप्सुना जाता तस्य देवस्य तत्क्षणात् ॥१३॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "segmentation_and_instrumental_attachment",
+          "reading": null,
+          "token": "मायासुखेप्सुना;जाता;तस्य देवस्य",
+          "detail": "Printed मायासुखेप्सुना is continuous. The current Kannada follows māyā sukhepsunā and associates the desire for happiness with that deva. This remains a provisional construal: the instrumental सुखेप्सुना and its relation to जाता / तस्य देवस्य are not settled by typography. First half matches overt source. No new replacement is recommended and the verse is not counted as fixed."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/independent-review.md",
+        "sha256": "f630c5edb968eccbbe5f0ce08d2b10dae2e32fc11591ea44d75b381db2dfff92"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0015.png",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/original-and-input/original-page_0015.png",
+        "sha256": "5a52752e44bb6d4bf3cf02b11e9dab904edd010a82b910b7e51195c3603b3d24",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1000,
+          3700,
+          1510
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Printed मायासुखेप्सुना is continuous. The current Kannada follows māyā sukhepsunā and associates the desire for happiness with that deva. This remains a provisional construal: the instrumental सुखेप्सुना and its relation to जाता / तस्य देवस्य are not settled by typography. First half matches overt source. No new replacement is recommended and the verse is not counted as fixed."
+    },
+    {
+      "key": [
+        1,
+        6,
+        20
+      ],
+      "old_row": {
+        "source_pages": "28",
+        "type": "translation",
+        "text": "ತನ್ನ ನಿಜರೂಪವನ್ನು ಹೊಂದಿರುವ ಅವನು ಅಲ್ಲಿಗೆ ನಿಜವಾಗಿ ಬಂದವನಲ್ಲ; ಹೆಸರಿನಿಂದ ಮಾತ್ರ ಹಾಗೆ ಹೇಳಲ್ಪಡುತ್ತಾನೆ. ಬಿಂಬ ಮತ್ತು ಪ್ರತಿಬಿಂಬಗಳ ಪ್ರಭಾವದಿಂದ ಹಾಗೆ ತೋರುತ್ತಾನೆ. ॥೨೦॥"
+      },
+      "new_row": {
+        "source_pages": "28",
+        "type": "translation",
+        "text": "ತನ್ನ ನಿಜರೂಪವನ್ನು ಹೊಂದಿರುವ ಅವನು ಅಲ್ಲಿಗೆ ನಿಜವಾಗಿ ಬಂದವನಲ್ಲ; ಹೆಸರಿನಿಂದ ಮಾತ್ರ ಹಾಗೆ ಹೇಳಲ್ಪಡುತ್ತಾನೆ. ಬಿಂಬ ಮತ್ತು ಪ್ರತಿಬಿಂಬಗಳ ಪ್ರಭಾವದಿಂದ ಹಾಗೆ ತೋರುತ್ತಾನೆ. ॥೨೦॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "स एव नामतस्तत्र न गतो निजरूपधृक् । बिंबबिंबिप्रभावत्वाद्भासते तादृशो वृथा ॥२०॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "meaning_coverage_and_interpretive_gloss",
+          "reading": null,
+          "token": "नामतस्तत्र न गतो;बिंबबिंबि;वृथा",
+          "detail": "The negative न गतो is clear, as are नामतस्तत्र and the bimba-bimbi compound. Current Kannada preserves the negative and name-related clause, but its ನಿಜವಾಗಿ / ಮಾತ್ರ are interpretive, and ಪ್ರತಿಬಿಂಬ is a gloss for bimbi rather than the printed pratibimba. The force of वृथा (e.g. vainly/falsely) is not separately rendered. These remain interpretation/coverage holds; without resolving the compound and clause attachment, no unconditional replacement is recommended. Do not count it as fixed or certify the existing philosophical gloss."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/independent-review.md",
+        "sha256": "f630c5edb968eccbbe5f0ce08d2b10dae2e32fc11591ea44d75b381db2dfff92"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0015.png",
+        "file": "translation/source-review-addenda/khanda1-ch5-ch6/original-and-input/original-page_0015.png",
+        "sha256": "5a52752e44bb6d4bf3cf02b11e9dab904edd010a82b910b7e51195c3603b3d24",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1580,
+          3700,
+          2110
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The negative न गतो is clear, as are नामतस्तत्र and the bimba-bimbi compound. Current Kannada preserves the negative and name-related clause, but its ನಿಜವಾಗಿ / ಮಾತ್ರ are interpretive, and ಪ್ರತಿಬಿಂಬ is a gloss for bimbi rather than the printed pratibimba. The force of वृथा (e.g. vainly/falsely) is not separately rendered. These remain interpretation/coverage holds; without resolving the compound and clause attachment, no unconditional replacement is recommended. Do not count it as fixed or certify the existing philosophical gloss.",
+      "unrendered_source_tokens": [
+        "वृथा"
+      ],
+      "interpretive_gloss_concerns": [
+        "ನಿಜವಾಗಿ",
+        "ಮಾತ್ರ",
+        "ಪ್ರತಿಬಿಂಬ for बिंबि"
+      ]
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch5-ch6/before-after-proposals.json",
+  "candidate_sha256": "1d7a067c1f054b673dcff3d2996c5085dcd66dbdfd7decfa4246896ad414177e",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/before-after-proposals.json",
+      "sha256": "1d7a067c1f054b673dcff3d2996c5085dcd66dbdfd7decfa4246896ad414177e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/crops/ch5-38-42.png",
+      "sha256": "37c0bcb549d7310828e0646f757da0723aaf4478694f8021c9eaad0ec2b6904e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/crops/ch5-v40-yoga.png",
+      "sha256": "9c860aa2490ef8cccfc2e2726327ebd034a9746aa3945daca65835ebfa9fad19"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/crops/ch6-10-15.png",
+      "sha256": "d4f2e672a18ba734deb98c1bfd8b0bea64b982ce9a4b632c416a7269dd0d7859"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/crops/ch6-18-22.png",
+      "sha256": "b19d4a00b6ef0a7e49fc675a86d2e20228930f2063493806bec3154ac7d2e6c1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/crops/ch6-6-10.png",
+      "sha256": "a4b9708c8414d4afbbf14d2a52b76bba72f5157c9c686eda1e38ca4ddd29ff02"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/independent-review.md",
+      "sha256": "f630c5edb968eccbbe5f0ce08d2b10dae2e32fc11591ea44d75b381db2dfff92"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/manifest.json",
+      "sha256": "abf791e8fff089d5e5fd717174393c510606b6494e9ec89ed4bf97bc447194df"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/original-and-input/khanda1-ch5-ch6-next-five-review-packet.json",
+      "sha256": "04ab65eb9340a774399565774b7bac43b01c791499f3855606f251042bad3dee"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/original-and-input/original-page_0014.png",
+      "sha256": "42f03c5221e705c1041453e0db782239ffdbf8f119102ce0fd756d6af8c04951"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch5-ch6/original-and-input/original-page_0015.png",
+      "sha256": "5a52752e44bb6d4bf3cf02b11e9dab904edd010a82b910b7e51195c3603b3d24"
+    }
+  ],
+  "handoff_Library_file": "libfile_b757f99ec02c81918aac8f813872e400",
+  "handoff_sha256": "7c6bea8454620a3291d9a9d4d31d3f24970f5c4b1653276d803d8dafad715cea",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

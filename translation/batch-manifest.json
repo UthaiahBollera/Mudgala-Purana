@@ -116064,6 +116064,80 @@
           100
         ]
       ]
+    },
+    {
+      "file": "batch-369-reviewed-base-translation.tsv",
+      "sha256": "dd0ea38eb83a056534a9ce0dfc1eb2fd671d7048b2c04df154e9d0fc53f84e91",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch5-ch6-writer-review.json",
+      "review_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+      "coverage_boundary": "reviewed-base-khanda1-ch5-ch6",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            5,
+            40
+          ],
+          "old_row": {
+            "source_pages": "27",
+            "type": "translation",
+            "text": "ದೇವತೆಗಳೂ ಯೋಗಿಗಳೂ ಅವನನ್ನೇ ಆರಾಧಿಸುತ್ತಾರೆ. ಆದ್ದರಿಂದ ವೇದಗಳು ಅವನನ್ನು ಸ್ವಾನಂದವಾಸಿ ಎಂದು ಕರೆಯುತ್ತವೆ. ॥೪೦॥"
+          },
+          "new_row": {
+            "source_pages": "27",
+            "type": "translation",
+            "text": "ಯೋಗದಲ್ಲಿ ಪಾರಂಗತರಾದ ಯೋಗಿಗಳಿಗೆ ದೇವನು ಅಲ್ಲಿಯೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಾನೆ. ಆದ್ದರಿಂದ ವೇದವಾದಿಗಳು ಅವನನ್ನು ಸ್ವಾನಂದವಾಸಿ ಎಂದು ಕರೆಯುತ್ತಾರೆ. ॥೪೦॥"
+          },
+          "base_snapshot_commit": "8348acd011ebda8e79d57a7efac855501ece90f8",
+          "adjudication_file": "translation/khanda1-ch5-ch6-writer-review.json",
+          "adjudication_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+          "review_status": "accepted",
+          "rationale": "Actual print at line end is योगिभिर्योग- and the next line begins पारगैः. The visible yoga spelling is the basis of the correction, not expected doctrine. Current plural gods are unsupported: देवः is the singular subject of दृश्यते, with yogins as perceivers. Worship is not the printed verb. वेदवादिभिः refers to speakers/exponents of the Veda, not the Vedas themselves. The historical online याग reading differs from this original; retain that discrepancy as a transcription/source difference, not an established printed-edition variant."
+        },
+        {
+          "key": [
+            1,
+            6,
+            12
+          ],
+          "old_row": {
+            "source_pages": "28",
+            "type": "translation",
+            "text": "ಮಾಯೆಯಿಂದ ವಿಶ್ವಸ್ವರೂಪವು ಹುಟ್ಟಿತು. ಅದರ ನಾನಾ ಮುಖಗಳಲ್ಲಿ ಮೋಹವನ್ನು ಹೊತ್ತ ಬುದ್ಧಿಯು ಇನ್ನೊಂದು ಮಾಯೆಯಾಯಿತು. ॥೧೨॥"
+          },
+          "new_row": {
+            "source_pages": "28",
+            "type": "translation-review",
+            "text": "ಮಾಯೆಯಿಂದ ಇದು ತಕ್ಷಣವೇ ಬಿಂಬರೂಪವಾಯಿತು. ಅಲ್ಲಿ ಮೋಹವನ್ನು ಧರಿಸುವುದರಿಂದ ಮಾಯೆಯೇ ಎರಡನೆಯ ಬಿಂಬವಾಗಿದೆ. (ಪರಿಶೀಲನೆ: ‘ಚ ನಾಮತಃ’ ಎಂಬುದರ ಅನ್ವಯ ಮತ್ತು ಬಿಂಬಗಳ ನಿಖರ ಸಂಬಂಧ ಪರಿಶೀಲನೆಯಲ್ಲಿವೆ.) ॥೧೨॥"
+          },
+          "base_snapshot_commit": "8348acd011ebda8e79d57a7efac855501ece90f8",
+          "adjudication_file": "translation/khanda1-ch5-ch6-writer-review.json",
+          "adjudication_sha256": "a4fd4f65085812f95987645bbccf11ae1774fc09dc5d9e1bbc958035d9daa0e3",
+          "review_status": "accepted",
+          "rationale": "The current world-form, many faces and intellect are not stated in this verse. Bimba occurs twice; māyā, second, immediate arising and bearing delusion are explicit. Intellect is discussed in subsequent context but must not be imported into this verse as its subject. Candidate is a provisional literal account, not a complete doctrinal resolution: the attachment of ca nāmataḥ, the antecedent of ayam/tat and the precise relationship of the bimbas remain held. Full unqualified replacement is null."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          6,
+          8
+        ],
+        [
+          1,
+          6,
+          13
+        ],
+        [
+          1,
+          6,
+          20
+        ]
+      ]
     }
   ],
   "reference_only_index": {
