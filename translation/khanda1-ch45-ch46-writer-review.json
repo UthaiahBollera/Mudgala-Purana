@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "0e5274084a4c48d73a231e4ace982aef5fe4c68f",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        45,
+        14
+      ],
+      "old_row": {
+        "source_pages": "114",
+        "type": "mantra",
+        "text": "ಮನೋವಾಣೀವಿಹೀನಾಯ ಯೋಗಿಭ್ಯೋ ಯೋಗದಾಯಿನೇ । ಯೋಗ್ಯಾಯ ಯೋಗನಾಥಾಯ ವಿಶ್ವಪಾಯ ನಮೋ ನಮಃ ॥೧೪॥"
+      },
+      "new_row": {
+        "source_pages": "114",
+        "type": "mantra",
+        "text": "ಮನೋವಾಣೀವಿಹೀನಾಯ ಯೋಗಿಭ್ಯೋ ಯೋಗದಾಯಿನೇ । ಯೋಗಾಯ ಯೋಗನಾಥಾಯ ವಿಶ್ವಪಾಯ ನಮೋ ನಮಃ ॥೧೪॥"
+      },
+      "base_file": "translation/batch-06-01.tsv",
+      "source_sanskrit": "मनोवाणीविहीनाय योगिभ्यो योगदायिने । योगाय योगनाथाय विश्वपाय नमो नमः ॥१४॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಮನೋವಾಣೀವಿಹೀನಾಯ ಯೋಗಿಭ್ಯೋ ಯೋಗದಾಯಿನೇ । ಯೋಗಾಯ ಯೋಗನಾಥಾಯ ವಿಶ್ವಪಾಯ ನಮೋ ನಮಃ ॥೧೪॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/independent-review.md",
+        "sha256": "547e54b53f292c2442de5faf93452e503b5043f6cd7ef56eca1c2160020f514c"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0101.png",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0101.png",
+        "sha256": "c577f3ba3cc3b2775b190e16629fe47c9ab419654c45c30d7e3b87b63c888134",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          220,
+          980,
+          3710,
+          1390
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page101 prints योगाय without the extra य conjunct. Replace only the erroneous Kannada epithet.",
+      "replacements": [
+        {
+          "before": "ಯೋಗ್ಯಾಯ",
+          "after": "ಯೋಗಾಯ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        46,
+        35
+      ],
+      "old_row": {
+        "source_pages": "117",
+        "type": "mantra",
+        "text": "ವಾಮನ ಉವಾಚ । ನಮೋ ವಿಘ್ನಪತೇ ತುಭ್ಯಂ ಭಕ್ತವಿಘ್ನವಿನಾಶಿನೇ । ಅಭಕ್ತವಿಘ್ನದಾತ್ರೇ ಚ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೩೫॥"
+      },
+      "new_row": {
+        "source_pages": "117",
+        "type": "mantra",
+        "text": "ವಾಮನ ಉವಾಚ । ನಮೋ ವಿಘ್ನಪತೇ ತುಭ್ಯಂ ಭಕ್ತವಿಘ್ನವಿನಾಶಿನೇ । ಅಭಕ್ತವಿಘ್ನಾದಾತ್ರೇ ಚ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೩೫॥"
+      },
+      "base_file": "translation/batch-06-01.tsv",
+      "source_sanskrit": "वामन उवाच । नमो विघ्नपते तुभ्यं भक्तविघ्नविनाशिने । अभक्तविघ्नादात्रे च गणेशाय नमो नमः ॥३५॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "correction_ready_transcription_with_grammar_hold",
+          "reading": null,
+          "token": "वामन उवाच । नमो विघ्नपते तुभ्यं भक्तविघ्नविनाशिने । अभक्तविघ्नादात्रे च गणेशाय नमो नमः ॥३५॥",
+          "detail": "Page104 enlarged detail clearly has the extra आ after विघ्न. Target-edition transcription therefore needs ಅಭಕ್ತವಿಘ್ನಾದಾತ್ರೇ. This printed form is morphologically problematic relative to the expected obstacle-giver expression; retain that grammar/meaning hold. Do not silently erase the vowel or infer a negated giver interpretation. Source-normalization would require an explicit editorial decision, not this transcription review."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ವಾಮನ ಉವಾಚ । ನಮೋ ವಿಘ್ನಪತೇ ತುಭ್ಯಂ ಭಕ್ತವಿಘ್ನವಿನಾಶಿನೇ । ಅಭಕ್ತವಿಘ್ನಾದಾತ್ರೇ ಚ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೩೫॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/independent-review.md",
+        "sha256": "547e54b53f292c2442de5faf93452e503b5043f6cd7ef56eca1c2160020f514c"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0104.png",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0104.png",
+        "sha256": "41894ee2b5edcbb9687b8c50152419a03ca9cb84b6c6c57f73cb3852f3d92379",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          610,
+          270,
+          1200,
+          390
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page104 enlarged detail clearly has the extra आ after विघ्न. Target-edition transcription therefore needs ಅಭಕ್ತವಿಘ್ನಾದಾತ್ರೇ. This printed form is morphologically problematic relative to the expected obstacle-giver expression; retain that grammar/meaning hold. Do not silently erase the vowel or infer a negated giver interpretation. Source-normalization would require an explicit editorial decision, not this transcription review.",
+      "meaning_scope": "transcription_only_interpretation_unsettled",
+      "replacements": [
+        {
+          "before": "ಅಭಕ್ತವಿಘ್ನದಾತ್ರೇ",
+          "after": "ಅಭಕ್ತವಿಘ್ನಾದಾತ್ರೇ"
+        }
+      ],
+      "printed_target_form": "अभक्तविघ्नादात्रे",
+      "unusual_form_not_grammatically_normalized": true,
+      "source_normalization_accepted": false,
+      "negated_giver_interpretation_accepted": false
+    },
+    {
+      "key": [
+        1,
+        46,
+        41
+      ],
+      "old_row": {
+        "source_pages": "117",
+        "type": "mantra",
+        "text": "ನಾಗಾನಾಂ ಶೇಷರೂಪೋಽಸಿ ಯೋಗಿನಾಂ ಶುಕ ಏವ ಚ । ಕುಮಾರಾಣಾಂ ತ್ವಂ ಚ ಸನತ್ಕುಮಾರೋಽಸಿ ನ ಸಂಶಯಃ ॥೪೧॥"
+      },
+      "new_row": {
+        "source_pages": "117",
+        "type": "mantra",
+        "text": "ನಾಗಾನಾಂ ಶೇಷರೂಪೋಽಸಿ ಯೋಗಿನಾಂ ಶುಕ್ರ ಏವ ಚ । ಕುಮಾರಾಣಾಂ ತ್ವಂ ಚ ಸನತ್ಕುಮಾರೋಽಸಿ ನ ಸಂಶಯಃ ॥೪೧॥"
+      },
+      "base_file": "translation/batch-06-01.tsv",
+      "source_sanskrit": "नागानां शेषरूपोऽसि योगिनां शुक्र एव च । कुमाराणां त्वं च सनत्कुमारोऽसि न संशयः ॥४१॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "correction_ready_printed_name",
+          "reading": null,
+          "token": "नागानां शेषरूपोऽसि योगिनां शुक्र एव च । कुमाराणां त्वं च सनत्कुमारोऽसि न संशयः ॥४१॥",
+          "detail": "Page104 enlarged detail clearly prints शुक्र with rakara. Correct the base-edition name transliteration, even if Shuka might seem more familiar in a yogin list. This does not establish which name an author originally intended or whether another edition reads Shuka."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ನಾಗಾನಾಂ ಶೇಷರೂಪೋಽಸಿ ಯೋಗಿನಾಂ ಶುಕ್ರ ಏವ ಚ । ಕುಮಾರಾಣಾಂ ತ್ವಂ ಚ ಸನತ್ಕುಮಾರೋಽಸಿ ನ ಸಂಶಯಃ ॥೪೧॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/independent-review.md",
+        "sha256": "547e54b53f292c2442de5faf93452e503b5043f6cd7ef56eca1c2160020f514c"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0104.png",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0104.png",
+        "sha256": "41894ee2b5edcbb9687b8c50152419a03ca9cb84b6c6c57f73cb3852f3d92379",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          2920,
+          670,
+          3680,
+          800
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page104 enlarged detail clearly prints शुक्र with rakara. Correct the base-edition name transliteration, even if Shuka might seem more familiar in a yogin list. This does not establish which name an author originally intended or whether another edition reads Shuka.",
+      "meaning_scope": "transcription_only_interpretation_unsettled",
+      "replacements": [
+        {
+          "before": "ಯೋಗಿನಾಂ ಶುಕ ಏವ",
+          "after": "ಯೋಗಿನಾಂ ಶುಕ್ರ ಏವ"
+        }
+      ],
+      "printed_name": "शुक्र",
+      "name_scope": "target_edition_transcription_only",
+      "authorial_intent_established": false,
+      "cross_edition_unanimity_claimed": false,
+      "uninspected_edition_variant_accepted": false
+    },
+    {
+      "key": [
+        1,
+        46,
+        42
+      ],
+      "old_row": {
+        "source_pages": "117",
+        "type": "mantra",
+        "text": "ಗುಹಃ ಸೇನಾಪತೀನಾಂ ತ್ವಂ ಮೃಗಾಣಾಂ ಸಿಂಹರೂಪಭೃತ್ । ಏವಂ ನಾನಾಸ್ವರೂಪೈಸ್ತ್ವಂ ಜಗದ್ರಕ್ಷಣತತ್ಪರಃ ॥೪೨॥"
+      },
+      "new_row": {
+        "source_pages": "117",
+        "type": "mantra",
+        "text": "ಗುಹಃ ಸೇನಾಪತೀನಾಂ ತ್ವಂ ಮೃಗಾಣಾಂ ಸಿಂಹವೇಷಭೃತ್ । ಏವಂ ನಾನಾಸ್ವರೂಪೈಸ್ತ್ವಂ ಜಗದ್ರಕ್ಷಣತತ್ಪರಃ ॥೪೨॥"
+      },
+      "base_file": "translation/batch-06-01.tsv",
+      "source_sanskrit": "गुहः सेनापतीनां त्वं मृगाणां सिंहवेषभृत् । एवं नानास्वरूपैस्त्वं जगद्रक्षणतत्परः ॥४२॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಗುಹಃ ಸೇನಾಪತೀನಾಂ ತ್ವಂ ಮೃಗಾಣಾಂ ಸಿಂಹವೇಷಭೃತ್ । ಏವಂ ನಾನಾಸ್ವರೂಪೈಸ್ತ್ವಂ ಜಗದ್ರಕ್ಷಣತತ್ಪರಃ ॥೪೨॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/independent-review.md",
+        "sha256": "547e54b53f292c2442de5faf93452e503b5043f6cd7ef56eca1c2160020f514c"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0104.png",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0104.png",
+        "sha256": "41894ee2b5edcbb9687b8c50152419a03ca9cb84b6c6c57f73cb3852f3d92379",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          570,
+          3720,
+          1120
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page104 prints सिंहवेषभृत्. Replace the one epithet; existing second half agrees with source and needs no new correction.",
+      "replacements": [
+        {
+          "before": "ಸಿಂಹರೂಪಭೃತ್",
+          "after": "ಸಿಂಹವೇಷಭೃತ್"
+        }
+      ]
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        45,
+        33
+      ],
+      "old_row": {
+        "source_pages": "115",
+        "type": "translation",
+        "text": "ನನ್ನ ಭಕ್ತಿಯಿಂದ ಕೂಡಿದ ಜನರು ನನಗೆ ಸದಾ ಪ್ರಿಯರು. ದಂಭನೇ, ನೀನು ವಿನೀತ ಸ್ವಭಾವದಿಂದ ಅವರನ್ನು ಪ್ರಯತ್ನಪೂರ್ವಕವಾಗಿ ಪಾಲಿಸು. ॥೩೩॥"
+      },
+      "new_row": {
+        "source_pages": "115",
+        "type": "translation",
+        "text": "ನನ್ನ ಭಕ್ತಿಯಿಂದ ಕೂಡಿದ ಜನರು ನನಗೆ ಸದಾ ಪ್ರಿಯರು. ದಂಭನೇ, ನೀನು ವಿನೀತ ಸ್ವಭಾವದಿಂದ ಅವರನ್ನು ಪ್ರಯತ್ನಪೂರ್ವಕವಾಗಿ ಪಾಲಿಸು. ॥೩೩॥"
+      },
+      "base_file": "translation/batch-06-01.tsv",
+      "source_sanskrit": "मम भक्तिसमायुक्ता ये नराः सततं प्रियाः । तान् पालय प्रयत्नेन दंभ हीनस्वभावतः ॥३३॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_lexical_meaning_hold",
+          "reading": null,
+          "token": "मम भक्तिसमायुक्ता ये नराः सततं प्रियाः । तान् पालय प्रयत्नेन दंभ हीनस्वभावतः ॥३३॥",
+          "detail": "Page102 confirms हीनस्वभावतः across a line break. Current ವಿನೀತ ಸ್ವಭಾವದಿಂದ is a plausible contextual interpretation, but humility versus diminished/absent Dambha-like nature is not independently resolved. Preserve current Kannada provisionally; no new correction or full semantic confirmation. Negation/contrasting instructions in31–34 remain intact."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/independent-review.md",
+        "sha256": "547e54b53f292c2442de5faf93452e503b5043f6cd7ef56eca1c2160020f514c"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0102.png",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0102.png",
+        "sha256": "3a8e5e88f100e6c6da7292786b51f95991006faad9a7ebd4f1b602202dc36dc7",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          220,
+          250,
+          3700,
+          770
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page102 confirms हीनस्वभावतः across a line break. Current ವಿನೀತ ಸ್ವಭಾವದಿಂದ is a plausible contextual interpretation, but humility versus diminished/absent Dambha-like nature is not independently resolved. Preserve current Kannada provisionally; no new correction or full semantic confirmation. Negation/contrasting instructions in31–34 remain intact.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_lexical_cluster": "हीनस्वभावतः",
+      "humility_gloss_is_contextual": true,
+      "lexical_meaning_settled": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch45-ch46/before-after-proposals.json",
+  "candidate_sha256": "5f500e13fc178ef2de0e4b8b65cbb94f9faa00d5ffc656eae4b06a9513450b5c",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/before-after-proposals.json",
+      "sha256": "5f500e13fc178ef2de0e4b8b65cbb94f9faa00d5ffc656eae4b06a9513450b5c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/crop_coordinates.json",
+      "sha256": "bf11ddb772be5f4c1a172a1d7fee332a2cc5a94906167a3193cb45b9b442d82a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/crops/45-12-16.png",
+      "sha256": "2a731558571c1f7753c3af4cd28a5879dcd84c2969162c49560a07be6f15f0ea"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/crops/45-31-35.png",
+      "sha256": "74600c10a6072881e91a9cc6870edd09e1e10acabe0955f3baf4c98ba3d141df"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/crops/46-33-34-opening.png",
+      "sha256": "98058c6bd408fdce0c7583484252dcd82897bcf5e283cc40949fb200d2bf1e43"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/crops/46-34-37.png",
+      "sha256": "aabaed16eb175016cb8d17cd9f01dd25b13fa649f42c2013d67dfb9f97253671"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/crops/46-35-detail.png",
+      "sha256": "958a2d868af65570c96adab69c78a75a83bd7019cf9208c1aa8da95903b72e84"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/crops/46-39-44.png",
+      "sha256": "d5f62552c582863a52350e627fb4cba8569eb4fcd9419c3c51f1b4e38e8ab718"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/crops/46-41-name.png",
+      "sha256": "40865930d29f04b08af3321c385a78e77cdd635b8c45956718e597209df96472"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/independent-review.md",
+      "sha256": "547e54b53f292c2442de5faf93452e503b5043f6cd7ef56eca1c2160020f514c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/manifest.json",
+      "sha256": "5e8e2b26929327a23351fe1bd0c63bdd8cf7ebc7b9b9657f2e67ea738dc8c37e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/khanda1-ch45-ch46-next-five-review-packet.json",
+      "sha256": "865d25f7ccdf1a61a178505f8f26a9ccf0817a272183baad6734056b58e2c072"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0101.png",
+      "sha256": "c577f3ba3cc3b2775b190e16629fe47c9ab419654c45c30d7e3b87b63c888134"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0102.png",
+      "sha256": "3a8e5e88f100e6c6da7292786b51f95991006faad9a7ebd4f1b602202dc36dc7"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0103.png",
+      "sha256": "12b523811fe9604698c7bc445e5aac51d2ac64bc6909fc47bfb4cf36b8a1599f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0104.png",
+      "sha256": "41894ee2b5edcbb9687b8c50152419a03ca9cb84b6c6c57f73cb3852f3d92379"
+    }
+  ],
+  "handoff_Library_file": "libfile_d664b1e6f5dc819186a573c638bf3ae3",
+  "handoff_sha256": "3b2298cc1dedf982562024ecb04eb2bf65baa86bc12c404b8b8a37264da2b80a",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

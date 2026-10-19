@@ -117919,6 +117919,114 @@
           25
         ]
       ]
+    },
+    {
+      "file": "batch-390-reviewed-base-translation.tsv",
+      "sha256": "e36f36db7fc248b040fd8d2e963b0d54e6410f08e16754b67dbd0ea277cddcba",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch45-ch46-writer-review.json",
+      "review_sha256": "330e167d4ef3ab2c32f329b8fa6b4183661d3827c15312a5b77505b70231bf62",
+      "coverage_boundary": "reviewed-base-khanda1-ch45-ch46",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            45,
+            14
+          ],
+          "old_row": {
+            "source_pages": "114",
+            "type": "mantra",
+            "text": "ಮನೋವಾಣೀವಿಹೀನಾಯ ಯೋಗಿಭ್ಯೋ ಯೋಗದಾಯಿನೇ । ಯೋಗ್ಯಾಯ ಯೋಗನಾಥಾಯ ವಿಶ್ವಪಾಯ ನಮೋ ನಮಃ ॥೧೪॥"
+          },
+          "new_row": {
+            "source_pages": "114",
+            "type": "mantra",
+            "text": "ಮನೋವಾಣೀವಿಹೀನಾಯ ಯೋಗಿಭ್ಯೋ ಯೋಗದಾಯಿನೇ । ಯೋಗಾಯ ಯೋಗನಾಥಾಯ ವಿಶ್ವಪಾಯ ನಮೋ ನಮಃ ॥೧೪॥"
+          },
+          "base_snapshot_commit": "0e5274084a4c48d73a231e4ace982aef5fe4c68f",
+          "adjudication_file": "translation/khanda1-ch45-ch46-writer-review.json",
+          "adjudication_sha256": "330e167d4ef3ab2c32f329b8fa6b4183661d3827c15312a5b77505b70231bf62",
+          "review_status": "accepted",
+          "rationale": "Page101 prints योगाय without the extra य conjunct. Replace only the erroneous Kannada epithet."
+        },
+        {
+          "key": [
+            1,
+            46,
+            35
+          ],
+          "old_row": {
+            "source_pages": "117",
+            "type": "mantra",
+            "text": "ವಾಮನ ಉವಾಚ । ನಮೋ ವಿಘ್ನಪತೇ ತುಭ್ಯಂ ಭಕ್ತವಿಘ್ನವಿನಾಶಿನೇ । ಅಭಕ್ತವಿಘ್ನದಾತ್ರೇ ಚ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೩೫॥"
+          },
+          "new_row": {
+            "source_pages": "117",
+            "type": "mantra",
+            "text": "ವಾಮನ ಉವಾಚ । ನಮೋ ವಿಘ್ನಪತೇ ತುಭ್ಯಂ ಭಕ್ತವಿಘ್ನವಿನಾಶಿನೇ । ಅಭಕ್ತವಿಘ್ನಾದಾತ್ರೇ ಚ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೩೫॥"
+          },
+          "base_snapshot_commit": "0e5274084a4c48d73a231e4ace982aef5fe4c68f",
+          "adjudication_file": "translation/khanda1-ch45-ch46-writer-review.json",
+          "adjudication_sha256": "330e167d4ef3ab2c32f329b8fa6b4183661d3827c15312a5b77505b70231bf62",
+          "review_status": "accepted",
+          "rationale": "Page104 enlarged detail clearly has the extra आ after विघ्न. Target-edition transcription therefore needs ಅಭಕ್ತವಿಘ್ನಾದಾತ್ರೇ. This printed form is morphologically problematic relative to the expected obstacle-giver expression; retain that grammar/meaning hold. Do not silently erase the vowel or infer a negated giver interpretation. Source-normalization would require an explicit editorial decision, not this transcription review."
+        },
+        {
+          "key": [
+            1,
+            46,
+            41
+          ],
+          "old_row": {
+            "source_pages": "117",
+            "type": "mantra",
+            "text": "ನಾಗಾನಾಂ ಶೇಷರೂಪೋಽಸಿ ಯೋಗಿನಾಂ ಶುಕ ಏವ ಚ । ಕುಮಾರಾಣಾಂ ತ್ವಂ ಚ ಸನತ್ಕುಮಾರೋಽಸಿ ನ ಸಂಶಯಃ ॥೪೧॥"
+          },
+          "new_row": {
+            "source_pages": "117",
+            "type": "mantra",
+            "text": "ನಾಗಾನಾಂ ಶೇಷರೂಪೋಽಸಿ ಯೋಗಿನಾಂ ಶುಕ್ರ ಏವ ಚ । ಕುಮಾರಾಣಾಂ ತ್ವಂ ಚ ಸನತ್ಕುಮಾರೋಽಸಿ ನ ಸಂಶಯಃ ॥೪೧॥"
+          },
+          "base_snapshot_commit": "0e5274084a4c48d73a231e4ace982aef5fe4c68f",
+          "adjudication_file": "translation/khanda1-ch45-ch46-writer-review.json",
+          "adjudication_sha256": "330e167d4ef3ab2c32f329b8fa6b4183661d3827c15312a5b77505b70231bf62",
+          "review_status": "accepted",
+          "rationale": "Page104 enlarged detail clearly prints शुक्र with rakara. Correct the base-edition name transliteration, even if Shuka might seem more familiar in a yogin list. This does not establish which name an author originally intended or whether another edition reads Shuka."
+        },
+        {
+          "key": [
+            1,
+            46,
+            42
+          ],
+          "old_row": {
+            "source_pages": "117",
+            "type": "mantra",
+            "text": "ಗುಹಃ ಸೇನಾಪತೀನಾಂ ತ್ವಂ ಮೃಗಾಣಾಂ ಸಿಂಹರೂಪಭೃತ್ । ಏವಂ ನಾನಾಸ್ವರೂಪೈಸ್ತ್ವಂ ಜಗದ್ರಕ್ಷಣತತ್ಪರಃ ॥೪೨॥"
+          },
+          "new_row": {
+            "source_pages": "117",
+            "type": "mantra",
+            "text": "ಗುಹಃ ಸೇನಾಪತೀನಾಂ ತ್ವಂ ಮೃಗಾಣಾಂ ಸಿಂಹವೇಷಭೃತ್ । ಏವಂ ನಾನಾಸ್ವರೂಪೈಸ್ತ್ವಂ ಜಗದ್ರಕ್ಷಣತತ್ಪರಃ ॥೪೨॥"
+          },
+          "base_snapshot_commit": "0e5274084a4c48d73a231e4ace982aef5fe4c68f",
+          "adjudication_file": "translation/khanda1-ch45-ch46-writer-review.json",
+          "adjudication_sha256": "330e167d4ef3ab2c32f329b8fa6b4183661d3827c15312a5b77505b70231bf62",
+          "review_status": "accepted",
+          "rationale": "Page104 prints सिंहवेषभृत्. Replace the one epithet; existing second half agrees with source and needs no new correction."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          45,
+          33
+        ]
+      ]
     }
   ],
   "reference_only_index": {

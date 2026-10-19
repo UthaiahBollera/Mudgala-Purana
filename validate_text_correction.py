@@ -102,6 +102,12 @@ def validate_base_translation_correction(root,old,new,item,review):
             assert bool(record['issues'])==p['status'].endswith('_with_meaning_hold'),'Independent mantra meaning hold omitted'
         if(p['status'].startswith('transcription_correction_ready_')and p['status'].endswith('_hold'))or p['status']=='transcription_correction_ready_interpretation_not_asserted':
             assert record['issues'],'Independent mantra interpretation hold omitted'
+        if p['status']=='correction_ready_transcription_with_grammar_hold':
+            assert key==(1,46,35) and record['issues'] and record['printed_target_form']=='अभक्तविघ्नादात्रे' and record['unusual_form_not_grammatically_normalized'] is True,'Printed extra aa or grammar hold omitted'
+            assert record['source_normalization_accepted'] is False and record['negated_giver_interpretation_accepted'] is False,'Problematic printed form silently normalized or interpreted'
+        if p['status']=='correction_ready_printed_name':
+            assert key==(1,46,41) and record['issues'] and record['printed_name']=='शुक्र' and record['name_scope']=='target_edition_transcription_only','Printed rakara or name scope omitted'
+            assert record['authorial_intent_established'] is False and record['cross_edition_unanimity_claimed'] is False and record['uninspected_edition_variant_accepted'] is False,'Printed name promoted to authorial or cross-edition certainty'
         status='accepted_transliteration_with_meaning_hold'if record['issues']else'accepted'
         assert record['review_status']==status and all(x['status']=='open'and x['reading']is None for x in record['issues']),'Mantra meaning hold closed'
     elif record['issues']:
@@ -255,7 +261,8 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
             if unit['status']=='unchanged_idiom_meaning_hold':assert x['printed_idiom']=='कालानां कलनात्मकैः' and x['trembling_is_contextual_gloss'] is True,'Idiom falsely resolved'
             elif unit['status']=='unchanged_lexical_meaning_hold':
                 if key==(1,25,27):assert x['printed_lexical_cluster']=='कुंतलाद्यस्त्रकैः' and x['la_preserved'] is True and x['precise_weapon_list_accepted'] is False,'Printed la normalized or weapon list invented'
-                else:assert key==(1,31,29) and x['printed_lexical_cluster']=='द्वंद्वकारकः' and x['freedom_from_duality_substituted'] is False,'Childlike duality/conflict meaning harmonized'
+                elif key==(1,31,29):assert x['printed_lexical_cluster']=='द्वंद्वकारकः' and x['freedom_from_duality_substituted'] is False,'Childlike duality/conflict meaning harmonized'
+                else:assert key==(1,45,33) and x['printed_lexical_cluster']=='हीनस्वभावतः' and x['humility_gloss_is_contextual'] is True and x['lexical_meaning_settled'] is False,'Contextual humility gloss falsely certified'
             elif unit['status']=='unchanged_junction_meaning_hold':assert x['printed_junction']=='रथाश्वालंकृतास्तत्र' and x['shva_not_emended_to_shcha'] is True and x['horses_added'] is False,'Shva junction silently normalized or interpreted'
             elif unit['status']=='unchanged_source_supported_narrative_hold':assert x['printed_narrative_clause']=='नराणां हृद्यताडयत्' and x['men_not_replaced_with_diseases'] is True,'Narrative logic silently repaired'
             else:assert x['printed_weapon']=='खड्गेनैरावतं' and x['printed_action']=='पदाग्रहीत्' and x['Airavata_unconscious_source_supported'] is True and x['Indra_unconsciousness_claimed'] is False and x['precise_foot_action_settled'] is False,'Sword or elephant/Indra action falsely resolved'
