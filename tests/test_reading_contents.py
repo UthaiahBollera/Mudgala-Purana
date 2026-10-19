@@ -28,17 +28,19 @@ def chapter_key(row):
 
 def check(base):
     merged = {}
-    for path in [base/'translation/narrative.tsv', *sorted((base/'translation').glob('batch-*.tsv'))]:
+    for path in [base/'translation/narrative.tsv', *sorted((base/'translation').glob('batch-*.tsv'), key=lambda p: (int(p.name.split('-')[1]), p.name))]:
         with path.open(encoding='utf-8', newline='') as stream:
             merged.update((key(row), row) for row in csv.DictReader(stream, delimiter='\t'))
     chapters = sorted({k[:2] for k in merged})
     completed = {chapter_key(row) for row in json.loads((base/'translation/completed-chapters.json').read_text())}
     reading_partial = {chapter_key(item) for item in json.loads((base/'translation/chapter-metadata.json').read_text())['chapters'] if item.get('reading_status') == 'partial'}
     doc = html.fromstring((base/'book/index.html').read_bytes())
+    elements_by_id = {el.get('id'): el for el in doc.xpath('//*[@id]')}
+    def element_by_id(value): return elements_by_id[value]
     validate_reference_rendered(load_reference_only(base),doc)
     gaps = json.loads((base/'translation/chapter-metadata.json').read_text()).get('source_gaps', [])
     for gap in gaps:
-        notice = doc.get_element_by_id(gap['id'])
+        notice = element_by_id(gap['id'])
         assert notice.get('data-source-pages') == gap['source_page']
         assert gap['text'] in notice.text_content()
         for missing in gap.get('missing_verse_ranges', []):
@@ -46,7 +48,7 @@ def check(base):
                            for v in range(missing['verse_start'], missing['verse_end']+1)), 'Missing scan must not create numbered filler'
     for item in json.loads((base/'translation/chapter-metadata.json').read_text())['chapters']:
         if item.get('omit_opening_invocation'):
-            section = doc.get_element_by_id(f'chapter-kh{item["khanda"]}-{item["chapter"]}-1')
+            section = element_by_id(f'chapter-kh{item["khanda"]}-{item["chapter"]}-1')
             assert not section.xpath('.//p[@class="mantra"]'), 'Mid-chapter continuation must not invent an opening invocation'
     assert len(doc.xpath('//@id')) == len(set(doc.xpath('//@id')))
     rows = doc.xpath('//table[@class="contents"]//tr[@data-chapter]')
@@ -56,7 +58,7 @@ def check(base):
         assert section.get('data-source-pages') == '', 'Generated contents claim scan provenance'
     for row, chapter in zip(rows, chapters):
         link = row.find('.//a')
-        target = doc.get_element_by_id(link.get('href')[1:])
+        target = element_by_id(link.get('href')[1:])
         subtitle = target.find('h3')
         if subtitle is not None:
             name = subtitle.text
@@ -94,14 +96,14 @@ def check(base):
     for k, row in merged.items():
         khanda, chapter, verse = k
         vid = ('' if khanda == 1 else f'kh{khanda}-') + f'ch{chapter}-v{verse}'
-        para = doc.get_element_by_id(vid)
-        assert para.text_content() == re.sub(r'\s*\[[^\]]*\]', '', row['text'])
+        para = element_by_id(vid)
+        assert para.text_content() == re.sub(r'\s*\[[^\]]*\]', '', row['text']), (k, para.text_content(), row['text'])
         assert para.get('data-source-pages') == row['source_pages']
         assert para.get('data-treatment') == row['type']
     with (base/'translation/frontmatter.tsv').open(encoding='utf-8', newline='') as stream:
         mantras = [r['text'] for r in csv.DictReader(stream, delimiter='\t') if r['source_page']=='8' and r['type']=='mantra']
     if mantras:
-        page8 = doc.get_element_by_id('source-08')
+        page8 = element_by_id('source-08')
         assert page8.get('data-source-pages') == '8'
         assert page8.xpath('.//p[@class="mantra"]/text()') == mantras
     with ZipFile(base/'dist/mudgala_purana.epub') as archive:
@@ -117,7 +119,7 @@ def check(base):
                     assert target.xpath('//*[@id=$id]', id=fragment), (name, link.get('href'))
         chapter_links = [a for a in parsed['nav.xhtml'].xpath('//x:a', namespaces=X) if a.get('href').startswith('chapter-')]
         assert len(chapter_links) == len(chapters)
-        assert [a.text for a in chapter_links] == [doc.get_element_by_id(r.find('.//a').get('href')[1:]).get('data-toc-label') for r in rows]
+        assert [a.text for a in chapter_links] == [element_by_id(r.find('.//a').get('href')[1:]).get('data-toc-label') for r in rows]
     print(f'Contents checks passed: {len(chapters)} chapters, {len(merged)} unchanged numbered texts, HTML/EPUB links and completion labels.')
 
 with tempfile.TemporaryDirectory(prefix='mudgala-contents-') as tmp:

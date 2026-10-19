@@ -551,18 +551,22 @@
     {
       "khanda": 2,
       "chapter": 36,
-      "title": "ಷಟ್ತ್ರಿಂಶ ಅಧ್ಯಾಯ",
+      "title": "ಗೌತಮಚರಿತ",
       "ordinal": "ಷಟ್ತ್ರಿಂಶ",
       "section_title": "ದ್ವಿತೀಯ ಖಂಡ · ಷಟ್ತ್ರಿಂಶ ಅಧ್ಯಾಯ",
-      "coverage_status": "partial",
+      "coverage_status": "complete",
       "included_verses": [
         1,
-        85
+        86
       ],
       "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p22",
       "source_url": null,
-      "note": "Numbered draft reading through actual terminal verse; meaning/source questions visibly flagged and colophon withheld pending reconciliation. Do not imply final completion.",
-      "coverage_note": "೮೫ರ ಆರಂಭದ ತುಣುಕು ಮಾತ್ರ; ಮುಂದಿನ ಮೂಲಪುಟ ಓದಲಾಗಿಲ್ಲ."
+      "note": "Original PNG205 supplies86 and corrected colophon; this is not Google-edition backfill.",
+      "coverage_note": "ಮೂಲಚಿತ್ರದಿಂದ ಅಧ್ಯಾಯದ ಅಂತ್ಯವನ್ನು ಸೇರಿಸಲಾಗಿದೆ; ಪದಾರ್ಥದ ಪರಿಶೀಲನಾ ಸೂಚನೆಗಳು ಉಳಿದಿವೆ.",
+      "colophon": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ, “ಗೌತಮಚರಿತ” ಎಂಬ ಮೂವತ್ತಾರನೆಯ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾಯಿತು.",
+      "colophon_source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "reading_status": "partial",
+      "reading_status_note": "Physical ending recovered from original PNG205; existing source/meaning holds, including विभूमानो, remain."
     },
     {
       "khanda": 2,
@@ -572,14 +576,17 @@
       "section_title": "ದ್ವಿತೀಯ ಖಂಡ · ಸಪ್ತತ್ರಿಂಶ ಅಧ್ಯಾಯ",
       "coverage_status": "partial",
       "included_verses": [
-        20,
+        1,
         41
       ],
       "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p27",
       "source_url": null,
-      "note": "Numbered draft reading through actual terminal verse; meaning/source questions visibly flagged and colophon withheld pending reconciliation. Do not imply final completion.",
-      "coverage_note": "೨೦ರ ಕೊನೆಯ ಭಾಗದಿಂದ ಮಾತ್ರ; ಆರಂಭದ ಮೂಲಪುಟ ಓದಲಾಗಿಲ್ಲ.",
-      "omit_opening_invocation": true
+      "note": "Original PNG205 recovers opening1–20a; later prior source/meaning holds and withheld colophon remain.",
+      "coverage_note": "ಅಧ್ಯಾಯದ ಆರಂಭವನ್ನು ಮೂಲಚಿತ್ರದಿಂದ ಸೇರಿಸಲಾಗಿದೆ; ಪದಾರ್ಥದ ಪರಿಶೀಲನಾ ಸೂಚನೆಗಳು ಉಳಿದಿವೆ.",
+      "omit_opening_invocation": false,
+      "reading_status": "partial",
+      "opening_invocation": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "opening_invocation_source": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205"
     },
     {
       "khanda": 2,
@@ -6073,28 +6080,6 @@
   ],
   "interstitial_pages": [],
   "source_gaps": [
-    {
-      "id": "source-gap-pdf206-page26",
-      "after": {
-        "khanda": 2,
-        "chapter": 36
-      },
-      "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p26",
-      "status": "awaiting_replacement_scan",
-      "source_pdf": "206 TO 255.pdf",
-      "pdf_page": 26,
-      "printed_page": 79,
-      "missing_verse_ranges": [
-        {
-          "khanda": 2,
-          "chapter": 37,
-          "verse_start": 1,
-          "verse_end": 19
-        }
-      ],
-      "title": "ಮೂಲಪ್ರತಿಯ ಓದಲಾಗದ ಪುಟ",
-      "text": "ಮೂಲಪ್ರತಿಯ ೨೦೬ TO ೨೫೫ ಕಡತದ ೨೬ನೆಯ ಪುಟ (ಮುದ್ರಿತ ಪುಟ ೭೯) ಸಂಪೂರ್ಣ ಕಪ್ಪಾಗಿರುವುದರಿಂದ ಓದಲಾಗಿಲ್ಲ. ಅಧ್ಯಾಯ ೩೬ರ ಶ್ಲೋಕ ೮೫ರ ಉಳಿದ ಭಾಗ, ಆ ಅಧ್ಯಾಯದ ಅಂತ್ಯ ಮತ್ತು ಅಧ್ಯಾಯ ೩೭ರ ಆರಂಭದಿಂದ ಶ್ಲೋಕ ೨೦ರ ಮೊದಲ ಭಾಗದವರೆಗಿನ ಪಾಠ ಇಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ. ಅಂತರದ ನಿಖರ ಪಾಠ ಮತ್ತು ಅಧ್ಯಾಯ ೩೬ರ ಅಂತಿಮ ಶ್ಲೋಕಸಂಖ್ಯೆಯನ್ನು ಊಹಿಸಿಲ್ಲ. ಸ್ಪಷ್ಟವಾದ ಬದಲಿ ಪ್ರತಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ; Google ಪ್ರತಿಯಿಂದ ಈ ಅಂತರವನ್ನು ತುಂಬಿಲ್ಲ. ಮುಂದಿನ ಓದಬಹುದಾದ ಮೂಲಪುಟದಿಂದ ಅಧ್ಯಾಯ ೩೭ರ ಶ್ಲೋಕ ೨೦ರ ಕೊನೆಯ ಭಾಗವನ್ನು ಮಾತ್ರ ಮುಂದುವರಿಸಲಾಗಿದೆ."
-    },
     {
       "id": "source-gap-pdf206-page46",
       "after": {

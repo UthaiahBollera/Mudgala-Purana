@@ -29,7 +29,7 @@ def source_ids(value, khanda=None):
         if re.fullmatch(r'[1-9]\d*', page):
             assert khanda in (None, 1), ('Historical PDF source belongs to Khanda 1', khanda, page)
             continue
-        if re.fullmatch(r'pdf:[0-9a-f]{64}:p[1-9]\d*', page):
+        if re.fullmatch(r'(?:pdf|png):[0-9a-f]{64}:p[1-9]\d*', page):
             continue
         match = re.fullmatch(r'gb:([^:]+):PT[1-9]\d*', page)
         assert match and match[1] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Invalid or duplicate source identifiers', value)
@@ -49,12 +49,14 @@ for path in [root/'translation/narrative.tsv', *sorted((root/'translation').glob
         merged[key] = row
 source = (root/'book/index.html').read_text(encoding='utf-8')
 doc = html.fromstring(source)
+elements_by_id = {el.get('id'): el for el in doc.xpath('//*[@id]')}
+def element_by_id(value): return elements_by_id[value]
 actual = [p for p in doc.xpath('//p[@id]') if re.fullmatch(r'(?:kh[1-9]\d*-)?ch[1-9]\d*-v[1-9]\d*', p.get('id'))]
 assert len(doc.xpath('//@id')) == len(set(doc.xpath('//@id'))), 'Duplicate HTML IDs'
 assert len(actual) == len(merged)
 assert len({p.get('id') for p in actual}) == len(actual)
 for key, row in merged.items():
-    p = doc.get_element_by_id(verse_id(*key))
+    p = element_by_id(verse_id(*key))
     assert p.text_content() == re.sub(r'\s*\[[^\]]*\]', '',row['text'])
     assert p.get('lang') == ('sa-Knda' if row['type']=='mantra' else 'kn')
     assert p.get('data-source-pages') == row['source_pages']
@@ -67,7 +69,7 @@ assert declared_missing == [r for g in gaps for r in g.get('missing_verse_ranges
 for gap in gaps:
     assert gap['status'] == 'awaiting_replacement_scan'
     source_ids(gap['source_page'])
-    node = doc.get_element_by_id(gap['id'])
+    node = element_by_id(gap['id'])
     assert node.get('data-source-pages') == gap['source_page']
     assert gap['text'] in node.text_content()
 for fragment in boundary.get('fragment_only_keys', []):
@@ -103,6 +105,7 @@ if google_boundary:
     assert {page for page in covered_pages if page.isdecimal()} == {str(page) for page in range(14,134)}, 'Historical PDF coverage must stay exactly 14–133'
     assert {page for page in covered_pages if page.startswith('gb:')} == set(declared), 'Unknown or missing Google Books coverage pages'
     assert {page for page in covered_pages if page.startswith('pdf:')} == set(boundary.get('pdf_source_pages', [])), 'Unknown or missing local PDF coverage pages'
+    assert {page for page in covered_pages if page.startswith('png:')} == set(boundary.get('png_source_pages', [])), 'Unknown or missing original PNG coverage pages'
 else:
     assert all(page.isdecimal() for page in covered_pages), 'Google Books source pages require a named coverage boundary'
     numeric_pages = {int(page) for page in covered_pages}
@@ -110,7 +113,7 @@ else:
     assert max(numeric_pages) == int(expected)
 if google_boundary:
     review_required = sorted(tuple(map(int, key)) for key in boundary.get('review_required_keys', []))
-    actual_review_required = sorted(key for key, row in merged.items() if row['type'] == 'translation-review' and any(page.startswith(('gb:', 'pdf:')) for page in source_ids(row['source_pages'])))
+    actual_review_required = sorted(key for key, row in merged.items() if row['type'] == 'translation-review' and any(page.startswith(('gb:', 'pdf:', 'png:')) for page in source_ids(row['source_pages'])))
     assert review_required == actual_review_required, 'Google Books review-required coverage differs from marked verses'
 partials = sorted(k for k,r in merged.items() if r['type']=='translation-partial')
 expected_partials = (sorted(tuple(map(int, key)) for key in boundary['partial_keys'])

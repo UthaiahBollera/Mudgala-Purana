@@ -114007,6 +114007,230 @@
           "rationale": "Cross-source-supported name-only correction; base ಚ and historical source-page14 retained, Google omission documented separately."
         }
       ]
+    },
+    {
+      "file": "batch-361-original-png-gap1.tsv",
+      "sha256": "58453b234695b9aab2d5cc724d2afc1a1e5d15ecc8c64846877a4d9b1bea19f3",
+      "source_kind": "original_png_archive",
+      "source_archive": {
+        "filename": "Mudugal Purana.zip",
+        "sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "bytes": 191729010,
+        "Library_file": "libfile_64aa2ca51ef881918c442b04d0fdf5bb",
+        "Drive_URL": "https://drive.google.com/file/d/1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi/view?usp=drivesdk",
+        "edition_identity": "Not bibliographically assumed; page/verse and adjacent-boundary matching verified."
+      },
+      "source_pages": [
+        {
+          "id": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "image_index": 205,
+          "member": "Page Images/page_0205.png",
+          "image_sha256": "859eb46578437900a8e21cb7699603ffd93f9af30d4ada58c9abd48e9c35cc18",
+          "dimensions": [
+            3840,
+            2508
+          ],
+          "printed_page": 79,
+          "pixels_Mac_checked": true
+        }
+      ],
+      "review_status": "accepted",
+      "review_file": "translation/original-png-khanda2-gap1-review.json",
+      "review_sha256": "5f7a4e7b52bfb2d6b8993b0c8a704457fe9878deaaf69d2e2ef70837f4b6891e",
+      "coverage_boundary": "original-png-khanda2-gap1",
+      "added_keys": [
+        [
+          2,
+          36,
+          86
+        ],
+        [
+          2,
+          37,
+          1
+        ],
+        [
+          2,
+          37,
+          2
+        ],
+        [
+          2,
+          37,
+          3
+        ],
+        [
+          2,
+          37,
+          4
+        ],
+        [
+          2,
+          37,
+          5
+        ],
+        [
+          2,
+          37,
+          6
+        ],
+        [
+          2,
+          37,
+          7
+        ],
+        [
+          2,
+          37,
+          8
+        ],
+        [
+          2,
+          37,
+          9
+        ],
+        [
+          2,
+          37,
+          10
+        ],
+        [
+          2,
+          37,
+          11
+        ],
+        [
+          2,
+          37,
+          12
+        ],
+        [
+          2,
+          37,
+          13
+        ],
+        [
+          2,
+          37,
+          14
+        ],
+        [
+          2,
+          37,
+          15
+        ],
+        [
+          2,
+          37,
+          16
+        ],
+        [
+          2,
+          37,
+          17
+        ],
+        [
+          2,
+          37,
+          18
+        ],
+        [
+          2,
+          37,
+          19
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            36,
+            85
+          ],
+          "old_row": {
+            "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p25",
+            "type": "translation-review",
+            "text": "ಕಲಿಯುಗದಲ್ಲಿ ಪಾಪಿಗಳಾದ (ಪರಿಶೀಲನೆ: ಅಸ್ಪಷ್ಟ: P10-U-07; null) (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.) (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಆರಂಭದ ತುಣುಕು ಮಾತ್ರ; ಮುಂದುವರಿಕೆ ಲಭ್ಯವಿಲ್ಲ.)"
+          },
+          "new_row": {
+            "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p25,png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+            "type": "translation-review",
+            "text": "ಕಲಿಯುಗದಲ್ಲಿ ಪಾಪಿಗಳಾದ ಮಹರ್ಷಿಗಳಾಗುವರು. ಮನುಷ್ಯನು ಅವರು ಪ್ರತಿಪಾದಿಸಿದ ವಾಮಾದಿ ಶಾಸ್ತ್ರವನ್ನು ಆಚರಿಸಬಾರದು. ॥೮೫॥ (ಪರಿಶೀಲನೆ: “ವಿಭೂಮಾನೋ” ಮುದ್ರಿತ ಪದದ ಓದು ಮತ್ತು ಅರ್ಥ ಇನ್ನೂ ಅನಿಶ್ಚಿತ; ಪರ್ಯಾಯ ಪಾಠವನ್ನು ಸ್ವೀಕರಿಸಿಲ್ಲ.)"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch36-reading-review.json",
+          "source_evidence": [
+            {
+              "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p25",
+              "text": "कलौ पापा विभूमानो",
+              "historical_review_file": "translation/local-pdf-khanda2-ch36-reading-review.json"
+            },
+            {
+              "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+              "text": "भविष्यन्ति महर्षयः । नरस्तैः कथितं शास्त्रं न वामादिकमाचरेत् ॥८५॥",
+              "candidate_entry_id": "2.36.85.continuation",
+              "source_regions": [
+                {
+                  "image": "page_0205.png",
+                  "bbox_xyxy": [
+                    250,
+                    390,
+                    2285,
+                    485
+                  ],
+                  "precision": "Approximate text region."
+                }
+              ]
+            }
+          ],
+          "review_status": "accepted",
+          "rationale": "New original PNG205 joins the declared existing fragment once. Physical completion does not close retained lexical holds."
+        },
+        {
+          "key": [
+            2,
+            37,
+            20
+          ],
+          "old_row": {
+            "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p27",
+            "type": "translation-review",
+            "text": "ಎಲೈ ದೈತ್ಯಪತಿಯೇ, ಈಗ ಎಲ್ಲೆಡೆಯೂ ಸಮನಾಗಿ ॥ ೨೦ ॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ಪ್ರಶ್ನೆ ಇನ್ನೂ ಬಾಕಿಯಿದೆ; ಅನಿಶ್ಚಿತ ಭಾಗಗಳಿಗೆ ಅಂತಿಮ ಸ್ವೀಕಾರ ನೀಡಲಾಗಿಲ್ಲ.) (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಕೊನೆಯ ಭಾಗ ಮಾತ್ರ; ಮೊದಲ ಭಾಗ ಓದಲಾಗದ ಮೂಲಪುಟದಲ್ಲಿದೆ.)"
+          },
+          "new_row": {
+            "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p27",
+            "type": "translation",
+            "text": "ಅವನು ತಂದೆಗೆ ಹೀಗೆ ಬೋಧಿಸಿದನು: “ಎಲೈ ದೈತ್ಯಪತಿಯೇ, ಈಗ ಎಲ್ಲೆಡೆಯೂ ಸಮನಾಗಿ ಇರುವ ಆನಂದಸ್ವರೂಪನಾದ ವಿಷ್ಣುವಿನ ಶರಣನ್ನು ಸೇರು.” ॥೨೦॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch37-reading-review.json",
+          "source_evidence": [
+            {
+              "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+              "text": "पितरं बोधयामास विष्णुमानंदरूपिणम् । शरणं याहि",
+              "candidate_entry_id": "2.37.20",
+              "source_regions": [
+                {
+                  "image": "page_0205.png",
+                  "bbox_xyxy": [
+                    240,
+                    2315,
+                    3650,
+                    2420
+                  ],
+                  "precision": "Whole printed line band; may include adjacent verse text.",
+                  "line_band": 15
+                }
+              ]
+            },
+            {
+              "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p27",
+              "text": "सर्वत्र समं दैत्यपतेऽधुना ॥२०॥",
+              "historical_review_file": "translation/local-pdf-khanda2-ch37-reading-review.json"
+            }
+          ],
+          "review_status": "accepted",
+          "rationale": "New original PNG205 joins the declared existing fragment once. Physical completion does not close retained lexical holds."
+        }
+      ]
     }
   ],
   "reference_only_index": {

@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from validate_text_correction import validate_base_text_correction
 class BaseRepair(unittest.TestCase):
  def setUp(self):
-  b=json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches'][-1];self.item=copy.deepcopy(b['text_corrections'][0]);self.review=json.loads((ROOT/b['review_file']).read_text());self.old=copy.deepcopy(self.item['old_row']);self.new=copy.deepcopy(self.item['new_row'])
+  b=next(b for b in reversed(json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']) if b.get('source_kind')=='reviewed_base_correction');self.item=copy.deepcopy(b['text_corrections'][0]);self.review=json.loads((ROOT/b['review_file']).read_text());self.old=copy.deepcopy(self.item['old_row']);self.new=copy.deepcopy(self.item['new_row'])
  def check(self):validate_base_text_correction(ROOT,self.old,self.new,self.item,self.review)
  def reject(self):
   with self.assertRaises(AssertionError):self.check()

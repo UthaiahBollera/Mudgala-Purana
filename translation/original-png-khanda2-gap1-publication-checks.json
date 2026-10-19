@@ -1,0 +1,115 @@
+{
+  "status": "all_data_structure_provenance_and_regression_checks_passed",
+  "added_numbered_records": 20,
+  "modified_numbered_records": 2,
+  "added_numbered_IDs": [
+    "kh2-ch36-v86",
+    "kh2-ch37-v1",
+    "kh2-ch37-v10",
+    "kh2-ch37-v11",
+    "kh2-ch37-v12",
+    "kh2-ch37-v13",
+    "kh2-ch37-v14",
+    "kh2-ch37-v15",
+    "kh2-ch37-v16",
+    "kh2-ch37-v17",
+    "kh2-ch37-v18",
+    "kh2-ch37-v19",
+    "kh2-ch37-v2",
+    "kh2-ch37-v3",
+    "kh2-ch37-v4",
+    "kh2-ch37-v5",
+    "kh2-ch37-v6",
+    "kh2-ch37-v7",
+    "kh2-ch37-v8",
+    "kh2-ch37-v9"
+  ],
+  "modified_numbered_IDs": [
+    "kh2-ch36-v85",
+    "kh2-ch37-v20"
+  ],
+  "numbered_total": 22454,
+  "numbered_chapters": 408,
+  "reference_locators": 264,
+  "reference_chapters": 17,
+  "main_registry_added": 1,
+  "main_registry_modified": 3,
+  "main_registry_added_IDs": [
+    "kh2-ch37-v4"
+  ],
+  "main_registry_modified_IDs": [
+    "kh2-ch36-v85",
+    "kh2-ch37-v20",
+    "source-gap-pdf206-page26"
+  ],
+  "new_nonverse_units": 3,
+  "active_source_gaps_before": 3,
+  "active_source_gaps_after": 2,
+  "all_other_numbered_texts_old_TSVs_CSS_prompt_assets_reference_data_preserved": true,
+  "all_other_registry_records_preserved": true,
+  "other_gap_notices_exact": true,
+  "boundary_joins_exactly_once": true,
+  "EPUB_all_numbered_texts_exact": true,
+  "worker_frozen_candidates_and_null_acceptance_fields_preserved": true,
+  "tests": {
+    "Google": 38,
+    "PDF": 16,
+    "existing_text_corrections": 8,
+    "base_text_correction": 8,
+    "boundary_resolution": 5,
+    "fragment_completion": 5,
+    "PNG_recovery": 11,
+    "reference_only": 20,
+    "both_navigation_builds": true
+  },
+  "test_log": "/tmp/kh2-gap1-complete-checks.log",
+  "remaining_lexical_holds": [
+    "36.85 विभूमानो",
+    "37.4 तयोर्जितं"
+  ],
+  "paid_calls": 0,
+  "QA_local": [
+    {
+      "width": 1470,
+      "all_new_texts_exact": true,
+      "joins_unique": true,
+      "recovered_gap_notice_removed": true,
+      "remaining_gap_preserved": true,
+      "base_name_and_cha": true,
+      "base_verse1_preserved": true,
+      "numbered": true,
+      "reference": true,
+      "font": true,
+      "no_overflow": true,
+      "dead": 0
+    },
+    {
+      "width": 375,
+      "all_new_texts_exact": true,
+      "joins_unique": true,
+      "recovered_gap_notice_removed": true,
+      "remaining_gap_preserved": true,
+      "base_name_and_cha": true,
+      "base_verse1_preserved": true,
+      "numbered": true,
+      "reference": true,
+      "font": true,
+      "no_overflow": true,
+      "dead": 0
+    },
+    {
+      "width": 390,
+      "all_new_texts_exact": true,
+      "joins_unique": true,
+      "recovered_gap_notice_removed": true,
+      "remaining_gap_preserved": true,
+      "base_name_and_cha": true,
+      "base_verse1_preserved": true,
+      "numbered": true,
+      "reference": true,
+      "font": true,
+      "no_overflow": true,
+      "dead": 0
+    }
+  ]
+}

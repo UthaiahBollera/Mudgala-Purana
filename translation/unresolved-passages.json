@@ -25133,6 +25133,37 @@
           "status": "pixels_compared_semantic_holds_retained",
           "assessment": "Google confirms first-half कलौ पापा विभूमानो and additionally displays full85, but assigned primary only85a. Keep विभूमानो lexical hold and fragment boundary; do not import85b or86."
         }
+      ],
+      "current_recovery_review": {
+        "review_file": "translation/original-png-khanda2-gap1-review.json",
+        "review_sha256": "5f7a4e7b52bfb2d6b8993b0c8a704457fe9878deaaf69d2e2ef70837f4b6891e",
+        "key": [
+          2,
+          36,
+          85
+        ],
+        "source_sanskrit": "कलौ पापा विभूमानो भविष्यन्ति महर्षयः । नरस्तैः कथितं शास्त्रं न वामादिकमाचरेत् ॥८५॥",
+        "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p25,png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+        "text": "ಕಲಿಯುಗದಲ್ಲಿ ಪಾಪಿಗಳಾದ ಮಹರ್ಷಿಗಳಾಗುವರು. ಮನುಷ್ಯನು ಅವರು ಪ್ರತಿಪಾದಿಸಿದ ವಾಮಾದಿ ಶಾಸ್ತ್ರವನ್ನು ಆಚರಿಸಬಾರದು. ॥೮೫॥ (ಪರಿಶೀಲನೆ: “ವಿಭೂಮಾನೋ” ಮುದ್ರಿತ ಪದದ ಓದು ಮತ್ತು ಅರ್ಥ ಇನ್ನೂ ಅನಿಶ್ಚಿತ; ಪರ್ಯಾಯ ಪಾಠವನ್ನು ಸ್ವೀಕರಿಸಿಲ್ಲ.)",
+        "review_status": "accepted_with_unresolved_reading",
+        "issues": [
+          {
+            "status": "open",
+            "kind": "lexical_interpretation",
+            "reading": null,
+            "token": "विभूमानो",
+            "detail": "Original source form retained; lexical/syntactic interpretation remains unresolved after physical gap recovery."
+          }
+        ],
+        "physical_gap_recovered": true
+      },
+      "resolution_provenance": [
+        {
+          "status": "physical_fragment_completed_lexical_hold_retained",
+          "review_file": "translation/original-png-khanda2-gap1-review.json",
+          "review_sha256": "5f7a4e7b52bfb2d6b8993b0c8a704457fe9878deaaf69d2e2ef70837f4b6891e",
+          "historical_original_fields_preserved": true
+        }
       ]
     },
     {
@@ -25142,7 +25173,7 @@
       "chapter": 37,
       "verse_start": 20,
       "verse_end": 20,
-      "status": "open_pdf_reading_question",
+      "status": "resolved_by_verified_boundary_completion",
       "primary_source": {
         "filename": "206 TO 255.pdf",
         "sha256": "e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f",
@@ -25163,7 +25194,27 @@
       ],
       "book_id": null,
       "google_books_pages": null,
-      "google_books_page_url": null
+      "google_books_page_url": null,
+      "resolution": {
+        "key": [
+          2,
+          37,
+          20
+        ],
+        "review_file": "translation/original-png-khanda2-gap1-review.json",
+        "review_sha256": "5f7a4e7b52bfb2d6b8993b0c8a704457fe9878deaaf69d2e2ef70837f4b6891e",
+        "source_sanskrit": "पितरं बोधयामास विष्णुमानंदरूपिणम् । शरणं याहि सर्वत्र समं दैत्यपतेऽधुना ॥२०॥",
+        "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p27",
+        "text": "ಅವನು ತಂದೆಗೆ ಹೀಗೆ ಬೋಧಿಸಿದನು: “ಎಲೈ ದೈತ್ಯಪತಿಯೇ, ಈಗ ಎಲ್ಲೆಡೆಯೂ ಸಮನಾಗಿ ಇರುವ ಆನಂದಸ್ವರೂಪನಾದ ವಿಷ್ಣುವಿನ ಶರಣನ್ನು ಸೇರು.” ॥೨೦॥"
+      },
+      "resolution_provenance": [
+        {
+          "status": "completed_original_scan_fragment_independently_reviewed",
+          "review_file": "translation/original-png-khanda2-gap1-review.json",
+          "review_sha256": "5f7a4e7b52bfb2d6b8993b0c8a704457fe9878deaaf69d2e2ef70837f4b6891e",
+          "old_source_and_issue_fields_preserved": true
+        }
+      ]
     },
     {
       "id": "kh2-ch37-v23",
@@ -25322,7 +25373,7 @@
         "chapter": 36
       },
       "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p26",
-      "status": "awaiting_replacement_scan",
+      "status": "resolved_by_additional_original_scan",
       "source_pdf": "206 TO 255.pdf",
       "pdf_page": 26,
       "printed_page": 79,
@@ -25349,7 +25400,38 @@
           "kind": "replacement_scan_required",
           "description": "Original page26 black; exact chapter36 ending and text unknown; never reconstruct from reference."
         }
-      ]
+      ],
+      "resolution": {
+        "review_file": "translation/original-png-khanda2-gap1-review.json",
+        "review_sha256": "5f7a4e7b52bfb2d6b8993b0c8a704457fe9878deaaf69d2e2ef70837f4b6891e",
+        "source_archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "source_member": "Page Images/page_0205.png",
+        "source_image_sha256": "859eb46578437900a8e21cb7699603ffd93f9af30d4ada58c9abd48e9c35cc18",
+        "prior_black_page_and_gap_description_preserved": true,
+        "recovered_numbered_range": [
+          [
+            2,
+            36,
+            85
+          ],
+          [
+            2,
+            36,
+            86
+          ],
+          [
+            2,
+            37,
+            1
+          ],
+          [
+            2,
+            37,
+            20
+          ]
+        ],
+        "not_Google_backfill": true
+      }
     },
     {
       "id": "kh2-ch39-v36",
@@ -1836816,6 +1836898,33 @@
         50
       ],
       "reference_evidence_storage": "Full literal page OCR retained in chapter review; registry stores hashes/paths/spans without repeated page text."
+    },
+    {
+      "id": "kh2-ch37-v4",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 37,
+      "verse_start": 4,
+      "verse_end": 4,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "सायंकालं च शुष्कार्द्रं विस्मरंतौ महासुरौ । तदेव मरणस्थानं तयोर्जितं प्रजापते ॥४॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "lexical_interpretation",
+          "reading": null,
+          "token": "तयोर्जितं",
+          "detail": "Printed form retained; contextual Kannada remains provisional; no conjectural normalization."
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap1-review.json",
+      "review_sha256": "5f7a4e7b52bfb2d6b8993b0c8a704457fe9878deaaf69d2e2ef70837f4b6891e",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
     }
   ]
 }

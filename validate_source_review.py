@@ -27,7 +27,9 @@ def translation_paths(commit=None):
         names = subprocess.check_output(['git','ls-tree','-r','--name-only',commit,'translation'], cwd=ROOT).decode().splitlines()
         return [name for name in names if name == 'translation/narrative.tsv'] + sorted(
             name for name in names if re.fullmatch(r'translation/batch-[^/]+\.tsv', name))
-    return ['translation/narrative.tsv'] + sorted(str(path.relative_to(ROOT)) for path in (ROOT/'translation').glob('batch-*.tsv'))
+    return ['translation/narrative.tsv'] + sorted(
+        (str(path.relative_to(ROOT)) for path in (ROOT/'translation').glob('batch-*.tsv')),
+        key=lambda name: (int(Path(name).name.split('-')[1]) if Path(name).name.split('-')[1].isdigit() else 0, name))
 def verse_key(row):
     return int(row.get('khanda') or 1), int(row['chapter']), int(row['verse'])
 def parse_rows(raw):
@@ -37,7 +39,11 @@ def parse_rows(raw):
     return dict(zip(keys, rows))
 def load_rows(commit=None):
     merged = {}
-    for name in translation_paths(commit):
+    paths = translation_paths(commit)
+    if commit is None and (ROOT/'translation/batch-manifest.json').is_file():
+        ordered = ['translation/'+b['file'] for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']]
+        paths = [name for name in paths if name not in ordered] + ordered
+    for name in paths:
         raw = git_bytes(commit, name) if commit else (ROOT/name).read_bytes()
         merged.update(parse_rows(raw))
     return merged
@@ -51,7 +57,7 @@ def source_ids(value, khanda=None):
         if re.fullmatch(r'[1-9]\d*', page):
             assert khanda in (None, 1), ('Historical PDF source belongs to Khanda 1', khanda, page)
             continue
-        if re.fullmatch(r'pdf:[0-9a-f]{64}:p[1-9]\d*', page):
+        if re.fullmatch(r'(?:pdf|png):[0-9a-f]{64}:p[1-9]\d*', page):
             continue
         match = re.fullmatch(r'gb:([^:]+):PT[1-9]\d*', page)
         assert match and match[1] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Invalid or duplicate source identifiers', value)
@@ -183,6 +189,13 @@ if manifest is not None:
     previous_end = 133
     google_pages = set()
     pdf_pages = set()
+    png_pages = set()
+    registry_snapshot = None
+    def load_registry():
+        global registry_snapshot
+        if registry_snapshot is None:
+            registry_snapshot = json.loads((ROOT/'translation/unresolved-passages.json').read_text())
+        return registry_snapshot
     google_unresolved_keys = set()
     coverage = json.loads((ROOT/'translation/coverage.json').read_text(encoding='utf-8'))
     for batch, name in zip(batches, manifest_paths):
@@ -197,7 +210,8 @@ if manifest is not None:
         assert hashlib.sha256(review_path.read_bytes()).hexdigest() == batch['review_sha256'], ('Review artifact checksum mismatch', name)
         pdf_batch = batch.get('source_kind') == 'local_pdf'
         base_correction_batch = batch.get('source_kind') == 'reviewed_base_correction'
-        google_batch = manifest['schema_version'] == 2 and not pdf_batch and not base_correction_batch
+        png_batch = batch.get('source_kind') == 'original_png_archive'
+        google_batch = manifest['schema_version'] == 2 and not pdf_batch and not base_correction_batch and not png_batch
         if google_batch:
             assert batch['source_kind'] == 'google_books' and batch['book_id'] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Wrong Google Books source', name)
             if 'volume' in batch:
@@ -223,7 +237,7 @@ if manifest is not None:
         elif pdf_batch:
             from validate_pdf_review import validate_pdf_batch
             review = json.loads(review_path.read_text(encoding='utf-8'))
-            registry = json.loads((ROOT/'translation/unresolved-passages.json').read_text())
+            registry = load_registry()
             allowed_pages, unresolved_pdf = validate_pdf_batch(ROOT, batch, parse_rows(raw_batch), review, registry)
             pdf_pages.update(allowed_pages)
             google_unresolved_keys.difference_update(parse_rows(raw_batch))
@@ -232,6 +246,16 @@ if manifest is not None:
             assert set(boundary['source_pages']) == google_pages and len(boundary['source_pages']) == len(google_pages), 'PDF batch changed Google coverage'
             assert set(boundary['pdf_source_pages']) == pdf_pages and len(boundary['pdf_source_pages']) == len(pdf_pages), 'PDF coverage differs from pages'
             assert {tuple(k) for k in boundary['review_required_keys']} == google_unresolved_keys, 'PDF unresolved coverage mismatch'
+        elif png_batch:
+            from validate_png_review import validate_png_batch
+            review = json.loads(review_path.read_text(encoding='utf-8'))
+            allowed_pages, unresolved_png = validate_png_batch(ROOT, batch, parse_rows(raw_batch), review, load_registry())
+            png_pages.update(allowed_pages)
+            google_unresolved_keys.difference_update(parse_rows(raw_batch))
+            google_unresolved_keys.update(unresolved_png)
+            boundary = coverage[batch['coverage_boundary']]
+            assert set(boundary['source_pages']) == google_pages and set(boundary['pdf_source_pages']) == pdf_pages, 'PNG batch changed earlier coverage'
+            assert set(boundary['png_source_pages']) == png_pages and {tuple(k) for k in boundary['review_required_keys']} == google_unresolved_keys, 'PNG coverage or holds mismatch'
         elif base_correction_batch:
             assert not batch['added_keys'] and not batch['boundary_completions'], 'Base repair cannot add or complete verses'
             review = json.loads(review_path.read_text(encoding='utf-8'))
@@ -270,7 +294,7 @@ if manifest is not None:
                     assert any(re.search(r'[\u0c80-\u0cff]', notice) and any(word in notice for word in ('ಪರಿಶೀಲನೆ', 'ಅನಿಶ್ಚಿತ', 'ಖಚಿತವಾಗಿಲ್ಲ')) for notice in notices), ('Missing visible Kannada uncertainty notice', key)
                     registry_path = ROOT/'translation/unresolved-passages.json'
                     assert registry_path.is_file(), ('Unresolved registry missing', key)
-                    registry = json.loads(registry_path.read_text(encoding='utf-8'))
+                    registry = load_registry()
                     matches = [item for item in registry['records'] if item.get('id') == f'kh{key[0]}-ch{key[1]}-v{key[2]}']
                     assert len(matches) == 1, ('Missing or duplicate unresolved registry entry', key)
                     issue_record = matches[0]

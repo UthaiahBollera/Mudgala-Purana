@@ -1,0 +1,1212 @@
+{
+  "schema_version": 1,
+  "source_kind": "original_png_archive",
+  "source_priority": "new_original_PNG_pixels_with_independent_review_no_OCR_reconstruction",
+  "source_archive": {
+    "filename": "Mudugal Purana.zip",
+    "sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+    "bytes": 191729010,
+    "Library_file": "libfile_64aa2ca51ef881918c442b04d0fdf5bb",
+    "Drive_URL": "https://drive.google.com/file/d/1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi/view?usp=drivesdk",
+    "edition_identity": "Not bibliographically assumed; page/verse and adjacent-boundary matching verified."
+  },
+  "source_pages": [
+    {
+      "id": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "image_index": 205,
+      "member": "Page Images/page_0205.png",
+      "image_sha256": "859eb46578437900a8e21cb7699603ffd93f9af30d4ada58c9abd48e9c35cc18",
+      "dimensions": [
+        3840,
+        2508
+      ],
+      "printed_page": 79,
+      "pixels_Mac_checked": true
+    }
+  ],
+  "boundary_corroborating_images": [
+    {
+      "image": "page_0204.png",
+      "sha256": "1b63c84109c9635a8c5f8265b87c85377d28025c94a36334a5ad95dc17d05698",
+      "dimensions_px": [
+        3840,
+        2508
+      ]
+    },
+    {
+      "image": "page_0205.png",
+      "sha256": "859eb46578437900a8e21cb7699603ffd93f9af30d4ada58c9abd48e9c35cc18",
+      "dimensions_px": [
+        3840,
+        2508
+      ]
+    },
+    {
+      "image": "page_0206.png",
+      "sha256": "71e493dec2945eb66d039bd9c2ad17a6864abea613a02948e7f57286bd41f176",
+      "dimensions_px": [
+        3840,
+        2508
+      ]
+    }
+  ],
+  "candidate_file": "translation/gap-recoveries/kh2-gap1/candidate.reviewed.json",
+  "candidate_sha256": "53677c5555c43a9dae536be55c93c90f8db388905b55677949d0e84d45e0028d",
+  "frozen_candidate_file": "translation/gap-recoveries/kh2-gap1/candidate.frozen.json",
+  "frozen_candidate_sha256": "fcc95bcfcb2916e10e7071d8b8a649d73cbb0f30ea511c4ddaee2c9d6c686a00",
+  "independent_review_file": "translation/gap-recoveries/kh2-gap1/independent-review.md",
+  "independent_review_sha256": "82c8a1b8e0e9e544cc25a0a3f2d9b8f884663a9b1801b77f5dfa6150148f44ae",
+  "handoff_Library_file": "libfile_b36b7fa38cec8191b8a4618690c79ef4",
+  "handoff_bytes": 881419,
+  "handoff_sha256": "07c06c58c82b91b05c16e00c339ea0a8b6f83f92a2bcab1353d79f33bbf24d53",
+  "source_method": "Mac materialized Library bytes, verified frozen/reviewed hashes and all three PNG bytes against verified full archive, inspected full pixels and critical detail crops. No paid calls.",
+  "verses": [
+    {
+      "key": [
+        2,
+        36,
+        85
+      ],
+      "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p25,png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation-review",
+      "text": "ಕಲಿಯುಗದಲ್ಲಿ ಪಾಪಿಗಳಾದ ಮಹರ್ಷಿಗಳಾಗುವರು. ಮನುಷ್ಯನು ಅವರು ಪ್ರತಿಪಾದಿಸಿದ ವಾಮಾದಿ ಶಾಸ್ತ್ರವನ್ನು ಆಚರಿಸಬಾರದು. ॥೮೫॥ (ಪರಿಶೀಲನೆ: “ವಿಭೂಮಾನೋ” ಮುದ್ರಿತ ಪದದ ಓದು ಮತ್ತು ಅರ್ಥ ಇನ್ನೂ ಅನಿಶ್ಚಿತ; ಪರ್ಯಾಯ ಪಾಠವನ್ನು ಸ್ವೀಕರಿಸಿಲ್ಲ.)",
+      "source_sanskrit": "कलौ पापा विभूमानो भविष्यन्ति महर्षयः । नरस्तैः कथितं शास्त्रं न वामादिकमाचरेत् ॥८५॥",
+      "source_parts": [
+        {
+          "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p25",
+          "text": "कलौ पापा विभूमानो",
+          "historical_review_file": "translation/local-pdf-khanda2-ch36-reading-review.json"
+        },
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "भविष्यन्ति महर्षयः । नरस्तैः कथितं शास्त्रं न वामादिकमाचरेत् ॥८५॥",
+          "candidate_entry_id": "2.36.85.continuation",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                250,
+                390,
+                2285,
+                485
+              ],
+              "precision": "Approximate text region."
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.36.85.continuation"
+      ],
+      "review_status": "accepted_with_unresolved_reading",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "lexical_interpretation",
+          "reading": null,
+          "token": "विभूमानो",
+          "detail": "Original source form retained; lexical/syntactic interpretation remains unresolved after physical gap recovery."
+        }
+      ],
+      "writer_disposition": "provisional_Kannada_with_explicit_hold",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        36,
+        86
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಈ ಗೌತಮಮಾಹಾತ್ಮ್ಯವನ್ನು ಯಾವ ಮನುಷ್ಯನು ಕೇಳುವನೋ ಅಥವಾ ಪಠಿಸುವನೋ, ಅವನು ಮಲರಹಿತನಾಗಿ ಇಹಲೋಕದಲ್ಲಿಯೂ ಪರಲೋಕದಲ್ಲಿಯೂ ಅತ್ಯಂತ ಸುಖಿಯಾಗುವನು. ॥೮೬॥",
+      "source_sanskrit": "इदं गौतममाहात्म्यं यः शृणोति नरो भवेत् । पठेद्वा मलहीनः सन्निहामुत्र सुखी परम् ॥८६॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "इदं गौतममाहात्म्यं यः शृणोति नरो भवेत् । पठेद्वा मलहीनः सन्निहामुत्र सुखी परम् ॥८६॥",
+          "candidate_entry_id": "2.36.86",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                2280,
+                390,
+                3640,
+                485
+              ],
+              "precision": "Approximate text region."
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                250,
+                487,
+                1660,
+                580
+              ],
+              "precision": "Approximate text region."
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.36.86"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        1
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಮುದ್ಗಲರು ಹೇಳಿದರು: ಸಂಧ್ಯಾಕಾಲದಲ್ಲಿ ನಡೆದ ಋತುದಾನದಿಂದ, ಕಶ್ಯಪರಿಗೆ ದಿತಿಯಲ್ಲಿ ಮಹಾಪರಾಕ್ರಮಿಗಳೂ ಅತ್ಯಂತ ಕ್ರೂರರೂ ಆದ ಇಬ್ಬರು ದೈತ್ಯಪುತ್ರರು ಜನಿಸಿದರು. ॥೧॥",
+      "source_sanskrit": "मुद्गल उवाच । दितेः पुत्रौ महावीर्यौ कश्यपात् संबभूवतुः । संध्यायामृतुदानेन दैत्यौ परमदारुणौ ॥१॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "मुद्गल उवाच ।",
+          "candidate_entry_id": "2.37.speaker",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                885,
+                907,
+                1195,
+                1000
+              ],
+              "precision": "Approximate speaker region."
+            }
+          ]
+        },
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "दितेः पुत्रौ महावीर्यौ कश्यपात् संबभूवतुः । संध्यायामृतुदानेन दैत्यौ परमदारुणौ ॥१॥",
+          "candidate_entry_id": "2.37.1",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                899,
+                3650,
+                1000
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 1
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.speaker",
+        "2.37.1"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        2
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಅವರಿಬ್ಬರೂ ಒಂದು ಸಾವಿರ ದಿವ್ಯವರ್ಷಗಳ ಕಾಲ ಘೋರವಾದ ತಪಸ್ಸನ್ನು ಆಚರಿಸಿದರು. ಅವರ ತಪಸ್ಸಿನ ಪ್ರಭಾವದಿಂದ ಬ್ರಹ್ಮನು ಅವರಿಗೆ ವರದಾನ ಮಾಡಲು ಮುಂದಾದನು. ॥೨॥",
+      "source_sanskrit": "ताभ्यां तप्तं तपो घोरं दिव्यवर्षसहस्रकम् । तयोस्तपःप्रभावेण ब्रह्मा तु वरदोऽभवत् ॥२॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "ताभ्यां तप्तं तपो घोरं दिव्यवर्षसहस्रकम् । तयोस्तपःप्रभावेण ब्रह्मा तु वरदोऽभवत् ॥२॥",
+          "candidate_entry_id": "2.37.2",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1000,
+                3650,
+                1100
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 2
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.2"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        3
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಎಲ್ಲ ಪ್ರಾಣಿಗಳಿಂದಲೂ ಮರಣವು ಉಂಟಾಗಬಾರದೆಂಬ ಅವರ ಅಭಿಲಷಿತ ವರವನ್ನು ಅವರಿಬ್ಬರಿಗೆ ನೀಡಿ, ಸ್ವಯಂ ಬ್ರಹ್ಮನು ಪುನಃ ತನ್ನ ಸ್ಥಾನಕ್ಕೆ ತೆರಳಿದನು. ॥೩॥",
+      "source_sanskrit": "मरणं सर्वभूतेभ्यो न भवेदीप्सितं वरम् । ताभ्यां दत्त्वा स्वयं ब्रह्मा स्वस्थानमगमत् पुनः ॥३॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "मरणं सर्वभूतेभ्यो न भवेदीप्सितं वरम् । ताभ्यां दत्त्वा स्वयं ब्रह्मा स्वस्थानमगमत् पुनः ॥३॥",
+          "candidate_entry_id": "2.37.3",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1000,
+                3650,
+                1100
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 2
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1103,
+                3650,
+                1200
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 3
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.3"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        4
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation-review",
+      "text": "ಓ ಪ್ರಜಾಪತಿಯೇ, ಆ ಮಹಾಸುರರಿಬ್ಬರು ಸಾಯಂಕಾಲವನ್ನೂ ಒಣಗಿದುದನ್ನೂ ಒದ್ದೆಯಾದುದನ್ನೂ ಮರೆತಿದ್ದರು. ಅದೇ ಅವರ ಮರಣಕ್ಕೆ ಅವಕಾಶವಾಯಿತು. ॥೪॥ (ಪರಿಶೀಲನೆ: “ತಯೋರ್ಜಿತಂ” ಮುದ್ರಿತ ಪಾಠ ಉಳಿಸಲಾಗಿದೆ; ಪದಸಂಬಂಧ ಮತ್ತು ಅರ್ಥ ಇನ್ನೂ ಅನಿಶ್ಚಿತ.)",
+      "source_sanskrit": "सायंकालं च शुष्कार्द्रं विस्मरंतौ महासुरौ । तदेव मरणस्थानं तयोर्जितं प्रजापते ॥४॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "सायंकालं च शुष्कार्द्रं विस्मरंतौ महासुरौ । तदेव मरणस्थानं तयोर्जितं प्रजापते ॥४॥",
+          "candidate_entry_id": "2.37.4",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1103,
+                3650,
+                1200
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 3
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1202,
+                3650,
+                1300
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 4
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.4"
+      ],
+      "review_status": "accepted_with_unresolved_reading",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "lexical_interpretation",
+          "reading": null,
+          "token": "तयोर्जितं",
+          "detail": "Printed form retained; contextual Kannada remains provisional; no conjectural normalization."
+        }
+      ],
+      "writer_disposition": "provisional_Kannada_with_explicit_hold",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        5
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ವರದ ಪ್ರಭಾವದಿಂದ ಅವರಿಬ್ಬರೂ ಮೂರು ಲೋಕಗಳನ್ನೆಲ್ಲ ಜಯಿಸಿದರು. ಹಿರಿಯವನಾದ ಹಿರಣ್ಯಕಶಿಪುವು ಶ್ರೇಷ್ಠವಾದ ರಾಜ್ಯಾಧಿಪತ್ಯವನ್ನು ವಹಿಸಿದನು. ॥೫॥",
+      "source_sanskrit": "वरप्रभावतस्ताभ्यां सर्वं त्रिभुवनं जितम् । हिरण्यकशिपुर्ज्येष्ठश्चक्रे वै राज्यमुत्तमम् ॥५॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "वरप्रभावतस्ताभ्यां सर्वं त्रिभुवनं जितम् । हिरण्यकशिपुर्ज्येष्ठश्चक्रे वै राज्यमुत्तमम् ॥५॥",
+          "candidate_entry_id": "2.37.5",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1202,
+                3650,
+                1300
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 4
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.5"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        6
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಅತ್ಯಂತ ದುಷ್ಟಸ್ವಭಾವದವನಾದ ಅವನು ಸಮಸ್ತ ಕರ್ಮಮಾರ್ಗವನ್ನು ದ್ವೇಷಿಸುತ್ತಾ, ದೇವತೆಗಳಿಗೂ ಬ್ರಾಹ್ಮಣರಿಗೂ ದುಃಖವನ್ನುಂಟುಮಾಡುತ್ತಾ, ಪರಸ್ತ್ರೀಯರಲ್ಲಿಯೂ ಮದ್ಯದಲ್ಲಿಯೂ ಲಾಲಸೆಯುಳ್ಳವನಾಗಿ ರಾಜ್ಯವಾಳಿದನು. ॥೬॥",
+      "source_sanskrit": "कर्ममार्गं द्विषन् सर्वं देवब्राह्मणदुःखदः । राज्यं चक्रे सुदुष्टात्मा परस्त्रीमद्यलालसः ॥६॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "कर्ममार्गं द्विषन् सर्वं देवब्राह्मणदुःखदः । राज्यं चक्रे सुदुष्टात्मा परस्त्रीमद्यलालसः ॥६॥",
+          "candidate_entry_id": "2.37.6",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1202,
+                3650,
+                1300
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 4
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1307,
+                3650,
+                1405
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 5
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.6"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        7
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಇಂದ್ರನ ನೇತೃತ್ವದಲ್ಲಿದ್ದ ದೇವತೆಗಳು ಉಪವಾಸಪೀಡಿತರಾಗಿ, ಬ್ರಹ್ಮನನ್ನು ಮುಂದಿಟ್ಟುಕೊಂಡು ಶರಣಾಗತರನ್ನು ರಕ್ಷಿಸುವ ವಿಷ್ಣುವಿನ ಬಳಿಗೆ ಬಂದರು. ॥೭॥",
+      "source_sanskrit": "उपोषणेन संयुक्ता देवा इंद्रपुरोगमाः । ब्रह्माणं ते पुरस्कृत्य शरण्यं विष्णुमाययुः ॥७॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "उपोषणेन संयुक्ता देवा इंद्रपुरोगमाः । ब्रह्माणं ते पुरस्कृत्य शरण्यं विष्णुमाययुः ॥७॥",
+          "candidate_entry_id": "2.37.7",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1307,
+                3650,
+                1405
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 5
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1403,
+                3650,
+                1505
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 6
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.7"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        8
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಆಗ ವಿಷ್ಣುವು ಎಲ್ಲರಿಗೂ ಭಯವನ್ನುಂಟುಮಾಡುವ, ಅತ್ಯಂತ ಉಗ್ರವೂ ಭಯಂಕರವೂ ಆದ ನಾರಸಿಂಹರೂಪವನ್ನು ಧರಿಸಿದನು. ॥೮॥",
+      "source_sanskrit": "ततश्च विष्णुना तत्र धृतं रूपं भयप्रदम् । नारसिंहं महोग्रं वै सर्वेभ्यो भयदायकम् ॥८॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "ततश्च विष्णुना तत्र धृतं रूपं भयप्रदम् । नारसिंहं महोग्रं वै सर्वेभ्यो भयदायकम् ॥८॥",
+          "candidate_entry_id": "2.37.8",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1403,
+                3650,
+                1505
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 6
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1503,
+                3650,
+                1605
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 7
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.8"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        9
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಕ್ರೋಧದಿಂದ ಕೂಡಿದ ಅವನು ದೈತ್ಯರಾಜನ ನಗರಕ್ಕೆ ಬಂದನು. ತಕ್ಷಣವೇ ಭಯಂಕರವಾದ ಗರ್ಜನೆಗಳಿಂದ ಲೋಕವನ್ನು ಪ್ರತಿಧ್ವನಿಸುವಂತೆ ಮಾಡಿದನು. ॥೯॥",
+      "source_sanskrit": "आययौ दैत्यराजस्य नगरे क्रोधसंयुतः । शब्दैः स भुवनं घोरैर्नादयामास तत्क्षणात् ॥९॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "आययौ दैत्यराजस्य नगरे क्रोधसंयुतः । शब्दैः स भुवनं घोरैर्नादयामास तत्क्षणात् ॥९॥",
+          "candidate_entry_id": "2.37.9",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1503,
+                3650,
+                1605
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 7
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.9"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        10
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಭೀತರಾದ ದೈತ್ಯಗಣಗಳೆಲ್ಲ ಅವನ ಚೇಷ್ಟೆಗಳನ್ನು ರಾಜನಿಗೆ ತಿಳಿಸಿದರು. ಅವರ ಮಾತುಗಳನ್ನು ಕೇಳಿದ ಹಿರಣ್ಯಕಶಿಪುವು ಸ್ವತಃ… ॥೧೦॥",
+      "source_sanskrit": "भीता दैत्यगणाः सर्वे शशंसुस्तस्य चेष्टितम् । राज्ञे श्रुत्वा वचस्तेषां हिरण्यकशिपुः स्वयम् ॥१०॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "भीता दैत्यगणाः सर्वे शशंसुस्तस्य चेष्टितम् । राज्ञे श्रुत्वा वचस्तेषां हिरण्यकशिपुः स्वयम् ॥१०॥",
+          "candidate_entry_id": "2.37.10",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1503,
+                3650,
+                1605
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 7
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1607,
+                3650,
+                1703
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 8
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.10"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        11
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಮಹಾಬಲನಾಗಿ, ದೈತ್ಯರಿಂದ ಸುತ್ತುವರಿಯಲ್ಪಟ್ಟು, ಅವನೊಡನೆ ಯುದ್ಧಮಾಡಲು ಹೋದನು. ನೃಸಿಂಹಾಕಾರವನ್ನು ಧರಿಸಿದ್ದ ಆ ಭೀಕರನೂ ಎದುರಿಗೆ ಬಂದನು. ॥೧೧॥",
+      "source_sanskrit": "दैत्यैः समावृतो योद्धुं ययौ तेन महाबलः । क्रूरः समागतः सोऽपि नृसिंहाकृतिधारकः ॥११॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "दैत्यैः समावृतो योद्धुं ययौ तेन महाबलः । क्रूरः समागतः सोऽपि नृसिंहाकृतिधारकः ॥११॥",
+          "candidate_entry_id": "2.37.11",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1607,
+                3650,
+                1703
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 8
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1703,
+                3650,
+                1807
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 9
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.11"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        12
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಓ ಪ್ರಭುವೇ, ಯಾರ ದೇಹವು ಮೇರು ಮತ್ತು ಮಂದರ ಪರ್ವತಗಳಂತೆ ಕಂಗೊಳಿಸುತ್ತಿತ್ತೋ, ಆ ದೇವನು ತೇಜಸ್ಸಿನಲ್ಲಿ ಅಗ್ನಿಗೆ ಸಮನಾಗಿ, ಯುದ್ಧಮಾಡಲು ಉತ್ಸುಕನಾಗಿದ್ದನು. ॥೧೨॥",
+      "source_sanskrit": "मेरुमंदरसंकाशं वपुर्यस्य विराजितम् । तेजसा वह्निसंकाशो योद्धुकामो सुरः प्रभो ॥१२॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "मेरुमंदरसंकाशं वपुर्यस्य विराजितम् । तेजसा वह्निसंकाशो योद्धुकामो सुरः प्रभो ॥१२॥",
+          "candidate_entry_id": "2.37.12",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1703,
+                3650,
+                1807
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 9
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1804,
+                3650,
+                1910
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 10
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.12"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        13
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಪ್ರಹ್ಲಾದನೇ ಮೊದಲಾದ ಪುತ್ರರಿಂದ ಸುತ್ತುವರಿಯಲ್ಪಟ್ಟ ಆ ದೈತ್ಯಶ್ರೇಷ್ಠನು ಮರ್ಮಸ್ಥಾನಗಳನ್ನು ಭೇದಿಸುವ ಶಸ್ತ್ರಾಸ್ತ್ರಗಳಿಂದ ನೃಸಿಂಹನೊಡನೆ ಯುದ್ಧಮಾಡಿದನು. ॥೧೩॥",
+      "source_sanskrit": "प्रह्लादप्रमुखैः पुत्रैः संवृतो दैत्यसत्तमः । नृसिंहं योधयामास शस्त्रास्त्रैर्मर्मभेदिभिः ॥१३॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "प्रह्लादप्रमुखैः पुत्रैः संवृतो दैत्यसत्तमः । नृसिंहं योधयामास शस्त्रास्त्रैर्मर्मभेदिभिः ॥१३॥",
+          "candidate_entry_id": "2.37.13",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1804,
+                3650,
+                1910
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 10
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.13"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        14
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಯುದ್ಧಭೂಮಿಯಲ್ಲಿ ನೃಸಿಂಹನಿಂದ ಅನೇಕ ದೈತ್ಯರು ಕೊಲ್ಲಲ್ಪಟ್ಟರು. ರಕ್ತಪ್ರವಾಹವನ್ನು ಹೊತ್ತ ನದಿಗಳು ಹತ್ತೂ ದಿಕ್ಕುಗಳಲ್ಲಿ ಹರಿಯತೊಡಗಿದವು. ॥೧೪॥",
+      "source_sanskrit": "नृसिंहेन हता दैत्या बहवो रणमंडले । शोणितौघवहा नद्यः संप्रवृत्ता दिशो दश ॥१४॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "नृसिंहेन हता दैत्या बहवो रणमंडले । शोणितौघवहा नद्यः संप्रवृत्ता दिशो दश ॥१४॥",
+          "candidate_entry_id": "2.37.14",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1804,
+                3650,
+                1910
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 10
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1905,
+                3650,
+                2010
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 11
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.14"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        15
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಖಡ್ಗವೇ ಮೊದಲಾದ ಮಹಾಸ್ತ್ರಗಳಿಂದಲೂ ನಖಗಳಿಂದಲೂ ಸಜ್ಜಿತನಾದ ಆ ದೇವರಾಜ ನೃಸಿಂಹನು ಅಲ್ಲಿ ಯುದ್ಧಮಾಡಿ, ಪ್ರಲಯಾಗ್ನಿಗೆ ಸಮನಾಗಿ ಕಂಗೊಳಿಸಿದನು. ॥೧೫॥",
+      "source_sanskrit": "खड्गादिभिर्महास्त्रैश्च नखैर्युक्तः स देवराट् । नृसिंहो युयुधे तत्र प्रलयाग्निसमो बभौ ॥१५॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "खड्गादिभिर्महास्त्रैश्च नखैर्युक्तः स देवराट् । नृसिंहो युयुधे तत्र प्रलयाग्निसमो बभौ ॥१५॥",
+          "candidate_entry_id": "2.37.15",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                1905,
+                3650,
+                2010
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 11
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                2009,
+                3650,
+                2114
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 12
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.15"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        16
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಅವನನ್ನು ಕಂಡಾಗ, ಪೂರ್ವಸಂಸ್ಕಾರದಿಂದ ಮಹಾತ್ಮನಾದ ಪ್ರಹ್ಲಾದನಲ್ಲಿ ವಿಷ್ಣುವಿಗೆ ಸಂಬಂಧಿಸಿದ ಜ್ಞಾನವು ವಿಶೇಷವಾಗಿ, ಅತ್ಯಂತ ಪ್ರಬಲವಾಗಿ ಪ್ರಕಟವಾಯಿತು. ॥೧೬॥",
+      "source_sanskrit": "तं दृष्ट्वा पूर्वसंस्कारात् प्रह्लादस्य महात्मनः । वैष्णवं ज्ञानमत्यंतं प्रादुर्भूतं विशेषतः ॥१६॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "तं दृष्ट्वा पूर्वसंस्कारात् प्रह्लादस्य महात्मनः । वैष्णवं ज्ञानमत्यंतं प्रादुर्भूतं विशेषतः ॥१६॥",
+          "candidate_entry_id": "2.37.16",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                2009,
+                3650,
+                2114
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 12
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                2110,
+                3650,
+                2217
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 13
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.16"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        17
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಇಷ್ಟರೊಳಗೆ ಅಲ್ಲಿ ದೈತ್ಯರಾಜನು ಗದೆಯಿಂದ ಹೊಡೆದಾಗ, ಪ್ರಭುವಾದ ನೃಸಿಂಹನು ತೀವ್ರವಾಗಿ ಮೂರ್ಛೆಹೋಗಿ ಕೆಳಗೆ ಬಿದ್ದನು. ॥೧೭॥",
+      "source_sanskrit": "एतस्मिन्नंतरे तत्र गदया ताडितः प्रभुः । नृसिंहो दैत्यराजेन पतितो मूर्च्छया भृशम् ॥१७॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "एतस्मिन्नंतरे तत्र गदया ताडितः प्रभुः । नृसिंहो दैत्यराजेन पतितो मूर्च्छया भृशम् ॥१७॥",
+          "candidate_entry_id": "2.37.17",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                2110,
+                3650,
+                2217
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 13
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.17"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        18
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ಎರಡು ಮುಹೂರ್ತಗಳ ಬಳಿಕ ಮಹಾಬಲನಾದ ನೃಸಿಂಹನು ಚೇತರಿಸಿಕೊಂಡು ಸ್ವಸ್ಥದೇಹನಾದನು. ಆದರೂ ತನ್ನನ್ನು ಅಶಕ್ತನೆಂದು ಭಾವಿಸಿ, ಆ ಕಾರಣದಿಂದ ಪಲಾಯನ ಮಾಡಿದನು. ॥೧೮॥",
+      "source_sanskrit": "द्विमुहूर्तात् सुसंभूतः स्वस्थदेहो महाबलः । अशक्तं मानयामासात्मानं तेन पलायत ॥१८॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "द्विमुहूर्तात् सुसंभूतः स्वस्थदेहो महाबलः । अशक्तं मानयामासात्मानं तेन पलायत ॥१८॥",
+          "candidate_entry_id": "2.37.18",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                2214,
+                3650,
+                2318
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 14
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.18"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        19
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "type": "translation",
+      "text": "ವಿಜಯಿಯಾದ ಹಿರಣ್ಯಕಶಿಪುವು ಎಲ್ಲರೊಂದಿಗೆ ತನ್ನ ಮನೆಗೆ ಹೋದನು. ಪ್ರಹ್ಲಾದನು ಭಕ್ತಿಭಾವದಿಂದ ಕೂಡಿದವನಾಗಿ ವಿಷ್ಣುಭಕ್ತಿಯನ್ನು ಆಚರಿಸಿದನು. ॥೧೯॥",
+      "source_sanskrit": "हिरण्यकशिपुः सर्वैर्विजयी स्वगृहं ययौ । चकार विष्णुभक्तिं वै प्रह्लादो भावसंयुतः ॥१९॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "हिरण्यकशिपुः सर्वैर्विजयी स्वगृहं ययौ । चकार विष्णुभक्तिं वै प्रह्लादो भावसंयुतः ॥१९॥",
+          "candidate_entry_id": "2.37.19",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                2214,
+                3650,
+                2318
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 14
+            },
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                2315,
+                3650,
+                2420
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 15
+            }
+          ]
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.19"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    },
+    {
+      "key": [
+        2,
+        37,
+        20
+      ],
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p27",
+      "type": "translation",
+      "text": "ಅವನು ತಂದೆಗೆ ಹೀಗೆ ಬೋಧಿಸಿದನು: “ಎಲೈ ದೈತ್ಯಪತಿಯೇ, ಈಗ ಎಲ್ಲೆಡೆಯೂ ಸಮನಾಗಿ ಇರುವ ಆನಂದಸ್ವರೂಪನಾದ ವಿಷ್ಣುವಿನ ಶರಣನ್ನು ಸೇರು.” ॥೨೦॥",
+      "source_sanskrit": "पितरं बोधयामास विष्णुमानंदरूपिणम् । शरणं याहि सर्वत्र समं दैत्यपतेऽधुना ॥२०॥",
+      "source_parts": [
+        {
+          "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+          "text": "पितरं बोधयामास विष्णुमानंदरूपिणम् । शरणं याहि",
+          "candidate_entry_id": "2.37.20",
+          "source_regions": [
+            {
+              "image": "page_0205.png",
+              "bbox_xyxy": [
+                240,
+                2315,
+                3650,
+                2420
+              ],
+              "precision": "Whole printed line band; may include adjacent verse text.",
+              "line_band": 15
+            }
+          ]
+        },
+        {
+          "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p27",
+          "text": "सर्वत्र समं दैत्यपतेऽधुना ॥२०॥",
+          "historical_review_file": "translation/local-pdf-khanda2-ch37-reading-review.json"
+        }
+      ],
+      "candidate_entry_ids": [
+        "2.37.20"
+      ],
+      "review_status": "accepted",
+      "issues": [],
+      "writer_disposition": "accepted_after_original_pixels_and_independent_review",
+      "independent_review": {
+        "status": "accepted",
+        "scope": "Supplied original PNG pixels and Sanskrit/Kannada candidate independently reviewed; colophon correction applied, explicit holds retained."
+      }
+    }
+  ],
+  "nonverse_adjudications": [
+    {
+      "candidate_entry_id": "2.36.colophon",
+      "kind": "colophon",
+      "source_sanskrit": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते गौतमचरितं नाम षट्त्रिंशोऽध्यायः ॥",
+      "text": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ, “ಗೌತಮಚರಿತ” ಎಂಬ ಮೂವತ್ತಾರನೆಯ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾಯಿತು.",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "review_status": "accepted",
+      "rationale": "Original and independent corrected colophon శ్రీमदान्त्ये; meaning Kannada matches corrected source."
+    },
+    {
+      "candidate_entry_id": "2.37.invocation",
+      "kind": "invocation",
+      "source_sanskrit": "॥ श्रीगणेशाय नमः ॥",
+      "text": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "review_status": "accepted",
+      "treatment": "Kannada-script Sanskrit transliteration"
+    },
+    {
+      "candidate_entry_id": "2.37.speaker",
+      "kind": "speaker",
+      "source_sanskrit": "मुद्गल उवाच ।",
+      "text": "ಮುದ್ಗಲರು ಹೇಳಿದರು:",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p205",
+      "review_status": "accepted",
+      "attached_once_to_key": [
+        2,
+        37,
+        1
+      ]
+    }
+  ],
+  "resolved_source_flags": [
+    {
+      "key": [
+        2,
+        36,
+        86
+      ],
+      "token": "सन्निहामुत्र",
+      "status": "independently_pixel_confirmed",
+      "interpretation": "सन् + इह + अमुत्र"
+    },
+    {
+      "key": [
+        2,
+        37,
+        18
+      ],
+      "token": "सुसंभूतः",
+      "status": "literal_source_form_confirmed_contextual_Kannada_retained"
+    }
+  ],
+  "remaining_holds": [
+    "36.85 विभूमानो lexical/interpretive hold",
+    "37.4 तयोर्जितं lexical/interpretive hold"
+  ],
+  "boundary_join_policy": "Only one final record per key; noninsertable assembled aids never become additional records. Existing original boundary Sanskrit appears once. Writer joins Kannada into coherent sentences and removes stale physical-fragment notices, preserving lexical holds.",
+  "recovered_gap_id": "source-gap-pdf206-page26",
+  "paid_calls": 0
+}
