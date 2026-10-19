@@ -1,0 +1,172 @@
+{
+  "status": "passed_before_publication",
+  "prior_entries_preserved": 20009,
+  "entries": 20336,
+  "new_entries": 327,
+  "accepted_keys": 308,
+  "accepted_translation_units": 308,
+  "shared_reference_entries": 0,
+  "placeholders": 19,
+  "chapters": 374,
+  "joins_once": [
+    [
+      8,
+      36,
+      7
+    ],
+    [
+      8,
+      36,
+      32
+    ],
+    [
+      8,
+      37,
+      10
+    ],
+    [
+      8,
+      37,
+      35
+    ],
+    [
+      8,
+      37,
+      60
+    ],
+    [
+      8,
+      37,
+      84
+    ],
+    [
+      8,
+      37,
+      110
+    ],
+    [
+      8,
+      38,
+      25
+    ],
+    [
+      8,
+      39,
+      25
+    ],
+    [
+      8,
+      39,
+      50
+    ],
+    [
+      8,
+      40,
+      12
+    ]
+  ],
+  "CSS_TSVs_prompt_registry_prefix_raw_evidence_preserved": true,
+  "shared_Kannada_not_duplicated": true,
+  "reference_comparisons": {
+    "verse_corrections": 35,
+    "unresolved_OCR_or_assignment_questions": 35,
+    "critical_context_inspections": 11,
+    "no_source_reading_accepted": true,
+    "report_sha256": "4cfbd3529f71f5b675ce7ed9bca3a710cac75fd3539acaacd4c0eeafac0c400d"
+  },
+  "release_group": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "chapter_counts": [
+    42,
+    127,
+    47,
+    57,
+    54
+  ],
+  "chapter_accepted": [
+    41,
+    117,
+    41,
+    56,
+    53
+  ],
+  "chapter_placeholders": [
+    1,
+    10,
+    6,
+    1,
+    1
+  ],
+  "tests": {
+    "google_source": 38,
+    "pdf_source": 16,
+    "reading_contents": 374
+  },
+  "qa": [
+    {
+      "width": 1470,
+      "entries": 20336,
+      "chapters": {
+        "36": 42,
+        "37": 127,
+        "38": 47,
+        "39": 57,
+        "40": 54
+      },
+      "holds": true,
+      "toc": true,
+      "partial": true,
+      "no_next": true,
+      "overflow": false,
+      "font": true,
+      "dead": 0
+    },
+    {
+      "width": 375,
+      "entries": 20336,
+      "chapters": {
+        "36": 42,
+        "37": 127,
+        "38": 47,
+        "39": 57,
+        "40": 54
+      },
+      "holds": true,
+      "toc": true,
+      "partial": true,
+      "no_next": true,
+      "overflow": false,
+      "font": true,
+      "dead": 0
+    },
+    {
+      "width": 390,
+      "entries": 20336,
+      "chapters": {
+        "36": 42,
+        "37": 127,
+        "38": 47,
+        "39": 57,
+        "40": 54
+      },
+      "holds": true,
+      "toc": true,
+      "partial": true,
+      "no_next": true,
+      "overflow": false,
+      "font": true,
+      "dead": 0
+    }
+  ],
+  "no_paid_calls_queue_or_ledger_writes": true,
+  "limitations": [
+    "No EPUBCheck/device-reader validation",
+    "Sanskrit quotation cache absent; uploaded reference context provenance retained",
+    "Text review does not certify every source glyph"
+  ]
+}
