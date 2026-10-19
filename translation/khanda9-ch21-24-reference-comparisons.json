@@ -1,0 +1,4844 @@
+{
+  "scope": "Every independent-review correct decision in Khanda9 chapters21–24 compared to actual uploaded Sanskrit OCR bytes. Literal excerpts are recorded; mechanically aligned candidates are not certified verse readings.",
+  "reference_fulltext_library_id": "libfile_706e2c6d7f9c81919364c79356578fdb",
+  "normalization": "Devanagari letters/marks only; whitespace, punctuation, verse numbers and non-Devanagari characters excluded. This does not validate numeric labels or emend OCR.",
+  "comparisons": [
+    {
+      "key": [
+        9,
+        21,
+        3
+      ],
+      "source_sanskrit_unchanged": "तं ज्ञात्वा पितरौ तस्य\nदुःखयुक्तौ बभूवतुः । सुशीला सुमुखौ नाम्ना सुमतिं वीक्ष्य दुर्मतिम् ॥३॥",
+      "reviewed_kannada": "ದುರ್ಬುದ್ಧಿಯುಳ್ಳ ಸುಮತಿಯನ್ನು ಕಂಡು, ಅದನ್ನು ತಿಳಿದ ಸುಶೀಲೆ ಮತ್ತು ಸುಮುಖ ಎಂಬ ಹೆಸರಿನ ಅವನ ತಂದೆ-ತಾಯಿಯರು ದುಃಖಯುಕ್ತರಾದರು ॥೩॥",
+      "reviewed_kannada_candidate_unaccepted": "ದುರ್ಬುದ್ಧಿಯುಳ್ಳ ಸುಮತಿಯನ್ನು ಕಂಡು, ಅದನ್ನು ತಿಳಿದ ಸುಶೀಲೆ ಮತ್ತು ಸುಮುಖ ಎಂಬ ಹೆಸರಿನ ಅವನ ತಂದೆ-ತಾಯಿಯರು ದುಃಖಯುಕ್ತರಾದರು ॥೩॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1069,
+          "reference_page": 993,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0993.txt",
+          "reference_sha256": "514fa96781213ee3e3ca243b7953c4c4baeb8e72806a4b461c2d0d2fb1ed2a37",
+          "source_part_exact": "तं ज्ञात्वा पितरौ तस्य\nदुःखयुक्तौ बभूवतुः । सुशीला सुमुखौ नाम्ना सुमतिं वीक्ष्य दुर्मतिम् ॥३॥",
+          "reference_char_start": 249,
+          "reference_char_end_exclusive": 337,
+          "exact_reference_excerpt": "तं ज्ञात्वा पितरौ तस्य\nदुःखयुक्तौ बभूवतुः । सरीला सुसुखो नान्ना सुमतिं वीक्ष्य दुर्मतिम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9404,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              37,
+              0,
+              37
+            ],
+            [
+              "replace",
+              37,
+              39,
+              37,
+              38
+            ],
+            [
+              "equal",
+              39,
+              44,
+              38,
+              43
+            ],
+            [
+              "replace",
+              44,
+              45,
+              43,
+              44
+            ],
+            [
+              "equal",
+              45,
+              47,
+              44,
+              46
+            ],
+            [
+              "replace",
+              47,
+              48,
+              46,
+              47
+            ],
+            [
+              "equal",
+              48,
+              50,
+              47,
+              49
+            ],
+            [
+              "replace",
+              50,
+              51,
+              49,
+              50
+            ],
+            [
+              "equal",
+              51,
+              76,
+              50,
+              75
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1069,
+          "physical_page": 43,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "9e8799556eb1e7af085224295fcc852dc27e4dedc4d8a23a0238b4d5cab528d7",
+          "text": "तं ज्ञात्वा पितरौ तस्य\nदुःखयुक्तौ बभूवतुः । सुशीला सुमुखौ नाम्ना सुमतिं वीक्ष्य दुर्मतिम् ॥३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        21,
+        4
+      ],
+      "source_sanskrit_unchanged": "सुमतिं वीक्ष्य पुत्रं तौ शिक्षयंतौ निरंतरम् । स\nतयोर्वचनं दुष्टो न चकार कदाचन ॥४॥",
+      "reviewed_kannada": "ಮಗನಾದ ಸುಮತಿಯನ್ನು ನೋಡಿ ಅವರಿಬ್ಬರೂ ನಿರಂತರವಾಗಿ ಬೋಧಿಸುತ್ತಿರಲು, ದುಷ್ಟನಾದ ಅವನು ಅವರ ಮಾತನ್ನು ಎಂದಿಗೂ ನಡೆಸಲಿಲ್ಲ ॥೪॥",
+      "reviewed_kannada_candidate_unaccepted": "ಮಗನಾದ ಸುಮತಿಯನ್ನು ನೋಡಿ ಅವರಿಬ್ಬರೂ ನಿರಂತರವಾಗಿ ಬೋಧಿಸುತ್ತಿರಲು, ದುಷ್ಟನಾದ ಅವನು ಅವರ ಮಾತನ್ನು ಎಂದಿಗೂ ನಡೆಸಲಿಲ್ಲ ॥೪॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1069,
+          "reference_page": 993,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0993.txt",
+          "reference_sha256": "514fa96781213ee3e3ca243b7953c4c4baeb8e72806a4b461c2d0d2fb1ed2a37",
+          "source_part_exact": "सुमतिं वीक्ष्य पुत्रं तौ शिक्षयंतौ निरंतरम् । स\nतयोर्वचनं दुष्टो न चकार कदाचन ॥४॥",
+          "reference_char_start": 343,
+          "reference_char_end_exclusive": 418,
+          "exact_reference_excerpt": "सुमतिं वीक्ष्य पुर तौ शिक्षय॑तौ निरंतरम्‌ । स\nतयोवेचनं दुष्टो न चकारं कदाचन",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.928,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              15,
+              0,
+              15
+            ],
+            [
+              "delete",
+              15,
+              17,
+              15,
+              15
+            ],
+            [
+              "equal",
+              17,
+              18,
+              15,
+              16
+            ],
+            [
+              "delete",
+              18,
+              19,
+              16,
+              16
+            ],
+            [
+              "equal",
+              19,
+              27,
+              16,
+              24
+            ],
+            [
+              "replace",
+              27,
+              28,
+              24,
+              25
+            ],
+            [
+              "equal",
+              28,
+              42,
+              25,
+              39
+            ],
+            [
+              "delete",
+              42,
+              44,
+              39,
+              39
+            ],
+            [
+              "equal",
+              44,
+              45,
+              39,
+              40
+            ],
+            [
+              "insert",
+              45,
+              45,
+              40,
+              41
+            ],
+            [
+              "equal",
+              45,
+              59,
+              41,
+              55
+            ],
+            [
+              "insert",
+              59,
+              59,
+              55,
+              56
+            ],
+            [
+              "equal",
+              59,
+              64,
+              56,
+              61
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1069,
+          "physical_page": 43,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "9e8799556eb1e7af085224295fcc852dc27e4dedc4d8a23a0238b4d5cab528d7",
+          "text": "सुमतिं वीक्ष्य पुत्रं तौ शिक्षयंतौ निरंतरम् । स\nतयोर्वचनं दुष्टो न चकार कदाचन ॥४॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        21,
+        8
+      ],
+      "source_sanskrit_unchanged": "एवमुक्त्वा ययौ स्थानं भरद्वाजो\nमहामुनिः । सुमुखः पुत्रसंयुक्तः स्त्रियाऽत्रिं प्रजगाम ह ॥८॥",
+      "reviewed_kannada": "ಹೀಗೆಂದು ಹೇಳಿ ಮಹಾಮುನಿಯಾದ ಭರದ್ವಾಜನು ತನ್ನ ಸ್ಥಾನಕ್ಕೆ ತೆರಳಿದನು. ಸುಮುಖನು ಮಗನೊಡನೆ ಪತ್ನಿಯೊಡನೆ ಅತ್ರಿಯ ಬಳಿಗೆ ಹೋದನು ॥೮॥",
+      "reviewed_kannada_candidate_unaccepted": "ಹೀಗೆಂದು ಹೇಳಿ ಮಹಾಮುನಿಯಾದ ಭರದ್ವಾಜನು ತನ್ನ ಸ್ಥಾನಕ್ಕೆ ತೆರಳಿದನು. ಸುಮುಖನು ಮಗನೊಡನೆ ಪತ್ನಿಯೊಡನೆ ಅತ್ರಿಯ ಬಳಿಗೆ ಹೋದನು ॥೮॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1069,
+          "reference_page": 993,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0993.txt",
+          "reference_sha256": "514fa96781213ee3e3ca243b7953c4c4baeb8e72806a4b461c2d0d2fb1ed2a37",
+          "source_part_exact": "एवमुक्त्वा ययौ स्थानं भरद्वाजो\nमहामुनिः । सुमुखः पुत्रसंयुक्तः स्त्रियाऽत्रिं प्रजगाम ह ॥८॥",
+          "reference_char_start": 672,
+          "reference_char_end_exclusive": 753,
+          "exact_reference_excerpt": "एवमुक्त्वा ययौ स्थानं भरद्वाजो\nमहामुनिः । खुसखुखः पुत्रसंयुक्तः खियाऽचि प्रजगाम ह",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8904,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              35,
+              0,
+              35
+            ],
+            [
+              "insert",
+              35,
+              35,
+              35,
+              37
+            ],
+            [
+              "equal",
+              35,
+              36,
+              37,
+              38
+            ],
+            [
+              "replace",
+              36,
+              38,
+              38,
+              39
+            ],
+            [
+              "equal",
+              38,
+              54,
+              39,
+              55
+            ],
+            [
+              "replace",
+              54,
+              59,
+              55,
+              56
+            ],
+            [
+              "equal",
+              59,
+              63,
+              56,
+              60
+            ],
+            [
+              "replace",
+              63,
+              66,
+              60,
+              61
+            ],
+            [
+              "equal",
+              66,
+              67,
+              61,
+              62
+            ],
+            [
+              "delete",
+              67,
+              68,
+              62,
+              62
+            ],
+            [
+              "equal",
+              68,
+              76,
+              62,
+              70
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1069,
+          "physical_page": 43,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "9e8799556eb1e7af085224295fcc852dc27e4dedc4d8a23a0238b4d5cab528d7",
+          "text": "एवमुक्त्वा ययौ स्थानं भरद्वाजो\nमहामुनिः । सुमुखः पुत्रसंयुक्तः स्त्रियाऽत्रिं प्रजगाम ह ॥८॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        21,
+        13
+      ],
+      "source_sanskrit_unchanged": "अथ स्वल्पेन कालेन भाद्रनामा\nसमाययौ । मासो मुनिगणास्तत्र श्रवणार्थं समाययुः ॥१३॥",
+      "reviewed_kannada": "ಬಳಿಕ ಸ್ವಲ್ಪ ಕಾಲದಲ್ಲಿ ಭಾದ್ರ ಎಂಬ ಹೆಸರಿನ ಮಾಸವು ಬಂದಿತು. ಮುನಿಗಳ ಸಮೂಹವು ಅಲ್ಲಿ ಶ್ರವಣಕ್ಕಾಗಿ ಬಂದಿತು ॥೧೩॥",
+      "reviewed_kannada_candidate_unaccepted": "ಬಳಿಕ ಸ್ವಲ್ಪ ಕಾಲದಲ್ಲಿ ಭಾದ್ರ ಎಂಬ ಹೆಸರಿನ ಮಾಸವು ಬಂದಿತು. ಮುನಿಗಳ ಸಮೂಹವು ಅಲ್ಲಿ ಶ್ರವಣಕ್ಕಾಗಿ ಬಂದಿತು ॥೧೩॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1069,
+          "reference_page": 993,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0993.txt",
+          "reference_sha256": "514fa96781213ee3e3ca243b7953c4c4baeb8e72806a4b461c2d0d2fb1ed2a37",
+          "source_part_exact": "अथ स्वल्पेन कालेन भाद्रनामा\nसमाययौ । मासो मुनिगणास्तत्र श्रवणार्थं समाययुः ॥१३॥",
+          "reference_char_start": 1119,
+          "reference_char_end_exclusive": 1187,
+          "exact_reference_excerpt": "अथ खल्पेन काटेन माद्रनामा\nसमाययौ । मासो सुनिगणास्तत्र श्रवणा समाययुः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8852,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "replace",
+              2,
+              5,
+              2,
+              3
+            ],
+            [
+              "equal",
+              5,
+              12,
+              3,
+              10
+            ],
+            [
+              "replace",
+              12,
+              13,
+              10,
+              11
+            ],
+            [
+              "equal",
+              13,
+              15,
+              11,
+              13
+            ],
+            [
+              "replace",
+              15,
+              16,
+              13,
+              14
+            ],
+            [
+              "equal",
+              16,
+              34,
+              14,
+              32
+            ],
+            [
+              "replace",
+              34,
+              35,
+              32,
+              33
+            ],
+            [
+              "equal",
+              35,
+              53,
+              33,
+              51
+            ],
+            [
+              "delete",
+              53,
+              57,
+              51,
+              51
+            ],
+            [
+              "equal",
+              57,
+              64,
+              51,
+              58
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1069,
+          "physical_page": 43,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "9e8799556eb1e7af085224295fcc852dc27e4dedc4d8a23a0238b4d5cab528d7",
+          "text": "अथ स्वल्पेन कालेन भाद्रनामा\nसमाययौ । मासो मुनिगणास्तत्र श्रवणार्थं समाययुः ॥१३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        21,
+        16
+      ],
+      "source_sanskrit_unchanged": "ततस्तस्य सुतः सोऽपि सुमतिः शीलसंयुतः । बभूव धर्मसंयुक्तः स्वाचारस्थो महामतिः ॥१६॥",
+      "reviewed_kannada": "ಬಳಿಕ ಅವನ ಆ ಮಗನಾದ ಸುಮತಿಯೂ ಶೀಲದಿಂದ ಕೂಡಿದವನೂ, ಧರ್ಮದಿಂದ ಕೂಡಿದವನೂ, ಸ್ವಾಚಾರದಲ್ಲಿ ನಿಂತವನೂ, ಮಹಾಬುದ್ಧಿವಂತನೂ ಆದನು ॥೧೬॥",
+      "reviewed_kannada_candidate_unaccepted": "ಬಳಿಕ ಅವನ ಆ ಮಗನಾದ ಸುಮತಿಯೂ ಶೀಲದಿಂದ ಕೂಡಿದವನೂ, ಧರ್ಮದಿಂದ ಕೂಡಿದವನೂ, ಸ್ವಾಚಾರದಲ್ಲಿ ನಿಂತವನೂ, ಮಹಾಬುದ್ಧಿವಂತನೂ ಆದನು ॥೧೬॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1069,
+          "reference_page": 993,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0993.txt",
+          "reference_sha256": "514fa96781213ee3e3ca243b7953c4c4baeb8e72806a4b461c2d0d2fb1ed2a37",
+          "source_part_exact": "ततस्तस्य सुतः सोऽपि सुमतिः शीलसंयुतः । बभूव धर्मसंयुक्तः स्वाचारस्थो महामतिः ॥१६॥",
+          "reference_char_start": 1375,
+          "reference_char_end_exclusive": 1447,
+          "exact_reference_excerpt": "ततस्तस्य सखतः सोऽपि सुमतिः शीलसंयुतः । बभूव धमसंयुक्तः खाचारस्थो महामतिः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9375,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              9,
+              0,
+              9
+            ],
+            [
+              "replace",
+              9,
+              10,
+              9,
+              10
+            ],
+            [
+              "equal",
+              10,
+              37,
+              10,
+              37
+            ],
+            [
+              "delete",
+              37,
+              39,
+              37,
+              37
+            ],
+            [
+              "equal",
+              39,
+              48,
+              37,
+              46
+            ],
+            [
+              "replace",
+              48,
+              51,
+              46,
+              47
+            ],
+            [
+              "equal",
+              51,
+              66,
+              47,
+              62
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1069,
+          "physical_page": 43,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "9e8799556eb1e7af085224295fcc852dc27e4dedc4d8a23a0238b4d5cab528d7",
+          "text": "ततस्तस्य सुतः सोऽपि सुमतिः शीलसंयुतः । बभूव धर्मसंयुक्तः स्वाचारस्थो महामतिः ॥१६॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        21,
+        25
+      ],
+      "source_sanskrit_unchanged": "तेषां तद्वचनं श्रुत्वा हर्षयुक्ता महर्षयः । पप्रच्छुस्तान् पुनश्चित्रं संशयेन समन्विताः ॥२५॥",
+      "reviewed_kannada": "ಅವರ ಆ ಮಾತನ್ನು ಕೇಳಿ ಸಂತೋಷಗೊಂಡ ಮಹರ್ಷಿಗಳು ಸಂಶಯದಿಂದ ಕೂಡಿದವರಾಗಿ, ಆ ಆಶ್ಚರ್ಯಕರ ಸಂಗತಿಯ ಕುರಿತು ಅವರನ್ನು ಮತ್ತೆ ಕೇಳಿದರು ॥೨೫॥",
+      "reviewed_kannada_candidate_unaccepted": "ಅವರ ಆ ಮಾತನ್ನು ಕೇಳಿ ಸಂತೋಷಗೊಂಡ ಮಹರ್ಷಿಗಳು ಸಂಶಯದಿಂದ ಕೂಡಿದವರಾಗಿ, ಆ ಆಶ್ಚರ್ಯಕರ ಸಂಗತಿಯ ಕುರಿತು ಅವರನ್ನು ಮತ್ತೆ ಕೇಳಿದರು ॥೨೫॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1069,
+          "reference_page": 993,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0993.txt",
+          "reference_sha256": "514fa96781213ee3e3ca243b7953c4c4baeb8e72806a4b461c2d0d2fb1ed2a37",
+          "source_part_exact": "तेषां तद्वचनं श्रुत्वा हर्षयुक्ता महर्षयः । पप्रच्छुस्तान् पुनश्चित्रं संशयेन",
+          "reference_char_start": 2181,
+          "reference_char_end_exclusive": 2254,
+          "exact_reference_excerpt": "तेषां तद्रचनं श्रुत्वा हषयुक्ता महषयः । पप्रच्छुस्तान्‌ पुनधिच्रं संरायेन",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8855,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              8,
+              0,
+              8
+            ],
+            [
+              "replace",
+              8,
+              9,
+              8,
+              9
+            ],
+            [
+              "equal",
+              9,
+              21,
+              9,
+              21
+            ],
+            [
+              "delete",
+              21,
+              23,
+              21,
+              21
+            ],
+            [
+              "equal",
+              23,
+              32,
+              21,
+              30
+            ],
+            [
+              "delete",
+              32,
+              34,
+              30,
+              30
+            ],
+            [
+              "equal",
+              34,
+              54,
+              30,
+              50
+            ],
+            [
+              "replace",
+              54,
+              56,
+              50,
+              52
+            ],
+            [
+              "equal",
+              56,
+              57,
+              52,
+              53
+            ],
+            [
+              "delete",
+              57,
+              59,
+              53,
+              53
+            ],
+            [
+              "equal",
+              59,
+              64,
+              53,
+              58
+            ],
+            [
+              "replace",
+              64,
+              65,
+              58,
+              60
+            ],
+            [
+              "equal",
+              65,
+              68,
+              60,
+              63
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 1070,
+          "reference_page": 994,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0994.txt",
+          "reference_sha256": "2271c25b5409f2324b4a0390fae9eaa72226f4bb281d800dac8ab62c00039004",
+          "source_part_exact": "समन्विताः ॥२५॥",
+          "reference_char_start": 66,
+          "reference_char_end_exclusive": 82,
+          "exact_reference_excerpt": "वनदेद\n\nसमन्विताः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.7826,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "insert",
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              "equal",
+              0,
+              9,
+              5,
+              14
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1069,
+          "physical_page": 43,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "9e8799556eb1e7af085224295fcc852dc27e4dedc4d8a23a0238b4d5cab528d7",
+          "text": "तेषां तद्वचनं श्रुत्वा हर्षयुक्ता महर्षयः । पप्रच्छुस्तान् पुनश्चित्रं संशयेन",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 1070,
+          "physical_page": 44,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "2f991e603a0cf3e401f1fa1c7ec62ea27aa468b203cb5cf69e45c8bd8d6ea5a0",
+          "text": "समन्विताः ॥२५॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        21,
+        32
+      ],
+      "source_sanskrit_unchanged": "एवमुक्त्वा ययुः सर्वे गाणेशा गणपालयम् । वृषभं गृह्य ते चित्रं ब्राह्मणा विस्मिता जगुः ॥३२॥",
+      "reviewed_kannada": "ಹೀಗೆಂದು ಹೇಳಿ ಎಲ್ಲ ಗಾಣೇಶರು ಆಶ್ಚರ್ಯಕರವಾಗಿ ವೃಷಭನನ್ನು ಕರೆದುಕೊಂಡು ಗಣಪನ ಆಲಯಕ್ಕೆ ತೆರಳಿದರು; ಬ್ರಾಹ್ಮಣರು ವಿಸ್ಮಿತರಾಗಿ ಹಾಡಿದರು. (೩೨)",
+      "reviewed_kannada_candidate_unaccepted": "ಹೀಗೆಂದು ಹೇಳಿ ಎಲ್ಲ ಗಾಣೇಶರು ಆಶ್ಚರ್ಯಕರವಾಗಿ ವೃಷಭನನ್ನು ಕರೆದುಕೊಂಡು ಗಣಪನ ಆಲಯಕ್ಕೆ ತೆರಳಿದರು; ಬ್ರಾಹ್ಮಣರು ವಿಸ್ಮಿತರಾಗಿ ಹಾಡಿದರು. (೩೨)",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1070,
+          "reference_page": 994,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0994.txt",
+          "reference_sha256": "2271c25b5409f2324b4a0390fae9eaa72226f4bb281d800dac8ab62c00039004",
+          "source_part_exact": "एवमुक्त्वा ययुः सर्वे गाणेशा गणपालयम् । वृषभं गृह्य ते चित्रं ब्राह्मणा विस्मिता जगुः ॥३२॥",
+          "reference_char_start": 613,
+          "reference_char_end_exclusive": 690,
+          "exact_reference_excerpt": "एवमुक्त्वा ययुः सर्वे गाणा गणपालयम्‌ । वृषभं ग्य ते चिच ब्राह्मणा विस्मिता जण",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9037,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              22,
+              0,
+              22
+            ],
+            [
+              "delete",
+              22,
+              24,
+              22,
+              22
+            ],
+            [
+              "equal",
+              24,
+              39,
+              22,
+              37
+            ],
+            [
+              "delete",
+              39,
+              41,
+              37,
+              37
+            ],
+            [
+              "equal",
+              41,
+              47,
+              37,
+              43
+            ],
+            [
+              "replace",
+              47,
+              51,
+              43,
+              44
+            ],
+            [
+              "equal",
+              51,
+              69,
+              44,
+              62
+            ],
+            [
+              "replace",
+              69,
+              72,
+              62,
+              63
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1070,
+          "physical_page": 44,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "2f991e603a0cf3e401f1fa1c7ec62ea27aa468b203cb5cf69e45c8bd8d6ea5a0",
+          "text": "एवमुक्त्वा ययुः सर्वे गाणेशा गणपालयम् । वृषभं गृह्य ते चित्रं ब्राह्मणा विस्मिता जगुः ॥३२॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        22,
+        3
+      ],
+      "source_sanskrit_unchanged": "सस्त्रीकः\nपुत्रसंयुक्तः प्रधानैर्वीरमुख्यकैः । बभ्राम स वने राजा यत्र तत्र सुदुःखितः ॥३॥",
+      "reviewed_kannada": "ಪತ್ನಿಯೊಡನೆ, ಪುತ್ರನೊಡನೆ ಹಾಗೂ ಮುಖ್ಯ ವೀರಪ್ರಧಾನರೊಡನೆ ಕೂಡಿದ ಆ ರಾಜನು ಬಹಳ ದುಃಖಿತನಾಗಿ ಕಾಡಿನಲ್ಲಿ ಅಲ್ಲಲ್ಲಿ ಅಲೆದಾಡಿದನು. (೩)",
+      "reviewed_kannada_candidate_unaccepted": "ಪತ್ನಿಯೊಡನೆ, ಪುತ್ರನೊಡನೆ ಹಾಗೂ ಮುಖ್ಯ ವೀರಪ್ರಧಾನರೊಡನೆ ಕೂಡಿದ ಆ ರಾಜನು ಬಹಳ ದುಃಖಿತನಾಗಿ ಕಾಡಿನಲ್ಲಿ ಅಲ್ಲಲ್ಲಿ ಅಲೆದಾಡಿದನು. (೩)",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1070,
+          "reference_page": 994,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0994.txt",
+          "reference_sha256": "2271c25b5409f2324b4a0390fae9eaa72226f4bb281d800dac8ab62c00039004",
+          "source_part_exact": "सस्त्रीकः\nपुत्रसंयुक्तः प्रधानैर्वीरमुख्यकैः । बभ्राम स वने राजा यत्र तत्र सुदुःखितः ॥३॥",
+          "reference_char_start": 1118,
+          "reference_char_end_exclusive": 1203,
+          "exact_reference_excerpt": "सस्त्रीकः\nपुच्रसंयुक्तः परधार्नर्वीरसुख्यंकेः । वच्नाम स बने राजा यत्र तत्र सुदुःखितः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8707,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              11,
+              0,
+              11
+            ],
+            [
+              "replace",
+              11,
+              12,
+              11,
+              12
+            ],
+            [
+              "equal",
+              12,
+              23,
+              12,
+              23
+            ],
+            [
+              "delete",
+              23,
+              24,
+              23,
+              23
+            ],
+            [
+              "equal",
+              24,
+              27,
+              23,
+              26
+            ],
+            [
+              "insert",
+              27,
+              27,
+              26,
+              28
+            ],
+            [
+              "equal",
+              27,
+              28,
+              28,
+              29
+            ],
+            [
+              "delete",
+              28,
+              29,
+              29,
+              29
+            ],
+            [
+              "equal",
+              29,
+              34,
+              29,
+              34
+            ],
+            [
+              "replace",
+              34,
+              35,
+              34,
+              35
+            ],
+            [
+              "equal",
+              35,
+              39,
+              35,
+              39
+            ],
+            [
+              "insert",
+              39,
+              39,
+              39,
+              40
+            ],
+            [
+              "equal",
+              39,
+              40,
+              40,
+              41
+            ],
+            [
+              "replace",
+              40,
+              41,
+              41,
+              42
+            ],
+            [
+              "equal",
+              41,
+              42,
+              42,
+              43
+            ],
+            [
+              "replace",
+              42,
+              44,
+              43,
+              45
+            ],
+            [
+              "equal",
+              44,
+              45,
+              45,
+              46
+            ],
+            [
+              "replace",
+              45,
+              46,
+              46,
+              47
+            ],
+            [
+              "equal",
+              46,
+              49,
+              47,
+              50
+            ],
+            [
+              "replace",
+              49,
+              50,
+              50,
+              51
+            ],
+            [
+              "equal",
+              50,
+              73,
+              51,
+              74
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1070,
+          "physical_page": 44,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "2f991e603a0cf3e401f1fa1c7ec62ea27aa468b203cb5cf69e45c8bd8d6ea5a0",
+          "text": "सस्त्रीकः\nपुत्रसंयुक्तः प्रधानैर्वीरमुख्यकैः । बभ्राम स वने राजा यत्र तत्र सुदुःखितः ॥३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        22,
+        11
+      ],
+      "source_sanskrit_unchanged": "विनायकं प्रतिपदि तदा पूज्य महामुनिः । उपोषणसमायुक्तः शुक्ले स्त्रीभिः समारभत् ॥११॥",
+      "reviewed_kannada": "ಆಗ ಮಹಾಮುನಿಯು ಶುಕ್ಲಪಕ್ಷದ ಪ್ರತಿಪದೆಯಂದು ವಿನಾಯಕನನ್ನು ಪೂಜಿಸಿ, ಉಪವಾಸದಿಂದ ಕೂಡಿದವನಾಗಿ ಸ್ತ್ರೀಯರೊಡನೆ ಆರಂಭಿಸಿದನು ॥೧೧॥",
+      "reviewed_kannada_candidate_unaccepted": "ಆಗ ಮಹಾಮುನಿಯು ಶುಕ್ಲಪಕ್ಷದ ಪ್ರತಿಪದೆಯಂದು ವಿನಾಯಕನನ್ನು ಪೂಜಿಸಿ, ಉಪವಾಸದಿಂದ ಕೂಡಿದವನಾಗಿ ಸ್ತ್ರೀಯರೊಡನೆ ಆರಂಭಿಸಿದನು ॥೧೧॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1070,
+          "reference_page": 994,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0994.txt",
+          "reference_sha256": "2271c25b5409f2324b4a0390fae9eaa72226f4bb281d800dac8ab62c00039004",
+          "source_part_exact": "विनायकं प्रतिपदि तदा पूज्य महामुनिः । उपोषणसमायुक्तः शुक्ले स्त्रीभिः समारभत् ॥११॥",
+          "reference_char_start": 1799,
+          "reference_char_end_exclusive": 1865,
+          "exact_reference_excerpt": "विनायक पतिपदि तदा पूज्य महाखुनिः। उपोषणसमायुक्तः छे सखीभिः समारभत्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.871,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              6,
+              0,
+              6
+            ],
+            [
+              "delete",
+              6,
+              7,
+              6,
+              6
+            ],
+            [
+              "equal",
+              7,
+              8,
+              6,
+              7
+            ],
+            [
+              "delete",
+              8,
+              10,
+              7,
+              7
+            ],
+            [
+              "equal",
+              10,
+              26,
+              7,
+              23
+            ],
+            [
+              "replace",
+              26,
+              27,
+              23,
+              24
+            ],
+            [
+              "equal",
+              27,
+              45,
+              24,
+              42
+            ],
+            [
+              "replace",
+              45,
+              50,
+              42,
+              43
+            ],
+            [
+              "equal",
+              50,
+              52,
+              43,
+              45
+            ],
+            [
+              "replace",
+              52,
+              56,
+              45,
+              46
+            ],
+            [
+              "equal",
+              56,
+              67,
+              46,
+              57
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1070,
+          "physical_page": 44,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "2f991e603a0cf3e401f1fa1c7ec62ea27aa468b203cb5cf69e45c8bd8d6ea5a0",
+          "text": "विनायकं प्रतिपदि तदा पूज्य महामुनिः । उपोषणसमायुक्तः शुक्ले स्त्रीभिः समारभत् ॥११॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        22,
+        12
+      ],
+      "source_sanskrit_unchanged": "पारायणं मौद्गलस्य मंडपे विधिसंयुतः । भक्तियुक्तो महायोगी कश्यपः सर्वतत्त्ववित् ॥१२॥",
+      "reviewed_kannada": "ವಿಧಿನಿಷ್ಠನೂ ಭಕ್ತಿಯುಕ್ತನೂ ಮಹಾಯೋಗಿಯೂ ಸರ್ವತತ್ತ್ವಜ್ಞನೂ ಆದ ಕಶ್ಯಪನು ಮಂಟಪದಲ್ಲಿ ಮೌದ್ಗಲದ ಪಾರಾಯಣವನ್ನು ಆರಂಭಿಸಿದನು ॥೧೨॥",
+      "reviewed_kannada_candidate_unaccepted": "ವಿಧಿನಿಷ್ಠನೂ ಭಕ್ತಿಯುಕ್ತನೂ ಮಹಾಯೋಗಿಯೂ ಸರ್ವತತ್ತ್ವಜ್ಞನೂ ಆದ ಕಶ್ಯಪನು ಮಂಟಪದಲ್ಲಿ ಮೌದ್ಗಲದ ಪಾರಾಯಣವನ್ನು ಆರಂಭಿಸಿದನು ॥೧೨॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1070,
+          "reference_page": 994,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0994.txt",
+          "reference_sha256": "2271c25b5409f2324b4a0390fae9eaa72226f4bb281d800dac8ab62c00039004",
+          "source_part_exact": "पारायणं मौद्गलस्य मंडपे",
+          "reference_char_start": 1872,
+          "reference_char_end_exclusive": 1896,
+          "exact_reference_excerpt": "पारायणं मोद्धल्स्य मंडपे",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8837,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              8,
+              0,
+              8
+            ],
+            [
+              "replace",
+              8,
+              9,
+              8,
+              9
+            ],
+            [
+              "equal",
+              9,
+              11,
+              9,
+              11
+            ],
+            [
+              "replace",
+              11,
+              12,
+              11,
+              12
+            ],
+            [
+              "equal",
+              12,
+              13,
+              12,
+              13
+            ],
+            [
+              "insert",
+              13,
+              13,
+              13,
+              14
+            ],
+            [
+              "equal",
+              13,
+              21,
+              14,
+              22
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 1071,
+          "reference_page": 995,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0995.txt",
+          "reference_sha256": "0fc945f17a29d6a2fb9b9b6acc9854628ca78bbd4930c7bdb7c52c5e9df76ebe",
+          "source_part_exact": "विधिसंयुतः । भक्तियुक्तो महायोगी कश्यपः सर्वतत्त्ववित् ॥१२॥",
+          "reference_char_start": 46,
+          "reference_char_end_exclusive": 107,
+          "exact_reference_excerpt": "ति ४ 00079\n\nविधिसंयुतः। भक्तियुक्तो महायोगी कदयपः सवेतत्ववित्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8936,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "insert",
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              "equal",
+              0,
+              29,
+              2,
+              31
+            ],
+            [
+              "replace",
+              29,
+              31,
+              31,
+              32
+            ],
+            [
+              "equal",
+              31,
+              35,
+              32,
+              36
+            ],
+            [
+              "delete",
+              35,
+              37,
+              36,
+              36
+            ],
+            [
+              "equal",
+              37,
+              38,
+              36,
+              37
+            ],
+            [
+              "insert",
+              38,
+              38,
+              37,
+              38
+            ],
+            [
+              "equal",
+              38,
+              39,
+              38,
+              39
+            ],
+            [
+              "delete",
+              39,
+              41,
+              39,
+              39
+            ],
+            [
+              "equal",
+              41,
+              48,
+              39,
+              46
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1070,
+          "physical_page": 44,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "2f991e603a0cf3e401f1fa1c7ec62ea27aa468b203cb5cf69e45c8bd8d6ea5a0",
+          "text": "पारायणं मौद्गलस्य मंडपे",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 1071,
+          "physical_page": 45,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "09dcdf86684ae6ea7487fa1b012014369d76b19ff5a4e2b6749f228af9369c99",
+          "text": "विधिसंयुतः । भक्तियुक्तो महायोगी कश्यपः सर्वतत्त्ववित् ॥१२॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        22,
+        28
+      ],
+      "source_sanskrit_unchanged": "पपाल भयसयुक्तोऽभवत् कर्णः पराजितः । माधवः स्वस्य राज्यं तु चकार स सुहृद्गणः ॥२८॥",
+      "reviewed_kannada": "ಪರಾಜಿತನಾದ ಕರ್ಣನು ಭಯಯುಕ್ತನಾಗಿ ಓಡಿಹೋದನು. ಮಾಧವನು ಮಿತ್ರಗಣದೊಡನೆ ಕೂಡಿ ತನ್ನ ರಾಜ್ಯಭಾರವನ್ನು ಮಾಡಿದನು. (೨೮)",
+      "reviewed_kannada_candidate_unaccepted": "ಪರಾಜಿತನಾದ ಕರ್ಣನು ಭಯಯುಕ್ತನಾಗಿ ಓಡಿಹೋದನು. ಮಾಧವನು ಮಿತ್ರಗಣದೊಡನೆ ಕೂಡಿ ತನ್ನ ರಾಜ್ಯಭಾರವನ್ನು ಮಾಡಿದನು. (೨೮)",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1071,
+          "reference_page": 995,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0995.txt",
+          "reference_sha256": "0fc945f17a29d6a2fb9b9b6acc9854628ca78bbd4930c7bdb7c52c5e9df76ebe",
+          "source_part_exact": "पपाल भयसयुक्तोऽभवत् कर्णः पराजितः । माधवः स्वस्य राज्यं तु चकार स सुहृद्गणः ॥२८॥",
+          "reference_char_start": 1379,
+          "reference_char_end_exclusive": 1454,
+          "exact_reference_excerpt": "पपार मयसंयुक्तोऽभवत्‌ कर्णः पराजितः! माधवः स्वस्य राज्यं तु चकार\nस सहृद्रणः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9365,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              3,
+              0,
+              3
+            ],
+            [
+              "replace",
+              3,
+              5,
+              3,
+              5
+            ],
+            [
+              "equal",
+              5,
+              7,
+              5,
+              7
+            ],
+            [
+              "insert",
+              7,
+              7,
+              7,
+              8
+            ],
+            [
+              "equal",
+              7,
+              55,
+              8,
+              56
+            ],
+            [
+              "delete",
+              55,
+              56,
+              56,
+              56
+            ],
+            [
+              "equal",
+              56,
+              60,
+              56,
+              60
+            ],
+            [
+              "replace",
+              60,
+              61,
+              60,
+              61
+            ],
+            [
+              "equal",
+              61,
+              63,
+              61,
+              63
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1071,
+          "physical_page": 45,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "09dcdf86684ae6ea7487fa1b012014369d76b19ff5a4e2b6749f228af9369c99",
+          "text": "पपाल भयसयुक्तोऽभवत् कर्णः पराजितः । माधवः स्वस्य राज्यं तु चकार स सुहृद्गणः ॥२८॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        22,
+        29
+      ],
+      "source_sanskrit_unchanged": "भोगान्नानाविधान् राजा बुभुजे पुत्रपौत्रवान् । गणेशमभजन्नित्यं मौद्गलं तत्पथादशृणोत् ॥२९॥",
+      "reviewed_kannada": "ರಾಜನು ಪುತ್ರಪೌತ್ರಾದಿಗಳಿಂದ ಕೂಡಿದವನಾಗಿ ನಾನಾವಿಧವಾದ ಭೋಗಗಳನ್ನು ಅನುಭವಿಸಿದನು. ಪ್ರತಿನಿತ್ಯವೂ ಗಣೇಶನನ್ನು ಭಜಿಸುತ್ತಿದ್ದನು ಮತ್ತು ಹಾಗೆಯೇ ಮೌದ್ಗಲ ಪುರಾಣವನ್ನು ಕೇಳುತ್ತಿದ್ದನು. (೨೯)",
+      "reviewed_kannada_candidate_unaccepted": "ರಾಜನು ಪುತ್ರಪೌತ್ರಾದಿಗಳಿಂದ ಕೂಡಿದವನಾಗಿ ನಾನಾವಿಧವಾದ ಭೋಗಗಳನ್ನು ಅನುಭವಿಸಿದನು. ಪ್ರತಿನಿತ್ಯವೂ ಗಣೇಶನನ್ನು ಭಜಿಸುತ್ತಿದ್ದನು ಮತ್ತು ಹಾಗೆಯೇ ಮೌದ್ಗಲ ಪುರಾಣವನ್ನು ಕೇಳುತ್ತಿದ್ದನು. (೨೯)",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1071,
+          "reference_page": 995,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0995.txt",
+          "reference_sha256": "0fc945f17a29d6a2fb9b9b6acc9854628ca78bbd4930c7bdb7c52c5e9df76ebe",
+          "source_part_exact": "भोगान्नानाविधान् राजा बुभुजे पुत्रपौत्रवान् । गणेशमभजन्नित्यं मौद्गलं तत्पथादशृणोत् ॥२९॥",
+          "reference_char_start": 1460,
+          "reference_char_end_exclusive": 1545,
+          "exact_reference_excerpt": "भोगान्नानाविधान्‌ राजा वुखुजे पुत्रपौच्रवान्‌ । गणेदाम भजनित्यं मौद्वल तत्तथाऽश्यणोत्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8591,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              20,
+              0,
+              20
+            ],
+            [
+              "replace",
+              20,
+              21,
+              20,
+              21
+            ],
+            [
+              "equal",
+              21,
+              22,
+              21,
+              22
+            ],
+            [
+              "replace",
+              22,
+              23,
+              22,
+              23
+            ],
+            [
+              "equal",
+              23,
+              33,
+              23,
+              33
+            ],
+            [
+              "replace",
+              33,
+              34,
+              33,
+              34
+            ],
+            [
+              "equal",
+              34,
+              43,
+              34,
+              43
+            ],
+            [
+              "replace",
+              43,
+              44,
+              43,
+              45
+            ],
+            [
+              "equal",
+              44,
+              47,
+              45,
+              48
+            ],
+            [
+              "delete",
+              47,
+              49,
+              48,
+              48
+            ],
+            [
+              "equal",
+              49,
+              59,
+              48,
+              58
+            ],
+            [
+              "replace",
+              59,
+              60,
+              58,
+              59
+            ],
+            [
+              "equal",
+              60,
+              61,
+              59,
+              60
+            ],
+            [
+              "delete",
+              61,
+              62,
+              60,
+              60
+            ],
+            [
+              "equal",
+              62,
+              65,
+              60,
+              63
+            ],
+            [
+              "replace",
+              65,
+              66,
+              63,
+              64
+            ],
+            [
+              "equal",
+              66,
+              68,
+              64,
+              66
+            ],
+            [
+              "replace",
+              68,
+              69,
+              66,
+              67
+            ],
+            [
+              "equal",
+              69,
+              70,
+              67,
+              68
+            ],
+            [
+              "replace",
+              70,
+              71,
+              68,
+              70
+            ],
+            [
+              "equal",
+              71,
+              75,
+              70,
+              74
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1071,
+          "physical_page": 45,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "09dcdf86684ae6ea7487fa1b012014369d76b19ff5a4e2b6749f228af9369c99",
+          "text": "भोगान्नानाविधान् राजा बुभुजे पुत्रपौत्रवान् । गणेशमभजन्नित्यं मौद्गलं तत्पथादशृणोत् ॥२९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        6
+      ],
+      "source_sanskrit_unchanged": "धौम्य उवाच । मा चिंतां कुरु मा देहघातं कुरु महामते । मुद्गलं शृणु भावेन रोगहीनो भविष्यसि ॥६॥",
+      "reviewed_kannada": "ಧೌಮ್ಯನು ಹೇಳಿದನು: ಎಲೈ ಮಹಾಮತಿಯೇ, ಚಿಂತೆಯನ್ನು ಮಾಡಬೇಡ, ದೇಹವನ್ನು ನಾಶಮಾಡಿಕೊಳ್ಳಬೇಡ. ಭಾವನೆಯಿಂದ ಮೌದ್ಗಲ ಪುರಾಣವನ್ನು ಕೇಳು, ರೋಗರಹಿತನಾಗುವೆ ॥೬॥",
+      "reviewed_kannada_candidate_unaccepted": "ಧೌಮ್ಯನು ಹೇಳಿದನು: ಎಲೈ ಮಹಾಮತಿಯೇ, ಚಿಂತೆಯನ್ನು ಮಾಡಬೇಡ, ದೇಹವನ್ನು ನಾಶಮಾಡಿಕೊಳ್ಳಬೇಡ. ಭಾವನೆಯಿಂದ ಮೌದ್ಗಲ ಪುರಾಣವನ್ನು ಕೇಳು, ರೋಗರಹಿತನಾಗುವೆ ॥೬॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "धौम्य उवाच । मा चिंतां कुरु मा देहघातं कुरु महामते । मुद्गलं शृणु भावेन रोगहीनो भविष्यसि ॥६॥",
+          "reference_char_start": 485,
+          "reference_char_end_exclusive": 573,
+          "exact_reference_excerpt": "धौम्य उाच । मा चितां कुरु मा देहघात॑ कुरु मदामते । मौद्रलं श्रगु भावेन रोगदहीनो भविष्यसि",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8873,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              6,
+              0,
+              6
+            ],
+            [
+              "delete",
+              6,
+              7,
+              6,
+              6
+            ],
+            [
+              "equal",
+              7,
+              13,
+              6,
+              12
+            ],
+            [
+              "delete",
+              13,
+              14,
+              12,
+              12
+            ],
+            [
+              "equal",
+              14,
+              29,
+              12,
+              27
+            ],
+            [
+              "replace",
+              29,
+              30,
+              27,
+              28
+            ],
+            [
+              "equal",
+              30,
+              35,
+              28,
+              33
+            ],
+            [
+              "replace",
+              35,
+              36,
+              33,
+              34
+            ],
+            [
+              "equal",
+              36,
+              41,
+              34,
+              39
+            ],
+            [
+              "replace",
+              41,
+              42,
+              39,
+              40
+            ],
+            [
+              "equal",
+              42,
+              44,
+              40,
+              42
+            ],
+            [
+              "replace",
+              44,
+              45,
+              42,
+              43
+            ],
+            [
+              "equal",
+              45,
+              48,
+              43,
+              46
+            ],
+            [
+              "replace",
+              48,
+              50,
+              46,
+              49
+            ],
+            [
+              "equal",
+              50,
+              59,
+              49,
+              58
+            ],
+            [
+              "insert",
+              59,
+              59,
+              58,
+              59
+            ],
+            [
+              "equal",
+              59,
+              71,
+              59,
+              71
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "धौम्य उवाच । मा चिंतां कुरु मा देहघातं कुरु महामते । मुद्गलं शृणु भावेन रोगहीनो भविष्यसि ॥६॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        23,
+        7
+      ],
+      "source_sanskrit_unchanged": "सर्वसिद्धिकरं पूर्णं ब्रह्मीभूतत्वदायकम् । मुद्गलं श्रवणेनैव चल शीघ्रं मया सह ॥७॥",
+      "reviewed_kannada": "ಪೂರ್ಣವಾದ ಮೌದ್ಗಲವು ಶ್ರವಣಮಾತ್ರದಿಂದಲೇ ಸರ್ವಸಿದ್ಧಿಗಳನ್ನೂ ಬ್ರಹ್ಮೀಭೂತತ್ವವನ್ನೂ ನೀಡುತ್ತದೆ. ನನ್ನೊಡನೆ ಶೀಘ್ರವಾಗಿ ಹೊರಡು ॥೭॥",
+      "reviewed_kannada_candidate_unaccepted": "ಪೂರ್ಣವಾದ ಮೌದ್ಗಲವು ಶ್ರವಣಮಾತ್ರದಿಂದಲೇ ಸರ್ವಸಿದ್ಧಿಗಳನ್ನೂ ಬ್ರಹ್ಮೀಭೂತತ್ವವನ್ನೂ ನೀಡುತ್ತದೆ. ನನ್ನೊಡನೆ ಶೀಘ್ರವಾಗಿ ಹೊರಡು ॥೭॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "सर्वसिद्धिकरं पूर्णं ब्रह्मीभूतत्वदायकम् । मुद्गलं श्रवणेनैव चल शीघ्रं मया सह ॥७॥",
+          "reference_char_start": 578,
+          "reference_char_end_exclusive": 651,
+          "exact_reference_excerpt": "सर्वसिद्धिकरं\nपूणं ब्रह्मी भूतत्वदायकम्‌ । मौद्ररं अवणेनैव चल रीघं मया सह",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.875,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              15,
+              0,
+              15
+            ],
+            [
+              "delete",
+              15,
+              17,
+              15,
+              15
+            ],
+            [
+              "equal",
+              17,
+              39,
+              15,
+              37
+            ],
+            [
+              "replace",
+              39,
+              40,
+              37,
+              38
+            ],
+            [
+              "equal",
+              40,
+              42,
+              38,
+              40
+            ],
+            [
+              "replace",
+              42,
+              44,
+              40,
+              42
+            ],
+            [
+              "equal",
+              44,
+              45,
+              42,
+              43
+            ],
+            [
+              "replace",
+              45,
+              48,
+              43,
+              44
+            ],
+            [
+              "equal",
+              48,
+              56,
+              44,
+              52
+            ],
+            [
+              "replace",
+              56,
+              57,
+              52,
+              53
+            ],
+            [
+              "equal",
+              57,
+              59,
+              53,
+              55
+            ],
+            [
+              "delete",
+              59,
+              61,
+              55,
+              55
+            ],
+            [
+              "equal",
+              61,
+              67,
+              55,
+              61
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "सर्वसिद्धिकरं पूर्णं ब्रह्मीभूतत्वदायकम् । मुद्गलं श्रवणेनैव चल शीघ्रं मया सह ॥७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        23,
+        10
+      ],
+      "source_sanskrit_unchanged": "शुक्लप्रतिपदि पारायणं प्राज्ञः समारभत् । मुद्गलस्य पुराणस्य नानाजनसमन्वितः ॥१०॥",
+      "reviewed_kannada": "ಶುಕ್ಲಪಕ್ಷದ ಪ್ರತಿಪದೆಯಂದು ಪ್ರಾಜ್ಞನು ನಾನಾ ಜನರಿಂದ ಕೂಡಿದವನಾಗಿ ಮೌದ್ಗಲ ಪುರಾಣದ ಪಾರಾಯಣವನ್ನು ಪ್ರಾರಂಭಿಸಿದನು ॥೧೦॥",
+      "reviewed_kannada_candidate_unaccepted": "ಶುಕ್ಲಪಕ್ಷದ ಪ್ರತಿಪದೆಯಂದು ಪ್ರಾಜ್ಞನು ನಾನಾ ಜನರಿಂದ ಕೂಡಿದವನಾಗಿ ಮೌದ್ಗಲ ಪುರಾಣದ ಪಾರಾಯಣವನ್ನು ಪ್ರಾರಂಭಿಸಿದನು ॥೧೦॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "शुक्लप्रतिपदि पारायणं प्राज्ञः समारभत् । मुद्गलस्य पुराणस्य नानाजनसमन्वितः ॥१०॥",
+          "reference_char_start": 828,
+          "reference_char_end_exclusive": 904,
+          "exact_reference_excerpt": "शुह्कप्रतिपदि पारायर्ण प्राज्ञः समारमत्‌ । मौद्रलस्य पुराणस्य नानाजनसमन्वितः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9023,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "insert",
+              2,
+              2,
+              2,
+              4
+            ],
+            [
+              "equal",
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              "delete",
+              3,
+              5,
+              5,
+              5
+            ],
+            [
+              "equal",
+              5,
+              18,
+              5,
+              18
+            ],
+            [
+              "insert",
+              18,
+              18,
+              18,
+              20
+            ],
+            [
+              "equal",
+              18,
+              19,
+              20,
+              21
+            ],
+            [
+              "delete",
+              19,
+              20,
+              21,
+              21
+            ],
+            [
+              "equal",
+              20,
+              32,
+              21,
+              33
+            ],
+            [
+              "replace",
+              32,
+              33,
+              33,
+              34
+            ],
+            [
+              "equal",
+              33,
+              36,
+              34,
+              37
+            ],
+            [
+              "replace",
+              36,
+              37,
+              37,
+              38
+            ],
+            [
+              "equal",
+              37,
+              39,
+              38,
+              40
+            ],
+            [
+              "replace",
+              39,
+              40,
+              40,
+              41
+            ],
+            [
+              "equal",
+              40,
+              66,
+              41,
+              67
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "शुक्लप्रतिपदि पारायणं प्राज्ञः समारभत् । मुद्गलस्य पुराणस्य नानाजनसमन्वितः ॥१०॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        12
+      ],
+      "source_sanskrit_unchanged": "सुमतिर्धौम्यसंयुक्तस्तथाभूतो महामतिः । गणेशं मनसि ध्यात्वा परं शुश्राव मुद्गलम् ॥१२॥",
+      "reviewed_kannada": "ಮಹಾಮತಿಯಾದ ಸುಮತಿಯು ಧೌಮ್ಯನೊಡನೆ ಕೂಡಿ ಹಾಗೆಯೇ ಇದ್ದು, ಮನಸ್ಸಿನಲ್ಲಿ ಗಣೇಶನನ್ನು ಧ್ಯಾನಿಸಿ ಶ್ರೇಷ್ಠವಾದ ಮೌದ್ಗಲ ಪುರಾಣವನ್ನು ಕೇಳಿದನು ॥೧೨॥",
+      "reviewed_kannada_candidate_unaccepted": "ಮಹಾಮತಿಯಾದ ಸುಮತಿಯು ಧೌಮ್ಯನೊಡನೆ ಕೂಡಿ ಹಾಗೆಯೇ ಇದ್ದು, ಮನಸ್ಸಿನಲ್ಲಿ ಗಣೇಶನನ್ನು ಧ್ಯಾನಿಸಿ ಶ್ರೇಷ್ಠವಾದ ಮೌದ್ಗಲ ಪುರಾಣವನ್ನು ಕೇಳಿದನು ॥೧೨॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "सुमतिर्धौम्यसंयुक्तस्तथाभूतो महामतिः । गणेशं मनसि ध्यात्वा परं शुश्राव मुद्गलम् ॥१२॥",
+          "reference_char_start": 988,
+          "reference_char_end_exclusive": 1067,
+          "exact_reference_excerpt": "खमतिर्धौम्यसंयु कस्तथा भरतो\nमहामतिः । गणेशं मनसि ध्यात्वा परं शुश्राव मोौद्रलम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.913,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "replace",
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              "equal",
+              2,
+              17,
+              1,
+              16
+            ],
+            [
+              "delete",
+              17,
+              19,
+              16,
+              16
+            ],
+            [
+              "equal",
+              19,
+              25,
+              16,
+              22
+            ],
+            [
+              "replace",
+              25,
+              26,
+              22,
+              23
+            ],
+            [
+              "equal",
+              26,
+              63,
+              23,
+              60
+            ],
+            [
+              "replace",
+              63,
+              64,
+              60,
+              62
+            ],
+            [
+              "equal",
+              64,
+              66,
+              62,
+              64
+            ],
+            [
+              "replace",
+              66,
+              67,
+              64,
+              65
+            ],
+            [
+              "equal",
+              67,
+              70,
+              65,
+              68
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "सुमतिर्धौम्यसंयुक्तस्तथाभूतो महामतिः । गणेशं मनसि ध्यात्वा परं शुश्राव मुद्गलम् ॥१२॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        18
+      ],
+      "source_sanskrit_unchanged": "धौम्य उवाच । गणेशं भज भावेन मुद्गलेन समन्वितम् । तेन मां कृतकृत्यं त्वं करिष्यसि न संशयः ॥१८॥",
+      "reviewed_kannada": "ಧೌಮ್ಯನು ಹೇಳಿದನು: ಮೌದ್ಗಲ ಪುರಾಣದೊಡನೆ ಕೂಡಿದ ಗಣೇಶನನ್ನು ಭಾವನೆಯಿಂದ ಭಜಿಸು. ಅದರಿಂದ ನೀನು ನನ್ನನ್ನು ಕೃತಕೃತ್ಯನನ್ನಾಗಿ ಮಾಡುವೆ, ಸಂಶಯವಿಲ್ಲ ॥೧೮॥",
+      "reviewed_kannada_candidate_unaccepted": "ಧೌಮ್ಯನು ಹೇಳಿದನು: ಮೌದ್ಗಲ ಪುರಾಣದೊಡನೆ ಕೂಡಿದ ಗಣೇಶನನ್ನು ಭಾವನೆಯಿಂದ ಭಜಿಸು. ಅದರಿಂದ ನೀನು ನನ್ನನ್ನು ಕೃತಕೃತ್ಯನನ್ನಾಗಿ ಮಾಡುವೆ, ಸಂಶಯವಿಲ್ಲ ॥೧೮॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "धौम्य उवाच । गणेशं भज भावेन मुद्गलेन समन्वितम् । तेन मां कृतकृत्यं त्वं करिष्यसि न संशयः ॥१८॥",
+          "reference_char_start": 1500,
+          "reference_char_end_exclusive": 1589,
+          "exact_reference_excerpt": "धौम्य उवाच । गणेशं भज भावेन मौद्रलेन\nसमन्वितम्‌ । तेन मां कृलकृत्यं त्वं करिष्यसि न संशयः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9577,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              22,
+              0,
+              22
+            ],
+            [
+              "replace",
+              22,
+              23,
+              22,
+              23
+            ],
+            [
+              "equal",
+              23,
+              25,
+              23,
+              25
+            ],
+            [
+              "replace",
+              25,
+              26,
+              25,
+              26
+            ],
+            [
+              "equal",
+              26,
+              46,
+              26,
+              46
+            ],
+            [
+              "replace",
+              46,
+              47,
+              46,
+              47
+            ],
+            [
+              "equal",
+              47,
+              71,
+              47,
+              71
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "धौम्य उवाच । गणेशं भज भावेन मुद्गलेन समन्वितम् । तेन मां कृतकृत्यं त्वं करिष्यसि न संशयः ॥१८॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        19
+      ],
+      "source_sanskrit_unchanged": "एवमुक्त्वा महायोगी धौम्यः स्वाश्रमगोऽभवत् । सुमतिर्गणनाथं स मुद्गलेनाऽभजत् सदा ॥१९॥",
+      "reviewed_kannada": "ಹೀಗೆಂದು ಹೇಳಿ ಮಹಾಯೋಗಿಯಾದ ಧೌಮ್ಯನು ತನ್ನ ಆಶ್ರಮಕ್ಕೆ ತೆರಳಿದನು. ಆ ಸುಮತಿಯು ಮೌದ್ಗಲ ಪುರಾಣದೊಡನೆ ಗಣನಾಥನನ್ನು ಯಾವಾಗಲೂ ಭಜಿಸಿದನು ॥೧೯॥",
+      "reviewed_kannada_candidate_unaccepted": "ಹೀಗೆಂದು ಹೇಳಿ ಮಹಾಯೋಗಿಯಾದ ಧೌಮ್ಯನು ತನ್ನ ಆಶ್ರಮಕ್ಕೆ ತೆರಳಿದನು. ಆ ಸುಮತಿಯು ಮೌದ್ಗಲ ಪುರಾಣದೊಡನೆ ಗಣನಾಥನನ್ನು ಯಾವಾಗಲೂ ಭಜಿಸಿದನು ॥೧೯॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "एवमुक्त्वा महायोगी धौम्यः स्वाश्रमगोऽभवत् । सुमतिर्गणनाथं स मुद्गलेनाऽभजत् सदा ॥१९॥",
+          "reference_char_start": 1595,
+          "reference_char_end_exclusive": 1673,
+          "exact_reference_excerpt": "एवसुक्त्वा महायोगी धौम्यः स्वाञ्चमगोऽभवत्‌ ।\nसुमतिगणनाथं स मौद्रलेनाऽमजत्‌ सदा",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8971,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "replace",
+              2,
+              3,
+              2,
+              3
+            ],
+            [
+              "equal",
+              3,
+              27,
+              3,
+              27
+            ],
+            [
+              "replace",
+              27,
+              28,
+              27,
+              28
+            ],
+            [
+              "equal",
+              28,
+              29,
+              28,
+              29
+            ],
+            [
+              "replace",
+              29,
+              30,
+              29,
+              30
+            ],
+            [
+              "equal",
+              30,
+              43,
+              30,
+              43
+            ],
+            [
+              "delete",
+              43,
+              45,
+              43,
+              43
+            ],
+            [
+              "equal",
+              45,
+              53,
+              43,
+              51
+            ],
+            [
+              "replace",
+              53,
+              54,
+              51,
+              52
+            ],
+            [
+              "equal",
+              54,
+              56,
+              52,
+              54
+            ],
+            [
+              "replace",
+              56,
+              57,
+              54,
+              55
+            ],
+            [
+              "equal",
+              57,
+              62,
+              55,
+              60
+            ],
+            [
+              "replace",
+              62,
+              63,
+              60,
+              61
+            ],
+            [
+              "equal",
+              63,
+              69,
+              61,
+              67
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "एवमुक्त्वा महायोगी धौम्यः स्वाश्रमगोऽभवत् । सुमतिर्गणनाथं स मुद्गलेनाऽभजत् सदा ॥१९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        23
+      ],
+      "source_sanskrit_unchanged": "दूरस्थेन श्रुतं तेन श्लोकस्य पदमुत्तमम् । एकं संपूर्णभावेन भक्तसंरक्षकस्य च ॥२३॥",
+      "reviewed_kannada": "ದೂರದಲ್ಲಿ ನಿಂತಿದ್ದ ಅವನಿಂದ ಭಕ್ತರನ್ನು ರಕ್ಷಿಸುವವನಾದ ಗಣೇಶನ ಶ್ಲೋಕದ ಉತ್ತಮವಾದ ಒಂದು ಪದವು ಸಂಪೂರ್ಣವಾಗಿ ಕೇಳಲ್ಪಟ್ಟಿತು ॥೨೩॥",
+      "reviewed_kannada_candidate_unaccepted": "ದೂರದಲ್ಲಿ ನಿಂತಿದ್ದ ಅವನಿಂದ ಭಕ್ತರನ್ನು ರಕ್ಷಿಸುವವನಾದ ಗಣೇಶನ ಶ್ಲೋಕದ ಉತ್ತಮವಾದ ಒಂದು ಪದವು ಸಂಪೂರ್ಣವಾಗಿ ಕೇಳಲ್ಪಟ್ಟಿತು ॥೨೩॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "दूरस्थेन श्रुतं तेन श्लोकस्य पदमुत्तमम् । एकं संपूर्णभावेन भक्तसंरक्षकस्य च ॥२३॥",
+          "reference_char_start": 1943,
+          "reference_char_end_exclusive": 2018,
+          "exact_reference_excerpt": "दूरस्थेन\nश्रुतं तेन -शछोकस्य पदसुत्तमम्‌ । एकं संपूण भावेन मक्तसंरक्तकस्थ च",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8976,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              18,
+              0,
+              18
+            ],
+            [
+              "replace",
+              18,
+              20,
+              18,
+              19
+            ],
+            [
+              "equal",
+              20,
+              27,
+              19,
+              26
+            ],
+            [
+              "replace",
+              27,
+              28,
+              26,
+              27
+            ],
+            [
+              "equal",
+              28,
+              42,
+              27,
+              41
+            ],
+            [
+              "delete",
+              42,
+              44,
+              41,
+              41
+            ],
+            [
+              "equal",
+              44,
+              50,
+              41,
+              47
+            ],
+            [
+              "replace",
+              50,
+              51,
+              47,
+              48
+            ],
+            [
+              "equal",
+              51,
+              59,
+              48,
+              56
+            ],
+            [
+              "replace",
+              59,
+              60,
+              56,
+              57
+            ],
+            [
+              "equal",
+              60,
+              63,
+              57,
+              60
+            ],
+            [
+              "replace",
+              63,
+              64,
+              60,
+              61
+            ],
+            [
+              "equal",
+              64,
+              65,
+              61,
+              62
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "दूरस्थेन श्रुतं तेन श्लोकस्य पदमुत्तमम् । एकं संपूर्णभावेन भक्तसंरक्षकस्य च ॥२३॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        24
+      ],
+      "source_sanskrit_unchanged": "ततः स विस्मितो भूत्वा जगाम स्वेच्छयेरितः । पापकर्म पुनः पापं चकार विविधं मुने ॥२४॥",
+      "reviewed_kannada": "ತದನಂತರ ಅವನು ವಿಸ್ಮಿತನಾಗಿ ತನ್ನ ಇಚ್ಛೆಯಿಂದ ಪ್ರೇರಿತನಾಗಿ ಹೋದನು. ಎಲೈ ಮುನಿಯೇ, ಪಾಪಕರ್ಮಿಯಾದ ಅವನು ಪುನಃ ವಿವಿಧವಾದ ಪಾಪವನ್ನು ಮಾಡಿದನು ॥೨೪॥",
+      "reviewed_kannada_candidate_unaccepted": "ತದನಂತರ ಅವನು ವಿಸ್ಮಿತನಾಗಿ ತನ್ನ ಇಚ್ಛೆಯಿಂದ ಪ್ರೇರಿತನಾಗಿ ಹೋದನು. ಎಲೈ ಮುನಿಯೇ, ಪಾಪಕರ್ಮಿಯಾದ ಅವನು ಪುನಃ ವಿವಿಧವಾದ ಪಾಪವನ್ನು ಮಾಡಿದನು ॥೨೪॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "ततः स विस्मितो भूत्वा जगाम स्वेच्छयेरितः । पापकर्म पुनः पापं चकार विविधं मुने ॥२४॥",
+          "reference_char_start": 2024,
+          "reference_char_end_exclusive": 2100,
+          "exact_reference_excerpt": "ततः स विस्मितो भूत्वा जगाम\nस्वेच्छयेरितः । पापकमा पुनः पापं चकार विविधं सुने",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9606,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              39,
+              0,
+              39
+            ],
+            [
+              "delete",
+              39,
+              41,
+              39,
+              39
+            ],
+            [
+              "equal",
+              41,
+              42,
+              39,
+              40
+            ],
+            [
+              "insert",
+              42,
+              42,
+              40,
+              41
+            ],
+            [
+              "equal",
+              42,
+              60,
+              41,
+              59
+            ],
+            [
+              "replace",
+              60,
+              61,
+              59,
+              60
+            ],
+            [
+              "equal",
+              61,
+              64,
+              60,
+              63
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "ततः स विस्मितो भूत्वा जगाम स्वेच्छयेरितः । पापकर्म पुनः पापं चकार विविधं मुने ॥२४॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        25
+      ],
+      "source_sanskrit_unchanged": "मृतं तं यमदूताश्च गृह्य सर्वे त्वरान्विताः । जग्मुर्देवं प्रणम्यादौ ददुस्तं पापकारकम् ॥२५॥",
+      "reviewed_kannada": "ಮರಣಹೊಂದಿದ ಅವನನ್ನು ಯಮದೂತರೆಲ್ಲರೂ ತ್ವರೆಯಿಂದ ಕರೆದುಕೊಂಡು ದೇವನ ಬಳಿಗೆ ಹೋದರು. ಮೊದಲು ನಮಸ್ಕರಿಸಿ, ಆ ಪಾಪಕರ್ಮಿಯನ್ನು ಅವನಿಗೆ ಒಪ್ಪಿಸಿದರು ॥೨೫॥",
+      "reviewed_kannada_candidate_unaccepted": "ಮರಣಹೊಂದಿದ ಅವನನ್ನು ಯಮದೂತರೆಲ್ಲರೂ ತ್ವರೆಯಿಂದ ಕರೆದುಕೊಂಡು ದೇವನ ಬಳಿಗೆ ಹೋದರು. ಮೊದಲು ನಮಸ್ಕರಿಸಿ, ಆ ಪಾಪಕರ್ಮಿಯನ್ನು ಅವನಿಗೆ ಒಪ್ಪಿಸಿದರು ॥೨೫॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1072,
+          "reference_page": 996,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0996.txt",
+          "reference_sha256": "1fb9cf1f110908fb241f8800901816e9b4b725248a7c7d952dbe4105fb8a1377",
+          "source_part_exact": "मृतं तं यमदूताश्च गृह्य सर्वे त्वरान्विताः । जग्मुर्देवं",
+          "reference_char_start": 2106,
+          "reference_char_end_exclusive": 2160,
+          "exact_reference_excerpt": "खतं तं यमदूताश्च गद्य सर्वे त्वरान्विताः । जग्मुर्देवं",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9362,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "replace",
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              "equal",
+              2,
+              16,
+              1,
+              15
+            ],
+            [
+              "replace",
+              16,
+              18,
+              15,
+              16
+            ],
+            [
+              "equal",
+              18,
+              48,
+              16,
+              46
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 1073,
+          "reference_page": 997,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0997.txt",
+          "reference_sha256": "8602086858b239e1532685639863294c9a546ee3bd2490e49541a229488036b4",
+          "source_part_exact": "प्रणम्यादौ ददुस्तं पापकारकम् ॥२५॥",
+          "reference_char_start": 51,
+          "reference_char_end_exclusive": 79,
+          "exact_reference_excerpt": "प्रणम्यादौ ददुस्तं पापकारकम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 1.0,
+          "normalized_agreement": true,
+          "status": "normalized_literal_agreement_not_source_certification",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              26,
+              0,
+              26
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1072,
+          "physical_page": 46,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "text": "मृतं तं यमदूताश्च गृह्य सर्वे त्वरान्विताः । जग्मुर्देवं",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 1073,
+          "physical_page": 47,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "e7dc01e5a355ab336ae6f9cd9fc8f7524c9db43d37b3721f2325a4c82efa2025",
+          "text": "प्रणम्यादौ ददुस्तं पापकारकम् ॥२५॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        27
+      ],
+      "source_sanskrit_unchanged": "न पुण्यस्य कदा लेशश्चांडालेन कृतः प्रभो । मौद्गलस्य पदं नाथ श्रुतमेकमनेन च ॥२७॥",
+      "reviewed_kannada": "ಹೇ ಪ್ರಭುವೇ, ಈ ಚಾಂಡಾಲನಿಂದ ಎಂದಿಗೂ ಪುಣ್ಯದ ಲೇಶವೂ ಮಾಡಲ್ಪಟ್ಟಿಲ್ಲ; ಆದರೆ ಹೇ ನಾಥನೇ, ಇವನಿಂದ ಮೌದ್ಗಲ ಪುರಾಣದ ಒಂದು ಪದವು ಮಾತ್ರ ಕೇಳಲ್ಪಟ್ಟಿದೆ ॥೨೭॥",
+      "reviewed_kannada_candidate_unaccepted": "ಹೇ ಪ್ರಭುವೇ, ಈ ಚಾಂಡಾಲನಿಂದ ಎಂದಿಗೂ ಪುಣ್ಯದ ಲೇಶವೂ ಮಾಡಲ್ಪಟ್ಟಿಲ್ಲ; ಆದರೆ ಹೇ ನಾಥನೇ, ಇವನಿಂದ ಮೌದ್ಗಲ ಪುರಾಣದ ಒಂದು ಪದವು ಮಾತ್ರ ಕೇಳಲ್ಪಟ್ಟಿದೆ ॥೨೭॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1073,
+          "reference_page": 997,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0997.txt",
+          "reference_sha256": "8602086858b239e1532685639863294c9a546ee3bd2490e49541a229488036b4",
+          "source_part_exact": "न पुण्यस्य कदा लेशश्चांडालेन कृतः प्रभो । मौद्गलस्य पदं नाथ श्रुतमेकमनेन च ॥२७॥",
+          "reference_char_start": 167,
+          "reference_char_end_exclusive": 242,
+          "exact_reference_excerpt": "न पुण्यस्य कदा लंदाश्वांडालेन कृतः प्रभो । मौद्धलस्य पदं नाथ श्रुतमेकमनेन च",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.928,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              13,
+              0,
+              13
+            ],
+            [
+              "replace",
+              13,
+              15,
+              13,
+              16
+            ],
+            [
+              "equal",
+              15,
+              17,
+              16,
+              18
+            ],
+            [
+              "replace",
+              17,
+              18,
+              18,
+              19
+            ],
+            [
+              "equal",
+              18,
+              38,
+              19,
+              39
+            ],
+            [
+              "replace",
+              38,
+              39,
+              39,
+              40
+            ],
+            [
+              "equal",
+              39,
+              62,
+              40,
+              63
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1073,
+          "physical_page": 47,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "e7dc01e5a355ab336ae6f9cd9fc8f7524c9db43d37b3721f2325a4c82efa2025",
+          "text": "न पुण्यस्य कदा लेशश्चांडालेन कृतः प्रभो । मौद्गलस्य पदं नाथ श्रुतमेकमनेन च ॥२७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        23,
+        36
+      ],
+      "source_sanskrit_unchanged": "तन्न वक्तुं मया विप्र शक्यते न कदाचन । वर्षायुतैस्तत्तत्तुभ्यं कथितं लेशतः परम् ॥३६॥",
+      "reviewed_kannada": "ಎಲೈ ವಿಪ್ರನೇ, ಅದನ್ನು ಅಯುತಗಟ್ಟಲೆ ವರ್ಷಗಳಲ್ಲಿಯೂ ನನ್ನಿಂದ ವರ್ಣಿಸಲು ಎಂದಿಗೂ ಸಾಧ್ಯವಿಲ್ಲ. ಆದ್ದರಿಂದ ನಿನಗೆ ಅದರ ಸ್ವಲ್ಪ ಭಾಗವನ್ನಷ್ಟೇ ಹೇಳಲಾಗಿದೆ ॥೩೬॥",
+      "reviewed_kannada_candidate_unaccepted": "ಎಲೈ ವಿಪ್ರನೇ, ಅದನ್ನು ಅಯುತಗಟ್ಟಲೆ ವರ್ಷಗಳಲ್ಲಿಯೂ ನನ್ನಿಂದ ವರ್ಣಿಸಲು ಎಂದಿಗೂ ಸಾಧ್ಯವಿಲ್ಲ. ಆದ್ದರಿಂದ ನಿನಗೆ ಅದರ ಸ್ವಲ್ಪ ಭಾಗವನ್ನಷ್ಟೇ ಹೇಳಲಾಗಿದೆ ॥೩೬॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1073,
+          "reference_page": 997,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0997.txt",
+          "reference_sha256": "8602086858b239e1532685639863294c9a546ee3bd2490e49541a229488036b4",
+          "source_part_exact": "तन्न वक्तुं मया विप्र शक्यते न कदाचन । वर्षायुतैस्तत्तत्तुभ्यं कथितं लेशतः परम् ॥३६॥",
+          "reference_char_start": 912,
+          "reference_char_end_exclusive": 988,
+          "exact_reference_excerpt": "तत्र वक्तु मया विप्र दाक्यते न कदाचन । वषायुतैस्ततस्तुभ्यं कथितं लेदातः परम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8702,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "replace",
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              "equal",
+              2,
+              3,
+              2,
+              3
+            ],
+            [
+              "replace",
+              3,
+              4,
+              3,
+              4
+            ],
+            [
+              "equal",
+              4,
+              9,
+              4,
+              9
+            ],
+            [
+              "delete",
+              9,
+              10,
+              9,
+              9
+            ],
+            [
+              "equal",
+              10,
+              18,
+              9,
+              17
+            ],
+            [
+              "replace",
+              18,
+              19,
+              17,
+              19
+            ],
+            [
+              "equal",
+              19,
+              31,
+              19,
+              31
+            ],
+            [
+              "delete",
+              31,
+              33,
+              31,
+              31
+            ],
+            [
+              "equal",
+              33,
+              43,
+              31,
+              41
+            ],
+            [
+              "replace",
+              43,
+              46,
+              41,
+              42
+            ],
+            [
+              "equal",
+              46,
+              60,
+              42,
+              56
+            ],
+            [
+              "replace",
+              60,
+              61,
+              56,
+              58
+            ],
+            [
+              "equal",
+              61,
+              67,
+              58,
+              64
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1073,
+          "physical_page": 47,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "e7dc01e5a355ab336ae6f9cd9fc8f7524c9db43d37b3721f2325a4c82efa2025",
+          "text": "तन्न वक्तुं मया विप्र शक्यते न कदाचन । वर्षायुतैस्तत्तत्तुभ्यं कथितं लेशतः परम् ॥३६॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        5
+      ],
+      "source_sanskrit_unchanged": "प्रणम्य स विधातारं जगदे वाक्यमुत्तमम् । विनेयेन समायुक्तस्तेन संमानितो यमः ॥५॥",
+      "reviewed_kannada": "ಅವನು ಬ್ರಹ್ಮನಿಗೆ ನಮಸ್ಕರಿಸಿ, ವಿನಯದಿಂದ ಕೂಡಿದವನಾಗಿ ಮತ್ತು ಅವನಿಂದ ಸನ್ಮಾನಿತನಾಗಿ ಉತ್ತಮವಾದ ಮಾತನ್ನು ಹೇಳಿದನು ॥೫॥",
+      "reviewed_kannada_candidate_unaccepted": "ಅವನು ಬ್ರಹ್ಮನಿಗೆ ನಮಸ್ಕರಿಸಿ, ವಿನಯದಿಂದ ಕೂಡಿದವನಾಗಿ ಮತ್ತು ಅವನಿಂದ ಸನ್ಮಾನಿತನಾಗಿ ಉತ್ತಮವಾದ ಮಾತನ್ನು ಹೇಳಿದನು ॥೫॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1073,
+          "reference_page": 997,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0997.txt",
+          "reference_sha256": "8602086858b239e1532685639863294c9a546ee3bd2490e49541a229488036b4",
+          "source_part_exact": "प्रणम्य स विधातारं जगदे वाक्यमुत्तमम् । विनेयेन समायुक्तस्तेन संमानितो यमः ॥५॥",
+          "reference_char_start": 1524,
+          "reference_char_end_exclusive": 1597,
+          "exact_reference_excerpt": "प्रणम्य स विधातारं जगदे वाक्यसुत्तमम्‌ । विनयेन\nसमायुक्तस्तन संमानितो यमः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9683,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              25,
+              0,
+              25
+            ],
+            [
+              "replace",
+              25,
+              26,
+              25,
+              26
+            ],
+            [
+              "equal",
+              26,
+              36,
+              26,
+              36
+            ],
+            [
+              "delete",
+              36,
+              37,
+              36,
+              36
+            ],
+            [
+              "equal",
+              37,
+              51,
+              36,
+              50
+            ],
+            [
+              "delete",
+              51,
+              52,
+              50,
+              50
+            ],
+            [
+              "equal",
+              52,
+              64,
+              50,
+              62
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1073,
+          "physical_page": 47,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "e7dc01e5a355ab336ae6f9cd9fc8f7524c9db43d37b3721f2325a4c82efa2025",
+          "text": "प्रणम्य स विधातारं जगदे वाक्यमुत्तमम् । विनेयेन समायुक्तस्तेन संमानितो यमः ॥५॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        24,
+        9
+      ],
+      "source_sanskrit_unchanged": "विश्वं चराचरं श्रुत्वा क्षीणं सद्यो भविष्यति । अतो यत्नपरो भूत्वा विश्वं रक्ष सुखप्रदम् ॥९॥",
+      "reviewed_kannada": "ಚರಾಚರವಾದ ವಿಶ್ವವು ಕೇಳಿದೊಡನೆಯೇ ಕ್ಷೀಣವಾಗುವುದು. ಆದುದರಿಂದ ನೀನು ಪ್ರಯತ್ನಶೀಲನಾಗಿ ಸುಖಪ್ರದವಾದ ವಿಶ್ವವನ್ನು ರಕ್ಷಿಸು ॥೯॥",
+      "reviewed_kannada_candidate_unaccepted": "ಚರಾಚರವಾದ ವಿಶ್ವವು ಕೇಳಿದೊಡನೆಯೇ ಕ್ಷೀಣವಾಗುವುದು. ಆದುದರಿಂದ ನೀನು ಪ್ರಯತ್ನಶೀಲನಾಗಿ ಸುಖಪ್ರದವಾದ ವಿಶ್ವವನ್ನು ರಕ್ಷಿಸು ॥೯॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1073,
+          "reference_page": 997,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0997.txt",
+          "reference_sha256": "8602086858b239e1532685639863294c9a546ee3bd2490e49541a229488036b4",
+          "source_part_exact": "विश्वं चराचरं श्रुत्वा क्षीणं",
+          "reference_char_start": 1863,
+          "reference_char_end_exclusive": 1891,
+          "exact_reference_excerpt": "विश्वं चराचरं श्चत्वा क्षीणं",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9412,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              14,
+              0,
+              14
+            ],
+            [
+              "replace",
+              14,
+              16,
+              14,
+              15
+            ],
+            [
+              "equal",
+              16,
+              26,
+              15,
+              25
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 1074,
+          "reference_page": 998,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0998.txt",
+          "reference_sha256": "623c54574953d1945131070206a9ad1fa20abd361bd66ac17776b552fe032e39",
+          "source_part_exact": "सद्यो भविष्यति । अतो यत्नपरो भूत्वा विश्वं रक्ष सुखप्रदम् ॥९॥",
+          "reference_char_start": 49,
+          "reference_char_end_exclusive": 108,
+          "exact_reference_excerpt": "स्यो भविष्याति । अतो यत्नपरो भ्रूत्वा विभ्वं रक्ष सुखप्रदम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9388,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "delete",
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              "equal",
+              2,
+              11,
+              1,
+              10
+            ],
+            [
+              "insert",
+              11,
+              11,
+              10,
+              11
+            ],
+            [
+              "equal",
+              11,
+              24,
+              11,
+              24
+            ],
+            [
+              "insert",
+              24,
+              24,
+              24,
+              26
+            ],
+            [
+              "equal",
+              24,
+              31,
+              26,
+              33
+            ],
+            [
+              "replace",
+              31,
+              32,
+              33,
+              34
+            ],
+            [
+              "equal",
+              32,
+              48,
+              34,
+              50
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1073,
+          "physical_page": 47,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "e7dc01e5a355ab336ae6f9cd9fc8f7524c9db43d37b3721f2325a4c82efa2025",
+          "text": "विश्वं चराचरं श्रुत्वा क्षीणं",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 1074,
+          "physical_page": 48,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "d82963fc864142e8eb00f00798f0565f15f1f13973ff1c7a6766182576c790e2",
+          "text": "सद्यो भविष्यति । अतो यत्नपरो भूत्वा विश्वं रक्ष सुखप्रदम् ॥९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        9,
+        24,
+        11
+      ],
+      "source_sanskrit_unchanged": "धर्मस्य वचनं श्रुत्वा तं जगाद पितामहः । निःश्वस्य शृणु विप्रेश\nवचनं देवपालकम् ॥११॥",
+      "reviewed_kannada": "ಎಲೈ ವಿಪ್ರಶ್ರೇಷ್ಠನೇ, ಧರ್ಮನ ಮಾತನ್ನು ಕೇಳಿ ಪಿತಾಮಹನು ನಿಟ್ಟುಸಿರುಬಿಟ್ಟು ಅವನಿಗೆ ಹೇಳಿದನು. ದೇವತೆಗಳನ್ನು ಪಾಲಿಸುವ ಆ ಮಾತನ್ನು ಕೇಳು ॥೧೧॥",
+      "reviewed_kannada_candidate_unaccepted": "ಎಲೈ ವಿಪ್ರಶ್ರೇಷ್ಠನೇ, ಧರ್ಮನ ಮಾತನ್ನು ಕೇಳಿ ಪಿತಾಮಹನು ನಿಟ್ಟುಸಿರುಬಿಟ್ಟು ಅವನಿಗೆ ಹೇಳಿದನು. ದೇವತೆಗಳನ್ನು ಪಾಲಿಸುವ ಆ ಮಾತನ್ನು ಕೇಳು ॥೧೧॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1074,
+          "reference_page": 998,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0998.txt",
+          "reference_sha256": "623c54574953d1945131070206a9ad1fa20abd361bd66ac17776b552fe032e39",
+          "source_part_exact": "धर्मस्य वचनं श्रुत्वा तं जगाद पितामहः । निःश्वस्य शृणु विप्रेश\nवचनं देवपालकम् ॥११॥",
+          "reference_char_start": 213,
+          "reference_char_end_exclusive": 286,
+          "exact_reference_excerpt": "धमस्य वचनं श्रुत्वा तं जगाद पितामहः । निश्वस्य श्रुणु कपिश\nवचनं देवपालकम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8889,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "delete",
+              1,
+              3,
+              1,
+              1
+            ],
+            [
+              "equal",
+              3,
+              34,
+              1,
+              32
+            ],
+            [
+              "delete",
+              34,
+              35,
+              32,
+              32
+            ],
+            [
+              "equal",
+              35,
+              42,
+              32,
+              39
+            ],
+            [
+              "replace",
+              42,
+              43,
+              39,
+              42
+            ],
+            [
+              "equal",
+              43,
+              45,
+              42,
+              44
+            ],
+            [
+              "replace",
+              45,
+              46,
+              44,
+              46
+            ],
+            [
+              "equal",
+              46,
+              47,
+              46,
+              47
+            ],
+            [
+              "delete",
+              47,
+              51,
+              47,
+              47
+            ],
+            [
+              "equal",
+              51,
+              65,
+              47,
+              61
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1074,
+          "physical_page": 48,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "d82963fc864142e8eb00f00798f0565f15f1f13973ff1c7a6766182576c790e2",
+          "text": "धर्मस्य वचनं श्रुत्वा तं जगाद पितामहः । निःश्वस्य शृणु विप्रेश\nवचनं देवपालकम् ॥११॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        21
+      ],
+      "source_sanskrit_unchanged": "अस्य सेवनमात्रेण जंतवो विविधात्मकाः । भुक्त्वा भोगान् गमिष्यंति यथा\nब्रह्मणि योगिनः ॥२१॥",
+      "reviewed_kannada": "ಇದರ ಸೇವನಮಾತ್ರದಿಂದಲೇ ವಿವಿಧ ಸ್ವಭಾವವುಳ್ಳ ಜೀವಿಗಳು ಭೋಗಗಳನ್ನು ಅನುಭವಿಸಿ, ಯೋಗಿಗಳಂತೆ ಬ್ರಹ್ಮವನ್ನು ಹೊಂದುವರು ॥೨೧॥",
+      "reviewed_kannada_candidate_unaccepted": "ಇದರ ಸೇವನಮಾತ್ರದಿಂದಲೇ ವಿವಿಧ ಸ್ವಭಾವವುಳ್ಳ ಜೀವಿಗಳು ಭೋಗಗಳನ್ನು ಅನುಭವಿಸಿ, ಯೋಗಿಗಳಂತೆ ಬ್ರಹ್ಮವನ್ನು ಹೊಂದುವರು ॥೨೧॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1074,
+          "reference_page": 998,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0998.txt",
+          "reference_sha256": "623c54574953d1945131070206a9ad1fa20abd361bd66ac17776b552fe032e39",
+          "source_part_exact": "अस्य सेवनमात्रेण जंतवो विविधात्मकाः । भुक्त्वा भोगान् गमिष्यंति यथा\nब्रह्मणि योगिनः ॥२१॥",
+          "reference_char_start": 1064,
+          "reference_char_end_exclusive": 1148,
+          "exact_reference_excerpt": "अस्य सेवनमान्रंण जतवा वविधात्मक्राः । खुक्त्वा मोगान्‌ गमिष्यति यथा\nब्रह्माणि योगिनः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8889,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              10,
+              0,
+              10
+            ],
+            [
+              "replace",
+              10,
+              11,
+              10,
+              11
+            ],
+            [
+              "equal",
+              11,
+              13,
+              11,
+              13
+            ],
+            [
+              "replace",
+              13,
+              14,
+              13,
+              14
+            ],
+            [
+              "equal",
+              14,
+              16,
+              14,
+              16
+            ],
+            [
+              "delete",
+              16,
+              17,
+              16,
+              16
+            ],
+            [
+              "equal",
+              17,
+              19,
+              16,
+              18
+            ],
+            [
+              "replace",
+              19,
+              20,
+              18,
+              19
+            ],
+            [
+              "equal",
+              20,
+              21,
+              19,
+              20
+            ],
+            [
+              "delete",
+              21,
+              22,
+              20,
+              20
+            ],
+            [
+              "equal",
+              22,
+              30,
+              20,
+              28
+            ],
+            [
+              "insert",
+              30,
+              30,
+              28,
+              30
+            ],
+            [
+              "equal",
+              30,
+              32,
+              30,
+              32
+            ],
+            [
+              "replace",
+              32,
+              33,
+              32,
+              33
+            ],
+            [
+              "equal",
+              33,
+              40,
+              33,
+              40
+            ],
+            [
+              "replace",
+              40,
+              41,
+              40,
+              41
+            ],
+            [
+              "equal",
+              41,
+              52,
+              41,
+              52
+            ],
+            [
+              "delete",
+              52,
+              53,
+              52,
+              52
+            ],
+            [
+              "equal",
+              53,
+              64,
+              52,
+              63
+            ],
+            [
+              "insert",
+              64,
+              64,
+              63,
+              64
+            ],
+            [
+              "equal",
+              64,
+              72,
+              64,
+              72
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1074,
+          "physical_page": 48,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "d82963fc864142e8eb00f00798f0565f15f1f13973ff1c7a6766182576c790e2",
+          "text": "अस्य सेवनमात्रेण जंतवो विविधात्मकाः । भुक्त्वा भोगान् गमिष्यंति यथा\nब्रह्मणि योगिनः ॥२१॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        27
+      ],
+      "source_sanskrit_unchanged": "बृहस्पतिरुवाच । गणेशेन महेशाद्या इदं रचितमुत्तमम् । विश्वं नानास्वभावस्थं मौद्गलं तु न संशयः ॥२७॥",
+      "reviewed_kannada": "ಬೃಹಸ್ಪತಿಯು ಹೇಳಿದನು: ಎಲೈ ಮಹೇಶನೇ ಮೊದಲಾದವರೇ, ನಾನಾ ಸ್ವಭಾವಗಳಿಂದ ಕೂಡಿದ ಈ ಶ್ರೇಷ್ಠವಾದ ವಿಶ್ವವೂ ಮೌದ್ಗಲವೂ ಗಣೇಶನಿಂದ ರಚಿಸಲ್ಪಟ್ಟಿವೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ ॥೨೭॥",
+      "reviewed_kannada_candidate_unaccepted": "ಬೃಹಸ್ಪತಿಯು ಹೇಳಿದನು: ಎಲೈ ಮಹೇಶನೇ ಮೊದಲಾದವರೇ, ನಾನಾ ಸ್ವಭಾವಗಳಿಂದ ಕೂಡಿದ ಈ ಶ್ರೇಷ್ಠವಾದ ವಿಶ್ವವೂ ಮೌದ್ಗಲವೂ ಗಣೇಶನಿಂದ ರಚಿಸಲ್ಪಟ್ಟಿವೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ ॥೨೭॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1074,
+          "reference_page": 998,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0998.txt",
+          "reference_sha256": "623c54574953d1945131070206a9ad1fa20abd361bd66ac17776b552fe032e39",
+          "source_part_exact": "बृहस्पतिरुवाच । गणेशेन महेशाद्या इदं रचितमुत्तमम् । विश्वं नानास्वभावस्थं मौद्गलं तु न संशयः ॥२७॥",
+          "reference_char_start": 1578,
+          "reference_char_end_exclusive": 1674,
+          "exact_reference_excerpt": "ब्रहस्पतिरुवाच । गणेद्योन महेश्षाद्या इदं रचितसुत्तमम्‌ । विभ्वं नानास्व भावस्थं मद्रं तुन सहायः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8553,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "replace",
+              1,
+              2,
+              1,
+              3
+            ],
+            [
+              "equal",
+              2,
+              16,
+              3,
+              17
+            ],
+            [
+              "replace",
+              16,
+              18,
+              17,
+              21
+            ],
+            [
+              "equal",
+              18,
+              23,
+              21,
+              26
+            ],
+            [
+              "insert",
+              23,
+              23,
+              26,
+              28
+            ],
+            [
+              "equal",
+              23,
+              35,
+              28,
+              40
+            ],
+            [
+              "replace",
+              35,
+              36,
+              40,
+              41
+            ],
+            [
+              "equal",
+              36,
+              45,
+              41,
+              50
+            ],
+            [
+              "replace",
+              45,
+              46,
+              50,
+              51
+            ],
+            [
+              "equal",
+              46,
+              64,
+              51,
+              69
+            ],
+            [
+              "delete",
+              64,
+              65,
+              69,
+              69
+            ],
+            [
+              "equal",
+              65,
+              67,
+              69,
+              71
+            ],
+            [
+              "replace",
+              67,
+              69,
+              71,
+              72
+            ],
+            [
+              "equal",
+              69,
+              74,
+              72,
+              77
+            ],
+            [
+              "replace",
+              74,
+              76,
+              77,
+              79
+            ],
+            [
+              "equal",
+              76,
+              78,
+              79,
+              81
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1074,
+          "physical_page": 48,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "d82963fc864142e8eb00f00798f0565f15f1f13973ff1c7a6766182576c790e2",
+          "text": "बृहस्पतिरुवाच । गणेशेन महेशाद्या इदं रचितमुत्तमम् । विश्वं नानास्वभावस्थं मौद्गलं तु न संशयः ॥२७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        29
+      ],
+      "source_sanskrit_unchanged": "अन्यच्च मौद्गलस्यैवं कदा विघ्नं\nभविष्यति । तदेव न भवेन्मिथ्या वचनं मुनिसत्तमाः ॥२९॥",
+      "reviewed_kannada": "ಹೇ ಮುನಿಸತ್ತಮರೇ, ಮತ್ತು ಮೌದ್ಗಲಕ್ಕೆ ಯಾವಾಗಲಾದರೂ ವಿಘ್ನವು ಉಂಟಾಗುವುದು ಎಂಬ ಆ ಮಾತೂ ಸುಳ್ಳಾಗಲಾರದು ॥೨೯॥",
+      "reviewed_kannada_candidate_unaccepted": "ಹೇ ಮುನಿಸತ್ತಮರೇ, ಮತ್ತು ಮೌದ್ಗಲಕ್ಕೆ ಯಾವಾಗಲಾದರೂ ವಿಘ್ನವು ಉಂಟಾಗುವುದು ಎಂಬ ಆ ಮಾತೂ ಸುಳ್ಳಾಗಲಾರದು ॥೨೯॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1074,
+          "reference_page": 998,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0998.txt",
+          "reference_sha256": "623c54574953d1945131070206a9ad1fa20abd361bd66ac17776b552fe032e39",
+          "source_part_exact": "अन्यच्च मौद्गलस्यैवं कदा विघ्नं\nभविष्यति । तदेव न भवेन्मिथ्या वचनं मुनिसत्तमाः ॥२९॥",
+          "reference_char_start": 1748,
+          "reference_char_end_exclusive": 1820,
+          "exact_reference_excerpt": "अन्यच मौद्रलस्यैव कदा विन्न\nभनावष्यात । तदव न भवान्मथ्या वचन सूानसत्तमाः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8125,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              5,
+              0,
+              5
+            ],
+            [
+              "delete",
+              5,
+              7,
+              5,
+              5
+            ],
+            [
+              "equal",
+              7,
+              11,
+              5,
+              9
+            ],
+            [
+              "replace",
+              11,
+              12,
+              9,
+              10
+            ],
+            [
+              "equal",
+              12,
+              18,
+              10,
+              16
+            ],
+            [
+              "delete",
+              18,
+              19,
+              16,
+              16
+            ],
+            [
+              "equal",
+              19,
+              24,
+              16,
+              21
+            ],
+            [
+              "replace",
+              24,
+              25,
+              21,
+              22
+            ],
+            [
+              "equal",
+              25,
+              27,
+              22,
+              24
+            ],
+            [
+              "delete",
+              27,
+              28,
+              24,
+              24
+            ],
+            [
+              "equal",
+              28,
+              29,
+              24,
+              25
+            ],
+            [
+              "insert",
+              29,
+              29,
+              25,
+              27
+            ],
+            [
+              "equal",
+              29,
+              30,
+              27,
+              28
+            ],
+            [
+              "delete",
+              30,
+              31,
+              28,
+              28
+            ],
+            [
+              "equal",
+              31,
+              34,
+              28,
+              31
+            ],
+            [
+              "insert",
+              34,
+              34,
+              31,
+              32
+            ],
+            [
+              "equal",
+              34,
+              35,
+              32,
+              33
+            ],
+            [
+              "delete",
+              35,
+              36,
+              33,
+              33
+            ],
+            [
+              "equal",
+              36,
+              38,
+              33,
+              35
+            ],
+            [
+              "delete",
+              38,
+              39,
+              35,
+              35
+            ],
+            [
+              "equal",
+              39,
+              43,
+              35,
+              39
+            ],
+            [
+              "replace",
+              43,
+              44,
+              39,
+              40
+            ],
+            [
+              "equal",
+              44,
+              47,
+              40,
+              43
+            ],
+            [
+              "delete",
+              47,
+              48,
+              43,
+              43
+            ],
+            [
+              "equal",
+              48,
+              55,
+              43,
+              50
+            ],
+            [
+              "replace",
+              55,
+              58,
+              50,
+              53
+            ],
+            [
+              "equal",
+              58,
+              59,
+              53,
+              54
+            ],
+            [
+              "delete",
+              59,
+              60,
+              54,
+              54
+            ],
+            [
+              "equal",
+              60,
+              67,
+              54,
+              61
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1074,
+          "physical_page": 48,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "d82963fc864142e8eb00f00798f0565f15f1f13973ff1c7a6766182576c790e2",
+          "text": "अन्यच्च मौद्गलस्यैवं कदा विघ्नं\nभविष्यति । तदेव न भवेन्मिथ्या वचनं मुनिसत्तमाः ॥२९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        30
+      ],
+      "source_sanskrit_unchanged": "अतो गजेश्वरं प्रार्थ्य विघ्नं कुरुत देवपाः । मौद्गलस्य\nगणेशानः क्षुब्धो नात्र भविष्यति ॥३०॥",
+      "reviewed_kannada": "ಆದುದರಿಂದ ಹೇ ದೇವಪಾಲಕರೇ, ಗಣೇಶ್ವರನನ್ನು ಪ್ರಾರ್ಥಿಸಿ ವಿಘ್ನವನ್ನು ಮಾಡಿರಿ. ಇದರಿಂದ ಮೌದ್ಗಲದ ವಿಷಯದಲ್ಲಿ ಗಣೇಶಾನನು ಕ್ಷುಬ್ಧನಾಗುವುದಿಲ್ಲ ॥೩೦॥",
+      "reviewed_kannada_candidate_unaccepted": "ಆದುದರಿಂದ ಹೇ ದೇವಪಾಲಕರೇ, ಗಣೇಶ್ವರನನ್ನು ಪ್ರಾರ್ಥಿಸಿ ವಿಘ್ನವನ್ನು ಮಾಡಿರಿ. ಇದರಿಂದ ಮೌದ್ಗಲದ ವಿಷಯದಲ್ಲಿ ಗಣೇಶಾನನು ಕ್ಷುಬ್ಧನಾಗುವುದಿಲ್ಲ ॥೩೦॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1074,
+          "reference_page": 998,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0998.txt",
+          "reference_sha256": "623c54574953d1945131070206a9ad1fa20abd361bd66ac17776b552fe032e39",
+          "source_part_exact": "अतो गजेश्वरं प्रार्थ्य विघ्नं कुरुत देवपाः । मौद्गलस्य\nगणेशानः क्षुब्धो नात्र भविष्यति ॥३०॥",
+          "reference_char_start": 1826,
+          "reference_char_end_exclusive": 1909,
+          "exact_reference_excerpt": "अता गणेश्वरं प्राथ्यं विन्न कुरुत देवपाः । मौद्रखस्य\nगण्डानः छ्ुब्घा नात्र नावच्यात",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.7724,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "replace",
+              2,
+              3,
+              2,
+              3
+            ],
+            [
+              "equal",
+              3,
+              4,
+              3,
+              4
+            ],
+            [
+              "replace",
+              4,
+              5,
+              4,
+              5
+            ],
+            [
+              "equal",
+              5,
+              15,
+              5,
+              15
+            ],
+            [
+              "delete",
+              15,
+              17,
+              15,
+              15
+            ],
+            [
+              "equal",
+              17,
+              20,
+              15,
+              18
+            ],
+            [
+              "insert",
+              20,
+              20,
+              18,
+              19
+            ],
+            [
+              "equal",
+              20,
+              22,
+              19,
+              21
+            ],
+            [
+              "replace",
+              22,
+              23,
+              21,
+              22
+            ],
+            [
+              "equal",
+              23,
+              25,
+              22,
+              24
+            ],
+            [
+              "delete",
+              25,
+              26,
+              24,
+              24
+            ],
+            [
+              "equal",
+              26,
+              41,
+              24,
+              39
+            ],
+            [
+              "replace",
+              41,
+              43,
+              39,
+              41
+            ],
+            [
+              "equal",
+              43,
+              48,
+              41,
+              46
+            ],
+            [
+              "replace",
+              48,
+              50,
+              46,
+              48
+            ],
+            [
+              "equal",
+              50,
+              53,
+              48,
+              51
+            ],
+            [
+              "replace",
+              53,
+              54,
+              51,
+              52
+            ],
+            [
+              "equal",
+              54,
+              55,
+              52,
+              53
+            ],
+            [
+              "delete",
+              55,
+              56,
+              53,
+              53
+            ],
+            [
+              "equal",
+              56,
+              59,
+              53,
+              56
+            ],
+            [
+              "replace",
+              59,
+              61,
+              56,
+              58
+            ],
+            [
+              "equal",
+              61,
+              66,
+              58,
+              63
+            ],
+            [
+              "replace",
+              66,
+              67,
+              63,
+              65
+            ],
+            [
+              "equal",
+              67,
+              68,
+              65,
+              66
+            ],
+            [
+              "replace",
+              68,
+              70,
+              66,
+              67
+            ],
+            [
+              "equal",
+              70,
+              72,
+              67,
+              69
+            ],
+            [
+              "insert",
+              72,
+              72,
+              69,
+              70
+            ],
+            [
+              "equal",
+              72,
+              73,
+              70,
+              71
+            ],
+            [
+              "delete",
+              73,
+              74,
+              71,
+              71
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1074,
+          "physical_page": 48,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "d82963fc864142e8eb00f00798f0565f15f1f13973ff1c7a6766182576c790e2",
+          "text": "अतो गजेश्वरं प्रार्थ्य विघ्नं कुरुत देवपाः । मौद्गलस्य\nगणेशानः क्षुब्धो नात्र भविष्यति ॥३०॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        34
+      ],
+      "source_sanskrit_unchanged": "ततो ब्रह्मा गणेशानं स्मृत्वाऽसृजत तत्क्षणात् । विकल्पं संशयाकारं महातेजोयुतं खलम् ॥३४॥",
+      "reviewed_kannada": "ತದನಂತರ ಬ್ರಹ್ಮನು ಗಣೇಶಾನನನ್ನು ಸ್ಮರಿಸಿ, ಸಂಶಯಸ್ವರೂಪಿಯೂ ಮಹಾತೇಜಸ್ಸಿನಿಂದ ಕೂಡಿದವನೂ ಆದ ದುಷ್ಟ ವಿಕಲ್ಪನನ್ನು ತಕ್ಷಣವೇ ಸೃಷ್ಟಿಸಿದನು ॥೩೪॥",
+      "reviewed_kannada_candidate_unaccepted": "ತದನಂತರ ಬ್ರಹ್ಮನು ಗಣೇಶಾನನನ್ನು ಸ್ಮರಿಸಿ, ಸಂಶಯಸ್ವರೂಪಿಯೂ ಮಹಾತೇಜಸ್ಸಿನಿಂದ ಕೂಡಿದವನೂ ಆದ ದುಷ್ಟ ವಿಕಲ್ಪನನ್ನು ತಕ್ಷಣವೇ ಸೃಷ್ಟಿಸಿದನು ॥೩೪॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1074,
+          "reference_page": 998,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0998.txt",
+          "reference_sha256": "623c54574953d1945131070206a9ad1fa20abd361bd66ac17776b552fe032e39",
+          "source_part_exact": "ततो ब्रह्मा गणेशानं स्मृत्वाऽसृजत तत्क्षणात् ।",
+          "reference_char_start": 2168,
+          "reference_char_end_exclusive": 2211,
+          "exact_reference_excerpt": "तता ब्रह्मा गणेरान स्ष्छत्वाऽखजत तत्क्षणात्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8354,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "replace",
+              2,
+              3,
+              2,
+              3
+            ],
+            [
+              "equal",
+              3,
+              13,
+              3,
+              13
+            ],
+            [
+              "replace",
+              13,
+              14,
+              13,
+              14
+            ],
+            [
+              "equal",
+              14,
+              16,
+              14,
+              16
+            ],
+            [
+              "delete",
+              16,
+              17,
+              16,
+              16
+            ],
+            [
+              "equal",
+              17,
+              19,
+              16,
+              18
+            ],
+            [
+              "replace",
+              19,
+              21,
+              18,
+              21
+            ],
+            [
+              "equal",
+              21,
+              26,
+              21,
+              26
+            ],
+            [
+              "replace",
+              26,
+              28,
+              26,
+              27
+            ],
+            [
+              "equal",
+              28,
+              40,
+              27,
+              39
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 1075,
+          "reference_page": 999,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0999.txt",
+          "reference_sha256": "761f1c21eb8470f93fdbd29e7417d3427059334fe77f4b85e9ab8179327dae7a",
+          "source_part_exact": "विकल्पं संशयाकारं महातेजोयुतं खलम् ॥३४॥",
+          "reference_char_start": 56,
+          "reference_char_end_exclusive": 91,
+          "exact_reference_excerpt": "विकल्पं संदाथाकारं महातेजोधुतं खलम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8889,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              9,
+              0,
+              9
+            ],
+            [
+              "replace",
+              9,
+              11,
+              9,
+              12
+            ],
+            [
+              "equal",
+              11,
+              23,
+              12,
+              24
+            ],
+            [
+              "replace",
+              23,
+              24,
+              24,
+              25
+            ],
+            [
+              "equal",
+              24,
+              31,
+              25,
+              32
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1074,
+          "physical_page": 48,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "d82963fc864142e8eb00f00798f0565f15f1f13973ff1c7a6766182576c790e2",
+          "text": "ततो ब्रह्मा गणेशानं स्मृत्वाऽसृजत तत्क्षणात् ।",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 1075,
+          "physical_page": 49,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "10d2619a7b11d8609fdf9dea3b142acda3aef26106fa1e514fb26eb0378df914",
+          "text": "विकल्पं संशयाकारं महातेजोयुतं खलम् ॥३४॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        35
+      ],
+      "source_sanskrit_unchanged": "तं दृष्ट्वा देवमुख्या ये देवा विप्रादयोऽपरे । सद्यस्ते संशयेनैव युक्ता विप्र बभूविरे ॥३५॥",
+      "reviewed_kannada": "ಅವನನ್ನು ನೋಡಿ, ದೇವಮುಖ್ಯರೂ, ಇತರ ದೇವತೆಗಳೂ ಮತ್ತು ಬ್ರಾಹ್ಮಣಾದಿಗಳೂ ತಕ್ಷಣವೇ ಸಂಶಯದಿಂದ ಕೂಡಿದವರಾದರು, ಹೇ ವಿಪ್ರನೇ (೩೫).",
+      "reviewed_kannada_candidate_unaccepted": "ಅವನನ್ನು ನೋಡಿ, ದೇವಮುಖ್ಯರೂ, ಇತರ ದೇವತೆಗಳೂ ಮತ್ತು ಬ್ರಾಹ್ಮಣಾದಿಗಳೂ ತಕ್ಷಣವೇ ಸಂಶಯದಿಂದ ಕೂಡಿದವರಾದರು, ಹೇ ವಿಪ್ರನೇ (೩೫).",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1075,
+          "reference_page": 999,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0999.txt",
+          "reference_sha256": "761f1c21eb8470f93fdbd29e7417d3427059334fe77f4b85e9ab8179327dae7a",
+          "source_part_exact": "तं दृष्ट्वा देवमुख्या ये देवा विप्रादयोऽपरे । सद्यस्ते संशयेनैव युक्ता विप्र बभूविरे ॥३५॥",
+          "reference_char_start": 98,
+          "reference_char_end_exclusive": 180,
+          "exact_reference_excerpt": "तं दृष्टा देवसुख्या ये देवा विप्रादयोऽपरे । स्यस्ते संदायेनैव युक्ता विप्र\nबभूविरे",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9437,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              7,
+              0,
+              7
+            ],
+            [
+              "delete",
+              7,
+              9,
+              7,
+              7
+            ],
+            [
+              "equal",
+              9,
+              13,
+              7,
+              11
+            ],
+            [
+              "replace",
+              13,
+              14,
+              11,
+              12
+            ],
+            [
+              "equal",
+              14,
+              39,
+              12,
+              37
+            ],
+            [
+              "delete",
+              39,
+              40,
+              37,
+              37
+            ],
+            [
+              "equal",
+              40,
+              48,
+              37,
+              45
+            ],
+            [
+              "replace",
+              48,
+              49,
+              45,
+              47
+            ],
+            [
+              "equal",
+              49,
+              72,
+              47,
+              70
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1075,
+          "physical_page": 49,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "10d2619a7b11d8609fdf9dea3b142acda3aef26106fa1e514fb26eb0378df914",
+          "text": "तं दृष्ट्वा देवमुख्या ये देवा विप्रादयोऽपरे । सद्यस्ते संशयेनैव युक्ता विप्र बभूविरे ॥३५॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        37
+      ],
+      "source_sanskrit_unchanged": "रुच्यर्थं कथितं सर्वं वेदादिषु न संशयः । ब्रह्म ब्रह्मणि संस्थं तत् सर्वमान्यं विशेषतः ॥३७॥",
+      "reviewed_kannada": "ವೇದಾದಿಗಳಲ್ಲಿ ಹೇಳಿರುವುದೆಲ್ಲವೂ ಕೇವಲ ಅಭಿರುಚಿಗಾಗಿಯೇ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ಬ್ರಹ್ಮವು ಬ್ರಹ್ಮದಲ್ಲಿಯೇ ನೆಲೆಸಿದೆ, ಅದು ವಿಶೇಷವಾಗಿ ಸರ್ವಮಾನ್ಯವಾದುದು (೩೭).",
+      "reviewed_kannada_candidate_unaccepted": "ವೇದಾದಿಗಳಲ್ಲಿ ಹೇಳಿರುವುದೆಲ್ಲವೂ ಕೇವಲ ಅಭಿರುಚಿಗಾಗಿಯೇ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ಬ್ರಹ್ಮವು ಬ್ರಹ್ಮದಲ್ಲಿಯೇ ನೆಲೆಸಿದೆ, ಅದು ವಿಶೇಷವಾಗಿ ಸರ್ವಮಾನ್ಯವಾದುದು (೩೭).",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1075,
+          "reference_page": 999,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0999.txt",
+          "reference_sha256": "761f1c21eb8470f93fdbd29e7417d3427059334fe77f4b85e9ab8179327dae7a",
+          "source_part_exact": "रुच्यर्थं कथितं सर्वं वेदादिषु न संशयः । ब्रह्म ब्रह्मणि संस्थं तत् सर्वमान्यं विशेषतः ॥३७॥",
+          "reference_char_start": 272,
+          "reference_char_end_exclusive": 356,
+          "exact_reference_excerpt": "सच्य्थं\nकथितं सर्वं वेदादिषु न संशयः । ब्रह्म ब्रह्मणि संस्थं तत्‌ सवंमान्यं विरोषतः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9231,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "replace",
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              "equal",
+              2,
+              5,
+              1,
+              4
+            ],
+            [
+              "delete",
+              5,
+              6,
+              4,
+              4
+            ],
+            [
+              "equal",
+              6,
+              57,
+              4,
+              55
+            ],
+            [
+              "delete",
+              57,
+              59,
+              55,
+              55
+            ],
+            [
+              "equal",
+              59,
+              60,
+              55,
+              56
+            ],
+            [
+              "insert",
+              60,
+              60,
+              56,
+              57
+            ],
+            [
+              "equal",
+              60,
+              68,
+              57,
+              65
+            ],
+            [
+              "replace",
+              68,
+              70,
+              65,
+              67
+            ],
+            [
+              "equal",
+              70,
+              73,
+              67,
+              70
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1075,
+          "physical_page": 49,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "10d2619a7b11d8609fdf9dea3b142acda3aef26106fa1e514fb26eb0378df914",
+          "text": "रुच्यर्थं कथितं सर्वं वेदादिषु न संशयः । ब्रह्म ब्रह्मणि संस्थं तत् सर्वमान्यं विशेषतः ॥३७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        9,
+        24,
+        38
+      ],
+      "source_sanskrit_unchanged": "एवमुक्त्वा ययुः सर्वे स्वे स्वे स्थाने महामुने । मोहिता मायया तस्य विकल्पस्य महाद्भुतम् ॥३८॥",
+      "reviewed_kannada": "ಎಲೈ ಮಹಾಮುನಿಯೇ, ಆ ವಿಕಲ್ಪನ ಮಾಯೆಯಿಂದ ಮೋಹಿತರಾದ ಅವರೆಲ್ಲರೂ ಹೀಗೆಂದು ಹೇಳಿ ತಮ್ಮ ತಮ್ಮ ಸ್ಥಾನಗಳಿಗೆ ತೆರಳಿದರು. ಇದು ಅತ್ಯಂತ ಆಶ್ಚರ್ಯಕರವಾಗಿದೆ ॥೩೮॥",
+      "reviewed_kannada_candidate_unaccepted": "ಎಲೈ ಮಹಾಮುನಿಯೇ, ಆ ವಿಕಲ್ಪನ ಮಾಯೆಯಿಂದ ಮೋಹಿತರಾದ ಅವರೆಲ್ಲರೂ ಹೀಗೆಂದು ಹೇಳಿ ತಮ್ಮ ತಮ್ಮ ಸ್ಥಾನಗಳಿಗೆ ತೆರಳಿದರು. ಇದು ಅತ್ಯಂತ ಆಶ್ಚರ್ಯಕರವಾಗಿದೆ ॥೩೮॥",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 1075,
+          "reference_page": 999,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0999.txt",
+          "reference_sha256": "761f1c21eb8470f93fdbd29e7417d3427059334fe77f4b85e9ab8179327dae7a",
+          "source_part_exact": "एवमुक्त्वा ययुः सर्वे स्वे स्वे स्थाने महामुने । मोहिता मायया तस्य विकल्पस्य महाद्भुतम् ॥३८॥",
+          "reference_char_start": 362,
+          "reference_char_end_exclusive": 447,
+          "exact_reference_excerpt": "एवसुक्त्वा ययुः सर्वे खे स्वे स्थाने\nमहासुने । मोहिता मायया तस्य विकल्पस्य मदाद्धुतम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9178,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "replace",
+              2,
+              3,
+              2,
+              3
+            ],
+            [
+              "equal",
+              3,
+              19,
+              3,
+              19
+            ],
+            [
+              "replace",
+              19,
+              22,
+              19,
+              20
+            ],
+            [
+              "equal",
+              22,
+              36,
+              20,
+              34
+            ],
+            [
+              "replace",
+              36,
+              37,
+              34,
+              35
+            ],
+            [
+              "equal",
+              37,
+              65,
+              35,
+              63
+            ],
+            [
+              "replace",
+              65,
+              66,
+              63,
+              64
+            ],
+            [
+              "equal",
+              66,
+              69,
+              64,
+              67
+            ],
+            [
+              "replace",
+              69,
+              70,
+              67,
+              68
+            ],
+            [
+              "equal",
+              70,
+              74,
+              68,
+              72
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 1075,
+          "physical_page": 49,
+          "pdf_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+          "filename": "1151. TO. 1100.pdf",
+          "image_sha256": "10d2619a7b11d8609fdf9dea3b142acda3aef26106fa1e514fb26eb0378df914",
+          "text": "एवमुक्त्वा ययुः सर्वे स्वे स्वे स्थाने महामुने । मोहिता मायया तस्य विकल्पस्य महाद्भुतम् ॥३८॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    }
+  ],
+  "context_inspections": 10,
+  "nonverse_comparisons": [
+    {
+      "chapter": 21,
+      "reference_page": 994,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0994.txt",
+      "reference_sha256": "2271c25b5409f2324b4a0390fae9eaa72226f4bb281d800dac8ab62c00039004",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 1940,
+      "exact_reference_excerpt": "<--- Page 994 starts --->\n\nख. ९ अ. २२ प्र एटएएएएएएोिििििििििििि न वनदेद\n\nसमन्विताः ॥र०४॥ विप्रा उलुः। अयं बूषभयोनिस्थों वयं मानवदेहजाः । अस्माभिः कथितं सब ज्ञायते वरषभेण न ॥२६॥\nरूष मेण यदुक्तं तद्चनं मानवैः कदा । ज्ञायते न विषेण योनिभिन्नपरभावतः ॥२७॥ अथ ब्रषभयोनिस्थः परं पारायणं\nकथम्‌ । श्रुत्वा स तस्य माहात्म्यं फल भोक्ता भवेत्‌ पराः ॥२८॥ गणेशा उचुः । अवर्णं वरषमेषौव कतं ज्ञानविवजितम्‌ ।\nअन्यच्छब्दप्रमातृत्वं श्रद्धाहीनेन निधितम्‌ ॥२९॥ ज्ञानतोऽन्ञानतो वाऽपि यथा वहिकणो दहेत्‌ । संप्रश्न महाभागा\nमौद्धलं तु तथा र्मरतम्‌ ॥३०॥ योगाखलमयं पूर्ण मोद्रलं सर्वसंमतम्‌ । सर्बसिद्धिभदं परोक्तं ब्रह्मी भूतकरं तथा ॥२१॥\nएवमुक्त्वा ययुः सर्वे गाणा गणपालयम्‌ । वृषभं ग्य ते चिच ब्राह्मणा विस्मिता जण; ॥३२॥ एवं मौद्वलजं चितं\n\nमाहात्म्यं सुनिसत्तम । तस्य प्रभावजं तजो वणितं कः क्षमो भवेत्‌ ॥३३॥\n\n॥ जमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्रले महापुराणे नवमे खण्डे योगमृतार्थशाखे द्मुदरसंबादे पारायणवर्णनं नामैकबिंशतितमो5ध्याय? ॥\n\n\"> > <<\n\n॥ श्रीगणेङाय नमः ॥ सूत उवाच । क्वचियो माधवः किन. मालवे संवभूव ह । अवंतीनगरी पाल! खधमेनिरतः\nसदा ॥१॥ कांबोज! कर्णको राजा तत्र युदधाभैमाययौ । जित्वा भ्रूपमवंत्यां वै राज्यं चक्रे स रितः ॥२॥ सस्त्रीकः\nपुच्रसंयुक्तः परधार्नर्वीरसुख्यंकेः । वच्नाम स बने राजा यत्र तत्र सुदुःखितः ॥३॥ ततो महावनं वीरो दद्दा ठथाघसंयुतम्‌ ।\nनानापद्युयुत तच्र प्रविवेरा सुदुःखितः ॥०॥ दद्रा सुनिवरं त्र करयपं सर्वदायकम्‌ । प्रणनाम स साष्टांगं स रुरोद हि\nविह्वलः ॥५॥ तं तथा दुःखसयुक्त दृट्टा पप्रच्छ कदयपः । जगाद स यथापूर्वं वृत्तांतं रोकसं कुलः ॥द॥ ततस्तं कदयपः\nपराह मा कुरु त्वं महीपते । चितां श्रुणु खराज्यस्य प्रापकं तत्‌ कुरुष्व च ॥५॥ समीपे माघमासः समागतश्च श्रुणुष्व\nतत्‌ । मौद्वल सिद्धिदं पारायणं पूर्णं करोम्यहम्‌ ॥८॥ तस्य तद्वचनं श्रुत्वा हर्षयुक्तश्च माधवः । सैः साकं स्थितस्तत्र\nपुराणश्रवणाय खः ॥९॥ तथा सुनिगणा्याञ् श्रवणाध समागतान्‌ । क्षत्रियाद्यान्‌ स तान दद्रा दर्षयुक्तो वभव ह ॥१०॥\nविनायक पतिपदि तदा पूज्य महाखुनिः। उपोषणसमायुक्तः छे सखीभिः समारभत्‌ ॥११॥ पारायणं मोद्धल्स्य मंडपे\n\n2079\n\n2-2-23 < =\n\n<--- Page 994 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे नवमे खण्डे योगमृतार्थशास्त्रे दक्षमुद्गलसंवादे पारायणवर्णनं नामैकविंशतितमोऽध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    },
+    {
+      "chapter": 22,
+      "reference_page": 995,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0995.txt",
+      "reference_sha256": "0fc945f17a29d6a2fb9b9b6acc9854628ca78bbd4930c7bdb7c52c5e9df76ebe",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 1920,
+      "exact_reference_excerpt": "<--- Page 995 starts --->\n\nखे. ९ अ. २२ पान ६७\nति ४ 00079\n\nविधिसंयुतः। भक्तियुक्तो महायोगी कदयपः सवेतत्ववित्‌ ॥१२॥ तत्र चिच्नं समुत्पन्नं तच्छृणुष्व महासने । नकुलो\nभूमिसंस्थञ्च शुश्राव भयसंकुलः ॥१३॥ अकस्माद्‌ दुःखसंयुक्तो ममार स च गाणपाः । आययुस्तान्‌ समालोक्य सुनिः\nपप्रच्छ करटयपः ॥१४॥ करयप उवाच । किमथमागता नाथाः कार्य वदत चोत्तमम्‌ । वयं दासा गणेदास्य करिष्यामो\nजवान्विताः ॥१५॥ कदयपस्थ वचः श्रुत्वा जुस्तं गणपपियाः। नकुलं भूमभिसंस्थं तु खतं नेतं समागताः ॥१६॥ पारायणस्य\nविप्रेचा मौद्धलस्याधुना द्विज । अध्यायः संश्रुतः पूर्णोऽज्ञानतो नकुलेन वै ॥१७॥ द्वितीयेऽत्र समारण्धे ज्वरेण बहुपीडितः ।\nसतोध्घुना ब्रह्मभूतं करिष्यामो वयं किल ॥१८॥ मोद्रलं सिद्धिदं पूर्ण श्रुतं तेन महात्मना । अंत तेन प्रभावेण जानीहि\nसुनिसत्तम ॥१९॥ तेषां वचनमाकण्यै कदयपः सर्वैसंयुतः । विस्मितस्तान्‌ प्रणम्यैव पारायणपरोऽभमवत्‌ ॥२०॥ गाणेद्रा\nनकुलं गृह्य ययुः सवानंदक॑ पुरम्‌ । गणेश्वरं तच दृष्टा ब्रह्मभूतो वभूव सः ॥२१॥ चतुभिदिवसैः पारायणं योगी महामतिः।\nकरत्वा समाप्तं विघेदां पूजयामास यत्नतः ॥२२॥ ततः स पारणं चक्रे पंचम्यां सवसंयुतः । षष्ठयां खं खं स्थलं\nजगसुब्राह्मणाद्या महासने ॥२३॥ माधवस्तं प्रणम्यादौ प्रधानादिभिराव्रतः। निजमाम ततः सोऽपि महाराष्ट समाययौ ॥ २४!\nतत्र तस्य सखा राजा मद्रको बलसंयुतः । राञ्यं चकार दास्य खकीयस्य महावलः ॥२५॥ तेन साधं पुनः सोऽपि माधवः\nराखधारकः । सैन्येन संयुतः कृद्धः सं्रामाय समाययौ ॥२३॥ गणे मनसि स्म्रत्वा कद्यपं खरं परम्‌ । जिग्ये\nकांबोजराजं तं युद्धं करत्वा सुदारुणम्‌ ॥२७॥ पपार मयसंयुक्तोऽभवत्‌ कर्णः पराजितः! माधवः स्वस्य राज्यं तु चकार\nस सहृद्रणः ॥२८॥ भोगान्नानाविधान्‌ राजा वुखुजे पुत्रपौच्रवान्‌ । गणेदाम भजनित्यं मौद्वल तत्तथाऽश्यणोत्‌ ॥२९॥ अते\nजगाम विघ्रं बह्मीगूतो वभूव ह । पारायणस्य संश्रावमादात्म्यात्‌ स नरोत्तमः ॥३०॥ एवं नाना जना विप्र सिद्धि\nप्राप्ता न शाक्यते । वक्तु केनापि कोऽ तु मौद्धलश्नवणेन वै ॥३१॥\n\n| ओमिति श्रीमदांत्य पुराणोपनिषदि श्रीमन्मौ द्रे महापुराणे नवमे खंड योगच रिते योगामृताथंशाखे दश्चसुद्रलसंवादे माघपारायणच रितवणेनं नाम द्वाविंशोऽध्यायः ।।\n\nयै > < €<\n\nवव 66\n\n<--- Page 995 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे नवमे खंडे योगचरिते योगामृतार्थशास्त्रे दक्षमुद्गलसंवादे माघपारायणचरितवर्णनं नाम द्वाविंशोऽध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    },
+    {
+      "chapter": 23,
+      "reference_page": 997,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0997.txt",
+      "reference_sha256": "8602086858b239e1532685639863294c9a546ee3bd2490e49541a229488036b4",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 1917,
+      "exact_reference_excerpt": "<--- Page 997 starts --->\n\nख. ९ अ. २४ पान ६९\nव कक\n\nप्रणम्यादौ ददुस्तं पापकारकम्‌ ॥२५॥ तच्रोवाच महावुद्िश्चिच्रमु्तों यम वचः । महापापी महाभाग चांडारोऽयं विशो.\nषतः ॥२६॥ न पुण्यस्य कदा लंदाश्वांडालेन कृतः प्रभो । मौद्धलस्य पदं नाथ श्रुतमेकमनेन च ॥२०॥ एतत्‌ सर्व मया\nतभ्य कायत तस्य चातम्‌ । करु यद्धमसयुक्तं दंडरूपं महामते ॥२८॥ चिच्रशुप्चवचः श्रुत्वा धर्मो ध्यात्वा गजाननम्‌ ।\nएवचार्‌मकर चत्त क कराम छखप्रदम्‌ ।२९॥ एतस्मिन्नतरे तत्र सत्या वाक्‌ तसुवाच ह । प्रददय नरकानेव चांडालाय\nमहामते ॥३०॥ संतज्य स्वगभूमीषु स्थापयस्व यथा सुखम्‌ । तथा चकार सदषाद्धमराजः प्रतापवान्‌ ॥३१॥ स्वस्थाने\n\nगसयुक्त कृत्वा त स्थाप्य सूयजः । संस्थितस्तत्र चित्रं वे बभूवे परमाद्ुतम्‌ ॥३२॥ गाणेरास्तं प्रगृद्यैव ययुः स्वानं-\nद्क पुरम्‌ । धमाद्यस्ततः सव विस्मिताः संबभूविरे ॥३३॥ एवमेकपदस्थैव मोद्रलचछोकगस्य चत्‌ । अवणन फल\nपोक्तमतः किं वणयाम्यहम्‌ ॥२३८॥ एव ज्यछटाभधे मासि श्रुत्वा पारायणं नराः । इह शुक्त्वाऽखिटान्‌ भोगानंते स्वानद-\nमाययुः ॥२५॥ तत्र वक्तु मया विप्र दाक्यते न कदाचन । वषायुतैस्ततस्तुभ्यं कथितं लेदातः परम्‌ ॥३६॥\n\n॥ ओमिति श्रीमदान्य पुराणोपनिषदि श्रीमन्मौ रके महापुराणे नवमे खंडे योगाम॒ताथेशाखे दक्मुद्ररसंबदे ज्येष्ठमासपाशयणमाहात्म्यवर्णनं नाम त्रयोविङोध्यायः॥\n\n\"च> €< €<\n\n॥ श्रीगणेद्ाय नमः ॥ शोनक उवाच । चिरं त्वं सूत वदसि न खुल कु्नचिन, मया । एवः -छोकपदं शरुत्वा नरो\nब्रह्ममयाऽ मवत्‌ ॥९॥ जहा पापसमाचारश्ांडालः छोकसं भवम्‌ । मौद्धलस्य पदं श्रुत्वा ब्रह्मभूलो वभूव ह ॥२॥ अतो\nमौद्गलजं पूर्ण माहात्म्य कीदशं भवेत्‌ । तद्रदख दयासिधो सवसंदायनादानम्‌ ॥३॥ सूत उवाच । चांडाल गृह्य गणेरा\nययुः खनगर प्रते । तत्‌ इद्राऽऽजचयसंयुक्तो यमो वधसमागमत्‌ ॥४॥ प्रणम्य स विधातारं जगदे वाक्यसुत्तमम्‌ । विनयेन\nसमायुक्तस्तन संमानितो यमः ॥५॥ घमं उवाच । मौद्रलस्य च मादहात्स्यमद्धुत दयते मया । न चष्ट न श्रुतं नाथ\nङनाचत्‌ सवासद्धदम्‌ ॥६॥ चाडाल; पापकमा कः श्युत्वेकं छोकजं पदम्‌ । ब्रह्मभूतो बभूवाऽपि किमिद कौतुकं विधे ॥५॥\nएव सचजना ब्रह्मन्नज्ञानन समान्वताः । ज्ञानयुक्ता गमिष्यति खानेदं विविधात्मकाः ॥८॥ विश्वं चराचरं श्चत्वा क्षीणं\n\n<--- Page 997 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे नवमे खंडे योगामृतार्थशास्त्रे दक्षमुद्गलसंवादे ज्येष्ठमासपारायणमाहात्म्यवर्णनं नाम त्रयोविंशोध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    },
+    {
+      "chapter": 24,
+      "reference_page": 999,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0999.txt",
+      "reference_sha256": "761f1c21eb8470f93fdbd29e7417d3427059334fe77f4b85e9ab8179327dae7a",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 2174,
+      "exact_reference_excerpt": "<--- Page 999 starts --->\n\nखं, ९ अ. २५ नाट्य\nपाल ७९\nवः\n\nविकल्पं संदाथाकारं महातेजोधुतं खलम्‌ ॥२४॥ तं दृष्टा देवसुख्या ये देवा विप्रादयोऽपरे । स्यस्ते संदायेनैव युक्ता विप्र\nबभूविरे ॥२५॥ किं मौह्नलेन विघ्रः प्रसन्नो वा भविष्यति । गणेदो ब्रह्मणां नाथः कथं देदधरोऽभवत्‌ ॥३६॥ सच्य्थं\nकथितं सर्वं वेदादिषु न संशयः । ब्रह्म ब्रह्मणि संस्थं तत्‌ सवंमान्यं विरोषतः ॥२७॥ एवसुक्त्वा ययुः सर्वे खे स्वे स्थाने\nमहासुने । मोहिता मायया तस्य विकल्पस्य मदाद्धुतम्‌ ॥३८॥ किमर्थमागताः सर्वे कि कृतं सस्मस्नं ते । विकल्पेन\nसमायुक्ता वभूवुर््रातचेतसः ॥३९॥ ततस्ते मौद्धलं त्यक्त्वा स्थिताः स्वँ विशोषतः । नानाभावपरा विप्र चक्रु; स्वस्वक्रियां\nपुनः ॥४०॥ विकल्पस्तान्‌ विोक्यैव द्युक्तो वभूव ह । प्रससार त्रिलोकेषु नानासंङायकारकः ॥४१॥ तेन सर्वे\nजनास्त्यक्त्वा मौद्भलं विध संस्थिताः । एवं क्रमेण नष्ट तत्‌ पुराणं प्रबभूव ह्‌ ॥४२॥ अन्यानि तु पुराणानि वेदाः सवाणि\nसुख्यकाः । नष्टानि नटवत्‌ कुच स्थितानि स्वल्प मावतः ॥४३॥ ततः कर्मविहीनं तु बभुव सचराचरम्‌ । देवा दुःखयुताः\nसर्वे विकल्पं योद्धुमाययुः ॥४४॥ विकस्पेन जिताः सर्वे नष्टवीया बभूविरे । ततो गजाननं देवं तुष्टवुस्तद्रधाय ते ॥४५॥\nपुनराकाशावाणीस्थो जमादैतान्‌ गजाननः । सुद्धलाज्ञावखा चत्वा क्रियां कुरुत मा चिरम्‌ ॥४९॥ विकल्पो वरागस्तेन\nअविष्यति न संदाय: । एवसुक्त्वा गणाधोरो विरराम च शौनक ॥४७॥ ततस्ते हषसंयुक्ताः शिवविष्णुसुखाऽमराः ।\nकदयपाद्या ययुस्तं तु सद्धं योगिनां वरम्‌ ॥४८॥ प्रणम्य भावसंयुक्ताः पभ्रच्छुः कर संपुटा; । विकल्पजयदं पूणेसुपायं\n\nखहितप्रदम्‌ ॥४९॥ तेषां वचनमाकण्यं प्रहस्या55पूज्य तान्‌ स्वयम्‌ । जगाद वचनं योगी सुद्रलो मायया युतान्‌. ॥५०॥\n|| ओमिति श्रीमदव्य पुराणोपनिषदि श्रीमन्मो ररे महापुराण नवमे खंडे योगचसि योगामृता्थदाखे दक्षमुद्रलसंवादे विकर्पविजयो नाम चतुर्विशोऽध्यायः ॥\n\n«22:80 <€\n॥ शओ्रीगगेखाय नभः ॥ सद्र खाच । आदौ गणेश्वरं स्खृत्वा परं सट्टा विकुल्पकम्‌ । तेजखिनं महाभागाः कथं नेच्छथ\n\n# | # ५ # ^, हा ®+ % (७ किक | ® सन [१4 ¢. | क ©\n\nतं पुनः ॥१॥ कारणं मां पपन्नाना कारेष्याम त्रय हं वः । स्थीयतां सन्निघानेऽ्र विकल्पः क कॉरंष्यात ॥२॥ महषयः\n(~ न न अ ~ को\n\nकट्‌यपावया सुद्धखेन रिवादयः। आश्वासिताः स्थितास्तत्र खुखयुक्ता बभूविरे ॥२॥ सुद्धरखस्याश्रमे तस्य प्रवरां नव षवद्यत ।\n\nविकल्पस्य महा भाग तेन निःसंशया वसुः ॥४॥ विकल्पेन च वृत्तांतो ज्ञातो देवधिसं भवः । रोधयुक्तः खयं हंतुमाययौ\n\n[. रे  । =, ९\n\n<--- Page 999 ends --->\n",
+      "source_colophon": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे नवमे खंडे योगचरिते योगामृतार्थशास्त्रे दक्षमुद्गलसंवादे विकल्पविजयो नाम चतुर्विंशोऽध्यायः ॥",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    }
+  ]
+}

@@ -113079,6 +113079,896 @@
         ]
       ],
       "boundary_completions": []
+    },
+    {
+      "file": "batch-356-local-pdf-01.tsv",
+      "sha256": "4decb53d99f88898c45d4c06f865523519c93383ac6ded66e9ff76febbbe8291",
+      "source_kind": "local_pdf",
+      "source_pdf": "1151. TO. 1100.pdf",
+      "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p43",
+          "pdf_page": 43,
+          "printed_page": 65,
+          "printed_page_verified": true,
+          "image_sha256": "9e8799556eb1e7af085224295fcc852dc27e4dedc4d8a23a0238b4d5cab528d7",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        },
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p44",
+          "pdf_page": 44,
+          "printed_page": 66,
+          "printed_page_verified": true,
+          "image_sha256": "2f991e603a0cf3e401f1fa1c7ec62ea27aa468b203cb5cf69e45c8bd8d6ea5a0",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda9-ch21-33",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda9-ch21-review.json",
+      "review_sha256": "5bb5421c7ca7d51e63ec6b127de76f6bc81fa5344371204a43c6401ce3b2f263",
+      "added_keys": [
+        [
+          9,
+          21,
+          1
+        ],
+        [
+          9,
+          21,
+          2
+        ],
+        [
+          9,
+          21,
+          3
+        ],
+        [
+          9,
+          21,
+          4
+        ],
+        [
+          9,
+          21,
+          5
+        ],
+        [
+          9,
+          21,
+          6
+        ],
+        [
+          9,
+          21,
+          7
+        ],
+        [
+          9,
+          21,
+          8
+        ],
+        [
+          9,
+          21,
+          9
+        ],
+        [
+          9,
+          21,
+          10
+        ],
+        [
+          9,
+          21,
+          11
+        ],
+        [
+          9,
+          21,
+          12
+        ],
+        [
+          9,
+          21,
+          13
+        ],
+        [
+          9,
+          21,
+          14
+        ],
+        [
+          9,
+          21,
+          15
+        ],
+        [
+          9,
+          21,
+          16
+        ],
+        [
+          9,
+          21,
+          17
+        ],
+        [
+          9,
+          21,
+          18
+        ],
+        [
+          9,
+          21,
+          19
+        ],
+        [
+          9,
+          21,
+          20
+        ],
+        [
+          9,
+          21,
+          21
+        ],
+        [
+          9,
+          21,
+          22
+        ],
+        [
+          9,
+          21,
+          23
+        ],
+        [
+          9,
+          21,
+          24
+        ],
+        [
+          9,
+          21,
+          25
+        ],
+        [
+          9,
+          21,
+          26
+        ],
+        [
+          9,
+          21,
+          27
+        ],
+        [
+          9,
+          21,
+          28
+        ],
+        [
+          9,
+          21,
+          29
+        ],
+        [
+          9,
+          21,
+          30
+        ],
+        [
+          9,
+          21,
+          31
+        ],
+        [
+          9,
+          21,
+          32
+        ],
+        [
+          9,
+          21,
+          33
+        ]
+      ],
+      "boundary_completions": []
+    },
+    {
+      "file": "batch-357-local-pdf-01.tsv",
+      "sha256": "7aced6eba4862711ebf7d624a85a7d3ab06a84824cd8e83da59b64e69dc4a423",
+      "source_kind": "local_pdf",
+      "source_pdf": "1151. TO. 1100.pdf",
+      "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p44",
+          "pdf_page": 44,
+          "printed_page": 66,
+          "printed_page_verified": true,
+          "image_sha256": "2f991e603a0cf3e401f1fa1c7ec62ea27aa468b203cb5cf69e45c8bd8d6ea5a0",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        },
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p45",
+          "pdf_page": 45,
+          "printed_page": 67,
+          "printed_page_verified": true,
+          "image_sha256": "09dcdf86684ae6ea7487fa1b012014369d76b19ff5a4e2b6749f228af9369c99",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda9-ch22-31",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda9-ch22-review.json",
+      "review_sha256": "a018f29ab76ea39089563d135e0cd485c5e85539886a3495cac00de4fecefa1b",
+      "added_keys": [
+        [
+          9,
+          22,
+          1
+        ],
+        [
+          9,
+          22,
+          2
+        ],
+        [
+          9,
+          22,
+          3
+        ],
+        [
+          9,
+          22,
+          4
+        ],
+        [
+          9,
+          22,
+          5
+        ],
+        [
+          9,
+          22,
+          6
+        ],
+        [
+          9,
+          22,
+          7
+        ],
+        [
+          9,
+          22,
+          8
+        ],
+        [
+          9,
+          22,
+          9
+        ],
+        [
+          9,
+          22,
+          10
+        ],
+        [
+          9,
+          22,
+          11
+        ],
+        [
+          9,
+          22,
+          12
+        ],
+        [
+          9,
+          22,
+          13
+        ],
+        [
+          9,
+          22,
+          14
+        ],
+        [
+          9,
+          22,
+          15
+        ],
+        [
+          9,
+          22,
+          16
+        ],
+        [
+          9,
+          22,
+          17
+        ],
+        [
+          9,
+          22,
+          18
+        ],
+        [
+          9,
+          22,
+          19
+        ],
+        [
+          9,
+          22,
+          20
+        ],
+        [
+          9,
+          22,
+          21
+        ],
+        [
+          9,
+          22,
+          22
+        ],
+        [
+          9,
+          22,
+          23
+        ],
+        [
+          9,
+          22,
+          24
+        ],
+        [
+          9,
+          22,
+          25
+        ],
+        [
+          9,
+          22,
+          26
+        ],
+        [
+          9,
+          22,
+          27
+        ],
+        [
+          9,
+          22,
+          28
+        ],
+        [
+          9,
+          22,
+          29
+        ],
+        [
+          9,
+          22,
+          30
+        ],
+        [
+          9,
+          22,
+          31
+        ]
+      ],
+      "boundary_completions": []
+    },
+    {
+      "file": "batch-358-local-pdf-01.tsv",
+      "sha256": "9dffe62be7319648ff2db89c94b82f9dbca425b510fa8781d85bcf248c9b5b7d",
+      "source_kind": "local_pdf",
+      "source_pdf": "1151. TO. 1100.pdf",
+      "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p46",
+          "pdf_page": 46,
+          "printed_page": 68,
+          "printed_page_verified": true,
+          "image_sha256": "0957fb41cb5f3ab064a85586245f473927006653ba4ab0da94b60e663ac183b4",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        },
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p47",
+          "pdf_page": 47,
+          "printed_page": 69,
+          "printed_page_verified": true,
+          "image_sha256": "e7dc01e5a355ab336ae6f9cd9fc8f7524c9db43d37b3721f2325a4c82efa2025",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda9-ch23-36",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda9-ch23-review.json",
+      "review_sha256": "e8245d16e2804ddee5a46095602d7561ea5fb10bb52a38f92df8b63bca545d61",
+      "added_keys": [
+        [
+          9,
+          23,
+          1
+        ],
+        [
+          9,
+          23,
+          2
+        ],
+        [
+          9,
+          23,
+          3
+        ],
+        [
+          9,
+          23,
+          4
+        ],
+        [
+          9,
+          23,
+          5
+        ],
+        [
+          9,
+          23,
+          6
+        ],
+        [
+          9,
+          23,
+          7
+        ],
+        [
+          9,
+          23,
+          8
+        ],
+        [
+          9,
+          23,
+          9
+        ],
+        [
+          9,
+          23,
+          10
+        ],
+        [
+          9,
+          23,
+          11
+        ],
+        [
+          9,
+          23,
+          12
+        ],
+        [
+          9,
+          23,
+          13
+        ],
+        [
+          9,
+          23,
+          14
+        ],
+        [
+          9,
+          23,
+          15
+        ],
+        [
+          9,
+          23,
+          16
+        ],
+        [
+          9,
+          23,
+          17
+        ],
+        [
+          9,
+          23,
+          18
+        ],
+        [
+          9,
+          23,
+          19
+        ],
+        [
+          9,
+          23,
+          20
+        ],
+        [
+          9,
+          23,
+          21
+        ],
+        [
+          9,
+          23,
+          22
+        ],
+        [
+          9,
+          23,
+          23
+        ],
+        [
+          9,
+          23,
+          24
+        ],
+        [
+          9,
+          23,
+          25
+        ],
+        [
+          9,
+          23,
+          26
+        ],
+        [
+          9,
+          23,
+          27
+        ],
+        [
+          9,
+          23,
+          28
+        ],
+        [
+          9,
+          23,
+          29
+        ],
+        [
+          9,
+          23,
+          30
+        ],
+        [
+          9,
+          23,
+          31
+        ],
+        [
+          9,
+          23,
+          32
+        ],
+        [
+          9,
+          23,
+          33
+        ],
+        [
+          9,
+          23,
+          34
+        ],
+        [
+          9,
+          23,
+          35
+        ],
+        [
+          9,
+          23,
+          36
+        ]
+      ],
+      "boundary_completions": []
+    },
+    {
+      "file": "batch-359-local-pdf-01.tsv",
+      "sha256": "d2814541e385afc281cd3e79685de558078a22110169bc644077b69a7f5fe47e",
+      "source_kind": "local_pdf",
+      "source_pdf": "1151. TO. 1100.pdf",
+      "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705",
+      "additional_source_pdfs": [],
+      "source_pages": [
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p47",
+          "pdf_page": 47,
+          "printed_page": 69,
+          "printed_page_verified": true,
+          "image_sha256": "e7dc01e5a355ab336ae6f9cd9fc8f7524c9db43d37b3721f2325a4c82efa2025",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        },
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p48",
+          "pdf_page": 48,
+          "printed_page": 70,
+          "printed_page_verified": true,
+          "image_sha256": "d82963fc864142e8eb00f00798f0565f15f1f13973ff1c7a6766182576c790e2",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        },
+        {
+          "id": "pdf:df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705:p49",
+          "pdf_page": 49,
+          "printed_page": 71,
+          "printed_page_verified": true,
+          "image_sha256": "10d2619a7b11d8609fdf9dea3b142acda3aef26106fa1e514fb26eb0378df914",
+          "source_sha256": "df3b469873c18bd157f2af85ec00a30e7fc8e419b45c707d245bf2482943d705"
+        }
+      ],
+      "coverage_boundary": "local-pdf-khanda9-ch24-50",
+      "review_status": "accepted",
+      "review_file": "translation/local-pdf-khanda9-ch24-review.json",
+      "review_sha256": "1038332238c808fe9357eb0a97f46cdf71837421cc73cf8524d54949a3c56ddf",
+      "added_keys": [
+        [
+          9,
+          24,
+          1
+        ],
+        [
+          9,
+          24,
+          2
+        ],
+        [
+          9,
+          24,
+          3
+        ],
+        [
+          9,
+          24,
+          4
+        ],
+        [
+          9,
+          24,
+          5
+        ],
+        [
+          9,
+          24,
+          6
+        ],
+        [
+          9,
+          24,
+          7
+        ],
+        [
+          9,
+          24,
+          8
+        ],
+        [
+          9,
+          24,
+          9
+        ],
+        [
+          9,
+          24,
+          10
+        ],
+        [
+          9,
+          24,
+          11
+        ],
+        [
+          9,
+          24,
+          12
+        ],
+        [
+          9,
+          24,
+          13
+        ],
+        [
+          9,
+          24,
+          14
+        ],
+        [
+          9,
+          24,
+          15
+        ],
+        [
+          9,
+          24,
+          16
+        ],
+        [
+          9,
+          24,
+          17
+        ],
+        [
+          9,
+          24,
+          18
+        ],
+        [
+          9,
+          24,
+          19
+        ],
+        [
+          9,
+          24,
+          20
+        ],
+        [
+          9,
+          24,
+          21
+        ],
+        [
+          9,
+          24,
+          22
+        ],
+        [
+          9,
+          24,
+          23
+        ],
+        [
+          9,
+          24,
+          24
+        ],
+        [
+          9,
+          24,
+          25
+        ],
+        [
+          9,
+          24,
+          26
+        ],
+        [
+          9,
+          24,
+          27
+        ],
+        [
+          9,
+          24,
+          28
+        ],
+        [
+          9,
+          24,
+          29
+        ],
+        [
+          9,
+          24,
+          30
+        ],
+        [
+          9,
+          24,
+          31
+        ],
+        [
+          9,
+          24,
+          32
+        ],
+        [
+          9,
+          24,
+          33
+        ],
+        [
+          9,
+          24,
+          34
+        ],
+        [
+          9,
+          24,
+          35
+        ],
+        [
+          9,
+          24,
+          36
+        ],
+        [
+          9,
+          24,
+          37
+        ],
+        [
+          9,
+          24,
+          38
+        ],
+        [
+          9,
+          24,
+          39
+        ],
+        [
+          9,
+          24,
+          40
+        ],
+        [
+          9,
+          24,
+          41
+        ],
+        [
+          9,
+          24,
+          42
+        ],
+        [
+          9,
+          24,
+          43
+        ],
+        [
+          9,
+          24,
+          44
+        ],
+        [
+          9,
+          24,
+          45
+        ],
+        [
+          9,
+          24,
+          46
+        ],
+        [
+          9,
+          24,
+          47
+        ],
+        [
+          9,
+          24,
+          48
+        ],
+        [
+          9,
+          24,
+          49
+        ],
+        [
+          9,
+          24,
+          50
+        ]
+      ],
+      "boundary_completions": []
     }
   ]
 }
