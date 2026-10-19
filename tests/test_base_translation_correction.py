@@ -158,4 +158,27 @@ class MixedFiveCorrections(unittest.TestCase):
  def test_unknown_google_null(self):self.review['reviews'][0]['reference_source']['page_id']='PT200';self.reject()
  def test_source_reading_immutable(self):self.review['reviews'][0]['source_sanskrit']='emended';self.reject()
  def test_prose_not_fully_accepted(self):self.review['reviews'][0]['accepted_translation']=self.review['reviews'][0]['new_row']['text'];self.reject()
+class FiveMantraCorrections(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch7-ch8-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def test_all_valid(self):
+  for i in range(5):self.check(i)
+ def test_45_segmentation_hold_not_closed(self):self.review['reviews'][3].update(issues=[],review_status='accepted');self.reject(3)
+ def test_46_compound_hold_not_closed(self):self.review['reviews'][4].update(issues=[],review_status='accepted');self.reject(4)
+ def test_only_second_laghave_changed(self):
+  self.assertIn('ಲಘವೇ ಲಘುರೂಪಾಯ ಲಘೂನಾಂ ಲಾಘವೇ',self.items[1]['new_row']['text'])
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಲಘವೇ ಲಘುರೂಪಾಯ','ಲಾಘವೇ ಲಘುರೂಪಾಯ')
+  self.reject(1)
+ def test_45_all_declared_changes_required(self):self.review['reviews'][3]['replacements'].pop();self.reject(3)
+ def test_46_all_declared_changes_required(self):self.review['reviews'][4]['replacements'].pop();self.reject(4)
+ def test_mantra_meaning_not_accepted(self):self.review['reviews'][3]['accepted_translation']='settled';self.reject(3)
+ def test_unknown_google_null(self):self.review['reviews'][0]['reference_source']['page_id']='PT1';self.reject()
+ def test_source_reading_immutable(self):self.review['reviews'][4]['source_sanskrit']='normalized';self.reject(4)
+ def test_42_other_yoginam_preserved(self):
+  for x in [self.items[2]['new_row'],self.review['reviews'][2]['new_row']]:x['text']=x['text'].replace('ಯೋಗಿನಾಂ','ಯೋಗನಾಂ')
+  self.reject(2)
 if __name__=='__main__':unittest.main()

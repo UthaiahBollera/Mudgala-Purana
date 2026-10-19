@@ -116262,6 +116262,130 @@
         }
       ],
       "no_change_keys": []
+    },
+    {
+      "file": "batch-371-reviewed-base-translation.tsv",
+      "sha256": "82bb49293547c3aced429ca31b17e7512091e3d8e952a2be874f3e24b8fd3b82",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch7-ch8-writer-review.json",
+      "review_sha256": "c1cc7122e76eed5f145f59305d7e9930ec717a95a59f43f08238da5f609f86e2",
+      "coverage_boundary": "reviewed-base-khanda1-ch7-ch8",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            7,
+            39
+          ],
+          "old_row": {
+            "source_pages": "32",
+            "type": "mantra",
+            "text": "ದೇವಾ ಊಚುಃ । ನಮಸ್ತೇ ವಕ್ರತುಂಡಾಯ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ । ಸರ್ವಾಧೀಶಾಯ ಸರ್ವಾಯ ಗಣಾನಾಂ ಪತಯೇ ನಮಃ ॥೩೯॥"
+          },
+          "new_row": {
+            "source_pages": "32",
+            "type": "mantra",
+            "text": "ತತ್ತ್ವಾನ್ಯೂಚುಃ । ನಮಸ್ತೇ ವಕ್ರತುಂಡಾಯ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ । ಸರ್ವಾಧೀಶಾಯ ಸರ್ವಾಯ ಗಣಾನಾಂ ಪತಯೇ ನಮಃ ॥೩೯॥"
+          },
+          "base_snapshot_commit": "f5c89dfab0d9d5ce740033039b3b6f54dbec6050",
+          "adjudication_file": "translation/khanda1-ch7-ch8-writer-review.json",
+          "adjudication_sha256": "c1cc7122e76eed5f145f59305d7e9930ec717a95a59f43f08238da5f609f86e2",
+          "review_status": "accepted",
+          "rationale": "Only speaker label ದೇವಾ ಊಚುಃ → ತತ್ತ್ವಾನ್ಯೂಚುಃ. Verse38 calls the participants devas, but the actual mantra heading is tattvāny ūcuḥ; contextual equivalence does not authorize replacing the printed heading."
+        },
+        {
+          "key": [
+            1,
+            7,
+            49
+          ],
+          "old_row": {
+            "source_pages": "32",
+            "type": "mantra",
+            "text": "ಮಹತೇ ಚೈಕದಂತಾಯ ಮಹತಾಂ ಚ ಮಹೀಯಸೇ । ಲಘವೇ ಲಘುರೂಪಾಯ ಲಘೂನಾಂ ಲಘವೇ ನಮಃ ॥೪೯॥"
+          },
+          "new_row": {
+            "source_pages": "32",
+            "type": "mantra",
+            "text": "ಮಹತೇ ಚೈಕದಂತಾಯ ಮಹತಾಂ ಚ ಮಹೀಯಸೇ । ಲಘವೇ ಲಘುರೂಪಾಯ ಲಘೂನಾಂ ಲಾಘವೇ ನಮಃ ॥೪೯॥"
+          },
+          "base_snapshot_commit": "f5c89dfab0d9d5ce740033039b3b6f54dbec6050",
+          "adjudication_file": "translation/khanda1-ch7-ch8-writer-review.json",
+          "adjudication_sha256": "c1cc7122e76eed5f145f59305d7e9930ec717a95a59f43f08238da5f609f86e2",
+          "review_status": "accepted",
+          "rationale": "Change only the second ಲಘವೇ → ಲಾಘವೇ. The first printed लघवे has short a; the second लाघवे has a visible long-ā mark. Do not make both occurrences identical."
+        },
+        {
+          "key": [
+            1,
+            8,
+            42
+          ],
+          "old_row": {
+            "source_pages": "34",
+            "type": "mantra",
+            "text": "ಗುಣೇಶ ಉವಾಚ । ನಮಾಮಿ ದೇವಂ ಗಣನಾಥಮೀಶಂ ಸದಾ ಸುಶಾಂತಂ ಹೃದಿ ಯೋಗಿನಾಂ ವೈ । ಅಪಾರಯೋಗಂ ದೃಢಯೋಗಿನಾಥಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೨॥"
+          },
+          "new_row": {
+            "source_pages": "34",
+            "type": "mantra",
+            "text": "ಗುಣೇಶ ಉವಾಚ । ನಮಾಮಿ ದೇವಂ ಗಣನಾಥಮೀಶಂ ಸದಾ ಸುಶಾಂತಂ ಹೃದಿ ಯೋಗಿನಾಂ ವೈ । ಅಪಾರಯೋಗಂ ದೃಢಯೋಗನಾಥಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೨॥"
+          },
+          "base_snapshot_commit": "f5c89dfab0d9d5ce740033039b3b6f54dbec6050",
+          "adjudication_file": "translation/khanda1-ch7-ch8-writer-review.json",
+          "adjudication_sha256": "c1cc7122e76eed5f145f59305d7e9930ec717a95a59f43f08238da5f609f86e2",
+          "review_status": "accepted",
+          "rationale": "Only ದೃಢಯೋಗಿನಾಥಂ → ದೃಢಯೋಗನಾಥಂ. The preceding योगिनां is a separate word and must not cause insertion of i into दृढयोगनाथं."
+        },
+        {
+          "key": [
+            1,
+            8,
+            45
+          ],
+          "old_row": {
+            "source_pages": "34",
+            "type": "mantra",
+            "text": "ವಿದೇಹಯೋಗೇನ ಚ ಸಾಂಖ್ಯರೂಪಂ ಜನೇನ ಲಭ್ಯಂ ಗಣರಾಜಮೀಶಮ್ । ಸದಾ ಹ್ಯುಪಾಧೌ ನ ಹಿ ತಂ ಗಣೇಶಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೫॥"
+          },
+          "new_row": {
+            "source_pages": "34",
+            "type": "mantra",
+            "text": "ವಿದೇಹಯೋಗೇನ ಚ ಸಾಂಖ್ಯರೂಪಂ ಜನೇನ ಲಭ್ಯಂ ಗಣರಾಜಮೀಡ್ಯಮ್ । ಸದಾ ಹ್ಯುಪಾಧೌ ನ ಹಿತಂ ಗಣೇಶಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೫॥"
+          },
+          "base_snapshot_commit": "f5c89dfab0d9d5ce740033039b3b6f54dbec6050",
+          "adjudication_file": "translation/khanda1-ch7-ch8-writer-review.json",
+          "adjudication_sha256": "c1cc7122e76eed5f145f59305d7e9930ec717a95a59f43f08238da5f609f86e2",
+          "review_status": "accepted",
+          "rationale": "गणराजमीड्यम् is clear: ಗಣರಾಜಮೀಶಮ್ → ಗಣರಾಜಮೀಡ್ಯಮ್. Printed spacing is न हितं, represented as ನ ಹಿತಂ rather than current ನ ಹಿ ತಂ. This spacing change is diplomatic only: the same letter sequence can be segmented na hitam or na hi tam, and typography does not by itself resolve syntax or philosophical meaning. Keep the segmentation/meaning flag active. Do not claim the latter has been disproved by spacing."
+        },
+        {
+          "key": [
+            1,
+            8,
+            46
+          ],
+          "old_row": {
+            "source_pages": "34",
+            "type": "mantra",
+            "text": "ಸುಸಂಸ್ಥಿತಂ ಸರ್ವವಿಲಾಸಯುಕ್ತಂ ಹೃದಿ ಕ್ರಿಯಾರೂಪಕಮಾದಿದೇವಮ್ । ಅಭೇದಮಾತ್ರೇ ಪರಮಾತ್ಮರೂಪಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೬॥"
+          },
+          "new_row": {
+            "source_pages": "34",
+            "type": "mantra",
+            "text": "ಸುಸಂಸ್ಥಿತಂ ಸರ್ವವಿಲಾಸಯುಕ್ತಂ ಹೃದ್ವಿಜ್ಞಬೋಧಾತ್ಮಕಮಾದಿದೇವಮ್ । ಅಭೇದಮಾತ್ರಂ ಪರಮಾರ್ಥರೂಪಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೬॥"
+          },
+          "base_snapshot_commit": "f5c89dfab0d9d5ce740033039b3b6f54dbec6050",
+          "adjudication_file": "translation/khanda1-ch7-ch8-writer-review.json",
+          "adjudication_sha256": "c1cc7122e76eed5f145f59305d7e9930ec717a95a59f43f08238da5f609f86e2",
+          "review_status": "accepted",
+          "rationale": "Three changes: ಹೃದಿ ಕ್ರಿಯಾರೂಪಕಮಾದಿದೇವಮ್ → ಹೃದ್ವಿಜ್ಞಬೋಧಾತ್ಮಕಮಾದಿದೇವಮ್; ಅಭೇದಮಾತ್ರೇ → ಅಭೇದಮಾತ್ರಂ; ಪರಮಾತ್ಮರೂಪಂ → ಪರಮಾರ್ಥರೂಪಂ. The hṛd-vijña-bodha compound is supported by the actual ligatures, but its precise segmentation/interpretation remains a separate hold. Do not normalize it to a more familiar philosophical expression or silently replace vijña with vijñāna."
+        }
+      ],
+      "no_change_keys": []
     }
   ],
   "reference_only_index": {
