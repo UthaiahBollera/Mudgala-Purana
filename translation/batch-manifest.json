@@ -117300,6 +117300,97 @@
           48
         ]
       ]
+    },
+    {
+      "file": "batch-383-reviewed-base-translation.tsv",
+      "sha256": "00bebd4433108e57bfae9e8a5460fba47aa73307ac100724a079831609da3a29",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch28-ch30-writer-review.json",
+      "review_sha256": "d98a77c662ce4d654454e4669b890f5679a2e5ed647b2944f9e1fb257428b40c",
+      "coverage_boundary": "reviewed-base-khanda1-ch28-ch30",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            28,
+            17
+          ],
+          "old_row": {
+            "source_pages": "78",
+            "type": "mantra",
+            "text": "ನಮೋ ನಮೋ ಮಹಾದೇವ ಸ್ರಷ್ಟ್ರೇ ರಜಸರೂಪಿಣೇ । ಪಾತ್ರೇ ವಿಷ್ಣುಸ್ವರೂಪಾಯ ಹಂತ್ರೇ ರುದ್ರಸ್ವರೂಪಿಣೇ । ॥೧೭॥"
+          },
+          "new_row": {
+            "source_pages": "78",
+            "type": "mantra",
+            "text": "ನಮೋ ನಮೋ ಮಹಾದೇವ ಸ್ರಷ್ಟ್ರೇ ರಾಜಸರೂಪಿಣೇ । ಪಾತ್ರೇ ವಿಷ್ಣುಸ್ವರೂಪಾಯ ಹಂತ್ರೇ ರುದ್ರಸ್ವರೂಪಿಣೇ । ॥೧೭॥"
+          },
+          "base_snapshot_commit": "e192eef9db23ee6d651a2e322080d066d9556908",
+          "adjudication_file": "translation/khanda1-ch28-ch30-writer-review.json",
+          "adjudication_sha256": "d98a77c662ce4d654454e4669b890f5679a2e5ed647b2944f9e1fb257428b40c",
+          "review_status": "accepted",
+          "rationale": "The original has a clear long आ after र in राजसरूपिणे. Both proposed readings may be meaningful, but base-source letters settle the transcription. Correct that vowel only; preserve the other words."
+        },
+        {
+          "key": [
+            1,
+            28,
+            18
+          ],
+          "old_row": {
+            "source_pages": "78",
+            "type": "mantra",
+            "text": "ಪಂಚವಕ್ತ್ರಾಯ ವೈ ಯೋಗಿನೇ ಯೋಗದಾಯಿನೇ । ನಿರ್ಗುಣಾಯ ನಿರೂಪಾಯ ಬ್ರಹ್ಮಭೂತಾಯ ತೇ ನಮಃ । ॥೧೮॥"
+          },
+          "new_row": {
+            "source_pages": "78",
+            "type": "mantra",
+            "text": "ಪಂಚವಕ್ತ್ರಧರಾಯೈವ ಯೋಗಿನೇ ಯೋಗದಾಯಿನೇ । ನಿರ್ಗುಣಾಯ ನಿರೂಪಾಯ ಬ್ರಹ್ಮಭೂತಾಯ ತೇ ನಮಃ । ॥೧೮॥"
+          },
+          "base_snapshot_commit": "e192eef9db23ee6d651a2e322080d066d9556908",
+          "adjudication_file": "translation/khanda1-ch28-ch30-writer-review.json",
+          "adjudication_sha256": "d98a77c662ce4d654454e4669b890f5679a2e5ed647b2944f9e1fb257428b40c",
+          "review_status": "accepted",
+          "rationale": "Original clearly contains धरायैव after पंचवक्त्र. Restore the omitted dhara and the source sandhi. This is direct base-source transcription, not a metrical conjecture or online alignment."
+        },
+        {
+          "key": [
+            1,
+            28,
+            20
+          ],
+          "old_row": {
+            "source_pages": "78",
+            "type": "mantra",
+            "text": "ಭಯಭೀತಾ ವಯಂ ತೇನ ಶರಣಂ ತ್ವಾಮುಪಾಗತಾಃ । ರಕ್ಷ ನೋ ದೇವದೇವೇಶ ತ್ವಮೇವ ದೇವಪಾಲಕಃ । ॥೨೦॥"
+          },
+          "new_row": {
+            "source_pages": "78",
+            "type": "mantra",
+            "text": "ಭಯಭೀತಾ ವಯಂ ತೇನ ಶರಣಂ ತ್ವಾಮುಪಾಗತಾಃ । ರಕ್ಷ ನೋ ದೇವದೇವೇಶ ತ್ವಂ ಶ್ರೇಷ್ಠೋ ದೇವಪಾಲಕ । ॥೨೦॥"
+          },
+          "base_snapshot_commit": "e192eef9db23ee6d651a2e322080d066d9556908",
+          "adjudication_file": "translation/khanda1-ch28-ch30-writer-review.json",
+          "adjudication_sha256": "d98a77c662ce4d654454e4669b890f5679a2e5ed647b2944f9e1fb257428b40c",
+          "review_status": "accepted",
+          "rationale": "Original clearly has त्वं श्रेष्ठो देवपालक, without a final visarga on देवपालक. Replace the whole short clause to preserve the source epithet and ending. Current coherent alternative त्वमेव देवपालकः is not the wording of this base."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          29,
+          36
+        ],
+        [
+          1,
+          30,
+          4
+        ]
+      ]
     }
   ],
   "reference_only_index": {

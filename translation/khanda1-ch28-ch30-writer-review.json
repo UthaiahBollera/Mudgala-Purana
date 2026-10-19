@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "e192eef9db23ee6d651a2e322080d066d9556908",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        28,
+        17
+      ],
+      "old_row": {
+        "source_pages": "78",
+        "type": "mantra",
+        "text": "ನಮೋ ನಮೋ ಮಹಾದೇವ ಸ್ರಷ್ಟ್ರೇ ರಜಸರೂಪಿಣೇ । ಪಾತ್ರೇ ವಿಷ್ಣುಸ್ವರೂಪಾಯ ಹಂತ್ರೇ ರುದ್ರಸ್ವರೂಪಿಣೇ । ॥೧೭॥"
+      },
+      "new_row": {
+        "source_pages": "78",
+        "type": "mantra",
+        "text": "ನಮೋ ನಮೋ ಮಹಾದೇವ ಸ್ರಷ್ಟ್ರೇ ರಾಜಸರೂಪಿಣೇ । ಪಾತ್ರೇ ವಿಷ್ಣುಸ್ವರೂಪಾಯ ಹಂತ್ರೇ ರುದ್ರಸ್ವರೂಪಿಣೇ । ॥೧೭॥"
+      },
+      "base_file": "translation/batch-04-01.tsv",
+      "source_sanskrit": "नमो नमो महादेव स्रष्ट्रे राजसरूपिणे । पात्रे विष्णुस्वरूपाय हंत्रे रुद्रस्वरूपिणे ॥१७॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ನಮೋ ನಮೋ ಮಹಾದೇವ ಸ್ರಷ್ಟ್ರೇ ರಾಜಸರೂಪಿಣೇ । ಪಾತ್ರೇ ವಿಷ್ಣುಸ್ವರೂಪಾಯ ಹಂತ್ರೇ ರುದ್ರಸ್ವರೂಪಿಣೇ । ॥೧೭॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/independent-review.md",
+        "sha256": "c835e0f12e9ab4bce36d163b7d40c256e2198ba0204324bb6582599f004362c2"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0065.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0065.png",
+        "sha256": "e282aeebcce4ac28156bacd21ce40a0a676f8f0eb2353d9665964ef460f9730b",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1470,
+          3720,
+          2180
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The original has a clear long आ after र in राजसरूपिणे. Both proposed readings may be meaningful, but base-source letters settle the transcription. Correct that vowel only; preserve the other words.",
+      "replacements": [
+        {
+          "before": "ರಜಸರೂಪಿಣೇ",
+          "after": "ರಾಜಸರೂಪಿಣೇ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        28,
+        18
+      ],
+      "old_row": {
+        "source_pages": "78",
+        "type": "mantra",
+        "text": "ಪಂಚವಕ್ತ್ರಾಯ ವೈ ಯೋಗಿನೇ ಯೋಗದಾಯಿನೇ । ನಿರ್ಗುಣಾಯ ನಿರೂಪಾಯ ಬ್ರಹ್ಮಭೂತಾಯ ತೇ ನಮಃ । ॥೧೮॥"
+      },
+      "new_row": {
+        "source_pages": "78",
+        "type": "mantra",
+        "text": "ಪಂಚವಕ್ತ್ರಧರಾಯೈವ ಯೋಗಿನೇ ಯೋಗದಾಯಿನೇ । ನಿರ್ಗುಣಾಯ ನಿರೂಪಾಯ ಬ್ರಹ್ಮಭೂತಾಯ ತೇ ನಮಃ । ॥೧೮॥"
+      },
+      "base_file": "translation/batch-04-01.tsv",
+      "source_sanskrit": "पंचवक्त्रधरायैव योगिने योगदायिने । निर्गुणाय निरूपाय ब्रह्मभूताय ते नमः ॥१८॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಪಂಚವಕ್ತ್ರಧರಾಯೈವ ಯೋಗಿನೇ ಯೋಗದಾಯಿನೇ । ನಿರ್ಗುಣಾಯ ನಿರೂಪಾಯ ಬ್ರಹ್ಮಭೂತಾಯ ತೇ ನಮಃ । ॥೧೮॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/independent-review.md",
+        "sha256": "c835e0f12e9ab4bce36d163b7d40c256e2198ba0204324bb6582599f004362c2"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0065.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0065.png",
+        "sha256": "e282aeebcce4ac28156bacd21ce40a0a676f8f0eb2353d9665964ef460f9730b",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1470,
+          3720,
+          2180
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly contains धरायैव after पंचवक्त्र. Restore the omitted dhara and the source sandhi. This is direct base-source transcription, not a metrical conjecture or online alignment.",
+      "replacements": [
+        {
+          "before": "ಪಂಚವಕ್ತ್ರಾಯ ವೈ",
+          "after": "ಪಂಚವಕ್ತ್ರಧರಾಯೈವ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        28,
+        20
+      ],
+      "old_row": {
+        "source_pages": "78",
+        "type": "mantra",
+        "text": "ಭಯಭೀತಾ ವಯಂ ತೇನ ಶರಣಂ ತ್ವಾಮುಪಾಗತಾಃ । ರಕ್ಷ ನೋ ದೇವದೇವೇಶ ತ್ವಮೇವ ದೇವಪಾಲಕಃ । ॥೨೦॥"
+      },
+      "new_row": {
+        "source_pages": "78",
+        "type": "mantra",
+        "text": "ಭಯಭೀತಾ ವಯಂ ತೇನ ಶರಣಂ ತ್ವಾಮುಪಾಗತಾಃ । ರಕ್ಷ ನೋ ದೇವದೇವೇಶ ತ್ವಂ ಶ್ರೇಷ್ಠೋ ದೇವಪಾಲಕ । ॥೨೦॥"
+      },
+      "base_file": "translation/batch-04-01.tsv",
+      "source_sanskrit": "भयभीता वयं तेन शरणं त्वामुपागताः । रक्ष नो देवदेवेश त्वं श्रेष्ठो देवपालक ॥२०॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಭಯಭೀತಾ ವಯಂ ತೇನ ಶರಣಂ ತ್ವಾಮುಪಾಗತಾಃ । ರಕ್ಷ ನೋ ದೇವದೇವೇಶ ತ್ವಂ ಶ್ರೇಷ್ಠೋ ದೇವಪಾಲಕ । ॥೨೦॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/independent-review.md",
+        "sha256": "c835e0f12e9ab4bce36d163b7d40c256e2198ba0204324bb6582599f004362c2"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0065.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0065.png",
+        "sha256": "e282aeebcce4ac28156bacd21ce40a0a676f8f0eb2353d9665964ef460f9730b",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1470,
+          3720,
+          2180
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly has त्वं श्रेष्ठो देवपालक, without a final visarga on देवपालक. Replace the whole short clause to preserve the source epithet and ending. Current coherent alternative त्वमेव देवपालकः is not the wording of this base.",
+      "replacements": [
+        {
+          "before": "ತ್ವಮೇವ ದೇವಪಾಲಕಃ",
+          "after": "ತ್ವಂ ಶ್ರೇಷ್ಠೋ ದೇವಪಾಲಕ"
+        }
+      ]
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        29,
+        36
+      ],
+      "old_row": {
+        "source_pages": "80",
+        "type": "translation",
+        "text": "ವೇದಾಂತದಲ್ಲಿಯೂ ಬ್ರಹ್ಮವನ್ನು ತಿಳಿಸುವ ವೇದಗಳಲ್ಲಿಯೂ ನಿರ್ವಿಕಲ್ಪವಾದ ಬ್ರಹ್ಮವನ್ನು ಹೇಳಲಾಗಿದೆ. ಎಲ್ಲರಿಗೂ ಮಾನ್ಯವಾದ ಅದೇ ಜಗದೀಶ್ವರನಾಗಿ ಪ್ರಕಾಶಿಸುತ್ತದೆ. ॥೩೬॥"
+      },
+      "new_row": {
+        "source_pages": "80",
+        "type": "translation",
+        "text": "ವೇದಾಂತದಲ್ಲಿಯೂ ಬ್ರಹ್ಮವನ್ನು ತಿಳಿಸುವ ವೇದಗಳಲ್ಲಿಯೂ ನಿರ್ವಿಕಲ್ಪವಾದ ಬ್ರಹ್ಮವನ್ನು ಹೇಳಲಾಗಿದೆ. ಎಲ್ಲರಿಗೂ ಮಾನ್ಯವಾದ ಅದೇ ಜಗದೀಶ್ವರನಾಗಿ ಪ್ರಕಾಶಿಸುತ್ತದೆ. ॥೩೬॥"
+      },
+      "base_file": "translation/batch-04-01.tsv",
+      "source_sanskrit": "वेदांते ब्रह्मवेदेषु कथितं निर्विकपल्कम् । तदेव सर्वमान्यं वै जगदीशतया बभौ ॥३६॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_source_anomaly_meaning_hold",
+          "reading": null,
+          "token": "वेदांते ब्रह्मवेदेषु कथितं निर्विकपल्कम् । तदेव सर्वमान्यं वै जगदीशतया बभौ ॥३६॥",
+          "detail": "The original really prints निर्विकपल्कम्; this is not merely an error confined to the supplied historical online report. Current ನಿರ್ವಿಕಲ್ಪ is a plausible intended-word normalization, retained rather than replaced by nonsensical Kannada. Do not claim the base literally prints निर्विकल्पम् or that the anomaly is conclusively resolved. Existing general rendering remains reasonable in Matsara’s speech34–38; no doctrinal harmonization or new wording proposed."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/independent-review.md",
+        "sha256": "c835e0f12e9ab4bce36d163b7d40c256e2198ba0204324bb6582599f004362c2"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0067.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0067.png",
+        "sha256": "a547767da648d4b41a30c58dda8564f27365576eb20ad19440a828fef93b1fd5",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          220,
+          1510,
+          3650,
+          1970
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The original really prints निर्विकपल्कम्; this is not merely an error confined to the supplied historical online report. Current ನಿರ್ವಿಕಲ್ಪ is a plausible intended-word normalization, retained rather than replaced by nonsensical Kannada. Do not claim the base literally prints निर्विकल्पम् or that the anomaly is conclusively resolved. Existing general rendering remains reasonable in Matsara’s speech34–38; no doctrinal harmonization or new wording proposed.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "printed_anomalous_token": "निर्विकपल्कम्",
+      "retained_Kannada_normalization": "ನಿರ್ವಿಕಲ್ಪ",
+      "normalization_not_literal_print": true,
+      "source_anomaly_resolved": false
+    },
+    {
+      "key": [
+        1,
+        30,
+        4
+      ],
+      "old_row": {
+        "source_pages": "81",
+        "type": "translation",
+        "text": "ಅಷ್ಟಭೈರವರು ಮೊದಲಾದವರೂ ವೀರಭದ್ರ ಮೊದಲಾದವರೂ, ನಂದಿ, ಭೃಂಗಿ, ಪುಷ್ಪದಂತ ಮತ್ತು ಮಹಾಕಾಲರೂ ಅಲ್ಲಿ ನಿಂತರು. ॥೪॥"
+      },
+      "new_row": {
+        "source_pages": "81",
+        "type": "translation",
+        "text": "ಅಷ್ಟಭೈರವರು ಮೊದಲಾದವರೂ ವೀರಭದ್ರ ಮೊದಲಾದವರೂ, ನಂದಿ, ಭೃಂಗಿ, ಪುಷ್ಪದಂತ ಮತ್ತು ಮಹಾಕಾಲರೂ ಅಲ್ಲಿ ನಿಂತರು. ॥೪॥"
+      },
+      "base_file": "translation/batch-04-01.tsv",
+      "source_sanskrit": "अष्टभैरवमुख्याश्च वीरभद्रादयोऽभवन् । नंदी भृंगी पुष्पदंतमहाकालरवाः स्थिताः ॥४॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_name_compound_hold",
+          "reading": null,
+          "token": "अष्टभैरवमुख्याश्च वीरभद्रादयोऽभवन् । नंदी भृंगी पुष्पदंतमहाकालरवाः स्थिताः ॥४॥",
+          "detail": "Original confirms अष्टभैरवमुख्याश्च and the continuous final cluster पुष्पदंतमहाकालरवाः. Existing eight-Bhairava and other named figures are retained. The role of रवाः remains unsettled: spacing/compound structure does not independently establish an additional proper name Rava, nor justify silently removing the syllables from a source transcription. No new Kannada replacement proposed; current Mahakala-only wording remains provisional as to this cluster."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/independent-review.md",
+        "sha256": "c835e0f12e9ab4bce36d163b7d40c256e2198ba0204324bb6582599f004362c2"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0068.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0068.png",
+        "sha256": "231c7e92b24f31e91fad88a1416a4f76909e4124d9b8a746379ffab542527eb2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          410,
+          3720,
+          850
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original confirms अष्टभैरवमुख्याश्च and the continuous final cluster पुष्पदंतमहाकालरवाः. Existing eight-Bhairava and other named figures are retained. The role of रवाः remains unsettled: spacing/compound structure does not independently establish an additional proper name Rava, nor justify silently removing the syllables from a source transcription. No new Kannada replacement proposed; current Mahakala-only wording remains provisional as to this cluster.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "printed_continuous_name_cluster": "पुष्पदंतमहाकालरवाः",
+      "additional_Rava_name_established": false,
+      "compound_meaning_settled": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch28-ch30/before-after-proposals.json",
+  "candidate_sha256": "c9bba11d00fb4b43da97ee96275ff1f5e1f1e293c193acca4f49976c21060226",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/before-after-proposals.json",
+      "sha256": "c9bba11d00fb4b43da97ee96275ff1f5e1f1e293c193acca4f49976c21060226"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/crop_coordinates.json",
+      "sha256": "91cce2855f90f13b19d7703368254189a21bf0a25e355514c7fc19a9a5187520"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/crops/28-15-22.png",
+      "sha256": "93d0365c1a3309a23207dca7c650d72abcbfb3ca459313e8d7bd222f0ad61c70"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/crops/28-17-detail.png",
+      "sha256": "7a31322a9a68e7ba0e5bb1e6c8a7ac4299874e25dac9f146c58a4f34dae2f1f3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/crops/29-34-38.png",
+      "sha256": "dfc638ed98e20748578c0874187bdf244ff0c56fb89008bfc43c007ff1d55005"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/crops/29-36-detail.png",
+      "sha256": "7423c2e913ed4df998ea4204f268b1c68e67d23a74480c6f22424e32ca432ff4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/crops/30-2-6.png",
+      "sha256": "9903bf07e0c11a972d7485f786a2548328b8b8d3c3fcf420289476a8de9e23df"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/crops/30-4-detail.png",
+      "sha256": "d746615ef7cbcf68190002b2da4c9184383d35e3871067f3558b60b05ac68b2c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/independent-review.md",
+      "sha256": "c835e0f12e9ab4bce36d163b7d40c256e2198ba0204324bb6582599f004362c2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/manifest.json",
+      "sha256": "c3d044dba4ba9f786a7ccf901b32b2c3ed5f144028899d30c55cad653aef517a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/khanda1-ch28-ch30-next-five-review-packet.json",
+      "sha256": "698b5e53dda2db2894b1a79839be038a1771beac9e6e86b3460378860dd6959b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0065.png",
+      "sha256": "e282aeebcce4ac28156bacd21ce40a0a676f8f0eb2353d9665964ef460f9730b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0067.png",
+      "sha256": "a547767da648d4b41a30c58dda8564f27365576eb20ad19440a828fef93b1fd5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0068.png",
+      "sha256": "231c7e92b24f31e91fad88a1416a4f76909e4124d9b8a746379ffab542527eb2"
+    }
+  ],
+  "handoff_Library_file": "libfile_54c4deefee7c81919b3b79444780dfed",
+  "handoff_sha256": "2b795cd890f5f5f4b5d1655090d294720ba733cfd6536a0c46e7d34a912a1566",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

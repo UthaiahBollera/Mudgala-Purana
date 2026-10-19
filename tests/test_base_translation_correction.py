@@ -461,4 +461,34 @@ class FiveEvidenceOnlyHolds(unittest.TestCase):
  def test_source_hash_required(self):p=self.root/self.review['evidence_files'][0]['file'];p.write_bytes(p.read_bytes()+b' ');self.reject_nochange()
  def test_raw_acceptance_null(self):
   p=self.root/self.review['candidate_file'];d=json.loads(p.read_text());d['records'][0]['accepted_kannada']='accepted';p.write_text(json.dumps(d));h=hashlib.sha256(p.read_bytes()).hexdigest();self.review['candidate_sha256']=h;next(x for x in self.review['evidence_files']if x['file']==self.review['candidate_file'])['sha256']=h;self.reject_nochange()
+class ThreeChapterTwentyEightRepairs(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch28-ch30-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):
+  for i in range(3):self.check(i)
+  self.nochange()
+ def test_long_a_required(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ರಾಜಸರೂಪಿಣೇ','ರಜಸರೂಪಿಣೇ')
+  self.reject()
+ def test_dhara_required(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಪಂಚವಕ್ತ್ರಧರಾಯೈವ','ಪಂಚವಕ್ತ್ರಾಯ ವೈ')
+  self.reject(1)
+ def test_shreshtho_required(self):
+  for x in [self.items[2]['new_row'],self.review['reviews'][2]['new_row']]:x['text']=x['text'].replace('ತ್ವಂ ಶ್ರೇಷ್ಠೋ','ತ್ವಮೇವ')
+  self.reject(2)
+ def test_no_final_visarga(self):
+  for x in [self.items[2]['new_row'],self.review['reviews'][2]['new_row']]:x['text']=x['text'].replace('ದೇವಪಾಲಕ ।','ದೇವಪಾಲಕಃ ।')
+  self.reject(2)
+ def test_original_anomaly_preserved(self):self.review['no_change_adjudications'][0]['printed_anomalous_token']='निर्विकल्पम्';self.reject_nochange()
+ def test_normalization_not_literal(self):self.review['no_change_adjudications'][0]['normalization_not_literal_print']=False;self.reject_nochange()
+ def test_anomaly_not_resolved(self):self.review['no_change_adjudications'][0]['source_anomaly_resolved']=True;self.reject_nochange()
+ def test_rava_not_added(self):self.review['no_change_adjudications'][1]['additional_Rava_name_established']=True;self.reject_nochange()
+ def test_compound_not_settled(self):self.review['no_change_adjudications'][1]['compound_meaning_settled']=True;self.reject_nochange()
 if __name__=='__main__':unittest.main()
