@@ -1,6 +1,6 @@
 {
-  "source_commit": "f03eda73c4c78416082a8ce0ea6ef09e6ee61f1d",
-  "coverage": "Restore two chapter 19 source terms with visible unresolved holds",
+  "source_commit": "e213f8a308db718ec65d44241cdcec5be222a59a",
+  "coverage": "Restore two chapter 21 mantra forms and a bounded chapter 20 clause",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "5f84d19307b9f16d15baa39afaed874f5bff91185aac4a249733c22cf98cbac1",
-  "epub_sha256": "505472e2d344e9bbff760b15e6789f22127d921e3ac5420d6f64501afe8fb90f",
+  "html_sha256": "632e66d78fadec8695f059b18e9b00e19510fdf57bf870d81b4731d4c0326525",
+  "epub_sha256": "2a8ea3c10e72dd122f07da707b188adc10e58781aa9eeda51398d3381ce52468",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 2,
+  "new_accepted_textual_candidates": 3,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 0,
   "new_seven_joins": [],
@@ -253,8 +253,8 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    19,
-    20
+    20,
+    21
   ],
   "represented_chapters": 425,
   "new_translation_units": 0,
@@ -482,18 +482,26 @@
     {
       "key": [
         1,
-        19,
-        53
+        20,
+        27
       ],
-      "scope": "original_only_reviewed_sentence_replacement"
+      "scope": "original_only_reviewed_partial"
     },
     {
       "key": [
         1,
-        19,
-        54
+        21,
+        8
       ],
-      "scope": "original_only_reviewed_sentence_replacement"
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        21,
+        30
+      ],
+      "scope": "original_only_mantra_token"
     }
   ],
   "prior_reviewed_text_corrections": [
@@ -577,10 +585,10 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "19.53 tad antecedent remains held",
-    "19.54 nandana meaning/source integrity remains held",
-    "19.29 printed vatsah/contextual dwelling;20.8 printed Lomasura/editorial Lobhasura;20.9 compressed junction all held",
-    "Zero fully resolved targets;earlier holds and unknown Google targets preserved"
+    "20.27 printed narakah and remaining meaning held;no tarakah emendation",
+    "21.7 difficult compound interpretation held",
+    "21.28 base dhatre retained;historical dhamne not adopted",
+    "21.8/30 transcription only;earlier holds and unknown Google targets preserved"
   ],
   "chapter50_verses": 48,
   "chapter51_verses": 42,
@@ -589,22 +597,17 @@
   "reviewed_no_text_change_keys": [
     [
       1,
-      19,
-      29
+      21,
+      7
     ],
     [
       1,
-      20,
-      8
-    ],
-    [
-      1,
-      20,
-      9
+      21,
+      28
     ]
   ],
-  "new_reviewed_partial_corrections": 2,
-  "new_no_change_reviews": 3,
+  "new_reviewed_partial_corrections": 1,
+  "new_no_change_reviews": 2,
   "mantra_meaning_hold_keys": [
     [
       1,
@@ -670,11 +673,21 @@
       1,
       12,
       24
+    ],
+    [
+      1,
+      21,
+      8
+    ],
+    [
+      1,
+      21,
+      30
     ]
   ],
   "source_unverified_unchanged_keys": [],
   "earlier_reading_holds_preserved": true,
-  "new_target_reading_confirmations": 0,
+  "new_target_reading_confirmations": 2,
   "release_scope": "reviewed_text_corrections",
   "prior_publication_commit": "afb13cd9c29cf07241887c59d283c14ca8c1557c",
   "book_text_and_flags_unchanged": false,
@@ -691,7 +704,11 @@
   "cover_artwork_outside_title_unchanged": true,
   "print_quality_certification": null,
   "approved_cover_v5_unchanged": true,
-  "confirmed_existing_subverse_tokens": {},
+  "confirmed_existing_subverse_tokens": {
+    "1.21.8": [
+      "ಧರಾಯಾಥ"
+    ]
+  },
   "fully_resolved_targets": 0,
   "new_full_accepted_translations": 0
 }
