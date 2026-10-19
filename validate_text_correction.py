@@ -92,6 +92,8 @@ def validate_base_translation_correction(root,old,new,item,review):
         if 'minimal_edits'in p:
             assert [x['before']+' → '+x['after']for x in replacements]==p['minimal_edits'],'Mantra edits differ from independent review'
             assert bool(record['issues'])==p['status'].endswith('_with_meaning_hold'),'Independent mantra meaning hold omitted'
+        if p['status']=='transcription_correction_ready_grammar_hold':
+            assert record['issues'],'Independent mantra grammar hold omitted'
         status='accepted_transliteration_with_meaning_hold'if record['issues']else'accepted'
         assert record['review_status']==status and all(x['status']=='open'and x['reading']is None for x in record['issues']),'Mantra meaning hold closed'
     elif record['issues']:

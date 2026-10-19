@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "870b82c5432c77f68a6c3c7fe224d9d6b531df86",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        6,
+        25
+      ],
+      "old_row": {
+        "source_pages": "28",
+        "type": "translation",
+        "text": "ದೇಹವನ್ನು ಧರಿಸಿದ್ದರಿಂದ ಅದರ ಹೆಸರು ದೇಹಿ. ಅಲ್ಲಿನ ದೇಹಸ್ವರೂಪವನ್ನು ಬಿಂದುಮಾತ್ರವೆಂದು ಕರೆಯಲಾಗಿದೆ. ॥೨೫॥"
+      },
+      "new_row": {
+        "source_pages": "28",
+        "type": "translation-review",
+        "text": "ಅದೇ ದೇಹಿರೂಪವಾಗಿದೆ. (ಪರಿಶೀಲನೆ: ‘ದೇಹಮೋಹಪ್ರವಾರಣಾತ್’ ಎಂಬ ಕಾರಣವಾಚಕ ಪದದ ನಿಖರ ಅರ್ಥ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.) ಅಲ್ಲಿನ ದೇಹಸ್ವರೂಪವನ್ನು ಬಿಂದುಮಾತ್ರವೆಂದು ಕರೆಯಲಾಗಿದೆ. ॥೨೫॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "तदेव देहि रूपं च देहमोहप्रवारणात् । देहरूपं तथा तत्र बिंदुमात्रं प्रकीर्तितम् ॥२५॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "compound_and_short_i_orthography",
+          "reading": null,
+          "token": "देहमोहप्रवारणात्;देहि रूपं",
+          "detail": "The printed देहमोहप्रवारणात् includes body and delusion; the current because it bears a body is not an adequate rendering and prematurely selects an operation. Do not guess removal versus covering or silently substitute another Sanskrit compound. Printed देहि रूपं is separated and has the short-i sign in देहि; its grammatical/orthographic interpretation is also retained as a hold. The candidate uses dehi-rūpa as a technical label, not a claim that the Sanskrit has been normalized. The second sentence is retained. Full unqualified replacement is null."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_reviewed_partial",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/independent-review.md",
+        "sha256": "7097e72ea647bb4856d2eceec1c030a16f02b489031379ce5c177b123937df3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0015.png",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0015.png",
+        "sha256": "5a52752e44bb6d4bf3cf02b11e9dab904edd010a82b910b7e51195c3603b3d24",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1990,
+          3710,
+          2360
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The printed देहमोहप्रवारणात् includes body and delusion; the current because it bears a body is not an adequate rendering and prematurely selects an operation. Do not guess removal versus covering or silently substitute another Sanskrit compound. Printed देहि रूपं is separated and has the short-i sign in देहि; its grammatical/orthographic interpretation is also retained as a hold. The candidate uses dehi-rūpa as a technical label, not a claim that the Sanskrit has been normalized. The second sentence is retained. Full unqualified replacement is null."
+    },
+    {
+      "key": [
+        1,
+        6,
+        34
+      ],
+      "old_row": {
+        "source_pages": "29",
+        "type": "mantra",
+        "text": "ತೃತೀಯಂ ಸತ್ಯರೂಪಂ ಚ ಚತುರ್ಥಂ ಯತ್ಸದಾ ಹ್ಯಸತ್ । ಚತುರ್ಹಸ್ತಸ್ವರೂಪಂ ತೇ ತೇನ ತ್ವಂ ವೈ ಚತುರ್ಭುಜಃ ॥೩೪॥"
+      },
+      "new_row": {
+        "source_pages": "29",
+        "type": "mantra",
+        "text": "ತೃತೀಯಂ ಸತ್ಸ್ವರೂಪಂ ಚ ಚತುರ್ಥಂ ಯತ್ಸದಾ ಹ್ಯಸತ್ । ಚತುರ್ಹಸ್ತಸ್ವರೂಪಂ ತೇ ತೇನ ತ್ವಂ ವೈ ಚತುರ್ಭುಜಃ ॥೩೪॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "तृतीयं सत्स्वरूपं च चतुर्थं यत्सदा ह्यसत् । चतुर्हस्तस्वरूपं ते तेन त्वं वै चतुर्भुजः ॥३४॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ತೃತೀಯಂ ಸತ್ಸ್ವರೂಪಂ ಚ ಚತುರ್ಥಂ ಯತ್ಸದಾ ಹ್ಯಸತ್ । ಚತುರ್ಹಸ್ತಸ್ವರೂಪಂ ತೇ ತೇನ ತ್ವಂ ವೈ ಚತುರ್ಭುಜಃ ॥೩೪॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/independent-review.md",
+        "sha256": "7097e72ea647bb4856d2eceec1c030a16f02b489031379ce5c177b123937df3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0016.png",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0016.png",
+        "sha256": "d55587a502538733c82a8e4969502af92ccf791f59dded50ba6aee3199458283",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          830,
+          3690,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Only ಸತ್ಯರೂಪಂ → ಸತ್ಸ್ವರೂಪಂ. The original supports sat-svarūpa, independently of the historical online quotation. Preserve all other wording, including hyasat.",
+      "replacements": [
+        {
+          "before": "ಸತ್ಯರೂಪಂ",
+          "after": "ಸತ್ಸ್ವರೂಪಂ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        6,
+        35
+      ],
+      "old_row": {
+        "source_pages": "29",
+        "type": "mantra",
+        "text": "ತವೋದರೇ ಸ್ಥಿತಂ ಸರ್ವಂ ತೇನ ಲಂಬೋದರಃ ಸ್ಮೃತಃ । ಮಾಯಾಮಾಯಿಕರೂಪೌ ಚ ದ್ವೌ ಪಾದೌ ದ್ವಿವಿಧೇ ಚ ತೇ ॥೩೫॥"
+      },
+      "new_row": {
+        "source_pages": "29",
+        "type": "mantra",
+        "text": "ತವೋದರೇ ಸ್ಥಿತಂ ಸರ್ವಂ ತೇನ ಲಂಬೋದರಃ ಸ್ಮೃತಃ । ಮಾಯಾಮಾಯಿಕರೂಪಂ ಚ ದ್ವೌ ಪಾದೌ ದ್ವಿವಿಧಂ ಚ ತೇ ॥೩೫॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "तवोदरे स्थितं सर्वं तेन लंबोदरः स्मृतः । मायामायिकरूपं च द्वौ पादौ द्विविधं च ते ॥३५॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "neuter_endings_beside_dual_grammar",
+          "reading": null,
+          "token": "मायामायिकरूपं;द्वौ पादौ;द्विविधं",
+          "detail": "Only ಮಾಯಾಮಾಯಿಕರೂಪೌ → ಮಾಯಾಮಾಯಿಕರೂಪಂ and ದ್ವಿವಿಧೇ → ದ್ವಿವಿಧಂ. Both printed anusvāras are visible. Preserve the original’s neuter endings beside dual dvau pādau; do not silently improve their grammatical agreement. Any explanation of those inflections remains separate from the source-transcription correction."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ತವೋದರೇ ಸ್ಥಿತಂ ಸರ್ವಂ ತೇನ ಲಂಬೋದರಃ ಸ್ಮೃತಃ । ಮಾಯಾಮಾಯಿಕರೂಪಂ ಚ ದ್ವೌ ಪಾದೌ ದ್ವಿವಿಧಂ ಚ ತೇ ॥೩೫॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/independent-review.md",
+        "sha256": "7097e72ea647bb4856d2eceec1c030a16f02b489031379ce5c177b123937df3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0016.png",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0016.png",
+        "sha256": "d55587a502538733c82a8e4969502af92ccf791f59dded50ba6aee3199458283",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          830,
+          3690,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Only ಮಾಯಾಮಾಯಿಕರೂಪೌ → ಮಾಯಾಮಾಯಿಕರೂಪಂ and ದ್ವಿವಿಧೇ → ದ್ವಿವಿಧಂ. Both printed anusvāras are visible. Preserve the original’s neuter endings beside dual dvau pādau; do not silently improve their grammatical agreement. Any explanation of those inflections remains separate from the source-transcription correction.",
+      "replacements": [
+        {
+          "before": "ಮಾಯಾಮಾಯಿಕರೂಪೌ",
+          "after": "ಮಾಯಾಮಾಯಿಕರೂಪಂ"
+        },
+        {
+          "before": "ದ್ವಿವಿಧೇ",
+          "after": "ದ್ವಿವಿಧಂ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        6,
+        36
+      ],
+      "old_row": {
+        "source_pages": "29",
+        "type": "mantra",
+        "text": "ಏತೇ ಸರ್ವೇ ಗಣಾ ಢುಂಢೇ ತ್ವದೀಯಾ ನಾತ್ರ ಸಂಶಯಃ । ಗಣನಾಥೋಽಸಿ ತೇನ ತ್ವಂ ನಾನಾರೂಪಧರಃ ಸದಾ ॥೩೬॥"
+      },
+      "new_row": {
+        "source_pages": "29",
+        "type": "mantra",
+        "text": "ಏತೇ ಸರ್ವೇ ಗಣಾ ಢುಂಢೇ ತ್ವದೀಯಾ ನಾತ್ರ ಸಂಶಯಃ । ಗಣನಾಥೋಽಸಿ ತೇನ ತ್ವಂ ನಾಮ್ನಾ ಖ್ಯಾತಶ್ಚ ಸರ್ವದಾ ॥೩೬॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "एते सर्वे गणा ढुंढे त्वदीया नात्र संशयः । गणनाथोऽसि तेन त्वं नाम्ना ख्यातश्च सर्वदा ॥३६॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಏತೇ ಸರ್ವೇ ಗಣಾ ಢುಂಢೇ ತ್ವದೀಯಾ ನಾತ್ರ ಸಂಶಯಃ । ಗಣನಾಥೋಽಸಿ ತೇನ ತ್ವಂ ನಾಮ್ನಾ ಖ್ಯಾತಶ್ಚ ಸರ್ವದಾ ॥೩೬॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/independent-review.md",
+        "sha256": "7097e72ea647bb4856d2eceec1c030a16f02b489031379ce5c177b123937df3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0016.png",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0016.png",
+        "sha256": "d55587a502538733c82a8e4969502af92ccf791f59dded50ba6aee3199458283",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          830,
+          3690,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Only replace final ನಾನಾರೂಪಧರಃ ಸದಾ with ನಾಮ್ನಾ ಖ್ಯಾತಶ್ಚ ಸರ್ವದಾ. Printed नाम्ना ends one line and ख्यातश्च सर्वदा continues on the next. Retain the existing Kannada-script Dhundhe spelling, which corresponds to the printed anusvāra orthography.",
+      "replacements": [
+        {
+          "before": "ನಾನಾರೂಪಧರಃ ಸದಾ",
+          "after": "ನಾಮ್ನಾ ಖ್ಯಾತಶ್ಚ ಸರ್ವದಾ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        7,
+        25
+      ],
+      "old_row": {
+        "source_pages": "31",
+        "type": "translation",
+        "text": "ಹೀಗೆ ತನ್ಮಾತ್ರೆಗಳೂ ಪಂಚಭೂತಗಳೂ ಉಂಟಾದವು, ಸ್ವರಾಟನೇ. ಎಲ್ಲ ದೇಹವೂ ಪಂಚಭೂತಾತ್ಮಕವೆಂದು ಹೇಳಲಾಗುತ್ತದೆ. ॥೨೫॥"
+      },
+      "new_row": {
+        "source_pages": "31",
+        "type": "translation-review",
+        "text": "ತನ್ಮಾತ್ರೆಗಳ ಮತ್ತು ಭೂತಗಳ ಸೃಷ್ಟಿಯು ಐದು ಐದು ಅಂಶಗಳಿಂದ ಕೂಡಿದೆ. ದೇಹವು ಪಂಚಭೂತಾತ್ಮಕವಾಗಿ ಎಲ್ಲೆಡೆಯೂ ಕಾಣುತ್ತದೆ. (ಪರಿಶೀಲನೆ: ‘ಸ್ವರಾಟ್’ ಪದದ ಅನ್ವಯ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.) ॥೨೫॥"
+      },
+      "base_file": "translation/batch-02-02.tsv",
+      "source_sanskrit": "तन्मात्रा भूतसर्गश्च पंचपंचात्मकः स्वराट् । पंचभूतात्मको देहः सर्वत्रैव प्रदृश्यते ॥२५॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "svarat_attachment",
+          "reading": null,
+          "token": "स्वराट्",
+          "detail": "Preserve the explicit five-plus-five count. प्रदृश्यते is is seen/appears, not merely is said. स्वराट् is clear in the original, but this context does not establish the current direct address ಸ್ವರಾಟನೇ to Pārvatī. A masculine nominative/predicative construal is possible; consonant-stem surface form alone is not sufficient to exclude every possible vocative analysis. Do not assign a guessed creator or predicate. The proposal leaves the word visible in a hold rather than silently dropping it. Full unqualified replacement is null."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_reviewed_partial",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/independent-review.md",
+        "sha256": "7097e72ea647bb4856d2eceec1c030a16f02b489031379ce5c177b123937df3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0018.png",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0018.png",
+        "sha256": "68104cf42668cfbf34d5ac0a2ddba5c636bd8e4022f6bb8f7e844b3e0d85ea46",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          270,
+          1340,
+          3710,
+          1980
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Preserve the explicit five-plus-five count. प्रदृश्यते is is seen/appears, not merely is said. स्वराट् is clear in the original, but this context does not establish the current direct address ಸ್ವರಾಟನೇ to Pārvatī. A masculine nominative/predicative construal is possible; consonant-stem surface form alone is not sufficient to exclude every possible vocative analysis. Do not assign a guessed creator or predicate. The proposal leaves the word visible in a hold rather than silently dropping it. Full unqualified replacement is null."
+    }
+  ],
+  "no_change_adjudications": [],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch6-ch7/before-after-proposals.json",
+  "candidate_sha256": "3d7b1ed11713ae0f1ac2ac5c005d528378972bbb00d4d523cec91d0fbc39729d",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/before-after-proposals.json",
+      "sha256": "3d7b1ed11713ae0f1ac2ac5c005d528378972bbb00d4d523cec91d0fbc39729d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/crops/ch6-23-26.png",
+      "sha256": "b65d8f1d810cddd4ff762a498fab20e7a5bb0ff37a01d340eab69ce978bf521a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/crops/ch6-26-27.png",
+      "sha256": "b431f8131abccdd907adf47c21632fe8f2e45afd9e1c39487791da0525092bcd"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/crops/ch6-32-38.png",
+      "sha256": "324e6b4b168a72b20071d1f660cb11bf87b37aef9235f24770bc728635b2a382"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/crops/ch6-34-36.png",
+      "sha256": "f37a3d4708d3269e5bc5b343a3c3b48ec852a3936839729b8bbf68b786c87489"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/crops/ch7-22-28.png",
+      "sha256": "dae59062a57bf6d1d3e4837fc2b79cc45b716a7b97ee0375ceb6fbf221d3f6ce"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/independent-review.md",
+      "sha256": "7097e72ea647bb4856d2eceec1c030a16f02b489031379ce5c177b123937df3a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/manifest.json",
+      "sha256": "a269de5b190275981228adf932502de12007fb4779d765101885a5d9552e5a66"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/khanda1-ch6-ch7-next-five-review-packet.json",
+      "sha256": "8a02028e470f30c83a2be486ea492b35096033f8ade55064bd8b51bcfbaa78a6"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0015.png",
+      "sha256": "5a52752e44bb6d4bf3cf02b11e9dab904edd010a82b910b7e51195c3603b3d24"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0016.png",
+      "sha256": "d55587a502538733c82a8e4969502af92ccf791f59dded50ba6aee3199458283"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0018.png",
+      "sha256": "68104cf42668cfbf34d5ac0a2ddba5c636bd8e4022f6bb8f7e844b3e0d85ea46"
+    }
+  ],
+  "handoff_Library_file": "libfile_64b7d20a39c88191ba690c95a2ba6bbc",
+  "handoff_sha256": "e855f8ec3c6d331319b4f6cfc048f4f2c5bf5d4369cacc88a0c60b5b786d3507",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

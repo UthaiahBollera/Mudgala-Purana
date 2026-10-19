@@ -1289,7 +1289,7 @@
       "verse_end": 25,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "partially_corrected_meaning_hold",
       "issues": [
         "dehamohapravāraṇāt needs review: current “because it bears body” omits delusion and may reverse removal/covering sense. Do not guess precise philosophical operation."
       ],
@@ -1308,7 +1308,41 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "partially_corrected_meaning_hold",
+          "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+          "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+        "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+        "source_sanskrit": "तदेव देहि रूपं च देहमोहप्रवारणात् । देहरूपं तथा तत्र बिंदुमात्रं प्रकीर्तितम् ॥२५॥",
+        "new_row": {
+          "source_pages": "28",
+          "type": "translation-review",
+          "text": "ಅದೇ ದೇಹಿರೂಪವಾಗಿದೆ. (ಪರಿಶೀಲನೆ: ‘ದೇಹಮೋಹಪ್ರವಾರಣಾತ್’ ಎಂಬ ಕಾರಣವಾಚಕ ಪದದ ನಿಖರ ಅರ್ಥ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.) ಅಲ್ಲಿನ ದೇಹಸ್ವರೂಪವನ್ನು ಬಿಂದುಮಾತ್ರವೆಂದು ಕರೆಯಲಾಗಿದೆ. ॥೨೫॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "compound_and_short_i_orthography",
+            "reading": null,
+            "token": "देहमोहप्रवारणात्;देहि रूपं",
+            "detail": "The printed देहमोहप्रवारणात् includes body and delusion; the current because it bears a body is not an adequate rendering and prematurely selects an operation. Do not guess removal versus covering or silently substitute another Sanskrit compound. Printed देहि रूपं is separated and has the short-i sign in देहि; its grammatical/orthographic interpretation is also retained as a hold. The candidate uses dehi-rūpa as a technical label, not a claim that the Sanskrit has been normalized. The second sentence is retained. Full unqualified replacement is null."
+          }
+        ],
+        "review_status": "accepted_with_unresolved_meaning",
+        "current_wording_source_verified": false,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch6-v34",
@@ -1320,7 +1354,7 @@
       "verse_end": 34,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "resolved_original_scan_transcription_correction",
       "issues": [
         "Online satsvarūpaṃ vs current satyarūpaṃ: both plausible meaningful mantra readings; hold for scan."
       ],
@@ -1339,7 +1373,33 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_original_scan_transcription_correction",
+          "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+          "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+        "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+        "source_sanskrit": "तृतीयं सत्स्वरूपं च चतुर्थं यत्सदा ह्यसत् । चतुर्हस्तस्वरूपं ते तेन त्वं वै चतुर्भुजः ॥३४॥",
+        "new_row": {
+          "source_pages": "29",
+          "type": "mantra",
+          "text": "ತೃತೀಯಂ ಸತ್ಸ್ವರೂಪಂ ಚ ಚತುರ್ಥಂ ಯತ್ಸದಾ ಹ್ಯಸತ್ । ಚತುರ್ಹಸ್ತಸ್ವರೂಪಂ ತೇ ತೇನ ತ್ವಂ ವೈ ಚತುರ್ಭುಜಃ ॥೩೪॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "current_wording_source_verified": true,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch6-v35",
@@ -1351,7 +1411,7 @@
       "verse_end": 35,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "corrected_transcription_grammar_hold",
       "issues": [
         "Online māyāmāyikarūpaṃ ... dvividhaṃ vs current rūpau ... dvividhe. Inflection variants, not safe to harmonize absent scan."
       ],
@@ -1370,7 +1430,41 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "corrected_transcription_grammar_hold",
+          "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+          "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+        "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+        "source_sanskrit": "तवोदरे स्थितं सर्वं तेन लंबोदरः स्मृतः । मायामायिकरूपं च द्वौ पादौ द्विविधं च ते ॥३५॥",
+        "new_row": {
+          "source_pages": "29",
+          "type": "mantra",
+          "text": "ತವೋದರೇ ಸ್ಥಿತಂ ಸರ್ವಂ ತೇನ ಲಂಬೋದರಃ ಸ್ಮೃತಃ । ಮಾಯಾಮಾಯಿಕರೂಪಂ ಚ ದ್ವೌ ಪಾದೌ ದ್ವಿವಿಧಂ ಚ ತೇ ॥೩೫॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "neuter_endings_beside_dual_grammar",
+            "reading": null,
+            "token": "मायामायिकरूपं;द्वौ पादौ;द्विविधं",
+            "detail": "Only ಮಾಯಾಮಾಯಿಕರೂಪೌ → ಮಾಯಾಮಾಯಿಕರೂಪಂ and ದ್ವಿವಿಧೇ → ದ್ವಿವಿಧಂ. Both printed anusvāras are visible. Preserve the original’s neuter endings beside dual dvau pādau; do not silently improve their grammatical agreement. Any explanation of those inflections remains separate from the source-transcription correction."
+          }
+        ],
+        "review_status": "accepted_transliteration_with_meaning_hold",
+        "current_wording_source_verified": true,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch6-v36",
@@ -1382,7 +1476,7 @@
       "verse_end": 36,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "resolved_original_scan_transcription_correction",
       "issues": [
         "Last pada online nāmnā khyātaśca sarvadā vs current nānārūpadharaḥ sadā; both coherent, hold as possible edition variant."
       ],
@@ -1401,7 +1495,33 @@
         ],
         "status": "partially_corrected_issue_remains"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_original_scan_transcription_correction",
+          "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+          "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+        "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+        "source_sanskrit": "एते सर्वे गणा ढुंढे त्वदीया नात्र संशयः । गणनाथोऽसि तेन त्वं नाम्ना ख्यातश्च सर्वदा ॥३६॥",
+        "new_row": {
+          "source_pages": "29",
+          "type": "mantra",
+          "text": "ಏತೇ ಸರ್ವೇ ಗಣಾ ಢುಂಢೇ ತ್ವದೀಯಾ ನಾತ್ರ ಸಂಶಯಃ । ಗಣನಾಥೋಽಸಿ ತೇನ ತ್ವಂ ನಾಮ್ನಾ ಖ್ಯಾತಶ್ಚ ಸರ್ವದಾ ॥೩೬॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "current_wording_source_verified": true,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch7-v25",
@@ -1413,7 +1533,7 @@
       "verse_end": 25,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "partially_corrected_meaning_hold",
       "issues": [
         "svarāṭ is masculine nominative, cannot naturally address Parvati; exact predicate/attachment unclear. Candidate preserves five+five creation but leaves this epithet unexpanded.",
         "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
@@ -1434,7 +1554,41 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "partially_corrected_meaning_hold",
+          "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+          "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+        "review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+        "source_sanskrit": "तन्मात्रा भूतसर्गश्च पंचपंचात्मकः स्वराट् । पंचभूतात्मको देहः सर्वत्रैव प्रदृश्यते ॥२५॥",
+        "new_row": {
+          "source_pages": "31",
+          "type": "translation-review",
+          "text": "ತನ್ಮಾತ್ರೆಗಳ ಮತ್ತು ಭೂತಗಳ ಸೃಷ್ಟಿಯು ಐದು ಐದು ಅಂಶಗಳಿಂದ ಕೂಡಿದೆ. ದೇಹವು ಪಂಚಭೂತಾತ್ಮಕವಾಗಿ ಎಲ್ಲೆಡೆಯೂ ಕಾಣುತ್ತದೆ. (ಪರಿಶೀಲನೆ: ‘ಸ್ವರಾಟ್’ ಪದದ ಅನ್ವಯ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.) ॥೨೫॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "svarat_attachment",
+            "reading": null,
+            "token": "स्वराट्",
+            "detail": "Preserve the explicit five-plus-five count. प्रदृश्यते is is seen/appears, not merely is said. स्वराट् is clear in the original, but this context does not establish the current direct address ಸ್ವರಾಟನೇ to Pārvatī. A masculine nominative/predicative construal is possible; consonant-stem surface form alone is not sufficient to exclude every possible vocative analysis. Do not assign a guessed creator or predicate. The proposal leaves the word visible in a hold rather than silently dropping it. Full unqualified replacement is null."
+          }
+        ],
+        "review_status": "accepted_with_unresolved_meaning",
+        "current_wording_source_verified": false,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      }
     },
     {
       "id": "kh1-ch7-v39",

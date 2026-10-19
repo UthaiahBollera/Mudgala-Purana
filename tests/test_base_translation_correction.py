@@ -136,4 +136,26 @@ class TwoMeaningCorrections(unittest.TestCase):
   self.review['no_change_adjudications'][2]['issues']=[]
   with self.assertRaises(AssertionError):self.nochange()
  def test_source_not_emended(self):self.review['reviews'][0]['source_sanskrit']='harmonized';self.reject()
+class MixedFiveCorrections(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch6-ch7-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def test_all_valid(self):
+  for i in range(5):self.check(i)
+ def test_grammar_hold_cannot_close(self):self.review['reviews'][2].update(issues=[],review_status='accepted');self.reject(2)
+ def test_partial_hold_cannot_close(self):self.review['reviews'][0]['issues']=[];self.reject()
+ def test_svarat_hold_cannot_close(self):self.review['reviews'][4]['accepted_translation']='guessed';self.reject(4)
+ def test_note_not_stripped(self):
+  for x in [self.items[4]['new_row'],self.review['reviews'][4]['new_row']]:x['text']=x['text'].split(' (ಪರಿಶೀಲನೆ:')[0]
+  self.reject(4)
+ def test_both_inflections_required(self):self.review['reviews'][2]['replacements'].pop();self.reject(2)
+ def test_preserve_other_mantra_text(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಹ್ಯಸತ್','ಸತ್')
+  self.reject(1)
+ def test_unknown_google_null(self):self.review['reviews'][0]['reference_source']['page_id']='PT200';self.reject()
+ def test_source_reading_immutable(self):self.review['reviews'][0]['source_sanskrit']='emended';self.reject()
+ def test_prose_not_fully_accepted(self):self.review['reviews'][0]['accepted_translation']=self.review['reviews'][0]['new_row']['text'];self.reject()
 if __name__=='__main__':unittest.main()
