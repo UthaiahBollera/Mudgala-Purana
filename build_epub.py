@@ -13,6 +13,9 @@ SOURCE=BASE/'book'
 doc=html.fromstring((SOURCE/'index.html').read_bytes())
 sections=doc.xpath('//main/section')
 assert sections and 'cover' in sections[0].get('class','')
+cover_images = sections[0].xpath('.//img')
+assert len(cover_images) == 1, 'Cover must contain exactly one image'
+cover_asset = cover_images[0].get('src')
 X='http://www.w3.org/1999/xhtml';E='http://www.idpf.org/2007/ops';P='http://www.idpf.org/2007/opf'
 files={};items=[]
 def document(title,children):
@@ -56,7 +59,7 @@ needed.update(el.get('src') for s in sections for el in s.iter() if el.tag=='{%s
 for n,name in enumerate(sorted(needed)):
     files[name]=(SOURCE/name).read_bytes();mime=mimetypes.guess_type(name)[0] or 'application/octet-stream'
     if name.endswith('.ttf'):mime='font/ttf'
-    prop='cover-image' if name.endswith('mudgala-front-cover-final-v4.png') else ''
+    prop='cover-image' if name == cover_asset else ''
     items.append((f'a{n}',name,mime,prop))
 root=etree.Element('{%s}package'%P,nsmap={None:P},version='3.0')
 root.set('unique-identifier','book-id');root.set('{http://www.w3.org/XML/1998/namespace}lang','kn')
