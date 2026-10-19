@@ -1,6 +1,6 @@
 {
-  "source_commit": "14f70c06035d4c19ec4079b7d77cf351c767acc9",
-  "coverage": "Correct verse 37.5 abhaya comparison and retain four source holds",
+  "source_commit": "777efd2a5ad53ceb9721d480395f8500d5f2710f",
+  "coverage": "Restore svahridi and prakashe readings with three unchanged holds",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "ed7127fe25714fddb76fd7ab3acc93d491ea1df90c13fb9af52fbdc563ad69fb",
-  "epub_sha256": "09524fd5c1ea3ce7fd9c638014938418c80c7540ceadb731901466b965901135",
+  "html_sha256": "4b01497f93916a508f6d02c5a0020ac63291900f905ebbc775c8ff587202e341",
+  "epub_sha256": "423d41fe0f45cd69c0697797314eb711fa29165919440130e0bb3ad43e8c4125",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 1,
+  "new_accepted_textual_candidates": 2,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 0,
   "new_seven_joins": [],
@@ -253,10 +253,9 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    34,
-    35,
-    36,
-    37
+    37,
+    38,
+    39
   ],
   "represented_chapters": 425,
   "new_translation_units": 0,
@@ -484,10 +483,18 @@
     {
       "key": [
         1,
-        37,
-        5
+        38,
+        43
       ],
-      "scope": "original_only_reviewed_full_with_nuance_hold"
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        39,
+        8
+      ],
+      "scope": "original_only_mantra_token"
     }
   ],
   "prior_reviewed_text_corrections": [
@@ -571,8 +578,8 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "37.5 abhaya and westward-sunrise nuance remains held",
-    "34.25 printed surah/narrative discrepancy;34.42 combat nuance;35.1 known unsupported karma paraphrase;36.13 time/karma meaning remain held",
+    "37.39 instrumental coordination and38.34 atmana syntax remain held",
+    "39.7 transcription confirmed only;compound and philosophical interpretation not certified",
     "Earlier holds and unknown Google targets preserved"
   ],
   "chapter50_verses": 48,
@@ -582,27 +589,22 @@
   "reviewed_no_text_change_keys": [
     [
       1,
-      34,
-      25
+      37,
+      39
     ],
     [
       1,
-      34,
-      42
+      38,
+      34
     ],
     [
       1,
-      35,
-      1
-    ],
-    [
-      1,
-      36,
-      13
+      39,
+      7
     ]
   ],
-  "new_reviewed_partial_corrections": 1,
-  "new_no_change_reviews": 4,
+  "new_reviewed_partial_corrections": 0,
+  "new_no_change_reviews": 3,
   "mantra_meaning_hold_keys": [
     [
       1,
@@ -708,27 +710,17 @@
   "source_unverified_unchanged_keys": [
     [
       1,
-      34,
-      25
+      37,
+      39
     ],
     [
       1,
-      34,
-      42
-    ],
-    [
-      1,
-      35,
-      1
-    ],
-    [
-      1,
-      36,
-      13
+      38,
+      34
     ]
   ],
   "earlier_reading_holds_preserved": true,
-  "new_target_reading_confirmations": 4,
+  "new_target_reading_confirmations": 1,
   "release_scope": "reviewed_text_corrections",
   "prior_publication_commit": "afb13cd9c29cf07241887c59d283c14ca8c1557c",
   "book_text_and_flags_unchanged": false,
@@ -746,6 +738,6 @@
   "print_quality_certification": null,
   "approved_cover_v5_unchanged": true,
   "confirmed_existing_subverse_tokens": {},
-  "fully_resolved_targets": 0,
+  "fully_resolved_targets": 2,
   "new_full_accepted_translations": 0
 }
