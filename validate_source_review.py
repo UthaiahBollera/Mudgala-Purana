@@ -12,6 +12,7 @@ import subprocess
 from urllib.parse import unquote, urlsplit
 from zipfile import ZipFile
 from lxml import etree, html
+from json_storage import load_json_document
 
 ROOT = Path(__file__).resolve().parent
 REVIEW = ROOT / 'translation/source-review'
@@ -194,12 +195,12 @@ if manifest is not None:
     def load_registry():
         global registry_snapshot
         if registry_snapshot is None:
-            registry_snapshot = json.loads((ROOT/'translation/unresolved-passages.json').read_text())
+            registry_snapshot = load_json_document(ROOT/'translation/unresolved-passages.json')
         return registry_snapshot
     google_unresolved_keys = set()
     base_unresolved_keys = set()
     base_mantra_meaning_keys = set()
-    coverage = json.loads((ROOT/'translation/coverage.json').read_text(encoding='utf-8'))
+    coverage = load_json_document(ROOT/'translation/coverage.json')
     for batch, name in zip(batches, manifest_paths):
         assert Path(batch['file']).name == batch['file'], 'Batch file must be a filename'
         raw_batch = (ROOT/name).read_bytes()

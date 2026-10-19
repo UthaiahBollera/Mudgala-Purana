@@ -132,6 +132,21 @@ with tempfile.TemporaryDirectory(prefix='mudgala-contents-') as tmp:
     for filename in ('build_book.py', 'build_epub.py'):
         subprocess.run([sys.executable, str(base/filename)], check=True)
     check(base)
+    # Storage changes must not alter publication artifacts. ZIP timestamps and
+    # the EPUB's generated modified date are the only non-content differences.
+    assert (base/'book/index.html').read_bytes() == (ROOT/'book/index.html').read_bytes()
+    with ZipFile(base/'dist/mudgala_purana.epub') as rebuilt, ZipFile(ROOT/'dist/mudgala_purana.epub') as published:
+        assert rebuilt.namelist() == published.namelist()
+        for name in rebuilt.namelist():
+            a, b = rebuilt.read(name), published.read(name)
+            if name == 'content.opf':
+                nodes = [etree.fromstring(raw) for raw in (a, b)]
+                for node in nodes:
+                    for modified in node.xpath('//*[local-name()="meta" and @property="dcterms:modified"]'):
+                        modified.getparent().remove(modified)
+                a, b = [etree.tostring(node, method='c14n') for node in nodes]
+            assert a == b, ('Rebuilt publication content changed', name)
+    print('Publication equivalence passed: HTML byte-identical; EPUB entries identical except generated modified date.')
     assert (base/'translation/contents.tsv').read_bytes() == archival
     # A mixed-provenance fixture exercises numeric + Google Books sorting and
     # schema-2 EPUB metadata, without modifying production translations.

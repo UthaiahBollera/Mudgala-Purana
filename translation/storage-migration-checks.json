@@ -1,0 +1,96 @@
+{
+  "status": "all_checks_passed",
+  "scope": "Lossless shared JSON storage; source text and live book unchanged",
+  "baseline_source_commit": "87a5aeefd8243ee44c310a783a1aef9c3df45b00",
+  "equivalence": {
+    "schema_version": 1,
+    "scope": "Lossless storage only; no source text, flags, acceptance or provenance changes",
+    "baseline_source_commit": "87a5aeefd8243ee44c310a783a1aef9c3df45b00",
+    "documents": {
+      "coverage.json": {
+        "logical_sha256": "961cb64a19ba51b0da27d9cd4a993621abf9e569909dcb6084576b4dd0e53f42",
+        "all_fields_and_order_exact": true,
+        "old_bytes": 100917559,
+        "index_bytes": 52700,
+        "shards": 256,
+        "largest_shard_bytes": 81328,
+        "stored_total_bytes": 9613367,
+        "logical_entries": 375
+      },
+      "unresolved-passages.json": {
+        "logical_sha256": "99ecd63c7b60e4caac44add64a0c0e457e478a44c7c72d5df12076cba6dce9bf",
+        "all_fields_and_order_exact": true,
+        "old_bytes": 101908179,
+        "index_bytes": 56301,
+        "shards": 256,
+        "largest_shard_bytes": 254504,
+        "stored_total_bytes": 53040531,
+        "logical_entries": 11989
+      }
+    }
+  },
+  "historical_boundaries_preserved": 375,
+  "registry_records_preserved": 11989,
+  "all_record_fields_order_null_flags_acceptance_and_provenance_preserved": true,
+  "unchanged_other_baseline_tracked_files": 1106,
+  "source_TSVs_reviews_manifest_system_prompt_assets_HTML_EPUB_byte_identical": true,
+  "published_HTML_sha256": "d337ec47e4c8a8c198d9b2f20709c1be38efdf52be4b30a4c3e305fdab47f5a7",
+  "published_EPUB_sha256": "6ec9b1e9c26fd83e6c1a4e1ab9488f049730652f199800deaa09bc0129173a74",
+  "temporary_rebuilt_HTML_byte_identical": true,
+  "temporary_rebuilt_EPUB_all_entries_identical_except_generated_modified_timestamp": true,
+  "focused_tests": {
+    "existing": 226,
+    "storage": 18,
+    "total": 244
+  },
+  "navigation_builds": 2,
+  "provenance_and_structure": "passed",
+  "largest_tracked_files": [
+    {
+      "file": "book/index.html",
+      "bytes": 16541928
+    },
+    {
+      "file": "translation/local-pdf-khanda9-ch6-review.json",
+      "bytes": 12681342
+    },
+    {
+      "file": "translation/local-pdf-khanda9-ch7-review.json",
+      "bytes": 11281520
+    },
+    {
+      "file": "dist/mudgala_purana.epub",
+      "bytes": 10675245
+    },
+    {
+      "file": "translation/local-pdf-khanda9-ch3-review.json",
+      "bytes": 8429498
+    },
+    {
+      "file": "translation/local-pdf-khanda6-ch19-review.json",
+      "bytes": 7436340
+    },
+    {
+      "file": "translation/local-pdf-khanda9-ch18-review.json",
+      "bytes": 7077664
+    },
+    {
+      "file": "translation/local-pdf-khanda9-ch13-review.json",
+      "bytes": 6688111
+    },
+    {
+      "file": "translation/local-pdf-khanda6-ch27-review.json",
+      "bytes": 6597007
+    },
+    {
+      "file": "translation/local-pdf-khanda9-ch5-review.json",
+      "bytes": 6519423
+    }
+  ],
+  "hosting_limit_bytes": 104857600,
+  "enforced_storage_shard_limit_bytes": 8388608,
+  "all_current_tracked_files_below_50_MiB": true,
+  "pages_branch_unchanged": "133c18d35d31757e0e6dde0c86a037c64d453865",
+  "paid_calls": 0,
+  "permission_blockers": []
+}

@@ -3,6 +3,7 @@ import csv, re, sys, json
 from pathlib import Path
 from lxml import html
 from fontTools.ttLib import TTFont
+from json_storage import load_json_document
 
 def verse_key(row):
     return int(row.get('khanda') or 1), int(row['chapter']), int(row['verse'])
@@ -12,7 +13,7 @@ def verse_id(khanda, chapter, verse):
     return ('' if khanda == 1 else f'kh{khanda}-') + f'ch{chapter}-v{verse}'
 
 root = Path(__file__).resolve().parent
-coverage = json.loads((root/'translation/coverage.json').read_text(encoding='utf-8'))
+coverage = load_json_document(root/'translation/coverage.json')
 manifest_path = root/'translation/batch-manifest.json'
 manifest = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else None
 expected = (sys.argv[1] if len(sys.argv) > 1 else

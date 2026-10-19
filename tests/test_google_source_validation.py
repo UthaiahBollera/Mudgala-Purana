@@ -11,9 +11,13 @@ import shutil
 import subprocess
 import tempfile
 import unittest
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from json_storage import load_json_document
 CODE = (ROOT/'validate_source_review.py').read_text().split("raw = (ROOT/'book/index.html').read_text()", 1)[0]
+CODE = 'import sys\nsys.path.insert(0, ' + repr(str(ROOT)) + ')\n' + CODE
 BOOK_ID = 'Lh0FEQAAQBAJ'
 PAGE = f'gb:{BOOK_ID}:PT897'
 BOOK_ID_2 = 'fZcHEQAAQBAJ'
@@ -42,7 +46,7 @@ class GoogleSourceValidation(unittest.TestCase):
         self.tmp.cleanup()
 
     def run_case(self, accepted=False):
-        coverage = json.loads((self.root/'translation/coverage.json').read_text())
+        coverage = load_json_document(self.root/'translation/coverage.json')
         for row, review, batch, boundary in [(self.row, self.review, self.batch, self.coverage), *self.extra_batches]:
             out = io.StringIO()
             writer = csv.DictWriter(out, fieldnames=list(row), delimiter='\t', lineterminator='\n')
@@ -58,7 +62,7 @@ class GoogleSourceValidation(unittest.TestCase):
         (self.root/'translation/coverage.json').write_text(json.dumps(coverage))
         if self.registry is not None:
             (self.root/'translation/unresolved-passages.json').write_text(json.dumps(self.registry))
-        result = subprocess.run(['python3', '-c', f'__file__={str(self.root/"validate_source_review.py")!r}\n'+CODE], capture_output=True, text=True)
+        result = subprocess.run([sys.executable, '-c', f'__file__={str(self.root/"validate_source_review.py")!r}\n'+CODE], capture_output=True, text=True)
         self.assertEqual(result.returncode == 0, accepted, result.stderr)
 
     def test_valid_review(self):

@@ -2,11 +2,12 @@
 import copy,csv,json,sys,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from json_storage import load_json_document
 from validate_pdf_review import validate_pdf_batch
 class PDFReview(unittest.TestCase):
  def setUp(self):
   m=json.loads((ROOT/'translation/batch-manifest.json').read_text());self.batch=copy.deepcopy(next(x for x in m['batches'] if x.get('source_kind')=='local_pdf'))
-  self.review=json.loads((ROOT/self.batch['review_file']).read_text());self.registry=json.loads((ROOT/'translation/unresolved-passages.json').read_text())
+  self.review=json.loads((ROOT/self.batch['review_file']).read_text());self.registry=load_json_document(ROOT/'translation/unresolved-passages.json')
   with(ROOT/'translation'/self.batch['file']).open() as f:self.rows={(int(x['khanda']),int(x['chapter']),int(x['verse'])):x for x in csv.DictReader(f,delimiter='\t')}
  def check(self):return validate_pdf_batch(ROOT,self.batch,self.rows,self.review,self.registry)
  def reject(self):

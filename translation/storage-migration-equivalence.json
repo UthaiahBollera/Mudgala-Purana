@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scope": "Lossless storage only; no source text, flags, acceptance or provenance changes",
+  "baseline_source_commit": "87a5aeefd8243ee44c310a783a1aef9c3df45b00",
+  "documents": {
+    "coverage.json": {
+      "logical_sha256": "961cb64a19ba51b0da27d9cd4a993621abf9e569909dcb6084576b4dd0e53f42",
+      "all_fields_and_order_exact": true,
+      "old_bytes": 100917559,
+      "index_bytes": 52700,
+      "shards": 256,
+      "largest_shard_bytes": 81328,
+      "stored_total_bytes": 9613367,
+      "logical_entries": 375
+    },
+    "unresolved-passages.json": {
+      "logical_sha256": "99ecd63c7b60e4caac44add64a0c0e457e478a44c7c72d5df12076cba6dce9bf",
+      "all_fields_and_order_exact": true,
+      "old_bytes": 101908179,
+      "index_bytes": 56301,
+      "shards": 256,
+      "largest_shard_bytes": 254504,
+      "stored_total_bytes": 53040531,
+      "logical_entries": 11989
+    }
+  }
+}

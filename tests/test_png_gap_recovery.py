@@ -2,11 +2,12 @@
 from pathlib import Path
 import unittest,tempfile,json,csv,hashlib,copy,shutil,sys,io
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from json_storage import load_json_document
 from validate_png_review import validate_png_batch,candidate_entries,null_acceptance
 class PNGRecovery(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/original-png-khanda2-gap1-review.json');cls.review=json.loads((ROOT/cls.batch['review_file']).read_text());cls.rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/cls.batch['file']).read_text()),delimiter='\t')};d=json.loads((ROOT/'translation/unresolved-passages.json').read_text());ids={'kh2-ch36-v85','kh2-ch37-v20','kh2-ch37-v4',cls.review['recovered_gap_id']};cls.registry={'records':[x for x in d['records']if x['id']in ids]}
+  cls.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/original-png-khanda2-gap1-review.json');cls.review=json.loads((ROOT/cls.batch['review_file']).read_text());cls.rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/cls.batch['file']).read_text()),delimiter='\t')};d=load_json_document(ROOT/'translation/unresolved-passages.json');ids={'kh2-ch36-v85','kh2-ch37-v20','kh2-ch37-v4',cls.review['recovered_gap_id']};cls.registry={'records':[x for x in d['records']if x['id']in ids]}
  def setUp(self):
   self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);self.b=copy.deepcopy(self.batch);self.v=copy.deepcopy(self.review);self.r=copy.deepcopy(self.rows);self.reg=copy.deepcopy(self.registry)
   names=[self.v[k]for k in['candidate_file','frozen_candidate_file','independent_review_file']]+[p['historical_review_file']for x in self.v['verses']for p in x['source_parts']if p.get('historical_review_file')]
@@ -32,12 +33,12 @@ class CandidateSchemas(unittest.TestCase):
  def test_nested_acceptance(self):
   with self.assertRaises(AssertionError):null_acceptance({'assembled_boundary_context':{'accepted_kannada':'promoted'}})
  def test_gap2_valid_and_hidden_hold(self):
-  b=next(x for x in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if x.get('review_file')=='translation/original-png-khanda2-gap2-review.json');v=json.loads((ROOT/b['review_file']).read_text());rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/b['file']).read_text()),delimiter='\t')};reg=json.loads((ROOT/'translation/unresolved-passages.json').read_text());a,u=validate_png_batch(ROOT,b,rows,v,reg);self.assertEqual(u,{(2,47,8),(2,47,16)});rows[(2,47,8)]['type']='translation'
+  b=next(x for x in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if x.get('review_file')=='translation/original-png-khanda2-gap2-review.json');v=json.loads((ROOT/b['review_file']).read_text());rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/b['file']).read_text()),delimiter='\t')};reg=load_json_document(ROOT/'translation/unresolved-passages.json');a,u=validate_png_batch(ROOT,b,rows,v,reg);self.assertEqual(u,{(2,47,8),(2,47,16)});rows[(2,47,8)]['type']='translation'
   with self.assertRaises(AssertionError):validate_png_batch(ROOT,b,rows,v,reg)
 class LongPNGRecovery(PNGRecovery):
  @classmethod
  def setUpClass(cls):
-  cls.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/original-png-khanda2-gap3-review.json');cls.review=json.loads((ROOT/cls.batch['review_file']).read_text());cls.rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/cls.batch['file']).read_text()),delimiter='\t')};d=json.loads((ROOT/'translation/unresolved-passages.json').read_text());ids={f"kh2-ch{x['key'][1]}-v{x['key'][2]}" for x in cls.review['verses'] if x['issues']}|{cls.review['recovered_gap_id']};cls.registry={'records':[x for x in d['records']if x['id']in ids]}
+  cls.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/original-png-khanda2-gap3-review.json');cls.review=json.loads((ROOT/cls.batch['review_file']).read_text());cls.rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/cls.batch['file']).read_text()),delimiter='\t')};d=load_json_document(ROOT/'translation/unresolved-passages.json');ids={f"kh2-ch{x['key'][1]}-v{x['key'][2]}" for x in cls.review['verses'] if x['issues']}|{cls.review['recovered_gap_id']};cls.registry={'records':[x for x in d['records']if x['id']in ids]}
  def setUp(self):
   super().setUp()
   for n in [self.v['independent_review_json_file']]+[x['file'] for x in self.v['evidence_files']]:
