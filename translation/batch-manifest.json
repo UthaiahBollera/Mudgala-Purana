@@ -116494,6 +116494,63 @@
           51
         ]
       ]
+    },
+    {
+      "file": "batch-373-reviewed-base-translation.tsv",
+      "sha256": "3faac576383ca3fabae2de18ace22a4bb188c9e8b8394fc2ea5d2db54a3ec352",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch9-ch10-writer-review.json",
+      "review_sha256": "88e87144d320fe6866ae3465e5dff633dd7915ed729083605eadeff0311cc5ae",
+      "coverage_boundary": "reviewed-base-khanda1-ch9-ch10",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            10,
+            23
+          ],
+          "old_row": {
+            "source_pages": "39",
+            "type": "mantra",
+            "text": "ನಮೋ ನಮೋ ಮಹೇಶಾಯ ಶಿವಾಯ ಚಿದಧಾರಿಣೇ । ಸರ್ವತ್ರ ಸಮಭಾವಾಯ ವಿಷ್ಣವೇ ಪ್ರಭವಿಷ್ಣವೇ ॥೨೩॥"
+          },
+          "new_row": {
+            "source_pages": "39",
+            "type": "mantra",
+            "text": "ನಮೋ ನಮೋ ಮಹೇಶಾಯ ಶಿವಾಯ ಶಿವದಾಯಿನೇ । ಸರ್ವತ್ರ ಸಮಭಾವಾಯ ವಿಷ್ಣವೇ ಪ್ರಭವಿಷ್ಣವೇ ॥೨೩॥"
+          },
+          "base_snapshot_commit": "d58cc54298f71a74ec3e73d2d3c8befdf02c7033",
+          "adjudication_file": "translation/khanda1-ch9-ch10-writer-review.json",
+          "adjudication_sha256": "88e87144d320fe6866ae3465e5dff633dd7915ed729083605eadeff0311cc5ae",
+          "review_status": "accepted",
+          "rationale": "Only ಚಿದಧಾರಿಣೇ → ಶಿವದಾಯಿನೇ. Actual original clearly reads शिवदायिने; the remainder of the mantra is unchanged. This correction rests on inspected pixels, not on adopting the historical online quotation."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          9,
+          2
+        ],
+        [
+          1,
+          9,
+          38
+        ],
+        [
+          1,
+          9,
+          39
+        ],
+        [
+          1,
+          10,
+          14
+        ]
+      ]
     }
   ],
   "reference_only_index": {

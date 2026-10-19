@@ -136,6 +136,15 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
         assert x['review_status']=='reviewed_no_text_change_hold'and x['accepted_translation']is None and x['issues']and all(i['status']=='open'and i['reading']is None for i in x['issues']),'No-change hold closed'
         candidate=json.loads((root/review['candidate_file']).read_text());unit=next(p for p in candidate['records']if tuple(p['key'])==key)
         assert unit['before']==old['text']and unit['proposed_full_replacement']is None and unit.get('proposed_partial_text')is None,'No-change differs from independent proposal'
+        if unit['status']in {'no_change_source_reading_confirmed','no_change_number_preserved_comparison_hold','no_change_printed_svam_contextual_kham_hold','no_change_compressed_meaning_hold'}:
+            assert x['counted_as_new_correction']is False and x['accepted_transliteration']is None and x['source_sanskrit']==unit['source_reading'],'No-change evidence promoted or source altered'
+            assert x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'Unknown no-change Google location invented'
+            if unit['status']=='no_change_printed_svam_contextual_kham_hold':
+                assert x['printed_disputed_token']=='तस्मात्स्वं'and x['source_emendation_accepted']is False and x['sky_is_contextual_interpretation_not_diplomatic_reading']is True and x['current_wording_source_verified']is False,'Printed svam falsely certified as kham'
+            if unit['status']=='no_change_number_preserved_comparison_hold':
+                assert x['printed_earth_extent']=='fifty crore'and x['comparison_10_2_extent']=='five crore yojanas'and x['comparison_10_2_referent']=='Virat body'and x['same_referent_assumed']is False and x['yojana_unit_printed_in_9_38']is False and x['numerals_harmonized']is False,'Source measurements harmonized or referents/units invented'
+            if unit['status']=='no_change_compressed_meaning_hold':
+                assert x['current_wording_source_verified']is False,'Compressed meaning falsely certified'
         if unit['status']=='no_change_current_target_readings_confirmed':
             assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None,'Confirmed no-change target promoted to new correction'
             assert x['source_sanskrit']==unit['source_reading']and x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'No-change source or unknown Google field altered'

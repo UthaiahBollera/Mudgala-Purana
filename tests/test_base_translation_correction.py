@@ -211,4 +211,26 @@ class FourChapterEightRepairs(unittest.TestCase):
   with self.assertRaises(AssertionError):self.nochange()
  def test_unknown_google_null(self):self.review['reviews'][0]['reference_source']['page_id']='PT1';self.reject()
  def test_source_reading_immutable(self):self.review['reviews'][0]['source_sanskrit']='normalized';self.reject()
+class OneTokenFourNoChanges(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch9-ch10-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def rejects_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):self.check();self.nochange()
+ def test_39_not_scan_certified_kham(self):self.review['no_change_adjudications'][2]['printed_disputed_token']='तस्मात्खं';self.rejects_nochange()
+ def test_39_not_accepted_emendation(self):self.review['no_change_adjudications'][2]['source_emendation_accepted']=True;self.rejects_nochange()
+ def test_38_referents_not_identified(self):self.review['no_change_adjudications'][1]['same_referent_assumed']=True;self.rejects_nochange()
+ def test_38_unit_not_invented(self):self.review['no_change_adjudications'][1]['yojana_unit_printed_in_9_38']=True;self.rejects_nochange()
+ def test_38_numerals_not_harmonized(self):self.review['no_change_adjudications'][1]['numerals_harmonized']=True;self.rejects_nochange()
+ def test_14_meaning_not_accepted(self):self.review['no_change_adjudications'][3]['accepted_translation']='settled';self.rejects_nochange()
+ def test_2_not_counted_as_fixed(self):self.review['no_change_adjudications'][0]['counted_as_new_correction']=True;self.rejects_nochange()
+ def test_23_only_declared_token_changes(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಸಮಭಾವಾಯ','ವಿಷಮಭಾವಾಯ')
+  self.reject()
+ def test_unknown_google_null(self):self.review['no_change_adjudications'][0]['reference_source']['page_id']='PT1';self.rejects_nochange()
 if __name__=='__main__':unittest.main()
