@@ -114231,6 +114231,209 @@
           "rationale": "New original PNG205 joins the declared existing fragment once. Physical completion does not close retained lexical holds."
         }
       ]
+    },
+    {
+      "file": "batch-362-original-png-gap2.tsv",
+      "sha256": "0c2fe7b98b637289ce7acd2685c2009067d3a45da67fa7c1912454f7b5badfc6",
+      "source_kind": "original_png_archive",
+      "source_archive": {
+        "filename": "Mudugal Purana.zip",
+        "sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "bytes": 191729010,
+        "Library_file": "libfile_64aa2ca51ef881918c442b04d0fdf5bb",
+        "Drive_URL": "https://drive.google.com/file/d/1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi/view?usp=drivesdk",
+        "edition_identity": "Not bibliographically assumed; page/verse and adjacent-boundary matching verified."
+      },
+      "source_pages": [
+        {
+          "id": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p225",
+          "image_index": 225,
+          "member": "Page Images/page_0225.png",
+          "image_sha256": "1005580c35dcc6bb1ea9a0f2bea6b0a75b29442b6c49c8feb0d46aa8b2d283ed",
+          "dimensions": [
+            3840,
+            2508
+          ],
+          "printed_page": 99,
+          "pixels_Mac_checked": true
+        }
+      ],
+      "review_status": "accepted",
+      "review_file": "translation/original-png-khanda2-gap2-review.json",
+      "review_sha256": "e7f48fe6b308dac967f54a48bb3d01573c548b24ca246c4f8b8c35856df55fca",
+      "coverage_boundary": "original-png-khanda2-gap2",
+      "added_keys": [
+        [
+          2,
+          47,
+          1
+        ],
+        [
+          2,
+          47,
+          2
+        ],
+        [
+          2,
+          47,
+          3
+        ],
+        [
+          2,
+          47,
+          4
+        ],
+        [
+          2,
+          47,
+          5
+        ],
+        [
+          2,
+          47,
+          6
+        ],
+        [
+          2,
+          47,
+          7
+        ],
+        [
+          2,
+          47,
+          8
+        ],
+        [
+          2,
+          47,
+          9
+        ],
+        [
+          2,
+          47,
+          10
+        ],
+        [
+          2,
+          47,
+          11
+        ],
+        [
+          2,
+          47,
+          12
+        ],
+        [
+          2,
+          47,
+          13
+        ],
+        [
+          2,
+          47,
+          14
+        ],
+        [
+          2,
+          47,
+          15
+        ],
+        [
+          2,
+          47,
+          16
+        ],
+        [
+          2,
+          47,
+          17
+        ],
+        [
+          2,
+          47,
+          18
+        ],
+        [
+          2,
+          47,
+          19
+        ],
+        [
+          2,
+          47,
+          20
+        ],
+        [
+          2,
+          47,
+          21
+        ],
+        [
+          2,
+          47,
+          22
+        ],
+        [
+          2,
+          47,
+          23
+        ],
+        [
+          2,
+          47,
+          24
+        ],
+        [
+          2,
+          47,
+          25
+        ]
+      ],
+      "boundary_completions": [
+        {
+          "key": [
+            2,
+            47,
+            26
+          ],
+          "old_row": {
+            "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p47",
+            "type": "translation",
+            "text": "(ಪರಿಶೀಲನೆ: ಖಂಡಿತ ಪದ್ಯದ ಅಂತ್ಯ (b_only) — ಹಿಂದಿನ ಭೌತಿಕ ಪುಟ 46 ಕಪ್ಪು ಮೂಲ ಅಂತರವಾಗಿರುವುದರಿಂದ (black_page46) ಪೂರ್ವಾರ್ಧವನ್ನು ಮರುನಿರ್ಮಿಸಿಲ್ಲ) ಸ್ವ ಮತ್ತು ಪರ ಜ್ಞಾನವನ್ನುಂಟುಮಾಡುವವನು. ॥೨೬॥ (ಅಪೂರ್ಣ ಶ್ಲೋಕ: ಮೂಲದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಭಾಗ ಮಾತ್ರ; ಉಳಿದ ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.)"
+          },
+          "new_row": {
+            "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p225,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p47",
+            "type": "translation",
+            "text": "ಅಪಾರವಾಗಿ ಹರಿಯುತ್ತಿದ್ದ ರಕ್ತದಲ್ಲಿ ಮಹಾಧೂಳಿಯು ತೋಯ್ದು ಅಡಗಿತು. ಆಗ ತಮ್ಮವರನ್ನೂ ಪರರನ್ನೂ ಗುರುತಿಸಲು ನೆರವಾಗುವ ಬೆಳಕು ಉಂಟಾಯಿತು. ॥೨೬॥"
+          },
+          "old_fragment_review_file": "translation/local-pdf-khanda2-ch47-48-reading-review.json",
+          "source_evidence": [
+            {
+              "source_page": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p225",
+              "text": "प्रवाहबहुले रक्ते रजः संप्लावितं महत् । प्रकाशस्तत्र संजातः",
+              "candidate_entry_id": "2.47.26.opening",
+              "source_regions": [
+                {
+                  "image": "page_0225.png",
+                  "bbox_xyxy": [
+                    1930,
+                    2305,
+                    3670,
+                    2410
+                  ]
+                }
+              ]
+            },
+            {
+              "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p47",
+              "text": "स्वपरज्ञानकारकः ॥२६॥",
+              "historical_review_file": "translation/local-pdf-khanda2-ch47-48-reading-review.json"
+            }
+          ],
+          "review_status": "accepted",
+          "rationale": "Join original225 opening with existing226/PDF47 ending once; light enables own/opposing recognition."
+        }
+      ]
     }
   ],
   "reference_only_index": {

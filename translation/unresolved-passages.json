@@ -27858,7 +27858,7 @@
         "chapter": 46
       },
       "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p46",
-      "status": "awaiting_replacement_scan",
+      "status": "resolved_by_additional_original_scan",
       "source_pdf": "206 TO 255.pdf",
       "pdf_page": 46,
       "printed_page": null,
@@ -27886,7 +27886,28 @@
           "kind": "replacement_scan_required",
           "description": "Originalpage46andembeddedJPEGblack;47.1–25and26aunavailable;printedlabelunknown;noGooglebackfill."
         }
-      ]
+      ],
+      "resolution": {
+        "review_file": "translation/original-png-khanda2-gap2-review.json",
+        "review_sha256": "e7f48fe6b308dac967f54a48bb3d01573c548b24ca246c4f8b8c35856df55fca",
+        "source_archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "source_member": "Page Images/page_0225.png",
+        "source_image_sha256": "1005580c35dcc6bb1ea9a0f2bea6b0a75b29442b6c49c8feb0d46aa8b2d283ed",
+        "prior_black_page_and_gap_description_preserved": true,
+        "recovered_numbered_range": [
+          [
+            2,
+            47,
+            1
+          ],
+          [
+            2,
+            47,
+            26
+          ]
+        ],
+        "not_Google_backfill": true
+      }
     },
     {
       "id": "kh2-ch48-v29",
@@ -1836920,6 +1836941,60 @@
       ],
       "review_file": "translation/original-png-khanda2-gap1-review.json",
       "review_sha256": "5f7a4e7b52bfb2d6b8993b0c8a704457fe9878deaaf69d2e2ef70837f4b6891e",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch47-v8",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 47,
+      "verse_start": 8,
+      "verse_end": 8,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "सिंहारूढा चतुर्बाहुः खड्गचर्मधरा बभौ । धनुर्बाणधरा क्रोधाज्ञानाशक्तिसमन्विता ॥८॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p225",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "compound_segmentation_and_meaning",
+          "reading": null,
+          "token": "क्रोधाज्ञानाशक्तिसमन्विता",
+          "detail": "Printed joined compound retained without semantic interpretation; visible Kannada-script phonetic quote is display-only."
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap2-review.json",
+      "review_sha256": "e7f48fe6b308dac967f54a48bb3d01573c548b24ca246c4f8b8c35856df55fca",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch47-v16",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 47,
+      "verse_start": 16,
+      "verse_end": 16,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "हेषितैः क्ष्वेडितैस्तत्र बृंहितै रथनेमिभिः । वादित्राणां महाशब्दैर्नादयुक्ता दिशोऽभवन् ॥१६॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p225",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "glyph_reading",
+          "reading": null,
+          "token": "बृंहितै",
+          "detail": "Initial ब/व remains uncertain; elephant-sound meaning is contextual, not diplomatic certainty."
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap2-review.json",
+      "review_sha256": "e7f48fe6b308dac967f54a48bb3d01573c548b24ca246c4f8b8c35856df55fca",
       "accepted_translation": null,
       "hard_hold": true,
       "book_id": null,

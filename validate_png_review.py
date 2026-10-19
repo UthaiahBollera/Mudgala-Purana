@@ -3,6 +3,19 @@ from collections import Counter
 from pathlib import Path
 import hashlib,json,re
 
+def candidate_entries(candidate):
+    """Normalize source-coordinate schemas in memory; evidence files stay verbatim."""
+    if 'entries' in candidate:return candidate['entries']
+    return [dict(x, source_regions=[{'image':f"page_{p['image_id']:04}.png",'bbox_xyxy':b} for p in x['source_portions'] for b in p['rectangles_xyxy']]) for x in candidate['front_matter']+candidate['verses']]
+
+def null_acceptance(value):
+    if isinstance(value,dict):
+        for k,v in value.items():
+            if k in ('accepted_sanskrit','accepted_kannada'):assert v is None,'Worker acceptance fields changed'
+            null_acceptance(v)
+    elif isinstance(value,list):
+        for v in value:null_acceptance(v)
+
 def validate_png_batch(root,batch,rows,review,registry):
     assert batch['source_kind']==review['source_kind']=='original_png_archive','Wrong PNG source kind'
     archive=batch['source_archive'];assert archive==review['source_archive'],'PNG archive identity mismatch'
@@ -16,10 +29,8 @@ def validate_png_batch(root,batch,rows,review,registry):
     frozen=json.loads(evidence(review['frozen_candidate_file'],review['frozen_candidate_sha256']).read_text())
     evidence(review['independent_review_file'],review['independent_review_sha256'])
     assert candidate['revision']['original_frozen_sha256']==review['frozen_candidate_sha256'],'Wrong frozen candidate'
-    for d in [candidate,frozen]:
-        for name in ['entries','adjacent_boundary_portions','assembled_boundary_verses_reading_aid_only']:
-            assert all(x['accepted_sanskrit'] is None and x['accepted_kannada'] is None for x in d[name]),'Worker acceptance fields changed'
-    entries={x['id']:x for x in candidate['entries']};assert len(entries)==len(candidate['entries']),'Duplicate candidate entry'
+    for d in [candidate,frozen]:null_acceptance(d)
+    units=candidate_entries(candidate);entries={x['id']:x for x in units};assert len(entries)==len(units),'Duplicate candidate entry'
     assert batch['source_pages']==review['source_pages'],'PNG page manifest differs'
     allowed=set()
     for p in batch['source_pages']:
@@ -27,7 +38,7 @@ def validate_png_batch(root,batch,rows,review,registry):
         assert p['id']==f"png:{archive['sha256']}:p{p['image_index']}",'Wrong PNG page ID'
         assert p['member']==f"Page Images/page_{p['image_index']:04}.png",'Wrong PNG member'
         assert p['id'] not in allowed and p['dimensions']==[3840,2508] and p['pixels_Mac_checked'] is True,'Invalid/unverified PNG page'
-        images=[x for x in candidate['source_images']if x['image']==Path(p['member']).name]
+        images=[x for x in candidate['source_images']if x.get('image',f"page_{x.get('image_id',0):04}.png")==Path(p['member']).name]
         assert len(images)==1 and images[0]['sha256']==p['image_sha256'],'PNG image digest differs from candidate'
         allowed.add(p['id'])
     assert allowed,'Missing PNG pages'

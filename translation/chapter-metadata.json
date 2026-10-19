@@ -765,15 +765,17 @@
       "source_pages": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p47,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p48,pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p49",
       "source_url": null,
       "included_verses": [
-        26,
+        1,
         53
       ],
       "included_verse_range_label": "೨೬ಬ ಮಾತ್ರ, ೨೭–೫೩",
       "reading_status": "partial",
-      "coverage_note": "ಶ್ಲೋಕ ೨೬ರ ಕೊನೆಯ ಭಾಗ ಮಾತ್ರ; ಬಳಿಕ ೨೭–೫೩ ಮತ್ತು ಮೂಲದ ಅಧ್ಯಾಯಸಮಾಪ್ತಿ. ಆರಂಭದ ಮೂಲಪುಟ ಕಪ್ಪಾಗಿದೆ; ಪಾಠವನ್ನು ಊಹಿಸಿಲ್ಲ.",
-      "note": "Khanda247through53andcolophon;48through19full;sourceholdsretained;noinventedending",
+      "coverage_note": "ಅಧ್ಯಾಯದ ಆರಂಭವನ್ನು ಮೂಲಚಿತ್ರದಿಂದ ಸೇರಿಸಲಾಗಿದೆ; ಪಾಠ ಮತ್ತು ಪದಾರ್ಥದ ಪರಿಶೀಲನಾ ಸೂಚನೆಗಳು ಉಳಿದಿವೆ.",
+      "note": "Original PNG225 recovers1–26a; existing27–53 and later source/meaning holds remain.",
       "colophon": "ಓಂ. ಹೀಗೆ ಶ್ರೀಮದ್ ಆಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ ಇಂದ್ರತಾರಕಸಮಾಗಮವೆಂಬ ನಲವತ್ತೇಳನೆಯ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾಯಿತು.",
-      "omit_opening_invocation": true
+      "omit_opening_invocation": false,
+      "opening_invocation": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "opening_invocation_source": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p225"
     },
     {
       "khanda": 2,
@@ -6080,28 +6082,6 @@
   ],
   "interstitial_pages": [],
   "source_gaps": [
-    {
-      "id": "source-gap-pdf206-page46",
-      "after": {
-        "khanda": 2,
-        "chapter": 46
-      },
-      "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p46",
-      "status": "awaiting_replacement_scan",
-      "source_pdf": "206 TO 255.pdf",
-      "pdf_page": 46,
-      "printed_page": null,
-      "missing_verse_ranges": [
-        {
-          "khanda": 2,
-          "chapter": 47,
-          "verse_start": 1,
-          "verse_end": 25
-        }
-      ],
-      "title": "ಮೂಲಪ್ರತಿಯ ಓದಲಾಗದ ಪುಟ",
-      "text": "ಮೂಲಪ್ರತಿಯ ೨೦೬ TO ೨೫೫ ಕಡತದ ೪೬ನೆಯ ಪುಟ ಸಂಪೂರ್ಣ ಕಪ್ಪಾಗಿದೆ. ಮುದ್ರಿತ ಪುಟಸಂಖ್ಯೆ ಓದಲಾಗಿಲ್ಲ. ಅಧ್ಯಾಯ ೪೭ರ ಆರಂಭದಿಂದ ಶ್ಲೋಕ ೨೬ರ ಮೊದಲ ಭಾಗದವರೆಗಿನ ಪಾಠ ಇಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ. ಮುಂದಿನ ಓದಬಹುದಾದ ಪುಟದಿಂದ ಶ್ಲೋಕ ೨೬ರ ಕೊನೆಯ ಭಾಗ ಮಾತ್ರ ಮುಂದುವರಿಸಲಾಗಿದೆ. ಬದಲಿ ಪ್ರತಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ; Google ಪ್ರತಿಯಿಂದ ಅಂತರವನ್ನು ತುಂಬಿಲ್ಲ."
-    },
     {
       "id": "source-gap-handwritten256-264",
       "after": {

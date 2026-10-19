@@ -1,0 +1,929 @@
+{
+  "status": "UNACCEPTED_CANDIDATE_FOR_INDEPENDENT_REVIEW",
+  "work": "Khanda 2, chapter 47, gap 2",
+  "method": "Direct visual inspection of original local PNG pixels and inspection-only crops. No OCR, Tesseract, Gemma, external transcription, or paid model calls. No publication/book changes.",
+  "source_images": [
+    {
+      "image_id": 225,
+      "path": "/workspace/shared/khanda2_recovery/page_0225.png",
+      "printed_page": 99,
+      "width_px": 3840,
+      "height_px": 2508,
+      "sha256": "1005580c35dcc6bb1ea9a0f2bea6b0a75b29442b6c49c8feb0d46aa8b2d283ed"
+    },
+    {
+      "image_id": 226,
+      "path": "/workspace/shared/khanda2_recovery/page_0226.png",
+      "printed_page": 100,
+      "width_px": 3840,
+      "height_px": 2508,
+      "sha256": "1a57264c43ce61b401bf7dd8b4503145598e521f10baf82f503cee1e2b79dd12"
+    }
+  ],
+  "coverage_summary": "Image 225: invocation, Gṛtsamada speaker label, verses 47.1–25 complete, first three pādas of 47.26. Image 226: fourth pāda of 47.26 read for boundary context only; subsequent verses excluded.",
+  "transcription_policy": "Preserve visible source spellings (including anusvāra and apparent print errors); Unicode avagraha is used for the printed elision mark. Whitespace and line wrapping are editorial. No candidate is accepted.",
+  "front_matter": [
+    {
+      "id": "2.47.invocation",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              300,
+              375,
+              950,
+              478
+            ]
+          ]
+        }
+      ],
+      "candidate_sanskrit": "॥ श्रीगणेशाय नमः ॥",
+      "candidate_kannada": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "candidate_kannada_kind": "mantra transliteration, not translation",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "2.47.speaker",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              970,
+              375,
+              1550,
+              478
+            ]
+          ]
+        }
+      ],
+      "candidate_sanskrit": "गृत्समद उवाच ।",
+      "candidate_kannada": "ಗೃತ್ಸಮದರು ಹೇಳಿದರು:",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    }
+  ],
+  "verses": [
+    {
+      "id": "2.47.1",
+      "chapter": 47,
+      "verse": 1,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1570,
+              375,
+              3670,
+              478
+            ],
+            [
+              300,
+              480,
+              445,
+              578
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "आगतं तारकं दृष्ट्वा हर्षितः स मदासुरः । दैत्यैः सह महासाधो प्रहृष्टश्चाभवत् खलः ॥१॥",
+      "candidate_kannada": "ಮಹಾಸಾಧುವೇ! ತಾರಕನು ಬಂದಿರುವುದನ್ನು ಕಂಡು ಆ ದುಷ್ಟ ಮದಾಸುರನು ದೈತ್ಯರೊಡನೆ ಅತ್ಯಂತ ಹರ್ಷಗೊಂಡನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": [
+        {
+          "type": "ligature_reading",
+          "token": "प्रहृष्टश्चाभवत्",
+          "note": "Candidate based on the crowded ष्टश्च cluster; verify against focus_1.png."
+        }
+      ]
+    },
+    {
+      "id": "2.47.2",
+      "chapter": 47,
+      "verse": 2,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              475,
+              480,
+              3000,
+              578
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "मदासुरं प्रणम्यासौ कथयामास तारकः । वृत्तांतं देवपक्षे च संश्रितं कुलदैवतम् ॥२॥",
+      "candidate_kannada": "ತಾರಕನು ಮದಾಸುರನಿಗೆ ನಮಸ್ಕರಿಸಿ ದೇವಪಕ್ಷದ ವೃತ್ತಾಂತವನ್ನೂ ಕುಲದೈವವು ಆ ಪಕ್ಷವನ್ನು ಆಶ್ರಯಿಸಿರುವುದನ್ನೂ ವಿವರಿಸಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.3",
+      "chapter": 47,
+      "verse": 3,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              3020,
+              480,
+              3670,
+              578
+            ],
+            [
+              300,
+              580,
+              2450,
+              680
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "तच्छ्रुत्वा मदपो दैत्यः प्रतापी स मदासुरः । क्रोधयुक्तोऽभवत्तत्र देवान् हंतुं समुद्यतः ॥३॥",
+      "candidate_kannada": "ಅದನ್ನು ಕೇಳಿ ಮದದಿಂದ ಉನ್ಮತ್ತನಾಗಿದ್ದ ಪ್ರತಾಪಿ ದೈತ್ಯ ಮದಾಸುರನು ಕೋಪಗೊಂಡು ದೇವತೆಗಳನ್ನು ಕೊಲ್ಲಲು ಸನ್ನದ್ಧನಾದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": [
+        {
+          "type": "lexical_reading",
+          "token": "मदपो",
+          "note": "Candidate मदपो (intoxicated); verify glyph after मद in source."
+        }
+      ]
+    },
+    {
+      "id": "2.47.4",
+      "chapter": 47,
+      "verse": 4,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              2480,
+              580,
+              3670,
+              680
+            ],
+            [
+              300,
+              678,
+              1700,
+              780
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "सन्नद्धैर्दैत्यपैः सर्वैः सन्नद्धश्च मदासुरः । शक्तिलोकं जगामाथ महाकाल इवाऽबभौ ॥४॥",
+      "candidate_kannada": "ಎಲ್ಲ ದೈತ್ಯಾಧಿಪತಿಗಳೂ ಯುದ್ಧಸನ್ನದ್ಧರಾಗಿರಲು ಮದಾಸುರನೂ ಸನ್ನದ್ಧನಾಗಿ ಶಕ್ತಿಯ ಲೋಕಕ್ಕೆ ತೆರಳಿದನು; ಅವನು ಮಹಾಕಾಲನಂತೆಯೇ ತೋರಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.5",
+      "chapter": 47,
+      "verse": 5,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1720,
+              678,
+              3670,
+              780
+            ],
+            [
+              300,
+              783,
+              1030,
+              880
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "पुरःप्रांते स्थितान् शक्तेर्गणान् परमविश्रुतान् । ताञ्जघ्नुश्च महादैत्याः शस्त्रैः परमदारुणैः ॥५॥",
+      "candidate_kannada": "ಪುರದ ಅಂಚಿನಲ್ಲಿ ನಿಂತಿದ್ದ ಶಕ್ತಿಯ ಪರಮವಿಖ್ಯಾತ ಗಣಗಳನ್ನು ಆ ಮಹಾದೈತ್ಯರು ಅತ್ಯಂತ ಭೀಕರ ಶಸ್ತ್ರಗಳಿಂದ ಹೊಡೆದುರುಳಿಸಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.6",
+      "chapter": 47,
+      "verse": 6,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1060,
+              783,
+              3670,
+              880
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "छिन्नांगास्ते पलायंत गताः स्वनगरेऽभवन् । वृत्तांतं कथयामासुर्दैत्यानामागमात्मकम् ॥६॥",
+      "candidate_kannada": "ಅಂಗಗಳು ಛಿನ್ನಗೊಂಡ ಅವರು ಓಡಿಹೋಗಿ ತಮ್ಮ ನಗರಕ್ಕೆ ತಲುಪಿದರು; ದೈತ್ಯರ ಆಗಮನದ ವೃತ್ತಾಂತವನ್ನು ತಿಳಿಸಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.7",
+      "chapter": 47,
+      "verse": 7,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              300,
+              883,
+              3000,
+              983
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "श्रुत्वा तत्र महाशक्तिर्देवैः सर्वैर्महाबलैः । शंकरादिभिरन्वीता ययौ संग्राममंडलम् ॥७॥",
+      "candidate_kannada": "ಅದನ್ನು ಕೇಳಿ ಮಹಾಶಕ್ತಿಯು ಶಂಕರಾದಿಗಳೂ ಎಲ್ಲ ಮಹಾಬಲಶಾಲಿ ದೇವತೆಗಳೂ ತನ್ನೊಡನಿರಲು ಯುದ್ಧಭೂಮಿಗೆ ತೆರಳಿದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.8",
+      "chapter": 47,
+      "verse": 8,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              3020,
+              883,
+              3670,
+              983
+            ],
+            [
+              300,
+              985,
+              2240,
+              1081
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "सिंहारूढा चतुर्बाहुः खड्गचर्मधरा बभौ । धनुर्बाणधरा क्रोधाज्ञानाशक्तिसमन्विता ॥८॥",
+      "candidate_kannada": "ಸಿಂಹಾರೂಢಳಾಗಿದ್ದ ನಾಲ್ಕು ಬಾಹುಗಳ ದೇವಿಯು ಖಡ್ಗ ಮತ್ತು ಗುರಾಣಿಯನ್ನು ಧರಿಸಿ ಶೋಭಿಸಿದಳು; ಧನುಸ್ಸು ಮತ್ತು ಬಾಣಗಳನ್ನು ಹಿಡಿದಿದ್ದಳು; ಕ್ರೋಧಭರಿತಳಾಗಿಯೂ ಜ್ಞಾನಶಕ್ತಿಸಮನ್ವಿತಳಾಗಿಯೂ ಇದ್ದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": [
+        {
+          "type": "critical_reading_and_interpretation",
+          "token": "क्रोधाज्ञानाशक्तिसमन्विता",
+          "note": "Pixels appear to read this joined sequence, but its segmentation and meaning are uncertain. Kannada currently provisionally understands anger plus knowledge-power; this semantic choice is NOT accepted and must be independently reviewed. Do not silently regularize to क्रोधाज्ज्ञानशक्तिसमन्विता or infer a doctrine."
+        }
+      ]
+    },
+    {
+      "id": "2.47.9",
+      "chapter": 47,
+      "verse": 9,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              2270,
+              985,
+              3670,
+              1081
+            ],
+            [
+              300,
+              1088,
+              1760,
+              1185
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "वामांगाच्छ्रीः समुत्पन्ना सावित्री दक्षिणांगतः । हृदयात् पुरतः संज्ञा तासां सैन्यं पृथग्बभौ ॥९॥",
+      "candidate_kannada": "ಅವಳ ಎಡಭಾಗದಿಂದ ಶ್ರೀಯೂ ಬಲಭಾಗದಿಂದ ಸಾವಿತ್ರೀಯೂ ಹೃದಯದಿಂದ ಮುಂದಕ್ಕೆ ಸಂಜ್ಞೆಯೂ ಪ್ರಕಟರಾದರು; ಅವರವರ ಸೇನೆಗಳು ಪ್ರತ್ಯೇಕವಾಗಿ ಶೋಭಿಸಿದವು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.10",
+      "chapter": 47,
+      "verse": 10,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1790,
+              1088,
+              3670,
+              1185
+            ],
+            [
+              300,
+              1188,
+              1030,
+              1290
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "विष्णुशंकरमुख्याश्च सन्नद्धा वाहने स्थिताः । स्वस्वसैन्येन संयुक्ता बभुः कालसमाः पुरः ॥१०॥",
+      "candidate_kannada": "ವಿಷ್ಣು, ಶಂಕರ ಮೊದಲಾದವರು ಸನ್ನದ್ಧರಾಗಿ ತಮ್ಮ ತಮ್ಮ ವಾಹನಗಳಲ್ಲಿ ಕುಳಿತಿದ್ದರು; ತಮ್ಮ ತಮ್ಮ ಸೇನೆಗಳೊಡನೆ ಕಾಲನಂತೆಯೇ ಮುಂಭಾಗದಲ್ಲಿ ಶೋಭಿಸಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.11",
+      "chapter": 47,
+      "verse": 11,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1060,
+              1188,
+              3670,
+              1290
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "इत्यादिशक्तिभिः शाक्तैर्देवैर्वै संयुतं महत् । सैन्यं दैत्येंद्रमुख्यैस्तैर्दृष्टं परमदारुणम् ॥११॥",
+      "candidate_kannada": "ಇಂತಹ ಶಕ್ತಿಗಳಿಂದಲೂ ಶಾಕ್ತರಿಂದಲೂ ದೇವತೆಗಳಿಂದಲೂ ಕೂಡಿದ ಅತ್ಯಂತ ಭಯಂಕರವಾದ ಆ ಮಹಾಸೇನೆಯನ್ನು ದೈತ್ಯೇಂದ್ರ ಮೊದಲಾದವರು ಕಂಡರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": [
+        {
+          "type": "cluster_reading",
+          "token": "शाक्तैर्देवैर्वै; दैत्येंद्रमुख्यैस्तैर्दृष्टं",
+          "note": "Dense ligatures; these are visual candidates. Confirm the वै and the मुख्/ख्य cluster from focus_11_large.png."
+        }
+      ]
+    },
+    {
+      "id": "2.47.12",
+      "chapter": 47,
+      "verse": 12,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              300,
+              1288,
+              3000,
+              1390
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "ततो दैत्यैश्च शस्त्रौघैस्ताडितं सहसा बलात् । शक्तिसैन्यं महाघोरं क्रोधयुक्तं बभूव ह ॥१२॥",
+      "candidate_kannada": "ಆ ದೈತ್ಯರು ಶಸ್ತ್ರಸಮೂಹಗಳಿಂದ ಶಕ್ತಿಸೇನೆಯನ್ನು ಒಮ್ಮೆಲೆ ಬಲವಾಗಿ ಹೊಡೆದರು; ಮಹಾಘೋರವಾದ ಆ ಸೇನೆಯು ಕೋಪದಿಂದ ಕುದಿಯಿತು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.13",
+      "chapter": 47,
+      "verse": 13,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              3020,
+              1288,
+              3670,
+              1390
+            ],
+            [
+              300,
+              1391,
+              2250,
+              1492
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "शक्त्या संप्रेषिता देवा युयुधू रणमंडले । कालिकाद्या महायुद्धे शक्तयः कुपिता भृशम् ॥१३॥",
+      "candidate_kannada": "ಶಕ್ತಿಯ ಆಜ್ಞೆಯಿಂದ ಕಳುಹಿಸಲ್ಪಟ್ಟ ದೇವತೆಗಳು ರಣಮಂಡಲದಲ್ಲಿ ಹೋರಾಡಿದರು; ಕಾಳಿಕಾದಿ ಶಕ್ತಿಗಳು ಮಹಾಯುದ್ಧದಲ್ಲಿ ತೀವ್ರವಾಗಿ ಕೋಪಗೊಂಡರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.14",
+      "chapter": 47,
+      "verse": 14,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              2270,
+              1391,
+              3670,
+              1492
+            ],
+            [
+              300,
+              1492,
+              1340,
+              1588
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "अकस्मान्मिलिते सैन्ये परस्परजयैषिणी । दैत्यानां चैव देवानां मरणे कृतनिश्चये ॥१४॥",
+      "candidate_kannada": "ಒಬ್ಬರನ್ನೊಬ್ಬರು ಜಯಿಸಬಯಸಿದ ದೈತ್ಯರ ಮತ್ತು ದೇವತೆಗಳ ಎರಡೂ ಸೇನೆಗಳು ಹಠಾತ್ತಾಗಿ ಮುಖಾಮುಖಿಯಾದವು; ಎರಡೂ ಸೇನೆಗಳು ಎದುರಾಳಿಗಳ ಮರಣವನ್ನು ಸಾಧಿಸಬೇಕೆಂದು ನಿಶ್ಚಯಿಸಿದ್ದವು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.15",
+      "chapter": 47,
+      "verse": 15,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1370,
+              1492,
+              3670,
+              1588
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "सैन्यानां रजसा तत्र हतं ज्ञानं समंततः । न प्रकाशो रवेरासीत् स्वपरज्ञानकारकः ॥१५॥",
+      "candidate_kannada": "ಸೈನ್ಯಗಳಿಂದ ಎದ್ದ ಧೂಳು ಎಲ್ಲೆಡೆಯೂ ಅರಿವನ್ನು ಮರೆಮಾಡಿತು; ತಮ್ಮವರನ್ನೂ ಪರರನ್ನೂ ಗುರುತಿಸಲು ನೆರವಾಗುವ ಸೂರ್ಯಪ್ರಕಾಶವು ಇರಲಿಲ್ಲ.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.16",
+      "chapter": 47,
+      "verse": 16,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              300,
+              1591,
+              2820,
+              1692
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "हेषितैः क्ष्वेडितैस्तत्र बृंहितै रथनेमिभिः । वादित्राणां महाशब्दैर्नादयुक्ता दिशोऽभवन् ॥१६॥",
+      "candidate_kannada": "ಕುದುರೆಗಳ ಹೇಷಾರವಗಳಿಂದಲೂ ರಣಕೂಗಾಟಗಳಿಂದಲೂ ಆನೆಗಳ ಬೃಂಹಣಗಳಿಂದಲೂ ರಥಚಕ್ರಗಳ ಶಬ್ದಗಳಿಂದಲೂ ವಾದ್ಯಗಳ ಮಹಾನಾದಗಳಿಂದಲೂ ದಿಕ್ಕುಗಳು ತುಂಬಿಹೋದವು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": [
+        {
+          "type": "initial_glyph",
+          "token": "बृंहितै",
+          "note": "Initial ब/व is visually similar in this print; candidate बृंहितै fits elephant trumpeting. Confirm source letter without silent normalization."
+        }
+      ]
+    },
+    {
+      "id": "2.47.17",
+      "chapter": 47,
+      "verse": 17,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              2840,
+              1591,
+              3670,
+              1692
+            ],
+            [
+              300,
+              1693,
+              1945,
+              1792
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "शंखनादैः सिंहनादैर्नानानादैश्च दैत्यप । बधिरा इव योधास्ते संजाता रणमूर्धनि ॥१७॥",
+      "candidate_kannada": "ದೈತ್ಯಾಧಿಪತಿಯೇ! ಶಂಖನಾದಗಳು, ಸಿಂಹನಾದಗಳು ಹಾಗೂ ನಾನಾ ಬಗೆಯ ಶಬ್ದಗಳಿಂದ ಆ ಯೋಧರು ರಣರಂಗದಲ್ಲಿ ಕಿವುಡರಾದವರಂತಾದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.18",
+      "chapter": 47,
+      "verse": 18,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1970,
+              1693,
+              3670,
+              1792
+            ],
+            [
+              300,
+              1797,
+              1105,
+              1898
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "शस्त्रैरस्त्रैरनेकैश्च परिजघ्नुः समंततः । द्रुमैः पर्वतखंडैश्च स्वान् परान् युद्धदुर्मदाः ॥१८॥",
+      "candidate_kannada": "ಯುದ್ಧೋನ್ಮತ್ತರಾದ ಅವರು ಅನೇಕ ಶಸ್ತ್ರಾಸ್ತ್ರಗಳಿಂದಲೂ ಮರಗಳಿಂದಲೂ ಪರ್ವತಖಂಡಗಳಿಂದಲೂ ತಮ್ಮವರನ್ನೂ ಪರರನ್ನೂ ಎಲ್ಲೆಡೆ ಹೊಡೆದುರುಳಿಸಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.19",
+      "chapter": 47,
+      "verse": 19,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1130,
+              1797,
+              3670,
+              1898
+            ],
+            [
+              300,
+              1900,
+              440,
+              2007
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "मृताः केचित् क्षताः केचित् केचिच्छस्त्रधरा बभुः । निजघ्नुः परवीरांस्ते स्वबलेन महाबलाः ॥१९॥",
+      "candidate_kannada": "ಕೆಲವರು ಸತ್ತರು; ಕೆಲವರು ಗಾಯಗೊಂಡರು; ಕೆಲವರು ಇನ್ನೂ ಶಸ್ತ್ರಗಳನ್ನು ಹಿಡಿದೇ ನಿಂತಿದ್ದರು; ಮಹಾಬಲಶಾಲಿಗಳಾದ ಅವರು ತಮ್ಮ ಬಲದಿಂದ ಎದುರಾಳಿಯ ವೀರರನ್ನು ಕೊಂದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.20",
+      "chapter": 47,
+      "verse": 20,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              475,
+              1900,
+              2890,
+              2007
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "भग्ने शस्त्रे समये ते मल्लयुद्धपरायणाः । युयुधुः क्रोधसंयुक्ताः शस्त्रहीनास्तथाऽपरे ॥२०॥",
+      "candidate_kannada": "ಶಸ್ತ್ರಗಳು ಮುರಿದಾಗ ಅವರು ಮಲ್ಲಯುದ್ಧದಲ್ಲಿ ತೊಡಗಿ ಕೋಪದಿಂದ ಹೋರಾಡಿದರು; ಶಸ್ತ್ರವಿಲ್ಲದ ಇತರರೂ ಹಾಗೆಯೇ ಹೋರಾಡಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.21",
+      "chapter": 47,
+      "verse": 21,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              2910,
+              1900,
+              3670,
+              2007
+            ],
+            [
+              300,
+              2003,
+              1970,
+              2099
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "कबंधा युयुधुस्तत्र शस्त्रहस्ता महाबलाः । स्वान् परानपि जघ्नुस्ते स्वपरज्ञानवर्जिताः ॥२१॥",
+      "candidate_kannada": "ಶಸ್ತ್ರಗಳನ್ನು ಕೈಯಲ್ಲಿ ಹಿಡಿದಿದ್ದ ಮಹಾಬಲಶಾಲಿ ಕಬಂಧಗಳೂ ಅಲ್ಲಿ ಹೋರಾಡಿದವು; ತಮ್ಮವರು ಯಾರು, ಪರರು ಯಾರು ಎಂಬ ಅರಿವಿಲ್ಲದೆ ಎರಡೂ ಕಡೆಯವರನ್ನು ಹೊಡೆದುರುಳಿಸಿದವು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.22",
+      "chapter": 47,
+      "verse": 22,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              2000,
+              2003,
+              3670,
+              2099
+            ],
+            [
+              300,
+              2101,
+              1250,
+              2202
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "बाणैर्बाणान् समाक्षुब्धा विजघ्नुश्च परस्परम् । खड्गैः खड्गांस्तथा चान्ये गदाभिश्च गदा भृशम् ॥२२॥",
+      "candidate_kannada": "ತೀವ್ರ ಉದ್ವೇಗಗೊಂಡವರು ಪರಸ್ಪರರ ಬಾಣಗಳನ್ನು ಬಾಣಗಳಿಂದ ಹೊಡೆದು ತುಂಡರಿಸಿದರು; ಇತರರು ಖಡ್ಗಗಳನ್ನು ಖಡ್ಗಗಳಿಂದಲೂ ಗದೆಗಳನ್ನು ಗದೆಗಳಿಂದಲೂ ಬಲವಾಗಿ ಹೊಡೆದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": [
+        {
+          "type": "cluster_reading",
+          "token": "समाक्षुब्धा",
+          "note": "Read as ब्ध; inspect focus_22.png to exclude a different dense cluster."
+        }
+      ]
+    },
+    {
+      "id": "2.47.23",
+      "chapter": 47,
+      "verse": 23,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1280,
+              2101,
+              3670,
+              2202
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "तोमरैश्च महावीराः परशुभिस्तु तथाऽपरे । भिंदिपालैश्च पाशैश्च परिजघ्नुः परस्परम् ॥२३॥",
+      "candidate_kannada": "ಮಹಾವೀರರು ತೋಮರಗಳಿಂದಲೂ ಇತರರು ಪರಶುಗಳಿಂದಲೂ ಭಿಂದಿಪಾಲಗಳಿಂದಲೂ ಪಾಶಗಳಿಂದಲೂ ಒಬ್ಬರನ್ನೊಬ್ಬರು ಹೊಡೆದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.24",
+      "chapter": 47,
+      "verse": 24,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              300,
+              2202,
+              2840,
+              2306
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "रथारूढा गजारूढैर्गजारूढाः पदातिभिः । अश्वारूढैस्तथाऽन्येऽपि युयुधुर्जातसंभ्रमाः ॥२४॥",
+      "candidate_kannada": "ರಥಾರೂಢರು ಗಜಾರೂಢರೊಡನೆ, ಗಜಾರೂಢರು ಪದಾತಿಗಳೊಡನೆ, ಇನ್ನಿತರರು ಅಶ್ವಾರೂಢರೊಡನೆ ರಣೋದ್ವೇಗದಿಂದ ಹೋರಾಡಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": []
+    },
+    {
+      "id": "2.47.25",
+      "chapter": 47,
+      "verse": 25,
+      "coverage": "complete_verse_in_gap",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              2870,
+              2202,
+              3670,
+              2306
+            ],
+            [
+              300,
+              2305,
+              1900,
+              2410
+            ]
+          ],
+          "coordinate_units": "original PNG pixels; origin upper left; boxes are conservative visual regions"
+        }
+      ],
+      "candidate_sanskrit": "तुमलं दैत्यदेवानां युद्धं तत्र प्रवर्तितम् । उभयोर्नाशकं घोरं वक्तुं नैव प्रशक्यते ॥२५॥",
+      "candidate_kannada": "ಹೀಗೆ ದೈತ್ಯದೇವತೆಗಳ ತುಮುಲಯುದ್ಧವು ಅಲ್ಲಿ ನಡೆಯಿತು; ಎರಡೂ ಪಕ್ಷಗಳನ್ನೂ ನಾಶಗೊಳಿಸುವ ಆ ಘೋರಯುದ್ಧವನ್ನು ವರ್ಣಿಸುವುದೇ ಸಾಧ್ಯವಿಲ್ಲ.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": [
+        {
+          "type": "apparent_source_typo",
+          "token": "तुमलं",
+          "note": "The print visibly lacks the second उ-sign expected in तुमुलं. Diplomatic candidate retains तुमलं; translation reflects evident tumultuous battle. Any correction must be separately recorded."
+        }
+      ]
+    },
+    {
+      "id": "2.47.26.opening",
+      "chapter": 47,
+      "verse": 26,
+      "coverage": "gap_boundary_opening_only",
+      "speaker": "Gṛtsamada",
+      "source_portions": [
+        {
+          "image_id": 225,
+          "rectangles_xyxy": [
+            [
+              1930,
+              2305,
+              3670,
+              2410
+            ]
+          ]
+        }
+      ],
+      "candidate_sanskrit": "प्रवाहबहुले रक्ते रजः संप्लावितं महत् । प्रकाशस्तत्र संजातः",
+      "candidate_kannada": "ಅಪಾರವಾಗಿ ಹರಿಯುತ್ತಿದ್ದ ರಕ್ತದಲ್ಲಿ ಮಹಾಧೂಳಿಯು ತೋಯ್ದು ಅಡಗಿತು. ಆಗ ಅಲ್ಲಿ ಬೆಳಕು ಉಂಟಾಯಿತು…",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainties": [
+        {
+          "type": "boundary",
+          "note": "The predicate continues on image 226 with ಸ್ವಪರಜ್ಞಾನಕಾರಕಃ. This is deliberately an opening-only gap record. The full coherent Kannada sentence is supplied separately for review; do not append a second complete translation if continuation already exists."
+        }
+      ]
+    }
+  ],
+  "existing_continuation": {
+    "id": "2.47.26.continuation_existing",
+    "coverage": "existing_continuation_context_only_do_not_duplicate",
+    "source_portions": [
+      {
+        "image_id": 226,
+        "rectangles_xyxy": [
+          [
+            300,
+            255,
+            960,
+            349
+          ]
+        ]
+      }
+    ],
+    "candidate_sanskrit": "स्वपरज्ञानकारकः ॥२६॥",
+    "candidate_kannada": "ತಮ್ಮವರನ್ನೂ ಪರರನ್ನೂ ಗುರುತಿಸಲು ನೆರವಾಗುವ.",
+    "accepted_sanskrit": null,
+    "accepted_kannada": null
+  },
+  "assembled_boundary_context": {
+    "id": "2.47.26.assembled_context",
+    "coverage": "assembled_context_only_not_an_additional_gap_record",
+    "candidate_sanskrit": "प्रवाहबहुले रक्ते रजः संप्लावितं महत् । प्रकाशस्तत्र संजातः स्वपरज्ञानकारकः ॥२६॥",
+    "candidate_kannada": "ಅಪಾರವಾಗಿ ಹರಿಯುತ್ತಿದ್ದ ರಕ್ತದಲ್ಲಿ ಮಹಾಧೂಳಿಯು ತೋಯ್ದು ಅಡಗಿತು. ಆಗ ತಮ್ಮವರನ್ನೂ ಪರರನ್ನೂ ಗುರುತಿಸಲು ನೆರವಾಗುವ ಬೆಳಕು ಉಂಟಾಯಿತು.",
+    "accepted_sanskrit": null,
+    "accepted_kannada": null
+  },
+  "review_priority": [
+    "47.8: unresolved joined compound and its Kannada interpretation",
+    "47.11: dense cluster reading",
+    "47.25: source spelling तुमलं",
+    "47.16: initial ब/व",
+    "Check all source rectangles and word-for-word Kannada alignment before acceptance"
+  ],
+  "canonical_handoff": {
+    "path": "/workspace/shared/khanda2_recovery/writer_handoff/khanda2-canonical-boundary-handoff.json",
+    "sha256": "c590bef0c1f6507e4a57d2df136113fa951d63022c67a4cd05100f56bfbce435",
+    "source_commit": "99317d9d1109d639b2361c42edd635a39dcdd9fd",
+    "gap_id": "source-gap-pdf206-page46",
+    "insert_after": "2.46.47 and chapter 46 colophon",
+    "join_existing_once": "2.47.26; HTML ID kh2-ch47-v26",
+    "existing_sanskrit": "स्वपरज्ञानकारकः ॥२६॥",
+    "existing_kannada_excerpt": "ಸ್ವ ಮತ್ತು ಪರ ಜ್ಞಾನವನ್ನುಂಟುಮಾಡುವವನು.",
+    "candidate_contextual_refinement": "Here स्वपरज्ञानकारकः modifies प्रकाशः: light that enables recognition of one’s own side and the opposing side. It does not describe a male being bestowing Self/other knowledge. Existing fragment and candidate full sentence must undergo review; no blind replacement."
+  }
+}

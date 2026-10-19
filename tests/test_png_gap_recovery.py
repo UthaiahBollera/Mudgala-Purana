@@ -2,7 +2,7 @@
 from pathlib import Path
 import unittest,tempfile,json,csv,hashlib,copy,shutil,sys,io
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
-from validate_png_review import validate_png_batch
+from validate_png_review import validate_png_batch,candidate_entries,null_acceptance
 class PNGRecovery(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
@@ -26,4 +26,12 @@ class PNGRecovery(unittest.TestCase):
  def test_missing_independent_review(self):(self.root/self.v['independent_review_file']).unlink();self.reject()
  def test_worker_acceptance_cannot_be_promoted(self):
   p=self.root/self.v['candidate_file'];d=json.loads(p.read_text());d['entries'][0]['accepted_sanskrit']='accepted';p.write_text(json.dumps(d,ensure_ascii=False));self.v['candidate_sha256']=hashlib.sha256(p.read_bytes()).hexdigest();self.reject()
+class CandidateSchemas(unittest.TestCase):
+ def test_gap2_coordinates(self):
+  d={'front_matter':[],'verses':[{'id':'2.47.8','source_portions':[{'image_id':225,'rectangles_xyxy':[[1,2,3,4]]}]}]};original=copy.deepcopy(d);r=candidate_entries(d);self.assertEqual(r[0]['source_regions'],[{'image':'page_0225.png','bbox_xyxy':[1,2,3,4]}]);self.assertEqual(d,original)
+ def test_nested_acceptance(self):
+  with self.assertRaises(AssertionError):null_acceptance({'assembled_boundary_context':{'accepted_kannada':'promoted'}})
+ def test_gap2_valid_and_hidden_hold(self):
+  b=next(x for x in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if x.get('review_file')=='translation/original-png-khanda2-gap2-review.json');v=json.loads((ROOT/b['review_file']).read_text());rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/b['file']).read_text()),delimiter='\t')};reg=json.loads((ROOT/'translation/unresolved-passages.json').read_text());a,u=validate_png_batch(ROOT,b,rows,v,reg);self.assertEqual(u,{(2,47,8),(2,47,16)});rows[(2,47,8)]['type']='translation'
+  with self.assertRaises(AssertionError):validate_png_batch(ROOT,b,rows,v,reg)
 if __name__=='__main__':unittest.main()
