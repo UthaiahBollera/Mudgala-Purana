@@ -117589,6 +117589,63 @@
         }
       ],
       "no_change_keys": []
+    },
+    {
+      "file": "batch-386-reviewed-base-translation.tsv",
+      "sha256": "a2b1f4028cb3d0bed059a865e626929d1dc9f455ad4ce2744d41a3c5c3f5c524",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch34-ch37-writer-review.json",
+      "review_sha256": "081da4309a62aecf82a56e70a5e61469a8630135ffb9210cef99ef600ca4c7e0",
+      "coverage_boundary": "reviewed-base-khanda1-ch34-ch37",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            37,
+            5
+          ],
+          "old_row": {
+            "source_pages": "96",
+            "type": "translation",
+            "text": "ಅಹೋ, ಬಲವಾದ ದೈವವು ಈಗ ನನ್ನ ಯತ್ನವನ್ನು ವಿಫಲಗೊಳಿಸಿದೆ. ನಂತರ ದೈತ್ಯರು ಯೋಧರಿಂದ ಕೊಲ್ಲಲ್ಪಡುವುದನ್ನು ನಾನು ಚಿಂತಿಸಲಿಲ್ಲ. ॥೫॥"
+          },
+          "new_row": {
+            "source_pages": "96",
+            "type": "translation-review",
+            "text": "ಅಹೋ, ದೈವವು ನಿಜವಾಗಿಯೂ ಬಲವಾದದ್ದು; ಪ್ರಯತ್ನವು ನಿಷ್ಫಲವೆಂದು ತಿಳಿಯುತ್ತದೆ. ಪಶ್ಚಿಮದಲ್ಲಿ ಸೂರ್ಯೋದಯವಾಗುವಂತೆ, ನನಗೆ ಅಭಯಪ್ರಾಪ್ತಿಯು ಊಹಿಸಲಾಗದ ಸಂಗತಿ. (ಪರಿಶೀಲನೆ: ಮೂಲದ “ಅಭಯಪ್ರಾಪ್ತಿ” ಮತ್ತು ಪಶ್ಚಿಮದ ಸೂರ್ಯೋದಯದ ಹೋಲಿಕೆಯ ಅರ್ಥಸೂಕ್ಷ್ಮತೆ ಇನ್ನೂ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.) ॥೫॥"
+          },
+          "base_snapshot_commit": "6e698390df140c7b0495509e027626daea124d9d",
+          "adjudication_file": "translation/khanda1-ch34-ch37-writer-review.json",
+          "adjudication_sha256": "081da4309a62aecf82a56e70a5e61469a8630135ffb9210cef99ef600ca4c7e0",
+          "review_status": "accepted",
+          "rationale": "Original clearly confirms अभयप्राप्तिः with the avagraha after मे and the sunrise comparison. No daityas being slain by warriors occurs in5; slain daityas belong to6 and must not be duplicated into5. Replace the unsupported sentence and render the first half without adding now/my effort as explicit source words. Proposal retains abhaya as ಅಭಯಪ್ರಾಪ್ತಿ rather than silently changing it to fear. पश्चात् is read spatially westward in the sunrise simile; the contextual force of inconceivable safety/fearlessness attainment remains an interpretive nuance hold. No claim of doctrinal or textual certainty beyond the visible reading."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          34,
+          25
+        ],
+        [
+          1,
+          34,
+          42
+        ],
+        [
+          1,
+          35,
+          1
+        ],
+        [
+          1,
+          36,
+          13
+        ]
+      ]
     }
   ],
   "reference_only_index": {

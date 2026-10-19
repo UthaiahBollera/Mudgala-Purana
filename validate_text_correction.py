@@ -116,6 +116,18 @@ def validate_base_translation_correction(root,old,new,item,review):
             assert expected==p['proposed_full_replacement'] and record['replacements']==p['replacements'],'Name restoration exceeds independent proposal'
             marker=old['text'][old['text'].rfind(' ॥'):];note=record['display_note']
             assert note.startswith(' (ಪರಿಶೀಲನೆ:') and new['text']==expected.replace(marker,note+marker) and record['edition_variant'] is None,'Visible identity hold omitted or unsupported edition invented'
+        elif record.get('correction_mode')=='original_only_reviewed_full_with_nuance_hold':
+            assert key==(1,37,5) and p['status']=='correction_ready_with_meaning_nuance_hold','Wrong nuance-held full replacement'
+            expected=old['text']
+            for change in p['replacements']:
+                assert expected.count(change['before'])==1,'Reviewed nuance span absent or repeated'
+                expected=expected.replace(change['before'],change['after'])
+            assert expected==p['proposed_full_replacement'] and record['replacements']==p['replacements'],'Nuance replacement exceeds independent proposal'
+            marker=old['text'][old['text'].rfind(' ॥'):];note=record['display_note']
+            assert note.startswith(' (ಪರಿಶೀಲನೆ:') and new['text']==expected.replace(marker,note+marker) and record['edition_variant'] is None,'Visible nuance hold omitted or edition invented'
+            assert record['printed_abhaya_cluster']=='मेऽभयप्राप्तिः' and record['printed_abhaya_cluster'] in record['source_sanskrit'] and record['meaning_nuance_settled'] is False and record['westward_sunrise_is_interpretation'] is True,'Abhaya or sunrise interpretation falsely settled'
+            assert record['slain_daityas_not_in_verse5'] is True and record['following_verse6_unchanged'] is True and 'ಮೃತಾ ದೈತ್ಯಾ' not in new['text'],'Adjacent slain-daityas wording misplaced'
+            assert record['uninspected_edition_variant_accepted'] is False,'Uninspected edition variant accepted'
         elif record.get('correction_mode')=='original_only_reviewed_sentence_replacement':
             assert p['status']=='partial_source_term_correction_meaning_hold' and p['proposed_full_replacement'] is None,'Partial source-term repair promoted to complete translation'
             assert record['replace_from']==p['replace_from'] and record['replacement_sentence']==p['proposed_partial_text'] and old['text'].count(p['replace_from'])==1,'Source-term repair differs from reviewed sentence'
@@ -241,6 +253,13 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
             assert x['source_sanskrit']==unit['source_reading'] and x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Source anomaly or unknown Google location altered'
             if unit['status']=='unchanged_source_anomaly_meaning_hold':assert x['printed_anomalous_token']=='निर्विकपल्कम्' and x['retained_Kannada_normalization']=='ನಿರ್ವಿಕಲ್ಪ' and x['normalization_not_literal_print'] is True and x['source_anomaly_resolved'] is False,'Editorial nirvikalpa normalized into literal source claim'
             else:assert x['printed_continuous_name_cluster']=='पुष्पदंतमहाकालरवाः' and x['additional_Rava_name_established'] is False and x['compound_meaning_settled'] is False,'Unsettled Rava name/compound certified'
+        if unit['status'] in {'unchanged_source_label_hold','unchanged_lexical_nuance_hold','unchanged_syntax_hold_known_unsupported_clause','unchanged_temporal_meaning_hold'}:
+            assert x['counted_as_new_correction'] is False and x['accepted_transliteration'] is None and x['current_wording_source_verified'] is False and x['target_readings_source_verified'] is True and x['source_sanskrit']==unit['source_reading'],'Unchanged evidence/meaning hold promoted'
+            assert x['source_emendation_accepted'] is False and x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Source emendation or Google location invented'
+            if key==(1,34,25):assert x['printed_label']=='सुराः' and x['source_label_harmonized'] is False and x['unrendered_source_tokens']==['सुराः'] and x['narrative_label_discrepancy_resolved'] is False,'Printed label harmonized or omission hidden'
+            elif key==(1,34,42):assert x['printed_lexical_token']=='प्रबोध्य' and x['combat_nuance_settled'] is False,'Combat nuance falsely settled'
+            elif key==(1,35,1):assert x['printed_syntax_cluster']=='कर्म चैव यथासुरम्' and x['known_unsupported_Kannada_clause']=='ಕರ್ಮದ ಗತಿಯೂ ಹಾಗೆಯೇ ಇದೆ.' and x['unsupported_clause_certified'] is False and x['syntax_settled'] is False,'Known unsupported karma clause falsely certified'
+            else:assert key==(1,36,13) and x['printed_temporal_cluster']=='अधुना स गतः कालो विपरीतेन कर्मणा' and x['temporal_reference_and_agency_settled'] is False,'Temporal/agency meaning falsely settled'
         if unit['status']=='unchanged_syntax_meaning_hold':
             assert x['counted_as_new_correction'] is False and x['accepted_transliteration'] is None and x['current_wording_source_verified'] is False and x['source_sanskrit']==unit['source_reading'],'Unchanged syntax hold promoted'
             assert x['printed_syntax_cluster']=='न भिन्नौ मयि तिष्ठतः' and x['negation_dual_and_first_person_locative_preserved'] is True and x['syntax_settled'] is False,'Dual/locative syntax altered or settled'

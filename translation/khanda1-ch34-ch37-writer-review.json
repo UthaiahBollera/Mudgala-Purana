@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "6e698390df140c7b0495509e027626daea124d9d",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        37,
+        5
+      ],
+      "old_row": {
+        "source_pages": "96",
+        "type": "translation",
+        "text": "ಅಹೋ, ಬಲವಾದ ದೈವವು ಈಗ ನನ್ನ ಯತ್ನವನ್ನು ವಿಫಲಗೊಳಿಸಿದೆ. ನಂತರ ದೈತ್ಯರು ಯೋಧರಿಂದ ಕೊಲ್ಲಲ್ಪಡುವುದನ್ನು ನಾನು ಚಿಂತಿಸಲಿಲ್ಲ. ॥೫॥"
+      },
+      "new_row": {
+        "source_pages": "96",
+        "type": "translation-review",
+        "text": "ಅಹೋ, ದೈವವು ನಿಜವಾಗಿಯೂ ಬಲವಾದದ್ದು; ಪ್ರಯತ್ನವು ನಿಷ್ಫಲವೆಂದು ತಿಳಿಯುತ್ತದೆ. ಪಶ್ಚಿಮದಲ್ಲಿ ಸೂರ್ಯೋದಯವಾಗುವಂತೆ, ನನಗೆ ಅಭಯಪ್ರಾಪ್ತಿಯು ಊಹಿಸಲಾಗದ ಸಂಗತಿ. (ಪರಿಶೀಲನೆ: ಮೂಲದ “ಅಭಯಪ್ರಾಪ್ತಿ” ಮತ್ತು ಪಶ್ಚಿಮದ ಸೂರ್ಯೋದಯದ ಹೋಲಿಕೆಯ ಅರ್ಥಸೂಕ್ಷ್ಮತೆ ಇನ್ನೂ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.) ॥೫॥"
+      },
+      "base_file": "translation/batch-05-01.tsv",
+      "source_sanskrit": "अहो हि बलवद् दैवं प्रयत्नो निष्फलो मतः । अचिंत्या मेऽभयप्राप्तिः पश्चात् सूर्योदयो यथा ॥५॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "abhaya_westward_sunrise_meaning_nuance_hold",
+          "reading": null,
+          "token": "अहो हि बलवद् दैवं प्रयत्नो निष्फलो मतः । अचिंत्या मेऽभयप्राप्तिः पश्चात् सूर्योदयो यथा ॥५॥",
+          "detail": "Original clearly confirms अभयप्राप्तिः with the avagraha after मे and the sunrise comparison. No daityas being slain by warriors occurs in5; slain daityas belong to6 and must not be duplicated into5. Replace the unsupported sentence and render the first half without adding now/my effort as explicit source words. Proposal retains abhaya as ಅಭಯಪ್ರಾಪ್ತಿ rather than silently changing it to fear. पश्चात् is read spatially westward in the sunrise simile; the contextual force of inconceivable safety/fearlessness attainment remains an interpretive nuance hold. No claim of doctrinal or textual certainty beyond the visible reading."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_reviewed_full_with_nuance_hold",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/independent-review.md",
+        "sha256": "92f0d32e8039df769143daa8a5e11380f43ee982bc615ded0c1d9d44be7f59ed"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0083.png",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0083.png",
+        "sha256": "9ffb35700b3882ba2277b5779341b7f51541553ca123b6818e8299a8451b64bc",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          1400,
+          3710,
+          1950
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly confirms अभयप्राप्तिः with the avagraha after मे and the sunrise comparison. No daityas being slain by warriors occurs in5; slain daityas belong to6 and must not be duplicated into5. Replace the unsupported sentence and render the first half without adding now/my effort as explicit source words. Proposal retains abhaya as ಅಭಯಪ್ರಾಪ್ತಿ rather than silently changing it to fear. पश्चात् is read spatially westward in the sunrise simile; the contextual force of inconceivable safety/fearlessness attainment remains an interpretive nuance hold. No claim of doctrinal or textual certainty beyond the visible reading.",
+      "replacements": [
+        {
+          "before": "ಅಹೋ, ಬಲವಾದ ದೈವವು ಈಗ ನನ್ನ ಯತ್ನವನ್ನು ವಿಫಲಗೊಳಿಸಿದೆ. ನಂತರ ದೈತ್ಯರು ಯೋಧರಿಂದ ಕೊಲ್ಲಲ್ಪಡುವುದನ್ನು ನಾನು ಚಿಂತಿಸಲಿಲ್ಲ. ॥೫॥",
+          "after": "ಅಹೋ, ದೈವವು ನಿಜವಾಗಿಯೂ ಬಲವಾದದ್ದು; ಪ್ರಯತ್ನವು ನಿಷ್ಫಲವೆಂದು ತಿಳಿಯುತ್ತದೆ. ಪಶ್ಚಿಮದಲ್ಲಿ ಸೂರ್ಯೋದಯವಾಗುವಂತೆ, ನನಗೆ ಅಭಯಪ್ರಾಪ್ತಿಯು ಊಹಿಸಲಾಗದ ಸಂಗತಿ. ॥೫॥"
+        }
+      ],
+      "display_note": " (ಪರಿಶೀಲನೆ: ಮೂಲದ “ಅಭಯಪ್ರಾಪ್ತಿ” ಮತ್ತು ಪಶ್ಚಿಮದ ಸೂರ್ಯೋದಯದ ಹೋಲಿಕೆಯ ಅರ್ಥಸೂಕ್ಷ್ಮತೆ ಇನ್ನೂ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.)",
+      "printed_abhaya_cluster": "मेऽभयप्राप्तिः",
+      "westward_sunrise_is_interpretation": true,
+      "meaning_nuance_settled": false,
+      "slain_daityas_not_in_verse5": true,
+      "following_verse6_unchanged": true,
+      "following_verse6_row": {
+        "source_pages": "96",
+        "type": "translation",
+        "text": "ನನ್ನ ಸಲುವಾಗಿ ಅಸಂಖ್ಯಾತ ದೈತ್ಯರು ಸತ್ತರು; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ಮಹಾಕಾಲರಂತಿದ್ದ ನನ್ನ ಇಬ್ಬರು ಪುತ್ರರು ಇಂದು ಕಾಲನಿಗೆ ಹೇಗೆ ಬಲಿಯಾದರು? ॥೬॥"
+      },
+      "uninspected_edition_variant_accepted": false
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        34,
+        25
+      ],
+      "old_row": {
+        "source_pages": "90,91",
+        "type": "translation",
+        "text": "ಹೀಗೆ ಮತ್ಸರನಿಗೆ ಹೇಳಿ, ಪ್ರಹ್ಲಾದ ಮೊದಲಾದ ವೀರರೆಲ್ಲರೂ ಸ್ವರ್ಗಲೋಕವನ್ನು ಪ್ರತಿಧ್ವನಿಗೊಳಿಸುತ್ತಾ ವಕ್ರತುಂಡನ ಕಡೆಗೆ ಹೋದರು. ॥೨೫॥"
+      },
+      "new_row": {
+        "source_pages": "90,91",
+        "type": "translation",
+        "text": "ಹೀಗೆ ಮತ್ಸರನಿಗೆ ಹೇಳಿ, ಪ್ರಹ್ಲಾದ ಮೊದಲಾದ ವೀರರೆಲ್ಲರೂ ಸ್ವರ್ಗಲೋಕವನ್ನು ಪ್ರತಿಧ್ವನಿಗೊಳಿಸುತ್ತಾ ವಕ್ರತುಂಡನ ಕಡೆಗೆ ಹೋದರು. ॥೨೫॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "इत्युक्त्वा मत्सरं सर्वे प्रह्लादप्रमुखाः सुराः । वक्रतुंडं ययुर्वीरा नादयंतस्त्रिविष्टपम् ॥२५॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_source_label_hold",
+          "reading": null,
+          "token": "इत्युक्त्वा मत्सरं सर्वे प्रह्लादप्रमुखाः सुराः । वक्रतुंडं ययुर्वीरा नादयंतस्त्रिविष्टपम् ॥२५॥",
+          "detail": "Original page77 clearly prints सुराः, not असुराः or शूराः. Page78 completes नादयंतस्त्रिविष्टपम्. Context23–24 and27 identifies these as daitya leaders, so a genuine base-label/narrative discrepancy remains. Current neutral warriors rendering retains वीरा but leaves सुराः unrendered. Keep provisionally; do not call this fully literal or silently change source to asuras. No new Kannada replacement justified."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/independent-review.md",
+        "sha256": "92f0d32e8039df769143daa8a5e11380f43ee982bc615ded0c1d9d44be7f59ed"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0077.png",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0077.png",
+        "sha256": "49628ff55d31e634a5d9d1a4054967c5415413603e8c1ab0bb95e0f153cc97c4",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          2110,
+          3710,
+          2430
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original page77 clearly prints सुराः, not असुराः or शूराः. Page78 completes नादयंतस्त्रिविष्टपम्. Context23–24 and27 identifies these as daitya leaders, so a genuine base-label/narrative discrepancy remains. Current neutral warriors rendering retains वीरा but leaves सुराः unrendered. Keep provisionally; do not call this fully literal or silently change source to asuras. No new Kannada replacement justified.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_label": "सुराः",
+      "source_label_harmonized": false,
+      "unrendered_source_tokens": [
+        "सुराः"
+      ],
+      "narrative_label_discrepancy_resolved": false
+    },
+    {
+      "key": [
+        1,
+        34,
+        42
+      ],
+      "old_row": {
+        "source_pages": "91",
+        "type": "translation",
+        "text": "ಶ್ರೇಷ್ಠರು ಮಹಾಬಲಶಾಲಿಗಳಾದ ಶ್ರೇಷ್ಠರೊಡನೆ ಯುದ್ಧಮಾಡಿದರು. ಯುದ್ಧನಿಪುಣರಾದ ಕೆಲವು ವೀರರು ಎದುರಾಳಿಗಳನ್ನು ಎಚ್ಚರಿಸಿ ಹೊಡೆದರು. ॥೪೨॥"
+      },
+      "new_row": {
+        "source_pages": "91",
+        "type": "translation",
+        "text": "ಶ್ರೇಷ್ಠರು ಮಹಾಬಲಶಾಲಿಗಳಾದ ಶ್ರೇಷ್ಠರೊಡನೆ ಯುದ್ಧಮಾಡಿದರು. ಯುದ್ಧನಿಪುಣರಾದ ಕೆಲವು ವೀರರು ಎದುರಾಳಿಗಳನ್ನು ಎಚ್ಚರಿಸಿ ಹೊಡೆದರು. ॥೪೨॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "श्रेष्ठा युयुधिरे श्रेष्ठैर्महाबलसमन्वितैः । प्रबोध्य जघ्निरे केचिद्वीराः समरशालिनः ॥४२॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_lexical_nuance_hold",
+          "reading": null,
+          "token": "श्रेष्ठा युयुधिरे श्रेष्ठैर्महाबलसमन्वितैः । प्रबोध्य जघ्निरे केचिद्वीराः समरशालिनः ॥४२॥",
+          "detail": "Original confirms प्रबोध्य. Current ಎಚ್ಚರಿಸಿ is a defensible source-near rendering in matched-opponent combat40–44. Warning, challenging or rousing nuance remains unsettled; no clear error warrants selecting one stronger interpretation."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/independent-review.md",
+        "sha256": "92f0d32e8039df769143daa8a5e11380f43ee982bc615ded0c1d9d44be7f59ed"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0078.png",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0078.png",
+        "sha256": "1241ac376e464302607425e188709ef90acbf5df1ff6a1c51968bb398a9f1b4f",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1420,
+          3710,
+          1960
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original confirms प्रबोध्य. Current ಎಚ್ಚರಿಸಿ is a defensible source-near rendering in matched-opponent combat40–44. Warning, challenging or rousing nuance remains unsettled; no clear error warrants selecting one stronger interpretation.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_lexical_token": "प्रबोध्य",
+      "combat_nuance_settled": false
+    },
+    {
+      "key": [
+        1,
+        35,
+        1
+      ],
+      "old_row": {
+        "source_pages": "92",
+        "type": "translation",
+        "text": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಹೀಗೆ ಮಹಾಬಲಶಾಲಿಗಳು ಪರಸ್ಪರ ಘೋರಯುದ್ಧವನ್ನು ಮಾಡಿದರೂ ಜಯವನ್ನು ಪಡೆಯಲಿಲ್ಲ. ಕರ್ಮದ ಗತಿಯೂ ಹಾಗೆಯೇ ಇದೆ. ॥೧॥"
+      },
+      "new_row": {
+        "source_pages": "92",
+        "type": "translation",
+        "text": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಹೀಗೆ ಮಹಾಬಲಶಾಲಿಗಳು ಪರಸ್ಪರ ಘೋರಯುದ್ಧವನ್ನು ಮಾಡಿದರೂ ಜಯವನ್ನು ಪಡೆಯಲಿಲ್ಲ. ಕರ್ಮದ ಗತಿಯೂ ಹಾಗೆಯೇ ಇದೆ. ॥೧॥"
+      },
+      "base_file": "translation/batch-04-03.tsv",
+      "source_sanskrit": "मुद्गल उवाच । एवं परस्परं घोरं युद्धं कृत्वा महाबलाः । न जयं प्राप्नुवंति स्म कर्म चैव यथासुरम् ॥१॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_syntax_hold_known_unsupported_clause",
+          "reading": null,
+          "token": "मुद्गल उवाच । एवं परस्परं घोरं युद्धं कृत्वा महाबलाः । न जयं प्राप्नुवंति स्म कर्म चैव यथासुरम् ॥१॥",
+          "detail": "Original really prints कर्म चैव यथासुरम्. First Kannada sentence is supported by the opening and preceding34.44–45; the generic final sentence about the course of karma is not securely justified by this obscure ending. Retention is a hold with a known unsupported paraphrase, not an accuracy confirmation. Do not invent a fluent replacement or silently emend the Sanskrit."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/independent-review.md",
+        "sha256": "92f0d32e8039df769143daa8a5e11380f43ee982bc615ded0c1d9d44be7f59ed"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0079.png",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0079.png",
+        "sha256": "666f785543a1113c063faf420f487a75562fc900204cdd7c2009531c1cd27942",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          360,
+          3710,
+          690
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original really prints कर्म चैव यथासुरम्. First Kannada sentence is supported by the opening and preceding34.44–45; the generic final sentence about the course of karma is not securely justified by this obscure ending. Retention is a hold with a known unsupported paraphrase, not an accuracy confirmation. Do not invent a fluent replacement or silently emend the Sanskrit.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_syntax_cluster": "कर्म चैव यथासुरम्",
+      "known_unsupported_Kannada_clause": "ಕರ್ಮದ ಗತಿಯೂ ಹಾಗೆಯೇ ಇದೆ.",
+      "unsupported_clause_certified": false,
+      "syntax_settled": false
+    },
+    {
+      "key": [
+        1,
+        36,
+        13
+      ],
+      "old_row": {
+        "source_pages": "94",
+        "type": "translation",
+        "text": "ಭೂಭಾರವನ್ನು ನಿವಾರಿಸುವುದಕ್ಕೂ ನಿಮ್ಮನ್ನು ನಾಶಮಾಡುವುದಕ್ಕೂ ಅವನು ಬಂದಿದ್ದಾನೆ. ಈಗ ಕರ್ಮವು ವಿಪರೀತವಾಗಿರುವುದರಿಂದ ಹಿಂದಿನ ಆ ಕಾಲವು ಕಳೆದಿದೆ. ॥೧೩॥"
+      },
+      "new_row": {
+        "source_pages": "94",
+        "type": "translation",
+        "text": "ಭೂಭಾರವನ್ನು ನಿವಾರಿಸುವುದಕ್ಕೂ ನಿಮ್ಮನ್ನು ನಾಶಮಾಡುವುದಕ್ಕೂ ಅವನು ಬಂದಿದ್ದಾನೆ. ಈಗ ಕರ್ಮವು ವಿಪರೀತವಾಗಿರುವುದರಿಂದ ಹಿಂದಿನ ಆ ಕಾಲವು ಕಳೆದಿದೆ. ॥೧೩॥"
+      },
+      "base_file": "translation/batch-05-01.tsv",
+      "source_sanskrit": "भूमिभारहरणार्थं वै भवतां नाशनाय च । अधुना स गतः कालो विपरीतेन कर्मणा ॥१३॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_temporal_meaning_hold",
+          "reading": null,
+          "token": "भूमिभारहरणार्थं वै भवतां नाशनाय च । अधुना स गतः कालो विपरीतेन कर्मणा ॥१३॥",
+          "detail": "Original supports removal of earth’s burden, your destruction, and the final अधुना स गतः कालो विपरीतेन कर्मणा. Current rendering is defensible as a close contextual interpretation. Exact temporal reference and force/agency of विपरीतेन कर्मणा remain held; do not introduce another agent or claim a more specific causal mechanism."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/independent-review.md",
+        "sha256": "92f0d32e8039df769143daa8a5e11380f43ee982bc615ded0c1d9d44be7f59ed"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0081.png",
+        "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0081.png",
+        "sha256": "93af52b5aa8da444fd93d666013f125294266ea25595f9c7b5be04b32f2685b2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          1160,
+          3720,
+          1680
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original supports removal of earth’s burden, your destruction, and the final अधुना स गतः कालो विपरीतेन कर्मणा. Current rendering is defensible as a close contextual interpretation. Exact temporal reference and force/agency of विपरीतेन कर्मणा remain held; do not introduce another agent or claim a more specific causal mechanism.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_temporal_cluster": "अधुना स गतः कालो विपरीतेन कर्मणा",
+      "temporal_reference_and_agency_settled": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch34-ch37/before-after-proposals.json",
+  "candidate_sha256": "eb003541f1b45f2149065ab33ae34a141d4aa9fc2d46b3ce84f20b56c2a32302",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/before-after-proposals.json",
+      "sha256": "eb003541f1b45f2149065ab33ae34a141d4aa9fc2d46b3ce84f20b56c2a32302"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crop_coordinates.json",
+      "sha256": "d6b331c78de60844652f74f14faf7a1e0c6b686567f83ef28265ca72e01d4161"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/34-23-25-opening.png",
+      "sha256": "febcb8e2e5769138340e493af5bc01d58d19775da51ef215f240681551b6a43d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/34-25-27.png",
+      "sha256": "2435e7ac4526d31a96ba48eca0b44018fd311734eed75c7a354394d71533373d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/34-25-label.png",
+      "sha256": "95af22e39297c363b2467516ea40f6b8d40d026cf75ef347ccb3aafeeedb0ca1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/34-40-45.png",
+      "sha256": "96b7068543e6b293df31e81d0451a61c19a8334d02968828e428bbfef5bdbce0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/35-1-3.png",
+      "sha256": "539f33237120981e4fd91bb58b83dc5d4f83397c31abd4cd53f822844be9d94f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/35-1-ending.png",
+      "sha256": "afe9d79731bbaad703d564d0480facac598883ba13a3620ffeb07ac1fad986f6"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/36-11-15.png",
+      "sha256": "488c8bc67649679fac5d761ea98aebf33385da02eab6fc0d4405dd0051c19032"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/37-3-7.png",
+      "sha256": "25da697e585bcf5a24348ab0e1b5f281ccef3decbc81e8ef55b2bfcb121630e1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/crops/37-5-clause.png",
+      "sha256": "966e4dea7d29378a736cd81b00570fc3373d47b1fc059134fb981af4591408f3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/independent-review.md",
+      "sha256": "92f0d32e8039df769143daa8a5e11380f43ee982bc615ded0c1d9d44be7f59ed"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/manifest.json",
+      "sha256": "27aab1fc32623f73aba17d7c8cf7dc80c3a8089ce6bf700e9ccfb5db2d387119"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/khanda1-ch34-ch37-next-five-review-packet.json",
+      "sha256": "d4af61aad4ade575f873d44df37d33062c4063ca9f496d5c2167b1d4a85555e6"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0077.png",
+      "sha256": "49628ff55d31e634a5d9d1a4054967c5415413603e8c1ab0bb95e0f153cc97c4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0078.png",
+      "sha256": "1241ac376e464302607425e188709ef90acbf5df1ff6a1c51968bb398a9f1b4f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0079.png",
+      "sha256": "666f785543a1113c063faf420f487a75562fc900204cdd7c2009531c1cd27942"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0081.png",
+      "sha256": "93af52b5aa8da444fd93d666013f125294266ea25595f9c7b5be04b32f2685b2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch34-ch37/original-and-input/original-page_0083.png",
+      "sha256": "9ffb35700b3882ba2277b5779341b7f51541553ca123b6818e8299a8451b64bc"
+    }
+  ],
+  "handoff_Library_file": "libfile_128ce28ddabc8191a2142f6c9cbfcf96",
+  "handoff_sha256": "62a0800eeaf95b0d833b5f64f270eba59ad1c72caac76784b41db4a4e6f3df59",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

@@ -517,4 +517,26 @@ class NameAndLionBoundaryRepairs(unittest.TestCase):
  def test_deity_labels_not_harmonized(self):self.review['no_change_adjudications'][0]['deva_sura_labels_harmonized']=True;self.reject_nochange()
  def test_duality_not_freedom_from_duality(self):self.review['no_change_adjudications'][1]['freedom_from_duality_substituted']=True;self.reject_nochange()
  def test_syntax_not_settled(self):self.review['no_change_adjudications'][2]['syntax_settled']=True;self.reject_nochange()
+class AbhayaSunriseAndFourHolds(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch34-ch37-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):self.check();self.nochange()
+ def test_abhaya_not_reinterpreted(self):self.review['reviews'][0]['printed_abhaya_cluster']='मे भयप्राप्तिः';self.reject()
+ def test_nuance_not_resolved(self):self.review['reviews'][0]['meaning_nuance_settled']=True;self.reject()
+ def test_visible_hold_required(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].split(' (ಪರಿಶೀಲನೆ:')[0]+' ॥೫॥'
+  self.reject()
+ def test_following_verse_preserved(self):self.review['reviews'][0]['following_verse6_unchanged']=False;self.reject()
+ def test_printed_sura_not_harmonized(self):self.review['no_change_adjudications'][0]['source_label_harmonized']=True;self.reject_nochange()
+ def test_unrendered_label_not_hidden(self):self.review['no_change_adjudications'][0]['unrendered_source_tokens']=[];self.reject_nochange()
+ def test_combat_nuance_not_settled(self):self.review['no_change_adjudications'][1]['combat_nuance_settled']=True;self.reject_nochange()
+ def test_unsupported_karma_not_certified(self):self.review['no_change_adjudications'][2]['unsupported_clause_certified']=True;self.reject_nochange()
+ def test_temporal_agency_not_settled(self):self.review['no_change_adjudications'][3]['temporal_reference_and_agency_settled']=True;self.reject_nochange()
 if __name__=='__main__':unittest.main()
