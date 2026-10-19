@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "ac9a4424673ec7c184cb4f9edb5d837a59b6b1d1",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        11,
+        46
+      ],
+      "old_row": {
+        "source_pages": "42",
+        "type": "mantra",
+        "text": "ಅಯೋಗಾಯ ನಮಸ್ತುಭ್ಯಂ ನಿರಾಲಂಬಸ್ವರೂಪಿಣೇ । ಮಾಯಾಹೀನಾಯ ದೇವಾಯ ನಮಸ್ತೇ ಹ್ಯಸಮಾಯ ಚ ॥೪೬॥"
+      },
+      "new_row": {
+        "source_pages": "42",
+        "type": "mantra",
+        "text": "ಅಯೋಗಾಯ ನಮಸ್ತುಭ್ಯಂ ನಿರಾಲಂಬಸ್ವರೂಪಿಣೇ । ಮಾಯಾಹೀನಾಯ ದೇವಾಯ ನಮಸ್ತೇ ಹ್ಯಸಮಾಧಯೇ ॥೪೬॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "अयोगाय नमस्तुभ्यं निरालंबस्वरूपिणे । मायाहीनाय देवाय नमस्ते ह्यसमाधये ॥४६॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_not_adjudicated",
+          "reading": null,
+          "token": "अयोगाय नमस्तुभ्यं निरालंबस्वरूपिणे । मायाहीनाय देवाय नमस्ते ह्यसमाधये ॥४६॥",
+          "detail": "Actual original has ह्यसमाधये, not ह्यसमाय च. Preserve the rest. Context45 समाधौ and46 अयोगाय makes the contrast relevant, but the exact philosophical interpretation is not being translated or harmonized here."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಅಯೋಗಾಯ ನಮಸ್ತುಭ್ಯಂ ನಿರಾಲಂಬಸ್ವರೂಪಿಣೇ । ಮಾಯಾಹೀನಾಯ ದೇವಾಯ ನಮಸ್ತೇ ಹ್ಯಸಮಾಧಯೇ ॥೪೬॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/independent-review.md",
+        "sha256": "76458cb2c2491eab94519d73543a264cdb82b8150508fe295f70d744052f3450"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0029.png",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0029.png",
+        "sha256": "2b6d34ddfbab59fe2bfbcd32b1848f098c84a72b3755e99a2ca0071c8aa3e8ee",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          620,
+          3700,
+          1060
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Actual original has ह्यसमाधये, not ह्यसमाय च. Preserve the rest. Context45 समाधौ and46 अयोगाय makes the contrast relevant, but the exact philosophical interpretation is not being translated or harmonized here.",
+      "replacements": [
+        {
+          "before": "ಹ್ಯಸಮಾಯ ಚ",
+          "after": "ಹ್ಯಸಮಾಧಯೇ"
+        }
+      ],
+      "meaning_scope": "transcription_only_interpretation_unsettled"
+    },
+    {
+      "key": [
+        1,
+        12,
+        24
+      ],
+      "old_row": {
+        "source_pages": "44",
+        "type": "mantra",
+        "text": "ಅಗ್ರೇ ಮೇ ಗಾಣಪತ್ಯಾಶ್ಚ ಪೃಷ್ಠೇ ವಾಮೇ ಚ ದಕ್ಷಿಣೇ । ಸರ್ವತ್ರ ಸಹ ತೈರ್ವಾಸೋ ಗಾಣಪತ್ಯೈರ್ಭವೇದಿತಿ ॥೨೪॥"
+      },
+      "new_row": {
+        "source_pages": "44",
+        "type": "mantra",
+        "text": "ಅಗ್ರೇ ಮೇ ಗಾಣಪತ್ಯಾಸ್ತೇ ಪೃಷ್ಠೇ ವಾಮೇ ಚ ದಕ್ಷಿಣೇ । ಸರ್ವತ್ರ ಸಹ ತೈರ್ವಾಸೋ ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ ॥೨೪॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "अग्रे मे गाणपत्यास्ते पृष्ठे वामे च दक्षिणे । सर्वत्र सह तैर्वासो गाणपत्यैर्भवत्विति ॥२४॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_not_adjudicated",
+          "reading": null,
+          "token": "अग्रे मे गाणपत्यास्ते पृष्ठे वामे च दक्षिणे । सर्वत्र सह तैर्वासो गाणपत्यैर्भवत्विति ॥२४॥",
+          "detail": "Original clearly has गाणपत्यास्ते and गाणपत्यैर्भवत्विति. Restore these two minimal spans. Do not introduce the historical romanization omission in gāṇaptya; original includes पत्य. No separate doctrinal gloss proposed."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಅಗ್ರೇ ಮೇ ಗಾಣಪತ್ಯಾಸ್ತೇ ಪೃಷ್ಠೇ ವಾಮೇ ಚ ದಕ್ಷಿಣೇ । ಸರ್ವತ್ರ ಸಹ ತೈರ್ವಾಸೋ ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ ॥೨೪॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/independent-review.md",
+        "sha256": "76458cb2c2491eab94519d73543a264cdb82b8150508fe295f70d744052f3450"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0031.png",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0031.png",
+        "sha256": "95a77b9294e192b58a558f6ac9646ce2528f0591d6dcd00261ef4d7d24a30e42",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1480,
+          3710,
+          2070
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly has गाणपत्यास्ते and गाणपत्यैर्भवत्विति. Restore these two minimal spans. Do not introduce the historical romanization omission in gāṇaptya; original includes पत्य. No separate doctrinal gloss proposed.",
+      "replacements": [
+        {
+          "before": "ಗಾಣಪತ್ಯಾಶ್ಚ",
+          "after": "ಗಾಣಪತ್ಯಾಸ್ತೇ"
+        },
+        {
+          "before": "ಗಾಣಪತ್ಯೈರ್ಭವೇದಿತಿ",
+          "after": "ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ"
+        }
+      ],
+      "meaning_scope": "transcription_only_interpretation_unsettled"
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        12,
+        22
+      ],
+      "old_row": {
+        "source_pages": "44",
+        "type": "mantra",
+        "text": "ಗಣೇಶಂ ಪ್ರಾರ್ಥಯಾಮೀತಿ ಶೃಣು ಚಿಂತಾಮಣೇ ಪ್ರಭೋ । ಚಿತ್ತೇ ನಿವಾಸಕಾರಿನ್ ವೈ ಗಜಾನನ ಮಹೋದರ ॥೨೨॥"
+      },
+      "new_row": {
+        "source_pages": "44",
+        "type": "mantra",
+        "text": "ಗಣೇಶಂ ಪ್ರಾರ್ಥಯಾಮೀತಿ ಶೃಣು ಚಿಂತಾಮಣೇ ಪ್ರಭೋ । ಚಿತ್ತೇ ನಿವಾಸಕಾರಿನ್ ವೈ ಗಜಾನನ ಮಹೋದರ ॥೨೨॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "गणेशं प्रार्थयामीति शृणु चिंतामणे प्रभो । चित्ते निवासकारिन् वै गजानन महोदर ॥२२॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "Google_target_verification_pending",
+          "reading": null,
+          "token": "गणेशं प्रार्थयामीति शृणु चिंतामणे प्रभो । चित्ते निवासकारिन् वै गजानन महोदर ॥२२॥",
+          "detail": "The enlarged original shows the e-mark above the right side of चित्ते. Existing ಚಿತ್ತೇ is therefore supported by pixels, not merely retained as a grammatical emendation. Historical चित्त without e does not match this original. No new correction."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/independent-review.md",
+        "sha256": "76458cb2c2491eab94519d73543a264cdb82b8150508fe295f70d744052f3450"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0031.png",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0031.png",
+        "sha256": "95a77b9294e192b58a558f6ac9646ce2528f0591d6dcd00261ef4d7d24a30e42",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1480,
+          3710,
+          2070
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The enlarged original shows the e-mark above the right side of चित्ते. Existing ಚಿತ್ತೇ is therefore supported by pixels, not merely retained as a grammatical emendation. Historical चित्त without e does not match this original. No new correction.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true
+    },
+    {
+      "key": [
+        1,
+        12,
+        29
+      ],
+      "old_row": {
+        "source_pages": "44",
+        "type": "translation",
+        "text": "ವರದನಾದ ಗಣಪತಿಯು ತಾನೇ ಹೇಳಿದಂತೆಯೇ ಪಂಚದೇವತೆಗಳು ಆಯಾ ರೂಪಗಳನ್ನು ಪಡೆದರು; ಅವರು ಜ್ಞಾನದಿಂದ ಭಾವಿತರಾದ ಈಶ್ವರರಾಗಿದ್ದರು. ॥೨೯॥"
+      },
+      "new_row": {
+        "source_pages": "44",
+        "type": "translation",
+        "text": "ವರದನಾದ ಗಣಪತಿಯು ತಾನೇ ಹೇಳಿದಂತೆಯೇ ಪಂಚದೇವತೆಗಳು ಆಯಾ ರೂಪಗಳನ್ನು ಪಡೆದರು; ಅವರು ಜ್ಞಾನದಿಂದ ಭಾವಿತರಾದ ಈಶ್ವರರಾಗಿದ್ದರು. ॥೨೯॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "पंचदेवास्तथा जाता यथा गणपतिः स्वयम् । वरदः कथयामास ईश्वराज्ञानभाविताः ॥२९॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "continuous_source_segmentation_unsettled",
+          "reading": null,
+          "token": "पंचदेवास्तथा जाता यथा गणपतिः स्वयम् । वरदः कथयामास ईश्वराज्ञानभाविताः ॥२९॥",
+          "detail": "Original confirms continuous ईश्वराज्ञानभाविताः. Current rendering as ईश्वराः ज्ञानभाविताः (lords imbued with knowledge) is supported by natural sandhi and context32–33 naming their sovereignty and Brahman-identification. Pixels alone do not print a word break or independently settle the alternative segmentation involving ajnana. Retain current text provisionally and retain the explicit lexical/segmentation hold; do not claim all meaning uncertainty resolved."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/independent-review.md",
+        "sha256": "76458cb2c2491eab94519d73543a264cdb82b8150508fe295f70d744052f3450"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0031.png",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0031.png",
+        "sha256": "95a77b9294e192b58a558f6ac9646ce2528f0591d6dcd00261ef4d7d24a30e42",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          2050,
+          3710,
+          2480
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original confirms continuous ईश्वराज्ञानभाविताः. Current rendering as ईश्वराः ज्ञानभाविताः (lords imbued with knowledge) is supported by natural sandhi and context32–33 naming their sovereignty and Brahman-identification. Pixels alone do not print a word break or independently settle the alternative segmentation involving ajnana. Retain current text provisionally and retain the explicit lexical/segmentation hold; do not claim all meaning uncertainty resolved.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": false,
+      "printed_continuous_compound": "ईश्वराज्ञानभाविताः",
+      "word_boundary_printed": false,
+      "alternative_segmentation_settled": false
+    },
+    {
+      "key": [
+        1,
+        13,
+        26
+      ],
+      "old_row": {
+        "source_pages": "47",
+        "type": "translation",
+        "text": "ಆಗ ಹರಿ ಮತ್ತು ಬ್ರಹ್ಮ ಇಬ್ಬರೂ ಹೇಳಿದರು: “ಶಂಕರನೇ, ಮಾತನ್ನು ಕೇಳು. ಸದಾಶಿವನೇ, ನಿನ್ನ ಐಶ್ವರ್ಯದ ಪ್ರಮಾಣವೆಷ್ಟೆಂದು ತೋರಿಸು.” ॥೨೬॥"
+      },
+      "new_row": {
+        "source_pages": "47",
+        "type": "translation",
+        "text": "ಆಗ ಹರಿ ಮತ್ತು ಬ್ರಹ್ಮ ಇಬ್ಬರೂ ಹೇಳಿದರು: “ಶಂಕರನೇ, ಮಾತನ್ನು ಕೇಳು. ಸದಾಶಿವನೇ, ನಿನ್ನ ಐಶ್ವರ್ಯದ ಪ್ರಮಾಣವೆಷ್ಟೆಂದು ತೋರಿಸು.” ॥೨೬॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "तत्रोचतुर्हरिर्ब्रह्मा शृणु शंकर मे वचः । तवैश्वर्यं कियन्मात्रं दर्शयस्व सदाशिव ॥२६॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "dual_speakers_singular_me_voice_limit",
+          "reading": null,
+          "token": "तत्रोचतुर्हरिर्ब्रह्मा शृणु शंकर मे वचः । तवैश्वर्यं कियन्मात्रं दर्शयस्व सदाशिव ॥२६॥",
+          "detail": "Original has dual ऊचतुः in तत्रोचतुर्हरिर्ब्रह्मा and singular मे वचः; following27 has तयोर्वचनमाकर्ण्य. Existing Kannada preserves Hari and Brahma as the two speakers while leaving ownership of “the words” neutral. No new minimal correction is demonstrated. Retain the source number/voice mismatch as a documented limit rather than inventing another speaker or silently claiming plural asmākam."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/independent-review.md",
+        "sha256": "76458cb2c2491eab94519d73543a264cdb82b8150508fe295f70d744052f3450"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0034.png",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0034.png",
+        "sha256": "73a0d4b348be3e5a6318bbdf2d9457ce7cc3ba21b2a1d8007035f752d4ca6a40",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          220,
+          210,
+          3700,
+          640
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original has dual ऊचतुः in तत्रोचतुर्हरिर्ब्रह्मा and singular मे वचः; following27 has तयोर्वचनमाकर्ण्य. Existing Kannada preserves Hari and Brahma as the two speakers while leaving ownership of “the words” neutral. No new minimal correction is demonstrated. Retain the source number/voice mismatch as a documented limit rather than inventing another speaker or silently claiming plural asmākam.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": false,
+      "printed_dual_speakers": true,
+      "printed_singular_possessive": "मे",
+      "ownership_rendering_neutral": true
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch11-ch13/before-after-proposals.json",
+  "candidate_sha256": "cbe28f7a1740ca0f667fa6414e7a97eecd8c3ba44345b51552594c4c323e3247",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/before-after-proposals.json",
+      "sha256": "cbe28f7a1740ca0f667fa6414e7a97eecd8c3ba44345b51552594c4c323e3247"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch11-44-48.png",
+      "sha256": "aaf76770953b1a96fc9e59af5f958151adfba674f5b5aaaa48671ce74bfdd8ba"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch12-20-26.png",
+      "sha256": "81fd26df0604ab2b5b243855c5f48dfe6f5bd92844aef7ccc7e51d203c2e7f5b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch12-27-32.png",
+      "sha256": "3e0f9478ab2668ee7af48d6302cb681bace4a9f4d6f0078c79d711ce22cb1898"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch12-32-34.png",
+      "sha256": "b6b53889624357d1f06c0d8e11a3f6726a177eee8684f9765dc077c563f2416d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch12-v22-chitta.png",
+      "sha256": "655e4cba4502d0ed85b4358e5fc488d97b0122b6ec97f7d798b3eb71080aaf20"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch12-v22-word.png",
+      "sha256": "a22e8e26148699172d6a5f4709be6edcbf7d16a2b2b4d718113d06528e9569fe"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch12-v24-end.png",
+      "sha256": "26b1ad715a120d2effe04f3bce3be2ee7284e2a78cdd4b15f839c2f51df87fa9"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch12-v29-compound.png",
+      "sha256": "ef22de72c338523fbab5523d6a148f256978c308dbbbcb07edefcb284f190325"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch13-24-25.png",
+      "sha256": "d83548faa87392a18adb036dd4b5b06ccb86e1dc22bb780f5334e5206f168392"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/crops/ch13-25-28.png",
+      "sha256": "0ab128dc074513c8ed33117391490a76a210a53ddfb007bf97f1a1c05f5d0e0b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/independent-review.md",
+      "sha256": "76458cb2c2491eab94519d73543a264cdb82b8150508fe295f70d744052f3450"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/manifest.json",
+      "sha256": "85acdfbd4489c16b92889fbb7155b16fb5324880443a2a796195831fac8ec539"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/khanda1-ch11-ch13-next-five-review-packet.json",
+      "sha256": "4f4516755686c18987253399ea68192da4b13d5d60ac3382f155ea8044ed0352"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0029.png",
+      "sha256": "2b6d34ddfbab59fe2bfbcd32b1848f098c84a72b3755e99a2ca0071c8aa3e8ee"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0031.png",
+      "sha256": "95a77b9294e192b58a558f6ac9646ce2528f0591d6dcd00261ef4d7d24a30e42"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0032.png",
+      "sha256": "21b6269a5261de3487a383f70413f137f4c62d9aab27768d80a1c2bb7a602c47"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0033.png",
+      "sha256": "deeba1504df5000d4633c8d79cbf46df630b9856c0be820a91637aa10d7fdd7e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0034.png",
+      "sha256": "73a0d4b348be3e5a6318bbdf2d9457ce7cc3ba21b2a1d8007035f752d4ca6a40"
+    }
+  ],
+  "handoff_Library_file": "libfile_708614f0f9348191b2d643684b244238",
+  "handoff_sha256": "dfeccb4f66770f9b9e9c709797c845606399fe0b53dbdcffa9350b7920323c3f",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

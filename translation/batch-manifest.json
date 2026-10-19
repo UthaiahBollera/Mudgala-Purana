@@ -116766,6 +116766,80 @@
         }
       ],
       "no_change_keys": []
+    },
+    {
+      "file": "batch-376-reviewed-base-translation.tsv",
+      "sha256": "dfa97f31079a613eaf8e1e735819f28e8ca1be23abbf887be682028e12f1e9d0",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch11-ch13-writer-review.json",
+      "review_sha256": "f9df1c6782080f1233955ee9a1144fb9e6c58661f376a2e39dfbb74f7ea25ad5",
+      "coverage_boundary": "reviewed-base-khanda1-ch11-ch13",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            11,
+            46
+          ],
+          "old_row": {
+            "source_pages": "42",
+            "type": "mantra",
+            "text": "ಅಯೋಗಾಯ ನಮಸ್ತುಭ್ಯಂ ನಿರಾಲಂಬಸ್ವರೂಪಿಣೇ । ಮಾಯಾಹೀನಾಯ ದೇವಾಯ ನಮಸ್ತೇ ಹ್ಯಸಮಾಯ ಚ ॥೪೬॥"
+          },
+          "new_row": {
+            "source_pages": "42",
+            "type": "mantra",
+            "text": "ಅಯೋಗಾಯ ನಮಸ್ತುಭ್ಯಂ ನಿರಾಲಂಬಸ್ವರೂಪಿಣೇ । ಮಾಯಾಹೀನಾಯ ದೇವಾಯ ನಮಸ್ತೇ ಹ್ಯಸಮಾಧಯೇ ॥೪೬॥"
+          },
+          "base_snapshot_commit": "ac9a4424673ec7c184cb4f9edb5d837a59b6b1d1",
+          "adjudication_file": "translation/khanda1-ch11-ch13-writer-review.json",
+          "adjudication_sha256": "f9df1c6782080f1233955ee9a1144fb9e6c58661f376a2e39dfbb74f7ea25ad5",
+          "review_status": "accepted",
+          "rationale": "Actual original has ह्यसमाधये, not ह्यसमाय च. Preserve the rest. Context45 समाधौ and46 अयोगाय makes the contrast relevant, but the exact philosophical interpretation is not being translated or harmonized here."
+        },
+        {
+          "key": [
+            1,
+            12,
+            24
+          ],
+          "old_row": {
+            "source_pages": "44",
+            "type": "mantra",
+            "text": "ಅಗ್ರೇ ಮೇ ಗಾಣಪತ್ಯಾಶ್ಚ ಪೃಷ್ಠೇ ವಾಮೇ ಚ ದಕ್ಷಿಣೇ । ಸರ್ವತ್ರ ಸಹ ತೈರ್ವಾಸೋ ಗಾಣಪತ್ಯೈರ್ಭವೇದಿತಿ ॥೨೪॥"
+          },
+          "new_row": {
+            "source_pages": "44",
+            "type": "mantra",
+            "text": "ಅಗ್ರೇ ಮೇ ಗಾಣಪತ್ಯಾಸ್ತೇ ಪೃಷ್ಠೇ ವಾಮೇ ಚ ದಕ್ಷಿಣೇ । ಸರ್ವತ್ರ ಸಹ ತೈರ್ವಾಸೋ ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ ॥೨೪॥"
+          },
+          "base_snapshot_commit": "ac9a4424673ec7c184cb4f9edb5d837a59b6b1d1",
+          "adjudication_file": "translation/khanda1-ch11-ch13-writer-review.json",
+          "adjudication_sha256": "f9df1c6782080f1233955ee9a1144fb9e6c58661f376a2e39dfbb74f7ea25ad5",
+          "review_status": "accepted",
+          "rationale": "Original clearly has गाणपत्यास्ते and गाणपत्यैर्भवत्विति. Restore these two minimal spans. Do not introduce the historical romanization omission in gāṇaptya; original includes पत्य. No separate doctrinal gloss proposed."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          12,
+          22
+        ],
+        [
+          1,
+          12,
+          29
+        ],
+        [
+          1,
+          13,
+          26
+        ]
+      ]
     }
   ],
   "reference_only_index": {

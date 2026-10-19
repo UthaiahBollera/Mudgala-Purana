@@ -289,4 +289,25 @@ class FiveChapterElevenRepairs(unittest.TestCase):
   self.reject(4)
  def test_meaning_limit_not_closed(self):self.review['reviews'][1].update(issues=[],review_status='accepted');self.reject(1)
  def test_google_target_unknown(self):self.review['reviews'][0]['reference_source']['page_id']='PT1';self.reject()
+class TwoRepairsThreeHolds(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch11-ch13-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):
+  self.check();self.check(1);self.nochange()
+ def test_46_meaning_not_accepted(self):self.review['reviews'][0].update(issues=[],review_status='accepted');self.reject()
+ def test_24_both_replacements_required(self):self.review['reviews'][1]['replacements'].pop();self.reject(1)
+ def test_chitte_not_new_correction(self):self.review['no_change_adjudications'][0]['counted_as_new_correction']=True;self.reject_nochange()
+ def test_chitte_source_verified(self):self.review['no_change_adjudications'][0]['target_readings_source_verified']=False;self.reject_nochange()
+ def test_segmentation_not_settled(self):self.review['no_change_adjudications'][1]['alternative_segmentation_settled']=True;self.reject_nochange()
+ def test_source_word_break_not_invented(self):self.review['no_change_adjudications'][1]['word_boundary_printed']=True;self.reject_nochange()
+ def test_dual_speakers_preserved(self):self.review['no_change_adjudications'][2]['printed_dual_speakers']=False;self.reject_nochange()
+ def test_singular_me_preserved(self):self.review['no_change_adjudications'][2]['printed_singular_possessive']='अस्माकम्';self.reject_nochange()
+ def test_no_guessed_google(self):self.review['no_change_adjudications'][1]['reference_source']['page_id']='PT1';self.reject_nochange()
 if __name__=='__main__':unittest.main()
