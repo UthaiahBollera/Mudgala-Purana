@@ -91,6 +91,8 @@ def validate_base_translation_correction(root,old,new,item,review):
             assert replacement and expected.count(replacement['before'])==1,'Declared mantra token absent or repeated'
             expected=expected.replace(replacement['before'],replacement['after'])
         assert expected==new['text']==p['proposed_full_replacement']and record['accepted_transliteration']==new['text']and record['accepted_translation']is None,'Mantra repair exceeds declared source edits'
+        if 'replacements'in p:
+            assert replacements==p['replacements'],'Declared spans differ from independent proposal'
         if 'minimal_edits'in p:
             assert [x['before']+' → '+x['after']for x in replacements]==p['minimal_edits'],'Mantra edits differ from independent review'
             assert bool(record['issues'])==p['status'].endswith('_with_meaning_hold'),'Independent mantra meaning hold omitted'

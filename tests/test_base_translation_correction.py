@@ -259,4 +259,34 @@ class ThreePhraseTwoConfirmations(unittest.TestCase):
   self.reject()
  def test_unknown_google_null(self):self.review['no_change_adjudications'][0]['reference_source']['page_id']='PT1';self.reject_nochange()
  def test_raw_source_unchanged(self):self.review['reviews'][1]['source_sanskrit']='harmonized';self.reject(1)
+class FiveChapterElevenRepairs(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch11-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def test_all_five_valid(self):
+  for i in range(5):self.check(i)
+ def test_36_yatnaya_unchanged(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಯತ್ನಾಯ','ಯತ್ತಾಯ')
+  self.reject()
+ def test_36_chetana_unchanged(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಚೇತನಾಧಾರಿಣೇ','ಚೈತನ್ಯಧಾರಿಣೇ')
+  self.reject()
+ def test_37_both_edits_required(self):self.review['reviews'][1]['replacements'].pop();self.reject(1)
+ def test_37_jyoti_vowel_preserved(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಜ್ಯೋತೀರೂಪಾಯ','ಜ್ಯೋತಿರೂಪಾಯ')
+  self.reject(1)
+ def test_38_avagraha_preserved(self):
+  for x in [self.items[2]['new_row'],self.review['reviews'][2]['new_row']]:x['text']=x['text'].replace('ಸೋಽಹಂ','ಸೋಹಂ')
+  self.reject(2)
+ def test_39_vocative_not_normalized(self):
+  for x in [self.items[3]['new_row'],self.review['reviews'][3]['new_row']]:x['text']=x['text'].replace('ಸರ್ವಾತ್ಮಕ','ಸರ್ವಾತ್ಮಕಾಯ')
+  self.reject(3)
+ def test_42_compound_ending_preserved(self):
+  for x in [self.items[4]['new_row'],self.review['reviews'][4]['new_row']]:x['text']=x['text'].replace('ವಿವರ್ಜಿತ','ವಿವರ್ಜಿತಾಯ')
+  self.reject(4)
+ def test_meaning_limit_not_closed(self):self.review['reviews'][1].update(issues=[],review_status='accepted');self.reject(1)
+ def test_google_target_unknown(self):self.review['reviews'][0]['reference_source']['page_id']='PT1';self.reject()
 if __name__=='__main__':unittest.main()

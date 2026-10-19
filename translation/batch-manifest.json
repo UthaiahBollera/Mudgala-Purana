@@ -116642,6 +116642,130 @@
           33
         ]
       ]
+    },
+    {
+      "file": "batch-375-reviewed-base-translation.tsv",
+      "sha256": "bf2c600999d2760a91b278cd33ae6f459c76a0c5b1fc308bc3192d98b68a821f",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch11-writer-review.json",
+      "review_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+      "coverage_boundary": "reviewed-base-khanda1-ch11",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            11,
+            36
+          ],
+          "old_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಚೈತನ್ಯಾಯ ಚ ಯತ್ನಾಯ ಚೇತನಾಧಾರಿಣೇ ನಮಃ । ಚೈತನ್ಯಮಯಾಯ ಸ್ವಚೈತನ್ಯಧಾರಿಣೇ ನಾದರೂಪಿಣೇ ॥೩೬॥"
+          },
+          "new_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಚೈತನ್ಯಾಯ ಚ ಯತ್ನಾಯ ಚೇತನಾಧಾರಿಣೇ ನಮಃ । ಚೈತನ್ಯೇಭ್ಯಃ ಸ್ವಚೈತನ್ಯದಾಯಿನೇ ನಾದರೂಪಿಣೇ ॥೩೬॥"
+          },
+          "base_snapshot_commit": "6bb92f79d30d4c9e647d6e9b8acf096d8609898d",
+          "adjudication_file": "translation/khanda1-ch11-writer-review.json",
+          "adjudication_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+          "review_status": "accepted",
+          "rationale": "Original confirms the already-present यत्नाय and चेतनाधारिणे. Only the second half changes: plural dative चैतन्येभ्यः and giving-form स्वचैतन्यदायिने are clear. Do not count confirmation of ಯತ್ನಾಯ as a new correction."
+        },
+        {
+          "key": [
+            1,
+            11,
+            37
+          ],
+          "old_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಬಿಂದುಮಯಾಯ ಬಿಂದೂನಾಂ ಪತಯೇ ಮಾನದಾಯ ಚ । ಭೇದಾಭೇದಮಯಾಯೈವ ಜ್ಯೋತೀರೂಪಾಯ ತೇ ನಮಃ ॥೩೭॥"
+          },
+          "new_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಬಿಂದುಮಾತ್ರಾಯ ಬಿಂದೂನಾಂ ಪತಯೇ ಪ್ರಾಕೃತಾಯ ಚ । ಭೇದಾಭೇದಮಯಾಯೈವ ಜ್ಯೋತೀರೂಪಾಯ ತೇ ನಮಃ ॥೩೭॥"
+          },
+          "base_snapshot_commit": "6bb92f79d30d4c9e647d6e9b8acf096d8609898d",
+          "adjudication_file": "translation/khanda1-ch11-writer-review.json",
+          "adjudication_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+          "review_status": "accepted",
+          "rationale": "Actual original reads बिंदुमात्राय and प्राकृताय. Preserve all other text, including printed ज्योतीरूपाय rather than silently normalizing its vowel. The precise doctrinal force of prakrta/matra is not settled by this transliteration repair."
+        },
+        {
+          "key": [
+            1,
+            11,
+            38
+          ],
+          "old_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಸೋಽಹಂಮಯಾಯ ಶೂನ್ಯಾಯ ಶೂನ್ಯಾಧಾರಾಯ ದೇಹಿನೇ । ಶೂನ್ಯಾನಾಂ ಶೂನ್ಯರೂಪಾಯ ಪುರುಷಾಯ ನಮೋ ನಮಃ ॥೩೮॥"
+          },
+          "new_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಸೋಽಹಂಮಾತ್ರಾಯ ಶೂನ್ಯಾಯ ಶೂನ್ಯಾಧಾರಾಯ ದೇಹಿನೇ । ಶೂನ್ಯಾನಾಂ ಶೂನ್ಯರೂಪಾಯ ಪುರುಷಾಯ ನಮೋ ನಮಃ ॥೩೮॥"
+          },
+          "base_snapshot_commit": "6bb92f79d30d4c9e647d6e9b8acf096d8609898d",
+          "adjudication_file": "translation/khanda1-ch11-writer-review.json",
+          "adjudication_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+          "review_status": "accepted",
+          "rationale": "Actual original clearly has मात्राय, not मयाय. Preserve anusvara spelling, existing avagraha and all remaining words. No philosophical paraphrase is introduced."
+        },
+        {
+          "key": [
+            1,
+            11,
+            39
+          ],
+          "old_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಜ್ಞಾನಾಯ ಬೋಧನಾಯೈವ ಬೋಧಾನಾಂ ಬೋಧಕಾರಿಣೇ । ಮನೋವಾಣೀವಿಹೀನಾಯ ಸರ್ವಾತ್ಮಕ ನಮೋ ನಮಃ ॥೩೯॥"
+          },
+          "new_row": {
+            "source_pages": "41",
+            "type": "mantra",
+            "text": "ಜ್ಞಾನಾಯ ಬೋಧನಾಥಾಯ ಬೋಧಾನಾಂ ಬೋಧಕಾರಿಣೇ । ಮನೋವಾಣೀವಿಹೀನಾಯ ಸರ್ವಾತ್ಮಕ ನಮೋ ನಮಃ ॥೩೯॥"
+          },
+          "base_snapshot_commit": "6bb92f79d30d4c9e647d6e9b8acf096d8609898d",
+          "adjudication_file": "translation/khanda1-ch11-writer-review.json",
+          "adjudication_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+          "review_status": "accepted",
+          "rationale": "Actual original clearly reads बोधनाथाय. Preserve the printed सर्वात्मक vocative, without dative normalization."
+        },
+        {
+          "key": [
+            1,
+            11,
+            42
+          ],
+          "old_row": {
+            "source_pages": "42",
+            "type": "mantra",
+            "text": "ಅಮೃತಾಯ ಸದಾಖಂಡಭೇದಾಭೇದವಿವರ್ಜಿತ । ಸದಾತ್ಮರೂಪಿಣೇ ಸೂರ್ಯರೂಪಧಾರಾಯ ತೇ ನಮಃ ॥೪೨॥"
+          },
+          "new_row": {
+            "source_pages": "42",
+            "type": "mantra",
+            "text": "ಅಮೃತಾಯ ಸದಾಖಂಡಭೇದಾಭೇದವಿವರ್ಜಿತ । ಸದಾತ್ಮರೂಪಿಣೇ ಸೂರ್ಯರೂಪಾಧಾರಾಯ ತೇ ನಮಃ ॥೪೨॥"
+          },
+          "base_snapshot_commit": "6bb92f79d30d4c9e647d6e9b8acf096d8609898d",
+          "adjudication_file": "translation/khanda1-ch11-writer-review.json",
+          "adjudication_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+          "review_status": "accepted",
+          "rationale": "Original clearly has रूपाधाराय with long a after pa. Restore the missing vowel in Kannada. Preserve सदाखंडभेदाभेदविवर्जित as printed, without adding a dative ending or forcing a compound interpretation."
+        }
+      ],
+      "no_change_keys": []
     }
   ],
   "reference_only_index": {
