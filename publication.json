@@ -1,6 +1,6 @@
 {
-  "source_commit": "870b82c5432c77f68a6c3c7fe224d9d6b531df86",
-  "coverage": "Correct Khanda 1 verse 5.40 and partial 6.12 while preserving three no-change holds",
+  "source_commit": "f5c89dfab0d9d5ce740033039b3b6f54dbec6050",
+  "coverage": "Repair three Khanda 1 mantras and two partial meanings with interpretation holds",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "ab46893acaa6b8906c66f56d261e2d84ad974c9cf56f4c8590ebc03614cad69f",
-  "epub_sha256": "c42afbc8bc8c133989202bbbe378988afee6cf8e94e410380141209f5bd1ad20",
+  "html_sha256": "d2cc59813b42085599a51f7c8e11a8a166d2f26328f17385e561b08d2dcb3f35",
+  "epub_sha256": "870e1b0a6a92db1f9eec7b33779c7ab545ab5a38cfb2dc78e8b82bf31bb751f2",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 1,
+  "new_accepted_textual_candidates": 3,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 70,
   "new_seven_joins": [
@@ -289,8 +289,8 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    5,
-    6
+    6,
+    7
   ],
   "represented_chapters": 425,
   "new_translation_units": 0,
@@ -518,18 +518,42 @@
     {
       "key": [
         1,
-        5,
-        40
+        6,
+        25
       ],
-      "scope": "full minimal original-only yoga/singular deity/Veda-exponents correction"
+      "scope": "original_only_reviewed_partial"
     },
     {
       "key": [
         1,
         6,
-        12
+        34
       ],
-      "scope": "partial bimba account;meaning/antecedent relation held"
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        6,
+        35
+      ],
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        6,
+        36
+      ],
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        7,
+        25
+      ],
+      "scope": "original_only_reviewed_partial"
     }
   ],
   "prior_reviewed_text_corrections": [
@@ -613,34 +637,17 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "1.6.12 namatah/antecedents/bimba relation",
-    "1.6.8 negation/compressed construction;unchanged",
-    "1.6.13 segmentation/instrumental;unchanged",
-    "1.6.20 vrtha/meaning/gloss;unchanged"
+    "1.6.25 compound and short-i interpretation",
+    "1.6.35 neuter endings beside dual grammar",
+    "1.7.25 svarat attachment"
   ],
   "chapter50_verses": 48,
   "chapter51_verses": 42,
   "chapter52_verses": 50,
   "new_numbered_chapters": 0,
-  "reviewed_no_text_change_keys": [
-    [
-      1,
-      6,
-      8
-    ],
-    [
-      1,
-      6,
-      13
-    ],
-    [
-      1,
-      6,
-      20
-    ]
-  ],
-  "new_reviewed_partial_corrections": 1,
-  "new_no_change_reviews": 3,
+  "reviewed_no_text_change_keys": [],
+  "new_reviewed_partial_corrections": 2,
+  "new_no_change_reviews": 0,
   "mantra_meaning_hold_keys": [
     [
       1,
@@ -648,22 +655,6 @@
       30
     ]
   ],
-  "source_unverified_unchanged_keys": [
-    [
-      1,
-      6,
-      8
-    ],
-    [
-      1,
-      6,
-      13
-    ],
-    [
-      1,
-      6,
-      20
-    ]
-  ],
+  "source_unverified_unchanged_keys": [],
   "earlier_reading_holds_preserved": true
 }
