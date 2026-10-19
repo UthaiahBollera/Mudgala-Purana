@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "5bac1864a5f22859bc2f9d5f81dfbbc8ec7f4ab4",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        31,
+        2
+      ],
+      "old_row": {
+        "source_pages": "83",
+        "type": "translation",
+        "text": "ಬಳಿಕ ಸುಂದರಪ್ರಿಯನೆಂಬ ತನ್ನ ಮಗನನ್ನು ಕೈಲಾಸದ ಅಧಿಪತಿಯಾಗಿ ನೇಮಿಸಿದನು. ತನ್ನ ಇನ್ನೊಬ್ಬ ಪ್ರಿಯ ಮಗನನ್ನು ವೈಕುಂಠದ ಅಧಿಪತಿಯಾಗಿ ಮಾಡಿದನು. ॥೨॥"
+      },
+      "new_row": {
+        "source_pages": "83",
+        "type": "translation-review",
+        "text": "ಬಳಿಕ ಸುಂದರಪ್ರಿಯನೆಂಬ ತನ್ನ ಮಗನನ್ನು ಕೈಲಾಸದ ಅಧಿಪತಿಯಾಗಿ ನೇಮಿಸಿದನು. ತನ್ನ ವಿಜಯಪ್ರಿಯನೆಂಬ ಮಗನನ್ನು ವೈಕುಂಠದ ಅಧಿಪತಿಯಾಗಿ ಮಾಡಿದನು. (ಪರಿಶೀಲನೆ: ಮೂಲದಲ್ಲಿ “ವಿಜಯಪ್ರಿಯ” ಎಂದು ಮುದ್ರಿಸಿದೆ; ಇತರ ಸಂದರ್ಭಗಳ “ವಿಷಯಪ್ರಿಯ”ನೊಡನೆಯ ಹೆಸರಿನ ಸಂಬಂಧ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೨॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "सुंदरप्रियपुत्रं च कैलासाधिपतिं ततः । चक्रे वैकुंठनाथं तं पुत्रं स्वं विजयप्रियम् ॥२॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "Vijaya_Vishaya_cross_narrative_identity_hold",
+          "reading": null,
+          "token": "सुंदरप्रियपुत्रं च कैलासाधिपतिं ततः । चक्रे वैकुंठनाथं तं पुत्रं स्वं विजयप्रियम् ॥२॥",
+          "detail": "Original clearly prints विजयप्रियम्. Restore the omitted proper name as ವಿಜಯಪ್ರಿಯ; do not silently replace it with ವಿಷಯಪ್ರಿಯ. The base reading is certain, while whether the name is an authorial variant, printing error or narrative inconsistency remains unsettled. Current omission avoids the issue by removing source information and is not warranted."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_reviewed_full_with_hold",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/independent-review.md",
+        "sha256": "e00aad5f973ea1347741f2122f89099dcdb4bb5e1c960e8a3d65319c9388688f"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0070.png",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0070.png",
+        "sha256": "f60eab2f7231045e4e34d58faea1034e7e6c0417fc224d366a65e65d44795bfa",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          770,
+          3710,
+          1180
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly prints विजयप्रियम्. Restore the omitted proper name as ವಿಜಯಪ್ರಿಯ; do not silently replace it with ವಿಷಯಪ್ರಿಯ. The base reading is certain, while whether the name is an authorial variant, printing error or narrative inconsistency remains unsettled. Current omission avoids the issue by removing source information and is not warranted.",
+      "replacements": [
+        {
+          "before": "ತನ್ನ ಇನ್ನೊಬ್ಬ ಪ್ರಿಯ ಮಗನನ್ನು",
+          "after": "ತನ್ನ ವಿಜಯಪ್ರಿಯನೆಂಬ ಮಗನನ್ನು"
+        }
+      ],
+      "display_note": " (ಪರಿಶೀಲನೆ: ಮೂಲದಲ್ಲಿ “ವಿಜಯಪ್ರಿಯ” ಎಂದು ಮುದ್ರಿಸಿದೆ; ಇತರ ಸಂದರ್ಭಗಳ “ವಿಷಯಪ್ರಿಯ”ನೊಡನೆಯ ಹೆಸರಿನ ಸಂಬಂಧ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.)",
+      "printed_name": "विजयप्रियम्",
+      "cross_narrative_identity_settled": false,
+      "uninspected_edition_variant_accepted": false
+    },
+    {
+      "key": [
+        1,
+        32,
+        15
+      ],
+      "old_row": {
+        "source_pages": "86",
+        "type": "translation",
+        "text": "ಸಿಂದೂರದಿಂದ ಶೋಭಿಸುತ್ತಿದ್ದ ಅವನಿಗೆ ಆನೆಯ ಮುಖ, ಶೂರ್ಪದಂತೆ ಕಿವಿಗಳು ಮತ್ತು ದೊಡ್ಡ ಹೊಟ್ಟೆಯಿದ್ದವು. ನಾಲ್ಕು ಭುಜಗಳಲ್ಲಿ ಪಾಶ, ಅಂಕುಶ, ವರ ಮತ್ತು ಅಭಯಮುದ್ರೆಗಳು ಇದ್ದವು. ॥೧೫॥"
+      },
+      "new_row": {
+        "source_pages": "86",
+        "type": "translation",
+        "text": "ಸಿಂಹವಾಹನನಾಗಿದ್ದ ಅವನಿಗೆ ಆನೆಯ ಮುಖ, ಶೂರ್ಪದಂತೆ ಕಿವಿಗಳು ಮತ್ತು ದೊಡ್ಡ ಹೊಟ್ಟೆಯಿದ್ದವು. ನಾಲ್ಕು ಭುಜಗಳನ್ನು ಹೊಂದಿದ್ದ ಅವನು ಪಾಶ, ಅಂಕುಶ ಮತ್ತು ವರಮುದ್ರೆಯಿಂದ ಕೂಡಿದ್ದನು. ॥೧೫॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "सिंहगो गजवक्त्रश्च शूर्पकर्णो महोदरः । चतुर्बाहुश्च पाशेनांकुशेन वरदेन च ॥१५॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": "ಸಿಂಹವಾಹನನಾಗಿದ್ದ ಅವನಿಗೆ ಆನೆಯ ಮುಖ, ಶೂರ್ಪದಂತೆ ಕಿವಿಗಳು ಮತ್ತು ದೊಡ್ಡ ಹೊಟ್ಟೆಯಿದ್ದವು. ನಾಲ್ಕು ಭುಜಗಳನ್ನು ಹೊಂದಿದ್ದ ಅವನು ಪಾಶ, ಅಂಕುಶ ಮತ್ತು ವರಮುದ್ರೆಯಿಂದ ಕೂಡಿದ್ದನು. ॥೧೫॥",
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_full_translation",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/independent-review.md",
+        "sha256": "e00aad5f973ea1347741f2122f89099dcdb4bb5e1c960e8a3d65319c9388688f"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0073.png",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0073.png",
+        "sha256": "6fe6589eca4bc95746b5d0644d42d88dd1ef6e1311174c5c17812bcf49f0b887",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          450,
+          3710,
+          960
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly begins सिंहगो, lion-mounted, not a sindura description. Four arms, noose, goad and boon gesture occur in15; अभयेन समायुक्तो begins16 and is already translated in current16. Remove its duplicate from15 without changing16 or implying that he lacks the fearlessness gesture in the continuous description. This is source-backed word and verse-boundary repair.",
+      "replacements": [
+        {
+          "before": "ಸಿಂದೂರದಿಂದ ಶೋಭಿಸುತ್ತಿದ್ದ",
+          "after": "ಸಿಂಹವಾಹನನಾಗಿದ್ದ"
+        },
+        {
+          "before": "ನಾಲ್ಕು ಭುಜಗಳಲ್ಲಿ ಪಾಶ, ಅಂಕುಶ, ವರ ಮತ್ತು ಅಭಯಮುದ್ರೆಗಳು ಇದ್ದವು.",
+          "after": "ನಾಲ್ಕು ಭುಜಗಳನ್ನು ಹೊಂದಿದ್ದ ಅವನು ಪಾಶ, ಅಂಕುಶ ಮತ್ತು ವರಮುದ್ರೆಯಿಂದ ಕೂಡಿದ್ದನು."
+        }
+      ],
+      "following_verse_16_unchanged": true,
+      "abhaya_belongs_to_16": true,
+      "continuous_description_does_not_deny_abhaya": true,
+      "following_verse_16_row": {
+        "source_pages": "86",
+        "type": "translation",
+        "text": "ಅಭಯಮುದ್ರೆಯಿಂದಲೂ ಕೂಡಿದ್ದ ಆ ಪರಮ ಭಗವಂತನು ತನ್ನ ಎಡಭಾಗದಲ್ಲಿ ಸಿದ್ಧಿಯನ್ನೂ ಬಲಭಾಗದಲ್ಲಿ ಬುದ್ಧಿಯನ್ನೂ ಧರಿಸಿದ್ದನು. ॥೧೬॥"
+      }
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        30,
+        12
+      ],
+      "old_row": {
+        "source_pages": "81",
+        "type": "translation",
+        "text": "ದೇವತೆಗಳನ್ನು ಕಂಡು ದೇವತೆಗಳೇ ಹೊಡೆದರು; ಇತರ ದೇವತೆಗಳು ದೈತ್ಯರನ್ನು ಹೊಡೆದರು. ಹೀಗೆ ಸುರದಾನವರು ಕ್ರಮವಿಲ್ಲದ ಮಹಾಯುದ್ಧವನ್ನು ನಡೆಸಿದರು. ॥೧೨॥"
+      },
+      "new_row": {
+        "source_pages": "81",
+        "type": "translation",
+        "text": "ದೇವತೆಗಳನ್ನು ಕಂಡು ದೇವತೆಗಳೇ ಹೊಡೆದರು; ಇತರ ದೇವತೆಗಳು ದೈತ್ಯರನ್ನು ಹೊಡೆದರು. ಹೀಗೆ ಸುರದಾನವರು ಕ್ರಮವಿಲ್ಲದ ಮಹಾಯುದ್ಧವನ್ನು ನಡೆಸಿದರು. ॥೧೨॥"
+      },
+      "base_file": "translation/batch-04-01.tsv",
+      "source_sanskrit": "देवान् दृष्ट्वा सुरा जघ्नुर्दैत्यान् देवास्तथापरे । असंबद्धं महायुद्धं चक्रिरे सुरदानवाः ॥१२॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_source_supported",
+          "reading": null,
+          "token": "देवान् दृष्ट्वा सुरा जघ्नुर्दैत्यान् देवास्तथापरे । असंबद्धं महायुद्धं चक्रिरे सुरदानवाः ॥१२॥",
+          "detail": "Original supports gods striking gods and other gods striking daityas. Context10 explicitly says own/other could not be distinguished amid dust;11 adds deafening noise. The current rendering is defensible and no deva/asura swap is authorized. This is a no-change confirmation, not a new repair."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/independent-review.md",
+        "sha256": "e00aad5f973ea1347741f2122f89099dcdb4bb5e1c960e8a3d65319c9388688f"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0068.png",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0068.png",
+        "sha256": "231c7e92b24f31e91fad88a1416a4f76909e4124d9b8a746379ffab542527eb2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          1040,
+          3730,
+          1490
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original supports gods striking gods and other gods striking daityas. Context10 explicitly says own/other could not be distinguished amid dust;11 adds deafening noise. The current rendering is defensible and no deva/asura swap is authorized. This is a no-change confirmation, not a new repair.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "deva_sura_labels_harmonized": false,
+      "dust_confusion_context_preserved": true
+    },
+    {
+      "key": [
+        1,
+        31,
+        29
+      ],
+      "old_row": {
+        "source_pages": "84",
+        "type": "translation",
+        "text": "ಮಲಿನನಾಗಿ, ಜಡನಂತೆ ಮತ್ತು ಪಿಶಾಚಿಯಂತೆ ಅವನು ಲೋಕದಲ್ಲಿ ಅಲೆಯುತ್ತಿದ್ದನು. ನಗ್ನನಾಗಿ, ಬಾಲಕನಂತೆ ಚೇಷ್ಟೆಗಳನ್ನು ಮಾಡುತ್ತಾ ದ್ವಂದ್ವಗಳನ್ನು ಉಂಟುಮಾಡುತ್ತಿದ್ದನು. ॥೨೯॥"
+      },
+      "new_row": {
+        "source_pages": "84",
+        "type": "translation",
+        "text": "ಮಲಿನನಾಗಿ, ಜಡನಂತೆ ಮತ್ತು ಪಿಶಾಚಿಯಂತೆ ಅವನು ಲೋಕದಲ್ಲಿ ಅಲೆಯುತ್ತಿದ್ದನು. ನಗ್ನನಾಗಿ, ಬಾಲಕನಂತೆ ಚೇಷ್ಟೆಗಳನ್ನು ಮಾಡುತ್ತಾ ದ್ವಂದ್ವಗಳನ್ನು ಉಂಟುಮಾಡುತ್ತಿದ್ದನು. ॥೨೯॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "मलिनो जडवल्लोके भ्रमति स्म पिशाचवत् । चेष्टितैश्च नग्नो बालवद् द्वंद्वकारकः ॥२९॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_lexical_meaning_hold",
+          "reading": null,
+          "token": "मलिनो जडवल्लोके भ्रमति स्म पिशाचवत् । चेष्टितैश्च नग्नो बालवद् द्वंद्वकारकः ॥२९॥",
+          "detail": "Original confirms the dirty/inert-like/ghoul-like wandering, naked childlike conduct and द्वंद्वकारकः. The current source-near rendering preserves these. Exact intended sense of creating dualities/conflicts in this description remains held; do not replace it with freedom from duality merely to harmonize the yogic description."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/independent-review.md",
+        "sha256": "e00aad5f973ea1347741f2122f89099dcdb4bb5e1c960e8a3d65319c9388688f"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0071.png",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0071.png",
+        "sha256": "d3b927d49c89f4085c4f57e3163f4096be457dfd2a4500d186ab7ef563066df2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          880,
+          3730,
+          1360
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original confirms the dirty/inert-like/ghoul-like wandering, naked childlike conduct and द्वंद्वकारकः. The current source-near rendering preserves these. Exact intended sense of creating dualities/conflicts in this description remains held; do not replace it with freedom from duality merely to harmonize the yogic description.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_lexical_cluster": "द्वंद्वकारकः",
+      "freedom_from_duality_substituted": false
+    },
+    {
+      "key": [
+        1,
+        31,
+        49
+      ],
+      "old_row": {
+        "source_pages": "85",
+        "type": "translation",
+        "text": "ಹಿಂದೆ ನಾನು ಏಕಾಕ್ಷರ ಮಂತ್ರದ ವಿಧಿಯಿಂದ ಅವನನ್ನು ಸೇವಿಸಿದ್ದೆನು. ಅದರಿಂದ ನನ್ನಲ್ಲಿ ನೆಲೆಸಿರುವ ನಾನು ಮತ್ತು ಗಣಾಧೀಶನು ಭಿನ್ನರಲ್ಲ. ॥೪೯॥"
+      },
+      "new_row": {
+        "source_pages": "85",
+        "type": "translation",
+        "text": "ಹಿಂದೆ ನಾನು ಏಕಾಕ್ಷರ ಮಂತ್ರದ ವಿಧಿಯಿಂದ ಅವನನ್ನು ಸೇವಿಸಿದ್ದೆನು. ಅದರಿಂದ ನನ್ನಲ್ಲಿ ನೆಲೆಸಿರುವ ನಾನು ಮತ್ತು ಗಣಾಧೀಶನು ಭಿನ್ನರಲ್ಲ. ॥೪೯॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "एकाक्षरविधानेन मयाऽसौ सेवितः पुरा । तेनाऽहं च गणाधीशो न भिन्नौ मयि तिष्ठतः ॥४९॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_syntax_meaning_hold",
+          "reading": null,
+          "token": "एकाक्षरविधानेन मयाऽसौ सेवितः पुरा । तेनाऽहं च गणाधीशो न भिन्नौ मयि तिष्ठतः ॥४९॥",
+          "detail": "Original confirms न भिन्नौ मयि तिष्ठतः, including the negation, dual and first-person locative. Current rendering retains the non-difference and in-me wording, although the exact construction is unusual. Preserve the syntax hold; no source-supported alternative or doctrinal paraphrase is demonstrated."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/independent-review.md",
+        "sha256": "e00aad5f973ea1347741f2122f89099dcdb4bb5e1c960e8a3d65319c9388688f"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0072.png",
+        "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0072.png",
+        "sha256": "507b8f19a86050ac9a0899f59ed4cb9d486db24e1cdfd7da1b01aa018be10f9f",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          270,
+          560,
+          3720,
+          1030
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original confirms न भिन्नौ मयि तिष्ठतः, including the negation, dual and first-person locative. Current rendering retains the non-difference and in-me wording, although the exact construction is unusual. Preserve the syntax hold; no source-supported alternative or doctrinal paraphrase is demonstrated.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_syntax_cluster": "न भिन्नौ मयि तिष्ठतः",
+      "negation_dual_and_first_person_locative_preserved": true,
+      "syntax_settled": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch30-ch32/before-after-proposals.json",
+  "candidate_sha256": "8eb59b19a24339473afbb8e73dcb438c1d7c48d392e80d4c03a22dac9bb426b1",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/before-after-proposals.json",
+      "sha256": "8eb59b19a24339473afbb8e73dcb438c1d7c48d392e80d4c03a22dac9bb426b1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/crop_coordinates.json",
+      "sha256": "3cfebebd92304bcf05902bf2fcb99f7c25d8a274bcaac2e07002b563b7ce8a0b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/crops/30-10-14.png",
+      "sha256": "0556aeff9b2e275f0dbd04f4d3f33193b8b3942787ae1898bf2859f00e07b389"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/crops/31-1-4.png",
+      "sha256": "9f8b6ad9117d80e70b92fdd1de65231d06fda0d7ec305f7480fe422b58c790f5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/crops/31-2-name.png",
+      "sha256": "b493aa91ca41048100d96d89ff9515b3b5fbe247e43aaf7d1dbb93b5bf8a9173"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/crops/31-27-31.png",
+      "sha256": "669bc0b3802c38d3e263410c29d66307d1d4361fcb58ab68c84b9d3ec301814f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/crops/31-47-51.png",
+      "sha256": "a44a3af9106fc8b63c66aaf89820273002e0dc90b1aa43ee82502a3be3d573db"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/crops/32-13-17.png",
+      "sha256": "39bb9bab769b02e87aed4942e1dcf84cb24cd523a00dfa2d251123b251b49fbe"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/crops/32-15-opening.png",
+      "sha256": "b8cf2b6675654eccf5f98fb784b0cfe5b8d2868576af6840475d464e3804314a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/independent-review.md",
+      "sha256": "e00aad5f973ea1347741f2122f89099dcdb4bb5e1c960e8a3d65319c9388688f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/manifest.json",
+      "sha256": "831625c949c8e9feb99c7b1968037d7ecb8eeb31bb22034b49432240ccbb6260"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/khanda1-ch30-ch32-next-five-review-packet.json",
+      "sha256": "298c22157b0d47f5e1742e51dbb234307041d714102b891685f1b1c06dc47dd1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0068.png",
+      "sha256": "231c7e92b24f31e91fad88a1416a4f76909e4124d9b8a746379ffab542527eb2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0070.png",
+      "sha256": "f60eab2f7231045e4e34d58faea1034e7e6c0417fc224d366a65e65d44795bfa"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0071.png",
+      "sha256": "d3b927d49c89f4085c4f57e3163f4096be457dfd2a4500d186ab7ef563066df2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0072.png",
+      "sha256": "507b8f19a86050ac9a0899f59ed4cb9d486db24e1cdfd7da1b01aa018be10f9f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch30-ch32/original-and-input/original-page_0073.png",
+      "sha256": "6fe6589eca4bc95746b5d0644d42d88dd1ef6e1311174c5c17812bcf49f0b887"
+    }
+  ],
+  "handoff_Library_file": "libfile_71192054c21c8191b2421d6e444560a1",
+  "handoff_sha256": "b5234d82cd703db696709f23478748c7f5f01891d746679769d3e625ab81b09b",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

@@ -491,4 +491,30 @@ class ThreeChapterTwentyEightRepairs(unittest.TestCase):
  def test_anomaly_not_resolved(self):self.review['no_change_adjudications'][0]['source_anomaly_resolved']=True;self.reject_nochange()
  def test_rava_not_added(self):self.review['no_change_adjudications'][1]['additional_Rava_name_established']=True;self.reject_nochange()
  def test_compound_not_settled(self):self.review['no_change_adjudications'][1]['compound_meaning_settled']=True;self.reject_nochange()
+class NameAndLionBoundaryRepairs(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch30-ch32-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):self.check();self.check(1);self.nochange()
+ def test_vijaya_not_vishaya(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ವಿಜಯಪ್ರಿಯನೆಂಬ','ವಿಷಯಪ್ರಿಯನೆಂಬ')
+  self.reject()
+ def test_identity_not_settled(self):self.review['reviews'][0]['cross_narrative_identity_settled']=True;self.reject()
+ def test_visible_hold_required(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].split(' (ಪರಿಶೀಲನೆ:')[0]+' ॥೨॥'
+  self.reject()
+ def test_lion_not_sindura(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಸಿಂಹವಾಹನನಾಗಿದ್ದ','ಸಿಂದೂರದಿಂದ ಶೋಭಿಸುತ್ತಿದ್ದ')
+  self.reject(1)
+ def test_following_verse_intact(self):self.review['reviews'][1]['following_verse_16_unchanged']=False;self.reject(1)
+ def test_abhaya_not_denied(self):self.review['reviews'][1]['continuous_description_does_not_deny_abhaya']=False;self.reject(1)
+ def test_deity_labels_not_harmonized(self):self.review['no_change_adjudications'][0]['deva_sura_labels_harmonized']=True;self.reject_nochange()
+ def test_duality_not_freedom_from_duality(self):self.review['no_change_adjudications'][1]['freedom_from_duality_substituted']=True;self.reject_nochange()
+ def test_syntax_not_settled(self):self.review['no_change_adjudications'][2]['syntax_settled']=True;self.reject_nochange()
 if __name__=='__main__':unittest.main()

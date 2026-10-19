@@ -107,7 +107,16 @@ def validate_base_translation_correction(root,old,new,item,review):
     elif record['issues']:
         assert new['type']=='translation-review'and 'ಪರಿಶೀಲನೆ'in new['text']and record['accepted_translation']is None and record['review_status']=='accepted_with_unresolved_meaning','Base meaning hold hidden/promoted'
         assert all(x['status']=='open'and x['reading']is None for x in record['issues']),'Unresolved meaning accepted'
-        if record.get('correction_mode')=='original_only_reviewed_sentence_replacement':
+        if record.get('correction_mode')=='original_only_reviewed_full_with_hold':
+            assert p['status']=='correction_ready_with_name_identity_hold' and record['printed_name']=='विजयप्रियम्' and record['cross_narrative_identity_settled'] is False and record['uninspected_edition_variant_accepted'] is False,'Printed name or identity hold altered'
+            expected=old['text']
+            for change in p['replacements']:
+                assert expected.count(change['before'])==1,'Reviewed name span absent or repeated'
+                expected=expected.replace(change['before'],change['after'])
+            assert expected==p['proposed_full_replacement'] and record['replacements']==p['replacements'],'Name restoration exceeds independent proposal'
+            marker=old['text'][old['text'].rfind(' ॥'):];note=record['display_note']
+            assert note.startswith(' (ಪರಿಶೀಲನೆ:') and new['text']==expected.replace(marker,note+marker) and record['edition_variant'] is None,'Visible identity hold omitted or unsupported edition invented'
+        elif record.get('correction_mode')=='original_only_reviewed_sentence_replacement':
             assert p['status']=='partial_source_term_correction_meaning_hold' and p['proposed_full_replacement'] is None,'Partial source-term repair promoted to complete translation'
             assert record['replace_from']==p['replace_from'] and record['replacement_sentence']==p['proposed_partial_text'] and old['text'].count(p['replace_from'])==1,'Source-term repair differs from reviewed sentence'
             marker=old['text'][old['text'].rfind(' ॥'):];note=record['display_note']
@@ -135,6 +144,9 @@ def validate_base_translation_correction(root,old,new,item,review):
     elif record.get('correction_mode')=='original_only_full_translation':
         assert not record['issues']and new['type']=='translation'and record['accepted_translation']==new['text']==p['proposed_full_replacement']and record['review_status']=='accepted','Full original-only correction differs from independent proposal'
         assert record['edition_variant']is None,'Unavailable edition variant invented'
+        if key==(1,32,15):
+            assert record['following_verse_16_unchanged'] is True and record['abhaya_belongs_to_16'] is True and record['continuous_description_does_not_deny_abhaya'] is True,'Adjacent abhaya boundary misrepresented'
+            assert 'ಅಭಯ' not in new['text'] and 'ಅಭಯ' in record['following_verse_16_row']['text'],'Abhaya duplicated in15 or omitted from16 context'
     else:
         assert new['type']=='translation'and record['accepted_translation']==new['text']and record['review_status']=='accepted','Base correction treatment differs'
         assert new['text'].startswith(p['proposed_kannada'])and 'ಇದನ್ನು'in new['text']and 'ನಿರ್ದಿಷ್ಟ ಉಲ್ಲೇಖ'in new['text'],'Demonstrative referent invented or note omitted'
@@ -218,7 +230,9 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
             assert x['counted_as_new_correction'] is False and x['current_wording_source_verified'] is False and x['accepted_transliteration'] is None and x['target_readings_source_verified'] is True and x['source_emendation_accepted'] is False,'Evidence-only hold promoted to correction or settled meaning'
             assert x['source_sanskrit']==unit['source_reading'] and x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Source or unknown Google location altered'
             if unit['status']=='unchanged_idiom_meaning_hold':assert x['printed_idiom']=='कालानां कलनात्मकैः' and x['trembling_is_contextual_gloss'] is True,'Idiom falsely resolved'
-            elif unit['status']=='unchanged_lexical_meaning_hold':assert x['printed_lexical_cluster']=='कुंतलाद्यस्त्रकैः' and x['la_preserved'] is True and x['precise_weapon_list_accepted'] is False,'Printed la normalized or weapon list invented'
+            elif unit['status']=='unchanged_lexical_meaning_hold':
+                if key==(1,25,27):assert x['printed_lexical_cluster']=='कुंतलाद्यस्त्रकैः' and x['la_preserved'] is True and x['precise_weapon_list_accepted'] is False,'Printed la normalized or weapon list invented'
+                else:assert key==(1,31,29) and x['printed_lexical_cluster']=='द्वंद्वकारकः' and x['freedom_from_duality_substituted'] is False,'Childlike duality/conflict meaning harmonized'
             elif unit['status']=='unchanged_junction_meaning_hold':assert x['printed_junction']=='रथाश्वालंकृतास्तत्र' and x['shva_not_emended_to_shcha'] is True and x['horses_added'] is False,'Shva junction silently normalized or interpreted'
             elif unit['status']=='unchanged_source_supported_narrative_hold':assert x['printed_narrative_clause']=='नराणां हृद्यताडयत्' and x['men_not_replaced_with_diseases'] is True,'Narrative logic silently repaired'
             else:assert x['printed_weapon']=='खड्गेनैरावतं' and x['printed_action']=='पदाग्रहीत्' and x['Airavata_unconscious_source_supported'] is True and x['Indra_unconsciousness_claimed'] is False and x['precise_foot_action_settled'] is False,'Sword or elephant/Indra action falsely resolved'
@@ -227,6 +241,11 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
             assert x['source_sanskrit']==unit['source_reading'] and x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Source anomaly or unknown Google location altered'
             if unit['status']=='unchanged_source_anomaly_meaning_hold':assert x['printed_anomalous_token']=='निर्विकपल्कम्' and x['retained_Kannada_normalization']=='ನಿರ್ವಿಕಲ್ಪ' and x['normalization_not_literal_print'] is True and x['source_anomaly_resolved'] is False,'Editorial nirvikalpa normalized into literal source claim'
             else:assert x['printed_continuous_name_cluster']=='पुष्पदंतमहाकालरवाः' and x['additional_Rava_name_established'] is False and x['compound_meaning_settled'] is False,'Unsettled Rava name/compound certified'
+        if unit['status']=='unchanged_syntax_meaning_hold':
+            assert x['counted_as_new_correction'] is False and x['accepted_transliteration'] is None and x['current_wording_source_verified'] is False and x['source_sanskrit']==unit['source_reading'],'Unchanged syntax hold promoted'
+            assert x['printed_syntax_cluster']=='न भिन्नौ मयि तिष्ठतः' and x['negation_dual_and_first_person_locative_preserved'] is True and x['syntax_settled'] is False,'Dual/locative syntax altered or settled'
+            assert x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Unknown Google location invented'
+        if key==(1,30,12):assert x['deva_sura_labels_harmonized'] is False and x['dust_confusion_context_preserved'] is True,'Supported gods-striking-gods context harmonized'
         if unit['status']=='unchanged_source_confirmed':
             assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None and x['source_sanskrit']==unit['source_reading'],'Unchanged source confirmation promoted or source altered'
             assert x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'Unknown confirmed-source Google page invented'

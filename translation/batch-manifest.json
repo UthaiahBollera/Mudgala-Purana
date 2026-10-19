@@ -117391,6 +117391,80 @@
           4
         ]
       ]
+    },
+    {
+      "file": "batch-384-reviewed-base-translation.tsv",
+      "sha256": "18eb3271baaa34e9c21652ab69f7e3a7d9ff5955c653a73e6ffb9cf9348e68a3",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch30-ch32-writer-review.json",
+      "review_sha256": "3f9e729c2c9a64e5f55bb1f84a36dd251f8ffa7c2faf161f2099021314dfc496",
+      "coverage_boundary": "reviewed-base-khanda1-ch30-ch32",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            31,
+            2
+          ],
+          "old_row": {
+            "source_pages": "83",
+            "type": "translation",
+            "text": "ಬಳಿಕ ಸುಂದರಪ್ರಿಯನೆಂಬ ತನ್ನ ಮಗನನ್ನು ಕೈಲಾಸದ ಅಧಿಪತಿಯಾಗಿ ನೇಮಿಸಿದನು. ತನ್ನ ಇನ್ನೊಬ್ಬ ಪ್ರಿಯ ಮಗನನ್ನು ವೈಕುಂಠದ ಅಧಿಪತಿಯಾಗಿ ಮಾಡಿದನು. ॥೨॥"
+          },
+          "new_row": {
+            "source_pages": "83",
+            "type": "translation-review",
+            "text": "ಬಳಿಕ ಸುಂದರಪ್ರಿಯನೆಂಬ ತನ್ನ ಮಗನನ್ನು ಕೈಲಾಸದ ಅಧಿಪತಿಯಾಗಿ ನೇಮಿಸಿದನು. ತನ್ನ ವಿಜಯಪ್ರಿಯನೆಂಬ ಮಗನನ್ನು ವೈಕುಂಠದ ಅಧಿಪತಿಯಾಗಿ ಮಾಡಿದನು. (ಪರಿಶೀಲನೆ: ಮೂಲದಲ್ಲಿ “ವಿಜಯಪ್ರಿಯ” ಎಂದು ಮುದ್ರಿಸಿದೆ; ಇತರ ಸಂದರ್ಭಗಳ “ವಿಷಯಪ್ರಿಯ”ನೊಡನೆಯ ಹೆಸರಿನ ಸಂಬಂಧ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೨॥"
+          },
+          "base_snapshot_commit": "5bac1864a5f22859bc2f9d5f81dfbbc8ec7f4ab4",
+          "adjudication_file": "translation/khanda1-ch30-ch32-writer-review.json",
+          "adjudication_sha256": "3f9e729c2c9a64e5f55bb1f84a36dd251f8ffa7c2faf161f2099021314dfc496",
+          "review_status": "accepted",
+          "rationale": "Original clearly prints विजयप्रियम्. Restore the omitted proper name as ವಿಜಯಪ್ರಿಯ; do not silently replace it with ವಿಷಯಪ್ರಿಯ. The base reading is certain, while whether the name is an authorial variant, printing error or narrative inconsistency remains unsettled. Current omission avoids the issue by removing source information and is not warranted."
+        },
+        {
+          "key": [
+            1,
+            32,
+            15
+          ],
+          "old_row": {
+            "source_pages": "86",
+            "type": "translation",
+            "text": "ಸಿಂದೂರದಿಂದ ಶೋಭಿಸುತ್ತಿದ್ದ ಅವನಿಗೆ ಆನೆಯ ಮುಖ, ಶೂರ್ಪದಂತೆ ಕಿವಿಗಳು ಮತ್ತು ದೊಡ್ಡ ಹೊಟ್ಟೆಯಿದ್ದವು. ನಾಲ್ಕು ಭುಜಗಳಲ್ಲಿ ಪಾಶ, ಅಂಕುಶ, ವರ ಮತ್ತು ಅಭಯಮುದ್ರೆಗಳು ಇದ್ದವು. ॥೧೫॥"
+          },
+          "new_row": {
+            "source_pages": "86",
+            "type": "translation",
+            "text": "ಸಿಂಹವಾಹನನಾಗಿದ್ದ ಅವನಿಗೆ ಆನೆಯ ಮುಖ, ಶೂರ್ಪದಂತೆ ಕಿವಿಗಳು ಮತ್ತು ದೊಡ್ಡ ಹೊಟ್ಟೆಯಿದ್ದವು. ನಾಲ್ಕು ಭುಜಗಳನ್ನು ಹೊಂದಿದ್ದ ಅವನು ಪಾಶ, ಅಂಕುಶ ಮತ್ತು ವರಮುದ್ರೆಯಿಂದ ಕೂಡಿದ್ದನು. ॥೧೫॥"
+          },
+          "base_snapshot_commit": "5bac1864a5f22859bc2f9d5f81dfbbc8ec7f4ab4",
+          "adjudication_file": "translation/khanda1-ch30-ch32-writer-review.json",
+          "adjudication_sha256": "3f9e729c2c9a64e5f55bb1f84a36dd251f8ffa7c2faf161f2099021314dfc496",
+          "review_status": "accepted",
+          "rationale": "Original clearly begins सिंहगो, lion-mounted, not a sindura description. Four arms, noose, goad and boon gesture occur in15; अभयेन समायुक्तो begins16 and is already translated in current16. Remove its duplicate from15 without changing16 or implying that he lacks the fearlessness gesture in the continuous description. This is source-backed word and verse-boundary repair."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          30,
+          12
+        ],
+        [
+          1,
+          31,
+          29
+        ],
+        [
+          1,
+          31,
+          49
+        ]
+      ]
     }
   ],
   "reference_only_index": {
