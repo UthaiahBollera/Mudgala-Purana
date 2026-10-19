@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "79891da43ef8a4882dc08217b820bfed2343687d",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        32,
+        35
+      ],
+      "old_row": {
+        "source_pages": "86",
+        "type": "mantra",
+        "text": "ದೈತ್ಯದಾನವರೂಪಾಯ ದೇವರೂಪಾಯ ಚ । ನಮಃ ಪಕ್ಷಿಸ್ವರೂಪಾಯ ಶುಕ್ರರೂಪಾಯ ತೇ ನಮಃ । ॥೩೫॥"
+      },
+      "new_row": {
+        "source_pages": "86",
+        "type": "mantra",
+        "text": "ದೈತ್ಯದಾನವರೂಪಾಯ ದೇವರೂಪಧರಾಯ ಚ । ನಮಃ ಪಕ್ಷಿಸ್ವರೂಪಾಯ ಶುಕರೂಪಾಯ ತೇ ನಮಃ । ॥೩೫॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "दैत्यदानवरूपाय देवरूपधराय च । नमः पक्षिस्वरूपाय शुकरूपाय ते नमः ॥३५॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ದೈತ್ಯದಾನವರೂಪಾಯ ದೇವರೂಪಧರಾಯ ಚ । ನಮಃ ಪಕ್ಷಿಸ್ವರೂಪಾಯ ಶುಕರೂಪಾಯ ತೇ ನಮಃ । ॥೩೫॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/independent-review.md",
+        "sha256": "51fb6e1b519a5a21ac94971ece5296327528723a69db64be24f0c2951febd687"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0073.png",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/original-and-input/original-page_0073.png",
+        "sha256": "6fe6589eca4bc95746b5d0644d42d88dd1ef6e1311174c5c17812bcf49f0b887",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          270,
+          2070,
+          3720,
+          2370
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly contains धर in देवरूपधराय and has शुक, without the rakara needed for शुक्र. The latter agrees with the bird-form context; that contextual agreement is corroborative, not a substitute for the inspected letters. Restore only these two words.",
+      "replacements": [
+        {
+          "before": "ದೇವರೂಪಾಯ",
+          "after": "ದೇವರೂಪಧರಾಯ"
+        },
+        {
+          "before": "ಶುಕ್ರರೂಪಾಯ",
+          "after": "ಶುಕರೂಪಾಯ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        32,
+        36
+      ],
+      "old_row": {
+        "source_pages": "86,87",
+        "type": "mantra",
+        "text": "ಮಹಾಕಾಶಸ್ವರೂಪಾಯ ಲತಾವೃಕ್ಷಸ್ವರೂಪಿಣೇ । ಪರ್ವತಾಯ ನಮಸ್ತುಭ್ಯಂ ಸರಿತ್ಸಾಗರರೂಪಿಣೇ । ॥೩೬॥"
+      },
+      "new_row": {
+        "source_pages": "86,87",
+        "type": "mantra",
+        "text": "ಗ್ರಹನಕ್ಷತ್ರರೂಪಾಯ ಲತಾವೃಕ್ಷಸ್ವರೂಪಿಣೇ । ಪರ್ವತಾಯ ನಮಸ್ತುಭ್ಯಂ ಸರಿತ್ಸಾಗರರೂಪಿಣೇ । ॥೩೬॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "ग्रहनक्षत्ररूपाय लतावृक्षस्वरूपिणे । पर्वताय नमस्तुभ्यं सरित्सागररूपिणे ॥३६॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಗ್ರಹನಕ್ಷತ್ರರೂಪಾಯ ಲತಾವೃಕ್ಷಸ್ವರೂಪಿಣೇ । ಪರ್ವತಾಯ ನಮಸ್ತುಭ್ಯಂ ಸರಿತ್ಸಾಗರರೂಪಿಣೇ । ॥೩೬॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/independent-review.md",
+        "sha256": "51fb6e1b519a5a21ac94971ece5296327528723a69db64be24f0c2951febd687"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0073.png",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/original-and-input/original-page_0073.png",
+        "sha256": "6fe6589eca4bc95746b5d0644d42d88dd1ef6e1311174c5c17812bcf49f0b887",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          270,
+          320,
+          3720,
+          920
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original page73 clearly begins ग्रहनक्षत्ररूपाय. Page74 continues पर्वताय... through36 before37 starts. Replace the unsupported mahakasha epithet only; preserve the correctly joined continuation without duplication.",
+      "replacements": [
+        {
+          "before": "ಮಹಾಕಾಶಸ್ವರೂಪಾಯ",
+          "after": "ಗ್ರಹನಕ್ಷತ್ರರೂಪಾಯ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        32,
+        41
+      ],
+      "old_row": {
+        "source_pages": "87",
+        "type": "mantra",
+        "text": "ಮಾಯಿಭ್ಯೋ ಮೋಹದಾತ್ರೇ ಚ ಸರ್ವಾಕಾರಾಯ ತೇ ನಮಃ । ಸ್ಥೂಲಸೂಕ್ಷ್ಮಾದಿಭೇದಾಯ ಭೇದಹೀನಾಯ ತೇ ನಮಃ । ॥೪೧॥"
+      },
+      "new_row": {
+        "source_pages": "87",
+        "type": "mantra",
+        "text": "ಮಾಯಿಭ್ಯೋ ಮೋಹದಾತ್ರೇ ಚ ಸರ್ವಕಾರಾಯ ತೇ ನಮಃ । ಸ್ಥೂಲಸೂಕ್ಷ್ಮಾದಿಭೇದಾಯ ಭೇದಹೀನಾಯ ತೇ ನಮಃ । ॥೪೧॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "मायिभ्यो मोहदात्रे च सर्वकाराय ते नमः । स्थूलसूक्ष्मादिभेदाय भेदहीनाय ते नमः ॥४१॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "correction_ready_with_meaning_hold",
+          "reading": null,
+          "token": "मायिभ्यो मोहदात्रे च सर्वकाराय ते नमः । स्थूलसूक्ष्मादिभेदाय भेदहीनाय ते नमः ॥४१॥",
+          "detail": "Original clearly has सर्वकाराय, without long आ after व. Both candidate words may be meaningful, but the base letters settle the transcription. Restore only the vowel sequence; do not infer a definitive gloss for the unusual epithet or rewrite the surrounding philosophical wording."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಮಾಯಿಭ್ಯೋ ಮೋಹದಾತ್ರೇ ಚ ಸರ್ವಕಾರಾಯ ತೇ ನಮಃ । ಸ್ಥೂಲಸೂಕ್ಷ್ಮಾದಿಭೇದಾಯ ಭೇದಹೀನಾಯ ತೇ ನಮಃ । ॥೪೧॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/independent-review.md",
+        "sha256": "51fb6e1b519a5a21ac94971ece5296327528723a69db64be24f0c2951febd687"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0074.png",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/original-and-input/original-page_0074.png",
+        "sha256": "19bddde447766814bbf004e630a492042e4763b994a830cd8e488d31114c61be",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          1690,
+          620,
+          2070,
+          740
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly has सर्वकाराय, without long आ after व. Both candidate words may be meaningful, but the base letters settle the transcription. Restore only the vowel sequence; do not infer a definitive gloss for the unusual epithet or rewrite the surrounding philosophical wording.",
+      "meaning_scope": "transcription_only_interpretation_unsettled",
+      "replacements": [
+        {
+          "before": "ಸರ್ವಾಕಾರಾಯ",
+          "after": "ಸರ್ವಕಾರಾಯ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        32,
+        45
+      ],
+      "old_row": {
+        "source_pages": "87",
+        "type": "mantra",
+        "text": "ಮಾಯಾತುಂಡಂ ಚ ಸರ್ವೇಷಾಂ ಮನಸಿ ಜ್ಞಾನಕಾರಕಮ್ । ಬ್ರಹ್ಮ ತಸ್ಮಾತ್ತಥಾ ವಕ್ರಂ ಜ್ಞಾನಹೀನಂ ಬುಧೈಃ ಸ್ಮೃತಮ್ । ॥೪೫॥"
+      },
+      "new_row": {
+        "source_pages": "87",
+        "type": "mantra",
+        "text": "ಮಾಯಾದುಃಖಂ ಚ ಸರ್ವೇಷಾಂ ಮನಸಿ ಜ್ಞಾನಕಾರಕಮ್ । ಬ್ರಹ್ಮ ತಸ್ಮಾತ್ತಥಾ ವಕ್ರಂ ಜ್ಞಾನಹೀನಂ ಬುಧೈಃ ಸ್ಮೃತಮ್ । ॥೪೫॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "मायादुःखं च सर्वेषां मनसि ज्ञानकारकम् । ब्रह्म तस्मात्तथा वक्रं ज्ञानहीनं बुधैः स्मृतम् ॥४५॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "correction_ready_with_meaning_hold",
+          "reading": null,
+          "token": "मायादुःखं च सर्वेषां मनसि ज्ञानकारकम् । ब्रह्म तस्मात्तथा वक्रं ज्ञानहीनं बुधैः स्मृतम् ॥४५॥",
+          "detail": "Original detail clearly reads मायादुःखं, including द, उ, visarga and ख, not मायातुंडं. Restore this source word only. Context46–47 contains ब्रह्मतुंडं and explains Vakratunda, but does not authorize replacing the actual45 word to harmonize the exposition. The syntax/meaning of45 remains compressed; retain a philological hold, especially the relationship of ज्ञानकारकम् to ज्ञानहीनं."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಮಾಯಾದುಃಖಂ ಚ ಸರ್ವೇಷಾಂ ಮನಸಿ ಜ್ಞಾನಕಾರಕಮ್ । ಬ್ರಹ್ಮ ತಸ್ಮಾತ್ತಥಾ ವಕ್ರಂ ಜ್ಞಾನಹೀನಂ ಬುಧೈಃ ಸ್ಮೃತಮ್ । ॥೪೫॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/independent-review.md",
+        "sha256": "51fb6e1b519a5a21ac94971ece5296327528723a69db64be24f0c2951febd687"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0074.png",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/original-and-input/original-page_0074.png",
+        "sha256": "19bddde447766814bbf004e630a492042e4763b994a830cd8e488d31114c61be",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          1300,
+          920,
+          1720,
+          1040
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original detail clearly reads मायादुःखं, including द, उ, visarga and ख, not मायातुंडं. Restore this source word only. Context46–47 contains ब्रह्मतुंडं and explains Vakratunda, but does not authorize replacing the actual45 word to harmonize the exposition. The syntax/meaning of45 remains compressed; retain a philological hold, especially the relationship of ज्ञानकारकम् to ज्ञानहीनं.",
+      "meaning_scope": "transcription_only_interpretation_unsettled",
+      "replacements": [
+        {
+          "before": "ಮಾಯಾತುಂಡಂ",
+          "after": "ಮಾಯಾದುಃಖಂ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        32,
+        48
+      ],
+      "old_row": {
+        "source_pages": "87",
+        "type": "mantra",
+        "text": "ತಂ ವಕ್ರತುಂಡಂ ಪಶ್ಯಾಮಃ ಸಾಕ್ಷಾದ್ಯೋಗಮಯಂ ಪರಮ್ । ಧನ್ಯಾ ವಯಂ ಗಣಾಧ್ಯಕ್ಷ ಸ್ತುತ್ವಾ ತಂ ಪ್ರಣತಾಃ ಸ್ತವೈಃ । ॥೪೮॥"
+      },
+      "new_row": {
+        "source_pages": "87",
+        "type": "mantra",
+        "text": "ತಂ ವಕ್ರತುಂಡಂ ಪಶ್ಯಾಮಃ ಸಾಕ್ಷಾದ್ಯೋಗಮಯಂ ಪರಮ್ । ಧನ್ಯಾ ವಯಂ ಗಣಾಧ್ಯಕ್ಷಂ ಸ್ತುತ್ವಾ ತಂ ಪ್ರಣತಾಃ ಸ್ತವೈಃ । ॥೪೮॥"
+      },
+      "base_file": "translation/batch-04-02.tsv",
+      "source_sanskrit": "तं वक्रतुंडं पश्यामः साक्षाद् योगमयं परम् । धन्या वयं गणाध्यक्षं स्तुत्वा तं प्रणताः स्तवैः ॥४८॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ತಂ ವಕ್ರತುಂಡಂ ಪಶ್ಯಾಮಃ ಸಾಕ್ಷಾದ್ಯೋಗಮಯಂ ಪರಮ್ । ಧನ್ಯಾ ವಯಂ ಗಣಾಧ್ಯಕ್ಷಂ ಸ್ತುತ್ವಾ ತಂ ಪ್ರಣತಾಃ ಸ್ತವೈಃ । ॥೪೮॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/independent-review.md",
+        "sha256": "51fb6e1b519a5a21ac94971ece5296327528723a69db64be24f0c2951febd687"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0074.png",
+        "file": "translation/source-review-addenda/khanda1-ch32-late/original-and-input/original-page_0074.png",
+        "sha256": "19bddde447766814bbf004e630a492042e4763b994a830cd8e488d31114c61be",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          1220,
+          1210,
+          1530,
+          1340
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly has anusvara on गणाध्यक्षं. Restore the accusative ending only. Do not retain the current vocative merely because it would permit another coherent construction.",
+      "replacements": [
+        {
+          "before": "ಗಣಾಧ್ಯಕ್ಷ ಸ್ತುತ್ವಾ",
+          "after": "ಗಣಾಧ್ಯಕ್ಷಂ ಸ್ತುತ್ವಾ"
+        }
+      ]
+    }
+  ],
+  "no_change_adjudications": [],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch32-late/before-after-proposals.json",
+  "candidate_sha256": "b6ce5a13503959afc37a6d9f4797c1e4430086ed2fcf8f476df703e21446471c",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/before-after-proposals.json",
+      "sha256": "b6ce5a13503959afc37a6d9f4797c1e4430086ed2fcf8f476df703e21446471c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/crop_coordinates.json",
+      "sha256": "2720fb999741b215f01e41c2e6f77d730f6b0199e4e626b72fe512ded0cdc607"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/crops/32-33-36-opening.png",
+      "sha256": "530cea5bc98b24efa03f71fa2b5e08a09316f26867520fa72958cefaf1449ebc"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/crops/32-36-43.png",
+      "sha256": "2d28e3bc906ffb38ad406769da5f9708e0e75856aae84b09d688ae2e4d5be89b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/crops/32-43-50.png",
+      "sha256": "15a57b1db138b530b1904481d5ac40fe890aac9b11a14244b0055e02d4284a6e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/crops/35-shuka.png",
+      "sha256": "99ac5fcb55fbb61075e9194fc960309120df90d920f881cf2d78e6ffec54fc8f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/crops/41-sarva.png",
+      "sha256": "a1f91da4bb4ce50c44e68dae10bad668968a8fa47dc207309ed881ea0d09d0c0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/crops/45-maya.png",
+      "sha256": "089e8306e2ef5f985760c150e720d078a1d3c32f55e2c9fae5f0f97c1961e83c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/crops/48-ending.png",
+      "sha256": "9e35dc56278a4e945e41d29d64dad9ba7f4b5d5bb95dfd1934220c241662c6f4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/independent-review.md",
+      "sha256": "51fb6e1b519a5a21ac94971ece5296327528723a69db64be24f0c2951febd687"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/manifest.json",
+      "sha256": "78154cf57c9a0fcf3d413a4eaf7b723692a3f788406bf4e443e05d342f60a4ad"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/original-and-input/khanda1-ch32-late-next-five-review-packet.json",
+      "sha256": "321d01199ea9a5a4adee66f815a434448d90597c2988a1953f486a83c807a4ed"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/original-and-input/original-page_0073.png",
+      "sha256": "6fe6589eca4bc95746b5d0644d42d88dd1ef6e1311174c5c17812bcf49f0b887"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch32-late/original-and-input/original-page_0074.png",
+      "sha256": "19bddde447766814bbf004e630a492042e4763b994a830cd8e488d31114c61be"
+    }
+  ],
+  "handoff_Library_file": "libfile_8a5403cf9a0c81919ec068caef7a7add",
+  "handoff_sha256": "682192335f29f123d82408a6569959dc4a5bcfc09b85930fa38e59227a69a8f2",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}
