@@ -222,6 +222,9 @@ for khanda, chapter in chapters:
             pages.append(section(gap['id'], gap['title'],
                                  f'<p class="caption">{e(gap["text"])}</p>',
                                  gap['source_page'], 'source-gap'))
+from reference_only import load as load_reference_only, render as render_reference_only
+reference_only_data = load_reference_only(BASE)
+pages.extend(render_reference_only(reference_only_data))
 css='''@font-face{font-family:"Tiro Kannada";src:url("assets/TiroKannada-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
 :root{--paper:#f4ead6;--ink:#3d3027;--red:#8c302b}*{box-sizing:border-box}body{margin:0;background:#30201e;color:var(--ink);font-family:"Tiro Kannada",serif;font-synthesis:none}
 .book{counter-reset:leaf;display:grid;grid-template-columns:minmax(0,1fr);gap:32px;padding:28px 18px 50px}.page{counter-increment:leaf;position:relative;min-width:0;max-width:100%;width:min(740px,100%);min-height:1046px;margin:auto;background:var(--paper);padding:92px 64px 90px;box-shadow:0 16px 40px #140b0b88}.page::before{content:"ಶ್ರೀ ಮುದ್ಗಲ ಪುರಾಣ";position:absolute;left:64px;right:64px;top:32px;text-align:center;border-bottom:1px solid #9c704475;padding-bottom:12px;font-size:12px;color:#624939}.page-number{position:absolute;bottom:32px;left:0;right:0;text-align:center;color:var(--red);font-size:14px}.page-number::after{content:counter(leaf,kannada)}

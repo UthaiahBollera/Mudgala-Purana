@@ -42,7 +42,7 @@ for section in sections:
 for i,section in enumerate(sections):
     id=section.get('id');name=id+'.xhtml';title=section.get('data-title') or 'ಮುದ್ಗಲ ಪುರಾಣ'
     files[name]=document(title,[section]);items.append((f's{i}',name,'application/xhtml+xml',''))
-    if not id.startswith(('chapter-','contents-')) or id.endswith('-1'):
+    if not id.startswith(('chapter-','contents-','reference-chapter-')) or id.endswith('-1'):
         li=etree.SubElement(ol,'{%s}li'%X)
         label=section.get('data-toc-label') or title
         etree.SubElement(li,'{%s}a'%X,href=name).text=label
@@ -78,6 +78,9 @@ if manifest_path.exists():
         else:
             start, end = batch['pdf_page_range']
             source_description += f' {batch["source_pdf"]}; PDF pages {start}–{end}.'
+from reference_only import load as load_reference_only
+if load_reference_only(BASE)['chapters']:
+    source_description += ' Additional chapters are provisional Kannada based only on uploaded Sanskrit OCR; editorial locators are not verified verse numbers. Partial chapter25 Argon evidence is retained separately; no continuation scans or Argon are claimed.'
 dc('title','ಮುದ್ಗಲ ಪುರಾಣ');dc('language','kn');dc('source',source_description)
 dc('description','Kannada reading draft. Narrative is translated; devotional passages are transliterated without translation. Editorial uncertainties and batch boundaries are recorded outside the reading text.')
 for prop,value in [('dcterms:modified',datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')),('rendition:layout','reflowable')]:etree.SubElement(metadata,'{%s}meta'%P,property=prop).text=value

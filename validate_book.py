@@ -147,3 +147,7 @@ cmap = font.getBestCmap()
 missing = sorted({c for c in doc.text_content() if 0xC80 <= ord(c) <= 0xCFF and ord(c) not in cmap})
 assert not missing, missing
 print(f'Structure passed: {len(merged)} unique verse entries, source pages through {expected}, {len(partials)} explicitly checked partials, Kannada glyphs and plain-book markup.')
+
+from reference_only import load as load_reference_only, validate_rendered as validate_reference_rendered
+reference_stats=validate_reference_rendered(load_reference_only(root),doc)
+print('Reference-only reading checks passed:',reference_stats)

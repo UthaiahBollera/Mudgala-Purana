@@ -352,3 +352,7 @@ with ZipFile(ROOT/'dist/mudgala_purana.epub') as archive:
 print(f'Provenance/integrity passed: {len(ledger)} logged corrections; {len(after)} reviewed entries retained; {addition_count} logged additions; {completion_count} boundary completions; HTML/EPUB references and verse order checked.')
 print(f'Sanskrit quotation comparison: {len(ledger)} checked against pinned local reference.' if reference_verses else 'Sanskrit quotation comparison not rerun: local reference cache absent; see sources.json and review record.')
 print('This does not replace EPUBCheck, reader testing, or Sanskrit/Kannada scholarly review.')
+
+from reference_only import load as load_reference_only
+reference_data=load_reference_only(Path(__file__).resolve().parent)
+print('Reference-only literal source provenance passed:',len(reference_data['chapters']),'chapters; no verified verse total claimed')

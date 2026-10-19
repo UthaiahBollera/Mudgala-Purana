@@ -15,6 +15,8 @@ from zipfile import ZipFile
 from lxml import etree, html
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from reference_only import load as load_reference_only, validate_rendered as validate_reference_rendered
 X = {'x': 'http://www.w3.org/1999/xhtml'}
 KN = str.maketrans('0123456789', '೦೧೨೩೪೫೬೭೮೯')
 
@@ -33,6 +35,7 @@ def check(base):
     completed = {chapter_key(row) for row in json.loads((base/'translation/completed-chapters.json').read_text())}
     reading_partial = {chapter_key(item) for item in json.loads((base/'translation/chapter-metadata.json').read_text())['chapters'] if item.get('reading_status') == 'partial'}
     doc = html.fromstring((base/'book/index.html').read_bytes())
+    validate_reference_rendered(load_reference_only(base),doc)
     gaps = json.loads((base/'translation/chapter-metadata.json').read_text()).get('source_gaps', [])
     for gap in gaps:
         notice = doc.get_element_by_id(gap['id'])
@@ -119,7 +122,7 @@ def check(base):
 
 with tempfile.TemporaryDirectory(prefix='mudgala-contents-') as tmp:
     base = Path(tmp)
-    for filename in ('build_book.py', 'build_epub.py'):
+    for filename in ('build_book.py', 'build_epub.py', 'reference_only.py'):
         shutil.copy2(ROOT/filename, base/filename)
     shutil.copytree(ROOT/'translation', base/'translation')
     shutil.copytree(ROOT/'book/assets', base/'book/assets')
@@ -138,7 +141,7 @@ with tempfile.TemporaryDirectory(prefix='mudgala-contents-') as tmp:
     with path.open('w', encoding='utf-8', newline='') as stream:
         writer = csv.DictWriter(stream, fields, delimiter='\t')
         writer.writeheader(); writer.writerows(data)
-    (base/'translation/batch-manifest.json').write_text(json.dumps({'schema_version': 2, 'batches': [{'source_kind': 'google_books', 'book_id': 'Lh0FEQAAQBAJ', 'source_pages': [{'id': f'gb:Lh0FEQAAQBAJ:{page}', 'page_id': page, 'url': f'https://books.google.com/books?id=Lh0FEQAAQBAJ&pg={page}'} for page in ['PT897', 'PT898']]}]}))
+    (base/'translation/batch-manifest.json').write_text(json.dumps({'schema_version': 2, 'reference_only_index': json.loads((base/'translation/batch-manifest.json').read_text()).get('reference_only_index'), 'batches': [{'source_kind': 'google_books', 'book_id': 'Lh0FEQAAQBAJ', 'source_pages': [{'id': f'gb:Lh0FEQAAQBAJ:{page}', 'page_id': page, 'url': f'https://books.google.com/books?id=Lh0FEQAAQBAJ&pg={page}'} for page in ['PT897', 'PT898']]}]}))
     for filename in ('build_book.py', 'build_epub.py'):
         subprocess.run([sys.executable, str(base/filename)], check=True)
     check(base)
