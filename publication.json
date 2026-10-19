@@ -1,6 +1,6 @@
 {
-  "source_commit": "d58cc54298f71a74ec3e73d2d3c8befdf02c7033",
-  "coverage": "Repair four chapter 8 mantra readings and confirm verse 51 without change",
+  "source_commit": "66551a48f81255c6fc99820fd6b79adfeae9d1eb",
+  "coverage": "Repair Khanda 1 verse 10.23 and preserve four unchanged evidence distinctions",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "bbfeec088daebdc8aae813d7a9ca609849863abd73ec1f47a368c4c4bcebdd25",
-  "epub_sha256": "b89517cfb0c4bd7c1d0b1581ca747ec5562d036b4cdb490b05596b95a3f5a3af",
+  "html_sha256": "5632f5f5e2db31f7257a9a83425da51f07a9efb7133374b955a97525c7699bbe",
+  "epub_sha256": "c23692af1d719758d043a2652ffcde6e0a10426c9ea054a28bad2e8698dc7368",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 4,
+  "new_accepted_textual_candidates": 1,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 70,
   "new_seven_joins": [
@@ -289,7 +289,8 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    8
+    9,
+    10
   ],
   "represented_chapters": 425,
   "new_translation_units": 0,
@@ -517,32 +518,8 @@
     {
       "key": [
         1,
-        8,
-        48
-      ],
-      "scope": "original_only_mantra_token"
-    },
-    {
-      "key": [
-        1,
-        8,
-        54
-      ],
-      "scope": "original_only_mantra_token"
-    },
-    {
-      "key": [
-        1,
-        8,
-        61
-      ],
-      "scope": "original_only_mantra_token"
-    },
-    {
-      "key": [
-        1,
-        8,
-        65
+        10,
+        23
       ],
       "scope": "original_only_mantra_token"
     }
@@ -628,8 +605,10 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "1.8.54 compound interpretation not asserted",
-    "1.8.51 Google target unknown;text unchanged,original target readings confirmed"
+    "9.39 printed svam;sky contextual interpretation,not diplomatic kham",
+    "9.38/10.2 measurements retained without referent/unit harmonization",
+    "10.14 compressed syntax;unchanged",
+    "9.2 source-confirmed current rendering;Google target unknown"
   ],
   "chapter50_verses": 48,
   "chapter51_verses": 42,
@@ -638,12 +617,27 @@
   "reviewed_no_text_change_keys": [
     [
       1,
-      8,
-      51
+      9,
+      2
+    ],
+    [
+      1,
+      9,
+      38
+    ],
+    [
+      1,
+      9,
+      39
+    ],
+    [
+      1,
+      10,
+      14
     ]
   ],
   "new_reviewed_partial_corrections": 0,
-  "new_no_change_reviews": 1,
+  "new_no_change_reviews": 4,
   "mantra_meaning_hold_keys": [
     [
       1,
@@ -651,7 +645,18 @@
       30
     ]
   ],
-  "source_unverified_unchanged_keys": [],
+  "source_unverified_unchanged_keys": [
+    [
+      1,
+      9,
+      39
+    ],
+    [
+      1,
+      10,
+      14
+    ]
+  ],
   "earlier_reading_holds_preserved": true,
-  "new_target_reading_confirmations": 1
+  "new_target_reading_confirmations": 2
 }
