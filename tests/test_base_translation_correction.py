@@ -539,4 +539,24 @@ class AbhayaSunriseAndFourHolds(unittest.TestCase):
  def test_combat_nuance_not_settled(self):self.review['no_change_adjudications'][1]['combat_nuance_settled']=True;self.reject_nochange()
  def test_unsupported_karma_not_certified(self):self.review['no_change_adjudications'][2]['unsupported_clause_certified']=True;self.reject_nochange()
  def test_temporal_agency_not_settled(self):self.review['no_change_adjudications'][3]['temporal_reference_and_agency_settled']=True;self.reject_nochange()
+class SvahridiPrakasheAndThreeHolds(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch37-ch39-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):self.check();self.check(1);self.nochange()
+ def test_sva_not_sarva(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಸ್ವಹೃದಿ','ಸರ್ವಹೃದಿ')
+  self.reject()
+ def test_locative_not_anusvara(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಪ್ರಕಾಶೇ','ಪ್ರಕಾಶಂ')
+  self.reject(1)
+ def test_instrumental_not_settled(self):self.review['no_change_adjudications'][0]['instrumental_coordination_certified']=True;self.reject_nochange()
+ def test_atmana_not_certified(self):self.review['no_change_adjudications'][1]['atmana_nominalization_certified']=True;self.reject_nochange()
+ def test_transcription_not_philosophy(self):self.review['no_change_adjudications'][2]['compound_segmentation_and_philosophical_meananing_certified']=True;self.reject_nochange()
 if __name__=='__main__':unittest.main()

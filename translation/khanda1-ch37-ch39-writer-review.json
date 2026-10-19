@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "14f70c06035d4c19ec4079b7d77cf351c767acc9",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        38,
+        43
+      ],
+      "old_row": {
+        "source_pages": "100",
+        "type": "mantra",
+        "text": "ಅನಂತಲೀಲಯಾ ಯುಕ್ತಂ ಲೀಲಾಹೀನಂ ನಮಾಮಿ ತಮ್ । ಅವ್ಯಕ್ತಂ ವ್ಯಕ್ತರೂಪಂ ವೈ ನಮಾಮಿ ಸರ್ವಹೃದಿ ಸ್ಥಿತಮ್ ॥೪೩॥"
+      },
+      "new_row": {
+        "source_pages": "100",
+        "type": "mantra",
+        "text": "ಅನಂತಲೀಲಯಾ ಯುಕ್ತಂ ಲೀಲಾಹೀನಂ ನಮಾಮಿ ತಮ್ । ಅವ್ಯಕ್ತಂ ವ್ಯಕ್ತರೂಪಂ ವೈ ನಮಾಮಿ ಸ್ವಹೃದಿ ಸ್ಥಿತಮ್ ॥೪೩॥"
+      },
+      "base_file": "translation/batch-05-01.tsv",
+      "source_sanskrit": "अनंतलीलया युक्तं लीलाहीनं नमामि तम् । अव्यक्तं व्यक्तरूपं वै नमामि स्वहृदि स्थितम् ॥४३॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಅನಂತಲೀಲಯಾ ಯುಕ್ತಂ ಲೀಲಾಹೀನಂ ನಮಾಮಿ ತಮ್ । ಅವ್ಯಕ್ತಂ ವ್ಯಕ್ತರೂಪಂ ವೈ ನಮಾಮಿ ಸ್ವಹೃದಿ ಸ್ಥಿತಮ್ ॥೪೩॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/independent-review.md",
+        "sha256": "b04b204319620cba58cf6b61a67cba27994425d0b6d6d017c3d108ae9f600fe5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0087.png",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0087.png",
+        "sha256": "9b18305680a595a53e6d26b7101e2bdc7fea62c40a6a259812ab2d1abda3919e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          360,
+          3710,
+          900
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page87 clearly has स्वहृदि, with no intervening र्व of सर्व. Correct the Kannada mantra to the observed base edition. This agrees with the historical online quotation, but no other printed edition or Google target has been verified; do not claim cross-edition unanimity.",
+      "replacements": [
+        {
+          "before": "ಸರ್ವಹೃದಿ",
+          "after": "ಸ್ವಹೃದಿ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        39,
+        8
+      ],
+      "old_row": {
+        "source_pages": "101",
+        "type": "mantra",
+        "text": "ರಜೋರೂಪಸೃಷ್ಟಿಪ್ರಕಾಶಂ ವಿಧಿಂ ತಂ ಸದಾ ಪಾಲನೇ ಕೇಶವಂ ಸತ್ತ್ವಸಂಸ್ಥಮ್ । ತಮೋರೂಪಧಾರಂ ಹರಂ ಸಂಹರಂ ತಂ ನಮಾಮಃ ಸದಾ ವಕ್ರತುಂಡಂ ಭಜಾಮಃ ॥೮॥"
+      },
+      "new_row": {
+        "source_pages": "101",
+        "type": "mantra",
+        "text": "ರಜೋರೂಪಸೃಷ್ಟಿಪ್ರಕಾಶೇ ವಿಧಿಂ ತಂ ಸದಾ ಪಾಲನೇ ಕೇಶವಂ ಸತ್ತ್ವಸಂಸ್ಥಮ್ । ತಮೋರೂಪಧಾರಂ ಹರಂ ಸಂಹರಂ ತಂ ನಮಾಮಃ ಸದಾ ವಕ್ರತುಂಡಂ ಭಜಾಮಃ ॥೮॥"
+      },
+      "base_file": "translation/batch-05-01.tsv",
+      "source_sanskrit": "रजोरूपसृष्टिप्रकाशे विधिं तं सदा पालने केशवं सत्त्वसंस्थम् । तमोरूपधारं हरं संहरं तं नमामः सदा वक्रतुंडं भजामः ॥८॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ರಜೋರೂಪಸೃಷ್ಟಿಪ್ರಕಾಶೇ ವಿಧಿಂ ತಂ ಸದಾ ಪಾಲನೇ ಕೇಶವಂ ಸತ್ತ್ವಸಂಸ್ಥಮ್ । ತಮೋರೂಪಧಾರಂ ಹರಂ ಸಂಹರಂ ತಂ ನಮಾಮಃ ಸದಾ ವಕ್ರತುಂಡಂ ಭಜಾಮಃ ॥೮॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/independent-review.md",
+        "sha256": "b04b204319620cba58cf6b61a67cba27994425d0b6d6d017c3d108ae9f600fe5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0088.png",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0088.png",
+        "sha256": "a5b2ff36ee00f6d1a5485efad40b65125fa57eb26e034a43272a17a6ee6bee6f",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          900,
+          970,
+          3710,
+          1090
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page88 has the e vowel mark in प्रकाशे, not anusvara प्रकाशं. Retain the locative ending in Kannada. Other wording remains unchanged, including printed संहरं; do not harmonize it to a different epithet. Historical quotation agrees but no separate printed edition was inspected.",
+      "replacements": [
+        {
+          "before": "ಪ್ರಕಾಶಂ",
+          "after": "ಪ್ರಕಾಶೇ"
+        }
+      ]
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        37,
+        39
+      ],
+      "old_row": {
+        "source_pages": "97,98",
+        "type": "translation",
+        "text": "ಮೂಢನಾಗಿರುವುದರಿಂದಲೇ ನನ್ನೊಡನೆ ಯುದ್ಧಮಾಡಲು ಬಂದಿರುವೆ. ಎಂಟು ಆವರಣಗಳಿಂದಾಗಲಿ ದೇಹಧಾರಿಗಳಿಂದಾಗಲಿ ನನಗೆ ಮರಣವಿಲ್ಲ. ॥೩೯॥"
+      },
+      "new_row": {
+        "source_pages": "97,98",
+        "type": "translation",
+        "text": "ಮೂಢನಾಗಿರುವುದರಿಂದಲೇ ನನ್ನೊಡನೆ ಯುದ್ಧಮಾಡಲು ಬಂದಿರುವೆ. ಎಂಟು ಆವರಣಗಳಿಂದಾಗಲಿ ದೇಹಧಾರಿಗಳಿಂದಾಗಲಿ ನನಗೆ ಮರಣವಿಲ್ಲ. ॥೩೯॥"
+      },
+      "base_file": "translation/batch-05-01.tsv",
+      "source_sanskrit": "मूढोऽसि येन संग्रामं कर्तुमागत एव च । न मे मृत्युर्भवेदष्टावरणैर्देहधारिभिः ॥३९॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_grammatical_relationship_hold",
+          "reading": null,
+          "token": "मूढोऽसि येन संग्रामं कर्तुमागत एव च । न मे मृत्युर्भवेदष्टावरणैर्देहधारिभिः ॥३९॥",
+          "detail": "Page84 prints the entire verse text; only its numeral continues on85. The eight enclosures and embodied-bearing instrumental forms are clear. Current Kannada coordinates them as two separate causes (ಆವರಣಗಳಿಂದಾಗಲಿ ದೇಹಧಾರಿಗಳಿಂದಾಗಲಿ). The Sanskrit can instead attach embodied-bearing as a qualifier to enclosures; surrounding37–41 does not settle the relation. Retain provisionally, without certifying that coordination or replacing it by a different unsupported construction. No weapons reading is supported."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/independent-review.md",
+        "sha256": "b04b204319620cba58cf6b61a67cba27994425d0b6d6d017c3d108ae9f600fe5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0084.png",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0084.png",
+        "sha256": "5bf0962534129edc96b2f610a49c5c861012edf7cb262b7d1c4460a4da67f140",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1980,
+          3700,
+          2320
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page84 prints the entire verse text; only its numeral continues on85. The eight enclosures and embodied-bearing instrumental forms are clear. Current Kannada coordinates them as two separate causes (ಆವರಣಗಳಿಂದಾಗಲಿ ದೇಹಧಾರಿಗಳಿಂದಾಗಲಿ). The Sanskrit can instead attach embodied-bearing as a qualifier to enclosures; surrounding37–41 does not settle the relation. Retain provisionally, without certifying that coordination or replacing it by a different unsupported construction. No weapons reading is supported.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_instrumentals": "अष्टावरणैर्देहधारिभिः",
+      "instrumental_coordination_certified": false,
+      "weapons_reading_accepted": false
+    },
+    {
+      "key": [
+        1,
+        38,
+        34
+      ],
+      "old_row": {
+        "source_pages": "99",
+        "type": "translation",
+        "text": "ಅಲ್ಲಿ ಕಡಿಮೆಯೂ ಇಲ್ಲ, ಹೆಚ್ಚೂ ಇಲ್ಲ; ಸಮತೆಯೂ ಆತ್ಮಭಾವವೂ ಇಲ್ಲ. ನಾಲ್ಕು ಪಾದಗಳಿಂದ ಕೂಡಿದ ಆ ಬ್ರಹ್ಮವು ಸ್ವಭಾವತಃ ಪಾದರಹಿತವಾಗಿದೆ. ॥೩೪॥"
+      },
+      "new_row": {
+        "source_pages": "99",
+        "type": "translation",
+        "text": "ಅಲ್ಲಿ ಕಡಿಮೆಯೂ ಇಲ್ಲ, ಹೆಚ್ಚೂ ಇಲ್ಲ; ಸಮತೆಯೂ ಆತ್ಮಭಾವವೂ ಇಲ್ಲ. ನಾಲ್ಕು ಪಾದಗಳಿಂದ ಕೂಡಿದ ಆ ಬ್ರಹ್ಮವು ಸ್ವಭಾವತಃ ಪಾದರಹಿತವಾಗಿದೆ. ॥೩೪॥"
+      },
+      "base_file": "translation/batch-05-01.tsv",
+      "source_sanskrit": "न न्यूनं नाधिकं तत्र न समं चात्मना न च । चतुष्पादमयं ब्रह्म पादहीनं स्वभावतः ॥३४॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_first_half_syntax_hold",
+          "reading": null,
+          "token": "न न्यूनं नाधिकं तत्र न समं चात्मना न च । चतुष्पादमयं ब्रह्म पादहीनं स्वभावतः ॥३४॥",
+          "detail": "Page86 confirms चात्मना न च, not a cleaner conjectural reading. Current ಆತ್ಮಭಾವವೂ ಇಲ್ಲ is an interpretive nominalization of the opaque instrumental आत्मना; it is not securely established. Second half, including naturally without feet/padas despite fourfold/pada character, is represented. Retain pending syntax adjudication; do not erase the paradox or present current first half as confirmed."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/independent-review.md",
+        "sha256": "b04b204319620cba58cf6b61a67cba27994425d0b6d6d017c3d108ae9f600fe5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0086.png",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0086.png",
+        "sha256": "ba4922322ad37452464c1dcb81e4e26acd061f7bd14165274d2e6096ac081766",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          1570,
+          3700,
+          2080
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page86 confirms चात्मना न च, not a cleaner conjectural reading. Current ಆತ್ಮಭಾವವೂ ಇಲ್ಲ is an interpretive nominalization of the opaque instrumental आत्मना; it is not securely established. Second half, including naturally without feet/padas despite fourfold/pada character, is represented. Retain pending syntax adjudication; do not erase the paradox or present current first half as confirmed.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_first_half_cluster": "न समं चात्मना न च",
+      "atmana_nominalization_certified": false,
+      "first_half_syntax_settled": false
+    },
+    {
+      "key": [
+        1,
+        39,
+        7
+      ],
+      "old_row": {
+        "source_pages": "101",
+        "type": "mantra",
+        "text": "ಉಪಸ್ಥತ್ವಗುಕ್ತೀಕ್ಷಣಸ್ಥಪ್ರಕಾಶಂ ಕರಾಂಘ್ರಿಸ್ವರೂಪಂ ಕೃತಘ್ರಾಣಜಿಹ್ವಮ್ । ಗುದಸ್ಥಂ ಶ್ರುತಿಸ್ಥಂ ಮಹಾಖಪ್ರಕಾಶಂ ನಮಾಮಃ ಸದಾ ವಕ್ರತುಂಡಂ ಭಜಾಮಃ ॥೭॥"
+      },
+      "new_row": {
+        "source_pages": "101",
+        "type": "mantra",
+        "text": "ಉಪಸ್ಥತ್ವಗುಕ್ತೀಕ್ಷಣಸ್ಥಪ್ರಕಾಶಂ ಕರಾಂಘ್ರಿಸ್ವರೂಪಂ ಕೃತಘ್ರಾಣಜಿಹ್ವಮ್ । ಗುದಸ್ಥಂ ಶ್ರುತಿಸ್ಥಂ ಮಹಾಖಪ್ರಕಾಶಂ ನಮಾಮಃ ಸದಾ ವಕ್ರತುಂಡಂ ಭಜಾಮಃ ॥೭॥"
+      },
+      "base_file": "translation/batch-05-01.tsv",
+      "source_sanskrit": "उपस्थत्वगुक्तीक्षणस्थप्रकाशं करांघ्रिस्वरूपं कृतघ्राणजिह्वम् । गुदस्थं श्रुतिस्थं महाखप्रकाशं नमामः सदा वक्रतुंडं भजामः ॥७॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_transcription_confirmed",
+          "reading": null,
+          "token": "उपस्थत्वगुक्तीक्षणस्थप्रकाशं करांघ्रिस्वरूपं कृतघ्राणजिह्वम् । गुदस्थं श्रुतिस्थं महाखप्रकाशं नमामः सदा वक्रतुंडं भजामः ॥७॥",
+          "detail": "Page88 confirms the current mantra, including घ्राण (not प्राण), स्वरूप, and महाखप्रकाशं. The source uses anusvara in करांघ्रि; current ಕರಾಂಘ್ರಿ agrees. No new correction. Compound segmentation and philosophical organ correspondences are not adjudicated by this transliteration check."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/independent-review.md",
+        "sha256": "b04b204319620cba58cf6b61a67cba27994425d0b6d6d017c3d108ae9f600fe5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0088.png",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0088.png",
+        "sha256": "a5b2ff36ee00f6d1a5485efad40b65125fa57eb26e034a43272a17a6ee6bee6f",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          850,
+          840,
+          3710,
+          980
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Page88 confirms the current mantra, including घ्राण (not प्राण), स्वरूप, and महाखप्रकाशं. The source uses anusvara in करांघ्रि; current ಕರಾಂಘ್ರಿ agrees. No new correction. Compound segmentation and philosophical organ correspondences are not adjudicated by this transliteration check.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_organ_token": "घ्राण",
+      "printed_form_token": "स्वरूप",
+      "compound_segmentation_and_philosophical_meananing_certified": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch37-ch39/before-after-proposals.json",
+  "candidate_sha256": "e299c25746de8e74494f26eb4385862c8099fb8511424ca566027b7fb42b1ec0",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/before-after-proposals.json",
+      "sha256": "e299c25746de8e74494f26eb4385862c8099fb8511424ca566027b7fb42b1ec0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/crop_coordinates.json",
+      "sha256": "61c9f5e9530088b3e39cce39fcc84ee23b1cf7e9ec412895588eef53147b9126"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/crops/37-37-39.png",
+      "sha256": "1dc41b6cea54db5cd736a2edff01f51de94706e961cc06439a0ac925ecb8979b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/crops/37-39-41.png",
+      "sha256": "7c195abd2f3bf66c2f80edddf1c50c7021e69ec2b8037e2c168e38f3ade9bba2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/crops/38-32-36.png",
+      "sha256": "5597732dbd23254b563bf64d5d1d73b7bde3dee7f3a535916e479326925df56b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/crops/38-41-45.png",
+      "sha256": "563a4808482d1fcef044d621c9217122b3045653bdf5e72116499b1a0c8f1c29"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/crops/39-5-10.png",
+      "sha256": "597237999afcfd4ba702e8c6070f641cb8c16ac341d17e09e75f65bcf12bb337"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/crops/39-7-detail.png",
+      "sha256": "fae58bff76f497ad574d5cdea2f7f7d0e8bd4be71ac5969bb9ec703e86781804"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/crops/39-8-detail.png",
+      "sha256": "4e5f3f126afe2f388a9e03e8c6560e911b831af306b1255985a78bd2a0895970"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/independent-review.md",
+      "sha256": "b04b204319620cba58cf6b61a67cba27994425d0b6d6d017c3d108ae9f600fe5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/manifest.json",
+      "sha256": "c5fe5dd3af2dff1b956e26b6f11595e476a07f9db52d7f0dbbf15d4270ca29b5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/khanda1-ch37-ch39-next-five-review-packet.json",
+      "sha256": "a154776c0ebab20032b8677f97fa50016ca87a46e5ec9a97a1b8c876cfa9b641"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0084.png",
+      "sha256": "5bf0962534129edc96b2f610a49c5c861012edf7cb262b7d1c4460a4da67f140"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0085.png",
+      "sha256": "3084a61c6720343a80be2150fd7f12eeb136867ef8ba13a72af4ad20324414c0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0086.png",
+      "sha256": "ba4922322ad37452464c1dcb81e4e26acd061f7bd14165274d2e6096ac081766"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0087.png",
+      "sha256": "9b18305680a595a53e6d26b7101e2bdc7fea62c40a6a259812ab2d1abda3919e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0088.png",
+      "sha256": "a5b2ff36ee00f6d1a5485efad40b65125fa57eb26e034a43272a17a6ee6bee6f"
+    }
+  ],
+  "handoff_Library_file": "libfile_775a5a5c41288191ae5f93409c83b09a",
+  "handoff_sha256": "174468e2176a5532fe93220bbc10a21fb55fadd6185dab92bc95a265b404335c",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

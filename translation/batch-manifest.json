@@ -117646,6 +117646,80 @@
           13
         ]
       ]
+    },
+    {
+      "file": "batch-387-reviewed-base-translation.tsv",
+      "sha256": "43421136c161a560fc37488ca085239075ac64d03ef95d52edc59d4df16801e1",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch37-ch39-writer-review.json",
+      "review_sha256": "f5d4a4848425ed5bc7973a1f8db58dc39a79fb034bf373c7a63a55e64dccdd2d",
+      "coverage_boundary": "reviewed-base-khanda1-ch37-ch39",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            38,
+            43
+          ],
+          "old_row": {
+            "source_pages": "100",
+            "type": "mantra",
+            "text": "ಅನಂತಲೀಲಯಾ ಯುಕ್ತಂ ಲೀಲಾಹೀನಂ ನಮಾಮಿ ತಮ್ । ಅವ್ಯಕ್ತಂ ವ್ಯಕ್ತರೂಪಂ ವೈ ನಮಾಮಿ ಸರ್ವಹೃದಿ ಸ್ಥಿತಮ್ ॥೪೩॥"
+          },
+          "new_row": {
+            "source_pages": "100",
+            "type": "mantra",
+            "text": "ಅನಂತಲೀಲಯಾ ಯುಕ್ತಂ ಲೀಲಾಹೀನಂ ನಮಾಮಿ ತಮ್ । ಅವ್ಯಕ್ತಂ ವ್ಯಕ್ತರೂಪಂ ವೈ ನಮಾಮಿ ಸ್ವಹೃದಿ ಸ್ಥಿತಮ್ ॥೪೩॥"
+          },
+          "base_snapshot_commit": "14f70c06035d4c19ec4079b7d77cf351c767acc9",
+          "adjudication_file": "translation/khanda1-ch37-ch39-writer-review.json",
+          "adjudication_sha256": "f5d4a4848425ed5bc7973a1f8db58dc39a79fb034bf373c7a63a55e64dccdd2d",
+          "review_status": "accepted",
+          "rationale": "Page87 clearly has स्वहृदि, with no intervening र्व of सर्व. Correct the Kannada mantra to the observed base edition. This agrees with the historical online quotation, but no other printed edition or Google target has been verified; do not claim cross-edition unanimity."
+        },
+        {
+          "key": [
+            1,
+            39,
+            8
+          ],
+          "old_row": {
+            "source_pages": "101",
+            "type": "mantra",
+            "text": "ರಜೋರೂಪಸೃಷ್ಟಿಪ್ರಕಾಶಂ ವಿಧಿಂ ತಂ ಸದಾ ಪಾಲನೇ ಕೇಶವಂ ಸತ್ತ್ವಸಂಸ್ಥಮ್ । ತಮೋರೂಪಧಾರಂ ಹರಂ ಸಂಹರಂ ತಂ ನಮಾಮಃ ಸದಾ ವಕ್ರತುಂಡಂ ಭಜಾಮಃ ॥೮॥"
+          },
+          "new_row": {
+            "source_pages": "101",
+            "type": "mantra",
+            "text": "ರಜೋರೂಪಸೃಷ್ಟಿಪ್ರಕಾಶೇ ವಿಧಿಂ ತಂ ಸದಾ ಪಾಲನೇ ಕೇಶವಂ ಸತ್ತ್ವಸಂಸ್ಥಮ್ । ತಮೋರೂಪಧಾರಂ ಹರಂ ಸಂಹರಂ ತಂ ನಮಾಮಃ ಸದಾ ವಕ್ರತುಂಡಂ ಭಜಾಮಃ ॥೮॥"
+          },
+          "base_snapshot_commit": "14f70c06035d4c19ec4079b7d77cf351c767acc9",
+          "adjudication_file": "translation/khanda1-ch37-ch39-writer-review.json",
+          "adjudication_sha256": "f5d4a4848425ed5bc7973a1f8db58dc39a79fb034bf373c7a63a55e64dccdd2d",
+          "review_status": "accepted",
+          "rationale": "Page88 has the e vowel mark in प्रकाशे, not anusvara प्रकाशं. Retain the locative ending in Kannada. Other wording remains unchanged, including printed संहरं; do not harmonize it to a different epithet. Historical quotation agrees but no separate printed edition was inspected."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          37,
+          39
+        ],
+        [
+          1,
+          38,
+          34
+        ],
+        [
+          1,
+          39,
+          7
+        ]
+      ]
     }
   ],
   "reference_only_index": {
