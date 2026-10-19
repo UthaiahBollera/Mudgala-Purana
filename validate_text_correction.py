@@ -70,17 +70,26 @@ def validate_base_translation_correction(root,old,new,item,review):
         return p
     assert json.loads(evidence(item['adjudication_file'],item['adjudication_sha256']).read_text())==review,'Base adjudication differs'
     for f in review['evidence_files']:evidence(f['file'],f['sha256'])
-    proposal=json.loads(evidence(review['candidate_file'],review['candidate_sha256']).read_text());p=next(x for x in proposal['items']if tuple(x['key'])==key)
-    assert all(x['accepted_sanskrit']is None and x['accepted_kannada']is None for x in proposal['items']),'Worker candidate acceptance promoted'
-    assert p['base_sanskrit']==record['source_sanskrit'],'Base Sanskrit changed'
+    proposal=json.loads(evidence(review['candidate_file'],review['candidate_sha256']).read_text());units=proposal.get('items',[dict(proposal,key=proposal.get('scope'))]);p=next(x for x in units if tuple(x['key'])==key)
+    assert all(x['accepted_sanskrit']is None and x['accepted_kannada']is None for x in units),'Worker candidate acceptance promoted'
+    assert p.get('base_sanskrit',p.get('candidate_sanskrit'))==record['source_sanskrit'],'Base Sanskrit changed'
     independent=record['independent_review'];evidence(independent['file'],independent['sha256'])
-    ref=record['reference_source'];assert ref['book_id']=='Lh0FEQAAQBAJ'and ref['page_url']=='https://books.google.co.in/books?id='+ref['book_id']+'&pg='+ref['page_id'],'Base reference identity mismatch';evidence(ref['crop_file'],ref['crop_sha256'])
+    ref=record['reference_source']
+    if record.get('correction_mode')=='original_only_bounded_meaning':
+        assert all(ref[k] is None for k in ('page_id','page_url','crop_file','crop_sha256'))and proposal['google_books_page_id']is None and proposal['google_books_page_url']is None,'Unverified Google target invented'
+    else:
+        assert ref['book_id']=='Lh0FEQAAQBAJ'and ref['page_url']=='https://books.google.co.in/books?id='+ref['book_id']+'&pg='+ref['page_id'],'Base reference identity mismatch';evidence(ref['crop_file'],ref['crop_sha256'])
     original=record['additional_original_source'];evidence(original['file'],original['sha256']);assert original['Mac_bytes_archive_identical_and_pixels_checked']and original['dimensions']==[3840,2508],'Original pixels not checked'
     if record['issues']:
         assert new['type']=='translation-review'and 'ಪರಿಶೀಲನೆ'in new['text']and record['accepted_translation']is None and record['review_status']=='accepted_with_unresolved_meaning','Base meaning hold hidden/promoted'
         assert all(x['status']=='open'and x['reading']is None for x in record['issues']),'Unresolved meaning accepted'
-        expected=p['optional_explicitly_partial_draft'].replace('[','(ಪರಿಶೀಲನೆ: ').replace(']',')');assert new['text']==expected,'Partial draft changed beyond reviewed proposal'
-        assert record['edition_variant']=={'base':'सुविस्तार्य','Google':'सविस्तारं','status':'retained_not_harmonized'},'Edition difference harmonized'
+        if record.get('correction_mode')=='original_only_bounded_meaning':
+            assert record['display_note'].startswith(' (ಪರಿಶೀಲನೆ:')and 'ಉಲ್ಲೇಖ ಯಾರಿಗೆ' in record['display_note']and new['text']==p['proposed_after']+record['display_note'],'Antecedent hold omitted or proposal changed'
+            assert 'ಅವನ ಐಶ್ವರ್ಯ' in new['text']and 'ನಿನ್ನ ಐಶ್ವರ್ಯ'not in new['text']and 'ಕಳೆಯುವ'not in new['text'],'Unsupported possession/removal restored'
+            assert record['edition_variant']is None,'Unavailable edition difference invented'
+        else:
+            expected=p['optional_explicitly_partial_draft'].replace('[','(ಪರಿಶೀಲನೆ: ').replace(']',')');assert new['text']==expected,'Partial draft changed beyond reviewed proposal'
+            assert record['edition_variant']=={'base':'सुविस्तार्य','Google':'सविस्तारं','status':'retained_not_harmonized'},'Edition difference harmonized'
     else:
         assert new['type']=='translation'and record['accepted_translation']==new['text']and record['review_status']=='accepted','Base correction treatment differs'
         assert new['text'].startswith(p['proposed_kannada'])and 'ಇದನ್ನು'in new['text']and 'ನಿರ್ದಿಷ್ಟ ಉಲ್ಲೇಖ'in new['text'],'Demonstrative referent invented or note omitted'

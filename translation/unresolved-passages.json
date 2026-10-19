@@ -225,7 +225,7 @@
       "verse_end": 12,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "partially_corrected_antecedent_and_meaning_hold",
       "issues": [
         "Current Kannada invents removal of Shiva’s honor and manifestation of Daksha’s wealth. Online evaṃ paramparāprāptaṃ tasyaiśvarya prakāśitam has ambiguous antecedent and compressed construction; review verses 11–12 together before replacement."
       ],
@@ -244,7 +244,38 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "partially_corrected_antecedent_and_meaning_hold",
+          "review_file": "translation/khanda1-ch3-v12-writer-review.json",
+          "review_sha256": "7822f8d3636847d96548a53a39289e57932084ee7198d5d97758f16aac3fbb7c",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "third_person_antecedent_unassigned": true
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch3-v12-writer-review.json",
+        "review_sha256": "7822f8d3636847d96548a53a39289e57932084ee7198d5d97758f16aac3fbb7c",
+        "source_sanskrit": "एवं परम्पराप्राप्तं तस्यैश्वर्य प्रकाशितम् । इति मे मनसि प्राप्तं यथेच्छसि तथा कुरु ॥१२॥",
+        "new_row": {
+          "source_pages": "19",
+          "type": "translation-review",
+          "text": "ಹೀಗೆ ಪರಂಪರೆಯಿಂದ ಪ್ರಾಪ್ತವಾದ ಅವನ ಐಶ್ವರ್ಯವು ಪ್ರಕಟವಾಗಿದೆ ಎಂದು ನನಗೆ ತೋರುತ್ತದೆ. ನಿನ್ನ ಇಚ್ಛೆಯಂತೆ ಮಾಡು.” ॥೧೨॥ (ಪರಿಶೀಲನೆ: “ಅವನ” ಎಂಬುದರ ಉಲ್ಲೇಖ ಯಾರಿಗೆ ಎಂಬುದು ಮತ್ತು ಪೂರ್ವಾರ್ಧದ ಸಂಕ್ಷಿಪ್ತ ಪದಸಂಬಂಧ ಇನ್ನೂ ಖಚಿತವಾಗಿಲ್ಲ; ಮೂಲದ “ತಸ್ಯೈಶ್ವರ್ಯ” ಪಾಠವನ್ನು ಬದಲಿಸಿಲ್ಲ.)"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "antecedent_and_compressed_construction",
+            "reading": null,
+            "token": "तस्यैश्वर्य",
+            "detail": "Antecedent of तस्य remains unassigned; first-half construction remains provisional; printed form without added anusvara retained."
+          }
+        ],
+        "review_status": "accepted_with_unresolved_meaning"
+      }
     },
     {
       "id": "kh1-ch3-v63",

@@ -27,4 +27,18 @@ class BaseTranslation(unittest.TestCase):
  def test_unpinned_base(self):self.review['base_snapshot_commit']='HEAD';self.reject()
  def test_worker_acceptance_remains_null(self):
   p=self.root/self.review['candidate_file'];d=json.loads(p.read_text());d['items'][0]['accepted_kannada']='promoted';p.write_text(json.dumps(d));h=hashlib.sha256(p.read_bytes()).hexdigest();self.review['candidate_sha256']=h;next(x for x in self.review['evidence_files']if x['file']==self.review['candidate_file'])['sha256']=h;self.reject()
+class OriginalOnlyRepair(BaseTranslation):
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');b=next(b for b in reversed(json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches'])if b.get('source_kind')=='reviewed_base_translation');self.items=copy.deepcopy(b['text_corrections']);self.review=json.loads((ROOT/b['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def test_both_valid(self):self.check()
+ def test_edition_variant_not_harmonized(self):self.review['reviews'][0]['edition_variant']={'guessed':'variant'};self.reject()
+ def test_exact_google_page(self):self.review['reviews'][0]['reference_source']['page_id']='PT100';self.reject()
+ def test_no_guessed_demonstrative(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಅವನ ಐಶ್ವರ್ಯ','ನಿನ್ನ ಐಶ್ವರ್ಯ')
+  self.reject()
+ def test_worker_acceptance_remains_null(self):
+  p=self.root/self.review['candidate_file'];d=json.loads(p.read_text());d['accepted_kannada']='promoted';p.write_text(json.dumps(d));h=hashlib.sha256(p.read_bytes()).hexdigest();self.review['candidate_sha256']=h;next(x for x in self.review['evidence_files']if x['file']==self.review['candidate_file'])['sha256']=h;self.reject()
+ def test_note_cannot_be_omitted(self):self.review['reviews'][0]['display_note']='';self.reject()
 if __name__=='__main__':unittest.main()

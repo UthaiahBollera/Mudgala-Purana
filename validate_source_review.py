@@ -197,6 +197,7 @@ if manifest is not None:
             registry_snapshot = json.loads((ROOT/'translation/unresolved-passages.json').read_text())
         return registry_snapshot
     google_unresolved_keys = set()
+    base_unresolved_keys = set()
     coverage = json.loads((ROOT/'translation/coverage.json').read_text(encoding='utf-8'))
     for batch, name in zip(batches, manifest_paths):
         assert Path(batch['file']).name == batch['file'], 'Batch file must be a filename'
@@ -263,7 +264,9 @@ if manifest is not None:
             allowed_pages = set()
             boundary = coverage[batch['coverage_boundary']]
             if batch['source_kind']=='reviewed_base_translation':
-                assert {tuple(k)for k in boundary['base_review_required_keys']}=={tuple(x['key'])for x in review['reviews']if x['issues']},'Base holds missing from coverage'
+                base_unresolved_keys.difference_update(tuple(x['key'])for x in review['reviews'])
+                base_unresolved_keys.update(tuple(x['key'])for x in review['reviews']if x['issues'])
+                assert {tuple(k)for k in boundary['base_review_required_keys']}==base_unresolved_keys,'Base holds missing from coverage'
         else:
             assert batch['source_pdf'] and re.fullmatch(r'[0-9a-f]{64}', batch['source_sha256']), ('Missing source identity', name)
             pdf_start, pdf_end = map(int, batch['pdf_page_range'])

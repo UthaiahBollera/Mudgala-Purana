@@ -115778,6 +115778,41 @@
           "rationale": "Original and reference Sanskrit independently read; only supported Kannada correction applied, uncertain meaning explicitly held, demonstrative referent not invented."
         }
       ]
+    },
+    {
+      "file": "batch-365-reviewed-base-translation.tsv",
+      "sha256": "bad3556a29b724237de173ad82a106e028b27e26005f7777c5ea0a7ba2cc339d",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch3-v12-writer-review.json",
+      "review_sha256": "7822f8d3636847d96548a53a39289e57932084ee7198d5d97758f16aac3fbb7c",
+      "coverage_boundary": "reviewed-base-khanda1-ch3-v12",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            3,
+            12
+          ],
+          "old_row": {
+            "source_pages": "19",
+            "type": "translation",
+            "text": "ಇದು ಅವನ ದೊಡ್ಡ ಗೌರವವನ್ನು ಕಳೆಯುವದು ಮತ್ತು ನಿನ್ನ ಐಶ್ವರ್ಯವನ್ನು ಪ್ರಕಟಿಸುವದು ಎಂದು ನನಗೆ ತೋರುತ್ತದೆ. ನಿನ್ನ ಇಚ್ಛೆಯಂತೆ ಮಾಡು.” ॥೧೨॥"
+          },
+          "new_row": {
+            "source_pages": "19",
+            "type": "translation-review",
+            "text": "ಹೀಗೆ ಪರಂಪರೆಯಿಂದ ಪ್ರಾಪ್ತವಾದ ಅವನ ಐಶ್ವರ್ಯವು ಪ್ರಕಟವಾಗಿದೆ ಎಂದು ನನಗೆ ತೋರುತ್ತದೆ. ನಿನ್ನ ಇಚ್ಛೆಯಂತೆ ಮಾಡು.” ॥೧೨॥ (ಪರಿಶೀಲನೆ: “ಅವನ” ಎಂಬುದರ ಉಲ್ಲೇಖ ಯಾರಿಗೆ ಎಂಬುದು ಮತ್ತು ಪೂರ್ವಾರ್ಧದ ಸಂಕ್ಷಿಪ್ತ ಪದಸಂಬಂಧ ಇನ್ನೂ ಖಚಿತವಾಗಿಲ್ಲ; ಮೂಲದ “ತಸ್ಯೈಶ್ವರ್ಯ” ಪಾಠವನ್ನು ಬದಲಿಸಿಲ್ಲ.)"
+          },
+          "base_snapshot_commit": "94abd8ead1b184110b57066b0894b83bc370eb9d",
+          "adjudication_file": "translation/khanda1-ch3-v12-writer-review.json",
+          "adjudication_sha256": "7822f8d3636847d96548a53a39289e57932084ee7198d5d97758f16aac3fbb7c",
+          "review_status": "accepted",
+          "rationale": "Remove unsupported honour-removal and your-wealth additions;restore overt inherited/acquired wording while retaining third-person antecedent and compressed-construction holds."
+        }
+      ]
     }
   ],
   "reference_only_index": {
