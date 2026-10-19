@@ -77,6 +77,8 @@ if manifest_path.exists():
             source_description += f' Primary scanned PDF {batch["source_pdf"]}; SHA-256 {batch["source_sha256"]}; PDF pages '+', '.join(str(p['pdf_page']) for p in batch['source_pages'])+'. Google Books is a cross-reference; OCR is a transcription aid.'
         elif batch.get('source_kind') == 'reviewed_base_correction':
             source_description += ' Reviewed token-only base-edition correction; historical source mapping and edition variants retained. Evidence: '+batch['review_file']+'.'
+        elif batch.get('source_kind') == 'reviewed_base_translation':
+            source_description += ' Reviewed base-edition Kannada meaning correction; immutable historical source mapping and unresolved meanings retained. Evidence: '+batch['review_file']+'.'
         elif batch.get('source_kind') == 'original_png_archive':
             source_description += ' Additional original PNG archive '+batch['source_archive']['filename']+'; SHA-256 '+batch['source_archive']['sha256']+'; members '+', '.join(p['member'] for p in batch['source_pages'])+'. Frozen candidates and independent review retained; lexical holds remain explicit.'
         else:

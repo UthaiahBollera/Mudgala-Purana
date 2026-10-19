@@ -115,6 +115,9 @@ if google_boundary:
     review_required = sorted(tuple(map(int, key)) for key in boundary.get('review_required_keys', []))
     actual_review_required = sorted(key for key, row in merged.items() if row['type'] == 'translation-review' and any(page.startswith(('gb:', 'pdf:', 'png:')) for page in source_ids(row['source_pages'])))
     assert review_required == actual_review_required, 'Google Books review-required coverage differs from marked verses'
+if boundary.get('base_review_required_keys'):
+    for key in map(tuple,boundary['base_review_required_keys']):
+        assert merged[key]['type']=='translation-review' and 'ಪರಿಶೀಲನೆ'in merged[key]['text'],'Base translation hold not visible'
 partials = sorted(k for k,r in merged.items() if r['type']=='translation-partial')
 expected_partials = (sorted(tuple(map(int, key)) for key in boundary['partial_keys'])
                      if 'partial_keys' in boundary else ([max(merged)] if boundary['tail_partial'] else []))

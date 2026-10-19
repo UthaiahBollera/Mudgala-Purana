@@ -101,9 +101,11 @@
       "chapter": 2,
       "verse_start": 11,
       "verse_end": 11,
-      "google_books_pages": null,
-      "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "google_books_pages": [
+        "PT84"
+      ],
+      "google_books_page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&pg=PT84",
+      "status": "partially_corrected_meaning_hold",
       "issues": [
         "Full proposal held by final independent review: source construction or attribution uncertain; do not apply speculative rewrite.",
         "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
@@ -124,7 +126,38 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "partially_corrected_meaning_hold",
+          "review_file": "translation/khanda1-ch2-v11-v42-writer-review.json",
+          "review_sha256": "23e83eade13662bdc317eb8544f64ddc35ecdf0f6a3f1d320de11939ac385036",
+          "historical_questions_and_prior_source_retained": true,
+          "edition_variant_not_harmonized": true,
+          "demonstrative_referent_not_guessed": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch2-v11-v42-writer-review.json",
+        "review_sha256": "23e83eade13662bdc317eb8544f64ddc35ecdf0f6a3f1d320de11939ac385036",
+        "source_sanskrit": "एतत्सर्वं सुविस्तार्य पृच्छते ब्रूहि सादरम् । ज्ञात्वा तं देवदेवेशं भविष्यामि हितावहम् ॥११॥",
+        "new_row": {
+          "source_pages": "17",
+          "type": "translation-review",
+          "text": "ಕೇಳುತ್ತಿರುವ ನನಗೆ ಇವೆಲ್ಲವನ್ನು ವಿವರವಾಗಿ ಆದರದಿಂದ ಹೇಳು. ಆ ದೇವದೇವೇಶನನ್ನು ತಿಳಿದು ನಾನು… (ಪರಿಶೀಲನೆ: ‘ಭವಿಷ್ಯಾಮಿ ಹಿತಾವಹಮ್’ ಎಂಬ ಭಾಗದ ನಿಖರ ಅರ್ಥ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.)” ॥೧೧॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "meaning",
+            "token": "भविष्यामि हितावहम्",
+            "reading": null,
+            "detail": "First clause corrected; final construction unresolved. Unsupported become-his-devotee conclusion removed."
+          }
+        ],
+        "review_status": "accepted_with_unresolved_meaning"
+      }
     },
     {
       "id": "kh1-ch2-v42",
@@ -134,9 +167,11 @@
       "chapter": 2,
       "verse_start": 42,
       "verse_end": 42,
-      "google_books_pages": null,
-      "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "google_books_pages": [
+        "PT92"
+      ],
+      "google_books_page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&pg=PT92",
+      "status": "resolved_by_original_and_Google_pixel_review",
       "issues": [
         "Online śūdrā nedaṃ paṭhiṣyanti is textually awkward; existing Kannada omits reading/study, nakedness, and changes status into comparison. Verify scan before adopting a full replacement; possible nedaṃ/vedaṃ ambiguity."
       ],
@@ -155,7 +190,30 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_by_original_and_Google_pixel_review",
+          "review_file": "translation/khanda1-ch2-v11-v42-writer-review.json",
+          "review_sha256": "23e83eade13662bdc317eb8544f64ddc35ecdf0f6a3f1d320de11939ac385036",
+          "historical_questions_and_prior_source_retained": true,
+          "edition_variant_not_harmonized": false,
+          "demonstrative_referent_not_guessed": true
+        }
+      ],
+      "accepted_translation": "ಕಲಿಯುಗವು ಬಂದಾಗ ಜಟಾಧಾರಿಗಳು ಪಾಷಂಡಿಗಳಾಗುವರು. ಅವರು ಶೂದ್ರರೂ ನಗ್ನರೂ ಅಂಗಗಳಿಗೆ ಭಸ್ಮವನ್ನು ಹಚ್ಚಿಕೊಂಡವರೂ ಆಗುವರು; ಇದನ್ನು ಪಠಿಸುವುದಿಲ್ಲ. ॥೪೨॥ (ಸಂಪಾದಕೀಯ ಸೂಚನೆ: “ಇದನ್ನು” ಎಂಬುದರ ನಿರ್ದಿಷ್ಟ ಉಲ್ಲೇಖವನ್ನು ಮೂಲದಲ್ಲಿ ಇಲ್ಲಿ ಸ್ಪಷ್ಟಪಡಿಸಿಲ್ಲ.)",
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch2-v11-v42-writer-review.json",
+        "review_sha256": "23e83eade13662bdc317eb8544f64ddc35ecdf0f6a3f1d320de11939ac385036",
+        "source_sanskrit": "कलौ प्राप्ते च पाखण्डा भविष्यन्ति जटाधराः । शूद्रा नेदं पठिष्यन्ति नग्ना भस्माङ्गलेपनाः ॥४२॥",
+        "new_row": {
+          "source_pages": "18",
+          "type": "translation",
+          "text": "ಕಲಿಯುಗವು ಬಂದಾಗ ಜಟಾಧಾರಿಗಳು ಪಾಷಂಡಿಗಳಾಗುವರು. ಅವರು ಶೂದ್ರರೂ ನಗ್ನರೂ ಅಂಗಗಳಿಗೆ ಭಸ್ಮವನ್ನು ಹಚ್ಚಿಕೊಂಡವರೂ ಆಗುವರು; ಇದನ್ನು ಪಠಿಸುವುದಿಲ್ಲ. ॥೪೨॥ (ಸಂಪಾದಕೀಯ ಸೂಚನೆ: “ಇದನ್ನು” ಎಂಬುದರ ನಿರ್ದಿಷ್ಟ ಉಲ್ಲೇಖವನ್ನು ಮೂಲದಲ್ಲಿ ಇಲ್ಲಿ ಸ್ಪಷ್ಟಪಡಿಸಿಲ್ಲ.)"
+        },
+        "issues": [],
+        "review_status": "accepted"
+      }
     },
     {
       "id": "kh1-ch3-v12",

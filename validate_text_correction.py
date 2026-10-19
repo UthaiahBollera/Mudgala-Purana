@@ -50,3 +50,38 @@ def validate_text_correction(root, old, new, item, prior_batches):
     assert record['source_sanskrit']==item['source_sanskrit'] and record['source_evidence']==item['source_parts'], 'Correction addendum source mismatch'
     assert record['reviewed_kannada_candidate']==item['accepted_translation'], 'Correction candidate mismatch'
     assert item['accepted_translation'] in new['text'] and item['rationale'], 'Correction candidate/rationale absent'
+
+def validate_base_translation_correction(root,old,new,item,review):
+    """Replay a reviewed Kannada repair; retain base text and unresolved meaning."""
+    import csv,io,re,subprocess
+    from pathlib import Path
+    fields=('source_pages','type','text');key=tuple(item['key'])
+    assert key[0]==1 and review['source_kind']=='reviewed_base_translation','Wrong base translation identity'
+    record=next(x for x in review['reviews']if tuple(x['key'])==key)
+    assert {k:old[k]for k in fields}==item['old_row']==record['old_row'],'Base translation old row mismatch'
+    assert {k:new[k]for k in fields}==item['new_row']==record['new_row'],'Base translation new row mismatch'
+    assert old['source_pages']==new['source_pages'] and old['text']!=new['text'],'Base source changed or no-op repair'
+    assert item['review_status']==review['review_status']==record['independent_review']['status']=='accepted','Independent base translation review missing'
+    commit=review['base_snapshot_commit'];assert re.fullmatch('[0-9a-f]{40}',commit)and item['base_snapshot_commit']==commit and review['base_file']=='translation/narrative.tsv','Unpinned base translation'
+    raw=subprocess.check_output(['git','show',commit+':'+review['base_file']],cwd=root);source=[r for r in csv.DictReader(io.StringIO(raw.decode()),delimiter='\t')if(1,int(r['chapter']),int(r['verse']))==key];assert len(source)==1 and all(source[0][f]==old[f]for f in fields),'Immutable base row differs'
+    def evidence(name,digest):
+        p=(root/name).resolve();assert p.is_relative_to((root/'translation').resolve())and p.is_file(),'Base translation evidence missing'
+        assert hashlib.sha256(p.read_bytes()).hexdigest()==digest,'Base translation evidence checksum mismatch'
+        return p
+    assert json.loads(evidence(item['adjudication_file'],item['adjudication_sha256']).read_text())==review,'Base adjudication differs'
+    for f in review['evidence_files']:evidence(f['file'],f['sha256'])
+    proposal=json.loads(evidence(review['candidate_file'],review['candidate_sha256']).read_text());p=next(x for x in proposal['items']if tuple(x['key'])==key)
+    assert all(x['accepted_sanskrit']is None and x['accepted_kannada']is None for x in proposal['items']),'Worker candidate acceptance promoted'
+    assert p['base_sanskrit']==record['source_sanskrit'],'Base Sanskrit changed'
+    independent=record['independent_review'];evidence(independent['file'],independent['sha256'])
+    ref=record['reference_source'];assert ref['book_id']=='Lh0FEQAAQBAJ'and ref['page_url']=='https://books.google.co.in/books?id='+ref['book_id']+'&pg='+ref['page_id'],'Base reference identity mismatch';evidence(ref['crop_file'],ref['crop_sha256'])
+    original=record['additional_original_source'];evidence(original['file'],original['sha256']);assert original['Mac_bytes_archive_identical_and_pixels_checked']and original['dimensions']==[3840,2508],'Original pixels not checked'
+    if record['issues']:
+        assert new['type']=='translation-review'and 'ಪರಿಶೀಲನೆ'in new['text']and record['accepted_translation']is None and record['review_status']=='accepted_with_unresolved_meaning','Base meaning hold hidden/promoted'
+        assert all(x['status']=='open'and x['reading']is None for x in record['issues']),'Unresolved meaning accepted'
+        expected=p['optional_explicitly_partial_draft'].replace('[','(ಪರಿಶೀಲನೆ: ').replace(']',')');assert new['text']==expected,'Partial draft changed beyond reviewed proposal'
+        assert record['edition_variant']=={'base':'सुविस्तार्य','Google':'सविस्तारं','status':'retained_not_harmonized'},'Edition difference harmonized'
+    else:
+        assert new['type']=='translation'and record['accepted_translation']==new['text']and record['review_status']=='accepted','Base correction treatment differs'
+        assert new['text'].startswith(p['proposed_kannada'])and 'ಇದನ್ನು'in new['text']and 'ನಿರ್ದಿಷ್ಟ ಉಲ್ಲೇಖ'in new['text'],'Demonstrative referent invented or note omitted'
+    assert item['rationale'],'Base correction rationale missing'

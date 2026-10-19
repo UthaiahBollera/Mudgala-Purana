@@ -209,7 +209,7 @@ if manifest is not None:
         assert review_path.is_relative_to((ROOT/'translation').resolve()) and review_path.is_file(), ('Review artifact missing or outside translation', name)
         assert hashlib.sha256(review_path.read_bytes()).hexdigest() == batch['review_sha256'], ('Review artifact checksum mismatch', name)
         pdf_batch = batch.get('source_kind') == 'local_pdf'
-        base_correction_batch = batch.get('source_kind') == 'reviewed_base_correction'
+        base_correction_batch = batch.get('source_kind') in ('reviewed_base_correction','reviewed_base_translation')
         png_batch = batch.get('source_kind') == 'original_png_archive'
         google_batch = manifest['schema_version'] == 2 and not pdf_batch and not base_correction_batch and not png_batch
         if google_batch:
@@ -259,9 +259,11 @@ if manifest is not None:
         elif base_correction_batch:
             assert not batch['added_keys'] and not batch['boundary_completions'], 'Base repair cannot add or complete verses'
             review = json.loads(review_path.read_text(encoding='utf-8'))
-            assert review['source_kind'] == 'reviewed_base_correction', 'Wrong base repair review'
+            assert review['source_kind'] == batch['source_kind'], 'Wrong base repair review'
             allowed_pages = set()
             boundary = coverage[batch['coverage_boundary']]
+            if batch['source_kind']=='reviewed_base_translation':
+                assert {tuple(k)for k in boundary['base_review_required_keys']}=={tuple(x['key'])for x in review['reviews']if x['issues']},'Base holds missing from coverage'
         else:
             assert batch['source_pdf'] and re.fullmatch(r'[0-9a-f]{64}', batch['source_sha256']), ('Missing source identity', name)
             pdf_start, pdf_end = map(int, batch['pdf_page_range'])
@@ -328,7 +330,10 @@ if manifest is not None:
         assert not set(correction_keys) & set(completion_keys), ('Overlapping correction/completion', name)
         assert set(rows) - additions == set(completion_keys) | set(correction_keys), ('Unlogged replacement of existing verse', name)
         for item, key in zip(corrections, correction_keys):
-            if base_correction_batch:
+            if batch.get('source_kind')=='reviewed_base_translation':
+                from validate_text_correction import validate_base_translation_correction
+                validate_base_translation_correction(ROOT,replayed[key],rows[key],item,review)
+            elif base_correction_batch:
                 from validate_text_correction import validate_base_text_correction
                 validate_base_text_correction(ROOT, replayed[key], rows[key], item, review)
             else:

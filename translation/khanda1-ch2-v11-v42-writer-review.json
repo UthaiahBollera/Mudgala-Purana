@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "5e34a89cb1069f53d4066c3e158ebd88062db674",
+  "base_file": "translation/narrative.tsv",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        2,
+        11
+      ],
+      "old_row": {
+        "source_pages": "17",
+        "type": "translation",
+        "text": "ನನ್ನ ಹಿತಕ್ಕಾಗಿ ಇವೆಲ್ಲವನ್ನು ವಿವರವಾಗಿ ಹೇಳು. ದೇವದೇವನನ್ನು ತಿಳಿದು ನಾನು ಅವನ ಭಕ್ತನಾಗುವೆನು.” ॥೧೧॥"
+      },
+      "new_row": {
+        "source_pages": "17",
+        "type": "translation-review",
+        "text": "ಕೇಳುತ್ತಿರುವ ನನಗೆ ಇವೆಲ್ಲವನ್ನು ವಿವರವಾಗಿ ಆದರದಿಂದ ಹೇಳು. ಆ ದೇವದೇವೇಶನನ್ನು ತಿಳಿದು ನಾನು… (ಪರಿಶೀಲನೆ: ‘ಭವಿಷ್ಯಾಮಿ ಹಿತಾವಹಮ್’ ಎಂಬ ಭಾಗದ ನಿಖರ ಅರ್ಥ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.)” ॥೧೧॥"
+      },
+      "source_sanskrit": "एतत्सर्वं सुविस्तार्य पृच्छते ब्रूहि सादरम् । ज्ञात्वा तं देवदेवेशं भविष्यामि हितावहम् ॥११॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "meaning",
+          "token": "भविष्यामि हितावहम्",
+          "reading": null,
+          "detail": "First clause corrected; final construction unresolved. Unsupported become-his-devotee conclusion removed."
+        }
+      ],
+      "accepted_translation": null,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/independent-review.md",
+        "sha256": "0edea978be328380c3c0468d3ae6ddd5234724ba36e5cf77cb872b2759cff0b3"
+      },
+      "reference_source": {
+        "provider": "Google Books original Sanskrit",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT84",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&pg=PT84",
+        "crop_file": "translation/source-review-addenda/khanda1-ch2-v11-v42/kh1-ch2-v11-PT84-Sanskrit.png",
+        "crop_sha256": "f34f58e55843d74a20c3d70cb70d226795b1126df3612d6b5c48a03ad33b818d"
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0004.png",
+        "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/original-archive-page_0004.png",
+        "sha256": "304593d6eeb6c8411e16783af5709ab9496a8e1dd853402d8129ae5f663d8191",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          620,
+          3700,
+          890
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": {
+        "base": "सुविस्तार्य",
+        "Google": "सविस्तारं",
+        "status": "retained_not_harmonized"
+      },
+      "rationale": "Original and reference Sanskrit independently read; only supported Kannada correction applied, uncertain meaning explicitly held, demonstrative referent not invented."
+    },
+    {
+      "key": [
+        1,
+        2,
+        42
+      ],
+      "old_row": {
+        "source_pages": "18",
+        "type": "translation",
+        "text": "ಕಲಿಯುಗವು ಬಂದಾಗ ಈ ಜಟಾಧಾರಿಗಳು ಪಾಷಂಡಿಗಳಾಗುವರು. ಭಸ್ಮವನ್ನು ಹಚ್ಚಿಕೊಳ್ಳುವ ಮನುಷ್ಯರು ಶೂದ್ರರಂತೆ ಪತನಗೊಳ್ಳುವರು. ॥೪೨॥"
+      },
+      "new_row": {
+        "source_pages": "18",
+        "type": "translation",
+        "text": "ಕಲಿಯುಗವು ಬಂದಾಗ ಜಟಾಧಾರಿಗಳು ಪಾಷಂಡಿಗಳಾಗುವರು. ಅವರು ಶೂದ್ರರೂ ನಗ್ನರೂ ಅಂಗಗಳಿಗೆ ಭಸ್ಮವನ್ನು ಹಚ್ಚಿಕೊಂಡವರೂ ಆಗುವರು; ಇದನ್ನು ಪಠಿಸುವುದಿಲ್ಲ. ॥೪೨॥ (ಸಂಪಾದಕೀಯ ಸೂಚನೆ: “ಇದನ್ನು” ಎಂಬುದರ ನಿರ್ದಿಷ್ಟ ಉಲ್ಲೇಖವನ್ನು ಮೂಲದಲ್ಲಿ ಇಲ್ಲಿ ಸ್ಪಷ್ಟಪಡಿಸಿಲ್ಲ.)"
+      },
+      "source_sanskrit": "कलौ प्राप्ते च पाखण्डा भविष्यन्ति जटाधराः । शूद्रा नेदं पठिष्यन्ति नग्ना भस्माङ्गलेपनाः ॥४२॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": "ಕಲಿಯುಗವು ಬಂದಾಗ ಜಟಾಧಾರಿಗಳು ಪಾಷಂಡಿಗಳಾಗುವರು. ಅವರು ಶೂದ್ರರೂ ನಗ್ನರೂ ಅಂಗಗಳಿಗೆ ಭಸ್ಮವನ್ನು ಹಚ್ಚಿಕೊಂಡವರೂ ಆಗುವರು; ಇದನ್ನು ಪಠಿಸುವುದಿಲ್ಲ. ॥೪೨॥ (ಸಂಪಾದಕೀಯ ಸೂಚನೆ: “ಇದನ್ನು” ಎಂಬುದರ ನಿರ್ದಿಷ್ಟ ಉಲ್ಲೇಖವನ್ನು ಮೂಲದಲ್ಲಿ ಇಲ್ಲಿ ಸ್ಪಷ್ಟಪಡಿಸಿಲ್ಲ.)",
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/independent-review.md",
+        "sha256": "0edea978be328380c3c0468d3ae6ddd5234724ba36e5cf77cb872b2759cff0b3"
+      },
+      "reference_source": {
+        "provider": "Google Books original Sanskrit",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT92",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&pg=PT92",
+        "crop_file": "translation/source-review-addenda/khanda1-ch2-v11-v42/kh1-ch2-v42-PT92-Sanskrit.png",
+        "crop_sha256": "cffa2a5fb07185e7e9d4965609708d36e169ad609c34fb259fcc135fdd3b9b46"
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0005.png",
+        "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/original-archive-page_0005.png",
+        "sha256": "61680a9e288b476b58d1f4b9fcb4a2d4ef907db4152dfdd25f734b88b8033d0b",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1000,
+          3720,
+          1340
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original and reference Sanskrit independently read; only supported Kannada correction applied, uncertain meaning explicitly held, demonstrative referent not invented."
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch2-v11-v42/before-after-proposals.json",
+  "candidate_sha256": "22ff8c9b03cb05afcbcc5720dc9fbc779d34434a4dd8f6c7f1f0ae5018caeb89",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/base_v10_12.png",
+      "sha256": "d29f3fc8c43934e1ee72af7d2ab666575e0201018fc1e93f37cda37bcfcb7dcb"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/base_v41_43.png",
+      "sha256": "da52d6109b7536a91424c4202de994907a22e01211f424cef7abfe2f73d04db7"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/before-after-proposals.json",
+      "sha256": "22ff8c9b03cb05afcbcc5720dc9fbc779d34434a4dd8f6c7f1f0ae5018caeb89"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/bundle-manifest.json",
+      "sha256": "459a69f7dfca7dc66e03ebdab6bc50264d15e8f2695c0f17e0330be1de321607"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/crop-provenance.json",
+      "sha256": "1e2d94543e42389cf62eaefc1cdffa590c75f75af192ce340950ac7d0fa2e205"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/independent-review.md",
+      "sha256": "0edea978be328380c3c0468d3ae6ddd5234724ba36e5cf77cb872b2759cff0b3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/kh1-ch2-v10-PT84-Sanskrit.png",
+      "sha256": "50007e5c3e4a1c9b04dc1e265e3d30f4b0e538075a9b8ad7df5bb7a7828e99ce"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/kh1-ch2-v11-PT84-Sanskrit.png",
+      "sha256": "f34f58e55843d74a20c3d70cb70d226795b1126df3612d6b5c48a03ad33b818d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/kh1-ch2-v12-PT84-Sanskrit.png",
+      "sha256": "19da1a3c8ccec1fbe8cbb50f0c426193c2951325a255446f36b138a87e240eed"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/kh1-ch2-v41-PT92-Sanskrit.png",
+      "sha256": "674e2d36ae62149f1ecd77f2caff8f35b51bd87c5e7239614f2e9456c152e830"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/kh1-ch2-v42-PT92-Sanskrit.png",
+      "sha256": "cffa2a5fb07185e7e9d4965609708d36e169ad609c34fb259fcc135fdd3b9b46"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/kh1-ch2-v43-PT93-Sanskrit.png",
+      "sha256": "97f89b2495c27678f1402db44a4664c5d3389fdeddb7339623638ef14935c75f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/khanda1-ch2-v11-v42-review-packet.json",
+      "sha256": "2684af00a11b13b0fac1837459774ffd85fba59850eca428d6bf1126bf8608d4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/khanda1-ch2-v11-v42-review-packet.md",
+      "sha256": "89ddb623cec1e5518daefe2b613f402b7583ed0a2cedfb4bf027c2041441f312"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/original-archive-page_0004.png",
+      "sha256": "304593d6eeb6c8411e16783af5709ab9496a8e1dd853402d8129ae5f663d8191"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch2-v11-v42/original-archive-page_0005.png",
+      "sha256": "61680a9e288b476b58d1f4b9fcb4a2d4ef907db4152dfdd25f734b88b8033d0b"
+    }
+  ],
+  "handoff_Library_file": "libfile_c274933ef4d0819194886994f402e6b9",
+  "handoff_sha256": "27705f9aefacef4790dc2c0ad0da5ba061f2b2de63bfd8a79d1b997223b659de",
+  "edition_identity": "not assumed",
+  "historical_base_source_mapping_preserved": true,
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "paid_calls": 0
+}
