@@ -1,0 +1,1436 @@
+{
+  "scope": "Every independent-review correct decision in Khanda7 chapter16 compared to actual uploaded Sanskrit OCR bytes. Literal excerpts are recorded; mechanically aligned candidates are not certified verse readings.",
+  "reference_fulltext_library_id": "libfile_706e2c6d7f9c81919364c79356578fdb",
+  "normalization": "Devanagari letters/marks only; whitespace, punctuation, verse numbers and non-Devanagari characters excluded. This does not validate numeric labels or emend OCR.",
+  "comparisons": [
+    {
+      "key": [
+        7,
+        16,
+        2
+      ],
+      "source_sanskrit_unchanged": "प्रह्लादं मुख्यकं कृत्वा ब्रह्मशापेन मोहितम् । आययुस्तां प्रणेमुस्ते दितिं कश्यपसंयुताम् ॥२॥",
+      "reviewed_kannada": "ಬ್ರಹ್ಮಶಾಪದಿಂದ ಮೋಹಿತನಾದ ಪ್ರಹ್ಲಾದನನ್ನು ಮುಖ್ಯಸ್ಥನನ್ನಾಗಿ ಮಾಡಿಕೊಂಡು, ಅವರು ಕಶ್ಯಪನೊಡನಿದ್ದ ದಿತಿಯ ಬಳಿಗೆ ಬಂದು ಆಕೆಗೆ ನಮಸ್ಕರಿಸಿದರು.",
+      "reviewed_kannada_candidate_unaccepted": "ಬ್ರಹ್ಮಶಾಪದಿಂದ ಮೋಹಿತನಾದ ಪ್ರಹ್ಲಾದನನ್ನು ಮುಖ್ಯಸ್ಥನನ್ನಾಗಿ ಮಾಡಿಕೊಂಡು, ಅವರು ಕಶ್ಯಪನೊಡನಿದ್ದ ದಿತಿಯ ಬಳಿಗೆ ಬಂದು ಆಕೆಗೆ ನಮಸ್ಕರಿಸಿದರು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 862,
+          "reference_page": 806,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0806.txt",
+          "reference_sha256": "a2b7bc3a8975245c09aa55bb5d0be9ece3fb8c38277f78513f21f705852a8915",
+          "source_part_exact": "प्रह्लादं मुख्यकं कृत्वा ब्रह्मशापेन मोहितम् । आययुस्तां प्रणेमुस्ते दितिं कश्यपसंयुताम् ॥२॥",
+          "reference_char_start": 191,
+          "reference_char_end_exclusive": 275,
+          "exact_reference_excerpt": "हां सुख्यकं कृत्वा ब्रह्मदापेन मोहितम्‌ । आययुस्तां प्रणेमुस्ते दितिं कृट्यपसंयुताम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9139,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "delete",
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              "equal",
+              3,
+              4,
+              0,
+              1
+            ],
+            [
+              "delete",
+              4,
+              6,
+              1,
+              1
+            ],
+            [
+              "equal",
+              6,
+              7,
+              1,
+              2
+            ],
+            [
+              "delete",
+              7,
+              8,
+              2,
+              2
+            ],
+            [
+              "equal",
+              8,
+              9,
+              2,
+              3
+            ],
+            [
+              "replace",
+              9,
+              10,
+              3,
+              4
+            ],
+            [
+              "equal",
+              10,
+              28,
+              4,
+              22
+            ],
+            [
+              "replace",
+              28,
+              29,
+              22,
+              23
+            ],
+            [
+              "equal",
+              29,
+              66,
+              23,
+              60
+            ],
+            [
+              "replace",
+              66,
+              67,
+              60,
+              62
+            ],
+            [
+              "equal",
+              67,
+              78,
+              62,
+              73
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 862,
+          "physical_page": 36,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "08ab90cbd539a5bd83d623189f10bffd4b40cb88eebe44bb0226fdd56aa1227f",
+          "text": "प्रह्लादं मुख्यकं कृत्वा ब्रह्मशापेन मोहितम् । आययुस्तां प्रणेमुस्ते दितिं कश्यपसंयुताम् ॥२॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        7,
+        16,
+        4
+      ],
+      "source_sanskrit_unchanged": "चतुर्भुजेन देवेशाः स्थापिताः स्वर्गभूमिषु । पाताल-\nविवरेष्वत्र यूयं राज्यसमन्विताः ॥४॥",
+      "reviewed_kannada": "ಚತುರ್ಭುಜನಿಂದ ದೇವೇಶ್ವರರು ಸ್ವರ್ಗಭೂಮಿಗಳಲ್ಲಿ ಸ್ಥಾಪಿಸಲ್ಪಟ್ಟಿದ್ದಾರೆ; ಇಲ್ಲಿ ಪಾತಾಳದ ಬಿಲಗಳಲ್ಲಿ ನೀವು ರಾಜ್ಯಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ.",
+      "reviewed_kannada_candidate_unaccepted": "ಚತುರ್ಭುಜನಿಂದ ದೇವೇಶ್ವರರು ಸ್ವರ್ಗಭೂಮಿಗಳಲ್ಲಿ ಸ್ಥಾಪಿಸಲ್ಪಟ್ಟಿದ್ದಾರೆ; ಇಲ್ಲಿ ಪಾತಾಳದ ಬಿಲಗಳಲ್ಲಿ ನೀವು ರಾಜ್ಯಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 862,
+          "reference_page": 806,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0806.txt",
+          "reference_sha256": "a2b7bc3a8975245c09aa55bb5d0be9ece3fb8c38277f78513f21f705852a8915",
+          "source_part_exact": "चतुर्भुजेन देवेशाः स्थापिताः स्वर्गभूमिषु । पाताल-\nविवरेष्वत्र यूयं राज्यसमन्विताः ॥४॥",
+          "reference_char_start": 364,
+          "reference_char_end_exclusive": 440,
+          "exact_reference_excerpt": "चतुखजेन देवेशाः स्थापिताः खगंभूमिषु । पाताल-\nविवरेष्वत्र यूयं राञ्यसमन्विताः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8986,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              3,
+              0,
+              3
+            ],
+            [
+              "replace",
+              3,
+              7,
+              3,
+              4
+            ],
+            [
+              "equal",
+              7,
+              26,
+              4,
+              23
+            ],
+            [
+              "replace",
+              26,
+              31,
+              23,
+              24
+            ],
+            [
+              "equal",
+              31,
+              32,
+              24,
+              25
+            ],
+            [
+              "insert",
+              32,
+              32,
+              25,
+              26
+            ],
+            [
+              "equal",
+              32,
+              60,
+              26,
+              54
+            ],
+            [
+              "replace",
+              60,
+              61,
+              54,
+              55
+            ],
+            [
+              "equal",
+              61,
+              72,
+              55,
+              66
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 862,
+          "physical_page": 36,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "08ab90cbd539a5bd83d623189f10bffd4b40cb88eebe44bb0226fdd56aa1227f",
+          "text": "चतुर्भुजेन देवेशाः स्थापिताः स्वर्गभूमिषु । पाताल-\nविवरेष्वत्र यूयं राज्यसमन्विताः ॥४॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        7,
+        16,
+        17
+      ],
+      "source_sanskrit_unchanged": "अयं विघ्नेश्वरो देवः समस्वानंदगो\nभवेत् । सत्यासत्ये विनिर्माय प्रभुः क्रीडति मायया ॥१७॥",
+      "reviewed_kannada": "ಈ ವಿಘ್ನೇಶ್ವರ ದೇವನು ಸಮಸ್ವಾನಂದದಲ್ಲಿರುವವನು. ಸತ್ಯ ಮತ್ತು ಅಸತ್ಯಗಳನ್ನು ನಿರ್ಮಿಸಿ ಆ ಪ್ರಭುವು ಮಾಯೆಯಿಂದ ಕ್ರೀಡಿಸುತ್ತಾನೆ.",
+      "reviewed_kannada_candidate_unaccepted": "ಈ ವಿಘ್ನೇಶ್ವರ ದೇವನು ಸಮಸ್ವಾನಂದದಲ್ಲಿರುವವನು. ಸತ್ಯ ಮತ್ತು ಅಸತ್ಯಗಳನ್ನು ನಿರ್ಮಿಸಿ ಆ ಪ್ರಭುವು ಮಾಯೆಯಿಂದ ಕ್ರೀಡಿಸುತ್ತಾನೆ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 862,
+          "reference_page": 806,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0806.txt",
+          "reference_sha256": "a2b7bc3a8975245c09aa55bb5d0be9ece3fb8c38277f78513f21f705852a8915",
+          "source_part_exact": "अयं विघ्नेश्वरो देवः समस्वानंदगो\nभवेत् । सत्यासत्ये विनिर्माय प्रभुः क्रीडति मायया ॥१७॥",
+          "reference_char_start": 1482,
+          "reference_char_end_exclusive": 1558,
+          "exact_reference_excerpt": "अथं विघ्रश्वरो देवः समस्वानवगो\nभवेत्‌ । सत्यासत्ये विनिर्माय धुः कीडति मायया",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8889,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "replace",
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              "equal",
+              2,
+              7,
+              2,
+              7
+            ],
+            [
+              "replace",
+              7,
+              9,
+              7,
+              8
+            ],
+            [
+              "equal",
+              9,
+              25,
+              8,
+              24
+            ],
+            [
+              "replace",
+              25,
+              27,
+              24,
+              25
+            ],
+            [
+              "equal",
+              27,
+              53,
+              25,
+              51
+            ],
+            [
+              "replace",
+              53,
+              57,
+              51,
+              52
+            ],
+            [
+              "equal",
+              57,
+              60,
+              52,
+              55
+            ],
+            [
+              "delete",
+              60,
+              62,
+              55,
+              55
+            ],
+            [
+              "equal",
+              62,
+              71,
+              55,
+              64
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 862,
+          "physical_page": 36,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "08ab90cbd539a5bd83d623189f10bffd4b40cb88eebe44bb0226fdd56aa1227f",
+          "text": "अयं विघ्नेश्वरो देवः समस्वानंदगो\nभवेत् । सत्यासत्ये विनिर्माय प्रभुः क्रीडति मायया ॥१७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        7,
+        16,
+        19
+      ],
+      "source_sanskrit_unchanged": "संप्रज्ञातमयं ब्रह्माऽसंप्रज्ञातगतं तथा । भ्रमयुक्तं महाविघ्नसंयुक्तं नात्र संशयः ॥१९॥",
+      "reviewed_kannada": "ಸಂಪ್ರಜ್ಞಾತಮಯವೂ ಹಾಗೆಯೇ ಅಸಂಪ್ರಜ್ಞಾತಗತವೂ ಆದ ಬ್ರಹ್ಮವು ಭ್ರಮೆಯಿಂದಲೂ ಮಹಾವಿಘ್ನದಿಂದಲೂ ಕೂಡಿದೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "reviewed_kannada_candidate_unaccepted": "ಸಂಪ್ರಜ್ಞಾತಮಯವೂ ಹಾಗೆಯೇ ಅಸಂಪ್ರಜ್ಞಾತಗತವೂ ಆದ ಬ್ರಹ್ಮವು ಭ್ರಮೆಯಿಂದಲೂ ಮಹಾವಿಘ್ನದಿಂದಲೂ ಕೂಡಿದೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 862,
+          "reference_page": 806,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0806.txt",
+          "reference_sha256": "a2b7bc3a8975245c09aa55bb5d0be9ece3fb8c38277f78513f21f705852a8915",
+          "source_part_exact": "संप्रज्ञातमयं ब्रह्माऽसंप्रज्ञातगतं तथा । भ्रमयुक्तं महाविघ्नसंयुक्तं नात्र संशयः ॥१९॥",
+          "reference_char_start": 1651,
+          "reference_char_end_exclusive": 1732,
+          "exact_reference_excerpt": "संपरज्ञातमयं व्रह्माऽसंप्रज्ञातगतं तथा । भ्रमयुक्तं महाविघ्रसंयुक्तं नाच्र संरायः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9315,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              3,
+              0,
+              3
+            ],
+            [
+              "delete",
+              3,
+              4,
+              3,
+              3
+            ],
+            [
+              "equal",
+              4,
+              13,
+              3,
+              12
+            ],
+            [
+              "replace",
+              13,
+              14,
+              12,
+              13
+            ],
+            [
+              "equal",
+              14,
+              54,
+              13,
+              53
+            ],
+            [
+              "replace",
+              54,
+              55,
+              53,
+              54
+            ],
+            [
+              "equal",
+              55,
+              65,
+              54,
+              64
+            ],
+            [
+              "replace",
+              65,
+              66,
+              64,
+              65
+            ],
+            [
+              "equal",
+              66,
+              70,
+              65,
+              69
+            ],
+            [
+              "replace",
+              70,
+              71,
+              69,
+              71
+            ],
+            [
+              "equal",
+              71,
+              73,
+              71,
+              73
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 862,
+          "physical_page": 36,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "08ab90cbd539a5bd83d623189f10bffd4b40cb88eebe44bb0226fdd56aa1227f",
+          "text": "संप्रज्ञातमयं ब्रह्माऽसंप्रज्ञातगतं तथा । भ्रमयुक्तं महाविघ्नसंयुक्तं नात्र संशयः ॥१९॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        7,
+        16,
+        21
+      ],
+      "source_sanskrit_unchanged": "विश्वेषां विघ्नराजोऽयं विघ्नकर्ता\nप्रजापते । विघ्नहर्ता स्वयं साक्षाद्ब्रह्मणां च निरंतरम् ॥२१॥",
+      "reviewed_kannada": "ಹೇ ಪ್ರಜಾಪತಿಯೇ, ಇವನು ವಿಶ್ವಗಳ ವಿಘ್ನರಾಜನೂ ವಿಘ್ನಕರ್ತನೂ ಆಗಿದ್ದಾನೆ; ಸ್ವತಃ ಸಾಕ್ಷಾತ್ ಬ್ರಹ್ಮಗಳ ವಿಘ್ನಹರ್ತನೂ ನಿರಂತರವಾಗಿದ್ದಾನೆ.",
+      "reviewed_kannada_candidate_unaccepted": "ಹೇ ಪ್ರಜಾಪತಿಯೇ, ಇವನು ವಿಶ್ವಗಳ ವಿಘ್ನರಾಜನೂ ವಿಘ್ನಕರ್ತನೂ ಆಗಿದ್ದಾನೆ; ಸ್ವತಃ ಸಾಕ್ಷಾತ್ ಬ್ರಹ್ಮಗಳ ವಿಘ್ನಹರ್ತನೂ ನಿರಂತರವಾಗಿದ್ದಾನೆ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 862,
+          "reference_page": 806,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0806.txt",
+          "reference_sha256": "a2b7bc3a8975245c09aa55bb5d0be9ece3fb8c38277f78513f21f705852a8915",
+          "source_part_exact": "विश्वेषां विघ्नराजोऽयं विघ्नकर्ता\nप्रजापते । विघ्नहर्ता स्वयं साक्षाद्ब्रह्मणां च निरंतरम् ॥२१॥",
+          "reference_char_start": 1828,
+          "reference_char_end_exclusive": 1909,
+          "exact_reference_excerpt": "विश्वेषां विघ्रराजोऽय विघ्रकर्ती\nपरजापते । बिरहा स्वयं साक्षाद्रह्मणां च निरंतरम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.8742,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              13,
+              0,
+              13
+            ],
+            [
+              "replace",
+              13,
+              14,
+              13,
+              14
+            ],
+            [
+              "equal",
+              14,
+              20,
+              14,
+              20
+            ],
+            [
+              "delete",
+              20,
+              21,
+              20,
+              20
+            ],
+            [
+              "equal",
+              21,
+              25,
+              20,
+              24
+            ],
+            [
+              "replace",
+              25,
+              26,
+              24,
+              25
+            ],
+            [
+              "equal",
+              26,
+              30,
+              25,
+              29
+            ],
+            [
+              "replace",
+              30,
+              31,
+              29,
+              30
+            ],
+            [
+              "equal",
+              31,
+              32,
+              30,
+              31
+            ],
+            [
+              "delete",
+              32,
+              33,
+              31,
+              31
+            ],
+            [
+              "equal",
+              33,
+              39,
+              31,
+              37
+            ],
+            [
+              "replace",
+              39,
+              40,
+              37,
+              38
+            ],
+            [
+              "equal",
+              40,
+              41,
+              38,
+              39
+            ],
+            [
+              "replace",
+              41,
+              44,
+              39,
+              40
+            ],
+            [
+              "equal",
+              44,
+              45,
+              40,
+              41
+            ],
+            [
+              "delete",
+              45,
+              48,
+              41,
+              41
+            ],
+            [
+              "equal",
+              48,
+              61,
+              41,
+              54
+            ],
+            [
+              "delete",
+              61,
+              63,
+              54,
+              54
+            ],
+            [
+              "equal",
+              63,
+              80,
+              54,
+              71
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 862,
+          "physical_page": 36,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "08ab90cbd539a5bd83d623189f10bffd4b40cb88eebe44bb0226fdd56aa1227f",
+          "text": "विश्वेषां विघ्नराजोऽयं विघ्नकर्ता\nप्रजापते । विघ्नहर्ता स्वयं साक्षाद्ब्रह्मणां च निरंतरम् ॥२१॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        7,
+        16,
+        26
+      ],
+      "source_sanskrit_unchanged": "पंचाग्निसाधनादीनि तपांसि विविधानि यः । कुर्यात्तेभ्योऽधिकं पुण्यमस्य श्रवणतो लभेत् ॥२६॥",
+      "reviewed_kannada": "ಯಾವನು ಪಂಚಾಗ್ನಿಸಾಧನೆ ಮೊದಲಾದ ವಿವಿಧ ತಪಸ್ಸುಗಳನ್ನು ಮಾಡುತ್ತಾನೆಯೋ, ಅವುಗಳಿಂದ ದೊರೆಯುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಪುಣ್ಯವನ್ನು ಇದರ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಯಾವನು ಪಂಚಾಗ್ನಿಸಾಧನೆ ಮೊದಲಾದ ವಿವಿಧ ತಪಸ್ಸುಗಳನ್ನು ಮಾಡುತ್ತಾನೆಯೋ, ಅವುಗಳಿಂದ ದೊರೆಯುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಪುಣ್ಯವನ್ನು ಇದರ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 862,
+          "reference_page": 806,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0806.txt",
+          "reference_sha256": "a2b7bc3a8975245c09aa55bb5d0be9ece3fb8c38277f78513f21f705852a8915",
+          "source_part_exact": "पंचाग्निसाधनादीनि तपांसि विविधानि यः ।",
+          "reference_char_start": 2262,
+          "reference_char_end_exclusive": 2296,
+          "exact_reference_excerpt": "पचाभरिसाधनादीनि तपांसि विविधानि यः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9062,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "delete",
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              "equal",
+              2,
+              4,
+              1,
+              3
+            ],
+            [
+              "replace",
+              4,
+              7,
+              3,
+              5
+            ],
+            [
+              "equal",
+              7,
+              33,
+              5,
+              31
+            ]
+          ],
+          "accepted_reading": null
+        },
+        {
+          "global_page": 863,
+          "reference_page": 807,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0807.txt",
+          "reference_sha256": "88ec10002dc0160431b15d9ee11d27422c0cc8edf1951e686489c2144cb4c1a8",
+          "source_part_exact": "कुर्यात्तेभ्योऽधिकं पुण्यमस्य श्रवणतो लभेत् ॥२६॥",
+          "reference_char_start": 46,
+          "reference_char_end_exclusive": 85,
+          "exact_reference_excerpt": "कुयात्तभ्योऽधिकं पुण्यस्य भ्रवणतो लभेत्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9211,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "delete",
+              2,
+              4,
+              2,
+              2
+            ],
+            [
+              "equal",
+              4,
+              9,
+              2,
+              7
+            ],
+            [
+              "delete",
+              9,
+              10,
+              7,
+              7
+            ],
+            [
+              "equal",
+              10,
+              24,
+              7,
+              21
+            ],
+            [
+              "delete",
+              24,
+              25,
+              21,
+              21
+            ],
+            [
+              "equal",
+              25,
+              28,
+              21,
+              24
+            ],
+            [
+              "replace",
+              28,
+              29,
+              24,
+              25
+            ],
+            [
+              "equal",
+              29,
+              40,
+              25,
+              36
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 862,
+          "physical_page": 36,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "08ab90cbd539a5bd83d623189f10bffd4b40cb88eebe44bb0226fdd56aa1227f",
+          "text": "पंचाग्निसाधनादीनि तपांसि विविधानि यः ।",
+          "text_origin": "saved_Argon"
+        },
+        {
+          "global_page": 863,
+          "physical_page": 37,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "d3d07787f8239ac18a542770930816e0800cd9c8321e1865867a3144cd79f2e7",
+          "text": "कुर्यात्तेभ्योऽधिकं पुण्यमस्य श्रवणतो लभेत् ॥२६॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        7,
+        16,
+        27
+      ],
+      "source_sanskrit_unchanged": "तीर्थानि विविधान्येव साधयित्वा फलं लभेत् । तेभ्योऽधिकं लभेत् पुण्यं खंडस्यास्य श्रवान्नरः ॥२७॥",
+      "reviewed_kannada": "ವಿವಿಧ ತೀರ್ಥಗಳನ್ನು ಸೇವಿಸಿ ದೊರೆಯುವ ಫಲಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪುಣ್ಯವನ್ನು ಮನುಷ್ಯನು ಈ ಖಂಡದ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು.",
+      "reviewed_kannada_candidate_unaccepted": "ವಿವಿಧ ತೀರ್ಥಗಳನ್ನು ಸೇವಿಸಿ ದೊರೆಯುವ ಫಲಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪುಣ್ಯವನ್ನು ಮನುಷ್ಯನು ಈ ಖಂಡದ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 863,
+          "reference_page": 807,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0807.txt",
+          "reference_sha256": "88ec10002dc0160431b15d9ee11d27422c0cc8edf1951e686489c2144cb4c1a8",
+          "source_part_exact": "तीर्थानि विविधान्येव साधयित्वा फलं लभेत् । तेभ्योऽधिकं लभेत् पुण्यं खंडस्यास्य श्रवान्नरः ॥२७॥",
+          "reference_char_start": 92,
+          "reference_char_end_exclusive": 178,
+          "exact_reference_excerpt": "तीनि विविधान्येव साधयित्वा फलं लभेत्‌। तेभ्योऽधिकं क्भत्‌\nपुण्यं खेडस्यास्य श्रवान्नरः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9342,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "delete",
+              2,
+              6,
+              2,
+              2
+            ],
+            [
+              "equal",
+              6,
+              47,
+              2,
+              43
+            ],
+            [
+              "replace",
+              47,
+              48,
+              43,
+              45
+            ],
+            [
+              "equal",
+              48,
+              49,
+              45,
+              46
+            ],
+            [
+              "delete",
+              49,
+              50,
+              46,
+              46
+            ],
+            [
+              "equal",
+              50,
+              59,
+              46,
+              55
+            ],
+            [
+              "replace",
+              59,
+              60,
+              55,
+              56
+            ],
+            [
+              "equal",
+              60,
+              78,
+              56,
+              74
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 863,
+          "physical_page": 37,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "d3d07787f8239ac18a542770930816e0800cd9c8321e1865867a3144cd79f2e7",
+          "text": "तीर्थानि विविधान्येव साधयित्वा फलं लभेत् । तेभ्योऽधिकं लभेत् पुण्यं खंडस्यास्य श्रवान्नरः ॥२७॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        7,
+        16,
+        28
+      ],
+      "source_sanskrit_unchanged": "यज्ञानां सांगजातानां फलं तस्मात् प्रजापते । अधिकं श्रवणादस्य लभेत् खंडस्य मानवः ॥२८॥",
+      "reviewed_kannada": "ಹೇ ಪ್ರಜಾಪತಿಯೇ, ಸಕಲ ಅಂಗಗಳೊಡನೆ ನೆರವೇರಿದ ಯಜ್ಞಗಳ ಫಲಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಫಲವನ್ನು ಮನುಷ್ಯನು ಈ ಖಂಡದ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಹೇ ಪ್ರಜಾಪತಿಯೇ, ಸಕಲ ಅಂಗಗಳೊಡನೆ ನೆರವೇರಿದ ಯಜ್ಞಗಳ ಫಲಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಫಲವನ್ನು ಮನುಷ್ಯನು ಈ ಖಂಡದ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 863,
+          "reference_page": 807,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0807.txt",
+          "reference_sha256": "88ec10002dc0160431b15d9ee11d27422c0cc8edf1951e686489c2144cb4c1a8",
+          "source_part_exact": "यज्ञानां सांगजातानां फलं तस्मात् प्रजापते । अधिकं श्रवणादस्य लभेत् खंडस्य मानवः ॥२८॥",
+          "reference_char_start": 184,
+          "reference_char_end_exclusive": 263,
+          "exact_reference_excerpt": "यज्ञानां सांगजातानां फल तस्मात्‌ प्रजापते । अधिक श्रवणादस्य लभेत्‌ खंडस्य मानवः",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9851,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              21,
+              0,
+              21
+            ],
+            [
+              "delete",
+              21,
+              22,
+              21,
+              21
+            ],
+            [
+              "equal",
+              22,
+              41,
+              21,
+              40
+            ],
+            [
+              "delete",
+              41,
+              42,
+              40,
+              40
+            ],
+            [
+              "equal",
+              42,
+              68,
+              40,
+              66
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 863,
+          "physical_page": 37,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "d3d07787f8239ac18a542770930816e0800cd9c8321e1865867a3144cd79f2e7",
+          "text": "यज्ञानां सांगजातानां फलं तस्मात् प्रजापते । अधिकं श्रवणादस्य लभेत् खंडस्य मानवः ॥२८॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        7,
+        16,
+        31
+      ],
+      "source_sanskrit_unchanged": "वंध्यादिदोषभावेन पीडितो यदि मानवः । अस्य श्रवणमात्रेण पीडाहीनो भवेत् सदा ॥३१॥",
+      "reviewed_kannada": "ಮನುಷ್ಯನು ವಂಧ್ಯತ್ವ ಮೊದಲಾದ ದೋಷಗಳಿಂದ ಪೀಡಿತನಾಗಿದ್ದರೆ, ಇದರ ಶ್ರವಣಮಾತ್ರದಿಂದಲೇ ಸದಾ ಪೀಡಾರಹಿತನಾಗುವನು.",
+      "reviewed_kannada_candidate_unaccepted": "ಮನುಷ್ಯನು ವಂಧ್ಯತ್ವ ಮೊದಲಾದ ದೋಷಗಳಿಂದ ಪೀಡಿತನಾಗಿದ್ದರೆ, ಇದರ ಶ್ರವಣಮಾತ್ರದಿಂದಲೇ ಸದಾ ಪೀಡಾರಹಿತನಾಗುವನು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 863,
+          "reference_page": 807,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0807.txt",
+          "reference_sha256": "88ec10002dc0160431b15d9ee11d27422c0cc8edf1951e686489c2144cb4c1a8",
+          "source_part_exact": "वंध्यादिदोषभावेन पीडितो यदि मानवः । अस्य श्रवणमात्रेण पीडाहीनो भवेत् सदा ॥३१॥",
+          "reference_char_start": 445,
+          "reference_char_end_exclusive": 517,
+          "exact_reference_excerpt": "वंध्यादिदोषभावेन पीडितो यदि मानवः । अस्य\nश्रवणमात्रण पीडाहीनो भवेत्‌ सदा",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9919,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              44,
+              0,
+              44
+            ],
+            [
+              "delete",
+              44,
+              45,
+              44,
+              44
+            ],
+            [
+              "equal",
+              45,
+              62,
+              44,
+              61
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 863,
+          "physical_page": 37,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "d3d07787f8239ac18a542770930816e0800cd9c8321e1865867a3144cd79f2e7",
+          "text": "वंध्यादिदोषभावेन पीडितो यदि मानवः । अस्य श्रवणमात्रेण पीडाहीनो भवेत् सदा ॥३१॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        7,
+        16,
+        35
+      ],
+      "source_sanskrit_unchanged": "बहुनाऽत्र किमुक्तेन यत्र विघ्नपतिः स्वयम् । संस्थितस्तेन सामान्यं भविष्यति किमप्यहो ॥३५॥",
+      "reviewed_kannada": "ಇಲ್ಲಿ ಹೆಚ್ಚಿಗೆ ಹೇಳುವುದರಿಂದೇನು? ಸ್ವತಃ ವಿಘ್ನಪತಿಯೇ ನೆಲೆಸಿರುವ ಇದು ಸಾಮಾನ್ಯವಾದದ್ದಾಗಲು ಹೇಗೆ ಸಾಧ್ಯ? ಅಹೋ!",
+      "reviewed_kannada_candidate_unaccepted": "ಇಲ್ಲಿ ಹೆಚ್ಚಿಗೆ ಹೇಳುವುದರಿಂದೇನು? ಸ್ವತಃ ವಿಘ್ನಪತಿಯೇ ನೆಲೆಸಿರುವ ಇದು ಸಾಮಾನ್ಯವಾದದ್ದಾಗಲು ಹೇಗೆ ಸಾಧ್ಯ? ಅಹೋ!",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 863,
+          "reference_page": 807,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0807.txt",
+          "reference_sha256": "88ec10002dc0160431b15d9ee11d27422c0cc8edf1951e686489c2144cb4c1a8",
+          "source_part_exact": "बहुनाऽत्र किमुक्तेन यत्र विघ्नपतिः स्वयम् । संस्थितस्तेन सामान्यं भविष्यति किमप्यहो ॥३५॥",
+          "reference_char_start": 777,
+          "reference_char_end_exclusive": 861,
+          "exact_reference_excerpt": "बहनाऽच्र किमुक्तेन यत्र विन्नपतिः\nस्वयम्‌ । संस्थितस्तेन सामान्यं मविष्यति कफिमप्यहो",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9452,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "delete",
+              2,
+              3,
+              2,
+              2
+            ],
+            [
+              "equal",
+              3,
+              6,
+              2,
+              5
+            ],
+            [
+              "replace",
+              6,
+              7,
+              5,
+              6
+            ],
+            [
+              "equal",
+              7,
+              24,
+              6,
+              23
+            ],
+            [
+              "replace",
+              24,
+              25,
+              23,
+              24
+            ],
+            [
+              "equal",
+              25,
+              57,
+              24,
+              56
+            ],
+            [
+              "replace",
+              57,
+              58,
+              56,
+              57
+            ],
+            [
+              "equal",
+              58,
+              66,
+              57,
+              65
+            ],
+            [
+              "insert",
+              66,
+              66,
+              65,
+              66
+            ],
+            [
+              "equal",
+              66,
+              73,
+              66,
+              73
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 863,
+          "physical_page": 37,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "d3d07787f8239ac18a542770930816e0800cd9c8321e1865867a3144cd79f2e7",
+          "text": "बहुनाऽत्र किमुक्तेन यत्र विघ्नपतिः स्वयम् । संस्थितस्तेन सामान्यं भविष्यति किमप्यहो ॥३५॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false
+    },
+    {
+      "key": [
+        7,
+        16,
+        40
+      ],
+      "source_sanskrit_unchanged": "भवतां संगयोगेन पावितोऽहं न संशयः । श्रोतुमिच्छसि किं भूयो वद शौनक ते हितम् ॥४०॥",
+      "reviewed_kannada": "ನಿಮ್ಮೆಲ್ಲರ ಸಾಂಗತ್ಯದಿಂದ ನಾನು ಪಾವನನಾಗಿದ್ದೇನೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ಹೇ ಶೌನಕನೇ, ನಿನ್ನ ಹಿತಕ್ಕಾಗಿ ಇನ್ನೇನನ್ನು ಕೇಳಬಯಸುವೆಯೋ ಹೇಳು.",
+      "reviewed_kannada_candidate_unaccepted": "ನಿಮ್ಮೆಲ್ಲರ ಸಾಂಗತ್ಯದಿಂದ ನಾನು ಪಾವನನಾಗಿದ್ದೇನೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ಹೇ ಶೌನಕನೇ, ನಿನ್ನ ಹಿತಕ್ಕಾಗಿ ಇನ್ನೇನನ್ನು ಕೇಳಬಯಸುವೆಯೋ ಹೇಳು.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 863,
+          "reference_page": 807,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0807.txt",
+          "reference_sha256": "88ec10002dc0160431b15d9ee11d27422c0cc8edf1951e686489c2144cb4c1a8",
+          "source_part_exact": "भवतां संगयोगेन पावितोऽहं न संशयः । श्रोतुमिच्छसि किं भूयो वद शौनक ते हितम् ॥४०॥",
+          "reference_char_start": 1216,
+          "reference_char_end_exclusive": 1293,
+          "exact_reference_excerpt": "भवतां संगयोगेन पावितोऽहं न संदायः ।\n\nश्रोतुमिच्छसि किं भूयो वद रौैनक ते हितम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9516,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              25,
+              0,
+              25
+            ],
+            [
+              "replace",
+              25,
+              26,
+              25,
+              27
+            ],
+            [
+              "equal",
+              26,
+              50,
+              27,
+              51
+            ],
+            [
+              "replace",
+              50,
+              51,
+              51,
+              52
+            ],
+            [
+              "equal",
+              51,
+              52,
+              52,
+              53
+            ],
+            [
+              "insert",
+              52,
+              52,
+              53,
+              54
+            ],
+            [
+              "equal",
+              52,
+              61,
+              54,
+              63
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 863,
+          "physical_page": 37,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "d3d07787f8239ac18a542770930816e0800cd9c8321e1865867a3144cd79f2e7",
+          "text": "भवतां संगयोगेन पावितोऽहं न संशयः । श्रोतुमिच्छसि किं भूयो वद शौनक ते हितम् ॥४०॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    },
+    {
+      "key": [
+        7,
+        16,
+        41
+      ],
+      "source_sanskrit_unchanged": "विघ्नराजसमं नैव यथा विप्र तथा परम् । चरित्रं विघ्नराजस्य सर्वसिद्धिप्रदायकम् ॥४१॥",
+      "reviewed_kannada": "ಹೇ ವಿಪ್ರನೇ, ವಿಘ್ನರಾಜನಿಗೆ ಸಮನಾದ ಬೇರೆ ಯಾವುದೂ ಇಲ್ಲದಂತೆ, ವಿಘ್ನರಾಜನ ಚರಿತ್ರೆಯೂ ಪರಮಶ್ರೇಷ್ಠವಾದುದು; ಅದು ಸರ್ವಸಿದ್ಧಿಗಳನ್ನು ನೀಡುತ್ತದೆ.",
+      "reviewed_kannada_candidate_unaccepted": "ಹೇ ವಿಪ್ರನೇ, ವಿಘ್ನರಾಜನಿಗೆ ಸಮನಾದ ಬೇರೆ ಯಾವುದೂ ಇಲ್ಲದಂತೆ, ವಿಘ್ನರಾಜನ ಚರಿತ್ರೆಯೂ ಪರಮಶ್ರೇಷ್ಠವಾದುದು; ಅದು ಸರ್ವಸಿದ್ಧಿಗಳನ್ನು ನೀಡುತ್ತದೆ.",
+      "release_hold": false,
+      "reference_parts": [
+        {
+          "global_page": 863,
+          "reference_page": 807,
+          "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0807.txt",
+          "reference_sha256": "88ec10002dc0160431b15d9ee11d27422c0cc8edf1951e686489c2144cb4c1a8",
+          "source_part_exact": "विघ्नराजसमं नैव यथा विप्र तथा परम् । चरित्रं विघ्नराजस्य सर्वसिद्धिप्रदायकम् ॥४१॥",
+          "reference_char_start": 1300,
+          "reference_char_end_exclusive": 1378,
+          "exact_reference_excerpt": "विघ्नराजसमं नेव यथा विप्र तथा परम्‌ । चरित्रं विघ्रराजस्य सर्व-\n1साद्‌परदायकम्",
+          "assignment_method": "mechanical_ordered_alignment_candidate_not_verified_verse_span",
+          "normalized_similarity": 0.9302,
+          "normalized_agreement": false,
+          "status": "open_OCR_text_disagreement_or_alignment_question",
+          "source_to_reference_opcodes": [
+            [
+              "equal",
+              0,
+              12,
+              0,
+              12
+            ],
+            [
+              "replace",
+              12,
+              13,
+              12,
+              13
+            ],
+            [
+              "equal",
+              13,
+              40,
+              13,
+              40
+            ],
+            [
+              "replace",
+              40,
+              41,
+              40,
+              41
+            ],
+            [
+              "equal",
+              41,
+              52,
+              41,
+              52
+            ],
+            [
+              "replace",
+              52,
+              53,
+              52,
+              53
+            ],
+            [
+              "equal",
+              53,
+              55,
+              53,
+              55
+            ],
+            [
+              "delete",
+              55,
+              57,
+              55,
+              55
+            ],
+            [
+              "equal",
+              57,
+              58,
+              55,
+              56
+            ],
+            [
+              "delete",
+              58,
+              59,
+              56,
+              56
+            ],
+            [
+              "equal",
+              59,
+              66,
+              56,
+              63
+            ]
+          ],
+          "accepted_reading": null
+        }
+      ],
+      "status": "open_reference_OCR_comparison",
+      "source_reading_accepted": false,
+      "original_scan_evidence": [
+        {
+          "global_page": 863,
+          "physical_page": 37,
+          "pdf_sha256": "edbfa16999697e3a8e59811306f2f3b6ab0b3b47cf42609dd6d449c6f90b28fd",
+          "filename": "851 TO 900.pdf",
+          "image_sha256": "d3d07787f8239ac18a542770930816e0800cd9c8321e1865867a3144cd79f2e7",
+          "text": "विघ्नराजसमं नैव यथा विप्र तथा परम् । चरित्रं विघ्नराजस्य सर्वसिद्धिप्रदायकम् ॥४१॥",
+          "text_origin": "saved_Argon"
+        }
+      ],
+      "independent_scan_certification": false,
+      "integrator_context_inspection": "Literal uploaded OCR excerpt actually read alongside supplied source and reviewer correction; differences retained. Specific interpretation comes from independent review; no Sanskrit source emendation accepted."
+    }
+  ],
+  "context_inspections": 6,
+  "nonverse_comparisons": [
+    {
+      "chapter": 16,
+      "reference_page": 807,
+      "reference_path": "mudgala-reference-intake/individual-pages/pages/page_0807.txt",
+      "reference_sha256": "88ec10002dc0160431b15d9ee11d27422c0cc8edf1951e686489c2144cb4c1a8",
+      "reference_char_start": 0,
+      "reference_char_end_exclusive": 1621,
+      "exact_reference_excerpt": "<--- Page 807 starts --->\n\nख. ७ अ. १६ पान ३७\n\nकुयात्तभ्योऽधिकं पुण्यस्य भ्रवणतो लभेत्‌ ॥२६॥ तीनि विविधान्येव साधयित्वा फलं लभेत्‌। तेभ्योऽधिकं क्भत्‌\nपुण्यं खेडस्यास्य श्रवान्नरः ॥२७॥ यज्ञानां सांगजातानां फल तस्मात्‌ प्रजापते । अधिक श्रवणादस्य लभेत्‌ खंडस्य मानवः\n॥२८॥ इष्टापूतीदिकं सर्वं यः करोति नरोत्तमः । तेभ्योऽधिकं लभेत्तस्य श्रवणान्नात्र संदायः ॥२९॥ पुच्रपौच्रादिसंयुक्तो\nधनधान्यादिखंयुतः । आरोग्येण नरो युक्तो भवेदस्य तु संश्रवात्‌ ॥३०॥ वंध्यादिदोषभावेन पीडितो यदि मानवः । अस्य\nश्रवणमात्रण पीडाहीनो भवेत्‌ सदा ॥३१॥ यस्य गेहे यतश्चायं खंडो विघ्रेदाभक्तिदः । कदा तस्य पिराचेभ्यश्चोरादिभ्यो\nमयं न हि ॥२२॥ नाभरिभूतं न भूतेभ्यो मयं राज भवं कदा । ग्रहेभ्यो राशिसंस्थेभ्यः पूतनादिभयं न च ॥३३॥ घमाधे-\nकाममोक्षाणां दायकोऽयं प्रकीतितः । ब्रह्मभुयपरदः साक्षाच्टवणेन न संडायः ॥३४॥ बहनाऽच्र किमुक्तेन यत्र विन्नपतिः\nस्वयम्‌ । संस्थितस्तेन सामान्यं मविष्यति कफिमप्यहो ॥३५॥ इति ते कथितं सर्वं विघराजस्य चेष्टितम्‌ । मज त्वं सवेभावेन\nगणेरां खुखमाप्स्यसि ॥३६॥ न आ्राव्यं दुजनायेदं चरित्रं सवसिद्धिदम्‌ । साधवे गाणपत्याय श्राव्यं यज्ञेन मानद ॥३७।\nसृत उवाच । एवमुक्त्वा महायोगी सुद्धलो विरराम ह । दश्चो हृष्टमनास्तं तु प्रणनाम कूतांजलिः ॥३८॥ मया ते कथित पूरण\nचरित्रं विघ्रपस्य यत्‌ । यथा सुद्धलवक्च्राच निःखतं तादशं परम्‌ ॥३९॥ भवतां संगयोगेन पावितोऽहं न संदायः ।\n\nश्रोतुमिच्छसि किं भूयो वद रौैनक ते हितम्‌ ॥४०॥ विघ्नराजसमं नेव यथा विप्र तथा परम्‌ । चरित्रं विघ्रराजस्य सर्व-\n1साद्‌परदायकम्‌ ॥४१॥\n\n॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्रटे महापुराणे सप्तमे खण्ड विज्नराजचरिते च रितमाहात्म्यवर्णनं नाम षोडदोऽध्यायः समाप्त: ॥।\n॥ इति श्रीसुद्लपुराणे सप्तम: खंडः समाप्त: ॥\n\n॥ श्रीगजाननापणमस्तु ॥\n\n“> > <€\n\n<--- Page 807 ends --->\n",
+      "source_colophon": "ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे सप्तमे खण्डे विघ्नराजचरिते चरितमाहात्म्यवर्णनं नाम षोडशोऽध्यायः समाप्तः ॥\n",
+      "accepted_reading": null,
+      "status": "Full literal context retained; exact colophon reading unaccepted."
+    }
+  ]
+}
