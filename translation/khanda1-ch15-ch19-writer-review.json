@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "af1fade15fb3be57efea84575eebd91beea4d5a1",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        15,
+        12
+      ],
+      "old_row": {
+        "source_pages": "50",
+        "type": "mantra",
+        "text": "ಸಿಂಧೂರಾರುಣದೇಹಾಯ ರಕ್ತವರ್ಣಾಯ ತೇ ಚ । ಮಹಾಕಾಯಾಯ ಸೂಕ್ಷ್ಮಾಯ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೨॥"
+      },
+      "new_row": {
+        "source_pages": "50",
+        "type": "mantra",
+        "text": "ಸಿಂದೂರಾರುಣದೇಹಾಯ ರಕ್ತವರ್ಣಧರಾಯ ಚ । ಮಹಾಕಾಯಾಯ ಸೂಕ್ಷ್ಮಾಯ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೨॥"
+      },
+      "base_file": "translation/batch-02-03.tsv",
+      "source_sanskrit": "सिंदूरारुणदेहाय रक्तवर्णधराय च । महाकायाय सूक्ष्माय गणेशाय नमो नमः ॥१२॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಸಿಂದೂರಾರುಣದೇಹಾಯ ರಕ್ತವರ್ಣಧರಾಯ ಚ । ಮಹಾಕಾಯಾಯ ಸೂಕ್ಷ್ಮಾಯ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೨॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/independent-review.md",
+        "sha256": "71502f75727ca52ca4aede790e0b15c024b43ee7def1ac95e5e63686baa76ba5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0037.png",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0037.png",
+        "sha256": "e7987f6aab7a7a2940347db8440806fb7cf2ebf156469289653eaab075f1759a",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          1020,
+          3710,
+          1440
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original clearly prints रक्तवर्णधराय, with no separate ते. It also has unaspirated द in सिंदूर, supporting Kannada ದ rather than ಧ. Preserve remaining words; this is source transcription, not metrical harmonization.",
+      "replacements": [
+        {
+          "before": "ಸಿಂಧೂರಾರುಣದೇಹಾಯ",
+          "after": "ಸಿಂದೂರಾರುಣದೇಹಾಯ"
+        },
+        {
+          "before": "ರಕ್ತವರ್ಣಾಯ ತೇ",
+          "after": "ರಕ್ತವರ್ಣಧರಾಯ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        16,
+        16
+      ],
+      "old_row": {
+        "source_pages": "51",
+        "type": "translation",
+        "text": "ಆದ್ದರಿಂದ ಸ್ವಾನಂದವಾಸಿಗೆ ವೇದಗಳಲ್ಲಿ ಪ್ರವೇಶವಿರುವ ಹೆಸರು ಬಂದಿದೆ. ನಾಲ್ಕು ಬ್ರಹ್ಮಗಳ ಭೋಗಗಳ ಅಂತ್ಯದಲ್ಲಿ ಯೋಗಾಭೇದವು ಉಂಟಾಗುತ್ತದೆ. ॥೧೬॥"
+      },
+      "new_row": {
+        "source_pages": "51",
+        "type": "translation-review",
+        "text": "ಆದ್ದರಿಂದ ವೇದಗಳು ನನ್ನನ್ನು ಸ್ವಾನಂದವಾಸಿಯೆಂದು ಹೇಳುತ್ತವೆ. (ಪರಿಶೀಲನೆ: ಶ್ಲೋಕದ ಎರಡನೆಯ ಅರ್ಧದಲ್ಲಿನ ನಾಲ್ಕು ಬ್ರಹ್ಮಗಳು, ಭೋಗಗಳು ಮತ್ತು ಯೋಗಾಭೇದದ ನಡುವಿನ ಸಂಬಂಧದ ನಿಖರ ಅರ್ಥ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೧೬॥"
+      },
+      "base_file": "translation/batch-03-01.tsv",
+      "source_sanskrit": "स्वानंदवासिनं तेन वेदेषु प्रवदंति माम् । चतुर्णां ब्रह्मणां भोगास्तं योगाभेदयोगतः ॥१६॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "second_half_segmentation_and_syntax_unsettled",
+          "reading": null,
+          "token": "स्वानंदवासिनं तेन वेदेषु प्रवदंति माम् । चतुर्णां ब्रह्मणां भोगास्तं योगाभेदयोगतः ॥१६॥",
+          "detail": "First half clearly says they call me Svanandavasin in the Vedas; there is no entry into the Vedas. Second half prints भोगास्तं योगाभेदयोगतः, whose segmentation/syntax remains uncertain. Do not certify the current claim about the end of the enjoyments or invent a completed reconstruction. Only the first sentence is correction-ready; full replacement remains null."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_reviewed_partial",
+      "partial_suffix": " (ಪರಿಶೀಲನೆ: ಶ್ಲೋಕದ ಎರಡನೆಯ ಅರ್ಧದಲ್ಲಿನ ನಾಲ್ಕು ಬ್ರಹ್ಮಗಳು, ಭೋಗಗಳು ಮತ್ತು ಯೋಗಾಭೇದದ ನಡುವಿನ ಸಂಬಂಧದ ನಿಖರ ಅರ್ಥ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ.) ॥೧೬॥",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/independent-review.md",
+        "sha256": "71502f75727ca52ca4aede790e0b15c024b43ee7def1ac95e5e63686baa76ba5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0038.png",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0038.png",
+        "sha256": "ef928aa2daeed90b669efaf5025eff76d41d630f1ae28d005213857d8e4d2b6d",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          1320,
+          3710,
+          1800
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "First half clearly says they call me Svanandavasin in the Vedas; there is no entry into the Vedas. Second half prints भोगास्तं योगाभेदयोगतः, whose segmentation/syntax remains uncertain. Do not certify the current claim about the end of the enjoyments or invent a completed reconstruction. Only the first sentence is correction-ready; full replacement remains null.",
+      "replacements": [
+        {
+          "before": "ಆದ್ದರಿಂದ ಸ್ವಾನಂದವಾಸಿಗೆ ವೇದಗಳಲ್ಲಿ ಪ್ರವೇಶವಿರುವ ಹೆಸರು ಬಂದಿದೆ.",
+          "after": "ಆದ್ದರಿಂದ ವೇದಗಳು ನನ್ನನ್ನು ಸ್ವಾನಂದವಾಸಿಯೆಂದು ಹೇಳುತ್ತವೆ."
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        17,
+        21
+      ],
+      "old_row": {
+        "source_pages": "53",
+        "type": "translation",
+        "text": "ನಾನು ಸಂಹಾರಕಾರನು; ನೀನು ಮೋಹವನ್ನು ಕೊಡುವವಳು, ಶಿವೆಯೇ. ಭಾನು ಕಾಲಗಳ ಮೂಲಕ ಕರ್ಮಗಳನ್ನು ನಡೆಸುವವನಾಗಿದ್ದಾನೆ; ಸಂಶಯವಿಲ್ಲ. ॥೨೧॥"
+      },
+      "new_row": {
+        "source_pages": "53",
+        "type": "translation",
+        "text": "ನಾನು ಸಂಹಾರಕಾರನು; ನೀನು ಪ್ರಮೋದವನ್ನು ಕೊಡುವವಳು, ಶಿವೆಯೇ. ಭಾನು ಕಾಲಗಳ ಮೂಲಕ ಕರ್ಮಗಳನ್ನು ನಡೆಸುವವನಾಗಿದ್ದಾನೆ; ಸಂಶಯವಿಲ್ಲ. ॥೨೧॥"
+      },
+      "base_file": "translation/batch-03-01.tsv",
+      "source_sanskrit": "अहं संहारकारी च त्वं प्रमोदप्रदा शिवे । कर्मणां चालकः कालैर्भानुर्जातो न संशयः ॥२१॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": "ನಾನು ಸಂಹಾರಕಾರನು; ನೀನು ಪ್ರಮೋದವನ್ನು ಕೊಡುವವಳು, ಶಿವೆಯೇ. ಭಾನು ಕಾಲಗಳ ಮೂಲಕ ಕರ್ಮಗಳನ್ನು ನಡೆಸುವವನಾಗಿದ್ದಾನೆ; ಸಂಶಯವಿಲ್ಲ. ॥೨೧॥",
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_full_translation",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/independent-review.md",
+        "sha256": "71502f75727ca52ca4aede790e0b15c024b43ee7def1ac95e5e63686baa76ba5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0040.png",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0040.png",
+        "sha256": "893bac1e9a7573787c85a55ef5c8a7aab0186f8cc89f44684b723c62ae288226",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          300,
+          3720,
+          825
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Actual original reads प्रमोदप्रदा, giver of delight. Replace only moha with pramoda; current destruction role, solar/time clause and negation are retained. Recurring moha elsewhere cannot override this printed word.",
+      "replacements": [
+        {
+          "before": "ನೀನು ಮೋಹವನ್ನು ಕೊಡುವವಳು",
+          "after": "ನೀನು ಪ್ರಮೋದವನ್ನು ಕೊಡುವವಳು"
+        }
+      ]
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        17,
+        14
+      ],
+      "old_row": {
+        "source_pages": "52",
+        "type": "translation",
+        "text": "ಮಾಯಾಮಯ ಜೀವಕ್ಕಿಂತ ನನ್ನ ಬ್ರಹ್ಮಮುಖವು ಭಿನ್ನವಾಗಿರುವುದರಿಂದ ನಾನು ವಕ್ರತುಂಡನೆನಿಸಿದ್ದೇನೆ. ಮನಸ್ಸನ್ನು ಮೀರಿದ ಸ್ಥಿತಿಯಿಂದ ನನ್ನನ್ನು ಪಡೆಯಬಹುದು. ॥೧೪॥"
+      },
+      "new_row": {
+        "source_pages": "52",
+        "type": "translation",
+        "text": "ಮಾಯಾಮಯ ಜೀವಕ್ಕಿಂತ ನನ್ನ ಬ್ರಹ್ಮಮುಖವು ಭಿನ್ನವಾಗಿರುವುದರಿಂದ ನಾನು ವಕ್ರತುಂಡನೆನಿಸಿದ್ದೇನೆ. ಮನಸ್ಸನ್ನು ಮೀರಿದ ಸ್ಥಿತಿಯಿಂದ ನನ್ನನ್ನು ಪಡೆಯಬಹುದು. ॥೧೪॥"
+      },
+      "base_file": "translation/batch-03-01.tsv",
+      "source_sanskrit": "मम माया मयाज्जीवाद्वक्रं ब्रह्ममुखं यतः । तेनाहं वक्रतुंडस्तु लक्ष्य उन्मनसा भवेः ॥१४॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "printed_grammar_meaning_hold",
+          "reading": null,
+          "token": "मम माया मयाज्जीवाद्वक्रं ब्रह्ममुखं यतः । तेनाहं वक्रतुंडस्तु लक्ष्य उन्मनसा भवेः ॥१४॥",
+          "detail": "Original preserves spacing मम माया मयाज्जीवाद्वक्रं and ending लक्ष्य उन्मनसा भवेः. The current provisional interpretation contrasts the Brahman-face with the maya-made jiva and preserves attainment through unmanas. The scan does not remove the irregular ending or settle exact syntax. Retain current text with the explicit hold; no new replacement or silent Sanskrit normalization."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/independent-review.md",
+        "sha256": "71502f75727ca52ca4aede790e0b15c024b43ee7def1ac95e5e63686baa76ba5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0039.png",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0039.png",
+        "sha256": "daa3542990eb7c2b82efee95c7d40aa7b885cfc0b0c1bdac59bc0404bd28e05e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          1780,
+          3720,
+          2320
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original preserves spacing मम माया मयाज्जीवाद्वक्रं and ending लक्ष्य उन्मनसा भवेः. The current provisional interpretation contrasts the Brahman-face with the maya-made jiva and preserves attainment through unmanas. The scan does not remove the irregular ending or settle exact syntax. Retain current text with the explicit hold; no new replacement or silent Sanskrit normalization.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": false,
+      "printed_ending": "लक्ष्य उन्मनसा भवेः",
+      "grammar_normalized": false
+    },
+    {
+      "key": [
+        1,
+        19,
+        10
+      ],
+      "old_row": {
+        "source_pages": "58",
+        "type": "translation",
+        "text": "ಅವನ ಮನೋಹರ ಮಾತನ್ನು ಕೇಳಿದ ಮುದ್ಗಲನು ಹೇಳಿದನು: ‘ದೂತನೇ, ನಿನಗೆ ಪ್ರಣಾಮಗಳು. ಸ್ವರ್ಗಕ್ಕೆ ಹೋಗು; ನಾನು ಬರಲಾರೆನು. ॥೧೦॥"
+      },
+      "new_row": {
+        "source_pages": "58",
+        "type": "translation",
+        "text": "ಅವನ ಮನೋಹರ ಮಾತನ್ನು ಕೇಳಿದ ಮುದ್ಗಲನು ಹೇಳಿದನು: ‘ದೂತನೇ, ನಿನಗೆ ಪ್ರಣಾಮಗಳು. ಸ್ವರ್ಗಕ್ಕೆ ಹೋಗು; ನಾನು ಬರಲಾರೆನು. ॥೧೦॥"
+      },
+      "base_file": "translation/batch-03-01.tsv",
+      "source_sanskrit": "श्रुत्वा तस्य वचो रम्यं मुद्गलस्तमुवाच ह । गच्छ दूत नमस्तुभ्यं स्वर्गं प्रति नयाम्यहम् ॥१०॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "Google_target_verification_pending",
+          "reading": null,
+          "token": "श्रुत्वा तस्य वचो रम्यं मुद्गलस्तमुवाच ह । गच्छ दूत नमस्तुभ्यं स्वर्गं प्रति नयाम्यहम् ॥१०॥",
+          "detail": "The original continuous नयाम्यहम् supports ordinary word division न यामि अहम् → न याम्यहम्, “I do not go.” It need not be treated as a defective verb meaning “I lead.” This agrees with explicit स्वर्गं नेच्छामि in11 and Mudgala’s refusal. Existing Kannada is an acceptable contextual rendering; do not mark it as newly fixed, and do not claim the scan prints separate न. No invented Sanskrit emendation is needed for this reading."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/independent-review.md",
+        "sha256": "71502f75727ca52ca4aede790e0b15c024b43ee7def1ac95e5e63686baa76ba5"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0045.png",
+        "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0045.png",
+        "sha256": "6d7a8f558f21287a4a7b68d97c806df4afdbe230a22981c36fa7914245acafa4",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          380,
+          3720,
+          900
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The original continuous नयाम्यहम् supports ordinary word division न यामि अहम् → न याम्यहम्, “I do not go.” It need not be treated as a defective verb meaning “I lead.” This agrees with explicit स्वर्गं नेच्छामि in11 and Mudgala’s refusal. Existing Kannada is an acceptable contextual rendering; do not mark it as newly fixed, and do not claim the scan prints separate न. No invented Sanskrit emendation is needed for this reading.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": false,
+      "printed_continuous_token": "नयाम्यहम्",
+      "contextual_negative_sandhi_supported": true,
+      "separate_negative_word_printed": false,
+      "source_emendation_accepted": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch15-ch19/before-after-proposals.json",
+  "candidate_sha256": "0213588f2fe3d8d33b3f0faa5e3e7a4e34c26dbf12f225c97d1a233c9651315d",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/before-after-proposals.json",
+      "sha256": "0213588f2fe3d8d33b3f0faa5e3e7a4e34c26dbf12f225c97d1a233c9651315d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/crops/ch15-10-14.png",
+      "sha256": "0f70ab1ccafa54daea7deb2fc4854a432f0ff9cb26660b519199d43fea2b47e8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/crops/ch16-14-18.png",
+      "sha256": "2e516d5ed2119d7372ce722fc5a76154b30d520e670707723fba5edab448c48b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/crops/ch17-12-16.png",
+      "sha256": "46b722c69c3e77a9215f4a8e53c72bbbcd40b2a09a502d5482afb033d1837567"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/crops/ch17-19-23.png",
+      "sha256": "4e2837e715564fbcf660ef96a97c28726051e8b5a12c23a1e233187a44d74d2e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/crops/ch19-8-12.png",
+      "sha256": "3724e4ee51c663b2a47e6294cdeb0b32807539fee7e8f3d91edf55b9198ba135"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/independent-review.md",
+      "sha256": "71502f75727ca52ca4aede790e0b15c024b43ee7def1ac95e5e63686baa76ba5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/manifest.json",
+      "sha256": "35bf6518fe074d6782774ff088dc32fb9f0eea512445975b528441ad2582db5f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/khanda1-ch15-ch19-next-five-review-packet.json",
+      "sha256": "3c3d3ab37966a35b836ca604277f40df132aca42214276cc2aca5343b8ec7cae"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0037.png",
+      "sha256": "e7987f6aab7a7a2940347db8440806fb7cf2ebf156469289653eaab075f1759a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0038.png",
+      "sha256": "ef928aa2daeed90b669efaf5025eff76d41d630f1ae28d005213857d8e4d2b6d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0039.png",
+      "sha256": "daa3542990eb7c2b82efee95c7d40aa7b885cfc0b0c1bdac59bc0404bd28e05e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0040.png",
+      "sha256": "893bac1e9a7573787c85a55ef5c8a7aab0186f8cc89f44684b723c62ae288226"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch15-ch19/original-and-input/original-page_0045.png",
+      "sha256": "6d7a8f558f21287a4a7b68d97c806df4afdbe230a22981c36fa7914245acafa4"
+    }
+  ],
+  "handoff_Library_file": "libfile_77b366ea4110819183c0da184801284b",
+  "handoff_sha256": "e3d118040fda74bf8101c6ddac435b8e3b5d5d4764abb9528ed846c23d1a2a2c",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

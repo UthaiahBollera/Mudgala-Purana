@@ -1,0 +1,709 @@
+{
+  "scope": "Exactly five next existing flags:Kh1.15.12;16.16;17.14/21;19.10;context only as enumerated",
+  "status": "independent_review_requested_no_canonical_changes",
+  "canonical_source_commit": "af1fade15fb3be57efea84575eebd91beea4d5a1",
+  "targets": [
+    {
+      "key": [
+        1,
+        15,
+        12
+      ],
+      "registry_record_verbatim": {
+        "id": "kh1-ch15-v12",
+        "kind": "verse",
+        "book_id": "Lh0FEQAAQBAJ",
+        "volume": 1,
+        "chapter": 15,
+        "verse_start": 12,
+        "verse_end": 12,
+        "google_books_pages": null,
+        "google_books_page_url": null,
+        "status": "google_books_verification_pending",
+        "issues": [
+          "Existing रक्तवर्णाय ते च versus reference रक्तवर्णधराय च is a meaningful though metrically shortened possible variant. Retain pending original scan rather than silently standardize the prayer."
+        ],
+        "evidence_notes": [
+          "Imported from the dated source-review audit. No Google Books page location is claimed. Historical evidence is retained as provenance, not adopted as the active source for new translation."
+        ],
+        "prior_provenance": {
+          "chapter": 15,
+          "verse": 12,
+          "issues": [
+            "Existing रक्तवर्णाय ते च versus reference रक्तवर्णधराय च is a meaningful though metrically shortened possible variant. Retain pending original scan rather than silently standardize the prayer."
+          ],
+          "source_url": "https://sanskritdocuments.org/doc_purana/mudgalapurANam1.html",
+          "source_passages": [
+            "सिन्दूरारुणदेहाय रक्तवर्णधराय च । महाकायाय सूक्ष्माय गणेशाय नमो नमः ॥ १२॥"
+          ],
+          "status": "unchanged_pending_source_confirmation"
+        },
+        "resolution_provenance": []
+      },
+      "current_canonical_row": {
+        "chapter": "15",
+        "verse": "12",
+        "source_pages": "50",
+        "type": "mantra",
+        "text": "ಸಿಂಧೂರಾರುಣದೇಹಾಯ ರಕ್ತವರ್ಣಾಯ ತೇ ಚ । ಮಹಾಕಾಯಾಯ ಸೂಕ್ಷ್ಮಾಯ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೨॥"
+      },
+      "current_Kannada_context": [
+        {
+          "key": [
+            1,
+            15,
+            10
+          ],
+          "chapter": "15",
+          "verse": "10",
+          "source_pages": "50",
+          "type": "mantra",
+          "text": "ಪಂಚದೇವಾ ಊಚುಃ । ನಮಸ್ತೇ ವಕ್ರತುಂಡಾಯ ತ್ರಿನೇತ್ರಂ ದಧತೇ ನಮಃ । ಚತುರ್ಭುಜಾಯ ದೇವಾಯ ಪಾಶಾಂಕುಶಧರಾಯ ಚ ॥೧೦॥"
+        },
+        {
+          "key": [
+            1,
+            15,
+            11
+          ],
+          "chapter": "15",
+          "verse": "11",
+          "source_pages": "50",
+          "type": "mantra",
+          "text": "ಲಂಬೋದರ ನಮಸ್ತುಭ್ಯಂ ನಾಭಿಶೇಷಾಯ ತೇ ನಮಃ । ಮಹತೇ ಚೈಕದಂತಾಯ ಶೂರ್ಪಕರ್ಣಾಯ ತೇ ನಮಃ ॥೧೧॥"
+        },
+        {
+          "key": [
+            1,
+            15,
+            12
+          ],
+          "chapter": "15",
+          "verse": "12",
+          "source_pages": "50",
+          "type": "mantra",
+          "text": "ಸಿಂಧೂರಾರುಣದೇಹಾಯ ರಕ್ತವರ್ಣಾಯ ತೇ ಚ । ಮಹಾಕಾಯಾಯ ಸೂಕ್ಷ್ಮಾಯ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೨॥"
+        },
+        {
+          "key": [
+            1,
+            15,
+            13
+          ],
+          "chapter": "15",
+          "verse": "13",
+          "source_pages": "50",
+          "type": "mantra",
+          "text": "ಸಿದ್ಧಿಬುದ್ಧಿಯುತಾಯೈವ ವಿಭೂತಿಸಹಿತಾಯ ಚ । ಚಿಂತಾಮಣಿಧರಾಯೈವ ತಥಾ ಚಿಂತಾಮಣೇ ನಮಃ ॥೧೩॥"
+        },
+        {
+          "key": [
+            1,
+            15,
+            14
+          ],
+          "chapter": "15",
+          "verse": "14",
+          "source_pages": "50",
+          "type": "mantra",
+          "text": "ಅವ್ಯಕ್ತಾಯ ಪರೇಶಾಯ ಪರೇಷಾಂ ಚ ಪರಾಯ ತೇ । ಮನೋವಾಣೀವಿಹೀನಾಯ ವಿಘ್ನೇಶಾಯ ನಮೋ ನಮಃ ॥೧೪॥"
+        }
+      ],
+      "original_target_images": [
+        37
+      ],
+      "original_context_images": [
+        37
+      ],
+      "review_question": "Check actual printed raktavarnadharaya vs existing prayer token;do not normalize based on online quotation.",
+      "candidate_sanskrit": null,
+      "candidate_kannada": null,
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "Google_Books_reference": {
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "status": "target_not_verified_do_not_guess"
+      }
+    },
+    {
+      "key": [
+        1,
+        16,
+        16
+      ],
+      "registry_record_verbatim": {
+        "id": "kh1-ch16-v16",
+        "kind": "verse",
+        "book_id": "Lh0FEQAAQBAJ",
+        "volume": 1,
+        "chapter": 16,
+        "verse_start": 16,
+        "verse_end": 16,
+        "google_books_pages": null,
+        "google_books_page_url": null,
+        "status": "google_books_verification_pending",
+        "issues": [
+          "First half clear: ವೇದಗಳು ನನ್ನನ್ನು ಸ್ವಾನಂದವಾಸಿಯೆಂದು ಹೇಳುತ್ತವೆ. Online second half चतुर्णां ब्रह्मणां भोगास्तं योगाभेदयोगतः is syntactically defective/uncertain; current Kannada also unsupported. Hold full-verse reconstruction for scan/philological review."
+        ],
+        "evidence_notes": [
+          "Imported from the dated source-review audit. No Google Books page location is claimed. Historical evidence is retained as provenance, not adopted as the active source for new translation."
+        ],
+        "prior_provenance": {
+          "chapter": 16,
+          "verse": 16,
+          "issues": [
+            "First half clear: ವೇದಗಳು ನನ್ನನ್ನು ಸ್ವಾನಂದವಾಸಿಯೆಂದು ಹೇಳುತ್ತವೆ. Online second half चतुर्णां ब्रह्मणां भोगास्तं योगाभेदयोगतः is syntactically defective/uncertain; current Kannada also unsupported. Hold full-verse reconstruction for scan/philological review."
+          ],
+          "source_url": "https://sanskritdocuments.org/doc_purana/mudgalapurANam1.html",
+          "source_passages": [
+            "स्वानन्दवासिनं तेन वेदेषु प्रवदन्ति माम् । चतुर्णां ब्रह्मणां भोगास्तं योगाभेदयोगतः ॥ १६॥"
+          ],
+          "status": "unchanged_pending_source_confirmation"
+        },
+        "resolution_provenance": []
+      },
+      "current_canonical_row": {
+        "chapter": "16",
+        "verse": "16",
+        "source_pages": "51",
+        "type": "translation",
+        "text": "ಆದ್ದರಿಂದ ಸ್ವಾನಂದವಾಸಿಗೆ ವೇದಗಳಲ್ಲಿ ಪ್ರವೇಶವಿರುವ ಹೆಸರು ಬಂದಿದೆ. ನಾಲ್ಕು ಬ್ರಹ್ಮಗಳ ಭೋಗಗಳ ಅಂತ್ಯದಲ್ಲಿ ಯೋಗಾಭೇದವು ಉಂಟಾಗುತ್ತದೆ. ॥೧೬॥"
+      },
+      "current_Kannada_context": [
+        {
+          "key": [
+            1,
+            16,
+            14
+          ],
+          "chapter": "16",
+          "verse": "14",
+          "source_pages": "51",
+          "type": "translation",
+          "text": "ಸ್ವಾನಂದಕ್ಕಿಂತ ಪರಮವಾದ ಬ್ರಹ್ಮವು ಅಯೋಗರೂಪವಾಗಿದೆ. ಯಾರ ಪ್ರವೇಶವೂ ಅಲ್ಲಿ ಇಲ್ಲ; ಅದರ ಪ್ರವೇಶವೂ ಯಾರಲ್ಲಿಯೂ ಇರುವುದಿಲ್ಲ. ॥೧೪॥"
+        },
+        {
+          "key": [
+            1,
+            16,
+            15
+          ],
+          "chapter": "16",
+          "verse": "15",
+          "source_pages": "51",
+          "type": "translation",
+          "text": "ಅಯೋಗದಲ್ಲಿ ಯೋಗಿಗಳಿಗೆ ನನ್ನ ದರ್ಶನವಾಗುವುದಿಲ್ಲ. ಸ್ವಾನಂದದಲ್ಲಿ ನನ್ನ ಸ್ವಸಂವೇದ್ಯಾತ್ಮಕ ದರ್ಶನವು ದೊರೆಯುತ್ತದೆ. ॥೧೫॥"
+        },
+        {
+          "key": [
+            1,
+            16,
+            16
+          ],
+          "chapter": "16",
+          "verse": "16",
+          "source_pages": "51",
+          "type": "translation",
+          "text": "ಆದ್ದರಿಂದ ಸ್ವಾನಂದವಾಸಿಗೆ ವೇದಗಳಲ್ಲಿ ಪ್ರವೇಶವಿರುವ ಹೆಸರು ಬಂದಿದೆ. ನಾಲ್ಕು ಬ್ರಹ್ಮಗಳ ಭೋಗಗಳ ಅಂತ್ಯದಲ್ಲಿ ಯೋಗಾಭೇದವು ಉಂಟಾಗುತ್ತದೆ. ॥೧೬॥"
+        },
+        {
+          "key": [
+            1,
+            16,
+            17
+          ],
+          "chapter": "16",
+          "verse": "17",
+          "source_pages": "51",
+          "type": "translation",
+          "text": "ಸಂಯೋಗ ಮತ್ತು ಅಯೋಗ ಎರಡಕ್ಕೂ ಪರವಾದದ್ದು ಯೋಗವೆಂದು ಪರಿಗಣಿಸಲಾಗಿದೆ. ಚಿತ್ತವೃತ್ತಿಗಳ ನಿರೋಧದಿಂದ ಅದು ಪೂರ್ಣಶಾಂತಿಯನ್ನು ನೀಡುತ್ತದೆ. ॥೧೭॥"
+        },
+        {
+          "key": [
+            1,
+            16,
+            18
+          ],
+          "chapter": "16",
+          "verse": "18",
+          "source_pages": "51",
+          "type": "translation",
+          "text": "ಕ್ಷಿಪ್ತ, ಮೂಢ, ವಿಕ್ಷಿಪ್ತ, ಏಕಾಗ್ರ ಮತ್ತು ನಿರೋಧ ಎಂಬ ಐದು ಭೂಮಿಗಳಿರುವ ಚಿತ್ತದಲ್ಲಿ ಚಿಂತಾಮಣಿಯು ನೆಲೆಗೊಂಡಿದ್ದಾನೆ. ॥೧೮॥"
+        }
+      ],
+      "original_target_images": [
+        38
+      ],
+      "original_context_images": [
+        38
+      ],
+      "review_question": "Read actual second half and14–18 context;separate glyph certainty from compressed Brahman/yoga interpretation and retain unsettled meaning.",
+      "candidate_sanskrit": null,
+      "candidate_kannada": null,
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "Google_Books_reference": {
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "status": "target_not_verified_do_not_guess"
+      }
+    },
+    {
+      "key": [
+        1,
+        17,
+        14
+      ],
+      "registry_record_verbatim": {
+        "id": "kh1-ch17-v14",
+        "kind": "verse",
+        "book_id": "Lh0FEQAAQBAJ",
+        "volume": 1,
+        "chapter": 17,
+        "verse_start": 14,
+        "verse_end": 14,
+        "google_books_pages": null,
+        "google_books_page_url": null,
+        "status": "google_books_verification_pending",
+        "issues": [
+          "Online मम माया मयाज्जीवाद् spacing and भवेः ending are irregular. Proposed meaning contrasts Brahman-face with maya-bound jiva and preserves unmanas attainment; medium-confidence, scan/philological review needed."
+        ],
+        "evidence_notes": [
+          "Imported from the dated source-review audit. No Google Books page location is claimed. Historical evidence is retained as provenance, not adopted as the active source for new translation."
+        ],
+        "prior_provenance": {
+          "chapter": 17,
+          "verse": 14,
+          "issues": [
+            "Online मम माया मयाज्जीवाद् spacing and भवेः ending are irregular. Proposed meaning contrasts Brahman-face with maya-bound jiva and preserves unmanas attainment; medium-confidence, scan/philological review needed."
+          ],
+          "source_url": "https://sanskritdocuments.org/doc_purana/mudgalapurANam1.html",
+          "source_passages": [
+            "मम माया मयाज्जीवाद्वक्रं ब्रह्ममुखं यतः । तेनाऽहं वक्रतुण्डस्तु लभ्य उन्मनसा भवेः ॥ १४॥"
+          ],
+          "status": "partially_corrected_issue_remains"
+        },
+        "resolution_provenance": []
+      },
+      "current_canonical_row": {
+        "chapter": "17",
+        "verse": "14",
+        "source_pages": "52",
+        "type": "translation",
+        "text": "ಮಾಯಾಮಯ ಜೀವಕ್ಕಿಂತ ನನ್ನ ಬ್ರಹ್ಮಮುಖವು ಭಿನ್ನವಾಗಿರುವುದರಿಂದ ನಾನು ವಕ್ರತುಂಡನೆನಿಸಿದ್ದೇನೆ. ಮನಸ್ಸನ್ನು ಮೀರಿದ ಸ್ಥಿತಿಯಿಂದ ನನ್ನನ್ನು ಪಡೆಯಬಹುದು. ॥೧೪॥"
+      },
+      "current_Kannada_context": [
+        {
+          "key": [
+            1,
+            17,
+            12
+          ],
+          "chapter": "17",
+          "verse": "12",
+          "source_pages": "52",
+          "type": "translation",
+          "text": "ಐದು ದೇವತೆಗಳ ಕ್ರೀಡೆಯೆಂಬ ಎಡಭಾಗವು ಸಿದ್ಧಿಸ್ವರೂಪವಾಗಿದೆ. ಸಿದ್ಧಿ ಮತ್ತು ಬುದ್ಧಿಗಳಿಂದ ಕೂಡಿದ ನಾನು ಬಿಂದುಮಾತ್ರಾತ್ಮಕನಾದೆನು. ॥೧೨॥"
+        },
+        {
+          "key": [
+            1,
+            17,
+            13
+          ],
+          "chapter": "17",
+          "verse": "13",
+          "source_pages": "52",
+          "type": "translation",
+          "text": "ಭಕ್ತರಿಗೆ ವಿಘ್ನಸ್ವರೂಪರಾಗಿರುವವರನ್ನು ದೇವತೆಗಳು ‘ವಕ್ರರು’ ಎಂದು ಕರೆಯುತ್ತಾರೆ. ಅವರನ್ನು ನನ್ನ ತುಂಡದಿಂದ ಸಂಹರಿಸುವುದರಿಂದ ವಕ್ರತುಂಡನೆನಿಸಿದ್ದೇನೆ. ॥೧೩॥"
+        },
+        {
+          "key": [
+            1,
+            17,
+            14
+          ],
+          "chapter": "17",
+          "verse": "14",
+          "source_pages": "52",
+          "type": "translation",
+          "text": "ಮಾಯಾಮಯ ಜೀವಕ್ಕಿಂತ ನನ್ನ ಬ್ರಹ್ಮಮುಖವು ಭಿನ್ನವಾಗಿರುವುದರಿಂದ ನಾನು ವಕ್ರತುಂಡನೆನಿಸಿದ್ದೇನೆ. ಮನಸ್ಸನ್ನು ಮೀರಿದ ಸ್ಥಿತಿಯಿಂದ ನನ್ನನ್ನು ಪಡೆಯಬಹುದು. ॥೧೪॥"
+        },
+        {
+          "key": [
+            1,
+            17,
+            15
+          ],
+          "chapter": "17",
+          "verse": "15",
+          "source_pages": "52",
+          "type": "translation",
+          "text": "ನಿಮ್ಮ ಕಾರ್ಯಸಿದ್ಧಿಗಾಗಿ ಮತ್ತು ಕ್ರೀಡೆಗಾಗಿ ನಾನು ಮಾಯೆಯಿಂದ ಬಿಂದುರೂಪವನ್ನು ಧರಿಸಿ ಭಾವಪೂರ್ವಕವಾಗಿ ನೆಲೆಸಿದ್ದೇನೆ. ॥೧೫॥"
+        },
+        {
+          "key": [
+            1,
+            17,
+            16
+          ],
+          "chapter": "17",
+          "verse": "16",
+          "source_pages": "52",
+          "type": "translation",
+          "text": "ಮಹೇಶ್ವರರೇ, ನೀವು ನನ್ನ ಸ್ಮರಣೆಯನ್ನು ಮರೆತರೆ ಮಾಯಾಮೋಹದಿಂದ ಭ್ರಮೆಗೊಳ್ಳುವಿರಿ. ॥೧೬॥"
+        }
+      ],
+      "original_target_images": [
+        39
+      ],
+      "original_context_images": [
+        39
+      ],
+      "review_question": "Read actual maya/maya-jiva cluster and ending from12–16;do not guess segmentation or grammatical emendation.",
+      "candidate_sanskrit": null,
+      "candidate_kannada": null,
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "Google_Books_reference": {
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "status": "target_not_verified_do_not_guess"
+      }
+    },
+    {
+      "key": [
+        1,
+        17,
+        21
+      ],
+      "registry_record_verbatim": {
+        "id": "kh1-ch17-v21",
+        "kind": "verse",
+        "book_id": "Lh0FEQAAQBAJ",
+        "volume": 1,
+        "chapter": 17,
+        "verse_start": 21,
+        "verse_end": 21,
+        "google_books_pages": null,
+        "google_books_page_url": null,
+        "status": "google_books_verification_pending",
+        "issues": [
+          "Source प्रमोदप्रदा (giver of delight) versus existing moha-giver is a meaningful doctrinal variant; moha appears repeatedly elsewhere. Retain existing first-clause reading pending scan, correcting only clear time/solar clause."
+        ],
+        "evidence_notes": [
+          "Imported from the dated source-review audit. No Google Books page location is claimed. Historical evidence is retained as provenance, not adopted as the active source for new translation."
+        ],
+        "prior_provenance": {
+          "chapter": 17,
+          "verse": 21,
+          "issues": [
+            "Source प्रमोदप्रदा (giver of delight) versus existing moha-giver is a meaningful doctrinal variant; moha appears repeatedly elsewhere. Retain existing first-clause reading pending scan, correcting only clear time/solar clause."
+          ],
+          "source_url": "https://sanskritdocuments.org/doc_purana/mudgalapurANam1.html",
+          "source_passages": [
+            "अहं संहारकारी च त्वं प्रमोदप्रदा शिवे । कर्मणां चालकः कालैर्भानुर्जातो न संशयः ॥ २१॥"
+          ],
+          "status": "partially_corrected_issue_remains"
+        },
+        "resolution_provenance": []
+      },
+      "current_canonical_row": {
+        "chapter": "17",
+        "verse": "21",
+        "source_pages": "53",
+        "type": "translation",
+        "text": "ನಾನು ಸಂಹಾರಕಾರನು; ನೀನು ಮೋಹವನ್ನು ಕೊಡುವವಳು, ಶಿವೆಯೇ. ಭಾನು ಕಾಲಗಳ ಮೂಲಕ ಕರ್ಮಗಳನ್ನು ನಡೆಸುವವನಾಗಿದ್ದಾನೆ; ಸಂಶಯವಿಲ್ಲ. ॥೨೧॥"
+      },
+      "current_Kannada_context": [
+        {
+          "key": [
+            1,
+            17,
+            19
+          ],
+          "chapter": "17",
+          "verse": "19",
+          "source_pages": "53",
+          "type": "translation",
+          "text": "ಶಿವನು ಹೇಳಿದನು: ‘ದೇವಿಯೇ, ಹೀಗೆ ನಿನಗೆ ಪುರಾತನ ಧ್ಯಾನಮಾರ್ಗವನ್ನು ಹೇಳಿದ್ದೇನೆ. ಬ್ರಹ್ಮನಾಯಕ ಗಣೇಶನನ್ನು ನನ್ನ ಹೃದಯದಲ್ಲಿ ಧ್ಯಾನಿಸುತ್ತೇನೆ. ॥೧೯॥"
+        },
+        {
+          "key": [
+            1,
+            17,
+            20
+          ],
+          "chapter": "17",
+          "verse": "20",
+          "source_pages": "53",
+          "type": "translation",
+          "text": "ಶಿವೆಯೇ, ಬ್ರಹ್ಮನು ಅಖಿಲ ಚರಾಚರಮಯ ಜಗತ್ತನ್ನು ಸೃಷ್ಟಿಸುತ್ತಾನೆ. ವಿಷ್ಣುವು ಗಣಪತಿಯ ಆಜ್ಞೆಯಿಂದ ನಾನಾ ಅವತಾರಗಳನ್ನು ಧರಿಸಿ ಅದನ್ನು ಪಾಲಿಸುತ್ತಾನೆ. ॥೨೦॥"
+        },
+        {
+          "key": [
+            1,
+            17,
+            21
+          ],
+          "chapter": "17",
+          "verse": "21",
+          "source_pages": "53",
+          "type": "translation",
+          "text": "ನಾನು ಸಂಹಾರಕಾರನು; ನೀನು ಮೋಹವನ್ನು ಕೊಡುವವಳು, ಶಿವೆಯೇ. ಭಾನು ಕಾಲಗಳ ಮೂಲಕ ಕರ್ಮಗಳನ್ನು ನಡೆಸುವವನಾಗಿದ್ದಾನೆ; ಸಂಶಯವಿಲ್ಲ. ॥೨೧॥"
+        },
+        {
+          "key": [
+            1,
+            17,
+            22
+          ],
+          "chapter": "17",
+          "verse": "22",
+          "source_pages": "53",
+          "type": "translation",
+          "text": "ನೀನು ಹಿಮಾಲಯನ ಪುತ್ರಿಯಾಗಿ ಹುಟ್ಟಿದುದರಿಂದ ನಿನ್ನ ಹೃದಯದಲ್ಲಿದ್ದ ಗಣಪತಿಯನ್ನು ತಿಳಿಸುವ ಜ್ಞಾನವೆಲ್ಲವೂ ಸಂಪೂರ್ಣವಾಗಿ ಮರೆತುಹೋಯಿತು. ॥೨೨॥"
+        },
+        {
+          "key": [
+            1,
+            17,
+            23
+          ],
+          "chapter": "17",
+          "verse": "23",
+          "source_pages": "53",
+          "type": "translation",
+          "text": "ಶುಚಿಸ್ಮಿತೆಯೇ, ನಾನು ನಿನಗೆ ಚೆನ್ನಾಗಿ ನೆನಪಿಸಿದ್ದೇನೆ; ಎಲ್ಲವನ್ನೂ ಸ್ಮರಿಸು. ಮಹಾಮಾಯೆಯಾದ ನೀನು ಹೃದಯದಲ್ಲಿ ಗಣಪತಿಯನ್ನು ನೋಡು. ॥೨೩॥"
+        }
+      ],
+      "original_target_images": [
+        40
+      ],
+      "original_context_images": [
+        40
+      ],
+      "review_question": "Check pramodaprada vs moha-giver directly from original and19–23context;preserve any interpretation limits.",
+      "candidate_sanskrit": null,
+      "candidate_kannada": null,
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "Google_Books_reference": {
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "status": "target_not_verified_do_not_guess"
+      }
+    },
+    {
+      "key": [
+        1,
+        19,
+        10
+      ],
+      "registry_record_verbatim": {
+        "id": "kh1-ch19-v10",
+        "kind": "verse",
+        "book_id": "Lh0FEQAAQBAJ",
+        "volume": 1,
+        "chapter": 19,
+        "verse_start": 10,
+        "verse_end": 10,
+        "google_books_pages": null,
+        "google_books_page_url": null,
+        "status": "google_books_verification_pending",
+        "issues": [
+          "The online text reads स्वर्गं प्रति नयाम्यहम्, which is anomalous against Mudgala’s explicit refusal in the next verse. Kannada refusal is contextually appropriate. Preserve pending scan/edition comparison; do not mechanically translate this apparent textual defect."
+        ],
+        "evidence_notes": [
+          "Imported from the dated source-review audit. No Google Books page location is claimed. Historical evidence is retained as provenance, not adopted as the active source for new translation."
+        ],
+        "prior_provenance": {
+          "chapter": 19,
+          "verse": 10,
+          "issues": [
+            "The online text reads स्वर्गं प्रति नयाम्यहम्, which is anomalous against Mudgala’s explicit refusal in the next verse. Kannada refusal is contextually appropriate. Preserve pending scan/edition comparison; do not mechanically translate this apparent textual defect."
+          ],
+          "source_url": "https://sanskritdocuments.org/doc_purana/mudgalapurANam1.html",
+          "source_passages": [
+            "श्रुत्वा तस्य वचो रम्यं मुद्गलस्तमुवाच ह ।\nगच्छ दूत नमस्तुभ्यं स्वर्गं प्रति नयाम्यहम् ॥ १०॥"
+          ],
+          "status": "unchanged_pending_source_confirmation"
+        },
+        "resolution_provenance": []
+      },
+      "current_canonical_row": {
+        "chapter": "19",
+        "verse": "10",
+        "source_pages": "58",
+        "type": "translation",
+        "text": "ಅವನ ಮನೋಹರ ಮಾತನ್ನು ಕೇಳಿದ ಮುದ್ಗಲನು ಹೇಳಿದನು: ‘ದೂತನೇ, ನಿನಗೆ ಪ್ರಣಾಮಗಳು. ಸ್ವರ್ಗಕ್ಕೆ ಹೋಗು; ನಾನು ಬರಲಾರೆನು. ॥೧೦॥"
+      },
+      "current_Kannada_context": [
+        {
+          "key": [
+            1,
+            19,
+            8
+          ],
+          "chapter": "19",
+          "verse": "8",
+          "source_pages": "58",
+          "type": "translation",
+          "text": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ‘ಸ್ವಾಮಿಯೇ, ಅದು ಎಲ್ಲಿ ದೊರೆಯುತ್ತದೆ? ಎಲ್ಲವನ್ನೂ ಸಂಪೂರ್ಣವಾಗಿ ಹೇಳು. ನೀನು ಉಪಕಾರಪರನಾಗಿದ್ದೀಯೆ; ಆದ್ದರಿಂದ ನಿನ್ನನ್ನು ಯಥಾರ್ಥವಾಗಿ ಕೇಳುತ್ತಿದ್ದೇನೆ.’ ॥೮॥"
+        },
+        {
+          "key": [
+            1,
+            19,
+            9
+          ],
+          "chapter": "19",
+          "verse": "9",
+          "source_pages": "58",
+          "type": "translation",
+          "text": "ದೇವದೂತನು ಹೇಳಿದನು: ‘ಬ್ರಹ್ಮಜ್ಞನೇ, ಈ ಭೂಮಿಯು ಕರ್ಮಭೂಮಿ. ಇಲ್ಲಿ ಜನರಿಗೆ ಧರ್ಮ, ಅರ್ಥ, ಕಾಮ, ಮೋಕ್ಷಾದಿಗಳೂ ಬ್ರಹ್ಮಭಾವವೂ ದೊರೆಯುತ್ತವೆ; ಸಂಶಯವಿಲ್ಲ.’ ॥೯॥"
+        },
+        {
+          "key": [
+            1,
+            19,
+            10
+          ],
+          "chapter": "19",
+          "verse": "10",
+          "source_pages": "58",
+          "type": "translation",
+          "text": "ಅವನ ಮನೋಹರ ಮಾತನ್ನು ಕೇಳಿದ ಮುದ್ಗಲನು ಹೇಳಿದನು: ‘ದೂತನೇ, ನಿನಗೆ ಪ್ರಣಾಮಗಳು. ಸ್ವರ್ಗಕ್ಕೆ ಹೋಗು; ನಾನು ಬರಲಾರೆನು. ॥೧೦॥"
+        },
+        {
+          "key": [
+            1,
+            19,
+            11
+          ],
+          "chapter": "19",
+          "verse": "11",
+          "source_pages": "58",
+          "type": "translation",
+          "text": "ವಿದ್ವಾಂಸನೇ, ಹೃದಯದ ಸಂತಾಪದಿಂದ ಕೂಡಿದ, ಮತ್ತೆ ಪತನವಾಗುವ ಭಯವನ್ನುಂಟುಮಾಡುವ ಸ್ವರ್ಗವನ್ನು ನಾನು ಬಯಸುವುದಿಲ್ಲ. ಆ ಬ್ರಹ್ಮವನ್ನು ಸಾಧಿಸುವೆನು.’ ॥೧೧॥"
+        },
+        {
+          "key": [
+            1,
+            19,
+            12
+          ],
+          "chapter": "19",
+          "verse": "12",
+          "source_pages": "58",
+          "type": "translation",
+          "text": "ದೇವದೂತನು ಮುನಿಶ್ರೇಷ್ಠ ಮುದ್ಗಲನಿಗೆ ಹೇಳಿದನು: ‘ನೀನು ಸ್ವರ್ಗವನ್ನು ಮೆಚ್ಚುವುದಿಲ್ಲವಾದ್ದರಿಂದ ಖಂಡಿತವಾಗಿಯೂ ಭಾಗ್ಯಹೀನನು. ॥೧೨॥"
+        }
+      ],
+      "original_target_images": [
+        45
+      ],
+      "original_context_images": [
+        45
+      ],
+      "review_question": "Read original10 and8–12 speaker context,especially following refusal;do not mechanically harmonize a historical online quotation.",
+      "candidate_sanskrit": null,
+      "candidate_kannada": null,
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "Google_Books_reference": {
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "status": "target_not_verified_do_not_guess"
+      }
+    }
+  ],
+  "original_images": [
+    {
+      "file": "original-page_0037.png",
+      "sha256": "e7987f6aab7a7a2940347db8440806fb7cf2ebf156469289653eaab075f1759a",
+      "bytes": 201754,
+      "archive_member": "Page Images/page_0037.png",
+      "printed_page": 37,
+      "dimensions": [
+        3840,
+        2508
+      ],
+      "verified_archive_identical_bytes": true,
+      "Mac_actual_full_pixels_inspected": true,
+      "role": "15.12 andcontext10–14"
+    },
+    {
+      "file": "original-page_0038.png",
+      "sha256": "ef928aa2daeed90b669efaf5025eff76d41d630f1ae28d005213857d8e4d2b6d",
+      "bytes": 199216,
+      "archive_member": "Page Images/page_0038.png",
+      "printed_page": 38,
+      "dimensions": [
+        3840,
+        2508
+      ],
+      "verified_archive_identical_bytes": true,
+      "Mac_actual_full_pixels_inspected": true,
+      "role": "16.16 andcontext14–18"
+    },
+    {
+      "file": "original-page_0039.png",
+      "sha256": "daa3542990eb7c2b82efee95c7d40aa7b885cfc0b0c1bdac59bc0404bd28e05e",
+      "bytes": 159800,
+      "archive_member": "Page Images/page_0039.png",
+      "printed_page": 39,
+      "dimensions": [
+        3840,
+        2508
+      ],
+      "verified_archive_identical_bytes": true,
+      "Mac_actual_full_pixels_inspected": true,
+      "role": "17.14 andcontext12–16"
+    },
+    {
+      "file": "original-page_0040.png",
+      "sha256": "893bac1e9a7573787c85a55ef5c8a7aab0186f8cc89f44684b723c62ae288226",
+      "bytes": 212364,
+      "archive_member": "Page Images/page_0040.png",
+      "printed_page": 40,
+      "dimensions": [
+        3840,
+        2508
+      ],
+      "verified_archive_identical_bytes": true,
+      "Mac_actual_full_pixels_inspected": true,
+      "role": "17.21 andcontext19–23"
+    },
+    {
+      "file": "original-page_0045.png",
+      "sha256": "6d7a8f558f21287a4a7b68d97c806df4afdbe230a22981c36fa7914245acafa4",
+      "bytes": 187699,
+      "archive_member": "Page Images/page_0045.png",
+      "printed_page": 45,
+      "dimensions": [
+        3840,
+        2508
+      ],
+      "verified_archive_identical_bytes": true,
+      "Mac_actual_full_pixels_inspected": true,
+      "role": "19.10 andcontext8–12"
+    }
+  ],
+  "source_archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+  "edition_identity": null,
+  "common_instructions": [
+    "Read exact original pixels and full enumerated target/context before proposing a minimal correction.",
+    "Historical online quotations are flagged prior evidence,not accepted source transcriptions.",
+    "Distinguish glyph certainty,source differences,segmentation and unsettled meaning;retain holds when not settled.",
+    "Do not invent Google PT page IDs or URLs or infer edition variants from inaccessible previews.",
+    "Keep all accepted fields null;single writer adjudicates any later canonical change.",
+    "No unrelated rewrites,philosophical harmonization or chapter-wide accuracy claim."
+  ]
+}

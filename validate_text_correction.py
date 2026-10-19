@@ -156,6 +156,13 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
                 assert x['printed_continuous_compound']=='ईश्वराज्ञानभाविताः' and x['word_boundary_printed'] is False and x['alternative_segmentation_settled'] is False,'Continuous-source segmentation falsely settled'
             else:
                 assert x['printed_dual_speakers'] is True and x['printed_singular_possessive']=='मे' and x['ownership_rendering_neutral'] is True,'Source speaker number or neutral ownership altered'
+        if unit['status'] in {'unchanged_printed_grammar_meaning_hold','unchanged_context_supported_sandhi'}:
+            assert x['counted_as_new_correction'] is False and x['accepted_transliteration'] is None and x['current_wording_source_verified'] is False,'Unchanged interpretation promoted'
+            assert x['source_sanskrit']==unit['source_reading'] and x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Source or unknown Google reference altered'
+            if unit['status']=='unchanged_printed_grammar_meaning_hold':
+                assert x['printed_ending']=='लक्ष्य उन्मनसा भवेः' and x['grammar_normalized'] is False,'Irregular printed grammar normalized'
+            else:
+                assert x['printed_continuous_token']=='नयाम्यहम्' and x['contextual_negative_sandhi_supported'] is True and x['separate_negative_word_printed'] is False and x['source_emendation_accepted'] is False,'Negative sandhi or printed spacing misrepresented'
         if unit['status']=='unchanged_source_confirmed':
             assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None and x['source_sanskrit']==unit['source_reading'],'Unchanged source confirmation promoted or source altered'
             assert x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'Unknown confirmed-source Google page invented'
