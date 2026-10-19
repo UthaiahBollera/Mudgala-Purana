@@ -1,6 +1,6 @@
 {
-  "source_commit": "6e698390df140c7b0495509e027626daea124d9d",
-  "coverage": "Restore five chapter 32 mantra readings and retain two meaning holds",
+  "source_commit": "14f70c06035d4c19ec4079b7d77cf351c767acc9",
+  "coverage": "Correct verse 37.5 abhaya comparison and retain four source holds",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "86a3ed5d68fc1cba29432a921f9f6fbd6f012f78526ae23d50cdf34294767649",
-  "epub_sha256": "9e47312051676d0a7b128baeda02aebfe21b483b89647ec1409448378e121bf8",
+  "html_sha256": "ed7127fe25714fddb76fd7ab3acc93d491ea1df90c13fb9af52fbdc563ad69fb",
+  "epub_sha256": "09524fd5c1ea3ce7fd9c638014938418c80c7540ceadb731901466b965901135",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 5,
+  "new_accepted_textual_candidates": 1,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 0,
   "new_seven_joins": [],
@@ -253,7 +253,10 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    32
+    34,
+    35,
+    36,
+    37
   ],
   "represented_chapters": 425,
   "new_translation_units": 0,
@@ -481,42 +484,10 @@
     {
       "key": [
         1,
-        32,
-        35
+        37,
+        5
       ],
-      "scope": "original_only_mantra_token"
-    },
-    {
-      "key": [
-        1,
-        32,
-        36
-      ],
-      "scope": "original_only_mantra_token"
-    },
-    {
-      "key": [
-        1,
-        32,
-        41
-      ],
-      "scope": "original_only_mantra_token"
-    },
-    {
-      "key": [
-        1,
-        32,
-        45
-      ],
-      "scope": "original_only_mantra_token"
-    },
-    {
-      "key": [
-        1,
-        32,
-        48
-      ],
-      "scope": "original_only_mantra_token"
+      "scope": "original_only_reviewed_full_with_nuance_hold"
     }
   ],
   "prior_reviewed_text_corrections": [
@@ -600,16 +571,38 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "32.41 unusual epithet meaning and32.45 compressed interpretation remain open",
+    "37.5 abhaya and westward-sunrise nuance remains held",
+    "34.25 printed surah/narrative discrepancy;34.42 combat nuance;35.1 known unsupported karma paraphrase;36.13 time/karma meaning remain held",
     "Earlier holds and unknown Google targets preserved"
   ],
   "chapter50_verses": 48,
   "chapter51_verses": 42,
   "chapter52_verses": 50,
   "new_numbered_chapters": 0,
-  "reviewed_no_text_change_keys": [],
-  "new_reviewed_partial_corrections": 0,
-  "new_no_change_reviews": 0,
+  "reviewed_no_text_change_keys": [
+    [
+      1,
+      34,
+      25
+    ],
+    [
+      1,
+      34,
+      42
+    ],
+    [
+      1,
+      35,
+      1
+    ],
+    [
+      1,
+      36,
+      13
+    ]
+  ],
+  "new_reviewed_partial_corrections": 1,
+  "new_no_change_reviews": 4,
   "mantra_meaning_hold_keys": [
     [
       1,
@@ -712,9 +705,30 @@
       45
     ]
   ],
-  "source_unverified_unchanged_keys": [],
+  "source_unverified_unchanged_keys": [
+    [
+      1,
+      34,
+      25
+    ],
+    [
+      1,
+      34,
+      42
+    ],
+    [
+      1,
+      35,
+      1
+    ],
+    [
+      1,
+      36,
+      13
+    ]
+  ],
   "earlier_reading_holds_preserved": true,
-  "new_target_reading_confirmations": 5,
+  "new_target_reading_confirmations": 4,
   "release_scope": "reviewed_text_corrections",
   "prior_publication_commit": "afb13cd9c29cf07241887c59d283c14ca8c1557c",
   "book_text_and_flags_unchanged": false,
@@ -732,6 +746,6 @@
   "print_quality_certification": null,
   "approved_cover_v5_unchanged": true,
   "confirmed_existing_subverse_tokens": {},
-  "fully_resolved_targets": 3,
+  "fully_resolved_targets": 0,
   "new_full_accepted_translations": 0
 }
