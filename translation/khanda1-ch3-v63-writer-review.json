@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "b5b84082f38962690295f62cb108ee631453426f",
+  "base_file": "translation/batch-02-01.tsv",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        3,
+        63
+      ],
+      "old_row": {
+        "source_pages": "21",
+        "type": "translation",
+        "text": "ಮುನಿಗಳೇ, ಬಳಿಕ ಅವಳು ಬಾಲ್ಯದಲ್ಲಿ ತಪಸ್ಸನ್ನು ಮಾಡಿ, ಸಂತೋಷವನ್ನು ಪಡೆದಳು. ಪಾರ್ವತಿಯ ಪ್ರೇಮದಿಂದ ಶಿವನೂ ಆನಂದಭರಿತನಾದನು. ॥೬೩॥"
+      },
+      "new_row": {
+        "source_pages": "21",
+        "type": "translation-review",
+        "text": "ಅವಳು ಅತ್ಯಂತ ತೀವ್ರವಾದ ತಪಸ್ಸನ್ನು ಆಚರಿಸಿದಳು. ಪ್ರೇಮವಿಹ್ವಲಳಾದ ಪಾರ್ವತಿಯು ಶಿವನೊಡನೆ ಆನಂದವನ್ನು ಪಡೆದಳು. (ಪರಿಶೀಲನೆ: ‘ಚಾತ್ಮವಶೇನ’ ಎಂಬ ಪದದ ಅನ್ವಯ ಮತ್ತು ಅದರ ಹಿಂದಿನ ಸಂಯುಕ್ತಾಕ್ಷರದ ಪಾಠ ಪರಿಶೀಲನೆಯಲ್ಲಿವೆ.) ॥೬೩॥"
+      },
+      "source_sanskrit": "तपस्तप्तं सुतीव्रं यत्तेन चात्मवशेन सा । लेभे मुदं शिवेनापि पार्वती प्रेमविह्वला ॥६३॥",
+      "review_status": "accepted_with_unresolved_meaning",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "dense_glyph_reading",
+          "reading": null,
+          "token": "यत्तेन/यत्नेन",
+          "detail": "First reading provisional; dense preceding conjunct not settled; no silent choice or edition-variant claim."
+        },
+        {
+          "status": "open",
+          "kind": "instrumental_attachment",
+          "reading": null,
+          "token": "चात्मवशेन",
+          "detail": "Attachment unresolved; neither self-restraint nor Shiva-under-her-control certified."
+        }
+      ],
+      "accepted_translation": null,
+      "correction_mode": "original_only_partial_clauses",
+      "display_note": null,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch3-v63/independent-review.md",
+        "sha256": "00aff8f9ed3f34be1db242b73a34df2028047cc27a589a7d281a1467e0cc845b"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0008.png",
+        "file": "translation/source-review-addenda/khanda1-ch3-v63/original-page_0008.png",
+        "sha256": "59136a770dfb35277480938ca46dab907cceff2e788d54f5d05ee1fcb8d0f1c8",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          280,
+          610,
+          3730,
+          825
+        ],
+        "context_bbox_xyxy": [
+          280,
+          290,
+          3730,
+          825
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true,
+        "target_regions_xyxy": [
+          [
+            2200,
+            610,
+            3730,
+            770
+          ],
+          [
+            280,
+            690,
+            1400,
+            825
+          ]
+        ]
+      },
+      "edition_variant": null,
+      "rationale": "Remove unsupported sages-address and childhood;restore intense tapas and feminine Parvati as subject obtaining joy with instrumental Shiva;retain dense glyph and attachment holds.",
+      "source_reading_status": "provisional_dense_cluster_unaccepted"
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch3-v63/before-after-proposal.json",
+  "candidate_sha256": "d89e7a4abd6074e89e5a301f3ddc957e5214be1b7a9030f41552dec1faafda98",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/before-after-proposal.json",
+      "sha256": "d89e7a4abd6074e89e5a301f3ddc957e5214be1b7a9030f41552dec1faafda98"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/context59-63.png",
+      "sha256": "a9684729039987023e18a72e719c40758df72b403bf15f981b6b665672ebb395"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/independent-review.md",
+      "sha256": "00aff8f9ed3f34be1db242b73a34df2028047cc27a589a7d281a1467e0cc845b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/khanda1-ch3-v63-review-packet.json",
+      "sha256": "8eef0f90403b4f543ec2f64a5acdc2ffa9d5d05b0b8d719f26a913f3ecdb25bf"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/manifest.json",
+      "sha256": "de69d0f1c9e3823e4c17c462095c47c3d6eb46866a6a1916c9343021609de742"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/original-page_0008.png",
+      "sha256": "59136a770dfb35277480938ca46dab907cceff2e788d54f5d05ee1fcb8d0f1c8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/v63-first.png",
+      "sha256": "229268b0b55e1420dbadcdddf14cf1a3180afbc1fa74ed9852456e92d106981b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/v63-second.png",
+      "sha256": "ed69c77a202e98d8ecf250c19bc46e042254482f6b77a2ced08750ee529bd580"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch3-v63/yat-word.png",
+      "sha256": "de6a8ce4243a09d98fa705215c4910a43422e4f23c7801142489f8ba8e4b3ab4"
+    }
+  ],
+  "handoff_Library_file": "libfile_5e05d822eb3881918e059b9ae9c13398",
+  "handoff_sha256": "ed685ee288a2311adb66902b0cbe1ee8e01c4ae646a5b844cc058aa7c707e720",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

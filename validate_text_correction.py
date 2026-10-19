@@ -62,8 +62,8 @@ def validate_base_translation_correction(root,old,new,item,review):
     assert {k:new[k]for k in fields}==item['new_row']==record['new_row'],'Base translation new row mismatch'
     assert old['source_pages']==new['source_pages'] and old['text']!=new['text'],'Base source changed or no-op repair'
     assert item['review_status']==review['review_status']==record['independent_review']['status']=='accepted','Independent base translation review missing'
-    commit=review['base_snapshot_commit'];assert re.fullmatch('[0-9a-f]{40}',commit)and item['base_snapshot_commit']==commit and review['base_file']=='translation/narrative.tsv','Unpinned base translation'
-    raw=subprocess.check_output(['git','show',commit+':'+review['base_file']],cwd=root);source=[r for r in csv.DictReader(io.StringIO(raw.decode()),delimiter='\t')if(1,int(r['chapter']),int(r['verse']))==key];assert len(source)==1 and all(source[0][f]==old[f]for f in fields),'Immutable base row differs'
+    commit=review['base_snapshot_commit'];assert re.fullmatch('[0-9a-f]{40}',commit)and item['base_snapshot_commit']==commit and Path(review['base_file']).parts[0]=='translation' and '..'not in Path(review['base_file']).parts and review['base_file'].endswith('.tsv'),'Unpinned base translation'
+    raw=subprocess.check_output(['git','show',commit+':'+review['base_file']],cwd=root);assert raw==subprocess.check_output(['git','show','dcd504671e5ed48c84344c20174bb7c6b28c37f8:'+review['base_file']],cwd=root),'Base TSV differs from immutable reviewed source';source=[r for r in csv.DictReader(io.StringIO(raw.decode()),delimiter='\t')if(1,int(r['chapter']),int(r['verse']))==key];assert len(source)==1 and all(source[0][f]==old[f]for f in fields),'Immutable base row differs'
     def evidence(name,digest):
         p=(root/name).resolve();assert p.is_relative_to((root/'translation').resolve())and p.is_file(),'Base translation evidence missing'
         assert hashlib.sha256(p.read_bytes()).hexdigest()==digest,'Base translation evidence checksum mismatch'
@@ -72,10 +72,10 @@ def validate_base_translation_correction(root,old,new,item,review):
     for f in review['evidence_files']:evidence(f['file'],f['sha256'])
     proposal=json.loads(evidence(review['candidate_file'],review['candidate_sha256']).read_text());units=proposal.get('items',[dict(proposal,key=proposal.get('scope'))]);p=next(x for x in units if tuple(x['key'])==key)
     assert all(x['accepted_sanskrit']is None and x['accepted_kannada']is None for x in units),'Worker candidate acceptance promoted'
-    assert p.get('base_sanskrit',p.get('candidate_sanskrit'))==record['source_sanskrit'],'Base Sanskrit changed'
+    assert p.get('base_sanskrit',p.get('candidate_sanskrit',p.get('provisional_sanskrit')))==record['source_sanskrit'],'Base Sanskrit changed'
     independent=record['independent_review'];evidence(independent['file'],independent['sha256'])
     ref=record['reference_source']
-    if record.get('correction_mode')=='original_only_bounded_meaning':
+    if record.get('correction_mode')in ('original_only_bounded_meaning','original_only_partial_clauses'):
         assert all(ref[k] is None for k in ('page_id','page_url','crop_file','crop_sha256'))and proposal['google_books_page_id']is None and proposal['google_books_page_url']is None,'Unverified Google target invented'
     else:
         assert ref['book_id']=='Lh0FEQAAQBAJ'and ref['page_url']=='https://books.google.co.in/books?id='+ref['book_id']+'&pg='+ref['page_id'],'Base reference identity mismatch';evidence(ref['crop_file'],ref['crop_sha256'])
@@ -83,7 +83,12 @@ def validate_base_translation_correction(root,old,new,item,review):
     if record['issues']:
         assert new['type']=='translation-review'and 'ಪರಿಶೀಲನೆ'in new['text']and record['accepted_translation']is None and record['review_status']=='accepted_with_unresolved_meaning','Base meaning hold hidden/promoted'
         assert all(x['status']=='open'and x['reading']is None for x in record['issues']),'Unresolved meaning accepted'
-        if record.get('correction_mode')=='original_only_bounded_meaning':
+        if record.get('correction_mode')=='original_only_partial_clauses':
+            expected=p['proposed_partial_after'].replace('[','(ಪರಿಶೀಲನೆ: ').replace(']',')')
+            assert new['text']==expected and p['proposed_full_final_after']is None,'Partial clear-clause proposal changed or completed'
+            assert {x['kind']for x in record['issues']}=={'dense_glyph_reading','instrumental_attachment'},'Partial lexical/attachment hold omitted'
+            assert record['edition_variant']is None and record['source_reading_status']=='provisional_dense_cluster_unaccepted','Provisional source certified'
+        elif record.get('correction_mode')=='original_only_bounded_meaning':
             assert record['display_note'].startswith(' (ಪರಿಶೀಲನೆ:')and 'ಉಲ್ಲೇಖ ಯಾರಿಗೆ' in record['display_note']and new['text']==p['proposed_after']+record['display_note'],'Antecedent hold omitted or proposal changed'
             assert 'ಅವನ ಐಶ್ವರ್ಯ' in new['text']and 'ನಿನ್ನ ಐಶ್ವರ್ಯ'not in new['text']and 'ಕಳೆಯುವ'not in new['text'],'Unsupported possession/removal restored'
             assert record['edition_variant']is None,'Unavailable edition difference invented'

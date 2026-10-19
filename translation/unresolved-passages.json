@@ -287,7 +287,7 @@
       "verse_end": 63,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "partially_corrected_glyph_and_attachment_hold",
       "issues": [
         "cātmavaśena may need commentary for exact attachment; self-restraint rendering provisional.",
         "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
@@ -308,7 +308,45 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "partially_corrected_glyph_and_attachment_hold",
+          "review_file": "translation/khanda1-ch3-v63-writer-review.json",
+          "review_sha256": "95c3185afb45ec6aaa2d6c68cf808a08450e464f466ee38a9b90b41d1b06ac6f",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "dense_glyph_and_attachment_unresolved": true
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch3-v63-writer-review.json",
+        "review_sha256": "95c3185afb45ec6aaa2d6c68cf808a08450e464f466ee38a9b90b41d1b06ac6f",
+        "source_sanskrit": "तपस्तप्तं सुतीव्रं यत्तेन चात्मवशेन सा । लेभे मुदं शिवेनापि पार्वती प्रेमविह्वला ॥६३॥",
+        "new_row": {
+          "source_pages": "21",
+          "type": "translation-review",
+          "text": "ಅವಳು ಅತ್ಯಂತ ತೀವ್ರವಾದ ತಪಸ್ಸನ್ನು ಆಚರಿಸಿದಳು. ಪ್ರೇಮವಿಹ್ವಲಳಾದ ಪಾರ್ವತಿಯು ಶಿವನೊಡನೆ ಆನಂದವನ್ನು ಪಡೆದಳು. (ಪರಿಶೀಲನೆ: ‘ಚಾತ್ಮವಶೇನ’ ಎಂಬ ಪದದ ಅನ್ವಯ ಮತ್ತು ಅದರ ಹಿಂದಿನ ಸಂಯುಕ್ತಾಕ್ಷರದ ಪಾಠ ಪರಿಶೀಲನೆಯಲ್ಲಿವೆ.) ॥೬೩॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "dense_glyph_reading",
+            "reading": null,
+            "token": "यत्तेन/यत्नेन",
+            "detail": "First reading provisional; dense preceding conjunct not settled; no silent choice or edition-variant claim."
+          },
+          {
+            "status": "open",
+            "kind": "instrumental_attachment",
+            "reading": null,
+            "token": "चात्मवशेन",
+            "detail": "Attachment unresolved; neither self-restraint nor Shiva-under-her-control certified."
+          }
+        ],
+        "review_status": "accepted_with_unresolved_meaning"
+      }
     },
     {
       "id": "kh1-ch4-v3",

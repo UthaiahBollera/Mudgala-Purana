@@ -29,7 +29,7 @@ class BaseTranslation(unittest.TestCase):
   p=self.root/self.review['candidate_file'];d=json.loads(p.read_text());d['items'][0]['accepted_kannada']='promoted';p.write_text(json.dumps(d));h=hashlib.sha256(p.read_bytes()).hexdigest();self.review['candidate_sha256']=h;next(x for x in self.review['evidence_files']if x['file']==self.review['candidate_file'])['sha256']=h;self.reject()
 class OriginalOnlyRepair(BaseTranslation):
  def setUp(self):
-  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');b=next(b for b in reversed(json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches'])if b.get('source_kind')=='reviewed_base_translation');self.items=copy.deepcopy(b['text_corrections']);self.review=json.loads((ROOT/b['review_file']).read_text())
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');b=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch3-v12-writer-review.json');self.items=copy.deepcopy(b['text_corrections']);self.review=json.loads((ROOT/b['review_file']).read_text())
   for f in self.review['evidence_files']:
    p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
  def test_both_valid(self):self.check()
@@ -41,4 +41,15 @@ class OriginalOnlyRepair(BaseTranslation):
  def test_worker_acceptance_remains_null(self):
   p=self.root/self.review['candidate_file'];d=json.loads(p.read_text());d['accepted_kannada']='promoted';p.write_text(json.dumps(d));h=hashlib.sha256(p.read_bytes()).hexdigest();self.review['candidate_sha256']=h;next(x for x in self.review['evidence_files']if x['file']==self.review['candidate_file'])['sha256']=h;self.reject()
  def test_note_cannot_be_omitted(self):self.review['reviews'][0]['display_note']='';self.reject()
+class PartialClauseRepair(OriginalOnlyRepair):
+ def setUp(self):
+  super().setUp();b=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch3-v63-writer-review.json');self.items=copy.deepcopy(b['text_corrections']);self.review=json.loads((ROOT/b['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def test_no_guessed_demonstrative(self):
+  self.review['reviews'][0]['issues']=self.review['reviews'][0]['issues'][:1];self.reject()
+ def test_note_cannot_be_omitted(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].split(' (ಪರಿಶೀಲನೆ:')[0]
+  self.reject()
+ def test_glyph_cannot_be_certified(self):self.review['reviews'][0]['source_reading_status']='accepted';self.reject()
 if __name__=='__main__':unittest.main()
