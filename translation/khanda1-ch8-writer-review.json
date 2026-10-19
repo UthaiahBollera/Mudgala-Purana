@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "4e4693523dfc1eb7c2c7ae38db10484d608c2ce5",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        8,
+        48
+      ],
+      "old_row": {
+        "source_pages": "34",
+        "type": "mantra",
+        "text": "ಅನಾದಿರೂಪಂ ಪ್ರಕೃತಿಸ್ವಭೇದೇ ಸದಾ ಸುಬಿಂದ್ವಾತ್ಮಕಮಪ್ರಮೇಯಮ್ । ಅಮಾಯಿಕಂ ಮೋಹಕರಂ ಪ್ರಸಿದ್ಧಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೮॥"
+      },
+      "new_row": {
+        "source_pages": "34",
+        "type": "mantra",
+        "text": "ಅನಾದಿರೂಪಂ ಪ್ರಕೃತಿಪ್ರಭೇದಂ ಸದಾ ಸುಬಿಂದ್ವಾತ್ಮಕಮಪ್ರಮೇಯಮ್ । ಅಮಾಯಿಕಂ ಮೋಹಕರಂ ಪ್ರಸಿದ್ಧಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೮॥"
+      },
+      "base_file": "translation/batch-02-02.tsv",
+      "source_sanskrit": "अनादिरूपं प्रकृतिप्रभेदं सदा सुबिंद्वात्मकमप्रमेयम् । अमायिकं मोहकरं प्रसिद्धं सुशांतयोगेश्वरमानतोऽस्मि ॥४८॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಅನಾದಿರೂಪಂ ಪ್ರಕೃತಿಪ್ರಭೇದಂ ಸದಾ ಸುಬಿಂದ್ವಾತ್ಮಕಮಪ್ರಮೇಯಮ್ । ಅಮಾಯಿಕಂ ಮೋಹಕರಂ ಪ್ರಸಿದ್ಧಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೮॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch8/independent-review.md",
+        "sha256": "aa94685a473476bd7f0fad9969ec23d4e459b17e4955c17a30f27d947522bcd1"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0021.png",
+        "file": "translation/source-review-addenda/khanda1-ch8/original-and-input/original-page_0021.png",
+        "sha256": "0c9782f5979331a95afc26311292e6c3cd76f4db32095f936835e147126dc1cc",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          2140,
+          3710,
+          2480
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Only ಪ್ರಕೃತಿಸ್ವಭೇದೇ → ಪ್ರಕೃತಿಪ್ರಭೇದಂ. Original pixels support pra, not sva, and final anusvāra, not e. This is not a speculative restoration from the historical online quotation.",
+      "replacements": [
+        {
+          "before": "ಪ್ರಕೃತಿಸ್ವಭೇದೇ",
+          "after": "ಪ್ರಕೃತಿಪ್ರಭೇದಂ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        8,
+        54
+      ],
+      "old_row": {
+        "source_pages": "35",
+        "type": "mantra",
+        "text": "ರವಿಸ್ವರೂಪಂ ಹ್ಯಮೃತಂ ಪುರಾಣಮಭೇದಮೇಕಾತ್ಮಕಲಕ್ಷ್ಯರೂಪಮ್ । ಅಖಂಡಮಾನಂದಘನಂ ಗಣೇಶಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೫೪॥"
+      },
+      "new_row": {
+        "source_pages": "35",
+        "type": "mantra",
+        "text": "ರವಿಸ್ವರೂಪಂ ಹ್ಯಮೃತಂ ಪುರಾಣಮಭೇದೈಕಾತ್ಮಕಮಾತ್ಮರೂಪಮ್ । ಅಖಂಡಮಾನಂದಘನಂ ಗಣೇಶಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೫೪॥"
+      },
+      "base_file": "translation/batch-02-02.tsv",
+      "source_sanskrit": "रविस्वरूपं ह्यमृतं पुराणमभेदैकात्मकमात्मरूपम् । अखंडमानंदघनं गणेशं सुशांतयोगेश्वरमानतोऽस्मि ॥५४॥",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "compound_interpretation_not_asserted",
+          "reading": null,
+          "token": "अभेदैकात्मकमात्मरूपम्",
+          "detail": "Replace ಪುರಾಣಮಭೇದಮೇಕಾತ್ಮಕಲಕ್ಷ್ಯರೂಪಮ್ → ಪುರಾಣಮಭೇದೈಕಾತ್ಮಕಮಾತ್ಮರೂಪಮ್. The print supports अभेदैकात्मकमात्मरूपम्, not the current lakṣya expression and not the supplied irregular online अभेदोकात्मकमात्मरूपम्. The ai mark and आत्मरूपम् are visible. No philosophical expansion is inferred from this correction; preserve compound-interpretation uncertainty if maintained separately."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ರವಿಸ್ವರೂಪಂ ಹ್ಯಮೃತಂ ಪುರಾಣಮಭೇದೈಕಾತ್ಮಕಮಾತ್ಮರೂಪಮ್ । ಅಖಂಡಮಾನಂದಘನಂ ಗಣೇಶಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೫೪॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch8/independent-review.md",
+        "sha256": "aa94685a473476bd7f0fad9969ec23d4e459b17e4955c17a30f27d947522bcd1"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0022.png",
+        "file": "translation/source-review-addenda/khanda1-ch8/original-and-input/original-page_0022.png",
+        "sha256": "06c6e56d5ac8b22f6d03f00ea84a3c404643c8c02ded599289f2e7aaa1990ce0",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          280,
+          530,
+          3720,
+          1120
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Replace ಪುರಾಣಮಭೇದಮೇಕಾತ್ಮಕಲಕ್ಷ್ಯರೂಪಮ್ → ಪುರಾಣಮಭೇದೈಕಾತ್ಮಕಮಾತ್ಮರೂಪಮ್. The print supports अभेदैकात्मकमात्मरूपम्, not the current lakṣya expression and not the supplied irregular online अभेदोकात्मकमात्मरूपम्. The ai mark and आत्मरूपम् are visible. No philosophical expansion is inferred from this correction; preserve compound-interpretation uncertainty if maintained separately.",
+      "replacements": [
+        {
+          "before": "ಪುರಾಣಮಭೇದಮೇಕಾತ್ಮಕಲಕ್ಷ್ಯರೂಪಮ್",
+          "after": "ಪುರಾಣಮಭೇದೈಕಾತ್ಮಕಮಾತ್ಮರೂಪಮ್"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        8,
+        61
+      ],
+      "old_row": {
+        "source_pages": "35",
+        "type": "mantra",
+        "text": "ಮನೋವಚೋಹೀನಮಥೋ ವದಾಮಿ ಹ್ಯಯೋಗಸಂಯೋಗಮಯಂ ಣಕಾರಮ್ । ನಿವೃತ್ತಿರೂಪಂ ಶರಣಂ ಸದಾ ವೈ ನಮಾಮಿ ತಂ ಸರ್ವವಿಹೀನಮಾದ್ಯಮ್ ॥೬೧॥"
+      },
+      "new_row": {
+        "source_pages": "35",
+        "type": "mantra",
+        "text": "ಮನೋವಚೋಹೀನಮಥೋ ವದಾಮಿ ಹ್ಯಯೋಗಸಂಯೋಗಮಯಂ ಣಕಾರಮ್ । ನಿವೃತ್ತಿರೂಪಂ ಶರಣಂ ಸದಾ ವೈ ನಮಾಮಿ ತಂ ಸರ್ವವರಿಷ್ಠಮಾದ್ಯಮ್ ॥೬೧॥"
+      },
+      "base_file": "translation/batch-02-02.tsv",
+      "source_sanskrit": "मनोवचोहीनमथो वदामि ह्ययोगसंयोगमयं णकारम् । निवृत्तिरूपं शरणं सदा वै नमामि तं सर्ववरिष्ठमाद्यम् ॥६१॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಮನೋವಚೋಹೀನಮಥೋ ವದಾಮಿ ಹ್ಯಯೋಗಸಂಯೋಗಮಯಂ ಣಕಾರಮ್ । ನಿವೃತ್ತಿರೂಪಂ ಶರಣಂ ಸದಾ ವೈ ನಮಾಮಿ ತಂ ಸರ್ವವರಿಷ್ಠಮಾದ್ಯಮ್ ॥೬೧॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch8/independent-review.md",
+        "sha256": "aa94685a473476bd7f0fad9969ec23d4e459b17e4955c17a30f27d947522bcd1"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0022.png",
+        "file": "translation/source-review-addenda/khanda1-ch8/original-and-input/original-page_0022.png",
+        "sha256": "06c6e56d5ac8b22f6d03f00ea84a3c404643c8c02ded599289f2e7aaa1990ce0",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          280,
+          1200,
+          3720,
+          1750
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Only ಸರ್ವವಿಹೀನಮಾದ್ಯಮ್ → ಸರ್ವವರಿಷ್ಠಮಾದ್ಯಮ್. Original clearly has variṣṭha, not vihīna. Preserve unrelated words, especially the retroflex ṇakāra.",
+      "replacements": [
+        {
+          "before": "ಸರ್ವವಿಹೀನಮಾದ್ಯಮ್",
+          "after": "ಸರ್ವವರಿಷ್ಠಮಾದ್ಯಮ್"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        8,
+        65
+      ],
+      "old_row": {
+        "source_pages": "35",
+        "type": "mantra",
+        "text": "ಸೃಷ್ಟಿಸರ್ಜನಸಾಮರ್ಥ್ಯಂ ಭಕ್ತಾನಾಂ ಕಾಮಪೂರಕಮ್ । ನಿರ್ವಿಘ್ನಂ ಸಂಕಲ್ಪಯುತಂ ದೇಹಿ ವಿಘ್ನವಿನಾಶನ ॥೬೫॥"
+      },
+      "new_row": {
+        "source_pages": "35",
+        "type": "mantra",
+        "text": "ಸೃಷ್ಟಿಸರ್ಜನಸಾಮರ್ಥ್ಯಂ ಭಜತಾಂ ಕಾಮಪೂರಣಮ್ । ನಿರ್ವಿಘ್ನಂ ಸರ್ವಕಾರ್ಯೇಷು ದೇಹಿ ವಿಘ್ನವಿನಾಶನ ॥೬೫॥"
+      },
+      "base_file": "translation/batch-02-02.tsv",
+      "source_sanskrit": "सृष्टिसर्जनसामर्थ्यं भजतां कामपूरणम् । निर्विघ्नं सर्वकार्येषु देहि विघ्नविनाशन ॥६५॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಸೃಷ್ಟಿಸರ್ಜನಸಾಮರ್ಥ್ಯಂ ಭಜತಾಂ ಕಾಮಪೂರಣಮ್ । ನಿರ್ವಿಘ್ನಂ ಸರ್ವಕಾರ್ಯೇಷು ದೇಹಿ ವಿಘ್ನವಿನಾಶನ ॥೬೫॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch8/independent-review.md",
+        "sha256": "aa94685a473476bd7f0fad9969ec23d4e459b17e4955c17a30f27d947522bcd1"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0022.png",
+        "file": "translation/source-review-addenda/khanda1-ch8/original-and-input/original-page_0022.png",
+        "sha256": "06c6e56d5ac8b22f6d03f00ea84a3c404643c8c02ded599289f2e7aaa1990ce0",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          280,
+          1630,
+          3720,
+          2140
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Replace ಭಕ್ತಾನಾಂ ಕಾಮಪೂರಕಮ್ → ಭಜತಾಂ ಕಾಮಪೂರಣಮ್ and ಸಂಕಲ್ಪಯುತಂ → ಸರ್ವಕಾರ್ಯೇಷು. Both phrases are clearly visible; retain the rest, including nirvighnam and dehi.",
+      "replacements": [
+        {
+          "before": "ಭಕ್ತಾನಾಂ ಕಾಮಪೂರಕಮ್",
+          "after": "ಭಜತಾಂ ಕಾಮಪೂರಣಮ್"
+        },
+        {
+          "before": "ಸಂಕಲ್ಪಯುತಂ",
+          "after": "ಸರ್ವಕಾರ್ಯೇಷು"
+        }
+      ]
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        8,
+        51
+      ],
+      "old_row": {
+        "source_pages": "35",
+        "type": "mantra",
+        "text": "ಜಗನ್ಮಯಂ ಸೂಕ್ಷ್ಮವಿಭೂತಿಧಾರಂ ಹಿರಣ್ಮಯಂ ಸ್ವಪ್ನಗತಂ ಗಣೇಶಮ್ । ಜನಸ್ಯ ವಿಜ್ಞಾನಕರಂ ಪುರಾಣಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೫೧॥"
+      },
+      "new_row": {
+        "source_pages": "35",
+        "type": "mantra",
+        "text": "ಜಗನ್ಮಯಂ ಸೂಕ್ಷ್ಮವಿಭೂತಿಧಾರಂ ಹಿರಣ್ಮಯಂ ಸ್ವಪ್ನಗತಂ ಗಣೇಶಮ್ । ಜನಸ್ಯ ವಿಜ್ಞಾನಕರಂ ಪುರಾಣಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೫೧॥"
+      },
+      "base_file": "translation/batch-02-02.tsv",
+      "source_sanskrit": "जगन्मयं सूक्ष्मविभूतिधारं हिरण्मयं स्वप्नगतं गणेशम् । जनस्य विज्ञानकरं पुराणं सुशांतयोगेश्वरमानतोऽस्मि ॥५१॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "Google_target_verification_pending",
+          "reading": null,
+          "token": "Google target page unknown",
+          "detail": "Actual original clearly supports सूक्ष्मविभूति- at the line end, धारं on the next line, and विज्ञानकरं with visible final anusvāra. Current Kannada already matches these target readings. No replacement is proposed and this is not a newly fixed passage. The historical online absence of anusvāra is not the original reading; do not remove the current Kannada anusvāra."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch8/independent-review.md",
+        "sha256": "aa94685a473476bd7f0fad9969ec23d4e459b17e4955c17a30f27d947522bcd1"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0022.png",
+        "file": "translation/source-review-addenda/khanda1-ch8/original-and-input/original-page_0022.png",
+        "sha256": "06c6e56d5ac8b22f6d03f00ea84a3c404643c8c02ded599289f2e7aaa1990ce0",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          280,
+          290,
+          3720,
+          810
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Actual original clearly supports सूक्ष्मविभूति- at the line end, धारं on the next line, and विज्ञानकरं with visible final anusvāra. Current Kannada already matches these target readings. No replacement is proposed and this is not a newly fixed passage. The historical online absence of anusvāra is not the original reading; do not remove the current Kannada anusvāra.",
+      "target_readings_source_verified": true,
+      "counted_as_new_correction": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch8/before-after-proposals.json",
+  "candidate_sha256": "87d3b6c971b484659ece4a9fa6b01311db3455ce58c0cc28e3a89e474026e1c9",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/before-after-proposals.json",
+      "sha256": "87d3b6c971b484659ece4a9fa6b01311db3455ce58c0cc28e3a89e474026e1c9"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/crops/v46-49.png",
+      "sha256": "4b4ed71e65de92b9cb1a82744692ad461facf7c5db4389ae746f0e5267abb148"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/crops/v48-word.png",
+      "sha256": "de76dd1537033ee1925e21ce52e42f3014c082f9b9cf937db79f5100bdb16646"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/crops/v49-53.png",
+      "sha256": "b52610b93948c9b0c65ddc13c6d4bef7dc76090b5d89f8b8434b007c5cb53179"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/crops/v51-ending.png",
+      "sha256": "e62954c0f88f87bd495082425ad18e8e354939234043be9744bd6a93423d5f6e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/crops/v52-56.png",
+      "sha256": "d082e2e11d8d13a1c47175ab4fd4e9d2e9077e5dcdeb529a1e6ad6087b0c0921"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/crops/v54-word.png",
+      "sha256": "9dafcb3257786cd9a006792845041b42cdbe7e08fb2e542f70e1ef14002934dc"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/crops/v59-63.png",
+      "sha256": "794563ed7838c4c361b4be330fac3bd7db1ab93ad195a0ab03f3ebc671abe0ba"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/crops/v63-67.png",
+      "sha256": "1687d55b58fc25c79ec3cbe75d5e62a62ae99c70f34bebde4f94fdb9e1c50776"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/independent-review.md",
+      "sha256": "aa94685a473476bd7f0fad9969ec23d4e459b17e4955c17a30f27d947522bcd1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/manifest.json",
+      "sha256": "90927dc62e7cc56776ab76f33863e3e24528bd95fb988307a9da7919b62c5ee1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/original-and-input/khanda1-ch8-next-five-review-packet.json",
+      "sha256": "eaa115de97b5c60a2ad594a426dc388d0efe0ee62455e0c37e70a3ca2363e775"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/original-and-input/original-page_0021.png",
+      "sha256": "0c9782f5979331a95afc26311292e6c3cd76f4db32095f936835e147126dc1cc"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch8/original-and-input/original-page_0022.png",
+      "sha256": "06c6e56d5ac8b22f6d03f00ea84a3c404643c8c02ded599289f2e7aaa1990ce0"
+    }
+  ],
+  "handoff_Library_file": "libfile_d28cddf576908191938e776562a3a006",
+  "handoff_sha256": "7eb895049525d8df30db48dc022419c48ba4578ab9efd6dd1acb36473323a624",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

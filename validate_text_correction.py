@@ -92,7 +92,7 @@ def validate_base_translation_correction(root,old,new,item,review):
         if 'minimal_edits'in p:
             assert [x['before']+' → '+x['after']for x in replacements]==p['minimal_edits'],'Mantra edits differ from independent review'
             assert bool(record['issues'])==p['status'].endswith('_with_meaning_hold'),'Independent mantra meaning hold omitted'
-        if p['status'].startswith('transcription_correction_ready_')and p['status'].endswith('_hold'):
+        if(p['status'].startswith('transcription_correction_ready_')and p['status'].endswith('_hold'))or p['status']=='transcription_correction_ready_interpretation_not_asserted':
             assert record['issues'],'Independent mantra interpretation hold omitted'
         status='accepted_transliteration_with_meaning_hold'if record['issues']else'accepted'
         assert record['review_status']==status and all(x['status']=='open'and x['reading']is None for x in record['issues']),'Mantra meaning hold closed'
@@ -136,5 +136,8 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
         assert x['review_status']=='reviewed_no_text_change_hold'and x['accepted_translation']is None and x['issues']and all(i['status']=='open'and i['reading']is None for i in x['issues']),'No-change hold closed'
         candidate=json.loads((root/review['candidate_file']).read_text());unit=next(p for p in candidate['records']if tuple(p['key'])==key)
         assert unit['before']==old['text']and unit['proposed_full_replacement']is None and unit.get('proposed_partial_text')is None,'No-change differs from independent proposal'
+        if unit['status']=='no_change_current_target_readings_confirmed':
+            assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None,'Confirmed no-change target promoted to new correction'
+            assert x['source_sanskrit']==unit['source_reading']and x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'No-change source or unknown Google field altered'
         if unit['status']=='retained_reading_and_meaning_hold_no_accepted_change':
             assert x['current_wording_source_verified']is False and x['accepted_transliteration']is None,'Unresolved unchanged wording certified'

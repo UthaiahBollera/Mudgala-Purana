@@ -342,3 +342,5 @@ Khanda1 bounded7.39/49 and8.42/45/46 original-scan review: five mantra transcrip
 ## Review JSON storage
 
 Coverage and the unresolved registry now use lossless shared JSON storage. Load and save these two documents through `json_storage.load_json_document` and `save_json_document`; direct `json.loads` reads only their indexes. See [storage workflow](translation/STORAGE.md) for editing, exports and integrity checks. Every historical boundary, flag, acceptance state and provenance field is retained. This engineering migration does not change source text or the live book.
+
+Khanda1 chapter8 bounded48/51/54/61/65 original-scan review: four mantra repairs at48/54/61/65 only.51 remains unchanged;original22 confirms current ಸೂಕ್ಷ್ಮವಿಭೂತಿಧಾರಂ and ವಿಜ್ಞಾನಕರಂ,including anusvara. It is not newly fixed.54 follows printed ಅಭೇದೈಕಾತ್ಮಕಮಾತ್ಮರೂಪಮ್ rather than the suspect online quotation;compound interpretation remains open. Source TSVs and all unrelated wording,earlier flags,unknown Google target fields and raw candidate null acceptance fields remain preserved. Shared JSON storage is used for coverage and registry.

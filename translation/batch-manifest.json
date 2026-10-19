@@ -116386,6 +116386,114 @@
         }
       ],
       "no_change_keys": []
+    },
+    {
+      "file": "batch-372-reviewed-base-translation.tsv",
+      "sha256": "b1f64f8af6763e6f468ba2e1bf76f7fc7b5da8857bae820854851059bac22199",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch8-writer-review.json",
+      "review_sha256": "3c156462144196ca146a02b6fc6f979e5d16347983735803acf85ba06d642edf",
+      "coverage_boundary": "reviewed-base-khanda1-ch8",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            8,
+            48
+          ],
+          "old_row": {
+            "source_pages": "34",
+            "type": "mantra",
+            "text": "ಅನಾದಿರೂಪಂ ಪ್ರಕೃತಿಸ್ವಭೇದೇ ಸದಾ ಸುಬಿಂದ್ವಾತ್ಮಕಮಪ್ರಮೇಯಮ್ । ಅಮಾಯಿಕಂ ಮೋಹಕರಂ ಪ್ರಸಿದ್ಧಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೮॥"
+          },
+          "new_row": {
+            "source_pages": "34",
+            "type": "mantra",
+            "text": "ಅನಾದಿರೂಪಂ ಪ್ರಕೃತಿಪ್ರಭೇದಂ ಸದಾ ಸುಬಿಂದ್ವಾತ್ಮಕಮಪ್ರಮೇಯಮ್ । ಅಮಾಯಿಕಂ ಮೋಹಕರಂ ಪ್ರಸಿದ್ಧಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೪೮॥"
+          },
+          "base_snapshot_commit": "4e4693523dfc1eb7c2c7ae38db10484d608c2ce5",
+          "adjudication_file": "translation/khanda1-ch8-writer-review.json",
+          "adjudication_sha256": "3c156462144196ca146a02b6fc6f979e5d16347983735803acf85ba06d642edf",
+          "review_status": "accepted",
+          "rationale": "Only ಪ್ರಕೃತಿಸ್ವಭೇದೇ → ಪ್ರಕೃತಿಪ್ರಭೇದಂ. Original pixels support pra, not sva, and final anusvāra, not e. This is not a speculative restoration from the historical online quotation."
+        },
+        {
+          "key": [
+            1,
+            8,
+            54
+          ],
+          "old_row": {
+            "source_pages": "35",
+            "type": "mantra",
+            "text": "ರವಿಸ್ವರೂಪಂ ಹ್ಯಮೃತಂ ಪುರಾಣಮಭೇದಮೇಕಾತ್ಮಕಲಕ್ಷ್ಯರೂಪಮ್ । ಅಖಂಡಮಾನಂದಘನಂ ಗಣೇಶಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೫೪॥"
+          },
+          "new_row": {
+            "source_pages": "35",
+            "type": "mantra",
+            "text": "ರವಿಸ್ವರೂಪಂ ಹ್ಯಮೃತಂ ಪುರಾಣಮಭೇದೈಕಾತ್ಮಕಮಾತ್ಮರೂಪಮ್ । ಅಖಂಡಮಾನಂದಘನಂ ಗಣೇಶಂ ಸುಶಾಂತಯೋಗೇಶ್ವರಮಾನತೋಽಸ್ಮಿ ॥೫೪॥"
+          },
+          "base_snapshot_commit": "4e4693523dfc1eb7c2c7ae38db10484d608c2ce5",
+          "adjudication_file": "translation/khanda1-ch8-writer-review.json",
+          "adjudication_sha256": "3c156462144196ca146a02b6fc6f979e5d16347983735803acf85ba06d642edf",
+          "review_status": "accepted",
+          "rationale": "Replace ಪುರಾಣಮಭೇದಮೇಕಾತ್ಮಕಲಕ್ಷ್ಯರೂಪಮ್ → ಪುರಾಣಮಭೇದೈಕಾತ್ಮಕಮಾತ್ಮರೂಪಮ್. The print supports अभेदैकात्मकमात्मरूपम्, not the current lakṣya expression and not the supplied irregular online अभेदोकात्मकमात्मरूपम्. The ai mark and आत्मरूपम् are visible. No philosophical expansion is inferred from this correction; preserve compound-interpretation uncertainty if maintained separately."
+        },
+        {
+          "key": [
+            1,
+            8,
+            61
+          ],
+          "old_row": {
+            "source_pages": "35",
+            "type": "mantra",
+            "text": "ಮನೋವಚೋಹೀನಮಥೋ ವದಾಮಿ ಹ್ಯಯೋಗಸಂಯೋಗಮಯಂ ಣಕಾರಮ್ । ನಿವೃತ್ತಿರೂಪಂ ಶರಣಂ ಸದಾ ವೈ ನಮಾಮಿ ತಂ ಸರ್ವವಿಹೀನಮಾದ್ಯಮ್ ॥೬೧॥"
+          },
+          "new_row": {
+            "source_pages": "35",
+            "type": "mantra",
+            "text": "ಮನೋವಚೋಹೀನಮಥೋ ವದಾಮಿ ಹ್ಯಯೋಗಸಂಯೋಗಮಯಂ ಣಕಾರಮ್ । ನಿವೃತ್ತಿರೂಪಂ ಶರಣಂ ಸದಾ ವೈ ನಮಾಮಿ ತಂ ಸರ್ವವರಿಷ್ಠಮಾದ್ಯಮ್ ॥೬೧॥"
+          },
+          "base_snapshot_commit": "4e4693523dfc1eb7c2c7ae38db10484d608c2ce5",
+          "adjudication_file": "translation/khanda1-ch8-writer-review.json",
+          "adjudication_sha256": "3c156462144196ca146a02b6fc6f979e5d16347983735803acf85ba06d642edf",
+          "review_status": "accepted",
+          "rationale": "Only ಸರ್ವವಿಹೀನಮಾದ್ಯಮ್ → ಸರ್ವವರಿಷ್ಠಮಾದ್ಯಮ್. Original clearly has variṣṭha, not vihīna. Preserve unrelated words, especially the retroflex ṇakāra."
+        },
+        {
+          "key": [
+            1,
+            8,
+            65
+          ],
+          "old_row": {
+            "source_pages": "35",
+            "type": "mantra",
+            "text": "ಸೃಷ್ಟಿಸರ್ಜನಸಾಮರ್ಥ್ಯಂ ಭಕ್ತಾನಾಂ ಕಾಮಪೂರಕಮ್ । ನಿರ್ವಿಘ್ನಂ ಸಂಕಲ್ಪಯುತಂ ದೇಹಿ ವಿಘ್ನವಿನಾಶನ ॥೬೫॥"
+          },
+          "new_row": {
+            "source_pages": "35",
+            "type": "mantra",
+            "text": "ಸೃಷ್ಟಿಸರ್ಜನಸಾಮರ್ಥ್ಯಂ ಭಜತಾಂ ಕಾಮಪೂರಣಮ್ । ನಿರ್ವಿಘ್ನಂ ಸರ್ವಕಾರ್ಯೇಷು ದೇಹಿ ವಿಘ್ನವಿನಾಶನ ॥೬೫॥"
+          },
+          "base_snapshot_commit": "4e4693523dfc1eb7c2c7ae38db10484d608c2ce5",
+          "adjudication_file": "translation/khanda1-ch8-writer-review.json",
+          "adjudication_sha256": "3c156462144196ca146a02b6fc6f979e5d16347983735803acf85ba06d642edf",
+          "review_status": "accepted",
+          "rationale": "Replace ಭಕ್ತಾನಾಂ ಕಾಮಪೂರಕಮ್ → ಭಜತಾಂ ಕಾಮಪೂರಣಮ್ and ಸಂಕಲ್ಪಯುತಂ → ಸರ್ವಕಾರ್ಯೇಷು. Both phrases are clearly visible; retain the rest, including nirvighnam and dehi."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          8,
+          51
+        ]
+      ]
     }
   ],
   "reference_only_index": {

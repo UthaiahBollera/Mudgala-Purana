@@ -181,4 +181,34 @@ class FiveMantraCorrections(unittest.TestCase):
  def test_42_other_yoginam_preserved(self):
   for x in [self.items[2]['new_row'],self.review['reviews'][2]['new_row']]:x['text']=x['text'].replace('ಯೋಗಿನಾಂ','ಯೋಗನಾಂ')
   self.reject(2)
+class FourChapterEightRepairs(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch8-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def test_all_four_valid_and_51_unchanged(self):
+  for i in range(4):self.check(i)
+  self.nochange()
+ def test_54_interpretation_hold_not_closed(self):self.review['reviews'][1].update(issues=[],review_status='accepted');self.reject(1)
+ def test_54_not_harmonized_to_irregular_quote(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಮಭೇದೈಕಾ','ಮಭೇದೋಕಾ')
+  self.reject(1)
+ def test_65_both_phrase_changes_required(self):self.review['reviews'][3]['replacements'].pop();self.reject(3)
+ def test_61_retroflex_nakara_preserved(self):
+  for x in [self.items[2]['new_row'],self.review['reviews'][2]['new_row']]:x['text']=x['text'].replace('ಣಕಾರಮ್','ನಕಾರಮ್')
+  self.reject(2)
+ def test_51_not_newly_corrected(self):
+  self.review['no_change_adjudications'][0]['counted_as_new_correction']=True
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_51_anusvara_not_removed(self):
+  self.review['no_change_adjudications'][0]['new_row']['text']=self.review['no_change_adjudications'][0]['new_row']['text'].replace('ವಿಜ್ಞಾನಕರಂ','ವಿಜ್ಞಾನಕರ')
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_51_not_newly_accepted_transliteration(self):
+  self.review['no_change_adjudications'][0]['accepted_transliteration']='accepted'
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_unknown_google_null(self):self.review['reviews'][0]['reference_source']['page_id']='PT1';self.reject()
+ def test_source_reading_immutable(self):self.review['reviews'][0]['source_sanskrit']='normalized';self.reject()
 if __name__=='__main__':unittest.main()
