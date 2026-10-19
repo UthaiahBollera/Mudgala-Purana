@@ -117828,6 +117828,97 @@
           29
         ]
       ]
+    },
+    {
+      "file": "batch-389-reviewed-base-translation.tsv",
+      "sha256": "969f9229dc75c76a12c3acca0c5696904a339cbea7bbb9e29e45cd9e1423b8fe",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch43-ch44-writer-review.json",
+      "review_sha256": "5ecf7476448984d0a0e42eae1d16308e29b3c611760fba565adf105733eba9aa",
+      "coverage_boundary": "reviewed-base-khanda1-ch43-ch44",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            43,
+            18
+          ],
+          "old_row": {
+            "source_pages": "110",
+            "type": "mantra",
+            "text": "ಸದೇವರ್ಷಿಬ್ರಹ್ಮೋವಾಚ । ನಮಸ್ತೇ ಬ್ರಹ್ಮಭೂತಾಯ ವಕ್ರತುಂಡಾಯ ಸಾಕ್ಷಿಣೇ । ಸಿದ್ಧಿಬುದ್ಧಿಧರಾಯೈವ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೮॥"
+          },
+          "new_row": {
+            "source_pages": "110",
+            "type": "mantra",
+            "text": "ಸದೇವರ್ಷಿಬ್ರಹ್ಮೋವಾಚ । ನಮಸ್ತೇ ಬ್ರಹ್ಮಭೂತಾಯ ವಕ್ರತುಂಡಾಯ ಸಾಕ್ಷಿಣೇ । ಸಿದ್ಧಿಬುದ್ಧಿಯುತಾಯೈವ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೮॥"
+          },
+          "base_snapshot_commit": "e9c236d9ead1b89329499ba5842233b15c9e6837",
+          "adjudication_file": "translation/khanda1-ch43-ch44-writer-review.json",
+          "adjudication_sha256": "5ecf7476448984d0a0e42eae1d16308e29b3c611760fba565adf105733eba9aa",
+          "review_status": "accepted",
+          "rationale": "Original97 clearly prints युतायैव, not धरायैव. Repair target-edition mantra; retain speaker heading."
+        },
+        {
+          "key": [
+            1,
+            43,
+            24
+          ],
+          "old_row": {
+            "source_pages": "110",
+            "type": "mantra",
+            "text": "ತ್ವಾಂ ಸ್ತೋತುಂ ನ ಸಮರ್ಥಾಶ್ಚ ವೇದಾಃ ಶಾಸ್ತ್ರಸಮನ್ವಿತಾಃ । ಯೋಗೀಂದ್ರಾ ದೇವಮುನಯಶ್ಚ ತತ್ರ ಕೋಽಹಂ ಗಜಾನನ ॥೨೪॥"
+          },
+          "new_row": {
+            "source_pages": "110",
+            "type": "mantra",
+            "text": "ತ್ವಾಂ ಸ್ತೋತುಂ ನ ಸಮರ್ಥಾಶ್ಚ ವೇದಾಃ ಶಾಸ್ತ್ರಸಮನ್ವಿತಾಃ । ಯೋಗೀಂದ್ರಾ ದೇವಮುಖ್ಯಾಶ್ಚ ತತ್ರ ಕೋಽಹಂ ಗಜಾನನ ॥೨೪॥"
+          },
+          "base_snapshot_commit": "e9c236d9ead1b89329499ba5842233b15c9e6837",
+          "adjudication_file": "translation/khanda1-ch43-ch44-writer-review.json",
+          "adjudication_sha256": "5ecf7476448984d0a0e42eae1d16308e29b3c611760fba565adf105733eba9aa",
+          "review_status": "accepted",
+          "rationale": "Original97 clearly prints देवमुख्याश्च. Replace only that word; retain the negative and all other wording."
+        },
+        {
+          "key": [
+            1,
+            43,
+            25
+          ],
+          "old_row": {
+            "source_pages": "110",
+            "type": "mantra",
+            "text": "ಯಥಾಬುದ್ಧಿಪ್ರಮೋದೇನ ಸಂಸ್ತುತೋಽಸಿ ಗಣೇಶ್ವರ । ತೇನ ಮೇ ಸಫಲಂ ಸರ್ವಂ ಜಾತಂ ದೈವಾತ್ಪರಂತಪ ॥೨೫॥"
+          },
+          "new_row": {
+            "source_pages": "110",
+            "type": "mantra",
+            "text": "ಯಥಾಬುದ್ಧಿಪ್ರಮೋದೇನ ಸಂಸ್ತುತೋಽಸಿ ಗಣೇಶ್ವರ । ತೇನ ಮೇ ಸಫಲಂ ಸರ್ವಂ ಜಾತಂ ಲಂಬೋದರಾಧುನಾ ॥೨೫॥"
+          },
+          "base_snapshot_commit": "e9c236d9ead1b89329499ba5842233b15c9e6837",
+          "adjudication_file": "translation/khanda1-ch43-ch44-writer-review.json",
+          "adjudication_sha256": "5ecf7476448984d0a0e42eae1d16308e29b3c611760fba565adf105733eba9aa",
+          "review_status": "accepted",
+          "rationale": "Original97 prints लंबोदराधुना, not दैवात्परंतप. No unrelated mantra changes."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          43,
+          16
+        ],
+        [
+          1,
+          44,
+          25
+        ]
+      ]
     }
   ],
   "reference_only_index": {

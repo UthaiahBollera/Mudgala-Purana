@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "e9c236d9ead1b89329499ba5842233b15c9e6837",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        43,
+        18
+      ],
+      "old_row": {
+        "source_pages": "110",
+        "type": "mantra",
+        "text": "ಸದೇವರ್ಷಿಬ್ರಹ್ಮೋವಾಚ । ನಮಸ್ತೇ ಬ್ರಹ್ಮಭೂತಾಯ ವಕ್ರತುಂಡಾಯ ಸಾಕ್ಷಿಣೇ । ಸಿದ್ಧಿಬುದ್ಧಿಧರಾಯೈವ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೮॥"
+      },
+      "new_row": {
+        "source_pages": "110",
+        "type": "mantra",
+        "text": "ಸದೇವರ್ಷಿಬ್ರಹ್ಮೋವಾಚ । ನಮಸ್ತೇ ಬ್ರಹ್ಮಭೂತಾಯ ವಕ್ರತುಂಡಾಯ ಸಾಕ್ಷಿಣೇ । ಸಿದ್ಧಿಬುದ್ಧಿಯುತಾಯೈವ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೮॥"
+      },
+      "base_file": "translation/batch-05-02.tsv",
+      "source_sanskrit": "सदेवर्षिब्रह्मोवाच । नमस्ते ब्रह्मभूताय वक्रतुंडाय साक्षिणे । सिद्धिबुद्धियुतायैव गणेशाय नमो नमः ॥१८॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಸದೇವರ್ಷಿಬ್ರಹ್ಮೋವಾಚ । ನಮಸ್ತೇ ಬ್ರಹ್ಮಭೂತಾಯ ವಕ್ರತುಂಡಾಯ ಸಾಕ್ಷಿಣೇ । ಸಿದ್ಧಿಬುದ್ಧಿಯುತಾಯೈವ ಗಣೇಶಾಯ ನಮೋ ನಮಃ ॥೧೮॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/independent-review.md",
+        "sha256": "b84d60980165b5333c4acbcc15c2c6dcbf0efd72b9eca0d3641989f7a1ec2b3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0097.png",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/original-and-input/original-page_0097.png",
+        "sha256": "b6191201b23464fba332c63c2252d28b0395c06b46c01a7da23dd40c7d0ec95f",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          650,
+          3700,
+          1350
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original97 clearly prints युतायैव, not धरायैव. Repair target-edition mantra; retain speaker heading.",
+      "replacements": [
+        {
+          "before": "ಸಿದ್ಧಿಬುದ್ಧಿಧರಾಯೈವ",
+          "after": "ಸಿದ್ಧಿಬುದ್ಧಿಯುತಾಯೈವ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        43,
+        24
+      ],
+      "old_row": {
+        "source_pages": "110",
+        "type": "mantra",
+        "text": "ತ್ವಾಂ ಸ್ತೋತುಂ ನ ಸಮರ್ಥಾಶ್ಚ ವೇದಾಃ ಶಾಸ್ತ್ರಸಮನ್ವಿತಾಃ । ಯೋಗೀಂದ್ರಾ ದೇವಮುನಯಶ್ಚ ತತ್ರ ಕೋಽಹಂ ಗಜಾನನ ॥೨೪॥"
+      },
+      "new_row": {
+        "source_pages": "110",
+        "type": "mantra",
+        "text": "ತ್ವಾಂ ಸ್ತೋತುಂ ನ ಸಮರ್ಥಾಶ್ಚ ವೇದಾಃ ಶಾಸ್ತ್ರಸಮನ್ವಿತಾಃ । ಯೋಗೀಂದ್ರಾ ದೇವಮುಖ್ಯಾಶ್ಚ ತತ್ರ ಕೋಽಹಂ ಗಜಾನನ ॥೨೪॥"
+      },
+      "base_file": "translation/batch-05-02.tsv",
+      "source_sanskrit": "त्वां स्तोतुं न समर्थाश्च वेदाः शास्त्रसमन्विताः । योगींद्रा देवमुख्याश्च तत्र कोऽहं गजानन ॥२४॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ತ್ವಾಂ ಸ್ತೋತುಂ ನ ಸಮರ್ಥಾಶ್ಚ ವೇದಾಃ ಶಾಸ್ತ್ರಸಮನ್ವಿತಾಃ । ಯೋಗೀಂದ್ರಾ ದೇವಮುಖ್ಯಾಶ್ಚ ತತ್ರ ಕೋಽಹಂ ಗಜಾನನ ॥೨೪॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/independent-review.md",
+        "sha256": "b84d60980165b5333c4acbcc15c2c6dcbf0efd72b9eca0d3641989f7a1ec2b3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0097.png",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/original-and-input/original-page_0097.png",
+        "sha256": "b6191201b23464fba332c63c2252d28b0395c06b46c01a7da23dd40c7d0ec95f",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1310,
+          3700,
+          1900
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original97 clearly prints देवमुख्याश्च. Replace only that word; retain the negative and all other wording.",
+      "replacements": [
+        {
+          "before": "ದೇವಮುನಯಶ್ಚ",
+          "after": "ದೇವಮುಖ್ಯಾಶ್ಚ"
+        }
+      ]
+    },
+    {
+      "key": [
+        1,
+        43,
+        25
+      ],
+      "old_row": {
+        "source_pages": "110",
+        "type": "mantra",
+        "text": "ಯಥಾಬುದ್ಧಿಪ್ರಮೋದೇನ ಸಂಸ್ತುತೋಽಸಿ ಗಣೇಶ್ವರ । ತೇನ ಮೇ ಸಫಲಂ ಸರ್ವಂ ಜಾತಂ ದೈವಾತ್ಪರಂತಪ ॥೨೫॥"
+      },
+      "new_row": {
+        "source_pages": "110",
+        "type": "mantra",
+        "text": "ಯಥಾಬುದ್ಧಿಪ್ರಮೋದೇನ ಸಂಸ್ತುತೋಽಸಿ ಗಣೇಶ್ವರ । ತೇನ ಮೇ ಸಫಲಂ ಸರ್ವಂ ಜಾತಂ ಲಂಬೋದರಾಧುನಾ ॥೨೫॥"
+      },
+      "base_file": "translation/batch-05-02.tsv",
+      "source_sanskrit": "यथाबुद्धि प्रमोदेन संस्तुतोऽसि गणेश्वर । तेन मे सफलं सर्वं जातं लंबोदराधुना ॥२५॥",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಯಥಾಬುದ್ಧಿಪ್ರಮೋದೇನ ಸಂಸ್ತುತೋಽಸಿ ಗಣೇಶ್ವರ । ತೇನ ಮೇ ಸಫಲಂ ಸರ್ವಂ ಜಾತಂ ಲಂಬೋದರಾಧುನಾ ॥೨೫॥",
+      "correction_mode": "original_only_mantra_token",
+      "partial_suffix": "",
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/independent-review.md",
+        "sha256": "b84d60980165b5333c4acbcc15c2c6dcbf0efd72b9eca0d3641989f7a1ec2b3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0097.png",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/original-and-input/original-page_0097.png",
+        "sha256": "b6191201b23464fba332c63c2252d28b0395c06b46c01a7da23dd40c7d0ec95f",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1310,
+          3700,
+          1900
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original97 prints लंबोदराधुना, not दैवात्परंतप. No unrelated mantra changes.",
+      "replacements": [
+        {
+          "before": "ದೈವಾತ್ಪರಂತಪ",
+          "after": "ಲಂಬೋದರಾಧುನಾ"
+        }
+      ]
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        43,
+        16
+      ],
+      "old_row": {
+        "source_pages": "110",
+        "type": "translation",
+        "text": "ಮಾನಸಪುತ್ರನನ್ನೂ, ಹಾಗೆಯೇ ಪುತ್ರಿಯರಾದ ಸಿದ್ಧಿ ಮತ್ತು ಬುದ್ಧಿಯರನ್ನೂ ನೋಡಿ, ಅವರೆಲ್ಲರೂ ವಿನಯದಿಂದ ಕೈಮುಗಿದು ಅವರಿಬ್ಬರೊಂದಿಗೆ ಅವನನ್ನು ಸ್ತುತಿಸಿದರು. ॥೧೬॥"
+      },
+      "new_row": {
+        "source_pages": "110",
+        "type": "translation",
+        "text": "ಮಾನಸಪುತ್ರನನ್ನೂ, ಹಾಗೆಯೇ ಪುತ್ರಿಯರಾದ ಸಿದ್ಧಿ ಮತ್ತು ಬುದ್ಧಿಯರನ್ನೂ ನೋಡಿ, ಅವರೆಲ್ಲರೂ ವಿನಯದಿಂದ ಕೈಮುಗಿದು ಅವರಿಬ್ಬರೊಂದಿಗೆ ಅವನನ್ನು ಸ್ತುತಿಸಿದರು. ॥೧೬॥"
+      },
+      "base_file": "translation/batch-05-02.tsv",
+      "source_sanskrit": "सुतं मानसिकं दृष्ट्वा सिद्धिं बुद्धिं तथात्मजे । ताभ्यां सह विनीतास्ते तुष्टुवुर्बद्धपाणयः ॥१६॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_coordination_hold",
+          "reading": null,
+          "token": "सुतं मानसिकं दृष्ट्वा सिद्धिं बुद्धिं तथात्मजे । ताभ्यां सह विनीतास्ते तुष्टुवुर्बद्धपाणयः ॥१६॥",
+          "detail": "Original97 supports mental son, Siddhi and Buddhi as the two daughters, folded hands and ताभ्यां सह. Current Kannada preserves these. Exact participant coordination remains held; do not silently change the two women from co-participants into merely objects of praise, or add an explicit possessor. Context15 has gods and sages;17 then explicitly names Brahma and the deity with wives. No demonstrable minimal Kannada defect established."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/independent-review.md",
+        "sha256": "b84d60980165b5333c4acbcc15c2c6dcbf0efd72b9eca0d3641989f7a1ec2b3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0097.png",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/original-and-input/original-page_0097.png",
+        "sha256": "b6191201b23464fba332c63c2252d28b0395c06b46c01a7da23dd40c7d0ec95f",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          650,
+          3700,
+          1350
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original97 supports mental son, Siddhi and Buddhi as the two daughters, folded hands and ताभ्यां सह. Current Kannada preserves these. Exact participant coordination remains held; do not silently change the two women from co-participants into merely objects of praise, or add an explicit possessor. Context15 has gods and sages;17 then explicitly names Brahma and the deity with wives. No demonstrable minimal Kannada defect established.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_coordination_cluster": "ताभ्यां सह",
+      "participant_coordination_settled": false,
+      "co_participants_not_silently_reassigned": true
+    },
+    {
+      "key": [
+        1,
+        44,
+        25
+      ],
+      "old_row": {
+        "source_pages": "112",
+        "type": "translation",
+        "text": "ಪುತ್ರನು ತಾಯಿ ತಂದೆಯರ ಬಂಧನವನ್ನು ನಿವಾರಿಸುತ್ತಾನೆ ಎಂಬುದಕ್ಕಾಗಿ ಬ್ರಹ್ಮನು ಆ ಪ್ರಭುವನ್ನು ಪುತ್ರನಾಗಿ ಬರಬೇಕೆಂದು ಪ್ರಾರ್ಥಿಸಿದನು. ॥೨೫॥"
+      },
+      "new_row": {
+        "source_pages": "112",
+        "type": "translation",
+        "text": "ಪುತ್ರನು ತಾಯಿ ತಂದೆಯರ ಬಂಧನವನ್ನು ನಿವಾರಿಸುತ್ತಾನೆ ಎಂಬುದಕ್ಕಾಗಿ ಬ್ರಹ್ಮನು ಆ ಪ್ರಭುವನ್ನು ಪುತ್ರನಾಗಿ ಬರಬೇಕೆಂದು ಪ್ರಾರ್ಥಿಸಿದನು. ॥೨೫॥"
+      },
+      "base_file": "translation/batch-05-02.tsv",
+      "source_sanskrit": "मातुः पितुश्च बंधं च पुत्रौ हरति यत्त्विति । तदर्थं पुत्रभावेन ब्रह्मणा प्रार्थितो विभुः ॥२५॥",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unchanged_number_anomaly_hold",
+          "reading": null,
+          "token": "मातुः पितुश्च बंधं च पुत्रौ हरति यत्त्विति । तदर्थं पुत्रभावेन ब्रह्मणा प्रार्थितो विभुः ॥२५॥",
+          "detail": "Original99 enlarged pixels confirm पुत्रौ, not पुत्रो, alongside singular हरति. This anomaly exists in the original. Context24 and पुत्रभावेन support the son requested by Brahma; current singular-son Kannada is contextually defensible. Retain it as an interpretive choice despite printed irregularity, not a fully literal number match. No silent Sanskrit emendation or two-son interpretation."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "partial_suffix": "",
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/independent-review.md",
+        "sha256": "b84d60980165b5333c4acbcc15c2c6dcbf0efd72b9eca0d3641989f7a1ec2b3a"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0099.png",
+        "file": "translation/source-review-addenda/khanda1-ch43-ch44/original-and-input/original-page_0099.png",
+        "sha256": "00b9250feda006337b7f77ecbfe7eab2c6da80f794a0ef44a21d7ce92033b724",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          1660,
+          3690,
+          2110
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original99 enlarged pixels confirm पुत्रौ, not पुत्रो, alongside singular हरति. This anomaly exists in the original. Context24 and पुत्रभावेन support the son requested by Brahma; current singular-son Kannada is contextually defensible. Retain it as an interpretive choice despite printed irregularity, not a fully literal number match. No silent Sanskrit emendation or two-son interpretation.",
+      "counted_as_new_correction": false,
+      "target_readings_source_verified": true,
+      "source_emendation_accepted": false,
+      "printed_dual_token": "पुत्रौ",
+      "printed_singular_verb": "हरति",
+      "source_number_emended": false,
+      "singular_Kannada_is_contextual": true,
+      "literal_number_match_certified": false
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch43-ch44/before-after-proposals.json",
+  "candidate_sha256": "69e3d03ca57bb56685ec6bbf333e19687ee8c28eb3fda6b87f0c7fa0102ea95f",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/before-after-proposals.json",
+      "sha256": "69e3d03ca57bb56685ec6bbf333e19687ee8c28eb3fda6b87f0c7fa0102ea95f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/crop_coordinates.json",
+      "sha256": "867f788b5a53144fd5e1b986d8119d469732a10979ea701dfbed69696efe0d74"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/crops/43-14-20.png",
+      "sha256": "6631ff810bd47cf8ce9e02576375b06de2aa8410d8f04eb4b30f9175b6791803"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/crops/43-22-27.png",
+      "sha256": "c2fc83936138162314b98f62da9871e1a7f24402f4b68e053ea4e3c2eeedefb4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/crops/44-23-27.png",
+      "sha256": "7e5eb5e463e3a243b4c8dfc53507a21559ee9abecea2354beeb8b3a5da250f5d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/crops/44-25-detail.png",
+      "sha256": "a84b1ce8a0e1e1d33c9a84b0deaf2d0b3442e97847804cd0890c279e1f489689"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/independent-review.md",
+      "sha256": "b84d60980165b5333c4acbcc15c2c6dcbf0efd72b9eca0d3641989f7a1ec2b3a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/manifest.json",
+      "sha256": "6afc7a62e7dc59a5c5a26897fd79e547b67f7b3c0a4160e2ffb0e80fdc860772"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/original-and-input/khanda1-ch43-ch44-next-five-review-packet.json",
+      "sha256": "7d2fca5c7f2e6c1c672c8a4b94a9e30c481b29fb1103fd78313546cc53e38eac"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/original-and-input/original-page_0097.png",
+      "sha256": "b6191201b23464fba332c63c2252d28b0395c06b46c01a7da23dd40c7d0ec95f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch43-ch44/original-and-input/original-page_0099.png",
+      "sha256": "00b9250feda006337b7f77ecbfe7eab2c6da80f794a0ef44a21d7ce92033b724"
+    }
+  ],
+  "handoff_Library_file": "libfile_4d405e15682c8191a4d4f3d4300d660a",
+  "handoff_sha256": "0f47bfbf315c8bf133e5faee1f39f12da1afe831d2b9432fece8da92300fe770",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}
