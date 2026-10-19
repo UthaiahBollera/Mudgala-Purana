@@ -1,0 +1,44 @@
+{
+  "revision": "v4",
+  "base": {
+    "path": "/workspace/shared/khanda2_recovery/gap3/tail/tail_final_frozen_v3.json",
+    "sha256": "b86a912cbe0c798298b910d58622781da945e8082cce35619d773dce01274020"
+  },
+  "source_sha256": "836a71db98446359f7cdf5a4a7c3220fb5625381152c2f7806a88f76f31c46cc",
+  "source_coordinates_xyxy": [
+    400,
+    2140,
+    3480,
+    2345
+  ],
+  "changes": [
+    {
+      "id": "2.52.colophon",
+      "field": "candidate_sanskrit",
+      "before": "॥ ॐमिति श्रीमदाद्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते एकदंतप्रसन्नभावो नाम द्विपंचाशत्तमोऽध्यायः ॥",
+      "after": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते एकदंतप्रसन्नभावो नाम द्विपंचाशत्तमोऽध्यायः ॥",
+      "reason": "Direct original-pixel reinspection confirms the reviewer findings: literal ओमिति and श्रीमदांत्ये."
+    },
+    {
+      "id": "2.52.colophon",
+      "field": "candidate_kannada",
+      "before": "ಓಂ. ಶ್ರೀಮದಾದ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮುದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ “ಏಕದಂತಪ್ರಸನ್ನಭಾವ” ಎಂಬ ಐವತ್ತೆರಡನೆಯ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾಯಿತು.",
+      "after": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮುದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ “ಏಕದಂತಪ್ರಸನ್ನಭಾವ” ಎಂಬ ಐವತ್ತೆರಡನೆಯ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾಯಿತು.",
+      "reason": "Restore the Kannada title spelling ಶ್ರೀಮದಾಂತ್ಯ; do not assert the earlier unsupported ādya reading."
+    },
+    {
+      "id": "2.52.colophon",
+      "field": "uncertainty_flags",
+      "before": [
+        "Colophon text is printed smaller than the verses; independent review should check the compound श्रीमन्मौद्गले and chapter-title spelling."
+      ],
+      "after": [],
+      "reason": "Complete small-print colophon re-read from the source crop; source remains an unaccepted candidate."
+    }
+  ],
+  "previous_change_logs": [
+    "/workspace/shared/khanda2_recovery/gap3/tail/tail_revision_v2_changes.json",
+    "/workspace/shared/khanda2_recovery/gap3/tail/tail_revision_v3_changes.json"
+  ],
+  "all_accepted_fields_null": true
+}

@@ -1,0 +1,136 @@
+{
+  "schema": "khanda2.long_gap.final_structure_audit.v1",
+  "status": "all_checks_passed_candidate_only",
+  "bundle_path": "/workspace/shared/khanda2_recovery/gap3/long_gap_candidates.json",
+  "bundle_sha256": "7ac589e2d1a0fcbc78fef44254fbbd03d2444d5e344ae9e912aa35ef54b5e2bb",
+  "review_report_sha256": "61b8aaf5ec395649bb50351aeb556eb2c0d46550a2045b73d7bbf227b57b27a7",
+  "edition_verified": false,
+  "accepted_sanskrit": null,
+  "accepted_kannada": null,
+  "checks": [
+    {
+      "check": "216 unique records in exact chapter/verse order",
+      "passed": true,
+      "detail": {
+        "actual_count": 216,
+        "unique_count": 216,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "check": "Only two outer partial source records",
+      "passed": true,
+      "detail": [
+        "2.49.26",
+        "2.53.49"
+      ]
+    },
+    {
+      "check": "214 complete new source records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Exactly two separate boundary join candidates",
+      "passed": true,
+      "detail": [
+        "2.49.26",
+        "2.53.49"
+      ]
+    },
+    {
+      "check": "Exactly eight nonverse materials",
+      "passed": true,
+      "detail": 8
+    },
+    {
+      "check": "All accepted fields null",
+      "passed": true,
+      "detail": {
+        "accepted_field_count": 476,
+        "non_null_paths": []
+      }
+    },
+    {
+      "check": "Every referenced PNG hash matches original and source manifest",
+      "passed": true,
+      "detail": {
+        "reference_count": 238,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "All source bounding boxes within original dimensions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Review hash embedded in bundle matches frozen aggregate report",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All reviewed segment freezes match pinned hashes",
+      "passed": true,
+      "detail": [
+        {
+          "file": "head/head_final_frozen_r3.json",
+          "passed": true,
+          "sha256": "50ce707201dd44a9e1e386b0268d838798c20f0a40e5c8b72622e16bae50a66a"
+        },
+        {
+          "file": "middle/middle_candidates_v2.json",
+          "passed": true,
+          "sha256": "71f7566477ceb0de637c6d41cb3033b95155ee2fcc47cfb3f265bf03a73a3947"
+        },
+        {
+          "file": "tail/tail_final_frozen_v4.json",
+          "passed": true,
+          "sha256": "367e19f131f4d82d7718a62dd4f44c0a2224c37b74ceb4bedca572e61afbea31"
+        }
+      ]
+    },
+    {
+      "check": "Merged source and Kannada equal reviewed segment freezes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Mechanical Kannada-script transliterations match Sanskrit",
+      "passed": true,
+      "detail": {
+        "count": 223,
+        "mismatch_ids": []
+      }
+    },
+    {
+      "check": "53.15 corrected plural source and53.42 no added merely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "51.40 corrected short vowel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "49.46 corrected naked forms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "53.49 join preserves without effort",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every source and Kannada string for216records,2joins,8nonverse entries appears unchanged in paired Markdown",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "scope_note": "This audit verifies final merge integrity against the independently reviewed frozen segments. It does not resolve source/meaning holds, identify the edition, grant final acceptance, or verify canonical insertion/publication.",
+  "markdown_path": "/workspace/shared/khanda2_recovery/gap3/long_gap_candidates.md",
+  "markdown_sha256": "3d80fe91df56be1709ed04993ec8c606dd02c54ac8909e148286d6e317afc503"
+}

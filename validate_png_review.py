@@ -6,6 +6,15 @@ import hashlib,json,re
 def candidate_entries(candidate):
     """Normalize source-coordinate schemas in memory; evidence files stay verbatim."""
     if 'entries' in candidate:return candidate['entries']
+    if 'records' in candidate:
+        units=[]
+        for x in candidate['records']+candidate['nonverse_material']:
+            refs=x.get('source_refs',x.get('source_spans',x.get('source_provenance')));regions=[]
+            for p in refs:
+                image=p.get('source_image',p.get('page_image'));image=f'page_{image:04}.png' if isinstance(image,int) else Path(image).name
+                regions.append({'image':image,'bbox_xyxy':p.get('bbox_px',p.get('bbox_xyxy',p.get('coordinates_xyxy')))})
+            units.append(dict(x,source_regions=regions))
+        return units
     return [dict(x, source_regions=[{'image':f"page_{p['image_id']:04}.png",'bbox_xyxy':b} for p in x['source_portions'] for b in p['rectangles_xyxy']]) for x in candidate['front_matter']+candidate['verses']]
 
 def null_acceptance(value):
@@ -28,7 +37,13 @@ def validate_png_batch(root,batch,rows,review,registry):
     candidate=json.loads(evidence(review['candidate_file'],review['candidate_sha256']).read_text())
     frozen=json.loads(evidence(review['frozen_candidate_file'],review['frozen_candidate_sha256']).read_text())
     evidence(review['independent_review_file'],review['independent_review_sha256'])
-    assert candidate['revision']['original_frozen_sha256']==review['frozen_candidate_sha256'],'Wrong frozen candidate'
+    if 'revision' in candidate:assert candidate['revision']['original_frozen_sha256']==review['frozen_candidate_sha256'],'Wrong frozen candidate'
+    else:
+        assert candidate['schema']=='khanda2.long_gap.candidate_bundle.v1' and review['candidate_sha256']==review['frozen_candidate_sha256'],'Wrong frozen reviewed bundle'
+        independent=json.loads(evidence(review['independent_review_json_file'],review['independent_review_json_sha256']).read_text())
+        assert candidate['independent_review']['report_sha256']==review['independent_review_json_sha256'] and not independent['unchecked_candidate_ranges'],'Incomplete long-gap review'
+        for f in review['evidence_files']:evidence(f['file'],f['sha256'])
+        null_acceptance(independent)
     for d in [candidate,frozen]:null_acceptance(d)
     units=candidate_entries(candidate);entries={x['id']:x for x in units};assert len(entries)==len(units),'Duplicate candidate entry'
     assert batch['source_pages']==review['source_pages'],'PNG page manifest differs'
@@ -38,8 +53,8 @@ def validate_png_batch(root,batch,rows,review,registry):
         assert p['id']==f"png:{archive['sha256']}:p{p['image_index']}",'Wrong PNG page ID'
         assert p['member']==f"Page Images/page_{p['image_index']:04}.png",'Wrong PNG member'
         assert p['id'] not in allowed and p['dimensions']==[3840,2508] and p['pixels_Mac_checked'] is True,'Invalid/unverified PNG page'
-        images=[x for x in candidate['source_images']if x.get('image',f"page_{x.get('image_id',0):04}.png")==Path(p['member']).name]
-        assert len(images)==1 and images[0]['sha256']==p['image_sha256'],'PNG image digest differs from candidate'
+        images=[x for x in candidate.get('source_images',candidate.get('provenance',{}).get('sources',[]))if x.get('image',x.get('source_image',f"page_{x.get('image_id',0):04}.png"))==Path(p['member']).name]
+        assert len(images)==1 and images[0].get('sha256',images[0].get('source_sha256'))==p['image_sha256'],'PNG image digest differs from candidate'
         allowed.add(p['id'])
     assert allowed,'Missing PNG pages'
     records=review['verses'];assert len(records)==len(rows) and {tuple(x['key'])for x in records}==set(rows),'PNG review keys differ'
@@ -55,13 +70,19 @@ def validate_png_batch(root,batch,rows,review,registry):
         assert list(dict.fromkeys(p['source_page']for p in x['source_parts']))==x['source_pages'].split(','),'PNG join source map mismatch'
         for p in x['source_parts']:
             if p.get('candidate_entry_id'):
-                e=entries[p['candidate_entry_id']];assert p['source_page']in allowed and p['text']==e['candidate_sanskrit'] and p['source_regions']==e['source_regions'],'Gap-owned source changed'
+                e=entries[p['candidate_entry_id']];assert p['source_page']in allowed and all(r in e['source_regions'] for r in p['source_regions']),'Gap-owned source changed'
+                assert all(r['image']==f"page_{int(p['source_page'].rsplit('p',1)[1]):04}.png"for r in p['source_regions']),'Source coordinates assigned to wrong PNG'
                 for region in p['source_regions']:
                     a,b,c,d=region['bbox_xyxy'];assert 0<=a<c<=3840 and 0<=b<d<=2508,'Source bbox outside image'
             else:
                 path=(root/p['historical_review_file']).resolve();assert path.is_relative_to((root/'translation').resolve()),'Historical review outside source tree'
                 old=[r for r in json.loads(path.read_text())['verses']if tuple(r['key'])==key]
                 assert len(old)==1 and old[0]['source_pages']==p['source_page'] and compact(old[0]['source_sanskrit'])==compact(p['text']),'Historical fragment changed or duplicated'
+        for cid in x['candidate_entry_ids']:
+            parts=[p for p in x['source_parts'] if p.get('candidate_entry_id')==cid]
+            assert compact(' '.join(p['text'] for p in parts))==compact(entries[cid]['candidate_sanskrit']),'Gap-owned source changed or duplicated'
+            actual=[r for p in parts for r in p['source_regions']]
+            assert actual==entries[cid]['source_regions'],'Source coordinates omitted or duplicated'
         open_issues=[i for i in x.get('issues',[])if i.get('status')=='open']
         if x['review_status']=='accepted_with_unresolved_reading':
             assert open_issues and row['type']=='translation-review' and 'ಪರಿಶೀಲನೆ' in row['text'],'Unresolved PNG reading not visible'
@@ -77,5 +98,8 @@ def validate_png_batch(root,batch,rows,review,registry):
         if n['kind']!='speaker':consumed[n['candidate_entry_id']]+=1
         else:assert consumed[n['candidate_entry_id']]==1 and n['attached_once_to_key'],'Speaker not attached exactly once'
     assert set(consumed)==set(entries) and all(n==1 for n in consumed.values()),'Omitted or repeated gap-owned unit'
+    if 'records' in candidate:
+        expected_holds={tuple(map(int,id.split('.'))) for h in independent['retained_holds']for id in h['verse'].split(';')}
+        assert unresolved==expected_holds,'Independent long-gap holds omitted or promoted'
     gap=indexed[review['recovered_gap_id']];assert gap['status']=='resolved_by_additional_original_scan' and gap['resolution']['source_archive_sha256']==archive['sha256'],'PNG physical gap not accounted for'
     return allowed,unresolved

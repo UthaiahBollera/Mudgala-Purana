@@ -1,0 +1,2882 @@
+{
+  "schema": "khanda_gap_candidate_v1",
+  "task": "Khanda 2 long gap, head segment",
+  "provenance": {
+    "archive_drive_id": "1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi",
+    "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+    "edition_identity": "Unverified; this is an exact-source candidate, not a critical edition.",
+    "method": "Direct visual reading of original PNGs and lossless crops only. No OCR or external text.",
+    "new_pages": [
+      230,
+      231,
+      232
+    ],
+    "context_pages": [
+      229
+    ],
+    "coordinate_origin": "top-left of 3840×2508 original image; bboxes conservative line bands",
+    "acceptance": "All accepted fields intentionally null; independent review pending."
+  },
+  "coverage_summary": "49.26 continuation,49.27–52; ch49 colophon; ch50 invocation and50.1–44.",
+  "records": [
+    {
+      "verse_id": "49.26",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 26,
+      "coverage": "continuation_only",
+      "candidate_sanskrit": "महावीर्यास्त्रयो देवैः शिवादिभिः ॥२६॥",
+      "candidate_kannada": "ಮಹಾಪರಾಕ್ರಮಿಗಳಾದ ಆ ಮೂವರು ಶಿವನೇ ಮೊದಲಾದ ದೇವತೆಗಳೊಡನೆ ಯುದ್ಧಮಾಡುವುದಕ್ಕಾಗಿ [ಬಂದರು; ವಾಕ್ಯದ ಪೂರ್ವಭಾಗ ಪುಟ ೨೨೯ರಲ್ಲಿ ಇದೆ].",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            300,
+            3710,
+            540
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            1,
+            1
+          ],
+          "coverage_text": "महावीर्यास्त्रयो देवैः शिवादिभिः ॥२६॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "boundary_fragment",
+          "note": "Only the continuation is new. Opening remains separately sourced from page229; square-bracket Kannada context is not recovered from230."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.27",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 27,
+      "coverage": "complete",
+      "candidate_sanskrit": "धनप्रियश्च संग्रामे सूर्यं विव्याध सायकैः । उवाच गर्वसहितो रविं त्रैलोक्यभाविनम् ॥२७॥",
+      "candidate_kannada": "ಧನಪ್ರಿಯನು ಯುದ್ಧದಲ್ಲಿ ಬಾಣಗಳಿಂದ ಸೂರ್ಯನನ್ನು ಗಾಯಗೊಳಿಸಿದನು. ಗರ್ವದಿಂದ, ಮೂರು ಲೋಕಗಳಲ್ಲಿಯೂ ಇರುವ ರವಿಯನ್ನು ಕುರಿತು ಹೀಗೆ ಹೇಳಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            300,
+            3710,
+            645
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            1,
+            2
+          ],
+          "coverage_text": "धनप्रियश्च संग्रामे सूर्यं विव्याध सायकैः । उवाच गर्वसहितो रविं त्रैलोक्यभाविनम् ॥२७॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "printed_lexical_anomaly",
+          "note": "Pixels read त्रैलोक्यभाविनम्; do not silently normalize to भासिनम्."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.28",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 28,
+      "coverage": "complete",
+      "candidate_sanskrit": "धनप्रिय उवाच । शृणु दुष्टार्यमंस्त्वं मे वचनं हितकारकम् । गच्छ शीघ्रं महाबाहो नोचेन्मृत्युमेष्यसि ॥२८॥",
+      "candidate_kannada": "ಧನಪ್ರಿಯನು ಹೇಳಿದನು: ದುಷ್ಟನಾದ ಅರ್ಯಮನೇ, ನಿನಗೆ ಹಿತಕರವಾದ ನನ್ನ ಮಾತನ್ನು ಕೇಳು. ಮಹಾಬಾಹುವೇ, ಬೇಗನೆ ಹೊರಟುಹೋಗು; ಇಲ್ಲದಿದ್ದರೆ ಮರಣಹೊಂದುವೆ.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            405,
+            3710,
+            750
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            2,
+            3
+          ],
+          "coverage_text": "धनप्रिय उवाच । शृणु दुष्टार्यमंस्त्वं मे वचनं हितकारकम् । गच्छ शीघ्रं महाबाहो नोचेन्मृत्युमेष्यसि ॥२८॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.29",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 29,
+      "coverage": "complete",
+      "candidate_sanskrit": "त्वया दैत्या हताः पूर्वं भुंक्ष्व तेषां फलं महत् । न मुंचामि महादुष्ट जीवंतं त्वां च काश्यप ॥२९॥",
+      "candidate_kannada": "ನೀನು ಹಿಂದೆ ದೈತ್ಯರನ್ನು ಕೊಂದಿರುವೆ. ಅದರ ಮಹಾಫಲವನ್ನು ಈಗ ಅನುಭವಿಸು. ಮಹಾದುಷ್ಟನಾದ ಕಾಶ್ಯಪನೇ, ನಿನ್ನನ್ನು ಜೀವಂತವಾಗಿ ಬಿಡುವುದಿಲ್ಲ.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            510,
+            3710,
+            750
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            3,
+            3
+          ],
+          "coverage_text": "त्वया दैत्या हताः पूर्वं भुंक्ष्व तेषां फलं महत् । न मुंचामि महादुष्ट जीवंतं त्वां च काश्यप ॥२९॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.30",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 30,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः सूर्येण खड्गेन हतो दैत्यो महाबलः । पपात मूर्च्छयाऽऽविष्टः पुनः संज्ञां च सोऽलभत् ॥३०॥",
+      "candidate_kannada": "ಅನಂತರ ಸೂರ್ಯನು ಖಡ್ಗದಿಂದ ಹೊಡೆದಾಗ ಮಹಾಬಲಶಾಲಿಯಾದ ಆ ದೈತ್ಯನು ಮೂರ್ಛೆಗೊಂಡು ಬಿದ್ದನು. ಬಳಿಕ ಅವನಿಗೆ ಮತ್ತೆ ಪ್ರಜ್ಞೆ ಬಂದಿತು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            615,
+            3710,
+            855
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            4,
+            4
+          ],
+          "coverage_text": "ततः सूर्येण खड्गेन हतो दैत्यो महाबलः । पपात मूर्च्छयाऽऽविष्टः पुनः संज्ञां च सोऽलभत् ॥३०॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.31",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 31,
+      "coverage": "complete",
+      "candidate_sanskrit": "आगत्य काश्यपं दैत्यपुत्रो वेगसमन्वितः । खड्गेन तीक्ष्णधारेण जघान हठमंजसा ॥३१॥",
+      "candidate_kannada": "ಆ ದೈತ್ಯಪುತ್ರನು ವೇಗದಿಂದ ಕಾಶ್ಯಪನಾದ ಸೂರ್ಯನ ಬಳಿಗೆ ಬಂದು, ಹರಿತವಾದ ಅಲಗಿನ ಖಡ್ಗದಿಂದ ಬಲವಾಗಿ ನೇರವಾಗಿ ಹೊಡೆದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            615,
+            3710,
+            960
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            4,
+            5
+          ],
+          "coverage_text": "आगत्य काश्यपं दैत्यपुत्रो वेगसमन्वितः । खड्गेन तीक्ष्णधारेण जघान हठमंजसा ॥३१॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.32",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 32,
+      "coverage": "complete",
+      "candidate_sanskrit": "हठाघातेन सूर्यः स पतितो मूर्च्छया भृशम् । तं धृत्वा विजयी दैत्यपुत्रश्च स्वस्थलं ययौ ॥३२॥",
+      "candidate_kannada": "ಆ ಪ್ರಬಲವಾದ ಹೊಡೆತದಿಂದ ಸೂರ್ಯನು ತೀವ್ರವಾಗಿ ಮೂರ್ಛೆಗೊಂಡು ಬಿದ್ದನು. ವಿಜಯಿಯಾದ ದೈತ್ಯಪುತ್ರನು ಅವನನ್ನು ಹಿಡಿದು ತನ್ನ ಸ್ಥಳಕ್ಕೆ ಹೋದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            720,
+            3710,
+            1065
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            5,
+            6
+          ],
+          "coverage_text": "हठाघातेन सूर्यः स पतितो मूर्च्छया भृशम् । तं धृत्वा विजयी दैत्यपुत्रश्च स्वस्थलं ययौ ॥३२॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.33",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 33,
+      "coverage": "complete",
+      "candidate_sanskrit": "प्रणम्य पितरं पुत्रो ननंद ह धनप्रियः । पाशैर्बद्ध्वा हठं सूर्यं चिक्षेप विवरेऽसुरः ॥३३॥",
+      "candidate_kannada": "ಧನಪ್ರಿಯನು ತಂದೆಗೆ ನಮಸ್ಕರಿಸಿ ಸಂತೋಷಪಟ್ಟನು. ಆ ಅಸುರನು ಸೂರ್ಯನನ್ನು ಬಲವಂತವಾಗಿ ಪಾಶಗಳಿಂದ ಬಂಧಿಸಿ ಕುಹರದಲ್ಲಿ ಎಸೆದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            825,
+            3710,
+            1065
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            6,
+            6
+          ],
+          "coverage_text": "प्रणम्य पितरं पुत्रो ननंद ह धनप्रियः । पाशैर्बद्ध्वा हठं सूर्यं चिक्षेप विवरेऽसुरः ॥३३॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.34",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 34,
+      "coverage": "complete",
+      "candidate_sanskrit": "विलासी विष्णुमागत्य क्रोधेन महताऽऽवृतः । बाणजालैः समाच्छाद्योवाच तं दारुणं वचः ॥३४॥",
+      "candidate_kannada": "ವಿಲಾಸಿಯು ಮಹಾಕ್ರೋಧದಿಂದ ವಿಷ್ಣುವಿನ ಬಳಿಗೆ ಬಂದು, ಬಾಣಗಳ ಸಮೂಹದಿಂದ ಆತನನ್ನು ಆವರಿಸಿ, ಕಠೋರವಾದ ಮಾತುಗಳನ್ನು ಹೇಳಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            930,
+            3710,
+            1170
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            7,
+            7
+          ],
+          "coverage_text": "विलासी विष्णुमागत्य क्रोधेन महताऽऽवृतः । बाणजालैः समाच्छाद्योवाच तं दारुणं वचः ॥३४॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.35",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 35,
+      "coverage": "complete",
+      "candidate_sanskrit": "त्वया विष्णो मदीया वै सेना संनाशिता बलात् । गृहीता दैत्यवर्याश्च नाऽहं तत्र स्थितोऽभवम् ॥३५॥",
+      "candidate_kannada": "ವಿಷ್ಣುವೇ, ನೀನು ಬಲಪ್ರಯೋಗದಿಂದ ನನ್ನ ಸೇನೆಯನ್ನು ನಾಶಮಾಡಿರುವೆ; ಶ್ರೇಷ್ಠ ದೈತ್ಯರನ್ನು ಸೆರೆಹಿಡಿದಿರುವೆ. ಆಗ ನಾನು ಅಲ್ಲಿ ಇರಲಿಲ್ಲ.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            930,
+            3710,
+            1275
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            7,
+            8
+          ],
+          "coverage_text": "त्वया विष्णो मदीया वै सेना संनाशिता बलात् । गृहीता दैत्यवर्याश्च नाऽहं तत्र स्थितोऽभवम् ॥३५॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.36",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 36,
+      "coverage": "complete",
+      "candidate_sanskrit": "अधुना शस्त्रघातेन हतस्त्वं गच्छसि प्रभो । मृत्योर्भुवनमुग्रं यत्र त्वां मुंचामि कर्हिचित् ॥३६॥",
+      "candidate_kannada": "ಪ್ರಭುವೇ, ಈಗ ಆಯುಧದ ಹೊಡೆತದಿಂದ ಹತನಾಗಿ ನೀನು ಮೃತ್ಯುವಿನ ಉಗ್ರಲೋಕಕ್ಕೆ ಹೋಗುವೆ; ಅಲ್ಲಿ ನಿನ್ನನ್ನು ಎಂದಾದರೂ ಬಿಡುವೆನು. [ಅಂತಿಮ ವಾಕ್ಯವು ಮುದ್ರಿತ ಪಾಠದ ಪದಶಃ ಅರ್ಥ; ಅದರ ಆಶಯವು ಪರಿಶೀಲನೆಗೆ ಒಳಪಟ್ಟಿದೆ.]",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1035,
+            3710,
+            1380
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            8,
+            9
+          ],
+          "coverage_text": "अधुना शस्त्रघातेन हतस्त्वं गच्छसि प्रभो । मृत्योर्भुवनमुग्रं यत्र त्वां मुंचामि कर्हिचित् ॥३६॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "critical_meaning_review",
+          "note": "Pixels appear to read यत्र त्वां मुंचामि कर्हिचित् with no visible न. Kannada follows literal non-negative reading, contrary to surrounding threat. Must independently review before acceptance; do not supply an inferred negative."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.37",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 37,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः क्रोधसमाविष्टो विष्णुश्चक्रेण दैत्यपम् । विलासिनं जघानाथ चक्रे संमूर्च्छितं खलम् ॥३७॥",
+      "candidate_kannada": "ಅನಂತರ ಕ್ರೋಧಗೊಂಡ ವಿಷ್ಣುವು ಚಕ್ರದಿಂದ ದೈತ್ಯನಾಯಕನಾದ ವಿಲಾಸಿಯನ್ನು ಹೊಡೆದು, ಆ ದುಷ್ಟನನ್ನು ಮೂರ್ಛಿತನನ್ನಾಗಿ ಮಾಡಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1140,
+            3710,
+            1485
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            9,
+            10
+          ],
+          "coverage_text": "ततः क्रोधसमाविष्टो विष्णुश्चक्रेण दैत्यपम् । विलासिनं जघानाथ चक्रे संमूर्च्छितं खलम् ॥३७॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.38",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 38,
+      "coverage": "complete",
+      "candidate_sanskrit": "क्षणेन सावधानोऽभूदागत्य गदया विभुम् । हृदि विव्याध दुष्टोऽसौ पपात गरुडाद्रिः ॥३८॥",
+      "candidate_kannada": "ಆ ದುಷ್ಟನು ಕ್ಷಣದಲ್ಲಿಯೇ ಎಚ್ಚರಗೊಂಡು, ಪ್ರಭುವಿನ ಬಳಿಗೆ ಬಂದು ಗದೆಯಿಂದ ಆತನ ಎದೆಯನ್ನು ಘಾತಗೊಳಿಸಿದನು. ವಿಷ್ಣುವು ಬಿದ್ದನು. [ಮುದ್ರಿತ “ಗರುಡಾದ್ರಿಃ” ಎಂಬ ವಿಶೇಷಣದ ನಿಖರ ಅರ್ಥವು ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.]",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1245,
+            3710,
+            1590
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            10,
+            11
+          ],
+          "coverage_text": "क्षणेन सावधानोऽभूदागत्य गदया विभुम् । हृदि विव्याध दुष्टोऽसौ पपात गरुडाद्रिः ॥३८॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "unresolved_epithet",
+          "note": "Best visible source candidate गरुडाद्रिः; unusual reading remains unaccepted. Kannada identifies Vishnu from explicit antecedent, not an invented etymology."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.39",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 39,
+      "coverage": "complete",
+      "candidate_sanskrit": "तं धृत्वा दैत्यपुत्रः स ययौ स्वस्थानमुत्तमम् । पितरं प्रणनामाथ पित्रा संमानितोऽभवत् ॥३९॥",
+      "candidate_kannada": "ಆ ದೈತ್ಯಪುತ್ರನು ವಿಷ್ಣುವನ್ನು ಹಿಡಿದು ತನ್ನ ಉತ್ತಮವಾದ ಸ್ಥಳಕ್ಕೆ ಹೋದನು. ತಂದೆಗೆ ನಮಸ್ಕರಿಸಿದಾಗ ತಂದೆಯಿಂದ ಸನ್ಮಾನಿಸಲ್ಪಟ್ಟನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1350,
+            3710,
+            1590
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            11,
+            11
+          ],
+          "coverage_text": "तं धृत्वा दैत्यपुत्रः स ययौ स्वस्थानमुत्तमम् । पितरं प्रणनामाथ पित्रा संमानितोऽभवत् ॥३९॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.40",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 40,
+      "coverage": "complete",
+      "candidate_sanskrit": "बद्ध्वा पाशैर्महाविष्णुं चिक्षेप विवरे मदः । दैत्या हर्षसमायुक्ता जगर्जुश्च भयानकम् ॥४०॥",
+      "candidate_kannada": "ಮದನು ಮಹಾವಿಷ್ಣುವನ್ನು ಪಾಶಗಳಿಂದ ಬಂಧಿಸಿ ಕುಹರದಲ್ಲಿ ಎಸೆದನು. ದೈತ್ಯರು ಹರ್ಷದಿಂದ ಭಯಾನಕವಾಗಿ ಗರ್ಜಿಸಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1455,
+            3710,
+            1695
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            12,
+            12
+          ],
+          "coverage_text": "बद्ध्वा पाशैर्महाविष्णुं चिक्षेप विवरे मदः । दैत्या हर्षसमायुक्ता जगर्जुश्च भयानकम् ॥४०॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.41",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 41,
+      "coverage": "complete",
+      "candidate_sanskrit": "लोलुपश्च समागम्य शंकरं वृषभध्वजम् । उवाच कोपरक्ताक्षः शृणु त्वं नीललोहित ॥४१॥",
+      "candidate_kannada": "ಲೋಲುಪನು ವೃಷಭಧ್ವಜನಾದ ಶಂಕರನ ಬಳಿಗೆ ಬಂದು, ಕೋಪದಿಂದ ಕೆಂಪಾದ ಕಣ್ಣುಳ್ಳವನಾಗಿ, ನೀಲಲೋಹಿತನೇ, ನೀನು ಕೇಳು ಎಂದು ಹೇಳಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1455,
+            3710,
+            1800
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            12,
+            13
+          ],
+          "coverage_text": "लोलुपश्च समागम्य शंकरं वृषभध्वजम् । उवाच कोपरक्ताक्षः शृणु त्वं नीललोहित ॥४१॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.42",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 42,
+      "coverage": "complete",
+      "candidate_sanskrit": "मदीयमतुलं सैन्यं त्वया युधि निपातितम् । अधुना त्वां हनिष्यामि फलदाता भवाम्यहम् ॥४२॥",
+      "candidate_kannada": "ನೀನು ಯುದ್ಧದಲ್ಲಿ ನನ್ನ ಅತುಲವಾದ ಸೇನೆಯನ್ನು ಸಂಹರಿಸಿರುವೆ. ಈಗ ನಿನ್ನನ್ನು ಕೊಲ್ಲುವೆನು; ಅದರ ಫಲವನ್ನು ನೀಡುವವನಾಗುವೆನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1560,
+            3710,
+            1905
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            13,
+            14
+          ],
+          "coverage_text": "मदीयमतुलं सैन्यं त्वया युधि निपातितम् । अधुना त्वां हनिष्यामि फलदाता भवाम्यहम् ॥४२॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.43",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 43,
+      "coverage": "complete",
+      "candidate_sanskrit": "ब्रुवंतं तं ततो मूर्खं त्रिशूलेन जघान ह । शंकरः क्रोधसंयुक्तः सोऽपतन्मूर्च्छया भृशम् ॥४३॥",
+      "candidate_kannada": "ಹೀಗೆ ಹೇಳುತ್ತಿದ್ದ ಆ ಮೂರ್ಖನನ್ನು ಕ್ರೋಧಗೊಂಡ ಶಂಕರನು ತ್ರಿಶೂಲದಿಂದ ಹೊಡೆದನು. ಅವನು ತೀವ್ರವಾದ ಮೂರ್ಛೆಯಿಂದ ಬಿದ್ದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1665,
+            3710,
+            2010
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            14,
+            15
+          ],
+          "coverage_text": "ब्रुवंतं तं ततो मूर्खं त्रिशूलेन जघान ह । शंकरः क्रोधसंयुक्तः सोऽपतन्मूर्च्छया भृशम् ॥४३॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.44",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 44,
+      "coverage": "complete",
+      "candidate_sanskrit": "शुक्रेण सहसाऽऽगत्य सावधानः कृतोऽसुरः । लोलुपो निर्ममे मायां सर्वदेवविमोहिनीम् ॥४४॥",
+      "candidate_kannada": "ಶುಕ್ರನು ಕೂಡಲೇ ಬಂದು ಆ ಅಸುರನನ್ನು ಎಚ್ಚರಗೊಳಿಸಿದನು. ಲೋಲುಪನು ಎಲ್ಲ ದೇವತೆಗಳನ್ನೂ ಮೋಹಗೊಳಿಸುವ ಮಾಯೆಯನ್ನು ನಿರ್ಮಿಸಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1770,
+            3710,
+            2010
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            15,
+            15
+          ],
+          "coverage_text": "शुक्रेण सहसाऽऽगत्य सावधानः कृतोऽसुरः । लोलुपो निर्ममे मायां सर्वदेवविमोहिनीम् ॥४४॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.45",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 45,
+      "coverage": "complete",
+      "candidate_sanskrit": "अकस्माज्जलधिस्तत्र व्याप्तः सर्वभयावहः । अग्निश्च सर्वतः सर्वान् दाहयामास भैरवः ॥४५॥",
+      "candidate_kannada": "ಆಕಸ್ಮಿಕವಾಗಿ ಎಲ್ಲರಿಗೂ ಭಯವನ್ನುಂಟುಮಾಡುವ ಸಮುದ್ರವು ಅಲ್ಲಿ ವ್ಯಾಪಿಸಿತು. ಭೀಕರವಾದ ಅಗ್ನಿಯು ಎಲ್ಲ ದಿಕ್ಕುಗಳಲ್ಲಿಯೂ ಎಲ್ಲರನ್ನೂ ಸುಡತೊಡಗಿತು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1875,
+            3710,
+            2115
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            16,
+            16
+          ],
+          "coverage_text": "अकस्माज्जलधिस्तत्र व्याप्तः सर्वभयावहः । अग्निश्च सर्वतः सर्वान् दाहयामास भैरवः ॥४५॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.46",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 46,
+      "coverage": "complete",
+      "candidate_sanskrit": "नानाशस्त्रधरा अन्ये नग्नास्ते शूलपाणयः । नग्नास्त्रियश्च शस्त्रौघैर्मारयामासुरंजसा ॥४६॥",
+      "candidate_kannada": "ನಾನಾ ಆಯುಧಗಳನ್ನು ಧರಿಸಿದ, ಕೈಗಳಲ್ಲಿ ಶೂಲಗಳನ್ನು ಹಿಡಿದಿದ್ದ ಇತರ ನಗ್ನರೂ ನಗ್ನಸ್ತ್ರೀಯರೂ ಆಯುಧಗಳ ಸಮೂಹದಿಂದ ಕೊಲ್ಲತೊಡಗಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1875,
+            3710,
+            2220
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            16,
+            17
+          ],
+          "coverage_text": "नानाशस्त्रधरा अन्ये नग्नास्ते शूलपाणयः । नग्नास्त्रियश्च शस्त्रौघैर्मारयामासुरंजसा ॥४६॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.47",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 47,
+      "coverage": "complete",
+      "candidate_sanskrit": "शंकरो विस्मितो भूत्वा पश्चाद्भयसमन्वितः । मोहितो मायया तत्र लोलुपेनासुरेश्वर ॥४७॥",
+      "candidate_kannada": "ಅಸುರೇಶ್ವರನೇ, ಶಂಕರನು ಆಶ್ಚರ್ಯಗೊಂಡು, ಅನಂತರ ಭಯಗೊಂಡನು. ಅಲ್ಲಿ ಲೋಲುಪನ ಮಾಯೆಯಿಂದ ಮೋಹಿತನಾದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            1980,
+            3710,
+            2325
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            17,
+            18
+          ],
+          "coverage_text": "शंकरो विस्मितो भूत्वा पश्चाद्भयसमन्वितः । मोहितो मायया तत्र लोलुपेनासुरेश्वर ॥४७॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.48",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 48,
+      "coverage": "complete",
+      "candidate_sanskrit": "एतस्मिन्नंतरे तत्र समुद्रे सर्वतः स्थिते । ममज्ज तत्र देवेशः शिवः प्रह्लाद मोहितः ॥४८॥",
+      "candidate_kannada": "ಈ ಮಧ್ಯೆ, ಎಲ್ಲೆಡೆಯೂ ಸಮುದ್ರವು ವ್ಯಾಪಿಸಿದ್ದಾಗ, ಪ್ರಹ್ಲಾದನೇ, ಮೋಹಿತನಾದ ದೇವೇಶ ಶಿವನು ಅದರಲ್ಲಿ ಮುಳುಗಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            2085,
+            3710,
+            2325
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            18,
+            18
+          ],
+          "coverage_text": "एतस्मिन्नंतरे तत्र समुद्रे सर्वतः स्थिते । ममज्ज तत्र देवेशः शिवः प्रह्लाद मोहितः ॥४८॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.49",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 49,
+      "coverage": "complete",
+      "candidate_sanskrit": "कर्मणा च तपोरूपेणेदं सर्वं कृतं मृधे । मज्जंतं शंकरं धृत्वा लोलुपः स्वस्थलं ययौ ॥४९॥",
+      "candidate_kannada": "ತಪಸ್ಸಿನ ರೂಪದ ಕರ್ಮದ ಮೂಲಕ ಯುದ್ಧದಲ್ಲಿ ಇದನ್ನೆಲ್ಲ ಮಾಡಲಾಗಿತ್ತು. ಮುಳುಗುತ್ತಿದ್ದ ಶಂಕರನನ್ನು ಹಿಡಿದು ಲೋಲುಪನು ತನ್ನ ಸ್ಥಳಕ್ಕೆ ಹೋದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            2085,
+            3710,
+            2430
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            18,
+            19
+          ],
+          "coverage_text": "कर्मणा च तपोरूपेणेदं सर्वं कृतं मृधे । मज्जंतं शंकरं धृत्वा लोलुपः स्वस्थलं ययौ ॥४९॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "sandhi_reading_review",
+          "note": "Candidate तपोरूपेणेदं read from source; verify closely before acceptance."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.50",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 50,
+      "coverage": "complete",
+      "candidate_sanskrit": "पित्राऽसौ मानितोऽत्यंतं पाशैर्बद्ध्वा सदाशिवम् । चिक्षेप विवरे दैत्यो लोलुपः सर्वलोलुपः ॥५०॥",
+      "candidate_kannada": "ತಂದೆಯಿಂದ ಅತ್ಯಂತ ಗೌರವಿಸಲ್ಪಟ್ಟ, ಎಲ್ಲದರಲ್ಲಿಯೂ ಲೋಲುಪನಾದ ಆ ಲೋಲುಪ ದೈತ್ಯನು ಸದಾಶಿವನನ್ನು ಪಾಶಗಳಿಂದ ಬಂಧಿಸಿ ಕುಹರದಲ್ಲಿ ಎಸೆದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0230.png",
+          "source_sha256": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 104,
+          "bbox_px": [
+            250,
+            2190,
+            3710,
+            2430
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            19,
+            19
+          ],
+          "coverage_text": "पित्राऽसौ मानितोऽत्यंतं पाशैर्बद्ध्वा"
+        },
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            350,
+            3710,
+            510
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            1,
+            1
+          ],
+          "coverage_text": "सदाशिवम् । चिक्षेप विवरे दैत्यो लोलुपः सर्वलोलुपः ॥५०॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.51",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 51,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततो हाहारवं कृत्वा देवा देवगणा मृधे । शरणं जगदंबां ते ययुः संत्रासतापिताः ॥५१॥",
+      "candidate_kannada": "ಅನಂತರ ಯುದ್ಧದಲ್ಲಿದ್ದ ದೇವತೆಗಳೂ ದೇವಗಣಗಳೂ ಹಾಹಾಕಾರಮಾಡುತ್ತ, ಭಯದಿಂದ ಸಂತಪ್ತರಾಗಿ ಜಗದಂಬೆಯ ಶರಣಿಗೆ ಹೋದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            350,
+            3710,
+            615
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            1,
+            2
+          ],
+          "coverage_text": "ततो हाहारवं कृत्वा देवा देवगणा मृधे । शरणं जगदंबां ते ययुः संत्रासतापिताः ॥५१॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "49.52",
+      "khanda": 2,
+      "chapter": 49,
+      "verse": 52,
+      "coverage": "complete",
+      "candidate_sanskrit": "दैत्येंद्रा हर्षिताः सर्वे जगर्जुर्घनवद्भृशम् । कुर्वंतो वाद्यशब्दान् वै जयशब्दकरा भृशम् ॥५२॥",
+      "candidate_kannada": "ಎಲ್ಲ ದೈತ್ಯೇಂದ್ರರೂ ಹರ್ಷಗೊಂಡು, ವಾದ್ಯನಾದಗಳನ್ನೂ ಪ್ರಬಲವಾದ ಜಯಘೋಷಗಳನ್ನೂ ಮಾಡುತ್ತ, ಮೇಘಗಳಂತೆ ಬಹಳವಾಗಿ ಗರ್ಜಿಸಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            455,
+            3710,
+            615
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            2,
+            2
+          ],
+          "coverage_text": "दैत्येंद्रा हर्षिताः सर्वे जगर्जुर्घनवद्भृशम् । कुर्वंतो वाद्यशब्दान् वै जयशब्दकरा भृशम् ॥५२॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.1",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 1,
+      "coverage": "complete",
+      "candidate_sanskrit": "गृत्समद उवाच । शिवविष्ण्वादिदेवेषु गृहीतेषु महाबलैः । दैत्यपुत्रैः सुराणां च सैन्ये त्रासः प्रवर्तितः ॥१॥",
+      "candidate_kannada": "ಗೃತ್ಸಮದನು ಹೇಳಿದನು: ಮಹಾಬಲಶಾಲಿಗಳಾದ ದೈತ್ಯಪುತ್ರರು ಶಿವವಿಷ್ಣು ಮೊದಲಾದ ದೇವತೆಗಳನ್ನು ಸೆರೆಹಿಡಿದಾಗ ದೇವಸೇನೆಯಲ್ಲಿ ಭಯವುಂಟಾಯಿತು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            875,
+            3710,
+            1125
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            1,
+            2
+          ],
+          "coverage_text": "गृत्समद उवाच । शिवविष्ण्वादिदेवेषु गृहीतेषु महाबलैः । दैत्यपुत्रैः सुराणां च सैन्ये त्रासः प्रवर्तितः ॥१॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.2",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 2,
+      "coverage": "complete",
+      "candidate_sanskrit": "देवा देवगणाः केऽपि हता भग्नास्तथाऽपरे । मृता मुमूर्षवस्तत्र गृहीता दैत्यैर्मृधे ॥२॥",
+      "candidate_kannada": "ಯುದ್ಧದಲ್ಲಿ ಕೆಲವು ದೇವತೆಗಳೂ ದೇವಗಣಗಳೂ ಹತರಾದರು; ಇನ್ನು ಕೆಲವರು ಸೋತು ಚದುರಿದರು. ಕೆಲವರು ಸತ್ತರು, ಕೆಲವರು ಸಾಯುವ ಸ್ಥಿತಿಯಲ್ಲಿದ್ದರು; ಕೆಲವರು ದೈತ್ಯರಿಂದ ಸೆರೆಹಿಡಿಯಲ್ಪಟ್ಟರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            975,
+            3710,
+            1125
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            2,
+            2
+          ],
+          "coverage_text": "देवा देवगणाः केऽपि हता भग्नास्तथाऽपरे । मृता मुमूर्षवस्तत्र गृहीता दैत्यैर्मृधे ॥२॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.3",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 3,
+      "coverage": "complete",
+      "candidate_sanskrit": "केचित्तान् शरणं जग्मुर्दैत्यान् केचित् पलायिताः । शशंसुः सर्ववृत्तांतं शक्तये भयविह्वलाः ॥३॥",
+      "candidate_kannada": "ಕೆಲವರು ಆ ದೈತ್ಯರ ಶರಣಿಗೆ ಹೋದರು; ಕೆಲವರು ಓಡಿಹೋದರು. ಭಯದಿಂದ ವ್ಯಾಕುಲರಾದವರು ಶಕ್ತಿಗೆ ಸಮಸ್ತ ವೃತ್ತಾಂತವನ್ನು ತಿಳಿಸಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            975,
+            3710,
+            1225
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            2,
+            3
+          ],
+          "coverage_text": "केचित्तान् शरणं जग्मुर्दैत्यान् केचित् पलायिताः । शशंसुः सर्ववृत्तांतं शक्तये भयविह्वलाः ॥३॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.4",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 4,
+      "coverage": "complete",
+      "candidate_sanskrit": "वृत्तांतमतुलं श्रुत्वा दैत्यानां कर्मसंभवम् । क्रोधयुक्ता महामाया ययौ संग्राममंडलम् ॥४॥",
+      "candidate_kannada": "ದೈತ್ಯರ ಕೃತ್ಯಗಳಿಂದ ಸಂಭವಿಸಿದ ಆ ಅತುಲವಾದ ವೃತ್ತಾಂತವನ್ನು ಕೇಳಿ, ಕ್ರೋಧಗೊಂಡ ಮಹಾಮಾಯೆಯು ಯುದ್ಧಭೂಮಿಗೆ ಹೋದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1075,
+            3710,
+            1325
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            3,
+            4
+          ],
+          "coverage_text": "वृत्तांतमतुलं श्रुत्वा दैत्यानां कर्मसंभवम् । क्रोधयुक्ता महामाया ययौ संग्राममंडलम् ॥४॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.5",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 5,
+      "coverage": "complete",
+      "candidate_sanskrit": "आगतां जगदंबां तां स्वयं ज्ञात्वा मदासुरः । पुत्रैः प्रधानमुख्यैश्च नानावीरैर्वृतो ययौ ॥५॥",
+      "candidate_kannada": "ಜಗದಂಬೆಯು ಬಂದಿರುವುದನ್ನು ಸ್ವತಃ ತಿಳಿದ ಮದಾಸುರನು, ಪುತ್ರರೂ ಪ್ರಮುಖ ಪ್ರಧಾನರೂ ನಾನಾ ವೀರರೂ ಸುತ್ತುವರಿದವನಾಗಿ ಹೊರಟನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1175,
+            3710,
+            1425
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            4,
+            5
+          ],
+          "coverage_text": "आगतां जगदंबां तां स्वयं ज्ञात्वा मदासुरः । पुत्रैः प्रधानमुख्यैश्च नानावीरैर्वृतो ययौ ॥५॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.6",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 6,
+      "coverage": "complete",
+      "candidate_sanskrit": "समागतं महादैत्यं ज्ञात्वा क्रोधसमन्विता । जगदंबा रणे तत्र धनुः सज्जमथाऽकरोत् ॥६॥",
+      "candidate_kannada": "ಮಹಾದೈತ್ಯನು ಬಂದಿರುವುದನ್ನು ತಿಳಿದು, ಕ್ರೋಧಭರಿತಳಾದ ಜಗದಂಬೆಯು ಆ ಯುದ್ಧದಲ್ಲಿ ಧನುಸ್ಸನ್ನು ಸಜ್ಜುಗೊಳಿಸಿದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1275,
+            3710,
+            1425
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            5,
+            5
+          ],
+          "coverage_text": "समागतं महादैत्यं ज्ञात्वा क्रोधसमन्विता । जगदंबा रणे तत्र धनुः सज्जमथाऽकरोत् ॥६॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.7",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 7,
+      "coverage": "complete",
+      "candidate_sanskrit": "धनुषः शब्दमुग्रं ते श्रुत्वा दैत्या भयातुराः । मूर्च्छिताः केऽपि भीताश्च दुद्रुवुः केऽपि दैत्यपाः ॥७॥",
+      "candidate_kannada": "ಧನುಸ್ಸಿನ ಉಗ್ರನಾದವನ್ನು ಕೇಳಿದ ದೈತ್ಯರು ಭಯಾತುರರಾದರು. ಕೆಲವರು ಮೂರ್ಛೆಗೊಂಡರು; ಕೆಲವು ದೈತ್ಯನಾಯಕರು ಭಯದಿಂದ ಓಡಿಹೋದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1375,
+            3710,
+            1525
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            6,
+            6
+          ],
+          "coverage_text": "धनुषः शब्दमुग्रं ते श्रुत्वा दैत्या भयातुराः । मूर्च्छिताः केऽपि भीताश्च दुद्रुवुः केऽपि दैत्यपाः ॥७॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.8",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 8,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः शंखनिनादं वै चकार स मदासुरः । महता तस्य नादेन व्याप्तं सर्वं जगत्त्रयम् ॥८॥",
+      "candidate_kannada": "ಅನಂತರ ಮದಾಸುರನು ಶಂಖನಾದಮಾಡಿದನು. ಅದರ ಮಹಾನಾದವು ಇಡೀ ಲೋಕತ್ರಯವನ್ನೂ ವ್ಯಾಪಿಸಿತು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1375,
+            3710,
+            1625
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            6,
+            7
+          ],
+          "coverage_text": "ततः शंखनिनादं वै चकार स मदासुरः । महता तस्य नादेन व्याप्तं सर्वं जगत्त्रयम् ॥८॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.9",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 9,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः शंखनिनादैश्च देवीनां पूरितं नभः । दैत्येंद्राणां च सर्वत्र महान् कोलाहलो ह्यभूत् ॥९॥",
+      "candidate_kannada": "ಅನಂತರ ದೇವಿಯರ ಹಾಗೂ ದೈತ್ಯೇಂದ್ರರ ಶಂಖನಾದಗಳಿಂದ ಆಕಾಶವು ತುಂಬಿತು. ಎಲ್ಲೆಡೆಯೂ ಮಹಾಕೋಲಾಹಲವುಂಟಾಯಿತು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1475,
+            3710,
+            1725
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            7,
+            8
+          ],
+          "coverage_text": "ततः शंखनिनादैश्च देवीनां पूरितं नभः । दैत्येंद्राणां च सर्वत्र महान् कोलाहलो ह्यभूत् ॥९॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.10",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 10,
+      "coverage": "complete",
+      "candidate_sanskrit": "सिंहनादैर्जगर्जुस्ते वीरा वै शक्तयस्तथा । विनेदुर्बहुवाद्यानि सुरा हर्षं समाययुः ॥१०॥",
+      "candidate_kannada": "ಆ ವೀರರೂ ಶಕ್ತಿಗಳೂ ಸಿಂಹನಾದಗಳಿಂದ ಗರ್ಜಿಸಿದರು. ಅನೇಕ ವಾದ್ಯಗಳು ಮೊಳಗಿದವು; ದೇವತೆಗಳು ಹರ್ಷಪಟ್ಟರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1575,
+            3710,
+            1825
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            8,
+            9
+          ],
+          "coverage_text": "सिंहनादैर्जगर्जुस्ते वीरा वै शक्तयस्तथा । विनेदुर्बहुवाद्यानि सुरा हर्षं समाययुः ॥१०॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.11",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 11,
+      "coverage": "complete",
+      "candidate_sanskrit": "एतस्मिन्नंतरे तत्र कालिका क्रोधसंयुता । शक्तिभिः संवृता क्रूरा दैत्यसैन्यं ममर्द ह ॥११॥",
+      "candidate_kannada": "ಈ ಮಧ್ಯೆ ಕ್ರೋಧಭರಿತಳೂ ಉಗ್ರಳೂ ಆದ ಕಾಲಿಕೆಯು ಶಕ್ತಿಗಳಿಂದ ಸುತ್ತುವರಿಯಲ್ಪಟ್ಟು ದೈತ್ಯಸೇನೆಯನ್ನು ಮರ್ದಿಸಿದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1675,
+            3710,
+            1825
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            9,
+            9
+          ],
+          "coverage_text": "एतस्मिन्नंतरे तत्र कालिका क्रोधसंयुता । शक्तिभिः संवृता क्रूरा दैत्यसैन्यं ममर्द ह ॥११॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.12",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 12,
+      "coverage": "complete",
+      "candidate_sanskrit": "त्रिशूलेन तथा पाशैः शस्त्रैर्नानाविधैर्मृधे । शक्तिभिश्छेदिता दैत्याः पलायंत दिशो दश ॥१२॥",
+      "candidate_kannada": "ಯುದ್ಧದಲ್ಲಿ ತ್ರಿಶೂಲ, ಪಾಶ ಹಾಗೂ ನಾನಾ ಆಯುಧಗಳಿಂದ ಶಕ್ತಿಗಳು ದೈತ್ಯರನ್ನು ಛೇದಿಸಿದವು. ದೈತ್ಯರು ಹತ್ತೂ ದಿಕ್ಕುಗಳಿಗೆ ಓಡಿಹೋದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1775,
+            3710,
+            1925
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            10,
+            10
+          ],
+          "coverage_text": "त्रिशूलेन तथा पाशैः शस्त्रैर्नानाविधैर्मृधे । शक्तिभिश्छेदिता दैत्याः पलायंत दिशो दश ॥१२॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.13",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 13,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः क्रोधसमायुक्ता दैत्यपुत्राः समाययुः । ववृषुर्बाणजालानि कालरूपाणि संयुगे ॥१३॥",
+      "candidate_kannada": "ಅನಂತರ ಕ್ರೋಧಗೊಂಡ ದೈತ್ಯಪುತ್ರರು ಬಂದರು. ಅವರು ಯುದ್ಧದಲ್ಲಿ ಮೃತ್ಯುರೂಪವಾದ ಬಾಣಗಳ ಸಮೂಹವನ್ನು ಸುರಿಸಿದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1775,
+            3710,
+            2025
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            10,
+            11
+          ],
+          "coverage_text": "ततः क्रोधसमायुक्ता दैत्यपुत्राः समाययुः । ववृषुर्बाणजालानि कालरूपाणि संयुगे ॥१३॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.14",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 14,
+      "coverage": "complete",
+      "candidate_sanskrit": "तेषां बाणैर्हतास्तत्र देवानां शक्तयो गणाः । हाहाकाररवाः सर्वे पलायंत भयाकुलाः ॥१४॥",
+      "candidate_kannada": "ಅವರ ಬಾಣಗಳಿಂದ ಅಲ್ಲಿ ದೇವತೆಗಳ ಶಕ್ತಿಗಳೂ ಗಣಗಳೂ ಆಘಾತಗೊಂಡರು. ಎಲ್ಲರೂ ಭಯವ್ಯಾಕುಲರಾಗಿ ಹಾಹಾಕಾರಮಾಡುತ್ತ ಓಡಿಹೋದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1875,
+            3710,
+            2125
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            11,
+            12
+          ],
+          "coverage_text": "तेषां बाणैर्हतास्तत्र देवानां शक्तयो गणाः । हाहाकाररवाः सर्वे पलायंत भयाकुलाः ॥१४॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.15",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 15,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः काली समाक्रुद्धा रूपं कृत्वा भयानकम् । जघान दैत्यसेनां तां समंतात् प्रलयप्रभा ॥१५॥",
+      "candidate_kannada": "ಅನಂತರ ತೀವ್ರಕ್ರೋಧಗೊಂಡ ಕಾಳಿಯು ಭಯಾನಕ ರೂಪವನ್ನು ಧರಿಸಿದಳು. ಪ್ರಲಯದಂತೆ ಪ್ರಕಾಶಿಸುತ್ತ, ಆ ದೈತ್ಯಸೇನೆಯನ್ನು ಎಲ್ಲ ಕಡೆಗಳಿಂದಲೂ ಸಂಹರಿಸಿದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            1975,
+            3710,
+            2225
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            12,
+            13
+          ],
+          "coverage_text": "ततः काली समाक्रुद्धा रूपं कृत्वा भयानकम् । जघान दैत्यसेनां तां समंतात् प्रलयप्रभा ॥१५॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.16",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 16,
+      "coverage": "complete",
+      "candidate_sanskrit": "गृहीत्वा दैत्यपुत्रान् वै बद्ध्वा पाशैर्महामदान् । चिक्षिपुर्विवरे संज्ञालक्ष्मीसावित्र्य आहवे ॥१६॥",
+      "candidate_kannada": "ಯುದ್ಧದಲ್ಲಿ ಸಂಜ್ಞೆ, ಲಕ್ಷ್ಮಿ ಮತ್ತು ಸಾವಿತ್ರಿಯರು ಅತ್ಯಂತ ಮದಭರಿತರಾದ ದೈತ್ಯಪುತ್ರರನ್ನು ಹಿಡಿದು, ಪಾಶಗಳಿಂದ ಬಂಧಿಸಿ ಕುಹರದಲ್ಲಿ ಎಸೆದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            2075,
+            3710,
+            2225
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            13,
+            13
+          ],
+          "coverage_text": "गृहीत्वा दैत्यपुत्रान् वै बद्ध्वा पाशैर्महामदान् । चिक्षिपुर्विवरे संज्ञालक्ष्मीसावित्र्य आहवे ॥१६॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.17",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 17,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः क्रोधसमायुक्तो मददैत्यः प्रतापवान् । धनुः सज्जमथो कृत्वा मुमोच शरमुल्बणम् ॥१७॥",
+      "candidate_kannada": "ಅನಂತರ ಪ್ರತಾಪಶಾಲಿಯಾದ ಮದದೈತ್ಯನು ಕ್ರೋಧಗೊಂಡು ಧನುಸ್ಸನ್ನು ಸಜ್ಜುಗೊಳಿಸಿ ಭಯಂಕರವಾದ ಬಾಣವನ್ನು ಬಿಟ್ಟನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            2175,
+            3710,
+            2325
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            14,
+            14
+          ],
+          "coverage_text": "ततः क्रोधसमायुक्तो मददैत्यः प्रतापवान् । धनुः सज्जमथो कृत्वा मुमोच शरमुल्बणम् ॥१७॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.18",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 18,
+      "coverage": "complete",
+      "candidate_sanskrit": "संहारास्त्रान्महाघोरात्तस्माज्जातो महाबलः । पुरुषः पर्वताकारः शक्तीनां बुभुजे बलम् ॥१८॥",
+      "candidate_kannada": "ಆ ಮಹಾಘೋರ ಸಂಹಾರಾಸ್ತ್ರದಿಂದ ಪರ್ವತಾಕಾರನಾದ ಮಹಾಬಲಶಾಲಿ ಪುರುಷನು ಹುಟ್ಟಿದನು. ಅವನು ಶಕ್ತಿಗಳ ಸೈನ್ಯವನ್ನು ಕಬಳಿಸಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            2175,
+            3710,
+            2425
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            14,
+            15
+          ],
+          "coverage_text": "संहारास्त्रान्महाघोरात्तस्माज्जातो महाबलः । पुरुषः पर्वताकारः शक्तीनां बुभुजे बलम् ॥१८॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.19",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 19,
+      "coverage": "complete",
+      "candidate_sanskrit": "अस्त्रस्य तत्र दैत्येंद्र ज्वालया पीडिता रणे । शक्तयश्च मृता दग्धा दुद्रुवुश्च तत्र ताः ॥१९॥",
+      "candidate_kannada": "ದೈತ್ಯೇಂದ್ರನೇ, ಆ ಯುದ್ಧದಲ್ಲಿ ಅಸ್ತ್ರದ ಜ್ವಾಲೆಯಿಂದ ಶಕ್ತಿಗಳು ಪೀಡಿತವಾದವು. ಕೆಲವು ಸತ್ತವು, ಕೆಲವು ಸುಟ್ಟುಹೋದವು; ಅವು ಅಲ್ಲಿಂದ ಓಡಿಹೋದವು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            2275,
+            3710,
+            2425
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            15,
+            15
+          ],
+          "coverage_text": "अस्त्रस्य तत्र दैत्येंद्र ज्वालया पीडिता रणे ।"
+        },
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            220,
+            3710,
+            420
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            1,
+            1
+          ],
+          "coverage_text": "शक्तयश्च मृता दग्धा दुद्रुवुश्च तत्र ताः ॥१९॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "page_split",
+          "note": "First portion on231, remainder232; both main-gap pages."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.20",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 20,
+      "coverage": "complete",
+      "candidate_sanskrit": "निःसहाया भयोद्विग्नाः कालीमुख्याः प्रदुद्रुवुः । महामायासमीपे ताः संस्थिताः संजगुः कथाः ॥२०॥",
+      "candidate_kannada": "ಸಹಾಯವಿಲ್ಲದೆ ಭಯದಿಂದ ಉದ್ವಿಗ್ನರಾದ ಕಾಳಿಯೇ ಮೊದಲಾದ ಶಕ್ತಿಗಳು ಓಡಿಬಂದವು. ಅವು ಮಹಾಮಾಯೆಯ ಸಮೀಪದಲ್ಲಿ ನಿಂತು ನಡೆದ ಸಂಗತಿಗಳನ್ನು ತಿಳಿಸಿದವು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            220,
+            3710,
+            521
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            1,
+            2
+          ],
+          "coverage_text": "निःसहाया भयोद्विग्नाः कालीमुख्याः प्रदुद्रुवुः । महामायासमीपे ताः संस्थिताः संजगुः कथाः ॥२०॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.21",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 21,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः क्रोधसमाविष्टां स्वयं शक्तिं समागताम् । सिंहारूढां स तां दृष्ट्वा दैत्येंद्रः प्रणनाम च ॥२१॥",
+      "candidate_kannada": "ಅನಂತರ ಕ್ರೋಧಭರಿತಳಾಗಿ ಸ್ವತಃ ಬಂದ, ಸಿಂಹವಾಹಿನಿಯಾದ ಆ ಶಕ್ತಿಯನ್ನು ಕಂಡ ದೈತ್ಯೇಂದ್ರನು ಅವಳಿಗೆ ನಮಸ್ಕರಿಸಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            321,
+            3710,
+            622
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            2,
+            3
+          ],
+          "coverage_text": "ततः क्रोधसमाविष्टां स्वयं शक्तिं समागताम् । सिंहारूढां स तां दृष्ट्वा दैत्येंद्रः प्रणनाम च ॥२१॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.22",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 22,
+      "coverage": "complete",
+      "candidate_sanskrit": "उवाच शक्तिं गर्वेण पूरितोऽसौ महासुरः । देवांस्त्यक्त्वा जगन्मातरस्माकं पक्षमाश्रय ॥२२॥",
+      "candidate_kannada": "ಗರ್ವದಿಂದ ತುಂಬಿದ್ದ ಆ ಮಹಾಸುರನು ಶಕ್ತಿಗೆ ಹೀಗೆ ಹೇಳಿದನು: ಜಗನ್ಮಾತೆಯೇ, ದೇವತೆಗಳನ್ನು ಬಿಟ್ಟು ನಮ್ಮ ಪಕ್ಷವನ್ನು ಆಶ್ರಯಿಸು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            422,
+            3710,
+            622
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            3,
+            3
+          ],
+          "coverage_text": "उवाच शक्तिं गर्वेण पूरितोऽसौ महासुरः । देवांस्त्यक्त्वा जगन्मातरस्माकं पक्षमाश्रय ॥२२॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.23",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 23,
+      "coverage": "complete",
+      "candidate_sanskrit": "नोचेत्त्वां कर्मणां देवीं हनिष्यामि न संशयः । सदेवां सपरीवारां पश्य मे पौरुषं महत् ॥२३॥",
+      "candidate_kannada": "ಇಲ್ಲದಿದ್ದರೆ ಕರ್ಮಗಳ ದೇವಿಯಾದ ನಿನ್ನನ್ನು ದೇವತೆಗಳೊಡನೆಯೂ ಪರಿವಾರದೊಡನೆಯೂ ಕೊಲ್ಲುವೆನು; ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ. ನನ್ನ ಮಹಾಪೌರುಷವನ್ನು ನೋಡು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            422,
+            3710,
+            723
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            3,
+            4
+          ],
+          "coverage_text": "नोचेत्त्वां कर्मणां देवीं हनिष्यामि न संशयः । सदेवां सपरीवारां पश्य मे पौरुषं महत् ॥२३॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.24",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 24,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः क्रोधसमायुक्ता शूलं चिक्षेप वै रणे । वधाय दैत्यराजस्य महामाया प्रभावतः ॥२४॥",
+      "candidate_kannada": "ಅನಂತರ ಕ್ರೋಧಭರಿತಳಾದ ಮಹಾಮಾಯೆಯು ತನ್ನ ಪ್ರಭಾವದಿಂದ ದೈತ್ಯರಾಜನ ವಧೆಗಾಗಿ ಯುದ್ಧದಲ್ಲಿ ಶೂಲವನ್ನು ಎಸೆದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            523,
+            3710,
+            824
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            4,
+            5
+          ],
+          "coverage_text": "ततः क्रोधसमायुक्ता शूलं चिक्षेप वै रणे । वधाय दैत्यराजस्य महामाया प्रभावतः ॥२४॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.25",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 25,
+      "coverage": "complete",
+      "candidate_sanskrit": "त्रिशूलेनाऽऽहतो दुष्टः प्रह्लाद न चचाल ह । मदासुरो जगर्जासावतिक्रोधयुतोऽभवत् ॥२५॥",
+      "candidate_kannada": "ಪ್ರಹ್ಲಾದನೇ, ತ್ರಿಶೂಲದಿಂದ ಹೊಡೆಸಿಕೊಂಡರೂ ಆ ದುಷ್ಟ ಮದಾಸುರನು ಕದಲಲಿಲ್ಲ. ಅವನು ಗರ್ಜಿಸಿ ಅತಿಕ್ರೋಧಭರಿತನಾದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            624,
+            3710,
+            925
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            5,
+            6
+          ],
+          "coverage_text": "त्रिशूलेनाऽऽहतो दुष्टः प्रह्लाद न चचाल ह । मदासुरो जगर्जासावतिक्रोधयुतोऽभवत् ॥२५॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.26",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 26,
+      "coverage": "complete",
+      "candidate_sanskrit": "शस्त्राणि सहसा त्यक्त्वा मल्लयुद्धाय दैत्यपः । ययौ शक्तिर्महद्रूपं कृत्वा प्रययुधे ततः ॥२६॥",
+      "candidate_kannada": "ದೈತ್ಯನಾಯಕನು ಕೂಡಲೇ ಆಯುಧಗಳನ್ನು ಬಿಟ್ಟು ಮಲ್ಲಯುದ್ಧಕ್ಕೆ ಬಂದನು. ಆಗ ಶಕ್ತಿಯು ಮಹಾರೂಪವನ್ನು ಧರಿಸಿ ಅವನೊಡನೆ ಹೋರಾಡಿದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            725,
+            3710,
+            925
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            6,
+            6
+          ],
+          "coverage_text": "शस्त्राणि सहसा त्यक्त्वा मल्लयुद्धाय दैत्यपः । ययौ शक्तिर्महद्रूपं कृत्वा प्रययुधे ततः ॥२६॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.27",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 27,
+      "coverage": "complete",
+      "candidate_sanskrit": "न शक्यते वर्णयितुं युद्धं घोरं तयोर्महत् । बाहुभिर्हस्तपादैश्च प्रवृत्तं दारुणं परम् ॥२७॥",
+      "candidate_kannada": "ಬಾಹುಗಳು, ಕೈಗಳು ಮತ್ತು ಕಾಲುಗಳಿಂದ ನಡೆದ ಅವರಿಬ್ಬರ ಮಹಾಘೋರವಾದ, ಅತ್ಯಂತ ದಾರುಣವಾದ ಯುದ್ಧವನ್ನು ವರ್ಣಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            826,
+            3710,
+            1026
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            7,
+            7
+          ],
+          "coverage_text": "न शक्यते वर्णयितुं युद्धं घोरं तयोर्महत् । बाहुभिर्हस्तपादैश्च प्रवृत्तं दारुणं परम् ॥२७॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.28",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 28,
+      "coverage": "complete",
+      "candidate_sanskrit": "परस्परं जयंतौ तौ जल्पंतौ साधु साध्विति । दिवसानि गतान्येव त्रीणि तत्रासुरेश्वर ॥२८॥",
+      "candidate_kannada": "ಅಸುರೇಶ್ವರನೇ, ಪರಸ್ಪರರನ್ನು ಜಯಿಸುತ್ತ, ಚೆನ್ನಾಗಿದೆ, ಚೆನ್ನಾಗಿದೆ ಎಂದು ಹೇಳುತ್ತ ಅವರು ಹೋರಾಡುತ್ತಿದ್ದಂತೆ ಮೂರು ದಿನಗಳು ಕಳೆದವು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            826,
+            3710,
+            1127
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            7,
+            8
+          ],
+          "coverage_text": "परस्परं जयंतौ तौ जल्पंतौ साधु साध्विति । दिवसानि गतान्येव त्रीणि तत्रासुरेश्वर ॥२८॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.29",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 29,
+      "coverage": "complete",
+      "candidate_sanskrit": "वरदानबलेनैव तेन क्षीणबला कृता । शक्तिस्त्वशक्तिरूपा च जाता कर्मप्रभावतः ॥२९॥",
+      "candidate_kannada": "ವರದಾನದ ಬಲದಿಂದಲೇ ಅವನು ಶಕ್ತಿಯ ಬಲವನ್ನು ಕ್ಷೀಣಗೊಳಿಸಿದನು. ಕರ್ಮದ ಪ್ರಭಾವದಿಂದ ಶಕ್ತಿಯೇ ಅಶಕ್ತರೂಪಳಾದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            927,
+            3710,
+            1228
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            8,
+            9
+          ],
+          "coverage_text": "वरदानबलेनैव तेन क्षीणबला कृता । शक्तिस्त्वशक्तिरूपा च जाता कर्मप्रभावतः ॥२९॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "doctrine_sensitive_review",
+          "note": "Preserve boon-power and karma causation, and शक्ति becoming अशक्तिरूपा; do not harmonize theology."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.30",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 30,
+      "coverage": "complete",
+      "candidate_sanskrit": "ममर्द देहपातेन महाशक्तिं महासुरः । मूर्च्छितां तां समादाय ययौ हर्षसमन्वितः ॥३०॥",
+      "candidate_kannada": "ಮಹಾಸುರನು ಅವಳ ಮೇಲೆ ತನ್ನ ದೇಹವನ್ನು ಬೀಳಿಸಿ ಮಹಾಶಕ್ತಿಯನ್ನು ಮರ್ದಿಸಿದನು. ಮೂರ್ಛಿತಳಾದ ಅವಳನ್ನು ಎತ್ತಿಕೊಂಡು ಹರ್ಷಭರಿತನಾಗಿ ಹೋದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1028,
+            3710,
+            1228
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            9,
+            9
+          ],
+          "coverage_text": "ममर्द देहपातेन महाशक्तिं महासुरः । मूर्च्छितां तां समादाय ययौ हर्षसमन्वितः ॥३०॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.31",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 31,
+      "coverage": "complete",
+      "candidate_sanskrit": "अन्याश्च शक्तयस्तेन धृताः काश्चित्पलायिताः । हाहाकारश्च सर्वत्राऽभवच्छक्तिबले महान् ॥३१॥",
+      "candidate_kannada": "ಅವನು ಇತರ ಶಕ್ತಿಗಳನ್ನೂ ಸೆರೆಹಿಡಿದನು; ಕೆಲವು ಓಡಿಹೋದವು. ಶಕ್ತಿಗಳ ಸೈನ್ಯದಲ್ಲಿ ಎಲ್ಲೆಡೆಯೂ ಮಹಾಹಾಹಾಕಾರವುಂಟಾಯಿತು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1129,
+            3710,
+            1329
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            10,
+            10
+          ],
+          "coverage_text": "अन्याश्च शक्तयस्तेन धृताः काश्चित्पलायिताः । हाहाकारश्च सर्वत्राऽभवच्छक्तिबले महान् ॥३१॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.32",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 32,
+      "coverage": "complete",
+      "candidate_sanskrit": "दैत्येंद्रो वारयामास शक्तीनां कदने रतान् । उवाच कुलदेव्यश्च शक्तयो नो न संशयः ॥३२॥",
+      "candidate_kannada": "ಶಕ್ತಿಗಳ ವಧೆಯಲ್ಲಿ ತೊಡಗಿದ್ದವರನ್ನು ದೈತ್ಯೇಂದ್ರನು ತಡೆದನು. ಶಕ್ತಿಗಳು ನಮ್ಮ ಕುಲದೇವಿಯರು; ಇದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ ಎಂದು ಹೇಳಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1129,
+            3710,
+            1430
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            10,
+            11
+          ],
+          "coverage_text": "दैत्येंद्रो वारयामास शक्तीनां कदने रतान् । उवाच कुलदेव्यश्च शक्तयो नो न संशयः ॥३२॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.33",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 33,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततो मदासुरेणैव मोचिताः स्वसुतास्त्रयः । प्रधानादि महादैत्या धृता देवै रणे पुरा ॥३३॥",
+      "candidate_kannada": "ಅನಂತರ ಮದಾಸುರನು ತನ್ನ ಮೂವರು ಪುತ್ರರನ್ನೂ, ಹಿಂದೆ ಯುದ್ಧದಲ್ಲಿ ದೇವತೆಗಳಿಂದ ಸೆರೆಹಿಡಿಯಲ್ಪಟ್ಟ ಪ್ರಧಾನರೇ ಮೊದಲಾದ ಮಹಾದೈತ್ಯರನ್ನೂ ಬಿಡುಗಡೆಗೊಳಿಸಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1230,
+            3710,
+            1531
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            11,
+            12
+          ],
+          "coverage_text": "ततो मदासुरेणैव मोचिताः स्वसुतास्त्रयः । प्रधानादि महादैत्या धृता देवै रणे पुरा ॥३३॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "printed_orthography",
+          "note": "Image reads देवै without visibly printed visarga; no silent correction to देवैः."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.34",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 34,
+      "coverage": "complete",
+      "candidate_sanskrit": "शक्तिलोकं समागम्य गर्वितः स मदासुरः । भोगांश्च विविधांस्तत्र बुभुजे ज्ञातिभिः सह ॥३४॥",
+      "candidate_kannada": "ಆ ಗರ್ವಿತ ಮದಾಸುರನು ಶಕ್ತಿಲೋಕಕ್ಕೆ ಬಂದು ತನ್ನ ಬಂಧುಗಳೊಡನೆ ಅಲ್ಲಿ ನಾನಾ ಭೋಗಗಳನ್ನು ಅನುಭವಿಸಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1331,
+            3710,
+            1632
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            12,
+            13
+          ],
+          "coverage_text": "शक्तिलोकं समागम्य गर्वितः स मदासुरः । भोगांश्च विविधांस्तत्र बुभुजे ज्ञातिभिः सह ॥३४॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.35",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 35,
+      "coverage": "complete",
+      "candidate_sanskrit": "न ममर्ष निजात्मानं मोहितो दैत्यनायकः । स्त्रीमांसमदिरासक्तः प्रबभूवासुरेश्वर ॥३५॥",
+      "candidate_kannada": "ಅಸುರೇಶ್ವರನೇ, ಮೋಹಿತನಾದ ಆ ದೈತ್ಯನಾಯಕನು ತನ್ನನ್ನು ತಾನೇ ಸಹಿಸಿಕೊಳ್ಳಲಿಲ್ಲ; ಸ್ತ್ರೀಸಂಗ, ಮಾಂಸ ಮತ್ತು ಮದ್ಯಗಳಲ್ಲಿ ಆಸಕ್ತನಾದನು. [‘ನ ಮಮರ್ಷ ನಿಜಾತ್ಮಾನಂ’ ಎಂಬ ಭಾಗದ ಸಂದರ್ಭಾರ್ಥವು ಪರಿಶೀಲನೆಗೆ ಒಳಪಟ್ಟಿದೆ.]",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1432,
+            3710,
+            1632
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            13,
+            13
+          ],
+          "coverage_text": "न ममर्ष निजात्मानं मोहितो दैत्यनायकः । स्त्रीमांसमदिरासक्तः प्रबभूवासुरेश्वर ॥३५॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "critical_meaning_review",
+          "note": "Printed verb appears ममर्ष. Literal Kannada rendering does not fit context naturally; independent lexical/glyph review required, no emendation made."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.36",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 36,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततः शक्तिं समानीयोवाच गर्वसमन्वितः । देवैः सह महाशक्ते गच्छ यत्र च ते रुचिः ॥३६॥",
+      "candidate_kannada": "ಅನಂತರ ಶಕ್ತಿಯನ್ನು ಕರೆಸಿ, ಗರ್ವಭರಿತನಾಗಿ ಹೀಗೆ ಹೇಳಿದನು: ಮಹಾಶಕ್ತಿಯೇ, ನಿನಗೆ ಇಷ್ಟವಾದಲ್ಲಿಗೆ ದೇವತೆಗಳೊಡನೆ ಹೋಗು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1432,
+            3710,
+            1733
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            13,
+            14
+          ],
+          "coverage_text": "ततः शक्तिं समानीयोवाच गर्वसमन्वितः । देवैः सह महाशक्ते गच्छ यत्र च ते रुचिः ॥३६॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.37",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 37,
+      "coverage": "complete",
+      "candidate_sanskrit": "उवाच मोहितो वाक्यं शिवादीन् स मदासुरः । गच्छंतु यत्र कुत्राऽपि ममाज्ञा वशगाः सुराः ॥३७॥",
+      "candidate_kannada": "ಮೋಹಿತನಾದ ಮದಾಸುರನು ಶಿವನೇ ಮೊದಲಾದವರನ್ನು ಕುರಿತು ಹೀಗೆ ಹೇಳಿದನು: ನನ್ನ ಆಜ್ಞೆಗೆ ಒಳಪಟ್ಟ ದೇವತೆಗಳು ಎಲ್ಲಿಗೆ ಬೇಕಾದರೂ ಹೋಗಲಿ.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1533,
+            3710,
+            1834
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            14,
+            15
+          ],
+          "coverage_text": "उवाच मोहितो वाक्यं शिवादीन् स मदासुरः । गच्छंतु यत्र कुत्राऽपि ममाज्ञा वशगाः सुराः ॥३७॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.38",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 38,
+      "coverage": "complete",
+      "candidate_sanskrit": "शक्तिं प्रणम्य दैत्येंद्र उवाच भक्तिसंयुतः । अस्माकं पक्षमाश्रित्य वस त्वं पूजिता मया ॥३८॥",
+      "candidate_kannada": "ದೈತ್ಯೇಂದ್ರನು ಶಕ್ತಿಗೆ ನಮಸ್ಕರಿಸಿ ಭಕ್ತಿಯಿಂದ ಹೇಳಿದನು: ನಮ್ಮ ಪಕ್ಷವನ್ನು ಆಶ್ರಯಿಸಿ, ನನ್ನಿಂದ ಪೂಜಿಸಲ್ಪಡುತ್ತ ನೀನು ಇಲ್ಲಿಯೇ ನೆಲೆಸು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1634,
+            3710,
+            1935
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            15,
+            16
+          ],
+          "coverage_text": "शक्तिं प्रणम्य दैत्येंद्र उवाच भक्तिसंयुतः । अस्माकं पक्षमाश्रित्य वस त्वं पूजिता मया ॥३८॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.39",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 39,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततस्तं शक्तिराहत्योवाच म्लानमुखश्रिया । देवैः सह गमिष्यामि यत्र कुत्र महासुर ॥३९॥",
+      "candidate_kannada": "ಅನಂತರ ಮ್ಲಾನಮುಖಳಾದ ಶಕ್ತಿಯು ಅವನಿಗೆ ಹೇಳಿದಳು: ಮಹಾಸುರನೇ, ನಾನು ದೇವತೆಗಳೊಡನೆ ಎಲ್ಲಿಗಾದರೂ ಹೋಗುವೆನು. [‘ಶಕ್ತಿರಾಹತ್ಯೋವಾಚ’ ಎಂಬ ಮುದ್ರಿತ ಸಂಧಿಪಾಠದ ನಿಖರ ವಿಭಜನೆ ಪರಿಶೀಲಿಸಬೇಕಾಗಿದೆ.]",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1735,
+            3710,
+            2036
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            16,
+            17
+          ],
+          "coverage_text": "ततस्तं शक्तिराहत्योवाच म्लानमुखश्रिया । देवैः सह गमिष्यामि यत्र कुत्र महासुर ॥३९॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "uncertain_sandhi_glyph",
+          "note": "Candidate शक्तिराहत्योवाच as visible; exact segment and parsing need independent review. Kannada covers clear speech content only."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.40",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 40,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततस्तां दैत्यराजस्तु मुक्तवान् गर्वमोहितः । अनाहत्य महामायां साऽऽगता देवसंयुता ॥४०॥",
+      "candidate_kannada": "ಅನಂತರ ಗರ್ವದಿಂದ ಮೋಹಿತನಾದ ದೈತ್ಯರಾಜನು ಮಹಾಮಾಯೆಯನ್ನು ಹೊಡೆಯದೆ ಬಿಡುಗಡೆಗೊಳಿಸಿದನು. ಅವಳು ದೇವತೆಗಳೊಡನೆ ಹೊರಟಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1836,
+            3710,
+            2036
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            17,
+            17
+          ],
+          "coverage_text": "ततस्तां दैत्यराजस्तु मुक्तवान् गर्वमोहितः । अनाहत्य महामायां साऽऽगता देवसंयुता ॥४०॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.41",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 41,
+      "coverage": "complete",
+      "candidate_sanskrit": "वनेषु गिरिदर्यां च संस्थिता भयसंकुला । देवैः सह जगन्माता निःसृता दारुणाद्भयात् ॥४१॥",
+      "candidate_kannada": "ಭಯವ್ಯಾಕುಲಳಾದ ಜಗನ್ಮಾತೆಯು ದೇವತೆಗಳೊಡನೆ ಅರಣ್ಯಗಳಲ್ಲಿಯೂ ಪರ್ವತಗುಹೆಯಲ್ಲಿಯೂ ನೆಲೆಗೊಂಡು, ಆ ದಾರುಣವಾದ ಭಯದಿಂದ ಹೊರಬಂದಳು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1836,
+            3710,
+            2137
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            17,
+            18
+          ],
+          "coverage_text": "वनेषु गिरिदर्यां च संस्थिता भयसंकुला । देवैः सह जगन्माता निःसृता दारुणाद्भयात् ॥४१॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.42",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 42,
+      "coverage": "complete",
+      "candidate_sanskrit": "दैत्योऽपि दैत्यपैस्तत्र संवृतो बुभुजे सुखम् । शक्तिलोकभवं वीरः कर्मणा निर्मितं परम् ॥४२॥",
+      "candidate_kannada": "ವೀರನಾದ ದೈತ್ಯನು ಕೂಡ ಅಲ್ಲಿ ದೈತ್ಯನಾಯಕರಿಂದ ಸುತ್ತುವರಿಯಲ್ಪಟ್ಟು, ಕರ್ಮದಿಂದ ನಿರ್ಮಿತವಾದ ಶಕ್ತಿಲೋಕದ ಪರಮಸುಖವನ್ನು ಅನುಭವಿಸಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            1937,
+            3710,
+            2238
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            18,
+            19
+          ],
+          "coverage_text": "दैत्योऽपि दैत्यपैस्तत्र संवृतो बुभुजे सुखम् । शक्तिलोकभवं वीरः कर्मणा निर्मितं परम् ॥४२॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.43",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 43,
+      "coverage": "complete",
+      "candidate_sanskrit": "ततो बाणादयस्तेनाऽभवंश्च स्थापिताः सुताः । देवानां च पदे मुख्याः शक्तिलोके तथा कृताः ॥४३॥",
+      "candidate_kannada": "ಅನಂತರ ಅವನು ಬಾಣನೇ ಮೊದಲಾದ ಪುತ್ರರನ್ನು ಅಲ್ಲಿ ಸ್ಥಾಪಿಸಿದನು. ದೇವತೆಗಳ ಸ್ಥಾನಗಳಲ್ಲಿ ಮತ್ತು ಶಕ್ತಿಲೋಕದಲ್ಲಿ ಅವರನ್ನು ಪ್ರಮುಖರನ್ನಾಗಿ ನೇಮಿಸಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            2038,
+            3710,
+            2339
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            19,
+            20
+          ],
+          "coverage_text": "ततो बाणादयस्तेनाऽभवंश्च स्थापिताः सुताः । देवानां च पदे मुख्याः शक्तिलोके तथा कृताः ॥४३॥"
+        }
+      ],
+      "uncertainty_flags": [
+        {
+          "type": "proper_name_review",
+          "note": "Printed बाणादयः / सुताः retained despite named sons elsewhere; do not change names to harmonize."
+        }
+      ],
+      "review_status": "unreviewed_candidate_direct_visual"
+    },
+    {
+      "verse_id": "50.44",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 44,
+      "coverage": "complete",
+      "candidate_sanskrit": "पृथिव्यां नगरे दुष्ट आययौ स विलासदे । तत्र स्थित्वा त्रिलोकस्य राज्यं चक्रे मदासुरः ॥४४॥",
+      "candidate_kannada": "ಆ ದುಷ್ಟ ಮದಾಸುರನು ಭೂಮಿಯ ಮೇಲಿರುವ ವಿಲಾಸದ ನಗರಕ್ಕೆ ಬಂದನು. ಅಲ್ಲಿ ನೆಲೆಸಿ ಮೂರು ಲೋಕಗಳ ರಾಜ್ಯವನ್ನು ಆಳಿದನು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0232.png",
+          "source_sha256": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 106,
+          "bbox_px": [
+            250,
+            2139,
+            3710,
+            2339
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            20,
+            20
+          ],
+          "coverage_text": "पृथिव्यां नगरे दुष्ट आययौ स विलासदे । तत्र स्थित्वा त्रिलोकस्य राज्यं चक्रे मदासुरः ॥४४॥"
+        }
+      ],
+      "uncertainty_flags": [],
+      "review_status": "unreviewed_candidate_direct_visual"
+    }
+  ],
+  "boundary_fragments": [
+    {
+      "id": "49.26.existing_opening",
+      "role": "context_only_existing_canonical",
+      "candidate_sanskrit": "ततस्तं दैत्यमुख्यं वै तनयाश्च समाययुः । संग्रामार्थं",
+      "candidate_kannada": "ಅನಂತರ ಆ ದೈತ್ಯಪ್ರಮುಖನ ಬಳಿಗೆ ಅವನ ಪುತ್ರರೂ ಯುದ್ಧಕ್ಕಾಗಿ ಬಂದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "source_spans": [
+        {
+          "source_image": "page_0229.png",
+          "source_sha256": "da85c62b18a7b9daef221197df3cc90498d98cf93d46b4b3cf60bcb655566e35",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 103,
+          "bbox_px": [
+            300,
+            2200,
+            3700,
+            2420
+          ],
+          "coverage_text": "ततस्तं दैत्यमुख्यं वै तनयाश्च समाययुः । संग्रामार्थं"
+        }
+      ],
+      "note": "Existing canonical opening visually confirmed at page229 foot; not new gap recovery."
+    },
+    {
+      "id": "49.26.proposed_join",
+      "role": "boundary_join_candidate",
+      "candidate_sanskrit": "ततस्तं दैत्यमुख्यं वै तनयाश्च समाययुः । संग्रामार्थं महावीर्यास्त्रयो देवैः शिवादिभिः ॥२६॥",
+      "candidate_kannada": "ಅನಂತರ ಮಹಾಪರಾಕ್ರಮಿಗಳಾದ ಆ ಮೂವರು ಪುತ್ರರು ಶಿವನೇ ಮೊದಲಾದ ದೇವತೆಗಳೊಡನೆ ಯುದ್ಧಮಾಡುವುದಕ್ಕಾಗಿ ದೈತ್ಯಪ್ರಮುಖನಾದ ತಮ್ಮ ತಂದೆಯ ಬಳಿಗೆ ಬಂದರು.",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "join_order": [
+        "page_0229.png existing opening",
+        "page_0230.png recovered continuation"
+      ],
+      "uncertainty_flags": [
+        "Independent review pending; do not replace canonical text automatically."
+      ]
+    }
+  ],
+  "nonverse_material": [
+    {
+      "id": "49.colophon",
+      "candidate_sanskrit": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खण्डे एकदंतचरिते शिवादिदेवपराजयो नामैकोनपंचाशत्तमोऽध्यायः ॥",
+      "candidate_kannada": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ ಶಿವಾದಿದೇವಪರಾಜಯ ಎಂಬ ನಲವತ್ತೊಂಬತ್ತನೆಯ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾಯಿತು.",
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            560,
+            3710,
+            720
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            3,
+            3
+          ],
+          "coverage_text": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खण्डे एकदंतचरिते शिवादिदेवपराजयो नामैकोनपंचाशत्तमोऽध्यायः ॥"
+        }
+      ],
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "Independent visual reading corrected opening to ओमिति श्रीमदान्त्ये. Small-print remainder remains an unaccepted source candidate."
+      ]
+    },
+    {
+      "id": "50.invocation",
+      "candidate_sanskrit": "॥ श्रीगणेशाय नमः ॥",
+      "candidate_kannada": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "source_spans": [
+        {
+          "source_image": "page_0231.png",
+          "source_sha256": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+          "dimensions_px": [
+            3840,
+            2508
+          ],
+          "printed_page": 105,
+          "bbox_px": [
+            250,
+            875,
+            3710,
+            1025
+          ],
+          "bbox_type": "conservative full-width printed-line band, may include neighboring text",
+          "printed_line_span": [
+            1,
+            1
+          ],
+          "coverage_text": "॥ श्रीगणेशाय नमः ॥"
+        }
+      ],
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    }
+  ],
+  "revision_provenance": {
+    "frozen_base": "/workspace/shared/khanda2_recovery/gap3/head/head_candidates.json",
+    "frozen_base_sha256": "d9fe9feb895fbbde6e8b55f6cbcb573c158740617ea32f87a3efbaf3908c5ad5",
+    "revision": "r3",
+    "changes": [
+      {
+        "verse_id": "49.38",
+        "before": {
+          "candidate_sanskrit": "क्षणेन सावधानोऽभूदागत्य गदया विभुम् । हृदि विव्याध दुष्टोऽसौ पपात गरुडाधारिः ॥३८॥",
+          "candidate_kannada": "ಆ ದುಷ್ಟನು ಕ್ಷಣದಲ್ಲಿಯೇ ಎಚ್ಚರಗೊಂಡು, ಪ್ರಭುವಿನ ಬಳಿಗೆ ಬಂದು ಗದೆಯಿಂದ ಆತನ ಎದೆಯನ್ನು ಘಾತಗೊಳಿಸಿದನು. ಗರುಡನನ್ನಾಧಾರವಾಗಿ ಹೊಂದಿರುವ ವಿಷ್ಣುವು ಬಿದ್ದನು.",
+          "uncertainty_flags": []
+        },
+        "after": {
+          "candidate_sanskrit": "क्षणेन सावधानोऽभूदागत्य गदया विभुम् । हृदि विव्याध दुष्टोऽसौ पपात गरुडाद्रिः ॥३८॥",
+          "candidate_kannada": "ಆ ದುಷ್ಟನು ಕ್ಷಣದಲ್ಲಿಯೇ ಎಚ್ಚರಗೊಂಡು, ಪ್ರಭುವಿನ ಬಳಿಗೆ ಬಂದು ಗದೆಯಿಂದ ಆತನ ಎದೆಯನ್ನು ಘಾತಗೊಳಿಸಿದನು. ವಿಷ್ಣುವು ಬಿದ್ದನು. [ಮುದ್ರಿತ “ಗರುಡಾದ್ರಿಃ” ಎಂಬ ವಿಶೇಷಣದ ನಿಖರ ಅರ್ಥವು ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ.]",
+          "uncertainty_flags": [
+            {
+              "type": "unresolved_epithet",
+              "note": "Best visible source candidate गरुडाद्रिः; unusual reading remains unaccepted. Kannada identifies Vishnu from explicit antecedent, not an invented etymology."
+            }
+          ]
+        },
+        "reason": "Transcriber enlarged pixels and independent reviewer both reject earlier expanded गरुडाधारिः; best visible candidate गरुडाद्रिः. Kannada uses contextually explicit Vishnu without inventing epithet interpretation.",
+        "status": "Revised candidate only; acceptance remains null."
+      },
+      {
+        "verse_id": "49.46",
+        "before": {
+          "candidate_sanskrit": "नानाशस्त्रधरा अन्ये नगास्ते शूलपाणयः । नगास्त्रियश्च शस्त्रौघैर्मारयामासुरंजसा ॥४६॥",
+          "candidate_kannada": "ಬೇರೆ ನಾನಾ ಆಯುಧಗಳನ್ನು ಧರಿಸಿದವರು, ಶೂಲಪಾಣಿಗಳಾದ ಆ ಪರ್ವತಗಳು ಹಾಗೂ ಪರ್ವತಸ್ತ್ರೀಯರು ಆಯುಧಗಳ ಸಮೂಹದಿಂದ ನೇರವಾಗಿ ಹೊಡೆಯತೊಡಗಿದರು. [‘ನಗಾಸ್ತೇ’ ಮತ್ತು ‘ನಗಾಸ್ತ್ರಿಯಶ್ಚ’ ಎಂಬ ಪದಗಳ ಓದು ಮತ್ತು ಅರ್ಥ ಮರುಪರಿಶೀಲನೆಗೆ ಒಳಪಟ್ಟಿವೆ.]",
+          "uncertainty_flags": [
+            {
+              "type": "uncertain_glyph_and_meaning",
+              "note": "Candidate नगास्ते / नगास्त्रियश्च requires second visual reading; Kannada is provisional and retains this uncertainty."
+            }
+          ]
+        },
+        "after": {
+          "candidate_sanskrit": "नानाशस्त्रधरा अन्ये नग्नास्ते शूलपाणयः । नग्नास्त्रियश्च शस्त्रौघैर्मारयामासुरंजसा ॥४६॥",
+          "candidate_kannada": "ಇತರರು ನಾನಾ ಆಯುಧಗಳನ್ನು ಧರಿಸಿ, ನಗ್ನರಾಗಿಯೂ ಶೂಲಪಾಣಿಗಳಾಗಿಯೂ ಇದ್ದರು. ನಗ್ನಸ್ತ್ರೀಯರೂ ಆಯುಧಗಳ ಸಮೂಹದಿಂದ ನೇರವಾಗಿ ಹೊಡೆಯತೊಡಗಿದರು.",
+          "uncertainty_flags": [
+            {
+              "type": "vowel_cluster_review",
+              "note": "नग्नास्ते confirmed; second word best read नग्नास्त्रियश्च. Its cramped long-ā cluster still merits final character-level review. Naked-women meaning is clear; no mountain reading remains."
+            }
+          ]
+        },
+        "reason": "Transcriber and independent reviewer confirm नग्न rather than नग. This removes erroneous mountain/mountain-women interpretation. Second-word long ā is best source candidate and remains flagged.",
+        "status": "Revised candidate only; acceptance remains null."
+      },
+      {
+        "verse_id": "50.30",
+        "before": {
+          "candidate_kannada": "ಮಹಾಸುರನು ದೇಹವನ್ನು ಮೇಲಕ್ಕೆ ಬೀಳಿಸಿ ಮಹಾಶಕ್ತಿಯನ್ನು ಮರ್ದಿಸಿದನು. ಮೂರ್ಛಿತಳಾದ ಅವಳನ್ನು ಎತ್ತಿಕೊಂಡು ಹರ್ಷಭರಿತನಾಗಿ ಹೋದನು."
+        },
+        "after": {
+          "candidate_kannada": "ಮಹಾಸುರನು ಅವಳ ಮೇಲೆ ತನ್ನ ದೇಹವನ್ನು ಬೀಳಿಸಿ ಮಹಾಶಕ್ತಿಯನ್ನು ಮರ್ದಿಸಿದನು. ಮೂರ್ಛಿತಳಾದ ಅವಳನ್ನು ಎತ್ತಿಕೊಂಡು ಹರ್ಷಭರಿತನಾಗಿ ಹೋದನು."
+        },
+        "reason": "Independent Kannada precision correction: body falling onto her, not upward.",
+        "status": "Revised candidate only; acceptance remains null."
+      },
+      {
+        "id": "49.colophon",
+        "before": {
+          "candidate_sanskrit": "॥ ॐमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खण्डे एकदंतचरिते शिवादिदेवपराजयो नामैकोनपंचाशत्तमोऽध्यायः ॥",
+          "candidate_kannada": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ ಶಿವಾದಿದೇವಪರಾಜಯ ಎಂಬ ನಲವತ್ತೊಂಬತ್ತನೆಯ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾಯಿತು."
+        },
+        "after": {
+          "candidate_sanskrit": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खण्डे एकदंतचरिते शिवादिदेवपराजयो नामैकोनपंचाशत्तमोऽध्यायः ॥",
+          "candidate_kannada": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ದ್ವಿತೀಯ ಖಂಡದ ಏಕದಂತಚರಿತೆಯಲ್ಲಿ ಶಿವಾದಿದೇವಪರಾಜಯ ಎಂಬ ನಲವತ್ತೊಂಬತ್ತನೆಯ ಅಧ್ಯಾಯವು ಸಮಾಪ್ತವಾಯಿತು."
+        },
+        "reason": "Independent source-pixel colophon reading reported by reviewer through parent.",
+        "status": "Revised candidate only; acceptance remains null."
+      },
+      {
+        "verse_id": "49.46",
+        "before": {
+          "candidate_kannada": "ಇತರರು ನಾನಾ ಆಯುಧಗಳನ್ನು ಧರಿಸಿ, ನಗ್ನರಾಗಿಯೂ ಶೂಲಪಾಣಿಗಳಾಗಿಯೂ ಇದ್ದರು. ನಗ್ನಸ್ತ್ರೀಯರೂ ಆಯುಧಗಳ ಸಮೂಹದಿಂದ ನೇರವಾಗಿ ಹೊಡೆಯತೊಡಗಿದರು.",
+          "uncertainty_flags": [
+            {
+              "type": "vowel_cluster_review",
+              "note": "नग्नास्ते confirmed; second word best read नग्नास्त्रियश्च. Its cramped long-ā cluster still merits final character-level review. Naked-women meaning is clear; no mountain reading remains."
+            }
+          ]
+        },
+        "after": {
+          "candidate_kannada": "ನಾನಾ ಆಯುಧಗಳನ್ನು ಧರಿಸಿದ, ಕೈಗಳಲ್ಲಿ ಶೂಲಗಳನ್ನು ಹಿಡಿದಿದ್ದ ಇತರ ನಗ್ನರೂ ನಗ್ನಸ್ತ್ರೀಯರೂ ಆಯುಧಗಳ ಸಮೂಹದಿಂದ ಕೊಲ್ಲತೊಡಗಿದರು.",
+          "uncertainty_flags": []
+        },
+        "reason": "Final independent head report confirms नग्नास्त्रियश्च including vowel and correctly renders मारयामासुः as killing, resolving earlier glyph hold.",
+        "status": "Revised candidate only; acceptance remains null."
+      }
+    ],
+    "unreviewed_scope": "All71head source records and Kannada meanings reviewed independently; corrected candidates still require acceptance, and explicit meaning/lexical holds remain.",
+    "independent_head_report": "/workspace/shared/khanda2_recovery/gap3/head/independent-review-first-khanda.md"
+  }
+}

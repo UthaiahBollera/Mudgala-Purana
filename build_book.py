@@ -190,7 +190,9 @@ for khanda, chapter in chapters:
                 body+='<p class="caption">ಶ್ರೀಮುದ್ಗಲಪುರಾಣದ ಆರಂಭ</p>'
             if not info.get('omit_opening_invocation'):
                 invocation = info.get('opening_invocation', '॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥')
-                body+=f'<p class="mantra" lang="sa-Knda" data-treatment="transliteration">{e(invocation)}</p>'
+                treatment=info.get('opening_invocation_treatment','transliteration')
+                language='kn' if treatment=='translation' else 'sa-Knda'
+                body+=f'<p class="mantra" lang="{language}" data-treatment="{treatment}">{e(invocation)}</p>'
             if info.get('coverage_note'):
                 body+=f'<p class="caption">{e(info["coverage_note"])}</p>'
         for r in chunk:

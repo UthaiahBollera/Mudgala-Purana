@@ -1,0 +1,154 @@
+{
+  "status": "candidate_only_unaccepted",
+  "counts": {
+    "first_source_record": "2.49.26 continuation only",
+    "last_source_record": "2.53.49 opening only",
+    "unique_source_verse_records": 216,
+    "complete_new_gap_verse_records": 214,
+    "partial_outer_boundary_records": 2,
+    "complete_proposed_outer_boundary_joins": 2,
+    "chapter_ranges": [
+      {
+        "chapter": 49,
+        "first": 26,
+        "last": 52
+      },
+      {
+        "chapter": 50,
+        "first": 1,
+        "last": 48
+      },
+      {
+        "chapter": 51,
+        "first": 1,
+        "last": 42
+      },
+      {
+        "chapter": 52,
+        "first": 1,
+        "last": 50
+      },
+      {
+        "chapter": 53,
+        "first": 1,
+        "last": 49
+      }
+    ],
+    "duplicate_verse_ids": [],
+    "missing_expected_ids": [],
+    "warning": "216 is the count of unique source-verse records including the two boundary verses, not 216 newly added complete verses."
+  },
+  "files": {
+    "long_gap_candidates.json": {
+      "path": "/workspace/shared/khanda2_recovery/gap3/long_gap_candidates.json",
+      "bytes": 501098,
+      "sha256": "7ac589e2d1a0fcbc78fef44254fbbd03d2444d5e344ae9e912aa35ef54b5e2bb"
+    },
+    "long_gap_candidates.md": {
+      "path": "/workspace/shared/khanda2_recovery/gap3/long_gap_candidates.md",
+      "bytes": 218790,
+      "sha256": "3d80fe91df56be1709ed04993ec8c606dd02c54ac8909e148286d6e317afc503"
+    }
+  },
+  "input_segment_files": {
+    "head": {
+      "path": "/workspace/shared/khanda2_recovery/gap3/head/head_final_frozen_r3.json",
+      "sha256": "50ce707201dd44a9e1e386b0268d838798c20f0a40e5c8b72622e16bae50a66a"
+    },
+    "middle": {
+      "path": "/workspace/shared/khanda2_recovery/gap3/middle/middle_candidates_v2.json",
+      "sha256": "71f7566477ceb0de637c6d41cb3033b95155ee2fcc47cfb3f265bf03a73a3947"
+    },
+    "tail": {
+      "path": "/workspace/shared/khanda2_recovery/gap3/tail/tail_final_frozen_v4.json",
+      "sha256": "367e19f131f4d82d7718a62dd4f44c0a2224c37b74ceb4bedca572e61afbea31"
+    }
+  },
+  "source_hashes": {
+    "page_0229.png": "da85c62b18a7b9daef221197df3cc90498d98cf93d46b4b3cf60bcb655566e35",
+    "page_0230.png": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+    "page_0231.png": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+    "page_0232.png": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+    "page_0233.png": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+    "page_0234.png": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+    "page_0235.png": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059",
+    "page_0236.png": "836a71db98446359f7cdf5a4a7c3220fb5625381152c2f7806a88f76f31c46cc",
+    "page_0237.png": "be3270b97798ceb137359ce6226871faa1ed2178ea8a24f10f4356f7fa82790c",
+    "page_0238.png": "36657dc7a48e71f9dc10f038ef2bd557296d09e9384d7b9f9d2a3e75ad6af7d1",
+    "page_0239.png": "1afcd2714814e29349a4d743775b6f6320edf128cd2f3618ac923b48080f247f"
+  },
+  "validation_checks": [
+    "All216expected IDs present exactly once",
+    "214complete new records;2outer partials",
+    "All accepted fields null",
+    "All referenced source hashes verified against original local PNGs",
+    "All main record bounding boxes within3840×2508",
+    "No canonical/book edits performed"
+  ],
+  "review_report": {
+    "report_file": "/workspace/shared/khanda2_recovery/gap3/independent_validation.json",
+    "report_sha256": "61b8aaf5ec395649bb50351aeb556eb2c0d46550a2045b73d7bbf227b57b27a7",
+    "status": "review_complete_candidate_only_unresolved_holds_remain",
+    "reviewed_candidate_ranges": [
+      {
+        "range": "2.49.26 continuation–52; 2.50.1–44",
+        "count": 71,
+        "source_pages": [
+          229,
+          230,
+          231,
+          232
+        ],
+        "review_basis": "Separate independent reviewer report, read and incorporated; this reviewer also directly inspected49.26–52 and both outer boundary source contexts.",
+        "review_report": "head/independent-review-first-khanda.md",
+        "review_report_sha256": "346fd8cca0cccbd66aff4d872a1046f151a6ffd81e2fe1f89005a641353a4a96",
+        "original_candidate": "head/head_candidates.json",
+        "original_candidate_sha256": "d9fe9feb895fbbde6e8b55f6cbcb573c158740617ea32f87a3efbaf3908c5ad5",
+        "final_candidate": "head/head_final_frozen_r3.json",
+        "final_candidate_sha256": "50ce707201dd44a9e1e386b0268d838798c20f0a40e5c8b72622e16bae50a66a",
+        "sanskrit": "All71 records plus49colophon and50invocation reviewed by the head reviewer.",
+        "kannada": "All71 formal Kannada meanings reviewed by the head reviewer.",
+        "status": "candidate_reviewed_with_corrections_and_holds"
+      },
+      {
+        "range": "2.50.45–48; 2.51.1–42; 2.52.1–25",
+        "count": 71,
+        "source_pages": [
+          233,
+          234,
+          235
+        ],
+        "review_basis": "Direct independent source-pixel and Sanskrit/Kannada comparison by this reviewer.",
+        "original_candidate": "middle/middle_candidates_v1.json",
+        "original_candidate_sha256": "3b2179d46d530c369c7676f0056a5e445d9df9aba7dd42180bfa923dcb6936c3",
+        "final_candidate": "middle/middle_candidates_v2.json",
+        "final_candidate_sha256": "71f7566477ceb0de637c6d41cb3033b95155ee2fcc47cfb3f265bf03a73a3947",
+        "sanskrit": "All71 verse records plus two invocations and two colophons reviewed.",
+        "kannada": "All71 meanings reviewed; negative अनाहत्य and doctrine of ritual deprivation retained.",
+        "status": "candidate_reviewed_with_corrections_and_holds"
+      },
+      {
+        "range": "2.52.26–50; 2.53.1–49 opening, plus existing53.49 ending for one-time join",
+        "count": 74,
+        "source_pages": [
+          236,
+          237,
+          238,
+          239
+        ],
+        "review_basis": "Direct independent source-pixel and Sanskrit/Kannada comparison by this reviewer.",
+        "original_candidate": "tail/tail_recovery_candidates.json",
+        "original_candidate_sha256": "e1da9d2c46f8a58ce0150048dfdfce30306c65a4d42331511b06273d5b58a5f0",
+        "initial50_snapshot": "validation_tail_initial_snapshot.json",
+        "initial50_snapshot_sha256": "4c13873b460bdc0b6b204718db49b2985b81a64522936aa7d071c46d5afb3419",
+        "final_candidate": "tail/tail_final_frozen_v4.json",
+        "final_candidate_sha256": "367e19f131f4d82d7718a62dd4f44c0a2224c37b74ceb4bedca572e61afbea31",
+        "sanskrit": "All74 source verse targets plus52colophon,53invocation and53.49boundary assembly reviewed.",
+        "kannada": "All74 meanings/partial meanings reviewed; corrected plural speakers, explicit negation, number wording; uncertainty retained.",
+        "status": "candidate_reviewed_with_corrections_and_holds"
+      }
+    ],
+    "unchecked_candidate_ranges": [],
+    "note": "See report and segment change logs for exact checks, revisions, unresolved issues and review limitations."
+  }
+}

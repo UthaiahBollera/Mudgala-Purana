@@ -1,0 +1,18 @@
+{
+  "revision": "v3",
+  "base": {
+    "path": "/workspace/shared/khanda2_recovery/gap3/tail/tail_recovery_candidates_v2.json",
+    "sha256": "8d0f489ae9d685e58cf6c6c9293cb5ae52065118cfe84a4bd1ab88f82e704d43"
+  },
+  "changes": [
+    {
+      "id": "2.53.42",
+      "field": "candidate_kannada",
+      "before": "ಅಹೋ, ಈ ಏಕದಂತನು ಯಾರು? ಈತನು ಬ್ರಹ್ಮಸ್ವರೂಪನೇ; ಸಂದೇಹವಿಲ್ಲ. ಈತನು ಕೇವಲ ಬ್ರಹ್ಮಾಂಡಮಯ ಆಕಾರವಲ್ಲ; ಹಾಗೆಯೇ ಬ್ರಹ್ಮಾಂಡದಿಂದ ರಹಿತನೂ ಅಲ್ಲ.",
+      "after": "ಅಹೋ, ಈ ಏಕದಂತನು ಯಾರು? ಈತನು ಬ್ರಹ್ಮಸ್ವರೂಪನೇ; ಸಂದೇಹವಿಲ್ಲ. ಈತನು ಬ್ರಹ್ಮಾಂಡಮಯ ಆಕಾರವುಳ್ಳವನೂ ಅಲ್ಲ; ಹಾಗೆಯೇ ಅದರಿಂದ ರಹಿತನೂ ಅಲ್ಲ.",
+      "reason": "Independent review: remove unsupported ಕೇವಲ (merely) and retain both explicit Sanskrit negations without softening the paradox."
+    }
+  ],
+  "previous_change_log": "/workspace/shared/khanda2_recovery/gap3/tail/tail_revision_v2_changes.json",
+  "accepted_fields_remain_null": true
+}

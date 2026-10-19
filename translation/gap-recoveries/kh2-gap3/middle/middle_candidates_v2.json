@@ -1,0 +1,2377 @@
+{
+  "schema_version": "khanda2.visual_recovery.candidate.v1",
+  "scope": "Assigned local images 0233, 0234, 0235 only. No book modification or publication.",
+  "status": "frozen_revised_candidates_independent_review_corrections_applied",
+  "method": "Direct human-style visual transcription of supplied pixels with view_image; crops and nearest-neighbor enlargement for inspection only. No OCR, Tesseract, Gemma, paid calls, external editions, or unseen-text reconstruction.",
+  "coordinate_system": "Original 3840x2508 image pixels, origin top-left, bbox [x0,y0,x1,y1]. Verse boxes are enclosing line bands and may contain adjacent text; they are not character-tight.",
+  "orthography_policy": "Retain visible Devanagari, anusvara spellings, apparent print anomalies and negation. Spaces and prose line wraps regularized for readability; printed line-end hyphens joining one word removed. All fields remain candidates.",
+  "transliteration_policy": "Kannada-script Sanskrit transliteration is separate from formal Kannada meaning. Script substitution preserves Sanskrit wording, including visible mantra words; no unprinted single-syllable mantra has been invented.",
+  "source_pages": [
+    {
+      "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+      "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+      "image_dimensions": [
+        3840,
+        2508
+      ],
+      "printed_page": 107
+    },
+    {
+      "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+      "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+      "image_dimensions": [
+        3840,
+        2508
+      ],
+      "printed_page": 108
+    },
+    {
+      "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+      "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059",
+      "image_dimensions": [
+        3840,
+        2508
+      ],
+      "printed_page": 109
+    }
+  ],
+  "verse_ranges": [
+    {
+      "chapter": 50,
+      "first": 45,
+      "last": 48
+    },
+    {
+      "chapter": 51,
+      "first": 1,
+      "last": 42
+    },
+    {
+      "chapter": 52,
+      "first": 1,
+      "last": 25
+    }
+  ],
+  "verse_count": 71,
+  "verses": [
+    {
+      "id": "2.50.45",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 45,
+      "speaker": null,
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            390,
+            3740,
+            510
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "ततः पातालविवरे प्रेषयामास दैत्यपः । त्रिपुरं शेषनागेंद्रजयनाय महाबलम् ॥४५॥",
+      "candidate_kannada": "ಅನಂತರ ದೈತ್ಯಾಧಿಪತಿಯು ಮಹಾಬಲಶಾಲಿಯಾದ ತ್ರಿಪುರನನ್ನು ನಾಗರಾಜ ಶೇಷನನ್ನು ಜಯಿಸುವುದಕ್ಕಾಗಿ ಪಾತಾಳದ ಒಳಭಾಗಕ್ಕೆ ಕಳುಹಿಸಿದನು.",
+      "candidate_transliteration": "ತತಃ ಪಾತಾಲವಿವರೇ ಪ್ರೇಷಯಾಮಾಸ ದೈತ್ಯಪಃ । ತ್ರಿಪುರಂ ಶೇಷನಾಗೇಂದ್ರಜಯನಾಯ ಮಹಾಬಲಮ್ ॥೪೫॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.50.46",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 46,
+      "speaker": null,
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            395,
+            3740,
+            620
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "शेषो ज्ञात्वा च वृत्तांतं साम चक्रे पुरैव च । दैत्येन वार्षिकं भागं ददौ जग्राह शासनम् ॥४६॥",
+      "candidate_kannada": "ಶೇಷನು ಈ ವೃತ್ತಾಂತವನ್ನು ತಿಳಿದು, ಮೊದಲೇ ಸಂಧಾನ ಮಾಡಿಕೊಂಡನು. ಅವನು ದೈತ್ಯನಿಗೆ ವಾರ್ಷಿಕ ಕರಭಾಗವನ್ನು ಕೊಟ್ಟು ಅವನ ಆಳ್ವಿಕೆಯನ್ನು ಒಪ್ಪಿಕೊಂಡನು.",
+      "candidate_transliteration": "ಶೇಷೋ ಜ್ಞಾತ್ವಾ ಚ ವೃತ್ತಾಂತಂ ಸಾಮ ಚಕ್ರೇ ಪುರೈವ ಚ । ದೈತ್ಯೇನ ವಾರ್ಷಿಕಂ ಭಾಗಂ ದದೌ ಜಗ್ರಾಹ ಶಾಸನಮ್ ॥೪೬॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "The print reads दैत्येन; its relation to ददौ is grammatically unusual. Kannada expresses the apparent tribute context, without changing the Sanskrit."
+      ]
+    },
+    {
+      "id": "2.50.47",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 47,
+      "speaker": null,
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            500,
+            3740,
+            710
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "एवं मदासुरो दुष्टो जित्वा ब्रह्मांडमंडलम् । राज्यं चकार सर्वेषां भुवनानां प्रतापवान् ॥४७॥",
+      "candidate_kannada": "ಈ ರೀತಿಯಾಗಿ ದುಷ್ಟನಾದ ಮದಾಸುರನು ಬ್ರಹ್ಮಾಂಡಮಂಡಲವನ್ನು ಜಯಿಸಿ, ಪ್ರತಾಪಶಾಲಿಯಾಗಿ ಎಲ್ಲ ಭುವನಗಳನ್ನೂ ಆಳಿದನು.",
+      "candidate_transliteration": "ಏವಂ ಮದಾಸುರೋ ದುಷ್ಟೋ ಜಿತ್ವಾ ಬ್ರಹ್ಮಾಂಡಮಂಡಲಮ್ । ರಾಜ್ಯಂ ಚಕಾರ ಸರ್ವೇಷಾಂ ಭುವನಾನಾಂ ಪ್ರತಾಪವಾನ್ ॥೪೭॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.50.48",
+      "khanda": 2,
+      "chapter": 50,
+      "verse": 48,
+      "speaker": null,
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            600,
+            3740,
+            815
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "अनुत्तमान् विचित्रांश्च देवादीनां सुदुर्लभान् । भोगान् सर्वान् स आहृत्य बुभुजे ज्ञातिभिः सह ॥४८॥",
+      "candidate_kannada": "ದೇವತೆಗಳಿಗೂ ಇತರರಿಗೂ ಅತ್ಯಂತ ದುರ್ಲಭವಾಗಿದ್ದ, ಅತ್ಯುತ್ತಮವೂ ವೈವಿಧ್ಯಪೂರ್ಣವೂ ಆದ ಸಕಲ ಭೋಗವಸ್ತುಗಳನ್ನು ತರಿಸಿಕೊಂಡು, ಅವನು ತನ್ನ ಬಂಧುಗಳೊಂದಿಗೆ ಅನುಭವಿಸಿದನು.",
+      "candidate_transliteration": "ಅನುತ್ತಮಾನ್ ವಿಚಿತ್ರಾಂಶ್ಚ ದೇವಾದೀನಾಂ ಸುದುರ್ಲಭಾನ್ । ಭೋಗಾನ್ ಸರ್ವಾನ್ ಸ ಆಹೃತ್ಯ ಬುಭುಜೇ ಜ್ಞಾತಿಭಿಃ ಸಹ ॥೪೮॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.1",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 1,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1100,
+            3740,
+            1240
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "गृत्समद उवाच । शृणु प्रह्लाद दैत्यस्य चेष्टितं परमाद्भुतम् । मदासुरस्य सर्वं यन् मदमोहकरं महत् ॥१॥",
+      "candidate_kannada": "ಗೃತ್ಸಮದನು ಹೇಳಿದನು: ಪ್ರಹ್ಲಾದನೇ, ಮದ ಮತ್ತು ಮೋಹವನ್ನು ಉಂಟುಮಾಡುವ ಮದಾಸುರನೆಂಬ ದೈತ್ಯನ ಅತ್ಯಂತ ಅದ್ಭುತವಾದ, ಮಹತ್ತರವಾದ ಈ ಸಮಸ್ತ ವರ್ತನೆಯನ್ನು ಕೇಳು.",
+      "candidate_transliteration": "ಗೃತ್ಸಮದ ಉವಾಚ । ಶೃಣು ಪ್ರಹ್ಲಾದ ದೈತ್ಯಸ್ಯ ಚೇಷ್ಟಿತಂ ಪರಮಾದ್ಭುತಮ್ । ಮದಾಸುರಸ್ಯ ಸರ್ವಂ ಯನ್ ಮದಮೋಹಕರಂ ಮಹತ್ ॥೧॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.2",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 2,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1220,
+            3740,
+            1345
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "ततः कियति काले स गते दुष्टो महासुरः । बभौ परिवृतो दैत्यैर्महाबलपराक्रमैः ॥२॥",
+      "candidate_kannada": "ಹೀಗೆ ಕೆಲವು ಕಾಲ ಕಳೆದ ಬಳಿಕ, ಆ ದುಷ್ಟ ಮಹಾಸುರನು ಮಹಾಬಲಪರಾಕ್ರಮಿಗಳಾದ ದೈತ್ಯರಿಂದ ಸುತ್ತುವರಿಯಲ್ಪಟ್ಟು ವೈಭವದಿಂದ ಇದ್ದನು.",
+      "candidate_transliteration": "ತತಃ ಕಿಯತಿ ಕಾಲೇ ಸ ಗತೇ ದುಷ್ಟೋ ಮಹಾಸುರಃ । ಬಭೌ ಪರಿವೃತೋ ದೈತ್ಯೈರ್ಮಹಾಬಲಪರಾಕ್ರಮೈಃ ॥೨॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.3",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 3,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1230,
+            3740,
+            1445
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "तत्र तं त्रिपुरो दुष्ट उक्तवान् दैत्यपैः सह । कृतांजलिपुटो भूत्वा वचनं साहसं खलः ॥३॥",
+      "candidate_kannada": "ಆಗ ದೈತ್ಯಾಧಿಪತಿಗಳೊಡನೆ ಇದ್ದ ದುಷ್ಟನೂ ಖಲನೂ ಆದ ತ್ರಿಪುರನು ಕೈಮುಗಿದು, ಸಾಹಸಪೂರ್ಣವಾದ ಮಾತನ್ನು ಅವನಿಗೆ ಹೇಳಿದನು.",
+      "candidate_transliteration": "ತತ್ರ ತಂ ತ್ರಿಪುರೋ ದುಷ್ಟ ಉಕ್ತವಾನ್ ದೈತ್ಯಪೈಃ ಸಹ । ಕೃತಾಂಜಲಿಪುಟೋ ಭೂತ್ವಾ ವಚನಂ ಸಾಹಸಂ ಖಲಃ ॥೩॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.4",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 4,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1320,
+            3740,
+            1545
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "त्रिपुर उवाच । शृणु प्रभो महाराज दैत्यानां हितकारकम् । वचनं सुखदं साध्यमखंडानंददायकम् ॥४॥",
+      "candidate_kannada": "ತ್ರಿಪುರನು ಹೇಳಿದನು: ಪ್ರಭುವೇ, ಮಹಾರಾಜನೇ, ದೈತ್ಯರಿಗೆ ಹಿತಕರವಾದ, ಸುಖವನ್ನುಂಟುಮಾಡುವ, ಕಾರ್ಯರೂಪಕ್ಕೆ ತರಬಹುದಾದ ಹಾಗೂ ಅಖಂಡಾನಂದವನ್ನು ನೀಡುವ ನನ್ನ ಮಾತನ್ನು ಕೇಳು.",
+      "candidate_transliteration": "ತ್ರಿಪುರ ಉವಾಚ । ಶೃಣು ಪ್ರಭೋ ಮಹಾರಾಜ ದೈತ್ಯಾನಾಂ ಹಿತಕಾರಕಮ್ । ವಚನಂ ಸುಖದಂ ಸಾಧ್ಯಮಖಂಡಾನಂದದಾಯಕಮ್ ॥೪॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.5",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 5,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1410,
+            3740,
+            1555
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "जित्वा त्रिभुवनं पूर्वं दैत्याः संतोषमाययुः । हिरण्यकशिपुस्तत्राद्यो महान् परमद्युतिः ॥५॥",
+      "candidate_kannada": "ಹಿಂದೆ ದೈತ್ಯರು ಮೂರು ಲೋಕಗಳನ್ನು ಜಯಿಸಿ ಸಂತೋಷಗೊಂಡರು. ಅವರಲ್ಲಿ ಪರಮತೇಜಸ್ವಿಯಾದ ಮಹಾನ್ ಹಿರಣ್ಯಕಶಿಪುವು ಮೊದಲಿಗನಾಗಿದ್ದನು.",
+      "candidate_transliteration": "ಜಿತ್ವಾ ತ್ರಿಭುವನಂ ಪೂರ್ವಂ ದೈತ್ಯಾಃ ಸಂತೋಷಮಾಯಯುಃ । ಹಿರಣ್ಯಕಶಿಪುಸ್ತತ್ರಾದ್ಯೋ ಮಹಾನ್ ಪರಮದ್ಯುತಿಃ ॥೫॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.6",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 6,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1520,
+            3740,
+            1650
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "मृत्युभीतिविहीनोऽयमानंदेन समावृतः । अखिलं बुभुजे राज्यं त्रिलोकस्य न संशयः ॥६॥",
+      "candidate_kannada": "ಅವನು ಮರಣಭಯವಿಲ್ಲದವನಾಗಿ ಆನಂದದಿಂದ ತುಂಬಿಕೊಂಡು, ಮೂರು ಲೋಕಗಳ ಸಮಗ್ರ ರಾಜ್ಯವನ್ನು ಅನುಭವಿಸಿದನು; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "candidate_transliteration": "ಮೃತ್ಯುಭೀತಿವಿಹೀನೋಽಯಮಾನಂದೇನ ಸಮಾವೃತಃ । ಅಖಿಲಂ ಬುಭುಜೇ ರಾಜ್ಯಂ ತ್ರಿಲೋಕಸ್ಯ ನ ಸಂಶಯಃ ॥೬॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.7",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 7,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1525,
+            3740,
+            1760
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "वने गिरिगुहासंस्था देवाश्छद्मप्रदर्शिनः । शात्रवस्तत्र कालेन ससृजुर्नृसिंहकम् ॥७॥",
+      "candidate_kannada": "ಅರಣ್ಯಗಳಲ್ಲಿಯೂ ಪರ್ವತಗುಹೆಗಳಲ್ಲಿಯೂ ನೆಲೆಸಿದ್ದ, ಉಪಾಯವನ್ನು ಪ್ರದರ್ಶಿಸುವ ಶತ್ರುಗಳಾದ ದೇವತೆಗಳು ಕಾಲಕ್ರಮದಲ್ಲಿ ನೃಸಿಂಹರೂಪವನ್ನು ಸೃಷ್ಟಿಸಿದರು.",
+      "candidate_transliteration": "ವನೇ ಗಿರಿಗುಹಾಸಂಸ್ಥಾ ದೇವಾಶ್ಛದ್ಮಪ್ರದರ್ಶಿನಃ । ಶಾತ್ರವಸ್ತತ್ರ ಕಾಲೇನ ಸಸೃಜುರ್ನೃಸಿಂಹಕಮ್ ॥೭॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "The conjunct in ससृजुर्नृसिंहकम् is dense; candidate follows visual reading, with no external-edition correction."
+      ]
+    },
+    {
+      "id": "2.51.8",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 8,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1635,
+            3740,
+            1840
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "नृसिंहेन हतो नूनं हिरण्यकशिपुः प्रभुः । एवं क्रमेण श्रेष्ठा ये ते हता दैत्यपाः क्रमात् ॥८॥",
+      "candidate_kannada": "ಆ ಪ್ರಭುವಾದ ಹಿರಣ್ಯಕಶಿಪುವು ನಿಶ್ಚಯವಾಗಿಯೂ ನೃಸಿಂಹನಿಂದ ಕೊಲ್ಲಲ್ಪಟ್ಟನು. ಇದೇ ರೀತಿಯಲ್ಲಿ ಶ್ರೇಷ್ಠರೆನಿಸಿದ ದೈತ್ಯಾಧಿಪತಿಗಳು ಒಬ್ಬೊಬ್ಬರಾಗಿ ಹತರಾದರು.",
+      "candidate_transliteration": "ನೃಸಿಂಹೇನ ಹತೋ ನೂನಂ ಹಿರಣ್ಯಕಶಿಪುಃ ಪ್ರಭುಃ । ಏವಂ ಕ್ರಮೇಣ ಶ್ರೇಷ್ಠಾ ಯೇ ತೇ ಹತಾ ದೈತ್ಯಪಾಃ ಕ್ರಮಾತ್ ॥೮॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.9",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 9,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1740,
+            3740,
+            1950
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "अधुना त्वं तथा जातो ब्रह्मांडाधिपतिः स्वयम् । देवान् मुक्त्वा महाराज किं स्थितोऽसि विचारय ॥९॥",
+      "candidate_kannada": "ಈಗ ನೀನೂ ಹಾಗೆಯೇ ಸ್ವತಃ ಬ್ರಹ್ಮಾಂಡದ ಅಧಿಪತಿಯಾಗಿರುವೆ. ಮಹಾರಾಜನೇ, ದೇವತೆಗಳನ್ನು ಬಿಟ್ಟುಬಿಟ್ಟು ನೀನು ಏಕೆ ಸುಮ್ಮನಿರುವೆ ಎಂಬುದನ್ನು ವಿಚಾರಿಸು.",
+      "candidate_transliteration": "ಅಧುನಾ ತ್ವಂ ತಥಾ ಜಾತೋ ಬ್ರಹ್ಮಾಂಡಾಧಿಪತಿಃ ಸ್ವಯಮ್ । ದೇವಾನ್ ಮುಕ್ತ್ವಾ ಮಹಾರಾಜ ಕಿಂ ಸ್ಥಿತೋಽಸಿ ವಿಚಾರಯ ॥೯॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.10",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 10,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1835,
+            3740,
+            1960
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "अस्माकं शत्रवो नित्यं देवा वेदे प्रतिष्ठिताः । कथं मित्राणि ते राजन् भविष्यंति वद प्रभो ॥१०॥",
+      "candidate_kannada": "ವೇದದಲ್ಲಿ ಪ್ರತಿಷ್ಠಿತರಾದ ದೇವತೆಗಳು ಸದಾ ನಮ್ಮ ಶತ್ರುಗಳು. ರಾಜನೇ, ಅವರು ಹೇಗೆ ನಿನ್ನ ಮಿತ್ರರಾಗುವರು? ಪ್ರಭುವೇ, ಹೇಳು.",
+      "candidate_transliteration": "ಅಸ್ಮಾಕಂ ಶತ್ರವೋ ನಿತ್ಯಂ ದೇವಾ ವೇದೇ ಪ್ರತಿಷ್ಠಿತಾಃ । ಕಥಂ ಮಿತ್ರಾಣಿ ತೇ ರಾಜನ್ ಭವಿಷ್ಯಂತಿ ವದ ಪ್ರಭೋ ॥೧೦॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.11",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 11,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1840,
+            3740,
+            2060
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "अतस्तेषां विनाशाय यतस्व नृपसत्तम । नोचेत्त्वां कालयोगेन हनिष्यंति न संशयः ॥११॥",
+      "candidate_kannada": "ಆದ್ದರಿಂದ, ರಾಜಶ್ರೇಷ್ಠನೇ, ಅವರ ವಿನಾಶಕ್ಕಾಗಿ ಪ್ರಯತ್ನಿಸು. ಇಲ್ಲದಿದ್ದರೆ ಕಾಲಾನುಕೂಲವಾದಾಗ ಅವರು ನಿನ್ನನ್ನು ಕೊಲ್ಲುವರು; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "candidate_transliteration": "ಅತಸ್ತೇಷಾಂ ವಿನಾಶಾಯ ಯತಸ್ವ ನೃಪಸತ್ತಮ । ನೋಚೇತ್ತ್ವಾಂ ಕಾಲಯೋಗೇನ ಹನಿಷ್ಯಂತಿ ನ ಸಂಶಯಃ ॥೧೧॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.12",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 12,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            1940,
+            3740,
+            2170
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "शस्त्रास्त्रैः पीडिता देवा न मरिष्यंति कर्हिचित् । अमराः कथिता वेदे घोररूपा न संशयः ॥१२॥",
+      "candidate_kannada": "ಶಸ್ತ್ರಾಸ್ತ್ರಗಳಿಂದ ಪೀಡಿಸಲ್ಪಟ್ಟರೂ ದೇವತೆಗಳು ಎಂದಿಗೂ ಸಾಯುವುದಿಲ್ಲ. ಭಯಂಕರರೂಪಿಗಳಾದ ಅವರನ್ನು ವೇದವು ಅಮರರೆಂದು ಹೇಳಿದೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "candidate_transliteration": "ಶಸ್ತ್ರಾಸ್ತ್ರೈಃ ಪೀಡಿತಾ ದೇವಾ ನ ಮರಿಷ್ಯಂತಿ ಕರ್ಹಿಚಿತ್ । ಅಮರಾಃ ಕಥಿತಾ ವೇದೇ ಘೋರರೂಪಾ ನ ಸಂಶಯಃ ॥೧೨॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.13",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 13,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            2050,
+            3740,
+            2240
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "तेषां मरणमत्युग्रं वेदे पश्य प्रतिष्ठितम् । कर्मनाशाद् भवेत् पूर्णं कर्मान्ना देवता यतः ॥१३॥",
+      "candidate_kannada": "ಅವರ ಅತ್ಯಂತ ಘೋರವಾದ ಸಂಪೂರ್ಣ ಮರಣಕ್ಕೆ ವೇದದಲ್ಲಿಯೇ ನಿರೂಪಿತವಾಗಿರುವ ಮಾರ್ಗವನ್ನು ನೋಡು. ಕರ್ಮಗಳು ನಾಶವಾದಾಗ ಅದು ಉಂಟಾಗುತ್ತದೆ; ಏಕೆಂದರೆ ದೇವತೆಗಳಿಗೆ ಕರ್ಮವೇ ಅನ್ನವಾಗಿದೆ.",
+      "candidate_transliteration": "ತೇಷಾಂ ಮರಣಮತ್ಯುಗ್ರಂ ವೇದೇ ಪಶ್ಯ ಪ್ರತಿಷ್ಠಿತಮ್ । ಕರ್ಮನಾಶಾದ್ ಭವೇತ್ ಪೂರ್ಣಂ ಕರ್ಮಾನ್ನಾ ದೇವತಾ ಯತಃ ॥೧೩॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "कर्मान्ना is read from a dense conjunct; its food-of-ritual sense is retained provisionally."
+      ]
+    },
+    {
+      "id": "2.51.14",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 14,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            2140,
+            3740,
+            2350
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "तस्मात् कर्मकरा विप्रास्ताडनीया न संशयः । आसुरं कर्म कुर्वंतो मंतव्यास्ते त्वयाऽनिशम् ॥१४॥",
+      "candidate_kannada": "ಆದ್ದರಿಂದ ಕರ್ಮಾನುಷ್ಠಾನ ಮಾಡುವ ವಿಪ್ರರನ್ನು ಪೀಡಿಸಬೇಕೆಂಬುದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ಆಸುರಕರ್ಮವನ್ನು ಮಾಡುವವರನ್ನು ನೀನು ಸದಾ ಮಾನ್ಯರೆಂದು ಪರಿಗಣಿಸಬೇಕು.",
+      "candidate_transliteration": "ತಸ್ಮಾತ್ ಕರ್ಮಕರಾ ವಿಪ್ರಾಸ್ತಾಡನೀಯಾ ನ ಸಂಶಯಃ । ಆಸುರಂ ಕರ್ಮ ಕುರ್ವಂತೋ ಮಂತವ್ಯಾಸ್ತೇ ತ್ವಯಾಽನಿಶಮ್ ॥೧೪॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "मंतव्यास्ते is provisionally understood as to be regarded or esteemed; it does not explicitly say force them to perform."
+      ]
+    },
+    {
+      "id": "2.51.15",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 15,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            2240,
+            3740,
+            2355
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "अन्ये वर्णाश्रमस्था ये ब्राह्मणाः कर्मकारकाः । नष्टेषु विप्रजातेषु सर्वे नष्टा भवंति ते ॥१५॥",
+      "candidate_kannada": "ಇತರ ವರ್ಣಾಶ್ರಮಗಳಲ್ಲಿ ಇರುವವರು ಹಾಗೂ ಕರ್ಮಾನುಷ್ಠಾನ ಮಾಡುವ ಬ್ರಾಹ್ಮಣರು, ವಿಪ್ರವರ್ಗವು ನಾಶವಾದಾಗ ಅವರೆಲ್ಲರೂ ನಾಶವಾಗುವರು.",
+      "candidate_transliteration": "ಅನ್ಯೇ ವರ್ಣಾಶ್ರಮಸ್ಥಾ ಯೇ ಬ್ರಾಹ್ಮಣಾಃ ಕರ್ಮಕಾರಕಾಃ । ನಷ್ಟೇಷು ವಿಪ್ರಜಾತೇಷು ಸರ್ವೇ ನಷ್ಟಾ ಭವಂತಿ ತೇ ॥೧೫॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "The printed ब्राह्मणाः after अन्ये वर्णाश्रमस्था ये makes the enumeration syntactically unclear; no caste term has been substituted."
+      ]
+    },
+    {
+      "id": "2.51.16",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 16,
+      "speaker": "ತ್ರಿಪುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            230,
+            2245,
+            3740,
+            2450
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        }
+      ],
+      "candidate_sanskrit": "अत आज्ञापय प्राज्ञ असुरान् कर्मखंडने । सर्वत्रासुरभावेन कर्म सर्वं प्रवर्तताम् ॥१६॥",
+      "candidate_kannada": "ಆದ್ದರಿಂದ, ಪ್ರಾಜ್ಞನೇ, ಕರ್ಮಾನುಷ್ಠಾನಗಳನ್ನು ಭಂಗಪಡಿಸಲು ಅಸುರರಿಗೆ ಆಜ್ಞಾಪಿಸು. ಎಲ್ಲೆಡೆಯೂ ಎಲ್ಲ ಕರ್ಮಗಳು ಆಸುರಭಾವದಿಂದಲೇ ನಡೆಯಲಿ.",
+      "candidate_transliteration": "ಅತ ಆಜ್ಞಾಪಯ ಪ್ರಾಜ್ಞ ಅಸುರಾನ್ ಕರ್ಮಖಂಡನೇ । ಸರ್ವತ್ರಾಸುರಭಾವೇನ ಕರ್ಮ ಸರ್ವಂ ಪ್ರವರ್ತತಾಮ್ ॥೧೬॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.17",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 17,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "bbox_xyxy": [
+            1930,
+            2350,
+            3700,
+            2465
+          ],
+          "fragment": "a",
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40"
+        },
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            350,
+            210,
+            1650,
+            360
+          ],
+          "fragment": "b",
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "एवमुक्त्वा महादैत्यं तूष्णीं भावेन संस्थितम् । सदसि त्रिपुरं वीक्ष्य तमुवाच मदासुरः ॥१७॥",
+      "candidate_kannada": "ಮಹಾದೈತ್ಯನಿಗೆ ಹೀಗೆ ಹೇಳಿ ಸಭೆಯಲ್ಲಿ ಮೌನವಾಗಿ ನಿಂತಿದ್ದ ತ್ರಿಪುರನನ್ನು ನೋಡಿ, ಮದಾಸುರನು ಅವನಿಗೆ ಹೇಳಿದನು.",
+      "candidate_transliteration": "ಏವಮುಕ್ತ್ವಾ ಮಹಾದೈತ್ಯಂ ತೂಷ್ಣೀಂ ಭಾವೇನ ಸಂಸ್ಥಿತಮ್ । ಸದಸಿ ತ್ರಿಪುರಂ ವೀಕ್ಷ್ಯ ತಮುವಾಚ ಮದಾಸುರಃ ॥೧೭॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.18",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 18,
+      "speaker": "ಮದಾಸುರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            250,
+            3740,
+            470
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "मदासुर उवाच । समीचीनं त्वया प्रोक्तमसि त्रिपुर बुद्धिमान् । यादृशं कथितं वाक्यं तादृशं कुरु दैत्यपैः ॥१८॥",
+      "candidate_kannada": "ಮದಾಸುರನು ಹೇಳಿದನು: ತ್ರಿಪುರನೇ, ನೀನು ಸರಿಯಾದ ಮಾತನ್ನೇ ಹೇಳಿರುವೆ; ನೀನು ಬುದ್ಧಿವಂತನು. ನೀನು ಹೇಗೆ ಹೇಳಿರುವೆಯೋ ಹಾಗೆಯೇ ದೈತ್ಯಾಧಿಪತಿಗಳೊಡನೆ ಕಾರ್ಯರೂಪಕ್ಕೆ ತರು.",
+      "candidate_transliteration": "ಮದಾಸುರ ಉವಾಚ । ಸಮೀಚೀನಂ ತ್ವಯಾ ಪ್ರೋಕ್ತಮಸಿ ತ್ರಿಪುರ ಬುದ್ಧಿಮಾನ್ । ಯಾದೃಶಂ ಕಥಿತಂ ವಾಕ್ಯಂ ತಾದೃಶಂ ಕುರು ದೈತ್ಯಪೈಃ ॥೧೮॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.19",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 19,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            350,
+            3740,
+            590
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "ततो दैत्यगणैर्युक्तस्त्रिपुरो निर्गतोऽसुरः । पृथिव्यां यत्र तत्राऽपि कर्मखंडनकोऽभवत् ॥१९॥",
+      "candidate_kannada": "ಅನಂತರ ಅಸುರನಾದ ತ್ರಿಪುರನು ದೈತ್ಯಸಮೂಹದೊಡನೆ ಹೊರಟು, ಭೂಮಿಯ ಎಲ್ಲೆಡೆ ಕರ್ಮಾನುಷ್ಠಾನಗಳನ್ನು ಭಂಗಪಡಿಸತೊಡಗಿದನು.",
+      "candidate_transliteration": "ತತೋ ದೈತ್ಯಗಣೈರ್ಯುಕ್ತಸ್ತ್ರಿಪುರೋ ನಿರ್ಗತೋಽಸುರಃ । ಪೃಥಿವ್ಯಾಂ ಯತ್ರ ತತ್ರಾಽಪಿ ಕರ್ಮಖಂಡನಕೋಽಭವತ್ ॥೧೯॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.20",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 20,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            450,
+            3740,
+            675
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "धृता मुनिगणास्तेन ताडिता वधिता बहु । केचित्तदाज्ञया युक्ताः संस्थिताः कर्मदूषकाः ॥२०॥",
+      "candidate_kannada": "ಅವನು ಮುನಿಸಮೂಹಗಳನ್ನು ಬಂಧಿಸಿ ಬಹಳವಾಗಿ ಹೊಡೆದನು; ಅನೇಕರನ್ನು ಕೊಂದನು. ಕೆಲವರು ಅವನ ಆಜ್ಞೆಗೆ ಒಳಗಾಗಿ, ಕರ್ಮಗಳನ್ನು ದೂಷಿಸುವವರಾಗಿ ಉಳಿದರು.",
+      "candidate_transliteration": "ಧೃತಾ ಮುನಿಗಣಾಸ್ತೇನ ತಾಡಿತಾ ವಧಿತಾ ಬಹು । ಕೇಚಿತ್ತದಾಜ್ಞಯಾ ಯುಕ್ತಾಃ ಸಂಸ್ಥಿತಾಃ ಕರ್ಮದೂಷಕಾಃ ॥೨೦॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.21",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 21,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            540,
+            3740,
+            765
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "केचिन्मुनिगणा दुष्टं शरणं तं ययुस्ततः । तस्याज्ञावर्तिनो भूत्वा संस्थिता ब्राह्मणाधमाः ॥२१॥",
+      "candidate_kannada": "ಆಗ ಕೆಲವು ಮುನಿಗಳು ಆ ದುಷ್ಟನನ್ನೇ ಶರಣಾಗಿ ಆಶ್ರಯಿಸಿದರು. ಅವನ ಆಜ್ಞೆಯಂತೆ ನಡೆದುಕೊಂಡು, ಬ್ರಾಹ್ಮಣರಲ್ಲಿ ಅಧಮರಾದವರಾಗಿ ಉಳಿದರು.",
+      "candidate_transliteration": "ಕೇಚಿನ್ಮುನಿಗಣಾ ದುಷ್ಟಂ ಶರಣಂ ತಂ ಯಯುಸ್ತತಃ । ತಸ್ಯಾಜ್ಞಾವರ್ತಿನೋ ಭೂತ್ವಾ ಸಂಸ್ಥಿತಾ ಬ್ರಾಹ್ಮಣಾಧಮಾಃ ॥೨೧॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.22",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 22,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            635,
+            3740,
+            875
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "केचिच्च दुद्रुवुस्तस्य वनेषु ब्राह्मणा भयात् । तत्र स्थिताः स्वधर्मस्थं कर्म चक्रुर्गतज्वराः ॥२२॥",
+      "candidate_kannada": "ಇನ್ನು ಕೆಲವು ಬ್ರಾಹ್ಮಣರು ಅವನ ಭಯದಿಂದ ಅರಣ್ಯಗಳಿಗೆ ಓಡಿಹೋದರು. ಅಲ್ಲಿ ನೆಲೆಸಿ ಆತಂಕವನ್ನು ತೊರೆದು ತಮ್ಮ ಸ್ವಧರ್ಮಕ್ಕೆ ಸೇರಿದ ಕರ್ಮಗಳನ್ನು ನೆರವೇರಿಸಿದರು.",
+      "candidate_transliteration": "ಕೇಚಿಚ್ಚ ದುದ್ರುವುಸ್ತಸ್ಯ ವನೇಷು ಬ್ರಾಹ್ಮಣಾ ಭಯಾತ್ । ತತ್ರ ಸ್ಥಿತಾಃ ಸ್ವಧರ್ಮಸ್ಥಂ ಕರ್ಮ ಚಕ್ರುರ್ಗತಜ್ವರಾಃ ॥೨೨॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.23",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 23,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            735,
+            3740,
+            955
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "सिंहादिभयमुत्सृज्य मरणे कृतनिश्चयाः । सिंहादीनां समीपस्था अवसन् कर्मसिद्धये ॥२३॥",
+      "candidate_kannada": "ಸಿಂಹಾದಿಗಳ ಭಯವನ್ನು ತೊರೆದು, ಮರಣ ಬಂದರೂ ಸ್ವೀಕರಿಸುವ ನಿರ್ಧಾರ ಮಾಡಿಕೊಂಡು, ಕರ್ಮಾನುಷ್ಠಾನವು ಸಿದ್ಧಿಸುವುದಕ್ಕಾಗಿ ಅವರು ಸಿಂಹಾದಿಗಳ ಸಮೀಪದಲ್ಲಿಯೇ ವಾಸಿಸಿದರು.",
+      "candidate_transliteration": "ಸಿಂಹಾದಿಭಯಮುತ್ಸೃಜ್ಯ ಮರಣೇ ಕೃತನಿಶ್ಚಯಾಃ । ಸಿಂಹಾದೀನಾಂ ಸಮೀಪಸ್ಥಾ ಅವಸನ್ ಕರ್ಮಸಿದ್ಧಯೇ ॥೨೩॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.24",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 24,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            730,
+            3740,
+            975
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "एवं द्विजाः स्थितास्तत्र न ज्ञाता दैत्यपेन ते । कर्मभ्रष्टाः स्वभावेन ब्राह्मणा बहवोऽभवन् ॥२४॥",
+      "candidate_kannada": "ಹೀಗೆ ಅಲ್ಲಿ ನೆಲೆಸಿದ್ದ ದ್ವಿಜರ ವಿಷಯ ದೈತ್ಯಾಧಿಪತಿಗೆ ತಿಳಿಯಲಿಲ್ಲ. ಅನೇಕ ಬ್ರಾಹ್ಮಣರು ತಮ್ಮ ಸ್ವಭಾವದಿಂದಲೇ ಕರ್ಮಾನುಷ್ಠಾನದಿಂದ ಭ್ರಷ್ಟರಾದರು.",
+      "candidate_transliteration": "ಏವಂ ದ್ವಿಜಾಃ ಸ್ಥಿತಾಸ್ತತ್ರ ನ ಜ್ಞಾತಾ ದೈತ್ಯಪೇನ ತೇ । ಕರ್ಮಭ್ರಷ್ಟಾಃ ಸ್ವಭಾವೇನ ಬ್ರಾಹ್ಮಣಾ ಬಹವೋಽಭವನ್ ॥೨೪॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.25",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 25,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            830,
+            3740,
+            1060
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "तीर्थानि यज्ञवृक्षाश्च देवतायतनानि ते । बभंजुर्दैत्यचाराश्च यत्र तत्रासुरेश्वर ॥२५॥",
+      "candidate_kannada": "ಅಸುರೇಶ್ವರನೇ, ಆ ದೈತ್ಯರ ಅನುಚರರು ಎಲ್ಲೆಡೆ ತೀರ್ಥಕ್ಷೇತ್ರಗಳನ್ನೂ ಯಜ್ಞವೃಕ್ಷಗಳನ್ನೂ ದೇವಾಲಯಗಳನ್ನೂ ಧ್ವಂಸಗೊಳಿಸಿದರು.",
+      "candidate_transliteration": "ತೀರ್ಥಾನಿ ಯಜ್ಞವೃಕ್ಷಾಶ್ಚ ದೇವತಾಯತನಾನಿ ತೇ । ಬಭಂಜುರ್ದೈತ್ಯಚಾರಾಶ್ಚ ಯತ್ರ ತತ್ರಾಸುರೇಶ್ವರ ॥೨೫॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.26",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 26,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            930,
+            3740,
+            1155
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "आसुरं कर्म सर्वत्र स्थापितं त्रिपुरेण च । वर्णेषु ब्राह्मणाद्येषु दुष्टसंकरकारकम् ॥२६॥",
+      "candidate_kannada": "ತ್ರಿಪುರನು ಬ್ರಾಹ್ಮಣ ಮೊದಲಾದ ಎಲ್ಲ ವರ್ಣಗಳಲ್ಲಿ ದುಷ್ಟಸಂಕರವನ್ನು ಉಂಟುಮಾಡುವ ಆಸುರಕರ್ಮವನ್ನು ಎಲ್ಲೆಡೆಯೂ ಸ್ಥಾಪಿಸಿದನು.",
+      "candidate_transliteration": "ಆಸುರಂ ಕರ್ಮ ಸರ್ವತ್ರ ಸ್ಥಾಪಿತಂ ತ್ರಿಪುರೇಣ ಚ । ವರ್ಣೇಷು ಬ್ರಾಹ್ಮಣಾದ್ಯೇಷು ದುಷ್ಟಸಂಕರಕಾರಕಮ್ ॥೨೬॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.27",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 27,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1020,
+            3740,
+            1190
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "ततो हाहाऽकरोत् सर्वं जगत्तेन दुरात्मना । स्वधर्मवर्जितं दुःखाज्जातं दुष्टप्रपीडितम् ॥२७॥",
+      "candidate_kannada": "ಆ ದುಷ್ಟಾತ್ಮನಿಂದ ಸ್ವಧರ್ಮವನ್ನು ಕಳೆದುಕೊಂಡು, ದುಷ್ಟರಿಂದ ತೀವ್ರವಾಗಿ ಪೀಡಿತವಾದ ಇಡೀ ಜಗತ್ತು ದುಃಖದಿಂದ ಹಾಹಾಕಾರ ಮಾಡಿತು.",
+      "candidate_transliteration": "ತತೋ ಹಾಹಾಽಕರೋತ್ ಸರ್ವಂ ಜಗತ್ತೇನ ದುರಾತ್ಮನಾ । ಸ್ವಧರ್ಮವರ್ಜಿತಂ ದುಃಖಾಜ್ಜಾತಂ ದುಷ್ಟಪ್ರಪೀಡಿತಮ್ ॥೨೭॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.28",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 28,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1090,
+            3740,
+            1290
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "न स्वाहा न वषट्कारो न स्वधादिकमुत्तमम् । तेन देवगणाः सर्वे दैत्यस्य वधकांक्षिणः ॥२८॥",
+      "candidate_kannada": "ಸ್ವಾಹಾ ಎಂಬ ಆಹುತಿಯೂ ಇರಲಿಲ್ಲ; ವಷಟ್ಕಾರವೂ ಇರಲಿಲ್ಲ; ಸ್ವಧಾ ಮೊದಲಾದ ಉತ್ತಮ ಅರ್ಪಣೆಗಳೂ ಇರಲಿಲ್ಲ. ಆದ್ದರಿಂದ ದೇವತೆಗಳೆಲ್ಲರೂ ಆ ದೈತ್ಯನ ವಧೆಯನ್ನು ಬಯಸಿದರು.",
+      "candidate_transliteration": "ನ ಸ್ವಾಹಾ ನ ವಷಟ್ಕಾರೋ ನ ಸ್ವಧಾದಿಕಮುತ್ತಮಮ್ । ತೇನ ದೇವಗಣಾಃ ಸರ್ವೇ ದೈತ್ಯಸ್ಯ ವಧಕಾಂಕ್ಷಿಣಃ ॥೨೮॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.29",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 29,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1180,
+            3740,
+            1390
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "उपोषणैश्च संयुक्ता जाताः कालेन देवपाः । सगणाः परिवारेण निस्तेजस्का बभूविरे ॥२९॥",
+      "candidate_kannada": "ಕಾಲಕ್ರಮದಲ್ಲಿ ದೇವಾಧಿಪತಿಗಳು ಉಪವಾಸಸ್ಥಿತಿಗೆ ಒಳಗಾದರು. ತಮ್ಮ ಗಣಗಳು ಮತ್ತು ಪರಿವಾರದೊಂದಿಗೆ ಅವರು ತೇಜೋಹೀನರಾದರು.",
+      "candidate_transliteration": "ಉಪೋಷಣೈಶ್ಚ ಸಂಯುಕ್ತಾ ಜಾತಾಃ ಕಾಲೇನ ದೇವಪಾಃ । ಸಗಣಾಃ ಪರಿವಾರೇಣ ನಿಸ್ತೇಜಸ್ಕಾ ಬಭೂವಿರೇ ॥೨೯॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.30",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 30,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1270,
+            3740,
+            1490
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "ततो देवगणाः सर्वे दैत्यस्य वधकांक्षिणः । मिलितास्तत्र चोपायं लेभिरे न वधस्य च ॥३०॥",
+      "candidate_kannada": "ಅನಂತರ ಆ ದೈತ್ಯನ ವಧೆಯನ್ನು ಬಯಸಿದ ದೇವತೆಗಳೆಲ್ಲರೂ ಅಲ್ಲಿ ಸೇರಿದರು. ಆದರೂ ಅವನನ್ನು ಕೊಲ್ಲುವ ಉಪಾಯವು ಅವರಿಗೆ ದೊರೆಯಲಿಲ್ಲ.",
+      "candidate_transliteration": "ತತೋ ದೇವಗಣಾಃ ಸರ್ವೇ ದೈತ್ಯಸ್ಯ ವಧಕಾಂಕ್ಷಿಣಃ । ಮಿಲಿತಾಸ್ತತ್ರ ಚೋಪಾಯಂ ಲೇಭಿರೇ ನ ವಧಸ್ಯ ಚ ॥೩೦॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.31",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 31,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1360,
+            3740,
+            1515
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "सनत्कुमारश्च महायोगी तत्रादराद्ययौ । सहसा भाग्ययोगेन सर्वेषां हितकारकः ॥३१॥",
+      "candidate_kannada": "ಅವರ ಭಾಗ್ಯವಶದಿಂದ, ಎಲ್ಲರಿಗೂ ಹಿತವನ್ನು ಮಾಡುವ ಮಹಾಯೋಗಿ ಸನತ್ಕುಮಾರನು ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಆದರದಿಂದ ಅಲ್ಲಿಗೆ ಬಂದನು.",
+      "candidate_transliteration": "ಸನತ್ಕುಮಾರಶ್ಚ ಮಹಾಯೋಗೀ ತತ್ರಾದರಾದ್ಯಯೌ । ಸಹಸಾ ಭಾಗ್ಯಯೋಗೇನ ಸರ್ವೇಷಾಂ ಹಿತಕಾರಕಃ ॥೩೧॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.32",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 32,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1440,
+            3740,
+            1615
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "तं दृष्ट्वा देवपाः सर्वे समुत्तस्थुः प्रणम्य तम् । पूजयामासुरत्यंतमुपचारैर्मनोहरैः ॥३२॥",
+      "candidate_kannada": "ಅವನನ್ನು ಕಂಡು ದೇವಾಧಿಪತಿಗಳೆಲ್ಲರೂ ಎದ್ದುನಿಂತು ನಮಸ್ಕರಿಸಿದರು. ಮನೋಹರವಾದ ಉಪಚಾರಗಳಿಂದ ಅವನನ್ನು ಅತ್ಯಂತ ಆದರದಿಂದ ಪೂಜಿಸಿದರು.",
+      "candidate_transliteration": "ತಂ ದೃಷ್ಟ್ವಾ ದೇವಪಾಃ ಸರ್ವೇ ಸಮುತ್ತಸ್ಥುಃ ಪ್ರಣಮ್ಯ ತಮ್ । ಪೂಜಯಾಮಾಸುರತ್ಯಂತಮುಪಚಾರೈರ್ಮನೋಹರೈಃ ॥೩೨॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.33",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 33,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1450,
+            3740,
+            1715
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "कंदमूलादिकं तत्र निवेद्य च सुभक्तितः । पप्रच्छुस्तं मदस्यैते मरणोपायमंजसा ॥३३॥",
+      "candidate_kannada": "ಅಲ್ಲಿ ಕಂದಮೂಲಾದಿಗಳನ್ನು ಶ್ರದ್ಧಾಭಕ್ತಿಯಿಂದ ನಿವೇದಿಸಿ, ಮದಾಸುರನನ್ನು ಸಂಹರಿಸುವ ನೇರವಾದ ಉಪಾಯವನ್ನು ಅವನಲ್ಲಿ ಕೇಳಿದರು.",
+      "candidate_transliteration": "ಕಂದಮೂಲಾದಿಕಂ ತತ್ರ ನಿವೇದ್ಯ ಚ ಸುಭಕ್ತಿತಃ । ಪಪ್ರಚ್ಛುಸ್ತಂ ಮದಸ್ಯೈತೇ ಮರಣೋಪಾಯಮಂಜಸಾ ॥೩೩॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.34",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 34,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1530,
+            3740,
+            1805
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "देवा ऊचुः । धन्यं जन्म तपो विद्या ज्ञानं देहाश्च पूर्वजाः । त्वदंघ्रिदर्शनेनाद्ययोगिन् कृतकृत्या वयं ततः ॥३४॥",
+      "candidate_kannada": "ದೇವತೆಗಳು ಹೇಳಿದರು: ಯೋಗಿಯೇ, ಇಂದು ನಿನ್ನ ಪಾದದರ್ಶನದಿಂದ ನಮ್ಮ ಜನ್ಮ, ತಪಸ್ಸು, ವಿದ್ಯೆ, ಜ್ಞಾನ, ದೇಹಗಳು ಹಾಗೂ ಪೂರ್ವಜರು ಧನ್ಯರಾದರು. ಇದರಿಂದ ನಾವು ಕೃತಕೃತ್ಯರಾದೆವು.",
+      "candidate_transliteration": "ದೇವಾ ಊಚುಃ । ಧನ್ಯಂ ಜನ್ಮ ತಪೋ ವಿದ್ಯಾ ಜ್ಞಾನಂ ದೇಹಾಶ್ಚ ಪೂರ್ವಜಾಃ । ತ್ವದಂಘ್ರಿದರ್ಶನೇನಾದ್ಯಯೋಗಿನ್ ಕೃತಕೃತ್ಯಾ ವಯಂ ತತಃ ॥೩೪॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.35",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 35,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1630,
+            3740,
+            1825
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "मदासुरेण बलिना जिताः सर्वे महामुने । अतस्तस्य वधार्थं नो वदोपायं महामते ॥३५॥",
+      "candidate_kannada": "ಮಹಾಮುನಿಯೇ, ಬಲಶಾಲಿಯಾದ ಮದಾಸುರನು ನಮ್ಮೆಲ್ಲರನ್ನೂ ಜಯಿಸಿದ್ದಾನೆ. ಆದ್ದರಿಂದ ಮಹಾಮತಿಯಾದ ನೀನು ಅವನ ವಧೆಗಾಗಿ ನಮಗೆ ಉಪಾಯವನ್ನು ತಿಳಿಸು.",
+      "candidate_transliteration": "ಮದಾಸುರೇಣ ಬಲಿನಾ ಜಿತಾಃ ಸರ್ವೇ ಮಹಾಮುನೇ । ಅತಸ್ತಸ್ಯ ವಧಾರ್ಥಂ ನೋ ವದೋಪಾಯಂ ಮಹಾಮತೇ ॥೩೫॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.36",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 36,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1730,
+            3740,
+            1920
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "साधवो देवता विप्राः पीडितास्तेन योगिप । अतः साध्वादिरक्षार्थं वद सर्वज्ञ ते नमः ॥३६॥",
+      "candidate_kannada": "ಯೋಗೀಶ್ವರನೇ, ಸಾಧುಗಳು, ದೇವತೆಗಳು ಮತ್ತು ವಿಪ್ರರು ಅವನಿಂದ ಪೀಡಿತರಾಗಿದ್ದಾರೆ. ಆದ್ದರಿಂದ ಸಾಧು ಮೊದಲಾದವರ ರಕ್ಷಣೆಗಾಗಿ ಉಪಾಯವನ್ನು ಹೇಳು. ಸರ್ವಜ್ಞನೇ, ನಿನಗೆ ನಮಸ್ಕಾರ.",
+      "candidate_transliteration": "ಸಾಧವೋ ದೇವತಾ ವಿಪ್ರಾಃ ಪೀಡಿತಾಸ್ತೇನ ಯೋಗಿಪ । ಅತಃ ಸಾಧ್ವಾದಿರಕ್ಷಾರ್ಥಂ ವದ ಸರ್ವಜ್ಞ ತೇ ನಮಃ ॥೩೬॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.37",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 37,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1730,
+            3740,
+            2030
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "समशीलो भवान् साक्षान्मूर्तं ब्रह्मेव संस्थितः । तथापि दोषसंयुक्तमेकं हंता भव प्रभो ॥३७॥",
+      "candidate_kannada": "ತಾವು ಸಮಭಾವವುಳ್ಳವರಾಗಿ, ಸಾಕ್ಷಾತ್ ಮೂರ್ತಿಮಂತ ಬ್ರಹ್ಮದಂತೆ ನೆಲೆಸಿರುವಿರಿ. ಆದರೂ ಪ್ರಭುವೇ, ದೋಷಗಳಿಂದ ಕೂಡಿದ ಆ ಒಬ್ಬನ ಸಂಹಾರಕರಾಗಿರಿ.",
+      "candidate_transliteration": "ಸಮಶೀಲೋ ಭವಾನ್ ಸಾಕ್ಷಾನ್ಮೂರ್ತಂ ಬ್ರಹ್ಮೇವ ಸಂಸ್ಥಿತಃ । ತಥಾಪಿ ದೋಷಸಂಯುಕ್ತಮೇಕಂ ಹಂತಾ ಭವ ಪ್ರಭೋ ॥೩೭॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.38",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 38,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1830,
+            3740,
+            2115
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "अतिदुष्टमनाहत्य जगत्सर्वं सुखी कुरु । न हत्वा त्वं स्वयं साक्षान्मार्गदर्शी भवस्व नः ॥३८॥",
+      "candidate_kannada": "ಆ ಅತಿದುಷ್ಟನನ್ನು ಸ್ವತಃ ಹೊಡೆಯದೆಯೇ ಇಡೀ ಜಗತ್ತನ್ನು ಸುಖವಾಗಿಸು. ನೀನೇ ನೇರವಾಗಿ ಅವನನ್ನು ಕೊಲ್ಲದೆ, ನಮಗೆ ಮಾರ್ಗದರ್ಶಕನಾಗು.",
+      "candidate_transliteration": "ಅತಿದುಷ್ಟಮನಾಹತ್ಯ ಜಗತ್ಸರ್ವಂ ಸುಖೀ ಕುರು । ನ ಹತ್ವಾ ತ್ವಂ ಸ್ವಯಂ ಸಾಕ್ಷಾನ್ಮಾರ್ಗದರ್ಶೀ ಭವಸ್ವ ನಃ ॥೩೮॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "Print reads अनाहत्य (negative); it is deliberately retained in both source and Kannada, despite contextual tension with the preceding request to slay."
+      ]
+    },
+    {
+      "id": "2.51.39",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 39,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            1930,
+            3740,
+            2160
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "साधवः समशीलाश्च मार्गं संदर्शयंति ते । दीनानां धर्मनिष्ठानामनाथानां महामुने ॥३९॥",
+      "candidate_kannada": "ಮಹಾಮುನಿಯೇ, ಸಮಭಾವವುಳ್ಳ ಸಾಧುಗಳು ದೀನರೂ ಧರ್ಮನಿಷ್ಠರೂ ಅನಾಥರೂ ಆದವರಿಗೆ ಸರಿಯಾದ ಮಾರ್ಗವನ್ನು ತೋರಿಸುತ್ತಾರೆ.",
+      "candidate_transliteration": "ಸಾಧವಃ ಸಮಶೀಲಾಶ್ಚ ಮಾರ್ಗಂ ಸಂದರ್ಶಯಂತಿ ತೇ । ದೀನಾನಾಂ ಧರ್ಮನಿಷ್ಠಾನಾಮನಾಥಾನಾಂ ಮಹಾಮುನೇ ॥೩೯॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.40",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 40,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            2030,
+            3740,
+            2250
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "सत्कर्मनिरतान् जंतून् सदा कुर्वंति साधवः । विकर्मणश्च संहारस्तत्र संजायते यथा ॥४०॥",
+      "candidate_kannada": "ಸಾಧುಗಳು ಜೀವಿಗಳನ್ನು ಸದಾ ಸತ್ಕರ್ಮಗಳಲ್ಲಿ ನಿರತರನ್ನಾಗಿಸುತ್ತಾರೆ; ಹಾಗೆ ಮಾಡುವಾಗ ದುಷ್ಕರ್ಮಗಳ ನಾಶವೂ ಉಂಟಾಗುವಂತೆ ನಡೆಸುತ್ತಾರೆ.",
+      "candidate_transliteration": "ಸತ್ಕರ್ಮನಿರತಾನ್ ಜಂತೂನ್ ಸದಾ ಕುರ್ವಂತಿ ಸಾಧವಃ । ವಿಕರ್ಮಣಶ್ಚ ಸಂಹಾರಸ್ತತ್ರ ಸಂಜಾಯತೇ ಯಥಾ ॥೪೦॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.41",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 41,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            2110,
+            3740,
+            2345
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "न हिंसा सा महायोगिन् विकर्महितकारिका । भवज्ज्ञानेन चाज्ञानं नाशयंति सुसाधवः ॥४१॥",
+      "candidate_kannada": "ಮಹಾಯೋಗಿಯೇ, ದುಷ್ಕರ್ಮ ಮಾಡುವವನಿಗೂ ಹಿತವನ್ನುಂಟುಮಾಡುವ ಆ ಕಾರ್ಯವು ಹಿಂಸೆಯಲ್ಲ. ಸತ್ಸಾಧುಗಳು ನಿನ್ನ ಜ್ಞಾನದಿಂದ ಅಜ್ಞಾನವನ್ನು ನಾಶಪಡಿಸುತ್ತಾರೆ.",
+      "candidate_transliteration": "ನ ಹಿಂಸಾ ಸಾ ಮಹಾಯೋಗಿನ್ ವಿಕರ್ಮಹಿತಕಾರಿಕಾ । ಭವಜ್ಜ್ಞಾನೇನ ಚಾಜ್ಞಾನಂ ನಾಶಯಂತಿ ಸುಸಾಧವಃ ॥೪೧॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "विकर्महितकारिका is visually clear but the compound is semantically difficult; Kannada provisionally takes it as beneficial to the wrongdoer."
+      ]
+    },
+    {
+      "id": "2.51.42",
+      "khanda": 2,
+      "chapter": 51,
+      "verse": 42,
+      "speaker": "ದೇವತೆಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "bbox_xyxy": [
+            230,
+            2140,
+            3740,
+            2370
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744"
+        }
+      ],
+      "candidate_sanskrit": "अतस्त्वं वद नाशार्थमुपायं करवामहै । धर्मसंस्थापनार्थं तं धर्मज्ञाश्च वयं यतः ॥४२॥",
+      "candidate_kannada": "ಆದ್ದರಿಂದ ಅವನ ನಾಶಕ್ಕಾಗಿ ಉಪಾಯವನ್ನು ನೀನು ತಿಳಿಸು; ನಾವು ಅದನ್ನು ಅನುಸರಿಸೋಣ. ನಾವು ಧರ್ಮವನ್ನು ಬಲ್ಲವರಾದುದರಿಂದ, ಧರ್ಮವನ್ನು ಪುನಃ ಸ್ಥಾಪಿಸುವುದಕ್ಕಾಗಿಯೇ ಆ ಕಾರ್ಯವನ್ನು ಮಾಡುವೆವು.",
+      "candidate_transliteration": "ಅತಸ್ತ್ವಂ ವದ ನಾಶಾರ್ಥಮುಪಾಯಂ ಕರವಾಮಹೈ । ಧರ್ಮಸಂಸ್ಥಾಪನಾರ್ಥಂ ತಂ ಧರ್ಮಜ್ಞಾಶ್ಚ ವಯಂ ಯತಃ ॥೪೨॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.1",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 1,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            380,
+            3740,
+            510
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "गृत्समद उवाच । एवं दीनस्वभावेन प्रार्थितो मुनिसत्तमः । सनत्कुमार आनंददायकं तमुवाच ह ॥१॥",
+      "candidate_kannada": "ಗೃತ್ಸಮದನು ಹೇಳಿದನು: ಹೀಗೆ ದೀನಭಾವದಿಂದ ಪ್ರಾರ್ಥಿಸಲ್ಪಟ್ಟ ಮುನಿಶ್ರೇಷ್ಠ ಸನತ್ಕುಮಾರನು ಆನಂದವನ್ನುಂಟುಮಾಡುವ ಮಾತನ್ನು ಅವರಿಗೆ ಹೇಳಿದನು.",
+      "candidate_transliteration": "ಗೃತ್ಸಮದ ಉವಾಚ । ಏವಂ ದೀನಸ್ವಭಾವೇನ ಪ್ರಾರ್ಥಿತೋ ಮುನಿಸತ್ತಮಃ । ಸನತ್ಕುಮಾರ ಆನಂದದಾಯಕಂ ತಮುವಾಚ ಹ ॥೧॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "The print has singular तम् in तमुवाच; Kannada takes the addressed group from the explicit surrounding dialogue."
+      ]
+    },
+    {
+      "id": "2.52.2",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 2,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            480,
+            3740,
+            615
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "सनत्कुमार उवाच । शृणुतेशादयो देवा मदासुरविनाशने । उपायं कथयिष्यामि तत् कुरुध्वं सुरेश्वराः ॥२॥",
+      "candidate_kannada": "ಸನತ್ಕುಮಾರನು ಹೇಳಿದನು: ಈಶ ಮೊದಲಾದ ದೇವತೆಗಳೇ, ಕೇಳಿರಿ. ಮದಾಸುರನ ವಿನಾಶಕ್ಕೆ ಉಪಾಯವನ್ನು ತಿಳಿಸುವೆನು. ದೇವಾಧಿಪತಿಗಳೇ, ಅದನ್ನು ಅನುಸರಿಸಿರಿ.",
+      "candidate_transliteration": "ಸನತ್ಕುಮಾರ ಉವಾಚ । ಶೃಣುತೇಶಾದಯೋ ದೇವಾ ಮದಾಸುರವಿನಾಶನೇ । ಉಪಾಯಂ ಕಥಯಿಷ್ಯಾಮಿ ತತ್ ಕುರುಧ್ವಂ ಸುರೇಶ್ವರಾಃ ॥೨॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.3",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 3,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            495,
+            3740,
+            715
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "गणेशं पूजयध्वं वै यूयं सर्वे समाहिताः । सबाह्यांतरसंस्थं तं हनिष्यति मदासुरम् ॥३॥",
+      "candidate_kannada": "ನೀವೆಲ್ಲರೂ ಏಕಾಗ್ರಚಿತ್ತರಾಗಿ, ಒಳಗೂ ಹೊರಗೂ ನೆಲೆಸಿರುವ ಗಣೇಶನನ್ನು ಪೂಜಿಸಿರಿ. ಅವನು ಮದಾಸುರನನ್ನು ಸಂಹರಿಸುವನು.",
+      "candidate_transliteration": "ಗಣೇಶಂ ಪೂಜಯಧ್ವಂ ವೈ ಯೂಯಂ ಸರ್ವೇ ಸಮಾಹಿತಾಃ । ಸಬಾಹ್ಯಾಂತರಸಂಸ್ಥಂ ತಂ ಹನಿಷ್ಯತಿ ಮದಾಸುರಮ್ ॥೩॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.4",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 4,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            595,
+            3740,
+            815
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "सनत्कुमारवाक्यं तच्छ्रुत्वा देवर्षिसत्तमाः । ऊचुस्तं प्रणिपत्यादौ भक्तिनम्रात्मकंधराः ॥४॥",
+      "candidate_kannada": "ಸನತ್ಕುಮಾರನ ಆ ಮಾತನ್ನು ಕೇಳಿ, ದೇವತೆಗಳಲ್ಲಿಯೂ ಋಷಿಗಳಲ್ಲಿಯೂ ಶ್ರೇಷ್ಠರಾದವರು ಭಕ್ತಿಯಿಂದ ತಲೆಬಾಗಿ ಮೊದಲು ಅವನಿಗೆ ಪ್ರಣಾಮಮಾಡಿ ಹೀಗೆ ಹೇಳಿದರು.",
+      "candidate_transliteration": "ಸನತ್ಕುಮಾರವಾಕ್ಯಂ ತಚ್ಛ್ರುತ್ವಾ ದೇವರ್ಷಿಸತ್ತಮಾಃ । ಊಚುಸ್ತಂ ಪ್ರಣಿಪತ್ಯಾದೌ ಭಕ್ತಿನಮ್ರಾತ್ಮಕಂಧರಾಃ ॥೪॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.5",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 5,
+      "speaker": "ದೇವತೆಗಳು ಮತ್ತು ಋಷಿಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            685,
+            3740,
+            925
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "देवर्षय ऊचुः । केनोपायेन देवेशं गणेशं मुनिसत्तम । पूजयाम विशेषेण तं वद त्वं यथातथम् ॥५॥",
+      "candidate_kannada": "ದೇವತೆಗಳು ಮತ್ತು ಋಷಿಗಳು ಹೇಳಿದರು: ಮುನಿಶ್ರೇಷ್ಠನೇ, ದೇವೇಶನಾದ ಗಣೇಶನನ್ನು ಯಾವ ಉಪಾಯದಿಂದ ವಿಶೇಷವಾಗಿ ಪೂಜಿಸಬೇಕು? ಆ ವಿಧಾನವನ್ನು ನಮಗೆ ಯಥಾರ್ಥವಾಗಿ ತಿಳಿಸು.",
+      "candidate_transliteration": "ದೇವರ್ಷಯ ಊಚುಃ । ಕೇನೋಪಾಯೇನ ದೇವೇಶಂ ಗಣೇಶಂ ಮುನಿಸತ್ತಮ । ಪೂಜಯಾಮ ವಿಶೇಷೇಣ ತಂ ವದ ತ್ವಂ ಯಥಾತಥಮ್ ॥೫॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.6",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 6,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            790,
+            3740,
+            925
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "एवं पृष्टो महायोगी देवैश्च मुनिभिः सह । उवाचाराधनं तेभ्यो गाणपत्यो महायशाः ॥६॥",
+      "candidate_kannada": "ದೇವತೆಗಳು ಮುನಿಗಳೊಡನೆ ಹೀಗೆ ಪ್ರಶ್ನಿಸಿದಾಗ, ಮಹಾಯೋಗಿಯೂ ಮಹಾಯಶಸ್ವಿಯೂ ಗಾಣಪತ್ಯನೂ ಆದ ಅವನು ಅವರಿಗೆ ಆರಾಧನೆಯ ವಿಧಾನವನ್ನು ತಿಳಿಸಿದನು.",
+      "candidate_transliteration": "ಏವಂ ಪೃಷ್ಟೋ ಮಹಾಯೋಗೀ ದೇವೈಶ್ಚ ಮುನಿಭಿಃ ಸಹ । ಉವಾಚಾರಾಧನಂ ತೇಭ್ಯೋ ಗಾಣಪತ್ಯೋ ಮಹಾಯಶಾಃ ॥೬॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.7",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 7,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            800,
+            3740,
+            1020
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "एकाक्षरेण तं देवं हृदिस्थं गणनायकम् । विधिना पूजयध्वं च तुष्टस्तेन भविष्यति ॥७॥",
+      "candidate_kannada": "ಹೃದಯದಲ್ಲಿ ನೆಲೆಸಿರುವ ಆ ಗಣನಾಯಕ ದೇವನನ್ನು ಏಕಾಕ್ಷರಮಂತ್ರದಿಂದ ವಿಧಿಪೂರ್ವಕವಾಗಿ ಪೂಜಿಸಿರಿ. ಅದರಿಂದ ಅವನು ಸಂತುಷ್ಟನಾಗುವನು.",
+      "candidate_transliteration": "ಏಕಾಕ್ಷರೇಣ ತಂ ದೇವಂ ಹೃದಿಸ್ಥಂ ಗಣನಾಯಕಮ್ । ವಿಧಿನಾ ಪೂಜಯಧ್ವಂ ಚ ತುಷ್ಟಸ್ತೇನ ಭವಿಷ್ಯತಿ ॥೭॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.8",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 8,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            900,
+            3740,
+            1125
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "ध्यानं तस्य प्रवक्ष्यामि शृणुध्वं सुरसत्तमाः । यूयं तं तादृशं ध्यात्वा तोषयध्वं निधानतः ॥८॥",
+      "candidate_kannada": "ದೇವಶ್ರೇಷ್ಠರೇ, ಅವನ ಧ್ಯಾನರೂಪವನ್ನು ತಿಳಿಸುವೆನು; ಕೇಳಿರಿ. ನೀವು ಅವನನ್ನು ಅಂಥ ರೂಪದಲ್ಲಿಯೇ ಧ್ಯಾನಿಸಿ ಸಂತುಷ್ಟಗೊಳಿಸಿರಿ. (“ನಿಧಾನತಃ” ಎಂಬ ಪದದ ನಿಖರ ತಾತ್ಪರ್ಯವು ಪರಿಶೀಲನೀಯವಾಗಿದೆ.)",
+      "candidate_transliteration": "ಧ್ಯಾನಂ ತಸ್ಯ ಪ್ರವಕ್ಷ್ಯಾಮಿ ಶೃಣುಧ್ವಂ ಸುರಸತ್ತಮಾಃ । ಯೂಯಂ ತಂ ತಾದೃಶಂ ಧ್ಯಾತ್ವಾ ತೋಷಯಧ್ವಂ ನಿಧಾನತಃ ॥೮॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "Print reads निधानतः, not विधानतः. Its exact adverbial sense is unresolved and explicitly left open in Kannada."
+      ]
+    },
+    {
+      "id": "2.52.9",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 9,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1010,
+            3740,
+            1220
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "एकदंतं चतुर्बाहुं गजवक्रं महोदरम् । सिद्धिबुद्धिसमायुक्तं मूषकारूढमेव च ॥९॥",
+      "candidate_kannada": "ಅವನು ಏಕದಂತನು, ನಾಲ್ಕು ಭುಜಗಳುಳ್ಳವನು, ಗಜಮುಖನು ಮತ್ತು ದೊಡ್ಡ ಉದರವುಳ್ಳವನು; ಸಿದ್ಧಿ ಮತ್ತು ಬುದ್ಧಿಯರೊಡನೆ ಕೂಡಿರುವವನು ಹಾಗೂ ಮೂಷಕವಾಹನಾರೂಢನು.",
+      "candidate_transliteration": "ಏಕದಂತಂ ಚತುರ್ಬಾಹುಂ ಗಜವಕ್ರಂ ಮಹೋದರಮ್ । ಸಿದ್ಧಿಬುದ್ಧಿಸಮಾಯುಕ್ತಂ ಮೂಷಕಾರೂಢಮೇವ ಚ ॥೯॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "The print visibly uses गजवक्रं; do not silently emend to गजवक्त्रं. Kannada retains the intended elephant-faced epithet."
+      ]
+    },
+    {
+      "id": "2.52.10",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 10,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1120,
+            3740,
+            1245
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "नाभिशेषं सपाशं वै परशुं कमलं शुभम् । अभयं दधतं चैव प्रसन्नवदनांबुजम् ॥१०॥",
+      "candidate_kannada": "ಪಾಶ, ಪರಶು ಮತ್ತು ಶುಭವಾದ ಕಮಲವನ್ನು ಧರಿಸಿ, ಅಭಯವನ್ನು ನೀಡುವವನಾಗಿ, ಪ್ರಸನ್ನಮುಖಕಮಲವುಳ್ಳವನಾಗಿ ಅವನನ್ನು ಧ್ಯಾನಿಸಬೇಕು. (“ನಾಭಿಶೇಷಂ” ಎಂಬ ವಿಶೇಷಣದ ಅರ್ಥವು ಇನ್ನೂ ನಿರ್ಧರಿತವಾಗಿಲ್ಲ; ಆ ಪದದ ಅರ್ಥಾನುವಾದವು ಪರಿಶೀಲನಾಧೀನವಾಗಿದೆ.)",
+      "candidate_transliteration": "ನಾಭಿಶೇಷಂ ಸಪಾಶಂ ವೈ ಪರಶುಂ ಕಮಲಂ ಶುಭಮ್ । ಅಭಯಂ ದಧತಂ ಚೈವ ಪ್ರಸನ್ನವದನಾಂಬುಜಮ್ ॥೧೦॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "Meaning hold: the Sanskrit नाभिशेषं is visually clear, but its exact compound interpretation is unresolved. No Shesha-at-navel interpretation is asserted. Kannada explicitly marks this untranslated term as pending review."
+      ]
+    },
+    {
+      "id": "2.52.11",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 11,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1125,
+            3740,
+            1345
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "भक्तेभ्यो वरदं नित्यमभक्तानां निषूदनम् । एतादृशं हृदि ध्यात्वा सेवध्वं चैकदंतकम् ॥११॥",
+      "candidate_kannada": "ಸದಾ ಭಕ್ತರಿಗೆ ವರವನ್ನು ನೀಡುವವನೂ ಅಭಕ್ತರನ್ನು ಸಂಹರಿಸುವವನೂ ಆದ ಏಕದಂತನನ್ನು ಈ ರೀತಿಯಾಗಿ ಹೃದಯದಲ್ಲಿ ಧ್ಯಾನಿಸಿ ಸೇವಿಸಿರಿ.",
+      "candidate_transliteration": "ಭಕ್ತೇಭ್ಯೋ ವರದಂ ನಿತ್ಯಮಭಕ್ತಾನಾಂ ನಿಷೂದನಮ್ । ಏತಾದೃಶಂ ಹೃದಿ ಧ್ಯಾತ್ವಾ ಸೇವಧ್ವಂ ಚೈಕದಂತಕಮ್ ॥೧೧॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.12",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 12,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1230,
+            3740,
+            1435
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "सर्वेषां हृदि संस्थोऽयं बुद्धिप्रेरकभावतः । स्वयं बुद्धिपतिः साक्षादात्मा वै सर्वदेहिनाम् ॥१२॥",
+      "candidate_kannada": "ಅವನು ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸುವ ಸ್ವರೂಪದಲ್ಲಿ ಎಲ್ಲರ ಹೃದಯದಲ್ಲಿಯೂ ನೆಲೆಸಿದ್ದಾನೆ. ಅವನು ಸ್ವತಃ ಬುದ್ಧಿಪತಿಯಾಗಿದ್ದು, ಎಲ್ಲ ದೇಹಧಾರಿಗಳಿಗೂ ಸಾಕ್ಷಾತ್ ಆತ್ಮನಾಗಿದ್ದಾನೆ.",
+      "candidate_transliteration": "ಸರ್ವೇಷಾಂ ಹೃದಿ ಸಂಸ್ಥೋಽಯಂ ಬುದ್ಧಿಪ್ರೇರಕಭಾವತಃ । ಸ್ವಯಂ ಬುದ್ಧಿಪತಿಃ ಸಾಕ್ಷಾದಾತ್ಮಾ ವೈ ಸರ್ವದೇಹಿನಾಮ್ ॥೧೨॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.13",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 13,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1330,
+            3740,
+            1540
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "एकशब्दो मता माया देहरूपा विलासिनी । सत्तात्मको दंतशब्दः प्रोक्तस्तत्र न संशयः ॥१३॥",
+      "candidate_kannada": "ಏಕ ಎಂಬ ಶಬ್ದವು ದೇಹರೂಪವನ್ನು ತಳೆದು ಲೀಲಾಮಯವಾಗಿ ವ್ಯಕ್ತವಾಗುವ ಮಾಯೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ ಎಂದು ಹೇಳಲಾಗಿದೆ. ದಂತ ಎಂಬ ಶಬ್ದವು ಸತ್ತಾಸ್ವರೂಪವನ್ನು ಸೂಚಿಸುತ್ತದೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "candidate_transliteration": "ಏಕಶಬ್ದೋ ಮತಾ ಮಾಯಾ ದೇಹರೂಪಾ ವಿಲಾಸಿನೀ । ಸತ್ತಾತ್ಮಕೋ ದಂತಶಬ್ದಃ ಪ್ರೋಕ್ತಸ್ತತ್ರ ನ ಸಂಶಯಃ ॥೧೩॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.14",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 14,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1420,
+            3740,
+            1635
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "मायाया धारकोऽयं वै सत्तामात्रेण संस्थितः । एकदंतो गणेशानः कथ्यते वेदवादिभिः ॥१४॥",
+      "candidate_kannada": "ಕೇವಲ ಸತ್ತಾಸ್ವರೂಪವಾಗಿ ನೆಲೆಸಿರುವ ಇವನು ಮಾಯೆಯ ಧಾರಕನಾಗಿದ್ದಾನೆ. ಆದ್ದರಿಂದ ವೇದವಾದಿಗಳು ಗಣೇಶಾನನನ್ನು ಏಕದಂತನೆಂದು ಕರೆಯುತ್ತಾರೆ.",
+      "candidate_transliteration": "ಮಾಯಾಯಾ ಧಾರಕೋಽಯಂ ವೈ ಸತ್ತಾಮಾತ್ರೇಣ ಸಂಸ್ಥಿತಃ । ಏಕದಂತೋ ಗಣೇಶಾನಃ ಕಥ್ಯತೇ ವೇದವಾದಿಭಿಃ ॥೧೪॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.15",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 15,
+      "speaker": "ಸನತ್ಕುಮಾರ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1515,
+            3740,
+            1640
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "सर्वसत्ताधारं पूर्णमेकदंतं गजाननम् । सेवध्वं भक्तिभावेन भविष्यति सदा सुखम् ॥१५॥",
+      "candidate_kannada": "ಎಲ್ಲ ಅಸ್ತಿತ್ವಕ್ಕೂ ಆಧಾರನಾದ, ಪೂರ್ಣನಾದ, ಗಜಾನನನಾದ ಏಕದಂತನನ್ನು ಭಕ್ತಿಭಾವದಿಂದ ಸೇವಿಸಿರಿ. ಅದರಿಂದ ಸದಾ ಸುಖವು ಉಂಟಾಗುವುದು.",
+      "candidate_transliteration": "ಸರ್ವಸತ್ತಾಧಾರಂ ಪೂರ್ಣಮೇಕದಂತಂ ಗಜಾನನಮ್ । ಸೇವಧ್ವಂ ಭಕ್ತಿಭಾವೇನ ಭವಿಷ್ಯತಿ ಸದಾ ಸುಖಮ್ ॥೧೫॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.16",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 16,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1615,
+            3740,
+            1740
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "सनत्कुमार उक्त्वैवं ययौ योगी स आदरात् । जयहेरंबमंत्रं वै समुच्चार्य मुखेन सः ॥१६॥",
+      "candidate_kannada": "ಯೋಗಿಯಾದ ಸನತ್ಕುಮಾರನು ಹೀಗೆ ಹೇಳಿ, ತನ್ನ ಬಾಯಿಂದ ಆದರಪೂರ್ವಕವಾಗಿ “ಜಯ ಹೇರಂಬ” ಎಂಬ ಮಂತ್ರವನ್ನು ಉಚ್ಚರಿಸಿ ಹೊರಟುಹೋದನು.",
+      "candidate_transliteration": "ಸನತ್ಕುಮಾರ ಉಕ್ತ್ವೈವಂ ಯಯೌ ಯೋಗೀ ಸ ಆದರಾತ್ । ಜಯಹೇರಂಬಮಂತ್ರಂ ವೈ ಸಮುಚ್ಚಾರ್ಯ ಮುಖೇನ ಸಃ ॥೧೬॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.17",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 17,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1620,
+            3740,
+            1835
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "ततो देवगणाः सर्वे मुनयस्तपसि स्थिताः । एकाक्षरविधानेन तोषयामासुरादरात् ॥१७॥",
+      "candidate_kannada": "ಅನಂತರ ಎಲ್ಲ ದೇವತೆಗಳೂ ಮುನಿಗಳೂ ತಪಸ್ಸಿನಲ್ಲಿ ನಿರತರಾಗಿ, ಏಕಾಕ್ಷರಮಂತ್ರದ ವಿಧಾನದಿಂದ ಆದರಪೂರ್ವಕವಾಗಿ ಅವನನ್ನು ಸಂತುಷ್ಟಗೊಳಿಸಿದರು.",
+      "candidate_transliteration": "ತತೋ ದೇವಗಣಾಃ ಸರ್ವೇ ಮುನಯಸ್ತಪಸಿ ಸ್ಥಿತಾಃ । ಏಕಾಕ್ಷರವಿಧಾನೇನ ತೋಷಯಾಮಾಸುರಾದರಾತ್ ॥೧೭॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.18",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 18,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1730,
+            3740,
+            1930
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "पत्रभक्षा निराहारा वायुभक्षा जलाशिनः । कंदमूलफलाहाराः केचित् केचिद्बभूविरे ॥१८॥",
+      "candidate_kannada": "ಅವರಲ್ಲಿ ಕೆಲವರು ಎಲೆಗಳನ್ನು ಮಾತ್ರ ತಿನ್ನುವವರಾದರು; ಕೆಲವರು ನಿರಾಹಾರಿಗಳಾದರು; ಕೆಲವರು ಗಾಳಿಯನ್ನೇ ಆಹಾರವಾಗಿಸಿಕೊಂಡರು; ಕೆಲವರು ನೀರನ್ನು ಮಾತ್ರ ಸೇವಿಸಿದರು; ಇನ್ನು ಕೆಲವರು ಕಂದ, ಬೇರು ಮತ್ತು ಹಣ್ಣುಗಳನ್ನು ಆಹಾರವಾಗಿಸಿಕೊಂಡರು.",
+      "candidate_transliteration": "ಪತ್ರಭಕ್ಷಾ ನಿರಾಹಾರಾ ವಾಯುಭಕ್ಷಾ ಜಲಾಶಿನಃ । ಕಂದಮೂಲಫಲಾಹಾರಾಃ ಕೇಚಿತ್ ಕೇಚಿದ್ಬಭೂವಿರೇ ॥೧೮॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.19",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 19,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1820,
+            3740,
+            2020
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "संस्थिता ध्याननिष्ठा वै जपहोमपरायणाः । नानातपःप्रभावेणातोषयन् गणनायकम् ॥१९॥",
+      "candidate_kannada": "ಅವರು ಧ್ಯಾನನಿಷ್ಠರಾಗಿ, ಜಪಹೋಮಗಳಲ್ಲಿ ಪರಾಯಣರಾಗಿ ನೆಲೆಸಿ, ನಾನಾವಿಧ ತಪಸ್ಸಿನ ಪ್ರಭಾವದಿಂದ ಗಣನಾಯಕನನ್ನು ಸಂತುಷ್ಟಗೊಳಿಸಿದರು.",
+      "candidate_transliteration": "ಸಂಸ್ಥಿತಾ ಧ್ಯಾನನಿಷ್ಠಾ ವೈ ಜಪಹೋಮಪರಾಯಣಾಃ । ನಾನಾತಪಃಪ್ರಭಾವೇಣಾತೋಷಯನ್ ಗಣನಾಯಕಮ್ ॥೧೯॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.20",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 20,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            1920,
+            3740,
+            2050
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "गते वर्षशते चैव संतुष्टश्चैकदंतकः । आययौ तान् वरं दातुं ध्यातस्तैर्हृदि यस्तथा ॥२०॥",
+      "candidate_kannada": "ನೂರು ವರ್ಷಗಳು ಕಳೆದ ಬಳಿಕ ಏಕದಂತನು ಸಂತುಷ್ಟನಾದನು. ಅವರು ತಮ್ಮ ಹೃದಯದಲ್ಲಿ ಯಾವ ರೂಪದಲ್ಲಿ ಧ್ಯಾನಿಸಿದ್ದರೋ ಅದೇ ರೂಪದಲ್ಲಿ, ಅವರಿಗೆ ವರವನ್ನು ನೀಡಲು ಬಂದನು.",
+      "candidate_transliteration": "ಗತೇ ವರ್ಷಶತೇ ಚೈವ ಸಂತುಷ್ಟಶ್ಚೈಕದಂತಕಃ । ಆಯಯೌ ತಾನ್ ವರಂ ದಾತುಂ ಧ್ಯಾತಸ್ತೈರ್ಹೃದಿ ಯಸ್ತಥಾ ॥೨೦॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.21",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 21,
+      "speaker": "ಗೃತ್ಸಮದ; ಉಲ್ಲೇಖಿತ ವಚನ: ಗಜಾನನ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            2020,
+            3740,
+            2140
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "जगाद स तपोयुक्तान् मुनीन् देवान् गजाननः । वरं वृणुत तुष्टोऽहं दास्यामि ब्राह्मणाऽमराः ॥२१॥",
+      "candidate_kannada": "ಗಜಾನನನು ತಪಸ್ಸಿನಲ್ಲಿ ನಿರತರಾಗಿದ್ದ ಮುನಿಗಳಿಗೂ ದೇವತೆಗಳಿಗೂ ಹೇಳಿದನು: ಬ್ರಾಹ್ಮಣರೇ, ದೇವತೆಗಳೇ, ವರವನ್ನು ಕೇಳಿರಿ; ನಾನು ಸಂತುಷ್ಟನಾಗಿದ್ದೇನೆ, ಅದನ್ನು ನೀಡುವೆನು.",
+      "candidate_transliteration": "ಜಗಾದ ಸ ತಪೋಯುಕ್ತಾನ್ ಮುನೀನ್ ದೇವಾನ್ ಗಜಾನನಃ । ವರಂ ವೃಣುತ ತುಷ್ಟೋಽಹಂ ದಾಸ್ಯಾಮಿ ಬ್ರಾಹ್ಮಣಾಽಮರಾಃ ॥೨೧॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.22",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 22,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            2025,
+            3740,
+            2230
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "तस्य तद्वचनं श्रुत्वा हृष्टा देवर्षयोऽभवन् । उन्मील्य लोचने देवमपश्यन् सविधस्थितम् ॥२२॥",
+      "candidate_kannada": "ಅವನ ಆ ಮಾತನ್ನು ಕೇಳಿ ದೇವತೆಗಳು ಮತ್ತು ಋಷಿಗಳು ಹರ್ಷಿತರಾದರು. ಕಣ್ಣುಗಳನ್ನು ತೆರೆದು, ತಮ್ಮ ಸಮೀಪದಲ್ಲಿ ನಿಂತಿದ್ದ ದೇವನನ್ನು ಕಂಡರು.",
+      "candidate_transliteration": "ತಸ್ಯ ತದ್ವಚನಂ ಶ್ರುತ್ವಾ ಹೃಷ್ಟಾ ದೇವರ್ಷಯೋಽಭವನ್ । ಉನ್ಮೀಲ್ಯ ಲೋಚನೇ ದೇವಮಪಶ್ಯನ್ ಸವಿಧಸ್ಥಿತಮ್ ॥೨೨॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.23",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 23,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            2120,
+            3740,
+            2340
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "दृष्ट्वा मूषकसंस्थं तं प्रणेमुस्ते गजाननम् । मुनयो देवदेवेंद्रा भक्तियुक्ता अपूजयन् ॥२३॥",
+      "candidate_kannada": "ಮೂಷಕದ ಮೇಲೆ ನೆಲೆಸಿದ್ದ ಆ ಗಜಾನನನನ್ನು ನೋಡಿ ಅವರು ನಮಸ್ಕರಿಸಿದರು. ಮುನಿಗಳೂ ದೇವಾಧಿಪತಿಗಳೂ ಭಕ್ತಿಯಿಂದ ಅವನನ್ನು ಪೂಜಿಸಿದರು.",
+      "candidate_transliteration": "ದೃಷ್ಟ್ವಾ ಮೂಷಕಸಂಸ್ಥಂ ತಂ ಪ್ರಣೇಮುಸ್ತೇ ಗಜಾನನಮ್ । ಮುನಯೋ ದೇವದೇವೇಂದ್ರಾ ಭಕ್ತಿಯುಕ್ತಾ ಅಪೂಜಯನ್ ॥೨೩॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.24",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 24,
+      "speaker": "ಗೃತ್ಸಮದ",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            2230,
+            3740,
+            2440
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "पूजयित्वा यथान्यायं प्रणम्य करसंपुटैः । तुष्टुवुश्चैकदंतं तं भक्तिनम्रात्मकंधराः ॥२४॥",
+      "candidate_kannada": "ಯಥಾವಿಧಿಯಾಗಿ ಪೂಜಿಸಿ, ಅಂಜಲಿಬದ್ಧ ಕೈಗಳಿಂದ ನಮಸ್ಕರಿಸಿ, ಭಕ್ತಿಯಿಂದ ತಲೆಬಾಗಿದ ಅವರು ಆ ಏಕದಂತನನ್ನು ಸ್ತುತಿಸಿದರು.",
+      "candidate_transliteration": "ಪೂಜಯಿತ್ವಾ ಯಥಾನ್ಯಾಯಂ ಪ್ರಣಮ್ಯ ಕರಸಂಪುಟೈಃ । ತುಷ್ಟುವುಶ್ಚೈಕದಂತಂ ತಂ ಭಕ್ತಿನಮ್ರಾತ್ಮಕಂಧರಾಃ ॥೨೪॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.25",
+      "khanda": 2,
+      "chapter": 52,
+      "verse": 25,
+      "speaker": "ದೇವತೆಗಳು ಮತ್ತು ಋಷಿಗಳು",
+      "status": "candidate_only",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "bbox_xyxy": [
+            230,
+            2320,
+            3740,
+            2450
+          ],
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      ],
+      "candidate_sanskrit": "देवर्षय ऊचुः । नमस्ते गजवक्राय गणेशाय नमो नमः । अनंतानंदभोक्त्रे वै ब्रह्मणे ब्रह्मरूपिणे ॥२५॥",
+      "candidate_kannada": "ದೇವತೆಗಳು ಮತ್ತು ಋಷಿಗಳು ಹೇಳಿದರು: ಗಜಮುಖನಾದ ನಿನಗೆ ನಮಸ್ಕಾರ. ಗಣೇಶನಾದ ನಿನಗೆ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ. ಅನಂತಾನಂದವನ್ನು ಅನುಭವಿಸುವವನೂ ಬ್ರಹ್ಮನೂ ಬ್ರಹ್ಮಸ್ವರೂಪಿಯೂ ಆದ ನಿನಗೆ ನಮಸ್ಕಾರ.",
+      "candidate_transliteration": "ದೇವರ್ಷಯ ಊಚುಃ । ನಮಸ್ತೇ ಗಜವಕ್ರಾಯ ಗಣೇಶಾಯ ನಮೋ ನಮಃ । ಅನಂತಾನಂದಭೋಕ್ತ್ರೇ ವೈ ಬ್ರಹ್ಮಣೇ ಬ್ರಹ್ಮರೂಪಿಣೇ ॥೨೫॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "The print uses गजवक्राय, retained literally rather than emended to गजवक्त्राय."
+      ]
+    }
+  ],
+  "boundary_fragments": [
+    {
+      "id": "2.51.17.a",
+      "parent_verse": "2.51.17",
+      "fragment_status": "page_boundary_only",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+          "bbox_xyxy": [
+            1930,
+            2350,
+            3700,
+            2465
+          ]
+        }
+      ],
+      "candidate_sanskrit": "एवमुक्त्वा महादैत्यं तूष्णीं भावेन संस्थितम् ।",
+      "candidate_kannada": "ಮಹಾದೈತ್ಯನಿಗೆ ಹೀಗೆ ಹೇಳಿ ಮೌನವಾಗಿ ನಿಂತಿದ್ದ [ತ್ರಿಪುರನನ್ನು]…",
+      "candidate_transliteration": "ಏವಮುಕ್ತ್ವಾ ಮಹಾದೈತ್ಯಂ ತೂಷ್ಣೀಂ ಭಾವೇನ ಸಂಸ್ಥಿತಮ್ ।",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "This is a page-split fragment. Interpret the complete verse from both assigned page images; square brackets in the first fragment only identify the noun visible in the second fragment."
+      ]
+    },
+    {
+      "id": "2.51.17.b",
+      "parent_verse": "2.51.17",
+      "fragment_status": "page_boundary_only",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+          "bbox_xyxy": [
+            350,
+            210,
+            1650,
+            360
+          ]
+        }
+      ],
+      "candidate_sanskrit": "सदसि त्रिपुरं वीक्ष्य तमुवाच मदासुरः ॥१७॥",
+      "candidate_kannada": "…ಸಭೆಯಲ್ಲಿ ತ್ರಿಪುರನನ್ನು ನೋಡಿ ಮದಾಸುರನು ಅವನಿಗೆ ಹೇಳಿದನು.",
+      "candidate_transliteration": "ಸದಸಿ ತ್ರಿಪುರಂ ವೀಕ್ಷ್ಯ ತಮುವಾಚ ಮದಾಸುರಃ ॥೧೭॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": [
+        "This is a page-split fragment. Interpret the complete verse from both assigned page images; square brackets in the first fragment only identify the noun visible in the second fragment."
+      ]
+    }
+  ],
+  "apparatus": [
+    {
+      "id": "2.50.colophon",
+      "kind": "colophon",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+          "bbox_xyxy": [
+            550,
+            820,
+            3500,
+            955
+          ]
+        }
+      ],
+      "candidate_sanskrit": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते मदासुरविजयो नाम पंचाशत्तमोऽध्यायः ॥",
+      "candidate_kannada": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಮದಾಸುರವಿಜಯ ಎಂಬ ಐವತ್ತನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+      "candidate_transliteration": "॥ ಓಮಿತಿ ಶ್ರೀಮದಾನ್ತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಮದಾಸುರವಿಜಯೋ ನಾಮ ಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.invocation",
+      "kind": "invocation",
+      "source_provenance": [
+        {
+          "page_image": 233,
+          "path": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+          "bbox_xyxy": [
+            250,
+            1110,
+            900,
+            1230
+          ]
+        }
+      ],
+      "candidate_sanskrit": "॥ श्रीगणेशाय नमः ॥",
+      "candidate_kannada": "ಶ್ರೀಗಣೇಶನಿಗೆ ನಮಸ್ಕಾರ.",
+      "candidate_transliteration": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.51.colophon",
+      "kind": "colophon",
+      "source_provenance": [
+        {
+          "page_image": 234,
+          "path": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+          "bbox_xyxy": [
+            450,
+            2130,
+            3500,
+            2420
+          ]
+        }
+      ],
+      "candidate_sanskrit": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते सनत्कुमारदेवसमागमो नामैकपंचाशत्तमोऽध्यायः ॥",
+      "candidate_kannada": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಸನತ್ಕುಮಾರನ ಮತ್ತು ದೇವತೆಗಳ ಸಮಾಗಮ ಎಂಬ ಐವತ್ತೊಂದನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+      "candidate_transliteration": "॥ ಓಮಿತಿ ಶ್ರೀಮದಾಂತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಸನತ್ಕುಮಾರದೇವಸಮಾಗಮೋ ನಾಮೈಕಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    },
+    {
+      "id": "2.52.invocation",
+      "kind": "invocation",
+      "source_provenance": [
+        {
+          "page_image": 235,
+          "path": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059",
+          "bbox_xyxy": [
+            240,
+            380,
+            900,
+            510
+          ]
+        }
+      ],
+      "candidate_sanskrit": "॥ श्रीगणेशाय नमः ॥",
+      "candidate_kannada": "ಶ್ರೀಗಣೇಶನಿಗೆ ನಮಸ್ಕಾರ.",
+      "candidate_transliteration": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null,
+      "uncertainty_flags": []
+    }
+  ],
+  "outer_boundary_status": {
+    "start": "Page 0233 begins with complete 2.50.45; no previous-page text supplied here.",
+    "end": "Page 0235 ends with complete 2.52.25. The hymn continues beyond the assigned pages; no continuation has been reconstructed."
+  },
+  "revision": {
+    "version": 2,
+    "supersedes_candidate_file": "/workspace/shared/khanda2_recovery/gap3/middle/middle_candidates_v1.json",
+    "supersedes_sha256": "3b2179d46d530c369c7676f0056a5e445d9df9aba7dd42180bfa923dcb6936c3",
+    "reviewer_task": "/root/recover_khanda_two_gaps/validate_long_gap",
+    "scope": "Apply the four independently reviewed corrections only; retain all source pages and all 71 verse records.",
+    "meaning_review_holds": [
+      "2.50.46",
+      "2.51.15",
+      "2.51.41",
+      "2.52.8",
+      "2.52.10"
+    ],
+    "acceptance": "All accepted_sanskrit and accepted_kannada fields remain null. Frozen candidate status does not imply acceptance.",
+    "change_log": [
+      {
+        "record_id": "2.51.40",
+        "field": "candidate_sanskrit",
+        "before": "सत्कर्मनिरतान् जंतून् सदा कुर्वंति साधवः । विकर्मणाश्च संहारस्तत्र संजायते यथा ॥४०॥",
+        "after": "सत्कर्मनिरतान् जंतून् सदा कुर्वंति साधवः । विकर्मणश्च संहारस्तत्र संजायते यथा ॥४०॥",
+        "reason": "Remove unsupported long ā; match visible source.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "bbox_xyxy": [
+            990,
+            1995,
+            1530,
+            2140
+          ],
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_v40_word.png",
+          "verification": "Independent reviewer reading and author direct visual reinspection agree: no long ā after ण.",
+          "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+          "review_crop_sha256": "b589ab8ff5cf6725c1a7998a6ddc1a6b16ee214f22752d39478ff7218d020542"
+        }
+      },
+      {
+        "record_id": "2.51.40",
+        "field": "candidate_transliteration",
+        "before": "ಸತ್ಕರ್ಮನಿರತಾನ್ ಜಂತೂನ್ ಸದಾ ಕುರ್ವಂತಿ ಸಾಧವಃ । ವಿಕರ್ಮಣಾಶ್ಚ ಸಂಹಾರಸ್ತತ್ರ ಸಂಜಾಯತೇ ಯಥಾ ॥೪೦॥",
+        "after": "ಸತ್ಕರ್ಮನಿರತಾನ್ ಜಂತೂನ್ ಸದಾ ಕುರ್ವಂತಿ ಸಾಧವಃ । ವಿಕರ್ಮಣಶ್ಚ ಸಂಹಾರಸ್ತತ್ರ ಸಂಜಾಯತೇ ಯಥಾ ॥೪೦॥",
+        "reason": "Regenerate Kannada-script Sanskrit from corrected source.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "bbox_xyxy": [
+            990,
+            1995,
+            1530,
+            2140
+          ],
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_v40_word.png",
+          "verification": "Independent reviewer reading and author direct visual reinspection agree: no long ā after ण.",
+          "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+          "review_crop_sha256": "b589ab8ff5cf6725c1a7998a6ddc1a6b16ee214f22752d39478ff7218d020542"
+        }
+      },
+      {
+        "record_id": "2.52.10",
+        "field": "candidate_kannada",
+        "before": "ಹೊಕ್ಕಳಲ್ಲಿ ಶೇಷನಾಗವನ್ನು ಹೊಂದಿರುವವನಾಗಿ, ಪಾಶ, ಪರಶು ಮತ್ತು ಶುಭವಾದ ಕಮಲವನ್ನು ಧರಿಸಿ, ಅಭಯವನ್ನು ನೀಡುವವನಾಗಿ, ಪ್ರಸನ್ನಮುಖಕಮಲವುಳ್ಳವನಾಗಿ ಅವನನ್ನು ಧ್ಯಾನಿಸಬೇಕು.",
+        "after": "ಪಾಶ, ಪರಶು ಮತ್ತು ಶುಭವಾದ ಕಮಲವನ್ನು ಧರಿಸಿ, ಅಭಯವನ್ನು ನೀಡುವವನಾಗಿ, ಪ್ರಸನ್ನಮುಖಕಮಲವುಳ್ಳವನಾಗಿ ಅವನನ್ನು ಧ್ಯಾನಿಸಬೇಕು. (“ನಾಭಿಶೇಷಂ” ಎಂಬ ವಿಶೇಷಣದ ಅರ್ಥವು ಇನ್ನೂ ನಿರ್ಧರಿತವಾಗಿಲ್ಲ; ಆ ಪದದ ಅರ್ಥಾನುವಾದವು ಪರಿಶೀಲನಾಧೀನವಾಗಿದೆ.)",
+        "reason": "Remove asserted Shesha-in-navel interpretation and show an explicit Kannada meaning hold.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "bbox_xyxy": [
+            230,
+            1120,
+            3740,
+            1245
+          ],
+          "verification": "The source word नाभिशेषं is clear. Its compound meaning remains unestablished; an asserted Shesha-at-navel interpretation is removed.",
+          "source_sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      },
+      {
+        "record_id": "2.52.10",
+        "field": "uncertainty_flags",
+        "before": [
+          "नाभिशेषं is the visual reading; the compound is provisionally interpreted as having Śeṣa at the navel."
+        ],
+        "after": [
+          "Meaning hold: the Sanskrit नाभिशेषं is visually clear, but its exact compound interpretation is unresolved. No Shesha-at-navel interpretation is asserted. Kannada explicitly marks this untranslated term as pending review."
+        ],
+        "reason": "Keep unresolved meaning visible in both record metadata and Kannada.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0235.png",
+          "bbox_xyxy": [
+            230,
+            1120,
+            3740,
+            1245
+          ],
+          "verification": "The source word नाभिशेषं is clear. Its compound meaning remains unestablished; an asserted Shesha-at-navel interpretation is removed.",
+          "source_sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+        }
+      },
+      {
+        "record_id": "2.50.colophon",
+        "field": "candidate_sanskrit",
+        "before": "॥ ओमिति श्रीमदन्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते मदासुरविजयो नाम पंचाशत्तमोऽध्यायः ॥",
+        "after": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते मदासुरविजयो नाम पंचाशत्तमोऽध्यायः ॥",
+        "reason": "Correct long vowel while preserving page-specific conjunct spelling and literal ओमिति.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/233_colophon_first.png",
+          "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदान्त्ये, with long ā and न्त्य conjunct.",
+          "source_sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+          "review_crop_sha256": "8a210573000d740bb2b213a7d44d43bb659592ed191a97a76839f9899c591518"
+        }
+      },
+      {
+        "record_id": "2.50.colophon",
+        "field": "candidate_kannada",
+        "before": "ಓಂ. ಶ್ರೀಮದಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಮದಾಸುರವಿಜಯ ಎಂಬ ಐವತ್ತನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+        "after": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಮದಾಸುರವಿಜಯ ಎಂಬ ಐವತ್ತನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+        "reason": "Match the corrected long-vowel title; preserve antya, not ādya.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/233_colophon_first.png",
+          "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदान्त्ये, with long ā and न्त्य conjunct.",
+          "source_sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+          "review_crop_sha256": "8a210573000d740bb2b213a7d44d43bb659592ed191a97a76839f9899c591518"
+        }
+      },
+      {
+        "record_id": "2.50.colophon",
+        "field": "candidate_transliteration",
+        "before": "॥ ಓಮಿತಿ ಶ್ರೀಮದನ್ತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಮದಾಸುರವಿಜಯೋ ನಾಮ ಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+        "after": "॥ ಓಮಿತಿ ಶ್ರೀಮದಾನ್ತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಮದಾಸುರವಿಜಯೋ ನಾಮ ಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+        "reason": "Regenerate Kannada-script Sanskrit from corrected colophon.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/233_colophon_first.png",
+          "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदान्त्ये, with long ā and न्त्य conjunct.",
+          "source_sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+          "review_crop_sha256": "8a210573000d740bb2b213a7d44d43bb659592ed191a97a76839f9899c591518"
+        }
+      },
+      {
+        "record_id": "2.50.colophon",
+        "field": "uncertainty_flags",
+        "before": [
+          "Small-print epithet श्रीमदन्त्ये should receive independent visual verification."
+        ],
+        "after": [],
+        "reason": "The previously flagged epithet has now received independent pixel verification; accepted fields remain null.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0233.png",
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/233_colophon_first.png",
+          "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदान्त्ये, with long ā and न्त्य conjunct.",
+          "source_sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+          "review_crop_sha256": "8a210573000d740bb2b213a7d44d43bb659592ed191a97a76839f9899c591518"
+        }
+      },
+      {
+        "record_id": "2.51.colophon",
+        "field": "candidate_sanskrit",
+        "before": "॥ ओमिति श्रीमदंत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते सनत्कुमारदेवसमागमो नामैकपंचाशत्तमोऽध्यायः ॥",
+        "after": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते सनत्कुमारदेवसमागमो नामैकपंचाशत्तमोऽध्यायः ॥",
+        "reason": "Correct long vowel while preserving page-specific anusvāra spelling and literal ओमिति.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_colophon_first.png",
+          "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदांत्ये, with long ā and anusvāra.",
+          "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+          "review_crop_sha256": "8f591e79125f0ee3515f03d13022347c6ae171f631416fee02af0190708321a8"
+        }
+      },
+      {
+        "record_id": "2.51.colophon",
+        "field": "candidate_kannada",
+        "before": "ಓಂ. ಶ್ರೀಮದಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಸನತ್ಕುಮಾರನ ಮತ್ತು ದೇವತೆಗಳ ಸಮಾಗಮ ಎಂಬ ಐವತ್ತೊಂದನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+        "after": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಸನತ್ಕುಮಾರನ ಮತ್ತು ದೇವತೆಗಳ ಸಮಾಗಮ ಎಂಬ ಐವತ್ತೊಂದನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+        "reason": "Match the corrected long-vowel title; preserve antya, not ādya.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_colophon_first.png",
+          "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदांत्ये, with long ā and anusvāra.",
+          "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+          "review_crop_sha256": "8f591e79125f0ee3515f03d13022347c6ae171f631416fee02af0190708321a8"
+        }
+      },
+      {
+        "record_id": "2.51.colophon",
+        "field": "candidate_transliteration",
+        "before": "॥ ಓಮಿತಿ ಶ್ರೀಮದಂತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಸನತ್ಕುಮಾರದೇವಸಮಾಗಮೋ ನಾಮೈಕಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+        "after": "॥ ಓಮಿತಿ ಶ್ರೀಮದಾಂತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಸನತ್ಕುಮಾರದೇವಸಮಾಗಮೋ ನಾಮೈಕಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+        "reason": "Regenerate Kannada-script Sanskrit from corrected colophon.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_colophon_first.png",
+          "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदांत्ये, with long ā and anusvāra.",
+          "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+          "review_crop_sha256": "8f591e79125f0ee3515f03d13022347c6ae171f631416fee02af0190708321a8"
+        }
+      },
+      {
+        "record_id": "2.51.colophon",
+        "field": "uncertainty_flags",
+        "before": [
+          "Small-print epithet श्रीमदंत्ये and chapter-number compound need independent visual verification."
+        ],
+        "after": [],
+        "reason": "Independent reviewer inspected this colophon; preserve it as a candidate with accepted fields null.",
+        "evidence": {
+          "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+          "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_colophon_first.png",
+          "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदांत्ये, with long ā and anusvāra.",
+          "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+          "review_crop_sha256": "8f591e79125f0ee3515f03d13022347c6ae171f631416fee02af0190708321a8"
+        }
+      }
+    ]
+  }
+}

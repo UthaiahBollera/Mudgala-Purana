@@ -1,0 +1,74 @@
+{
+  "base": {
+    "path": "/workspace/shared/khanda2_recovery/gap3/tail/tail_recovery_candidates.json",
+    "sha256": "e1da9d2c46f8a58ce0150048dfdfce30306c65a4d42331511b06273d5b58a5f0"
+  },
+  "revision": "v2",
+  "changes": [
+    {
+      "id": "2.52.26",
+      "field": "candidate_kannada",
+      "before": "ಆದಿ, ಮಧ್ಯ ಮತ್ತು ಅಂತ್ಯಗಳಿಲ್ಲದವನೂ ಚರಾಚರಸ್ವರೂಪನೂ ಆದ ನಿನಗೆ ನಮಸ್ಕಾರ. ಅನಂತವಾದ ಉದರದಲ್ಲಿ ಸರ್ವವನ್ನೂ ಒಳಗೊಂಡವನೂ ನಾಭಿಯಲ್ಲಿ ಶೇಷನನ್ನು ಹೊಂದಿರುವವನೂ ಆದ ನಿನಗೆ ನಮಸ್ಕಾರ.",
+      "after": "ಆದಿ, ಮಧ್ಯ ಮತ್ತು ಅಂತ್ಯಗಳಿಲ್ಲದವನೂ ಚರಾಚರಸ್ವರೂಪನೂ ಆದ ನಿನಗೆ ನಮಸ್ಕಾರ. ಅನಂತವಾದ ಉದರದಲ್ಲಿ ನೆಲೆಸಿರುವವನಾದ ನಿನಗೆ ನಮಸ್ಕಾರ. [“ನಾಭಿಶೇಷಾಯ” ಎಂಬ ವಿಶೇಷಣದ ನಿಖರಾರ್ಥವು ಪರಿಶೀಲನೆಗೆ ಬಾಕಿಯಿದೆ.]",
+      "reason": "Independent reviewer found the earlier Shesha-in-the-navel interpretation unsupported; compound now explicitly unresolved."
+    },
+    {
+      "id": "2.52.26",
+      "field": "uncertainty_flags",
+      "before": [
+        "The compound नाभिशेषाय is visually legible but unusual; retained without emendation."
+      ],
+      "after": [
+        "The compound नाभिशेषाय is visually legible but its meaning is unresolved. No claim about Shesha being in the navel is made in this revised Kannada."
+      ],
+      "reason": "Preserve source without unsupported doctrinal interpretation."
+    },
+    {
+      "id": "2.53.15",
+      "field": "candidate_sanskrit",
+      "before": "दैत्याः सर्वे च तं दृष्ट्वा भयभीता बभूविरे । स्थित्वा तत्रैव दैत्येशो दूतं तं संजगुर्वचः ॥१५॥",
+      "after": "दैत्याः सर्वे च तं दृष्ट्वा भयभीता बभूविरे । स्थित्वा तत्रैव दैत्येशा दूतं ते संजगुर्वचः ॥१५॥",
+      "reason": "Independent visual reviewer identified plural दैत्येशा and ते."
+    },
+    {
+      "id": "2.53.15",
+      "field": "candidate_kannada",
+      "before": "ಅವನನ್ನು ಕಂಡು ದೈತ್ಯರೆಲ್ಲರೂ ಭಯಭೀತರಾದರು. ಅಲ್ಲಿಯೇ ನಿಂತ ದೈತ್ಯೇಶನು ಆ ದೂತನಿಗೆ ಮಾತನ್ನು ಹೇಳಿದನು.",
+      "after": "ಅವನನ್ನು ಕಂಡು ದೈತ್ಯರೆಲ್ಲರೂ ಭಯಭೀತರಾದರು. ಅಲ್ಲಿಯೇ ನಿಂತ ಆ ದೈತ್ಯಾಧಿಪತಿಗಳು ದೂತನಿಗೆ ಈ ಮಾತನ್ನು ಹೇಳಿದರು.",
+      "reason": "Plural chiefs and plural pronoun restored; no singular Madāsura speaker introduced."
+    },
+    {
+      "id": "2.53.15",
+      "field": "uncertainty_flags",
+      "before": [
+        "The printed दैत्येशो ... संजगुर्वचः is grammatically irregular in number; retained without replacing the verb."
+      ],
+      "after": [],
+      "reason": "Independent pixel review resolves the apparent number mismatch in the first candidate."
+    },
+    {
+      "id": "2.53.16",
+      "field": "speaker",
+      "before": "मदासुर (command to messenger)",
+      "after": "दैत्येशाः (command to messenger; plural speakers from 53.15)",
+      "reason": "Propagate the independently verified plural speaker into the following direct speech."
+    },
+    {
+      "id": "2.52.48",
+      "field": "candidate_kannada",
+      "before": "ಕೋಟ್ಯಂತರ ಶತವರ್ಷಗಳು ಕಳೆದರೂ ಅದರ ಸಂಪೂರ್ಣ ಮಹಿಮೆಯನ್ನು ಹೇಳಲು ನನಗೆ ಸಾಧ್ಯವಿಲ್ಲ. ಆದ್ದರಿಂದ ಸಾರಭೂತವಾದ ವಿಷಯವನ್ನು ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಹೇಳಿದ್ದೇನೆ.",
+      "after": "ನೂರು ಕೋಟಿ ವರ್ಷಗಳಿಂದಲೂ ಅದರ ಸಂಪೂರ್ಣ ಮಹಿಮೆಯನ್ನು ಹೇಳಲು ನನಗೆ ಸಾಧ್ಯವಿಲ್ಲ. ಆದ್ದರಿಂದ ಸಾರಭೂತವಾದ ವಿಷಯವನ್ನು ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಹೇಳಿದ್ದೇನೆ.",
+      "reason": "Independent Kannada review clarified वर्षकोटिशतैरपि as ನೂರು ಕೋಟಿ ವರ್ಷಗಳಿಂದಲೂ."
+    },
+    {
+      "id": "2.52.48",
+      "field": "uncertainty_flags",
+      "before": [
+        "वर्षकोटिशतैरपि denotes hundreds of crores of years; the Kannada preserves that magnitude without converting it to a modern numeral."
+      ],
+      "after": [],
+      "reason": "The explicit source magnitude is now represented directly in Kannada."
+    }
+  ],
+  "accepted_fields_remain_null": true
+}

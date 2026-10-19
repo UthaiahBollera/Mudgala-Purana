@@ -1,0 +1,558 @@
+{
+  "schema": "khanda2.long_gap.independent_review.v2",
+  "status": "review_complete_candidate_only_unresolved_holds_remain",
+  "edition_verified": false,
+  "accepted_sanskrit": null,
+  "accepted_kannada": null,
+  "review_scope": {
+    "unique_source_verse_records": 216,
+    "head_independent_reviewer_records": 71,
+    "this_reviewer_middle_tail_records": 145,
+    "new_complete_gap_verses": 214,
+    "partial_outer_boundary_verses": 2,
+    "full_boundary_join_candidates": 2
+  },
+  "method": "Direct reading of supplied original PNG pixels plus lossless crops/enlargements. Sanskrit and formal Kannada meaning checked together for names, speakers, negation, doctrine, numbering, verse order and cross-page joins. No OCR/Tesseract/Gemma, paid transcription, external edition, canonical editing or publication. Head review is separately attributed below; this reviewer does not claim to have personally completed its 71-record pass.",
+  "source_archive_hash_independently_recomputed": false,
+  "source_mapping": [
+    {
+      "page": 229,
+      "printed_page": 103,
+      "coverage": "Context only: 49.1–25 and 49.26 opening; validate 49.26 join once"
+    },
+    {
+      "page": 230,
+      "printed_page": 104,
+      "coverage": "49.26 remainder–49.49, 49.50 opening"
+    },
+    {
+      "page": 231,
+      "printed_page": 105,
+      "coverage": "49.50 remainder–49.52; chapter 49 colophon; 50.1–18 and 50.19 opening"
+    },
+    {
+      "page": 232,
+      "printed_page": 106,
+      "coverage": "50.19 remainder–50.44"
+    },
+    {
+      "page": 233,
+      "printed_page": 107,
+      "coverage": "50.45–48 and colophon; 51.1–16 and 51.17 opening"
+    },
+    {
+      "page": 234,
+      "printed_page": 108,
+      "coverage": "51.17 remainder–51.42 and colophon"
+    },
+    {
+      "page": 235,
+      "printed_page": 109,
+      "coverage": "52.1–25"
+    },
+    {
+      "page": 236,
+      "printed_page": 110,
+      "coverage": "52.26–50 and colophon"
+    },
+    {
+      "page": 237,
+      "printed_page": 111,
+      "coverage": "53.1–25 and 53.26 opening"
+    },
+    {
+      "page": 238,
+      "printed_page": 112,
+      "coverage": "53.26 remainder–53.48 and 53.49 opening"
+    },
+    {
+      "page": 239,
+      "printed_page": 113,
+      "coverage": "Boundary context only: 53.49 remainder; later material excluded from missing-gap insertion"
+    }
+  ],
+  "reviewed_candidate_ranges": [
+    {
+      "range": "2.49.26 continuation–52; 2.50.1–44",
+      "count": 71,
+      "source_pages": [
+        229,
+        230,
+        231,
+        232
+      ],
+      "review_basis": "Separate independent reviewer report, read and incorporated; this reviewer also directly inspected49.26–52 and both outer boundary source contexts.",
+      "review_report": "head/independent-review-first-khanda.md",
+      "review_report_sha256": "346fd8cca0cccbd66aff4d872a1046f151a6ffd81e2fe1f89005a641353a4a96",
+      "original_candidate": "head/head_candidates.json",
+      "original_candidate_sha256": "d9fe9feb895fbbde6e8b55f6cbcb573c158740617ea32f87a3efbaf3908c5ad5",
+      "final_candidate": "head/head_final_frozen_r3.json",
+      "final_candidate_sha256": "50ce707201dd44a9e1e386b0268d838798c20f0a40e5c8b72622e16bae50a66a",
+      "sanskrit": "All71 records plus49colophon and50invocation reviewed by the head reviewer.",
+      "kannada": "All71 formal Kannada meanings reviewed by the head reviewer.",
+      "status": "candidate_reviewed_with_corrections_and_holds"
+    },
+    {
+      "range": "2.50.45–48; 2.51.1–42; 2.52.1–25",
+      "count": 71,
+      "source_pages": [
+        233,
+        234,
+        235
+      ],
+      "review_basis": "Direct independent source-pixel and Sanskrit/Kannada comparison by this reviewer.",
+      "original_candidate": "middle/middle_candidates_v1.json",
+      "original_candidate_sha256": "3b2179d46d530c369c7676f0056a5e445d9df9aba7dd42180bfa923dcb6936c3",
+      "final_candidate": "middle/middle_candidates_v2.json",
+      "final_candidate_sha256": "71f7566477ceb0de637c6d41cb3033b95155ee2fcc47cfb3f265bf03a73a3947",
+      "sanskrit": "All71 verse records plus two invocations and two colophons reviewed.",
+      "kannada": "All71 meanings reviewed; negative अनाहत्य and doctrine of ritual deprivation retained.",
+      "status": "candidate_reviewed_with_corrections_and_holds"
+    },
+    {
+      "range": "2.52.26–50; 2.53.1–49 opening, plus existing53.49 ending for one-time join",
+      "count": 74,
+      "source_pages": [
+        236,
+        237,
+        238,
+        239
+      ],
+      "review_basis": "Direct independent source-pixel and Sanskrit/Kannada comparison by this reviewer.",
+      "original_candidate": "tail/tail_recovery_candidates.json",
+      "original_candidate_sha256": "e1da9d2c46f8a58ce0150048dfdfce30306c65a4d42331511b06273d5b58a5f0",
+      "initial50_snapshot": "validation_tail_initial_snapshot.json",
+      "initial50_snapshot_sha256": "4c13873b460bdc0b6b204718db49b2985b81a64522936aa7d071c46d5afb3419",
+      "final_candidate": "tail/tail_final_frozen_v4.json",
+      "final_candidate_sha256": "367e19f131f4d82d7718a62dd4f44c0a2224c37b74ceb4bedca572e61afbea31",
+      "sanskrit": "All74 source verse targets plus52colophon,53invocation and53.49boundary assembly reviewed.",
+      "kannada": "All74 meanings/partial meanings reviewed; corrected plural speakers, explicit negation, number wording; uncertainty retained.",
+      "status": "candidate_reviewed_with_corrections_and_holds"
+    }
+  ],
+  "unchecked_candidate_ranges": [],
+  "not_established_or_not_checked": [
+    "No edition identification or critical-edition comparison was made. The claimed complete archive hash was not independently recomputed.",
+    "This is a substantive source/transcription/meaning review, not blanket character-perfect certification of every cramped glyph. Explicit source and meaning holds below remain unresolved.",
+    "No canonical-file insertion, rendered book, website, publication, or post-insertion duplicate check was performed because no canonical modification is authorized in this task.",
+    "Source bounding boxes are mostly conservative whole-line bands, not token-tight coordinates. Specific correction crops are narrower where stated.",
+    "Final acceptance of any Sanskrit or Kannada field remains outside this candidate-only review. All accepted fields must stay null."
+  ],
+  "issues": [
+    {
+      "id": "LGV-001",
+      "verse": "2.53.15–16",
+      "severity": "source_and_speaker_correction",
+      "source_page": "page_0237.png",
+      "coordinates_xyxy": [
+        260,
+        1470,
+        3660,
+        1630
+      ],
+      "candidate_sanskrit_before": "दैत्येशो दूतं तं",
+      "source_reading_or_revised_candidate": "दैत्येशा दूतं ते",
+      "candidate_kannada_before": "ಅಲ್ಲಿಯೇ ನಿಂತ ದೈತ್ಯೇಶನು ಆ ದೂತನಿಗೆ ಮಾತನ್ನು ಹೇಳಿದನು.",
+      "suggested_or_revised_kannada": "ಅಲ್ಲಿಯೇ ನಿಂತ ಆ ದೈತ್ಯಾಧಿಪತಿಗಳು ದೂತನಿಗೆ ಈ ಮಾತನ್ನು ಹೇಳಿದರು.",
+      "explanation": "Original plural ते and संजगुः agree with दैत्येशा. The following command inherits plural speakers.",
+      "status": "verified_corrected_in_tail_v3",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-002",
+      "verse": "2.52.26",
+      "severity": "meaning_uncertainty_propagation",
+      "source_page": "page_0236.png",
+      "coordinates_xyxy": [
+        270,
+        180,
+        3700,
+        380
+      ],
+      "candidate_sanskrit_before": "अनंतोदरसंस्थाय नाभिशेषाय",
+      "source_reading_or_revised_candidate": "Unchanged source; no emendation",
+      "candidate_kannada_before": "ಅನಂತವಾದ ಉದರದಲ್ಲಿ ಸರ್ವವನ್ನೂ ಒಳಗೊಂಡವನೂ ನಾಭಿಯಲ್ಲಿ ಶೇಷನನ್ನು ಹೊಂದಿರುವವನೂ",
+      "suggested_or_revised_kannada": "ಅನಂತವಾದ ಉದರದಲ್ಲಿ ನೆಲೆಸಿರುವವನಾದ ನಿನಗೆ ನಮಸ್ಕಾರ. [“ನಾಭಿಶೇಷಾಯ” ಎಂಬ ವಿಶೇಷಣದ ನಿಖರಾರ್ಥವು ಪರಿಶೀಲನೆಗೆ ಬಾಕಿಯಿದೆ.]",
+      "explanation": "Initial Kannada supplied ಸರ್ವವನ್ನೂ and silently resolved an explicitly uncertain epithet. Revised literal/provisional rendering is safer; the report does not prove the original iconographic gloss impossible.",
+      "status": "verified_corrected_in_tail_v3",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-003",
+      "verse": "2.52.48",
+      "severity": "Kannada_number_precision",
+      "source_page": "page_0236.png",
+      "coordinates_xyxy": [
+        210,
+        1750,
+        3690,
+        2250
+      ],
+      "candidate_sanskrit_before": "वर्षकोटिशतैरपि",
+      "source_reading_or_revised_candidate": "Unchanged source",
+      "candidate_kannada_before": "ಕೋಟ್ಯಂತರ ಶತವರ್ಷಗಳು ಕಳೆದರೂ",
+      "suggested_or_revised_kannada": "ನೂರು ಕೋಟಿ ವರ್ಷಗಳಿಂದಲೂ",
+      "explanation": "Preserve the compound number, a hundred crores of years.",
+      "status": "verified_corrected_in_tail_v3",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-004",
+      "verse": "2.52.36",
+      "severity": "unresolved_glyph",
+      "source_page": "page_0236.png",
+      "coordinates_xyxy": [
+        1000,
+        1040,
+        1830,
+        1150
+      ],
+      "candidate_sanskrit_before": "भवेच्चेद्यपि",
+      "source_reading_or_revised_candidate": null,
+      "candidate_kannada_before": null,
+      "suggested_or_revised_kannada": null,
+      "explanation": "Independent crop reading does not settle the exact cramped cluster; preserve uncertainty.",
+      "status": "unresolved_hold",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-005",
+      "verse": "2.53.42",
+      "severity": "doctrinal_negation",
+      "source_page": "page_0238.png",
+      "coordinates_xyxy": [
+        220,
+        1650,
+        3690,
+        1830
+      ],
+      "candidate_sanskrit_before": "न ब्रह्मांडमयाकारो भवेत्तद्वर्जितो न च",
+      "source_reading_or_revised_candidate": "Unchanged source",
+      "candidate_kannada_before": "ಈತನು ಕೇವಲ ಬ್ರಹ್ಮಾಂಡಮಯ ಆಕಾರವಲ್ಲ",
+      "suggested_or_revised_kannada": "ಈತನು ಬ್ರಹ್ಮಾಂಡಮಯ ಆಕಾರವುಳ್ಳವನೂ ಅಲ್ಲ; ಹಾಗೆಯೇ ಅದರಿಂದ ರಹಿತನೂ ಅಲ್ಲ.",
+      "explanation": "Remove added ಕೇವಲ (merely), which weakens the first explicit negation. Both source negations must remain.",
+      "status": "verified_corrected_in_tail_v3",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-006",
+      "verse": "2.51.40",
+      "severity": "source_vowel",
+      "source_page": "page_0234.png",
+      "coordinates_xyxy": [
+        990,
+        1995,
+        1530,
+        2140
+      ],
+      "candidate_sanskrit_before": "विकर्मणाश्च",
+      "source_reading_or_revised_candidate": "विकर्मणश्च",
+      "candidate_kannada_before": null,
+      "suggested_or_revised_kannada": null,
+      "explanation": "Original has no long ā after ण. Correct Sanskrit and its mechanical Kannada-script transliteration; meaning remains destruction of improper action.",
+      "status": "verified_corrected_in_middle_v2",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-007",
+      "verse": "2.52.colophon",
+      "severity": "title_and_diplomatic_spelling",
+      "source_page": "page_0236.png",
+      "coordinates_xyxy": [
+        410,
+        2160,
+        3430,
+        2345
+      ],
+      "candidate_sanskrit_before": "ॐमिति श्रीमदाद्ये",
+      "source_reading_or_revised_candidate": "ओमिति श्रीमदांत्ये",
+      "candidate_kannada_before": "ಶ್ರೀಮದಾದ್ಯ",
+      "suggested_or_revised_kannada": "ಶ್ರೀಮದಾಂತ್ಯ",
+      "explanation": "The print has antya, not ādya; literal opening is ओमिति. Crop validation_crops/236_colophon_first.png supports the long vowel and nasal spelling.",
+      "status": "verified_corrected_in_tail_v4",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-008",
+      "verse": "2.50.colophon",
+      "severity": "source_vowel",
+      "source_page": "page_0233.png",
+      "coordinates_xyxy": [
+        550,
+        820,
+        1600,
+        955
+      ],
+      "candidate_sanskrit_before": "श्रीमदन्त्ये",
+      "source_reading_or_revised_candidate": "श्रीमदान्त्ये",
+      "candidate_kannada_before": "ಶ್ರೀಮದಂತ್ಯ",
+      "suggested_or_revised_kannada": "ಶ್ರೀಮದಾಂತ್ಯ",
+      "explanation": "Long ā is visible; preserve the printed न्त्य conjunct. Crop validation_crops/233_colophon_first.png.",
+      "status": "verified_corrected_in_middle_v2",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-009",
+      "verse": "2.51.colophon",
+      "severity": "source_vowel",
+      "source_page": "page_0234.png",
+      "coordinates_xyxy": [
+        450,
+        2190,
+        1600,
+        2420
+      ],
+      "candidate_sanskrit_before": "श्रीमदंत्ये",
+      "source_reading_or_revised_candidate": "श्रीमदांत्ये",
+      "candidate_kannada_before": "ಶ್ರೀಮದಂತ್ಯ",
+      "suggested_or_revised_kannada": "ಶ್ರೀಮದಾಂತ್ಯ",
+      "explanation": "Long ā is visible; this page uses nasal-dot style. Crop validation_crops/234_colophon_first.png.",
+      "status": "verified_corrected_in_middle_v2",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-010",
+      "verse": "2.52.10",
+      "severity": "meaning_uncertainty_propagation",
+      "source_page": "page_0235.png",
+      "coordinates_xyxy": [
+        230,
+        1120,
+        3740,
+        1245
+      ],
+      "candidate_sanskrit_before": "नाभिशेषं",
+      "source_reading_or_revised_candidate": "Unchanged source",
+      "candidate_kannada_before": "ಹೊಕ್ಕಳಲ್ಲಿ ಶೇಷನಾಗವನ್ನು ಹೊಂದಿರುವವನಾಗಿ",
+      "suggested_or_revised_kannada": null,
+      "explanation": "Source compound is clear, but its iconographic construction remains provisional in this packet; retain a visible Kannada note consistent with52.26.",
+      "status": "verified_corrected_in_middle_v2",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-011",
+      "verse": "2.49.46",
+      "severity": "source_conjunct_and_meaning",
+      "source_page": "page_0230.png",
+      "coordinates_xyxy": [
+        250,
+        1875,
+        3710,
+        2220
+      ],
+      "candidate_sanskrit_before": "नगास्ते / नगास्त्रियश्च",
+      "source_reading_or_revised_candidate": "नग्नास्ते / नग्नास्त्रियश्च",
+      "candidate_kannada_before": "ಪರ್ವತಗಳು ಹಾಗೂ ಪರ್ವತಸ್ತ್ರೀಯರು",
+      "suggested_or_revised_kannada": "ನಗ್ನರೂ ನಗ್ನಸ್ತ್ರೀಯರೂ",
+      "explanation": "Separate head reviewer independently confirms naked figures/women, not mountain beings.",
+      "status": "verified_corrected_in_head_r3",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-012",
+      "verse": "2.49.38",
+      "severity": "unsupported_source_expansion",
+      "source_page": "page_0230.png",
+      "coordinates_xyxy": [
+        250,
+        1245,
+        3710,
+        1590
+      ],
+      "candidate_sanskrit_before": "गरुडाधारिः",
+      "source_reading_or_revised_candidate": "गरुडाद्रिः (provisional)",
+      "candidate_kannada_before": "ಗರುಡನನ್ನಾಧಾರವಾಗಿ ಹೊಂದಿರುವ ವಿಷ್ಣುವು",
+      "suggested_or_revised_kannada": "ವಿಷ್ಣುವು ಬಿದ್ದನು; printed epithet reading/meaning remains under review.",
+      "explanation": "Unsupported extra letters removed; exact lexical interpretation remains unresolved.",
+      "status": "verified_corrected_in_head_r3",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-013",
+      "verse": "2.49.colophon",
+      "severity": "diplomatic_spelling",
+      "source_page": "page_0231.png",
+      "coordinates_xyxy": [
+        250,
+        560,
+        3710,
+        720
+      ],
+      "candidate_sanskrit_before": "ॐमिति श्रीमदांत्ये",
+      "source_reading_or_revised_candidate": "ओमिति श्रीमदान्त्ये",
+      "candidate_kannada_before": null,
+      "suggested_or_revised_kannada": null,
+      "explanation": "Separate head reviewer sees the ओ and न्त्य forms. Kannada ಶ್ರೀಮದಾಂತ್ಯ already suitable.",
+      "status": "verified_corrected_in_head_r3",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "id": "LGV-014",
+      "verse": "2.50.30",
+      "severity": "Kannada_action_direction",
+      "source_page": "page_0232.png",
+      "coordinates_xyxy": [
+        250,
+        1028,
+        3710,
+        1228
+      ],
+      "candidate_sanskrit_before": "ममर्द देहपातेन महाशक्तिं महासुरः",
+      "source_reading_or_revised_candidate": "Unchanged source",
+      "candidate_kannada_before": "ದೇಹವನ್ನು ಮೇಲಕ್ಕೆ ಬೀಳಿಸಿ",
+      "suggested_or_revised_kannada": "ಮಹಾಸುರನು ತನ್ನ ದೇಹದ ಭಾರದಿಂದ ಮಹಾಶಕ್ತಿಯನ್ನು ಮರ್ದಿಸಿದನು.",
+      "explanation": "Upward movement is not expressed. Separate head reviewer corrects bodily fall/weight onto Mahāśakti.",
+      "status": "verified_corrected_in_head_r3",
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    }
+  ],
+  "retained_holds": [
+    {
+      "verse": "2.49.27",
+      "source": "त्रैलोक्यभाविनम्",
+      "hold": "Printed reading supported; do not silently replace with भासिनम्. Kannada is interpretive."
+    },
+    {
+      "verse": "2.49.36",
+      "source": "यत्र त्वां मुंचामि कर्हिचित्",
+      "hold": "No visible न. Do not supply a negative to fit the threat. Literal candidate meaning remains explicitly provisional."
+    },
+    {
+      "verse": "2.49.38",
+      "source": "गरुडाद्रिः",
+      "hold": "Provisional visual reading. Exact epithet/meaning unresolved after removal of unsupported extra letters."
+    },
+    {
+      "verse": "2.50.33",
+      "source": "देवै",
+      "hold": "No clear printed visarga; do not normalize silently."
+    },
+    {
+      "verse": "2.50.35",
+      "source": "न ममर्ष निजात्मानं",
+      "hold": "Printed text supported; contextual meaning remains unresolved. Do not replace with an inferred forgot himself."
+    },
+    {
+      "verse": "2.50.39",
+      "source": "शक्तिराहत्योवाच",
+      "hold": "Printed text supported; action/parsing is not resolved. Do not suppress the untranslated action while treating the verse as accepted."
+    },
+    {
+      "verse": "2.50.46",
+      "source": "दैत्येन ... ददौ",
+      "hold": "Instrumental construction is unusual; tribute-context Kannada remains a provisional reading."
+    },
+    {
+      "verse": "2.51.15",
+      "source": "अन्ये वर्णाश्रमस्था ये ब्राह्मणाः",
+      "hold": "Enumeration/syntax is unclear in the print. No caste term or conjunction should be treated as established beyond source."
+    },
+    {
+      "verse": "2.51.41",
+      "source": "विकर्महितकारिका",
+      "hold": "Exact intended compound meaning not resolved; benefit to a wrongdoer is a provisional interpretive rendering."
+    },
+    {
+      "verse": "2.52.1",
+      "source": "तमुवाच",
+      "hold": "Source singular object is retained; Kannada addresses the evident surrounding group. The number mismatch remains recorded."
+    },
+    {
+      "verse": "2.52.8",
+      "source": "निधानतः",
+      "hold": "Exact printed reading confirmed; adverbial meaning is not resolved and is visibly marked in Kannada."
+    },
+    {
+      "verse": "2.52.9;2.52.25",
+      "source": "गजवक्रं; गजवक्राय",
+      "hold": "Printed वक्र forms retained. Kannada elephant-faced meaning is interpretive; no silent Sanskrit repair to वक्त्र."
+    },
+    {
+      "verse": "2.52.10;2.52.26",
+      "source": "नाभिशेषं; नाभिशेषाय",
+      "hold": "Printed compounds confirmed and also recur at54.11. Navel/Śeṣa iconographic gloss is possible, but not independently established here; Kannada must remain visibly provisional rather than certify it as resolved doctrine."
+    },
+    {
+      "verse": "2.52.32",
+      "source": "वेदांतालभ्यकाय",
+      "hold": "Printed wording retained; Vedānta-alabhya parsing remains a candidate interpretation."
+    },
+    {
+      "verse": "2.52.36",
+      "source": "भवेच्चेद्यपि",
+      "hold": "Exact cramped चेद्य/चद्य cluster cannot be certified independently. No grammatical modernization performed."
+    },
+    {
+      "verse": "2.53.10",
+      "source": "देवेंद्राः शत्रवः सर्वे सुराणां",
+      "hold": "सुराणां is clearly printed despite contextual tension; do not supply असुराणां."
+    },
+    {
+      "verse": "2.53.33",
+      "source": "सच्छित्वा",
+      "hold": "Unusual printed participial form retained without normalization."
+    },
+    {
+      "verse": "2.53.37",
+      "source": "परशूपस्थितं",
+      "hold": "Unusual printed compound/syntax retained; Kannada construction is not a resolved philological judgment."
+    },
+    {
+      "verse": "2.53.38",
+      "source": "हृद्येऽभवत्",
+      "hold": "Printed form appears हृद्ये rather than expected हृदये. Preserve the record of uncertainty."
+    },
+    {
+      "verse": "2.53.45",
+      "source": "ब्रह्मरूपः प्रधारकम्",
+      "hold": "Grammatical relation is not settled. Kannada predicate is provisional."
+    },
+    {
+      "verse": "2.53.47",
+      "source": "बिंबेन मोहयुक्तः",
+      "hold": "Visual reading supported at crop level, but intended relation and subject remain unresolved; Kannada correctly carries an explicit note."
+    }
+  ],
+  "boundary_controls": {
+    "start": "Existing49.26 opening on229 joins only new230 continuation once. The source record remains continuation-only; a full join is a separate candidate.",
+    "end": "New53.49 opening on238 joins only existing239 ending once. आयासेन विना means without effort; the boundary cannot be translated from आयासेन alone.",
+    "prohibited_join": "Never join49.26 directly to53.49.",
+    "page_internal_joins": [
+      "49.50:230/231",
+      "50.19:231/232",
+      "51.17:233/234",
+      "53.26:237/238"
+    ],
+    "boundary_join_source_and_meaning_checked": true
+  },
+  "source_sha256": {
+    "page_0229.png": "da85c62b18a7b9daef221197df3cc90498d98cf93d46b4b3cf60bcb655566e35",
+    "page_0230.png": "2a2fab6de3c26c68c32b618e7c26e4c15d36fdcc2f8e3e8089b14f239268e316",
+    "page_0231.png": "2e9274dfa0d0bbbd55e1ccdd8f2d1c37f9ef0c04d4d6282b1a159baa505f36e4",
+    "page_0232.png": "49caa12c9886bedd92d22ff234b640485688e0206453e674c4b91bf2c0ae2ffb",
+    "page_0233.png": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+    "page_0234.png": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+    "page_0235.png": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059",
+    "page_0236.png": "836a71db98446359f7cdf5a4a7c3220fb5625381152c2f7806a88f76f31c46cc",
+    "page_0237.png": "be3270b97798ceb137359ce6226871faa1ed2178ea8a24f10f4356f7fa82790c",
+    "page_0238.png": "36657dc7a48e71f9dc10f038ef2bd557296d09e9384d7b9f9d2a3e75ad6af7d1",
+    "page_0239.png": "1afcd2714814e29349a4d743775b6f6320edf128cd2f3618ac923b48080f247f"
+  },
+  "source_images_manifest_matches": true,
+  "transliteration_check": "Middle v1: all71 verse and4 apparatus Kannada-script transliterations mechanically matched Sanskrit character mapping. Changed forms must be regenerated. Unified bundle transliteration mapping is checked separately in final structural audit.",
+  "disposition": "Retain revised candidates and all original frozen files. All216 source verse records have received independent review with attributed scope; unresolved source/meaning cases are not accepted. No canonical edits or publication."
+}

@@ -34,4 +34,31 @@ class CandidateSchemas(unittest.TestCase):
  def test_gap2_valid_and_hidden_hold(self):
   b=next(x for x in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if x.get('review_file')=='translation/original-png-khanda2-gap2-review.json');v=json.loads((ROOT/b['review_file']).read_text());rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/b['file']).read_text()),delimiter='\t')};reg=json.loads((ROOT/'translation/unresolved-passages.json').read_text());a,u=validate_png_batch(ROOT,b,rows,v,reg);self.assertEqual(u,{(2,47,8),(2,47,16)});rows[(2,47,8)]['type']='translation'
   with self.assertRaises(AssertionError):validate_png_batch(ROOT,b,rows,v,reg)
+class LongPNGRecovery(PNGRecovery):
+ @classmethod
+ def setUpClass(cls):
+  cls.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/original-png-khanda2-gap3-review.json');cls.review=json.loads((ROOT/cls.batch['review_file']).read_text());cls.rows={(int(r['khanda']),int(r['chapter']),int(r['verse'])):r for r in csv.DictReader(io.StringIO((ROOT/'translation'/cls.batch['file']).read_text()),delimiter='\t')};d=json.loads((ROOT/'translation/unresolved-passages.json').read_text());ids={f"kh2-ch{x['key'][1]}-v{x['key'][2]}" for x in cls.review['verses'] if x['issues']}|{cls.review['recovered_gap_id']};cls.registry={'records':[x for x in d['records']if x['id']in ids]}
+ def setUp(self):
+  super().setUp()
+  for n in [self.v['independent_review_json_file']]+[x['file'] for x in self.v['evidence_files']]:
+   p=self.root/n;p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/n,p)
+ def test_valid(self):a,u=self.check();self.assertEqual(len(a),9);self.assertEqual(len(u),23)
+ def test_wrong_archive(self):self.b['source_archive']['sha256']='0'*64;self.reject()
+ def test_guessed_image_index(self):self.b['source_pages'][0]['image_index']=229;self.reject()
+ def test_wrong_zip_member(self):self.b['source_pages'][0]['member']='Page Images/page_0229.png';self.reject()
+ def test_changed_source_pixels(self):self.b['source_pages'][0]['image_sha256']='0'*64;self.reject()
+ def test_duplicate_existing_fragment(self):self.v['verses'][0]['source_parts'].insert(0,copy.deepcopy(self.v['verses'][0]['source_parts'][0]));self.reject()
+ def test_omitted_gap_owned_verse(self):self.r.pop((2,50,1));self.v['verses']=[x for x in self.v['verses']if x['key']!=[2,50,1]];self.reject()
+ def test_noninsertable_aid(self):self.v['verses'][0]['candidate_entry_ids']=['49.26.proposed_join'];self.reject()
+ def test_hidden_hold(self):self.r[(2,49,36)]['type']='translation';next(x for x in self.v['verses']if x['key']==[2,49,36])['type']='translation';self.reject()
+ def test_worker_acceptance_cannot_be_promoted(self):
+  p=self.root/self.v['candidate_file'];d=json.loads(p.read_text());d['records'][0]['accepted_sanskrit']='accepted';p.write_text(json.dumps(d,ensure_ascii=False));self.v['candidate_sha256']=hashlib.sha256(p.read_bytes()).hexdigest();self.reject()
+ def test_internal_piece_repeated(self):
+  r=next(x for x in self.v['verses'] if x['key']==[2,51,17]);r['source_parts'][1]=copy.deepcopy(r['source_parts'][0]);self.reject()
+ def test_wrong_source_coordinate_page(self):
+  r=next(x for x in self.v['verses'] if x['key']==[2,51,17]);r['source_parts'][0]['source_page']=self.b['source_pages'][0]['id'];self.reject()
+ def test_independent_hold_not_promoted(self):
+  r=next(x for x in self.v['verses']if x['key']==[2,52,26]);r.update(issues=[],review_status='accepted',type='translation');self.r[(2,52,26)]['type']='translation';self.reject()
+ def test_cross_connected_outer_boundary(self):
+  a=self.v['verses'][0]['source_parts'][0];b=self.v['verses'][-1]['source_parts'][-1];self.v['verses'][0]['source_parts'][0]=b;self.v['verses'][-1]['source_parts'][-1]=a;self.reject()
 if __name__=='__main__':unittest.main()

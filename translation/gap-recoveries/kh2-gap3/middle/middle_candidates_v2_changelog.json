@@ -1,0 +1,213 @@
+{
+  "version": 2,
+  "supersedes_candidate_file": "/workspace/shared/khanda2_recovery/gap3/middle/middle_candidates_v1.json",
+  "supersedes_sha256": "3b2179d46d530c369c7676f0056a5e445d9df9aba7dd42180bfa923dcb6936c3",
+  "reviewer_task": "/root/recover_khanda_two_gaps/validate_long_gap",
+  "scope": "Apply the four independently reviewed corrections only; retain all source pages and all 71 verse records.",
+  "meaning_review_holds": [
+    "2.50.46",
+    "2.51.15",
+    "2.51.41",
+    "2.52.8",
+    "2.52.10"
+  ],
+  "acceptance": "All accepted_sanskrit and accepted_kannada fields remain null. Frozen candidate status does not imply acceptance.",
+  "change_log": [
+    {
+      "record_id": "2.51.40",
+      "field": "candidate_sanskrit",
+      "before": "सत्कर्मनिरतान् जंतून् सदा कुर्वंति साधवः । विकर्मणाश्च संहारस्तत्र संजायते यथा ॥४०॥",
+      "after": "सत्कर्मनिरतान् जंतून् सदा कुर्वंति साधवः । विकर्मणश्च संहारस्तत्र संजायते यथा ॥४०॥",
+      "reason": "Remove unsupported long ā; match visible source.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+        "bbox_xyxy": [
+          990,
+          1995,
+          1530,
+          2140
+        ],
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_v40_word.png",
+        "verification": "Independent reviewer reading and author direct visual reinspection agree: no long ā after ण.",
+        "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+        "review_crop_sha256": "b589ab8ff5cf6725c1a7998a6ddc1a6b16ee214f22752d39478ff7218d020542"
+      }
+    },
+    {
+      "record_id": "2.51.40",
+      "field": "candidate_transliteration",
+      "before": "ಸತ್ಕರ್ಮನಿರತಾನ್ ಜಂತೂನ್ ಸದಾ ಕುರ್ವಂತಿ ಸಾಧವಃ । ವಿಕರ್ಮಣಾಶ್ಚ ಸಂಹಾರಸ್ತತ್ರ ಸಂಜಾಯತೇ ಯಥಾ ॥೪೦॥",
+      "after": "ಸತ್ಕರ್ಮನಿರತಾನ್ ಜಂತೂನ್ ಸದಾ ಕುರ್ವಂತಿ ಸಾಧವಃ । ವಿಕರ್ಮಣಶ್ಚ ಸಂಹಾರಸ್ತತ್ರ ಸಂಜಾಯತೇ ಯಥಾ ॥೪೦॥",
+      "reason": "Regenerate Kannada-script Sanskrit from corrected source.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+        "bbox_xyxy": [
+          990,
+          1995,
+          1530,
+          2140
+        ],
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_v40_word.png",
+        "verification": "Independent reviewer reading and author direct visual reinspection agree: no long ā after ण.",
+        "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+        "review_crop_sha256": "b589ab8ff5cf6725c1a7998a6ddc1a6b16ee214f22752d39478ff7218d020542"
+      }
+    },
+    {
+      "record_id": "2.52.10",
+      "field": "candidate_kannada",
+      "before": "ಹೊಕ್ಕಳಲ್ಲಿ ಶೇಷನಾಗವನ್ನು ಹೊಂದಿರುವವನಾಗಿ, ಪಾಶ, ಪರಶು ಮತ್ತು ಶುಭವಾದ ಕಮಲವನ್ನು ಧರಿಸಿ, ಅಭಯವನ್ನು ನೀಡುವವನಾಗಿ, ಪ್ರಸನ್ನಮುಖಕಮಲವುಳ್ಳವನಾಗಿ ಅವನನ್ನು ಧ್ಯಾನಿಸಬೇಕು.",
+      "after": "ಪಾಶ, ಪರಶು ಮತ್ತು ಶುಭವಾದ ಕಮಲವನ್ನು ಧರಿಸಿ, ಅಭಯವನ್ನು ನೀಡುವವನಾಗಿ, ಪ್ರಸನ್ನಮುಖಕಮಲವುಳ್ಳವನಾಗಿ ಅವನನ್ನು ಧ್ಯಾನಿಸಬೇಕು. (“ನಾಭಿಶೇಷಂ” ಎಂಬ ವಿಶೇಷಣದ ಅರ್ಥವು ಇನ್ನೂ ನಿರ್ಧರಿತವಾಗಿಲ್ಲ; ಆ ಪದದ ಅರ್ಥಾನುವಾದವು ಪರಿಶೀಲನಾಧೀನವಾಗಿದೆ.)",
+      "reason": "Remove asserted Shesha-in-navel interpretation and show an explicit Kannada meaning hold.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0235.png",
+        "bbox_xyxy": [
+          230,
+          1120,
+          3740,
+          1245
+        ],
+        "verification": "The source word नाभिशेषं is clear. Its compound meaning remains unestablished; an asserted Shesha-at-navel interpretation is removed.",
+        "source_sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+      }
+    },
+    {
+      "record_id": "2.52.10",
+      "field": "uncertainty_flags",
+      "before": [
+        "नाभिशेषं is the visual reading; the compound is provisionally interpreted as having Śeṣa at the navel."
+      ],
+      "after": [
+        "Meaning hold: the Sanskrit नाभिशेषं is visually clear, but its exact compound interpretation is unresolved. No Shesha-at-navel interpretation is asserted. Kannada explicitly marks this untranslated term as pending review."
+      ],
+      "reason": "Keep unresolved meaning visible in both record metadata and Kannada.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0235.png",
+        "bbox_xyxy": [
+          230,
+          1120,
+          3740,
+          1245
+        ],
+        "verification": "The source word नाभिशेषं is clear. Its compound meaning remains unestablished; an asserted Shesha-at-navel interpretation is removed.",
+        "source_sha256": "8d2df0f92fb93fad52ba0177d3f60c4107c686455ff85dbf4fb3735cb9562059"
+      }
+    },
+    {
+      "record_id": "2.50.colophon",
+      "field": "candidate_sanskrit",
+      "before": "॥ ओमिति श्रीमदन्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते मदासुरविजयो नाम पंचाशत्तमोऽध्यायः ॥",
+      "after": "॥ ओमिति श्रीमदान्त्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते मदासुरविजयो नाम पंचाशत्तमोऽध्यायः ॥",
+      "reason": "Correct long vowel while preserving page-specific conjunct spelling and literal ओमिति.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0233.png",
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/233_colophon_first.png",
+        "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदान्त्ये, with long ā and न्त्य conjunct.",
+        "source_sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+        "review_crop_sha256": "8a210573000d740bb2b213a7d44d43bb659592ed191a97a76839f9899c591518"
+      }
+    },
+    {
+      "record_id": "2.50.colophon",
+      "field": "candidate_kannada",
+      "before": "ಓಂ. ಶ್ರೀಮದಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಮದಾಸುರವಿಜಯ ಎಂಬ ಐವತ್ತನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+      "after": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಮದಾಸುರವಿಜಯ ಎಂಬ ಐವತ್ತನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+      "reason": "Match the corrected long-vowel title; preserve antya, not ādya.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0233.png",
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/233_colophon_first.png",
+        "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदान्त्ये, with long ā and न्त्य conjunct.",
+        "source_sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+        "review_crop_sha256": "8a210573000d740bb2b213a7d44d43bb659592ed191a97a76839f9899c591518"
+      }
+    },
+    {
+      "record_id": "2.50.colophon",
+      "field": "candidate_transliteration",
+      "before": "॥ ಓಮಿತಿ ಶ್ರೀಮದನ್ತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಮದಾಸುರವಿಜಯೋ ನಾಮ ಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+      "after": "॥ ಓಮಿತಿ ಶ್ರೀಮದಾನ್ತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಮದಾಸುರವಿಜಯೋ ನಾಮ ಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+      "reason": "Regenerate Kannada-script Sanskrit from corrected colophon.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0233.png",
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/233_colophon_first.png",
+        "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदान्त्ये, with long ā and न्त्य conjunct.",
+        "source_sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+        "review_crop_sha256": "8a210573000d740bb2b213a7d44d43bb659592ed191a97a76839f9899c591518"
+      }
+    },
+    {
+      "record_id": "2.50.colophon",
+      "field": "uncertainty_flags",
+      "before": [
+        "Small-print epithet श्रीमदन्त्ये should receive independent visual verification."
+      ],
+      "after": [],
+      "reason": "The previously flagged epithet has now received independent pixel verification; accepted fields remain null.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0233.png",
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/233_colophon_first.png",
+        "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदान्त्ये, with long ā and न्त्य conjunct.",
+        "source_sha256": "b239967bd2a6e73d15e06223881ff981d16f3c7efec55524af009932afdfcf40",
+        "review_crop_sha256": "8a210573000d740bb2b213a7d44d43bb659592ed191a97a76839f9899c591518"
+      }
+    },
+    {
+      "record_id": "2.51.colophon",
+      "field": "candidate_sanskrit",
+      "before": "॥ ओमिति श्रीमदंत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते सनत्कुमारदेवसमागमो नामैकपंचाशत्तमोऽध्यायः ॥",
+      "after": "॥ ओमिति श्रीमदांत्ये पुराणोपनिषदि श्रीमन्मौद्गले महापुराणे द्वितीये खंडे एकदंतचरिते सनत्कुमारदेवसमागमो नामैकपंचाशत्तमोऽध्यायः ॥",
+      "reason": "Correct long vowel while preserving page-specific anusvāra spelling and literal ओमिति.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_colophon_first.png",
+        "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदांत्ये, with long ā and anusvāra.",
+        "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+        "review_crop_sha256": "8f591e79125f0ee3515f03d13022347c6ae171f631416fee02af0190708321a8"
+      }
+    },
+    {
+      "record_id": "2.51.colophon",
+      "field": "candidate_kannada",
+      "before": "ಓಂ. ಶ್ರೀಮದಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಸನತ್ಕುಮಾರನ ಮತ್ತು ದೇವತೆಗಳ ಸಮಾಗಮ ಎಂಬ ಐವತ್ತೊಂದನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+      "after": "ಓಂ. ಶ್ರೀಮದಾಂತ್ಯ ಪುರಾಣೋಪನಿಷತ್ತಾದ ಶ್ರೀಮನ್ಮೌದ್ಗಲ ಮಹಾಪುರಾಣದ ಎರಡನೆಯ ಖಂಡದ ಏಕದಂತಚರಿತದಲ್ಲಿ ಸನತ್ಕುಮಾರನ ಮತ್ತು ದೇವತೆಗಳ ಸಮಾಗಮ ಎಂಬ ಐವತ್ತೊಂದನೆಯ ಅಧ್ಯಾಯವು ಮುಗಿಯಿತು.",
+      "reason": "Match the corrected long-vowel title; preserve antya, not ādya.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_colophon_first.png",
+        "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदांत्ये, with long ā and anusvāra.",
+        "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+        "review_crop_sha256": "8f591e79125f0ee3515f03d13022347c6ae171f631416fee02af0190708321a8"
+      }
+    },
+    {
+      "record_id": "2.51.colophon",
+      "field": "candidate_transliteration",
+      "before": "॥ ಓಮಿತಿ ಶ್ರೀಮದಂತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಸನತ್ಕುಮಾರದೇವಸಮಾಗಮೋ ನಾಮೈಕಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+      "after": "॥ ಓಮಿತಿ ಶ್ರೀಮದಾಂತ್ಯೇ ಪುರಾಣೋಪನಿಷದಿ ಶ್ರೀಮನ್ಮೌದ್ಗಲೇ ಮಹಾಪುರಾಣೇ ದ್ವಿತೀಯೇ ಖಂಡೇ ಏಕದಂತಚರಿತೇ ಸನತ್ಕುಮಾರದೇವಸಮಾಗಮೋ ನಾಮೈಕಪಂಚಾಶತ್ತಮೋಽಧ್ಯಾಯಃ ॥",
+      "reason": "Regenerate Kannada-script Sanskrit from corrected colophon.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_colophon_first.png",
+        "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदांत्ये, with long ā and anusvāra.",
+        "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+        "review_crop_sha256": "8f591e79125f0ee3515f03d13022347c6ae171f631416fee02af0190708321a8"
+      }
+    },
+    {
+      "record_id": "2.51.colophon",
+      "field": "uncertainty_flags",
+      "before": [
+        "Small-print epithet श्रीमदंत्ये and chapter-number compound need independent visual verification."
+      ],
+      "after": [],
+      "reason": "Independent reviewer inspected this colophon; preserve it as a candidate with accepted fields null.",
+      "evidence": {
+        "source_image": "/workspace/shared/khanda2_recovery/page_0234.png",
+        "review_crop": "/workspace/shared/khanda2_recovery/gap3/validation_crops/234_colophon_first.png",
+        "verification": "Independent reviewer and author direct visual reinspection agree: श्रीमदांत्ये, with long ā and anusvāra.",
+        "source_sha256": "93a31873502df321d7d24d2eb08b8e9ca8346e318a7bb68fc6171bc3eb6ba744",
+        "review_crop_sha256": "8f591e79125f0ee3515f03d13022347c6ae171f631416fee02af0190708321a8"
+      }
+    }
+  ]
+}

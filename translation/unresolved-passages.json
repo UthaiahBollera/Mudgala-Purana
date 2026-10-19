@@ -28352,7 +28352,7 @@
         "chapter": 49
       },
       "source_page": "pdf:e83d469bf798f33985a2b0e3ad2ce8c68e86e87a6fee974f696da6290c5bc60f:p50",
-      "status": "awaiting_replacement_scan",
+      "status": "resolved_by_additional_original_scan",
       "source_pdf": "206 TO 255.pdf",
       "pdf_page": 50,
       "printed_page": null,
@@ -28394,7 +28394,38 @@
           "kind": "missing_source_pages",
           "description": "Exactmissingtextandchapterlengthsunknown;49.26amustnotjoin53.49b."
         }
-      ]
+      ],
+      "resolution": {
+        "review_file": "translation/original-png-khanda2-gap3-review.json",
+        "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+        "source_archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "source_members": [
+          "Page Images/page_0230.png",
+          "Page Images/page_0231.png",
+          "Page Images/page_0232.png",
+          "Page Images/page_0233.png",
+          "Page Images/page_0234.png",
+          "Page Images/page_0235.png",
+          "Page Images/page_0236.png",
+          "Page Images/page_0237.png",
+          "Page Images/page_0238.png"
+        ],
+        "prior_gap_description_preserved": true,
+        "recovered_numbered_range": [
+          [
+            2,
+            49,
+            26
+          ],
+          [
+            2,
+            53,
+            49
+          ]
+        ],
+        "not_Google_backfill": true,
+        "lexical_and_meaning_holds_remain_open": true
+      }
     },
     {
       "id": "kh2-ch54-v11",
@@ -1836995,6 +1837026,765 @@
       ],
       "review_file": "translation/original-png-khanda2-gap2-review.json",
       "review_sha256": "e7f48fe6b308dac967f54a48bb3d01573c548b24ca246c4f8b8c35856df55fca",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch49-v27",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 49,
+      "verse_start": 27,
+      "verse_end": 27,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "धनप्रियश्च संग्रामे सूर्यं विव्याध सायकैः । उवाच गर्वसहितो रविं त्रैलोक्यभाविनम् ॥२७॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p230",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "त्रैलोक्यभाविनम्",
+          "detail": "Printed reading supported; do not silently replace with भासिनम्. Kannada is interpretive.",
+          "candidate_flags": [
+            {
+              "type": "printed_lexical_anomaly",
+              "note": "Pixels read त्रैलोक्यभाविनम्; do not silently normalize to भासिनम्."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch49-v36",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 49,
+      "verse_start": 36,
+      "verse_end": 36,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "अधुना शस्त्रघातेन हतस्त्वं गच्छसि प्रभो । मृत्योर्भुवनमुग्रं यत्र त्वां मुंचामि कर्हिचित् ॥३६॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p230",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "यत्र त्वां मुंचामि कर्हिचित्",
+          "detail": "No visible न. Do not supply a negative to fit the threat. Literal candidate meaning remains explicitly provisional.",
+          "candidate_flags": [
+            {
+              "type": "critical_meaning_review",
+              "note": "Pixels appear to read यत्र त्वां मुंचामि कर्हिचित् with no visible न. Kannada follows literal non-negative reading, contrary to surrounding threat. Must independently review before acceptance; do not supply an inferred negative."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch49-v38",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 49,
+      "verse_start": 38,
+      "verse_end": 38,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "क्षणेन सावधानोऽभूदागत्य गदया विभुम् । हृदि विव्याध दुष्टोऽसौ पपात गरुडाद्रिः ॥३८॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p230",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "गरुडाद्रिः",
+          "detail": "Provisional visual reading. Exact epithet/meaning unresolved after removal of unsupported extra letters.",
+          "candidate_flags": [
+            {
+              "type": "unresolved_epithet",
+              "note": "Best visible source candidate गरुडाद्रिः; unusual reading remains unaccepted. Kannada identifies Vishnu from explicit antecedent, not an invented etymology."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch50-v33",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 50,
+      "verse_start": 33,
+      "verse_end": 33,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "ततो मदासुरेणैव मोचिताः स्वसुतास्त्रयः । प्रधानादि महादैत्या धृता देवै रणे पुरा ॥३३॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p232",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "देवै",
+          "detail": "No clear printed visarga; do not normalize silently.",
+          "candidate_flags": [
+            {
+              "type": "printed_orthography",
+              "note": "Image reads देवै without visibly printed visarga; no silent correction to देवैः."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch50-v35",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 50,
+      "verse_start": 35,
+      "verse_end": 35,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "न ममर्ष निजात्मानं मोहितो दैत्यनायकः । स्त्रीमांसमदिरासक्तः प्रबभूवासुरेश्वर ॥३५॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p232",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "न ममर्ष निजात्मानं",
+          "detail": "Printed text supported; contextual meaning remains unresolved. Do not replace with an inferred forgot himself.",
+          "candidate_flags": [
+            {
+              "type": "critical_meaning_review",
+              "note": "Printed verb appears ममर्ष. Literal Kannada rendering does not fit context naturally; independent lexical/glyph review required, no emendation made."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch50-v39",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 50,
+      "verse_start": 39,
+      "verse_end": 39,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "ततस्तं शक्तिराहत्योवाच म्लानमुखश्रिया । देवैः सह गमिष्यामि यत्र कुत्र महासुर ॥३९॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p232",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "शक्तिराहत्योवाच",
+          "detail": "Printed text supported; action/parsing is not resolved. Do not suppress the untranslated action while treating the verse as accepted.",
+          "candidate_flags": [
+            {
+              "type": "uncertain_sandhi_glyph",
+              "note": "Candidate शक्तिराहत्योवाच as visible; exact segment and parsing need independent review. Kannada covers clear speech content only."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch50-v46",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 50,
+      "verse_start": 46,
+      "verse_end": 46,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "शेषो ज्ञात्वा च वृत्तांतं साम चक्रे पुरैव च । दैत्येन वार्षिकं भागं ददौ जग्राह शासनम् ॥४६॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p233",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "दैत्येन ... ददौ",
+          "detail": "Instrumental construction is unusual; tribute-context Kannada remains a provisional reading.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The print reads दैत्येन; its relation to ददौ is grammatically unusual. Kannada expresses the apparent tribute context, without changing the Sanskrit."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch51-v15",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 51,
+      "verse_start": 15,
+      "verse_end": 15,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "अन्ये वर्णाश्रमस्था ये ब्राह्मणाः कर्मकारकाः । नष्टेषु विप्रजातेषु सर्वे नष्टा भवंति ते ॥१५॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p233",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "अन्ये वर्णाश्रमस्था ये ब्राह्मणाः",
+          "detail": "Enumeration/syntax is unclear in the print. No caste term or conjunction should be treated as established beyond source.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The printed ब्राह्मणाः after अन्ये वर्णाश्रमस्था ये makes the enumeration syntactically unclear; no caste term has been substituted."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch51-v41",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 51,
+      "verse_start": 41,
+      "verse_end": 41,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "न हिंसा सा महायोगिन् विकर्महितकारिका । भवज्ज्ञानेन चाज्ञानं नाशयंति सुसाधवः ॥४१॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p234",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "विकर्महितकारिका",
+          "detail": "Exact intended compound meaning not resolved; benefit to a wrongdoer is a provisional interpretive rendering.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "विकर्महितकारिका is visually clear but the compound is semantically difficult; Kannada provisionally takes it as beneficial to the wrongdoer."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch52-v1",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 52,
+      "verse_start": 1,
+      "verse_end": 1,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "गृत्समद उवाच । एवं दीनस्वभावेन प्रार्थितो मुनिसत्तमः । सनत्कुमार आनंददायकं तमुवाच ह ॥१॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p235",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "तमुवाच",
+          "detail": "Source singular object is retained; Kannada addresses the evident surrounding group. The number mismatch remains recorded.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The print has singular तम् in तमुवाच; Kannada takes the addressed group from the explicit surrounding dialogue."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch52-v8",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 52,
+      "verse_start": 8,
+      "verse_end": 8,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "ध्यानं तस्य प्रवक्ष्यामि शृणुध्वं सुरसत्तमाः । यूयं तं तादृशं ध्यात्वा तोषयध्वं निधानतः ॥८॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p235",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "निधानतः",
+          "detail": "Exact printed reading confirmed; adverbial meaning is not resolved and is visibly marked in Kannada.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "Print reads निधानतः, not विधानतः. Its exact adverbial sense is unresolved and explicitly left open in Kannada."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch52-v9",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 52,
+      "verse_start": 9,
+      "verse_end": 9,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "एकदंतं चतुर्बाहुं गजवक्रं महोदरम् । सिद्धिबुद्धिसमायुक्तं मूषकारूढमेव च ॥९॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p235",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "गजवक्रं; गजवक्राय",
+          "detail": "Printed वक्र forms retained. Kannada elephant-faced meaning is interpretive; no silent Sanskrit repair to वक्त्र.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The print visibly uses गजवक्रं; do not silently emend to गजवक्त्रं. Kannada retains the intended elephant-faced epithet."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch52-v10",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 52,
+      "verse_start": 10,
+      "verse_end": 10,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "नाभिशेषं सपाशं वै परशुं कमलं शुभम् । अभयं दधतं चैव प्रसन्नवदनांबुजम् ॥१०॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p235",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "नाभिशेषं; नाभिशेषाय",
+          "detail": "Printed compounds confirmed and also recur at54.11. Navel/Śeṣa iconographic gloss is possible, but not independently established here; Kannada must remain visibly provisional rather than certify it as resolved doctrine.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "Meaning hold: the Sanskrit नाभिशेषं is visually clear, but its exact compound interpretation is unresolved. No Shesha-at-navel interpretation is asserted. Kannada explicitly marks this untranslated term as pending review."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch52-v25",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 52,
+      "verse_start": 25,
+      "verse_end": 25,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "देवर्षय ऊचुः । नमस्ते गजवक्राय गणेशाय नमो नमः । अनंतानंदभोक्त्रे वै ब्रह्मणे ब्रह्मरूपिणे ॥२५॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p235",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "गजवक्रं; गजवक्राय",
+          "detail": "Printed वक्र forms retained. Kannada elephant-faced meaning is interpretive; no silent Sanskrit repair to वक्त्र.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The print uses गजवक्राय, retained literally rather than emended to गजवक्त्राय."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch52-v26",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 52,
+      "verse_start": 26,
+      "verse_end": 26,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "आदिमध्यांतहीनाय चराचरमयाय ते । अनंतोदरसंस्थाय नाभिशेषाय ते नमः ॥२६॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p236",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "नाभिशेषं; नाभिशेषाय",
+          "detail": "Printed compounds confirmed and also recur at54.11. Navel/Śeṣa iconographic gloss is possible, but not independently established here; Kannada must remain visibly provisional rather than certify it as resolved doctrine.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The compound नाभिशेषाय is visually legible but its meaning is unresolved. No claim about Shesha being in the navel is made in this revised Kannada."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch52-v32",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 52,
+      "verse_start": 32,
+      "verse_end": 32,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "वेदांतगोचरायैव वेदांतालभ्यकाय ते । योगाधीशाय वै तुभ्यं ब्रह्माधीशाय ते नमः ॥३२॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p236",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "वेदांतालभ्यकाय",
+          "detail": "Printed wording retained; Vedānta-alabhya parsing remains a candidate interpretation.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The printed compound वेदांतालभ्यकाय is retained; it has been construed as वेदान्त-अलभ्य-काय, without changing the source."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch52-v36",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 52,
+      "verse_start": 36,
+      "verse_end": 36,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "वरं वृणुत देवेशा मुनयश्च यथेप्सितम् । दास्यामि तं न संदेहो भवेच्चेद्यपि दुर्लभः ॥३६॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p236",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "भवेच्चेद्यपि",
+          "detail": "Exact cramped चेद्य/चद्य cluster cannot be certified independently. No grammatical modernization performed.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The sequence भवेच्चेद्यपि is transcribed as seen; no grammatical modernization to भवेच्चेदपि has been made."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch53-v10",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 53,
+      "verse_start": 10,
+      "verse_end": 10,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "दैत्येंद्रैः कथितं सर्वं सत्यं जातं न संशयः । देवेंद्राः शत्रवः सर्वे सुराणां वेदवाक्यतः ॥१०॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p237",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "देवेंद्राः शत्रवः सर्वे सुराणां",
+          "detail": "सुराणां is clearly printed despite contextual tension; do not supply असुराणां.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The source visibly reads सुराणां, although the speech context would make असुराणां more expected. Retained exactly; no external correction or inserted avagraha."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch53-v33",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 53,
+      "verse_start": 33,
+      "verse_end": 33,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "परशुर्दैत्यराजास्त्रं सच्छित्वा स्वेन तेजसा । ततो दैत्यांश्च सर्वत्र चिच्छेद यमसन्निभः ॥३३॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p238",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "सच्छित्वा",
+          "detail": "Unusual printed participial form retained without normalization.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The printed form सच्छित्वा is retained; no silent replacement with a normalized participial spelling."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch53-v37",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 53,
+      "verse_start": 37,
+      "verse_end": 37,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "ततस्तत्र महास्त्रं तत् परशूपस्थितं त्वभूत् । प्रहरार्धेन दैत्येशः सावधानो बभूव ह ॥३७॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p238",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "परशूपस्थितं",
+          "detail": "Unusual printed compound/syntax retained; Kannada construction is not a resolved philological judgment.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The enlarged original crop supports परशूपस्थितं; this unusual printed form is retained. Independent review should verify the compound and its syntax."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch53-v38",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 53,
+      "verse_start": 38,
+      "verse_end": 38,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "अपश्यत् स महास्त्रं तत् परशुं यमसन्निभम् । समीपे दैत्यराजस्तु विस्मितो हृद्येऽभवत् ॥३८॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p238",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "हृद्येऽभवत्",
+          "detail": "Printed form appears हृद्ये rather than expected हृदये. Preserve the record of uncertainty.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The source appears to print हृद्येऽभवत्, not the expected हृदयेऽभवत्; retained for review."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch53-v45",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 53,
+      "verse_start": 45,
+      "verse_end": 45,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "एकदंतार्थजं ज्ञानं विचार्यैव च विघ्नपम् । बुबोध हृदि दैत्येंद्रो ब्रह्मरूपः प्रधारकम् ॥४५॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p238",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "ब्रह्मरूपः प्रधारकम्",
+          "detail": "Grammatical relation is not settled. Kannada predicate is provisional.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The printed ब्रह्मरूपः प्रधारकम् has a problematic grammatical relation; candidate Kannada follows the immediately apparent intended predicate while preserving the exact Sanskrit for review."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
+      "accepted_translation": null,
+      "hard_hold": true,
+      "book_id": null,
+      "google_books_pages": null,
+      "google_books_page_url": null
+    },
+    {
+      "id": "kh2-ch53-v47",
+      "kind": "verse",
+      "khanda": 2,
+      "chapter": 53,
+      "verse_start": 47,
+      "verse_end": 47,
+      "status": "open_original_png_reading_question",
+      "source_sanskrit": "दंतसत्तात्मकस्तत्र मायाचालकसंज्ञकः । बिंबेन मोहयुक्तः स स्वयं स्वानंदगोऽभवत् ॥४७॥",
+      "source_pages": "png:aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193:p238",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "original_source_or_meaning_hold",
+          "reading": null,
+          "token": "बिंबेन मोहयुक्तः",
+          "detail": "Visual reading supported at crop level, but intended relation and subject remain unresolved; Kannada correctly carries an explicit note.",
+          "candidate_flags": [
+            {
+              "type": "source_or_meaning_review",
+              "note": "The first word of the second half visually appears बिंबेन. Its reading and its relation to मोहयुक्तः and स्वानंदगो require independent review. No external edition was consulted."
+            }
+          ]
+        }
+      ],
+      "review_file": "translation/original-png-khanda2-gap3-review.json",
+      "review_sha256": "4c925f88564c3e88d948dc9a7a344dd0ad1f406832fdb8830b4d85efeef24933",
       "accepted_translation": null,
       "hard_hold": true,
       "book_id": null,
