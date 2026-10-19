@@ -117261,6 +117261,45 @@
           41
         ]
       ]
+    },
+    {
+      "file": "batch-382-reviewed-base-translation.tsv",
+      "sha256": "84be17f5a42dea25af4331c47c9d9d7ef4cf7a8367d9f9329e027ffec2ac2425",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch25-ch27-writer-review.json",
+      "review_sha256": "889254b12b34bbf554790d0aca2bd910b41b8c7714aa0ad622923ced201a70ef",
+      "coverage_boundary": "reviewed-base-khanda1-ch25-ch27",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [],
+      "no_change_keys": [
+        [
+          1,
+          25,
+          19
+        ],
+        [
+          1,
+          25,
+          27
+        ],
+        [
+          1,
+          25,
+          39
+        ],
+        [
+          1,
+          27,
+          29
+        ],
+        [
+          1,
+          27,
+          48
+        ]
+      ]
     }
   ],
   "reference_only_index": {

@@ -1,0 +1,75 @@
+{
+  "status": "all_checks_passed",
+  "release_scope": "source_only_review_evidence",
+  "canonical_HTML_EPUB_all_old_TSVs_metadata_assets_byte_identical": true,
+  "EPUB_provenance_filter_updated_to_skip_zero_text_change_reviews": true,
+  "new_TSV_zero_rows": true,
+  "zero_newly_fixed_targets": true,
+  "pages_branch_not_modified": true,
+  "numbered_total": 22693,
+  "numbered_chapters": 411,
+  "reference_locators": 264,
+  "reference_chapters": 17,
+  "changed_numbered_keys": [],
+  "minimal_replacement_spans": 0,
+  "reviewed_unchanged_keys": [
+    [
+      1,
+      25,
+      19
+    ],
+    [
+      1,
+      25,
+      27
+    ],
+    [
+      1,
+      25,
+      39
+    ],
+    [
+      1,
+      27,
+      29
+    ],
+    [
+      1,
+      27,
+      48
+    ]
+  ],
+  "philosophical_and_compressed_meaning_limits_held": true,
+  "added_numbered_keys": 0,
+  "unchanged_all_other_numbered_texts": true,
+  "all_old_TSVs_prompt_assets_CSS_reference_material_preserved": true,
+  "approved_cover_v5_preserved": true,
+  "main_registry_modified_IDs": [
+    "kh1-ch25-v19",
+    "kh1-ch25-v27",
+    "kh1-ch25-v39",
+    "kh1-ch27-v29",
+    "kh1-ch27-v48"
+  ],
+  "main_registry_other_records_exact": true,
+  "historical_questions_retained": true,
+  "Google_page_fields_remain_null": true,
+  "EPUB_all_numbered_texts_exact": true,
+  "candidate_acceptance_fields_null": true,
+  "storage_logical_loading_and_shard_limits_tested": true,
+  "focused_test_total": 358,
+  "navigation_builds": 2,
+  "paid_calls": 0,
+  "EPUB_provenance_filter": {
+    "before_sha256": "a182698e4ea1a5d50f7814741188b5f81b4f81ce3ffdfe7c9e84fcc534398baa",
+    "after_sha256": "1c594dcfbd4b3fa6eda7c72205012956b3a398c13ddc83edea187abda45b0d47",
+    "scope": "skip zero-replacement review records;no publication-text or asset change",
+    "regeneration_equivalence_passed": true
+  },
+  "storage_preservation": {
+    "all385_prior_coverage_boundaries_exact": true,
+    "new_boundary_only": "reviewed-base-khanda1-ch25-ch27",
+    "current_boundaries": 386,
+    "largest_storage_shard_bytes": 253362
+  }
+}

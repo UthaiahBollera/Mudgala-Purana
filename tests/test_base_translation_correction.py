@@ -440,4 +440,25 @@ class TwoChapterTwentyFourRepairsThreeUnchanged(unittest.TestCase):
  def test_omission_not_cleared(self):self.review['no_change_adjudications'][2]['unrendered_source_tokens']=[];self.reject_nochange()
  def test_omitted_wording_not_certified(self):self.review['no_change_adjudications'][2]['current_wording_source_verified']=True;self.reject_nochange()
  def test_no_emendation_accepted(self):self.review['no_change_adjudications'][2]['source_emendation_accepted']=True;self.reject_nochange()
+class FiveEvidenceOnlyHolds(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch25-ch27-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid_no_corrections(self):self.assertEqual(self.items,[]);self.nochange()
+ def test_idiom_not_literal(self):self.review['no_change_adjudications'][0]['trembling_is_contextual_gloss']=False;self.reject_nochange()
+ def test_la_not_removed(self):self.review['no_change_adjudications'][1]['la_preserved']=False;self.reject_nochange()
+ def test_shva_not_shcha(self):self.review['no_change_adjudications'][2]['printed_junction']='रथाश्चालंकृतास्तत्र';self.reject_nochange()
+ def test_men_not_diseases(self):self.review['no_change_adjudications'][3]['men_not_replaced_with_diseases']=False;self.reject_nochange()
+ def test_indra_not_unconscious(self):self.review['no_change_adjudications'][4]['Indra_unconsciousness_claimed']=True;self.reject_nochange()
+ def test_foot_action_held(self):self.review['no_change_adjudications'][4]['precise_foot_action_settled']=True;self.reject_nochange()
+ def test_not_counted_fixed(self):self.review['no_change_adjudications'][0]['counted_as_new_correction']=True;self.reject_nochange()
+ def test_source_hash_required(self):p=self.root/self.review['evidence_files'][0]['file'];p.write_bytes(p.read_bytes()+b' ');self.reject_nochange()
+ def test_raw_acceptance_null(self):
+  p=self.root/self.review['candidate_file'];d=json.loads(p.read_text());d['records'][0]['accepted_kannada']='accepted';p.write_text(json.dumps(d));h=hashlib.sha256(p.read_bytes()).hexdigest();self.review['candidate_sha256']=h;next(x for x in self.review['evidence_files']if x['file']==self.review['candidate_file'])['sha256']=h;self.reject_nochange()
 if __name__=='__main__':unittest.main()

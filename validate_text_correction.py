@@ -145,6 +145,13 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
     """No-change decisions must never enter a replacement TSV or close holds."""
     records=review.get('no_change_adjudications',[])
     assert [x['key']for x in records]==batch.get('no_change_keys',[]),'Unlisted no-change review'
+    if records:
+        for f in review['evidence_files']:
+            path=(root/f['file']).resolve()
+            assert path.is_relative_to((root/'translation').resolve()) and path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest()==f['sha256'],'No-change source evidence checksum mismatch'
+        cp=root/review['candidate_file'];assert hashlib.sha256(cp.read_bytes()).hexdigest()==review['candidate_sha256'],'No-change candidate checksum mismatch'
+        candidate=json.loads(cp.read_text());assert all(p['accepted_sanskrit'] is None and p['accepted_kannada'] is None for p in candidate['records']),'No-change raw candidate accepted'
+
     for x in records:
         key=tuple(x['key']);old={k:replayed[key][k]for k in ('source_pages','type','text')}
         assert old==x['old_row']==x['new_row'],'No-change text altered'
@@ -207,6 +214,14 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
                     assert x['duration_in_23_48'] is False and x['printed_23_43_duration']=='दिव्यवर्षसहस्रं' and x['duration_23_43_divine_years']==1000 and x['input_packet_ten_year_suggestion_rejected'] is True and x['count_text_unchanged'] is True,'Duration moved or erroneous inventory count adopted'
             else:
                 assert x['current_wording_source_verified'] is False and x['unrendered_source_tokens']==['बाधादं'] and x['known_omission_retained_as_hold'] is True and x['source_emendation_accepted'] is False,'Known omission or compressed syntax falsely resolved'
+        if unit['status'] in {'unchanged_idiom_meaning_hold','unchanged_lexical_meaning_hold','unchanged_junction_meaning_hold','unchanged_source_supported_narrative_hold','unchanged_sword_supported_action_hold'}:
+            assert x['counted_as_new_correction'] is False and x['current_wording_source_verified'] is False and x['accepted_transliteration'] is None and x['target_readings_source_verified'] is True and x['source_emendation_accepted'] is False,'Evidence-only hold promoted to correction or settled meaning'
+            assert x['source_sanskrit']==unit['source_reading'] and x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Source or unknown Google location altered'
+            if unit['status']=='unchanged_idiom_meaning_hold':assert x['printed_idiom']=='कालानां कलनात्मकैः' and x['trembling_is_contextual_gloss'] is True,'Idiom falsely resolved'
+            elif unit['status']=='unchanged_lexical_meaning_hold':assert x['printed_lexical_cluster']=='कुंतलाद्यस्त्रकैः' and x['la_preserved'] is True and x['precise_weapon_list_accepted'] is False,'Printed la normalized or weapon list invented'
+            elif unit['status']=='unchanged_junction_meaning_hold':assert x['printed_junction']=='रथाश्वालंकृतास्तत्र' and x['shva_not_emended_to_shcha'] is True and x['horses_added'] is False,'Shva junction silently normalized or interpreted'
+            elif unit['status']=='unchanged_source_supported_narrative_hold':assert x['printed_narrative_clause']=='नराणां हृद्यताडयत्' and x['men_not_replaced_with_diseases'] is True,'Narrative logic silently repaired'
+            else:assert x['printed_weapon']=='खड्गेनैरावतं' and x['printed_action']=='पदाग्रहीत्' and x['Airavata_unconscious_source_supported'] is True and x['Indra_unconsciousness_claimed'] is False and x['precise_foot_action_settled'] is False,'Sword or elephant/Indra action falsely resolved'
         if unit['status']=='unchanged_source_confirmed':
             assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None and x['source_sanskrit']==unit['source_reading'],'Unchanged source confirmation promoted or source altered'
             assert x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'Unknown confirmed-source Google page invented'
