@@ -117187,6 +117187,80 @@
           44
         ]
       ]
+    },
+    {
+      "file": "batch-381-reviewed-base-translation.tsv",
+      "sha256": "4831e286670f759ea668b11c03511be0a306d9b99b4caa3e20c90389f8769ce4",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch21-ch24-writer-review.json",
+      "review_sha256": "f16303ec2ce963b6939d5e5411401f77bc2b246aca6dfff20e7ad4a6d2f412dd",
+      "coverage_boundary": "reviewed-base-khanda1-ch21-ch24",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            24,
+            14
+          ],
+          "old_row": {
+            "source_pages": "70",
+            "type": "mantra",
+            "text": "ಉಮಾಕಾಂತ ನಮಸ್ತುಭ್ಯಂ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ । ಭಕ್ತಿಪ್ರಿಯಾಯ ದೇವಾಯ ಸರ್ಪಧಾರಾಯ ತೇ ನಮಃ । ॥೧೪॥"
+          },
+          "new_row": {
+            "source_pages": "70",
+            "type": "mantra",
+            "text": "ಉಮಾಕಾಂತ ನಮಸ್ತುಭ್ಯಂ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ । ಭಕ್ತಿಪ್ರಿಯಾಯ ದೇವಾಯ ಸರ್ಪಹಾರಾಯ ತೇ ನಮಃ । ॥೧೪॥"
+          },
+          "base_snapshot_commit": "6b572352877ca41186c9e495edf21ac11bd3b17d",
+          "adjudication_file": "translation/khanda1-ch21-ch24-writer-review.json",
+          "adjudication_sha256": "f16303ec2ce963b6939d5e5411401f77bc2b246aca6dfff20e7ad4a6d2f412dd",
+          "review_status": "accepted",
+          "rationale": "Original clearly has सर्पहाराय (serpent garland), not सर्पधाराय. Correct only this lexical element; current vocative ಉಮಾಕಾಂತ is already supported. This resolves the base-source transcription question; no alternate printed edition inspected."
+        },
+        {
+          "key": [
+            1,
+            24,
+            18
+          ],
+          "old_row": {
+            "source_pages": "70",
+            "type": "mantra",
+            "text": "ಸದಾ ಬ್ರಹ್ಮಮಯಾಯೈವ ನಮೋ ಬ್ರಹ್ಮಪ್ರದಾಯಿನೇ । ನಿರಾಧಾರಾಯ ನಿತ್ಯಾಯ ಸುದೀಪ್ತಾತ್ಮನೇ ನಮಃ । ॥೧೮॥"
+          },
+          "new_row": {
+            "source_pages": "70",
+            "type": "mantra",
+            "text": "ಸದಾ ಬ್ರಹ್ಮಮಯಾಯೈವ ನಮೋ ಬ್ರಹ್ಮಪ್ರದಾಯಿನೇ । ನಿರಾಧಾರಾಯ ನಿತ್ಯಾಯ ಸುಯೋಗಿಪತಯೇ ನಮಃ । ॥೧೮॥"
+          },
+          "base_snapshot_commit": "6b572352877ca41186c9e495edf21ac11bd3b17d",
+          "adjudication_file": "translation/khanda1-ch21-ch24-writer-review.json",
+          "adjudication_sha256": "f16303ec2ce963b6939d5e5411401f77bc2b246aca6dfff20e7ad4a6d2f412dd",
+          "review_status": "accepted",
+          "rationale": "Original clearly has सुयोगिपतये, lord of excellent yogis, not सुदीप्तात्मने. Replace this epithet only. Historical supplied quotation agrees, but the justification is independent inspection of the original."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          21,
+          46
+        ],
+        [
+          1,
+          23,
+          48
+        ],
+        [
+          1,
+          24,
+          41
+        ]
+      ]
     }
   ],
   "reference_only_index": {

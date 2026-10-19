@@ -198,6 +198,15 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
                 assert x['compound_paraphrase_accepted'] is False,'Compressed compound paraphrase accepted'
             else:
                 assert x['printed_negation_cluster']=='न पुंस्त्री' and x['segmentation_settled'] is False and x['editorial_avagraha_claimed_printed'] is False,'Negation segmentation or editorial avagraha falsely certified'
+        if unit['status'] in {'unchanged_source_supported','unchanged_meaning_hold_known_omission'}:
+            assert x['counted_as_new_correction'] is False and x['accepted_transliteration'] is None and x['source_sanskrit']==unit['source_reading'],'Unchanged target promoted or source altered'
+            assert x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Unknown Google location invented'
+            if unit['status']=='unchanged_source_supported':
+                assert x['target_readings_source_verified'] is True,'Source-supported target confirmation lost'
+                if key==(1,23,48):
+                    assert x['duration_in_23_48'] is False and x['printed_23_43_duration']=='दिव्यवर्षसहस्रं' and x['duration_23_43_divine_years']==1000 and x['input_packet_ten_year_suggestion_rejected'] is True and x['count_text_unchanged'] is True,'Duration moved or erroneous inventory count adopted'
+            else:
+                assert x['current_wording_source_verified'] is False and x['unrendered_source_tokens']==['बाधादं'] and x['known_omission_retained_as_hold'] is True and x['source_emendation_accepted'] is False,'Known omission or compressed syntax falsely resolved'
         if unit['status']=='unchanged_source_confirmed':
             assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None and x['source_sanskrit']==unit['source_reading'],'Unchanged source confirmation promoted or source altered'
             assert x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'Unknown confirmed-source Google page invented'

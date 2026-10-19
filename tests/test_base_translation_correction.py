@@ -414,4 +414,30 @@ class ThreeLateChapterTwentyOneRepairs(unittest.TestCase):
  def test_39_not_paraphrased(self):self.review['no_change_adjudications'][0]['compound_paraphrase_accepted']=True;self.reject_nochange()
  def test_44_segmentation_not_settled(self):self.review['no_change_adjudications'][1]['segmentation_settled']=True;self.reject_nochange()
  def test_avagraha_not_claimed_printed(self):self.review['no_change_adjudications'][1]['editorial_avagraha_claimed_printed']=True;self.reject_nochange()
+class TwoChapterTwentyFourRepairsThreeUnchanged(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch21-ch24-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_valid(self):self.check();self.check(1);self.nochange()
+ def test_sarpahara_required(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಸರ್ಪಹಾರಾಯ','ಸರ್ಪಧಾರಾಯ')
+  self.reject()
+ def test_vocative_preserved(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಉಮಾಕಾಂತ','ಉಮಾಕಾಂತಾಯ')
+  self.reject()
+ def test_suyogipataye_required(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ಸುಯೋಗಿಪತಯೇ','ಸುದೀಪ್ತಾತ್ಮನೇ')
+  self.reject(1)
+ def test_thousand_not_ten(self):self.review['no_change_adjudications'][1]['duration_23_43_divine_years']=10;self.reject_nochange()
+ def test_no_duration_moved_into48(self):self.review['no_change_adjudications'][1]['duration_in_23_48']=True;self.reject_nochange()
+ def test_inventory_error_rejected(self):self.review['no_change_adjudications'][1]['input_packet_ten_year_suggestion_rejected']=False;self.reject_nochange()
+ def test_omission_not_cleared(self):self.review['no_change_adjudications'][2]['unrendered_source_tokens']=[];self.reject_nochange()
+ def test_omitted_wording_not_certified(self):self.review['no_change_adjudications'][2]['current_wording_source_verified']=True;self.reject_nochange()
+ def test_no_emendation_accepted(self):self.review['no_change_adjudications'][2]['source_emendation_accepted']=True;self.reject_nochange()
 if __name__=='__main__':unittest.main()
