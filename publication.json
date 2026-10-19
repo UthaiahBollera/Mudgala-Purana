@@ -1,7 +1,7 @@
 {
-  "source_commit": "6e0953a8a938ee60c9d937f1db126f88fa754bbb",
-  "coverage": "Publish reviewed Khanda 8 chapters 1–5 with explicit unresolved passages",
-  "entries": 18387,
+  "source_commit": "efdb5bc0b576c734f7ea973e8eb643eabcd449ae",
+  "coverage": "Publish reviewed Khanda 8 chapters 6–10 with explicit unresolved passages",
+  "entries": 18658,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
   "chapter4_verses": 65,
@@ -32,9 +32,9 @@
   "chapters1718_reading_status": "partial_with_twentyfive_visible_notices_colophons_withheld",
   "chapter17_verses": 59,
   "chapter18_verses": 37,
-  "chapter_range": "Khanda8chapters1–5;chapters1–5flaggedrelease",
-  "html_sha256": "abdecaf60e542fedfd127ed6dc925cb550774655332055363d342cd9b5901374",
-  "epub_sha256": "f8a4916c2bbe2b54443e75ec6f2e549f8acf0f0bdd7fc021288254d7117262ab",
+  "chapter_range": "Khanda8chapters1–10;chapters6–10flaggedrelease",
+  "html_sha256": "800ece9fc3ab0d35c430ba8b49a4362d096fbc25bd03b8a11da7f9eadbd3e31c",
+  "epub_sha256": "84cc247bc62b793a79ddeb8d24cecd32e41ed62d71a10f9fee03614379a63dc1",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -76,7 +76,7 @@
   "chapter39_boundary_completion": "50ajoinedwith50bonce;51andcolophonadded;3priorholdsretained",
   "chapter40_complete_verses": 56,
   "chapter40_fragment": null,
-  "new_numbered_keys": 261,
+  "new_numbered_keys": 271,
   "chapter40_new_holds": [
     "P32-40-33-L11",
     "P32-40-45-AGENCY"
@@ -243,8 +243,8 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 228,
-  "new_unresolved_placeholders": 33,
+  "new_accepted_textual_candidates": 247,
+  "new_unresolved_placeholders": 24,
   "new_retained_null_issues": 70,
   "new_seven_joins": [
     [
@@ -290,54 +290,34 @@
   "new_join": [
     [
       8,
-      1,
-      24
+      6,
+      17
     ],
     [
       8,
-      1,
-      49
-    ],
-    [
-      8,
-      3,
+      7,
       26
     ],
     [
       8,
-      3,
-      51
+      9,
+      17
     ],
     [
       8,
-      4,
-      8
-    ],
-    [
-      8,
-      4,
-      34
-    ],
-    [
-      8,
-      5,
-      24
-    ],
-    [
-      8,
-      5,
-      48
+      10,
+      53
     ]
   ],
   "release_group": [
-    1,
-    2,
-    3,
-    4,
-    5
+    6,
+    7,
+    8,
+    9,
+    10
   ],
-  "represented_chapters": 339,
-  "new_translation_units": 228,
+  "represented_chapters": 344,
+  "new_translation_units": 247,
   "new_shared_reference_entries": 0,
   "khanda4_chapter_counts": [
     62,
@@ -511,6 +491,11 @@
     41,
     63,
     55,
-    51
+    51,
+    87,
+    46,
+    43,
+    34,
+    61
   ]
 }
