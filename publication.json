@@ -1,6 +1,6 @@
 {
-  "source_commit": "777efd2a5ad53ceb9721d480395f8500d5f2710f",
-  "coverage": "Restore svahridi and prakashe readings with three unchanged holds",
+  "source_commit": "e9c236d9ead1b89329499ba5842233b15c9e6837",
+  "coverage": "Restore chapter39 mantra forms and bounded composer wording",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "4b01497f93916a508f6d02c5a0020ac63291900f905ebbc775c8ff587202e341",
-  "epub_sha256": "423d41fe0f45cd69c0697797314eb711fa29165919440130e0bb3ad43e8c4125",
+  "html_sha256": "963428896a60b5123e3ab22841ec586819d3c59ead114d831c26bb0569a56af3",
+  "epub_sha256": "b558cd75141049abfdeebc845295e06146cf3bd2863c80e274794ef5b0df6e1d",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 2,
+  "new_accepted_textual_candidates": 4,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 0,
   "new_seven_joins": [],
@@ -253,9 +253,8 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    37,
-    38,
-    39
+    39,
+    41
   ],
   "represented_chapters": 425,
   "new_translation_units": 0,
@@ -483,8 +482,8 @@
     {
       "key": [
         1,
-        38,
-        43
+        39,
+        11
       ],
       "scope": "original_only_mantra_token"
     },
@@ -492,9 +491,25 @@
       "key": [
         1,
         39,
-        8
+        13
       ],
       "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        39,
+        20
+      ],
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        39,
+        32
+      ],
+      "scope": "original_only_reviewed_partial_edits"
     }
   ],
   "prior_reviewed_text_corrections": [
@@ -578,8 +593,9 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "37.39 instrumental coordination and38.34 atmana syntax remain held",
-    "39.7 transcription confirmed only;compound and philosophical interpretation not certified",
+    "39.20 printed peace-bearer/world clause meaning remains held",
+    "39.32 partial edits only;second-half syntax and retained paraphrase not certified",
+    "41.29 printed prabhavan me irregular phrase/omission held;no conjectural ablative",
     "Earlier holds and unknown Google targets preserved"
   ],
   "chapter50_verses": 48,
@@ -589,22 +605,12 @@
   "reviewed_no_text_change_keys": [
     [
       1,
-      37,
-      39
-    ],
-    [
-      1,
-      38,
-      34
-    ],
-    [
-      1,
-      39,
-      7
+      41,
+      29
     ]
   ],
-  "new_reviewed_partial_corrections": 0,
-  "new_no_change_reviews": 3,
+  "new_reviewed_partial_corrections": 1,
+  "new_no_change_reviews": 1,
   "mantra_meaning_hold_keys": [
     [
       1,
@@ -705,18 +711,18 @@
       1,
       32,
       45
+    ],
+    [
+      1,
+      39,
+      20
     ]
   ],
   "source_unverified_unchanged_keys": [
     [
       1,
-      37,
-      39
-    ],
-    [
-      1,
-      38,
-      34
+      41,
+      29
     ]
   ],
   "earlier_reading_holds_preserved": true,
