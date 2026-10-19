@@ -196,7 +196,8 @@ if manifest is not None:
         assert review_path.is_relative_to((ROOT/'translation').resolve()) and review_path.is_file(), ('Review artifact missing or outside translation', name)
         assert hashlib.sha256(review_path.read_bytes()).hexdigest() == batch['review_sha256'], ('Review artifact checksum mismatch', name)
         pdf_batch = batch.get('source_kind') == 'local_pdf'
-        google_batch = manifest['schema_version'] == 2 and not pdf_batch
+        base_correction_batch = batch.get('source_kind') == 'reviewed_base_correction'
+        google_batch = manifest['schema_version'] == 2 and not pdf_batch and not base_correction_batch
         if google_batch:
             assert batch['source_kind'] == 'google_books' and batch['book_id'] in GOOGLE_BOOKS_BY_KHANDA.values(), ('Wrong Google Books source', name)
             if 'volume' in batch:
@@ -231,6 +232,12 @@ if manifest is not None:
             assert set(boundary['source_pages']) == google_pages and len(boundary['source_pages']) == len(google_pages), 'PDF batch changed Google coverage'
             assert set(boundary['pdf_source_pages']) == pdf_pages and len(boundary['pdf_source_pages']) == len(pdf_pages), 'PDF coverage differs from pages'
             assert {tuple(k) for k in boundary['review_required_keys']} == google_unresolved_keys, 'PDF unresolved coverage mismatch'
+        elif base_correction_batch:
+            assert not batch['added_keys'] and not batch['boundary_completions'], 'Base repair cannot add or complete verses'
+            review = json.loads(review_path.read_text(encoding='utf-8'))
+            assert review['source_kind'] == 'reviewed_base_correction', 'Wrong base repair review'
+            allowed_pages = set()
+            boundary = coverage[batch['coverage_boundary']]
         else:
             assert batch['source_pdf'] and re.fullmatch(r'[0-9a-f]{64}', batch['source_sha256']), ('Missing source identity', name)
             pdf_start, pdf_end = map(int, batch['pdf_page_range'])
@@ -297,8 +304,12 @@ if manifest is not None:
         assert not set(correction_keys) & set(completion_keys), ('Overlapping correction/completion', name)
         assert set(rows) - additions == set(completion_keys) | set(correction_keys), ('Unlogged replacement of existing verse', name)
         for item, key in zip(corrections, correction_keys):
-            from validate_text_correction import validate_text_correction
-            validate_text_correction(ROOT, replayed[key], rows[key], item, batches[:batches.index(batch)])
+            if base_correction_batch:
+                from validate_text_correction import validate_base_text_correction
+                validate_base_text_correction(ROOT, replayed[key], rows[key], item, review)
+            else:
+                from validate_text_correction import validate_text_correction
+                validate_text_correction(ROOT, replayed[key], rows[key], item, batches[:batches.index(batch)])
         for item, key in zip(completions, completion_keys):
             old_row, new_row = replayed[key], rows[key]
             assert row_content(old_row) == item['old_row'], ('Boundary old row mismatch', key)

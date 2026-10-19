@@ -113969,6 +113969,44 @@
         ]
       ],
       "boundary_completions": []
+    },
+    {
+      "file": "batch-360-reviewed-base-correction.tsv",
+      "sha256": "1e8c30350a5e81fa995e4ed5b647188db921b88e6d976afa7e274712f7187256",
+      "source_kind": "reviewed_base_correction",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch1-v6-independent-pixel-review.json",
+      "review_sha256": "aac02668aa8902eeb8da04464e8e8aec16fbbd4fce17c8cbfe4e554d8b3857d2",
+      "coverage_boundary": "local-pdf-khanda9-ch24-50",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            1,
+            6
+          ],
+          "old_row": {
+            "source_pages": "14",
+            "type": "mantra",
+            "text": "ಬ್ರಹ್ಮಾಣಂ ಶೌನಕಂ ಚ ನರಂ ನಾರಾಯಣಂ ಸದಾ । ನಮಾಮಿ ಭಾವಯುಕ್ತೋಽಹಂ ಪುರಾಣಪುರುಷಂ ಪರಮ್ ॥೬॥"
+          },
+          "new_row": {
+            "source_pages": "14",
+            "type": "mantra",
+            "text": "ಬ್ರಹ್ಮಾಣಂ ಶೇಷನಾಗಂ ಚ ನರಂ ನಾರಾಯಣಂ ಸದಾ । ನಮಾಮಿ ಭಾವಯುಕ್ತೋಽಹಂ ಪುರಾಣಪುರುಷಂ ಪರಮ್ ॥೬॥"
+          },
+          "review_status": "accepted",
+          "replacement": {
+            "before": "ಶೌನಕಂ",
+            "after": "ಶೇಷನಾಗಂ"
+          },
+          "adjudication_file": "translation/khanda1-ch1-v6-independent-pixel-review.json",
+          "adjudication_sha256": "aac02668aa8902eeb8da04464e8e8aec16fbbd4fce17c8cbfe4e554d8b3857d2",
+          "rationale": "Cross-source-supported name-only correction; base ಚ and historical source-page14 retained, Google omission documented separately."
+        }
+      ]
     }
   ],
   "reference_only_index": {

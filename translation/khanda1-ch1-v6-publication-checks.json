@@ -1,0 +1,76 @@
+{
+  "status": "checks_passed",
+  "HTML_exactly_one_name_token_replaced": true,
+  "changed_numbered_paragraphs": [
+    "ch1-v6"
+  ],
+  "old_TSVs_CSS_prompt_metadata_coverage_reference_data_preserved": true,
+  "other_registry_records_preserved": true,
+  "historical_issue_and_provenance_retained": true,
+  "EPUB_name_only_target_verified": true,
+  "tests": {
+    "Google": 38,
+    "PDF": 16,
+    "existing_text_corrections": 8,
+    "base_correction": 8,
+    "reference_only": 20,
+    "both_contents_builds": true
+  },
+  "counts": {
+    "numbered_entries": 22434,
+    "numbered_chapters": 408,
+    "reference_locators": 264,
+    "reference_chapters": 17
+  },
+  "log": "/tmp/kh1-name-correction-checks.log",
+  "post_test_additional_original_evidence": {
+    "only_adjudication_metadata_and_corresponding_hash_pointers_added": true,
+    "new_original_pixels_and_hashes_Mac_verified": true,
+    "base_text_changes_still_one_name_token": true
+  },
+  "QA_local": [
+    {
+      "width": 1470,
+      "target": true,
+      "cha": true,
+      "v1hold": true,
+      "v9hold": true,
+      "gaps": true,
+      "numbered": true,
+      "reference": true,
+      "font": true,
+      "no_overflow": true,
+      "dead": 0
+    },
+    {
+      "width": 375,
+      "target": true,
+      "cha": true,
+      "v1hold": true,
+      "v9hold": true,
+      "gaps": true,
+      "numbered": true,
+      "reference": true,
+      "font": true,
+      "no_overflow": true,
+      "dead": 0
+    },
+    {
+      "width": 390,
+      "target": true,
+      "cha": true,
+      "v1hold": true,
+      "v9hold": true,
+      "gaps": true,
+      "numbered": true,
+      "reference": true,
+      "font": true,
+      "no_overflow": true,
+      "dead": 0
+    }
+  ],
+  "source_review": "translation/khanda1-ch1-v6-independent-pixel-review.json",
+  "reference_crop_sha256": "8c94500f1b5a10a7221eea2f91b19ca29d30233c1c33297079a76a80071f9198",
+  "exact_supported_change": "ಶೌನಕಂ → ಶೇಷನಾಗಂ; following ಚ retained",
+  "historical_registry_question_retained_with_resolution_provenance": true
+}

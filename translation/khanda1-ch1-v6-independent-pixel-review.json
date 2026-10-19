@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_correction",
+  "key": [
+    1,
+    1,
+    6
+  ],
+  "old_row": {
+    "source_pages": "14",
+    "type": "mantra",
+    "text": "ಬ್ರಹ್ಮಾಣಂ ಶೌನಕಂ ಚ ನರಂ ನಾರಾಯಣಂ ಸದಾ । ನಮಾಮಿ ಭಾವಯುಕ್ತೋಽಹಂ ಪುರಾಣಪುರುಷಂ ಪರಮ್ ॥೬॥"
+  },
+  "new_row": {
+    "source_pages": "14",
+    "type": "mantra",
+    "text": "ಬ್ರಹ್ಮಾಣಂ ಶೇಷನಾಗಂ ಚ ನರಂ ನಾರಾಯಣಂ ಸದಾ । ನಮಾಮಿ ಭಾವಯುಕ್ತೋಽಹಂ ಪುರಾಣಪುರುಷಂ ಪರಮ್ ॥೬॥"
+  },
+  "review_status": "accepted",
+  "replacement": {
+    "before": "ಶೌನಕಂ",
+    "after": "ಶೇಷನಾಗಂ"
+  },
+  "base_snapshot_commit": "dcd504671e5ed48c84344c20174bb7c6b28c37f8",
+  "base_file": "translation/narrative.tsv",
+  "base_source_mapping_preserved": "14",
+  "base_field_type_preserved": "mantra",
+  "reference_source": {
+    "provider": "Google Books original Sanskrit",
+    "book_id": "Lh0FEQAAQBAJ",
+    "page_id": "PT65",
+    "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&pg=PT65",
+    "exact_pixel_transcription": "ब्रह्माणं शेषनागं नरं नारायणं सदा । नमामि भावयुक्तोऽहं पुराणपुरुषं परम् ॥६॥",
+    "crop_file": "translation/khanda1-ch1-v6-PT65-sanskrit.png",
+    "crop_sha256": "8c94500f1b5a10a7221eea2f91b19ca29d30233c1c33297079a76a80071f9198",
+    "Google_cha_after_name": false
+  },
+  "cross_source_reference": {
+    "url": "https://sanskritdocuments.org/doc_purana/mudgalapurANam1.html",
+    "recorded_transcription": "ब्रह्माणं शेषनागं च नरं नारायणं सदा ।\nनमामि भावयुक्तोऽहं पुराणपुरुषं परम् ॥ ६॥",
+    "scope": "Previously retained textual reference and independently relayed textual review; not substituted for original scan pixels."
+  },
+  "independent_review": {
+    "status": "accepted",
+    "source_thread": "01a1532b-17b9-73dd-a483-0be14b9640c5",
+    "scope": "Supplied crop pixels inspected, not live Google Books pages.",
+    "reviewed_input_Library_file": "libfile_c0a8e560ae808191b9a3e998c6f992a5",
+    "reviewed_input_bytes": 211721,
+    "reviewed_input_sha256": "f19c517bf81accc9507c3acc174da23d8e0f87e0414027f935efa0ece322f371",
+    "finding": "PT65 visibly has शेषनागं and no following च. Name-only correction is cross-source-supported; preserve base ಚ and log omission as edition variant."
+  },
+  "edition_policy": {
+    "retain_base_cha": true,
+    "Google_cha_absence": "documented_reference_edition_variant_not_applied",
+    "no_silent_edition_harmonization": true,
+    "origin_of_current_wrong_name": "unknown; not claimed to be proven OCR error"
+  },
+  "evidence_correction_notice": "Earlier integrator reference transcription in the reviewed packet incorrectly included च. Independent pixel review supersedes that reference claim only; original artifact remains historical evidence.",
+  "retained_holds": [
+    "Kh1.1.1 ध्याये/ध्यायेत् edition/transcription difference unchanged.",
+    "Kh1.1.9 meaning/context hold unchanged; field remains translation, not transliteration.",
+    "All Khanda2 primary source gaps unchanged; PT662 reference86 not imported."
+  ],
+  "authorization": "Parent01a13eda-e0de-73e5-8e25-083617447014 explicitly authorized minimal name-only correction, rebuild and publication under existing user authorization.",
+  "paid_calls": 0,
+  "new_original_archive_evidence": {
+    "Drive_URL": "https://drive.google.com/file/d/1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi/view?usp=drivesdk",
+    "archive_Library_file": "libfile_64aa2ca51ef881918c442b04d0fdf5bb",
+    "archive_bytes": 191729010,
+    "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+    "archive_member": "Page Images/page_0001.png",
+    "page_Library_file": "libfile_f3261796989c81919e04f9db03cde43a",
+    "full_page_sha256": "bf40476f2557bfad529d19a66e1cc641ac272e02051272b8a6b9cb002636c0e1",
+    "detail_Library_file": "libfile_03d46cd4f7108191a1341958bb467234",
+    "detail_sha256": "58907610e0de664c0f5cd52e7986e780a97fa367a34035fe08fb75584e75122e",
+    "Mac_materialized_bytes_and_hashes_verified": true,
+    "Mac_full_and_detail_pixels_inspected": true,
+    "independent_pixel_reviewer_thread": "01a1532b-17b9-73dd-a483-0be14b9640c5",
+    "independent_scope": "Supplied original fullpage and detail images, not live Google Books.",
+    "page_heading_verified": "Khanda1 chapter1, printedpage1; no publication/title-leaf identity claimed.",
+    "verse6_visible_source": "ब्रह्माणं शेषनागं च नरं नारायणं सदा",
+    "verse1_visible_source": "ध्याये; no final त्. Base no-change confirmed; Google ध्यायेत् retained as reference edition difference.",
+    "verse9_visible_source": "तस्मिन्कलियुगावासं ज्ञात्वादौ ब्रह्मणो मुखात्; source glyph confirmed, meaning/context review remains.",
+    "legacy_mapping_policy": "Historical source_pages14 is not silently relabeled as archive page1. Newly supplied exact original page identity recorded separately.",
+    "public_scan_republication": "Original PNG bytes kept in local/Library reference storage, not added as public book illustrations."
+  }
+}
