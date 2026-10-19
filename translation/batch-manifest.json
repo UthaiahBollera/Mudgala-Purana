@@ -117005,6 +117005,97 @@
           9
         ]
       ]
+    },
+    {
+      "file": "batch-379-reviewed-base-translation.tsv",
+      "sha256": "257f2b9eb7325fc779ed3749ff92d12e2df3c5d5d0d090db06e3352d8ab3c800",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch20-ch21-writer-review.json",
+      "review_sha256": "d19d087ff698141d6fb4d5fde6b618704f70622b82a0e36fb3c659619477c189",
+      "coverage_boundary": "reviewed-base-khanda1-ch20-ch21",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            20,
+            27
+          ],
+          "old_row": {
+            "source_pages": "61",
+            "type": "translation",
+            "text": "ನನ್ನ ವಂಶದಲ್ಲಿಯೂ ಗಣಪತಿಯ ಭಕ್ತರು ಅತ್ಯಂತ ಪ್ರಿಯರಾಗಿದ್ದಾರೆ. ಅವರು ನರಕಗಳಲ್ಲಿ ಇರುವ ಜೀವಿಗಳನ್ನು ಉದ್ಧರಿಸುವವರು; ಮಹಾಭಾಗರು; ಮಹಾತ್ಮರು. ॥೨೭॥"
+          },
+          "new_row": {
+            "source_pages": "61",
+            "type": "translation-review",
+            "text": "ಇಂದು ನನ್ನ ವಂಶವು ಧನ್ಯವಾಗಿದೆ; ಅದರಲ್ಲಿ ಗಾಣಪತ್ಯರು ಹುಟ್ಟಿದ್ದಾರೆ. (ಪರಿಶೀಲನೆ: ಉಳಿದ ಭಾಗದಲ್ಲಿ ಮೂಲವು “ನಾರಕಾಃ” ಎಂದು ಮುದ್ರಿಸಿದೆ. ಜೀವಿಗಳನ್ನು ಉದ್ಧರಿಸುವವರು ಅಥವಾ ನರಕದಲ್ಲಿರುವವರು ಎಂಬ ಅರ್ಥಸಂಬಂಧ ಇನ್ನೂ ನಿರ್ಧಾರವಾಗಿಲ್ಲ; ಪೂರ್ಣ ಶ್ಲೋಕದ ಅರ್ಥಕ್ಕೆ ಒಪ್ಪಿಗೆ ನೀಡಿಲ್ಲ.) ॥೨೭॥"
+          },
+          "base_snapshot_commit": "f03eda73c4c78416082a8ce0ea6ef09e6ee61f1d",
+          "adjudication_file": "translation/khanda1-ch20-ch21-writer-review.json",
+          "adjudication_sha256": "d19d087ff698141d6fb4d5fde6b618704f70622b82a0e36fb3c659619477c189",
+          "review_status": "accepted",
+          "rationale": "The original has धन्यो वंशो मदीयोद्य and समुत्पन्ना, not a statement that devotees are very dear. The proposed first sentence restores the blessed lineage and emergence of Ganapatyas. Second part actually prints नारकाः, not तारकाः; the deliverers/in-hell interpretation is unresolved, and neither “in hell” nor the extra mahatma description should be certified. Do not silently emend the Sanskrit. Full verse replacement remains null; hold the remaining sentence for adjudication."
+        },
+        {
+          "key": [
+            1,
+            21,
+            8
+          ],
+          "old_row": {
+            "source_pages": "62",
+            "type": "mantra",
+            "text": "ನಮೋ ಭೂಮಿರೂಪಾಯ ನಾನಾಪ್ರಭೇದಧರಾಯಾಥ ಧಾರಾಯ ನಿತ್ಯಾಯ ತೇಽಸ್ತು । ಜಲೌಘಸ್ವರೂಪಾಯ ತೃಪ್ತಿಪ್ರದಾಯ ತದಾಕಾರಹೀನಾಯ ಸಾರಾಯ ಧಾಮ್ನೇ । ॥೮॥"
+          },
+          "new_row": {
+            "source_pages": "62",
+            "type": "mantra",
+            "text": "ನಮೋ ಭೂಮಿರೂಪಾಯ ನಾನಾಪ್ರಭೇದಧರಾಯಾಥ ಧಾರಾಯ ನಿತ್ಯಾಯ ತೇಽಸ್ತು । ಜಲಾಧಿಸ್ವರೂಪಾಯ ತೃಪ್ತಿಪ್ರದಾಯ ತದಾಕಾರಹೀನಾಯ ಸಾರಾಯ ಧಾಮ್ನೇ । ॥೮॥"
+          },
+          "base_snapshot_commit": "f03eda73c4c78416082a8ce0ea6ef09e6ee61f1d",
+          "adjudication_file": "translation/khanda1-ch20-ch21-writer-review.json",
+          "adjudication_sha256": "d19d087ff698141d6fb4d5fde6b618704f70622b82a0e36fb3c659619477c189",
+          "review_status": "accepted",
+          "rationale": "Actual original reads जलाधिस्वरूपाय, not जलौघस्वरूपाय. Restore only that word. The already-present अथ in धरायाथ is confirmed, not newly fixed. Both water-related alternatives are meaningful; this proposal follows inspected base pixels, not semantic preference."
+        },
+        {
+          "key": [
+            1,
+            21,
+            30
+          ],
+          "old_row": {
+            "source_pages": "64",
+            "type": "mantra",
+            "text": "ನಮಸ್ತಾಮಸಾಯಾಥ ಸಂಹಾರಕರ್ತ್ರೇ ತ್ರಿನೇತ್ರಪ್ರದೀಪಾಯ ಶಕ್ತಿಧರಾಯ । ಸದಾ ಕಾಲರೂಪಾಯ ಕೈಲಾಸದಾಯ ತಮೋಹೀನರೂಪಾಯ ಲಂಬೋದರಾಯ । ॥೩೦॥"
+          },
+          "new_row": {
+            "source_pages": "64",
+            "type": "mantra",
+            "text": "ನಮಸ್ತಾಮಸಾಯಾಥ ಸಂಹಾರಕರ್ತ್ರೇ ತ್ರಿನೇತ್ರಪ್ರದೀಪಾಯ ಶಕ್ತೇರ್ಧರಾಯ । ಸದಾ ಕಾಲರೂಪಾಯ ಕೈಲಾಸದಾಯ ತಮೋಹೀನರೂಪಾಯ ಲಂಬೋದರಾಯ । ॥೩೦॥"
+          },
+          "base_snapshot_commit": "f03eda73c4c78416082a8ce0ea6ef09e6ee61f1d",
+          "adjudication_file": "translation/khanda1-ch20-ch21-writer-review.json",
+          "adjudication_sha256": "d19d087ff698141d6fb4d5fde6b618704f70622b82a0e36fb3c659619477c189",
+          "review_status": "accepted",
+          "rationale": "Actual original clearly reads शक्तेर्धराय with e-mark and repha. Restore only the source form; retain its genitive/sandhi structure without changing it back into the coherent but different शक्तिधराय compound. Exact doctrinal force is not paraphrased."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          21,
+          7
+        ],
+        [
+          1,
+          21,
+          28
+        ]
+      ]
     }
   ],
   "reference_only_index": {

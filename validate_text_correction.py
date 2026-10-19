@@ -114,6 +114,8 @@ def validate_base_translation_correction(root,old,new,item,review):
             assert new['text']==expected and p['proposed_full_replacement']is None,'Reviewed partial proposal changed or completed'
             assert not record['partial_suffix']or record['partial_suffix'].startswith(' (ಪರಿಶೀಲನೆ:'),'Partial suffix must be explicit hold'
             assert record['edition_variant']is None,'Unavailable edition variant invented'
+            if p['status']=='partial_first_clause_only':
+                assert record['printed_disputed_token']=='नारकाः' and record['source_emendation_accepted'] is False and record['remaining_sentence_accepted'] is False,'Printed naraka emended or unresolved remainder certified'
         elif record.get('correction_mode')=='original_only_partial_clauses':
             expected=p['proposed_partial_after'].replace('[','(ಪರಿಶೀಲನೆ: ').replace(']',')')
             assert new['text']==expected and p['proposed_full_final_after']is None,'Partial clear-clause proposal changed or completed'
@@ -178,6 +180,13 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
                 assert x['printed_name']=='लोमासुर' and x['retained_Kannada_name']=='ಲೋಭಾಸುರ' and x['retained_name_is_editorial_not_scan_confirmed'] is True and x['independent_narrative_name_scan_checked'] is False,'Name discrepancy or unseen evidence misrepresented'
             else:
                 assert x['printed_continuous_junction']=='शक्तिब्रह्माखुगः सद्यत्तस्य' and x['segmentation_settled'] is False and x['absent_a_inserted'] is False,'Compressed source harmonized or settled'
+        if unit['status'] in {'unchanged_source_confirmed_meaning_hold','unchanged_base_reading_preserved'}:
+            assert x['counted_as_new_correction'] is False and x['target_readings_source_verified'] is True and x['accepted_transliteration'] is None,'Unchanged source confirmation promoted'
+            assert x['source_sanskrit']==unit['source_reading'] and x['reference_source']['page_id'] is None and x['reference_source']['page_url'] is None,'Source or unknown Google page altered'
+            if unit['status']=='unchanged_source_confirmed_meaning_hold':
+                assert x['numerical_compound_expansion_accepted'] is False and x['current_wording_source_verified'] is False,'Difficult compound interpretation certified'
+            else:
+                assert x['printed_base_token']=='धात्रे' and x['historical_comparison_token']=='धाम्ने' and x['named_edition_variant_established'] is False,'Base dhatre harmonized or uninspected edition invented'
         if unit['status']=='unchanged_source_confirmed':
             assert x['target_readings_source_verified']is True and x['counted_as_new_correction']is False and x['accepted_transliteration']is None and x['source_sanskrit']==unit['source_reading'],'Unchanged source confirmation promoted or source altered'
             assert x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'Unknown confirmed-source Google page invented'
