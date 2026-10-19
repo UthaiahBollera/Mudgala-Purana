@@ -1,6 +1,6 @@
 {
-  "source_commit": "79891da43ef8a4882dc08217b820bfed2343687d",
-  "coverage": "Restore printed Vijaya name and lion-mount verse boundary",
+  "source_commit": "6e698390df140c7b0495509e027626daea124d9d",
+  "coverage": "Restore five chapter 32 mantra readings and retain two meaning holds",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "79c7e53b332367cdd98db6c4fdb7f45fa8d1c94f11f0fc2cd453984e2d8ea366",
-  "epub_sha256": "57a407114d08bc225d9da75b6dcbd296b0bec60724c2e3635805fb97ace7ccde",
+  "html_sha256": "86a3ed5d68fc1cba29432a921f9f6fbd6f012f78526ae23d50cdf34294767649",
+  "epub_sha256": "9e47312051676d0a7b128baeda02aebfe21b483b89647ec1409448378e121bf8",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -243,7 +243,7 @@
   "khanda3_held_verses": 22,
   "khanda3_continuity": "No missing body passage between publishedKhanda2ending andKhanda3opening; frontmatter tracked separately",
   "khanda3_all191_visible_verse_numbers_verified": true,
-  "new_accepted_textual_candidates": 2,
+  "new_accepted_textual_candidates": 5,
   "new_unresolved_placeholders": 0,
   "new_retained_null_issues": 0,
   "new_seven_joins": [],
@@ -253,8 +253,6 @@
   "chapter13_source_holds_retained": true,
   "new_join": [],
   "release_group": [
-    30,
-    31,
     32
   ],
   "represented_chapters": 425,
@@ -483,18 +481,42 @@
     {
       "key": [
         1,
-        31,
-        2
+        32,
+        35
       ],
-      "scope": "original_only_reviewed_full_with_hold"
+      "scope": "original_only_mantra_token"
     },
     {
       "key": [
         1,
         32,
-        15
+        36
       ],
-      "scope": "original_only_full_translation"
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        32,
+        41
+      ],
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        32,
+        45
+      ],
+      "scope": "original_only_mantra_token"
+    },
+    {
+      "key": [
+        1,
+        32,
+        48
+      ],
+      "scope": "original_only_mantra_token"
     }
   ],
   "prior_reviewed_text_corrections": [
@@ -578,34 +600,16 @@
   "active_primary_source_gaps": 0,
   "new_nonverse_units": 0,
   "remaining_release_holds": [
-    "31.2 Vijaya/Vishaya narrative-name identity remains held after restoring printed Vijaya",
-    "31.29 childlike dvandva meaning and31.49 dual/first-person locative syntax remain held",
-    "30.12 gods-striking-gods preserved in source-supported confusion context",
+    "32.41 unusual epithet meaning and32.45 compressed interpretation remain open",
     "Earlier holds and unknown Google targets preserved"
   ],
   "chapter50_verses": 48,
   "chapter51_verses": 42,
   "chapter52_verses": 50,
   "new_numbered_chapters": 0,
-  "reviewed_no_text_change_keys": [
-    [
-      1,
-      30,
-      12
-    ],
-    [
-      1,
-      31,
-      29
-    ],
-    [
-      1,
-      31,
-      49
-    ]
-  ],
-  "new_reviewed_partial_corrections": 1,
-  "new_no_change_reviews": 3,
+  "reviewed_no_text_change_keys": [],
+  "new_reviewed_partial_corrections": 0,
+  "new_no_change_reviews": 0,
   "mantra_meaning_hold_keys": [
     [
       1,
@@ -696,22 +700,21 @@
       1,
       21,
       45
-    ]
-  ],
-  "source_unverified_unchanged_keys": [
-    [
-      1,
-      31,
-      29
     ],
     [
       1,
-      31,
-      49
+      32,
+      41
+    ],
+    [
+      1,
+      32,
+      45
     ]
   ],
+  "source_unverified_unchanged_keys": [],
   "earlier_reading_holds_preserved": true,
-  "new_target_reading_confirmations": 1,
+  "new_target_reading_confirmations": 5,
   "release_scope": "reviewed_text_corrections",
   "prior_publication_commit": "afb13cd9c29cf07241887c59d283c14ca8c1557c",
   "book_text_and_flags_unchanged": false,
@@ -729,6 +732,6 @@
   "print_quality_certification": null,
   "approved_cover_v5_unchanged": true,
   "confirmed_existing_subverse_tokens": {},
-  "fully_resolved_targets": 0,
-  "new_full_accepted_translations": 1
+  "fully_resolved_targets": 3,
+  "new_full_accepted_translations": 0
 }
