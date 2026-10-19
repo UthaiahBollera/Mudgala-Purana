@@ -118,6 +118,8 @@ if google_boundary:
 if boundary.get('base_review_required_keys'):
     for key in map(tuple,boundary['base_review_required_keys']):
         assert merged[key]['type']=='translation-review' and 'ಪರಿಶೀಲನೆ'in merged[key]['text'],'Base translation hold not visible'
+for key in map(tuple,boundary.get('base_mantra_meaning_hold_keys',[])):
+    assert merged[key]['type']=='mantra','Mantra meaning hold changed field treatment'
 partials = sorted(k for k,r in merged.items() if r['type']=='translation-partial')
 expected_partials = (sorted(tuple(map(int, key)) for key in boundary['partial_keys'])
                      if 'partial_keys' in boundary else ([max(merged)] if boundary['tail_partial'] else []))

@@ -115956,6 +115956,114 @@
           15
         ]
       ]
+    },
+    {
+      "file": "batch-368-reviewed-base-translation.tsv",
+      "sha256": "39d5df972afc0f2651d6f8e5b299f750cc2dc45e65d1b0e12f962b9a7d815aeb",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+      "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+      "coverage_boundary": "reviewed-base-khanda1-ch4-remaining",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            4,
+            30
+          ],
+          "old_row": {
+            "source_pages": "22",
+            "type": "mantra",
+            "text": "ಅರ್ಧನಾರೀಶ್ವರತ್ವಂ ಯದ್ಗತಂ ಮೇಽಧುನಾ ಪ್ರಭೋ । ಶಕ್ತಿಹೀನತ್ವಮಾಪ್ತೋಽಹಂ ನಷ್ಟಕರ್ಮಣಾ ಕೃತಃ ॥೩೦॥"
+          },
+          "new_row": {
+            "source_pages": "22",
+            "type": "mantra",
+            "text": "ಅರ್ಧನಾರೀಶ್ವರತ್ವಂ ಯತ್ತದ್ಗತಂ ಮೇಽಧುನಾ ಪ್ರಭೋ । ಶಕ್ತಿಹೀನತ್ವಮಾಪನ್ನೋ ನಷ್ಟವತ್ಕರ್ಮಣಾ ಕೃತಃ ॥೩೦॥"
+          },
+          "base_snapshot_commit": "93b699a5f10b8f91ea771485753f87025789c16d",
+          "adjudication_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "adjudication_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "review_status": "accepted",
+          "rationale": "Printed word sequence is supported. The syntactic/semantic force of नष्टवत्कर्मणा remains a meaning hold; do not repair the Sanskrit to a more familiar expression. The relative/correlative sequence is यत् तद्गतम्, not merely a choice between yadgatam and tadgatam."
+        },
+        {
+          "key": [
+            1,
+            4,
+            33
+          ],
+          "old_row": {
+            "source_pages": "22",
+            "type": "mantra",
+            "text": "ಶಕ್ತಿಹೀನಃ ಪದಾ ಗಂತುಂ ನ ಶಕ್ನೋಮಿ ಗಣೇಶ್ವರ । ಅತಸ್ತ್ವಂ ದೇವದೇವೇಶ ಶಕ್ತಂ ಮಾಂ ಕುರು ಕರ್ಮಣಿ ॥೩೩॥"
+          },
+          "new_row": {
+            "source_pages": "22",
+            "type": "mantra",
+            "text": "ಶಕ್ತಿಹೀನಃ ಪದಾ ಗಂತುಂ ನ ಶಕ್ನೋಮಿ ಗಣೇಶ್ವರ । ಅತಸ್ತ್ವಂ ಕೃಪಯಾ ದೇವ ಶಕ್ತಂ ಮಾಂ ಕುರು ಕರ್ಮಣಿ ॥೩೩॥"
+          },
+          "base_snapshot_commit": "93b699a5f10b8f91ea771485753f87025789c16d",
+          "adjudication_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "adjudication_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "review_status": "accepted",
+          "rationale": "The negation न and the rest of the current mantra remain unchanged. Printed कृपया देव is legible despite worn ink."
+        },
+        {
+          "key": [
+            1,
+            4,
+            93
+          ],
+          "old_row": {
+            "source_pages": "25",
+            "type": "mantra",
+            "text": "ಸೂರ್ಯಸ್ತಪತಿ ಕಾಲೇನ ಜ್ಯೋತಿಷಾಂ ಗಣ ಏವ ಚ । ಕಾಲೇನ ಜಾಯತೇ ವೃಷ್ಟಿರವೃಷ್ಟಿಶ್ಚ ವಿಭೋ ॥೯೩॥"
+          },
+          "new_row": {
+            "source_pages": "25",
+            "type": "mantra",
+            "text": "ಸೂರ್ಯಸ್ತಪತಿ ಕಾಲೇನ ಜ್ಯೋತಿಷಾಂ ಗಣ ಏವ ಚ । ಕಾಲೇನ ಜಾಯತೇ ವೃಷ್ಟಿರನಾವೃಷ್ಟಿಸ್ತಥಾ ವಿಭೋ ॥೯೩॥"
+          },
+          "base_snapshot_commit": "93b699a5f10b8f91ea771485753f87025789c16d",
+          "adjudication_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "adjudication_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "review_status": "accepted",
+          "rationale": "Faint printing was viewed enlarged. The sequence अनावृष्टिस्तथा is supported by visible letters, not supplied solely for metre. Both rain and lack of rain remain in the verse."
+        },
+        {
+          "key": [
+            1,
+            4,
+            97
+          ],
+          "old_row": {
+            "source_pages": "25",
+            "type": "mantra",
+            "text": "ಕ್ಷಮಸ್ವ ಮೇಽಪರಾಧಂ ತ್ವಂ ತ್ವನ್ಮಾಯಾಗರ್ವಿತಸ್ಯ ಚ । ಯತ್ಕೃತಂ ತದ್ದಯಾಶೀಲ ನಮಸ್ತೇ ಪರಮೇಶ್ವರ ॥೯೭॥"
+          },
+          "new_row": {
+            "source_pages": "25",
+            "type": "mantra",
+            "text": "ಕ್ಷಮಸ್ವ ಮೇಽಪರಾಧಂ ತ್ವಂ ತ್ವನ್ಮಾಯಾಗರ್ವಿತಸ್ಯ ಚ । ಯತ್ಕೃತಂ ತದ್ದಯಾಸಿಂಧೋ ನಮಸ್ತೇ ಪರಮೇಶ್ವರ ॥೯೭॥"
+          },
+          "base_snapshot_commit": "93b699a5f10b8f91ea771485753f87025789c16d",
+          "adjudication_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "adjudication_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "review_status": "accepted",
+          "rationale": "Original prints दयासिंधो; homorganic normalized दयासिन्धो is equivalent. Do not label the unsupported current dayāśīla an established edition variant merely because it is a meaningful epithet."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          4,
+          100
+        ]
+      ]
     }
   ],
   "reference_only_index": {

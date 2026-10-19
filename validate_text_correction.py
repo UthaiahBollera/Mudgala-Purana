@@ -72,7 +72,7 @@ def validate_base_translation_correction(root,old,new,item,review):
     for f in review['evidence_files']:evidence(f['file'],f['sha256'])
     proposal=json.loads(evidence(review['candidate_file'],review['candidate_sha256']).read_text());units=proposal.get('items',proposal.get('records',[dict(proposal,key=proposal.get('scope'))]));p=next(x for x in units if tuple(x['key'])==key)
     assert all(x['accepted_sanskrit']is None and x['accepted_kannada']is None for x in units),'Worker candidate acceptance promoted'
-    assert p.get('base_sanskrit',p.get('candidate_sanskrit',p.get('provisional_sanskrit',p.get('source_sanskrit_diplomatic_reading'))))==record['source_sanskrit'],'Base Sanskrit changed'
+    assert p.get('base_sanskrit',p.get('candidate_sanskrit',p.get('provisional_sanskrit',p.get('source_sanskrit_diplomatic_reading',p.get('source_reading')))))==record['source_sanskrit'],'Base Sanskrit changed'
     independent=record['independent_review'];evidence(independent['file'],independent['sha256'])
     ref=record['reference_source']
     if record.get('correction_mode','').startswith('original_only_'):
@@ -80,7 +80,19 @@ def validate_base_translation_correction(root,old,new,item,review):
     else:
         assert ref['book_id']=='Lh0FEQAAQBAJ'and ref['page_url']=='https://books.google.co.in/books?id='+ref['book_id']+'&pg='+ref['page_id'],'Base reference identity mismatch';evidence(ref['crop_file'],ref['crop_sha256'])
     original=record['additional_original_source'];evidence(original['file'],original['sha256']);assert original['Mac_bytes_archive_identical_and_pixels_checked']and original['dimensions']==[3840,2508],'Original pixels not checked'
-    if record['issues']:
+    if record.get('correction_mode')=='original_only_mantra_token':
+        replacements=record.get('replacements',[record.get('replacement')]);expected=old['text']
+        assert replacements and old['type']==new['type']=='mantra','Mantra treatment changed'
+        for replacement in replacements:
+            assert replacement and expected.count(replacement['before'])==1,'Declared mantra token absent or repeated'
+            expected=expected.replace(replacement['before'],replacement['after'])
+        assert expected==new['text']==p['proposed_full_replacement']and record['accepted_transliteration']==new['text']and record['accepted_translation']is None,'Mantra repair exceeds declared source edits'
+        if 'minimal_edits'in p:
+            assert [x['before']+' → '+x['after']for x in replacements]==p['minimal_edits'],'Mantra edits differ from independent review'
+            assert bool(record['issues'])==p['status'].endswith('_with_meaning_hold'),'Independent mantra meaning hold omitted'
+        status='accepted_transliteration_with_meaning_hold'if record['issues']else'accepted'
+        assert record['review_status']==status and all(x['status']=='open'and x['reading']is None for x in record['issues']),'Mantra meaning hold closed'
+    elif record['issues']:
         assert new['type']=='translation-review'and 'ಪರಿಶೀಲನೆ'in new['text']and record['accepted_translation']is None and record['review_status']=='accepted_with_unresolved_meaning','Base meaning hold hidden/promoted'
         assert all(x['status']=='open'and x['reading']is None for x in record['issues']),'Unresolved meaning accepted'
         if record.get('correction_mode')=='original_only_reviewed_partial':
@@ -100,9 +112,6 @@ def validate_base_translation_correction(root,old,new,item,review):
         else:
             expected=p['optional_explicitly_partial_draft'].replace('[','(ಪರಿಶೀಲನೆ: ').replace(']',')');assert new['text']==expected,'Partial draft changed beyond reviewed proposal'
             assert record['edition_variant']=={'base':'सुविस्तार्य','Google':'सविस्तारं','status':'retained_not_harmonized'},'Edition difference harmonized'
-    elif record.get('correction_mode')=='original_only_mantra_token':
-        replacement=record['replacement'];assert old['type']==new['type']=='mantra'and old['text'].count(replacement['before'])==1 and new['text']==old['text'].replace(replacement['before'],replacement['after']),'Mantra repair exceeds one declared token'
-        assert new['text']==p['proposed_full_replacement']and record['accepted_transliteration']==new['text']and record['accepted_translation']is None and record['review_status']=='accepted','Mantra transcription not independently adjudicated'
     else:
         assert new['type']=='translation'and record['accepted_translation']==new['text']and record['review_status']=='accepted','Base correction treatment differs'
         assert new['text'].startswith(p['proposed_kannada'])and 'ಇದನ್ನು'in new['text']and 'ನಿರ್ದಿಷ್ಟ ಉಲ್ಲೇಖ'in new['text'],'Demonstrative referent invented or note omitted'
@@ -119,4 +128,6 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
         assert key not in {tuple(y['key'])for y in batch['text_corrections']},'No-change verse inserted as correction'
         assert x['review_status']=='reviewed_no_text_change_hold'and x['accepted_translation']is None and x['issues']and all(i['status']=='open'and i['reading']is None for i in x['issues']),'No-change hold closed'
         candidate=json.loads((root/review['candidate_file']).read_text());unit=next(p for p in candidate['records']if tuple(p['key'])==key)
-        assert unit['before']==old['text']and unit['proposed_full_replacement']is None and unit['proposed_partial_text']is None,'No-change differs from independent proposal'
+        assert unit['before']==old['text']and unit['proposed_full_replacement']is None and unit.get('proposed_partial_text')is None,'No-change differs from independent proposal'
+        if unit['status']=='retained_reading_and_meaning_hold_no_accepted_change':
+            assert x['current_wording_source_verified']is False and x['accepted_transliteration']is None,'Unresolved unchanged wording certified'

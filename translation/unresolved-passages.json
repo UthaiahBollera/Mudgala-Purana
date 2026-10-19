@@ -661,7 +661,7 @@
       "verse_end": 30,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "corrected_original_transcription_meaning_hold",
       "issues": [
         "Mantra wording divergence requiring printed-edition comparison; do not silently harmonize. Online tadgataṃ and śaktihīnatvamāpanno naṣṭavatkarmaṇā kṛtaḥ versus Kannada yadgataṃ and śaktihīnatvamāpto’haṃ naṣṭakarmaṇā kṛtaḥ."
       ],
@@ -680,7 +680,41 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "corrected_original_transcription_meaning_hold",
+          "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false,
+          "full_meaning_accepted": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+        "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+        "source_sanskrit": "अर्धनारीश्वरत्वं यत्तद्गतं मेऽधुना प्रभो । शक्तिहीनत्वमापन्नो नष्टवत्कर्मणा कृतः ॥३०॥",
+        "new_row": {
+          "source_pages": "22",
+          "type": "mantra",
+          "text": "ಅರ್ಧನಾರೀಶ್ವರತ್ವಂ ಯತ್ತದ್ಗತಂ ಮೇಽಧುನಾ ಪ್ರಭೋ । ಶಕ್ತಿಹೀನತ್ವಮಾಪನ್ನೋ ನಷ್ಟವತ್ಕರ್ಮಣಾ ಕೃತಃ ॥೩೦॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "meaning_and_syntax",
+            "reading": null,
+            "token": "नष्टवत्कर्मणा",
+            "detail": "Printed word sequence is supported. The syntactic/semantic force of नष्टवत्कर्मणा remains a meaning hold; do not repair the Sanskrit to a more familiar expression. The relative/correlative sequence is यत् तद्गतम्, not merely a choice between yadgatam and tadgatam."
+          }
+        ],
+        "review_status": "accepted_transliteration_with_meaning_hold",
+        "accepted_transliteration": "ಅರ್ಧನಾರೀಶ್ವರತ್ವಂ ಯತ್ತದ್ಗತಂ ಮೇಽಧುನಾ ಪ್ರಭೋ । ಶಕ್ತಿಹೀನತ್ವಮಾಪನ್ನೋ ನಷ್ಟವತ್ಕರ್ಮಣಾ ಕೃತಃ ॥೩೦॥",
+        "current_wording_source_verified": true
+      }
     },
     {
       "id": "kh1-ch4-v33",
@@ -692,7 +726,7 @@
       "verse_end": 33,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "resolved_original_scan_transcription_correction",
       "issues": [
         "Mantra wording divergence requiring printed-edition comparison; do not silently harmonize. Online atastvaṃ kṛpayā deva versus Kannada atastvaṃ devadeveśa."
       ],
@@ -711,7 +745,33 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_original_scan_transcription_correction",
+          "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false,
+          "full_meaning_accepted": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+        "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+        "source_sanskrit": "शक्तिहीनः पदा गंतुं न शक्नोमि गणेश्वर । अतस्त्वं कृपया देव शक्तं मां कुरु कर्मणि ॥३३॥",
+        "new_row": {
+          "source_pages": "22",
+          "type": "mantra",
+          "text": "ಶಕ್ತಿಹೀನಃ ಪದಾ ಗಂತುಂ ನ ಶಕ್ನೋಮಿ ಗಣೇಶ್ವರ । ಅತಸ್ತ್ವಂ ಕೃಪಯಾ ದೇವ ಶಕ್ತಂ ಮಾಂ ಕುರು ಕರ್ಮಣಿ ॥೩೩॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "accepted_transliteration": "ಶಕ್ತಿಹೀನಃ ಪದಾ ಗಂತುಂ ನ ಶಕ್ನೋಮಿ ಗಣೇಶ್ವರ । ಅತಸ್ತ್ವಂ ಕೃಪಯಾ ದೇವ ಶಕ್ತಂ ಮಾಂ ಕುರು ಕರ್ಮಣಿ ॥೩೩॥",
+        "current_wording_source_verified": true
+      }
     },
     {
       "id": "kh1-ch4-v93",
@@ -723,7 +783,7 @@
       "verse_end": 93,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "resolved_original_scan_transcription_correction",
       "issues": [
         "Online anāvṛṣṭistathā vibho versus current avṛṣṭiśca vibho. Both meaningful, but current pada short; compare printed source before standardizing."
       ],
@@ -742,7 +802,33 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_original_scan_transcription_correction",
+          "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false,
+          "full_meaning_accepted": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+        "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+        "source_sanskrit": "सूर्यस्तपति कालेन ज्योतिषां गण एव च । कालेन जायते वृष्टिरनावृष्टिस्तथा विभो ॥९३॥",
+        "new_row": {
+          "source_pages": "25",
+          "type": "mantra",
+          "text": "ಸೂರ್ಯಸ್ತಪತಿ ಕಾಲೇನ ಜ್ಯೋತಿಷಾಂ ಗಣ ಏವ ಚ । ಕಾಲೇನ ಜಾಯತೇ ವೃಷ್ಟಿರನಾವೃಷ್ಟಿಸ್ತಥಾ ವಿಭೋ ॥೯೩॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "accepted_transliteration": "ಸೂರ್ಯಸ್ತಪತಿ ಕಾಲೇನ ಜ್ಯೋತಿಷಾಂ ಗಣ ಏವ ಚ । ಕಾಲೇನ ಜಾಯತೇ ವೃಷ್ಟಿರನಾವೃಷ್ಟಿಸ್ತಥಾ ವಿಭೋ ॥೯೩॥",
+        "current_wording_source_verified": true
+      }
     },
     {
       "id": "kh1-ch4-v97",
@@ -754,7 +840,7 @@
       "verse_end": 97,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "resolved_original_scan_transcription_correction",
       "issues": [
         "Online dayāsindho versus current dayāśīla. Both meaningful epithets, hold as edition variance."
       ],
@@ -773,7 +859,33 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "resolved_original_scan_transcription_correction",
+          "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": false,
+          "full_meaning_accepted": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": false,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+        "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+        "source_sanskrit": "क्षमस्व मेऽपराधं त्वं त्वन्मायागर्वितस्य च । यत्कृतं तद्दयासिंधो नमस्ते परमेश्वर ॥९७॥",
+        "new_row": {
+          "source_pages": "25",
+          "type": "mantra",
+          "text": "ಕ್ಷಮಸ್ವ ಮೇಽಪರಾಧಂ ತ್ವಂ ತ್ವನ್ಮಾಯಾಗರ್ವಿತಸ್ಯ ಚ । ಯತ್ಕೃತಂ ತದ್ದಯಾಸಿಂಧೋ ನಮಸ್ತೇ ಪರಮೇಶ್ವರ ॥೯೭॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "accepted_transliteration": "ಕ್ಷಮಸ್ವ ಮೇಽಪರಾಧಂ ತ್ವಂ ತ್ವನ್ಮಾಯಾಗರ್ವಿತಸ್ಯ ಚ । ಯತ್ಕೃತಂ ತದ್ದಯಾಸಿಂಧೋ ನಮಸ್ತೇ ಪರಮೇಶ್ವರ ॥೯೭॥",
+        "current_wording_source_verified": true
+      }
     },
     {
       "id": "kh1-ch4-v100",
@@ -785,7 +897,7 @@
       "verse_end": 100,
       "google_books_pages": null,
       "google_books_page_url": null,
-      "status": "google_books_verification_pending",
+      "status": "reviewed_no_text_change_unresolved_source_and_meaning",
       "issues": [
         "Online devādaye versus current devāya; source oddity/variant, retain current until scan comparison."
       ],
@@ -804,7 +916,41 @@
         ],
         "status": "unchanged_pending_source_confirmation"
       },
-      "resolution_provenance": []
+      "resolution_provenance": [
+        {
+          "status": "reviewed_no_text_change_unresolved_source_and_meaning",
+          "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+          "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+          "historical_questions_preserved": true,
+          "Google_target_unverified": true,
+          "text_unchanged": true,
+          "full_meaning_accepted": false
+        }
+      ],
+      "accepted_translation": null,
+      "hard_hold": true,
+      "current_translation_review": {
+        "review_file": "translation/khanda1-ch4-remaining-writer-review.json",
+        "review_sha256": "f17c9b6997bd51f03b7a46e657b06961b2045d74cba3351b409cc4e928e644a0",
+        "source_sanskrit": "नमो नमो ब्रह्ममयाय देवा[दये/द्ये] शिवायाथ च पूर्णमूर्ते । अनादिमध्यांतविहीनभूम्ने नमो नमो भक्तभयापहंत्रे ॥१००॥",
+        "new_row": {
+          "source_pages": "25",
+          "type": "mantra",
+          "text": "ನಮೋ ನಮೋ ಬ್ರಹ್ಮಮಯಾಯ ದೇವಾಯ ಶಿವಾಯಾಥ ಚ ಪೂರ್ಣಮೂರ್ತೇ । ಅನಾದಿಮಧ್ಯಾಂತವಿಹೀನಭೂಮ್ನೇ ನಮೋ ನಮೋ ಭಕ್ತಭಯಾಪಹಂತ್ರೇ ॥೧೦೦॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "unresolved_source_reading_and_grammar",
+            "reading": null,
+            "token": "देवा[दये/द्ये]",
+            "detail": "The printed disputed sequence has additional द-bearing material after देवा; current देवाय is not a faithful diplomatic match. My provisional reading is देवादये, but the दये versus द्ये typography remains unsettled, and its grammar/segmentation is not resolved. Do not silently replace it with देवाय, देवाद्याय, or another grammatical conjecture. No unconditional replacement is proposed; retain this target as an unresolved reading/meaning hold."
+          }
+        ],
+        "review_status": "reviewed_no_text_change_hold",
+        "accepted_transliteration": null,
+        "current_wording_source_verified": false
+      }
     },
     {
       "id": "kh1-ch5-v40",

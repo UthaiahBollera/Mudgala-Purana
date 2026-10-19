@@ -78,4 +78,33 @@ class FivePassageRepair(OriginalOnlyRepair):
  def test_15_cannot_close_hold(self):
   self.review['no_change_adjudications'][0]['accepted_translation']='accepted'
   with self.assertRaises(AssertionError):self.nochange()
+class FourTranscriptionRepairs(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.batch=next(b for b in json.loads((ROOT/'translation/batch-manifest.json').read_text())['batches']if b.get('review_file')=='translation/khanda1-ch4-remaining-writer-review.json');self.items=copy.deepcopy(self.batch['text_corrections']);self.review=json.loads((ROOT/self.batch['review_file']).read_text())
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):
+  x=self.review['no_change_adjudications'][0];validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']},self.batch)
+ def test_all_valid(self):
+  for i in range(4):self.check(i)
+  self.nochange()
+ def test_30_all_declared_tokens_required(self):self.review['reviews'][0]['replacements'].pop();self.reject()
+ def test_30_meaning_hold_not_closed(self):self.review['reviews'][0].update(issues=[],review_status='accepted');self.reject()
+ def test_mantra_treatment_preserved(self):self.items[0]['new_row']['type']='translation-review';self.review['reviews'][0]['new_row']['type']='translation-review';self.reject()
+ def test_only_authorized_token_repairs(self):
+  for x in [self.items[1]['new_row'],self.review['reviews'][1]['new_row']]:x['text']=x['text'].replace('ನ ಶಕ್ನೋಮಿ','ಶಕ್ನೋಮಿ')
+  self.reject(1)
+ def test_100_cannot_certify_current(self):
+  self.review['no_change_adjudications'][0]['current_wording_source_verified']=True
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_100_cannot_replace(self):
+  self.review['no_change_adjudications'][0]['new_row']['text']='conjecture'
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_100_cannot_accept_meaning(self):
+  self.review['no_change_adjudications'][0]['accepted_translation']='accepted'
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_unknown_google_stays_null(self):self.review['reviews'][0]['reference_source']['page_id']='PT1';self.reject()
+ def test_source_reading_immutable(self):self.review['reviews'][0]['source_sanskrit']='emended';self.reject()
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "base_snapshot_commit": "93b699a5f10b8f91ea771485753f87025789c16d",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        4,
+        30
+      ],
+      "old_row": {
+        "source_pages": "22",
+        "type": "mantra",
+        "text": "ಅರ್ಧನಾರೀಶ್ವರತ್ವಂ ಯದ್ಗತಂ ಮೇಽಧುನಾ ಪ್ರಭೋ । ಶಕ್ತಿಹೀನತ್ವಮಾಪ್ತೋಽಹಂ ನಷ್ಟಕರ್ಮಣಾ ಕೃತಃ ॥೩೦॥"
+      },
+      "new_row": {
+        "source_pages": "22",
+        "type": "mantra",
+        "text": "ಅರ್ಧನಾರೀಶ್ವರತ್ವಂ ಯತ್ತದ್ಗತಂ ಮೇಽಧುನಾ ಪ್ರಭೋ । ಶಕ್ತಿಹೀನತ್ವಮಾಪನ್ನೋ ನಷ್ಟವತ್ಕರ್ಮಣಾ ಕೃತಃ ॥೩೦॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "अर्धनारीश्वरत्वं यत्तद्गतं मेऽधुना प्रभो । शक्तिहीनत्वमापन्नो नष्टवत्कर्मणा कृतः ॥३०॥",
+      "source_reading_status": "original_diplomatic_transcription_independently_reviewed",
+      "review_status": "accepted_transliteration_with_meaning_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "meaning_and_syntax",
+          "reading": null,
+          "token": "नष्टवत्कर्मणा",
+          "detail": "Printed word sequence is supported. The syntactic/semantic force of नष्टवत्कर्मणा remains a meaning hold; do not repair the Sanskrit to a more familiar expression. The relative/correlative sequence is यत् तद्गतम्, not merely a choice between yadgatam and tadgatam."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಅರ್ಧನಾರೀಶ್ವರತ್ವಂ ಯತ್ತದ್ಗತಂ ಮೇಽಧುನಾ ಪ್ರಭೋ । ಶಕ್ತಿಹೀನತ್ವಮಾಪನ್ನೋ ನಷ್ಟವತ್ಕರ್ಮಣಾ ಕೃತಃ ॥೩೦॥",
+      "correction_mode": "original_only_mantra_token",
+      "replacements": [
+        {
+          "before": "ಯದ್ಗತಂ",
+          "after": "ಯತ್ತದ್ಗತಂ"
+        },
+        {
+          "before": "ಶಕ್ತಿಹೀನತ್ವಮಾಪ್ತೋಽಹಂ",
+          "after": "ಶಕ್ತಿಹೀನತ್ವಮಾಪನ್ನೋ"
+        },
+        {
+          "before": "ನಷ್ಟಕರ್ಮಣಾ",
+          "after": "ನಷ್ಟವತ್ಕರ್ಮಣಾ"
+        }
+      ],
+      "replacement": null,
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/independent-review.md",
+        "sha256": "d4c8790510faa24c17fbba3c25393bb9eab0144254907e7dafb4271d5fab2434"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0009.png",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/original-and-input/original-page_0009.png",
+        "sha256": "641b4e5c8de69021a726df9bbb3384ed5b636ae0fca80dd42bd255789404e5b3",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          1650,
+          3740,
+          1880
+        ],
+        "context_bbox_xyxy": [
+          230,
+          1500,
+          3700,
+          2240
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Printed word sequence is supported. The syntactic/semantic force of नष्टवत्कर्मणा remains a meaning hold; do not repair the Sanskrit to a more familiar expression. The relative/correlative sequence is यत् तद्गतम्, not merely a choice between yadgatam and tadgatam."
+    },
+    {
+      "key": [
+        1,
+        4,
+        33
+      ],
+      "old_row": {
+        "source_pages": "22",
+        "type": "mantra",
+        "text": "ಶಕ್ತಿಹೀನಃ ಪದಾ ಗಂತುಂ ನ ಶಕ್ನೋಮಿ ಗಣೇಶ್ವರ । ಅತಸ್ತ್ವಂ ದೇವದೇವೇಶ ಶಕ್ತಂ ಮಾಂ ಕುರು ಕರ್ಮಣಿ ॥೩೩॥"
+      },
+      "new_row": {
+        "source_pages": "22",
+        "type": "mantra",
+        "text": "ಶಕ್ತಿಹೀನಃ ಪದಾ ಗಂತುಂ ನ ಶಕ್ನೋಮಿ ಗಣೇಶ್ವರ । ಅತಸ್ತ್ವಂ ಕೃಪಯಾ ದೇವ ಶಕ್ತಂ ಮಾಂ ಕುರು ಕರ್ಮಣಿ ॥೩೩॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "शक्तिहीनः पदा गंतुं न शक्नोमि गणेश्वर । अतस्त्वं कृपया देव शक्तं मां कुरु कर्मणि ॥३३॥",
+      "source_reading_status": "original_diplomatic_transcription_independently_reviewed",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಶಕ್ತಿಹೀನಃ ಪದಾ ಗಂತುಂ ನ ಶಕ್ನೋಮಿ ಗಣೇಶ್ವರ । ಅತಸ್ತ್ವಂ ಕೃಪಯಾ ದೇವ ಶಕ್ತಂ ಮಾಂ ಕುರು ಕರ್ಮಣಿ ॥೩೩॥",
+      "correction_mode": "original_only_mantra_token",
+      "replacements": [
+        {
+          "before": "ದೇವದೇವೇಶ",
+          "after": "ಕೃಪಯಾ ದೇವ"
+        }
+      ],
+      "replacement": {
+        "before": "ದೇವದೇವೇಶ",
+        "after": "ಕೃಪಯಾ ದೇವ"
+      },
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/independent-review.md",
+        "sha256": "d4c8790510faa24c17fbba3c25393bb9eab0144254907e7dafb4271d5fab2434"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0009.png",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/original-and-input/original-page_0009.png",
+        "sha256": "641b4e5c8de69021a726df9bbb3384ed5b636ae0fca80dd42bd255789404e5b3",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          2600,
+          1940,
+          3650,
+          2070
+        ],
+        "context_bbox_xyxy": [
+          230,
+          1500,
+          3700,
+          2240
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The negation न and the rest of the current mantra remain unchanged. Printed कृपया देव is legible despite worn ink."
+    },
+    {
+      "key": [
+        1,
+        4,
+        93
+      ],
+      "old_row": {
+        "source_pages": "25",
+        "type": "mantra",
+        "text": "ಸೂರ್ಯಸ್ತಪತಿ ಕಾಲೇನ ಜ್ಯೋತಿಷಾಂ ಗಣ ಏವ ಚ । ಕಾಲೇನ ಜಾಯತೇ ವೃಷ್ಟಿರವೃಷ್ಟಿಶ್ಚ ವಿಭೋ ॥೯೩॥"
+      },
+      "new_row": {
+        "source_pages": "25",
+        "type": "mantra",
+        "text": "ಸೂರ್ಯಸ್ತಪತಿ ಕಾಲೇನ ಜ್ಯೋತಿಷಾಂ ಗಣ ಏವ ಚ । ಕಾಲೇನ ಜಾಯತೇ ವೃಷ್ಟಿರನಾವೃಷ್ಟಿಸ್ತಥಾ ವಿಭೋ ॥೯೩॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "सूर्यस्तपति कालेन ज्योतिषां गण एव च । कालेन जायते वृष्टिरनावृष्टिस्तथा विभो ॥९३॥",
+      "source_reading_status": "original_diplomatic_transcription_independently_reviewed",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಸೂರ್ಯಸ್ತಪತಿ ಕಾಲೇನ ಜ್ಯೋತಿಷಾಂ ಗಣ ಏವ ಚ । ಕಾಲೇನ ಜಾಯತೇ ವೃಷ್ಟಿರನಾವೃಷ್ಟಿಸ್ತಥಾ ವಿಭೋ ॥೯೩॥",
+      "correction_mode": "original_only_mantra_token",
+      "replacements": [
+        {
+          "before": "ವೃಷ್ಟಿರವೃಷ್ಟಿಶ್ಚ",
+          "after": "ವೃಷ್ಟಿರನಾವೃಷ್ಟಿಸ್ತಥಾ"
+        }
+      ],
+      "replacement": {
+        "before": "ವೃಷ್ಟಿರವೃಷ್ಟಿಶ್ಚ",
+        "after": "ವೃಷ್ಟಿರನಾವೃಷ್ಟಿಸ್ತಥಾ"
+      },
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/independent-review.md",
+        "sha256": "d4c8790510faa24c17fbba3c25393bb9eab0144254907e7dafb4271d5fab2434"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0012.png",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/original-and-input/original-page_0012.png",
+        "sha256": "f7b904ccf6c3232f051f3ebc28ebcd91a0bf10b85e73e64611f810485f3cc5c0",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          1500,
+          410,
+          2470,
+          550
+        ],
+        "context_bbox_xyxy": [
+          260,
+          190,
+          3710,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Faint printing was viewed enlarged. The sequence अनावृष्टिस्तथा is supported by visible letters, not supplied solely for metre. Both rain and lack of rain remain in the verse."
+    },
+    {
+      "key": [
+        1,
+        4,
+        97
+      ],
+      "old_row": {
+        "source_pages": "25",
+        "type": "mantra",
+        "text": "ಕ್ಷಮಸ್ವ ಮೇಽಪರಾಧಂ ತ್ವಂ ತ್ವನ್ಮಾಯಾಗರ್ವಿತಸ್ಯ ಚ । ಯತ್ಕೃತಂ ತದ್ದಯಾಶೀಲ ನಮಸ್ತೇ ಪರಮೇಶ್ವರ ॥೯೭॥"
+      },
+      "new_row": {
+        "source_pages": "25",
+        "type": "mantra",
+        "text": "ಕ್ಷಮಸ್ವ ಮೇಽಪರಾಧಂ ತ್ವಂ ತ್ವನ್ಮಾಯಾಗರ್ವಿತಸ್ಯ ಚ । ಯತ್ಕೃತಂ ತದ್ದಯಾಸಿಂಧೋ ನಮಸ್ತೇ ಪರಮೇಶ್ವರ ॥೯೭॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "क्षमस्व मेऽपराधं त्वं त्वन्मायागर्वितस्य च । यत्कृतं तद्दयासिंधो नमस्ते परमेश्वर ॥९७॥",
+      "source_reading_status": "original_diplomatic_transcription_independently_reviewed",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಕ್ಷಮಸ್ವ ಮೇಽಪರಾಧಂ ತ್ವಂ ತ್ವನ್ಮಾಯಾಗರ್ವಿತಸ್ಯ ಚ । ಯತ್ಕೃತಂ ತದ್ದಯಾಸಿಂಧೋ ನಮಸ್ತೇ ಪರಮೇಶ್ವರ ॥೯೭॥",
+      "correction_mode": "original_only_mantra_token",
+      "replacements": [
+        {
+          "before": "ತದ್ದಯಾಶೀಲ",
+          "after": "ತದ್ದಯಾಸಿಂಧೋ"
+        }
+      ],
+      "replacement": {
+        "before": "ತದ್ದಯಾಶೀಲ",
+        "after": "ತದ್ದಯಾಸಿಂಧೋ"
+      },
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/independent-review.md",
+        "sha256": "d4c8790510faa24c17fbba3c25393bb9eab0144254907e7dafb4271d5fab2434"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0012.png",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/original-and-input/original-page_0012.png",
+        "sha256": "f7b904ccf6c3232f051f3ebc28ebcd91a0bf10b85e73e64611f810485f3cc5c0",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          1250,
+          710,
+          1900,
+          825
+        ],
+        "context_bbox_xyxy": [
+          260,
+          190,
+          3710,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "Original prints दयासिंधो; homorganic normalized दयासिन्धो is equivalent. Do not label the unsupported current dayāśīla an established edition variant merely because it is a meaningful epithet."
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        4,
+        100
+      ],
+      "old_row": {
+        "source_pages": "25",
+        "type": "mantra",
+        "text": "ನಮೋ ನಮೋ ಬ್ರಹ್ಮಮಯಾಯ ದೇವಾಯ ಶಿವಾಯಾಥ ಚ ಪೂರ್ಣಮೂರ್ತೇ । ಅನಾದಿಮಧ್ಯಾಂತವಿಹೀನಭೂಮ್ನೇ ನಮೋ ನಮೋ ಭಕ್ತಭಯಾಪಹಂತ್ರೇ ॥೧೦೦॥"
+      },
+      "new_row": {
+        "source_pages": "25",
+        "type": "mantra",
+        "text": "ನಮೋ ನಮೋ ಬ್ರಹ್ಮಮಯಾಯ ದೇವಾಯ ಶಿವಾಯಾಥ ಚ ಪೂರ್ಣಮೂರ್ತೇ । ಅನಾದಿಮಧ್ಯಾಂತವಿಹೀನಭೂಮ್ನೇ ನಮೋ ನಮೋ ಭಕ್ತಭಯಾಪಹಂತ್ರೇ ॥೧೦೦॥"
+      },
+      "base_file": "translation/batch-02-01.tsv",
+      "source_sanskrit": "नमो नमो ब्रह्ममयाय देवा[दये/द्ये] शिवायाथ च पूर्णमूर्ते । अनादिमध्यांतविहीनभूम्ने नमो नमो भक्तभयापहंत्रे ॥१००॥",
+      "source_reading_status": "unresolved_extra_consonant_and_grammar",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "unresolved_source_reading_and_grammar",
+          "reading": null,
+          "token": "देवा[दये/द्ये]",
+          "detail": "The printed disputed sequence has additional द-bearing material after देवा; current देवाय is not a faithful diplomatic match. My provisional reading is देवादये, but the दये versus द्ये typography remains unsettled, and its grammar/segmentation is not resolved. Do not silently replace it with देवाय, देवाद्याय, or another grammatical conjecture. No unconditional replacement is proposed; retain this target as an unresolved reading/meaning hold."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "original_only_no_change",
+      "replacements": [],
+      "replacement": null,
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/independent-review.md",
+        "sha256": "d4c8790510faa24c17fbba3c25393bb9eab0144254907e7dafb4271d5fab2434"
+      },
+      "reference_source": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0012.png",
+        "file": "translation/source-review-addenda/khanda1-ch4-remaining/original-and-input/original-page_0012.png",
+        "sha256": "f7b904ccf6c3232f051f3ebc28ebcd91a0bf10b85e73e64611f810485f3cc5c0",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          1700,
+          920,
+          1980,
+          1050
+        ],
+        "context_bbox_xyxy": [
+          260,
+          190,
+          3710,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "edition_variant": null,
+      "rationale": "The printed disputed sequence has additional द-bearing material after देवा; current देवाय is not a faithful diplomatic match. My provisional reading is देवादये, but the दये versus द्ये typography remains unsettled, and its grammar/segmentation is not resolved. Do not silently replace it with देवाय, देवाद्याय, or another grammatical conjecture. No unconditional replacement is proposed; retain this target as an unresolved reading/meaning hold."
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-ch4-remaining/before-after-proposals.json",
+  "candidate_sha256": "efe3e5ad4f8815c97f01fd22ac1ef17b6b42d045e2dde96579a43bf5c9c532c3",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/before-after-proposals.json",
+      "sha256": "efe3e5ad4f8815c97f01fd22ac1ef17b6b42d045e2dde96579a43bf5c9c532c3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v100-102.png",
+      "sha256": "b7e3c4c671d55b1f3974936bb1565eb4e5c0c95c71276010a10d7b5b12bdd92a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v100-detail.png",
+      "sha256": "9dd786658de8204294d0ef2a65884fa6d574c26d1f133c6f01615edb90bc4306"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v100-phrase.png",
+      "sha256": "a588fc323191d502a9d947630310e39c90e5b6a86ebb4b7ce5d4f54d6103e17b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v28-35.png",
+      "sha256": "7ad4057cf134c6b4f2d5e3e62ce1be63d53a1e1346ea61ce36baca625218ab9a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v30-full.png",
+      "sha256": "32d476518dcf0041c9f4b7f21d6fe929340b42e3c76454adcd87e0d4b45404c2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v30-middle.png",
+      "sha256": "3eb7ad296390177ae32bf244add14c2654c135f51d3de9df4cce60d19f678662"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v30-words.png",
+      "sha256": "933759e71c7a452d73ddd04cf857d598a42f03cb4fc195a4dd117158c5e67df3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v30-yat.png",
+      "sha256": "91de0077c8b666b28465e347ace75275a4f3f12d9a0cd081356cab4bb3fd0c0d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v30.png",
+      "sha256": "38aaa8f868746f73227fafc2b2baabe8e98e0621e16b0f1f2f8f900b0a5eea4a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v33-phrase.png",
+      "sha256": "91dfebad8a784848593a2380371b957d59664d0528be3c5cdda5de8ec09bf54d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v33.png",
+      "sha256": "294ad76b889a151f6537d6be6e08fa3f1aef0767279f33adb0c9657f3471ac0d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v91-95.png",
+      "sha256": "af3ad05a9e403301b963701a53fa66a2f7112baaea4ac9c6aeaf1631cc9c750d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v93-phrase.png",
+      "sha256": "9ef51720d6cabf7585504300d56b839322baf9ac5554248d111485806f156911"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v96-100.png",
+      "sha256": "325449679d96425a3b11ad917fd093e6119ef64d2c845ff15758e3d86a967cbd"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/crops/v97-phrase.png",
+      "sha256": "7c9bc343334b726523193b9ace57d7115ff33e2665210d61c9d4e0052ab052dd"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/independent-review.md",
+      "sha256": "d4c8790510faa24c17fbba3c25393bb9eab0144254907e7dafb4271d5fab2434"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/manifest.json",
+      "sha256": "b3963cd8a7303e3f14456d4e00b0bfa2381b7f6c51129bf6d100605354cd6498"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/original-and-input/khanda1-ch4-next-five-remaining-review-packet.json",
+      "sha256": "f0ef69b41eaaace065f086dc95267628a3edfd2f0b04e6f214fbc38f89984715"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/original-and-input/original-page_0009.png",
+      "sha256": "641b4e5c8de69021a726df9bbb3384ed5b636ae0fca80dd42bd255789404e5b3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch4-remaining/original-and-input/original-page_0012.png",
+      "sha256": "f7b904ccf6c3232f051f3ebc28ebcd91a0bf10b85e73e64611f810485f3cc5c0"
+    }
+  ],
+  "handoff_Library_file": "libfile_8f59dee5a2f08191abd1b23681b4d4e3",
+  "handoff_sha256": "8934bcf22fef1314e8ca34a20ab90f5c375d86e2abcdbc917584684939047012",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity": null,
+  "paid_calls": 0
+}

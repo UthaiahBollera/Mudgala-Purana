@@ -198,6 +198,7 @@ if manifest is not None:
         return registry_snapshot
     google_unresolved_keys = set()
     base_unresolved_keys = set()
+    base_mantra_meaning_keys = set()
     coverage = json.loads((ROOT/'translation/coverage.json').read_text(encoding='utf-8'))
     for batch, name in zip(batches, manifest_paths):
         assert Path(batch['file']).name == batch['file'], 'Batch file must be a filename'
@@ -267,7 +268,14 @@ if manifest is not None:
                 from validate_text_correction import validate_no_change_base_adjudications
                 validate_no_change_base_adjudications(ROOT,review,replayed,batch)
                 base_unresolved_keys.difference_update(tuple(x['key'])for x in review['reviews'])
-                base_unresolved_keys.update(tuple(x['key'])for x in review['reviews']if x['issues'])
+                base_unresolved_keys.update(tuple(x['key'])for x in review['reviews']if x['issues']and x['new_row']['type']=='translation-review')
+                base_mantra_meaning_keys.difference_update(tuple(x['key'])for x in review['reviews'])
+                base_mantra_meaning_keys.update(tuple(x['key'])for x in review['reviews']if x['issues']and x['new_row']['type']=='mantra')
+                assert {tuple(k)for k in boundary.get('base_mantra_meaning_hold_keys',[])}==base_mantra_meaning_keys,'Mantra meaning holds missing from coverage'
+                for x in review['reviews']:
+                    if x['issues']and x['new_row']['type']=='mantra':
+                        k=x['key'];z=next(r for r in load_registry()['records']if r['id']==f'kh{k[0]}-ch{k[1]}-v{k[2]}')
+                        assert z['hard_hold']and z['accepted_translation']is None and z['current_translation_review']['issues']==x['issues'],'Mantra meaning hold missing from registry'
                 assert {tuple(k)for k in boundary['base_review_required_keys']}==base_unresolved_keys,'Base holds missing from coverage'
         else:
             assert batch['source_pdf'] and re.fullmatch(r'[0-9a-f]{64}', batch['source_sha256']), ('Missing source identity', name)
