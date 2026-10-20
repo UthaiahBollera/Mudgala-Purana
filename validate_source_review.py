@@ -276,7 +276,9 @@ if manifest is not None:
                 for x in review['reviews']:
                     if x['issues']and x['new_row']['type']=='mantra':
                         k=x['key'];z=next(r for r in load_registry()['records']if r['id']==f'kh{k[0]}-ch{k[1]}-v{k[2]}')
-                        assert z['hard_hold']and z['accepted_translation']is None and z['current_translation_review']['issues']==x['issues'],'Mantra meaning hold missing from registry'
+                        states=[z['current_translation_review'],*z.get('prior_translation_reviews',[])]
+                        assert z['hard_hold']and z['accepted_translation']is None and any(state.get('review_file')==batch['review_file'] and state.get('review_sha256')==batch['review_sha256'] and state['issues']==x['issues']for state in states),'Mantra meaning hold missing from registry history'
+                        assert z['current_translation_review']['issues'],'Current mantra meaning hold closed'
                 assert {tuple(k)for k in boundary['base_review_required_keys']}==base_unresolved_keys,'Base holds missing from coverage'
         else:
             assert batch['source_pdf'] and re.fullmatch(r'[0-9a-f]{64}', batch['source_sha256']), ('Missing source identity', name)

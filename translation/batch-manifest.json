@@ -118027,6 +118027,30 @@
           33
         ]
       ]
+    },
+    {
+      "file": "batch-391-reviewed-base-translation.tsv",
+      "sha256": "84be17f5a42dea25af4331c47c9d9d7ef4cf7a8367d9f9329e027ffec2ac2425",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch21-google-writer-review.json",
+      "review_sha256": "9083bc6a47f90a29afd7cd0681d42f5afb45db48d07da9189ff6a30c7201f52f",
+      "coverage_boundary": "reviewed-base-khanda1-ch21-Google",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [],
+      "no_change_keys": [
+        [
+          1,
+          21,
+          41
+        ],
+        [
+          1,
+          21,
+          45
+        ]
+      ]
     }
   ],
   "reference_only_index": {

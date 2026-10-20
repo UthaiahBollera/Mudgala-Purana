@@ -53,6 +53,8 @@ def validate_text_correction(root, old, new, item, prior_batches):
 
 def validate_base_translation_correction(root,old,new,item,review):
     """Replay a reviewed Kannada repair; retain base text and unresolved meaning."""
+    if review.get('review_mode')=='independent_google_eight_target_adjudication':
+        return validate_google_minimal_correction(root,old,new,item,review)
     import csv,io,re,subprocess
     from pathlib import Path
     fields=('source_pages','type','text');key=tuple(item['key'])
@@ -184,6 +186,8 @@ def validate_base_translation_correction(root,old,new,item,review):
 
 def validate_no_change_base_adjudications(root,review,replayed,batch):
     """No-change decisions must never enter a replacement TSV or close holds."""
+    if review.get('review_mode')=='independent_google_eight_target_adjudication':
+        return validate_google_retained_holds(root,review,replayed,batch)
     records=review.get('no_change_adjudications',[])
     assert [x['key']for x in records]==batch.get('no_change_keys',[]),'Unlisted no-change review'
     if records:
@@ -308,3 +312,70 @@ def validate_no_change_base_adjudications(root,review,replayed,batch):
             assert x['source_sanskrit']==unit['source_reading']and x['reference_source']['page_id']is None and x['reference_source']['page_url']is None,'No-change source or unknown Google field altered'
         if unit['status']=='retained_reading_and_meaning_hold_no_accepted_change':
             assert x['current_wording_source_verified']is False and x['accepted_transliteration']is None,'Unresolved unchanged wording certified'
+
+
+def _google_evidence(root,review):
+    """Validate actual captured identities without constructing absent Google URLs."""
+    from urllib.parse import urlparse,parse_qs
+    def evidence(name,digest):
+        p=(root/name).resolve()
+        assert p.is_relative_to((root/'translation').resolve()) and p.is_file(),'Google review evidence missing'
+        assert hashlib.sha256(p.read_bytes()).hexdigest()==digest,'Google review evidence checksum mismatch'
+        return p
+    for x in review['evidence_files']:evidence(x['file'],x['sha256'])
+    adjudication=json.loads(evidence(review['independent_adjudication_file'],review['independent_adjudication_sha256']).read_text())
+    assert adjudication['accepted_changes']==3 and len(adjudication['records'])==8,'Google review scope changed'
+    candidates=json.loads(evidence(review['candidate_file'],review['candidate_sha256']).read_text())['records']
+    assert len(candidates)==8 and all(x['accepted_sanskrit'] is None and x['accepted_kannada'] is None and x['proposed_full_replacement'] is None and x['publication_ready'] is False for x in candidates),'Raw candidate acceptance promoted'
+    scope=review.get('chapter_scope')
+    accepted={(1,46,46),(1,47,24),(1,47,47)};held={(1,21,41),(1,21,45),(1,46,35),(1,46,51),(1,47,29)}
+    assert scope is None or scope in (21,46,47),'Invalid chapter scope'
+    assert {tuple(x['key'])for x in review['reviews']}=={k for k in accepted if scope is None or k[1]==scope},'Unexpected Google correction key'
+    assert {tuple(x['key'])for x in review['no_change_adjudications']}=={k for k in held if scope is None or k[1]==scope},'Google retained holds omitted'
+    for x in review['reviews']+review['no_change_adjudications']:
+        key='.'.join(map(str,x['key']));a=next(z for z in adjudication['records']if z['key']==key);ref=x['reference_source']
+        assert ref['book_id']=='Lh0FEQAAQBAJ' and ref['page_id']==a['google_page_id'] and ref['page_url']==a['google_captured_url'],'Observed Google identity changed or unknown URL invented'
+        if ref['page_url'] is not None:
+            u=urlparse(ref['page_url']);q=parse_qs(u.query)
+            assert u.scheme=='https' and u.netloc=='books.google.co.in' and q.get('id')==[ref['book_id']] and q.get('pg')==[ref['page_id']],'Wrong captured volume/page URL'
+        evidence(ref['crop_file'],ref['crop_sha256']);original=x['additional_original_source'];evidence(original['file'],original['sha256'])
+        assert original['Mac_bytes_archive_identical_and_pixels_checked'] is True and original['dimensions']==[3840,2508],'Original verification missing'
+        assert x['whole_verse_correctness_certified'] is False and x['meaning_certified'] is False and x['no_silent_edition_harmonization'] is True,'Bounded evidence promoted to whole mantra certainty'
+        evidence(x['independent_review']['file'],x['independent_review']['sha256'])
+    return adjudication
+
+
+def validate_google_minimal_correction(root,old,new,item,review):
+    import csv,io,re,subprocess
+    from pathlib import Path
+    a=_google_evidence(root,review);key=tuple(item['key']);x=next(z for z in review['reviews']if tuple(z['key'])==key)
+    unit=next(z for z in a['records']if z['key']=='.'.join(map(str,key)))
+    fields=('source_pages','type','text')
+    assert {f:old[f]for f in fields}==item['old_row']==x['old_row'],'Google minimal old row differs'
+    assert {f:new[f]for f in fields}==item['new_row']==x['new_row'],'Google minimal new row differs'
+    assert old['source_pages']==new['source_pages'] and old['type']==new['type']=='mantra','Google minimal mapping/treatment changed'
+    assert item['review_status']==review['review_status']==x['review_status']==x['independent_review']['status']=='accepted','Google independent approval missing'
+    assert x['correction_mode']=='google_corroborated_minimal_mantra_span' and x['replacements']==[unit['accepted_replacement_span']],'Google minimal span differs from adjudication'
+    expected_spans={(1,46,46):{'before':'ಕುಲಂ ಧನ್ಯಂ','after':'ಸ್ಥಲಂ ಧನ್ಯಂ'},(1,47,24):{'before':'ಜನದೇವಾಸುರಾತ್ಮಕಮ್','after':'ಜಗದೇತಚ್ಚರಾಚರಮ್'},(1,47,47):{'before':'ನಮಃ ಕ್ಷುದ್ರಾಧಾರಿಣೇ','after':'ನಮಶ್ಚಂದ್ರಾರ್ಧಧಾರಿಣೇ'}}
+    span=unit['accepted_replacement_span'];assert span==expected_spans[key] and old['text'].count(span['before'])==1 and old['text'].replace(span['before'],span['after'])==new['text'],'Google repair exceeds accepted minimal span'
+    assert x['accepted_translation'] is None and x['accepted_transliteration']==new['text'] and not x['issues'],'Google mantra translated or acceptance changed'
+    commit=review['base_snapshot_commit'];base=x['base_file'];assert re.fullmatch('[0-9a-f]{40}',commit) and item['base_snapshot_commit']==commit and Path(base).parts[0]=='translation' and '..'not in Path(base).parts,'Google base unpinned'
+    raw=subprocess.check_output(['git','show',commit+':'+base],cwd=root);rows=[z for z in csv.DictReader(io.StringIO(raw.decode()),delimiter='\t')if (int(z.get('khanda')or 1),int(z['chapter']),int(z['verse']))==key]
+    assert len(rows)==1 and all(rows[0][f]==old[f]for f in fields),'Google correction differs from historical row'
+    path=root/item['adjudication_file'];assert hashlib.sha256(path.read_bytes()).hexdigest()==item['adjudication_sha256'] and json.loads(path.read_text())==review,'Google writer review differs'
+    if key==(1,46,46):assert x['edition_variant']=={'original_surrounding':'धन्यौ मातापिता','Google_surrounding':'धन्य माता पिता','status':'surrounding_base_text_retained_not_harmonized'},'Surrounding edition difference hidden'
+
+
+def validate_google_retained_holds(root,review,replayed,batch):
+    a=_google_evidence(root,review);holds=review['no_change_adjudications']
+    assert [x['key']for x in holds]==batch.get('no_change_keys',[]),'Google hold list differs'
+    for x in holds:
+        key=tuple(x['key']);old={f:replayed[key][f]for f in ('source_pages','type','text')}
+        unit=next(z for z in a['records']if z['key']=='.'.join(map(str,key)))
+        assert old==x['old_row']==x['new_row'] and not x['replacements'] and unit['accepted_replacement_span'] is None,'Held Google target changed'
+        assert x['review_status']=='reviewed_no_text_change_hold' and x['accepted_translation'] is None and x['accepted_transliteration'] is None and x['counted_as_new_correction'] is False,'Held target falsely accepted'
+        assert x['issues'] and all(i['status']=='open' and i['reading'] is None for i in x['issues']),'Google hold closed'
+        if key[1]==21:assert x['older_scan_reading_certain'] is False and x['edition_difference_established'] is False and x['earlier_categorical_older_ligature_certainty_superseded'] is True,'Older ligature certainty overstated'
+        if key==(1,46,35):assert x['google_printing_corroborated'] is True and x['grammar_certified'] is False,'Printed agreement promoted to grammar correctness'
+        if key==(1,47,29):assert x['original_spelling']=='गणाध्याक्ष' and x['google_spelling']=='गणाध्यक्ष' and x['current_standard_epithet_retained'] is True,'Spelling discrepancy hidden'
+        if key==(1,46,51):assert x['source_spacing_difference']=={'original':'परापदि','Google':'परा पदि'} and x['meaning_certified'] is False,'Spacing difference promoted to meaning'

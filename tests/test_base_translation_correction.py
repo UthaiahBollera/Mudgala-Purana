@@ -619,4 +619,31 @@ class YogaExtraAaPrintedShukraAndHinaHold(unittest.TestCase):
  def test_authorial_name_not_established(self):self.review['reviews'][2]['authorial_intent_established']=True;self.reject(2)
  def test_cross_edition_not_unanimous(self):self.review['reviews'][2]['cross_edition_unanimity_claimed']=True;self.reject(2)
  def test_humility_gloss_not_settled(self):self.review['no_change_adjudications'][0]['lexical_meaning_settled']=True;self.reject_nochange()
+class GoogleCorroboratedMinimalSpansAndRetainedHolds(unittest.TestCase):
+ check=BaseTranslation.check
+ reject=BaseTranslation.reject
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);(self.root/'.git').write_text('gitdir: '+str(ROOT/'.git')+'\n');self.review=json.loads((ROOT/'translation/khanda1-google-eight-writer-review.json').read_text());self.items=[dict(key=x['key'],old_row=x['old_row'],new_row=x['new_row'],base_snapshot_commit=self.review['base_snapshot_commit'],adjudication_file='translation/khanda1-google-eight-writer-review.json',adjudication_sha256='',review_status='accepted',rationale=x['rationale'])for x in self.review['reviews']];self.batch={'text_corrections':self.items,'no_change_keys':[x['key']for x in self.review['no_change_adjudications']]}
+  for f in self.review['evidence_files']:
+   p=self.root/f['file'];p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/f['file'],p)
+ def nochange(self):validate_no_change_base_adjudications(self.root,self.review,{tuple(x['key']):x['old_row']for x in self.review['no_change_adjudications']},self.batch)
+ def reject_nochange(self):
+  with self.assertRaises(AssertionError):self.nochange()
+ def test_all_three_spans_and_five_holds_valid(self):
+  for i in range(3):self.check(i)
+  self.nochange()
+ def test_chapter21_hold_only_scope(self):
+  self.review['chapter_scope']=21;self.review['reviews']=[];self.review['no_change_adjudications']=[x for x in self.review['no_change_adjudications']if x['key'][1]==21];self.batch['no_change_keys']=[x['key']for x in self.review['no_change_adjudications']];self.nochange()
+ def test_chapter46_scope_rejects_chapter47_edits(self):
+  self.review['chapter_scope']=46;self.reject()
+ def test_missing_URL_is_not_invented(self):
+  self.review['reviews'][0]['reference_source']['page_url']='https://books.google.co.in/books?id=Lh0FEQAAQBAJ&pg=PT772';self.reject()
+ def test_surrounding_edition_not_harmonized(self):
+  for x in [self.items[0]['new_row'],self.review['reviews'][0]['new_row']]:x['text']=x['text'].replace('ಧನ್ಯೌ ಮಾತಾಪಿತಾ','ಧನ್ಯ ಮಾತಾ ಪಿತಾ')
+  self.reject()
+ def test_ligature_uncertainty_cannot_be_certified(self):self.review['no_change_adjudications'][0]['older_scan_reading_certain']=True;self.reject_nochange()
+ def test_printing_agreement_is_not_grammar(self):self.review['no_change_adjudications'][2]['grammar_certified']=True;self.reject_nochange()
+ def test_spelling_discrepancy_hold_required(self):self.review['no_change_adjudications'][4]['issues']=[];self.reject_nochange()
+ def test_whole_mantra_certification_forbidden(self):self.review['reviews'][1]['whole_verse_correctness_certified']=True;self.reject(1)
+ def test_meaning_hold_required(self):self.review['no_change_adjudications'][3]['meaning_certified']=True;self.reject_nochange()
 if __name__=='__main__':unittest.main()
