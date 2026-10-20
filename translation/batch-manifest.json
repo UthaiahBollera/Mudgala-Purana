@@ -118051,6 +118051,53 @@
           45
         ]
       ]
+    },
+    {
+      "file": "batch-392-reviewed-base-translation.tsv",
+      "sha256": "981a986948400ab58ae0270e405bfb3adb5e40e31b51405f83680dfb2761e688",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch46-google-writer-review.json",
+      "review_sha256": "b6a61cff6e006c3649d6ab53500ea0c865b093a162cec53666c238e429d7e2ec",
+      "coverage_boundary": "reviewed-base-khanda1-ch46-Google",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            46,
+            46
+          ],
+          "old_row": {
+            "source_pages": "117",
+            "type": "mantra",
+            "text": "ಧನ್ಯೌ ಮಾತಾಪಿತಾ ಮೇಽದ್ಯ ಕುಲಂ ಧನ್ಯಂ ತಪೋಽಪಿ ಚ । ಷಡಕ್ಷರಶ್ಚ ಮಂತ್ರೋಽಯಂ ಧನ್ಯೋ ಯೇನ ತ್ವಮಾಗತಃ ॥೪೬॥"
+          },
+          "new_row": {
+            "source_pages": "117",
+            "type": "mantra",
+            "text": "ಧನ್ಯೌ ಮಾತಾಪಿತಾ ಮೇಽದ್ಯ ಸ್ಥಲಂ ಧನ್ಯಂ ತಪೋಽಪಿ ಚ । ಷಡಕ್ಷರಶ್ಚ ಮಂತ್ರೋಽಯಂ ಧನ್ಯೋ ಯೇನ ತ್ವಮಾಗತಃ ॥೪೬॥"
+          },
+          "base_snapshot_commit": "bc77df081fdaa14b1899f4a66e441112c1acde4a",
+          "adjudication_file": "translation/khanda1-ch46-google-writer-review.json",
+          "adjudication_sha256": "b6a61cff6e006c3649d6ab53500ea0c865b093a162cec53666c238e429d7e2ec",
+          "review_status": "accepted",
+          "rationale": "Both sources corroborate this exact span. Change only ಕುಲಂ to ಸ್ಥಲಂ. Do not harmonize surrounding Google धन्य माता पिता versus original धन्यौ मातापिता."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          46,
+          35
+        ],
+        [
+          1,
+          46,
+          51
+        ]
+      ]
     }
   ],
   "reference_only_index": {
