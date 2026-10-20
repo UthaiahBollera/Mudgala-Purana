@@ -1,6 +1,6 @@
 {
-  "source_commit": "5feb5b72e7b0d5b724180a3d153522b03de0e573",
-  "coverage": "Khanda1 chapter1 verse12 image-backed narrative correction; other text and open holds retained",
+  "source_commit": "f1650cffc06b739f5de2f836415914222db3eeea",
+  "coverage": "Khanda1 chapter1 verses20 and23 independently verified original-image meaning corrections; other text and holds retained",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "cc94ff8d9dfc43e250972cfb1e51149c18622a8c7fb65871de2dd0c985c8ccfa",
-  "epub_sha256": "54ee21602a910f3fde9a518576f75dee21d2cb73e70a6f8ed9b836e3408ffd1e",
+  "html_sha256": "5ee42b4a7f2de839a1746f26bf7f81a8accff782d565b901d1792962dcb4845c",
+  "epub_sha256": "309724972cfa0d0e57a74ac789c1f83351ba1c1f3c570af05e0fa89f2b3b5774",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -987,5 +987,121 @@
       "saved_Google_PT67_v12": "859a76aed19d1b981ad3c5f4dc3f588ad7c094bcb89b8f9656f9584dff48a566"
     },
     "checks": "build_book.py, validate_book.py and build_epub.py passed; HTML exact single verse12 replacement; EPUB only matching chapter replacement plus build timestamp; existing assets unchanged"
+  },
+  "khanda1_ch1_v18_27_image_meaning_review": {
+    "reviewed_keys": [
+      [
+        1,
+        1,
+        18
+      ],
+      [
+        1,
+        1,
+        19
+      ],
+      [
+        1,
+        1,
+        20
+      ],
+      [
+        1,
+        1,
+        21
+      ],
+      [
+        1,
+        1,
+        22
+      ],
+      [
+        1,
+        1,
+        23
+      ],
+      [
+        1,
+        1,
+        24
+      ],
+      [
+        1,
+        1,
+        25
+      ],
+      [
+        1,
+        1,
+        26
+      ],
+      [
+        1,
+        1,
+        27
+      ]
+    ],
+    "corrected_keys": [
+      [
+        1,
+        1,
+        20
+      ],
+      [
+        1,
+        1,
+        23
+      ]
+    ],
+    "retained_keys": [
+      [
+        1,
+        1,
+        18
+      ],
+      [
+        1,
+        1,
+        19
+      ],
+      [
+        1,
+        1,
+        21
+      ],
+      [
+        1,
+        1,
+        22
+      ],
+      [
+        1,
+        1,
+        24
+      ],
+      [
+        1,
+        1,
+        25
+      ],
+      [
+        1,
+        1,
+        26
+      ],
+      [
+        1,
+        1,
+        27
+      ]
+    ],
+    "coverage": "All ten original-only; no Google corroboration claimed.",
+    "independent_validation": "Both exact final Kannada changes independently accepted via parent direct-original-image reviews.",
+    "independent_original_hashes": {
+      "page1": "bf40476f2557bfad529d19a66e1cc641ac272e02051272b8a6b9cb002636c0e1",
+      "page2": "704e6fb79c9235f69e6f9e2f52952b6b89544c72406f49986e402283dfec2428"
+    },
+    "holds": "All prior holds unchanged; no whole-chapter certification.",
+    "checks": "build_book.py, validate_book.py, build_epub.py passed; HTML only exact approved two replacements; EPUB same replacements plus build timestamp; all existing assets unchanged."
   }
 }
