@@ -118098,6 +118098,70 @@
           51
         ]
       ]
+    },
+    {
+      "file": "batch-393-reviewed-base-translation.tsv",
+      "sha256": "5b0e004df60150f27a2e7ba63e90f5de3817f48a08c51d7524e5fbbf9ba19c3b",
+      "source_kind": "reviewed_base_translation",
+      "review_status": "accepted",
+      "review_file": "translation/khanda1-ch47-google-writer-review.json",
+      "review_sha256": "dfc4c1b819a5745596588e7c1ef283d0df876071f81635d7b3fb3351c848e508",
+      "coverage_boundary": "reviewed-base-khanda1-ch47-Google",
+      "added_keys": [],
+      "boundary_completions": [],
+      "text_corrections": [
+        {
+          "key": [
+            1,
+            47,
+            24
+          ],
+          "old_row": {
+            "source_pages": "119",
+            "type": "mantra",
+            "text": "ಸಕಲಂ ವಿಘ್ನಸಂಯುಕ್ತಂ ಜನದೇವಾಸುರಾತ್ಮಕಮ್ । ಶಿವವಿಷ್ಣ್ವಾದಿಭಿಃ ಸಾರ್ಧಂ ತವ ಮಾಯಾವಿಮೋಹಿತಮ್ ॥೨೪॥"
+          },
+          "new_row": {
+            "source_pages": "119",
+            "type": "mantra",
+            "text": "ಸಕಲಂ ವಿಘ್ನಸಂಯುಕ್ತಂ ಜಗದೇತಚ್ಚರಾಚರಮ್ । ಶಿವವಿಷ್ಣ್ವಾದಿಭಿಃ ಸಾರ್ಧಂ ತವ ಮಾಯಾವಿಮೋಹಿತಮ್ ॥೨೪॥"
+          },
+          "base_snapshot_commit": "c8d800bdccc10ab8bcc955f7a6b20f677960bc40",
+          "adjudication_file": "translation/khanda1-ch47-google-writer-review.json",
+          "adjudication_sha256": "dfc4c1b819a5745596588e7c1ef283d0df876071f81635d7b3fb3351c848e508",
+          "review_status": "accepted",
+          "rationale": "Both sources agree on this exact replacement span. Keep remainder untouched."
+        },
+        {
+          "key": [
+            1,
+            47,
+            47
+          ],
+          "old_row": {
+            "source_pages": "120",
+            "type": "mantra",
+            "text": "ವಿಘ್ನಾನಾಂ ಪತಯೇ ತುಭ್ಯಂ ನಮಃ ಕ್ಷುದ್ರಾಧಾರಿಣೇ । ತ್ರಿನೇತ್ರಾಯ ನಮಸ್ತುಭ್ಯಂ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ ॥೪೭॥"
+          },
+          "new_row": {
+            "source_pages": "120",
+            "type": "mantra",
+            "text": "ವಿಘ್ನಾನಾಂ ಪತಯೇ ತುಭ್ಯಂ ನಮಶ್ಚಂದ್ರಾರ್ಧಧಾರಿಣೇ । ತ್ರಿನೇತ್ರಾಯ ನಮಸ್ತುಭ್ಯಂ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ ॥೪೭॥"
+          },
+          "base_snapshot_commit": "c8d800bdccc10ab8bcc955f7a6b20f677960bc40",
+          "adjudication_file": "translation/khanda1-ch47-google-writer-review.json",
+          "adjudication_sha256": "dfc4c1b819a5745596588e7c1ef283d0df876071f81635d7b3fb3351c848e508",
+          "review_status": "accepted",
+          "rationale": "Both sources agree on this exact replacement span. Keep remainder untouched."
+        }
+      ],
+      "no_change_keys": [
+        [
+          1,
+          47,
+          29
+        ]
+      ]
     }
   ],
   "reference_only_index": {

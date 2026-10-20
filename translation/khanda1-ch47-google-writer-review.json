@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "source_kind": "reviewed_base_translation",
+  "review_mode": "independent_google_eight_target_adjudication",
+  "base_snapshot_commit": "c8d800bdccc10ab8bcc955f7a6b20f677960bc40",
+  "base_file": "per_record_immutable_historical_TSV",
+  "review_status": "accepted",
+  "reviews": [
+    {
+      "key": [
+        1,
+        47,
+        24
+      ],
+      "old_row": {
+        "source_pages": "119",
+        "type": "mantra",
+        "text": "ಸಕಲಂ ವಿಘ್ನಸಂಯುಕ್ತಂ ಜನದೇವಾಸುರಾತ್ಮಕಮ್ । ಶಿವವಿಷ್ಣ್ವಾದಿಭಿಃ ಸಾರ್ಧಂ ತವ ಮಾಯಾವಿಮೋಹಿತಮ್ ॥೨೪॥"
+      },
+      "new_row": {
+        "source_pages": "119",
+        "type": "mantra",
+        "text": "ಸಕಲಂ ವಿಘ್ನಸಂಯುಕ್ತಂ ಜಗದೇತಚ್ಚರಾಚರಮ್ । ಶಿವವಿಷ್ಣ್ವಾದಿಭಿಃ ಸಾರ್ಧಂ ತವ ಮಾಯಾವಿಮೋಹಿತಮ್ ॥೨೪॥"
+      },
+      "base_file": "translation/batch-06-01.tsv",
+      "source_sanskrit": "सकलं विघ्नसंयुक्तं जगदेतच्चराचरम् । शिवविष्ण्वादिभिः सार्धं तव मायाविमोहितम् ॥२४॥",
+      "source_reading_status": "target_scan_transcription_not_grammar_certification",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ಸಕಲಂ ವಿಘ್ನಸಂಯುಕ್ತಂ ಜಗದೇತಚ್ಚರಾಚರಮ್ । ಶಿವವಿಷ್ಣ್ವಾದಿಭಿಃ ಸಾರ್ಧಂ ತವ ಮಾಯಾವಿಮೋಹಿತಮ್ ॥೨೪॥",
+      "correction_mode": "google_corroborated_minimal_mantra_span",
+      "replacements": [
+        {
+          "before": "ಜನದೇವಾಸುರಾತ್ಮಕಮ್",
+          "after": "ಜಗದೇತಚ್ಚರಾಚರಮ್"
+        }
+      ],
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-google-eight/independent-adjudication.md",
+        "sha256": "474c9dccd0bb25de216c7a298c4251680f9400538f42ddcf437b43a8e68e6a68"
+      },
+      "reference_source": {
+        "provider": "Google Books rendered-preview capture independently reviewed",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT783",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT426&pg=PT783#v=onepage&q&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-google-eight/google-preview/47-24-PT783.jpg",
+        "crop_sha256": "45db8e13dfcc61db2c68d4f737455c7c2c9a345c41d92506afcebb964260f432",
+        "navigation_and_capture_provenance": "Cloud browser saved screenshot crop; Mac inspected materialized actual pixels. URL null means not recorded; no constructed URL."
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0106.png",
+        "file": "translation/source-review-addenda/khanda1-google-eight/original-and-input/original-page_0106.png",
+        "sha256": "9f52cb3d266158f805749b7c8dcad321077292a87b78acd99c1ac4c5721af7b6",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true,
+        "pixel_scope": "Corresponding supplied target crops inspected; full PNG bytes archive-identical; older chapter21 ligatures explicitly uncertain."
+      },
+      "rationale": "Both sources agree on this exact replacement span. Keep remainder untouched.",
+      "counted_as_new_correction": true,
+      "whole_verse_correctness_certified": false,
+      "meaning_certified": false,
+      "no_silent_edition_harmonization": true
+    },
+    {
+      "key": [
+        1,
+        47,
+        47
+      ],
+      "old_row": {
+        "source_pages": "120",
+        "type": "mantra",
+        "text": "ವಿಘ್ನಾನಾಂ ಪತಯೇ ತುಭ್ಯಂ ನಮಃ ಕ್ಷುದ್ರಾಧಾರಿಣೇ । ತ್ರಿನೇತ್ರಾಯ ನಮಸ್ತುಭ್ಯಂ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ ॥೪೭॥"
+      },
+      "new_row": {
+        "source_pages": "120",
+        "type": "mantra",
+        "text": "ವಿಘ್ನಾನಾಂ ಪತಯೇ ತುಭ್ಯಂ ನಮಶ್ಚಂದ್ರಾರ್ಧಧಾರಿಣೇ । ತ್ರಿನೇತ್ರಾಯ ನಮಸ್ತುಭ್ಯಂ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ ॥೪೭॥"
+      },
+      "base_file": "translation/batch-06-01.tsv",
+      "source_sanskrit": "विघ्नानां पतये तुभ्यं नमश्चन्द्रार्धधारिणे । त्रिनेत्राय नमस्तुभ्यं भक्तसंरक्षकाय च ॥४७॥",
+      "source_reading_status": "target_scan_transcription_not_grammar_certification",
+      "review_status": "accepted",
+      "issues": [],
+      "accepted_translation": null,
+      "accepted_transliteration": "ವಿಘ್ನಾನಾಂ ಪತಯೇ ತುಭ್ಯಂ ನಮಶ್ಚಂದ್ರಾರ್ಧಧಾರಿಣೇ । ತ್ರಿನೇತ್ರಾಯ ನಮಸ್ತುಭ್ಯಂ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ ॥೪೭॥",
+      "correction_mode": "google_corroborated_minimal_mantra_span",
+      "replacements": [
+        {
+          "before": "ನಮಃ ಕ್ಷುದ್ರಾಧಾರಿಣೇ",
+          "after": "ನಮಶ್ಚಂದ್ರಾರ್ಧಧಾರಿಣೇ"
+        }
+      ],
+      "current_wording_source_verified": true,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-google-eight/independent-adjudication.md",
+        "sha256": "474c9dccd0bb25de216c7a298c4251680f9400538f42ddcf437b43a8e68e6a68"
+      },
+      "reference_source": {
+        "provider": "Google Books rendered-preview capture independently reviewed",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT789",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT426&pg=PT789#v=onepage&q&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-google-eight/google-preview/47-47-PT789.jpg",
+        "crop_sha256": "104b2ecbc9915602b45398e044265f2d9471e621b303ea7a4f3220da007e7bcb",
+        "navigation_and_capture_provenance": "Cloud browser saved screenshot crop; Mac inspected materialized actual pixels. URL null means not recorded; no constructed URL."
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0107.png",
+        "file": "translation/source-review-addenda/khanda1-google-eight/original-and-input/original-page_0107.png",
+        "sha256": "f618e6d2e2f1eefcadd2f0ee0af7f9eb7eb97d8fa27310d642c621d9ca9b40a2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true,
+        "pixel_scope": "Corresponding supplied target crops inspected; full PNG bytes archive-identical; older chapter21 ligatures explicitly uncertain."
+      },
+      "rationale": "Both sources agree on this exact replacement span. Keep remainder untouched.",
+      "counted_as_new_correction": true,
+      "whole_verse_correctness_certified": false,
+      "meaning_certified": false,
+      "no_silent_edition_harmonization": true
+    }
+  ],
+  "no_change_adjudications": [
+    {
+      "key": [
+        1,
+        47,
+        29
+      ],
+      "old_row": {
+        "source_pages": "119",
+        "type": "mantra",
+        "text": "ರಕ್ಷ ರಕ್ಷ ಗಣಾಧ್ಯಕ್ಷ ನರಕಾನ್ಮಾಂ ದಯಾನಿಧೇ । ತ್ವತ್ಸ್ಮೃತ್ಯಾ ಚೈವ ಭವತಿ ಜನಃ ಸರ್ವಾರ್ಥಸಿದ್ಧಿಭಾಕ್ ॥೨೯॥"
+      },
+      "new_row": {
+        "source_pages": "119",
+        "type": "mantra",
+        "text": "ರಕ್ಷ ರಕ್ಷ ಗಣಾಧ್ಯಕ್ಷ ನರಕಾನ್ಮಾಂ ದಯಾನಿಧೇ । ತ್ವತ್ಸ್ಮೃತ್ಯಾ ಚೈವ ಭವತಿ ಜನಃ ಸರ್ವಾರ್ಥಸಿದ್ಧಿಭಾಕ್ ॥೨೯॥"
+      },
+      "base_file": "translation/batch-06-01.tsv",
+      "source_sanskrit": "रक्ष रक्ष गणाध्याक्ष नरकान्मां दयानिधे । त्वत्स्मृत्या चैव भवति जनः सर्वार्थसिद्धिभाक् ॥२९॥",
+      "source_reading_status": "target_scan_transcription_not_grammar_certification",
+      "review_status": "reviewed_no_text_change_hold",
+      "issues": [
+        {
+          "status": "open",
+          "kind": "Google_comparison_retained_hold",
+          "reading": null,
+          "detail": "Google supports current standard epithet; original visibly prints गणाध्याक्ष with extra vowel. Retain current Kannada; preserve source spelling discrepancy and do not propagate original anomaly."
+        }
+      ],
+      "accepted_translation": null,
+      "accepted_transliteration": null,
+      "correction_mode": "google_comparison_no_change_hold",
+      "replacements": [],
+      "current_wording_source_verified": false,
+      "independent_review": {
+        "status": "accepted",
+        "file": "translation/source-review-addenda/khanda1-google-eight/independent-adjudication.md",
+        "sha256": "474c9dccd0bb25de216c7a298c4251680f9400538f42ddcf437b43a8e68e6a68"
+      },
+      "reference_source": {
+        "provider": "Google Books rendered-preview capture independently reviewed",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT784",
+        "page_url": null,
+        "crop_file": "translation/source-review-addenda/khanda1-google-eight/google-preview/47-29-PT784.jpg",
+        "crop_sha256": "f5b8f08308fa293b4280e2057cca8e251e858411a0d405be448fbdad98055fcb",
+        "navigation_and_capture_provenance": "Cloud browser saved screenshot crop; Mac inspected materialized actual pixels. URL null means not recorded; no constructed URL."
+      },
+      "additional_original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0106.png",
+        "file": "translation/source-review-addenda/khanda1-google-eight/original-and-input/original-page_0106.png",
+        "sha256": "9f52cb3d266158f805749b7c8dcad321077292a87b78acd99c1ac4c5721af7b6",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true,
+        "pixel_scope": "Corresponding supplied target crops inspected; full PNG bytes archive-identical; older chapter21 ligatures explicitly uncertain."
+      },
+      "rationale": "Google supports current standard epithet; original visibly prints गणाध्याक्ष with extra vowel. Retain current Kannada; preserve source spelling discrepancy and do not propagate original anomaly.",
+      "counted_as_new_correction": false,
+      "whole_verse_correctness_certified": false,
+      "meaning_certified": false,
+      "no_silent_edition_harmonization": true,
+      "original_spelling": "गणाध्याक्ष",
+      "google_spelling": "गणाध्यक्ष",
+      "current_standard_epithet_retained": true
+    }
+  ],
+  "candidate_file": "translation/source-review-addenda/khanda1-google-eight/unaccepted-candidate-ledger.json",
+  "candidate_sha256": "e1b7aa2aeff268261771e8ffbdf4afb1918b9c5441ad570b705229e495a54ff1",
+  "independent_adjudication_file": "translation/source-review-addenda/khanda1-google-eight/adjudication.json",
+  "independent_adjudication_sha256": "1a84dd0610f5d48b0b6cc9fdde18655698a0c9725f946385bace6ceb3f8262dc",
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/SANSKRIT-ONLY-REVIEW.md",
+      "sha256": "d77e7a6695db5c784bfd6bb699f6033eaf1fc7b79ad7239e18e39f1d4a8de127"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/adjudication.json",
+      "sha256": "1a84dd0610f5d48b0b6cc9fdde18655698a0c9725f946385bace6ceb3f8262dc"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/checksums.json",
+      "sha256": "d9637a997fa7baead9c66f3e1281124d2eb29ae19f962da6b14626d57a71d31c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/21-41-PT420.jpg",
+      "sha256": "f84cd23b0637b695d2a927e1980349f418f4bc1543e3667665d3f2411e1c9a6b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/21-45-PT422.jpg",
+      "sha256": "3ecdc2e4b8f9c4db97e9b3c9c72df35e0e9564c047fedc396b43dbdcd3138808"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/46-35-PT769.jpg",
+      "sha256": "c8b5f054904e5cf67dfc407c6bd8f902d48c8438d259729f54bfa9b70f51f982"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/46-46-PT772.jpg",
+      "sha256": "071742a1bf5c07410db7952408161d9317f633eefe34975ddb27d25ebdca4993"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/46-51-PT773.jpg",
+      "sha256": "4f47b700c57f72b663efe258f149893cf804351e504ae1fd3c3dc02585002134"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/47-24-PT783.jpg",
+      "sha256": "45db8e13dfcc61db2c68d4f737455c7c2c9a345c41d92506afcebb964260f432"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/47-29-PT784.jpg",
+      "sha256": "f5b8f08308fa293b4280e2057cca8e251e858411a0d405be448fbdad98055fcb"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/47-47-PT789.jpg",
+      "sha256": "104b2ecbc9915602b45398e044265f2d9471e621b303ea7a4f3220da007e7bcb"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/ch21-colophon.jpg",
+      "sha256": "5008fedbfd20e4cbcec7e0686326d9c2455eef3c749dfe879a9d00973f598feb"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/ch46-colophon-PT775.jpg",
+      "sha256": "9c6255677ca9501759f6fa8fe48bab2aa5b7c4a4451920e0d048eddfe802d439"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/ch47-colophon-PT794.jpg",
+      "sha256": "ba4acfbdaeeccdb6e80389215103a5d3ca3a248bb5665feda381d50d39b9a6c8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/google-preview/manifest.json",
+      "sha256": "09a938d6bdecf662dd522b555c2f1dc4d1bdbe31e2f41cb1d68a8f69c8cf7d5b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/independent-adjudication.md",
+      "sha256": "474c9dccd0bb25de216c7a298c4251680f9400538f42ddcf437b43a8e68e6a68"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-and-input/original-page_0051.png",
+      "sha256": "1b7c07495c69995643b9081d81d7428e350ab2eae05fc5f47235a4e245289a0e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-and-input/original-page_0052.png",
+      "sha256": "cda7a01a2714edd5b02f7946678a288310629ceadd71fcb8fb160d46dbce4575"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-and-input/original-page_0104.png",
+      "sha256": "41894ee2b5edcbb9687b8c50152419a03ca9cb84b6c6c57f73cb3852f3d92379"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-and-input/original-page_0106.png",
+      "sha256": "9f52cb3d266158f805749b7c8dcad321077292a87b78acd99c1ac4c5721af7b6"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-and-input/original-page_0107.png",
+      "sha256": "f618e6d2e2f1eefcadd2f0ee0af7f9eb7eb97d8fa27310d642c621d9ca9b40a2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/46-35-detail.png",
+      "sha256": "958a2d868af65570c96adab69c78a75a83bd7019cf9208c1aa8da95903b72e84"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/46-44-48.png",
+      "sha256": "6ee9cff60925818b9e42f867db8435488d8226d747d09913c400244f8051e7b0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/46-51-detail.png",
+      "sha256": "84b123f80e8b86a3d1eff2c78f28c44c1e235dfe7e1dab5a529d84f97dce2c00"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/47-22-26.png",
+      "sha256": "aaa55827c109269c2253ebf7db9402f8fb6a23599cd1f530f2b316afde9aa147"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/47-29-detail.png",
+      "sha256": "521d9d20ef7d0f707bf5c5ea31a5ab8fbe6fe3a3980dc7ccc89df36f025f5184"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/47-45-49.png",
+      "sha256": "b06c7df1ed5dc0b6b594fb8479f50aa90b61f9feabb3aad036ac28c0b617663c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/kartr-comparison.png",
+      "sha256": "58d74ac569a3c9c4029b2d3d71ace1876260ff0b1d98f6adfcb56cee1d3b67c5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/v41-sudhamne.png",
+      "sha256": "99ad8103c2b6088be28c8719d780641e607299fae1efe18b078f64ff3674d463"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/original-crops/v45-tail.png",
+      "sha256": "69ae78da04453c60df023aa443671086c674542c33c202d13f58f5cb3f2307c0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-google-eight/unaccepted-candidate-ledger.json",
+      "sha256": "e1b7aa2aeff268261771e8ffbdf4afb1918b9c5441ad570b705229e495a54ff1"
+    }
+  ],
+  "handoff_Library_file": "libfile_0bf359411aa48191b9a59b2630789ef5",
+  "handoff_sha256": "e5e289d207a9c6c591f14fc82c79580353ef3a99a88bc19b4617809d2c70e1f5",
+  "frozen_candidate_acceptance_fields_remain_null": true,
+  "historical_base_source_mapping_preserved": true,
+  "edition_identity_original": null,
+  "paid_calls": 0,
+  "chapter_scope": 47,
+  "shared_adjudication_review_file": "translation/khanda1-google-eight-writer-review.json"
+}
