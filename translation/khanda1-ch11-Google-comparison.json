@@ -1,0 +1,682 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_comparison_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 11
+  },
+  "source_snapshot": "53020d085e71a5788436658e207c3dd2c4ca2e9e",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans;no new manuscript wording. Partial agreement and edition disagreements remain explicitly held.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/receipt.json",
+  "independent_receipt_sha256": "0bd89b84083b7cd2baa09607efcd80ca58b6c4765fb93b8b40dcc999ccbd5c69",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/report.md",
+  "independent_review_sha256": "449ab3493fa528cfda0c5f9d5a6d2bf8fcd3b1a786d1ae4bce07c55e9a7546ce",
+  "handoff_Library_file": "libfile_8f85eb0bc170819192cfd33df4ca4db1",
+  "handoff_bytes": 551121,
+  "handoff_sha256": "f3ba663f74db4069dc566c6cd019f966cb09c69f1ffc4cf1fc827f01d72986a1",
+  "records": [
+    {
+      "key": [
+        1,
+        11,
+        29
+      ],
+      "current_text": "ಲಂಬೋಷ್ಠಾಯೈಕದಂತಾಯ ಸರ್ವೇಶಾಯ ಗಣಾಧಿಪ । ಅನಂತಮಹಿಮಾಧಾರ ಧರಣೀಧರ ತೇ ನಮಃ ॥೨೯॥",
+      "current_type": "mantra",
+      "historical_source_pages": "41",
+      "prior_review_file": "translation/khanda1-ch10-ch11-writer-review.json",
+      "prior_review_sha256": "6e49f75132f6c1540e8573ccc3dac94b8fb4f7ad8d04991aa75fc657ab78faa7",
+      "previously_applied_spans": [
+        {
+          "before": "ಅನಂತಮಹಿಮಾಪಾರಧಾರಿಣೇ",
+          "after": "ಅನಂತಮಹಿಮಾಧಾರ ಧರಣೀಧರ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಅನಂತಮಹಿಮಾಪಾರಧಾರಿಣೇ",
+          "after": "ಅನಂತಮಹಿಮಾಧಾರ ಧರಣೀಧರ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "changed_spans_corroborated",
+      "retained_review_issues": [],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT261",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT261#v=onepage&q=%E0%A4%A7%E0%A4%B0%E0%A4%A3%E0%A5%80%E0%A4%A7%E0%A4%B0&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-29.jpg",
+        "crop_sha256": "85e82cb60a2439a8e3466257623ad27bdba93db732d86a7d89cceeb207ff8ecd"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1240,
+          3700,
+          1830
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "pixel_verification_scope": "Google captures and archive-identical full original pages28/29 inspected;full page supplements any unreadable crop preview."
+    },
+    {
+      "key": [
+        1,
+        11,
+        34
+      ],
+      "current_text": "ವಿಜ್ಞಾನಾಯ ಚ ವಿಜ್ಞಾನಪತಯೇ ದ್ವಂದ್ವಧಾರಿಣೇ । ವಿಜ್ಞಾನೇಭ್ಯಃ ಸ್ವವಿಜ್ಞಾನದಾಯಿನೇ ತೇ ನಮೋ ನಮಃ ॥೩೪॥",
+      "current_type": "mantra",
+      "historical_source_pages": "41",
+      "prior_review_file": "translation/khanda1-ch10-ch11-writer-review.json",
+      "prior_review_sha256": "6e49f75132f6c1540e8573ccc3dac94b8fb4f7ad8d04991aa75fc657ab78faa7",
+      "previously_applied_spans": [
+        {
+          "before": "ವಿಜ್ಞಾನದ್ವಯಹೀನಾಯ",
+          "after": "ವಿಜ್ಞಾನೇಭ್ಯಃ ಸ್ವವಿಜ್ಞಾನದಾಯಿನೇ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ವಿಜ್ಞಾನದ್ವಯಹೀನಾಯ",
+          "after": "ವಿಜ್ಞಾನೇಭ್ಯಃ ಸ್ವವಿಜ್ಞಾನದಾಯಿನೇ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "vijnana_and_sva_philosophical_referents_unsettled",
+          "reading": null,
+          "token": "विज्ञानेभ्यः;स्वविज्ञानदायिने",
+          "detail": "Original clearly has positive विज्ञानेभ्यः स्वविज्ञानदायिने. Restore both words; the current knowledge-duality-free epithet is unsupported by this original. Preserve the remainder. Precise philosophical referents of vijnana and sva are not settled through this transliteration repair."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT263",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT263#v=onepage&q=%E0%A4%A7%E0%A4%B0%E0%A4%A3%E0%A5%80%E0%A4%A7%E0%A4%B0&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-34.jpg",
+        "crop_sha256": "c613b054336be454f0ce3b63a929bd0b881bbc4c7b86a2c2385a91d5b8bf2be1"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1740,
+          3700,
+          2210
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "pixel_verification_scope": "Google captures and archive-identical full original pages28/29 inspected;full page supplements any unreadable crop preview."
+    },
+    {
+      "key": [
+        1,
+        11,
+        36
+      ],
+      "current_text": "ಚೈತನ್ಯಾಯ ಚ ಯತ್ನಾಯ ಚೇತನಾಧಾರಿಣೇ ನಮಃ । ಚೈತನ್ಯೇಭ್ಯಃ ಸ್ವಚೈತನ್ಯದಾಯಿನೇ ನಾದರೂಪಿಣೇ ॥೩೬॥",
+      "current_type": "mantra",
+      "historical_source_pages": "41",
+      "prior_review_file": "translation/khanda1-ch11-writer-review.json",
+      "prior_review_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+      "previously_applied_spans": [
+        {
+          "before": "ಚೈತನ್ಯಮಯಾಯ ಸ್ವಚೈತನ್ಯಧಾರಿಣೇ",
+          "after": "ಚೈತನ್ಯೇಭ್ಯಃ ಸ್ವಚೈತನ್ಯದಾಯಿನೇ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಚೈತನ್ಯಮಯಾಯ ಸ್ವಚೈತನ್ಯಧಾರಿಣೇ",
+          "after": "ಚೈತನ್ಯೇಭ್ಯಃ ಸ್ವಚೈತನ್ಯದಾಯಿನೇ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_philosophical_or_compressed_meaning_not_adjudicated",
+          "reading": null,
+          "token": "चैतन्य;स्वचैतन्य",
+          "detail": "Original confirms the already-present यत्नाय and चेतनाधारिणे. Only the second half changes: plural dative चैतन्येभ्यः and giving-form स्वचैतन्यदायिने are clear. Do not count confirmation of ಯತ್ನಾಯ as a new correction. Transcription repair only;no philosophical paraphrase or grammar normalization accepted."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT263",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT263#v=onepage&q=%E0%A4%A7%E0%A4%B0%E0%A4%A3%E0%A5%80%E0%A4%A7%E0%A4%B0&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-36.jpg",
+        "crop_sha256": "e68ff13493533fecb5b3c4e41eab52006de784b0f3b271799b8c3ed6d8c65492"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1840,
+          3710,
+          2470
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "pixel_verification_scope": "Google captures and archive-identical full original pages28/29 inspected;full page supplements any unreadable crop preview."
+    },
+    {
+      "key": [
+        1,
+        11,
+        37
+      ],
+      "current_text": "ಬಿಂದುಮಾತ್ರಾಯ ಬಿಂದೂನಾಂ ಪತಯೇ ಪ್ರಾಕೃತಾಯ ಚ । ಭೇದಾಭೇದಮಯಾಯೈವ ಜ್ಯೋತೀರೂಪಾಯ ತೇ ನಮಃ ॥೩೭॥",
+      "current_type": "mantra",
+      "historical_source_pages": "41",
+      "prior_review_file": "translation/khanda1-ch11-writer-review.json",
+      "prior_review_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+      "previously_applied_spans": [
+        {
+          "before": "ಬಿಂದುಮಯಾಯ",
+          "after": "ಬಿಂದುಮಾತ್ರಾಯ"
+        },
+        {
+          "before": "ಮಾನದಾಯ",
+          "after": "ಪ್ರಾಕೃತಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಬಿಂದುಮಯಾಯ",
+          "after": "ಬಿಂದುಮಾತ್ರಾಯ"
+        },
+        {
+          "before": "ಮಾನದಾಯ",
+          "after": "ಪ್ರಾಕೃತಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_philosophical_or_compressed_meaning_not_adjudicated",
+          "reading": null,
+          "token": "मात्र;प्राकृत",
+          "detail": "Actual original reads बिंदुमात्राय and प्राकृताय. Preserve all other text, including printed ज्योतीरूपाय rather than silently normalizing its vowel. The precise doctrinal force of prakrta/matra is not settled by this transliteration repair. Transcription repair only;no philosophical paraphrase or grammar normalization accepted."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT264",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT264#v=onepage&q=%E0%A4%A7%E0%A4%B0%E0%A4%A3%E0%A5%80%E0%A4%A7%E0%A4%B0&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-37.jpg",
+        "crop_sha256": "bc1ef971629ee3255f8430bc4b3bf34e82c96bacd2835be19623b5980b4ff27d"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1840,
+          3710,
+          2470
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "pixel_verification_scope": "Google captures and archive-identical full original pages28/29 inspected;full page supplements any unreadable crop preview."
+    },
+    {
+      "key": [
+        1,
+        11,
+        38
+      ],
+      "current_text": "ಸೋಽಹಂಮಾತ್ರಾಯ ಶೂನ್ಯಾಯ ಶೂನ್ಯಾಧಾರಾಯ ದೇಹಿನೇ । ಶೂನ್ಯಾನಾಂ ಶೂನ್ಯರೂಪಾಯ ಪುರುಷಾಯ ನಮೋ ನಮಃ ॥೩೮॥",
+      "current_type": "mantra",
+      "historical_source_pages": "41",
+      "prior_review_file": "translation/khanda1-ch11-writer-review.json",
+      "prior_review_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+      "previously_applied_spans": [
+        {
+          "before": "ಸೋಽಹಂಮಯಾಯ",
+          "after": "ಸೋಽಹಂಮಾತ್ರಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಸೋಽಹಂಮಯಾಯ",
+          "after": "ಸೋಽಹಂಮಾತ್ರಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_philosophical_or_compressed_meaning_not_adjudicated",
+          "reading": null,
+          "token": "सोऽहंमात्र;शून्य",
+          "detail": "Actual original clearly has मात्राय, not मयाय. Preserve anusvara spelling, existing avagraha and all remaining words. No philosophical paraphrase is introduced. Transcription repair only;no philosophical paraphrase or grammar normalization accepted."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT264",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT264#v=onepage&q=%E0%A4%A7%E0%A4%B0%E0%A4%A3%E0%A5%80%E0%A4%A7%E0%A4%B0&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-38.jpg",
+        "crop_sha256": "42f3f670b1f02e80c9f723552598393983674098818a291cf9b06c1da59b406b"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1840,
+          3710,
+          2470
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "pixel_verification_scope": "Google captures and archive-identical full original pages28/29 inspected;full page supplements any unreadable crop preview."
+    },
+    {
+      "key": [
+        1,
+        11,
+        39
+      ],
+      "current_text": "ಜ್ಞಾನಾಯ ಬೋಧನಾಥಾಯ ಬೋಧಾನಾಂ ಬೋಧಕಾರಿಣೇ । ಮನೋವಾಣೀವಿಹೀನಾಯ ಸರ್ವಾತ್ಮಕ ನಮೋ ನಮಃ ॥೩೯॥",
+      "current_type": "mantra",
+      "historical_source_pages": "41",
+      "prior_review_file": "translation/khanda1-ch11-writer-review.json",
+      "prior_review_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+      "previously_applied_spans": [
+        {
+          "before": "ಬೋಧನಾಯೈವ",
+          "after": "ಬೋಧನಾಥಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಬೋಧನಾಯೈವ",
+          "after": "ಬೋಧನಾಥಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_philosophical_or_compressed_meaning_not_adjudicated",
+          "reading": null,
+          "token": "सर्वात्मक",
+          "detail": "Actual original clearly reads बोधनाथाय. Preserve the printed सर्वात्मक vocative, without dative normalization. Transcription repair only;no philosophical paraphrase or grammar normalization accepted."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT264",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT264#v=onepage&q=%E0%A4%A7%E0%A4%B0%E0%A4%A3%E0%A5%80%E0%A4%A7%E0%A4%B0&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-39.jpg",
+        "crop_sha256": "935758cb1da947f9ed83ed6814a91e69aa78676f2ead90cb17fc95e7afef4c94"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0028.png",
+        "file": "translation/source-review-addenda/khanda1-ch11/original-and-input/original-page_0028.png",
+        "sha256": "e69a85346cd3524743223babc02802b0bb928c85b5b619e86e3ea05fe7f7ea02",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          1840,
+          3710,
+          2470
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "pixel_verification_scope": "Google captures and archive-identical full original pages28/29 inspected;full page supplements any unreadable crop preview."
+    },
+    {
+      "key": [
+        1,
+        11,
+        42
+      ],
+      "current_text": "ಅಮೃತಾಯ ಸದಾಖಂಡಭೇದಾಭೇದವಿವರ್ಜಿತ । ಸದಾತ್ಮರೂಪಿಣೇ ಸೂರ್ಯರೂಪಾಧಾರಾಯ ತೇ ನಮಃ ॥೪೨॥",
+      "current_type": "mantra",
+      "historical_source_pages": "42",
+      "prior_review_file": "translation/khanda1-ch11-writer-review.json",
+      "prior_review_sha256": "96b220d32ee9c168c12626f0e02c4a1178a52624caa0668ce574bd3fdf84bc63",
+      "previously_applied_spans": [
+        {
+          "before": "ಸೂರ್ಯರೂಪಧಾರಾಯ",
+          "after": "ಸೂರ್ಯರೂಪಾಧಾರಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಸೂರ್ಯರೂಪಧಾರಾಯ",
+          "after": "ಸೂರ್ಯರೂಪಾಧಾರಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_philosophical_or_compressed_meaning_not_adjudicated",
+          "reading": null,
+          "token": "सदाखंडभेदाभेदविवर्जित",
+          "detail": "Original clearly has रूपाधाराय with long a after pa. Restore the missing vowel in Kannada. Preserve सदाखंडभेदाभेदविवर्जित as printed, without adding a dative ending or forcing a compound interpretation. Transcription repair only;no philosophical paraphrase or grammar normalization accepted."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT265",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT265#v=onepage&q=%E0%A4%A7%E0%A4%B0%E0%A4%A3%E0%A5%80%E0%A4%A7%E0%A4%B0&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-42.jpg",
+        "crop_sha256": "bd29124f7519b939bd80809f00674ed6c7683b60ce614996fa2e53eace3630d3"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0029.png",
+        "file": "translation/source-review-addenda/khanda1-ch11/original-and-input/original-page_0029.png",
+        "sha256": "2b6d34ddfbab59fe2bfbcd32b1848f098c84a72b3755e99a2ca0071c8aa3e8ee",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          450,
+          3700,
+          850
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "pixel_verification_scope": "Google captures and archive-identical full original pages28/29 inspected;full page supplements any unreadable crop preview."
+    },
+    {
+      "key": [
+        1,
+        11,
+        46
+      ],
+      "current_text": "ಅಯೋಗಾಯ ನಮಸ್ತುಭ್ಯಂ ನಿರಾಲಂಬಸ್ವರೂಪಿಣೇ । ಮಾಯಾಹೀನಾಯ ದೇವಾಯ ನಮಸ್ತೇ ಹ್ಯಸಮಾಧಯೇ ॥೪೬॥",
+      "current_type": "mantra",
+      "historical_source_pages": "42",
+      "prior_review_file": "translation/khanda1-ch11-ch13-writer-review.json",
+      "prior_review_sha256": "f9df1c6782080f1233955ee9a1144fb9e6c58661f376a2e39dfbb74f7ea25ad5",
+      "previously_applied_spans": [
+        {
+          "before": "ಹ್ಯಸಮಾಯ ಚ",
+          "after": "ಹ್ಯಸಮಾಧಯೇ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಹ್ಯಸಮಾಯ ಚ",
+          "after": "ಹ್ಯಸಮಾಧಯೇ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_not_adjudicated",
+          "reading": null,
+          "token": "अयोगाय नमस्तुभ्यं निरालंबस्वरूपिणे । मायाहीनाय देवाय नमस्ते ह्यसमाधये ॥४६॥",
+          "detail": "Actual original has ह्यसमाधये, not ह्यसमाय च. Preserve the rest. Context45 समाधौ and46 अयोगाय makes the contrast relevant, but the exact philosophical interpretation is not being translated or harmonized here."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT267",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT267#v=onepage&q=%E0%A4%A7%E0%A4%B0%E0%A4%A3%E0%A5%80%E0%A4%A7%E0%A4%B0&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-46.jpg",
+        "crop_sha256": "539897bc3160ef7f19a3a59ae3dc0f372830b052571529a99aeebe1ee4b55d75"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0029.png",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0029.png",
+        "sha256": "2b6d34ddfbab59fe2bfbcd32b1848f098c84a72b3755e99a2ca0071c8aa3e8ee",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          200,
+          620,
+          3700,
+          1060
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "pixel_verification_scope": "Google captures and archive-identical full original pages28/29 inspected;full page supplements any unreadable crop preview."
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/checksums.json",
+      "sha256": "ccab94525a9bd1c9caf76e0918043767a0683ff5e1acd3787437c926ce880167"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-29.jpg",
+      "sha256": "85e82cb60a2439a8e3466257623ad27bdba93db732d86a7d89cceeb207ff8ecd"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-34.jpg",
+      "sha256": "c613b054336be454f0ce3b63a929bd0b881bbc4c7b86a2c2385a91d5b8bf2be1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-36.jpg",
+      "sha256": "e68ff13493533fecb5b3c4e41eab52006de784b0f3b271799b8c3ed6d8c65492"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-37.jpg",
+      "sha256": "bc1ef971629ee3255f8430bc4b3bf34e82c96bacd2835be19623b5980b4ff27d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-38.jpg",
+      "sha256": "42f3f670b1f02e80c9f723552598393983674098818a291cf9b06c1da59b406b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-39.jpg",
+      "sha256": "935758cb1da947f9ed83ed6814a91e69aa78676f2ead90cb17fc95e7afef4c94"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-42.jpg",
+      "sha256": "bd29124f7519b939bd80809f00674ed6c7683b60ce614996fa2e53eace3630d3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/11-46.jpg",
+      "sha256": "539897bc3160ef7f19a3a59ae3dc0f372830b052571529a99aeebe1ee4b55d75"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/ch11-colophon.jpg",
+      "sha256": "b00114ac21dd55f125e415e61bb9724dc3341752eb86285feb84e0650fa9d2fe"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/ch11-header.jpg",
+      "sha256": "8d647c55caf7ba25ba6875f7c7d1e9c7ea26adc1428f31393a1510ed446a6f67"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/google-captures/manifest.json",
+      "sha256": "1e7932ae0107a44760a46babeef7d029aba565b8ced1efbb4ef8acd548542854"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/input-chapter.json",
+      "sha256": "6a3e106648aef71722c2360641ad0e947fbc05e3857a49e999342bc608f29aa8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/original-crops/ch11-v29.png",
+      "sha256": "7713ec1d366ee52e5a9ebaed68d5d7edc2b2d7ad05fb2b8adc0a6a36900a9708"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/original-crops/ch11-v34.png",
+      "sha256": "f411351a7b1b0818718ea48c8993bcb7aaea91ad8741e5d67d84776dd3fe8665"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/original-crops/ch11-v36.png",
+      "sha256": "5b2ca05fb10649341816fef10cd781d906a2512a727ab1341bd1304c1042aa28"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/original-crops/ch11-v37.png",
+      "sha256": "5b2ca05fb10649341816fef10cd781d906a2512a727ab1341bd1304c1042aa28"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/original-crops/ch11-v38.png",
+      "sha256": "5b2ca05fb10649341816fef10cd781d906a2512a727ab1341bd1304c1042aa28"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/original-crops/ch11-v39.png",
+      "sha256": "5b2ca05fb10649341816fef10cd781d906a2512a727ab1341bd1304c1042aa28"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/original-crops/ch11-v42.png",
+      "sha256": "c4ed9501f9cdae3f49c576427c0d27fd8d0dc5642848bc5325d030ee7ede6d34"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/original-crops/ch11-v46.png",
+      "sha256": "aaf76770953b1a96fc9e59af5f958151adfba674f5b5aaaa48671ce74bfdd8ba"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/receipt.json",
+      "sha256": "0bd89b84083b7cd2baa09607efcd80ca58b6c4765fb93b8b40dcc999ccbd5c69"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch11-Google-comparison/report.md",
+      "sha256": "449ab3493fa528cfda0c5f9d5a6d2bf8fcd3b1a786d1ae4bce07c55e9a7546ce"
+    }
+  ],
+  "new_text_changes": 0,
+  "compared_existing_records": 8,
+  "corroborated_existing_records": 8,
+  "partial_records": 0,
+  "edition_difference_records": 0,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}
