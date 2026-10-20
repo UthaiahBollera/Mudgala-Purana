@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_comparison_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 10
+  },
+  "source_snapshot": "43321b507f5b7af1274e0f6b3c344603f29afdf6",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans;no new manuscript wording. Partial agreement and edition disagreements remain explicitly held.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/receipt.json",
+  "independent_receipt_sha256": "cc49955a7034681fea960285ac3e89173143caee767e5c9080046fc0537f452b",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/report.md",
+  "independent_review_sha256": "aa51d45e38393969f0a66080ba0dd7a97a97979fb6fa4862f3b74391e147187b",
+  "handoff_Library_file": "libfile_cfe9fac860248191aeb76ad671df18e9",
+  "handoff_bytes": 167811,
+  "handoff_sha256": "7fdea660cd8ec8d2f8f40dc7be7e083f795da647187947ac0a9e7520ec62500a",
+  "records": [
+    {
+      "key": [
+        1,
+        10,
+        23
+      ],
+      "current_text": "ನಮೋ ನಮೋ ಮಹೇಶಾಯ ಶಿವಾಯ ಶಿವದಾಯಿನೇ । ಸರ್ವತ್ರ ಸಮಭಾವಾಯ ವಿಷ್ಣವೇ ಪ್ರಭವಿಷ್ಣವೇ ॥೨೩॥",
+      "current_type": "mantra",
+      "historical_source_pages": "39",
+      "prior_review_file": "translation/khanda1-ch9-ch10-writer-review.json",
+      "prior_review_sha256": "88e87144d320fe6866ae3465e5dff633dd7915ed729083605eadeff0311cc5ae",
+      "previously_applied_spans": [
+        {
+          "before": "ಚಿದಧಾರಿಣೇ",
+          "after": "ಶಿವದಾಯಿನೇ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಚಿದಧಾರಿಣೇ",
+          "after": "ಶಿವದಾಯಿನೇ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "changed_spans_corroborated",
+      "retained_review_issues": [],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT246",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT246#v=onepage&q=%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A8%E0%A5%87&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/google-captures/10-23.jpg",
+        "crop_sha256": "b2aff886e29fd5e98f5792dc3bb8b56f98bad17468d6c3777b5460ccab1def74"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0026.png",
+        "file": "translation/source-review-addenda/khanda1-ch9-ch10/original-and-input/original-page_0026.png",
+        "sha256": "2d5e62e1ec36e2aa36aa0e3d61df7f37cea9f47fdcbcd5c37ca17fa2470fd1e2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          900,
+          3720,
+          1400
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    },
+    {
+      "key": [
+        1,
+        10,
+        25
+      ],
+      "current_text": "ಸ್ರಷ್ಟ್ರೇ ಪಾತ್ರೇ ಚ ಸಂಹರ್ತ್ರೇ ಚರಾಚರಮಯಾಯ ಚ । ಸರ್ವೇಭ್ಯೋ ಜ್ಞಾನದಾತ್ರೇ ಚ ನಿರ್ಮಲಾಯ ನಮೋ ನಮಃ ॥೨೫॥",
+      "current_type": "mantra",
+      "historical_source_pages": "39",
+      "prior_review_file": "translation/khanda1-ch10-ch11-writer-review.json",
+      "prior_review_sha256": "6e49f75132f6c1540e8573ccc3dac94b8fb4f7ad8d04991aa75fc657ab78faa7",
+      "previously_applied_spans": [
+        {
+          "before": "ಬ್ರಹ್ಮರೂಪಧರಾಯ",
+          "after": "ಚರಾಚರಮಯಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಬ್ರಹ್ಮರೂಪಧರಾಯ",
+          "after": "ಚರಾಚರಮಯಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "changed_spans_corroborated",
+      "retained_review_issues": [],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT247",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT247#v=onepage&q=%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A8%E0%A5%87&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/google-captures/10-25.jpg",
+        "crop_sha256": "07449a15ad69685b028c259bd721416db4131a24450e6c2299fa0536d18bdbdc"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0026.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0026.png",
+        "sha256": "2d5e62e1ec36e2aa36aa0e3d61df7f37cea9f47fdcbcd5c37ca17fa2470fd1e2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1090,
+          3720,
+          1620
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/checksums.json",
+      "sha256": "dcd7be82824088493a38be5fc2b8ae14161a0893a9b73e10fea3519f056d8b05"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/google-captures/10-23.jpg",
+      "sha256": "b2aff886e29fd5e98f5792dc3bb8b56f98bad17468d6c3777b5460ccab1def74"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/google-captures/10-25.jpg",
+      "sha256": "07449a15ad69685b028c259bd721416db4131a24450e6c2299fa0536d18bdbdc"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/google-captures/ch10-colophon.jpg",
+      "sha256": "51a9efaf5fd18b6bfa8d76d96b9fa686ea70c9038e52d3d9613052f6b0677550"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/google-captures/manifest.json",
+      "sha256": "20d409758b38fd8fece4c7b900e25970a682d82b68ddda3b62b78806881f924d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/input-chapter.json",
+      "sha256": "6fe93d40c072db329c830273122ad34edc405bd338c36e0d087cbe0bb8938c00"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/original-crops/ch10-v23.png",
+      "sha256": "b1d08780acebd56ff38c92133368295abc1b5910b31575c36413c65f5b3d3c3a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/original-crops/ch10-v25.png",
+      "sha256": "fce92abfdb5cc6d8ac0c5c45171cd6202b9fc52ef56fb37a00f2df68465c1ea3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/receipt.json",
+      "sha256": "cc49955a7034681fea960285ac3e89173143caee767e5c9080046fc0537f452b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch10-Google-comparison/report.md",
+      "sha256": "aa51d45e38393969f0a66080ba0dd7a97a97979fb6fa4862f3b74391e147187b"
+    }
+  ],
+  "new_text_changes": 0,
+  "compared_existing_records": 2,
+  "corroborated_existing_records": 2,
+  "partial_records": 0,
+  "edition_difference_records": 0,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}

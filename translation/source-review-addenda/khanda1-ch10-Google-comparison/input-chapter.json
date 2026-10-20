@@ -1,0 +1,192 @@
+{
+  "group": {
+    "chapter": 10,
+    "count": 2,
+    "keys": [
+      [
+        1,
+        10,
+        23
+      ],
+      [
+        1,
+        10,
+        25
+      ]
+    ],
+    "new_target_capture_needed": 2,
+    "file": "chapters/chapter-10.json",
+    "status": "queued_no_text_changes"
+  },
+  "source_commit": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "Google_book_id": "Lh0FEQAAQBAJ",
+  "Google_book_entry_URL": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ",
+  "records": [
+    {
+      "key": [
+        1,
+        10,
+        23
+      ],
+      "display_key": "1.10.23",
+      "chapter": 10,
+      "verse": 23,
+      "current_text": "ನಮೋ ನಮೋ ಮಹೇಶಾಯ ಶಿವಾಯ ಶಿವದಾಯಿನೇ । ಸರ್ವತ್ರ ಸಮಭಾವಾಯ ವಿಷ್ಣವೇ ಪ್ರಭವಿಷ್ಣವೇ ॥೨೩॥",
+      "prior_text_before_recorded_correction": "ನಮೋ ನಮೋ ಮಹೇಶಾಯ ಶಿವಾಯ ಚಿದಧಾರಿಣೇ । ಸರ್ವತ್ರ ಸಮಭಾವಾಯ ವಿಷ್ಣವೇ ಪ್ರಭವಿಷ್ಣವೇ ॥೨೩॥",
+      "exact_previously_applied_spans": [
+        {
+          "before": "ಚಿದಧಾರಿಣೇ",
+          "after": "ಶಿವದಾಯಿನೇ"
+        }
+      ],
+      "historical_source_pages": "39",
+      "historical_source_pages_not_archive_or_Google_pagination": true,
+      "source_row_file": "translation/batch-373-reviewed-base-translation.tsv",
+      "source_row_link": "https://github.com/UthaiahBollera/Mudgala-Purana/blob/f032e6e5695dee27e86fe960be740285f35da0bc/translation/batch-373-reviewed-base-translation.tsv",
+      "source_correction_commit": "66551a48f81255c6fc99820fd6b79adfeae9d1eb",
+      "source_correction_commit_link": "https://github.com/UthaiahBollera/Mudgala-Purana/commit/66551a48f81255c6fc99820fd6b79adfeae9d1eb",
+      "prior_review_file": "translation/khanda1-ch9-ch10-writer-review.json",
+      "prior_review_link": "https://github.com/UthaiahBollera/Mudgala-Purana/blob/f032e6e5695dee27e86fe960be740285f35da0bc/translation/khanda1-ch9-ch10-writer-review.json",
+      "prior_review_status": "accepted",
+      "prior_scan_reading_not_correctness_certification": "नमो नमो महेशाय शिवाय शिवदायिने । सर्वत्र समभावाय विष्णवे प्रभविष्णवे ॥२३॥",
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0026.png",
+        "file": "translation/source-review-addenda/khanda1-ch9-ch10/original-and-input/original-page_0026.png",
+        "sha256": "2d5e62e1ec36e2aa36aa0e3d61df7f37cea9f47fdcbcd5c37ca17fa2470fd1e2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          900,
+          3720,
+          1400
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "original_source_links": {
+        "archive_Drive_URL": "https://drive.google.com/file/d/1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi/view?usp=drivesdk",
+        "archive_Library_file": "libfile_64aa2ca51ef881918c442b04d0fdf5bb",
+        "archive_Library_download": "https://chatgpt.com/api/library/files/libfile_64aa2ca51ef881918c442b04d0fdf5bb/download",
+        "repo_blob": "https://github.com/UthaiahBollera/Mudgala-Purana/blob/f032e6e5695dee27e86fe960be740285f35da0bc/translation/source-review-addenda/khanda1-ch9-ch10/original-and-input/original-page_0026.png",
+        "repo_raw": "https://raw.githubusercontent.com/UthaiahBollera/Mudgala-Purana/f032e6e5695dee27e86fe960be740285f35da0bc/translation/source-review-addenda/khanda1-ch9-ch10/original-and-input/original-page_0026.png",
+        "page_Library_download": null,
+        "detail_Library_download": null
+      },
+      "original_visible_span_only": null,
+      "original_full_reading_unavailable": false,
+      "existing_Google_evidence": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "existing_Google_capture_blob": null,
+      "existing_Google_capture_raw": null,
+      "Google_evidence_status": "no_recorded_target_Google_capture",
+      "Google_page_id": null,
+      "Google_page_url": null,
+      "retained_review_issues": [],
+      "historical_registry_status": "resolved_original_scan_transcription_correction",
+      "historical_registry_questions": [
+        "Reference śivadāyine, not invented cid dhāriṇe. Proposal is held pending original-scan comparison.",
+        "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
+      ],
+      "historical_registry_current_review_issues": [],
+      "hold_or_review_reason": "Prior correction lacks recorded target-specific Google Sanskrit capture; inspect chapter and verse before approving any further edit.",
+      "edition_policy": null,
+      "scope_note": "No new Sanskrit/Kannada correction proposed; unchanged published text. Original scan spelling is not correctness certification.",
+      "publication_ready": false,
+      "new_replacement_proposal": null,
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    },
+    {
+      "key": [
+        1,
+        10,
+        25
+      ],
+      "display_key": "1.10.25",
+      "chapter": 10,
+      "verse": 25,
+      "current_text": "ಸ್ರಷ್ಟ್ರೇ ಪಾತ್ರೇ ಚ ಸಂಹರ್ತ್ರೇ ಚರಾಚರಮಯಾಯ ಚ । ಸರ್ವೇಭ್ಯೋ ಜ್ಞಾನದಾತ್ರೇ ಚ ನಿರ್ಮಲಾಯ ನಮೋ ನಮಃ ॥೨೫॥",
+      "prior_text_before_recorded_correction": "ಸ್ರಷ್ಟ್ರೇ ಪಾತ್ರೇ ಚ ಸಂಹರ್ತ್ರೇ ಬ್ರಹ್ಮರೂಪಧರಾಯ ಚ । ಸರ್ವೇಭ್ಯೋ ಜ್ಞಾನದಾತ್ರೇ ಚ ನಿರ್ಮಲಾಯ ನಮೋ ನಮಃ ॥೨೫॥",
+      "exact_previously_applied_spans": [
+        {
+          "before": "ಬ್ರಹ್ಮರೂಪಧರಾಯ",
+          "after": "ಚರಾಚರಮಯಾಯ"
+        }
+      ],
+      "historical_source_pages": "39",
+      "historical_source_pages_not_archive_or_Google_pagination": true,
+      "source_row_file": "translation/batch-374-reviewed-base-translation.tsv",
+      "source_row_link": "https://github.com/UthaiahBollera/Mudgala-Purana/blob/f032e6e5695dee27e86fe960be740285f35da0bc/translation/batch-374-reviewed-base-translation.tsv",
+      "source_correction_commit": "6bb92f79d30d4c9e647d6e9b8acf096d8609898d",
+      "source_correction_commit_link": "https://github.com/UthaiahBollera/Mudgala-Purana/commit/6bb92f79d30d4c9e647d6e9b8acf096d8609898d",
+      "prior_review_file": "translation/khanda1-ch10-ch11-writer-review.json",
+      "prior_review_link": "https://github.com/UthaiahBollera/Mudgala-Purana/blob/f032e6e5695dee27e86fe960be740285f35da0bc/translation/khanda1-ch10-ch11-writer-review.json",
+      "prior_review_status": "accepted",
+      "prior_scan_reading_not_correctness_certification": "स्रष्ट्रे पात्रे च संहर्त्रे चराचरमयाय च । सर्वेभ्यो ज्ञानदात्रे च निर्मलाय नमो नमः ॥२५॥",
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0026.png",
+        "file": "translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0026.png",
+        "sha256": "2d5e62e1ec36e2aa36aa0e3d61df7f37cea9f47fdcbcd5c37ca17fa2470fd1e2",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1090,
+          3720,
+          1620
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "original_source_links": {
+        "archive_Drive_URL": "https://drive.google.com/file/d/1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi/view?usp=drivesdk",
+        "archive_Library_file": "libfile_64aa2ca51ef881918c442b04d0fdf5bb",
+        "archive_Library_download": "https://chatgpt.com/api/library/files/libfile_64aa2ca51ef881918c442b04d0fdf5bb/download",
+        "repo_blob": "https://github.com/UthaiahBollera/Mudgala-Purana/blob/f032e6e5695dee27e86fe960be740285f35da0bc/translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0026.png",
+        "repo_raw": "https://raw.githubusercontent.com/UthaiahBollera/Mudgala-Purana/f032e6e5695dee27e86fe960be740285f35da0bc/translation/source-review-addenda/khanda1-ch10-ch11/original-and-input/original-page_0026.png",
+        "page_Library_download": null,
+        "detail_Library_download": null
+      },
+      "original_visible_span_only": null,
+      "original_full_reading_unavailable": false,
+      "existing_Google_evidence": {
+        "provider": "Google Books unavailable;no target scan confirmation",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": null,
+        "page_url": null,
+        "crop_file": null,
+        "crop_sha256": null
+      },
+      "existing_Google_capture_blob": null,
+      "existing_Google_capture_raw": null,
+      "Google_evidence_status": "no_recorded_target_Google_capture",
+      "Google_page_id": null,
+      "Google_page_url": null,
+      "retained_review_issues": [],
+      "historical_registry_status": "resolved_original_scan_transcription_correction",
+      "historical_registry_questions": [
+        "Reference carācaramayāya, not brahmarūpadharāya. Proposal is held pending original-scan comparison.",
+        "Proposed replacement withheld: the existing and reference readings differ, or the reference interpretation remains uncertain. Existing text retained pending printed-edition or philological confirmation."
+      ],
+      "historical_registry_current_review_issues": [],
+      "hold_or_review_reason": "Prior correction lacks recorded target-specific Google Sanskrit capture; inspect chapter and verse before approving any further edit.",
+      "edition_policy": null,
+      "scope_note": "No new Sanskrit/Kannada correction proposed; unchanged published text. Original scan spelling is not correctness certification.",
+      "publication_ready": false,
+      "new_replacement_proposal": null,
+      "accepted_sanskrit": null,
+      "accepted_kannada": null
+    }
+  ]
+}
