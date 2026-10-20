@@ -1,0 +1,157 @@
+{
+  "scope": "Khanda1 chapter1 verses18–27 only",
+  "base_commit": "5feb5b72e7b0d5b724180a3d153522b03de0e573",
+  "file": "translation/narrative.tsv",
+  "coverage": "All ten original-only; no Google target corroboration claimed.",
+  "corrections": [
+    {
+      "key": [
+        1,
+        1,
+        20
+      ],
+      "old_text": "ಬ್ರಾಹ್ಮಣಶ್ರೇಷ್ಠರಾದ ನೀವು ಸಾಕ್ಷಾತ್ ಬ್ರಹ್ಮಸ್ವರೂಪಿಗಳು. ನಿಮ್ಮನ್ನು ಕಂಡ ಮಾತ್ರದಿಂದಲೇ ಜನರು ಕೃತಕೃತ್ಯರಾಗುತ್ತಾರೆ. ॥೨೦॥",
+      "new_text": "ಬ್ರಹ್ಮಜ್ಞಾನಿಗಳಲ್ಲಿ ಶ್ರೇಷ್ಠರಾದ ಬ್ರಾಹ್ಮಣರಾದ ನೀವು ಸಾಕ್ಷಾತ್ ಬ್ರಹ್ಮಸ್ವರೂಪಿಗಳು. ನಿಮ್ಮನ್ನು ಕಂಡ ಮಾತ್ರದಿಂದಲೇ ಜನರು ಕೃತಕೃತ್ಯರಾಗುತ್ತಾರೆ. ॥೨೦॥",
+      "source_span": "साक्षाद् ब्रह्मस्वरूपा वै ब्राह्मणा ब्रह्मवित्तमाः",
+      "rationale": "Restore foremost knowers of Brahman; preserve Brahmins and all other text.",
+      "original_image": "../new-original-source-intake-20261019/Mudugal_Purana_original_page_0001.png",
+      "original_sha256": "bf40476f2557bfad529d19a66e1cc641ac272e02051272b8a6b9cb002636c0e1",
+      "independent_review": "Independent original-image reviewer accepted exact first-phrase replacement, relayed by parent."
+    },
+    {
+      "key": [
+        1,
+        1,
+        23
+      ],
+      "old_text": "ಬ್ರಾಹ್ಮಣರು ಹೇಳಿದರು: “ಮಹಾಭಾಗ ಸೂತನೇ, ನಮ್ಮ ಮುಂದೆ ಕುಳಿತುಕೋ. ನಿನ್ನ ದರ್ಶನಮಾತ್ರದಿಂದಲೇ ನಾವೆಲ್ಲರೂ ಸಂತುಷ್ಟರಾಗಿದ್ದೇವೆ, ಪ್ರಭುವೇ.” ॥೨೩॥",
+      "new_text": "ಬ್ರಾಹ್ಮಣರು ಹೇಳಿದರು: “ಮಹಾಭಾಗ ಸೂತನೇ, ಪುಣ್ಯವನ್ನು ಹೆಚ್ಚಿಸುವವನೇ, ಕುಳಿತುಕೋ. ನಿನ್ನ ದರ್ಶನಮಾತ್ರದಿಂದಲೇ ನಾವೆಲ್ಲರೂ ಸಂತುಷ್ಟರಾಗಿದ್ದೇವೆ.” ॥೨೩॥",
+      "source_sanskrit": "सूत सूत महाभाग स्थीयतां पुण्यवर्धन । तव दर्शनमात्रेण संतुष्टाः स्मो वयं खलु ॥२३॥",
+      "rationale": "Restore पुण्यवर्धन vocative, remove unstated seating location and unsupported Lord vocative. Preserve contextual Brahmins speaker label. Verse24 confirms seating.",
+      "independent_original_archive_member": "Page Images/page_0002.png",
+      "independent_original_sha256": "704e6fb79c9235f69e6f9e2f52952b6b89544c72406f49986e402283dfec2428",
+      "independent_review": "Parent relayed direct original-image acceptance of the exact final Kannada; archive image hash is independent reviewer evidence, not a claim worker inspected those exact archive bytes.",
+      "worker_direct_image_source": {
+        "pdf": "/Users/uthaiahbb/Mudugal Purana/1 TO 25.pdf",
+        "pdf_sha256": "00dc9890c76c3845d228055b1695908f8b3f12415244bda829885cf6c6896391",
+        "pdf_page_1_based": 15,
+        "printed_page": "2",
+        "verified_header": "Khanda1 chapter1",
+        "method": "pdftoppm direct temporary rendering; printed verse23 label and surrounding21–27 read visually; no OCR or text extraction."
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "key": [
+        1,
+        1,
+        18
+      ],
+      "decision": "retain",
+      "coverage": "original_only",
+      "original_locator": "printed page1 original PNG"
+    },
+    {
+      "key": [
+        1,
+        1,
+        19
+      ],
+      "decision": "retain",
+      "coverage": "original_only",
+      "original_locator": "printed page1 original PNG"
+    },
+    {
+      "key": [
+        1,
+        1,
+        20
+      ],
+      "decision": "corrected_after_independent_image_review",
+      "coverage": "original_only",
+      "original_locator": "printed page1 original PNG"
+    },
+    {
+      "key": [
+        1,
+        1,
+        21
+      ],
+      "decision": "retain",
+      "coverage": "original_only",
+      "original_locator": "printed page1 original PNG plus PDF page15 printed2"
+    },
+    {
+      "key": [
+        1,
+        1,
+        22
+      ],
+      "decision": "retain",
+      "coverage": "original_only",
+      "original_locator": "PDF page15 printed2"
+    },
+    {
+      "key": [
+        1,
+        1,
+        23
+      ],
+      "decision": "corrected_after_independent_image_review",
+      "coverage": "original_only",
+      "original_locator": "PDF page15 printed2"
+    },
+    {
+      "key": [
+        1,
+        1,
+        24
+      ],
+      "decision": "retain",
+      "coverage": "original_only",
+      "original_locator": "PDF page15 printed2"
+    },
+    {
+      "key": [
+        1,
+        1,
+        25
+      ],
+      "decision": "retain",
+      "coverage": "original_only",
+      "original_locator": "PDF page15 printed2"
+    },
+    {
+      "key": [
+        1,
+        1,
+        26
+      ],
+      "decision": "retain",
+      "coverage": "original_only",
+      "original_locator": "PDF page15 printed2"
+    },
+    {
+      "key": [
+        1,
+        1,
+        27
+      ],
+      "decision": "retain",
+      "coverage": "original_only",
+      "original_locator": "PDF page15 printed2"
+    }
+  ],
+  "preserved_holds": "All existing holds unchanged, including1.1.9 compound/full-verse meaning,1.2.11 grammar and all edition variants. No whole-chapter certification.",
+  "method": "Direct image reading; no OCR, extracted source text, browser source retrieval, source-image export or paid API.",
+  "verification": {
+    "narrative_before_sha256": "a771d830d8110d135790b32b0de829dd202201f0be9bf61ad6dfc22a0ad1c737",
+    "narrative_after_sha256": "cf964173e869279686fd254dd4dd36285bd395d05bfd7bc230d7d0b12ecf8a78",
+    "non_target_narrative_rows_byte_identical": 160,
+    "other_translation_tsv_files_byte_identical": 403,
+    "protected_untracked_export_sha256": "a8a01f0da6ca25c1bec8ee7bbf41d93695b956815386e8f979108b4ff26c22cb",
+    "original_pdf_sha256": "00dc9890c76c3845d228055b1695908f8b3f12415244bda829885cf6c6896391",
+    "build_policy": "Build and validate in isolated temporary copy; preserve original working-tree export."
+  }
+}
