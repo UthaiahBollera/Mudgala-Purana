@@ -1,6 +1,6 @@
 {
-  "source_commit": "f1650cffc06b739f5de2f836415914222db3eeea",
-  "coverage": "Khanda1 chapter1 verses20 and23 independently verified original-image meaning corrections; other text and holds retained",
+  "source_commit": "592606d4d11b74ef8822265ed8cf38d73dcf726c",
+  "coverage": "Khanda1 five independently validated narrative corrections31/36/44/46/54;verses9/32 held;opening mantras outside narrative review",
   "entries": 22693,
   "chapters34_reading_status": "partial_with_visible_notices",
   "chapter3_verses": 57,
@@ -33,8 +33,8 @@
   "chapter17_verses": 59,
   "chapter18_verses": 37,
   "chapter_range": "Khanda2 physical gaps recovered;Khanda9numbered1–24;provisionalOCR-only25–41",
-  "html_sha256": "5ee42b4a7f2de839a1746f26bf7f81a8accff782d565b901d1792962dcb4845c",
-  "epub_sha256": "309724972cfa0d0e57a74ac789c1f83351ba1c1f3c570af05e0fa89f2b3b5774",
+  "html_sha256": "b61a3413347c7b722e6c59190fe18898f2e65bed1853415beb6cfde0a4e611f0",
+  "epub_sha256": "b34f2448507973d87cc72d51e5457f2c9bf69571c529a7148c654534ea227516",
   "chapters1920_reading_status": "partial_with15visible_source_meaning_holds",
   "chapter19_verses": 39,
   "chapter20_verses": 35,
@@ -1103,5 +1103,126 @@
     },
     "holds": "All prior holds unchanged; no whole-chapter certification.",
     "checks": "build_book.py, validate_book.py, build_epub.py passed; HTML only exact approved two replacements; EPUB same replacements plus build timestamp; all existing assets unchanged."
+  },
+  "khanda1_ch1_v28_59_image_meaning_review": {
+    "reviewed_range": "28–59;stop at chapter1 colophon after59",
+    "coverage": "All32 original-only;no Google corroboration",
+    "corrected_keys": [
+      [
+        1,
+        1,
+        31
+      ],
+      [
+        1,
+        1,
+        36
+      ],
+      [
+        1,
+        1,
+        44
+      ],
+      [
+        1,
+        1,
+        46
+      ],
+      [
+        1,
+        1,
+        54
+      ]
+    ],
+    "retained_count": 26,
+    "held_unchanged_key": [
+      1,
+      1,
+      32
+    ],
+    "grammatical_hold": "संशयच्छित् can be masculine/neuter;स्वयम् himself/itself.No forced subject shift.",
+    "verse9": "Earlier partial correction only;meaning/compound hold remains open",
+    "chapter1_narrative_summary": {
+      "range": "8–59",
+      "total": 52,
+      "corrected_or_partially_corrected": [
+        9,
+        12,
+        20,
+        23,
+        31,
+        36,
+        44,
+        46,
+        54
+      ],
+      "retained_without_text_change": [
+        8,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        45,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "held": [
+        9,
+        32
+      ],
+      "counts_note": "9corrected includes partially corrected held verse9;42retained;verse32held unchanged.These are overlapping held/corrected categories,not53verses.",
+      "opening_mantras": "Verses1–7 outside this narrative meaning pass.Some prior glyph/name reviews exist, but no whole-opening-mantra meaning or correctness certification is claimed."
+    },
+    "independent_original_hashes": [
+      {
+        "member": "Page Images/page_0002.png",
+        "sha256": "704e6fb79c9235f69e6f9e2f52952b6b89544c72406f49986e402283dfec2428"
+      },
+      {
+        "member": "Page Images/page_0003.png",
+        "sha256": "244dbd6fc8c14bbbeb88a06f1e553a8861cf5863aba1b9bbb014e312da019ff8"
+      }
+    ],
+    "checks": "Project build,structural and EPUB validators passed;HTML only five exact approved replacements;EPUB same replacements plus build timestamp;all assets unchanged",
+    "epub_changed_entries": [
+      "chapter-1-6.xhtml",
+      "chapter-1-8.xhtml",
+      "chapter-1-9.xhtml",
+      "content.opf"
+    ]
   }
 }
