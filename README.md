@@ -416,3 +416,5 @@ Chapter32 Google comparison corroborates the five changed records35/36/41/45/48;
 Chapter38.43 svahridi is corroborated by original87 andGoogle PT652,with PT657/658 chapter ending. No text changes or Pages push;all prior holds remain.10 cohort items still lack target Google evidence in the canonical index.
 
 Chapter39 comparison corroborates all prior changed spans at8/11/13/20,including akhandapraharshena.39.20 meaning/syntax hold and all earlier holds remain unchanged. No text changes or Pages push.6 cohort items still lack target Google evidence in the canonical index.
+
+Chapter43 comparison corroborates the prior changed spans at18/24/25. All prior holds remain;nearby43.16 and44.25 are untouched. No text changes or Pages push.3 cohort items still lack target Google evidence in the canonical index.
