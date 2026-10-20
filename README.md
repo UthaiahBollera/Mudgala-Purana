@@ -418,3 +418,5 @@ Chapter38.43 svahridi is corroborated by original87 andGoogle PT652,with PT657/6
 Chapter39 comparison corroborates all prior changed spans at8/11/13/20,including akhandapraharshena.39.20 meaning/syntax hold and all earlier holds remain unchanged. No text changes or Pages push.6 cohort items still lack target Google evidence in the canonical index.
 
 Chapter43 comparison corroborates the prior changed spans at18/24/25. All prior holds remain;nearby43.16 and44.25 are untouched. No text changes or Pages push.3 cohort items still lack target Google evidence in the canonical index.
+
+Chapter45.14 yogaya corroborated by original101 andGoogle PT751;no text change.2 cohort items still lack target Google evidence in the canonical index.

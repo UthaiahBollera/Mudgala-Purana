@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_comparison_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 45
+  },
+  "source_snapshot": "b26a63aaca06540e7c5739823493b87c29cd1e37",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans;no new manuscript wording. Partial agreement and edition disagreements remain explicitly held.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/receipt.json",
+  "independent_receipt_sha256": "b471bac50a026a7b2bf5e45e6053ad53f64dfe37f5053bd9e4c03c2baeb7f538",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/report.md",
+  "independent_review_sha256": "a01b98b14a85f2cf146d0e4cea0e6279885e28e78b0c94c9ef079d91210def9a",
+  "handoff_Library_file": "libfile_d87961e12db081919de5afae875a058c",
+  "handoff_bytes": 61928,
+  "handoff_sha256": "1da52ef7104d0de0d4c7581ca86cfee1c56868a7327f13f684b0364cc5d143fe",
+  "records": [
+    {
+      "key": [
+        1,
+        45,
+        14
+      ],
+      "current_text": "ಮನೋವಾಣೀವಿಹೀನಾಯ ಯೋಗಿಭ್ಯೋ ಯೋಗದಾಯಿನೇ । ಯೋಗಾಯ ಯೋಗನಾಥಾಯ ವಿಶ್ವಪಾಯ ನಮೋ ನಮಃ ॥೧೪॥",
+      "current_type": "mantra",
+      "historical_source_pages": "114",
+      "prior_review_file": "translation/khanda1-ch45-ch46-writer-review.json",
+      "prior_review_sha256": "330e167d4ef3ab2c32f329b8fa6b4183661d3827c15312a5b77505b70231bf62",
+      "previously_applied_spans": [
+        {
+          "before": "ಯೋಗ್ಯಾಯ",
+          "after": "ಯೋಗಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಯೋಗ್ಯಾಯ",
+          "after": "ಯೋಗಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "changed_spans_corroborated",
+      "retained_review_issues": [],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT751",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT751#v=onepage&q=%E0%A4%AE%E0%A4%A8%E0%A5%8B%E0%A4%B5%E0%A4%BE%E0%A4%A3%E0%A5%80%E0%A4%B5%E0%A4%BF%E0%A4%B9%E0%A5%80%E0%A4%A8%E0%A4%BE%E0%A4%AF&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/google-captures/45-14.jpg",
+        "crop_sha256": "b7e71c59f1206986472f74d218605cb08a40c20b2d932547eb51b50cbb970be2"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0101.png",
+        "file": "translation/source-review-addenda/khanda1-ch45-ch46/original-and-input/original-page_0101.png",
+        "sha256": "c577f3ba3cc3b2775b190e16629fe47c9ab419654c45c30d7e3b87b63c888134",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          220,
+          980,
+          3710,
+          1390
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/checksums.json",
+      "sha256": "05d7e6eaada2ae0701d5c1ca847ccda58b6a4ad061b0f297a90938360a906991"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/google-captures/45-14.jpg",
+      "sha256": "b7e71c59f1206986472f74d218605cb08a40c20b2d932547eb51b50cbb970be2"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/google-captures/45-colophon.jpg",
+      "sha256": "dcb7db1370c6c61c4a68b437c8c171249194294fac4c9b454357a452844b13d5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/google-captures/manifest.json",
+      "sha256": "ec165f820fec76024c532f92e6cb675645b54878122bbd7d0a2e7f8765333861"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/input-chapter.json",
+      "sha256": "12131ae310536b83f5e165f93dab8d3525e91890e8e685e6011863c3ad4dd579"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/original-crops/ch45-v14.png",
+      "sha256": "2a731558571c1f7753c3af4cd28a5879dcd84c2969162c49560a07be6f15f0ea"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/receipt.json",
+      "sha256": "b471bac50a026a7b2bf5e45e6053ad53f64dfe37f5053bd9e4c03c2baeb7f538"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch45-Google-comparison/report.md",
+      "sha256": "a01b98b14a85f2cf146d0e4cea0e6279885e28e78b0c94c9ef079d91210def9a"
+    }
+  ],
+  "new_text_changes": 0,
+  "compared_existing_records": 1,
+  "corroborated_existing_records": 1,
+  "partial_records": 0,
+  "edition_difference_records": 0,
+  "glyph_comparison_hold_records": 0,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}
