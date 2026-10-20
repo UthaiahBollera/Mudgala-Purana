@@ -15,12 +15,13 @@ from validate_corroboration import validate
 
 
 class Corroboration(unittest.TestCase):
+    CHAPTER = 4
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)
         self.index = json.loads((ROOT / 'translation/Google-corroboration-index.json').read_text())
-        self.entry = self.index['chapters'][0]
+        self.entry = next(x for x in self.index['chapters'] if x['chapter'] == self.CHAPTER)
         self.index['chapters'] = [self.entry]
         self.review = json.loads((ROOT / self.entry['review_file']).read_text())
         paths = {x['file'] for x in self.review['evidence_files']}
@@ -31,7 +32,7 @@ class Corroboration(unittest.TestCase):
             dest.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(ROOT / name, dest)
         source = {x['id']: x for x in load_json_document(ROOT / 'translation/unresolved-passages.json')['records']}
-        self.registry = {'records': [source[f"kh1-ch4-v{x['key'][2]}"] for x in self.review['records']]}
+        self.registry = {'records': [source[f"kh1-ch{self.CHAPTER}-v{x['key'][2]}"] for x in self.review['records']]}
         path = self.root / 'translation/narrative.tsv'
         with path.open('w') as stream:
             writer = csv.DictWriter(stream, fieldnames=['khanda', 'chapter', 'verse', 'source_pages', 'type', 'text'], delimiter='\t')
@@ -54,7 +55,7 @@ class Corroboration(unittest.TestCase):
             self.check()
 
     def test_six_target_wording_only_valid(self):
-        self.assertEqual(self.check(), 6)
+        self.assertEqual(self.check(), len(self.review['records']))
 
     def test_printing_not_full_chapter_certification(self):
         self.review['whole_chapter_validation'] = True
@@ -65,7 +66,8 @@ class Corroboration(unittest.TestCase):
         self.reject()
 
     def test_retained_syntax_hold_required(self):
-        next(x for x in self.registry['records'] if x['id'] == 'kh1-ch4-v30')['current_translation_review']['issues'] = []
+        key = next(x['key'] for x in self.review['records'] if x['retained_review_issues'])
+        next(x for x in self.registry['records'] if x['id'] == f'kh1-ch{key[1]}-v{key[2]}')['current_translation_review']['issues'] = []
         self.reject()
 
     def test_wrong_target_page_rejected(self):
@@ -74,6 +76,28 @@ class Corroboration(unittest.TestCase):
 
     def test_evidence_only_cannot_accept_new_text(self):
         self.review['records'][0]['accepted_new_replacement'] = 'ಹೊಸ ಪಾಠ'
+        self.reject()
+
+
+class PartialAndEditionComparison(Corroboration):
+    CHAPTER = 8
+
+    def test_partial_not_counted_as_full_corroboration(self):
+        self.review['corroborated_existing_records'] = 7
+        self.reject()
+
+    def test_initial_compound_cannot_be_corroborated(self):
+        record = next(x for x in self.review['records'] if x['key'][2] == 46)
+        record['previously_applied_spans_corroborated'] = record['previously_applied_spans']
+        self.reject()
+
+    def test_edition_difference_cannot_be_harmonized(self):
+        record = next(x for x in self.review['records'] if x['key'][2] == 54)
+        record['source_disagreement']['Google'] = record['source_disagreement']['original']
+        self.reject()
+
+    def test_additional_edition_hold_required(self):
+        next(x for x in self.review['records'] if x['key'][2] == 54)['additional_source_holds'] = []
         self.reject()
 
 

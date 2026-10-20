@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "purpose": "Chapter-scoped corroboration of already published spans;no text correction batches.",
+  "purpose": "Chapter-scoped comparisons of already published spans;partial agreement and edition differences retained;no text correction batches.",
   "chapters": [
     {
       "khanda": 1,
@@ -80,6 +80,49 @@
           49
         ]
       ]
+    },
+    {
+      "khanda": 1,
+      "chapter": 8,
+      "review_file": "translation/khanda1-ch8-Google-comparison.json",
+      "review_sha256": "f9820ff66fee87348a07825ba51112b8d9af81db6edf7a7c3ee77a3b49d69f40",
+      "keys": [
+        [
+          1,
+          8,
+          42
+        ],
+        [
+          1,
+          8,
+          45
+        ],
+        [
+          1,
+          8,
+          46
+        ],
+        [
+          1,
+          8,
+          48
+        ],
+        [
+          1,
+          8,
+          54
+        ],
+        [
+          1,
+          8,
+          61
+        ],
+        [
+          1,
+          8,
+          65
+        ]
+      ]
     }
   ],
   "retrospective_tracking": {
@@ -90,9 +133,12 @@
       1,
       6
     ],
-    "newly_corroborated_from_cohort": 11,
-    "remaining_without_recorded_target_Google_evidence": 43,
-    "next_unreviewed_chapter": 8,
-    "remaining_cohort_without_new_corroboration_including_prior_PT65": 44
+    "newly_corroborated_from_cohort": 16,
+    "remaining_without_recorded_target_Google_evidence": 36,
+    "next_unreviewed_chapter": 10,
+    "remaining_cohort_without_new_corroboration_including_prior_PT65": 37,
+    "newly_compared_from_cohort": 18,
+    "partially_corroborated_records": 1,
+    "edition_difference_records": 1
   }
 }

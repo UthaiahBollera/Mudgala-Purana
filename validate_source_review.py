@@ -414,4 +414,4 @@ reference_data=load_reference_only(Path(__file__).resolve().parent)
 print('Reference-only literal source provenance passed:',len(reference_data['chapters']),'chapters; no verified verse total claimed')
 
 from validate_corroboration import validate as validate_corroboration
-print('Existing-span Google corroboration passed:', validate_corroboration(ROOT), 'records; no whole-chapter certification.')
+print('Existing-span Google comparisons validated:', validate_corroboration(ROOT), 'records; no whole-chapter certification.')
