@@ -426,3 +426,5 @@ Chapter46.41/42 prior changed spans corroborated by original104 andGoogle PT771.
 Chapter8.46/54 four-reference comparison retains both holds. SanskritDocuments matches original at46 and prints a third distinct form abhedokatmaka at54. Its underlying edition is unidentified;OCR is derivative and not an independent witness. No manuscript changes.
 
 Chapter12.24 additional SanskritDocuments pixels match original ganapatyaste;Google ganapatyah syuh still differs. Interpretation and edition holds remain;no manuscript changes.
+
+Chapter21.41/45 four-reference comparison retains base-ligature and edition-selection holds. SanskritDocuments agrees with Google sudhamne at41,but prints pradhamne at45 where Google has pradhane. Same-print controls do not establish base misreading. Active45 disputed-tail reference explicitly points to original52 continuing51;historical TSV/reviews remain exact. No manuscript changes.
