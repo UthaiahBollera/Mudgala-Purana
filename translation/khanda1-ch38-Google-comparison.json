@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_comparison_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 38
+  },
+  "source_snapshot": "74b5b617e80d89dc88fb1f69133c8cd46b1f932e",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans;no new manuscript wording. Partial agreement and edition disagreements remain explicitly held.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/receipt.json",
+  "independent_receipt_sha256": "347d0aba8a80545cdc36015b53b6e33bc5c1530ec14048597c4c19a800a750cb",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/report.md",
+  "independent_review_sha256": "c2c1e1dfb86924c3ca15c67e10139346cf991a8711245539749e22b0415d3180",
+  "handoff_Library_file": "libfile_c1771162bcd08191a169d04a9da0c407",
+  "handoff_bytes": 110374,
+  "handoff_sha256": "05606c1d1a67b03c05f4e60290f00f604b100f7ae100a9f73ed7b488d0936c17",
+  "records": [
+    {
+      "key": [
+        1,
+        38,
+        43
+      ],
+      "current_text": "ಅನಂತಲೀಲಯಾ ಯುಕ್ತಂ ಲೀಲಾಹೀನಂ ನಮಾಮಿ ತಮ್ । ಅವ್ಯಕ್ತಂ ವ್ಯಕ್ತರೂಪಂ ವೈ ನಮಾಮಿ ಸ್ವಹೃದಿ ಸ್ಥಿತಮ್ ॥೪೩॥",
+      "current_type": "mantra",
+      "historical_source_pages": "100",
+      "prior_review_file": "translation/khanda1-ch37-ch39-writer-review.json",
+      "prior_review_sha256": "f5d4a4848425ed5bc7973a1f8db58dc39a79fb034bf373c7a63a55e64dccdd2d",
+      "previously_applied_spans": [
+        {
+          "before": "ಸರ್ವಹೃದಿ",
+          "after": "ಸ್ವಹೃದಿ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಸರ್ವಹೃದಿ",
+          "after": "ಸ್ವಹೃದಿ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "changed_spans_corroborated",
+      "retained_review_issues": [],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT652",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT652#v=onepage&q=%E0%A4%B2%E0%A5%80%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A5%80%E0%A4%A8%E0%A4%82&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/google-captures/38-43.jpg",
+        "crop_sha256": "202cb5c07b63efbbe4f3768eb08a0f3e4830ad180b99a261c29d46d991cb5b9c"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0087.png",
+        "file": "translation/source-review-addenda/khanda1-ch37-ch39/original-and-input/original-page_0087.png",
+        "sha256": "9b18305680a595a53e6d26b7101e2bdc7fea62c40a6a259812ab2d1abda3919e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          360,
+          3710,
+          900
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/checksums.json",
+      "sha256": "7329d35dee6edaf4cca5bfc8d9a623064fded88c43b7caf6c4c090eaac0ff27c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/google-captures/38-43.jpg",
+      "sha256": "202cb5c07b63efbbe4f3768eb08a0f3e4830ad180b99a261c29d46d991cb5b9c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/google-captures/ch38-colophon.jpg",
+      "sha256": "bc950951bc988e0f5a951991141ec409ec3fcbf1aff859a49c407b9bda9d7b43"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/google-captures/ch38-ending.jpg",
+      "sha256": "f988eaf584e4c26c9a4a7bfbfa266eda36dde7b4c1445dadaf140b31b373d174"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/google-captures/manifest.json",
+      "sha256": "43f3977173003844a60dd12bb55101b6401af3072516790ca9f8d594fbe40224"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/input-chapter.json",
+      "sha256": "313df84b5b70074d68b844cc7fbd8a24c6d06dcf24295c2d69b4c837e59b55e0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/original-crops/ch38-v43.png",
+      "sha256": "563a4808482d1fcef044d621c9217122b3045653bdf5e72116499b1a0c8f1c29"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/receipt.json",
+      "sha256": "347d0aba8a80545cdc36015b53b6e33bc5c1530ec14048597c4c19a800a750cb"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch38-Google-comparison/report.md",
+      "sha256": "c2c1e1dfb86924c3ca15c67e10139346cf991a8711245539749e22b0415d3180"
+    }
+  ],
+  "new_text_changes": 0,
+  "compared_existing_records": 1,
+  "corroborated_existing_records": 1,
+  "partial_records": 0,
+  "edition_difference_records": 0,
+  "glyph_comparison_hold_records": 0,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}

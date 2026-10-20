@@ -412,3 +412,5 @@ Chapter24 Google comparison corroborates existing sarpaharaya and suyogipataye s
 Chapter28 comparison corroborates17/20 but leaves the Google conjunct at18 unresolved. Original clearly pancavaktradharayaiva;Google PT512 does not securely establish the conjunct. Preserve original-based Kannada;English gloss supplies no Sanskrit letters. No text changes or Pages push.16 cohort items still lack target Google evidence in the canonical index.
 
 Chapter32 Google comparison corroborates the five changed records35/36/41/45/48;41/45 meaning holds remain. Active source36 coordinate is corrected from earlier-verse bbox to[270,2070,3720,2370] on original73;the frozen wrong-coordinate input/history remains unchanged. No text changes or Pages push.11 cohort items still lack target Google evidence in the canonical index.
+
+Chapter38.43 svahridi is corroborated by original87 andGoogle PT652,with PT657/658 chapter ending. No text changes or Pages push;all prior holds remain.10 cohort items still lack target Google evidence in the canonical index.
