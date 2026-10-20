@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_comparison_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 12
+  },
+  "source_snapshot": "5a390d3e1bd44471791ec110ca342b5b148f31e6",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans;no new manuscript wording. Partial agreement and edition disagreements remain explicitly held.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/receipt.json",
+  "independent_receipt_sha256": "9c0fe609a998fd7349587a3d560ec03bfc0cc05016838efe8304e843cd24fcf6",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/report.md",
+  "independent_review_sha256": "24c4800f274af57b0e4c60dee70778b9afbc90f6d985f4340b1f0e85f4475050",
+  "handoff_Library_file": "libfile_45e2b54b8f2c8191849d8e6574e25ab8",
+  "handoff_bytes": 102363,
+  "handoff_sha256": "6fd29926e4ad09bf16e784999e12b021f35ed06ec9608d69ada3ec4f64aaca35",
+  "records": [
+    {
+      "key": [
+        1,
+        12,
+        24
+      ],
+      "current_text": "ಅಗ್ರೇ ಮೇ ಗಾಣಪತ್ಯಾಸ್ತೇ ಪೃಷ್ಠೇ ವಾಮೇ ಚ ದಕ್ಷಿಣೇ । ಸರ್ವತ್ರ ಸಹ ತೈರ್ವಾಸೋ ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ ॥೨೪॥",
+      "current_type": "mantra",
+      "historical_source_pages": "44",
+      "prior_review_file": "translation/khanda1-ch11-ch13-writer-review.json",
+      "prior_review_sha256": "f9df1c6782080f1233955ee9a1144fb9e6c58661f376a2e39dfbb74f7ea25ad5",
+      "previously_applied_spans": [
+        {
+          "before": "ಗಾಣಪತ್ಯಾಶ್ಚ",
+          "after": "ಗಾಣಪತ್ಯಾಸ್ತೇ"
+        },
+        {
+          "before": "ಗಾಣಪತ್ಯೈರ್ಭವೇದಿತಿ",
+          "after": "ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಗಾಣಪತ್ಯೈರ್ಭವೇದಿತಿ",
+          "after": "ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ"
+        }
+      ],
+      "evidence_scope": "partial_applied_spans",
+      "status": "partial_corroboration_edition_difference_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_not_adjudicated",
+          "reading": null,
+          "token": "अग्रे मे गाणपत्यास्ते पृष्ठे वामे च दक्षिणे । सर्वत्र सह तैर्वासो गाणपत्यैर्भवत्विति ॥२४॥",
+          "detail": "Original clearly has गाणपत्यास्ते and गाणपत्यैर्भवत्विति. Restore these two minimal spans. Do not introduce the historical romanization omission in gāṇaptya; original includes पत्य. No separate doctrinal gloss proposed."
+        }
+      ],
+      "additional_source_holds": [
+        "Original गाणपत्यास्ते versus Google गाणपत्याः स्युः. Both actual printed forms are clear. Retain current original-based Kannada; no silent edition harmonization. Interpretation hold retained."
+      ],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT284",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT284#v=onepage&q=%E0%A4%97%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A5%88%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B5%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A4%BF&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/google-captures/12-24.jpg",
+        "crop_sha256": "3875c5bfbf8770044e7b11dc7c07ae3aefb905c332d7bd23a177491f37596fb8"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0031.png",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0031.png",
+        "sha256": "95a77b9294e192b58a558f6ac9646ce2528f0591d6dcd00261ef4d7d24a30e42",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          250,
+          1480,
+          3710,
+          2070
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "source_disagreement": {
+        "original": "गाणपत्यास्ते",
+        "Google": "गाणपत्याः स्युः"
+      }
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/checksums.json",
+      "sha256": "4820602f2d85e76b214325911eb45cb49ba0c78c0be14bac65a76f6762e2723b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/google-captures/12-24.jpg",
+      "sha256": "3875c5bfbf8770044e7b11dc7c07ae3aefb905c332d7bd23a177491f37596fb8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/google-captures/ch12-colophon.jpg",
+      "sha256": "3ea6792a9cad4873f2336b4189646d2c991d9e563f2eb51e6eb14df82d2f8095"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/google-captures/manifest.json",
+      "sha256": "e0891bd571b5117acad9f210a2efb2f42ba701d93edcaf19887356ecf6e7ab00"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/input-chapter.json",
+      "sha256": "36d3760f6f887299f532030699dcca2d4ee12c3c8620f430a70cb62572631852"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/original-crops/ch12-v24.png",
+      "sha256": "81fd26df0604ab2b5b243855c5f48dfe6f5bd92844aef7ccc7e51d203c2e7f5b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/receipt.json",
+      "sha256": "9c0fe609a998fd7349587a3d560ec03bfc0cc05016838efe8304e843cd24fcf6"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/report.md",
+      "sha256": "24c4800f274af57b0e4c60dee70778b9afbc90f6d985f4340b1f0e85f4475050"
+    }
+  ],
+  "new_text_changes": 0,
+  "compared_existing_records": 1,
+  "corroborated_existing_records": 0,
+  "partial_records": 1,
+  "edition_difference_records": 0,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}

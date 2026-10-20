@@ -400,3 +400,5 @@ Chapter8 Google comparison records five changed wordings corroborated at42/45/48
 Chapter10 Google comparison corroborates the existing spans at23/25 against PT246/PT247 with PT252 colophon. No text changes or Pages push.34 cohort items still lack recorded target Google evidence;chapter8 partial agreement and edition difference remain held. No whole-mantra,meaning or whole-chapter certification is claimed.
 
 Chapter11 Google comparison corroborates the eight existing changed wordings at29/34/36/37/38/39/42/46,with PT253 header andPT276 colophon. All philosophical and grammatical holds remain active;no text changes or whole-chapter certification.26 cohort items still lack recorded target Google evidence;Pages is unchanged.
+
+Chapter12.24 Google PT284 agrees with the ending ganapatyairbhavatviti but prints ganapatyah syuh where the original/current text has ganapatyaste. Preserve the original-based Kannada,explicit edition difference and interpretation hold. Partial corroboration only;no text change or full-corroboration label.25 cohort items still lack recorded target Google evidence;Pages is unchanged.

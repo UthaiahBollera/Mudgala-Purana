@@ -62,7 +62,7 @@ class Corroboration(unittest.TestCase):
         self.reject()
 
     def test_printing_not_meaning_certification(self):
-        self.review['records'][2]['meaning_certified'] = True
+        self.review['records'][min(2, len(self.review['records']) - 1)]['meaning_certified'] = True
         self.reject()
 
     def test_retained_syntax_hold_required(self):
@@ -98,6 +98,24 @@ class PartialAndEditionComparison(Corroboration):
 
     def test_additional_edition_hold_required(self):
         next(x for x in self.review['records'] if x['key'][2] == 54)['additional_source_holds'] = []
+        self.reject()
+
+
+class Chapter12PartialComparison(Corroboration):
+    CHAPTER = 12
+
+    def test_disagreeing_first_span_not_corroborated(self):
+        self.review['records'][0]['previously_applied_spans_corroborated'] = self.review['records'][0]['previously_applied_spans']
+        self.reject()
+
+    def test_partial_cannot_be_labeled_full(self):
+        self.review['corroborated_existing_records'] = 1
+        self.review['partial_records'] = 0
+        self.review['records'][0]['evidence_scope'] = 'all_applied_spans'
+        self.reject()
+
+    def test_edition_difference_must_remain(self):
+        self.review['records'][0]['source_disagreement']['Google'] = 'गाणपत्यास्ते'
         self.reject()
 
 

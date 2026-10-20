@@ -66,10 +66,12 @@ def validate(root):
             if scope == 'all_applied_spans':
                 assert record['previously_applied_spans_corroborated'] == previous and 'partial' not in approved['status'] and 'edition_wording_difference' not in approved['status'], 'Uncorroborated wording promoted'
             else:
-                assert record['additional_source_holds'] == approved['additional_holds'] and record['additional_source_holds'] and record['no_silent_edition_harmonization'] is True, 'Edition/partial hold hidden'
+                approved_holds = approved.get('additional_holds', [approved['additional_hold']] if approved.get('additional_hold') else [])
+                assert record['additional_source_holds'] == approved_holds and record['additional_source_holds'] and record['no_silent_edition_harmonization'] is True, 'Edition/partial hold hidden'
                 if scope == 'partial_applied_spans':
-                    assert key == (1, 8, 46) and approved['status'] == 'partial_corroboration_initial_compound_comparison_hold' and record['previously_applied_spans_corroborated'] == previous[1:], 'Initial compound falsely corroborated'
-                    assert record['source_disagreement'] == {'original': 'हृद्विज्ञबोधात्मक', 'Google': 'द्विज्ञबोधात्मक'}, 'Compound edition disagreement altered'
+                    allowed_partial = {(1, 8, 46): ('partial_corroboration_initial_compound_comparison_hold', {'original': 'हृद्विज्ञबोधात्मक', 'Google': 'द्विज्ञबोधात्मक'}), (1, 12, 24): ('partial_corroboration_edition_difference_retained', {'original': 'गाणपत्यास्ते', 'Google': 'गाणपत्याः स्युः'})}
+                    assert key in allowed_partial and approved['status'] == allowed_partial[key][0] and record['previously_applied_spans_corroborated'] == previous[1:], 'Disagreeing initial wording falsely corroborated'
+                    assert record['source_disagreement'] == allowed_partial[key][1], 'Initial wording disagreement altered'
                 else:
                     assert key == (1, 8, 54) and approved['status'] == 'edition_wording_difference_retained' and record['previously_applied_spans_corroborated'] == [], 'Edition difference falsely corroborated'
                     assert record['source_disagreement'] == {'original': 'अभेदैकात्मक', 'Google': 'अभेदमेकात्मक'}, 'Eka compound difference altered'
