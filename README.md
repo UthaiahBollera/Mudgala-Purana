@@ -414,3 +414,5 @@ Chapter28 comparison corroborates17/20 but leaves the Google conjunct at18 unres
 Chapter32 Google comparison corroborates the five changed records35/36/41/45/48;41/45 meaning holds remain. Active source36 coordinate is corrected from earlier-verse bbox to[270,2070,3720,2370] on original73;the frozen wrong-coordinate input/history remains unchanged. No text changes or Pages push.11 cohort items still lack target Google evidence in the canonical index.
 
 Chapter38.43 svahridi is corroborated by original87 andGoogle PT652,with PT657/658 chapter ending. No text changes or Pages push;all prior holds remain.10 cohort items still lack target Google evidence in the canonical index.
+
+Chapter39 comparison corroborates all prior changed spans at8/11/13/20,including akhandapraharshena.39.20 meaning/syntax hold and all earlier holds remain unchanged. No text changes or Pages push.6 cohort items still lack target Google evidence in the canonical index.
