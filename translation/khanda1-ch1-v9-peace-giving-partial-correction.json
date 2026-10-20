@@ -1,0 +1,41 @@
+{
+  "scope": [
+    1,
+    1,
+    9
+  ],
+  "status": "accepted_partial_correction_only",
+  "base_commit": "7d18bbb8e817332d345485b5e0b4ff00e47e33a6",
+  "file": "translation/narrative.tsv",
+  "replacement": {
+    "before": "ಶಾಂತಿದಾಯಕ ",
+    "after": ""
+  },
+  "old_row": "1\t9\t14\ttranslation\tಬ್ರಹ್ಮನ ಬಾಯಿಂದ ತಿಳಿದುಕೊಂಡ, ಕಲಿಯಿಲ್ಲದ ಶಾಂತಿದಾಯಕ ಸ್ಥಳದಲ್ಲಿ ಅವರು ಮುನಿಧರ್ಮದ ಸಿದ್ಧಿಗಾಗಿ ಕರ್ಮ ಮತ್ತು ಜ್ಞಾನಗಳ ಸಿದ್ಧಿಯನ್ನು ಸಾಧಿಸಲು ನೆಲೆಸಿದರು. ॥೯॥",
+  "new_row": "1\t9\t14\ttranslation\tಬ್ರಹ್ಮನ ಬಾಯಿಂದ ತಿಳಿದುಕೊಂಡ, ಕಲಿಯಿಲ್ಲದ ಸ್ಥಳದಲ್ಲಿ ಅವರು ಮುನಿಧರ್ಮದ ಸಿದ್ಧಿಗಾಗಿ ಕರ್ಮ ಮತ್ತು ಜ್ಞಾನಗಳ ಸಿದ್ಧಿಯನ್ನು ಸಾಧಿಸಲು ನೆಲೆಸಿದರು. ॥೯॥",
+  "source_sanskrit": "तस्मिन्कलियुगावासं ज्ञात्वादौ ब्रह्मणो मुखात् । मुनिधर्मप्रसिद्ध्यर्थं कर्मज्ञानप्रसिद्धये ॥९॥",
+  "evidence": {
+    "original_p1": {
+      "sha256": "bf40476f2557bfad529d19a66e1cc641ac272e02051272b8a6b9cb002636c0e1",
+      "review": "Parent and independent reviewer each directly visually inspected original printed p1; neither finds a peace-giving term. Reported by parent, not re-inspected by this worker."
+    },
+    "google_crop": {
+      "path": "../targeted-source-review-20261019/kh1-ch1-v9-PT66-sanskrit.png",
+      "sha256": "64cc7d6545619dcc02d49dfac2dc16665eb27f9b21e8d5458f2793ed5dee13f2",
+      "review": "Directly visually inspected by this worker; no peace-giving term. No OCR, text extraction, browser request or crop export."
+    }
+  },
+  "remaining_hold": "Full-verse meaning/context hold remains open. Broader compound interpretation, including ಕಲಿಯಿಲ್ಲದ, stays unchanged and uncertified. This is only a partial correction.",
+  "verification": {
+    "narrative_before_sha256": "8422c23a5b930181ca9417a221b70e1a4059f835135e4b2c301da90a913cb381",
+    "narrative_after_sha256": "df5db499cba252a4c6c750556d21de22fee7a0ec2f7d99431e2b8443edc025c6",
+    "non_target_lines_byte_identical": 162,
+    "line_count_unchanged": 163,
+    "exact_byte_replacement_passed": true,
+    "protected_untracked_dist_sha256": "a8a01f0da6ca25c1bec8ee7bbf41d93695b956815386e8f979108b4ff26c22cb",
+    "build": "Not run: build_book.py unconditionally overwrites protected untracked dist/mudgala_purana_kannada.html. Book artifacts are unchanged, not rebuilt or certified.",
+    "other_narrative_data_rows_byte_identical": 161,
+    "other_tracked_translation_tsv_files_byte_identical": 403,
+    "git_diff_check": "passed"
+  }
+}
