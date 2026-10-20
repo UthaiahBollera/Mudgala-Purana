@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_corroboration_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 7
+  },
+  "source_snapshot": "40872ae055739a9acc3bc42ff3e82bda285f5792",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans at chapter7;no new manuscript wording;earlier grammar/meaning holds preserved.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/receipt.json",
+  "independent_receipt_sha256": "fc81a6a572fd385b2e277e0caf5cd663b2e1d0bebd7a0acdc6817506c046d380",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/report.md",
+  "independent_review_sha256": "7d8116b08a327374801184546d738decbcefa002a1add933107af871bb89eb64",
+  "handoff_Library_file": "libfile_a73de20b7d28819192306891a563a046",
+  "handoff_bytes": 164381,
+  "handoff_sha256": "f05d0f868d9cbd1e5211c45ab693ab4b3cb2aaeaa753fdfb990ec802dc40e54f",
+  "records": [
+    {
+      "key": [
+        1,
+        7,
+        39
+      ],
+      "current_text": "ತತ್ತ್ವಾನ್ಯೂಚುಃ । ನಮಸ್ತೇ ವಕ್ರತುಂಡಾಯ ಭಕ್ತಸಂರಕ್ಷಕಾಯ ಚ । ಸರ್ವಾಧೀಶಾಯ ಸರ್ವಾಯ ಗಣಾನಾಂ ಪತಯೇ ನಮಃ ॥೩೯॥",
+      "current_type": "mantra",
+      "historical_source_pages": "32",
+      "prior_review_file": "translation/khanda1-ch7-ch8-writer-review.json",
+      "prior_review_sha256": "c1cc7122e76eed5f145f59305d7e9930ec717a95a59f43f08238da5f609f86e2",
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ದೇವಾ ಊಚುಃ",
+          "after": "ತತ್ತ್ವಾನ್ಯೂಚುಃ"
+        }
+      ],
+      "status": "current_changed_spans_corroborated",
+      "retained_review_issues": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT195",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT195#v=onepage&q=%E0%A4%A4%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9A%E0%A5%81%E0%A4%83&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/google-captures/7-39.jpg",
+        "crop_sha256": "71655e36353ca8df4eb0881ad32ad9af7ba2b3caa1289b708feef8aea5564830"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0019.png",
+        "file": "translation/source-review-addenda/khanda1-ch7-ch8/original-and-input/original-page_0019.png",
+        "sha256": "aba7023ba36e41d3b4f8485c350b6ed6c46307903b31525d75ab7293b17f7f92",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          400,
+          3690,
+          1020
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    },
+    {
+      "key": [
+        1,
+        7,
+        49
+      ],
+      "current_text": "ಮಹತೇ ಚೈಕದಂತಾಯ ಮಹತಾಂ ಚ ಮಹೀಯಸೇ । ಲಘವೇ ಲಘುರೂಪಾಯ ಲಘೂನಾಂ ಲಾಘವೇ ನಮಃ ॥೪೯॥",
+      "current_type": "mantra",
+      "historical_source_pages": "32",
+      "prior_review_file": "translation/khanda1-ch7-ch8-writer-review.json",
+      "prior_review_sha256": "c1cc7122e76eed5f145f59305d7e9930ec717a95a59f43f08238da5f609f86e2",
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಲಘೂನಾಂ ಲಘವೇ",
+          "after": "ಲಘೂನಾಂ ಲಾಘವೇ"
+        }
+      ],
+      "status": "current_changed_spans_corroborated",
+      "retained_review_issues": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT199",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT199#v=onepage&q=%E0%A4%A4%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9A%E0%A5%81%E0%A4%83&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/google-captures/7-49.jpg",
+        "crop_sha256": "d3b5c68ad5e53fc3e75b95541de090f55285c9e1cefe0ff837be587772447dc8"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0019.png",
+        "file": "translation/source-review-addenda/khanda1-ch7-ch8/original-and-input/original-page_0019.png",
+        "sha256": "aba7023ba36e41d3b4f8485c350b6ed6c46307903b31525d75ab7293b17f7f92",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1200,
+          3690,
+          1735
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/checksums.json",
+      "sha256": "d5146797d8c741f202e5e830906f29284368560b7913374566f6a18ef2133c59"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/google-captures/7-39.jpg",
+      "sha256": "71655e36353ca8df4eb0881ad32ad9af7ba2b3caa1289b708feef8aea5564830"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/google-captures/7-49.jpg",
+      "sha256": "d3b5c68ad5e53fc3e75b95541de090f55285c9e1cefe0ff837be587772447dc8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/google-captures/ch7-colophon.jpg",
+      "sha256": "5ecc8fb16d677c7af9e5788650b86a9fbecb55c79fdc359d388758915c781e1c"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/google-captures/manifest.json",
+      "sha256": "6270516e508f606837ff763f6db3e529a1cfa3783bdd90a08444348f1eb3e039"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/input-chapter.json",
+      "sha256": "7203f75878a20442fdf3e349adbc67feb0b3b8ee3fd90b05acf9280617a88123"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/original-crops/page_0019-crop0.png",
+      "sha256": "be7faf6f0da3d56b5c078b5a78b2d9657173f6b2cdac6b6e658fe862c61072cb"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/original-crops/page_0019-crop1.png",
+      "sha256": "89a9f6253161f3f6e00a9ec25e39921db3e88f2804ebe10ad48b3839c7fabfc4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/receipt.json",
+      "sha256": "fc81a6a572fd385b2e277e0caf5cd663b2e1d0bebd7a0acdc6817506c046d380"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch7-Google-corroboration/report.md",
+      "sha256": "7d8116b08a327374801184546d738decbcefa002a1add933107af871bb89eb64"
+    }
+  ],
+  "new_text_changes": 0,
+  "corroborated_existing_records": 2,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}
