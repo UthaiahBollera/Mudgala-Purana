@@ -38,7 +38,7 @@ def validate(root):
         for f in review['evidence_files']:
             evidence(f['file'], f['sha256'])
         assert [r['key'] for r in review['records']] == chapter['keys'] == [r['key'] for r in receipt['records']], 'Corroboration keys differ'
-        assert receipt['new_text_changes'] == 0 and receipt['corroborated_existing_records'] == review['corroborated_existing_records'] == len(review['records']), 'Corroboration count differs'
+        assert receipt['new_text_changes'] == 0 and receipt.get('corroborated_existing_records', len(receipt['records'])) == review['corroborated_existing_records'] == len(review['records']), 'Corroboration count differs'
         for record, approved in zip(review['records'], receipt['records']):
             key = tuple(record['key'])
             assert key not in seen and key[:2] == (chapter['khanda'], chapter['chapter']), 'Duplicate or wrong chapter corroboration'

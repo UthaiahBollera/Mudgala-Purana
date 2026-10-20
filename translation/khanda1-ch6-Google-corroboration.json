@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_corroboration_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 6
+  },
+  "source_snapshot": "b1f29ee67eefaae5987742fa41f9f988c93016ef",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans at chapter6;no new manuscript wording;earlier grammar/meaning holds preserved.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/receipt.json",
+  "independent_receipt_sha256": "7d2cdc2e79882b481fb7bb538eb1db6f736785f1f311bb4ea8c29ae20392b383",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/report.md",
+  "independent_review_sha256": "84be9225748ffda60cf26798e54957b54d3a2fd4bc1d00e1ee19edea0eb61f7a",
+  "handoff_Library_file": "libfile_ef717a8b3014819187819b50a01d2472",
+  "handoff_bytes": 134765,
+  "handoff_sha256": "93fe3a3b13359c2223da09cfafea5205b89f9e4d2623128d52b0c67a7a3a2065",
+  "records": [
+    {
+      "key": [
+        1,
+        6,
+        34
+      ],
+      "current_text": "ತೃತೀಯಂ ಸತ್ಸ್ವರೂಪಂ ಚ ಚತುರ್ಥಂ ಯತ್ಸದಾ ಹ್ಯಸತ್ । ಚತುರ್ಹಸ್ತಸ್ವರೂಪಂ ತೇ ತೇನ ತ್ವಂ ವೈ ಚತುರ್ಭುಜಃ ॥೩೪॥",
+      "current_type": "mantra",
+      "historical_source_pages": "29",
+      "prior_review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+      "prior_review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಸತ್ಯರೂಪಂ",
+          "after": "ಸತ್ಸ್ವರೂಪಂ"
+        }
+      ],
+      "status": "current_changed_spans_corroborated",
+      "retained_review_issues": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT174",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT174#v=onepage&q=%E0%A4%9A%E0%A4%A4%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%82&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/google-captures/6-34.jpg",
+        "crop_sha256": "5ee84587b0a3db851d183dd4c0878a2080fc55e9c34a9f6b7495358ebc611efc"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0016.png",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0016.png",
+        "sha256": "d55587a502538733c82a8e4969502af92ccf791f59dded50ba6aee3199458283",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          830,
+          3690,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    },
+    {
+      "key": [
+        1,
+        6,
+        35
+      ],
+      "current_text": "ತವೋದರೇ ಸ್ಥಿತಂ ಸರ್ವಂ ತೇನ ಲಂಬೋದರಃ ಸ್ಮೃತಃ । ಮಾಯಾಮಾಯಿಕರೂಪಂ ಚ ದ್ವೌ ಪಾದೌ ದ್ವಿವಿಧಂ ಚ ತೇ ॥೩೫॥",
+      "current_type": "mantra",
+      "historical_source_pages": "29",
+      "prior_review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+      "prior_review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಮಾಯಾಮಾಯಿಕರೂಪೌ",
+          "after": "ಮಾಯಾಮಾಯಿಕರೂಪಂ"
+        },
+        {
+          "before": "ದ್ವಿವಿಧೇ",
+          "after": "ದ್ವಿವಿಧಂ"
+        }
+      ],
+      "status": "current_changed_spans_corroborated_with_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "neuter_endings_beside_dual_grammar",
+          "reading": null,
+          "token": "मायामायिकरूपं;द्वौ पादौ;द्विविधं",
+          "detail": "Only ಮಾಯಾಮಾಯಿಕರೂಪೌ → ಮಾಯಾಮಾಯಿಕರೂಪಂ and ದ್ವಿವಿಧೇ → ದ್ವಿವಿಧಂ. Both printed anusvāras are visible. Preserve the original’s neuter endings beside dual dvau pādau; do not silently improve their grammatical agreement. Any explanation of those inflections remains separate from the source-transcription correction."
+        }
+      ],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT174",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT174#v=onepage&q=%E0%A4%9A%E0%A4%A4%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%82&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/google-captures/6-35.jpg",
+        "crop_sha256": "cfe347cafb469510ae005960b69f4878a0e4b5994b909216b72b1ce5ecdad646"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0016.png",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0016.png",
+        "sha256": "d55587a502538733c82a8e4969502af92ccf791f59dded50ba6aee3199458283",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          830,
+          3690,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    },
+    {
+      "key": [
+        1,
+        6,
+        36
+      ],
+      "current_text": "ಏತೇ ಸರ್ವೇ ಗಣಾ ಢುಂಢೇ ತ್ವದೀಯಾ ನಾತ್ರ ಸಂಶಯಃ । ಗಣನಾಥೋಽಸಿ ತೇನ ತ್ವಂ ನಾಮ್ನಾ ಖ್ಯಾತಶ್ಚ ಸರ್ವದಾ ॥೩೬॥",
+      "current_type": "mantra",
+      "historical_source_pages": "29",
+      "prior_review_file": "translation/khanda1-ch6-ch7-writer-review.json",
+      "prior_review_sha256": "1e232bf2d939712aa82274f68ecd21af2e8b1c4dc63a8594c1e0d999f5a6a1d8",
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ನಾನಾರೂಪಧರಃ ಸದಾ",
+          "after": "ನಾಮ್ನಾ ಖ್ಯಾತಶ್ಚ ಸರ್ವದಾ"
+        }
+      ],
+      "status": "current_changed_spans_corroborated",
+      "retained_review_issues": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT174",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT174#v=onepage&q=%E0%A4%9A%E0%A4%A4%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%82&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/google-captures/6-36.jpg",
+        "crop_sha256": "a28cbf445d26dc0b4c7c54fd5b713fda70b9df97e210ce6570b1195131eec0a3"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0016.png",
+        "file": "translation/source-review-addenda/khanda1-ch6-ch7/original-and-input/original-page_0016.png",
+        "sha256": "d55587a502538733c82a8e4969502af92ccf791f59dded50ba6aee3199458283",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          830,
+          3690,
+          1230
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/checksums.json",
+      "sha256": "d4745e40be63f97b715493990160ef0da194a60a05115be07a3690e8b55e95c6"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/google-captures/6-34.jpg",
+      "sha256": "5ee84587b0a3db851d183dd4c0878a2080fc55e9c34a9f6b7495358ebc611efc"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/google-captures/6-35.jpg",
+      "sha256": "cfe347cafb469510ae005960b69f4878a0e4b5994b909216b72b1ce5ecdad646"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/google-captures/6-36.jpg",
+      "sha256": "a28cbf445d26dc0b4c7c54fd5b713fda70b9df97e210ce6570b1195131eec0a3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/google-captures/ch6-colophon-PT182.jpg",
+      "sha256": "65e07eb88cf4e4fb8780dbb1cecaf6a6088d9f71c10ef8f5f9aacb420b157850"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/google-captures/manifest.json",
+      "sha256": "54182532ece689a24247af8dff8cfd33e395c51511ce587382e95e1dc8f448a6"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/input-chapter.json",
+      "sha256": "3b7f0acab19ffbedae70c6e4be90677a3b60935a0c6c4c183c70e87b2c4bffcd"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/original-crops/page_0016-crop0.png",
+      "sha256": "f37a3d4708d3269e5bc5b343a3c3b48ec852a3936839729b8bbf68b786c87489"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/receipt.json",
+      "sha256": "7d2cdc2e79882b481fb7bb538eb1db6f736785f1f311bb4ea8c29ae20392b383"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch6-Google-corroboration/report.md",
+      "sha256": "84be9225748ffda60cf26798e54957b54d3a2fd4bc1d00e1ee19edea0eb61f7a"
+    }
+  ],
+  "new_text_changes": 0,
+  "corroborated_existing_records": 3,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}

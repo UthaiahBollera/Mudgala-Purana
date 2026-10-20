@@ -21,6 +21,7 @@ class Corroboration(unittest.TestCase):
         self.root = Path(self.tmp.name)
         self.index = json.loads((ROOT / 'translation/Google-corroboration-index.json').read_text())
         self.entry = self.index['chapters'][0]
+        self.index['chapters'] = [self.entry]
         self.review = json.loads((ROOT / self.entry['review_file']).read_text())
         paths = {x['file'] for x in self.review['evidence_files']}
         paths.update(x['prior_review_file'] for x in self.review['records'])
