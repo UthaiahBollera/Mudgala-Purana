@@ -93,13 +93,24 @@ def validate(root):
             assert Path(ref['crop_file']).name == approved_ref.get('google_capture', approved_ref.get('screenshot')), 'Wrong target capture'
             evidence(ref['crop_file'], ref['crop_sha256'])
             original = record['original_source']
-            assert original == approved['original_source'], 'Original evidence identity altered'
+            if key == (1, 32, 36):
+                historical = approved['original_source']
+                assert record['historical_original_source'] == historical and historical['bbox_xyxy'] == [270, 320, 3720, 920], 'Frozen wrong-coordinate input changed'
+                active = dict(historical)
+                active['bbox_xyxy'] = approved['independently_inspected_source_bbox_xyxy']
+                active.pop('input_bbox_incorrect_for_target', None)
+                assert active['bbox_xyxy'] == [270, 2070, 3720, 2370] and original == active, 'Active source coordinate incorrect'
+                assert record['source_coordinate_correction'] == {'prior_bbox_xyxy': historical['bbox_xyxy'], 'active_bbox_xyxy': active['bbox_xyxy'], 'note': approved['source_coordinate_note'], 'historical_artifacts_unchanged': True}, 'Coordinate correction not transparent'
+            else:
+                assert original == approved['original_source'], 'Original evidence identity altered'
             evidence(original['file'], original['sha256'])
             current = registry[f'kh{key[0]}-ch{key[1]}-v{key[2]}']
             latest = current['latest_source_corroboration']
             assert latest['review_file'] == chapter['review_file'] and latest['review_sha256'] == chapter['review_sha256'] and latest['reference_source'] == ref, 'Registry corroboration pointer differs'
             assert current['google_books_pages'] == [ref['page_id']] and current['google_books_page_url'] == ref['page_url'], 'Registry Google identity differs'
             assert latest['whole_verse_correctness_certified'] is latest['meaning_certified'] is False and latest['new_text_change'] is None, 'Registry scope overstated'
+            if key == (1, 32, 36):
+                assert latest['original_source'] == original and latest['source_coordinate_correction'] == record['source_coordinate_correction'], 'Registry active coordinate stale'
             if approved.get('orthography_note'):
                 assert record.get('orthography_note') == latest.get('orthography_note') == approved['orthography_note'] and record.get('no_orthography_harmonization') is latest.get('no_orthography_harmonization') is True, 'Recorded orthographic distinction hidden or normalized'
             if scope != 'all_applied_spans':

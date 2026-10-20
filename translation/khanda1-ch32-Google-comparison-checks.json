@@ -1,0 +1,47 @@
+{
+  "status": "evidence_only_preservation_passed",
+  "chapter": 32,
+  "compared_existing_records": 5,
+  "fully_changed_spans_corroborated_records": 5,
+  "partial_records": 0,
+  "edition_difference_records": 0,
+  "glyph_comparison_hold_records": 0,
+  "new_text_changes": 0,
+  "new_Google_conjunct_comparison_hold": [],
+  "all_old_TSVs_system_prompt_HTML_EPUB_cover_assets_CSS_metadata_manifest_coverage_and_prior_reviews_exact": true,
+  "only_chapter_registry_records_modified": [
+    "kh1-ch32-v35",
+    "kh1-ch32-v36",
+    "kh1-ch32-v41",
+    "kh1-ch32-v45",
+    "kh1-ch32-v48"
+  ],
+  "all_other_registry_records_exact": true,
+  "all_previous_questions_reviews_accepted_fields_and_meaning_holds_exact": true,
+  "Pages_worktree_and_artifacts_unchanged": true,
+  "remaining_without_recorded_target_Google_evidence": 11,
+  "remaining_cohort_including_prior_PT65": 12,
+  "next_chapter": 38,
+  "paid_calls": 0,
+  "source_provenance_validation": "passed",
+  "Google_comparison_validator": "passed",
+  "focused_comparison_tests": 43,
+  "publication_action": "source_evidence_only_no_Pages_push",
+  "source_parent": "c24c30111f3beb0945326e8146693a3c5e76fb23",
+  "source_coordinate_correction": {
+    "prior_bbox_xyxy": [
+      270,
+      320,
+      3720,
+      920
+    ],
+    "active_bbox_xyxy": [
+      270,
+      2070,
+      3720,
+      2370
+    ],
+    "note": "Input36 bbox[270,320,3720,920] shows earlier verses11–17, not36. Actual changed span ग्रहनक्षत्ररूपाय is visible at bottom of original page73 crop[270,2070,3720,2370], shared with35. Input remains preserved unchanged; use corrected evidence coordinate.",
+    "historical_artifacts_unchanged": true
+  }
+}

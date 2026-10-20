@@ -146,5 +146,21 @@ class UncertainGoogleConjunct(Corroboration):
         self.reject()
 
 
+class CorrectedSourceCoordinate(Corroboration):
+    CHAPTER = 32
+
+    def test_active_coordinate_cannot_revert(self):
+        next(x for x in self.review['records'] if x['key'][2] == 36)['original_source']['bbox_xyxy'] = [270, 320, 3720, 920]
+        self.reject()
+
+    def test_frozen_input_must_remain_historical(self):
+        next(x for x in self.review['records'] if x['key'][2] == 36)['historical_original_source']['bbox_xyxy'] = [270, 2070, 3720, 2370]
+        self.reject()
+
+    def test_registry_must_use_active_coordinate(self):
+        next(x for x in self.registry['records'] if x['id'] == 'kh1-ch32-v36')['latest_source_corroboration']['original_source']['bbox_xyxy'] = [270, 320, 3720, 920]
+        self.reject()
+
+
 if __name__ == '__main__':
     unittest.main()
