@@ -428,3 +428,5 @@ Chapter8.46/54 four-reference comparison retains both holds. SanskritDocuments m
 Chapter12.24 additional SanskritDocuments pixels match original ganapatyaste;Google ganapatyah syuh still differs. Interpretation and edition holds remain;no manuscript changes.
 
 Chapter21.41/45 four-reference comparison retains base-ligature and edition-selection holds. SanskritDocuments agrees with Google sudhamne at41,but prints pradhamne at45 where Google has pradhane. Same-print controls do not establish base misreading. Active45 disputed-tail reference explicitly points to original52 continuing51;historical TSV/reviews remain exact. No manuscript changes.
+
+Chapter28.18 SanskritDocuments supports vaktra in that transcription and the original;Google conjunct remains uncertain. Four-reference comparison does not close any of the six holds or establish independent witnesses. No manuscript changes or Pages redeployment.

@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "source_kind": "four_reference_comparison_only",
+  "chapter": 28,
+  "source_snapshot": "84a71b3317e0aadc246cb87f5d82edb8e11ef237",
+  "handoff_Library_file": "libfile_52944ddc31d081918e413122e687f04c",
+  "handoff_bytes": 485821,
+  "handoff_sha256": "708dcf1d404fdc522da72ee67e04aeef91a31c0f4190eec97fb0615ae55b6579",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/adjudication.json",
+  "independent_receipt_sha256": "a50d4abe5c616a205dacfad20b8d7fda960fb2663853fedf994550c0354f9a9d",
+  "provenance": {
+    "sanskritdocuments_pdf_sha256": "1203c975e1b27c0735d4e82247b61ae81b276f63671565587397ff2c35e809a5",
+    "proofreader": "Yash Khasbage",
+    "text_update": "September18–19,2023 as stated in PDF",
+    "typesetting_date": "August26,2026 as stated in PDF",
+    "basis": "Underlying print edition not identified in inspected PDF front/end matter. Volunteer proofread electronic typesetting; not demonstrated to be an independent edition or independent textual witness.",
+    "method": "Actual rendered PDF glyphs inspected at physical pages41,42,59,94,120, alongside original scan and saved Google screenshot pixels. Extracted text used only to locate passages.",
+    "original_archive_url": "https://drive.google.com/file/d/1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi/view?usp=drivesdk",
+    "original_archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+    "google_book": "Lh0FEQAAQBAJ",
+    "scope": "Six disputed spans only",
+    "new_manuscript_changes": 0,
+    "user_uploaded_OCR": {
+      "library_file_id": "libfile_706e2c6d7f9c81919364c79356578fdb",
+      "filename": "Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+      "sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+      "hash_verified": true,
+      "method": "Exact target spans located by page markers and neighboring verse context; corrupt numerals retained as OCR, not used as authority."
+    }
+  },
+  "records": [
+    {
+      "key": [
+        1,
+        28,
+        18
+      ],
+      "current_row": {
+        "source_pages": "78",
+        "type": "mantra",
+        "text": "ಪಂಚವಕ್ತ್ರಧರಾಯೈವ ಯೋಗಿನೇ ಯೋಗದಾಯಿನೇ । ನಿರ್ಗುಣಾಯ ನಿರೂಪಾಯ ಬ್ರಹ್ಮಭೂತಾಯ ತೇ ನಮಃ । ॥೧೮॥"
+      },
+      "independent_comparison": {
+        "key": "1.28.18",
+        "original_printed_page": 65,
+        "original_reading": "पंचवक्त्रधरायैव",
+        "google_page_id": "PT512",
+        "google_reading": "पञ्चवकाधरायैव (appears; conjunct hold)",
+        "sanskritdocuments_pdf_physical_page": 120,
+        "sanskritdocuments_printed_pdf_page": 119,
+        "sanskritdocuments_reading": "पञ्चवक्त्रधरायैव",
+        "sanskritdocuments_url": "https://sanskritdocuments.org/doc_purana/mudgalapurANam1.pdf#page=120",
+        "rendered_crop_bbox_xyxy": [
+          160,
+          940,
+          650,
+          1005
+        ],
+        "rendered_page_dimensions": [
+          840,
+          1191
+        ],
+        "recommendation": "Retain current ಪಂಚವಕ್ತ್ರಧರಾಯೈವ. Original and rendered SanskritDocuments establish वक्त्र in those sources; Google crop does not establish त्र. Do not silently repair Google or call all three identical.",
+        "new_replacement_proposal": null,
+        "accepted_new_replacement": null,
+        "user_uploaded_OCR": {
+          "page_marker": 65,
+          "exact_reading": "पंचवक्रधरायैव",
+          "status": "derivative OCR, not independent witness or printed-glyph evidence"
+        },
+        "google_verified_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT512#v=onepage&q=%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B8%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%BF%E0%A4%A3%E0%A5%87&f=false"
+      },
+      "prior_registry_status": "Google_conjunct_comparison_hold",
+      "prior_current_translation_review": {
+        "review_file": "translation/khanda1-ch28-ch30-writer-review.json",
+        "review_sha256": "d98a77c662ce4d654454e4669b890f5679a2e5ed647b2944f9e1fb257428b40c",
+        "source_sanskrit": "पंचवक्त्रधरायैव योगिने योगदायिने । निर्गुणाय निरूपाय ब्रह्मभूताय ते नमः ॥१८॥",
+        "new_row": {
+          "source_pages": "78",
+          "type": "mantra",
+          "text": "ಪಂಚವಕ್ತ್ರಧರಾಯೈವ ಯೋಗಿನೇ ಯೋಗದಾಯಿನೇ । ನಿರ್ಗುಣಾಯ ನಿರೂಪಾಯ ಬ್ರಹ್ಮಭೂತಾಯ ತೇ ನಮಃ । ॥೧೮॥"
+        },
+        "issues": [],
+        "review_status": "accepted",
+        "current_wording_source_verified": true,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      },
+      "prior_latest_source_corroboration": {
+        "review_file": "translation/khanda1-ch28-Google-comparison.json",
+        "review_sha256": "57f582358a568e14205470a6f1fcd37af91d4c052eab3649a7b4f3088428013b",
+        "scope": "Google_glyph_comparison_hold",
+        "reference_source": {
+          "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+          "book_id": "Lh0FEQAAQBAJ",
+          "page_id": "PT512",
+          "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT512#v=onepage&q=%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B8%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%BF%E0%A4%A3%E0%A5%87&f=false",
+          "crop_file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/28-18.jpg",
+          "crop_sha256": "d6d863be645d2e137e9239472780dcebe36250a1bca409c4be246dc79ba3912e"
+        },
+        "retained_review_issues": [],
+        "additional_source_holds": [
+          "Original clearly पंचवक्त्रधरायैव. Google PT512 appears पञ्चवकाधरायैव; त्र not independently established in Google capture. Preserve current original-based ಪಂಚವಕ್ತ್ರಧರಾಯೈವ. English five-faced gloss cannot establish missing Sanskrit letters. No harmonization."
+        ],
+        "whole_verse_correctness_certified": false,
+        "meaning_certified": false,
+        "new_text_change": null,
+        "source_comparison_hold": {
+          "original": "पंचवक्त्रधरायैव",
+          "Google_provisional": "पञ्चव…धरायैव",
+          "Google_conjunct_certain": false,
+          "English_gloss_used_to_supply_letters": false
+        }
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0065.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0065.png",
+        "sha256": "e282aeebcce4ac28156bacd21ce40a0a676f8f0eb2353d9665964ef460f9730b",
+        "printed_page": 65,
+        "bbox_xyxy": null,
+        "coordinate_scope": "Full archive-identical page; focused receipt crop has no independently supplied original pixel bbox. No bbox guessed."
+      },
+      "target_crops": [
+        {
+          "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/28-18.png",
+          "sha256": "93d0365c1a3309a23207dca7c650d72abcbfb3ca459313e8d7bd222f0ad61c70"
+        },
+        {
+          "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/28-18.jpg",
+          "sha256": "d6d863be645d2e137e9239472780dcebe36250a1bca409c4be246dc79ba3912e"
+        },
+        {
+          "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/28-18.png",
+          "sha256": "87cf4b14e99b793d1b7f8f34e62e24b5ed889564cc235d60a5c2a857acedc3a3"
+        }
+      ],
+      "Mac_original_page_bytes_archive_identical": true,
+      "Mac_supplied_crops_pixels_inspected": true,
+      "OCR_full_bytes_independently_reverified_on_Mac": false,
+      "OCR_verification_scope": "Independent reviewer reports full uploaded OCR hash verified;Mac preserves exact receipt fragments and provenance only.",
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "hold_retained": true,
+      "whole_verse_correctness_certified": false,
+      "meaning_certified": false,
+      "underlying_SanskritDocuments_edition_identified": false,
+      "independent_witness_status_established": false,
+      "majority_vote_used": false,
+      "base_scan_misreading_established": false
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/adjudication.json",
+      "sha256": "a50d4abe5c616a205dacfad20b8d7fda960fb2663853fedf994550c0354f9a9d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/checksums.json",
+      "sha256": "f48a1064100a970faf38c3d5d28e575b9230d97d45c8e05d25846934382ea5d5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/12-24.jpg",
+      "sha256": "3875c5bfbf8770044e7b11dc7c07ae3aefb905c332d7bd23a177491f37596fb8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/21-41.jpg",
+      "sha256": "f84cd23b0637b695d2a927e1980349f418f4bc1543e3667665d3f2411e1c9a6b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/21-45.jpg",
+      "sha256": "3ecdc2e4b8f9c4db97e9b3c9c72df35e0e9564c047fedc396b43dbdcd3138808"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/28-18.jpg",
+      "sha256": "d6d863be645d2e137e9239472780dcebe36250a1bca409c4be246dc79ba3912e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/8-46.jpg",
+      "sha256": "985f133b38053e799b4c804c34e9b86d5d23dc024c68221264e84aac2a658989"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/8-54.jpg",
+      "sha256": "94e8793d64bee03955be9ac4640dc7184638799b074528c0e152e44e63fe5977"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/12-24.png",
+      "sha256": "81fd26df0604ab2b5b243855c5f48dfe6f5bd92844aef7ccc7e51d203c2e7f5b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/21-41.png",
+      "sha256": "99ad8103c2b6088be28c8719d780641e607299fae1efe18b078f64ff3674d463"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/21-45.png",
+      "sha256": "69ae78da04453c60df023aa443671086c674542c33c202d13f58f5cb3f2307c0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/28-18.png",
+      "sha256": "93d0365c1a3309a23207dca7c650d72abcbfb3ca459313e8d7bd222f0ad61c70"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/8-46.png",
+      "sha256": "f00c7c3ae868dbe4eca155f22ac4de45df8273154728c089b28161ec2282496a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/8-54.png",
+      "sha256": "d082e2e11d8d13a1c47175ab4fd4e9d2e9077e5dcdeb529a1e6ad6087b0c0921"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/base-dhamne-control.png",
+      "sha256": "ca4f237f0f5f1fd07fed3438102cd2afc4c34cc36792892ad5731b7fde927596"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/base-dhatre-control.png",
+      "sha256": "db5af564ad43f91b24633c22579c2f7884bfdffbdd2196dbc3ecb3a273c13e95"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/report.md",
+      "sha256": "0fc6066f798a10095db6283dae09beaaf4bba6e958f6ee7c71ed79a5fdd9356e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/12-24.png",
+      "sha256": "4847e008281420836c099b2be98e8a75bacac229a63b5bd1d9aea6f67d3b45fe"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/21-41.png",
+      "sha256": "19227ee25babdae9cfa40dea32c84617925ed3f9c2c6003534c58231c0e080e9"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/21-45.png",
+      "sha256": "e626ec3cbd96885d2ad96a7bbeb4a9095a94634e85541b7612c0dfc596da62dc"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/28-18.png",
+      "sha256": "87cf4b14e99b793d1b7f8f34e62e24b5ed889564cc235d60a5c2a857acedc3a3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/8-46.png",
+      "sha256": "1a1e1e8a529f22362d927734aa07878d9b0694f5e4e3b703902d16581f1138fe"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/8-54.png",
+      "sha256": "e726e90bae040b4512cfd310798ff9e8b7024914f39d993b51551084b4095000"
+    }
+  ],
+  "new_text_changes": 0,
+  "whole_chapter_validation": false,
+  "four_references_are_four_independent_witnesses": false,
+  "full_SanskritDocuments_book_or_full_OCR_published": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}
