@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "purpose": "Chapter-scoped corroboration of already published spans;no text correction batches.",
+  "chapters": [
+    {
+      "khanda": 1,
+      "chapter": 4,
+      "review_file": "translation/khanda1-ch4-Google-corroboration.json",
+      "review_sha256": "ff4d4a3fb958755c02740d44a28842457f7fa2fe8bc8f90c15babcd79683708c",
+      "keys": [
+        [
+          1,
+          4,
+          21
+        ],
+        [
+          1,
+          4,
+          22
+        ],
+        [
+          1,
+          4,
+          30
+        ],
+        [
+          1,
+          4,
+          33
+        ],
+        [
+          1,
+          4,
+          93
+        ],
+        [
+          1,
+          4,
+          97
+        ]
+      ]
+    }
+  ],
+  "retrospective_tracking": {
+    "cohort_handoff_Library_file": "libfile_bae1a9b26f9c819196c03be65d62a354",
+    "requested_cohort": 55,
+    "prior_Google_evidence_inventory_omission_key": [
+      1,
+      1,
+      6
+    ],
+    "newly_corroborated_from_cohort": 6,
+    "remaining_without_recorded_target_Google_evidence": 48,
+    "remaining_cohort_not_covered_by_this_receipt_including_prior_PT65": 49,
+    "next_unreviewed_chapter": 6
+  }
+}
