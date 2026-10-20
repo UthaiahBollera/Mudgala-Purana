@@ -96,6 +96,8 @@ def validate(root):
             assert latest['review_file'] == chapter['review_file'] and latest['review_sha256'] == chapter['review_sha256'] and latest['reference_source'] == ref, 'Registry corroboration pointer differs'
             assert current['google_books_pages'] == [ref['page_id']] and current['google_books_page_url'] == ref['page_url'], 'Registry Google identity differs'
             assert latest['whole_verse_correctness_certified'] is latest['meaning_certified'] is False and latest['new_text_change'] is None, 'Registry scope overstated'
+            if approved.get('orthography_note'):
+                assert record.get('orthography_note') == latest.get('orthography_note') == approved['orthography_note'] and record.get('no_orthography_harmonization') is latest.get('no_orthography_harmonization') is True, 'Recorded orthographic distinction hidden or normalized'
             if scope != 'all_applied_spans':
                 assert latest['scope'] == scope and latest['source_disagreement'] == record['source_disagreement'] and latest['additional_source_holds'] == record['additional_source_holds'] and current['hard_hold'], 'Registry edition/partial hold hidden'
             if record['retained_review_issues']:
