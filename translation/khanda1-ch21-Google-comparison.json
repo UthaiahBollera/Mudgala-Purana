@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_comparison_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 21
+  },
+  "source_snapshot": "8eab9e3b9a125ceec5966dd83f9beb2640579857",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans;no new manuscript wording. Partial agreement and edition disagreements remain explicitly held.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/receipt.json",
+  "independent_receipt_sha256": "450ba508ace2da67ae57799aacbc699cc802d35995261c32b4abe27c83e01de4",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/report.md",
+  "independent_review_sha256": "f995fd7b85990b76ebc2c8e3b93d54e7e7d2e4c8e57cde1cdaca5d2e6829a47e",
+  "handoff_Library_file": "libfile_9caf1f51a3e081919c2d09b36f67ffd0",
+  "handoff_bytes": 253222,
+  "handoff_sha256": "55e2a987ba2612e7738071df4a2751394ecd43d3545206b774be1bc36c5d473d",
+  "records": [
+    {
+      "key": [
+        1,
+        21,
+        8
+      ],
+      "current_text": "ನಮೋ ಭೂಮಿರೂಪಾಯ ನಾನಾಪ್ರಭೇದಧರಾಯಾಥ ಧಾರಾಯ ನಿತ್ಯಾಯ ತೇಽಸ್ತು । ಜಲಾಧಿಸ್ವರೂಪಾಯ ತೃಪ್ತಿಪ್ರದಾಯ ತದಾಕಾರಹೀನಾಯ ಸಾರಾಯ ಧಾಮ್ನೇ । ॥೮॥",
+      "current_type": "mantra",
+      "historical_source_pages": "62",
+      "prior_review_file": "translation/khanda1-ch20-ch21-writer-review.json",
+      "prior_review_sha256": "d19d087ff698141d6fb4d5fde6b618704f70622b82a0e36fb3c659619477c189",
+      "previously_applied_spans": [
+        {
+          "before": "ಜಲೌಘಸ್ವರೂಪಾಯ",
+          "after": "ಜಲಾಧಿಸ್ವರೂಪಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಜಲೌಘಸ್ವರೂಪಾಯ",
+          "after": "ಜಲಾಧಿಸ್ವರೂಪಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_not_adjudicated",
+          "reading": null,
+          "token": "नमो भूमिरूपाय नानाप्रभेदधरायाथ धाराय नित्याय तेऽस्तु । जलाधिस्वरूपाय तृप्तिप्रदाय तदाकारहीनाय साराय धाम्ने ॥८॥",
+          "detail": "Actual original reads जलाधिस्वरूपाय, not जलौघस्वरूपाय. Restore only that word. The already-present अथ in धरायाथ is confirmed, not newly fixed. Both water-related alternatives are meaningful; this proposal follows inspected base pixels, not semantic preference."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT407",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT407#v=onepage&q=%E0%A4%9C%E0%A4%B2%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%BE%E0%A4%AF&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/google-captures/21-8.jpg",
+        "crop_sha256": "b1a5fc94e3931012ba872452621bc6c01718260b650e4bdad2bb5312d871f724"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0049.png",
+        "file": "translation/source-review-addenda/khanda1-ch20-ch21/original-and-input/original-page_0049.png",
+        "sha256": "62698d900cfa829b0ea832e77b7778572462f364445835b1641866c914def352",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          240,
+          1740,
+          3720,
+          2390
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    },
+    {
+      "key": [
+        1,
+        21,
+        30
+      ],
+      "current_text": "ನಮಸ್ತಾಮಸಾಯಾಥ ಸಂಹಾರಕರ್ತ್ರೇ ತ್ರಿನೇತ್ರಪ್ರದೀಪಾಯ ಶಕ್ತೇರ್ಧರಾಯ । ಸದಾ ಕಾಲರೂಪಾಯ ಕೈಲಾಸದಾಯ ತಮೋಹೀನರೂಪಾಯ ಲಂಬೋದರಾಯ । ॥೩೦॥",
+      "current_type": "mantra",
+      "historical_source_pages": "64",
+      "prior_review_file": "translation/khanda1-ch20-ch21-writer-review.json",
+      "prior_review_sha256": "d19d087ff698141d6fb4d5fde6b618704f70622b82a0e36fb3c659619477c189",
+      "previously_applied_spans": [
+        {
+          "before": "ಶಕ್ತಿಧರಾಯ",
+          "after": "ಶಕ್ತೇರ್ಧರಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ಶಕ್ತಿಧರಾಯ",
+          "after": "ಶಕ್ತೇರ್ಧರಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_not_adjudicated",
+          "reading": null,
+          "token": "नमस्तामसायाथ संहारकर्त्रे त्रिनेत्रप्रदीपाय शक्तेर्धराय । सदा कालरूपाय कैलासदाय तमोहीनरूपाय लंबोदराय ॥३०॥",
+          "detail": "Actual original clearly reads शक्तेर्धराय with e-mark and repha. Restore only the source form; retain its genitive/sandhi structure without changing it back into the coherent but different शक्तिधराय compound. Exact doctrinal force is not paraphrased."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT416",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT416#v=onepage&q=%E0%A4%B6%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A5%87%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%B0%E0%A4%BE%E0%A4%AF&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/google-captures/21-30.jpg",
+        "crop_sha256": "ab073912063dbbb40ad1fe0b1888bd2090a43493491bd94beec7322b30e62e25"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0051.png",
+        "file": "translation/source-review-addenda/khanda1-ch20-ch21/original-and-input/original-page_0051.png",
+        "sha256": "1b7c07495c69995643b9081d81d7428e350ab2eae05fc5f47235a4e245289a0e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          320,
+          3710,
+          940
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    },
+    {
+      "key": [
+        1,
+        21,
+        33
+      ],
+      "current_text": "ನಮಶ್ಚಂದ್ರರೂಪಾಯ ಪುಷ್ಟಿಪ್ರದಾಯ ಕಲಾಭಿಸ್ತ್ರಿಲೋಕಸ್ಥಭೂತಾದಿಕೇಭ್ಯಃ । ಸುಧಾಧಾರಕಾಯಾಥ ನಕ್ಷತ್ರಕಾದಿಪ್ರಕಾಶಾಯ ತೇ ಹ್ಯನ್ನಹೀನಾಯ ಢುಂಢೇ । ॥೩೩॥",
+      "current_type": "mantra",
+      "historical_source_pages": "64",
+      "prior_review_file": "translation/khanda1-ch21-late-writer-review.json",
+      "prior_review_sha256": "79926cf7895ba6a384be4ada2869c3ff87de7f310482c5596b347a16e20e1a99",
+      "previously_applied_spans": [
+        {
+          "before": "ನಕ್ಷತ್ರಕಾದಿಪ್ರಭಾಯ",
+          "after": "ನಕ್ಷತ್ರಕಾದಿಪ್ರಕಾಶಾಯ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ನಕ್ಷತ್ರಕಾದಿಪ್ರಭಾಯ",
+          "after": "ನಕ್ಷತ್ರಕಾದಿಪ್ರಕಾಶಾಯ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "wording_corroborated_hold_retained",
+      "retained_review_issues": [
+        {
+          "status": "open",
+          "kind": "transcription_only_interpretation_unsettled",
+          "reading": null,
+          "token": "नमश्चंद्ररूपाय पुष्टिप्रदाय कलाभिस्त्रिलोकस्थभूतादिकेभ्यः । सुधाधारकायाथ नक्षत्रकादिप्रकाशाय ते ह्यन्नहीनाय ढुंढे ॥३३॥",
+          "detail": "Original clearly has नक्षत्रकादिप्रकाशाय. Restore only prakasha in place of prabha; other mantra wording unchanged."
+        }
+      ],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT418",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT418#v=onepage&q=%E0%A4%B6%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A5%87%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%B0%E0%A4%BE%E0%A4%AF&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/google-captures/21-33.jpg",
+        "crop_sha256": "b8d0cd8048beb19050a5fb6b92741812517dd0b42d8d8cc999299748bb64e52f"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0051.png",
+        "file": "translation/source-review-addenda/khanda1-ch21-late/original-and-input/original-page_0051.png",
+        "sha256": "1b7c07495c69995643b9081d81d7428e350ab2eae05fc5f47235a4e245289a0e",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          230,
+          650,
+          3710,
+          1240
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/checksums.json",
+      "sha256": "11a309c5b51c0e5dee831601261b0839dcccefb7f32f22f7937d305487e9f51a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/google-captures/21-30.jpg",
+      "sha256": "ab073912063dbbb40ad1fe0b1888bd2090a43493491bd94beec7322b30e62e25"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/google-captures/21-33.jpg",
+      "sha256": "b8d0cd8048beb19050a5fb6b92741812517dd0b42d8d8cc999299748bb64e52f"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/google-captures/21-8.jpg",
+      "sha256": "b1a5fc94e3931012ba872452621bc6c01718260b650e4bdad2bb5312d871f724"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/google-captures/ch21-colophon.jpg",
+      "sha256": "5008fedbfd20e4cbcec7e0686326d9c2455eef3c749dfe879a9d00973f598feb"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/google-captures/manifest.json",
+      "sha256": "1ea64efcc92a4ecaef0692da96caa7413d690d887916ff6785d5329ee033de37"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/input-chapter.json",
+      "sha256": "c870431ea92a0619db1aa9e53a1ed6b7c2252f663c221874af98961eaf54df9a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/original-crops/ch21-v30.png",
+      "sha256": "ecdaec6a4ad11da52a4aa3972176346d422658918c64c2c074ba81f730c224a1"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/original-crops/ch21-v33.png",
+      "sha256": "aa89f4cf22ba0c800b58fb2243e0532b60708c8a7844e128f7157f7946772e98"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/original-crops/ch21-v8.png",
+      "sha256": "a8cd542a0ec7893608cedb1199f2e9932ea95a1579e73a2ce84f4d108f604759"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/receipt.json",
+      "sha256": "450ba508ace2da67ae57799aacbc699cc802d35995261c32b4abe27c83e01de4"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch21-Google-comparison/report.md",
+      "sha256": "f995fd7b85990b76ebc2c8e3b93d54e7e7d2e4c8e57cde1cdaca5d2e6829a47e"
+    }
+  ],
+  "new_text_changes": 0,
+  "compared_existing_records": 3,
+  "corroborated_existing_records": 3,
+  "partial_records": 0,
+  "edition_difference_records": 0,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0,
+  "explicit_exclusions": [
+    [
+      1,
+      21,
+      41
+    ],
+    [
+      1,
+      21,
+      45
+    ]
+  ]
+}
