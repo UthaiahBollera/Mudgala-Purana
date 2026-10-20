@@ -66,8 +66,15 @@ class Corroboration(unittest.TestCase):
         self.reject()
 
     def test_retained_syntax_hold_required(self):
-        key = next(x['key'] for x in self.review['records'] if x['retained_review_issues'])
-        next(x for x in self.registry['records'] if x['id'] == f'kh1-ch{key[1]}-v{key[2]}')['current_translation_review']['issues'] = []
+        held = next((x for x in self.review['records'] if x['retained_review_issues'] or x.get('additional_source_holds')), None)
+        if held is None:
+            self.skipTest('No target hold in this fixture')
+        key = held['key']
+        current = next(x for x in self.registry['records'] if x['id'] == f'kh1-ch{key[1]}-v{key[2]}')
+        if held['retained_review_issues']:
+            current['current_translation_review']['issues'] = []
+        else:
+            current['hard_hold'] = False
         self.reject()
 
     def test_wrong_target_page_rejected(self):
@@ -116,6 +123,26 @@ class Chapter12PartialComparison(Corroboration):
 
     def test_edition_difference_must_remain(self):
         self.review['records'][0]['source_disagreement']['Google'] = 'गाणपत्यास्ते'
+        self.reject()
+
+
+class UncertainGoogleConjunct(Corroboration):
+    CHAPTER = 28
+
+    def test_uncertain_conjunct_cannot_be_full_corroboration(self):
+        self.review['corroborated_existing_records'] = 3
+        self.review['glyph_comparison_hold_records'] = 0
+        record = next(x for x in self.review['records'] if x['key'][2] == 18)
+        record['evidence_scope'] = 'all_applied_spans'
+        record['previously_applied_spans_corroborated'] = record['previously_applied_spans']
+        self.reject()
+
+    def test_uncertain_conjunct_not_certified(self):
+        next(x for x in self.review['records'] if x['key'][2] == 18)['source_comparison_hold']['Google_conjunct_certain'] = True
+        self.reject()
+
+    def test_English_cannot_supply_missing_letters(self):
+        next(x for x in self.review['records'] if x['key'][2] == 18)['source_comparison_hold']['English_gloss_used_to_supply_letters'] = True
         self.reject()
 
 

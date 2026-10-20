@@ -39,10 +39,11 @@ def validate(root):
             evidence(f['file'], f['sha256'])
         assert [r['key'] for r in review['records']] == chapter['keys'] == [r['key'] for r in receipt['records']], 'Corroboration keys differ'
         scopes = [r.get('evidence_scope', 'all_applied_spans') for r in review['records']]
-        assert all(scope in ('all_applied_spans', 'partial_applied_spans', 'edition_difference_retained') for scope in scopes), 'Unknown comparison scope'
+        assert all(scope in ('all_applied_spans', 'partial_applied_spans', 'edition_difference_retained', 'Google_glyph_comparison_hold') for scope in scopes), 'Unknown comparison scope'
         assert receipt['new_text_changes'] == 0 and review.get('compared_existing_records', len(scopes)) == len(scopes), 'Comparison count differs'
         assert review['corroborated_existing_records'] == scopes.count('all_applied_spans'), 'Partial/different wording falsely counted as corroborated'
         assert review.get('partial_records', 0) == scopes.count('partial_applied_spans') and review.get('edition_difference_records', 0) == scopes.count('edition_difference_retained'), 'Comparison limitations miscounted'
+        assert review.get('glyph_comparison_hold_records', 0) == scopes.count('Google_glyph_comparison_hold'), 'Glyph holds miscounted'
         if 'fully_wording_corroborated_records' in receipt:
             assert receipt['fully_wording_corroborated_records'] == review['corroborated_existing_records'] and receipt['partial_records'] == review['partial_records'] and receipt['edition_difference_records'] == review['edition_difference_records'], 'Independent comparison counts changed'
         elif 'corroborated_existing_records' in receipt:
@@ -64,7 +65,7 @@ def validate(root):
             scope = record.get('evidence_scope', 'all_applied_spans')
             assert record['status'] == approved['status'], 'Independent comparison status changed'
             if scope == 'all_applied_spans':
-                assert record['previously_applied_spans_corroborated'] == previous and 'partial' not in approved['status'] and 'edition_wording_difference' not in approved['status'], 'Uncorroborated wording promoted'
+                assert record['previously_applied_spans_corroborated'] == previous and 'partial' not in approved['status'] and 'edition_wording_difference' not in approved['status'] and approved['status'] != 'Google_conjunct_comparison_hold', 'Uncorroborated wording promoted'
             else:
                 approved_holds = approved.get('additional_holds', [approved['additional_hold']] if approved.get('additional_hold') else [])
                 assert record['additional_source_holds'] == approved_holds and record['additional_source_holds'] and record['no_silent_edition_harmonization'] is True, 'Edition/partial hold hidden'
@@ -72,6 +73,9 @@ def validate(root):
                     allowed_partial = {(1, 8, 46): ('partial_corroboration_initial_compound_comparison_hold', {'original': 'हृद्विज्ञबोधात्मक', 'Google': 'द्विज्ञबोधात्मक'}), (1, 12, 24): ('partial_corroboration_edition_difference_retained', {'original': 'गाणपत्यास्ते', 'Google': 'गाणपत्याः स्युः'})}
                     assert key in allowed_partial and approved['status'] == allowed_partial[key][0] and record['previously_applied_spans_corroborated'] == previous[1:], 'Disagreeing initial wording falsely corroborated'
                     assert record['source_disagreement'] == allowed_partial[key][1], 'Initial wording disagreement altered'
+                elif scope == 'Google_glyph_comparison_hold':
+                    assert key == (1, 28, 18) and approved['status'] == 'Google_conjunct_comparison_hold' and record['previously_applied_spans_corroborated'] == [], 'Uncertain Google conjunct falsely corroborated'
+                    assert record['source_comparison_hold'] == {'original': 'पंचवक्त्रधरायैव', 'Google_provisional': approved['google_evidence']['reading'], 'Google_conjunct_certain': False, 'English_gloss_used_to_supply_letters': False}, 'Google uncertainty hidden or English supplied letters'
                 else:
                     assert key == (1, 8, 54) and approved['status'] == 'edition_wording_difference_retained' and record['previously_applied_spans_corroborated'] == [], 'Edition difference falsely corroborated'
                     assert record['source_disagreement'] == {'original': 'अभेदैकात्मक', 'Google': 'अभेदमेकात्मक'}, 'Eka compound difference altered'
@@ -99,7 +103,11 @@ def validate(root):
             if approved.get('orthography_note'):
                 assert record.get('orthography_note') == latest.get('orthography_note') == approved['orthography_note'] and record.get('no_orthography_harmonization') is latest.get('no_orthography_harmonization') is True, 'Recorded orthographic distinction hidden or normalized'
             if scope != 'all_applied_spans':
-                assert latest['scope'] == scope and latest['source_disagreement'] == record['source_disagreement'] and latest['additional_source_holds'] == record['additional_source_holds'] and current['hard_hold'], 'Registry edition/partial hold hidden'
+                assert latest['scope'] == scope and latest['additional_source_holds'] == record['additional_source_holds'] and current['hard_hold'], 'Registry edition/partial hold hidden'
+                if scope == 'Google_glyph_comparison_hold':
+                    assert latest['source_comparison_hold'] == record['source_comparison_hold'], 'Registry glyph hold hidden'
+                else:
+                    assert latest['source_disagreement'] == record['source_disagreement'], 'Registry edition difference hidden'
             if record['retained_review_issues']:
                 assert current['hard_hold'] and current['accepted_translation'] is None and current['current_translation_review']['issues'] == record['retained_review_issues'], 'Meaning hold closed'
     return len(seen)

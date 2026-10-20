@@ -408,3 +408,5 @@ Chapter15.12 Google PT321 corroborates the two changed spans. Google sindura use
 Chapter21 Google comparison corroborates only8/30/33 against PT407/PT416/PT418. All meaning holds remain;21.41/45 are explicitly excluded and their earlier disagreements are unchanged. No text changes or Pages push.21 cohort items still lack recorded target Google evidence.
 
 Chapter24 Google comparison corroborates existing sarpaharaya and suyogipataye spans at14/18. Prior holds and all unrelated data remain unchanged. No text changes or Pages push.19 cohort items still lack recorded target Google evidence.
+
+Chapter28 comparison corroborates17/20 but leaves the Google conjunct at18 unresolved. Original clearly pancavaktradharayaiva;Google PT512 does not securely establish the conjunct. Preserve original-based Kannada;English gloss supplies no Sanskrit letters. No text changes or Pages push.16 cohort items still lack target Google evidence in the canonical index.

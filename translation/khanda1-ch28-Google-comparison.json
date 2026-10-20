@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "source_kind": "Google_comparison_only",
+  "chapter_scope": {
+    "khanda": 1,
+    "chapter": 28
+  },
+  "source_snapshot": "ff66132c4d800474b5e76c85442acbe4978816f6",
+  "independent_receipt_source_snapshot": "f032e6e5695dee27e86fe960be740285f35da0bc",
+  "scope": "Only previously corrected spans;no new manuscript wording. Partial agreement and edition disagreements remain explicitly held.",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/receipt.json",
+  "independent_receipt_sha256": "038c5e349118f550d5035347933c12bf9ece76f666e55f5100a502ac1f014af3",
+  "independent_review_file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/report.md",
+  "independent_review_sha256": "b64c95c6388a9398be1c773cf0c4882282d4aa51335129567179872e6e34a00e",
+  "handoff_Library_file": "libfile_fce6ea5777248191ac96d80af22470be",
+  "handoff_bytes": 296984,
+  "handoff_sha256": "038f6797ec41a8a676f6178de4c4dc0cc195893351553900fb1f6def1109e1e7",
+  "records": [
+    {
+      "key": [
+        1,
+        28,
+        17
+      ],
+      "current_text": "ನಮೋ ನಮೋ ಮಹಾದೇವ ಸ್ರಷ್ಟ್ರೇ ರಾಜಸರೂಪಿಣೇ । ಪಾತ್ರೇ ವಿಷ್ಣುಸ್ವರೂಪಾಯ ಹಂತ್ರೇ ರುದ್ರಸ್ವರೂಪಿಣೇ । ॥೧೭॥",
+      "current_type": "mantra",
+      "historical_source_pages": "78",
+      "prior_review_file": "translation/khanda1-ch28-ch30-writer-review.json",
+      "prior_review_sha256": "d98a77c662ce4d654454e4669b890f5679a2e5ed647b2944f9e1fb257428b40c",
+      "previously_applied_spans": [
+        {
+          "before": "ರಜಸರೂಪಿಣೇ",
+          "after": "ರಾಜಸರೂಪಿಣೇ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ರಜಸರೂಪಿಣೇ",
+          "after": "ರಾಜಸರೂಪಿಣೇ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "changed_spans_corroborated",
+      "retained_review_issues": [],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT512",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT512#v=onepage&q=%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B8%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%BF%E0%A4%A3%E0%A5%87&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/28-17.jpg",
+        "crop_sha256": "b1c395418a859f422572e65c55021316389ac41dbe70a38bd0876fc312ac15ac"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0065.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0065.png",
+        "sha256": "e282aeebcce4ac28156bacd21ce40a0a676f8f0eb2353d9665964ef460f9730b",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1470,
+          3720,
+          2180
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    },
+    {
+      "key": [
+        1,
+        28,
+        18
+      ],
+      "current_text": "ಪಂಚವಕ್ತ್ರಧರಾಯೈವ ಯೋಗಿನೇ ಯೋಗದಾಯಿನೇ । ನಿರ್ಗುಣಾಯ ನಿರೂಪಾಯ ಬ್ರಹ್ಮಭೂತಾಯ ತೇ ನಮಃ । ॥೧೮॥",
+      "current_type": "mantra",
+      "historical_source_pages": "78",
+      "prior_review_file": "translation/khanda1-ch28-ch30-writer-review.json",
+      "prior_review_sha256": "d98a77c662ce4d654454e4669b890f5679a2e5ed647b2944f9e1fb257428b40c",
+      "previously_applied_spans": [
+        {
+          "before": "ಪಂಚವಕ್ತ್ರಾಯ ವೈ",
+          "after": "ಪಂಚವಕ್ತ್ರಧರಾಯೈವ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [],
+      "evidence_scope": "Google_glyph_comparison_hold",
+      "status": "Google_conjunct_comparison_hold",
+      "retained_review_issues": [],
+      "additional_source_holds": [
+        "Original clearly पंचवक्त्रधरायैव. Google PT512 appears पञ्चवकाधरायैव; त्र not independently established in Google capture. Preserve current original-based ಪಂಚವಕ್ತ್ರಧರಾಯೈವ. English five-faced gloss cannot establish missing Sanskrit letters. No harmonization."
+      ],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT512",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT512#v=onepage&q=%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B8%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%BF%E0%A4%A3%E0%A5%87&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/28-18.jpg",
+        "crop_sha256": "d6d863be645d2e137e9239472780dcebe36250a1bca409c4be246dc79ba3912e"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0065.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0065.png",
+        "sha256": "e282aeebcce4ac28156bacd21ce40a0a676f8f0eb2353d9665964ef460f9730b",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1470,
+          3720,
+          2180
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true,
+      "source_comparison_hold": {
+        "original": "पंचवक्त्रधरायैव",
+        "Google_provisional": "पञ्चव…धरायैव",
+        "Google_conjunct_certain": false,
+        "English_gloss_used_to_supply_letters": false
+      }
+    },
+    {
+      "key": [
+        1,
+        28,
+        20
+      ],
+      "current_text": "ಭಯಭೀತಾ ವಯಂ ತೇನ ಶರಣಂ ತ್ವಾಮುಪಾಗತಾಃ । ರಕ್ಷ ನೋ ದೇವದೇವೇಶ ತ್ವಂ ಶ್ರೇಷ್ಠೋ ದೇವಪಾಲಕ । ॥೨೦॥",
+      "current_type": "mantra",
+      "historical_source_pages": "78",
+      "prior_review_file": "translation/khanda1-ch28-ch30-writer-review.json",
+      "prior_review_sha256": "d98a77c662ce4d654454e4669b890f5679a2e5ed647b2944f9e1fb257428b40c",
+      "previously_applied_spans": [
+        {
+          "before": "ತ್ವಮೇವ ದೇವಪಾಲಕಃ",
+          "after": "ತ್ವಂ ಶ್ರೇಷ್ಠೋ ದೇವಪಾಲಕ"
+        }
+      ],
+      "previously_applied_spans_corroborated": [
+        {
+          "before": "ತ್ವಮೇವ ದೇವಪಾಲಕಃ",
+          "after": "ತ್ವಂ ಶ್ರೇಷ್ಠೋ ದೇವಪಾಲಕ"
+        }
+      ],
+      "evidence_scope": "all_applied_spans",
+      "status": "changed_spans_corroborated",
+      "retained_review_issues": [],
+      "additional_source_holds": [],
+      "reference_source": {
+        "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+        "book_id": "Lh0FEQAAQBAJ",
+        "page_id": "PT513",
+        "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT513#v=onepage&q=%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B8%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%BF%E0%A4%A3%E0%A5%87&f=false",
+        "crop_file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/28-20.jpg",
+        "crop_sha256": "5a75a6e334e501d6c9bc8bb37aa21ef57ea17c86e9ef156b7aa3d7bf07930e37"
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0065.png",
+        "file": "translation/source-review-addenda/khanda1-ch28-ch30/original-and-input/original-page_0065.png",
+        "sha256": "e282aeebcce4ac28156bacd21ce40a0a676f8f0eb2353d9665964ef460f9730b",
+        "dimensions": [
+          3840,
+          2508
+        ],
+        "bbox_xyxy": [
+          260,
+          1470,
+          3720,
+          2180
+        ],
+        "Mac_bytes_archive_identical_and_pixels_checked": true
+      },
+      "whole_verse_correctness_certified": false,
+      "whole_chapter_validation": false,
+      "meaning_certified": false,
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "no_silent_edition_harmonization": true,
+      "Mac_original_bytes_archive_identical_and_target_crops_inspected": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/checksums.json",
+      "sha256": "a17ce8d1a7d8c8c0884244c0f96aa7e8c3d06e968281f3894f0c10fa3e5953ba"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/28-17.jpg",
+      "sha256": "b1c395418a859f422572e65c55021316389ac41dbe70a38bd0876fc312ac15ac"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/28-18.jpg",
+      "sha256": "d6d863be645d2e137e9239472780dcebe36250a1bca409c4be246dc79ba3912e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/28-20.jpg",
+      "sha256": "5a75a6e334e501d6c9bc8bb37aa21ef57ea17c86e9ef156b7aa3d7bf07930e37"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/ch28-colophon.jpg",
+      "sha256": "217e0c2dc7cbdbb7a735ad3bb3b66fded5c7c150b7cedca74fede07d2010f332"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/google-captures/manifest.json",
+      "sha256": "f8807344d87a4f05c4512c4ec17d0a24b1b543604f2acff504af7ef571db9ec8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/input-chapter.json",
+      "sha256": "4c9e00ce1d67f53c5906c43973a9635f5ab9b4f15e544d487f894db33edc08cf"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/original-crops/ch28-v17.png",
+      "sha256": "93d0365c1a3309a23207dca7c650d72abcbfb3ca459313e8d7bd222f0ad61c70"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/original-crops/ch28-v18.png",
+      "sha256": "93d0365c1a3309a23207dca7c650d72abcbfb3ca459313e8d7bd222f0ad61c70"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/original-crops/ch28-v20.png",
+      "sha256": "93d0365c1a3309a23207dca7c650d72abcbfb3ca459313e8d7bd222f0ad61c70"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/receipt.json",
+      "sha256": "038c5e349118f550d5035347933c12bf9ece76f666e55f5100a502ac1f014af3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-ch28-Google-comparison/report.md",
+      "sha256": "b64c95c6388a9398be1c773cf0c4882282d4aa51335129567179872e6e34a00e"
+    }
+  ],
+  "new_text_changes": 0,
+  "compared_existing_records": 3,
+  "corroborated_existing_records": 2,
+  "partial_records": 0,
+  "edition_difference_records": 0,
+  "glyph_comparison_hold_records": 1,
+  "whole_chapter_validation": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}
