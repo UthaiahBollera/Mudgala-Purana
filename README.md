@@ -424,3 +424,5 @@ Chapter45.14 yogaya corroborated by original101 andGoogle PT751;no text change.2
 Chapter46.41/42 prior changed spans corroborated by original104 andGoogle PT771.46.41 authorial-name-intent hold remains. All54 initially unevidenced cohort records now have target Google comparisons;1.1.6 retains prior PT65 evidence.50 fully changed-span sets,2 partial,1 edition-difference primary outcome and1 uncertain-conjunct hold;no full textual or meaning certification. No text changes or Pages push.
 
 Chapter8.46/54 four-reference comparison retains both holds. SanskritDocuments matches original at46 and prints a third distinct form abhedokatmaka at54. Its underlying edition is unidentified;OCR is derivative and not an independent witness. No manuscript changes.
+
+Chapter12.24 additional SanskritDocuments pixels match original ganapatyaste;Google ganapatyah syuh still differs. Interpretation and edition holds remain;no manuscript changes.

@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "source_kind": "four_reference_comparison_only",
+  "chapter": 12,
+  "source_snapshot": "fc680b29dd635cad1aecfe071c3c9d1043c2652b",
+  "handoff_Library_file": "libfile_52944ddc31d081918e413122e687f04c",
+  "handoff_bytes": 485821,
+  "handoff_sha256": "708dcf1d404fdc522da72ee67e04aeef91a31c0f4190eec97fb0615ae55b6579",
+  "independent_receipt_file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/adjudication.json",
+  "independent_receipt_sha256": "a50d4abe5c616a205dacfad20b8d7fda960fb2663853fedf994550c0354f9a9d",
+  "provenance": {
+    "sanskritdocuments_pdf_sha256": "1203c975e1b27c0735d4e82247b61ae81b276f63671565587397ff2c35e809a5",
+    "proofreader": "Yash Khasbage",
+    "text_update": "September18–19,2023 as stated in PDF",
+    "typesetting_date": "August26,2026 as stated in PDF",
+    "basis": "Underlying print edition not identified in inspected PDF front/end matter. Volunteer proofread electronic typesetting; not demonstrated to be an independent edition or independent textual witness.",
+    "method": "Actual rendered PDF glyphs inspected at physical pages41,42,59,94,120, alongside original scan and saved Google screenshot pixels. Extracted text used only to locate passages.",
+    "original_archive_url": "https://drive.google.com/file/d/1B3yBN3CSD8Gwpc47UjnInt5gtTo2tIhi/view?usp=drivesdk",
+    "original_archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+    "google_book": "Lh0FEQAAQBAJ",
+    "scope": "Six disputed spans only",
+    "new_manuscript_changes": 0,
+    "user_uploaded_OCR": {
+      "library_file_id": "libfile_706e2c6d7f9c81919364c79356578fdb",
+      "filename": "Mudgala_Puranam_1976_BEST_OCR_page_marked.txt",
+      "sha256": "d13d483a96368ad51814bd3c1d430b887041ed266eff650ef8b3a6a3ad758d09",
+      "hash_verified": true,
+      "method": "Exact target spans located by page markers and neighboring verse context; corrupt numerals retained as OCR, not used as authority."
+    }
+  },
+  "records": [
+    {
+      "key": [
+        1,
+        12,
+        24
+      ],
+      "current_row": {
+        "source_pages": "44",
+        "type": "mantra",
+        "text": "ಅಗ್ರೇ ಮೇ ಗಾಣಪತ್ಯಾಸ್ತೇ ಪೃಷ್ಠೇ ವಾಮೇ ಚ ದಕ್ಷಿಣೇ । ಸರ್ವತ್ರ ಸಹ ತೈರ್ವಾಸೋ ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ ॥೨೪॥"
+      },
+      "independent_comparison": {
+        "key": "1.12.24",
+        "original_printed_page": 31,
+        "original_reading": "गाणपत्यास्ते",
+        "google_page_id": "PT284",
+        "google_reading": "गाणपत्याः स्युः",
+        "sanskritdocuments_pdf_physical_page": 59,
+        "sanskritdocuments_printed_pdf_page": 58,
+        "sanskritdocuments_reading": "गाणपत्यास्ते",
+        "sanskritdocuments_url": "https://sanskritdocuments.org/doc_purana/mudgalapurANam1.pdf#page=59",
+        "rendered_crop_bbox_xyxy": [
+          160,
+          95,
+          650,
+          160
+        ],
+        "rendered_page_dimensions": [
+          840,
+          1191
+        ],
+        "recommendation": "Retain current ಗಾಣಪತ್ಯಾಸ್ತೇ. Original and SanskritDocuments agree; Google wording differs. Existing interpretation hold remains.",
+        "new_replacement_proposal": null,
+        "accepted_new_replacement": null,
+        "user_uploaded_OCR": {
+          "page_marker": 31,
+          "exact_reading": "अग्रे मे गाणपत्यास्ते",
+          "status": "derivative OCR, not independent witness or printed-glyph evidence"
+        },
+        "google_verified_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT284#v=onepage&q=%E0%A4%97%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A5%88%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B5%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A4%BF&f=false"
+      },
+      "prior_registry_status": "partial_corroboration_edition_difference_retained",
+      "prior_current_translation_review": {
+        "review_file": "translation/khanda1-ch11-ch13-writer-review.json",
+        "review_sha256": "f9df1c6782080f1233955ee9a1144fb9e6c58661f376a2e39dfbb74f7ea25ad5",
+        "source_sanskrit": "अग्रे मे गाणपत्यास्ते पृष्ठे वामे च दक्षिणे । सर्वत्र सह तैर्वासो गाणपत्यैर्भवत्विति ॥२४॥",
+        "new_row": {
+          "source_pages": "44",
+          "type": "mantra",
+          "text": "ಅಗ್ರೇ ಮೇ ಗಾಣಪತ್ಯಾಸ್ತೇ ಪೃಷ್ಠೇ ವಾಮೇ ಚ ದಕ್ಷಿಣೇ । ಸರ್ವತ್ರ ಸಹ ತೈರ್ವಾಸೋ ಗಾಣಪತ್ಯೈರ್ಭವತ್ವಿತಿ ॥೨೪॥"
+        },
+        "issues": [
+          {
+            "status": "open",
+            "kind": "transcription_only_interpretation_not_adjudicated",
+            "reading": null,
+            "token": "अग्रे मे गाणपत्यास्ते पृष्ठे वामे च दक्षिणे । सर्वत्र सह तैर्वासो गाणपत्यैर्भवत्विति ॥२४॥",
+            "detail": "Original clearly has गाणपत्यास्ते and गाणपत्यैर्भवत्विति. Restore these two minimal spans. Do not introduce the historical romanization omission in gāṇaptya; original includes पत्य. No separate doctrinal gloss proposed."
+          }
+        ],
+        "review_status": "accepted_transliteration_with_meaning_hold",
+        "current_wording_source_verified": true,
+        "unrendered_source_tokens": [],
+        "interpretive_gloss_concerns": []
+      },
+      "prior_latest_source_corroboration": {
+        "review_file": "translation/khanda1-ch12-Google-comparison.json",
+        "review_sha256": "7a575afdca925596814d15ce8de880510d8ac2376206564b4482af525d5e5d9b",
+        "scope": "partial_applied_spans",
+        "reference_source": {
+          "provider": "Google Books rendered Sanskrit capture;cloud navigation and independent saved-pixel review;Mac capture pixels separately inspected",
+          "book_id": "Lh0FEQAAQBAJ",
+          "page_id": "PT284",
+          "page_url": "https://books.google.co.in/books?id=Lh0FEQAAQBAJ&lpg=PT182&pg=PT284#v=onepage&q=%E0%A4%97%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A5%88%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B5%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A4%BF&f=false",
+          "crop_file": "translation/source-review-addenda/khanda1-ch12-Google-comparison/google-captures/12-24.jpg",
+          "crop_sha256": "3875c5bfbf8770044e7b11dc7c07ae3aefb905c332d7bd23a177491f37596fb8"
+        },
+        "retained_review_issues": [
+          {
+            "status": "open",
+            "kind": "transcription_only_interpretation_not_adjudicated",
+            "reading": null,
+            "token": "अग्रे मे गाणपत्यास्ते पृष्ठे वामे च दक्षिणे । सर्वत्र सह तैर्वासो गाणपत्यैर्भवत्विति ॥२४॥",
+            "detail": "Original clearly has गाणपत्यास्ते and गाणपत्यैर्भवत्विति. Restore these two minimal spans. Do not introduce the historical romanization omission in gāṇaptya; original includes पत्य. No separate doctrinal gloss proposed."
+          }
+        ],
+        "additional_source_holds": [
+          "Original गाणपत्यास्ते versus Google गाणपत्याः स्युः. Both actual printed forms are clear. Retain current original-based Kannada; no silent edition harmonization. Interpretation hold retained."
+        ],
+        "whole_verse_correctness_certified": false,
+        "meaning_certified": false,
+        "new_text_change": null,
+        "source_disagreement": {
+          "original": "गाणपत्यास्ते",
+          "Google": "गाणपत्याः स्युः"
+        }
+      },
+      "original_source": {
+        "archive_sha256": "aebc8cc0aa44db889b98b63dad6e93263aaaeca0a50fdbcb4522f35b9c898193",
+        "member": "Page Images/page_0031.png",
+        "file": "translation/source-review-addenda/khanda1-ch11-ch13/original-and-input/original-page_0031.png",
+        "sha256": "95a77b9294e192b58a558f6ac9646ce2528f0591d6dcd00261ef4d7d24a30e42",
+        "printed_page": 31,
+        "bbox_xyxy": null,
+        "coordinate_scope": "Full archive-identical page; focused receipt crop has no independently supplied original pixel bbox. No bbox guessed."
+      },
+      "target_crops": [
+        {
+          "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/12-24.png",
+          "sha256": "81fd26df0604ab2b5b243855c5f48dfe6f5bd92844aef7ccc7e51d203c2e7f5b"
+        },
+        {
+          "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/12-24.jpg",
+          "sha256": "3875c5bfbf8770044e7b11dc7c07ae3aefb905c332d7bd23a177491f37596fb8"
+        },
+        {
+          "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/12-24.png",
+          "sha256": "4847e008281420836c099b2be98e8a75bacac229a63b5bd1d9aea6f67d3b45fe"
+        }
+      ],
+      "Mac_original_page_bytes_archive_identical": true,
+      "Mac_supplied_crops_pixels_inspected": true,
+      "OCR_full_bytes_independently_reverified_on_Mac": false,
+      "OCR_verification_scope": "Independent reviewer reports full uploaded OCR hash verified;Mac preserves exact receipt fragments and provenance only.",
+      "new_text_change": null,
+      "accepted_new_replacement": null,
+      "accepted_translation": null,
+      "hold_retained": true,
+      "whole_verse_correctness_certified": false,
+      "meaning_certified": false,
+      "underlying_SanskritDocuments_edition_identified": false,
+      "independent_witness_status_established": false,
+      "majority_vote_used": false,
+      "base_scan_misreading_established": false
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/adjudication.json",
+      "sha256": "a50d4abe5c616a205dacfad20b8d7fda960fb2663853fedf994550c0354f9a9d"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/checksums.json",
+      "sha256": "f48a1064100a970faf38c3d5d28e575b9230d97d45c8e05d25846934382ea5d5"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/12-24.jpg",
+      "sha256": "3875c5bfbf8770044e7b11dc7c07ae3aefb905c332d7bd23a177491f37596fb8"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/21-41.jpg",
+      "sha256": "f84cd23b0637b695d2a927e1980349f418f4bc1543e3667665d3f2411e1c9a6b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/21-45.jpg",
+      "sha256": "3ecdc2e4b8f9c4db97e9b3c9c72df35e0e9564c047fedc396b43dbdcd3138808"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/28-18.jpg",
+      "sha256": "d6d863be645d2e137e9239472780dcebe36250a1bca409c4be246dc79ba3912e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/8-46.jpg",
+      "sha256": "985f133b38053e799b4c804c34e9b86d5d23dc024c68221264e84aac2a658989"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/google-crops/8-54.jpg",
+      "sha256": "94e8793d64bee03955be9ac4640dc7184638799b074528c0e152e44e63fe5977"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/12-24.png",
+      "sha256": "81fd26df0604ab2b5b243855c5f48dfe6f5bd92844aef7ccc7e51d203c2e7f5b"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/21-41.png",
+      "sha256": "99ad8103c2b6088be28c8719d780641e607299fae1efe18b078f64ff3674d463"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/21-45.png",
+      "sha256": "69ae78da04453c60df023aa443671086c674542c33c202d13f58f5cb3f2307c0"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/28-18.png",
+      "sha256": "93d0365c1a3309a23207dca7c650d72abcbfb3ca459313e8d7bd222f0ad61c70"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/8-46.png",
+      "sha256": "f00c7c3ae868dbe4eca155f22ac4de45df8273154728c089b28161ec2282496a"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/8-54.png",
+      "sha256": "d082e2e11d8d13a1c47175ab4fd4e9d2e9077e5dcdeb529a1e6ad6087b0c0921"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/base-dhamne-control.png",
+      "sha256": "ca4f237f0f5f1fd07fed3438102cd2afc4c34cc36792892ad5731b7fde927596"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/original-crops/base-dhatre-control.png",
+      "sha256": "db5af564ad43f91b24633c22579c2f7884bfdffbdd2196dbc3ecb3a273c13e95"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/report.md",
+      "sha256": "0fc6066f798a10095db6283dae09beaaf4bba6e958f6ee7c71ed79a5fdd9356e"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/12-24.png",
+      "sha256": "4847e008281420836c099b2be98e8a75bacac229a63b5bd1d9aea6f67d3b45fe"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/21-41.png",
+      "sha256": "19227ee25babdae9cfa40dea32c84617925ed3f9c2c6003534c58231c0e080e9"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/21-45.png",
+      "sha256": "e626ec3cbd96885d2ad96a7bbeb4a9095a94634e85541b7612c0dfc596da62dc"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/28-18.png",
+      "sha256": "87cf4b14e99b793d1b7f8f34e62e24b5ed889564cc235d60a5c2a857acedc3a3"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/8-46.png",
+      "sha256": "1a1e1e8a529f22362d927734aa07878d9b0694f5e4e3b703902d16581f1138fe"
+    },
+    {
+      "file": "translation/source-review-addenda/khanda1-four-reference-held-comparisons/sanskritdocuments-crops/8-54.png",
+      "sha256": "e726e90bae040b4512cfd310798ff9e8b7024914f39d993b51551084b4095000"
+    }
+  ],
+  "new_text_changes": 0,
+  "whole_chapter_validation": false,
+  "four_references_are_four_independent_witnesses": false,
+  "full_SanskritDocuments_book_or_full_OCR_published": false,
+  "modern_English_used_as_textual_or_grammatical_source": false,
+  "paid_calls": 0
+}
