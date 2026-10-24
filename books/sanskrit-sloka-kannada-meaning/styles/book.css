@@ -78,3 +78,14 @@ p[lang="sa-Knda"], .meaning .sanskrit-verse {
   th, td { border-bottom-color: #66584b; }
 }
 .frontmatter p, .chapter p, .frontmatter h1, .frontmatter th, .frontmatter td:nth-child(2) { overflow-wrap: anywhere; }
+
+.verse-group { margin: 36px 0 56px; }
+.group-slokas .unit { margin-bottom: 12px; }
+.entry-text { min-width: 0; }
+.group-divider { border: 0; border-top: 1px solid #cbb9a0; margin: 20px 0 24px; }
+.group-meanings p[lang="kn"] { color: #3d3027; line-height: 1.9; }
+.partial-label { display: block; font-size: 13px; margin-bottom: 18px; }
+@media (prefers-color-scheme: dark) {
+  .group-divider { border-top-color: #66584b; }
+  .group-meanings p[lang="kn"] { color: #f1e6d2; }
+}

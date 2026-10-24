@@ -2,6 +2,7 @@
 """Build web, standalone HTML and EPUB 3 from one ordered manifest (stdlib only)."""
 from pathlib import Path
 import base64
+import copy
 import html
 import json
 import mimetypes
@@ -36,6 +37,66 @@ def document(title, body, stylesheet='styles/book.css', language='kn'):
             f'</head><body>{body}</body></html>')
 
 
+def reader_document(section):
+    """Keep canonical verse/meaning pairs; arrange reader groups by stable IDs."""
+    original = safe_path(section['file']).read_bytes()
+    groups = section.get('reading_groups')
+    if groups is None:
+        return original
+    tree = ET.fromstring(original)
+    q = lambda tag: '{' + NS['h'] + '}' + tag
+    main = tree.find('.//h:main', NS)
+    parents = {child: parent for parent in main.iter() for child in parent}
+    units = [u for u in main.findall('.//h:div[@data-unit]', NS)
+             if re.fullmatch(re.escape(section['id']) + r'-v\d{3}', u.get('id', ''))]
+    verse_ids = [u.get('id') for u in units]
+    assert verse_ids and verse_ids == sorted(set(verse_ids)), 'Canonical verse IDs must be unique and ordered'
+    grouped_ids = [verse_id for group in groups for verse_id in group['verses']]
+    assert grouped_ids == verse_ids, 'Reading groups must cover each verse ID exactly once in source order'
+    assert all(len(g['verses']) == 3 for g in groups[:-1]) and 1 <= len(groups[-1]['verses']) <= 3, 'Reading groups must contain three verses except the final group'
+    group_ids = [g['id'] for g in groups]
+    original_ids = {e.get('id') for e in main.iter() if e.get('id')}
+    assert len(group_ids) == len(set(group_ids)) and not set(group_ids) & original_ids, 'Duplicate reading group ID'
+    by_id = {u.get('id'): u for u in units}
+    for group in groups:
+        original_units = [by_id[verse_id] for verse_id in group['verses']]
+        container = parents[original_units[0]]
+        assert all(parents[u] is container for u in original_units), 'A reading group crosses source containers'
+        start, end = (u.get('data-unit').removesuffix('-fragment') for u in (original_units[0], original_units[-1]))
+        label = ('ಶ್ಲೋಕಗಳು ' + start + '–' + end).translate(str.maketrans('0123456789', '೦೧೨೩೪೫೬೭೮೯'))
+        wrapper = ET.Element(q('section'), {'class': 'verse-group', 'id': group['id'], 'data-verse-ids': ' '.join(group['verses']), 'aria-label': label})
+        slokas = ET.SubElement(wrapper, q('div'), {'class': 'group-slokas'})
+        ET.SubElement(wrapper, q('hr'), {'class': 'group-divider'})
+        meanings = ET.SubElement(wrapper, q('div'), {'class': 'group-meanings'})
+        for verse_id, unit in zip(group['verses'], original_units):
+            pair = unit.find('h:div[@class="verse-pair"]', NS)
+            paragraphs = list(pair) if pair is not None else []
+            assert [p.get('lang') for p in paragraphs] == ['sa-Knda', 'kn'], 'Verse/meaning mapping requires exactly one sloka and one meaning'
+            number = str(int(verse_id.rsplit('-v', 1)[1]))
+            assert unit.get('data-unit').removesuffix('-fragment') == number, 'Verse number does not match its stable ID'
+            expected_number = number.translate(str.maketrans('0123456789', '೦೧೨೩೪೫೬೭೮೯'))
+            expected_label = expected_number + ('…' if unit.get('data-fragment') == 'true' else '')
+            assert unit.find('h:div[@class="num"]', NS).text == expected_label, 'Displayed verse number does not match its stable ID'
+            assert unit.get('data-fragment') == 'true' or ''.join(paragraphs[0].itertext()).endswith('॥' + expected_number + '॥'), 'Sloka ending number does not match its stable ID'
+            for is_meaning, block, paragraph in ((False, slokas, paragraphs[0]), (True, meanings, paragraphs[1])):
+                attrs = ({'class': 'unit meaning-entry', 'id': verse_id + '-meaning', 'data-meaning-for': verse_id}
+                         if is_meaning else dict(unit.attrib, **{'class': 'unit sloka-entry', 'data-verse-id': verse_id}))
+                row = ET.SubElement(block, q('div'), attrs)
+                row.append(copy.deepcopy(unit.find('h:div[@class="num"]', NS)))
+                content = ET.SubElement(row, q('div'), {'class': 'entry-text'})
+                content.append(copy.deepcopy(paragraph))
+                if (is_meaning and int(unit.get('data-unit').removesuffix('-fragment')) in section.get('coverage', {}).get('meaning_gaps', [])
+                        and not paragraph.findall('.//h:abbr[@class="reading-uncertain"]', NS)):
+                    ET.SubElement(content, q('abbr'), {'class': 'reading-uncertain', 'title': 'ಅರ್ಥದ ದೃಢೀಕರಣ ಬಾಕಿ'}).text = '†'
+                if unit.get('data-fragment') == 'true':
+                    ET.SubElement(content, q('span'), {'class': 'partial-label'}).text = 'ಅಪೂರ್ಣ'
+        for unit in original_units:
+            container.remove(unit)
+        container.append(wrapper)
+    ET.register_namespace('', NS['h'])
+    return ET.tostring(tree, encoding='utf-8', xml_declaration=True)
+
+
 def build():
     m = json.loads((ROOT / 'book.json').read_text(encoding='utf-8'))
     chapters = m['chapters']
@@ -61,6 +122,7 @@ def build():
                 if ref and not ref.startswith(('#', 'https:', 'http:', 'data:')):
                     target = (safe_path(c['file']).parent / ref.split('#')[0]).resolve()
                     assert target.is_relative_to(ROOT) and target.is_file(), f'Broken asset: {ref}'
+    rendered = {c['file']: reader_document(c) for c in sources}
     out = ROOT / 'dist'
     if out.exists():
         shutil.rmtree(out)
@@ -68,6 +130,8 @@ def build():
     web.mkdir(parents=True)
     for folder in ('assets', 'styles', 'chapters', 'frontmatter'):
         shutil.copytree(ROOT / folder, web / folder)
+    for c in sources:
+        (web / c['file']).write_bytes(rendered[c['file']])
     esc = html.escape
     toc = ''.join(f'<li><a href="{esc(c["file"])}">{esc(c["title"])}</a></li>' for c in reading_sections)
     cover = f'<section class="cover" id="cover" aria-label="{esc(m["title"])}"><img src="{m["cover"]}" width="1024" height="1536" alt="{esc(m["title"])}"/></section>'
@@ -77,7 +141,7 @@ def build():
     content = ''
     web_content = ''
     for c in reading_sections:
-        main = ET.parse(safe_path(c['file'])).find('.//h:main', NS)
+        main = ET.fromstring(rendered[c['file']]).find('.//h:main', NS)
         ET.register_namespace('', NS['h'])
         fragment = ET.tostring(main, encoding='unicode').replace('<main ', '<section ', 1).replace('</main>', '</section>')
         def embed_reference(match):
@@ -123,7 +187,7 @@ def build():
         z.writestr('EPUB/nav.xhtml', document('Contents', epub_nav, language='en'))
         z.writestr('EPUB/cover.xhtml', document(m['title'], cover))
         for c in reading_sections:
-            z.write(safe_path(c['file']), 'EPUB/' + c['file'])
+            z.writestr('EPUB/' + c['file'], rendered[c['file']])
         for p in resources:
             z.write(p, 'EPUB/' + p.relative_to(ROOT).as_posix())
         z.write(ROOT / 'assets/fonts/TiroKannada-OFL.txt', 'EPUB/assets/fonts/TiroKannada-OFL.txt')
