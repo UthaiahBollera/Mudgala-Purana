@@ -14,6 +14,12 @@ import zipfile
 ROOT = Path(__file__).resolve().parent
 NS = {'h': 'http://www.w3.org/1999/xhtml'}
 
+# EPUB font media types must not depend on the build host's MIME database.
+mimetypes.add_type('font/ttf', '.ttf')
+mimetypes.add_type('font/otf', '.otf')
+mimetypes.add_type('font/woff', '.woff')
+mimetypes.add_type('font/woff2', '.woff2')
+
 
 def safe_path(value):
     path = (ROOT / value).resolve()
