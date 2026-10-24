@@ -5,7 +5,7 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-24T05:00:00Z",
+  "modified": "2026-10-24T05:39:33Z",
   "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
@@ -25,7 +25,7 @@
       "coverage": {
         "last_verse": 47,
         "last_verse_complete": false,
-        "last_verse_visible_text": "कुत्र",
+        "last_verse_visible_text": "ಕುತ್ರ",
         "source_complete_verse_span": [
           1,
           46
@@ -41,6 +41,13 @@
         25,
         31,
         38,
+        40,
+        46
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        10,
+        25,
+        32,
         40,
         46
       ]
@@ -159,5 +166,7 @@
       14,
       15
     ]
-  }
+  },
+  "sanskrit_script": "Knda",
+  "sanskrit_devanagari_archive": "review/sanskrit-devanagari-source.json"
 }

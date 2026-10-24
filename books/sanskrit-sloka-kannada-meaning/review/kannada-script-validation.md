@@ -1,0 +1,16 @@
+# Kannada-script Sanskrit verification
+
+Scope: only existing published user-supplied PDF pages1–15. Sanskrit language is unchanged; only writing system changes. Chapter1 retains1–46 plus only the visible opening word47. Verse21 remains joined once across PDF14–15. Five unresolved clusters in10,25,32,40,46 and existing Kannada uncertainty markers are preserved.
+
+## Source retention and conversion
+Original Devanagari is retained in `review/sanskrit-devanagari-source.json`, with file, paragraph index, stable ID, exact Devanagari, and Kannada-script counterpart for all55 Sanskrit paragraphs (48 chapter entries including invocation/fragment, and7 devotional paragraphs). It is excluded from web/EPUB outputs. Source scan assets remain retained and all8 textual scan wrappers remain hidden. Cover and5 devotional artworks remain visible and unchanged.
+
+Tool: indic-transliteration2.3.82, Devanagari→Kannada scheme, without schwa deletion or phonetic normalization. Upstream: https://github.com/indic-transliteration/indic_transliteration_py . All55 paragraphs round-trip exactly Kannada→Devanagari. An independent Unicode mapping comparison matches every character, separately handling Om as ಓಂ and preserving common danda punctuation. Neither method fills unresolved characters or changes Sanskrit words. All paragraph outputs were read against saved Devanagari; special checks include short/long vowels, vocalicṛ, aspiration, dental/retroflex consonants, conjuncts, anusvara, visarga, avagraha and verse numerals. Existing unusual source spellings remain unchanged; no Kannada word translation replaces Sanskrit.
+
+Examples checked: ध्याये→ಧ್ಯಾಯೇ; स्थिरेण→ಸ್ಥಿರೇಣ; बुद्धिप्रकाशकं→ಬುದ್ಧಿಪ್ರಕಾಶಕಂ; हृदि→ಹೃದಿ; सगुणस्तु→ಸಗುಣಸ್ತು; कृतार्थोऽहं→ಕೃತಾರ್ಥೋಽಹಂ; प्राञ्जलिः→ಪ್ರಾಞ್ಜಲಿಃ; साष्टाङ्गं→ಸಾಷ್ಟಾಙ್ಗಂ; भक्तसंरक्षणार्थाय→ಭಕ್ತಸಂರಕ್ಷಣಾರ್ಥಾಯ; कुत्र→ಕುತ್ರ. Actual Sanskrit anusvara and explicit nasal conjuncts remain distinct; no standardization of ನ್ದ to ಂದ or ಙ್ಗ to ಂಗ.
+
+## Reader layout
+Each Sanskrit paragraph is `lang="sa-Knda"`/`xml:lang="sa-Knda"`; Kannada meaning is separate `lang="kn"`, directly below. Kannada Tiro font is bundled. Restrained maroon verse color and larger type/spacing distinguish the sloka without depending on color alone. Dark-theme rules use light warm verse/text colors against dark backgrounds. Responsive text wraps rather than clipping long Sanskrit compounds. No extra explanatory labels are added to reading pages.
+
+## Validation results
+Nine regression checks pass. EPUBCheck5.4.0 reports zero errors/warnings. Chrome checks pass at320/375/768/1100px in light and dark themes, plus200% layout zoom at1100px:55 Sanskrit paragraphs in Kannada script;48 ordered chapter pairs; zero clipped slokas; zero horizontal overflow; bundled Kannada font loaded; selectable text;15 source-page sections; one joined verse21;47 is only ಕುತ್ರ; five uncertainty clusters preserved. Cover plus5 artworks visible;8 text scans hidden. Light-theme contrast9.39:1 verse/12.23:1 meaning; dark8.49:1 verse/12.37:1 meaning. Narrow contents-table headings now wrap rather than pushing the page sideways. Mobile and desktop screenshots visually inspected for glyph shaping, spacing and verse/meaning distinction. Validation tests the generated EPUB structure and web rendering, not every third-party EPUB reader's theme overrides.

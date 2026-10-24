@@ -81,17 +81,39 @@ class BookBuildTest(unittest.TestCase):
         self.assertEqual([u.get('data-unit') for u in units], ['ಆವಾಹನೆ'] + [str(n) for n in range(1,47)] + ['47-fragment'])
         for u in units:
             pair = u.find('h:div[@class="verse-pair"]', ns)
-            self.assertEqual([p.get('lang') for p in pair], ['sa-Deva', 'kn'])
+            self.assertEqual([p.get('lang') for p in pair], ['sa-Knda', 'kn'])
             self.assertTrue(''.join(pair[0].itertext()).strip())
             self.assertTrue(''.join(pair[1].itertext()).strip())
         v21 = root.find('.//h:div[@id="kh01-ch001-v021"]', ns)
         self.assertEqual(v21.get('data-source-pdf-pages'), '14 15')
-        self.assertIn('भवसागरात्', ''.join(v21.itertext()))
+        self.assertIn('ಭವಸಾಗರಾತ್', ''.join(v21.itertext()))
         self.assertIn('ಭವಸಾಗರದಿಂದ', ''.join(v21.itertext()))
-        self.assertEqual(''.join(units[-1].find('h:div[@class="verse-pair"]/h:p', ns).itertext()), 'कुत्र')
+        self.assertEqual(''.join(units[-1].find('h:div[@class="verse-pair"]/h:p', ns).itertext()), 'ಕುತ್ರ')
         self.run_build()
         with zipfile.ZipFile(self.root / 'dist/mudgala-preview.epub') as z:
             self.assertIn('EPUB/assets/fonts/TiroDevanagariSanskrit-Regular.ttf', z.namelist())
+
+    def test_kannada_script_archive_and_uncertainties(self):
+        import re
+        ns = {'h': 'http://www.w3.org/1999/xhtml'}
+        archive = json.loads((self.root / 'review/sanskrit-devanagari-source.json').read_text())
+        self.assertEqual(len(archive['entries']), 55)
+        for item in archive['entries']:
+            paragraphs = ET.parse(self.root / item['file']).findall('.//h:p', ns)
+            p = paragraphs[item['paragraph'] - 1]
+            self.assertEqual(p.get('lang'), 'sa-Knda')
+            self.assertEqual(p.get('{http://www.w3.org/XML/1998/namespace}lang'), 'sa-Knda')
+            self.assertEqual(''.join(p.itertext()), item['kannada'])
+            # Sanskrit letters/numerals must be Kannada; danda remains shared punctuation.
+            self.assertIsNone(re.search('[\u0900-\u0963\u0966-\u097f]', ''.join(p.itertext())))
+            self.assertEqual(item['devanagari'].count('⟦…⟧'), item['kannada'].count('⟦…⟧'))
+        chapter = ET.parse(self.root / 'chapters/khanda-01/chapter-001.xhtml')
+        unclear = chapter.findall('.//h:p[@data-reading-uncertain="true"]', ns)
+        self.assertEqual(len(unclear), 5)
+        self.assertEqual([e['id'] for e in archive['entries'] if '⟦…⟧' in e['devanagari']], [f'kh01-ch001-v{n:03}' for n in (10,25,32,40,46)])
+        self.run_build()
+        with zipfile.ZipFile(self.root / 'dist/mudgala-preview.epub') as z:
+            self.assertNotIn('EPUB/review/sanskrit-devanagari-source.json', z.namelist())
 
     def test_frontmatter_order_rejected(self):
         self.manifest(lambda m: m['frontmatter'].reverse())
