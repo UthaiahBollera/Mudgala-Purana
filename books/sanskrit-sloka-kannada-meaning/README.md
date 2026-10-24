@@ -1,6 +1,6 @@
 # Mudgala Purana: Sanskrit sloka + Kannada meaning
 
-This separate book contains the cover and empty chapter content. The existing approved Kannada v5 cover is reused unchanged.
+This separate book contains the approved cover and translated front matter from source PDF pages 1–5. Scripture chapters remain empty. The existing approved Kannada v5 cover is reused unchanged.
 
 ## Build
 
@@ -39,3 +39,10 @@ java -jar /path/to/epubcheck.jar books/sanskrit-sloka-kannada-meaning/dist/mudga
 Preview status does not constitute a claim of complete EPUB accessibility conformance. No scripture text has yet been selected for typography or reading-order review.
 
 First scaffold verification: W3C EPUBCheck 5.4.0 passed with 0 errors and 0 warnings. Desktop (1100px) and mobile (390px) browser checks verified the embedded font and cover, no horizontal overflow, empty content, chapter anchor, web chapter navigation and return to contents. Sanskrit glyph rendering remains pending the script selection and actual text.
+
+
+## Published front matter
+
+The first five PDF pages of the supplied `1 TO 25.pdf` are now registered in `frontmatter`, in PDF order: devotional opening, five devotional sayings and three source-edition contents pages. Their 191 entries are source contents only; they do not create or link to translated scripture chapters. The chapter-1 scaffold remains excluded with `include: false` until real chapter content is authorized. Front-matter sources live under `frontmatter/`; shared source-image strips preserve uncertain fine marks without guessing a Unicode reading. Kannada meanings remain separate text. `review/first-five-validation.md` is repository-only provenance and is never copied into reading output.
+
+The reader contains the approved cover followed directly by the five translated source pages. No source-PDF mapping headers, review commentary, download links or navigation chrome are displayed. The EPUB file remains available at its established direct URL. The manifest and hidden EPUB navigation retain ordering and titles.

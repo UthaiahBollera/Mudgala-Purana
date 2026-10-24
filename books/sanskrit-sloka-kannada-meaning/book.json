@@ -5,8 +5,8 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-24T00:00:00Z",
-  "status": "blank",
+  "modified": "2026-10-24T05:00:00Z",
+  "status": "frontmatter",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
   "chapters": [
@@ -16,7 +16,56 @@
       "number": 1,
       "title": "Khanda 1 · Chapter 1",
       "file": "chapters/khanda-01/chapter-001.xhtml",
-      "status": "blank"
+      "status": "blank",
+      "include": false
     }
-  ]
+  ],
+  "frontmatter": [
+    {
+      "id": "fm-devotional-opening",
+      "title": "ಮಂಗಳಾಚರಣೆ",
+      "file": "frontmatter/01-devotional-opening.xhtml",
+      "source_pdf_page": 1,
+      "status": "translated"
+    },
+    {
+      "id": "fm-devotional-sayings",
+      "title": "ಮಂಗಳವಚನಗಳು",
+      "file": "frontmatter/02-devotional-sayings.xhtml",
+      "source_pdf_page": 2,
+      "status": "translated"
+    },
+    {
+      "id": "fm-contents-part-1",
+      "title": "ವಿಷಯ ಸೂಚಿ — ಭಾಗ ೧",
+      "file": "frontmatter/03-contents-part-1.xhtml",
+      "source_pdf_page": 3,
+      "status": "translated"
+    },
+    {
+      "id": "fm-contents-part-2",
+      "title": "ವಿಷಯ ಸೂಚಿ — ಭಾಗ ೨",
+      "file": "frontmatter/04-contents-part-2.xhtml",
+      "source_pdf_page": 4,
+      "status": "translated"
+    },
+    {
+      "id": "fm-contents-part-3",
+      "title": "ವಿಷಯ ಸೂಚಿ — ಭಾಗ ೩",
+      "file": "frontmatter/05-contents-part-3.xhtml",
+      "source_pdf_page": 5,
+      "status": "translated"
+    }
+  ],
+  "source": {
+    "filename": "1 TO 25.pdf",
+    "sha256": "00dc9890c76c3845d228055b1695908f8b3f12415244bda829885cf6c6896391",
+    "pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
 }

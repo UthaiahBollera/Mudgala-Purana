@@ -39,32 +39,41 @@ class BookBuildTest(unittest.TestCase):
             self.assertEqual(z.infolist()[0].compress_type, zipfile.ZIP_STORED)
             opf = ET.fromstring(z.read('EPUB/package.opf'))
             ns = {'o': 'http://www.idpf.org/2007/opf'}
-            self.assertEqual([n.get('idref') for n in opf.findall('o:spine/o:itemref', ns)], ['cover', 'kh01-ch001'])
+            self.assertEqual([n.get('idref') for n in opf.findall('o:spine/o:itemref', ns)], ['cover', 'fm-devotional-opening', 'fm-devotional-sayings', 'fm-contents-part-1', 'fm-contents-part-2', 'fm-contents-part-3'])
             for n in opf.findall('o:manifest/o:item', ns):
                 self.assertIn('EPUB/' + n.get('href'), z.namelist())
-            self.assertEqual(z.read('EPUB/chapters/khanda-01/chapter-001.xhtml'), (self.root / 'chapters/khanda-01/chapter-001.xhtml').read_bytes())
+            self.assertNotIn('EPUB/chapters/khanda-01/chapter-001.xhtml', z.namelist())
+            self.assertEqual(z.read('EPUB/frontmatter/01-devotional-opening.xhtml'), (self.root / 'frontmatter/01-devotional-opening.xhtml').read_bytes())
         standalone = (self.root / 'dist/mudgala-preview.html').read_text()
         self.assertIn('ಮುದ್ಗಲ ಪುರಾಣ', standalone)
         self.assertIn('data:image/png;base64,', standalone)
         self.assertIn('data:font/ttf;base64,', standalone)
         self.assertNotIn('src="assets/', standalone)
 
-    def test_reader_has_only_cover_and_blank_content(self):
+    def test_frontmatter_coverage_and_no_reader_chrome(self):
         self.run_build()
         ns = {'h': 'http://www.w3.org/1999/xhtml'}
-        for name in ('dist/web/index.html', 'dist/mudgala-preview.html',
-                     'dist/web/chapters/khanda-01/chapter-001.xhtml'):
+        for name in ('dist/web/index.html', 'dist/mudgala-preview.html'):
             body = ET.parse(self.root / name).find('h:body', ns)
-            self.assertEqual(''.join(body.itertext()).strip(), '')
             self.assertEqual(body.findall('.//h:a', ns), [])
             self.assertEqual(body.findall('.//h:nav', ns), [])
-            self.assertNotIn('script choice', (self.root / name).read_text())
+            sections = body.findall('.//h:section[@data-source-pdf-page]', ns)
+            self.assertEqual([n.get('data-source-pdf-page') for n in sections], ['1', '2', '3', '4', '5'])
+            rows = body.findall('.//h:tr[@id]', ns)
+            self.assertEqual(len(rows), 191)
+            self.assertEqual([len(s.findall('.//h:tr[@id]', ns)) for s in sections], [0, 0, 65, 62, 64])
+            text = ''.join(body.itertext())
+            for forbidden in ('Structure preview', 'Download EPUB', 'script choice', 'Source PDF page', 'Khanda 1 · Chapter 1'):
+                self.assertNotIn(forbidden, text)
         with zipfile.ZipFile(self.root / 'dist/mudgala-preview.epub') as z:
             nav = ET.fromstring(z.read('EPUB/nav.xhtml')).find('.//h:nav', ns)
             self.assertEqual(nav.get('hidden'), 'hidden')
-            for name in z.namelist():
-                if name.endswith(('.xhtml', '.opf')):
-                    self.assertNotIn('Structure preview', z.read(name).decode())
+            self.assertNotIn('review', ''.join(z.namelist()))
+
+    def test_frontmatter_order_rejected(self):
+        self.manifest(lambda m: m['frontmatter'].reverse())
+        with self.assertRaisesRegex(AssertionError, 'source-page order'):
+            self.run_build()
 
     def test_duplicate_chapter_rejected(self):
         self.manifest(lambda m: m['chapters'].append(m['chapters'][0].copy()))
