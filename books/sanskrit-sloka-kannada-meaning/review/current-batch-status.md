@@ -8,6 +8,6 @@
 - Current approved layout: groups1–3,4–6,...,43–45,46–47(partial), with each group's numbered Kannada meanings below a divider. This is a layout-only change; wording and verse-to-meaning associations must not change.
 - All8 textual scan wrappers/assets remain retained and hidden; cover plus5 devotional artwork images remain visible.
 - No sourcePDF16+ transcription, translation, commit or publication is authorized by the current work. Stop at the current boundary until a new batch is explicitly requested and authorized.
-- Publication is approved for the existing pages1–15 content, the grouped-layout update and the scoped project `AGENTS.md`. Future content batches need their own publication authorization.
+- Publication is approved for the existing pages1–15 content, the grouped-layout update and the scoped project `AGENTS.md`. The user subsequently granted standing approval to push and publish future requested changes to this same new-book preview without asking again. A new content batch must still be requested; this does not authorize unrequested pages.
 
 Detailed checks: `sanskrit-text-validation.md`, `kannada-script-validation.md`, and `grouped-layout-validation.md`. Preserve historical reports rather than treating their older layout choices as current instructions.

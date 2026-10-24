@@ -28,7 +28,7 @@ These instructions apply to this new book directory. Preserve the existing origi
 ## Validation and publication
 
 - For every batch, verify source-page coverage, omissions/duplicates, verse order/numerals, exact Sanskrit/meaning mappings, transliteration fidelity, uncertainty markers, relative assets, fonts and rendered output. Run appropriate build/regression tests and EPUBCheck. Inspect desktop/mobile rendering and responsive layouts, including zoom.
-- Obtain explicit publication authorization for each new content batch. Translation approval alone does not authorize a commit, push or publication. Existing authorization applies only within its stated batch and scope.
+- The user has granted standing approval to commit, push and publish future requested changes to this new book at the same repository and preview path. Do not ask again for routine publication within that requested scope. This does not authorize unrequested content, unrelated repositories, deletion, destructive operations or bypassing a blocked action. Honor any later private/local-only restriction.
 - Publish only scoped new-book changes on the feature branch and the existing additive `/sanskrit-kannada/` Pages path. Preserve the old book/root and unrelated paths. Do not force push, broadly merge unrelated work, or change deployment settings without authorization.
 - Verify exact remote commit, CI/Pages success, live HTTP/rendered output and downloadable EPUB before claiming publication. Verify original-book preservation. Report actual blockers and saved work accurately.
 
@@ -37,6 +37,6 @@ These instructions apply to this new book directory. Preserve the existing origi
 - Devanagari reader-facing slokas were replaced by Kannada-script Sanskrit transliteration.
 - One sloka immediately followed by its meaning was replaced, for Chapter1, by groups of three slokas followed by the matching numbered meanings.
 - Development-preview disclaimers and visible text facsimiles were removed/hidden. Do not restore them during rebuilds.
-- Private-only restrictions were lifted only for the content batches explicitly approved for publication; this does not authorize future pages automatically.
+- Earlier requests for a separate publication confirmation for every batch are superseded by standing publication approval for future requested new-book changes. Unrequested future pages remain out of scope.
 
 Current coverage and unresolved readings belong in [review/current-batch-status.md](review/current-batch-status.md), rather than being inferred from contents entries or older plans.
