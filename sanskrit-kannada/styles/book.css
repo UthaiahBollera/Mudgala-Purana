@@ -4,9 +4,6 @@ body { margin: 0; color: #3d3027; background: #f4ead6; font-family: "Tiro Kannad
 a { color: #742d29; text-underline-offset: .2em; }
 a:focus-visible { outline: 3px solid #742d29; outline-offset: 4px; }
 .reader { max-width: 960px; margin: auto; padding: 24px; }
-.preview-status, .navigation { font-family: system-ui, sans-serif; font-size: 14px; }
-.preview-status { padding: 14px 18px; border: 1px solid #cdb997; border-radius: 8px; margin-bottom: 20px; }
-.navigation { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 20px 0; }
 h1 { font-size: clamp(24px, 5vw, 36px); font-weight: 400; }
 .cover { width: min(420px, 100%); margin: 24px auto; }
 .cover img { display: block; width: 100%; height: auto; }
@@ -14,6 +11,5 @@ h1 { font-size: clamp(24px, 5vw, 36px); font-weight: 400; }
 .chapter:empty { min-height: 70vh; }
 .chapter p { font-size: 19px; }
 [lang="sa"] { line-height: 2; }
-.chapter-label { font-family: system-ui, sans-serif; font-size: 16px; margin-top: 32px; }
 @media (max-width: 480px) { .reader { padding: 16px; } .chapter { padding: 20px; } }
-@media print { .preview-status, .navigation, .chapter-label { display: none; } .reader { padding: 0; } .cover, .chapter { break-after: page; } }
+@media print { .reader { padding: 0; } .cover, .chapter { break-after: page; } }
