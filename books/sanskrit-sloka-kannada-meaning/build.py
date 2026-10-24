@@ -67,7 +67,7 @@ def build():
     status = f'<aside class="preview-status" lang="en" aria-label="Preview status">{esc(m["status"])}</aside>'
     toc = ''.join(f'<li><a href="{esc(c["file"])}">{esc(c["title"])}</a></li>' for c in chapters)
     cover = f'<section class="cover" id="cover" aria-label="Cover"><img src="{m["cover"]}" width="1024" height="1536" alt="{esc(m["title"])}"/></section>'
-    home = document(m['title'], f'<main class="reader">{status}<h1>{esc(m["title"])}</h1><nav aria-label="Book navigation" lang="en"><ul><li><a href="#cover">Cover</a></li>{toc}</ul></nav>{cover}</main>')
+    home = document(m['title'], f'<main class="reader">{status}<h1>{esc(m["title"])}</h1><nav aria-label="Book navigation" lang="en"><ul><li><a href="#cover">Cover</a></li>{toc}<li><a href="mudgala-preview.epub" download="download">Download EPUB</a></li></ul></nav>{cover}</main>')
     (web / 'index.html').write_text(home, encoding='utf-8')
     # Web chapter navigation is generated; canonical chapter sources stay content-only.
     for i, c in enumerate(chapters):
@@ -124,6 +124,7 @@ def build():
         for p in resources:
             z.write(p, 'EPUB/' + p.relative_to(ROOT).as_posix())
         z.write(ROOT / 'assets/fonts/TiroKannada-OFL.txt', 'EPUB/assets/fonts/TiroKannada-OFL.txt')
+    shutil.copy2(out / 'mudgala-preview.epub', web / 'mudgala-preview.epub')
     print(f'Built {len(chapters)} ordered blank chapter(s): {out}')
 
 
