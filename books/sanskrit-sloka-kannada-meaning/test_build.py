@@ -183,7 +183,7 @@ class BookBuildTest(unittest.TestCase):
             self.assertTrue(all(g['boundary_rationale'].strip() for g in review['groups']))
         review = json.loads((self.root / m['chapters'][0]['grouping_review']).read_text())
         ranges = [g['verse_range'] for g in review['groups']]
-        for connected in ([18,21], [22,23], [26,28], [32,33], [34,35], [43,49], [58,59]):
+        for connected in ([18,21], [22,23], [26,28], [32,33], [34,35], [45,49], [58,59]):
             self.assertIn(connected, ranges)
         self.assertTrue(review['groups'][-1]['complete_available_thought'])
         self.assertGreater(len({len(g['verses']) for g in m['chapters'][0]['reading_groups']}), 1)

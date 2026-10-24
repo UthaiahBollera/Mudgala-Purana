@@ -35,7 +35,7 @@ These instructions apply to this new book directory. Preserve the existing origi
 ## Superseded choices
 
 - Devanagari reader-facing slokas were replaced by Kannada-script Sanskrit transliteration.
-- One-sloka/one-meaning display and the later fixed-three grouping are superseded by context-based groups with matching numbered meanings. Group size alone is never evidence of a meaningful boundary.
+- One-sloka/one-meaning display and the later fixed-three grouping are superseded by context-based groups with matching numbered meanings. Group size alone is never evidence of a meaningful boundary. Keep groups short enough to read comfortably, generally around2–5 where natural; split longer passages at complete subtopics. Any larger indivisible group needs a recorded rationale; never split a dependent sentence merely to meet a count.
 - Development-preview disclaimers and visible text facsimiles were removed/hidden. Do not restore them during rebuilds.
 
 Current coverage and unresolved readings belong in [review/current-batch-status.md](review/current-batch-status.md), rather than being inferred from contents entries or older plans.

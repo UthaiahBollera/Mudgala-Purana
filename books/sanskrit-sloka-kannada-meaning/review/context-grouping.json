@@ -1,5 +1,5 @@
 {
-  "status": "local integrated reviewed draft; not published",
+  "status": "Reviewed shorter context groups; publication requested; source readings unchanged.",
   "scope": "Supplied source through Chapter1 closing59; original uncertain readings remain unresolved.",
   "basis": "Manual review of the existing Kannada-script Sanskrit and matching Kannada paragraphs; original Devanagari archive available as secondary script reference. No new OCR, source text or conjectural completion.",
   "editorial_limit": "Context boundaries are proposed reading divisions, not traditional textual divisions or completed guru approval.",
@@ -243,7 +243,20 @@
       "id": "kh01-ch001-group-17",
       "verses": [
         "kh01-ch001-v043",
-        "kh01-ch001-v044",
+        "kh01-ch001-v044"
+      ],
+      "verse_range": [
+        43,
+        44
+      ],
+      "topic": "Shaunaka question and transition to Suta answer",
+      "boundary_rationale": "Separate the framing question43–44 from the examples and full request45–48 plus answer transition49; dependent list46–47 remains together.",
+      "complete_available_thought": true,
+      "readability_revision": "Natural subtopic split; scripture and individual meanings unchanged."
+    },
+    {
+      "id": "kh01-ch001-group-18",
+      "verses": [
         "kh01-ch001-v045",
         "kh01-ch001-v046",
         "kh01-ch001-v047",
@@ -251,15 +264,16 @@
         "kh01-ch001-v049"
       ],
       "verse_range": [
-        43,
+        45,
         49
       ],
       "topic": "Shaunaka question and transition to Suta answer",
-      "boundary_rationale": "The approved next source completes47 and48 closes the request for a single authoritative teaching. Verse49 introduces the answer; keep the full inquiry43–48 with this turn transition, ending before the explicit Suta speech at50. No missing part47 is inferred: it comes from supplied PDF16.",
-      "complete_available_thought": true
+      "boundary_rationale": "Separate the framing question43–44 from the examples and full request45–48 plus answer transition49; dependent list46–47 remains together.",
+      "complete_available_thought": true,
+      "readability_revision": "Natural subtopic split; scripture and individual meanings unchanged."
     },
     {
-      "id": "kh01-ch001-group-18",
+      "id": "kh01-ch001-group-19",
       "verses": [
         "kh01-ch001-v050",
         "kh01-ch001-v051",
@@ -276,7 +290,7 @@
       "complete_available_thought": true
     },
     {
-      "id": "kh01-ch001-group-19",
+      "id": "kh01-ch001-group-20",
       "verses": [
         "kh01-ch001-v055",
         "kh01-ch001-v056",
@@ -291,7 +305,7 @@
       "complete_available_thought": true
     },
     {
-      "id": "kh01-ch001-group-20",
+      "id": "kh01-ch001-group-21",
       "verses": [
         "kh01-ch001-v058",
         "kh01-ch001-v059"
