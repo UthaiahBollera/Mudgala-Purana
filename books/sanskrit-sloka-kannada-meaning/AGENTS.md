@@ -43,3 +43,9 @@ Read this AGENTS.md, the current coverage/uncertainty ledger and the [pre-batch 
 - Development-preview disclaimers and visible text facsimiles were removed/hidden. Do not restore them during rebuilds.
 
 Current coverage and unresolved readings belong in [review/current-batch-status.md](review/current-batch-status.md), rather than being inferred from contents entries or older plans.
+
+## Next.js reader and custom domain
+
+The `site/` app derives static, crawlable chapter pages from these same canonical sources. Keep scripture, numbered meaning associations, short context groups and uncertainty marks unchanged during site work. Rebuild shared EPUB from the existing generator; do not create a separate translation source. Preserve the original book and existing Pages deployment.
+
+The requested custom-domain target is `mudgalapurana.com`; earlier `mudugalpurana.com` was a typo. Keep canonical metadata, sitemap, robots and structured data consistent with the corrected host. Use truthful edition coverage, no invented author attribution or ranking/indexing guarantees. Verify actual deployment, domain/TLS and redirects separately before claiming live success.

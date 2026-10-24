@@ -1,0 +1,1 @@
+import {book,origin,chapterPath} from '../lib/book';export const dynamic='force-static';export default function sitemap(){return ['/', '/prarambha/',...book.chapters.map(chapterPath)].map(p=>({url:origin+p,lastModified:book.modified}));}
