@@ -127,6 +127,7 @@ def build():
         for p in resources:
             z.write(p, 'EPUB/' + p.relative_to(ROOT).as_posix())
         z.write(ROOT / 'assets/fonts/TiroKannada-OFL.txt', 'EPUB/assets/fonts/TiroKannada-OFL.txt')
+        z.write(ROOT / 'assets/fonts/TiroDevanagariSanskrit-OFL.txt', 'EPUB/assets/fonts/TiroDevanagariSanskrit-OFL.txt')
     shutil.copy2(out / 'mudgala-preview.epub', web / 'mudgala-preview.epub')
     print(f'Built {len(frontmatter)} front-matter section(s) and {sum(c.get('include', True) for c in chapters)} chapter(s): {out}')
 

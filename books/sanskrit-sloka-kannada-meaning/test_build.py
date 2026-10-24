@@ -64,7 +64,7 @@ class BookBuildTest(unittest.TestCase):
             rows = body.findall('.//h:tr[@id]', ns) + body.findall('.//h:tr[@data-key]', ns)
             self.assertEqual(len(rows), 372)
             self.assertEqual([len(s.findall('.//h:tr[@id]', ns)) + len(s.findall('.//h:tr[@data-key]', ns)) for s in sections], [0,0,65,62,64,63,61,57,0,0,0,0,0,0,0])
-            self.assertEqual(len(body.findall('.//h:div[@data-unit]', ns)),49)
+            self.assertEqual(len(body.findall('.//h:div[@data-unit]', ns)),48)
             self.assertEqual(len(body.findall('.//h:div[@data-fragment="true"]', ns)),1)
             text = ''.join(body.itertext())
             for forbidden in ('Structure preview', 'Download EPUB', 'script choice', 'Source PDF page', 'Khanda 1 · Chapter 1'):
@@ -73,6 +73,25 @@ class BookBuildTest(unittest.TestCase):
             nav = ET.fromstring(z.read('EPUB/nav.xhtml')).find('.//h:nav', ns)
             self.assertEqual(nav.get('hidden'), 'hidden')
             self.assertNotIn('review', ''.join(z.namelist()))
+
+    def test_sanskrit_kannada_pairing_and_split_verse(self):
+        ns = {'h': 'http://www.w3.org/1999/xhtml'}
+        root = ET.parse(self.root / 'chapters/khanda-01/chapter-001.xhtml')
+        units = root.findall('.//h:div[@data-unit]', ns)
+        self.assertEqual([u.get('data-unit') for u in units], ['ಆವಾಹನೆ'] + [str(n) for n in range(1,47)] + ['47-fragment'])
+        for u in units:
+            pair = u.find('h:div[@class="verse-pair"]', ns)
+            self.assertEqual([p.get('lang') for p in pair], ['sa-Deva', 'kn'])
+            self.assertTrue(''.join(pair[0].itertext()).strip())
+            self.assertTrue(''.join(pair[1].itertext()).strip())
+        v21 = root.find('.//h:div[@id="kh01-ch001-v021"]', ns)
+        self.assertEqual(v21.get('data-source-pdf-pages'), '14 15')
+        self.assertIn('भवसागरात्', ''.join(v21.itertext()))
+        self.assertIn('ಭವಸಾಗರದಿಂದ', ''.join(v21.itertext()))
+        self.assertEqual(''.join(units[-1].find('h:div[@class="verse-pair"]/h:p', ns).itertext()), 'कुत्र')
+        self.run_build()
+        with zipfile.ZipFile(self.root / 'dist/mudgala-preview.epub') as z:
+            self.assertIn('EPUB/assets/fonts/TiroDevanagariSanskrit-Regular.ttf', z.namelist())
 
     def test_frontmatter_order_rejected(self):
         self.manifest(lambda m: m['frontmatter'].reverse())
