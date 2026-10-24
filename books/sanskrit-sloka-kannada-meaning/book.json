@@ -6,7 +6,7 @@
     "sa"
   ],
   "modified": "2026-10-24T05:00:00Z",
-  "status": "frontmatter",
+  "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
   "chapters": [
@@ -14,10 +14,36 @@
       "id": "kh01-ch001",
       "khanda": 1,
       "number": 1,
-      "title": "Khanda 1 · Chapter 1",
+      "title": "ಪ್ರಥಮ ಖಂಡ — ಪ್ರಥಮ ಅಧ್ಯಾಯ",
       "file": "chapters/khanda-01/chapter-001.xhtml",
-      "status": "blank",
-      "include": false
+      "status": "partial",
+      "include": true,
+      "source_pdf_pages": [
+        14,
+        15
+      ],
+      "coverage": {
+        "last_verse": 47,
+        "last_verse_complete": false,
+        "last_verse_visible_text": "कुत्र",
+        "source_complete_verse_span": [
+          1,
+          46
+        ],
+        "meaning_gaps": [
+          38,
+          40
+        ]
+      },
+      "uncertain_verse_numbers": [
+        2,
+        9,
+        25,
+        31,
+        38,
+        40,
+        46
+      ]
     }
   ],
   "frontmatter": [
@@ -55,6 +81,62 @@
       "file": "frontmatter/05-contents-part-3.xhtml",
       "source_pdf_page": 5,
       "status": "translated"
+    },
+    {
+      "id": "fm-contents-part-4",
+      "title": "ವಿಷಯ ಸೂಚಿ — ಭಾಗ ೪",
+      "file": "frontmatter/06-contents-part-4.xhtml",
+      "source_pdf_page": 6,
+      "status": "translated"
+    },
+    {
+      "id": "fm-contents-part-5",
+      "title": "ವಿಷಯ ಸೂಚಿ — ಭಾಗ ೫",
+      "file": "frontmatter/07-contents-part-5.xhtml",
+      "source_pdf_page": 7,
+      "status": "translated"
+    },
+    {
+      "id": "fm-contents-part-6",
+      "title": "ವಿಷಯ ಸೂಚಿ — ಭಾಗ ೬",
+      "file": "frontmatter/08-contents-part-6.xhtml",
+      "source_pdf_page": 8,
+      "status": "translated"
+    },
+    {
+      "id": "fm-khanda-one-opening",
+      "title": "ಪ್ರಥಮ ಖಂಡ",
+      "file": "frontmatter/09-khanda-one-opening.xhtml",
+      "source_pdf_page": 9,
+      "status": "translated"
+    },
+    {
+      "id": "fm-mayureshvara-morgaon",
+      "title": "ಶ್ರೀ ಮಯೂರೇಶ್ವರ — ಮೋರಗಾಂವ",
+      "file": "frontmatter/10-mayureshvara-morgaon.xhtml",
+      "source_pdf_page": 10,
+      "status": "translated"
+    },
+    {
+      "id": "fm-mayureshvara-dhempavad",
+      "title": "ಶ್ರೀ ಮಯೂರೇಶ್ವರ",
+      "file": "frontmatter/11-mayureshvara-dhempavad.xhtml",
+      "source_pdf_page": 11,
+      "status": "translated"
+    },
+    {
+      "id": "fm-vakratunda-mayureshvara",
+      "title": "ಶ್ರೀ ವಕ್ರತುಂಡ ಮಯೂರೇಶ್ವರ",
+      "file": "frontmatter/12-vakratunda-mayureshvara.xhtml",
+      "source_pdf_page": 12,
+      "status": "translated"
+    },
+    {
+      "id": "fm-ashtavinayaka",
+      "title": "ಶ್ರೀ ಅಷ್ಟವಿನಾಯಕ",
+      "file": "frontmatter/13-ashtavinayaka.xhtml",
+      "source_pdf_page": 13,
+      "status": "translated"
     }
   ],
   "source": {
@@ -65,7 +147,17 @@
       2,
       3,
       4,
-      5
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
     ]
   }
 }

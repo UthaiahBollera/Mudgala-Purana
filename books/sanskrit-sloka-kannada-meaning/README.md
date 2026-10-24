@@ -46,3 +46,8 @@ First scaffold verification: W3C EPUBCheck 5.4.0 passed with 0 errors and 0 warn
 The first five PDF pages of the supplied `1 TO 25.pdf` are now registered in `frontmatter`, in PDF order: devotional opening, five devotional sayings and three source-edition contents pages. Their 191 entries are source contents only; they do not create or link to translated scripture chapters. The chapter-1 scaffold remains excluded with `include: false` until real chapter content is authorized. Front-matter sources live under `frontmatter/`; shared source-image strips preserve uncertain fine marks without guessing a Unicode reading. Kannada meanings remain separate text. `review/first-five-validation.md` is repository-only provenance and is never copied into reading output.
 
 The reader contains the approved cover followed directly by the five translated source pages. No source-PDF mapping headers, review commentary, download links or navigation chrome are displayed. The EPUB file remains available at its established direct URL. The manifest and hidden EPUB navigation retain ordering and titles.
+
+
+## Supplied PDF pages 6–15
+
+Front matter now runs through source PDF page13; Chapter1 begins on PDF14, printedpage1. The one chapter source includes PDF14–15, printedpages1–2, stopping at the opening word of verse47. The manifest marks the chapter partial and records meaning gaps in38/40, rather than declaring a completed translation. Source Sanskrit remains visible in optimized source-page facsimiles under `assets/source-pages/`; the Kannada is the previously delivered text, with minimal dagger markers for uncertain readings. Detailed notes in `review/pages6-15-validation.md` are excluded from web and EPUB output. No PDF16+ content is included.

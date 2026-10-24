@@ -39,10 +39,12 @@ class BookBuildTest(unittest.TestCase):
             self.assertEqual(z.infolist()[0].compress_type, zipfile.ZIP_STORED)
             opf = ET.fromstring(z.read('EPUB/package.opf'))
             ns = {'o': 'http://www.idpf.org/2007/opf'}
-            self.assertEqual([n.get('idref') for n in opf.findall('o:spine/o:itemref', ns)], ['cover', 'fm-devotional-opening', 'fm-devotional-sayings', 'fm-contents-part-1', 'fm-contents-part-2', 'fm-contents-part-3'])
+            m = json.loads((self.root / 'book.json').read_text())
+            expected_spine = ['cover'] + [c['id'] for c in m['frontmatter']] + ['kh01-ch001']
+            self.assertEqual([n.get('idref') for n in opf.findall('o:spine/o:itemref', ns)], expected_spine)
             for n in opf.findall('o:manifest/o:item', ns):
                 self.assertIn('EPUB/' + n.get('href'), z.namelist())
-            self.assertNotIn('EPUB/chapters/khanda-01/chapter-001.xhtml', z.namelist())
+            self.assertEqual(z.read('EPUB/chapters/khanda-01/chapter-001.xhtml'), (self.root / 'chapters/khanda-01/chapter-001.xhtml').read_bytes())
             self.assertEqual(z.read('EPUB/frontmatter/01-devotional-opening.xhtml'), (self.root / 'frontmatter/01-devotional-opening.xhtml').read_bytes())
         standalone = (self.root / 'dist/mudgala-preview.html').read_text()
         self.assertIn('ಮುದ್ಗಲ ಪುರಾಣ', standalone)
@@ -58,10 +60,12 @@ class BookBuildTest(unittest.TestCase):
             self.assertEqual(body.findall('.//h:a', ns), [])
             self.assertEqual(body.findall('.//h:nav', ns), [])
             sections = body.findall('.//h:section[@data-source-pdf-page]', ns)
-            self.assertEqual([n.get('data-source-pdf-page') for n in sections], ['1', '2', '3', '4', '5'])
-            rows = body.findall('.//h:tr[@id]', ns)
-            self.assertEqual(len(rows), 191)
-            self.assertEqual([len(s.findall('.//h:tr[@id]', ns)) for s in sections], [0, 0, 65, 62, 64])
+            self.assertEqual([n.get('data-source-pdf-page') for n in sections], [str(n) for n in range(1,16)])
+            rows = body.findall('.//h:tr[@id]', ns) + body.findall('.//h:tr[@data-key]', ns)
+            self.assertEqual(len(rows), 372)
+            self.assertEqual([len(s.findall('.//h:tr[@id]', ns)) + len(s.findall('.//h:tr[@data-key]', ns)) for s in sections], [0,0,65,62,64,63,61,57,0,0,0,0,0,0,0])
+            self.assertEqual(len(body.findall('.//h:div[@data-unit]', ns)),49)
+            self.assertEqual(len(body.findall('.//h:div[@data-fragment="true"]', ns)),1)
             text = ''.join(body.itertext())
             for forbidden in ('Structure preview', 'Download EPUB', 'script choice', 'Source PDF page', 'Khanda 1 · Chapter 1'):
                 self.assertNotIn(forbidden, text)
@@ -86,6 +90,7 @@ class BookBuildTest(unittest.TestCase):
             self.run_build()
 
     def test_blank_content_protected(self):
+        self.manifest(lambda m: m['chapters'][0].update(status='blank'))
         p = self.root / 'chapters/khanda-01/chapter-001.xhtml'
         p.write_text(p.read_text().replace('</main>', 'unexpected text</main>'))
         with self.assertRaisesRegex(AssertionError, 'Blank scaffold'):

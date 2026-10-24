@@ -29,3 +29,19 @@ td:first-child { width: 50px; } td:last-child { width: 110px; }
 .group th { padding-top: 24px; font-size: 22px; }
 @media(max-width:600px) { .frontmatter { padding: 18px 12px; } table { font-size: 14px; } th, td { padding: 8px 3px; } td:first-child, td:last-child { width: auto; } }
 @media print { .frontmatter { break-before: page; padding: 0; } thead { display: table-header-group; } tr { break-inside: avoid; } }
+
+.source-facsimile { margin: 0 0 28px; }
+.source-facsimile img { display: block; width: 100%; height: auto; }
+.source-page + .source-page { margin-top: 48px; }
+.meaning p { font-size: 18px; margin: 0 0 18px; }
+.unit { display: grid; grid-template-columns: 48px minmax(0,1fr); gap: 16px; break-inside: avoid; }
+.num { color: #742d29; padding-top: 3px; font-family: serif; overflow-wrap: anywhere; }
+.reading-uncertain { text-decoration: none; cursor: help; }
+.end { text-align: center; margin-top: 24px; }
+.caption { text-align: center; font-size: 21px; }
+@media(max-width:600px) { .unit { grid-template-columns: 32px minmax(0,1fr); gap: 8px; } .chapter { padding: 18px 12px; } }
+
+.unit[data-unit="ಆವಾಹನೆ"] { display: block; }
+.unit[data-unit="ಆವಾಹನೆ"] .num { display: none; }
+
+.unit[data-fragment="true"] .num { white-space: nowrap; font-size: 14px; }
