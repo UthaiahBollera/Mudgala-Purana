@@ -2,6 +2,10 @@
 
 These instructions apply to this new book directory. Preserve the existing original book and all unrelated files, branches, pending corrections and uncommitted changes.
 
+## Before each batch
+
+Read this AGENTS.md, the current coverage/uncertainty ledger and the [pre-batch validation checklist](review/pre-batch-validation-checklist.md) before starting a batch. Apply the reading requirements from the beginning of the work rather than postponing layout and mapping checks until the book is complete.
+
 ## Source and fidelity
 
 - Use the user-supplied PDF scans as the source of truth. Read the actual pages visually at adequate resolution. The existing user-supplied OCR may be a secondary cross-reference; do not generate new OCR without approval.
