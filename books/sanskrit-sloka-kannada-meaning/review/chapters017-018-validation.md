@@ -1,0 +1,15 @@
+# Chapters 17–18 local validation
+
+Integrated Chapter17 verses1–56 and Chapter18 verses1–64, both with colophons:120 new numbered Sanskrit/meaning pairs. Supplied55 TO76.pdf PDF2lower–7upper, printed39–44. Actual full-page renders and300dpi bands were visually read; second direct comparison checked saved Sanskrit and Kannada against every source page. Existing suppliedOCR was secondary; no newOCR, external source or missing ending search.
+
+Page splits joined once:17.18 PDF2/3,17.43 PDF3/4,18.4 PDF4/5,18.29 PDF5/6,18.53 PDF6/7. Regression tests verify file and page mappings. Kannada-script Sanskrit matches originalDevanagari by transliteration;120new entries independently checked after final corrections. Earlierchapterfiles preserved by integration hash assertions.
+
+Each newchapter has14 context groups. Chapter17 keeps the fivegods question,qualified manifestation,Bindu/sides,name explanation,remembrance instruction,eight-avatar sequence,yoga distinction,shrine episode,marriage inquiry and complete boon narrative distinct. Chapter18 keeps Daksha request/listener qualification,fasting practice,examiner episode,repeatedvisits,heaven invitation,question,and each of three complete faults together. Boundary rationales saved separately; no fixed verse count, no merged meanings.
+
+Source/interpretation flags:17.6/10/11/12/14/18/21/27/29/30/36/39;18.6/11/19/23/36/37/51/53/58. Uncertain18.19 phrase remains lacuna; partial meanings17.14/30/39 explicit. Unusual printed compounds and agreement retained. The source says imperishable enjoyment/worlds at18.36/37/51, then discusses falling: this tension is preserved and flagged rather than harmonized. Olderfive/fiftycrorediscrepancy unchanged.
+
+Second comparison corrected18.16 to knowledgeofDhundhisbhava ratherthan feet,18.18 to daily hearing/otherlisteners,18.26 to gods sending examiner,18.27 arrivalatfastbreaking ratherthan an invented courtyard,18.37 to akshaya ratherthan advaya,18.39 to physical proximity ratherthan added devotion,18.60 to manyotherenjoyers without an invented Indraexample,18.63 to infinitequalities ratherthan merit. No alternate OCR wording substituted blindly. A duplicate token in18.51 introduced during correction was found and removed before finalbuild; all finalchecks rerun.
+
+Finalbuild succeeds.16tests pass. EPUBCheck5.4.0 reports0fatals/0errors/0warnings.10Chrome width/theme/zoom scenarios pass exact985 numberedmappings,text andorder,251groups,fonts/selectability/contrast,nooverflow orclippedslokas.61hidden textscanwrappers,6visible artworks,68sourcepagesections,93uncertaintyattributes.375light/1100dark screenshots visually inspected:good Kannada shaping,distinct slokas,divider and matching numberedmeanings. Evidence:integrated-browser-validation.json. Sourceflatewarnings nottreatedasproof:actualbodyandcolophonpixels inspected.
+
+Resume Chapter19verse1,55 TO76.pdf PDF7/printed44 belowChapter18colophon. Complete1–7visible, noChapter19draft. Knownterminalgap afterprinted122Chapter54opening35 unchanged. No wholeKhanda1completionclaim. No staging,commit,pushorpublication; no denied,pendingorhungoperation. Originalbook andPagescheckout untouched.

@@ -53,7 +53,7 @@ def reader_document(section):
     assert verse_ids and verse_ids == sorted(set(verse_ids)), 'Canonical verse IDs must be unique and ordered'
     grouped_ids = [verse_id for group in groups for verse_id in group['verses']]
     assert grouped_ids == verse_ids, 'Reading groups must cover each verse ID exactly once in source order'
-    assert all(len(g['verses']) == 3 for g in groups[:-1]) and 1 <= len(groups[-1]['verses']) <= 3, 'Reading groups must contain three verses except the final group'
+    assert all(g['verses'] for g in groups), 'Reading groups must be nonempty; boundaries are reviewed by context, not fixed size'
     group_ids = [g['id'] for g in groups]
     original_ids = {e.get('id') for e in main.iter() if e.get('id')}
     assert len(group_ids) == len(set(group_ids)) and not set(group_ids) & original_ids, 'Duplicate reading group ID'
@@ -61,7 +61,6 @@ def reader_document(section):
     for group in groups:
         original_units = [by_id[verse_id] for verse_id in group['verses']]
         container = parents[original_units[0]]
-        assert all(parents[u] is container for u in original_units), 'A reading group crosses source containers'
         start, end = (u.get('data-unit').removesuffix('-fragment') for u in (original_units[0], original_units[-1]))
         label = ('ಶ್ಲೋಕಗಳು ' + start + '–' + end).translate(str.maketrans('0123456789', '೦೧೨೩೪೫೬೭೮೯'))
         wrapper = ET.Element(q('section'), {'class': 'verse-group', 'id': group['id'], 'data-verse-ids': ' '.join(group['verses']), 'aria-label': label})
@@ -90,9 +89,9 @@ def reader_document(section):
                     ET.SubElement(content, q('abbr'), {'class': 'reading-uncertain', 'title': 'ಅರ್ಥದ ದೃಢೀಕರಣ ಬಾಕಿ'}).text = '†'
                 if unit.get('data-fragment') == 'true':
                     ET.SubElement(content, q('span'), {'class': 'partial-label'}).text = 'ಅಪೂರ್ಣ'
+        container.insert(list(container).index(original_units[0]), wrapper)
         for unit in original_units:
-            container.remove(unit)
-        container.append(wrapper)
+            parents[unit].remove(unit)
     ET.register_namespace('', NS['h'])
     return ET.tostring(tree, encoding='utf-8', xml_declaration=True)
 

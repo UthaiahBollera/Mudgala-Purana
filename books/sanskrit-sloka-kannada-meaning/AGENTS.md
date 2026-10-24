@@ -13,7 +13,7 @@ These instructions apply to this new book directory. Preserve the existing origi
 
 - Present Sanskrit-language slokas as selectable text transliterated into **Kannada script**. This changes script, not Sanskrit words or meaning. Preserve long/short vowels, aspiration, dental/retroflex distinctions, conjuncts, anusvara, visarga, avagraha, punctuation and verse numbering.
 - Retain the original Devanagari text separately in review/source data for verification; do not display it as the reader's sloka text.
-- For Chapter1, show **three slokas together**, a divider, then their **numbered Kannada meanings in exactly the same order**. The final group may contain fewer entries. Group by explicit stable verse IDs, and validate every sloka-to-meaning reference, number, text and order. Do not merge explanations or rewrite translations to create a group.
+- Group slokas by **related context and complete available thoughts**, not a fixed count of three, four or any other number. Review the actual Sanskrit and Kannada meanings, speaker changes, narrative lead-ins and connected explanations. Put each context group above a divider and its **numbered Kannada meanings in exactly the same order** below. Group by explicit stable verse IDs and validate every sloka-to-meaning reference, number, text and order. Record a concise boundary rationale in a separate review file, never in the reader view. Do not merge explanations or rewrite translations to create a group. A group ending at the current source limit may remain explicitly incomplete.
 - Preserve the single reunited verse21 across its source-page split. Retain partial verses as partial; do not complete them from an unapproved next page.
 - Use restrained deep-maroon slokas, readable dark meanings in the light theme, and accessible colors in dark themes. Use type scale and spacing as well as color. Keep the book clean, without development labels, placeholder commentary, extra navigation chrome or explanatory demo text.
 - Keep the approved cover and devotional artwork visible. Hide textual page screenshots and Sanskrit text strips with `display:none`, while retaining their files and source references. Do not hide illustrations merely because they originated as scans.
@@ -35,7 +35,7 @@ These instructions apply to this new book directory. Preserve the existing origi
 ## Superseded choices
 
 - Devanagari reader-facing slokas were replaced by Kannada-script Sanskrit transliteration.
-- One sloka immediately followed by its meaning was replaced, for Chapter1, by groups of three slokas followed by the matching numbered meanings.
+- One-sloka/one-meaning display and the later fixed-three grouping are superseded by context-based groups with matching numbered meanings. Group size alone is never evidence of a meaningful boundary.
 - Development-preview disclaimers and visible text facsimiles were removed/hidden. Do not restore them during rebuilds.
 
 Current coverage and unresolved readings belong in [review/current-batch-status.md](review/current-batch-status.md), rather than being inferred from contents entries or older plans.

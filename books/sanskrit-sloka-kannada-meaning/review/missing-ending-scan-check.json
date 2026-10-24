@@ -1,0 +1,38 @@
+{
+  "status": "bounded overlap check completed; missing ending not found",
+  "checks": [
+    {
+      "file": "139 TO 163.pdf",
+      "pdf_pages": "all20, prior contact sheet; last body2 and divider3 directly viewed",
+      "finding": "Chapter54 printed122 stops after34 and opening35; next page is divider."
+    },
+    {
+      "file": "119 TO 138.pdf",
+      "pdf_pages": [
+        19,
+        20,
+        11
+      ],
+      "finding": "Tail is preceding Chapter53;20 printed120. Existing navigation candidate11 read as121 by old OCR is actually printed111, Chapter52; no missing ending recovered. Page19 header damaged; no certified page number inferred."
+    },
+    {
+      "file": "164 TO 183.pdf",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "finding": "Already Khanda2 chapter5, printed12/13; not the missing Khanda1 continuation."
+    },
+    {
+      "file": "Downloads/139 TO 163.pdf",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "finding": "Original copy has same truncated Chapter54 body and completion divider."
+    }
+  ],
+  "secondary_navigation": "Existing audit metadata used only to select a candidate; no new OCR. The candidate printed-page hint was corrected by visual inspection.",
+  "missing_material": "Continuation after the opening of Chapter54 verse35 on printed122, including the chapter ending/colophon; exact number of missing physical pages cannot be certified from these scans.",
+  "not_used": "No modern English or Google Books material substituted. Existing old-book Sanskrit reference metadata is not a supplied source leaf."
+}

@@ -1,53 +1,24 @@
-# Mudgala Purana: Sanskrit sloka + Kannada meaning
+# Mudgala Purana — Sanskrit slokas in Kannada script and Kannada meanings
 
-This separate book contains the approved cover and translated front matter from source PDF pages 1–5. Scripture chapters remain empty. The existing approved Kannada v5 cover is reused unchanged.
+This independent book preserves the approved cover and translated front matter, followed by Khanda1 Chapters1–18:985 numbered Sanskrit/meaning pairs, with colophons. Sanskrit language is transliterated into selectable Kannada script. Related verses are grouped by context above a divider, with their individually numbered Kannada meanings in the same order below. The old book is separate and unchanged.
 
-## Build
+The edition is incomplete. It does not contain Chapters19 onward. Explicit source-reading and interpretation flags remain; see `review/current-batch-status.md`. Textual source scans remain available as hidden assets; the approved cover and devotional artworks remain visible. Review notes never enter the reader or EPUB.
 
-Requires Python 3.10+; no third-party packages or framework.
+## Sources and editing
+
+User-supplied scans are authoritative; existing supplied OCR is only a cross-reference. No newOCR is generated. Per-verse original Devanagari, Kannada-script Sanskrit, meaning and source-file/PDF/printed-page provenance are retained in `review/verse-source-records.json`. Do not infer chapter coverage from front-matter contents entries. Do not silently resolve uncertain readings.
+
+Edit canonical XHTML chapter files under `chapters/khanda-01/`, with shared assets/styles/fonts. `book.json` defines explicit source documents, chapter order, metadata and stable verse-ID reading groups. Group rationales live in `review/context-grouping*.json`. Keep UTF-8, existing IDs, language tags and Sanskrit-to-meaning associations. Follow AGENTS.md.
+
+## Build and validate
+
+Python3.10+ standard library; no framework or runtime dependency:
 
 ```sh
 python3 books/sanskrit-sloka-kannada-meaning/build.py
+python3 -m unittest discover -s books/sanskrit-sloka-kannada-meaning -p test_build.py
 ```
 
-Outputs (ignored by Git):
+Ignored outputs: `dist/web/` complete web reader, `dist/mudgala-preview.html` standalone portable reader, and `dist/mudgala-preview.epub` EPUB3 retaining separate XHTML chapters. Do not hand-edit generated output. Deploy only the web directory to the additive `/sanskrit-kannada/` path when authorized. No original-book deployment files need modification.
 
-- `dist/web/index.html`: web reader; deploy the entire `web/` folder together when authorized.
-- `dist/mudgala-preview.html`: standalone preview with embedded cover, font and styles; open directly in a browser.
-- `dist/mudgala-preview.epub`: EPUB 3 with separate XHTML chapter files internally.
-
-No build or deployment changes are made to the original book.
-
-## Editing
-
-`book.json` is the explicit reading order and metadata source. Each chapter records its stable ID, khanda number, chapter number, navigation title, source path and status. Keep the array in khanda/chapter order. Update `modified` in UTC when changing the edition. The identifier stays stable for this book.
-
-Edit only canonical XHTML under `chapters/khanda-NN/chapter-NNN.xhtml`. Add future chapters there and register them in the manifest. The current chapter is an empty structural scaffold, not a supplied chapter title or translation. The web reader and standalone HTML display only the cover and chapter content. Manifest titles are used for internal EPUB navigation, which is hidden from book pages. No devotional opening or sample verse is included.
-
-Keep UTF-8 and XHTML namespaces. Kannada meaning uses `lang="kn"`; future Sanskrit text should use the chosen appropriate language/script tag once approved. Keep the stable chapter main ID. For an approved populated chapter change `status` from `blank` to `draft`; the build rejects any text in a chapter still marked blank. Shared styling lives in `styles/book.css`, the approved cover in `assets/`, and the Tiro Kannada font and OFL license in `assets/fonts/`. A future Devanagari font can be added only if that script is selected.
-
-Do not edit generated `dist/` files. The web reader and standalone HTML are generated from the same manifest and chapter sources as the EPUB. Canonical chapter files resolve shared assets directly, so they are independently viewable as well.
-
-## Validation
-
-The build checks unique IDs/paths, numeric chapter order, XML parsing, local chapter references and blank scaffolds. Run the regression checks with `python3 -m unittest discover -s books/sanskrit-sloka-kannada-meaning -p test_build.py`. Before sharing an edition, run W3C EPUBCheck against the EPUB, inspect the web and standalone output in desktop/mobile browsers, and verify navigation and font loading. EPUBCheck is an external development tool, not a runtime dependency:
-
-```sh
-java -jar /path/to/epubcheck.jar books/sanskrit-sloka-kannada-meaning/dist/mudgala-preview.epub
-```
-
-Preview status does not constitute a claim of complete EPUB accessibility conformance. No scripture text has yet been selected for typography or reading-order review.
-
-First scaffold verification: W3C EPUBCheck 5.4.0 passed with 0 errors and 0 warnings. Desktop (1100px) and mobile (390px) browser checks verified the embedded font and cover, no horizontal overflow, empty content, chapter anchor, web chapter navigation and return to contents. Sanskrit glyph rendering remains pending the script selection and actual text.
-
-
-## Published front matter
-
-The first five PDF pages of the supplied `1 TO 25.pdf` are now registered in `frontmatter`, in PDF order: devotional opening, five devotional sayings and three source-edition contents pages. Their 191 entries are source contents only; they do not create or link to translated scripture chapters. The chapter-1 scaffold remains excluded with `include: false` until real chapter content is authorized. Front-matter sources live under `frontmatter/`; shared source-image strips preserve uncertain fine marks without guessing a Unicode reading. Kannada meanings remain separate text. `review/first-five-validation.md` is repository-only provenance and is never copied into reading output.
-
-The reader contains the approved cover followed directly by the five translated source pages. No source-PDF mapping headers, review commentary, download links or navigation chrome are displayed. The EPUB file remains available at its established direct URL. The manifest and hidden EPUB navigation retain ordering and titles.
-
-
-## Supplied PDF pages 6–15
-
-Front matter now runs through source PDF page13; Chapter1 begins on PDF14, printedpage1. The one chapter source includes PDF14–15, printedpages1–2, stopping at the opening word of verse47. The manifest marks the chapter partial and records meaning gaps in38/40, rather than declaring a completed translation. Source Sanskrit remains visible in optimized source-page facsimiles under `assets/source-pages/`; the Kannada is the previously delivered text, with minimal dagger markers for uncertain readings. Detailed notes in `review/pages6-15-validation.md` are excluded from web and EPUB output. No PDF16+ content is included.
+Run reputable EPUBCheck on the generated EPUB and inspect real mobile/desktop rendering. Current edition passed16 regression tests, EPUBCheck5.4.0 with0 errors/warnings, and10 browser width/theme/zoom scenarios checking every985 text mapping, fonts, contrast and overflow. This is not a claim that every provisional source reading is resolved or that the whole khanda is complete.
