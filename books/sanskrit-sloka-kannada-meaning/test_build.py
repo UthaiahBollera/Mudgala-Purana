@@ -49,6 +49,23 @@ class BookBuildTest(unittest.TestCase):
         self.assertIn('data:font/ttf;base64,', standalone)
         self.assertNotIn('src="assets/', standalone)
 
+    def test_reader_has_only_cover_and_blank_content(self):
+        self.run_build()
+        ns = {'h': 'http://www.w3.org/1999/xhtml'}
+        for name in ('dist/web/index.html', 'dist/mudgala-preview.html',
+                     'dist/web/chapters/khanda-01/chapter-001.xhtml'):
+            body = ET.parse(self.root / name).find('h:body', ns)
+            self.assertEqual(''.join(body.itertext()).strip(), '')
+            self.assertEqual(body.findall('.//h:a', ns), [])
+            self.assertEqual(body.findall('.//h:nav', ns), [])
+            self.assertNotIn('script choice', (self.root / name).read_text())
+        with zipfile.ZipFile(self.root / 'dist/mudgala-preview.epub') as z:
+            nav = ET.fromstring(z.read('EPUB/nav.xhtml')).find('.//h:nav', ns)
+            self.assertEqual(nav.get('hidden'), 'hidden')
+            for name in z.namelist():
+                if name.endswith(('.xhtml', '.opf')):
+                    self.assertNotIn('Structure preview', z.read(name).decode())
+
     def test_duplicate_chapter_rejected(self):
         self.manifest(lambda m: m['chapters'].append(m['chapters'][0].copy()))
         with self.assertRaisesRegex(AssertionError, 'Duplicate'):

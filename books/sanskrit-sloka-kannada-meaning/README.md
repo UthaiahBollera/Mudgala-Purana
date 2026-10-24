@@ -1,6 +1,6 @@
 # Mudgala Purana: Sanskrit sloka + Kannada meaning
 
-This separate book is a **structure preview**. Scripture and meaning remain empty. The Sanskrit script choice is pending. The existing approved Kannada v5 cover is reused unchanged.
+This separate book contains the cover and empty chapter content. The existing approved Kannada v5 cover is reused unchanged.
 
 ## Build
 
@@ -12,7 +12,7 @@ python3 books/sanskrit-sloka-kannada-meaning/build.py
 
 Outputs (ignored by Git):
 
-- `dist/web/index.html`: navigable web reader; deploy the entire `web/` folder together when authorized.
+- `dist/web/index.html`: web reader; deploy the entire `web/` folder together when authorized.
 - `dist/mudgala-preview.html`: standalone preview with embedded cover, font and styles; open directly in a browser.
 - `dist/mudgala-preview.epub`: EPUB 3 with separate XHTML chapter files internally.
 
@@ -22,11 +22,11 @@ No build or deployment changes are made to the original book.
 
 `book.json` is the explicit reading order and metadata source. Each chapter records its stable ID, khanda number, chapter number, navigation title, source path and status. Keep the array in khanda/chapter order. Update `modified` in UTC when changing the edition. The identifier stays stable for this book.
 
-Edit only canonical XHTML under `chapters/khanda-NN/chapter-NNN.xhtml`. Add future chapters there and register them in the manifest. The current chapter is an empty structural scaffold, not a supplied chapter title or translation. Its neutral navigation label and preview notice are editorial interface text outside sacred content. No devotional opening or sample verse is included.
+Edit only canonical XHTML under `chapters/khanda-NN/chapter-NNN.xhtml`. Add future chapters there and register them in the manifest. The current chapter is an empty structural scaffold, not a supplied chapter title or translation. The web reader and standalone HTML display only the cover and chapter content. Manifest titles are used for internal EPUB navigation, which is hidden from book pages. No devotional opening or sample verse is included.
 
 Keep UTF-8 and XHTML namespaces. Kannada meaning uses `lang="kn"`; future Sanskrit text should use the chosen appropriate language/script tag once approved. Keep the stable chapter main ID. For an approved populated chapter change `status` from `blank` to `draft`; the build rejects any text in a chapter still marked blank. Shared styling lives in `styles/book.css`, the approved cover in `assets/`, and the Tiro Kannada font and OFL license in `assets/fonts/`. A future Devanagari font can be added only if that script is selected.
 
-Do not edit generated `dist/` files. Web navigation and the standalone preview are generated from the same manifest and chapter sources as the EPUB. Canonical chapter files resolve shared assets directly, so they are independently viewable as well.
+Do not edit generated `dist/` files. The web reader and standalone HTML are generated from the same manifest and chapter sources as the EPUB. Canonical chapter files resolve shared assets directly, so they are independently viewable as well.
 
 ## Validation
 
