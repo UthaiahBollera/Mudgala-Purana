@@ -1,0 +1,130 @@
+{
+  "release": "Khanda 2 Chapters 1–20 reading draft",
+  "records": 1033,
+  "groups": 324,
+  "resolved_draft_meanings": 958,
+  "qualified_meanings": 74,
+  "fully_pending_meanings": [
+    "kh02-ch007-v037"
+  ],
+  "source_flags": 75,
+  "expert_review": false,
+  "excluded": [
+    "Partial Khanda 2 Chapter 21 verses 1–4",
+    "Private Khanda 1 Chapter 19"
+  ],
+  "source_documents": [
+    {
+      "id": "user-pdf-139-163",
+      "filename": "139 TO 163.pdf",
+      "sha256": "b54273deea82824de436dd704c91b3b6cf82932f3e226a32c46f78c7d0e4e7c8",
+      "pdf_pages": 20,
+      "integrated_pdf_pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "user-pdf-164-183",
+      "filename": "164 TO 183.pdf",
+      "sha256": "2d0ff8376ee40a6a45e17a21326d8c642500cae530fe81056d5ee96091965e48",
+      "pdf_pages": 20,
+      "integrated_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "user-pdf-184-205",
+      "filename": "184 TO 205.pdf",
+      "sha256": "986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1",
+      "pdf_pages": 22,
+      "integrated_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "khanda1_sha256": {
+    "chapters/khanda-01/chapter-001.xhtml": "2cf15a16728ed9260d46f4a1d830842493b8d6f8f8101e44d7f6eacb2f27b166",
+    "chapters/khanda-01/chapter-002.xhtml": "775bcc95d620825d820e769eac58d649ad1c2e809cf1a3c9d8bf15933f6f9c01",
+    "chapters/khanda-01/chapter-003.xhtml": "5e1d19d4058d5f607089cf5659056589e6d83b15d83dfc1b6038f4557dd828b1",
+    "chapters/khanda-01/chapter-004.xhtml": "1c6480ea5a1c8c9f7fe35fa8aee9e16d4b0fedad99c37eeb180e56135a3fd06d",
+    "chapters/khanda-01/chapter-005.xhtml": "f133423acdb196c32965241a02b2c1fb8b7687e31462ec373d617456e7d5598d",
+    "chapters/khanda-01/chapter-006.xhtml": "25e89c4c53232ebed409a66e99b6a1282af508f229560c018267374b2806fb7f",
+    "chapters/khanda-01/chapter-007.xhtml": "631a64c4dcd5d3d7a440c856d529c70f66c2e31806cdcc632e564cfee8ff382c",
+    "chapters/khanda-01/chapter-008.xhtml": "3d72c44e412a98ef5ccb8c7470da5d952d5d72ca717a0cd55ab10322db271440",
+    "chapters/khanda-01/chapter-009.xhtml": "ed0f77bb173b1b3fc09ebe63f4b8dd90c514be9123870d72c46621481ed6844e",
+    "chapters/khanda-01/chapter-010.xhtml": "24db056a9bba3c1dbc6b5a032bd94be1eae84cf9b7a91b5a740178337052a018",
+    "chapters/khanda-01/chapter-011.xhtml": "77834e4ff78dc2c84bc7ef10930e558b8fa3b7fa7cabef1ad6dd1b8581e81b8b",
+    "chapters/khanda-01/chapter-012.xhtml": "cff1880f9fdbc77ea07fa64d4df143981b69db32a9c1829af3cffe2008f20723",
+    "chapters/khanda-01/chapter-013.xhtml": "4bffc3b38edcafbd433d7f60bf10c8a9d2b849c172728b67c2934ef55fe1db5c",
+    "chapters/khanda-01/chapter-014.xhtml": "fc0f7b3d57492bbac4dd10279de0e14b4f2782a11e7d099822833d0acbe3eb75",
+    "chapters/khanda-01/chapter-015.xhtml": "0e5b68a63309d2120b6f5dc4ca1f7752e095389bbb0420977d53f5cae72029b7",
+    "chapters/khanda-01/chapter-016.xhtml": "23b235c52756db8942ca01f6c6dd70a5d69c09620dca634e114eb8f340e20e66",
+    "chapters/khanda-01/chapter-017.xhtml": "7255025125a6b298914fc2299f70f36f7f7601acc9538abe735af9c65b102b18",
+    "chapters/khanda-01/chapter-018.xhtml": "f4084f0c578a2e3771668cb8f7afd1d8d00f0a5aa3cfba69b5bdaf5b4636d904"
+  },
+  "validation": {
+    "site_seo_suites": 5,
+    "reader_suites": 7,
+    "book_regressions": 16,
+    "responsive_scenarios": 18,
+    "negative_audit_gate": "missing title prevents staging",
+    "epubcheck": "compatibility, combined, Khanda1 and Khanda2: zero errors/warnings",
+    "canonical_pages": 44,
+    "total_reader_records": 2018,
+    "total_context_groups": 614,
+    "khanda1_source_hashes_unchanged": true,
+    "partial_khanda2_chapter21_excluded": true,
+    "physical_devices": false,
+    "expert_review": false,
+    "visual_inspection": [
+      "Khanda2 desktop chapter index",
+      "Chapter20 mobile reader",
+      "7.37 pending meaning",
+      "Khanda2 PDF cover, middle and final; final closing line now kept with its matching meaning, visually verified"
+    ],
+    "pdf_pages": 289,
+    "khanda1_pdf_byte_preserved": true
+  }
+}

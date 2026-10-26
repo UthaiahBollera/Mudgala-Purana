@@ -5,7 +5,7 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-24T12:36:27Z",
+  "modified": "2026-10-26T15:11:13Z",
   "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
@@ -3421,6 +3421,3815 @@
         }
       ],
       "grouping_review": "review/context-grouping-chapter-018.json"
+    },
+    {
+      "id": "kh02-ch001",
+      "khanda": 2,
+      "number": 1,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಪ್ರಥಮ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-001.xhtml",
+      "status": "reviewed-draft-partial",
+      "include": true,
+      "source_refs": [
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 10,
+          "printed_page": 1
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 11,
+          "printed_page": 2
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 12,
+          "printed_page": 3
+        }
+      ],
+      "source_pdf_pages": [
+        10,
+        11,
+        12
+      ],
+      "coverage": {
+        "last_verse": 55,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          2,
+          9,
+          26,
+          41,
+          46,
+          53
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        2,
+        9,
+        26,
+        41,
+        46,
+        53
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        2,
+        9,
+        26,
+        41,
+        46,
+        53
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch001-group-01",
+          "verses": [
+            "kh02-ch001-v001",
+            "kh02-ch001-v002"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-02",
+          "verses": [
+            "kh02-ch001-v003",
+            "kh02-ch001-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-03",
+          "verses": [
+            "kh02-ch001-v005",
+            "kh02-ch001-v006"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-04",
+          "verses": [
+            "kh02-ch001-v007",
+            "kh02-ch001-v008",
+            "kh02-ch001-v009"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-05",
+          "verses": [
+            "kh02-ch001-v010",
+            "kh02-ch001-v011"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-06",
+          "verses": [
+            "kh02-ch001-v012",
+            "kh02-ch001-v013",
+            "kh02-ch001-v014"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-07",
+          "verses": [
+            "kh02-ch001-v015",
+            "kh02-ch001-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-08",
+          "verses": [
+            "kh02-ch001-v017",
+            "kh02-ch001-v018"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-09",
+          "verses": [
+            "kh02-ch001-v019",
+            "kh02-ch001-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-10",
+          "verses": [
+            "kh02-ch001-v021",
+            "kh02-ch001-v022"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-11",
+          "verses": [
+            "kh02-ch001-v023",
+            "kh02-ch001-v024",
+            "kh02-ch001-v025"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-12",
+          "verses": [
+            "kh02-ch001-v026",
+            "kh02-ch001-v027",
+            "kh02-ch001-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-13",
+          "verses": [
+            "kh02-ch001-v029",
+            "kh02-ch001-v030",
+            "kh02-ch001-v031"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-14",
+          "verses": [
+            "kh02-ch001-v032",
+            "kh02-ch001-v033",
+            "kh02-ch001-v034"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-15",
+          "verses": [
+            "kh02-ch001-v035",
+            "kh02-ch001-v036",
+            "kh02-ch001-v037"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-16",
+          "verses": [
+            "kh02-ch001-v038",
+            "kh02-ch001-v039"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-17",
+          "verses": [
+            "kh02-ch001-v040",
+            "kh02-ch001-v041",
+            "kh02-ch001-v042",
+            "kh02-ch001-v043"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-18",
+          "verses": [
+            "kh02-ch001-v044",
+            "kh02-ch001-v045"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-19",
+          "verses": [
+            "kh02-ch001-v046",
+            "kh02-ch001-v047",
+            "kh02-ch001-v048"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-20",
+          "verses": [
+            "kh02-ch001-v049",
+            "kh02-ch001-v050"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-21",
+          "verses": [
+            "kh02-ch001-v051",
+            "kh02-ch001-v052",
+            "kh02-ch001-v053"
+          ]
+        },
+        {
+          "id": "kh02-ch001-group-22",
+          "verses": [
+            "kh02-ch001-v054",
+            "kh02-ch001-v055"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter001-grouping.json"
+    },
+    {
+      "id": "kh02-ch002",
+      "khanda": 2,
+      "number": 2,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ದ್ವಿತೀಯ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-002.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        12,
+        13,
+        14
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 12,
+          "printed_page": 3
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 13,
+          "printed_page": 4
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 14,
+          "printed_page": 5
+        }
+      ],
+      "coverage": {
+        "last_verse": 61,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          9,
+          11,
+          22,
+          30
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        9,
+        11,
+        22,
+        30
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        9,
+        11,
+        22,
+        30
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch002-group-01",
+          "verses": [
+            "kh02-ch002-v001",
+            "kh02-ch002-v002"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-02",
+          "verses": [
+            "kh02-ch002-v003",
+            "kh02-ch002-v004",
+            "kh02-ch002-v005"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-03",
+          "verses": [
+            "kh02-ch002-v006",
+            "kh02-ch002-v007",
+            "kh02-ch002-v008"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-04",
+          "verses": [
+            "kh02-ch002-v009",
+            "kh02-ch002-v010"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-05",
+          "verses": [
+            "kh02-ch002-v011",
+            "kh02-ch002-v012",
+            "kh02-ch002-v013",
+            "kh02-ch002-v014"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-06",
+          "verses": [
+            "kh02-ch002-v015",
+            "kh02-ch002-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-07",
+          "verses": [
+            "kh02-ch002-v017",
+            "kh02-ch002-v018",
+            "kh02-ch002-v019"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-08",
+          "verses": [
+            "kh02-ch002-v020",
+            "kh02-ch002-v021",
+            "kh02-ch002-v022"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-09",
+          "verses": [
+            "kh02-ch002-v023",
+            "kh02-ch002-v024",
+            "kh02-ch002-v025",
+            "kh02-ch002-v026"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-10",
+          "verses": [
+            "kh02-ch002-v027",
+            "kh02-ch002-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-11",
+          "verses": [
+            "kh02-ch002-v029",
+            "kh02-ch002-v030"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-12",
+          "verses": [
+            "kh02-ch002-v031",
+            "kh02-ch002-v032",
+            "kh02-ch002-v033"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-13",
+          "verses": [
+            "kh02-ch002-v034",
+            "kh02-ch002-v035",
+            "kh02-ch002-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-14",
+          "verses": [
+            "kh02-ch002-v037",
+            "kh02-ch002-v038",
+            "kh02-ch002-v039",
+            "kh02-ch002-v040"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-15",
+          "verses": [
+            "kh02-ch002-v041",
+            "kh02-ch002-v042",
+            "kh02-ch002-v043"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-16",
+          "verses": [
+            "kh02-ch002-v044",
+            "kh02-ch002-v045",
+            "kh02-ch002-v046",
+            "kh02-ch002-v047"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-17",
+          "verses": [
+            "kh02-ch002-v048",
+            "kh02-ch002-v049"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-18",
+          "verses": [
+            "kh02-ch002-v050",
+            "kh02-ch002-v051",
+            "kh02-ch002-v052"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-19",
+          "verses": [
+            "kh02-ch002-v053",
+            "kh02-ch002-v054",
+            "kh02-ch002-v055"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-20",
+          "verses": [
+            "kh02-ch002-v056",
+            "kh02-ch002-v057"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-21",
+          "verses": [
+            "kh02-ch002-v058",
+            "kh02-ch002-v059"
+          ]
+        },
+        {
+          "id": "kh02-ch002-group-22",
+          "verses": [
+            "kh02-ch002-v060",
+            "kh02-ch002-v061"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter002-grouping.json"
+    },
+    {
+      "id": "kh02-ch003",
+      "khanda": 2,
+      "number": 3,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ತೃತೀಯ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-003.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        15,
+        16,
+        17
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 15,
+          "printed_page": 6
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 16,
+          "printed_page": 7
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 17,
+          "printed_page": 8
+        }
+      ],
+      "coverage": {
+        "last_verse": 57,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          31,
+          35,
+          48
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        31,
+        35,
+        48
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        31,
+        35,
+        48
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch003-group-01",
+          "verses": [
+            "kh02-ch003-v001",
+            "kh02-ch003-v002",
+            "kh02-ch003-v003",
+            "kh02-ch003-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-02",
+          "verses": [
+            "kh02-ch003-v005",
+            "kh02-ch003-v006",
+            "kh02-ch003-v007",
+            "kh02-ch003-v008",
+            "kh02-ch003-v009"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-03",
+          "verses": [
+            "kh02-ch003-v010",
+            "kh02-ch003-v011",
+            "kh02-ch003-v012",
+            "kh02-ch003-v013"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-04",
+          "verses": [
+            "kh02-ch003-v014",
+            "kh02-ch003-v015",
+            "kh02-ch003-v016",
+            "kh02-ch003-v017"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-05",
+          "verses": [
+            "kh02-ch003-v018",
+            "kh02-ch003-v019",
+            "kh02-ch003-v020",
+            "kh02-ch003-v021"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-06",
+          "verses": [
+            "kh02-ch003-v022",
+            "kh02-ch003-v023",
+            "kh02-ch003-v024",
+            "kh02-ch003-v025"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-07",
+          "verses": [
+            "kh02-ch003-v026",
+            "kh02-ch003-v027",
+            "kh02-ch003-v028",
+            "kh02-ch003-v029"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-08",
+          "verses": [
+            "kh02-ch003-v030",
+            "kh02-ch003-v031",
+            "kh02-ch003-v032"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-09",
+          "verses": [
+            "kh02-ch003-v033",
+            "kh02-ch003-v034",
+            "kh02-ch003-v035",
+            "kh02-ch003-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-10",
+          "verses": [
+            "kh02-ch003-v037",
+            "kh02-ch003-v038",
+            "kh02-ch003-v039"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-11",
+          "verses": [
+            "kh02-ch003-v040",
+            "kh02-ch003-v041",
+            "kh02-ch003-v042"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-12",
+          "verses": [
+            "kh02-ch003-v043",
+            "kh02-ch003-v044",
+            "kh02-ch003-v045"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-13",
+          "verses": [
+            "kh02-ch003-v046",
+            "kh02-ch003-v047",
+            "kh02-ch003-v048",
+            "kh02-ch003-v049"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-14",
+          "verses": [
+            "kh02-ch003-v050",
+            "kh02-ch003-v051",
+            "kh02-ch003-v052"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-15",
+          "verses": [
+            "kh02-ch003-v053",
+            "kh02-ch003-v054",
+            "kh02-ch003-v055"
+          ]
+        },
+        {
+          "id": "kh02-ch003-group-16",
+          "verses": [
+            "kh02-ch003-v056",
+            "kh02-ch003-v057"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter003-grouping.json"
+    },
+    {
+      "id": "kh02-ch004",
+      "khanda": 2,
+      "number": 4,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಚತುರ್ಥ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-004.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 17,
+          "printed_page": 8
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 18,
+          "printed_page": 9
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 19,
+          "printed_page": 10
+        },
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 20,
+          "printed_page": 11
+        }
+      ],
+      "coverage": {
+        "last_verse": 65,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          3,
+          5,
+          7,
+          19,
+          26,
+          48,
+          52,
+          61,
+          62
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        3,
+        5,
+        7,
+        19,
+        26,
+        48,
+        52,
+        61,
+        62
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        3,
+        5,
+        7,
+        19,
+        26,
+        48,
+        52,
+        61,
+        62
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch004-group-01",
+          "verses": [
+            "kh02-ch004-v001",
+            "kh02-ch004-v002",
+            "kh02-ch004-v003"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-02",
+          "verses": [
+            "kh02-ch004-v004",
+            "kh02-ch004-v005",
+            "kh02-ch004-v006",
+            "kh02-ch004-v007"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-03",
+          "verses": [
+            "kh02-ch004-v008",
+            "kh02-ch004-v009",
+            "kh02-ch004-v010"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-04",
+          "verses": [
+            "kh02-ch004-v011",
+            "kh02-ch004-v012",
+            "kh02-ch004-v013",
+            "kh02-ch004-v014",
+            "kh02-ch004-v015"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-05",
+          "verses": [
+            "kh02-ch004-v016",
+            "kh02-ch004-v017",
+            "kh02-ch004-v018"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-06",
+          "verses": [
+            "kh02-ch004-v019",
+            "kh02-ch004-v020",
+            "kh02-ch004-v021"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-07",
+          "verses": [
+            "kh02-ch004-v022",
+            "kh02-ch004-v023"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-08",
+          "verses": [
+            "kh02-ch004-v024",
+            "kh02-ch004-v025",
+            "kh02-ch004-v026"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-09",
+          "verses": [
+            "kh02-ch004-v027",
+            "kh02-ch004-v028",
+            "kh02-ch004-v029",
+            "kh02-ch004-v030"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-10",
+          "verses": [
+            "kh02-ch004-v031",
+            "kh02-ch004-v032",
+            "kh02-ch004-v033",
+            "kh02-ch004-v034"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-11",
+          "verses": [
+            "kh02-ch004-v035",
+            "kh02-ch004-v036",
+            "kh02-ch004-v037",
+            "kh02-ch004-v038"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-12",
+          "verses": [
+            "kh02-ch004-v039",
+            "kh02-ch004-v040",
+            "kh02-ch004-v041"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-13",
+          "verses": [
+            "kh02-ch004-v042",
+            "kh02-ch004-v043",
+            "kh02-ch004-v044",
+            "kh02-ch004-v045"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-14",
+          "verses": [
+            "kh02-ch004-v046",
+            "kh02-ch004-v047",
+            "kh02-ch004-v048"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-15",
+          "verses": [
+            "kh02-ch004-v049",
+            "kh02-ch004-v050",
+            "kh02-ch004-v051"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-16",
+          "verses": [
+            "kh02-ch004-v052",
+            "kh02-ch004-v053",
+            "kh02-ch004-v054",
+            "kh02-ch004-v055"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-17",
+          "verses": [
+            "kh02-ch004-v056",
+            "kh02-ch004-v057",
+            "kh02-ch004-v058"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-18",
+          "verses": [
+            "kh02-ch004-v059",
+            "kh02-ch004-v060"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-19",
+          "verses": [
+            "kh02-ch004-v061",
+            "kh02-ch004-v062",
+            "kh02-ch004-v063"
+          ]
+        },
+        {
+          "id": "kh02-ch004-group-20",
+          "verses": [
+            "kh02-ch004-v064",
+            "kh02-ch004-v065"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter004-grouping.json"
+    },
+    {
+      "id": "kh02-ch005",
+      "khanda": 2,
+      "number": 5,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಪಂಚಮ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-005.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        20,
+        1,
+        2
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-139-163",
+          "pdf_page": 20,
+          "printed_page": 11
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 1,
+          "printed_page": 12
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 2,
+          "printed_page": 13
+        }
+      ],
+      "coverage": {
+        "last_verse": 63,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          5,
+          37
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        5,
+        37
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        5,
+        37
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch005-group-01",
+          "verses": [
+            "kh02-ch005-v001",
+            "kh02-ch005-v002",
+            "kh02-ch005-v003",
+            "kh02-ch005-v004",
+            "kh02-ch005-v005"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-02",
+          "verses": [
+            "kh02-ch005-v006",
+            "kh02-ch005-v007",
+            "kh02-ch005-v008"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-03",
+          "verses": [
+            "kh02-ch005-v009",
+            "kh02-ch005-v010",
+            "kh02-ch005-v011",
+            "kh02-ch005-v012"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-04",
+          "verses": [
+            "kh02-ch005-v013",
+            "kh02-ch005-v014",
+            "kh02-ch005-v015",
+            "kh02-ch005-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-05",
+          "verses": [
+            "kh02-ch005-v017",
+            "kh02-ch005-v018",
+            "kh02-ch005-v019",
+            "kh02-ch005-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-06",
+          "verses": [
+            "kh02-ch005-v021",
+            "kh02-ch005-v022",
+            "kh02-ch005-v023",
+            "kh02-ch005-v024"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-07",
+          "verses": [
+            "kh02-ch005-v025",
+            "kh02-ch005-v026",
+            "kh02-ch005-v027"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-08",
+          "verses": [
+            "kh02-ch005-v028",
+            "kh02-ch005-v029",
+            "kh02-ch005-v030",
+            "kh02-ch005-v031"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-09",
+          "verses": [
+            "kh02-ch005-v032",
+            "kh02-ch005-v033"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-10",
+          "verses": [
+            "kh02-ch005-v034",
+            "kh02-ch005-v035",
+            "kh02-ch005-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-11",
+          "verses": [
+            "kh02-ch005-v037",
+            "kh02-ch005-v038"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-12",
+          "verses": [
+            "kh02-ch005-v039",
+            "kh02-ch005-v040",
+            "kh02-ch005-v041"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-13",
+          "verses": [
+            "kh02-ch005-v042",
+            "kh02-ch005-v043",
+            "kh02-ch005-v044"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-14",
+          "verses": [
+            "kh02-ch005-v045",
+            "kh02-ch005-v046",
+            "kh02-ch005-v047",
+            "kh02-ch005-v048",
+            "kh02-ch005-v049"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-15",
+          "verses": [
+            "kh02-ch005-v050",
+            "kh02-ch005-v051",
+            "kh02-ch005-v052",
+            "kh02-ch005-v053"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-16",
+          "verses": [
+            "kh02-ch005-v054",
+            "kh02-ch005-v055"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-17",
+          "verses": [
+            "kh02-ch005-v056",
+            "kh02-ch005-v057",
+            "kh02-ch005-v058"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-18",
+          "verses": [
+            "kh02-ch005-v059",
+            "kh02-ch005-v060",
+            "kh02-ch005-v061",
+            "kh02-ch005-v062"
+          ]
+        },
+        {
+          "id": "kh02-ch005-group-19",
+          "verses": [
+            "kh02-ch005-v063"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter005-grouping.json"
+    },
+    {
+      "id": "kh02-ch006",
+      "khanda": 2,
+      "number": 6,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಷಷ್ಠ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-006.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 3,
+          "printed_page": 14
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 4,
+          "printed_page": 15
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 5,
+          "printed_page": 16
+        }
+      ],
+      "coverage": {
+        "last_verse": 58,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          15,
+          21,
+          38,
+          40
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        15,
+        21,
+        38,
+        40
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        15,
+        21,
+        38,
+        40
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch006-group-01",
+          "verses": [
+            "kh02-ch006-v001",
+            "kh02-ch006-v002",
+            "kh02-ch006-v003"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-02",
+          "verses": [
+            "kh02-ch006-v004",
+            "kh02-ch006-v005",
+            "kh02-ch006-v006"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-03",
+          "verses": [
+            "kh02-ch006-v007",
+            "kh02-ch006-v008",
+            "kh02-ch006-v009"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-04",
+          "verses": [
+            "kh02-ch006-v010",
+            "kh02-ch006-v011"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-05",
+          "verses": [
+            "kh02-ch006-v012",
+            "kh02-ch006-v013",
+            "kh02-ch006-v014",
+            "kh02-ch006-v015"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-06",
+          "verses": [
+            "kh02-ch006-v016",
+            "kh02-ch006-v017",
+            "kh02-ch006-v018"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-07",
+          "verses": [
+            "kh02-ch006-v019",
+            "kh02-ch006-v020",
+            "kh02-ch006-v021",
+            "kh02-ch006-v022",
+            "kh02-ch006-v023"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-08",
+          "verses": [
+            "kh02-ch006-v024",
+            "kh02-ch006-v025",
+            "kh02-ch006-v026",
+            "kh02-ch006-v027",
+            "kh02-ch006-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-09",
+          "verses": [
+            "kh02-ch006-v029",
+            "kh02-ch006-v030",
+            "kh02-ch006-v031",
+            "kh02-ch006-v032"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-10",
+          "verses": [
+            "kh02-ch006-v033",
+            "kh02-ch006-v034",
+            "kh02-ch006-v035",
+            "kh02-ch006-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-11",
+          "verses": [
+            "kh02-ch006-v037",
+            "kh02-ch006-v038",
+            "kh02-ch006-v039",
+            "kh02-ch006-v040"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-12",
+          "verses": [
+            "kh02-ch006-v041",
+            "kh02-ch006-v042"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-13",
+          "verses": [
+            "kh02-ch006-v043",
+            "kh02-ch006-v044",
+            "kh02-ch006-v045",
+            "kh02-ch006-v046"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-14",
+          "verses": [
+            "kh02-ch006-v047",
+            "kh02-ch006-v048",
+            "kh02-ch006-v049",
+            "kh02-ch006-v050"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-15",
+          "verses": [
+            "kh02-ch006-v051",
+            "kh02-ch006-v052"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-16",
+          "verses": [
+            "kh02-ch006-v053",
+            "kh02-ch006-v054",
+            "kh02-ch006-v055"
+          ]
+        },
+        {
+          "id": "kh02-ch006-group-17",
+          "verses": [
+            "kh02-ch006-v056",
+            "kh02-ch006-v057",
+            "kh02-ch006-v058"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter006-grouping.json"
+    },
+    {
+      "id": "kh02-ch007",
+      "khanda": 2,
+      "number": 7,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಸಪ್ತಮ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-007.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        5,
+        6,
+        7
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 5,
+          "printed_page": 16
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 6,
+          "printed_page": 17
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 7,
+          "printed_page": 18
+        }
+      ],
+      "coverage": {
+        "last_verse": 55,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          6,
+          35,
+          37,
+          45
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        6,
+        35,
+        37,
+        45
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        6,
+        35,
+        37,
+        45
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch007-group-01",
+          "verses": [
+            "kh02-ch007-v001",
+            "kh02-ch007-v002",
+            "kh02-ch007-v003",
+            "kh02-ch007-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-02",
+          "verses": [
+            "kh02-ch007-v005",
+            "kh02-ch007-v006",
+            "kh02-ch007-v007",
+            "kh02-ch007-v008"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-03",
+          "verses": [
+            "kh02-ch007-v009",
+            "kh02-ch007-v010",
+            "kh02-ch007-v011",
+            "kh02-ch007-v012"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-04",
+          "verses": [
+            "kh02-ch007-v013",
+            "kh02-ch007-v014",
+            "kh02-ch007-v015"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-05",
+          "verses": [
+            "kh02-ch007-v016",
+            "kh02-ch007-v017",
+            "kh02-ch007-v018",
+            "kh02-ch007-v019"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-06",
+          "verses": [
+            "kh02-ch007-v020",
+            "kh02-ch007-v021"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-07",
+          "verses": [
+            "kh02-ch007-v022",
+            "kh02-ch007-v023",
+            "kh02-ch007-v024"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-08",
+          "verses": [
+            "kh02-ch007-v025",
+            "kh02-ch007-v026",
+            "kh02-ch007-v027",
+            "kh02-ch007-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-09",
+          "verses": [
+            "kh02-ch007-v029",
+            "kh02-ch007-v030",
+            "kh02-ch007-v031",
+            "kh02-ch007-v032"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-10",
+          "verses": [
+            "kh02-ch007-v033",
+            "kh02-ch007-v034",
+            "kh02-ch007-v035"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-11",
+          "verses": [
+            "kh02-ch007-v036",
+            "kh02-ch007-v037",
+            "kh02-ch007-v038",
+            "kh02-ch007-v039"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-12",
+          "verses": [
+            "kh02-ch007-v040",
+            "kh02-ch007-v041",
+            "kh02-ch007-v042",
+            "kh02-ch007-v043"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-13",
+          "verses": [
+            "kh02-ch007-v044",
+            "kh02-ch007-v045",
+            "kh02-ch007-v046",
+            "kh02-ch007-v047"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-14",
+          "verses": [
+            "kh02-ch007-v048",
+            "kh02-ch007-v049",
+            "kh02-ch007-v050"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-15",
+          "verses": [
+            "kh02-ch007-v051",
+            "kh02-ch007-v052",
+            "kh02-ch007-v053"
+          ]
+        },
+        {
+          "id": "kh02-ch007-group-16",
+          "verses": [
+            "kh02-ch007-v054",
+            "kh02-ch007-v055"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter007-grouping.json"
+    },
+    {
+      "id": "kh02-ch008",
+      "khanda": 2,
+      "number": 8,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಅಷ್ಟಮ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-008.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 7,
+          "printed_page": 18
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 8,
+          "printed_page": 19
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 9,
+          "printed_page": 20
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 10,
+          "printed_page": 21
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 11,
+          "printed_page": 22
+        }
+      ],
+      "coverage": {
+        "last_verse": 86,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          1,
+          23,
+          30,
+          68,
+          82
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        1,
+        23,
+        30,
+        68,
+        82
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        1,
+        23,
+        30,
+        68,
+        82
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch008-group-01",
+          "verses": [
+            "kh02-ch008-v001",
+            "kh02-ch008-v002",
+            "kh02-ch008-v003",
+            "kh02-ch008-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-02",
+          "verses": [
+            "kh02-ch008-v005",
+            "kh02-ch008-v006"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-03",
+          "verses": [
+            "kh02-ch008-v007",
+            "kh02-ch008-v008",
+            "kh02-ch008-v009",
+            "kh02-ch008-v010"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-04",
+          "verses": [
+            "kh02-ch008-v011",
+            "kh02-ch008-v012"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-05",
+          "verses": [
+            "kh02-ch008-v013",
+            "kh02-ch008-v014",
+            "kh02-ch008-v015"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-06",
+          "verses": [
+            "kh02-ch008-v016",
+            "kh02-ch008-v017",
+            "kh02-ch008-v018"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-07",
+          "verses": [
+            "kh02-ch008-v019",
+            "kh02-ch008-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-08",
+          "verses": [
+            "kh02-ch008-v021",
+            "kh02-ch008-v022",
+            "kh02-ch008-v023"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-09",
+          "verses": [
+            "kh02-ch008-v024",
+            "kh02-ch008-v025"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-10",
+          "verses": [
+            "kh02-ch008-v026",
+            "kh02-ch008-v027",
+            "kh02-ch008-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-11",
+          "verses": [
+            "kh02-ch008-v029",
+            "kh02-ch008-v030",
+            "kh02-ch008-v031"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-12",
+          "verses": [
+            "kh02-ch008-v032",
+            "kh02-ch008-v033",
+            "kh02-ch008-v034"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-13",
+          "verses": [
+            "kh02-ch008-v035",
+            "kh02-ch008-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-14",
+          "verses": [
+            "kh02-ch008-v037",
+            "kh02-ch008-v038",
+            "kh02-ch008-v039"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-15",
+          "verses": [
+            "kh02-ch008-v040",
+            "kh02-ch008-v041",
+            "kh02-ch008-v042"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-16",
+          "verses": [
+            "kh02-ch008-v043",
+            "kh02-ch008-v044",
+            "kh02-ch008-v045"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-17",
+          "verses": [
+            "kh02-ch008-v046",
+            "kh02-ch008-v047",
+            "kh02-ch008-v048"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-18",
+          "verses": [
+            "kh02-ch008-v049",
+            "kh02-ch008-v050"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-19",
+          "verses": [
+            "kh02-ch008-v051",
+            "kh02-ch008-v052",
+            "kh02-ch008-v053",
+            "kh02-ch008-v054"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-20",
+          "verses": [
+            "kh02-ch008-v055",
+            "kh02-ch008-v056",
+            "kh02-ch008-v057",
+            "kh02-ch008-v058"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-21",
+          "verses": [
+            "kh02-ch008-v059",
+            "kh02-ch008-v060",
+            "kh02-ch008-v061"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-22",
+          "verses": [
+            "kh02-ch008-v062",
+            "kh02-ch008-v063",
+            "kh02-ch008-v064",
+            "kh02-ch008-v065"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-23",
+          "verses": [
+            "kh02-ch008-v066",
+            "kh02-ch008-v067"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-24",
+          "verses": [
+            "kh02-ch008-v068",
+            "kh02-ch008-v069",
+            "kh02-ch008-v070"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-25",
+          "verses": [
+            "kh02-ch008-v071",
+            "kh02-ch008-v072"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-26",
+          "verses": [
+            "kh02-ch008-v073",
+            "kh02-ch008-v074"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-27",
+          "verses": [
+            "kh02-ch008-v075",
+            "kh02-ch008-v076",
+            "kh02-ch008-v077",
+            "kh02-ch008-v078"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-28",
+          "verses": [
+            "kh02-ch008-v079",
+            "kh02-ch008-v080",
+            "kh02-ch008-v081",
+            "kh02-ch008-v082"
+          ]
+        },
+        {
+          "id": "kh02-ch008-group-29",
+          "verses": [
+            "kh02-ch008-v083",
+            "kh02-ch008-v084",
+            "kh02-ch008-v085",
+            "kh02-ch008-v086"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter008-grouping.json"
+    },
+    {
+      "id": "kh02-ch009",
+      "khanda": 2,
+      "number": 9,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ನವಮ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-009.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        11,
+        12,
+        13
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 11,
+          "printed_page": 22
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 12,
+          "printed_page": 23
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 13,
+          "printed_page": 24
+        }
+      ],
+      "coverage": {
+        "last_verse": 44,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          16,
+          29,
+          38
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        16,
+        29,
+        38
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        16,
+        29,
+        38
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch009-group-01",
+          "verses": [
+            "kh02-ch009-v001",
+            "kh02-ch009-v002",
+            "kh02-ch009-v003",
+            "kh02-ch009-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-02",
+          "verses": [
+            "kh02-ch009-v005",
+            "kh02-ch009-v006",
+            "kh02-ch009-v007"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-03",
+          "verses": [
+            "kh02-ch009-v008",
+            "kh02-ch009-v009",
+            "kh02-ch009-v010",
+            "kh02-ch009-v011"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-04",
+          "verses": [
+            "kh02-ch009-v012",
+            "kh02-ch009-v013",
+            "kh02-ch009-v014",
+            "kh02-ch009-v015",
+            "kh02-ch009-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-05",
+          "verses": [
+            "kh02-ch009-v017",
+            "kh02-ch009-v018",
+            "kh02-ch009-v019",
+            "kh02-ch009-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-06",
+          "verses": [
+            "kh02-ch009-v021",
+            "kh02-ch009-v022",
+            "kh02-ch009-v023"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-07",
+          "verses": [
+            "kh02-ch009-v024",
+            "kh02-ch009-v025",
+            "kh02-ch009-v026",
+            "kh02-ch009-v027"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-08",
+          "verses": [
+            "kh02-ch009-v028",
+            "kh02-ch009-v029",
+            "kh02-ch009-v030"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-09",
+          "verses": [
+            "kh02-ch009-v031",
+            "kh02-ch009-v032"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-10",
+          "verses": [
+            "kh02-ch009-v033",
+            "kh02-ch009-v034",
+            "kh02-ch009-v035",
+            "kh02-ch009-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-11",
+          "verses": [
+            "kh02-ch009-v037",
+            "kh02-ch009-v038",
+            "kh02-ch009-v039"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-12",
+          "verses": [
+            "kh02-ch009-v040",
+            "kh02-ch009-v041",
+            "kh02-ch009-v042"
+          ]
+        },
+        {
+          "id": "kh02-ch009-group-13",
+          "verses": [
+            "kh02-ch009-v043",
+            "kh02-ch009-v044"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter009-grouping.json"
+    },
+    {
+      "id": "kh02-ch010",
+      "khanda": 2,
+      "number": 10,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ದಶಮ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-010.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        13,
+        14,
+        15
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 13,
+          "printed_page": 24
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 14,
+          "printed_page": 25
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 15,
+          "printed_page": 26
+        }
+      ],
+      "coverage": {
+        "last_verse": 53,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          12,
+          31,
+          43,
+          51,
+          52
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        12,
+        31,
+        43,
+        51,
+        52
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        12,
+        31,
+        43,
+        51,
+        52
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch010-group-01",
+          "verses": [
+            "kh02-ch010-v001",
+            "kh02-ch010-v002",
+            "kh02-ch010-v003"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-02",
+          "verses": [
+            "kh02-ch010-v004",
+            "kh02-ch010-v005",
+            "kh02-ch010-v006",
+            "kh02-ch010-v007"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-03",
+          "verses": [
+            "kh02-ch010-v008",
+            "kh02-ch010-v009"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-04",
+          "verses": [
+            "kh02-ch010-v010",
+            "kh02-ch010-v011",
+            "kh02-ch010-v012",
+            "kh02-ch010-v013"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-05",
+          "verses": [
+            "kh02-ch010-v014",
+            "kh02-ch010-v015",
+            "kh02-ch010-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-06",
+          "verses": [
+            "kh02-ch010-v017",
+            "kh02-ch010-v018",
+            "kh02-ch010-v019"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-07",
+          "verses": [
+            "kh02-ch010-v020",
+            "kh02-ch010-v021",
+            "kh02-ch010-v022",
+            "kh02-ch010-v023",
+            "kh02-ch010-v024"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-08",
+          "verses": [
+            "kh02-ch010-v025",
+            "kh02-ch010-v026",
+            "kh02-ch010-v027"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-09",
+          "verses": [
+            "kh02-ch010-v028",
+            "kh02-ch010-v029",
+            "kh02-ch010-v030"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-10",
+          "verses": [
+            "kh02-ch010-v031",
+            "kh02-ch010-v032",
+            "kh02-ch010-v033"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-11",
+          "verses": [
+            "kh02-ch010-v034",
+            "kh02-ch010-v035",
+            "kh02-ch010-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-12",
+          "verses": [
+            "kh02-ch010-v037",
+            "kh02-ch010-v038"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-13",
+          "verses": [
+            "kh02-ch010-v039",
+            "kh02-ch010-v040",
+            "kh02-ch010-v041",
+            "kh02-ch010-v042"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-14",
+          "verses": [
+            "kh02-ch010-v043",
+            "kh02-ch010-v044",
+            "kh02-ch010-v045"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-15",
+          "verses": [
+            "kh02-ch010-v046",
+            "kh02-ch010-v047"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-16",
+          "verses": [
+            "kh02-ch010-v048",
+            "kh02-ch010-v049"
+          ]
+        },
+        {
+          "id": "kh02-ch010-group-17",
+          "verses": [
+            "kh02-ch010-v050",
+            "kh02-ch010-v051",
+            "kh02-ch010-v052",
+            "kh02-ch010-v053"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter010-grouping.json"
+    },
+    {
+      "id": "kh02-ch011",
+      "khanda": 2,
+      "number": 11,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಏಕಾದಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-011.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        15,
+        16,
+        17
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 15,
+          "printed_page": 26
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 16,
+          "printed_page": 27
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 17,
+          "printed_page": 28
+        }
+      ],
+      "coverage": {
+        "last_verse": 42,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          9,
+          28,
+          38,
+          40
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        9,
+        28,
+        38,
+        40
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        9,
+        28,
+        38,
+        40
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch011-group-01",
+          "verses": [
+            "kh02-ch011-v001",
+            "kh02-ch011-v002",
+            "kh02-ch011-v003",
+            "kh02-ch011-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-02",
+          "verses": [
+            "kh02-ch011-v005",
+            "kh02-ch011-v006",
+            "kh02-ch011-v007"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-03",
+          "verses": [
+            "kh02-ch011-v008",
+            "kh02-ch011-v009",
+            "kh02-ch011-v010",
+            "kh02-ch011-v011"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-04",
+          "verses": [
+            "kh02-ch011-v012",
+            "kh02-ch011-v013",
+            "kh02-ch011-v014",
+            "kh02-ch011-v015",
+            "kh02-ch011-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-05",
+          "verses": [
+            "kh02-ch011-v017",
+            "kh02-ch011-v018",
+            "kh02-ch011-v019"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-06",
+          "verses": [
+            "kh02-ch011-v020",
+            "kh02-ch011-v021",
+            "kh02-ch011-v022"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-07",
+          "verses": [
+            "kh02-ch011-v023",
+            "kh02-ch011-v024",
+            "kh02-ch011-v025",
+            "kh02-ch011-v026"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-08",
+          "verses": [
+            "kh02-ch011-v027",
+            "kh02-ch011-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-09",
+          "verses": [
+            "kh02-ch011-v029",
+            "kh02-ch011-v030",
+            "kh02-ch011-v031",
+            "kh02-ch011-v032"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-10",
+          "verses": [
+            "kh02-ch011-v033",
+            "kh02-ch011-v034",
+            "kh02-ch011-v035"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-11",
+          "verses": [
+            "kh02-ch011-v036",
+            "kh02-ch011-v037"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-12",
+          "verses": [
+            "kh02-ch011-v038",
+            "kh02-ch011-v039",
+            "kh02-ch011-v040"
+          ]
+        },
+        {
+          "id": "kh02-ch011-group-13",
+          "verses": [
+            "kh02-ch011-v041",
+            "kh02-ch011-v042"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter011-grouping.json"
+    },
+    {
+      "id": "kh02-ch012",
+      "khanda": 2,
+      "number": 12,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ದ್ವಾದಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-012.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        17,
+        18,
+        19
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 17,
+          "printed_page": 28
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 18,
+          "printed_page": 29
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 19,
+          "printed_page": 30
+        }
+      ],
+      "coverage": {
+        "last_verse": 42,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          21,
+          40
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        21,
+        40
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        21,
+        40
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch012-group-01",
+          "verses": [
+            "kh02-ch012-v001",
+            "kh02-ch012-v002"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-02",
+          "verses": [
+            "kh02-ch012-v003",
+            "kh02-ch012-v004",
+            "kh02-ch012-v005",
+            "kh02-ch012-v006"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-03",
+          "verses": [
+            "kh02-ch012-v007",
+            "kh02-ch012-v008"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-04",
+          "verses": [
+            "kh02-ch012-v009",
+            "kh02-ch012-v010",
+            "kh02-ch012-v011",
+            "kh02-ch012-v012"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-05",
+          "verses": [
+            "kh02-ch012-v013",
+            "kh02-ch012-v014",
+            "kh02-ch012-v015",
+            "kh02-ch012-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-06",
+          "verses": [
+            "kh02-ch012-v017",
+            "kh02-ch012-v018",
+            "kh02-ch012-v019",
+            "kh02-ch012-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-07",
+          "verses": [
+            "kh02-ch012-v021",
+            "kh02-ch012-v022",
+            "kh02-ch012-v023"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-08",
+          "verses": [
+            "kh02-ch012-v024",
+            "kh02-ch012-v025",
+            "kh02-ch012-v026"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-09",
+          "verses": [
+            "kh02-ch012-v027",
+            "kh02-ch012-v028",
+            "kh02-ch012-v029"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-10",
+          "verses": [
+            "kh02-ch012-v030",
+            "kh02-ch012-v031",
+            "kh02-ch012-v032"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-11",
+          "verses": [
+            "kh02-ch012-v033",
+            "kh02-ch012-v034",
+            "kh02-ch012-v035",
+            "kh02-ch012-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-12",
+          "verses": [
+            "kh02-ch012-v037",
+            "kh02-ch012-v038",
+            "kh02-ch012-v039"
+          ]
+        },
+        {
+          "id": "kh02-ch012-group-13",
+          "verses": [
+            "kh02-ch012-v040",
+            "kh02-ch012-v041",
+            "kh02-ch012-v042"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter012-grouping.json"
+    },
+    {
+      "id": "kh02-ch013",
+      "khanda": 2,
+      "number": 13,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ತ್ರಯೋದಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-013.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        19,
+        20
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 19,
+          "printed_page": 30
+        },
+        {
+          "document": "user-pdf-164-183",
+          "pdf_page": 20,
+          "printed_page": 31
+        }
+      ],
+      "coverage": {
+        "last_verse": 43,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          2,
+          14,
+          17,
+          27,
+          37,
+          39
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        2,
+        14,
+        17,
+        27,
+        37,
+        39
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        2,
+        14,
+        17,
+        27,
+        37,
+        39
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch013-group-01",
+          "verses": [
+            "kh02-ch013-v001",
+            "kh02-ch013-v002",
+            "kh02-ch013-v003",
+            "kh02-ch013-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-02",
+          "verses": [
+            "kh02-ch013-v005",
+            "kh02-ch013-v006"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-03",
+          "verses": [
+            "kh02-ch013-v007",
+            "kh02-ch013-v008"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-04",
+          "verses": [
+            "kh02-ch013-v009",
+            "kh02-ch013-v010"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-05",
+          "verses": [
+            "kh02-ch013-v011",
+            "kh02-ch013-v012",
+            "kh02-ch013-v013",
+            "kh02-ch013-v014",
+            "kh02-ch013-v015",
+            "kh02-ch013-v016",
+            "kh02-ch013-v017"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-06",
+          "verses": [
+            "kh02-ch013-v018",
+            "kh02-ch013-v019",
+            "kh02-ch013-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-07",
+          "verses": [
+            "kh02-ch013-v021",
+            "kh02-ch013-v022",
+            "kh02-ch013-v023",
+            "kh02-ch013-v024"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-08",
+          "verses": [
+            "kh02-ch013-v025",
+            "kh02-ch013-v026",
+            "kh02-ch013-v027"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-09",
+          "verses": [
+            "kh02-ch013-v028",
+            "kh02-ch013-v029",
+            "kh02-ch013-v030",
+            "kh02-ch013-v031"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-10",
+          "verses": [
+            "kh02-ch013-v032",
+            "kh02-ch013-v033",
+            "kh02-ch013-v034"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-11",
+          "verses": [
+            "kh02-ch013-v035",
+            "kh02-ch013-v036",
+            "kh02-ch013-v037"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-12",
+          "verses": [
+            "kh02-ch013-v038",
+            "kh02-ch013-v039",
+            "kh02-ch013-v040",
+            "kh02-ch013-v041"
+          ]
+        },
+        {
+          "id": "kh02-ch013-group-13",
+          "verses": [
+            "kh02-ch013-v042",
+            "kh02-ch013-v043"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter013-grouping.json"
+    },
+    {
+      "id": "kh02-ch014",
+      "khanda": 2,
+      "number": 14,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಚತುರ್ದಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-014.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        1,
+        2
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 1,
+          "printed_page": 32
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 2,
+          "printed_page": 33
+        }
+      ],
+      "coverage": {
+        "last_verse": 41,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          7,
+          39
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        7,
+        39
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        7,
+        39
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch014-group-01",
+          "verses": [
+            "kh02-ch014-v001",
+            "kh02-ch014-v002",
+            "kh02-ch014-v003",
+            "kh02-ch014-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-02",
+          "verses": [
+            "kh02-ch014-v005",
+            "kh02-ch014-v006",
+            "kh02-ch014-v007"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-03",
+          "verses": [
+            "kh02-ch014-v008",
+            "kh02-ch014-v009"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-04",
+          "verses": [
+            "kh02-ch014-v010",
+            "kh02-ch014-v011",
+            "kh02-ch014-v012",
+            "kh02-ch014-v013"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-05",
+          "verses": [
+            "kh02-ch014-v014",
+            "kh02-ch014-v015",
+            "kh02-ch014-v016",
+            "kh02-ch014-v017",
+            "kh02-ch014-v018"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-06",
+          "verses": [
+            "kh02-ch014-v019",
+            "kh02-ch014-v020",
+            "kh02-ch014-v021",
+            "kh02-ch014-v022"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-07",
+          "verses": [
+            "kh02-ch014-v023",
+            "kh02-ch014-v024"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-08",
+          "verses": [
+            "kh02-ch014-v025",
+            "kh02-ch014-v026",
+            "kh02-ch014-v027",
+            "kh02-ch014-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-09",
+          "verses": [
+            "kh02-ch014-v029",
+            "kh02-ch014-v030",
+            "kh02-ch014-v031",
+            "kh02-ch014-v032"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-10",
+          "verses": [
+            "kh02-ch014-v033",
+            "kh02-ch014-v034"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-11",
+          "verses": [
+            "kh02-ch014-v035",
+            "kh02-ch014-v036",
+            "kh02-ch014-v037"
+          ]
+        },
+        {
+          "id": "kh02-ch014-group-12",
+          "verses": [
+            "kh02-ch014-v038",
+            "kh02-ch014-v039",
+            "kh02-ch014-v040",
+            "kh02-ch014-v041"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter014-grouping.json"
+    },
+    {
+      "id": "kh02-ch015",
+      "khanda": 2,
+      "number": 15,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಪಂಚದಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-015.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 2,
+          "printed_page": 33
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 3,
+          "printed_page": 34
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 4,
+          "printed_page": 35
+        }
+      ],
+      "coverage": {
+        "last_verse": 40,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [],
+      "sanskrit_uncertain_verse_numbers": [],
+      "reading_groups": [
+        {
+          "id": "kh02-ch015-group-01",
+          "verses": [
+            "kh02-ch015-v001",
+            "kh02-ch015-v002",
+            "kh02-ch015-v003"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-02",
+          "verses": [
+            "kh02-ch015-v004",
+            "kh02-ch015-v005"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-03",
+          "verses": [
+            "kh02-ch015-v006",
+            "kh02-ch015-v007"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-04",
+          "verses": [
+            "kh02-ch015-v008",
+            "kh02-ch015-v009"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-05",
+          "verses": [
+            "kh02-ch015-v010",
+            "kh02-ch015-v011",
+            "kh02-ch015-v012",
+            "kh02-ch015-v013"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-06",
+          "verses": [
+            "kh02-ch015-v014",
+            "kh02-ch015-v015",
+            "kh02-ch015-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-07",
+          "verses": [
+            "kh02-ch015-v017",
+            "kh02-ch015-v018",
+            "kh02-ch015-v019"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-08",
+          "verses": [
+            "kh02-ch015-v020",
+            "kh02-ch015-v021",
+            "kh02-ch015-v022",
+            "kh02-ch015-v023"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-09",
+          "verses": [
+            "kh02-ch015-v024",
+            "kh02-ch015-v025"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-10",
+          "verses": [
+            "kh02-ch015-v026",
+            "kh02-ch015-v027",
+            "kh02-ch015-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-11",
+          "verses": [
+            "kh02-ch015-v029",
+            "kh02-ch015-v030",
+            "kh02-ch015-v031"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-12",
+          "verses": [
+            "kh02-ch015-v032",
+            "kh02-ch015-v033",
+            "kh02-ch015-v034",
+            "kh02-ch015-v035"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-13",
+          "verses": [
+            "kh02-ch015-v036",
+            "kh02-ch015-v037"
+          ]
+        },
+        {
+          "id": "kh02-ch015-group-14",
+          "verses": [
+            "kh02-ch015-v038",
+            "kh02-ch015-v039",
+            "kh02-ch015-v040"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter015-grouping.json"
+    },
+    {
+      "id": "kh02-ch016",
+      "khanda": 2,
+      "number": 16,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಷೋಡಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-016.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 4,
+          "printed_page": 35
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 5,
+          "printed_page": 36
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 6,
+          "printed_page": 37
+        }
+      ],
+      "coverage": {
+        "last_verse": 58,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          4,
+          8,
+          26,
+          34,
+          38,
+          56
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        4,
+        8,
+        26,
+        34,
+        38,
+        56
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        4,
+        8,
+        26,
+        34,
+        38,
+        56
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch016-group-01",
+          "verses": [
+            "kh02-ch016-v001",
+            "kh02-ch016-v002",
+            "kh02-ch016-v003",
+            "kh02-ch016-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-02",
+          "verses": [
+            "kh02-ch016-v005",
+            "kh02-ch016-v006"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-03",
+          "verses": [
+            "kh02-ch016-v007",
+            "kh02-ch016-v008"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-04",
+          "verses": [
+            "kh02-ch016-v009",
+            "kh02-ch016-v010",
+            "kh02-ch016-v011",
+            "kh02-ch016-v012"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-05",
+          "verses": [
+            "kh02-ch016-v013",
+            "kh02-ch016-v014",
+            "kh02-ch016-v015",
+            "kh02-ch016-v016",
+            "kh02-ch016-v017"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-06",
+          "verses": [
+            "kh02-ch016-v018",
+            "kh02-ch016-v019",
+            "kh02-ch016-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-07",
+          "verses": [
+            "kh02-ch016-v021",
+            "kh02-ch016-v022",
+            "kh02-ch016-v023",
+            "kh02-ch016-v024",
+            "kh02-ch016-v025"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-08",
+          "verses": [
+            "kh02-ch016-v026",
+            "kh02-ch016-v027",
+            "kh02-ch016-v028",
+            "kh02-ch016-v029"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-09",
+          "verses": [
+            "kh02-ch016-v030",
+            "kh02-ch016-v031",
+            "kh02-ch016-v032",
+            "kh02-ch016-v033"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-10",
+          "verses": [
+            "kh02-ch016-v034",
+            "kh02-ch016-v035",
+            "kh02-ch016-v036",
+            "kh02-ch016-v037"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-11",
+          "verses": [
+            "kh02-ch016-v038",
+            "kh02-ch016-v039",
+            "kh02-ch016-v040",
+            "kh02-ch016-v041"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-12",
+          "verses": [
+            "kh02-ch016-v042",
+            "kh02-ch016-v043",
+            "kh02-ch016-v044",
+            "kh02-ch016-v045"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-13",
+          "verses": [
+            "kh02-ch016-v046",
+            "kh02-ch016-v047",
+            "kh02-ch016-v048",
+            "kh02-ch016-v049"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-14",
+          "verses": [
+            "kh02-ch016-v050",
+            "kh02-ch016-v051",
+            "kh02-ch016-v052",
+            "kh02-ch016-v053"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-15",
+          "verses": [
+            "kh02-ch016-v054",
+            "kh02-ch016-v055",
+            "kh02-ch016-v056"
+          ]
+        },
+        {
+          "id": "kh02-ch016-group-16",
+          "verses": [
+            "kh02-ch016-v057",
+            "kh02-ch016-v058"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter016-grouping.json"
+    },
+    {
+      "id": "kh02-ch017",
+      "khanda": 2,
+      "number": 17,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಸಪ್ತದಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-017.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        7,
+        8,
+        9
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 7,
+          "printed_page": 38
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 8,
+          "printed_page": 39
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 9,
+          "printed_page": 40
+        }
+      ],
+      "coverage": {
+        "last_verse": 59,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          1,
+          2,
+          43,
+          50
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        1,
+        2,
+        43,
+        50
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        1,
+        2,
+        43,
+        50
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch017-group-01",
+          "verses": [
+            "kh02-ch017-v001",
+            "kh02-ch017-v002",
+            "kh02-ch017-v003",
+            "kh02-ch017-v004",
+            "kh02-ch017-v005"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-02",
+          "verses": [
+            "kh02-ch017-v006",
+            "kh02-ch017-v007",
+            "kh02-ch017-v008"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-03",
+          "verses": [
+            "kh02-ch017-v009",
+            "kh02-ch017-v010",
+            "kh02-ch017-v011",
+            "kh02-ch017-v012"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-04",
+          "verses": [
+            "kh02-ch017-v013",
+            "kh02-ch017-v014"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-05",
+          "verses": [
+            "kh02-ch017-v015",
+            "kh02-ch017-v016",
+            "kh02-ch017-v017",
+            "kh02-ch017-v018"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-06",
+          "verses": [
+            "kh02-ch017-v019",
+            "kh02-ch017-v020",
+            "kh02-ch017-v021"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-07",
+          "verses": [
+            "kh02-ch017-v022",
+            "kh02-ch017-v023",
+            "kh02-ch017-v024"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-08",
+          "verses": [
+            "kh02-ch017-v025",
+            "kh02-ch017-v026",
+            "kh02-ch017-v027"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-09",
+          "verses": [
+            "kh02-ch017-v028",
+            "kh02-ch017-v029",
+            "kh02-ch017-v030"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-10",
+          "verses": [
+            "kh02-ch017-v031",
+            "kh02-ch017-v032",
+            "kh02-ch017-v033"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-11",
+          "verses": [
+            "kh02-ch017-v034",
+            "kh02-ch017-v035",
+            "kh02-ch017-v036"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-12",
+          "verses": [
+            "kh02-ch017-v037",
+            "kh02-ch017-v038",
+            "kh02-ch017-v039"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-13",
+          "verses": [
+            "kh02-ch017-v040",
+            "kh02-ch017-v041"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-14",
+          "verses": [
+            "kh02-ch017-v042",
+            "kh02-ch017-v043",
+            "kh02-ch017-v044",
+            "kh02-ch017-v045"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-15",
+          "verses": [
+            "kh02-ch017-v046",
+            "kh02-ch017-v047",
+            "kh02-ch017-v048",
+            "kh02-ch017-v049"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-16",
+          "verses": [
+            "kh02-ch017-v050",
+            "kh02-ch017-v051",
+            "kh02-ch017-v052"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-17",
+          "verses": [
+            "kh02-ch017-v053",
+            "kh02-ch017-v054",
+            "kh02-ch017-v055"
+          ]
+        },
+        {
+          "id": "kh02-ch017-group-18",
+          "verses": [
+            "kh02-ch017-v056",
+            "kh02-ch017-v057",
+            "kh02-ch017-v058",
+            "kh02-ch017-v059"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter017-grouping.json"
+    },
+    {
+      "id": "kh02-ch018",
+      "khanda": 2,
+      "number": 18,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಅಷ್ಟಾದಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-018.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        9,
+        10
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 9,
+          "printed_page": 40
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 10,
+          "printed_page": 41
+        }
+      ],
+      "coverage": {
+        "last_verse": 37,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          4,
+          13
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        4,
+        13
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        4,
+        13
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch018-group-01",
+          "verses": [
+            "kh02-ch018-v001",
+            "kh02-ch018-v002",
+            "kh02-ch018-v003",
+            "kh02-ch018-v004"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-02",
+          "verses": [
+            "kh02-ch018-v005",
+            "kh02-ch018-v006"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-03",
+          "verses": [
+            "kh02-ch018-v007",
+            "kh02-ch018-v008",
+            "kh02-ch018-v009"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-04",
+          "verses": [
+            "kh02-ch018-v010",
+            "kh02-ch018-v011",
+            "kh02-ch018-v012",
+            "kh02-ch018-v013"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-05",
+          "verses": [
+            "kh02-ch018-v014",
+            "kh02-ch018-v015",
+            "kh02-ch018-v016",
+            "kh02-ch018-v017"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-06",
+          "verses": [
+            "kh02-ch018-v018",
+            "kh02-ch018-v019",
+            "kh02-ch018-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-07",
+          "verses": [
+            "kh02-ch018-v021",
+            "kh02-ch018-v022",
+            "kh02-ch018-v023"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-08",
+          "verses": [
+            "kh02-ch018-v024",
+            "kh02-ch018-v025"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-09",
+          "verses": [
+            "kh02-ch018-v026",
+            "kh02-ch018-v027",
+            "kh02-ch018-v028",
+            "kh02-ch018-v029"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-10",
+          "verses": [
+            "kh02-ch018-v030",
+            "kh02-ch018-v031",
+            "kh02-ch018-v032",
+            "kh02-ch018-v033"
+          ]
+        },
+        {
+          "id": "kh02-ch018-group-11",
+          "verses": [
+            "kh02-ch018-v034",
+            "kh02-ch018-v035",
+            "kh02-ch018-v036",
+            "kh02-ch018-v037"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter018-grouping.json"
+    },
+    {
+      "id": "kh02-ch019",
+      "khanda": 2,
+      "number": 19,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಏಕೋನವಿಂಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-019.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        11,
+        12
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 11,
+          "printed_page": 42
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 12,
+          "printed_page": 43
+        }
+      ],
+      "coverage": {
+        "last_verse": 39,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          1
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        1
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        1
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch019-group-01",
+          "verses": [
+            "kh02-ch019-v001",
+            "kh02-ch019-v002",
+            "kh02-ch019-v003"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-02",
+          "verses": [
+            "kh02-ch019-v004",
+            "kh02-ch019-v005"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-03",
+          "verses": [
+            "kh02-ch019-v006",
+            "kh02-ch019-v007",
+            "kh02-ch019-v008",
+            "kh02-ch019-v009"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-04",
+          "verses": [
+            "kh02-ch019-v010",
+            "kh02-ch019-v011",
+            "kh02-ch019-v012",
+            "kh02-ch019-v013"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-05",
+          "verses": [
+            "kh02-ch019-v014",
+            "kh02-ch019-v015"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-06",
+          "verses": [
+            "kh02-ch019-v016",
+            "kh02-ch019-v017",
+            "kh02-ch019-v018",
+            "kh02-ch019-v019"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-07",
+          "verses": [
+            "kh02-ch019-v020",
+            "kh02-ch019-v021",
+            "kh02-ch019-v022"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-08",
+          "verses": [
+            "kh02-ch019-v023",
+            "kh02-ch019-v024",
+            "kh02-ch019-v025",
+            "kh02-ch019-v026"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-09",
+          "verses": [
+            "kh02-ch019-v027",
+            "kh02-ch019-v028",
+            "kh02-ch019-v029",
+            "kh02-ch019-v030"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-10",
+          "verses": [
+            "kh02-ch019-v031",
+            "kh02-ch019-v032",
+            "kh02-ch019-v033"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-11",
+          "verses": [
+            "kh02-ch019-v034",
+            "kh02-ch019-v035"
+          ]
+        },
+        {
+          "id": "kh02-ch019-group-12",
+          "verses": [
+            "kh02-ch019-v036",
+            "kh02-ch019-v037",
+            "kh02-ch019-v038",
+            "kh02-ch019-v039"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter019-grouping.json"
+    },
+    {
+      "id": "kh02-ch020",
+      "khanda": 2,
+      "number": 20,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ವಿಂಶತಿತಮ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-020.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        12,
+        13,
+        14
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 12,
+          "printed_page": 43
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 13,
+          "printed_page": 44
+        },
+        {
+          "document": "user-pdf-184-205",
+          "pdf_page": 14,
+          "printed_page": 45
+        }
+      ],
+      "coverage": {
+        "last_verse": 35,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          10,
+          11,
+          12
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        10,
+        11,
+        12
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        10,
+        11,
+        12
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch020-group-01",
+          "verses": [
+            "kh02-ch020-v001",
+            "kh02-ch020-v002",
+            "kh02-ch020-v003"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-02",
+          "verses": [
+            "kh02-ch020-v004",
+            "kh02-ch020-v005",
+            "kh02-ch020-v006",
+            "kh02-ch020-v007",
+            "kh02-ch020-v008"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-03",
+          "verses": [
+            "kh02-ch020-v009",
+            "kh02-ch020-v010",
+            "kh02-ch020-v011",
+            "kh02-ch020-v012"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-04",
+          "verses": [
+            "kh02-ch020-v013",
+            "kh02-ch020-v014",
+            "kh02-ch020-v015",
+            "kh02-ch020-v016"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-05",
+          "verses": [
+            "kh02-ch020-v017",
+            "kh02-ch020-v018",
+            "kh02-ch020-v019",
+            "kh02-ch020-v020"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-06",
+          "verses": [
+            "kh02-ch020-v021",
+            "kh02-ch020-v022"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-07",
+          "verses": [
+            "kh02-ch020-v023",
+            "kh02-ch020-v024",
+            "kh02-ch020-v025",
+            "kh02-ch020-v026"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-08",
+          "verses": [
+            "kh02-ch020-v027",
+            "kh02-ch020-v028"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-09",
+          "verses": [
+            "kh02-ch020-v029",
+            "kh02-ch020-v030"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-10",
+          "verses": [
+            "kh02-ch020-v031",
+            "kh02-ch020-v032",
+            "kh02-ch020-v033"
+          ]
+        },
+        {
+          "id": "kh02-ch020-group-11",
+          "verses": [
+            "kh02-ch020-v034",
+            "kh02-ch020-v035"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter020-grouping.json"
     }
   ],
   "frontmatter": [
@@ -3625,6 +7434,75 @@
         6,
         7
       ]
+    },
+    {
+      "id": "user-pdf-139-163",
+      "filename": "139 TO 163.pdf",
+      "sha256": "b54273deea82824de436dd704c91b3b6cf82932f3e226a32c46f78c7d0e4e7c8",
+      "pdf_pages": 20,
+      "integrated_pdf_pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "user-pdf-164-183",
+      "filename": "164 TO 183.pdf",
+      "sha256": "2d0ff8376ee40a6a45e17a21326d8c642500cae530fe81056d5ee96091965e48",
+      "pdf_pages": 20,
+      "integrated_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "user-pdf-184-205",
+      "filename": "184 TO 205.pdf",
+      "sha256": "986c524c2978676814bf085149ea93d9bf9e4e2188ad83f005c0758ad52156b1",
+      "pdf_pages": 22,
+      "integrated_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
     }
   ],
   "verse_source_archive": "review/verse-source-records.json",
@@ -3653,5 +7531,40 @@
     ],
     "readings_fully_resolved": false,
     "ending_source_gap": "After printed122, Chapter54 opening35; supplied ending body leaf absent in bounded check."
-  }
+  },
+  "khanda2_completion": {
+    "complete": false,
+    "included_chapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "numbered_records": 1033,
+    "resolved_draft_meanings": 958,
+    "qualified_meanings": 74,
+    "pending_meanings": [
+      "kh02-ch007-v037"
+    ],
+    "source_flags": 75,
+    "expert_review": false,
+    "status": "reading-draft"
+  },
+  "khanda2_verse_source_archive": "review/khanda02-source-records.json"
 }

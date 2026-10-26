@@ -17,7 +17,7 @@ class BookBuildTest(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name).resolve() / 'book'
-        shutil.copytree(build.ROOT, self.root, ignore=shutil.ignore_patterns('dist', '__pycache__'))
+        shutil.copytree(build.ROOT, self.root, ignore=shutil.ignore_patterns('dist', '__pycache__', 'site'))
         self.patch = patch.object(build, 'ROOT', self.root)
         self.patch.start()
         self.addCleanup(self.patch.stop)
@@ -62,7 +62,14 @@ class BookBuildTest(unittest.TestCase):
             self.assertEqual(body.findall('.//h:a', ns), [])
             self.assertEqual(body.findall('.//h:nav', ns), [])
             sections = body.findall('.//h:section[@data-source-pdf-page]', ns)
-            self.assertEqual({(n.get('data-source-file', 'user-pdf-001'), n.get('data-source-pdf-page')) for n in sections}, expected_pages)
+            actual_pages = {(n.get('data-source-file', 'user-pdf-001'), n.get('data-source-pdf-page')) for n in sections}
+            for section in body.findall('.//h:section[@data-source-pdf-pages]', ns):
+                if section.get('data-source-file'):
+                    actual_pages.update((section.get('data-source-file'), p) for p in section.get('data-source-pdf-pages').split())
+            document_ids = {d['filename']: d['id'] for d in m['source_documents']}
+            for unit in body.findall('.//h:div[@data-source-refs]', ns):
+                actual_pages.update((document_ids[r['file']], str(r['pdf_page'])) for r in json.loads(unit.get('data-source-refs')))
+            self.assertEqual(actual_pages, expected_pages)
             front = body.findall('.//h:section[@class="frontmatter"]', ns)
             self.assertEqual([n.get('id') for n in front], [c['id'] for c in m['frontmatter']])
             rows = body.findall('.//h:tr[@id]', ns) + body.findall('.//h:tr[@data-key]', ns)
@@ -215,6 +222,8 @@ class BookBuildTest(unittest.TestCase):
         m = json.loads((self.root / 'book.json').read_text())
         records = json.loads((self.root / m['verse_source_archive']).read_text())
         expected = {e['id']:e for e in records['verses']}
+        for e in json.loads((self.root / m['khanda2_verse_source_archive']).read_text()):
+            expected[e['id']] = {'sanskrit_kannada_script': e['sanskrit_kannada'], 'kannada_meaning': e['meaning'], 'source_refs': e['source_refs']}
         actual = {}
         for c in m['chapters']:
             root = ET.parse(self.root / c['file'])
