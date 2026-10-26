@@ -1,4 +1,4 @@
-const prefix=process.env.MUDGALA_PAGES_PREVIEW==='1'?'/sanskrit-kannada':'';const rendered=c=>c.html.replaceAll('\"/book/','\"'+prefix+'/book/');
+const prefix=process.env.MUDGALA_PAGES_PREVIEW==='1'?'/Mudgala-Purana/sanskrit-kannada':'';const rendered=c=>c.html.replaceAll('\"/book/','\"'+prefix+'/book/');
 import {pageviewOnly} from '../lib/analytics-policy.mjs';
 import crypto from 'node:crypto';
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import path from 'node:path';

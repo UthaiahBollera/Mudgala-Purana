@@ -1,4 +1,4 @@
-const prefix=process.env.MUDGALA_PAGES_PREVIEW==='1'?'/sanskrit-kannada':'';const strip=p=>prefix&&p.startsWith(prefix+'/')?p.slice(prefix.length):p;const rendered=c=>c.html.replaceAll('\"/book/','\"'+prefix+'/book/');
+const prefix=process.env.MUDGALA_PAGES_PREVIEW==='1'?'/Mudgala-Purana/sanskrit-kannada':'';const strip=p=>prefix&&p.startsWith(prefix+'/')?p.slice(prefix.length):p;const rendered=c=>c.html.replaceAll('\"/book/','\"'+prefix+'/book/');
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import path from 'node:path';
 const out=process.env.SEO_OUTPUT_DIR||'out',fixture=JSON.parse(fs.readFileSync('scripts/seo-fixtures.json')),book=JSON.parse(fs.readFileSync('.generated/book.json')),read=p=>fs.readFileSync(path.join(out,p),'utf8'),clean=s=>s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''),decode=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(+n));
 const attrs=t=>Object.fromEntries([...t.matchAll(/([\w:-]+)="([^"]*)"/g)].map(m=>[m[1],decode(m[2])])),tags=(s,name)=>[...s.matchAll(new RegExp(`<${name}\\b[^>]*>`,'gi'))].map(m=>attrs(m[0]));
