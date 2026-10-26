@@ -1,0 +1,51 @@
+{
+  "scenarios": [
+    {
+      "route": "/",
+      "width": 320,
+      "height": 568
+    },
+    {
+      "route": "/kn/mudgala-purana/",
+      "width": 320,
+      "height": 568
+    },
+    {
+      "route": "/kn/mudgala-purana/khanda-1/1/",
+      "width": 320,
+      "height": 568
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/kn/mudgala-purana/",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/kn/mudgala-purana/khanda-1/1/",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/kn/mudgala-purana/",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/kn/mudgala-purana/khanda-1/1/",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "controls": "font/theme persist, copy-only verse report, device-local continue link and200%reflow pass",
+  "analytics": "intercepted locally; no live traffic emitted"
+}

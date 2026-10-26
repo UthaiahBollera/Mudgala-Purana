@@ -1,0 +1,2 @@
+import {spawnSync} from 'node:child_process';
+const url=process.argv[2];if(!url)throw Error('Usage: npm run audit:lighthouse -- http://127.0.0.1:8766/route/');const run=spawnSync('npx',['--yes','lighthouse@13.5.0',url,'--only-categories=seo,accessibility,performance','--chrome-flags=--headless --no-sandbox','--output=json','--output-path=.generated/lighthouse.json','--quiet'],{stdio:'inherit'});process.exit(run.status??1);

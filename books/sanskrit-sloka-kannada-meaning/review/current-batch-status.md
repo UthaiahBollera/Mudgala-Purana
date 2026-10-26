@@ -22,3 +22,7 @@ This edition contains validated local Chapters1–18 (985 numbered pairs), prepa
 After Chapter54 verse34 and the opening of35 on printed122 (`139 TO 163.pdf`, PDF2), the next supplied page is a completion divider. A bounded overlap check of adjacent supplied PDFs and original Downloads copy did not recover the ending body leaf. The rest of35 and ending/colophon require a scan; exact missing physical page count cannot be certified. See `missing-ending-scan-check.json`. Do not claim complete Khanda1. Further translation is paused pending the user's source update or new instructions.
 
 Follow the user's current request and active approval settings for repository publication. The user explicitly requested publication of the validated available edition and then a pause. Preserve older reports as historical snapshots; they do not supersede this status.
+
+## October26 website-first release boundary
+
+Website changes only; no staging, commit, push or deployment. Published-content candidate remains Khanda1 Chapters1–18/985pairs. The new Khanda2 Chapter1 verses1–6 draft and its source/scan/review records are preserved outside the checkout in the private-review khanda02-starter bundle; verse2 remains unresolved. No Khanda2 text, route, search entry, sitemap URL, source scan, PDF or EPUB is included in this release. Continue translation only when separately requested. Private Khanda1Chapter19 remains excluded.

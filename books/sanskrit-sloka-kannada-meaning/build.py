@@ -133,9 +133,10 @@ def build():
         shutil.rmtree(out)
     web = out / 'web'
     web.mkdir(parents=True)
-    for folder in ('assets', 'styles', 'chapters', 'frontmatter'):
+    for folder in ('assets', 'styles', 'frontmatter'):
         shutil.copytree(ROOT / folder, web / folder)
-    for c in sources:
+    for c in reading_sections:
+        (web / c['file']).parent.mkdir(parents=True, exist_ok=True)
         (web / c['file']).write_bytes(rendered[c['file']])
     esc = html.escape
     toc = ''.join(f'<li><a href="{esc(c["file"])}">{esc(c["title"])}</a></li>' for c in reading_sections)
@@ -178,7 +179,7 @@ def build():
     epub_nav = '<nav epub:type="toc" id="toc" hidden="hidden"><h1>Contents</h1><ol><li><a href="cover.xhtml">Cover</a></li>' + toc + '</ol></nav>'
     items = [('nav', 'nav.xhtml', 'application/xhtml+xml', 'nav'), ('cover', 'cover.xhtml', 'application/xhtml+xml', '')]
     items += [(c['id'], c['file'], 'application/xhtml+xml', '') for c in reading_sections]
-    resources = sorted([p for folder in ('assets', 'styles') for p in (ROOT / folder).rglob('*') if p.is_file() and p.suffix != '.txt'])
+    resources = sorted([p for folder in ('assets', 'styles') for p in (ROOT / folder).rglob('*') if p.is_file() and p.suffix != '.txt' and not p.is_relative_to(ROOT / 'assets/library')])
     for i, p in enumerate(resources):
         rel = p.relative_to(ROOT).as_posix()
         items.append((f'asset{i}', rel, mimetypes.guess_type(p)[0] or 'application/octet-stream', 'cover-image' if rel == m['cover'] else ''))

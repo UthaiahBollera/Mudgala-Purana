@@ -171,8 +171,11 @@ class BookBuildTest(unittest.TestCase):
                 elements = list(chapter.iter())
                 colophon = chapter.find('.//*[@id="' + c['id'] + '-colophon"]')
                 final = chapter.find('.//*[@id="' + verse_ids[-1] + '"]')
-                self.assertIsNotNone(colophon)
-                self.assertGreater(elements.index(colophon), elements.index(final))
+                if c.get('coverage', {}).get('chapter_complete', True):
+                    self.assertIsNotNone(colophon)
+                    self.assertGreater(elements.index(colophon), elements.index(final))
+                else:
+                    self.assertIsNone(colophon, 'Partial chapter must not invent an ending')
 
     def test_context_boundaries_match_review_and_keep_connected_speech(self):
         m = json.loads((self.root / 'book.json').read_text())

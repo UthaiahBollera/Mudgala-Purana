@@ -1,3 +1,4 @@
+import {localPath} from '../../lib/paths';
 import {book,chapterPath} from '../../lib/book';
-export const metadata={title:'ಆರಂಭಿಕ ಪುಟಗಳು · Front matter',description:'ಮುದ್ಗಲ ಪುರಾಣದ ಆರಂಭಿಕ ಭಕ್ತಿಪುಟಗಳು ಮತ್ತು ಮೂಲ ಆವೃತ್ತಿಯ ಪರಿವಿಡಿ. Original contents entries do not imply all chapters are translated.',alternates:{canonical:'/prarambha/'}};
-export default function Frontmatter(){return <><header className="reader-nav"><a href="/">ಪರಿವಿಡಿ</a></header><div id="reading" tabIndex={-1}><h1 className="front-title">ಆರಂಭಿಕ ಪುಟಗಳು</h1>{book.frontmatter.map((c,i)=><div key={i} dangerouslySetInnerHTML={{__html:c.html}}/>)}</div><nav className="reader-nav"><a href={chapterPath(book.chapters[0])}>ಮೊದಲನೆಯ ಅಧ್ಯಾಯ →</a></nav></>}
+export const metadata={title:'ಆರಂಭಿಕ ಪುಟಗಳು · Front matter',description:'ಮುದ್ಗಲ ಪುರಾಣದ ಆರಂಭಿಕ ಭಕ್ತಿಪುಟಗಳು ಮತ್ತು ಮೂಲ ಆವೃತ್ತಿಯ ಪರಿವಿಡಿ. Original contents entries do not imply all chapters are translated.',alternates:{canonical:'/kn/mudgala-purana/prarambha/'}};
+export default function Frontmatter(){return <><header className="reader-nav"><a href={localPath('/')}>ಪರಿವಿಡಿ</a></header><div id="reading" tabIndex={-1}><h1 className="front-title">ಆರಂಭಿಕ ಪುಟಗಳು</h1>{book.frontmatter.map((c,i)=><div key={i} dangerouslySetInnerHTML={{__html:c.html}}/>)}</div><nav className="reader-nav"><a href={chapterPath(book.chapters[0])}>ಮೊದಲನೆಯ ಅಧ್ಯಾಯ →</a></nav></>}

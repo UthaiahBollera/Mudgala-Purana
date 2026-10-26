@@ -12,12 +12,34 @@ def body(c):
    v=e.get(attr)
    if v and not v.startswith(('#','http:','https:','data:')):
     target=(book/c['file']).parent.joinpath(v).resolve();e.set(attr,'/book/'+target.relative_to(book).as_posix())
+
+ for e in list(main.iter()):
+  if e.get('class')=='unit sloka-entry':
+   e.set('tabindex','-1');num=e.find('h:div[@class="num"]',ns)
+   if num is not None:
+    label=num.text;num.text=None;a=E.SubElement(num,'{'+ns['h']+'}a',{'href':'#'+e.get('id'),'aria-label':'ಶ್ಲೋಕ '+label+' ನೇರ ಕೊಂಡಿ'});a.text=label
+ main.tag='{'+ns['h']+'}article'
  E.register_namespace('',ns['h']);return E.tostring(main,encoding='unicode').replace(' xmlns="http://www.w3.org/1999/xhtml"','')
 for c in m['chapters']:
- if c.get('include',True):data['chapters'].append({'number':c['number'],'title':c['title'],'slug':str(c['number']),'count':c['coverage']['last_verse'],'groups':len(c['reading_groups']),'html':body(c)})
+ if c.get('include',True):data['chapters'].append({'chapterComplete':c['coverage'].get('chapter_complete',True),'id':c['id'],'khanda':c['khanda'],'number':c['number'],'title':c['title'],'slug':str(c['number']),'count':c['coverage']['last_verse'],'groups':len(c['reading_groups']),'html':body(c)})
 for c in m['frontmatter']:data['frontmatter'].append({'title':c['title'],'html':body(c)})
-assert len(data['chapters'])==18 and sum(c['count'] for c in data['chapters'])==985
+baseline=[c for c in data['chapters'] if c['khanda']==1]
+assert len(baseline)==18 and sum(c['count'] for c in baseline)==985
+assert len({c['id'] for c in data['chapters']})==len(data['chapters'])
 (site/'.generated').mkdir(exist_ok=True);(site/'.generated/book.json').write_text(json.dumps(data,ensure_ascii=False))
-target=site/'public/book';target.mkdir(parents=True,exist_ok=True)
+target=site/'public/book'
+if target.exists():shutil.rmtree(target)
+target.mkdir(parents=True,exist_ok=True)
 for folder in ['assets','styles']:shutil.copytree(book/folder,target/folder,dirs_exist_ok=True)
-shutil.copy2(book/'dist/mudgala-preview.epub',target/'mudgala-purana.epub');print('Prepared18chapters/985pairs;canonicalsourceunchanged.')
+shutil.copy2(book/'dist/mudgala-preview.epub',target/'mudgala-purana.epub');print(f"Prepared {len(data['chapters'])} chapters/{sum(c['count'] for c in data['chapters'])} pairs; Khanda1 baseline preserved.")
+
+search=[]
+for c in data['chapters']:
+ root=E.fromstring(c['html'])
+ for u in root.findall('.//div[@class="unit sloka-entry"]'):
+  id=u.get('id');meaning=root.find('.//div[@data-meaning-for="'+id+'"]')
+  search.append({'id':id,'khanda':c['khanda'],'chapter':c['number'],'verse':int(id.rsplit('-v',1)[1]),'url':f"/kn/mudgala-purana/khanda-{c['khanda']}/{c['slug']}/#{id}",'sanskrit':' '.join(''.join(u.find('.//p').itertext()).split()),'meaning':' '.join(''.join(meaning.find('.//div[@class="entry-text"]').itertext()).split())})
+(target/'search-index.json').write_text(json.dumps(search,ensure_ascii=False))
+
+import runpy
+runpy.run_path(str(site/'scripts/editions.py'))

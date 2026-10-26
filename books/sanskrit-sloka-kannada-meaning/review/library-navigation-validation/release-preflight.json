@@ -1,0 +1,47 @@
+{
+  "release": "website only",
+  "coverage": {
+    "khanda1_chapters": 18,
+    "pairs": 985,
+    "groups": 290,
+    "canonical_pages": 23
+  },
+  "private_exclusions": [
+    "Khanda2 draft, scans, source records, routes, search and all downloads",
+    "Khanda1Chapter19 draft"
+  ],
+  "checks": {
+    "site_tests": 6,
+    "seo_suites": 5,
+    "book_tests": 16,
+    "browser_smoke": "phone/tablet, controls, theme, local progress, copy-only report,200% reflow",
+    "negative_gate": "missing-title copied output fails and prevents artifact staging",
+    "pages": "native shared basePath; real navigation, canonical, reader controls, bookmarks, search and assets pass",
+    "epubcheck": "compatibility/combined/Khanda1 zero errors or warnings"
+  },
+  "analytics": "code installed; dashboard enablement/events unverified; no paid add-ons",
+  "deployment_gate": "Vercel buildCommand=npm run build includes audits; GitHub Pages job needs successful quality checks; existing source settings verified at publish time without mutation",
+  "physical_devices": "not tested",
+  "approval": "publication governed by current user request; no standing permission encoded",
+  "lighthouse": {
+    "mudgala-lighthouse-home.json": {
+      "url": "http://127.0.0.1:8766/",
+      "version": "13.5.0",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100
+      },
+      "environment": "local static preview, not production ranking guarantee"
+    },
+    "mudgala-lighthouse-release.json": {
+      "url": "http://127.0.0.1:8766/kn/mudgala-purana/khanda-1/1/",
+      "version": "13.5.0",
+      "scores": {
+        "performance": 78,
+        "accessibility": 100,
+        "seo": 100
+      },
+      "environment": "local static preview, not production ranking guarantee"
+    }
+  }
+}

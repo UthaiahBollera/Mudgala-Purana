@@ -1,0 +1,3 @@
+import {localPath} from './paths';
+import {book} from './book';
+export default function Downloads({khanda}){const chapters=book.chapters.filter(c=>!khanda||c.khanda===khanda);if(!chapters.length)return null;const key=khanda?`khanda-${khanda}`:'available',stem=localPath(`/book/mudgala-purana-${key}-partial`);return <section className="downloads" aria-label="ಓದುವ ಪ್ರತಿಯನ್ನು ಪಡೆಯಿರಿ"><h2>ಡೌನ್‌ಲೋಡ್</h2><p>ಲಭ್ಯ ಭಾಗಗಳು: {[...new Set(chapters.map(c=>c.khanda))].map(k=>`ಖಂಡ ${k} · ಅಧ್ಯಾಯಗಳು ${chapters.filter(c=>c.khanda===k).map(c=>c.number).join(', ')}`).join('; ')}. ಪೂರ್ಣ ಪುಸ್ತಕವಲ್ಲ.</p><p><a href={stem+'.pdf'} download type="application/pdf">PDF · ಮುದ್ರಿಸಲು</a> · <a href={stem+'.epub'} download type="application/epub+zip">EPUB · ಓದಲು</a></p></section>}

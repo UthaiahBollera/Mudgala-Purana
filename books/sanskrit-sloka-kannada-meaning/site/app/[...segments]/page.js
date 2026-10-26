@@ -1,0 +1,23 @@
+import {chapterHref} from '../../lib/paths';
+import Coverage from '../../lib/Coverage';
+import {ContinueReading} from '../../lib/ReaderTools';
+import Reader from '../../lib/Reader';
+import Card from '../../lib/Card';
+import {label,khandaNames} from '../../lib/labels';
+import Downloads from '../../lib/Downloads';
+import {notFound} from 'next/navigation';
+import {book,chapterPath,origin,structured,jsonLd,readerHTML} from '../../lib/book';
+import {bookPath,khandaPath,edition,Breadcrumbs,baseCrumbs} from '../../lib/library';
+export const dynamicParams=false;
+const khandas=()=>[...new Set(book.chapters.map(c=>c.khanda))].sort((a,b)=>a-b);
+export function generateStaticParams(){return [{segments:['kn']},{segments:['kn','mudgala-purana']},{segments:['kn','mudgala-purana','prarambha']},...khandas().map(k=>({segments:['kn','mudgala-purana',`khanda-${k}`]})),...book.chapters.map(c=>({segments:['kn','mudgala-purana',`khanda-${c.khanda}`,c.slug]}))]}
+function resolve(s){if(s.join('/')==='kn')return{kind:'language'};if(s[0]!=='kn'||s[1]!=='mudgala-purana')return null;if(s.length===2)return{kind:'book'};if(s.length===3&&s[2]==='prarambha')return{kind:'front'};const k=Number(s[2]?.replace(/^khanda-/,''));if(!khandas().includes(k))return null;if(s.length===3)return{kind:'khanda',k};const c=book.chapters.find(c=>c.khanda===k&&c.slug===s[3]);return s.length===4&&c?{kind:'chapter',c,k}:null}
+export async function generateMetadata({params}){const {segments}=await params,r=resolve(segments);if(!r)return{};const title=r.kind==='language'?'ಕನ್ನಡ ಪುಸ್ತಕಗಳು':r.kind==='book'?'ಮುದ್ಗಲ ಪುರಾಣ · ಖಂಡಗಳು':r.kind==='front'?'ಆರಂಭಿಕ ಪುಟಗಳು':r.kind==='khanda'?`ಖಂಡ ${r.k} · ಅಧ್ಯಾಯಗಳು`:`${r.c.title} · Khanda ${r.k} Chapter ${r.c.number}`;const canonical='/'+segments.join('/')+'/';return{title,description:r.kind==='chapter'?`ಮುದ್ಗಲ ಪುರಾಣ · ಖಂಡ ${r.k}, ಅಧ್ಯಾಯ ${r.c.number}, ಶ್ಲೋಕಗಳು 1–${r.c.count}. Sanskrit in Kannada script with numbered Kannada meanings; available partial edition, flagged readings retained.`:`${title}. ಮುದ್ಗಲ ಪುರಾಣದ ಲಭ್ಯ ಕನ್ನಡ ಓದು; ಪೂರ್ಣ ಆವೃತ್ತಿಯಲ್ಲ.`,alternates:{canonical},openGraph:{title,url:canonical,images:[{url:book.cover,alt:book.title}]}}}
+function crumbs(r){if(r.kind==='language')return[baseCrumbs[0],['ಕನ್ನಡ']];if(r.kind==='book')return[...baseCrumbs.slice(0,2),['ಮುದ್ಗಲ ಪುರಾಣ']];if(r.kind==='front')return[...baseCrumbs,['ಆರಂಭಿಕ ಪುಟಗಳು']];return [...baseCrumbs,[`ಖಂಡ ${r.k}`,r.kind==='chapter'?khandaPath(r.k):null],...(r.kind==='chapter'?[[`ಅಧ್ಯಾಯ ${r.c.number}`]]:[])]}
+export default async function LibraryPage({params}){const {segments}=await params,r=resolve(segments);if(!r)notFound();let content;
+if(r.kind==='language')content=<><h1>{label('kn','books')}</h1><ul className="library-grid"><li><Card href={bookPath} image={{src:edition.kn.cover,alt:edition.kn.alt}} title="ಮುದ್ಗಲ ಪುರಾಣ" subtitle="ಕನ್ನಡ ಲಿಪಿಯಲ್ಲಿ ಸಂಸ್ಕೃತ ಶ್ಲೋಕಗಳು ಮತ್ತು ಕನ್ನಡ ಅರ್ಥ" status={label('kn','available')}/></li></ul></>;
+if(r.kind==='book')content=<><h1>ಮುದ್ಗಲ ಪುರಾಣ</h1><p>{label('kn','chooseKhanda')}</p><p><a href={bookPath+'search/'}>ಶ್ಲೋಕ ಹುಡುಕಾಟ</a></p><p className="edition-note">ಇದು ಪೂರ್ಣ ಖಂಡವಲ್ಲ; ಲಭ್ಯ ಅಧ್ಯಾಯಗಳು ಮಾತ್ರ ಸೇರಿವೆ. ಗುರುತಿಸಿದ ಅಸ್ಪಷ್ಟ ಓದುಗಳಿಗೆ ಪರಿಶೀಲನೆ ಬಾಕಿಯಿದೆ.</p><p><a href={bookPath+'prarambha/'}>ಆರಂಭಿಕ ಪುಟಗಳು</a></p><ul className="library-grid">{khandas().map(k=><li key={k}><Card href={khandaPath(k)} title={khandaNames[k]||`ಖಂಡ ${k}`} subtitle={k===2?'ಅಧ್ಯಾಯ ೧ · ಶ್ಲೋಕಗಳು ೧–೬':`ಲಭ್ಯ ಅಧ್ಯಾಯಗಳು: ${book.chapters.filter(c=>c.khanda===k).length}`} status={label('kn','available')}/></li>)}</ul>{!khandas().includes(2)&&<p>ದ್ವಿತೀಯ ಖಂಡದ ಪರಿಶೀಲಿತ ಓದು ಇನ್ನೂ ಲಭ್ಯವಿಲ್ಲ.</p>}</>;
+if(r.kind==='khanda')content=<><h1>ಖಂಡ {r.k}</h1><p>ಅಧ್ಯಾಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ · ಲಭ್ಯ ಭಾಗಗಳು</p><ol className="chapter-list">{book.chapters.filter(c=>c.khanda===r.k).map(c=><li key={c.id}><a href={chapterHref(c)}>{c.title}<span lang="en">Chapter {c.number} · {c.count} verses</span></a></li>)}</ol></>;
+if(r.kind==='front')content=<><h1>ಆರಂಭಿಕ ಪುಟಗಳು</h1><div className="reading">{book.frontmatter.map((f,i)=><div key={i} dangerouslySetInnerHTML={{__html:readerHTML(f)}}/>)}</div></>;
+if(r.kind==='chapter')content=<Reader chapter={r.c}/>;
+return <><main id="reading" tabIndex={-1} className={r.kind==='chapter'||r.kind==='front'?'library-reader':'library'}><Breadcrumbs items={crumbs(r)}/>{r.kind==='book'&&<ContinueReading/>}{content}{['book','khanda'].includes(r.kind)&&<Coverage khanda={r.k}/>} {r.kind==='book'&&<Downloads/>}{r.kind==='khanda'&&<Downloads khanda={r.k}/>}</main>{['book','chapter'].includes(r.kind)&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:jsonLd(structured(r.c))}}/>}</>}

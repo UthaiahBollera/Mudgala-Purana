@@ -1,0 +1,111 @@
+name: New book quality gate
+on:
+  push:
+    branches: [book/sanskrit-kannada-blank-starter]
+    paths: ['books/sanskrit-sloka-kannada-meaning/**', '.github/workflows/new-book-quality.yml']
+  pull_request:
+    paths: ['books/sanskrit-sloka-kannada-meaning/**', '.github/workflows/new-book-quality.yml']
+  workflow_dispatch:
+    inputs:
+      publish_pages:
+        description: 'Publish validated new-book compatibility reader to /sanskrit-kannada/ only'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: new-book-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: books/sanskrit-sloka-kannada-meaning/site
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: books/sanskrit-sloka-kannada-meaning/site/package-lock.json
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+      - run: npm ci
+      - name: Build, SEO, source, download, accessibility and size gates
+        run: npm run validate
+      - name: Verify failed audit prevents artifact staging
+        run: npm run test:gate
+      - name: Canonical book regression tests
+        run: python3 -m unittest test_build.py
+        working-directory: books/sanskrit-sloka-kannada-meaning
+      - name: Browser reader controls and responsive smoke checks
+        run: npm run test:browser
+        env:
+          CHROME_EXECUTABLE: /usr/bin/google-chrome
+      - name: Stage validated Pages compatibility artifact
+        if: (github.event_name == 'workflow_dispatch' && inputs.publish_pages) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[publish-website]'))
+        run: |
+          MUDGALA_PAGES_PREVIEW=1 npm run build
+          node scripts/prepare-pages.mjs
+          node scripts/test-pages.mjs
+      - uses: actions/upload-artifact@v7
+        if: (github.event_name == 'workflow_dispatch' && inputs.publish_pages) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[publish-website]'))
+        with:
+          name: validated-new-book-pages
+          path: pages-candidate
+          if-no-files-found: error
+          retention-days: 3
+  publish-pages:
+    if: needs.quality.result == 'success' && ((github.event_name == 'workflow_dispatch' && inputs.publish_pages) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[publish-website]')))
+    needs: quality
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: source-checkout
+      - name: Verify existing Pages source without changing settings
+        run: node source-checkout/books/sanskrit-sloka-kannada-meaning/site/scripts/pages-status.mjs verify
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/checkout@v7
+        with:
+          ref: gh-pages
+          path: pages-checkout
+      - uses: actions/download-artifact@v8
+        with:
+          name: validated-new-book-pages
+          path: pages-candidate
+      - name: Replace only the new-book subpath; preserve original root
+        id: publish
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,shutil
+          root=Path('pages-checkout');original=(root/'index.html').read_bytes()
+          assert (root/'.nojekyll').exists(),'Existing Pages root must serve Next underscore assets without Jekyll'
+          target=root/'sanskrit-kannada'
+          if target.exists():shutil.rmtree(target)
+          shutil.copytree('pages-candidate',target)
+          assert (root/'index.html').read_bytes()==original,'Original root changed'
+          print('Original root SHA256:',hashlib.sha256(original).hexdigest())
+          PY
+          cd pages-checkout
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- sanskrit-kannada
+          if git diff --cached --quiet; then echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git diff --cached --name-only | python3 -c 'import sys;paths=sys.stdin.read().splitlines();assert all(p.startswith("sanskrit-kannada/") for p in paths),paths'
+          git commit -m 'Publish validated new-book reader'
+          git push origin HEAD:gh-pages
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Request and verify Pages build for the validated commit
+        run: node source-checkout/books/sanskrit-sloka-kannada-meaning/site/scripts/pages-status.mjs build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_COMMIT: ${{ steps.publish.outputs.commit }}

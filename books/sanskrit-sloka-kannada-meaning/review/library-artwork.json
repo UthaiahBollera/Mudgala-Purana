@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "status": "local generated decorative artwork, not an edition cover or scripture illustration",
+  "source_png": "generated_images/exec-1d73f938-36bb-47b6-9923-9f3c65c49bb1.png",
+  "original_size": [
+    1536,
+    1024
+  ],
+  "project_assets": [
+    {
+      "file": "assets/library/language-manuscript-v1-768.webp",
+      "bytes": 54324
+    },
+    {
+      "file": "assets/library/language-manuscript-v1-384.webp",
+      "bytes": 13174
+    }
+  ],
+  "prompt": "Reusable decorative landscape illustration for a free Mudgala Purana language library: unlettered manuscript leaves and plain maroon cloth-bound book on warm parchment, muted gold accents, quiet library atmosphere and negative space. No text, scripture, flags, people, deities, logos or watermark. Not a translated edition cover.",
+  "validation": "Inspected actual generated pixels: no writing or sacred figure; approved Ganesh cover not edited. Converted to384×256 and768×512 WebP with cwebp; same image shared across native-label language cards, labels kept in HTML.",
+  "publication": "not committed, pushed or deployed"
+}

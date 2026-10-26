@@ -1,0 +1,4 @@
+import {chapterHref} from './paths';
+import ReaderTools from './ReaderTools';
+import {book,chapterPath,readerHTML} from './book';import {khandaPath} from './library';
+export default function Reader({chapter:c}){const list=book.chapters.filter(x=>x.khanda===c.khanda),i=list.indexOf(c);return <><ReaderTools id={c.id} khanda={c.khanda} chapter={c.number} count={c.count} path={chapterPath(c)} href={chapterHref(c)} revision={book.modified}/><div className="reading" dangerouslySetInnerHTML={{__html:readerHTML(c)}}/><nav className="reader-nav" aria-label="ಅಧ್ಯಾಯ ಸಂಚಾರ">{i>0?<a href={chapterHref(list[i-1])}>← ಹಿಂದಿನ ಅಧ್ಯಾಯ</a>:<a href={khandaPath(c.khanda)}>← ಅಧ್ಯಾಯಗಳು</a>}{i<list.length-1?<a href={chapterHref(list[i+1])}>ಮುಂದಿನ ಅಧ್ಯಾಯ →</a>:<a href={khandaPath(c.khanda)}>ಅಧ್ಯಾಯಗಳು →</a>}</nav></>}
