@@ -5,7 +5,7 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-27T06:38:57Z",
+  "modified": "2026-10-27T17:32:06Z",
   "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
@@ -8172,6 +8172,131 @@
       ],
       "reading_grouping": "context",
       "grouping_review": "review/khanda02-chapter026-grouping.json"
+    },
+    {
+      "id": "kh02-ch027",
+      "khanda": 2,
+      "number": 27,
+      "title": "ದ್ವಿತೀಯ ಖಂಡ — ಸಪ್ತವಿಂಶ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-02/chapter-027.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_pdf_pages": [
+        3,
+        4
+      ],
+      "source_refs": [
+        {
+          "document": "user-pdf-206-255",
+          "pdf_page": 3,
+          "printed_page": 56
+        },
+        {
+          "document": "user-pdf-206-255",
+          "pdf_page": 4,
+          "printed_page": 57
+        }
+      ],
+      "coverage": {
+        "last_verse": 33,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "meaning_gaps": [
+          15,
+          18
+        ],
+        "readings_fully_resolved": false
+      },
+      "uncertain_verse_numbers": [
+        15,
+        18
+      ],
+      "sanskrit_uncertain_verse_numbers": [
+        15,
+        18
+      ],
+      "reading_groups": [
+        {
+          "id": "kh02-ch027-group-01",
+          "verses": [
+            "kh02-ch027-v001",
+            "kh02-ch027-v002"
+          ]
+        },
+        {
+          "id": "kh02-ch027-group-02",
+          "verses": [
+            "kh02-ch027-v003",
+            "kh02-ch027-v004",
+            "kh02-ch027-v005",
+            "kh02-ch027-v006",
+            "kh02-ch027-v007"
+          ]
+        },
+        {
+          "id": "kh02-ch027-group-03",
+          "verses": [
+            "kh02-ch027-v008",
+            "kh02-ch027-v009",
+            "kh02-ch027-v010",
+            "kh02-ch027-v011"
+          ]
+        },
+        {
+          "id": "kh02-ch027-group-04",
+          "verses": [
+            "kh02-ch027-v012",
+            "kh02-ch027-v013",
+            "kh02-ch027-v014",
+            "kh02-ch027-v015"
+          ]
+        },
+        {
+          "id": "kh02-ch027-group-05",
+          "verses": [
+            "kh02-ch027-v016",
+            "kh02-ch027-v017",
+            "kh02-ch027-v018",
+            "kh02-ch027-v019"
+          ]
+        },
+        {
+          "id": "kh02-ch027-group-06",
+          "verses": [
+            "kh02-ch027-v020",
+            "kh02-ch027-v021",
+            "kh02-ch027-v022",
+            "kh02-ch027-v023",
+            "kh02-ch027-v024"
+          ]
+        },
+        {
+          "id": "kh02-ch027-group-07",
+          "verses": [
+            "kh02-ch027-v025",
+            "kh02-ch027-v026",
+            "kh02-ch027-v027"
+          ]
+        },
+        {
+          "id": "kh02-ch027-group-08",
+          "verses": [
+            "kh02-ch027-v028",
+            "kh02-ch027-v029",
+            "kh02-ch027-v030"
+          ]
+        },
+        {
+          "id": "kh02-ch027-group-09",
+          "verses": [
+            "kh02-ch027-v031",
+            "kh02-ch027-v032",
+            "kh02-ch027-v033"
+          ]
+        }
+      ],
+      "reading_grouping": "context",
+      "grouping_review": "review/khanda02-chapter027-grouping.json"
     }
   ],
   "frontmatter": [
@@ -8462,7 +8587,8 @@
       "integrated_pdf_pages": [
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   ],
@@ -8517,7 +8643,7 @@
       19,
       20
     ],
-    "numbered_records": 1289,
+    "numbered_records": 1322,
     "resolved_draft_meanings": 958,
     "qualified_meanings": 74,
     "pending_meanings": [
@@ -8552,7 +8678,8 @@
       23,
       24,
       25,
-      26
+      26,
+      27
     ],
     "readings_fully_resolved": false
   },

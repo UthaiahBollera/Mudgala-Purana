@@ -31,3 +31,8 @@ Website changes only; no staging, commit, push or deployment. Published-content 
 ## October27 release candidate
 
 Khanda2 Chapters1–26:1289 numbered records,399 contextual groups;1200 resolved drafts,88 qualified meanings,one pending7.37. Not expert-reviewed. Chapter27 is excluded because its integration checkpoint was cancelled;no checkpoint retry or Chapter28 translation is part of this release. Original book and Khanda1 source unchanged. Publication requires passing the release gates and actual deployment verification.
+
+
+## October27 Chapter27 release candidate
+
+Chapter27 checkpoint was explicitly approved and saved;release candidate now Khanda2 Chapters1–27,1322 records/408 groups,1231 resolved drafts/90 qualified/1pending7.37.Not expert-reviewed.Future chapters stay private and require separate publication approval.

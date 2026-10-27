@@ -1,17 +1,16 @@
 {
-  "release": "Khanda2 Chapters1–26 reading draft",
-  "records": 1289,
-  "groups": 399,
-  "resolved_draft_meanings": 1200,
-  "qualified_meanings": 88,
+  "release": "Khanda2 Chapters1–27 reading draft",
+  "records": 1322,
+  "groups": 408,
+  "resolved_draft_meanings": 1231,
+  "qualified_meanings": 90,
   "fully_pending_meanings": [
     "kh02-ch007-v037"
   ],
-  "source_or_meaning_flags": 89,
+  "source_or_meaning_flags": 91,
   "expert_review": false,
   "excluded": [
-    "Chapter27: integration checkpoint explicitly cancelled",
-    "Chapter28: no saved content",
+    "Future Khanda2 Chapters28+",
     "Private Khanda1Chapter19"
   ],
   "source_documents": [
@@ -128,22 +127,22 @@
     "site_seo_suites": 5,
     "reader_suites": 7,
     "book_regressions": 16,
-    "responsive_scenarios": 21,
-    "negative_audit_gate": "passed;missing title prevents staging",
+    "responsive_scenarios": 24,
+    "negative_audit_gate": "passed",
     "pages_browser_navigation": "passed",
-    "epubcheck": "Compatibility,combined,Khanda1 andKhanda2:0errors/0warnings",
-    "canonical_pages": 50,
-    "total_reader_records": 2274,
-    "total_context_groups": 689,
+    "epubcheck": "Compatibility,combined,Khanda1,Khanda2:zero errors/warnings",
+    "canonical_pages": 51,
+    "total_reader_records": 2307,
+    "total_context_groups": 698,
     "khanda1_source_and_pdf_bytes_preserved": true,
-    "prior_khanda2_chapters1_20_source_and_metadata_preserved": true,
-    "chapters27_28_excluded": true,
+    "prior_released_chapter_text_and_metadata_preserved": true,
+    "future_chapters28_plus_excluded": true,
     "physical_devices": false,
     "expert_review": false,
     "visual_inspection": [
-      "Khanda2 PDF cover,middle181,final361",
-      "Final local Pages index,mobileChapter26caveat andpending7.37"
+      "LocalPages index,mobile27.15 caveat andpending7.37",
+      "Khanda2 PDF cover,middle186,final370"
     ],
-    "pdf_pages": 361
+    "pdf_pages": 370
   }
 }
