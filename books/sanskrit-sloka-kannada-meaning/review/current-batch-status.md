@@ -26,3 +26,8 @@ Follow the user's current request and active approval settings for repository pu
 ## October26 website-first release boundary
 
 Website changes only; no staging, commit, push or deployment. Published-content candidate remains Khanda1 Chapters1–18/985pairs. The new Khanda2 Chapter1 verses1–6 draft and its source/scan/review records are preserved outside the checkout in the private-review khanda02-starter bundle; verse2 remains unresolved. No Khanda2 text, route, search entry, sitemap URL, source scan, PDF or EPUB is included in this release. Continue translation only when separately requested. Private Khanda1Chapter19 remains excluded.
+
+
+## October27 release candidate
+
+Khanda2 Chapters1–26:1289 numbered records,399 contextual groups;1200 resolved drafts,88 qualified meanings,one pending7.37. Not expert-reviewed. Chapter27 is excluded because its integration checkpoint was cancelled;no checkpoint retry or Chapter28 translation is part of this release. Original book and Khanda1 source unchanged. Publication requires passing the release gates and actual deployment verification.
