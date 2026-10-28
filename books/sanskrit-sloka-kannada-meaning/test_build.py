@@ -56,7 +56,7 @@ class BookBuildTest(unittest.TestCase):
         self.run_build()
         ns = {'h': 'http://www.w3.org/1999/xhtml'}
         m = json.loads((self.root / 'book.json').read_text())
-        expected_pages = {(d['id'], str(p)) for d in m['source_documents'] for p in d['integrated_pdf_pages']}
+        expected_pages = {(d['id'], str(p)) for d in m['source_documents'] for p in d.get('integrated_pdf_pages', [])}
         for name in ('dist/web/index.html', 'dist/mudgala-preview.html'):
             body = ET.parse(self.root / name).find('h:body', ns)
             self.assertEqual(body.findall('.//h:a', ns), [])
@@ -68,7 +68,13 @@ class BookBuildTest(unittest.TestCase):
                     actual_pages.update((section.get('data-source-file'), p) for p in section.get('data-source-pdf-pages').split())
             document_ids = {d['filename']: d['id'] for d in m['source_documents']}
             for unit in body.findall('.//h:div[@data-source-refs]', ns):
-                actual_pages.update((document_ids[r['file']], str(r['pdf_page'])) for r in json.loads(unit.get('data-source-refs')))
+                actual_pages.update((document_ids[r['file']], str(r['pdf_page'])) for r in json.loads(unit.get('data-source-refs')) if 'pdf_page' in r)
+                for ref in json.loads(unit.get('data-source-refs')):
+                    if 'pdf_page' not in ref:
+                        self.assertIn(ref['file'], document_ids)
+                        document = next(d for d in m['source_documents'] if d['filename'] == ref['file'])
+                        self.assertRegex(document['sha256'], r'^[0-9a-f]{64}$')
+                        if ref.get('sha256'): self.assertEqual(ref['sha256'], document['sha256'])
             self.assertEqual(actual_pages, expected_pages)
             front = body.findall('.//h:section[@class="frontmatter"]', ns)
             self.assertEqual([n.get('id') for n in front], [c['id'] for c in m['frontmatter']])

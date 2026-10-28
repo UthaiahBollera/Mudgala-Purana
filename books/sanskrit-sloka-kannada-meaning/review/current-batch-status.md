@@ -36,3 +36,10 @@ Khanda2 Chapters1–26:1289 numbered records,399 contextual groups;1200 resolved
 ## October27 Chapter27 release candidate
 
 Chapter27 checkpoint was explicitly approved and saved;release candidate now Khanda2 Chapters1–27,1322 records/408 groups,1231 resolved drafts/90 qualified/1pending7.37.Not expert-reviewed.Future chapters stay private and require separate publication approval.
+
+
+## October 28 release candidate: all available Khanda 2 draft chapters
+
+Khanda 2 Chapters 1–74, through 74.28 and the source-ending colophon on supplied original page 0282, printed page 156. The reading draft contains 3,614 numbered records in 1,060 contextual groups: 3,148 resolved drafts, 465 qualified records and one pending Kannada meaning (7.37). Source extent is complete; this is not a fully resolved or expert-verified translation. All prior uncertainty markers remain. Khanda 1 Chapters 1–18 and its private Chapter 19 exclusion are unchanged. This supersedes the historical 27-chapter release boundary above.
+
+The user explicitly requested publication of the available Khanda 2 draft to the existing Pages preview. See `khanda02-release-074.json` for the review list and exact source references. Source and download consistency, tests, CI and live verification are required before claiming publication.
