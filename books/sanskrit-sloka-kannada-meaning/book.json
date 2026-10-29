@@ -5,7 +5,7 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-28T16:27:08Z",
+  "modified": "2026-10-29T04:17:01Z",
   "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
@@ -9850,6 +9850,11 @@
           "printed_page": 79,
           "corresponding_pdf_page": 26,
           "source_kind": "existing-user-supplied-original-scan"
+        },
+        {
+          "document": "user-photo-20261029-page079",
+          "printed_page": 79,
+          "visible_coverage": "36.85 visible ending;36.86 and chapter colophon;37.1–19 complete;37.20 opening only"
         }
       ],
       "coverage": {
@@ -10110,6 +10115,11 @@
           "document": "user-pdf-206-255",
           "pdf_page": 27,
           "printed_page": 80
+        },
+        {
+          "document": "user-photo-20261029-page079",
+          "printed_page": 79,
+          "visible_coverage": "36.85 visible ending;36.86 and chapter colophon;37.1–19 complete;37.20 opening only"
         }
       ],
       "coverage": {
@@ -10118,7 +10128,6 @@
         "chapter_complete": true,
         "meaning_gaps": [
           12,
-          18,
           29,
           31,
           37,
@@ -10128,7 +10137,6 @@
       },
       "uncertain_verse_numbers": [
         12,
-        18,
         29,
         31,
         37,
@@ -10136,7 +10144,6 @@
       ],
       "sanskrit_uncertain_verse_numbers": [
         12,
-        18,
         29,
         31,
         37,
@@ -11858,6 +11865,11 @@
           "document": "user-pdf-206-255",
           "pdf_page": 48,
           "printed_page": 101
+        },
+        {
+          "document": "user-photo-20261029-page099",
+          "printed_page": 99,
+          "visible_coverage": "47.1–25 complete;47.26 opening only"
         }
       ],
       "coverage": {
@@ -11865,11 +11877,9 @@
         "last_verse_complete": true,
         "chapter_complete": true,
         "meaning_gaps": [
-          6,
           9,
           14,
           16,
-          20,
           21,
           22,
           26,
@@ -11882,11 +11892,9 @@
         "readings_fully_resolved": false
       },
       "uncertain_verse_numbers": [
-        6,
         9,
         14,
         16,
-        20,
         21,
         22,
         26,
@@ -11897,11 +11905,9 @@
         47
       ],
       "sanskrit_uncertain_verse_numbers": [
-        6,
         9,
         14,
         16,
-        20,
         21,
         22,
         26,
@@ -17026,7 +17032,7 @@
       "status": "translated"
     }
   ],
-  "source": "User-supplied scans; Khanda 1 chapters 1–18 and Khanda 2 chapters 1–74 reading draft. Khanda 2 source extent ends at 74.28; 465 qualified records and pending meaning 7.37 retained. Not expert-reviewed.",
+  "source": "User-supplied scans; Khanda 1 chapters 1–18 and Khanda 2 chapters 1–74 reading draft. Khanda 2 source extent ends at 74.28; 462 qualified records and pending meaning 7.37 retained. Not expert-reviewed.",
   "sanskrit_script": "Knda",
   "sanskrit_devanagari_archive": "review/sanskrit-devanagari-source.json",
   "source_documents": [
@@ -17682,6 +17688,20 @@
       "source_kind": "existing-user-supplied-original-scan",
       "corresponding_pdf_file": null,
       "corresponding_pdf_page": 46
+    },
+    {
+      "id": "user-photo-20261029-page079",
+      "filename": "1000217019.jpg",
+      "sha256": "12a2a7a5bef478e191fb5eac8600c495b5ab95fceb5cb1156239cf6df4af3fde",
+      "printed_page": 79,
+      "source_kind": "new-user-supplied-page-photograph"
+    },
+    {
+      "id": "user-photo-20261029-page099",
+      "filename": "1000217021.jpg",
+      "sha256": "86ce2b239a5282e5e5d38395dca1a6eb2e6cf8c60b262d53049fa04a14cb5dd0",
+      "printed_page": 99,
+      "source_kind": "new-user-supplied-page-photograph"
     }
   ],
   "verse_source_archive": "review/verse-source-records.json",

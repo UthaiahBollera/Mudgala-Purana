@@ -43,3 +43,8 @@ Chapter27 checkpoint was explicitly approved and saved;release candidate now Kha
 Khanda 2 Chapters 1–74, through 74.28 and the source-ending colophon on supplied original page 0282, printed page 156. The reading draft contains 3,614 numbered records in 1,060 contextual groups: 3,148 resolved drafts, 465 qualified records and one pending Kannada meaning (7.37). Source extent is complete; this is not a fully resolved or expert-verified translation. All prior uncertainty markers remain. Khanda 1 Chapters 1–18 and its private Chapter 19 exclusion are unchanged. This supersedes the historical 27-chapter release boundary above.
 
 The user explicitly requested publication of the available Khanda 2 draft to the existing Pages preview. See `khanda02-release-074.json` for the review list and exact source references. Source and download consistency, tests, CI and live verification are required before claiming publication.
+
+
+## Source photograph corrections — 2026-10-29
+
+Printed pages 79 and 99 were compared with 48 existing verse records (three partially visible). Corrected 37.18, 47.6 and 47.20, and the Chapter 36 closing title. Three draft flags cleared: 462 qualified records and the pending meaning of 7.37 remain. Coverage remains Chapters 1–74, 3,614 records and 1,060 context groups. See `khanda02-photo-corrections-2026-10-29.json` for the exact before/after text and provenance. These corrections require fresh PDF/EPUB builds and release validation.
