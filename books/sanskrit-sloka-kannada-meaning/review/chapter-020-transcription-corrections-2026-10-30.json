@@ -1174,6 +1174,66 @@
         "source_visual_review": "Rechecked against native-resolution crops of user original PNG0047–0049; existing supplied OCR used only as secondary candidate reference, 2026-10-30. Not expert reviewed."
       },
       "basis": "Native supplied PNG crops, secondary existing user OCR candidate cross-check; no newly generated OCR"
+    },
+    {
+      "id": "kh01-ch020-v005",
+      "before": {
+        "id": "kh01-ch020-v005",
+        "verse": 5,
+        "sanskrit_devanagari": "वक्रतुंडावतारश्च देहिनां ब्रह्मधारकः । मत्सरासुरहंता स सिंहवाहनगः स्मृतः ॥५॥",
+        "sanskrit_kannada_script": "ವಕ್ರತುಂಡಾವತಾರಶ್ಚ ದೇಹಿನಾಂ ಬ್ರಹ್ಮಧಾರಕಃ । ಮತ್ಸರಾಸುರಹಂತಾ ಸ ಸಿಂಹವಾಹನಗಃ ಸ್ಮೃತಃ ॥೫॥",
+        "kannada_meaning": "ದೇಹಧಾರಿಗಳ ಬ್ರಹ್ಮಧಾರಕನಾದ ವಕ್ರತುಂಡಾವತಾರನು ಮತ್ಸರಾಸುರನ ಸಂಹಾರಕ; ಸಿಂಹವಾಹನನೆಂದು ಸ್ಮರಿಸಲ್ಪಟ್ಟಿದ್ದಾನೆ.",
+        "source_refs": [
+          {
+            "file": "55 TO 76.pdf",
+            "pdf_page": 10,
+            "printed_page": 47
+          },
+          {
+            "file": "Page Images/page_0047.png",
+            "printed_page": 47,
+            "sha256": "01a0155c5ee50bc1a770c4fee62d837ee23193edbc1b62f40e59aadbaa9ac2d7",
+            "source_kind": "existing-user-supplied-original-scan"
+          }
+        ],
+        "source_sha256": "a01484def0632e057dd573fd41e5316f7ae48e3aa195299dbc02027e0cb32038",
+        "uncertain_readings": [],
+        "review": {
+          "source_visual_compared": true,
+          "expert_review": false,
+          "publication": false
+        },
+        "source_visual_review": "Rechecked against native-resolution crops of user original PNG0047–0049; existing supplied OCR used only as secondary candidate reference, 2026-10-30. Not expert reviewed."
+      },
+      "after": {
+        "id": "kh01-ch020-v005",
+        "verse": 5,
+        "sanskrit_devanagari": "वक्रतुंडावतारश्च देहानां ब्रह्मधारकः । मत्सरासुरहंता स सिंहवाहनगः स्मृतः ॥५॥",
+        "sanskrit_kannada_script": "ವಕ್ರತುಂಡಾವತಾರಶ್ಚ ದೇಹಾನಾಂ ಬ್ರಹ್ಮಧಾರಕಃ । ಮತ್ಸರಾಸುರಹಂತಾ ಸ ಸಿಂಹವಾಹನಗಃ ಸ್ಮೃತಃ ॥೫॥",
+        "kannada_meaning": "ದೇಹಗಳ ಬ್ರಹ್ಮಧಾರಕನಾದ ವಕ್ರತುಂಡಾವತಾರನು ಮತ್ಸರಾಸುರನ ಸಂಹಾರಕ; ಸಿಂಹವಾಹನನೆಂದು ಸ್ಮರಿಸಲ್ಪಟ್ಟಿದ್ದಾನೆ.",
+        "source_refs": [
+          {
+            "file": "55 TO 76.pdf",
+            "pdf_page": 10,
+            "printed_page": 47
+          },
+          {
+            "file": "Page Images/page_0047.png",
+            "printed_page": 47,
+            "sha256": "01a0155c5ee50bc1a770c4fee62d837ee23193edbc1b62f40e59aadbaa9ac2d7",
+            "source_kind": "existing-user-supplied-original-scan"
+          }
+        ],
+        "source_sha256": "a01484def0632e057dd573fd41e5316f7ae48e3aa195299dbc02027e0cb32038",
+        "uncertain_readings": [],
+        "review": {
+          "source_visual_compared": true,
+          "expert_review": false,
+          "publication": false
+        },
+        "source_visual_review": "Rechecked against native-resolution crops of user original PNG0047–0049; existing supplied OCR used only as secondary candidate reference, 2026-10-30. Not expert reviewed."
+      },
+      "basis": "Additional native PNG0047 tight crop confirms देहानां in5, distinct from देहिनां in6."
     }
   ]
 }
