@@ -67,3 +67,10 @@ The enlarged original PNG comparison exposed mistakes in the initial transcripti
 Corrected artifacts passed local validation: 16 book tests, 11 reader tests, 5 SEO tests, negative audit gate, 45 browser scenarios, Pages checks and four EPUBCheck files with zero errors/warnings. Original 93 chapter sources and Khanda 2 print PDF remain unchanged. K1 PDF: 228 A4 pages with embedded fonts; corrected chapter first, middle and final pages visually inspected. Live release verification remains separate.
 
 A final tight crop confirms `देहानां` in 20.5, distinct from `देहिनां` in 20.6. Both Sanskrit and Kannada meaning are corrected and the distinction has a regression assertion. Regenerated PDFs and four EPUBCheck files pass; the corrected PDF page 221 was visually inspected.
+
+
+## Chapter 21 continuation — 2026-10-30
+
+54 numbered source records and21 context groups, from supplied PDF12–15 / printed49–52 and native original PNG0049–0052. Sixteen records retain source or interpretation qualifications; several are partial readings with explicit markers, not completed reconstructed Sanskrit or expert-reviewed meanings. All54 positions and the closing colophon are present. Splits10,27,45 reunited; source soham and Ganesh names retained without added syllables. Previous94chapter source hashes unchanged. Local validation and release verification pending. Next: Chapter22verse1,PDF15/printed52 below the colophon.
+
+Local Chapter21 release checks passed: 16 book tests,12 reader tests,5 SEO tests,48 browser scenarios,negative SEO gate,Pages checks and four EPUBCheck editions with zero errors/warnings. The240-page K1 PDF contains all54 exact source/meaning texts after whitespace normalization; first/middle/last chapter pages and phone/desktop reader visually inspected. Three provisional starter transcriptions (3,8,9) were corrected before release; concise before/after history retained separately. Live verification remains pending.
