@@ -5,7 +5,7 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-30T15:50:46Z",
+  "modified": "2026-10-30T16:12:34Z",
   "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
@@ -4050,6 +4050,200 @@
         }
       ],
       "grouping_review": "review/context-grouping-chapter-021.json"
+    },
+    {
+      "id": "kh01-ch022",
+      "khanda": 1,
+      "number": 22,
+      "title": "ಇಪ್ಪತ್ತೆರಡನೆಯ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-01/chapter-022.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_refs": [
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 15,
+          "printed_page": 52
+        },
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 16,
+          "printed_page": 53
+        },
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 17,
+          "printed_page": 54
+        }
+      ],
+      "coverage": {
+        "last_verse": 54,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "source_complete_verse_span": [
+          1,
+          54
+        ],
+        "readings_fully_resolved": false,
+        "meaning_gaps": [
+          27,
+          40,
+          54
+        ]
+      },
+      "sanskrit_uncertain_verse_numbers": [
+        27,
+        40,
+        54
+      ],
+      "reading_grouping": "context",
+      "reading_groups": [
+        {
+          "id": "kh01-ch022-group-01",
+          "verses": [
+            "kh01-ch022-v001",
+            "kh01-ch022-v002",
+            "kh01-ch022-v003",
+            "kh01-ch022-v004"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-02",
+          "verses": [
+            "kh01-ch022-v005",
+            "kh01-ch022-v006",
+            "kh01-ch022-v007",
+            "kh01-ch022-v008"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-03",
+          "verses": [
+            "kh01-ch022-v009",
+            "kh01-ch022-v010",
+            "kh01-ch022-v011",
+            "kh01-ch022-v012"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-04",
+          "verses": [
+            "kh01-ch022-v013",
+            "kh01-ch022-v014"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-05",
+          "verses": [
+            "kh01-ch022-v015",
+            "kh01-ch022-v016"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-06",
+          "verses": [
+            "kh01-ch022-v017",
+            "kh01-ch022-v018",
+            "kh01-ch022-v019"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-07",
+          "verses": [
+            "kh01-ch022-v020",
+            "kh01-ch022-v021"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-08",
+          "verses": [
+            "kh01-ch022-v022",
+            "kh01-ch022-v023",
+            "kh01-ch022-v024"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-09",
+          "verses": [
+            "kh01-ch022-v025",
+            "kh01-ch022-v026",
+            "kh01-ch022-v027"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-10",
+          "verses": [
+            "kh01-ch022-v028",
+            "kh01-ch022-v029"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-11",
+          "verses": [
+            "kh01-ch022-v030",
+            "kh01-ch022-v031",
+            "kh01-ch022-v032"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-12",
+          "verses": [
+            "kh01-ch022-v033",
+            "kh01-ch022-v034"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-13",
+          "verses": [
+            "kh01-ch022-v035",
+            "kh01-ch022-v036",
+            "kh01-ch022-v037",
+            "kh01-ch022-v038"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-14",
+          "verses": [
+            "kh01-ch022-v039",
+            "kh01-ch022-v040",
+            "kh01-ch022-v041"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-15",
+          "verses": [
+            "kh01-ch022-v042",
+            "kh01-ch022-v043",
+            "kh01-ch022-v044"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-16",
+          "verses": [
+            "kh01-ch022-v045",
+            "kh01-ch022-v046",
+            "kh01-ch022-v047"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-17",
+          "verses": [
+            "kh01-ch022-v048",
+            "kh01-ch022-v049",
+            "kh01-ch022-v050",
+            "kh01-ch022-v051"
+          ]
+        },
+        {
+          "id": "kh01-ch022-group-18",
+          "verses": [
+            "kh01-ch022-v052",
+            "kh01-ch022-v053",
+            "kh01-ch022-v054"
+          ]
+        }
+      ],
+      "grouping_review": "review/context-grouping-chapter-022.json"
     },
     {
       "id": "kh02-ch001",
@@ -17751,7 +17945,9 @@
         12,
         13,
         14,
-        15
+        15,
+        16,
+        17
       ]
     },
     {
@@ -18380,6 +18576,20 @@
       "filename": "Page Images/page_0052.png",
       "sha256": "cda7a01a2714edd5b02f7946678a288310629ceadd71fcb8fb160d46dbce4575",
       "printed_page": 52,
+      "source_kind": "existing-user-supplied-original-scan"
+    },
+    {
+      "id": "user-original-kh01-0053",
+      "filename": "Page Images/page_0053.png",
+      "sha256": "a045a0d01f2750f0d8c5e07a7941a0b69dc490d6b79ff88bef5bbde20217d4e9",
+      "printed_page": 53,
+      "source_kind": "existing-user-supplied-original-scan"
+    },
+    {
+      "id": "user-original-kh01-0054",
+      "filename": "Page Images/page_0054.png",
+      "sha256": "02c3ae9a68458e6f5b6d1826d5bb155ff45cc7564e75296735a66ddd84065b90",
+      "printed_page": 54,
       "source_kind": "existing-user-supplied-original-scan"
     }
   ],
