@@ -5,7 +5,7 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-29T04:17:01Z",
+  "modified": "2026-10-30T14:27:33Z",
   "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
@@ -3421,6 +3421,236 @@
         }
       ],
       "grouping_review": "review/context-grouping-chapter-018.json"
+    },
+    {
+      "id": "kh01-ch019",
+      "khanda": 1,
+      "number": 19,
+      "title": "ಹತ್ತೊಂಬತ್ತನೆಯ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-01/chapter-019.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_refs": [
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 7,
+          "printed_page": 44
+        },
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 8,
+          "printed_page": 45
+        },
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 9,
+          "printed_page": 46
+        },
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 10,
+          "printed_page": 47
+        }
+      ],
+      "coverage": {
+        "last_verse": 67,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "source_complete_verse_span": [
+          1,
+          67
+        ],
+        "readings_fully_resolved": false,
+        "meaning_gaps": [
+          15,
+          28,
+          29,
+          45,
+          50,
+          52,
+          53
+        ]
+      },
+      "sanskrit_uncertain_verse_numbers": [
+        15,
+        28,
+        29,
+        45,
+        50,
+        52,
+        53
+      ],
+      "reading_grouping": "context",
+      "reading_groups": [
+        {
+          "id": "kh01-ch019-group-01",
+          "verses": [
+            "kh01-ch019-v001"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-02",
+          "verses": [
+            "kh01-ch019-v002",
+            "kh01-ch019-v003",
+            "kh01-ch019-v004"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-03",
+          "verses": [
+            "kh01-ch019-v005",
+            "kh01-ch019-v006"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-04",
+          "verses": [
+            "kh01-ch019-v007",
+            "kh01-ch019-v008",
+            "kh01-ch019-v009"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-05",
+          "verses": [
+            "kh01-ch019-v010",
+            "kh01-ch019-v011"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-06",
+          "verses": [
+            "kh01-ch019-v012",
+            "kh01-ch019-v013",
+            "kh01-ch019-v014",
+            "kh01-ch019-v015"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-07",
+          "verses": [
+            "kh01-ch019-v016",
+            "kh01-ch019-v017",
+            "kh01-ch019-v018"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-08",
+          "verses": [
+            "kh01-ch019-v019",
+            "kh01-ch019-v020"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-09",
+          "verses": [
+            "kh01-ch019-v021",
+            "kh01-ch019-v022",
+            "kh01-ch019-v023",
+            "kh01-ch019-v024"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-10",
+          "verses": [
+            "kh01-ch019-v025",
+            "kh01-ch019-v026",
+            "kh01-ch019-v027",
+            "kh01-ch019-v028"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-11",
+          "verses": [
+            "kh01-ch019-v029",
+            "kh01-ch019-v030",
+            "kh01-ch019-v031",
+            "kh01-ch019-v032",
+            "kh01-ch019-v033"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-12",
+          "verses": [
+            "kh01-ch019-v034",
+            "kh01-ch019-v035",
+            "kh01-ch019-v036",
+            "kh01-ch019-v037"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-13",
+          "verses": [
+            "kh01-ch019-v038",
+            "kh01-ch019-v039",
+            "kh01-ch019-v040",
+            "kh01-ch019-v041"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-14",
+          "verses": [
+            "kh01-ch019-v042",
+            "kh01-ch019-v043",
+            "kh01-ch019-v044",
+            "kh01-ch019-v045",
+            "kh01-ch019-v046"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-15",
+          "verses": [
+            "kh01-ch019-v047",
+            "kh01-ch019-v048",
+            "kh01-ch019-v049",
+            "kh01-ch019-v050"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-16",
+          "verses": [
+            "kh01-ch019-v051",
+            "kh01-ch019-v052",
+            "kh01-ch019-v053",
+            "kh01-ch019-v054"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-17",
+          "verses": [
+            "kh01-ch019-v055",
+            "kh01-ch019-v056",
+            "kh01-ch019-v057"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-18",
+          "verses": [
+            "kh01-ch019-v058",
+            "kh01-ch019-v059",
+            "kh01-ch019-v060"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-19",
+          "verses": [
+            "kh01-ch019-v061",
+            "kh01-ch019-v062",
+            "kh01-ch019-v063",
+            "kh01-ch019-v064"
+          ]
+        },
+        {
+          "id": "kh01-ch019-group-20",
+          "verses": [
+            "kh01-ch019-v065",
+            "kh01-ch019-v066",
+            "kh01-ch019-v067"
+          ]
+        }
+      ],
+      "grouping_review": "review/context-grouping-chapter-019.json"
     },
     {
       "id": "kh02-ch001",
@@ -17032,7 +17262,7 @@
       "status": "translated"
     }
   ],
-  "source": "User-supplied scans; Khanda 1 chapters 1–18 and Khanda 2 chapters 1–74 reading draft. Khanda 2 source extent ends at 74.28; 462 qualified records and pending meaning 7.37 retained. Not expert-reviewed.",
+  "source": "User-supplied scans; Khanda 1 chapters 1–19 and Khanda 2 chapters 1–74 reading draft. Khanda 2 source extent ends at 74.28; 462 qualified records and pending meaning 7.37 retained. Not expert-reviewed.",
   "sanskrit_script": "Knda",
   "sanskrit_devanagari_archive": "review/sanskrit-devanagari-source.json",
   "source_documents": [
@@ -17114,7 +17344,10 @@
         4,
         5,
         6,
-        7
+        7,
+        8,
+        9,
+        10
       ]
     },
     {

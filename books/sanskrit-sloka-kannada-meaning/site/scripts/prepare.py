@@ -23,8 +23,9 @@ def body(c):
 for c in m['chapters']:
  if c.get('include',True):data['chapters'].append({'chapterComplete':c['coverage'].get('chapter_complete',True),'id':c['id'],'khanda':c['khanda'],'number':c['number'],'title':c['title'],'slug':str(c['number']),'count':c['coverage']['last_verse'],'groups':len(c['reading_groups']),'html':body(c)})
 for c in m['frontmatter']:data['frontmatter'].append({'title':c['title'],'html':body(c)})
-baseline=[c for c in data['chapters'] if c['khanda']==1]
+baseline=[c for c in data['chapters'] if c['khanda']==1 and c['number']<=18]
 assert len(baseline)==18 and sum(c['count'] for c in baseline)==985
+assert sum(c['count'] for c in data['chapters'] if c['khanda']==1)==1052
 assert len({c['id'] for c in data['chapters']})==len(data['chapters'])
 (site/'.generated').mkdir(exist_ok=True);(site/'.generated/book.json').write_text(json.dumps(data,ensure_ascii=False))
 target=site/'public/book'

@@ -48,3 +48,8 @@ The user explicitly requested publication of the available Khanda 2 draft to the
 ## Source photograph corrections — 2026-10-29
 
 Printed pages 79 and 99 were compared with 48 existing verse records (three partially visible). Corrected 37.18, 47.6 and 47.20, and the Chapter 36 closing title. Three draft flags cleared: 462 qualified records and the pending meaning of 7.37 remain. Coverage remains Chapters 1–74, 3,614 records and 1,060 context groups. See `khanda02-photo-corrections-2026-10-29.json` for the exact before/after text and provenance. These corrections require fresh PDF/EPUB builds and release validation.
+
+
+## Continuation resumed — 2026-10-30
+
+Khanda 1 Chapter 19: 67 numbered verse/meaning records, 20 short context groups; seven qualified readings (15,28,29,45,50,52,53). Supplied PDF 55 TO 76.pdf pages 7–10 / printed 44–47 visually compared. The earlier provisional negative at verse 9 was corrected to the visible ब्रह्मन्नत्र वै. Splits at verses 33 and 57 were reunited. Previous 18 chapters and all Khanda 2 source files are unchanged. User requested ongoing supported-batch publication toward all nine khandas; this batch still needs release checks and live verification. Next: Chapter 20 verse 1, same PDF page 10 / printed 47, below the Chapter 19 colophon.
