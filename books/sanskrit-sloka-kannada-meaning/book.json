@@ -5,7 +5,7 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-30T14:27:33Z",
+  "modified": "2026-10-30T15:00:58Z",
   "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
@@ -3651,6 +3651,179 @@
         }
       ],
       "grouping_review": "review/context-grouping-chapter-019.json"
+    },
+    {
+      "id": "kh01-ch020",
+      "khanda": 1,
+      "number": 20,
+      "title": "ಇಪ್ಪತ್ತನೆಯ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-01/chapter-020.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_refs": [
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 10,
+          "printed_page": 47
+        },
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 11,
+          "printed_page": 48
+        },
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 12,
+          "printed_page": 49
+        }
+      ],
+      "coverage": {
+        "last_verse": 42,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "source_complete_verse_span": [
+          1,
+          42
+        ],
+        "readings_fully_resolved": false,
+        "meaning_gaps": [
+          4,
+          9,
+          14,
+          17,
+          25,
+          30,
+          32,
+          33,
+          34,
+          35,
+          39
+        ]
+      },
+      "sanskrit_uncertain_verse_numbers": [
+        4,
+        9,
+        14,
+        17,
+        25,
+        30,
+        32,
+        33,
+        34,
+        35,
+        39
+      ],
+      "reading_grouping": "context",
+      "reading_groups": [
+        {
+          "id": "kh01-ch020-group-01",
+          "verses": [
+            "kh01-ch020-v001",
+            "kh01-ch020-v002"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-02",
+          "verses": [
+            "kh01-ch020-v003",
+            "kh01-ch020-v004"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-03",
+          "verses": [
+            "kh01-ch020-v005",
+            "kh01-ch020-v006",
+            "kh01-ch020-v007",
+            "kh01-ch020-v008"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-04",
+          "verses": [
+            "kh01-ch020-v009",
+            "kh01-ch020-v010",
+            "kh01-ch020-v011",
+            "kh01-ch020-v012"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-05",
+          "verses": [
+            "kh01-ch020-v013",
+            "kh01-ch020-v014",
+            "kh01-ch020-v015"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-06",
+          "verses": [
+            "kh01-ch020-v016",
+            "kh01-ch020-v017",
+            "kh01-ch020-v018"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-07",
+          "verses": [
+            "kh01-ch020-v019",
+            "kh01-ch020-v020",
+            "kh01-ch020-v021"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-08",
+          "verses": [
+            "kh01-ch020-v022",
+            "kh01-ch020-v023",
+            "kh01-ch020-v024"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-09",
+          "verses": [
+            "kh01-ch020-v025",
+            "kh01-ch020-v026",
+            "kh01-ch020-v027",
+            "kh01-ch020-v028"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-10",
+          "verses": [
+            "kh01-ch020-v029",
+            "kh01-ch020-v030",
+            "kh01-ch020-v031"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-11",
+          "verses": [
+            "kh01-ch020-v032",
+            "kh01-ch020-v033",
+            "kh01-ch020-v034",
+            "kh01-ch020-v035"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-12",
+          "verses": [
+            "kh01-ch020-v036",
+            "kh01-ch020-v037",
+            "kh01-ch020-v038",
+            "kh01-ch020-v039"
+          ]
+        },
+        {
+          "id": "kh01-ch020-group-13",
+          "verses": [
+            "kh01-ch020-v040",
+            "kh01-ch020-v041",
+            "kh01-ch020-v042"
+          ]
+        }
+      ],
+      "grouping_review": "review/context-grouping-chapter-020.json"
     },
     {
       "id": "kh02-ch001",
@@ -17262,7 +17435,7 @@
       "status": "translated"
     }
   ],
-  "source": "User-supplied scans; Khanda 1 chapters 1–19 and Khanda 2 chapters 1–74 reading draft. Khanda 2 source extent ends at 74.28; 462 qualified records and pending meaning 7.37 retained. Not expert-reviewed.",
+  "source": "User-supplied Sanskrit scans; Khanda 1 Chapters 1–20 and Khanda 2 Chapters 1–74; source-qualified Kannada reading draft; unresolved readings and pending Khanda 2 meaning 7.37 retained.",
   "sanskrit_script": "Knda",
   "sanskrit_devanagari_archive": "review/sanskrit-devanagari-source.json",
   "source_documents": [
@@ -17347,7 +17520,9 @@
         7,
         8,
         9,
-        10
+        10,
+        11,
+        12
       ]
     },
     {
@@ -17935,6 +18110,27 @@
       "sha256": "86ce2b239a5282e5e5d38395dca1a6eb2e6cf8c60b262d53049fa04a14cb5dd0",
       "printed_page": 99,
       "source_kind": "new-user-supplied-page-photograph"
+    },
+    {
+      "id": "user-original-kh01-0047",
+      "filename": "Page Images/page_0047.png",
+      "sha256": "01a0155c5ee50bc1a770c4fee62d837ee23193edbc1b62f40e59aadbaa9ac2d7",
+      "printed_page": 47,
+      "source_kind": "existing-user-supplied-original-scan"
+    },
+    {
+      "id": "user-original-kh01-0048",
+      "filename": "Page Images/page_0048.png",
+      "sha256": "42936aadb2981965e947ec7588302ad1a5c4426198b2438cfd7234a514093eb6",
+      "printed_page": 48,
+      "source_kind": "existing-user-supplied-original-scan"
+    },
+    {
+      "id": "user-original-kh01-0049",
+      "filename": "Page Images/page_0049.png",
+      "sha256": "62698d900cfa829b0ea832e77b7778572462f364445835b1641866c914def352",
+      "printed_page": 49,
+      "source_kind": "existing-user-supplied-original-scan"
     }
   ],
   "verse_source_archive": "review/verse-source-records.json",

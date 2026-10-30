@@ -53,3 +53,8 @@ Printed pages 79 and 99 were compared with 48 existing verse records (three part
 ## Continuation resumed — 2026-10-30
 
 Khanda 1 Chapter 19: 67 numbered verse/meaning records, 20 short context groups; seven qualified readings (15,28,29,45,50,52,53). Supplied PDF 55 TO 76.pdf pages 7–10 / printed 44–47 visually compared. The earlier provisional negative at verse 9 was corrected to the visible ब्रह्मन्नत्र वै. Splits at verses 33 and 57 were reunited. Previous 18 chapters and all Khanda 2 source files are unchanged. User requested ongoing supported-batch publication toward all nine khandas; this batch still needs release checks and live verification. Next: Chapter 20 verse 1, same PDF page 10 / printed 47, below the Chapter 19 colophon.
+
+
+## Chapter 20 continuation — 2026-10-30
+
+Complete 42-record reading draft in 13 context groups; eleven source/interpretation caveats. Supplied PDF pages 10–12 / printed 47–49 and original PNG0047–0049 visually compared. Source names the one-syllable mantra without printing its syllable here; none added. Splits 8 and 34 reunited. Next: Chapter 21 verse 1, PDF12 / printed49. All previous 93 chapter source hashes unchanged.
