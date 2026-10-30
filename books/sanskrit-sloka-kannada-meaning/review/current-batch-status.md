@@ -88,3 +88,10 @@ Local Chapter22 checks passed:16book tests,13reader tests,5SEO tests,51responsiv
 49 records, 16 short context groups and seven qualifications (1, 3, 8, 15, 16, 24, 44). User-supplied original PNG0055–0056 and split PDF pages 18–19 / printed pages 55–56 were compared; verse 26's split was reunited. The printed Madakara name and thousand-divine-year interval are retained. The five-syllable mantra is named, but its formula is not printed here; none was invented. Previous 96 chapter files are unchanged. Local and release checks are pending. Next: 24.1, PDF page 20 / printed page 57.
 
 Local Chapter 23 checks passed: 16 book tests, 14 reader tests, 5 SEO tests, 54 responsive scenarios, negative release gate, Pages compatibility and four EPUBCheck editions with zero errors/warnings. The 259-page K1 PDF contains all 49 exact verse/meaning texts; opening, page-split, proper-name, mantra-duration and closing pages were visually inspected with phone/desktop reader renders. Previous 96 chapter sources and Khanda 2 print PDF are unchanged. Live verification remains pending.
+
+
+## Chapter 24 continuation — 2026-10-30
+
+48 source-position records, 16 short context groups, eight qualifications (4, 6, 12, 24, 30, 31, 35, 41). User original PNG0057–0058 and supplied PDF20–21 / printed57–58 visually compared. Hymn12–19 and the boon request are retained without an added formula. The daityas claims are attributed to their speakers, not silently reconciled or asserted as narrator doctrine. Printed te in24 and damaged second half of41 remain qualified. Prior97chapter sources unchanged. Local and live validation pending. Next25.1, PDF22 / printed59; verify next page before translating.
+
+Local Chapter 24 checks passed: 16 book tests, 15 reader tests, 5 SEO tests, 57 responsive scenarios, negative audit gate, Pages compatibility and four EPUBCheck editions with zero errors/warnings. All 48 exact verse/meaning texts are present in the 268-page K1 PDF; opening, boon-request and closing pages were visually inspected. Previous 97 chapter source hashes and Khanda 2 print PDF are unchanged. Live release verification remains separate.

@@ -5,7 +5,7 @@
     "kn",
     "sa"
   ],
-  "modified": "2026-10-30T16:36:19Z",
+  "modified": "2026-10-30T16:56:57Z",
   "status": "partial",
   "cover": "assets/mudgala-front-cover-kannada-v5.png",
   "stylesheet": "styles/book.css",
@@ -4426,6 +4426,189 @@
         }
       ],
       "grouping_review": "review/context-grouping-chapter-023.json"
+    },
+    {
+      "id": "kh01-ch024",
+      "khanda": 1,
+      "number": 24,
+      "title": "ಇಪ್ಪತ್ತನಾಲ್ಕನೆಯ ಅಧ್ಯಾಯ",
+      "file": "chapters/khanda-01/chapter-024.xhtml",
+      "status": "reviewed-draft",
+      "include": true,
+      "source_refs": [
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 20,
+          "printed_page": 57
+        },
+        {
+          "document": "user-pdf-003",
+          "pdf_page": 21,
+          "printed_page": 58
+        }
+      ],
+      "coverage": {
+        "last_verse": 48,
+        "last_verse_complete": true,
+        "chapter_complete": true,
+        "source_complete_verse_span": [
+          1,
+          48
+        ],
+        "readings_fully_resolved": false,
+        "meaning_gaps": [
+          4,
+          6,
+          12,
+          24,
+          30,
+          31,
+          35,
+          41
+        ]
+      },
+      "sanskrit_uncertain_verse_numbers": [
+        4,
+        6,
+        12,
+        24,
+        30,
+        31,
+        35,
+        41
+      ],
+      "reading_grouping": "context",
+      "reading_groups": [
+        {
+          "id": "kh01-ch024-group-01",
+          "verses": [
+            "kh01-ch024-v001",
+            "kh01-ch024-v002",
+            "kh01-ch024-v003",
+            "kh01-ch024-v004"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-02",
+          "verses": [
+            "kh01-ch024-v005",
+            "kh01-ch024-v006",
+            "kh01-ch024-v007"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-03",
+          "verses": [
+            "kh01-ch024-v008",
+            "kh01-ch024-v009",
+            "kh01-ch024-v010",
+            "kh01-ch024-v011"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-04",
+          "verses": [
+            "kh01-ch024-v012",
+            "kh01-ch024-v013",
+            "kh01-ch024-v014"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-05",
+          "verses": [
+            "kh01-ch024-v015",
+            "kh01-ch024-v016",
+            "kh01-ch024-v017"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-06",
+          "verses": [
+            "kh01-ch024-v018",
+            "kh01-ch024-v019"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-07",
+          "verses": [
+            "kh01-ch024-v020",
+            "kh01-ch024-v021",
+            "kh01-ch024-v022"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-08",
+          "verses": [
+            "kh01-ch024-v023",
+            "kh01-ch024-v024",
+            "kh01-ch024-v025",
+            "kh01-ch024-v026"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-09",
+          "verses": [
+            "kh01-ch024-v027",
+            "kh01-ch024-v028",
+            "kh01-ch024-v029"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-10",
+          "verses": [
+            "kh01-ch024-v030",
+            "kh01-ch024-v031"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-11",
+          "verses": [
+            "kh01-ch024-v032",
+            "kh01-ch024-v033"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-12",
+          "verses": [
+            "kh01-ch024-v034",
+            "kh01-ch024-v035",
+            "kh01-ch024-v036",
+            "kh01-ch024-v037"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-13",
+          "verses": [
+            "kh01-ch024-v038",
+            "kh01-ch024-v039",
+            "kh01-ch024-v040"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-14",
+          "verses": [
+            "kh01-ch024-v041",
+            "kh01-ch024-v042",
+            "kh01-ch024-v043",
+            "kh01-ch024-v044"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-15",
+          "verses": [
+            "kh01-ch024-v045",
+            "kh01-ch024-v046"
+          ]
+        },
+        {
+          "id": "kh01-ch024-group-16",
+          "verses": [
+            "kh01-ch024-v047",
+            "kh01-ch024-v048"
+          ]
+        }
+      ],
+      "grouping_review": "review/context-grouping-chapter-024.json"
     },
     {
       "id": "kh02-ch001",
@@ -18131,7 +18314,9 @@
         16,
         17,
         18,
-        19
+        19,
+        20,
+        21
       ]
     },
     {
@@ -18788,6 +18973,20 @@
       "filename": "Page Images/page_0056.png",
       "sha256": "a9a985a3831fbd01bc14b167573e2c8e7176429c8cb430b8b7a49322d3b311b0",
       "printed_page": 56,
+      "source_kind": "existing-user-supplied-original-scan"
+    },
+    {
+      "id": "user-original-kh01-0057",
+      "filename": "Page Images/page_0057.png",
+      "sha256": "8d0ca37ffe904ab8e7315d72e1d8b5eaf6bd66b8bf0a0c297e84e8d4a6ba06e6",
+      "printed_page": 57,
+      "source_kind": "existing-user-supplied-original-scan"
+    },
+    {
+      "id": "user-original-kh01-0058",
+      "filename": "Page Images/page_0058.png",
+      "sha256": "2c5d970f07eba02caa6b6dae87800f8ffd3ca7d3e59ac933d15e653f0bcc377b",
+      "printed_page": 58,
       "source_kind": "existing-user-supplied-original-scan"
     }
   ],
