@@ -81,3 +81,10 @@ Local Chapter21 release checks passed: 16 book tests,12 reader tests,5 SEO tests
 54 records,18 short context groups,three qualifications (27,40,54). Source originalPNG0052–0054 and suppliedPDF15–17/printed52–54 compared;9and34page splits reunited. The printed dehanivedana term and Ganeshoham retained in Kannada script. Ramachandra in43 and Jamadagni-son Rama in45 remain distinct. Printed bhavane in40 and fine closing reading54 are qualified rather than normalized. Previous95chapter files unchanged. Build/live validation pending. Next:23.1,PDF18/printed55;verify new page before translating.
 
 Local Chapter22 checks passed:16book tests,13reader tests,5SEO tests,51responsive cases,negative audit gate,Pages checks and four EPUBCheck editions with zero errors/warnings. K1PDF250A4pages;all54exact source/meaning texts present; beginning,page-split,exemplar and ending pages visually inspected alongside phone/desktop reader. Previous95chapter hashes and Khanda2printPDF unchanged. Live release verification remains pending.
+
+
+## Chapter 23 continuation — 2026-10-30
+
+49 records, 16 short context groups and seven qualifications (1, 3, 8, 15, 16, 24, 44). User-supplied original PNG0055–0056 and split PDF pages 18–19 / printed pages 55–56 were compared; verse 26's split was reunited. The printed Madakara name and thousand-divine-year interval are retained. The five-syllable mantra is named, but its formula is not printed here; none was invented. Previous 96 chapter files are unchanged. Local and release checks are pending. Next: 24.1, PDF page 20 / printed page 57.
+
+Local Chapter 23 checks passed: 16 book tests, 14 reader tests, 5 SEO tests, 54 responsive scenarios, negative release gate, Pages compatibility and four EPUBCheck editions with zero errors/warnings. The 259-page K1 PDF contains all 49 exact verse/meaning texts; opening, page-split, proper-name, mantra-duration and closing pages were visually inspected with phone/desktop reader renders. Previous 96 chapter sources and Khanda 2 print PDF are unchanged. Live verification remains pending.
