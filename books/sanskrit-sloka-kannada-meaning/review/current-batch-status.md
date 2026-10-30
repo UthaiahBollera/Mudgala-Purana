@@ -58,3 +58,10 @@ Khanda 1 Chapter 19: 67 numbered verse/meaning records, 20 short context groups;
 ## Chapter 20 continuation — 2026-10-30
 
 Complete 42-record reading draft in 13 context groups; eleven source/interpretation caveats. Supplied PDF pages 10–12 / printed 47–49 and original PNG0047–0049 visually compared. Source names the one-syllable mantra without printing its syllable here; none added. Splits 8 and 34 reunited. Next: Chapter 21 verse 1, PDF12 / printed49. All previous 93 chapter source hashes unchanged.
+
+
+### Chapter 20 transcription correction pass
+
+The enlarged original PNG comparison exposed mistakes in the initial transcription and associated meanings, including 20.1, 20.25, 20.30, 20.32 and 20.35. These are corrections to our draft, not claimed source variants. Full before/after history is in `chapter-020-transcription-corrections-2026-10-30.json`. Forty-two records and thirteen groups remain; current review qualifications: 17, 28, 32 and 39. The source explicitly says a thousand divine years in 32; no mantra syllable has been invented. Regenerated release verification pending.
+
+Corrected artifacts passed local validation: 16 book tests, 11 reader tests, 5 SEO tests, negative audit gate, 45 browser scenarios, Pages checks and four EPUBCheck files with zero errors/warnings. Original 93 chapter sources and Khanda 2 print PDF remain unchanged. K1 PDF: 228 A4 pages with embedded fonts; corrected chapter first, middle and final pages visually inspected. Live release verification remains separate.
