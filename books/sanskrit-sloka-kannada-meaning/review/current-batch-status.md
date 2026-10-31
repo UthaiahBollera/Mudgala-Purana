@@ -111,3 +111,8 @@ Local checks passed:16 book tests,16 reader tests,5 SEO tests,60 responsive scen
 Local checks passed:16 book tests,17 reader tests,5 SEO tests,63 responsive scenarios,negative audit gate,Pages compatibility and four EPUBCheck editions with zero errors/warnings. All43 exact source/meaning text units occur in the285-page K1 PDF after normalization. Actual phone/desktop reader renders and PDF278,282,283,285 were inspected. A self-contained private chapter HTML and an8-page PDF excerpt are available for review; the excerpt retains the full edition page numbers278–285.
 
 Chapter26 is included in this scoped reading-draft release. Khanda1 coverage is Chapters1–26 with1386 numbered records and420 context groups; Khanda2 coverage remains Chapters1–74. Later private continuation is excluded. The five Chapter26 qualifications and explicit verse31 phrase gap remain. This is a qualified draft,not expert-reviewed final scripture. Deployment status must be checked against the actual release marker and CI result.
+
+
+## Khanda 1 Chapters 27–54 release
+
+The complete numbered-position draft through Chapter 54 verse 55 is included: 54 chapters, 2,796 verse records and 809 context groups. This batch adds 1,410 records in 389 groups, including 303 qualified records; 461 qualifications remain across Khanda 1. The original supplied PNG0123 / printed page 123 confirms the ending colophon, resolving the earlier missing-ending source gap. Source completeness does not mean every reading or Kannada meaning is resolved; this remains a reading draft without expert review. Khanda 2 and pending meaning 7.37 are unchanged. Private Khanda 3 is excluded. Remote CI and live release evidence must be checked before claiming publication.
