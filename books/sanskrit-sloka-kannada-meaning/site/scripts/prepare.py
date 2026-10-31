@@ -25,7 +25,7 @@ for c in m['chapters']:
 for c in m['frontmatter']:data['frontmatter'].append({'title':c['title'],'html':body(c)})
 baseline=[c for c in data['chapters'] if c['khanda']==1 and c['number']<=18]
 assert len(baseline)==18 and sum(c['count'] for c in baseline)==985
-assert sum(c['count'] for c in data['chapters'] if c['khanda']==1)==1343
+assert sum(c['count'] for c in data['chapters'] if c['khanda']==1)==1386
 assert len({c['id'] for c in data['chapters']})==len(data['chapters'])
 (site/'.generated').mkdir(exist_ok=True);(site/'.generated/book.json').write_text(json.dumps(data,ensure_ascii=False))
 target=site/'public/book'
