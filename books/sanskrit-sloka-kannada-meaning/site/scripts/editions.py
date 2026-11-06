@@ -7,7 +7,7 @@ base=target/'mudgala-purana.epub';source=zipfile.ZipFile(base);ns={'o':'http://w
 editions=[]
 available=sorted({c['khanda'] for c in data['chapters']})
 for key,k,label in [('available',None,'ಲಭ್ಯ ಭಾಗಗಳ ಸಂಯುಕ್ತ ಆವೃತ್ತಿ')]+[(f'khanda-{k}',k,f'ಖಂಡ {k} · ಲಭ್ಯ ಭಾಗಗಳು') for k in available]:
- chapters=[c for c in data['chapters'] if k is None or c['khanda']==k];included={c['id'] for c in chapters};slug='mudgala-purana-'+key+'-partial';title=data['title']+' · '+label;desc='Partial edition: '+('; '.join(f"Khanda {n} chapters "+', '.join(str(c['number']) for c in chapters if c['khanda']==n) for n in sorted({c['khanda'] for c in chapters})))+'. '+('Reading draft; source caveats retained; meaning 7.37 pending; not expert-reviewed. ' if any(c['khanda']==2 for c in chapters) else '')+str(sum(c['count'] for c in chapters))+' numbered verse/meaning pairs. Not a complete book.'
+ chapters=[c for c in data['chapters'] if k is None or c['khanda']==k];included={c['id'] for c in chapters};slug='mudgala-purana-'+key+'-partial';title=data['title']+' · '+label;desc='Partial edition: '+('; '.join(f"Khanda {n} chapters "+', '.join(str(c['number']) for c in chapters if c['khanda']==n) for n in sorted({c['khanda'] for c in chapters})))+'. '+('Reading draft; source caveats retained; 373 qualified readings; not expert-reviewed. ' if any(c['khanda']==2 for c in chapters) else '')+str(sum(c['count'] for c in chapters))+' numbered verse/meaning pairs. Not a complete book.'
  # Full EPUB compatibility URL stays available; subsets retain separate chapter XHTML.
  root=E.fromstring(source.read('EPUB/package.opf'));manifest=root.find('o:manifest',ns);spine=root.find('o:spine',ns);remove=set()
  for item in list(manifest):
