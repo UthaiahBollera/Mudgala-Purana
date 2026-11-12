@@ -1,0 +1,2807 @@
+{
+  "edition": "Mudgala Purana paired review checkpoint",
+  "checkpoint_date": "2026-11-12",
+  "status": "Review draft; not expert verified; not integrated into the canonical reader",
+  "khanda": 5,
+  "chapter": 44,
+  "source_draft_sha256": "34ff7cb54cfefb5290f58f58bbadf57c3fecefafb52e8df042c2258adb1ecda3",
+  "entries": [
+    {
+      "id": "kh05-ch044-v001",
+      "verse": 1,
+      "sequence_position": 1,
+      "printed_verse_label": 1,
+      "sanskrit_devanagari": "मुद्गल उवाच । एवमैलः स राजर्षिरेकनिष्ठापरायणः । गणेशमभजन्नित्यं यथा गृत्समदस्तथा ॥१॥",
+      "sanskrit_kannada_script": "ಮುದ್ಗಲ ಉವಾಚ । ಏವಮೈಲಃ ಸ ರಾಜರ್ಷಿರೇಕನಿಷ್ಠಾಪರಾಯಣಃ । ಗಣೇಶಮಭಜನ್ನಿತ್ಯಂ ಯಥಾ ಗೃತ್ಸಮದಸ್ತಥಾ ॥೧॥",
+      "kannada_meaning": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಹೀಗೆ ಆ ರಾಜರ್ಷಿ ಐಲನು ಏಕನಿಷ್ಠೆಯಲ್ಲಿ ಪರಾಯಣನಾಗಿ, ಗೃತ್ಸಮದನಂತೆಯೇ ಗಣೇಶನನ್ನು ನಿತ್ಯವೂ ಭಜಿಸಿದನು.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Mudgala speaks; Aila is the subject, Gritsamada the comparison. The invocation belongs outside the numbered verse. Pururavas is an explanatory identification, not a name supplied in this stanza; omit it from the close rendering."
+        },
+        {
+          "id": "REF-COMP-5-44-1",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v002",
+      "verse": 2,
+      "sequence_position": 2,
+      "printed_verse_label": 2,
+      "sanskrit_devanagari": "ध्यात्वा गजाननं देवमेकांते तद्गताखिलः । मानसे राज्यभोगे स निःस्पृहः संबभूव ह ॥२॥",
+      "sanskrit_kannada_script": "ಧ್ಯಾತ್ವಾ ಗಜಾನನಂ ದೇವಮೇಕಾಂತೇ ತದ್ಗತಾಖಿಲಃ । ಮಾನಸೇ ರಾಜ್ಯಭೋಗೇ ಸ ನಿಃಸ್ಪೃಹಃ ಸಂಬಭೂವ ಹ ॥೨॥",
+      "kannada_meaning": "ಏಕಾಂತದಲ್ಲಿ ಗಜಾನನದೇವನನ್ನು ಧ್ಯಾನಿಸಿ, ತನ್ನೆಲ್ಲವನ್ನೂ ಅವನಲ್ಲಿಯೇ ನೆಲೆಗೊಳಿಸಿದ ಅವನು, ಮನಸ್ಸಿನಲ್ಲಿ ರಾಜ್ಯಭೋಗದ ಬಗೆಗೆ ನಿರಾಸಕ್ತನಾದನು.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Aila meditates in solitude, wholly directed toward Gajanana, and loses desire for royal enjoyment. Preserve the negation/absence of desire (niḥspṛha), not rejection of worship."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v003",
+      "verse": 3,
+      "sequence_position": 3,
+      "printed_verse_label": 3,
+      "sanskrit_devanagari": "पुत्रे राज्यं परित्यज्य पूजयित्वा गजाननम् । ध्यानयुक्तः स्वभावेनातिष्ठत्तत्रैव नित्यदा ॥३॥",
+      "sanskrit_kannada_script": "ಪುತ್ರೇ ರಾಜ್ಯಂ ಪರಿತ್ಯಜ್ಯ ಪೂಜಯಿತ್ವಾ ಗಜಾನನಮ್ । ಧ್ಯಾನಯುಕ್ತಃ ಸ್ವಭಾವೇನಾತಿಷ್ಠತ್ತತ್ರೈವ ನಿತ್ಯದಾ ॥೩॥",
+      "kannada_meaning": "ರಾಜ್ಯವನ್ನು ಮಗನಿಗೆ ಬಿಟ್ಟುಕೊಟ್ಟು, ಗಜಾನನನನ್ನು ಪೂಜಿಸಿ, ಸಹಜಭಾವದಿಂದ ಧ್ಯಾನದಲ್ಲಿ ನಿರತನಾಗಿ ಅವನು ಅಲ್ಲಿಯೇ ಸದಾಕಾಲ ನೆಲೆಸಿದನು.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The kingdom is entrusted to his son; Aila worships Gajanana and remains there in meditation. No death, abdication ceremony, or destination beyond tatra is stated."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v004",
+      "verse": 4,
+      "sequence_position": 4,
+      "printed_verse_label": 4,
+      "sanskrit_devanagari": "दक्ष उवाच । गणेशस्य ध्यानमैलकृतं मे वद सांप्रतम् । यथाऽहं ध्यानसंयुक्तो भजिष्यामि निरंतरम् ॥४॥",
+      "sanskrit_kannada_script": "ದಕ್ಷ ಉವಾಚ । ಗಣೇಶಸ್ಯ ಧ್ಯಾನಮೈಲಕೃತಂ ಮೇ ವದ ಸಾಂಪ್ರತಮ್ । ಯಥಾಽಹಂ ಧ್ಯಾನಸಂಯುಕ್ತೋ ಭಜಿಷ್ಯಾಮಿ ನಿರಂತರಮ್ ॥೪॥",
+      "kannada_meaning": "ದಕ್ಷನು ಹೇಳಿದನು: ಐಲನು ಮಾಡಿದ ಗಣೇಶನ ಧ್ಯಾನವನ್ನು ಈಗ ನನಗೆ ಹೇಳು; ಅದರಿಂದ ನಾನೂ ಧ್ಯಾನಯುಕ್ತನಾಗಿ ನಿರಂತರವಾಗಿ ಭಜಿಸುವೆನು.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Daksha asks Mudgala for Aila’s meditation so that he too can worship continuously. Preserve this speaker change and the prospective purpose."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v005",
+      "verse": 5,
+      "sequence_position": 5,
+      "printed_verse_label": 5,
+      "sanskrit_devanagari": "मुद्गल उवाच । यथैलो नृपवर्यः स गार्ग्याज्ज्ञात्वा गणेश्वरम् । अभजत् ध्यानयुक्तश्च तत् ध्यानं शृणु मानद ॥५॥",
+      "sanskrit_kannada_script": "ಮುದ್ಗಲ ಉವಾಚ । ಯಥೈಲೋ ನೃಪವರ್ಯಃ ಸ ಗಾರ್ಗ್ಯಾಜ್ಜ್ಞಾತ್ವಾ ಗಣೇಶ್ವರಮ್ । ಅಭಜತ್ ಧ್ಯಾನಯುಕ್ತಶ್ಚ ತತ್ ಧ್ಯಾನಂ ಶೃಣು ಮಾನದ ॥೫॥",
+      "kannada_meaning": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಮಾನದನೇ, ಆ ಶ್ರೇಷ್ಠ ರಾಜನಾದ ಐಲನು ಗಾರ್ಗ್ಯನಿಂದ ಗಣೇಶ್ವರನನ್ನು ತಿಳಿದುಕೊಂಡು ಧ್ಯಾನಯುಕ್ತನಾಗಿ ಭಜಿಸಿದನು. ಅವನ ಆ ಧ್ಯಾನವನ್ನು ಕೇಳು.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-5",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Mudgala resumes. The teacher is Gargya (gārgyāt), not Gritsamada or Garga substituted from context. Aila is called an excellent king."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v006",
+      "verse": 6,
+      "sequence_position": 6,
+      "printed_verse_label": 6,
+      "sanskrit_devanagari": "ऐल उवाच । नमामि विघ्नेश्वरपादपंकजं सुचिह्नितं चाखिलदं निजात्मनाम् । ध्वजासिपद्माभयवज्रलाञ्छनैः परश्वधेनैव सुकोमलं परम् ॥६॥",
+      "sanskrit_kannada_script": "ಐಲ ಉವಾಚ ೤ ನಮಾಮಿ ವಿಘ್ನೇಶ್ವರಪಾದಪಂಕಜಂ ಸುಚಿಹ್ನಿತಂ ಚಾಖಿಲದಂ ನಿಜಾತ್ಮನಾಮ್ ೤ ಧ್ವಜಾಸಿಪದ್ಮಾಭಯವಜ್ರಲಾಞ್ಛನೈಃ ಪರಶ್ವಧೇನೈವ ಸುಕೋಮಲಂ ಪರಮ್ ೥೬೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: CH44-SCAN-RAW-NUMBERING-ALIGNMENT, REVIEW-5-44-6 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೬॥",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-6",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Aila’s first-person meditation begins. The lotus foot has banner, sword, lotus, fearlessness, thunderbolt and axe marks; do not turn all these marks into independently held weapons."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v007",
+      "verse": 7,
+      "sequence_position": 7,
+      "printed_verse_label": 7,
+      "sanskrit_devanagari": "सुरक्तपादांगुलकैः सुकोमलैर्नखप्रभाताम्रतया सुराजितम् । सुगुल्फयुक्तं मृदुमांसलं महन् मोहं हरेत् तत्तिमिरं हृदि स्थितम् ॥७॥",
+      "sanskrit_kannada_script": "ಸುರಕ್ತಪಾದಾಂಗುಲಕೈಃ ಸುಕೋಮಲೈರ್ನಖಪ್ರಭಾತಾಮ್ರತಯಾ ಸುರಾಜಿತಮ್ । ಸುಗುಲ್ಫಯುಕ್ತಂ ಮೃದುಮಾಂಸಲಂ ಮಹನ್ ಮೋಹಂ ಹರೇತ್ ತತ್ತಿಮಿರಂ ಹೃದಿ ಸ್ಥಿತಮ್ ॥೭॥",
+      "kannada_meaning": "ಚೆನ್ನಾಗಿ ಕೆಂಪಾಗಿರುವ ಅತ್ಯಂತ ಕೋಮಲವಾದ ಪಾದಬೆರಳುಗಳಿಂದಲೂ ಉಗುರುಗಳ ಕಾಂತಿಯ ತಾಮ್ರವರ್ಣದಿಂದಲೂ ಸುಶೋಭಿತವಾದ, ಸುಂದರವಾದ ಕಣಕಾಲುಗಳಿಂದ ಕೂಡಿದ, ಮೃದುವೂ ಮಾಂಸಲವೂ ಆದ ಆ ಪಾದಕಮಲವು ಹೃದಯದಲ್ಲಿ ನೆಲೆಸಿರುವ ಮಹಾಮೋಹವೆಂಬ ಕತ್ತಲೆಯನ್ನು ನಿವಾರಿಸಲಿ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-7",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The soft red toes, copper-like nail radiance, ankles and fleshy softness belong to the foot. mahān modifies the delusion/darkness to be dispelled, rather than adding an independently great foot. The prayer is “may it remove,” not a statement that it has done so."
+        },
+        {
+          "id": "REF-COMP-5-44-7",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v008",
+      "verse": 8,
+      "sequence_position": 8,
+      "printed_verse_label": 8,
+      "sanskrit_devanagari": "जंघे परे रक्तसुभामये ततो ध्यायामि मांसेन युते सुकोमले । तज्जानुनी मांसलके सुरोमभिराकोमलैर्वक्रशिखैः सुसंवृते ॥८॥",
+      "sanskrit_kannada_script": "ಜಂಘೇ ಪರೇ ರಕ್ತಸುಭಾಮಯೇ ತತೋ ಧ್ಯಾಯಾಮಿ ಮಾಂಸೇನ ಯುತೇ ಸುಕೋಮಲೇ । ತಜ್ಜಾನುನೀ ಮಾಂಸಲಕೇ ಸುರೋಮಭಿರಾಕೋಮಲೈರ್ವಕ್ರಶಿಖೈಃ ಸುಸಂವೃತೇ ॥೮॥",
+      "kannada_meaning": "ನಂತರ ಕೆಂಪು ಕಾಂತಿಯಿಂದ ಕೂಡಿದ, ಮಾಂಸಲವಾದ, ಅತ್ಯಂತ ಕೋಮಲವಾದ ಆ ಶ್ರೇಷ್ಠ ಎರಡು ಜಂಘೆಗಳನ್ನು ಧ್ಯಾನಿಸುತ್ತೇನೆ. ಅವನ ಮಾಂಸಲವಾದ ಎರಡು ಮೊಣಕಾಲುಗಳು ಕೋಮಲವಾದ, ಬಾಗಿದ ತುದಿಗಳಿರುವ ಸುಂದರ ರೋಮಗಳಿಂದ ಚೆನ್ನಾಗಿ ಆವೃತವಾಗಿವೆ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-8",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Two calves/shanks (jaṅghe) and two knees (jānunī) are described separately. Keep red brilliance, fleshy softness and soft curved-tipped hairs; do not translate the calves as thighs."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v009",
+      "verse": 9,
+      "sequence_position": 9,
+      "printed_verse_label": 9,
+      "sanskrit_devanagari": "ऊरू सुमांसेन समावृतौ परौ रंभासमानौ सुविराजितौ तथा । रक्तौ हृदा चिंतनमात्रभावतो भक्तिप्रदौ विघ्नहरस्य चिंतये ॥९॥",
+      "sanskrit_kannada_script": "ಊರೂ ಸುಮಾಂಸೇನ ಸಮಾವೃತೌ ಪರೌ ರಂಭಾಸಮಾನೌ ಸುವಿರಾಜಿತೌ ತಥಾ । ರಕ್ತೌ ಹೃದಾ ಚಿಂತನಮಾತ್ರಭಾವತೋ ಭಕ್ತಿಪ್ರದೌ ವಿಘ್ನಹರಸ್ಯ ಚಿಂತಯೇ ॥೯॥",
+      "kannada_meaning": "ಚೆನ್ನಾಗಿ ಮಾಂಸದಿಂದ ಆವೃತವಾದ, ಬಾಳೆಯಂತಿರುವ, ಸುಶೋಭಿತವಾದ, ಕೆಂಪಾದ ಆ ಶ್ರೇಷ್ಠ ಎರಡು ತೊಡೆಗಳನ್ನು ಮನಸ್ಸಿನಲ್ಲಿ ಚಿಂತಿಸುತ್ತೇನೆ. ಹೃದಯದಲ್ಲಿ ಚಿಂತಿಸಿದ ಮಾತ್ರಕ್ಕೆ ಭಕ್ತಿಯನ್ನು ನೀಡುವ ಅವು ವಿಘ್ನಹರನ ತೊಡೆಗಳಾಗಿವೆ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-9",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Two fleshy red thighs are compared with plantain stems (rambhā). Contemplation bestows devotion. No celestial Rambha or additional woman is introduced."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v010",
+      "verse": 10,
+      "sequence_position": 10,
+      "printed_verse_label": 10,
+      "sanskrit_devanagari": "कटिं सदा मांसलरक्तरंजितां सुवर्तुलां मध्यमभागसंश्रिताम् । गणेश्वरस्यैव तु चिंतयाम्यहं सदा सुखानंदकरस्य नित्यदा ॥१०॥",
+      "sanskrit_kannada_script": "ಕಟಿಂ ಸದಾ ಮಾಂಸಲರಕ್ತರಂಜಿತಾಂ ಸುವರ್ತುಲಾಂ ಮಧ್ಯಮಭಾಗಸಂಶ್ರಿತಾಮ್ । ಗಣೇಶ್ವರಸ್ಯೈವ ತು ಚಿಂತಯಾಮ್ಯಹಂ ಸದಾ ಸುಖಾನಂದಕರಸ್ಯ ನಿತ್ಯದಾ ॥೧೦॥",
+      "kannada_meaning": "ಸದಾ ಸುಖಾನಂದವನ್ನುಂಟುಮಾಡುವ ಗಣೇಶ್ವರನ ಮಾಂಸಲವಾದ, ಕೆಂಪಾಗಿ ರಂಜಿತವಾದ, ಸುಂದರವಾಗಿ ದುಂಡಾದ, ದೇಹದ ಮಧ್ಯಭಾಗದಲ್ಲಿ ನೆಲೆಸಿರುವ ಸೊಂಟವನ್ನು ನಾನು ಸದಾ ಚಿಂತಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "P674-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The word printed after 'चिंतयाम्यहं सदा सुखानंदकरस्य नित्यदा ॥१०॥' is 'वस्नं' (or 'बस्नं' / 'वस्त्रं' / 'बस्तिं'); the conjunct ligature is slightly ambiguous in print ('वस्नं'). Note also that verse 10 has three padas before ॥१०॥ and verse 11 has five padas before ॥११॥ in the printed layout."
+        },
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-10",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed 10 is a complete waist stanza. The inherited API claim of an abnormal three-pada verse is not supported by the visible four-pada text. The following garment word belongs to printed 11; the inherited flag remains preserved rather than silently cleared."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v011",
+      "verse": 11,
+      "sequence_position": 11,
+      "printed_verse_label": 11,
+      "sanskrit_devanagari": "वस्त्रं सुरक्तं हृदि चिंतयाम्यहमनंतमौल्यं कटिभागसंस्थितम् । नाभिं सुवृत्तां परमश्रिया युतां शेषस्य संवासकरीं तु चिंतये ॥११॥",
+      "sanskrit_kannada_script": "ವಸ್ತ್ರಂ ಸುರಕ್ತಂ ಹೃದಿ ಚಿಂತಯಾಮ್ಯಹಮನಂತಮೌಲ್ಯಂ ಕಟಿಭಾಗಸಂಸ್ಥಿತಮ್ । ನಾಭಿಂ ಸುವೃತ್ತಾಂ ಪರಮಶ್ರಿಯಾ ಯುತಾಂ ಶೇಷಸ್ಯ ಸಂವಾಸಕರೀಂ ತು ಚಿಂತಯೇ ॥೧೧॥",
+      "kannada_meaning": "ಅಮೂಲ್ಯವಾದ, ಸೊಂಟದ ಭಾಗದಲ್ಲಿರುವ ಸುಂದರ ಕೆಂಪು ವಸ್ತ್ರವನ್ನು ನಾನು ಹೃದಯದಲ್ಲಿ ಧ್ಯಾನಿಸುತ್ತೇನೆ. ಅತ್ಯಂತ ಶೋಭೆಯಿಂದ ಕೂಡಿದ, ಶೇಷನಿಗೆ ವಾಸಸ್ಥಾನವಾಗಿರುವ ಸುಂದರ ದುಂಡಾದ ನಾಭಿಯನ್ನು ಧ್ಯಾನಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "P674-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The word printed after 'चिंतयाम्यहं सदा सुखानंदकरस्य नित्यदा ॥१०॥' is 'वस्नं' (or 'बस्नं' / 'वस्त्रं' / 'बस्तिं'); the conjunct ligature is slightly ambiguous in print ('वस्नं'). Note also that verse 10 has three padas before ॥१०॥ and verse 11 has five padas before ॥११॥ in the printed layout."
+        },
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-11",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Extraction is composite: “वस्नं सुरक्तं हृदि” comes from printed 11, while “मांसलभावसंयुतं ... परम्” belongs to printed 12. Printed 11’s middle/tail is omitted here; printed 12 lacks its opening महोदरं. No single Kannada paragraph can be accepted against this mixed source. The raw Kannada additionally changes Shesha’s abode into the whole universe and misidentifies mahodara as the lower abdomen. Use the separately recorded scan-derived printed 11 and 12 repair proposals; keep the original entry untouched."
+        },
+        {
+          "id": "AUD44-SEGMENTATION-11-12",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "REF-COMP-5-44-11",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v012",
+      "verse": 12,
+      "sequence_position": 12,
+      "printed_verse_label": 12,
+      "sanskrit_devanagari": "महोदरं मांसलभावसंयुतं सुरोमयुक्तं प्रभया विराजितम् । विचिंतयेऽहं सकलप्रकाशकं त्रयीप्रमूलं परमव्ययं परम् ॥१२॥",
+      "sanskrit_kannada_script": "ಮಹೋದರಂ ಮಾಂಸಲಭಾವಸಂಯುತಂ ಸುರೋಮಯುಕ್ತಂ ಪ್ರಭಯಾ ವಿರಾಜಿತಮ್ । ವಿಚಿಂತಯೇಽಹಂ ಸಕಲಪ್ರಕಾಶಕಂ ತ್ರಯೀಪ್ರಮೂಲಂ ಪರಮವ್ಯಯಂ ಪರಮ್ ॥೧೨॥",
+      "kannada_meaning": "ಮಾಂಸಲತೆಯಿಂದ ಕೂಡಿದ, ಸುಂದರ ರೋಮಗಳಿಂದ ಯುಕ್ತವಾದ, ಕಾಂತಿಯಿಂದ ಶೋಭಿಸುವ ಮಹೋದರವನ್ನು ನಾನು ಧ್ಯಾನಿಸುತ್ತೇನೆ. ಅದು ಎಲ್ಲವನ್ನೂ ಪ್ರಕಾಶಪಡಿಸುವುದು, ತ್ರಯಿಯ ಮೂಲವಾದುದು, ಪರಮವಾದುದು ಮತ್ತು ಅವ್ಯಯವಾದುದು.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-12",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Extraction is composite: opening महोदरं belongs to printed 12, while श्रीवक्रतुंडस्य ... परम् is printed 13. The scan’s printed 12 closes before श्रीवक्रतुंडस्य. Raw Kannada consequently merges belly and chest. Use separate printed 12 and 13 proposals, without silently renumbering this stable key."
+        },
+        {
+          "id": "AUD44-SEGMENTATION-11-12",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "REF-COMP-5-44-12",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v013",
+      "verse": 13,
+      "sequence_position": 13,
+      "printed_verse_label": 13,
+      "sanskrit_devanagari": "श्रीवक्रतुंडस्य विशालरूपकं वक्षस्तथा रक्तमयं सुमांसलम् । स्तनं स्तनाभ्यां हृदयं तु चिंतये चिंतामणिं तत्र सुखप्रदं परम् ॥१३॥",
+      "sanskrit_kannada_script": "ಶ್ರೀವಕ್ರತುಂಡಸ್ಯ ವಿಶಾಲರೂಪಕಂ ವಕ್ಷಸ್ತಥಾ ರಕ್ತಮಯಂ ಸುಮಾಂಸಲಮ್ । ಸ್ತನಂ ಸ್ತನಾಭ್ಯಾಂ ಹೃದಯಂ ತು ಚಿಂತಯೇ ಚಿಂತಾಮಣಿಂ ತತ್ರ ಸುಖಪ್ರದಂ ಪರಮ್ ॥೧೩॥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: CH44-SCAN-RAW-NUMBERING-ALIGNMENT, REVIEW-5-44-13 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧೩॥",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-13",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The neck/shoulders stanza is printed 14, not 13. Three neck lines and red radiance are preserved; the two shoulders resemble a bull’s. Kannada meaning is otherwise aligned."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v014",
+      "verse": 14,
+      "sequence_position": 14,
+      "printed_verse_label": 14,
+      "sanskrit_devanagari": "कंठं त्रिरेखायुतमेव मांसलं रक्तं गणेशस्य च तेजसा युतम् । स्कंधौ वृषस्कंधसमौ सुकोमलौ ध्यायामि चित्ते सततं सुरक्तकौ ॥१४॥",
+      "sanskrit_kannada_script": "ಕಂಠಂ ತ್ರಿರೇಖಾಯುತಮೇವ ಮಾಂಸಲಂ ರಕ್ತಂ ಗಣೇಶಸ್ಯ ಚ ತೇಜಸಾ ಯುತಮ್ । ಸ್ಕಂಧೌ ವೃಷಸ್ಕಂಧಸಮೌ ಸುಕೋಮಲೌ ಧ್ಯಾಯಾಮಿ ಚಿತ್ತೇ ಸತತಂ ಸುರಕ್ತಕೌ ॥೧೪॥",
+      "kannada_meaning": "ಮೂರು ರೇಖೆಗಳಿಂದ ಕೂಡಿದ, ಮಾಂಸಲವಾದ, ಕೆಂಪಾದ ಹಾಗೂ ತೇಜಸ್ಸಿನಿಂದ ಯುಕ್ತವಾದ ಗಣೇಶನ ಕಂಠವನ್ನೂ, ಎತ್ತಿನ ಭುಜಗಳಿಗೆ ಸಮಾನವಾದ, ಅತ್ಯಂತ ಕೋಮಲವಾದ ಹಾಗೂ ಸುಂದರ ಕೆಂಪು ಬಣ್ಣದ ಅವನ ಎರಡು ಭುಜಗಳನ್ನೂ ನಾನು ಚಿತ್ತದಲ್ಲಿ ಸದಾ ಧ್ಯಾನಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-14",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "This arm/hand stanza is printed 15. The scan and reference support मनोऽतिसौख्यदौ rather than raw मनोजतिसौख्यदौ. Preserve two left and two right hands as the plural/dual wording indicates; the raw Kannada under-specifies the pairs."
+        },
+        {
+          "id": "REVIEW-SOURCE-5-44-14",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "REF-COMP-5-44-14",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v015",
+      "verse": 15,
+      "sequence_position": 15,
+      "printed_verse_label": 15,
+      "sanskrit_devanagari": "बाहू सदा मांसलकौ प्रभासितौ स्वानंदनाथस्य मनोऽतिसौख्यदौ । हस्तौ तथा रक्तसुतेजसा युतौ वामौ हृदा दक्षिणकौ तु चिंतये ॥१५॥",
+      "sanskrit_kannada_script": "ಬಾಹೂ ಸದಾ ಮಾಂಸಲಕೌ ಪ್ರಭಾಸಿತೌ ಸ್ವಾನಂದನಾಥಸ್ಯ ಮನೋಽತಿಸೌಖ್ಯದೌ । ಹಸ್ತೌ ತಥಾ ರಕ್ತಸುತೇಜಸಾ ಯುತೌ ವಾಮೌ ಹೃದಾ ದಕ್ಷಿಣಕೌ ತು ಚಿಂತಯೇ ॥೧೫॥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: CH44-SCAN-RAW-NUMBERING-ALIGNMENT, REVIEW-5-44-15, REVIEW-SOURCE-5-44-15 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧೫॥",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-15",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The finger stanza is printed 16. Twenty fingers are explicit, cohering with four hands. Scan has plural विंशतिकाः, not raw विंशतिकां; preserve the raw spelling and record the plural as a correction proposal. Rounded shape, red nails, radiance, ornaments and protection of devotees are retained."
+        },
+        {
+          "id": "REVIEW-SOURCE-5-44-15",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v016",
+      "verse": 16,
+      "sequence_position": 16,
+      "printed_verse_label": 16,
+      "sanskrit_devanagari": "करांगुलीर्विंशतिकाः सुवर्तुला नखैः सुरक्तैश्च सुतेजसा युताः । गणेश्वरस्यैव हृदि प्रचिंतये स्वभक्तरक्षांकरिकाः सुभूषिताः ॥१६॥",
+      "sanskrit_kannada_script": "ಕರಾಂಗುಲೀರ್ವಿಂಶತಿಕಾಃ ಸುವರ್ತುಲಾ ನಖೈಃ ಸುರಕ್ತೈಶ್ಚ ಸುತೇಜಸಾ ಯುತಾಃ । ಗಣೇಶ್ವರಸ್ಯೈವ ಹೃದಿ ಪ್ರಚಿಂತಯೇ ಸ್ವಭಕ್ತರಕ್ಷಾಂಕರಿಕಾಃ ಸುಭೂಷಿತಾಃ ॥೧೬॥",
+      "kannada_meaning": "ಸುಂದರ ದುಂಡಾದ, ಕೆಂಪಾದ ಉಗುರುಗಳಿಂದಲೂ ಉತ್ತಮ ತೇಜಸ್ಸಿನಿಂದಲೂ ಕೂಡಿದ, ಚೆನ್ನಾಗಿ ಅಲಂಕರಿಸಲ್ಪಟ್ಟ ಹಾಗೂ ತನ್ನ ಭಕ್ತರನ್ನು ರಕ್ಷಿಸುವ ಗಣೇಶ್ವರನ ಇಪ್ಪತ್ತು ಕೈಬೆರಳುಗಳನ್ನು ನಾನು ಹೃದಯದಲ್ಲಿ ಧ್ಯಾನಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-16",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The face stanza is printed 17. Preserve trunk, three eyes, the sharp single tusk, and happiness bestowed on devotees through love. No mantra is supplied."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v017",
+      "verse": 17,
+      "sequence_position": 17,
+      "printed_verse_label": 17,
+      "sanskrit_devanagari": "मुखं तु शुंडायुतमेव चिंतये त्रिनेत्रयुक्तं परमप्रकाशकम् । सदैकदंतस्य च तीक्ष्णदंतकं स्वभक्तकान् प्रेमरसेन सौख्यदम् ॥१७॥",
+      "sanskrit_kannada_script": "ಮುಖಂ ತು ಶುಂಡಾಯುತಮೇವ ಚಿಂತಯೇ ತ್ರಿನೇತ್ರಯುಕ್ತಂ ಪರಮಪ್ರಕಾಶಕಮ್ । ಸದೈಕದಂತಸ್ಯ ಚ ತೀಕ್ಷ್ಣದಂತಕಂ ಸ್ವಭಕ್ತಕಾನ್ ಪ್ರೇಮರಸೇನ ಸೌಖ್ಯದಮ್ ॥೧೭॥",
+      "kannada_meaning": "ಸೊಂಡಿಲಿನಿಂದಲೂ ಮೂರು ಕಣ್ಣುಗಳಿಂದಲೂ ಕೂಡಿದ, ಅತ್ಯಂತ ಪ್ರಕಾಶಮಾನವಾದ, ತೀಕ್ಷ್ಣವಾದ ದಂತವನ್ನು ಹೊಂದಿರುವ ಏಕದಂತನ ಮುಖವನ್ನು ನಾನು ಸದಾ ಧ್ಯಾನಿಸುತ್ತೇನೆ. ಅದು ತನ್ನ ಭಕ್ತರಿಗೆ ಪ್ರೇಮರಸದಿಂದ ಸುಖವನ್ನು ನೀಡುವುದು.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-17",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The ears stanza is printed 18. Two large winnowing-basket-shaped mobile ears are Veda-formed. niṣkāma/sukāma is retained as desirelessness/auspicious desires, without inventing a separate fruit list."
+        },
+        {
+          "id": "REF-COMP-5-44-17",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v018",
+      "verse": 18,
+      "sequence_position": 18,
+      "printed_verse_label": 18,
+      "sanskrit_devanagari": "कर्णौ विशालौ हृदि चिंतये परौ भक्ताय निष्कामसुकामदौ तथा । शूर्पाकृती चंचलभावधारिणौ विघ्नेश्वरस्यैव च वेदरूपिणौ ॥१८॥",
+      "sanskrit_kannada_script": "ಕರ್ಣೌ ವಿಶಾಲೌ ಹೃದಿ ಚಿಂತಯೇ ಪರೌ ಭಕ್ತಾಯ ನಿಷ್ಕಾಮಸುಕಾಮದೌ ತಥಾ । ಶೂರ್ಪಾಕೃತೀ ಚಂಚಲಭಾವಧಾರಿಣೌ ವಿಘ್ನೇಶ್ವರಸ್ಯೈವ ಚ ವೇದರೂಪಿಣೌ ॥೧೮॥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: CH44-SCAN-RAW-NUMBERING-ALIGNMENT, REVIEW-5-44-18 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧೮॥",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-18",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The cheek stanza visibly closes with printed 19. Bee-formed sages surround the cheeks, humming and desiring brahma-mada fluid. It is not evidence of a missing printed verse 19; no alcohol or human intoxication is introduced."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v019",
+      "verse": 19,
+      "sequence_position": 19,
+      "printed_verse_label": 19,
+      "sanskrit_devanagari": "कपोलकौ षट्पदरूपधारिभिर्मुनीश्वरैर्ब्रह्ममदद्रवार्थिभिः । सुसंवृतौ नादयुतैर्निरंतरं गणेश्वरस्यैव हृदा विचिंतये ॥१९॥",
+      "sanskrit_kannada_script": "ಕಪೋಲಕೌ ಷಟ್ಪದರೂಪಧಾರಿಭಿರ್ಮುನೀಶ್ವರೈರ್ಬ್ರಹ್ಮಮದದ್ರವಾರ್ಥಿಭಿಃ । ಸುಸಂವೃತೌ ನಾದಯುತೈರ್ನಿರಂತರಂ ಗಣೇಶ್ವರಸ್ಯೈವ ಹೃದಾ ವಿಚಿಂತಯೇ ॥೧೯॥",
+      "kannada_meaning": "ಭ್ರಮರರೂಪವನ್ನು ಧರಿಸಿದ, ಬ್ರಹ್ಮಮದದ್ರವವನ್ನು ಬಯಸುವ, ನಿರಂತರವಾಗಿ ನಾದಮಾಡುವ ಮುನೀಶ್ವರರಿಂದ ಚೆನ್ನಾಗಿ ಸುತ್ತುವರಿಯಲ್ಪಟ್ಟ ಗಣೇಶ್ವರನ ಎರಡು ಕೆನ್ನೆಗಳನ್ನು ಹೃದಯದಲ್ಲಿ ಚಿಂತಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-MISSING-NUMBER19",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Source tail after18 continues across674/675 and closes20; no19label witnessed. Slot19contains nearby20context only, not invented verse19. Keep source/translation held pending independent source review."
+        },
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-19",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "This stable slot contains only printed 20’s page-675 continuation. It is byte-identical to the second source part of stable 20. Keep the stable key and its inherited hold, but exclude its text from the reading sequence to prevent duplication. It is not printed 19 and must not receive an invented standalone translation."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v020",
+      "verse": 20,
+      "sequence_position": 20,
+      "printed_verse_label": 20,
+      "sanskrit_devanagari": "भालं सुतेजोयुतमेव चिंतये श्रीढुंढिराजस्य निशाकरस्थलम् । रक्ताष्टगंधैश्च सुचित्रितं प्रभोर्बिंदुप्रयुक्तं त्वथ तंडुलैर्युतम् ॥२०॥",
+      "sanskrit_kannada_script": "ಭಾಲಂ ಸುತೇಜೋಯುತಮೇವ ಚಿಂತಯೇ ಶ್ರೀಢುಂಢಿರಾಜಸ್ಯ ನಿಶಾಕರಸ್ಥಲಮ್ । ರಕ್ತಾಷ್ಟಗಂಧೈಶ್ಚ ಸುಚಿತ್ರಿತಂ ಪ್ರಭೋರ್ಬಿಂದುಪ್ರಯುಕ್ತಂ ತ್ವಥ ತಂಡುಲೈರ್ಯುತಮ್ ॥೨೦॥",
+      "kannada_meaning": "ಚಂದ್ರನ ನೆಲೆಯಾಗಿರುವ, ಸುತೇಜಸ್ಸಿನಿಂದ ಕೂಡಿದ ಶ್ರೀಢುಂಢಿರಾಜನ ಹಣೆಯನ್ನು ಚಿಂತಿಸುತ್ತೇನೆ. ಪ್ರಭುವಿನ ಆ ಹಣೆಯು ಕೆಂಪಾದ ಅಷ್ಟಗಂಧಗಳಿಂದ ಸುಂದರವಾಗಿ ಚಿತ್ರಿತವಾಗಿ, ಬಿಂದುಚಿಹ್ನೆಯಿಂದಲೂ ಅಕ್ಕಿಕಾಳುಗಳಿಂದಲೂ ಕೂಡಿದೆ.",
+      "source_refs": [
+        {
+          "file": "page_0635.png",
+          "printed_page": 106,
+          "original_image_index": 635,
+          "sha256": "6ff10fae3537ada90f9e144bce31354cbaee073091285da8aa156d2aafc018e5",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        },
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-JOIN20",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Join original page fragments exactly once; no invented continuation."
+        },
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-20",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed 20 joins page 674 भालं...श्रीढुंढिराजस्य to page 675 निशाकरस्थलम्...॥२०॥ once. All qualifiers describe Dhundhiraja’s forehead, the moon’s abode; raw Kannada splits them into extra “places.” Bind the forehead, red eightfold fragrance, dot and rice-grain decoration together."
+        },
+        {
+          "id": "REF-COMP-5-44-20",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v021",
+      "verse": 21,
+      "sequence_position": 21,
+      "printed_verse_label": 21,
+      "sanskrit_devanagari": "केशैः समाच्छादितमस्तकं तथा सं\nचिंतये विघ्नविनाशकारिणः । ब्रह्मांडमूले प्रभुमस्तकाश्रिते कुंभस्थले ब्रह्मवरस्य सौख्यदे ॥२१॥",
+      "sanskrit_kannada_script": "ಕೇಶೈಃ ಸಮಾಚ್ಛಾದಿತಮಸ್ತಕಂ ತಥಾ ಸಂ\nಚಿಂತಯೇ ವಿಘ್ನವಿನಾಶಕಾರಿಣಃ । ಬ್ರಹ್ಮಾಂಡಮೂಲೇ ಪ್ರಭುಮಸ್ತಕಾಶ್ರಿತೇ ಕುಂಭಸ್ಥಲೇ ಬ್ರಹ್ಮವರಸ್ಯ ಸೌಖ್ಯದೇ ॥೨೧॥",
+      "kannada_meaning": "ಕೂದಲಿನಿಂದ ಆವೃತವಾದ ವಿಘ್ನವಿನಾಶಕನ ಮಸ್ತಕವನ್ನು ಚಿಂತಿಸುತ್ತೇನೆ. ಬ್ರಹ್ಮಾಂಡಗಳ ಮೂಲಗಳಾದ, ಪ್ರಭುವಿನ ಮಸ್ತಕದಲ್ಲಿರುವ, ಸುಖವನ್ನು ನೀಡುವ ಆ ಬ್ರಹ್ಮಶ್ರೇಷ್ಠನ ಎರಡು ಕುಂಭಸ್ಥಳಗಳನ್ನೂ ಚಿಂತಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-21",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The first object is the hair-covered head. ब्रह्मांडमूले, प्रभुमस्तकाश्रिते, कुंभस्थले, सौख्यदे are dual forms describing the two cranial/temple prominences, which are roots of the cosmos. Raw Kannada misreads these as singular locatives and loses the pair. Preserve both objects."
+        },
+        {
+          "id": "REF-COMP-5-44-21",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v022",
+      "verse": 22,
+      "sequence_position": 22,
+      "printed_verse_label": 22,
+      "sanskrit_devanagari": "गणेशदेहं परिचिंतयाम्यहं\nसुभूषणैर्भूषितकं विचित्रकैः । अनर्घमूल्यैश्च सुवस्त्रकैस्तथा सुशोभितं ब्रह्मवरस्य सर्वदा ॥२२॥",
+      "sanskrit_kannada_script": "ಗಣೇಶದೇಹಂ ಪರಿಚಿಂತಯಾಮ್ಯಹಂ\nಸುಭೂಷಣೈರ್ಭೂಷಿತಕಂ ವಿಚಿತ್ರಕೈಃ । ಅನರ್ಘಮೂಲ್ಯೈಶ್ಚ ಸುವಸ್ತ್ರಕೈಸ್ತಥಾ ಸುಶೋಭಿತಂ ಬ್ರಹ್ಮವರಸ್ಯ ಸರ್ವದಾ ॥೨೨॥",
+      "kannada_meaning": "ವಿಚಿತ್ರವಾದ ಸುಂದರ ಆಭರಣಗಳಿಂದ ಅಲಂಕರಿಸಲ್ಪಟ್ಟ, ಅಮೂಲ್ಯವಾದ ಸುಂದರ ವಸ್ತ್ರಗಳಿಂದ ಸುಶೋಭಿತವಾದ ಆ ಬ್ರಹ್ಮಶ್ರೇಷ್ಠನ ಗಣೇಶದೇಹವನ್ನು ನಾನು ಸದಾ ಚಿಂತಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-22",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "anarg(h)amūlya means priceless, not worthless. Replace the misleading ಬೆಲೆಯಿಲ್ಲದ while keeping varied ornaments and excellent garments."
+        },
+        {
+          "id": "REF-COMP-5-44-22",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v023",
+      "verse": 23,
+      "sequence_position": 23,
+      "printed_verse_label": 23,
+      "sanskrit_devanagari": "विचित्रगंधैः परिलेपितं\nतथा सुचित्रितं भक्तवरैः सुयोगिभिः । गणाधिपं साधु हृदि स्थितं सदा विचिंतयेऽहं निजभक्तिलालसम् ॥२३॥",
+      "sanskrit_kannada_script": "ವಿಚಿತ್ರಗಂಧೈಃ ಪರಿಲೇಪಿತಂ\nತಥಾ ಸುಚಿತ್ರಿತಂ ಭಕ್ತವರೈಃ ಸುಯೋಗಿಭಿಃ । ಗಣಾಧಿಪಂ ಸಾಧು ಹೃದಿ ಸ್ಥಿತಂ ಸದಾ ವಿಚಿಂತಯೇಽಹಂ ನಿಜಭಕ್ತಿಲಾಲಸಮ್ ॥೨೩॥",
+      "kannada_meaning": "ವಿವಿಧ ಗಂಧಗಳಿಂದ ಲೇಪಿಸಲ್ಪಟ್ಟ, ಶ್ರೇಷ್ಠ ಭಕ್ತರೂ ಸುಯೋಗಿಗಳೂ ಸುಂದರವಾಗಿ ಚಿತ್ರಿಸಿದ, ಹೃದಯದಲ್ಲಿ ಸದಾ ಚೆನ್ನಾಗಿ ನೆಲೆಸಿರುವ, ತನ್ನ ಭಕ್ತಿಗಾಗಿ ಲಾಲಸೆಯುಳ್ಳ ಗಣಾಧಿಪನನ್ನು ನಾನು ಚಿಂತಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-23",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "nijabhaktilālasa describes Ganadhipa’s longing for devotion to himself; raw “ತನ್ನ ಭಕ್ತಿಯಲ್ಲಿ ಆಸಕ್ತನಾದ” can incorrectly make him a devotee engaged in his own devotion. Preserve the devotees/yogins who anoint and decorate him."
+        },
+        {
+          "id": "REF-COMP-5-44-23",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v024",
+      "verse": 24,
+      "sequence_position": 24,
+      "printed_verse_label": 24,
+      "sanskrit_devanagari": "पाशांकुशाद्यैश्च सुसंस्तुतं परं ढुंढिं प्रमोदादिभिरेव नित्यदा । गणेश्वरं देववरैस्तथोंदुरुराजेन पूज्यं च सुचिंतये हृदि ॥२४॥",
+      "sanskrit_kannada_script": "ಪಾಶಾಂಕುಶಾದ್ಯೈಶ್ಚ ಸುಸಂಸ್ತುತಂ ಪರಂ ಢುಂಢಿಂ ಪ್ರಮೋದಾದಿಭಿರೇವ ನಿತ್ಯದಾ । ಗಣೇಶ್ವರಂ ದೇವವರೈಸ್ತಥೋಂದುರುರಾಜೇನ ಪೂಜ್ಯಂ ಚ ಸುಚಿಂತಯೇ ಹೃದಿ ॥೨೪॥",
+      "kannada_meaning": "ಪಾಶ, ಅಂಕುಶ ಮೊದಲಾದವುಗಳಿಂದಲೂ ಪ್ರಮೋದಾದಿಗಳಿಂದಲೂ ನಿತ್ಯವೂ ಚೆನ್ನಾಗಿ ಸ್ತುತಿಸಲ್ಪಡುವ, ಶ್ರೇಷ್ಠ ದೇವತೆಗಳಿಂದಲೂ ಮೂಷಕರಾಜನಿಂದಲೂ ಪೂಜಿಸಲ್ಪಡುವ ಪರಮ ಢುಂಢಿ ಗಣೇಶ್ವರನನ್ನು ಹೃದಯದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಚಿಂತಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-24",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Pasha/Ankusha and Pramoda are named in praise; gods and the mouse-king worship. Treat the passage’s personification literally, without silently changing “praised” to “armed with” or changing undururāja to another mount."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v025",
+      "verse": 25,
+      "sequence_position": 25,
+      "printed_verse_label": 25,
+      "sanskrit_devanagari": "वेदैः पुराणैः स्मृतिभिश्च शास्त्रकैः स्तोत्रैः स्तुतं देहधरैर्विचिंतये । ब्रह्मप्रियाद्यैश्च गणैरसंख्यकैर्भक्त्या तथा मुद्गलमुख्यकैः\nपरम् ॥२५॥",
+      "sanskrit_kannada_script": "ವೇದೈಃ ಪುರಾಣೈಃ ಸ್ಮೃತಿಭಿಶ್ಚ ಶಾಸ್ತ್ರಕೈಃ ಸ್ತೋತ್ರೈಃ ಸ್ತುತಂ ದೇಹಧರೈರ್ವಿಚಿಂತಯೇ । ಬ್ರಹ್ಮಪ್ರಿಯಾದ್ಯೈಶ್ಚ ಗಣೈರಸಂಖ್ಯಕೈರ್ಭಕ್ತ್ಯಾ ತಥಾ ಮುದ್ಗಲಮುಖ್ಯಕೈಃ\nಪರಮ್ ॥೨೫॥",
+      "kannada_meaning": "ದೇಹಧಾರಿಗಳಾದ ವೇದಗಳು, ಪುರಾಣಗಳು, ಸ್ಮೃತಿಗಳು, ಶಾಸ್ತ್ರಗಳು ಮತ್ತು ಸ್ತೋತ್ರಗಳಿಂದಲೂ, ಬ್ರಹ್ಮಪ್ರಿಯಾದಿ ಅಸಂಖ್ಯ ಗಣಗಳಿಂದಲೂ, ಮುದ್ಗಲನೇ ಮೊದಲಾದವರಿಂದಲೂ ಭಕ್ತಿಪೂರ್ವಕವಾಗಿ ಸ್ತುತಿಸಲ್ಪಡುವ ಆ ಪರಮನನ್ನು ಚಿಂತಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-25",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "देहधरैः agrees with Vedas, Puranas, Smritis, Shastras and hymns, described as embodied/personalized praisers. Raw Kannada reverses this to unnamed people praising with scripture. Brahmapriya’s innumerable ganas and Mudgala-led devotees must remain distinct groups."
+        },
+        {
+          "id": "REF-COMP-5-44-25",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v026",
+      "verse": 26,
+      "sequence_position": 26,
+      "printed_verse_label": 26,
+      "sanskrit_devanagari": "सर्वांगसंशोभनरूपयुक्तया सिद्ध्या गणेशं परिचिंतये हृदि । संसेवितं वामगया सुशक्तिभिः सिद्ध्यादिभिः\nसंवृतया स्वमायया ॥२६॥",
+      "sanskrit_kannada_script": "ಸರ್ವಾಂಗಸಂಶೋಭನರೂಪಯುಕ್ತಯಾ ಸಿದ್ಧ್ಯಾ ಗಣೇಶಂ ಪರಿಚಿಂತಯೇ ಹೃದಿ । ಸಂಸೇವಿತಂ ವಾಮಗಯಾ ಸುಶಕ್ತಿಭಿಃ ಸಿದ್ಧ್ಯಾದಿಭಿಃ\nಸಂವೃತಯಾ ಸ್ವಮಾಯಯಾ ॥೨೬॥",
+      "kannada_meaning": "ತನ್ನ ಮಾಯೆಯಾದ ಸಿದ್ಧಿಯಿಂದ ಸೇವಿಸಲ್ಪಡುವ ಗಣೇಶನನ್ನು ಹೃದಯದಲ್ಲಿ ಧ್ಯಾನಿಸುತ್ತೇನೆ. ಸರ್ವಾಂಗಗಳಲ್ಲಿಯೂ ಶೋಭಿಸುವ ರೂಪವುಳ್ಳ ಆ ಸಿದ್ಧಿಯು ಅವನ ಎಡಭಾಗದಲ್ಲಿದ್ದು, ಸಿದ್ಧಿ ಮೊದಲಾದ ಉತ್ತಮ ಶಕ್ತಿಗಳಿಂದ ಸುತ್ತುವರಿಯಲ್ಪಟ್ಟಿದ್ದಾಳೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-26",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Siddhi, Ganesh’s own maya, serves on his left, surrounded by Siddhi and other powers. Keep the named consort and the attendant powers distinct; no left/right swap."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v027",
+      "verse": 27,
+      "sequence_position": 27,
+      "printed_verse_label": 27,
+      "sanskrit_devanagari": "बुद्ध्या कलाभिश्च सुसेवितं तथा विद्याभिराराद्गणनायकं हृदि । सर्वांगसंशोभनया स्वमायया\nसंचिंतये दक्षिणभागभूषया ॥२७॥",
+      "sanskrit_kannada_script": "ಬುದ್ಧ್ಯಾ ಕಲಾಭಿಶ್ಚ ಸುಸೇವಿತಂ ತಥಾ ವಿದ್ಯಾಭಿರಾರಾದ್ಗಣನಾಯಕಂ ಹೃದಿ । ಸರ್ವಾಂಗಸಂಶೋಭನಯಾ ಸ್ವಮಾಯಯಾ\nಸಂಚಿಂತಯೇ ದಕ್ಷಿಣಭಾಗಭೂಷಯಾ ॥೨೭॥",
+      "kannada_meaning": "ಹಾಗೆಯೇ ತನ್ನ ಮಾಯೆಯಾದ ಬುದ್ಧಿಯಿಂದಲೂ, ಕಲೆಗಳಿಂದಲೂ, ಸಮೀಪದಲ್ಲಿರುವ ವಿದ್ಯೆಗಳಿಂದಲೂ ಚೆನ್ನಾಗಿ ಸೇವಿಸಲ್ಪಡುವ ಗಣನಾಯಕನನ್ನು ಹೃದಯದಲ್ಲಿ ಧ್ಯಾನಿಸುತ್ತೇನೆ. ಆ ಬುದ್ಧಿಯು ಸರ್ವಾಂಗಗಳಲ್ಲಿಯೂ ಶೋಭಿಸುತ್ತಾ ಅವನ ಬಲಭಾಗದ ಅಲಂಕಾರವಾಗಿದ್ದಾಳೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-27",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Buddhi, his own maya adorning the right side, together with arts and branches of knowledge serves Gananayaka. Preserve the right side and do not interchange Buddhi with Siddhi."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v028",
+      "verse": 28,
+      "sequence_position": 28,
+      "printed_verse_label": 28,
+      "sanskrit_devanagari": "लक्षेण लाभेन च विघ्ननायकं संसेवितं शोभनशोभनेन तु । संचिंतये पुत्रवरेण\nसर्वदा ब्रह्मेश्वरं भक्तजनैः स्वधामगैः ॥२८॥",
+      "sanskrit_kannada_script": "ಲಕ್ಷೇಣ ಲಾಭೇನ ಚ ವಿಘ್ನನಾಯಕಂ ಸಂಸೇವಿತಂ ಶೋಭನಶೋಭನೇನ ತು ೤ ಸಂಚಿಂತಯೇ ಪುತ್ರವರೇಣ\nಸರ್ವದಾ ಬ್ರಹ್ಮೇಶ್ವರಂ ಭಕ್ತಜನೈಃ ಸ್ವಧಾಮಗೈಃ ೥೨೮೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: CH44-SCAN-RAW-NUMBERING-ALIGNMENT, REVIEW-5-44-28 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೨೮॥",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-28",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Names are Laksha and Labha, not silently standardized to Shubha-Labha. svadhāmagaiḥ is devotees who have reached his abode, not their own separate abodes. The singular पुत्रवरेण alongside two names is a source syntax wrinkle; no emendation is accepted."
+        },
+        {
+          "id": "REF-COMP-5-44-28",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v029",
+      "verse": 29,
+      "sequence_position": 29,
+      "printed_verse_label": 29,
+      "sanskrit_devanagari": "अनंतमंत्रैः कथितं स्वरूपकं विचिंतये वक्तुमशक्यभावतः । हृदि स्थितं\nध्यानसुलोलुपं परं गणेश्वरं ब्रह्ममयागधारिणम् ॥२९॥",
+      "sanskrit_kannada_script": "ಅನಂತಮಂತ್ರೈಃ ಕಥಿತಂ ಸ್ವರೂಪಕಂ ವಿಚಿಂತಯೇ ವಕ್ತುಮಶಕ್ಯಭಾವತಃ ೤ ಹೃದಿ ಸ್ಥಿತಂ\nಧ್ಯಾನಸುಲೋಲುಪಂ ಪರಂ ಗಣೇಶ್ವರಂ ಬ್ರಹ್ಮಮಯಾಗಧಾರಿಣಮ್ ೥೨೯೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: CH44-SCAN-RAW-NUMBERING-ALIGNMENT, REVIEW-5-44-29, REVIEW-SOURCE-5-44-29, AUD44-GLYPH-29 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೨೯॥",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-29",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw ब्रह्ममयागधारिणम् and the visible small-font glyphs do not securely establish the intended compound. The Kannada “tree (support)” is unsupported and must be removed. ब्रह्ममयाङ्गधारिणम् is a plausible correction, but is not accepted here; retain the opaque epithet in a marked provisional translation and hold the source. Also distinguish an indescribable form spoken of by endless mantras from an invented mantra text."
+        },
+        {
+          "id": "REVIEW-SOURCE-5-44-29",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "AUD44-GLYPH-29",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "REF-COMP-5-44-29",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v030",
+      "verse": 30,
+      "sequence_position": 30,
+      "printed_verse_label": 30,
+      "sanskrit_devanagari": "मुद्गल उवाच । एवमैलः स राजर्षिर्गणेशभजने रतः । ध्यानं कृत्वा\nसदाऽतिष्ठद्गणेशस्य निवृत्तितः ॥३०॥",
+      "sanskrit_kannada_script": "ಮುದ್ಗಲ ಉವಾಚ । ಏವಮೈಲಃ ಸ ರಾಜರ್ಷಿರ್ಗಣೇಶಭಜನೇ ರತಃ । ಧ್ಯಾನಂ ಕೃತ್ವಾ\nಸದಾಽತಿಷ್ಠದ್ಗಣೇಶಸ್ಯ ನಿವೃತ್ತಿತಃ ॥೩೦॥",
+      "kannada_meaning": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಹೀಗೆ ಆ ರಾಜರ್ಷಿಯಾದ ಐಲನು ಗಣೇಶಭಜನೆಯಲ್ಲಿ ನಿರತನಾಗಿ, ಗಣೇಶನ ಧ್ಯಾನವನ್ನು ಮಾಡಿ, ನಿವೃತ್ತಿಯಿಂದ ಸದಾ ನೆಲೆಸಿದ್ದನು.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-30",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Mudgala’s narration resumes after Aila’s first-person meditation. Aila remains engaged in Ganesh worship and meditation, withdrawn from worldly activity; no added doctrinal account of a special liberation stage is necessary."
+        },
+        {
+          "id": "REF-COMP-5-44-30",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v031",
+      "verse": 31,
+      "sequence_position": 31,
+      "printed_verse_label": 31,
+      "sanskrit_devanagari": "प्रातः काले समुत्थाय सस्त्रीकः स महीपतिः । धर्मयुक्तं चकाराऽपि नित्यं कर्म\nनिरंतरम् ॥३१॥",
+      "sanskrit_kannada_script": "ಪ್ರಾತಃ ಕಾಲೇ ಸಮುತ್ಥಾಯ ಸಸ್ತ್ರೀಕಃ ಸ ಮಹೀಪತಿಃ । ಧರ್ಮಯುಕ್ತಂ ಚಕಾರಾಽಪಿ ನಿತ್ಯಂ ಕರ್ಮ\nನಿರಂತರಮ್ ॥೩೧॥",
+      "kannada_meaning": "ಆ ರಾಜನು ಬೆಳಗಿನ ಜಾವ ಎದ್ದು, ತನ್ನ ಪತ್ನಿಯೊಂದಿಗೆ ಧರ್ಮಾನುಸಾರವಾದ ನಿತ್ಯಕರ್ಮವನ್ನು ನಿರಂತರವಾಗಿ ಆಚರಿಸಿದನು.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-31",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The king rises in the morning and performs daily righteous duties with his wife. Keep the wife and the repeated/daily aspect; no wife’s name is given."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v032",
+      "verse": 32,
+      "sequence_position": 32,
+      "printed_verse_label": 32,
+      "sanskrit_devanagari": "ततो गणेश्वरं भक्त्याऽपूजयद्भक्तिसंयुतः । यथा गार्ग्येण भो दक्ष शिक्षितः स तथाऽकरोत् ॥३२॥",
+      "sanskrit_kannada_script": "ತತೋ ಗಣೇಶ್ವರಂ ಭಕ್ತ್ಯಾಽಪೂಜಯದ್ಭಕ್ತಿಸಂಯುತಃ । ಯಥಾ ಗಾರ್ಗ್ಯೇಣ ಭೋ ದಕ್ಷ ಶಿಕ್ಷಿತಃ ಸ ತಥಾಽಕರೋತ್ ॥೩೨॥",
+      "kannada_meaning": "ಅನಂತರ ಅವನು ಭಕ್ತಿಯಿಂದ ಗಣೇಶ್ವರನನ್ನು ಪೂಜಿಸಿದನು. ದಕ್ಷನೇ, ಗಾರ್ಗ್ಯನು ಅವನಿಗೆ ಹೇಗೆ ಉಪದೇಶಿಸಿದ್ದನೋ, ಅವನು ಹಾಗೆಯೇ ಮಾಡಿದನು.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-32",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Mudgala addresses Daksha; Aila worships Ganesh according to Gargya’s instruction. Preserve the teacher’s name and subject continuity."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v033",
+      "verse": 33,
+      "sequence_position": 33,
+      "printed_verse_label": 33,
+      "sanskrit_devanagari": "शमीमंदारदूर्वाश्चापूजयद्भक्तिसंयुतः । प्रार्थ्य पत्रांकुरं च स पुष्पं चैवाऽऽचिनोन्नृपः ॥३३॥",
+      "sanskrit_kannada_script": "ಶಮೀಮಂದಾರದೂರ್ವಾಶ್ಚಾಪೂಜಯದ್ಭಕ್ತಿಸಂಯುತಃ । ಪ್ರಾರ್ಥ್ಯ ಪತ್ರಾಂಕುರಂ ಚ ಸ ಪುಷ್ಪಂ ಚೈವಾಽಽಚಿನೋನ್ನೃಪಃ ॥೩೩॥",
+      "kannada_meaning": "ಆ ರಾಜನು ಭಕ್ತಿಯಿಂದ ಶಮಿ, ಮಂದಾರ ಮತ್ತು ದೂರ್ವೆಗಳನ್ನು ಪೂಜಿಸಿದನು. ಪ್ರಾರ್ಥನೆ ಮಾಡಿ, ಎಲೆ, ಮೊಳಕೆ ಮತ್ತು ಹೂವನ್ನು ಕಿತ್ತುಕೊಂಡನು.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-33",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The king worships Shami, Mandara and Durva, prays, then gathers leaves, shoots and flowers. Do not collapse the initial worship/prayer into the later gathering."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v034",
+      "verse": 34,
+      "sequence_position": 34,
+      "printed_verse_label": 34,
+      "sanskrit_devanagari": "दक्ष उवाच । शमीमंदारदूर्वाणां\nपूजनं वद मुद्गल । सिद्धेर्बुद्धेश्च विप्रेंद्र सुतयोर्लक्षलाभयोः ॥३४॥",
+      "sanskrit_kannada_script": "ದಕ್ಷ ಉವಾಚ । ಶಮೀಮಂದಾರದೂರ್ವಾಣಾಂ\nಪೂಜನಂ ವದ ಮುದ್ಗಲ । ಸಿದ್ಧೇರ್ಬುದ್ಧೇಶ್ಚ ವಿಪ್ರೇಂದ್ರ ಸುತಯೋರ್ಲಕ್ಷಲಾಭಯೋಃ ॥೩೪॥",
+      "kannada_meaning": "ದಕ್ಷನು ಹೇಳಿದನು: ಮುದ್ಗಲನೇ, ವಿಪ್ರಶ್ರೇಷ್ಠನೇ, ಶಮಿ, ಮಂದಾರ ಮತ್ತು ದೂರ್ವೆಗಳ ಪೂಜೆಯನ್ನೂ, ಸಿದ್ಧಿ ಮತ್ತು ಬುದ್ಧಿಯ ಪೂಜೆಯನ್ನೂ, ಲಕ್ಷ ಮತ್ತು ಲಾಭ ಎಂಬ ಇಬ್ಬರು ಪುತ್ರರ ಪೂಜೆಯನ್ನೂ ಹೇಳು.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-34",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Daksha asks for worship of the three plants, Siddhi/Buddhi, and the sons Laksha/Labha. The source calls them sons but does not say “their sons” in this stanza; avoid adding parentage as if explicit."
+        },
+        {
+          "id": "REF-COMP-5-44-34",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v035",
+      "verse": 35,
+      "sequence_position": 35,
+      "printed_verse_label": 35,
+      "sanskrit_devanagari": "शमीमंदारदूर्वाणां प्रार्थना कीदृशी भवेत् । तां कृत्वा\nपुष्पपत्रादींश्चिनोम्यहं त्वदाज्ञया ॥३५॥",
+      "sanskrit_kannada_script": "ಶಮೀಮಂದಾರದೂರ್ವಾಣಾಂ ಪ್ರಾರ್ಥನಾ ಕೀದೃಶೀ ಭವೇತ್ । ತಾಂ ಕೃತ್ವಾ\nಪುಷ್ಪಪತ್ರಾದೀಂಶ್ಚಿನೋಮ್ಯಹಂ ತ್ವದಾಜ್ಞಯಾ ॥೩೫॥",
+      "kannada_meaning": "ಶಮಿ, ಮಂದಾರ ಮತ್ತು ದೂರ್ವೆಗಳ ಪ್ರಾರ್ಥನೆ ಹೇಗಿರಬೇಕು? ಅದನ್ನು ಮಾಡಿ, ನಿನ್ನ ಆಜ್ಞೆಯಂತೆ ನಾನು ಹೂವು, ಎಲೆ ಮೊದಲಾದವುಗಳನ್ನು ಕಿತ್ತುಕೊಳ್ಳುವೆನು.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-35",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Daksha asks what prayer to use before gathering flowers and leaves under Mudgala’s instruction. This is a question followed by intended action, not a newly supplied formula."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v036",
+      "verse": 36,
+      "sequence_position": 36,
+      "printed_verse_label": 36,
+      "sanskrit_devanagari": "केन मंत्रेण योगींद्र शमीमंदारकांस्तदा । नरोत्तमो गणेशाय परेशाय समर्पयेत्\n॥३६॥",
+      "sanskrit_kannada_script": "ಕೇನ ಮಂತ್ರೇಣ ಯೋಗೀಂದ್ರ ಶಮೀಮಂದಾರಕಾಂಸ್ತದಾ । ನರೋತ್ತಮೋ ಗಣೇಶಾಯ ಪರೇಶಾಯ ಸಮರ್ಪಯೇತ್\n॥೩೬॥",
+      "kannada_meaning": "ಯೋಗೀಂದ್ರನೇ, ಆಗ ನರೋತ್ತಮನು ಯಾವ ಮಂತ್ರದಿಂದ ಶಮಿ ಮತ್ತು ಮಂದಾರಗಳನ್ನು ಪರಮೇಶ್ವರನಾದ ಗಣೇಶನಿಗೆ ಸಮರ್ಪಿಸಬೇಕು?",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-36",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Daksha asks which mantra a person should use to offer Shami and Mandara to Ganesh. The stanza supplies no full mantra and does not license reconstructing one."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v037",
+      "verse": 37,
+      "sequence_position": 37,
+      "printed_verse_label": 37,
+      "sanskrit_devanagari": "मुद्गल उवाच । शृणु दक्ष महाप्राज्ञ गाणपत्यपरायण । संतुष्टोऽहं विशेषेण प्रश्नेन च वदामि ते ॥३७॥",
+      "sanskrit_kannada_script": "ಮುದ್ಗಲ ಉವಾಚ । ಶೃಣು ದಕ್ಷ ಮಹಾಪ್ರಾಜ್ಞ ಗಾಣಪತ್ಯಪರಾಯಣ । ಸಂತುಷ್ಟೋಽಹಂ ವಿಶೇಷೇಣ ಪ್ರಶ್ನೇನ ಚ ವದಾಮಿ ತೇ ॥೩೭॥",
+      "kannada_meaning": "ಮುದ್ಗಲನು ಹೇಳಿದನು: ಮಹಾಪ್ರಾಜ್ಞನೂ ಗಾಣಪತ್ಯಪರಾಯಣನೂ ಆದ ದಕ್ಷನೇ, ಕೇಳು. ನಿನ್ನ ಪ್ರಶ್ನೆಯಿಂದ ನಾನು ವಿಶೇಷವಾಗಿ ಸಂತುಷ್ಟನಾಗಿದ್ದೇನೆ; ನಿನಗೆ ಹೇಳುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-37",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Mudgala answers Daksha, praising his Ganapatya dedication and expressing satisfaction with the question. Speaker and addressee are clear."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v038",
+      "verse": 38,
+      "sequence_position": 38,
+      "printed_verse_label": 38,
+      "sanskrit_devanagari": "गणेशस्यैव\nमंत्रेण पूजनीया इमे मताः । वस्तुभिर्गाणपत्यैश्च अभवंस्तोषसंयुताः ॥३८॥",
+      "sanskrit_kannada_script": "ಗಣೇಶಸ್ಯೈವ\nಮಂತ್ರೇಣ ಪೂಜನೀಯಾ ಇಮೇ ಮತಾಃ । ವಸ್ತುಭಿರ್ಗಾಣಪತ್ಯೈಶ್ಚ ಅಭವಂಸ್ತೋಷಸಂಯುತಾಃ ॥೩೮॥",
+      "kannada_meaning": "ಇವರನ್ನು ಗಣೇಶನ ಮಂತ್ರದಿಂದಲೇ ಪೂಜಿಸಬೇಕೆಂದು ಹೇಳಲಾಗಿದೆ. ಗಾಣಪತ್ಯ ಪೂಜಾಸಾಮಗ್ರಿಗಳಿಂದ ಅವರು ಸಂತೋಷವುಳ್ಳವರಾದರು.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-38",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "These beings/plants are to be worshipped with Ganesh’s own mantra and Ganapatya offerings. Preserve the passage’s stated result of satisfaction; no ritual material list is supplied."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v039",
+      "verse": 39,
+      "sequence_position": 39,
+      "printed_verse_label": 39,
+      "sanskrit_devanagari": "स्त्रीपुंभावात्मकं दक्ष नास्ति तत्र\nविचारतः । गकारः सिद्धिरूपश्च णकारो बुद्धिरुच्यते ॥३९॥",
+      "sanskrit_kannada_script": "ಸ್ತ್ರೀಪುಂಭಾವಾತ್ಮಕಂ ದಕ್ಷ ನಾಸ್ತಿ ತತ್ರ\nವಿಚಾರತಃ । ಗಕಾರಃ ಸಿದ್ಧಿರೂಪಶ್ಚ ಣಕಾರೋ ಬುದ್ಧಿರುಚ್ಯತೇ ॥೩೯॥",
+      "kannada_meaning": "ದಕ್ಷನೇ, ವಿಚಾರಿಸಿ ನೋಡಿದರೆ ಅಲ್ಲಿ ಸ್ತ್ರೀಪುರುಷಭಾವವೇ ಇಲ್ಲ. ‘ಗ’ಕಾರವು ಸಿದ್ಧಿಯ ರೂಪವಾಗಿದೆ; ‘ಣ’ಕಾರವನ್ನು ಬುದ್ಧಿಯೆಂದು ಹೇಳುತ್ತಾರೆ.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-39",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The denial of female/male distinction is explicit. The syllable ga is Siddhi and ṇa is Buddhi. Preserve the retroflex ṇa and do not reverse these correspondences."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v040",
+      "verse": 40,
+      "sequence_position": 40,
+      "printed_verse_label": 40,
+      "sanskrit_devanagari": "तयोः स्वामी गणेशः स त्रेधारूपधरो बभौ । गणास्तस्य\nतथा पूज्या गाणपत्यैश्च मंत्रकैः ॥४०॥",
+      "sanskrit_kannada_script": "ತಯೋಃ ಸ್ವಾಮೀ ಗಣೇಶಃ ಸ ತ್ರೇಧಾರೂಪಧರೋ ಬಭೌ । ಗಣಾಸ್ತಸ್ಯ\nತಥಾ ಪೂಜ್ಯಾ ಗಾಣಪತ್ಯೈಶ್ಚ ಮಂತ್ರಕೈಃ ॥೪೦॥",
+      "kannada_meaning": "ಅವರಿಬ್ಬರ ಸ್ವಾಮಿಯಾದ ಆ ಗಣೇಶನು ಮೂರು ರೂಪಗಳನ್ನು ಧರಿಸಿ ಪ್ರಕಾಶಿಸಿದನು. ಹಾಗೆಯೇ ಅವನ ಗಣಗಳನ್ನೂ ಗಾಣಪತ್ಯ ಮಂತ್ರಗಳಿಂದ ಪೂಜಿಸಬೇಕು.",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-40",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Ganesh, master of the two, manifests in three forms. His ganas too are worshipped with Ganapatya mantras. The text does not spell out a new mantra here."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v041",
+      "verse": 41,
+      "sequence_position": 41,
+      "printed_verse_label": 41,
+      "sanskrit_devanagari": "गकाराद्बिंबभावाख्यो लक्षः पुत्रः प्रकथ्यते । तथा गकाररूपाद्वै लाभस्तौ तन्मयौ मतौ ॥४१॥",
+      "sanskrit_kannada_script": "ಗಕಾರಾದ್ಬಿಂಬಭಾವಾಖ್ಯೋ ಲಕ್ಷಃ ಪುತ್ರಃ ಪ್ರಕಥ್ಯತೇ ೤ ತಥಾ ಗಕಾರರೂಪಾದ್ವೈ ಲಾಭಸ್ತೌ ತನ್ಮಯೌ ಮತೌ ೥೪೧೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: CH44-JOIN41, CH44-SCAN-RAW-NUMBERING-ALIGNMENT, REVIEW-5-44-41 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೪೧॥",
+      "source_refs": [
+        {
+          "file": "page_0636.png",
+          "printed_page": 107,
+          "original_image_index": 636,
+          "sha256": "7f52d6b1253345ecc79057a3953d75e18aab1a8b73ddff3a24a42cd6523e3402",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        },
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-JOIN41",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Join original page fragments exactly once; no invented continuation."
+        },
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-41",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Join page 675’s तन्मयौ to page 676’s मतौ ॥४१॥ exactly once. Both source occurrences read ga in this witness, including the second गकाररूपाद्वै; do not silently harmonize it to ṇa on the basis of verse 39. The raw Kannada join is ungrammatical; render “the two are considered of that nature.” The source anomaly remains explicit."
+        },
+        {
+          "id": "REF-COMP-5-44-41",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v042",
+      "verse": 42,
+      "sequence_position": 42,
+      "printed_verse_label": 42,
+      "sanskrit_devanagari": "शमीमंदारकौ दक्ष वरदानाद्विशेषतः । गणेशाकाररूपौ तौ भावयेन्नात्र संशयः ॥४२॥",
+      "sanskrit_kannada_script": "ಶಮೀಮಂದಾರಕೌ ದಕ್ಷ ವರದಾನಾದ್ವಿಶೇಷತಃ । ಗಣೇಶಾಕಾರರೂಪೌ ತೌ ಭಾವಯೇನ್ನಾತ್ರ ಸಂಶಯಃ ॥೪೨॥",
+      "kannada_meaning": "ದಕ್ಷನೇ, ವಿಶೇಷವಾದ ವರದಾನದಿಂದ ಶಮಿ ಮತ್ತು ಮಂದಾರಗಳೆರಡೂ ಗಣೇಶನ ಆಕಾರವುಳ್ಳವುಗಳೆಂದು ಭಾವಿಸಬೇಕು; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-42",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Shami and Mandara are regarded as Ganesh-shaped by a special boon. Preserve the definite “no doubt”; no species identification beyond the supplied names is added."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v043",
+      "verse": 43,
+      "sequence_position": 43,
+      "printed_verse_label": 43,
+      "sanskrit_devanagari": "दूर्वां देवीं गणेशस्य मंत्रेणापूजयेन्नरः । अथवा वैदिकैर्मंत्रैः कांडादिभिः प्रपूजयेत् ॥४३॥",
+      "sanskrit_kannada_script": "ದೂರ್ವಾಂ ದೇವೀಂ ಗಣೇಶಸ್ಯ ಮಂತ್ರೇಣಾಪೂಜಯೇನ್ನರಃ । ಅಥವಾ ವೈದಿಕೈರ್ಮಂತ್ರೈಃ ಕಾಂಡಾದಿಭಿಃ ಪ್ರಪೂಜಯೇತ್ ॥೪೩॥",
+      "kannada_meaning": "ಮನುಷ್ಯನು ದೂರ್ವಾದೇವಿಯನ್ನು ಗಣೇಶನ ಮಂತ್ರದಿಂದ ಪೂಜಿಸಬೇಕು. ಅಥವಾ ‘ಕಾಂಡ’ ಮೊದಲಾದ ವೈದಿಕ ಮಂತ್ರಗಳಿಂದ ಚೆನ್ನಾಗಿ ಪೂಜಿಸಬೇಕು.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-43",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Durva is personified as a goddess and worshipped with Ganesh’s mantra or Vedic mantras referred to by kāṇḍādi. The candidate’s quoted ಕಾಂಡಾತ್ expands the supplied text; remove the invented exact incipit and do not reconstruct the full mantra."
+        },
+        {
+          "id": "REF-COMP-5-44-43",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v044",
+      "verse": 44,
+      "sequence_position": 44,
+      "printed_verse_label": 44,
+      "sanskrit_devanagari": "नाममंत्रेण शूद्रस्तान् पूजयेत् सर्वभावतः । एतदेव रहस्यं ते कथितं सर्वमंजसा ॥४४॥",
+      "sanskrit_kannada_script": "ನಾಮಮಂತ್ರೇಣ ಶೂದ್ರಸ್ತಾನ್ ಪೂಜಯೇತ್ ಸರ್ವಭಾವತಃ । ಏತದೇವ ರಹಸ್ಯಂ ತೇ ಕಥಿತಂ ಸರ್ವಮಂಜಸಾ ॥೪೪॥",
+      "kannada_meaning": "ಶೂದ್ರನು ಅವುಗಳನ್ನು ನಾಮಮಂತ್ರದಿಂದ ಪೂರ್ಣಭಾವದಿಂದ ಪೂಜಿಸಬೇಕು. ಈ ರಹಸ್ಯವೆಲ್ಲವನ್ನೂ ನಿನಗೆ ನೇರವಾಗಿ ಹೇಳಲಾಗಿದೆ.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-44",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The stanza specifically says a Shudra worships them with the name-mantra. Translate the historical text faithfully without turning it into a present-day restriction or substituting a caste-neutral subject. The revealed secret remains complete."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v045",
+      "verse": 45,
+      "sequence_position": 45,
+      "printed_verse_label": 45,
+      "sanskrit_devanagari": "प्रार्थनां ते प्रवक्ष्यामि शृणु दक्ष महामते । स्नानयुक्तो वनं गत्वाऽथवा पुरे स्वमंदिरे ॥४५॥",
+      "sanskrit_kannada_script": "ಪ್ರಾರ್ಥನಾಂ ತೇ ಪ್ರವಕ್ಷ್ಯಾಮಿ ಶೃಣು ದಕ್ಷ ಮಹಾಮತೇ । ಸ್ನಾನಯುಕ್ತೋ ವನಂ ಗತ್ವಾಽಥವಾ ಪುರೇ ಸ್ವಮಂದಿರೇ ॥೪೫॥",
+      "kannada_meaning": "ಮಹಾಮತಿಯಾದ ದಕ್ಷನೇ, ಕೇಳು; ನಿನಗೆ ಪ್ರಾರ್ಥನೆಯನ್ನು ಹೇಳುತ್ತೇನೆ. ಸ್ನಾನಮಾಡಿದವನು ಅರಣ್ಯಕ್ಕೆ ಹೋಗಿ, ಅಥವಾ ಪಟ್ಟಣದಲ್ಲಿ ತನ್ನ ಮನೆಯಲ್ಲಿ—",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-45",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Mudgala begins the prayer instructions: bathe, then go to the forest, or in town to one’s own residence/shrine. The sentence continues in 46. svamandira need not mean a public temple."
+        },
+        {
+          "id": "REF-COMP-5-44-45",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v046",
+      "verse": 46,
+      "sequence_position": 46,
+      "printed_verse_label": 46,
+      "sanskrit_devanagari": "यत्र दूर्वा च मंदारः शमी तिष्ठति तत्र सः । गत्वा प्रणम्य तानादौ प्रार्थयेद्भक्तिसंयुतः ॥४६॥",
+      "sanskrit_kannada_script": "ಯತ್ರ ದೂರ್ವಾ ಚ ಮಂದಾರಃ ಶಮೀ ತಿಷ್ಠತಿ ತತ್ರ ಸಃ । ಗತ್ವಾ ಪ್ರಣಮ್ಯ ತಾನಾದೌ ಪ್ರಾರ್ಥಯೇದ್ಭಕ್ತಿಸಂಯುತಃ ॥೪೬॥",
+      "kannada_meaning": "ದೂರ್ವೆ, ಮಂದಾರ ಮತ್ತು ಶಮಿ ಇರುವಲ್ಲಿಗೆ ಹೋಗಿ, ಮೊದಲು ಅವುಗಳಿಗೆ ನಮಸ್ಕರಿಸಿ, ಭಕ್ತಿಯಿಂದ ಪ್ರಾರ್ಥಿಸಬೇಕು.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-46",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The person goes where Durva, Mandara and Shami grow, bows first, then prays with devotion. This completes 45’s sentence without duplicating the bathing instruction."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v047",
+      "verse": 47,
+      "sequence_position": 47,
+      "printed_verse_label": 47,
+      "sanskrit_devanagari": "दूर्वेऽङ्गब्रह्मरूपे चामृतरूपे शतांकुरे । गणेशप्रीणनार्थाय चिनोमि त्वां क्षमस्व भोः ॥४७॥",
+      "sanskrit_kannada_script": "ದೂರ್ವೇಽಙ್ಗಬ್ರಹ್ಮರೂಪೇ ಚಾಮೃತರೂಪೇ ಶತಾಂಕುರೇ । ಗಣೇಶಪ್ರೀಣನಾರ್ಥಾಯ ಚಿನೋಮಿ ತ್ವಾಂ ಕ್ಷಮಸ್ವ ಭೋಃ ॥೪೭॥",
+      "kannada_meaning": "ದೂರ್ವೆಯೇ, ಅಂಗಬ್ರಹ್ಮರೂಪಿಣಿಯೇ, ಅಮೃತರೂಪಿಣಿಯೇ, ನೂರು ಮೊಳಕೆಗಳುಳ್ಳವಳೇ! ಗಣೇಶನನ್ನು ಸಂತೋಷಪಡಿಸುವುದಕ್ಕಾಗಿ ನಿನ್ನನ್ನು ಕಿತ್ತುಕೊಳ್ಳುತ್ತೇನೆ; ಕ್ಷಮಿಸು.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-47",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "This is a supplied Durva prayer, not permission to add any other mantra. The scan’s compound after दूर्वे appears अन्नब्रह्मरूपे, while the extraction has अङ्गब्रह्मरूपे; the low-resolution conjunct remains a fresh hold. Do not silently choose either as settled. Preserve nectar-form, hundred shoots, plucking to please Ganesh and request for forgiveness."
+        },
+        {
+          "id": "REVIEW-SOURCE-5-44-47",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "AUD44-PRAYER-47",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "REF-COMP-5-44-47",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v048",
+      "verse": 48,
+      "sequence_position": 48,
+      "printed_verse_label": 48,
+      "sanskrit_devanagari": "शमी सर्वप्रदे देवि गणेशरूपधारिणि । चिनोमि त्वां गणेशस्य प्रीणनाय नमाम्यहम् ॥४८॥",
+      "sanskrit_kannada_script": "ಶಮೀ ಸರ್ವಪ್ರದೇ ದೇವಿ ಗಣೇಶರೂಪಧಾರಿಣಿ । ಚಿನೋಮಿ ತ್ವಾಂ ಗಣೇಶಸ್ಯ ಪ್ರೀಣನಾಯ ನಮಾಮ್ಯಹಮ್ ॥೪೮॥",
+      "kannada_meaning": "ಎಲ್ಲವನ್ನೂ ನೀಡುವ ದೇವಿಯಾದ ಶಮಿಯೇ, ಗಣೇಶನ ರೂಪವನ್ನು ಧರಿಸಿದವಳೇ! ಗಣೇಶನನ್ನು ಸಂತೋಷಪಡಿಸುವುದಕ್ಕಾಗಿ ನಿನ್ನನ್ನು ಕಿತ್ತುಕೊಳ್ಳುತ್ತೇನೆ; ನಾನು ನಿನಗೆ ನಮಸ್ಕರಿಸುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-48",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Supplied prayer to Shami: giver of all, goddess, bearer of Ganesh’s form, plucked for his pleasure, saluted. Keep the full sense; no syllables are added."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v049",
+      "verse": 49,
+      "sequence_position": 49,
+      "printed_verse_label": 49,
+      "sanskrit_devanagari": "मंदारवाञ्छितार्थस्य दातर्विघ्नेशरूपक । क्षमस्व प्रीणनार्थाय गणेशस्य चिनोम्यहम् ॥४९॥",
+      "sanskrit_kannada_script": "ಮಂದಾರವಾಞ್ಛಿತಾರ್ಥಸ್ಯ ದಾತರ್ವಿಘ್ನೇಶರೂಪಕ । ಕ್ಷಮಸ್ವ ಪ್ರೀಣನಾರ್ಥಾಯ ಗಣೇಶಸ್ಯ ಚಿನೋಮ್ಯಹಮ್ ॥೪೯॥",
+      "kannada_meaning": "ಬಯಸಿದ ಅರ್ಥವನ್ನು ನೀಡುವ ಮಂದಾರವೇ, ವಿಘ್ನೇಶನ ರೂಪವುಳ್ಳವನೇ! ಕ್ಷಮಿಸು; ಗಣೇಶನನ್ನು ಸಂತೋಷಪಡಿಸುವುದಕ್ಕಾಗಿ ನಾನು ನಿನ್ನನ್ನು ಕಿತ್ತುಕೊಳ್ಳುತ್ತೇನೆ.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-49",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Supplied prayer to Mandara: giver of desired objects, Vighnesha-formed, asking forgiveness before plucking for Ganesh. The object of चिनोमि is understood from the address, not an added species."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v050",
+      "verse": 50,
+      "sequence_position": 50,
+      "printed_verse_label": 50,
+      "sanskrit_devanagari": "एवं प्रार्थ्य प्रजानाथ शमीमंदारकौ पुरा । दूर्वापत्राणि पुष्पाणि विभुं ध्यात्वाथ पूजयेत् ॥५०॥",
+      "sanskrit_kannada_script": "ಏವಂ ಪ್ರಾರ್ಥ್ಯ ಪ್ರಜಾನಾಥ ಶಮೀಮಂದಾರಕೌ ಪುರಾ ೤ ದೂರ್ವಾಪತ್ರಾಣಿ ಪುಷ್ಪಾಣಿ ವಿಭುಂ ಧ್ಯಾತ್ವಾಥ ಪೂಜಯೇತ್ ೥೫೦೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: CH44-SCAN-RAW-NUMBERING-ALIGNMENT, REVIEW-5-44-50, REVIEW-SOURCE-5-44-50, AUD44-VERB-50 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೫೦॥",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-50",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The prayer first concerns Shami and Mandara; the next line lists Durva/leaves/flowers. The raw candidate incorrectly makes all listed materials recipients of the prayer. The scan/reference tail after विभुं appears ह्यानाय्य/ध्यानाय्य, not securely the saved ध्यात्वाथ; preserve as an unresolved source reading. A complete instruction cannot be certified; provide a partial Kannada sense with the uncertain gathering/meditating step marked."
+        },
+        {
+          "id": "REVIEW-SOURCE-5-44-50",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "AUD44-VERB-50",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        },
+        {
+          "id": "REF-COMP-5-44-50",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v051",
+      "verse": 51,
+      "sequence_position": 51,
+      "printed_verse_label": 51,
+      "sanskrit_devanagari": "सहस्रनाममंत्रैश्च अष्टोत्तरशतैर्नरः । एकविंशतिकैश्चैव नामभिस्ताः समर्पयेत् ॥५१॥",
+      "sanskrit_kannada_script": "ಸಹಸ್ರನಾಮಮಂತ್ರೈಶ್ಚ ಅಷ್ಟೋತ್ತರಶತೈರ್ನರಃ । ಏಕವಿಂಶತಿಕೈಶ್ಚೈವ ನಾಮಭಿಸ್ತಾಃ ಸಮರ್ಪಯೇತ್ ॥೫೧॥",
+      "kannada_meaning": "ಮನುಷ್ಯನು ಸಹಸ್ರನಾಮಮಂತ್ರಗಳಿಂದಲೂ ನೂರ ಎಂಟು ನಾಮಗಳಿಂದಲೂ ಇಪ್ಪತ್ತೊಂದು ನಾಮಗಳಿಂದಲೂ ಅವುಗಳನ್ನು ಸಮರ್ಪಿಸಬೇಕು.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-51",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Counts are 1000 names, 108 names and 21 names. These are references to naming/offering formula sets, not supplied lists of syllables. Kannada preserves the numbers; no expansion is authorized."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v052",
+      "verse": 52,
+      "sequence_position": 52,
+      "printed_verse_label": 52,
+      "sanskrit_devanagari": "अथवा मूलमंत्रेण नाममंत्रेण वा तथा । गाणेशैर्विविधैर्मंत्रैर्दूर्वादीनि समर्पयेत् ॥५२॥",
+      "sanskrit_kannada_script": "ಅಥವಾ ಮೂಲಮಂತ್ರೇಣ ನಾಮಮಂತ್ರೇಣ ವಾ ತಥಾ । ಗಾಣೇಶೈರ್ವಿವಿಧೈರ್ಮಂತ್ರೈರ್ದೂರ್ವಾದೀನಿ ಸಮರ್ಪಯೇತ್ ॥೫೨॥",
+      "kannada_meaning": "ಅಥವಾ ಮೂಲಮಂತ್ರದಿಂದಾಗಲಿ ನಾಮಮಂತ್ರದಿಂದಾಗಲಿ, ಹಾಗೆಯೇ ಗಣೇಶನ ವಿವಿಧ ಮಂತ್ರಗಳಿಂದ ದೂರ್ವೆ ಮೊದಲಾದವುಗಳನ್ನು ಸಮರ್ಪಿಸಬೇಕು.",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-52",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Alternatives are the root mantra, name-mantra and various Ganesh mantras for offering Durva and the like. No complete formula appears, so nothing is reconstructed."
+        }
+      ]
+    },
+    {
+      "id": "kh05-ch044-v053",
+      "verse": 53,
+      "sequence_position": 53,
+      "printed_verse_label": 53,
+      "sanskrit_devanagari": "एतत्ते कथितं सर्वं रहस्यं पावनात्मकम् । गाणपत्यप्रदं पूर्णं किं भूयः श्रोतुमिच्छसि ॥५३॥",
+      "sanskrit_kannada_script": "ಏತತ್ತೇ ಕಥಿತಂ ಸರ್ವಂ ರಹಸ್ಯಂ ಪಾವನಾತ್ಮಕಮ್ । ಗಾಣಪತ್ಯಪ್ರದಂ ಪೂರ್ಣಂ ಕಿಂ ಭೂಯಃ ಶ್ರೋತುಮಿಚ್ಛಸಿ ॥೫೩॥",
+      "kannada_meaning": "ಪೂರ್ಣವಾಗಿ ಗಾಣಪತ್ಯವನ್ನು ನೀಡುವ, ಪಾವನಸ್ವರೂಪವಾದ ಈ ರಹಸ್ಯವೆಲ್ಲವನ್ನೂ ನಿನಗೆ ಹೇಳಲಾಗಿದೆ. ಇನ್ನೂ ಏನನ್ನು ಕೇಳಲು ಬಯಸುತ್ತೀಯೆ?",
+      "source_refs": [
+        {
+          "file": "page_0637.png",
+          "printed_page": 108,
+          "original_image_index": 637,
+          "sha256": "ad0a9d82efa119a3b08c27f411f5415c5ac3fd3beb167d2414f62dcf7786c20f",
+          "source_kind": "Supplied original Khanda5 imagery visually inspected; inherited transcription reused with explicit holds."
+        }
+      ],
+      "meaning_status": "accepted-qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+      ],
+      "source_issues": [
+        {
+          "id": "CH44-SCAN-RAW-NUMBERING-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved Argon numbering omits stable slot19 and differs from print: the page674 scan visibly labels the kapolaka stanza19, whereas saved Argon labels it18. The next bhala stanza joins674–675 and ends20. Do not infer a missing printed verse or reconstruct one. All affected scan/raw numbering alignment requires independent review; raw evidence retained unchanged."
+        },
+        {
+          "id": "REVIEW-5-44-53",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The purifying complete secret grants the Ganapatya state; Mudgala asks what else Daksha wishes to hear. Preserve the question and the specific Ganapatya goal."
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "kh05-ch044-g001",
+      "verse_ids": [
+        "kh05-ch044-v001"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g002",
+      "verse_ids": [
+        "kh05-ch044-v002"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g003",
+      "verse_ids": [
+        "kh05-ch044-v003"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g004",
+      "verse_ids": [
+        "kh05-ch044-v004"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g005",
+      "verse_ids": [
+        "kh05-ch044-v005"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g006",
+      "verse_ids": [
+        "kh05-ch044-v006"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g007",
+      "verse_ids": [
+        "kh05-ch044-v007"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g008",
+      "verse_ids": [
+        "kh05-ch044-v008"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g009",
+      "verse_ids": [
+        "kh05-ch044-v009"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g010",
+      "verse_ids": [
+        "kh05-ch044-v010"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g011",
+      "verse_ids": [
+        "kh05-ch044-v011"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g012",
+      "verse_ids": [
+        "kh05-ch044-v012"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g013",
+      "verse_ids": [
+        "kh05-ch044-v013"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g014",
+      "verse_ids": [
+        "kh05-ch044-v014"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g015",
+      "verse_ids": [
+        "kh05-ch044-v015"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g016",
+      "verse_ids": [
+        "kh05-ch044-v016"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g017",
+      "verse_ids": [
+        "kh05-ch044-v017"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g018",
+      "verse_ids": [
+        "kh05-ch044-v018"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g019",
+      "verse_ids": [
+        "kh05-ch044-v019"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g020",
+      "verse_ids": [
+        "kh05-ch044-v020"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g021",
+      "verse_ids": [
+        "kh05-ch044-v021"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g022",
+      "verse_ids": [
+        "kh05-ch044-v022"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g023",
+      "verse_ids": [
+        "kh05-ch044-v023"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g024",
+      "verse_ids": [
+        "kh05-ch044-v024"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g025",
+      "verse_ids": [
+        "kh05-ch044-v025"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g026",
+      "verse_ids": [
+        "kh05-ch044-v026"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g027",
+      "verse_ids": [
+        "kh05-ch044-v027"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g028",
+      "verse_ids": [
+        "kh05-ch044-v028"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g029",
+      "verse_ids": [
+        "kh05-ch044-v029"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g030",
+      "verse_ids": [
+        "kh05-ch044-v030"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g031",
+      "verse_ids": [
+        "kh05-ch044-v031"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g032",
+      "verse_ids": [
+        "kh05-ch044-v032"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g033",
+      "verse_ids": [
+        "kh05-ch044-v033"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g034",
+      "verse_ids": [
+        "kh05-ch044-v034"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g035",
+      "verse_ids": [
+        "kh05-ch044-v035"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g036",
+      "verse_ids": [
+        "kh05-ch044-v036"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g037",
+      "verse_ids": [
+        "kh05-ch044-v037"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g038",
+      "verse_ids": [
+        "kh05-ch044-v038"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g039",
+      "verse_ids": [
+        "kh05-ch044-v039"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g040",
+      "verse_ids": [
+        "kh05-ch044-v040"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g041",
+      "verse_ids": [
+        "kh05-ch044-v041"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g042",
+      "verse_ids": [
+        "kh05-ch044-v042"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g043",
+      "verse_ids": [
+        "kh05-ch044-v043"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g044",
+      "verse_ids": [
+        "kh05-ch044-v044"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g045",
+      "verse_ids": [
+        "kh05-ch044-v045"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g046",
+      "verse_ids": [
+        "kh05-ch044-v046"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g047",
+      "verse_ids": [
+        "kh05-ch044-v047"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g048",
+      "verse_ids": [
+        "kh05-ch044-v048"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g049",
+      "verse_ids": [
+        "kh05-ch044-v049"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g050",
+      "verse_ids": [
+        "kh05-ch044-v050"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g051",
+      "verse_ids": [
+        "kh05-ch044-v051"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g052",
+      "verse_ids": [
+        "kh05-ch044-v052"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh05-ch044-g053",
+      "verse_ids": [
+        "kh05-ch044-v053"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    }
+  ],
+  "separate_invocation_devanagari": "॥ श्रीगणेशाय नमः ॥",
+  "separate_invocation_kannada_script": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+  "colophon": {}
+}

@@ -1,0 +1,3061 @@
+{
+  "edition": "Mudgala Purana paired review checkpoint",
+  "checkpoint_date": "2026-11-12",
+  "status": "Review draft; not expert verified; not integrated into the canonical reader",
+  "khanda": 7,
+  "chapter": 16,
+  "source_draft_sha256": "022e138a04408429027e3ebc3f13d8269c5b5cd52d34d2a7e9de516eee9f249c",
+  "entries": [
+    {
+      "id": "kh07-ch016-v001",
+      "verse": 1,
+      "sequence_position": 1,
+      "printed_verse_label": 1,
+      "sanskrit_devanagari": "मुद्गल उवाच । ततो बहौ गने काले दैत्येंद्रा बलसंयुताः । देवान् जेतुं प्रसंन्नद्धा बभूवुः क्रोधसंयुताः ॥१॥",
+      "sanskrit_kannada_script": "ಮುದ್ಗಲ ಉವಾಚ ೤ ತತೋ ಬಹೌ ಗನೇ ಕಾಲೇ ದೈತ್ಯೇಂದ್ರಾ ಬಲಸಂಯುತಾಃ ೤ ದೇವಾನ್ ಜೇತುಂ ಪ್ರಸಂನ್ನದ್ಧಾ ಬಭೂವುಃ ಕ್ರೋಧಸಂಯುತಾಃ ೥೧೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P862-API-U-1, P862-API-U-2, P862-API-U-3, P862-API-U-4, CH16-PAGE862-ALIGNMENT, REVIEW-7-16-1, REVIEW-SOURCE-7-16-1 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧॥",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-7-16-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The first line is physically abraded at the word saved as गने. Reference806 reads गते, but the surviving scan does not conclusively distinguish the critical consonant. Retain the original P862-API-U-1 hold. The later printed word reads प्रसन्नद्धा, without the saved extra anusvara in प्रसंन्नद्धा. Do not present “ಕಳೆದ ಮೇಲೆ” as an accepted resolution of the damaged word."
+        },
+        {
+          "id": "REVIEW-SOURCE-7-16-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v002",
+      "verse": 2,
+      "sequence_position": 2,
+      "printed_verse_label": 2,
+      "sanskrit_devanagari": "प्रह्लादं मुख्यकं कृत्वा ब्रह्मशापेन मोहितम् । आययुस्तां प्रणेमुस्ते दितिं कश्यपसंयुताम् ॥२॥",
+      "sanskrit_kannada_script": "ಪ್ರಹ್ಲಾದಂ ಮುಖ್ಯಕಂ ಕೃತ್ವಾ ಬ್ರಹ್ಮಶಾಪೇನ ಮೋಹಿತಮ್ ೤ ಆಯಯುಸ್ತಾಂ ಪ್ರಣೇಮುಸ್ತೇ ದಿತಿಂ ಕಶ್ಯಪಸಂಯುತಾಮ್ ೥೨೥",
+      "kannada_meaning": "ಬ್ರಹ್ಮಶಾಪದಿಂದ ಮೋಹಿತನಾದ ಪ್ರಹ್ಲಾದನನ್ನು ಮುಖ್ಯಸ್ಥನನ್ನಾಗಿ ಮಾಡಿಕೊಂಡು, ಅವರು ಕಶ್ಯಪನೊಡನಿದ್ದ ದಿತಿಯ ಬಳಿಗೆ ಬಂದು ಆಕೆಗೆ ನಮಸ್ಕರಿಸಿದರು. ॥೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-2",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v003",
+      "verse": 3,
+      "sequence_position": 3,
+      "printed_verse_label": 3,
+      "sanskrit_devanagari": "तानुवाच स्वयं देवी दितिः\nक्रोधसमन्विता । मा गच्छत महादुष्टाः धर्मं संत्यज्य दैत्यपाः ॥३॥",
+      "sanskrit_kannada_script": "ತಾನುವಾಚ ಸ್ವಯಂ ದೇವೀ ದಿತಿಃ\nಕ್ರೋಧಸಮನ್ವಿತಾ ೤ ಮಾ ಗಚ್ಛತ ಮಹಾದುಷ್ಟಾಃ ಧರ್ಮಂ ಸಂತ್ಯಜ್ಯ ದೈತ್ಯಪಾಃ ೥೩೥",
+      "kannada_meaning": "ಆಗ ಕ್ರೋಧದಿಂದ ಕೂಡಿದ ದಿತಿದೇವಿಯು ಸ್ವಯಂ ಅವರಿಗೆ ಹೀಗೆ ಹೇಳಿದಳು: ಎಲೈ ಮಹಾದುಷ್ಟರಾದ ದೈತ್ಯಪಾಲಕರೇ, ಧರ್ಮವನ್ನು ತೊರೆದು ನೀವು ಹೋಗಬೇಡಿರಿ ॥೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v004",
+      "verse": 4,
+      "sequence_position": 4,
+      "printed_verse_label": 4,
+      "sanskrit_devanagari": "चतुर्भुजेन देवेशाः स्थापिताः स्वर्गभूमिषु । पाताल-\nविवरेष्वत्र यूयं राज्यसमन्विताः ॥४॥",
+      "sanskrit_kannada_script": "ಚತುರ್ಭುಜೇನ ದೇವೇಶಾಃ ಸ್ಥಾಪಿತಾಃ ಸ್ವರ್ಗಭೂಮಿಷು ೤ ಪಾತಾಲ-\nವಿವರೇಷ್ವತ್ರ ಯೂಯಂ ರಾಜ್ಯಸಮನ್ವಿತಾಃ ೥೪೥",
+      "kannada_meaning": "ಚತುರ್ಭುಜನಿಂದ ದೇವೇಶ್ವರರು ಸ್ವರ್ಗಭೂಮಿಗಳಲ್ಲಿ ಸ್ಥಾಪಿಸಲ್ಪಟ್ಟಿದ್ದಾರೆ; ಇಲ್ಲಿ ಪಾತಾಳದ ಬಿಲಗಳಲ್ಲಿ ನೀವು ರಾಜ್ಯಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ. ॥೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-4",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v005",
+      "verse": 5,
+      "sequence_position": 5,
+      "printed_verse_label": 5,
+      "sanskrit_devanagari": "प्रणम्य तामनादृत्य दैत्येशा लोभसंयुताः । ययुर्देवजयार्थं ते ह्यधर्मेण प्रणोदिताः ॥५॥",
+      "sanskrit_kannada_script": "ಪ್ರಣಮ್ಯ ತಾಮನಾದೃತ್ಯ ದೈತ್ಯೇಶಾ ಲೋಭಸಂಯುತಾಃ ೤ ಯಯುರ್ದೇವಜಯಾರ್ಥಂ ತೇ ಹ್ಯಧರ್ಮೇಣ ಪ್ರಣೋದಿತಾಃ ೥೫೥",
+      "kannada_meaning": "ಲೋಭದಿಂದ ಕೂಡಿದ ಆ ದೈತ್ಯೇಶ್ವರರು ಆಕೆಗೆ ನಮಸ್ಕರಿಸಿ, ಆಕೆಯ ಮಾತನ್ನು ಲೆಕ್ಕಿಸದೆ, ಅಧರ್ಮದಿಂದ ಪ್ರೇರಿತರಾಗಿ ದೇವತೆಗಳನ್ನು ಜಯಿಸಲು ಹೊರಟರು ॥೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v006",
+      "verse": 6,
+      "sequence_position": 6,
+      "printed_verse_label": 6,
+      "sanskrit_devanagari": "दितिः कश्यपसंयुक्ता दैत्यानां सुदुरात्मनाम् । पक्षं त्यक्त्वा गणेशानमभजद् भक्तिसंयुता ॥६॥",
+      "sanskrit_kannada_script": "ದಿತಿಃ ಕಶ್ಯಪಸಂಯುಕ್ತಾ ದೈತ್ಯಾನಾಂ ಸುದುರಾತ್ಮನಾಮ್ ೤ ಪಕ್ಷಂ ತ್ಯಕ್ತ್ವಾ ಗಣೇಶಾನಮಭಜದ್ ಭಕ್ತಿಸಂಯುತಾ ೥೬೥",
+      "kannada_meaning": "ದಿತಿಯು ಕಶ್ಯಪನೊಡನೆ ಕೂಡಿ, ಅತ್ಯಂತ ದುರಾತ್ಮರಾದ ದೈತ್ಯರ ಪಕ್ಷವನ್ನು ತೊರೆದು, ಭಕ್ತಿಯಿಂದ ಕೂಡಿದವಳಾಗಿ ಗಣೇಶಾನನನ್ನು ಭಜಿಸಿದಳು ॥೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v007",
+      "verse": 7,
+      "sequence_position": 7,
+      "printed_verse_label": 7,
+      "sanskrit_devanagari": "एवं वै देवपक्षं सा\nत्यक्त्वा मुनिसमन्विता । अदितिस्तं स्वपुत्रं चामजद्विनायकं परम् ॥७॥",
+      "sanskrit_kannada_script": "ಏವಂ ವೈ ದೇವಪಕ್ಷಂ ಸಾ\nತ್ಯಕ್ತ್ವಾ ಮುನಿಸಮನ್ವಿತಾ ೤ ಅದಿತಿಸ್ತಂ ಸ್ವಪುತ್ರಂ ಚಾಮಜದ್ವಿನಾಯಕಂ ಪರಮ್ ೥೭೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P862-API-U-1, P862-API-U-2, P862-API-U-3, P862-API-U-4, CH16-PAGE862-ALIGNMENT, REVIEW-7-16-7, REVIEW-SOURCE-7-16-7 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೭॥",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-7-16-7",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Enlarged scan862 supports चाभजद्विनायकं, with भ, against saved चामजद्विनायकं; reference806 also gives चाभजद्भिनायकं (its later भ/व OCR is corrupt). Conditional source correction only; original P862-API-U-2 retained. Aditi abandons the gods’ side and worships her own son Vinayaka."
+        },
+        {
+          "id": "REVIEW-SOURCE-7-16-7",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v008",
+      "verse": 8,
+      "sequence_position": 8,
+      "printed_verse_label": 8,
+      "sanskrit_devanagari": "दैवीं प्रकृतिमुत्सृज्य मृन्मूर्तिस्थं विनायकम् ।\nयोगभावेन भक्त्या तमभजत्प्रेमसंयुता ॥८॥",
+      "sanskrit_kannada_script": "ದೈವೀಂ ಪ್ರಕೃತಿಮುತ್ಸೃಜ್ಯ ಮೃನ್ಮೂರ್ತಿಸ್ಥಂ ವಿನಾಯಕಮ್ ೤\nಯೋಗಭಾವೇನ ಭಕ್ತ್ಯಾ ತಮಭಜತ್ಪ್ರೇಮಸಂಯುತಾ ೥೮೥",
+      "kannada_meaning": "ದೈವೀ ಪ್ರಕೃತಿಯನ್ನು ಬಿಟ್ಟು, ಮಣ್ಣಿನ ಮೂರ್ತಿಯಲ್ಲಿ ನೆಲೆಸಿರುವ ವಿನಾಯಕನನ್ನು ಪ್ರೇಮದಿಂದ ಕೂಡಿದವಳಾಗಿ ಯೋಗಭಾವದಿಂದಲೂ ಭಕ್ತಿಯಿಂದಲೂ ಭಜಿಸಿದಳು ॥೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v009",
+      "verse": 9,
+      "sequence_position": 9,
+      "printed_verse_label": 9,
+      "sanskrit_devanagari": "विनताद्यास्तथा दक्ष कश्यपेनोपदेशिताः । शांतियुक्ता गणेशानमभजन्\nप्रेमसंयुताः ॥९॥",
+      "sanskrit_kannada_script": "ವಿನತಾದ್ಯಾಸ್ತಥಾ ದಕ್ಷ ಕಶ್ಯಪೇನೋಪದೇಶಿತಾಃ ೤ ಶಾಂತಿಯುಕ್ತಾ ಗಣೇಶಾನಮಭಜನ್\nಪ್ರೇಮಸಂಯುತಾಃ ೥೯೥",
+      "kannada_meaning": "ಎಲೈ ದಕ್ಷನೇ, ಹಾಗೆಯೇ ವಿನತೆ ಮೊದಲಾದವರೂ ಕಶ್ಯಪನಿಂದ ಉಪದೇಶಿಸಲ್ಪಟ್ಟವರಾಗಿ, ಶಾಂತಿಯಿಂದಲೂ ಪ್ರೇಮದಿಂದಲೂ ಕೂಡಿ ಗಣೇಶಾನನನ್ನು ಭಜಿಸಿದರು ॥೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v010",
+      "verse": 10,
+      "sequence_position": 10,
+      "printed_verse_label": 10,
+      "sanskrit_devanagari": "दक्ष उवाच । दैवीं तु प्रकृतिं त्यक्त्वा तथाऽऽसुरीं महामुने । कथं गणेध्वरं भक्त्या भजंति वद मानवाः\n॥१०॥",
+      "sanskrit_kannada_script": "ದಕ್ಷ ಉವಾಚ ೤ ದೈವೀಂ ತು ಪ್ರಕೃತಿಂ ತ್ಯಕ್ತ್ವಾ ತಥಾಽಽಸುರೀಂ ಮಹಾಮುನೇ ೤ ಕಥಂ ಗಣೇಧ್ವರಂ ಭಕ್ತ್ಯಾ ಭಜಂತಿ ವದ ಮಾನವಾಃ\n೥೧೦೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P862-API-U-1, P862-API-U-2, P862-API-U-3, P862-API-U-4, CH16-PAGE862-ALIGNMENT, REVIEW-7-16-10, REVIEW-SOURCE-7-16-10 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧೦॥",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-7-16-10",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Enlarged scan and literal reference806 support गणेश्वरं against saved गणेध्वरं. Preserve P862-API-U-3 as original evidence while proposing the local correction. Speaker switches to Daksha; both divine and demonic dispositions are explicitly abandoned."
+        },
+        {
+          "id": "REVIEW-SOURCE-7-16-10",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v011",
+      "verse": 11,
+      "sequence_position": 11,
+      "printed_verse_label": 11,
+      "sanskrit_devanagari": "मुद्गल उवाच । सकामंकं करोति ষেन्नरः कर्म यथाविधि । आसुरं तत् समाख्यातं देहसौख्यकरं यतः ॥११॥",
+      "sanskrit_kannada_script": "ಮುದ್ಗಲ ಉವಾಚ ೤ ಸಕಾಮಂಕಂ ಕರೋತಿ ষেನ್ನರಃ ಕರ್ಮ ಯಥಾವಿಧಿ ೤ ಆಸುರಂ ತತ್ ಸಮಾಖ್ಯಾತಂ ದೇಹಸೌಖ್ಯಕರಂ ಯತಃ ೥೧೧೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P862-API-U-1, P862-API-U-2, P862-API-U-3, P862-API-U-4, CH16-PAGE862-ALIGNMENT, REVIEW-7-16-11, REVIEW-SOURCE-7-16-11 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧೧॥",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-7-16-11",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Scan clearly has सकामिकं करोति चेन्नरः. Saved सकामंकं and Bengali-script ষে in ষেन्नरः are extraction defects, not Sanskrit variants. Conditional corrections supplied, original P862-API-U-4 retained. चेन्नरः is चेत् + नरः: this verse genuinely has an “if”, and it classifies desire-driven ritual action as asuric because it brings bodily pleasure."
+        },
+        {
+          "id": "REVIEW-SOURCE-7-16-11",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v012",
+      "verse": 12,
+      "sequence_position": 12,
+      "printed_verse_label": 12,
+      "sanskrit_devanagari": "निष्का-\nमिकं करोति चेन्नरः दैवं प्रकीर्तितम् । विधियुक्तं कर्म दक्ष मुक्तिदं तन्मतं बुधैः ॥१२॥",
+      "sanskrit_kannada_script": "ನಿಷ್ಕಾ-\nಮಿಕಂ ಕರೋತಿ ಚೇನ್ನರಃ ದೈವಂ ಪ್ರಕೀರ್ತಿತಮ್ ೤ ವಿಧಿಯುಕ್ತಂ ಕರ್ಮ ದಕ್ಷ ಮುಕ್ತಿದಂ ತನ್ಮತಂ ಬುಧೈಃ ೥೧೨೥",
+      "kannada_meaning": "ಎಲೈ ದಕ್ಷನೇ, ಮನುಷ್ಯನು ವಿಧಿಯುಕ್ತವಾದ ನಿಷ್ಕಾಮ ಕರ್ಮವನ್ನು ಮಾಡಿದರೆ ಅದು ದೈವವೆಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ ಮತ್ತು ಅದು ಮುಕ್ತಿದಾಯಕವೆಂದು ಬುದ್ಧಿವಂತರು ಅಭಿಪ್ರಾಯಪಡುತ್ತಾರೆ ॥೧೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v013",
+      "verse": 13,
+      "sequence_position": 13,
+      "printed_verse_label": 13,
+      "sanskrit_devanagari": "स्वधर्मैर्यैर्जनैः कर्म क्रियते विविधं\nपरम् । देहधर्मं समाज्ञाय योगरूपं च तत् स्मृतत् ॥१३॥",
+      "sanskrit_kannada_script": "ಸ್ವಧರ್ಮೈರ್ಯೈರ್ಜನೈಃ ಕರ್ಮ ಕ್ರಿಯತೇ ವಿವಿಧಂ\nಪರಮ್ ೤ ದೇಹಧರ್ಮಂ ಸಮಾಜ್ಞಾಯ ಯೋಗರೂಪಂ ಚ ತತ್ ಸ್ಮೃತತ್ ೥೧೩೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P862-API-U-1, P862-API-U-2, P862-API-U-3, P862-API-U-4, CH16-PAGE862-ALIGNMENT, REVIEW-7-16-13, REVIEW-SOURCE-7-16-13 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧೩॥",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-7-16-13",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The scan visibly prints स्मृतत् at the end; the reference OCR also preserves a malformed final form. It is tempting to normalize to स्मृतम्, but that is not a scan-supported correction. Hold the exact source and final predication; no accepted full Kannada. The preceding text concerns varied actions performed according to svadharma with awareness of bodily duty, not abandoning duty."
+        },
+        {
+          "id": "REVIEW-SOURCE-7-16-13",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v014",
+      "verse": 14,
+      "sequence_position": 14,
+      "printed_verse_label": 14,
+      "sanskrit_devanagari": "तदेव देवप्रीत्यर्थं कर्म भक्तिमयं मतम् । भक्तिभावार्थमानंदात्\nसस्त्रीको मुनिराकरोत् ॥१४॥",
+      "sanskrit_kannada_script": "ತದೇವ ದೇವಪ್ರೀತ್ಯರ್ಥಂ ಕರ್ಮ ಭಕ್ತಿಮಯಂ ಮತಮ್ ೤ ಭಕ್ತಿಭಾವಾರ್ಥಮಾನಂದಾತ್\nಸಸ್ತ್ರೀಕೋ ಮುನಿರಾಕರೋತ್ ೥೧೪೥",
+      "kannada_meaning": "ಅದೇ ಕರ್ಮವು ದೇವಪ್ರೀತಿಗಾಗಿ ಮಾಡಲ್ಪಟ್ಟರೆ ಭಕ್ತಿಮಯವೆಂದು ಪರಿಗಣಿಸಲ್ಪಡುತ್ತದೆ. ಭಕ್ತಿಭಾವಕ್ಕಾಗಿ ಮುನಿಯು ಪತ್ನೀಸಮೇತನಾಗಿ ಆನಂದದಿಂದ ಹಾಗೆ ಮಾಡಿದನು ॥೧೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v015",
+      "verse": 15,
+      "sequence_position": 15,
+      "printed_verse_label": 15,
+      "sanskrit_devanagari": "एतत्ते कथितं सर्वं विघ्नराजचरित्रकम् । सर्वसिद्धिप्रदं पूर्णं शांतिदं भक्तिकारणम् ॥१५॥",
+      "sanskrit_kannada_script": "ಏತತ್ತೇ ಕಥಿತಂ ಸರ್ವಂ ವಿಘ್ನರಾಜಚರಿತ್ರಕಮ್ ೤ ಸರ್ವಸಿದ್ಧಿಪ್ರದಂ ಪೂರ್ಣಂ ಶಾಂತಿದಂ ಭಕ್ತಿಕಾರಣಮ್ ೥೧೫೥",
+      "kannada_meaning": "ಸಕಲ ಸಿದ್ಧಿಗಳನ್ನು ನೀಡುವ, ಪೂರ್ಣವಾದ, ಶಾಂತಿದಾಯಕವಾದ ಮತ್ತು ಭಕ್ತಿಗೆ ಕಾರಣವಾದ ಈ ವಿಘ್ನರಾಜನ ಚರಿತ್ರೆಯನ್ನೆಲ್ಲ ನಿನಗೆ ಹೇಳಿದ್ದೇನೆ ॥೧೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v016",
+      "verse": 16,
+      "sequence_position": 16,
+      "printed_verse_label": 16,
+      "sanskrit_devanagari": "एवं नानाऽवताराश्च विघ्नराजस्य मानद । तेषां चरित्रकं केन वक्तुं नैव प्रशक्यते ॥१६॥",
+      "sanskrit_kannada_script": "ಏವಂ ನಾನಾಽವತಾರಾಶ್ಚ ವಿಘ್ನರಾಜಸ್ಯ ಮಾನದ ೤ ತೇಷಾಂ ಚರಿತ್ರಕಂ ಕೇನ ವಕ್ತುಂ ನೈವ ಪ್ರಶಕ್ಯತೇ ೥೧೬೥",
+      "kannada_meaning": "ಗೌರವವನ್ನು ನೀಡುವವನೇ, ಹೀಗೆ ವಿಘ್ನರಾಜನ ಅನೇಕ ಅವತಾರಗಳಿವೆ; ಅವುಗಳ ಚರಿತ್ರೆಯನ್ನು ಹೇಳಲು ಯಾರಿಂದಲೂ ಸಾಧ್ಯವಿಲ್ಲ ॥೧೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v017",
+      "verse": 17,
+      "sequence_position": 17,
+      "printed_verse_label": 17,
+      "sanskrit_devanagari": "अयं विघ्नेश्वरो देवः समस्वानंदगो\nभवेत् । सत्यासत्ये विनिर्माय प्रभुः क्रीडति मायया ॥१७॥",
+      "sanskrit_kannada_script": "ಅಯಂ ವಿಘ್ನೇಶ್ವರೋ ದೇವಃ ಸಮಸ್ವಾನಂದಗೋ\nಭವೇತ್ ೤ ಸತ್ಯಾಸತ್ಯೇ ವಿನಿರ್ಮಾಯ ಪ್ರಭುಃ ಕ್ರೀಡತಿ ಮಾಯಯಾ ೥೧೭೥",
+      "kannada_meaning": "ಈ ವಿಘ್ನೇಶ್ವರ ದೇವನು ಸಮಸ್ವಾನಂದದಲ್ಲಿರುವವನು. ಸತ್ಯ ಮತ್ತು ಅಸತ್ಯಗಳನ್ನು ನಿರ್ಮಿಸಿ ಆ ಪ್ರಭುವು ಮಾಯೆಯಿಂದ ಕ್ರೀಡಿಸುತ್ತಾನೆ. ॥೧೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-17",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v018",
+      "verse": 18,
+      "sequence_position": 18,
+      "printed_verse_label": 18,
+      "sanskrit_devanagari": "पूर्णयोगमयश्चायं विघ्नराजः प्रकीर्तितः । तस्यार्थं शृणु भावेन\nब्रह्मबुद्धिप्रकाशकम् ॥१८॥",
+      "sanskrit_kannada_script": "ಪೂರ್ಣಯೋಗಮಯಶ್ಚಾಯಂ ವಿಘ್ನರಾಜಃ ಪ್ರಕೀರ್ತಿತಃ ೤ ತಸ್ಯಾರ್ಥಂ ಶೃಣು ಭಾವೇನ\nಬ್ರಹ್ಮಬುದ್ಧಿಪ್ರಕಾಶಕಮ್ ೥೧೮೥",
+      "kannada_meaning": "ಈ ವಿಘ್ನರಾಜನು ಪೂರ್ಣಯೋಗಮಯನೆಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದ್ದಾನೆ; ಬ್ರಹ್ಮಬುದ್ಧಿಯನ್ನು ಪ್ರಕಾಶಗೊಳಿಸುವ ಅದರ ಅರ್ಥವನ್ನು ಭಾವಪೂರ್ವಕವಾಗಿ ಕೇಳು ॥೧೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v019",
+      "verse": 19,
+      "sequence_position": 19,
+      "printed_verse_label": 19,
+      "sanskrit_devanagari": "संप्रज्ञातमयं ब्रह्माऽसंप्रज्ञातगतं तथा । भ्रमयुक्तं महाविघ्नसंयुक्तं नात्र संशयः ॥१९॥",
+      "sanskrit_kannada_script": "ಸಂಪ್ರಜ್ಞಾತಮಯಂ ಬ್ರಹ್ಮಾಽಸಂಪ್ರಜ್ಞಾತಗತಂ ತಥಾ ೤ ಭ್ರಮಯುಕ್ತಂ ಮಹಾವಿಘ್ನಸಂಯುಕ್ತಂ ನಾತ್ರ ಸಂಶಯಃ ೥೧೯೥",
+      "kannada_meaning": "ಸಂಪ್ರಜ್ಞಾತಮಯವೂ ಹಾಗೆಯೇ ಅಸಂಪ್ರಜ್ಞಾತಗತವೂ ಆದ ಬ್ರಹ್ಮವು ಭ್ರಮೆಯಿಂದಲೂ ಮಹಾವಿಘ್ನದಿಂದಲೂ ಕೂಡಿದೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ॥೧೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-19",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v020",
+      "verse": 20,
+      "sequence_position": 20,
+      "printed_verse_label": 20,
+      "sanskrit_devanagari": "भ्रमहीनं तदेवापि विघ्नहीनं प्रकीर्तितम् । ब्रह्मणि ब्रह्मभूतं चेन्नोभयं तत्र विद्यते ॥२०॥",
+      "sanskrit_kannada_script": "ಭ್ರಮಹೀನಂ ತದೇವಾಪಿ ವಿಘ್ನಹೀನಂ ಪ್ರಕೀರ್ತಿತಮ್ ೤ ಬ್ರಹ್ಮಣಿ ಬ್ರಹ್ಮಭೂತಂ ಚೇನ್ನೋಭಯಂ ತತ್ರ ವಿದ್ಯತೇ ೥೨೦೥",
+      "kannada_meaning": "ಅದೇ ಭ್ರಮೆರಹಿತವಾಗಿದ್ದರೆ ವಿಘ್ನರಹಿತವೆಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ; ಬ್ರಹ್ಮದಲ್ಲಿ ಬ್ರಹ್ಮಭೂತವಾದಾಗ ಅಲ್ಲಿ ಆ ಎರಡೂ ಇರುವುದಿಲ್ಲ ॥೨೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v021",
+      "verse": 21,
+      "sequence_position": 21,
+      "printed_verse_label": 21,
+      "sanskrit_devanagari": "विश्वेषां विघ्नराजोऽयं विघ्नकर्ता\nप्रजापते । विघ्नहर्ता स्वयं साक्षाद्ब्रह्मणां च निरंतरम् ॥२१॥",
+      "sanskrit_kannada_script": "ವಿಶ್ವೇಷಾಂ ವಿಘ್ನರಾಜೋಽಯಂ ವಿಘ್ನಕರ್ತಾ\nಪ್ರಜಾಪತೇ ೤ ವಿಘ್ನಹರ್ತಾ ಸ್ವಯಂ ಸಾಕ್ಷಾದ್ಬ್ರಹ್ಮಣಾಂ ಚ ನಿರಂತರಮ್ ೥೨೧೥",
+      "kannada_meaning": "ಹೇ ಪ್ರಜಾಪತಿಯೇ, ಇವನು ವಿಶ್ವಗಳ ವಿಘ್ನರಾಜನೂ ವಿಘ್ನಕರ್ತನೂ ಆಗಿದ್ದಾನೆ; ಸ್ವತಃ ಸಾಕ್ಷಾತ್ ಬ್ರಹ್ಮಗಳ ವಿಘ್ನಹರ್ತನೂ ನಿರಂತರವಾಗಿದ್ದಾನೆ. ॥೨೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-21",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v022",
+      "verse": 22,
+      "sequence_position": 22,
+      "printed_verse_label": 22,
+      "sanskrit_devanagari": "स्वयं विघ्नयुतो नैव विघ्नहीनो न विद्यते । एवं ज्ञात्वा नरो\nब्रह्मभूतो भवति विघ्नपम् ॥२२॥",
+      "sanskrit_kannada_script": "ಸ್ವಯಂ ವಿಘ್ನಯುತೋ ನೈವ ವಿಘ್ನಹೀನೋ ನ ವಿದ್ಯತೇ ೤ ಏವಂ ಜ್ಞಾತ್ವಾ ನರೋ\nಬ್ರಹ್ಮಭೂತೋ ಭವತಿ ವಿಘ್ನಪಮ್ ೥೨೨೥",
+      "kannada_meaning": "ಇವನು ಸ್ವಯಂ ವಿಘ್ನಯುತನೂ ಅಲ್ಲ, ವಿಘ್ನಹೀನನೂ ಆಗಿರುವುದಿಲ್ಲ; ವಿಘ್ನಪನನ್ನು ಹೀಗೆ ಅರಿತು ಮನುಷ್ಯನು ಬ್ರಹ್ಮಭೂತನಾಗುತ್ತಾನೆ ॥೨೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v023",
+      "verse": 23,
+      "sequence_position": 23,
+      "printed_verse_label": 23,
+      "sanskrit_devanagari": "इदं वैघ्नेश्वरं चित्रं चरितं शृणोति यः । पठेद्वा तस्य विघ्नेशः प्रसन्नो जायते सदा ॥२३॥",
+      "sanskrit_kannada_script": "ಇದಂ ವೈಘ್ನೇಶ್ವರಂ ಚಿತ್ರಂ ಚರಿತಂ ಶೃಣೋತಿ ಯಃ ೤ ಪಠೇದ್ವಾ ತಸ್ಯ ವಿಘ್ನೇಶಃ ಪ್ರಸನ್ನೋ ಜಾಯತೇ ಸದಾ ೥೨೩೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P862-API-U-1, P862-API-U-2, P862-API-U-3, P862-API-U-4, CH16-PAGE862-ALIGNMENT, REVIEW-7-16-23, REVIEW-SOURCE-7-16-23 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೨೩॥",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-7-16-23",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Scan has the visible सं- prefix and the form संश्रुणोति; saved शृणोति omits material. Proposed fragment correction only. Both hearing and reciting trigger the stated favour. चित्रं is rendered “ಅದ್ಭುತ” rather than colloquial “strange”."
+        },
+        {
+          "id": "REVIEW-SOURCE-7-16-23",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v024",
+      "verse": 24,
+      "sequence_position": 24,
+      "printed_verse_label": 24,
+      "sanskrit_devanagari": "प्रसन्ने विघ्नराजेंद्रे किं किं वै दुर्लभं भवेत् । सर्वसिद्धियुतः सोऽते नरो ब्रह्मैव जायते ॥२४॥",
+      "sanskrit_kannada_script": "ಪ್ರಸನ್ನೇ ವಿಘ್ನರಾಜೇಂದ್ರೇ ಕಿಂ ಕಿಂ ವೈ ದುರ್ಲಭಂ ಭವೇತ್ ೤ ಸರ್ವಸಿದ್ಧಿಯುತಃ ಸೋಽತೇ ನರೋ ಬ್ರಹ್ಮೈವ ಜಾಯತೇ ೥೨೪೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P862-API-U-1, P862-API-U-2, P862-API-U-3, P862-API-U-4, CH16-PAGE862-ALIGNMENT, REVIEW-7-16-24, REVIEW-SOURCE-7-16-24 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೨೪॥",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-7-16-24",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Scan/reference support the anomalous printed सोऽते, without a securely visible न् in an expected सोऽन्ते. Raw Kannada silently supplies “ಕೊನೆಯಲ್ಲಿ”. Retain a local source/meaning hold rather than normalizing the text. The rhetorical question and brahmaiva result are otherwise clear."
+        },
+        {
+          "id": "REVIEW-SOURCE-7-16-24",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v025",
+      "verse": 25,
+      "sequence_position": 25,
+      "printed_verse_label": 25,
+      "sanskrit_devanagari": "नानेन सदृशं किंचित्\nपावनं कुत्र वर्तते । भुक्तिमुक्तिप्रदं दक्ष चरित्रं संश्रुतं त्वया ॥२५॥",
+      "sanskrit_kannada_script": "ನಾನೇನ ಸದೃಶಂ ಕಿಂಚಿತ್\nಪಾವನಂ ಕುತ್ರ ವರ್ತತೇ ೤ ಭುಕ್ತಿಮುಕ್ತಿಪ್ರದಂ ದಕ್ಷ ಚರಿತ್ರಂ ಸಂಶ್ರುತಂ ತ್ವಯಾ ೥೨೫೥",
+      "kannada_meaning": "ಇದಕ್ಕೆ ಸಮಾನವಾದ ಪಾವನವಾದುದು ಎಲ್ಲಿಯೂ ಇಲ್ಲ; ಎಲೈ ದಕ್ಷನೇ, ಭುಕ್ತಿ ಮತ್ತು ಮುಕ್ತಿಗಳನ್ನು ನೀಡುವ ಈ ಚರಿತ್ರೆಯು ನಿನ್ನಿಂದ ಕೇಳಲ್ಪಟ್ಟಿತು ॥೨೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v026",
+      "verse": 26,
+      "sequence_position": 26,
+      "printed_verse_label": 26,
+      "sanskrit_devanagari": "पंचाग्निसाधनादीनि तपांसि विविधानि यः । कुर्यात्तेभ्योऽधिकं पुण्यमस्य श्रवणतो लभेत् ॥२६॥",
+      "sanskrit_kannada_script": "ಪಂಚಾಗ್ನಿಸಾಧನಾದೀನಿ ತಪಾಂಸಿ ವಿವಿಧಾನಿ ಯಃ ೤ ಕುರ್ಯಾತ್ತೇಭ್ಯೋಽಧಿಕಂ ಪುಣ್ಯಮಸ್ಯ ಶ್ರವಣತೋ ಲಭೇತ್ ೥೨೬೥",
+      "kannada_meaning": "ಯಾವನು ಪಂಚಾಗ್ನಿಸಾಧನೆ ಮೊದಲಾದ ವಿವಿಧ ತಪಸ್ಸುಗಳನ್ನು ಮಾಡುತ್ತಾನೆಯೋ, ಅವುಗಳಿಂದ ದೊರೆಯುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಪುಣ್ಯವನ್ನು ಇದರ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು. ॥೨೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0806.png",
+          "printed_page": 36,
+          "printed_page_status": "visually verified",
+          "original_image_index": 806,
+          "sha256": "420744760fca018f0d4c1f0de62cea3d5b0c3e815dd2f292481ddade2966f2f9",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        },
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE862-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "CH16-JOIN26",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Join original page fragments exactly once; no invented continuation."
+        },
+        {
+          "id": "REF-COMP-7-16-26",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v027",
+      "verse": 27,
+      "sequence_position": 27,
+      "printed_verse_label": 27,
+      "sanskrit_devanagari": "तीर्थानि विविधान्येव साधयित्वा फलं लभेत् । तेभ्योऽधिकं लभेत् पुण्यं खंडस्यास्य श्रवान्नरः ॥२७॥",
+      "sanskrit_kannada_script": "ತೀರ್ಥಾನಿ ವಿವಿಧಾನ್ಯೇವ ಸಾಧಯಿತ್ವಾ ಫಲಂ ಲಭೇತ್ ೤ ತೇಭ್ಯೋಽಧಿಕಂ ಲಭೇತ್ ಪುಣ್ಯಂ ಖಂಡಸ್ಯಾಸ್ಯ ಶ್ರವಾನ್ನರಃ ೥೨೭೥",
+      "kannada_meaning": "ವಿವಿಧ ತೀರ್ಥಗಳನ್ನು ಸೇವಿಸಿ ದೊರೆಯುವ ಫಲಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪುಣ್ಯವನ್ನು ಮನುಷ್ಯನು ಈ ಖಂಡದ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು. ॥೨೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-27",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v028",
+      "verse": 28,
+      "sequence_position": 28,
+      "printed_verse_label": 28,
+      "sanskrit_devanagari": "यज्ञानां सांगजातानां फलं तस्मात् प्रजापते । अधिकं श्रवणादस्य लभेत् खंडस्य मानवः ॥२८॥",
+      "sanskrit_kannada_script": "ಯಜ್ಞಾನಾಂ ಸಾಂಗಜಾತಾನಾಂ ಫಲಂ ತಸ್ಮಾತ್ ಪ್ರಜಾಪತೇ ೤ ಅಧಿಕಂ ಶ್ರವಣಾದಸ್ಯ ಲಭೇತ್ ಖಂಡಸ್ಯ ಮಾನವಃ ೥೨೮೥",
+      "kannada_meaning": "ಹೇ ಪ್ರಜಾಪತಿಯೇ, ಸಕಲ ಅಂಗಗಳೊಡನೆ ನೆರವೇರಿದ ಯಜ್ಞಗಳ ಫಲಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಫಲವನ್ನು ಮನುಷ್ಯನು ಈ ಖಂಡದ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು. ॥೨೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-28",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v029",
+      "verse": 29,
+      "sequence_position": 29,
+      "printed_verse_label": 29,
+      "sanskrit_devanagari": "इष्टापूर्तादिकं सर्वं यः करोति नरोत्तमः । तेभ्योऽधिकं लभेत्तस्य श्रवणान्नात्र संशयः ॥२९॥",
+      "sanskrit_kannada_script": "ಇಷ್ಟಾಪೂರ್ತಾದಿಕಂ ಸರ್ವಂ ಯಃ ಕರೋತಿ ನರೋತ್ತಮಃ ೤ ತೇಭ್ಯೋಽಧಿಕಂ ಲಭೇತ್ತಸ್ಯ ಶ್ರವಣಾನ್ನಾತ್ರ ಸಂಶಯಃ ೥೨೯೥",
+      "kannada_meaning": "ನರೋತ್ತಮನಾದವನು ಯಾವ ಇಷ್ಟಾಪೂರ್ತಾದಿಗಳೆಲ್ಲವನ್ನೂ ಮಾಡುವನೋ, ಅವುಗಳಿಗಿಂತಲೂ ಅಧಿಕವಾದ ಫಲವನ್ನು ಇದರ ಶ್ರವಣದಿಂದ ಪಡೆಯುವನು; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ ॥೨೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v030",
+      "verse": 30,
+      "sequence_position": 30,
+      "printed_verse_label": 30,
+      "sanskrit_devanagari": "पुत्रपौत्रादिसंयुक्तो धनधान्यादिसंयुतः । आरोग्येण नरो युक्तो भवेदस्य तु संश्रवात् ॥३०॥",
+      "sanskrit_kannada_script": "ಪುತ್ರಪೌತ್ರಾದಿಸಂಯುಕ್ತೋ ಧನಧಾನ್ಯಾದಿಸಂಯುತಃ ೤ ಆರೋಗ್ಯೇಣ ನರೋ ಯುಕ್ತೋ ಭವೇದಸ್ಯ ತು ಸಂಶ್ರವಾತ್ ೥೩೦೥",
+      "kannada_meaning": "ಇದರ ಶ್ರವಣದಿಂದ ಮನುಷ್ಯನು ಪುತ್ರ-ಪೌತ್ರಾದಿಗಳಿಂದ ಕೂಡಿದವನೂ, ಧನ-ಧಾನ್ಯಾದಿಗಳಿಂದ ಕೂಡಿದವನೂ, ಆರೋಗ್ಯದಿಂದ ಕೂಡಿದವನೂ ಆಗುವನು ॥೩೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v031",
+      "verse": 31,
+      "sequence_position": 31,
+      "printed_verse_label": 31,
+      "sanskrit_devanagari": "वंध्यादिदोषभावेन पीडितो यदि मानवः । अस्य श्रवणमात्रेण पीडाहीनो भवेत् सदा ॥३१॥",
+      "sanskrit_kannada_script": "ವಂಧ್ಯಾದಿದೋಷಭಾವೇನ ಪೀಡಿತೋ ಯದಿ ಮಾನವಃ ೤ ಅಸ್ಯ ಶ್ರವಣಮಾತ್ರೇಣ ಪೀಡಾಹೀನೋ ಭವೇತ್ ಸದಾ ೥೩೧೥",
+      "kannada_meaning": "ಮನುಷ್ಯನು ವಂಧ್ಯತ್ವ ಮೊದಲಾದ ದೋಷಗಳಿಂದ ಪೀಡಿತನಾಗಿದ್ದರೆ, ಇದರ ಶ್ರವಣಮಾತ್ರದಿಂದಲೇ ಸದಾ ಪೀಡಾರಹಿತನಾಗುವನು. ॥೩೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-31",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v032",
+      "verse": 32,
+      "sequence_position": 32,
+      "printed_verse_label": 32,
+      "sanskrit_devanagari": "यस्य गेहे स्थितश्चायं खंडो विघ्नेशभक्तिदः । कदा तस्य पिशाचेभ्यश्चौरादिभ्यो भयं न हि ॥३२॥",
+      "sanskrit_kannada_script": "ಯಸ್ಯ ಗೇಹೇ ಸ್ಥಿತಶ್ಚಾಯಂ ಖಂಡೋ ವಿಘ್ನೇಶಭಕ್ತಿದಃ ೤ ಕದಾ ತಸ್ಯ ಪಿಶಾಚೇಭ್ಯಶ್ಚೌರಾದಿಭ್ಯೋ ಭಯಂ ನ ಹಿ ೥೩೨೥",
+      "kannada_meaning": "ವಿಘ್ನೇಶ್ವರನ ಭಕ್ತಿಯನ್ನು ನೀಡುವ ಈ ಖಂಡವು ಯಾರ ಮನೆಯಲ್ಲಿ ಇರುವುದೋ, ಅವನಿಗೆ ಎಂದಿಗೂ ಪಿಶಾಚಿಗಳಿಂದಲೂ ಕಳ್ಳರು ಮೊದಲಾದವರಿಂದಲೂ ಭಯವಿರುವುದಿಲ್ಲ ॥೩೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v033",
+      "verse": 33,
+      "sequence_position": 33,
+      "printed_verse_label": 33,
+      "sanskrit_devanagari": "नाभिभूतं न भूतेभ्यो भयं राजभवं कदा । ग्रहेभ्यो राशिसंस्थेभ्यः पूतनादिभयं न च ॥३३॥",
+      "sanskrit_kannada_script": "ನಾಭಿಭೂತಂ ನ ಭೂತೇಭ್ಯೋ ಭಯಂ ರಾಜಭವಂ ಕದಾ ೤ ಗ್ರಹೇಭ್ಯೋ ರಾಶಿಸಂಸ್ಥೇಭ್ಯಃ ಪೂತನಾದಿಭಯಂ ನ ಚ ೥೩೩೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P862-API-U-1, P862-API-U-2, P862-API-U-3, P862-API-U-4, CH16-PAGE863-ALIGNMENT, REVIEW-7-16-33, REVIEW-SOURCE-7-16-33 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೩೩॥",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-7-16-33",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed नाभिभूतं is not securely interpretable in the current syntax. Raw “ಅಭಿಭೂತವಾದುದಾಗಲಿ” is not meaningful Kannada and does not resolve it. Do not guess न अग्निभूतं or add fire. Hold the first expression; the remaining negated fears from beings, rulers, zodiacal planets and Putana etc. can be translated partially."
+        },
+        {
+          "id": "REVIEW-SOURCE-7-16-33",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review"
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v034",
+      "verse": 34,
+      "sequence_position": 34,
+      "printed_verse_label": 34,
+      "sanskrit_devanagari": "धर्मार्थकाममोक्षाणां दायकोऽयं प्रकीर्तितः । ब्रह्मभूयप्रदः साक्षाच्छ्रवणेन न संशयः ॥३४॥",
+      "sanskrit_kannada_script": "ಧರ್ಮಾರ್ಥಕಾಮಮೋಕ್ಷಾಣಾಂ ದಾಯಕೋಽಯಂ ಪ್ರಕೀರ್ತಿತಃ ೤ ಬ್ರಹ್ಮಭೂಯಪ್ರದಃ ಸಾಕ್ಷಾಚ್ಛ್ರವಣೇನ ನ ಸಂಶಯಃ ೥೩೪೥",
+      "kannada_meaning": "ಇದು ಧರ್ಮ, ಅರ್ಥ, ಕಾಮ ಮತ್ತು ಮೋಕ್ಷಗಳನ್ನು ನೀಡುವಂತಹದ್ದೆಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ. ಶ್ರವಣದಿಂದ ಸಾಕ್ಷಾತ್ ಬ್ರಹ್ಮಭಾವವನ್ನು ಕರುಣಿಸುವಂತಹದ್ದು ಎಂಬುದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ ॥೩೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v035",
+      "verse": 35,
+      "sequence_position": 35,
+      "printed_verse_label": 35,
+      "sanskrit_devanagari": "बहुनाऽत्र किमुक्तेन यत्र विघ्नपतिः स्वयम् । संस्थितस्तेन सामान्यं भविष्यति किमप्यहो ॥३५॥",
+      "sanskrit_kannada_script": "ಬಹುನಾಽತ್ರ ಕಿಮುಕ್ತೇನ ಯತ್ರ ವಿಘ್ನಪತಿಃ ಸ್ವಯಮ್ ೤ ಸಂಸ್ಥಿತಸ್ತೇನ ಸಾಮಾನ್ಯಂ ಭವಿಷ್ಯತಿ ಕಿಮಪ್ಯಹೋ ೥೩೫೥",
+      "kannada_meaning": "ಇಲ್ಲಿ ಹೆಚ್ಚಿಗೆ ಹೇಳುವುದರಿಂದೇನು? ಸ್ವತಃ ವಿಘ್ನಪತಿಯೇ ನೆಲೆಸಿರುವ ಇದು ಸಾಮಾನ್ಯವಾದದ್ದಾಗಲು ಹೇಗೆ ಸಾಧ್ಯ? ಅಹೋ! ॥೩೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-35",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v036",
+      "verse": 36,
+      "sequence_position": 36,
+      "printed_verse_label": 36,
+      "sanskrit_devanagari": "इति ते कथितं सर्वं विघ्नराजस्य चेष्टितम् । भज त्वं सर्वभावेन गणेशं सुखमाप्स्यसि ॥३६॥",
+      "sanskrit_kannada_script": "ಇತಿ ತೇ ಕಥಿತಂ ಸರ್ವಂ ವಿಘ್ನರಾಜಸ್ಯ ಚೇಷ್ಟಿತಮ್ ೤ ಭಜ ತ್ವಂ ಸರ್ವಭಾವೇನ ಗಣೇಶಂ ಸುಖಮಾಪ್ಸ್ಯಸಿ ೥೩೬೥",
+      "kannada_meaning": "ಹೀಗೆ ನಿನಗೆ ವಿಘ್ನರಾಜನ ಎಲ್ಲಾ ಚರಿತ್ರೆಯನ್ನು ಹೇಳಲಾಗಿದೆ. ನೀನು ಸರ್ವಭಾವದಿಂದ ಗಣೇಶನನ್ನು ಭಜಿಸು, ಸುಖವನ್ನು ಪಡೆಯುವೆ ॥೩೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v037",
+      "verse": 37,
+      "sequence_position": 37,
+      "printed_verse_label": 37,
+      "sanskrit_devanagari": "न श्राव्यं दुर्जनायेदं चरित्रं सर्वसिद्धिदम् । साधवे गाणपत्याय श्राव्यं यत्नेन मानद ॥३७॥",
+      "sanskrit_kannada_script": "ನ ಶ್ರಾವ್ಯಂ ದುರ್ಜನಾಯೇದಂ ಚರಿತ್ರಂ ಸರ್ವಸಿದ್ಧಿದಮ್ ೤ ಸಾಧವೇ ಗಾಣಪತ್ಯಾಯ ಶ್ರಾವ್ಯಂ ಯತ್ನೇನ ಮಾನದ ೥೩೭೥",
+      "kannada_meaning": "ಗೌರವವನ್ನು ನೀಡುವವನೇ, ಸರ್ವಸಿದ್ಧಿಯನ್ನು ನೀಡುವ ಈ ಚರಿತ್ರೆಯನ್ನು ದುರ್ಜನನಿಗೆ ಕೇಳಿಸಬಾರದು; ಸಾಧುವಾದ ಗಾಣಪತ್ಯನಿಗೆ ಪ್ರಯತ್ನಪೂರ್ವಕವಾಗಿ ಕೇಳಿಸಬೇಕು ॥೩೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v038",
+      "verse": 38,
+      "sequence_position": 38,
+      "printed_verse_label": 38,
+      "sanskrit_devanagari": "सूत उवाच । एवमुक्त्वा महायोगी मुद्गलो विरराम ह । दक्षो हृष्टमनास्तं तु प्रणनाम कृतांजलिः ॥३८॥",
+      "sanskrit_kannada_script": "ಸೂತ ಉವಾಚ ೤ ಏವಮುಕ್ತ್ವಾ ಮಹಾಯೋಗೀ ಮುದ್ಗಲೋ ವಿರರಾಮ ಹ ೤ ದಕ್ಷೋ ಹೃಷ್ಟಮನಾಸ್ತಂ ತು ಪ್ರಣನಾಮ ಕೃತಾಂಜಲಿಃ ೥೩೮೥",
+      "kannada_meaning": "ಸೂತನು ಹೇಳಿದನು: ಹೀಗೆ ಹೇಳಿ ಮಹಾಯೋಗಿಯಾದ ಮುದ್ಗಲನು ವಿರಮಿಸಿದನು. ದಕ್ಷನು ಹೃಷ್ಟಮನಸ್ಕನಾಗಿ ಕೈಮುಗಿದು ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿದನು ॥೩೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v039",
+      "verse": 39,
+      "sequence_position": 39,
+      "printed_verse_label": 39,
+      "sanskrit_devanagari": "मया ते कथितं पूर्णं चरित्रं विघ्नपस्य यत् । यथा मुद्गलवक्त्राच्च निःसृतं तादृशं परम् ॥३९॥",
+      "sanskrit_kannada_script": "ಮಯಾ ತೇ ಕಥಿತಂ ಪೂರ್ಣಂ ಚರಿತ್ರಂ ವಿಘ್ನಪಸ್ಯ ಯತ್ ೤ ಯಥಾ ಮುದ್ಗಲವಕ್ತ್ರಾಚ್ಚ ನಿಃಸೃತಂ ತಾದೃಶಂ ಪರಮ್ ೥೩೯೥",
+      "kannada_meaning": "ಮುದ್ಗಲನ ಮುಖದಿಂದ ಹೇಗೆ ಹೊರಹೊಮ್ಮಿತೋ ಹಾಗೆಯೇ ಶ್ರೇಷ್ಠವಾದ ವಿಘ್ನಪನ ಪೂರ್ಣ ಚರಿತ್ರೆಯನ್ನು ನಾನು ನಿನಗೆ ಹೇಳಿದ್ದೇನೆ ॥೩೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v040",
+      "verse": 40,
+      "sequence_position": 40,
+      "printed_verse_label": 40,
+      "sanskrit_devanagari": "भवतां संगयोगेन पावितोऽहं न संशयः । श्रोतुमिच्छसि किं भूयो वद शौनक ते हितम् ॥४०॥",
+      "sanskrit_kannada_script": "ಭವತಾಂ ಸಂಗಯೋಗೇನ ಪಾವಿತೋಽಹಂ ನ ಸಂಶಯಃ ೤ ಶ್ರೋತುಮಿಚ್ಛಸಿ ಕಿಂ ಭೂಯೋ ವದ ಶೌನಕ ತೇ ಹಿತಮ್ ೥೪೦೥",
+      "kannada_meaning": "ನಿಮ್ಮೆಲ್ಲರ ಸಾಂಗತ್ಯದಿಂದ ನಾನು ಪಾವನನಾಗಿದ್ದೇನೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ಹೇ ಶೌನಕನೇ, ನಿನ್ನ ಹಿತಕ್ಕಾಗಿ ಇನ್ನೇನನ್ನು ಕೇಳಬಯಸುವೆಯೋ ಹೇಳು. ॥೪೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-40",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh07-ch016-v041",
+      "verse": 41,
+      "sequence_position": 41,
+      "printed_verse_label": 41,
+      "sanskrit_devanagari": "विघ्नराजसमं नैव यथा विप्र तथा परम् । चरित्रं विघ्नराजस्य सर्वसिद्धिप्रदायकम् ॥४१॥",
+      "sanskrit_kannada_script": "ವಿಘ್ನರಾಜಸಮಂ ನೈವ ಯಥಾ ವಿಪ್ರ ತಥಾ ಪರಮ್ ೤ ಚರಿತ್ರಂ ವಿಘ್ನರಾಜಸ್ಯ ಸರ್ವಸಿದ್ಧಿಪ್ರದಾಯಕಮ್ ೥೪೧೥",
+      "kannada_meaning": "ಹೇ ವಿಪ್ರನೇ, ವಿಘ್ನರಾಜನಿಗೆ ಸಮನಾದ ಬೇರೆ ಯಾವುದೂ ಇಲ್ಲದಂತೆ, ವಿಘ್ನರಾಜನ ಚರಿತ್ರೆಯೂ ಪರಮಶ್ರೇಷ್ಠವಾದುದು; ಅದು ಸರ್ವಸಿದ್ಧಿಗಳನ್ನು ನೀಡುತ್ತದೆ. ॥೪೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0807.png",
+          "printed_page": 37,
+          "printed_page_status": "visually verified",
+          "original_image_index": 807,
+          "sha256": "95d9f369726ee6bdf2b9c78338d00d0c0c5ba063b29c96d2f3506d2cff5459a3",
+          "source_kind": "Supplied original Khanda7 imagery directly visually inspected; source alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P862-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Faint print on the word after बहौ; visible raw fragment looks like 'गने' (for गते)"
+        },
+        {
+          "id": "P862-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed character in 'चामजद्विनायकं' has 'म' instead of 'भ' or unclear ligature"
+        },
+        {
+          "id": "P862-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Conjunct in 'गणेध्वरं' is slightly smudged between ष्व/ध्व/श्व"
+        },
+        {
+          "id": "P862-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "First character of 'चेन्नरः' is smudged/misprinted and resembles 'षेन्नरः'"
+        },
+        {
+          "id": "CH16-PAGE863-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-7-16-41",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "kh07-ch016-g001",
+      "verse_ids": [
+        "kh07-ch016-v001"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g002",
+      "verse_ids": [
+        "kh07-ch016-v002"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g003",
+      "verse_ids": [
+        "kh07-ch016-v003"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g004",
+      "verse_ids": [
+        "kh07-ch016-v004"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g005",
+      "verse_ids": [
+        "kh07-ch016-v005"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g006",
+      "verse_ids": [
+        "kh07-ch016-v006"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g007",
+      "verse_ids": [
+        "kh07-ch016-v007"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g008",
+      "verse_ids": [
+        "kh07-ch016-v008"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g009",
+      "verse_ids": [
+        "kh07-ch016-v009"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g010",
+      "verse_ids": [
+        "kh07-ch016-v010"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g011",
+      "verse_ids": [
+        "kh07-ch016-v011"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g012",
+      "verse_ids": [
+        "kh07-ch016-v012"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g013",
+      "verse_ids": [
+        "kh07-ch016-v013"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g014",
+      "verse_ids": [
+        "kh07-ch016-v014"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g015",
+      "verse_ids": [
+        "kh07-ch016-v015"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g016",
+      "verse_ids": [
+        "kh07-ch016-v016"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g017",
+      "verse_ids": [
+        "kh07-ch016-v017"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g018",
+      "verse_ids": [
+        "kh07-ch016-v018"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g019",
+      "verse_ids": [
+        "kh07-ch016-v019"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g020",
+      "verse_ids": [
+        "kh07-ch016-v020"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g021",
+      "verse_ids": [
+        "kh07-ch016-v021"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g022",
+      "verse_ids": [
+        "kh07-ch016-v022"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g023",
+      "verse_ids": [
+        "kh07-ch016-v023"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g024",
+      "verse_ids": [
+        "kh07-ch016-v024"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g025",
+      "verse_ids": [
+        "kh07-ch016-v025"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g026",
+      "verse_ids": [
+        "kh07-ch016-v026"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g027",
+      "verse_ids": [
+        "kh07-ch016-v027"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g028",
+      "verse_ids": [
+        "kh07-ch016-v028"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g029",
+      "verse_ids": [
+        "kh07-ch016-v029"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g030",
+      "verse_ids": [
+        "kh07-ch016-v030"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g031",
+      "verse_ids": [
+        "kh07-ch016-v031"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g032",
+      "verse_ids": [
+        "kh07-ch016-v032"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g033",
+      "verse_ids": [
+        "kh07-ch016-v033"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g034",
+      "verse_ids": [
+        "kh07-ch016-v034"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g035",
+      "verse_ids": [
+        "kh07-ch016-v035"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g036",
+      "verse_ids": [
+        "kh07-ch016-v036"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g037",
+      "verse_ids": [
+        "kh07-ch016-v037"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g038",
+      "verse_ids": [
+        "kh07-ch016-v038"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g039",
+      "verse_ids": [
+        "kh07-ch016-v039"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g040",
+      "verse_ids": [
+        "kh07-ch016-v040"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh07-ch016-g041",
+      "verse_ids": [
+        "kh07-ch016-v041"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    }
+  ],
+  "separate_invocation_devanagari": "॥ श्रीगणेशाय नमः ॥",
+  "separate_invocation_kannada_script": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+  "colophon": {}
+}
