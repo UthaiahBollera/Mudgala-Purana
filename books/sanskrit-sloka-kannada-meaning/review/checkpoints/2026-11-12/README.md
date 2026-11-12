@@ -20,7 +20,7 @@ Sanskrit-language verses are shown in Kannada script, above the same numbered Ka
 
 - Khanda 3 contains 51 chapters and 2,645 recorded positions; 250 meanings remain explicitly pending. Earlier Chapters 1–14 were inventoried rather than freshly reverified for this checkpoint.
 - Khanda 4 contains 52 chapters. The additional source-supported 4.8.19 reading is included; 4.8.15 remains pending at this cutoff. All broad source and interpretation qualifications remain.
-- Khanda 5 retains one missing-label placeholder at 5.28.31, the printed-label anomalies and the unresolved marker near 5.29.53. Its pending total includes 134 text-bearing records and one placeholder.
+- Khanda 5 retains the missing printed verse-label placeholder at 5.41.35 and the recorded printed-numbering anomalies. Its pending total includes 134 text-bearing records and one placeholder. Metadata-tag corrections do not change the scripture or accepted-meaning counts.
 - Khanda 6 is frozen after batch 11: 56 newly accepted qualified meanings and 201 pending meanings. Source supplements, conflicting names and durations, numbering anomalies and the Om-iti colophon are retained. Later unsaved proposals are excluded.
 - Khanda 7 and Khanda 8 retain 41 and 181 pending meanings respectively; this checkpoint does not clear their source or interpretation qualifications.
 - Khanda 9 includes the completed later correction pass for Chapters 25, 30, 31 and 41, separately from the 43 newly accepted qualified meanings in Chapters 1–24. Its 84 pending meanings count covers Chapters 1–24; unresolved source gaps and qualifications also remain in later chapters.
