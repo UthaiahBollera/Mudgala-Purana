@@ -1,7 +1,7 @@
 name: New book quality gate
 on:
   push:
-    branches: [book/sanskrit-kannada-blank-starter]
+    branches: [book/sanskrit-kannada-blank-starter, release/mudgala-review-2026-11-17]
     paths: ['books/sanskrit-sloka-kannada-meaning/**', '.github/workflows/new-book-quality.yml']
   pull_request:
     paths: ['books/sanskrit-sloka-kannada-meaning/**', '.github/workflows/new-book-quality.yml']

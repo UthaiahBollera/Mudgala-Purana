@@ -1,0 +1,16 @@
+.review-reader { max-width: 58rem; margin: auto; padding: 1.25rem; }
+.review-warning { border: 2px solid #986927; background: #fff8e8; color: #332711; padding: 1rem; margin: 1.5rem 0; }
+.review-warning h2 { font-size: 1.2rem; }
+.review-entry { border-bottom: 1px solid #aaa; padding: 1.3rem 0; scroll-margin-top: 1rem; }
+.review-entry h2 { font-size: 1rem; overflow-wrap: anywhere; }
+.review-text p { line-height: 1.9; }
+.review-text pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .85rem; }
+.review-text details { margin: 1rem 0; }
+.review-text summary { cursor: pointer; }
+.review-status { font-size: .9rem; font-weight: bold; }
+
+.review-group { border-bottom: 1px solid #aaa; margin: 2rem 0; padding-bottom: 1rem; }
+.review-sloka { color: var(--book-verse); }
+.review-sloka h2, .review-meaning h3 { font-size: .9rem; }
+.review-meaning { margin: 1.5rem 0; }
+

@@ -43,3 +43,5 @@ for c in data['chapters']:
 
 import runpy
 runpy.run_path(str(site/'scripts/editions.py'))
+
+runpy.run_path(str(site/'scripts/prepare-review.py'), run_name='__main__')

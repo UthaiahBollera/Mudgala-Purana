@@ -9,7 +9,7 @@
     "test": "node --test scripts/reader.test.mjs",
     "downloads": "node scripts/print.mjs",
     "test:seo": "node --test scripts/seo.test.mjs",
-    "postbuild": "npm run test:seo && npm test",
+    "postbuild": "npm run test:seo && npm test && python3 scripts/test-review.py",
     "validate": "npm run build",
     "test:browser": "node scripts/browser-smoke.mjs",
     "test:gate": "node scripts/test-gate.mjs",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "2.0.1",
-    "next": "16.4.3",
+    "next": "16.4.5",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

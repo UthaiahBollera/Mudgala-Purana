@@ -1,0 +1,3768 @@
+{
+  "edition": "Mudgala Purana paired review checkpoint",
+  "checkpoint_date": "2026-11-12",
+  "status": "Review draft; not expert verified; not integrated into the canonical reader",
+  "khanda": 8,
+  "chapter": 14,
+  "source_draft_sha256": "b3d716a8628f4c8d8001a24c2e62da1cffc1273d9b186ef2fc935d01b89911f6",
+  "entries": [
+    {
+      "id": "kh08-ch014-v001",
+      "verse": 1,
+      "sequence_position": 1,
+      "printed_verse_label": 1,
+      "sanskrit_devanagari": "श्रीशिव उवाच । कृपया वरदानेन गणेशभजनेन च । बुद्धिभेदः शिवस्यापि बभूव सर्वसंयुतः ॥१॥",
+      "sanskrit_kannada_script": "ಶ್ರೀಶಿವ ಉವಾಚ ೤ ಕೃಪಯಾ ವರದಾನೇನ ಗಣೇಶಭಜನೇನ ಚ ೤ ಬುದ್ಧಿಭೇದಃ ಶಿವಸ್ಯಾಪಿ ಬಭೂವ ಸರ್ವಸಂಯುತಃ ೥೧೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P908-API-U-1, P908-API-U-2, P909-API-U-1, CH14-PAGE908-ALIGNMENT, REVIEW-8-14-1 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧॥",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-8-14-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Pixel p908 supports बुद्धिभेदः ... सर्वसंयुतः, but the precise relation of sarvasaṃyutaḥ is not settled. Kannada “ಶಿವನ ಸಕಲ ಬುದ್ಧಿಭೇದವೂ ಉಂಟಾಯಿತು” risks calling renewed confusion rather than change of disposition. Do not publish a smoothed reading without settling the source syntax."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v002",
+      "verse": 2,
+      "sequence_position": 2,
+      "printed_verse_label": 2,
+      "sanskrit_devanagari": "ततो गिरिसुतायुक्तः शंकरः स्कंदमुख्यकैः । गणैः समाययौ सद्यो बाणस्य नगरं पुनः ॥२॥",
+      "sanskrit_kannada_script": "ತತೋ ಗಿರಿಸುತಾಯುಕ್ತಃ ಶಂಕರಃ ಸ್ಕಂದಮುಖ್ಯಕೈಃ ೤ ಗಣೈಃ ಸಮಾಯಯೌ ಸದ್ಯೋ ಬಾಣಸ್ಯ ನಗರಂ ಪುನಃ ೥೨೥",
+      "kannada_meaning": "ತದನಂತರ ಗಿರಿಸುತೆಯೊಡಗೂಡಿದ ಶಂಕರನು ಸ್ಕಂದನೇ ಮೊದಲಾದ ಗಣಗಳೊಡನೆ ಕೂಡಲೇ ಬಾಣನ ನಗರಕ್ಕೆ ಪುನಃ ಬಂದನು. ॥೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-14-2",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v003",
+      "verse": 3,
+      "sequence_position": 3,
+      "printed_verse_label": 3,
+      "sanskrit_devanagari": "तमागतं समाज्ञाय बाणो हर्षसमन्वितः । ध्यात्वा गजाननं देवं ययौ शंकरसंनिधिम् ॥३॥",
+      "sanskrit_kannada_script": "ತಮಾಗತಂ ಸಮಾಜ್ಞಾಯ ಬಾಣೋ ಹರ್ಷಸಮನ್ವಿತಃ ೤ ಧ್ಯಾತ್ವಾ ಗಜಾನನಂ ದೇವಂ ಯಯೌ ಶಂಕರಸಂನಿಧಿಮ್ ೥೩೥",
+      "kannada_meaning": "ಅವನು ಬಂದಿರುವುದನ್ನು ತಿಳಿದು ಬಾಣನು ಹರ್ಷಿತನಾಗಿ, ಗಜಾನನ ದೇವನನ್ನು ಧ್ಯಾನಿಸಿ ಶಂಕರನ ಸನ್ನಿಧಿಗೆ ಹೋದನು ॥೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v004",
+      "verse": 4,
+      "sequence_position": 4,
+      "printed_verse_label": 4,
+      "sanskrit_devanagari": "प्रणनाम स साष्टांगं शिवं गणसमन्वितम् । रुरोद पूजयित्वा तं क्षमस्वेति जगाद सः ॥४॥",
+      "sanskrit_kannada_script": "ಪ್ರಣನಾಮ ಸ ಸಾಷ್ಟಾಂಗಂ ಶಿವಂ ಗಣಸಮನ್ವಿತಮ್ ೤ ರುರೋದ ಪೂಜಯಿತ್ವಾ ತಂ ಕ್ಷಮಸ್ವೇತಿ ಜಗಾದ ಸಃ ೥೪೥",
+      "kannada_meaning": "ಅವನು ಗಣಸಮನ್ವಿತನಾದ ಶಿವನಿಗೆ ಸಾಷ್ಟಾಂಗವಾಗಿ ನಮಸ್ಕರಿಸಿದನು. ಅವನನ್ನು ಪೂಜಿಸಿ ಅತ್ತನು ಮತ್ತು 'ಕ್ಷಮಿಸು' ಎಂದು ಅವನು ಹೇಳಿದನು ॥೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v005",
+      "verse": 5,
+      "sequence_position": 5,
+      "printed_verse_label": 5,
+      "sanskrit_devanagari": "ततस्तं शंकरो भक्तं समुत्थाप्य प्रसब्रजे । जगाद मधुरं वाक्यं हर्षयन् दानवाधिपम् ॥५॥",
+      "sanskrit_kannada_script": "ತತಸ್ತಂ ಶಂಕರೋ ಭಕ್ತಂ ಸಮುತ್ಥಾಪ್ಯ ಪ್ರಸಬ್ರಜೇ ೤ ಜಗಾದ ಮಧುರಂ ವಾಕ್ಯಂ ಹರ್ಷಯನ್ ದಾನವಾಧಿಪಮ್ ೥೫೥",
+      "kannada_meaning": "ಆಗ ಶಂಕರನು ಆ ಭಕ್ತನನ್ನು ಮೇಲೆಬ್ಬಿಸಿ ಆಲಂಗಿಸಿಕೊಂಡನು. ದಾನವಾಧಿಪನನ್ನು ಸಂತೋಷಪಡಿಸುತ್ತಾ ಮಧುರವಾದ ಮಾತನ್ನು ಹೇಳಿದನು ॥೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-SOURCE-8-14-5",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "\"ततस्तं शंकरो भक्तं समुत्थाप्य प्रसस्वजे । जगाद मधुरं वाक्यं हर्षयन् दानवाधिपम् ॥५॥\""
+        },
+        {
+          "id": "REF-COMP-8-14-5",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v006",
+      "verse": 6,
+      "sequence_position": 6,
+      "printed_verse_label": 6,
+      "sanskrit_devanagari": "श्रीशिव उवाच । मा कुरुष्व वृथा चिंतां संतुष्टोऽहं समागतः । वरान् वृणु महाभाग दास्यामि बलिनंदन ॥६॥",
+      "sanskrit_kannada_script": "ಶ್ರೀಶಿವ ಉವಾಚ ೤ ಮಾ ಕುರುಷ್ವ ವೃಥಾ ಚಿಂತಾಂ ಸಂತುಷ್ಟೋಽಹಂ ಸಮಾಗತಃ ೤ ವರಾನ್ ವೃಣು ಮಹಾಭಾಗ ದಾಸ್ಯಾಮಿ ಬಲಿನಂದನ ೥೬೥",
+      "kannada_meaning": "ಶ್ರೀಶಿವನು ಹೇಳಿದನು: ವೃಥಾ ಚಿಂತೆಯನ್ನು ಮಾಡಬೇಡ, ನಾನು ಸಂತುಷ್ಟನಾಗಿ ಬಂದಿದ್ದೇನೆ. ಎಲೈ ಮಹಾಭಾಗನೇ, ಬಲಿನಂದನನೇ, ವರಗಳನ್ನು ಕೇಳು, ಕೊಡುತ್ತೇನೆ ॥೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v007",
+      "verse": 7,
+      "sequence_position": 7,
+      "printed_verse_label": 7,
+      "sanskrit_devanagari": "बाणासुर उवाच । तव भक्तिं स्थिरां देहि वियोगस्ते न मे क्वचित् । भवेत्तथा महादेव कुरुष्व शिव सर्वदा ॥७॥",
+      "sanskrit_kannada_script": "ಬಾಣಾಸುರ ಉವಾಚ ೤ ತವ ಭಕ್ತಿಂ ಸ್ಥಿರಾಂ ದೇಹಿ ವಿಯೋಗಸ್ತೇ ನ ಮೇ ಕ್ವಚಿತ್ ೤ ಭವೇತ್ತಥಾ ಮಹಾದೇವ ಕುರುಷ್ವ ಶಿವ ಸರ್ವದಾ ೥೭೥",
+      "kannada_meaning": "ಬಾಣಾಸುರನು ಹೇಳಿದನು: ನಿನ್ನ ಸ್ಥಿರವಾದ ಭಕ್ತಿಯನ್ನು ಕೊಡು, ನನಗೆ ಎಂದಿಗೂ ನಿನ್ನ ವಿಯೋಗವು ಉಂಟಾಗದಿರಲಿ. ಎಲೈ ಮಹಾದೇವನೇ, ಶಿವನೇ, ಯಾವಾಗಲೂ ಹಾಗೆಯೇ ಆಗುವಂತೆ ಮಾಡು ॥೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v008",
+      "verse": 8,
+      "sequence_position": 8,
+      "printed_verse_label": 8,
+      "sanskrit_devanagari": "तथेत्युवाच शंभुस्तं तस्थौ तन्नगरे सदा । ततस्तस्मात् सुता जज्ञे सर्वलक्षणसंयुता ॥८॥",
+      "sanskrit_kannada_script": "ತಥೇತ್ಯುವಾಚ ಶಂಭುಸ್ತಂ ತಸ್ಥೌ ತನ್ನಗರೇ ಸದಾ ೤ ತತಸ್ತಸ್ಮಾತ್ ಸುತಾ ಜಜ್ಞೇ ಸರ್ವಲಕ್ಷಣಸಂಯುತಾ ೥೮೥",
+      "kannada_meaning": "ಶಂಭುವು ಅವನಿಗೆ “ಹಾಗೆಯೇ ಆಗಲಿ” ಎಂದು ಹೇಳಿ ಆ ನಗರದಲ್ಲಿಯೇ ಸದಾ ನೆಲೆಸಿದನು. ತದನಂತರ ಬಾಣನಿಗೆ ಸರ್ವಲಕ್ಷಣಸಂಪನ್ನಳಾದ ಮಗಳು ಜನಿಸಿದಳು. ॥೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-14-8",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v009",
+      "verse": 9,
+      "sequence_position": 9,
+      "printed_verse_label": 9,
+      "sanskrit_devanagari": "उषानाम्नीं महाभागामुपयेमेऽनिरुद्धकः । तां स्वप्ने सा शुशोचैव तदर्थं कामपीडिता ॥९॥",
+      "sanskrit_kannada_script": "ಉಷಾನಾಮ್ನೀಂ ಮಹಾಭಾಗಾಮುಪಯೇಮೇಽನಿರುದ್ಧಕಃ ೤ ತಾಂ ಸ್ವಪ್ನೇ ಸಾ ಶುಶೋಚೈವ ತದರ್ಥಂ ಕಾಮಪೀಡಿತಾ ೥೯೥",
+      "kannada_meaning": "ಮಹಾಭಾಗಳಾದ ಉಷಾ ಎಂಬ ಹೆಸರಿನ ಅವಳನ್ನು ಅನಿರುದ್ಧನು ಕನಸಿನಲ್ಲಿ ವಿವಾಹವಾದನು. ಅವಳೂ ಕಾಮಪೀಡಿತಳಾಗಿ ಅವನಿಗಾಗಿಯೇ ಶೋಕಿಸಿದಳು ॥೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v010",
+      "verse": 10,
+      "sequence_position": 10,
+      "printed_verse_label": 10,
+      "sanskrit_devanagari": "चित्रलेखा तमानीय ददौ तस्यै पतिं स्वकम् । मायया यादवान् संमोह्य मुमोद ततः परम् ॥१०॥",
+      "sanskrit_kannada_script": "ಚಿತ್ರಲೇಖಾ ತಮಾನೀಯ ದದೌ ತಸ್ಯೈ ಪತಿಂ ಸ್ವಕಮ್ ೤ ಮಾಯಯಾ ಯಾದವಾನ್ ಸಂಮೋಹ್ಯ ಮುಮೋದ ತತಃ ಪರಮ್ ೥೧೦೥",
+      "kannada_meaning": "ಚಿತ್ರಲೇಖೆಯು ಮಾಯೆಯಿಂದ ಯಾದವರನ್ನು ಸಮ್ಮೋಹಗೊಳಿಸಿ, ಅವನನ್ನು ಕರೆದುಕೊಂಡು ಬಂದು ಅವಳಿಗೆ ಅವಳ ಪತಿಯನ್ನು ಒಪ್ಪಿಸಿದಳು ಮತ್ತು ತದನಂತರ ಬಹಳವಾಗಿ ಸಂತೋಷಪಟ್ಟಳು ॥೧೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v011",
+      "verse": 11,
+      "sequence_position": 11,
+      "printed_verse_label": 11,
+      "sanskrit_devanagari": "एकस्तंभस्थितां तां स उपयेमेऽनिरुद्धकः । तया संमोहितोऽत्यंतं रेमे हर्षसमन्वितः ॥११॥",
+      "sanskrit_kannada_script": "ಏಕಸ್ತಂಭಸ್ಥಿತಾಂ ತಾಂ ಸ ಉಪಯೇಮೇಽನಿರುದ್ಧಕಃ ೤ ತಯಾ ಸಂಮೋಹಿತೋಽತ್ಯಂತಂ ರೇಮೇ ಹರ್ಷಸಮನ್ವಿತಃ ೥೧೧೥",
+      "kannada_meaning": "ಏಕಸ್ತಂಭದಲ್ಲಿ ನೆಲೆಸಿದ್ದ ಅವಳನ್ನು ಆ ಅನಿರುದ್ಧನು ವಿವಾಹವಾದನು. ಅವಳಿಂದ ಸಮ್ಮೋಹಿತನಾಗಿ ಹರ್ಷಸಮನ್ವಿತನಾಗಿ ಅತ್ಯಂತವಾಗಿ ರಮಿಸಿದನು ॥೧೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v012",
+      "verse": 12,
+      "sequence_position": 12,
+      "printed_verse_label": 12,
+      "sanskrit_devanagari": "यादवाः संहृतं रात्रौ दृष्ट्वा कामसुतं दृढम् । शुशुचुः परमोद्विग्ना न लेभुस्तद्गतिं च ते ॥१२॥",
+      "sanskrit_kannada_script": "ಯಾದವಾಃ ಸಂಹೃತಂ ರಾತ್ರೌ ದೃಷ್ಟ್ವಾ ಕಾಮಸುತಂ ದೃಢಮ್ ೤ ಶುಶುಚುಃ ಪರಮೋದ್ವಿಗ್ನಾ ನ ಲೇಭುಸ್ತದ್ಗತಿಂ ಚ ತೇ ೥೧೨೥",
+      "kannada_meaning": "ರಾತ್ರಿಯಲ್ಲಿ ಬಲವಾಗಿ ಅಪಹರಿಸಲ್ಪಟ್ಟ ಕಾಮಸುತನನ್ನು ಕಂಡು ಯಾದವರು ಪರಮ ಉದ್ವಿಗ್ನರಾಗಿ ಶೋಕಿಸಿದರು ಮತ್ತು ಅವರು ಅವನ ಗತಿಯನ್ನು ತಿಳಿಯಲಿಲ್ಲ ॥೧೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v013",
+      "verse": 13,
+      "sequence_position": 13,
+      "printed_verse_label": 13,
+      "sanskrit_devanagari": "प्रद्युम्नेन गणाधीशः प्रार्थितस्तपसा परः । तस्य प्रसादयोगेन नारदस्तत्र चायायौ ॥१३॥",
+      "sanskrit_kannada_script": "ಪ್ರದ್ಯುಮ್ನೇನ ಗಣಾಧೀಶಃ ಪ್ರಾರ್ಥಿತಸ್ತಪಸಾ ಪರಃ ೤ ತಸ್ಯ ಪ್ರಸಾದಯೋಗೇನ ನಾರದಸ್ತತ್ರ ಚಾಯಾಯೌ ೥೧೩೥",
+      "kannada_meaning": "ಪ್ರದ್ಯುಮ್ನನಿಂದ ತಪಸ್ಸಿನ ಮೂಲಕ ಪರನಾದ ಗಣಾಧೀಶನು ಪ್ರಾರ್ಥಿಸಲ್ಪಟ್ಟನು. ಅವನ ಪ್ರಸಾದಯೋಗದಿಂದ ನಾರದನು ಅಲ್ಲಿಗೆ ಬಂದನು ॥೧೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v014",
+      "verse": 14,
+      "sequence_position": 14,
+      "printed_verse_label": 14,
+      "sanskrit_devanagari": "तेन संकथितं सर्वं चेष्टितं कामपुत्रजम् । श्रुत्वा संहर्षिताः सर्वे यादवाः प्रबभूविरे ॥१४॥",
+      "sanskrit_kannada_script": "ತೇನ ಸಂಕಥಿತಂ ಸರ್ವಂ ಚೇಷ್ಟಿತಂ ಕಾಮಪುತ್ರಜಮ್ ೤ ಶ್ರುತ್ವಾ ಸಂಹರ್ಷಿತಾಃ ಸರ್ವೇ ಯಾದವಾಃ ಪ್ರಬಭೂವಿರೇ ೥೧೪೥",
+      "kannada_meaning": "ಕಾಮಪುತ್ರನಿಗೆ ಸಂಬಂಧಿಸಿದ ಎಲ್ಲಾ ಚೇಷ್ಟಿತವೂ ಅವನಿಂದ ಹೇಳಲ್ಪಟ್ಟಿತು. ಅದನ್ನು ಕೇಳಿ ಎಲ್ಲಾ ಯಾದವರೂ ಹರ್ಷಿತರಾದರು ॥೧೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v015",
+      "verse": 15,
+      "sequence_position": 15,
+      "printed_verse_label": 15,
+      "sanskrit_devanagari": "तत ईश्वरसंयुक्तं बाणं जेतुं मनो दधे । कृष्णो रामेण संयुक्तो यादवैः परमद्युतिः ॥१५॥",
+      "sanskrit_kannada_script": "ತತ ಈಶ್ವರಸಂಯುಕ್ತಂ ಬಾಣಂ ಜೇತುಂ ಮನೋ ದಧೇ ೤ ಕೃಷ್ಣೋ ರಾಮೇಣ ಸಂಯುಕ್ತೋ ಯಾದವೈಃ ಪರಮದ್ಯುತಿಃ ೥೧೫೥",
+      "kannada_meaning": "ಆಗ ಪರಮ ತೇಜಸ್ವಿಯಾದ ಕೃಷ್ಣನು ರಾಮನೊಡಗೂಡಿ ಯಾದವರೊಡನೆ ಈಶ್ವರಸಂಯುಕ್ತನಾದ ಬಾಣನನ್ನು ಗೆಲ್ಲಲು ಮನಸ್ಸು ಮಾಡಿದನು ॥೧೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v016",
+      "verse": 16,
+      "sequence_position": 16,
+      "printed_verse_label": 16,
+      "sanskrit_devanagari": "शंकरस्य भयेनैव भीतं तं प्रत्युवाच ह । उद्धवः कुरु कृष्ण त्वं गणेशाराधनं परम् ॥१६॥",
+      "sanskrit_kannada_script": "ಶಂಕರಸ್ಯ ಭಯೇನೈವ ಭೀತಂ ತಂ ಪ್ರತ್ಯುವಾಚ ಹ ೤ ಉದ್ಧವಃ ಕುರು ಕೃಷ್ಣ ತ್ವಂ ಗಣೇಶಾರಾಧನಂ ಪರಮ್ ೥೧೬೥",
+      "kannada_meaning": "ಶಂಕರನ ಭಯದಿಂದಲೇ ಭೀತನಾದ ಅವನನ್ನು ಕುರಿತು ಉದ್ಧವನು ಹೀಗೆಂದು ಉತ್ತರಿಸಿದನು: ಎಲೈ ಕೃಷ್ಣನೇ, ನೀನು ಶ್ರೇಷ್ಠವಾದ ಗಣೇಶಾರಾಧನೆಯನ್ನು ಮಾಡು ॥೧೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v017",
+      "verse": 17,
+      "sequence_position": 17,
+      "printed_verse_label": 17,
+      "sanskrit_devanagari": "तेन विघ्नविहीनस्त्वं भविष्यसि न संशयः । शिवस्त्वां संयुगे जेतुमशक्तः प्रभविष्यति ॥१७॥",
+      "sanskrit_kannada_script": "ತೇನ ವಿಘ್ನವಿಹೀನಸ್ತ್ವಂ ಭವಿಷ್ಯಸಿ ನ ಸಂಶಯಃ ೤ ಶಿವಸ್ತ್ವಾಂ ಸಂಯುಗೇ ಜೇತುಮಶಕ್ತಃ ಪ್ರಭವಿಷ್ಯತಿ ೥೧೭೥",
+      "kannada_meaning": "ಅದರಿಂದ ನೀನು ವಿಘ್ನರಹಿತನಾಗುವೆ, ಸಂಶಯವಿಲ್ಲ. ಶಿವನು ಯುದ್ಧದಲ್ಲಿ ನಿನ್ನನ್ನು ಗೆಲ್ಲಲು ಅಶಕ್ತನಾಗುವನು ॥೧೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v018",
+      "verse": 18,
+      "sequence_position": 18,
+      "printed_verse_label": 18,
+      "sanskrit_devanagari": "तत एकाक्षरस्यैव पुरश्चरणमाकरोत् । कृष्णो गणपतिं ध्यात्वा यथाशास्त्रं विधानतः ॥१८॥",
+      "sanskrit_kannada_script": "ತತ ಏಕಾಕ್ಷರಸ್ಯೈವ ಪುರಶ್ಚರಣಮಾಕರೋತ್ ೤ ಕೃಷ್ಣೋ ಗಣಪತಿಂ ಧ್ಯಾತ್ವಾ ಯಥಾಶಾಸ್ತ್ರಂ ವಿಧಾನತಃ ೥೧೮೥",
+      "kannada_meaning": "ಆಗ ಕೃಷ್ಣನು ಗಣಪತಿಯನ್ನು ಧ್ಯಾನಿಸಿ ಶಾಸ್ತ್ರಾನುಸಾರವಾಗಿ ವಿಧಾನಪೂರ್ವಕವಾಗಿ ಏಕಾಕ್ಷರ ಮಂತ್ರದ ಪುರಶ್ಚರಣೆಯನ್ನು ಮಾಡಿದನು ॥೧೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v019",
+      "verse": 19,
+      "sequence_position": 19,
+      "printed_verse_label": 19,
+      "sanskrit_devanagari": "यादवैः प्रययौ तत्र यत्र बाणः स्थितोऽभवत् । शंखं दध्मौ ततः सोऽपि स शिवो योद्धुमाययौ ॥१९॥",
+      "sanskrit_kannada_script": "ಯಾದವೈಃ ಪ್ರಯಯೌ ತತ್ರ ಯತ್ರ ಬಾಣಃ ಸ್ಥಿತೋಽಭವತ್ ೤ ಶಂಖಂ ದಧ್ಮೌ ತತಃ ಸೋಽಪಿ ಸ ಶಿವೋ ಯೋದ್ಧುಮಾಯಯೌ ೥೧೯೥",
+      "kannada_meaning": "ಬಾಣನು ಎಲ್ಲಿ ನೆಲೆಸಿದ್ದನೋ ಅಲ್ಲಿಗೆ ಕೃಷ್ಣನು ಯಾದವರೊಡನೆ ಹೊರಟನು. ತದನಂತರ ಶಂಖವನ್ನು ಊದಿದನು; ಆಗ ಆ ಶಿವನೂ ಯುದ್ಧಮಾಡಲು ಬಂದನು. ॥೧೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-14-19",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v020",
+      "verse": 20,
+      "sequence_position": 20,
+      "printed_verse_label": 20,
+      "sanskrit_devanagari": "ततः शिवो ददौ तस्मै कवचं गणपस्य च । सामवेदभवं शुद्धं बाणाय खेदसंयुतः ॥२०॥",
+      "sanskrit_kannada_script": "ತತಃ ಶಿವೋ ದದೌ ತಸ್ಮೈ ಕವಚಂ ಗಣಪಸ್ಯ ಚ ೤ ಸಾಮವೇದಭವಂ ಶುದ್ಧಂ ಬಾಣಾಯ ಖೇದಸಂಯುತಃ ೥೨೦೥",
+      "kannada_meaning": "ಆಗ ಶಿವನು ಖೇದಗೊಂಡವನಾಗಿ ಬಾಣನಿಗೆ ಸಾಮವೇದೋದ್ಭವವಾದ ಶುದ್ಧವಾದ ಗಣಪತಿಯ ಕವಚವನ್ನು ಕೊಟ್ಟನು ॥೨೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v021",
+      "verse": 21,
+      "sequence_position": 21,
+      "printed_verse_label": 21,
+      "sanskrit_devanagari": "शिवशास्त्रासुरेणात्र हस्तच्छेदस्य कारणात् । कृष्णः संयुयुधे तेन दैत्येंद्रेण महाबलः ॥२१॥",
+      "sanskrit_kannada_script": "ಶಿವಶಾಸ್ತ್ರಾಸುರೇಣಾತ್ರ ಹಸ್ತಚ್ಛೇದಸ್ಯ ಕಾರಣಾತ್ ೤ ಕೃಷ್ಣಃ ಸಂಯುಯುಧೇ ತೇನ ದೈತ್ಯೇಂದ್ರೇಣ ಮಹಾಬಲಃ ೥೨೧೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P908-API-U-1, P908-API-U-2, P909-API-U-1, CH14-PAGE908-ALIGNMENT, REVIEW-8-14-21 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೨೧॥",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-8-14-21",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Enlarged p908 has a visible शिवशापा... sequence, not saved शिवशास्त्रा.... The following sandhi/conjunct in ...सुरेणात्र is not safely resolved from this scan. Kannada “ಶಿವಶಾಸ್ತ್ರದಿಂದ” therefore cannot be accepted; a curse-based sense is likely but no complete Sanskrit or Kannada repair is invented."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v022",
+      "verse": 22,
+      "sequence_position": 22,
+      "printed_verse_label": 22,
+      "sanskrit_devanagari": "खिन्नं बाणं समालोक्य शंकरो योद्धुमाययौ । कृष्णेन तं समालोक्य कृष्णः सस्मार विघ्नपम् ॥२२॥",
+      "sanskrit_kannada_script": "ಖಿನ್ನಂ ಬಾಣಂ ಸಮಾಲೋಕ್ಯ ಶಂಕರೋ ಯೋದ್ಧುಮಾಯಯೌ ೤ ಕೃಷ್ಣೇನ ತಂ ಸಮಾಲೋಕ್ಯ ಕೃಷ್ಣಃ ಸಸ್ಮಾರ ವಿಘ್ನಪಮ್ ೥೨೨೥",
+      "kannada_meaning": "ಖಿನ್ನನಾದ ಬಾಣನನ್ನು ನೋಡಿ ಶಂಕರನು ಕೃಷ್ಣನೊಡನೆ ಯುದ್ಧಮಾಡಲು ಬಂದನು. ಅವನನ್ನು ನೋಡಿ ಕೃಷ್ಣನು ವಿಘ್ನಪನನ್ನು ಸ್ಮರಿಸಿದನು ॥೨೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v023",
+      "verse": 23,
+      "sequence_position": 23,
+      "printed_verse_label": 23,
+      "sanskrit_devanagari": "महायुद्धं तयोरासीत् त्रिलोकीनाशसंनिभम् । शिवस्य वासुदेवस्य मया वक्तुं न शक्यते ॥२३॥",
+      "sanskrit_kannada_script": "ಮಹಾಯುದ್ಧಂ ತಯೋರಾಸೀತ್ ತ್ರಿಲೋಕೀನಾಶಸಂನಿಭಮ್ ೤ ಶಿವಸ್ಯ ವಾಸುದೇವಸ್ಯ ಮಯಾ ವಕ್ತುಂ ನ ಶಕ್ಯತೇ ೥೨೩೥",
+      "kannada_meaning": "ಶಿವ ಮತ್ತು ವಾಸುದೇವರ ನಡುವೆ ತ್ರಿಲೋಕ ನಾಶಕ್ಕೆ ಸಮಾನವಾದ ಮಹಾಯುದ್ಧವು ನಡೆಯಿತು, ಅದನ್ನು ನನ್ನಿಂದ ಹೇಳಲು ಸಾಧ್ಯವಿಲ್ಲ ॥೨೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v024",
+      "verse": 24,
+      "sequence_position": 24,
+      "printed_verse_label": 24,
+      "sanskrit_devanagari": "ततो जृंभास्त्रवेगेन मोहयित्वा सदाशिवम् । कृष्णश्चक्रं मुमोचैव बाणस्य भुजसंछिदे ॥२४॥",
+      "sanskrit_kannada_script": "ತತೋ ಜೃಂಭಾಸ್ತ್ರವೇಗೇನ ಮೋಹಯಿತ್ವಾ ಸದಾಶಿವಮ್ ೤ ಕೃಷ್ಣಶ್ಚಕ್ರಂ ಮುಮೋಚೈವ ಬಾಣಸ್ಯ ಭುಜಸಂಛಿದೇ ೥೨೪೥",
+      "kannada_meaning": "ಆಗ ಜೃಂಭಾಸ್ತ್ರದ ವೇಗದಿಂದ ಸದಾಶಿವನನ್ನು ಮೋಹಗೊಳಿಸಿ, ಕೃಷ್ಣನು ಬಾಣನ ಭುಜಗಳನ್ನು ಕತ್ತರಿಸಲು ಚಕ್ರವನ್ನು ಪ್ರಯೋಗಿಸಿದನು ॥೨೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v025",
+      "verse": 25,
+      "sequence_position": 25,
+      "printed_verse_label": 25,
+      "sanskrit_devanagari": "चक्रेण क्षुरधारेण भुजाश्छिन्नाः समंततः । अवशिष्टौ भुजौ द्वौ च चक्रं संकुंठितं ततः ॥२५॥",
+      "sanskrit_kannada_script": "ಚಕ್ರೇಣ ಕ್ಷುರಧಾರೇಣ ಭುಜಾಶ್ಛಿನ್ನಾಃ ಸಮಂತತಃ ೤ ಅವಶಿಷ್ಟೌ ಭುಜೌ ದ್ವೌ ಚ ಚಕ್ರಂ ಸಂಕುಂಠಿತಂ ತತಃ ೥೨೫೥",
+      "kannada_meaning": "ಕ್ಷುರಧಾರೆಯ ಚಕ್ರದಿಂದ ಭುಜಗಳು ಸುತ್ತಲೂ ಕತ್ತರಿಸಲ್ಪಟ್ಟವು. ಎರಡು ಭುಜಗಳು ಮಾತ್ರ ಉಳಿದವು ಮತ್ತು ತದನಂತರ ಚಕ್ರವು ಕುಂಠಿತವಾಯಿತು ॥೨೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v026",
+      "verse": 26,
+      "sequence_position": 26,
+      "printed_verse_label": 26,
+      "sanskrit_devanagari": "ततः खेदसमायुक्तः कृष्णः सस्मार विघ्नपम् । खयमाकाश- वाणीं स शुश्राव गणपेरिताम् ॥२६॥",
+      "sanskrit_kannada_script": "ತತಃ ಖೇದಸಮಾಯುಕ್ತಃ ಕೃಷ್ಣಃ ಸಸ್ಮಾರ ವಿಘ್ನಪಮ್ ೤ ಖಯಮಾಕಾಶ- ವಾಣೀಂ ಸ ಶುಶ್ರಾವ ಗಣಪೇರಿತಾಮ್ ೥೨೬೥",
+      "kannada_meaning": "ಆಗ ಖೇದಗೊಂಡ ಕೃಷ್ಣನು ವಿಘ್ನಪನನ್ನು ಸ್ಮರಿಸಿದನು. ಅವನು ಸ್ವತಃ ಗಣಪತಿಯಿಂದ ಪ್ರೇರಿತವಾದ ಆಕಾಶವಾಣಿಯನ್ನು ಕೇಳಿದನು. ॥೨೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0841.png",
+          "printed_page": 32,
+          "printed_page_status": "visually verified",
+          "original_image_index": 841,
+          "sha256": "151af7c143dc1dd837f63fa60477278cceb2eed52148fa1d90c236c4e19d13d1",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        },
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE908-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "CH14-JOIN26",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Join original page fragments exactly once; no invented continuation."
+        },
+        {
+          "id": "REVIEW-SOURCE-8-14-26",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "\"ततः खेदसमायुक्तः कृष्णः सस्मार विघ्नपम् । स्वयमाकाशवाणीं स शुश्राव गणपेरिताम् ॥२६॥\""
+        },
+        {
+          "id": "REF-COMP-8-14-26",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v027",
+      "verse": 27,
+      "sequence_position": 27,
+      "printed_verse_label": 27,
+      "sanskrit_devanagari": "गणेशकवचेनैव रक्षितं शंकरेण च । बाणं हंतुं रणे कृष्ण न क्षमस्त्वं भविष्यसि ॥२७॥",
+      "sanskrit_kannada_script": "ಗಣೇಶಕವಚೇನೈವ ರಕ್ಷಿತಂ ಶಂಕರೇಣ ಚ ೤ ಬಾಣಂ ಹಂತುಂ ರಣೇ ಕೃಷ್ಣ ನ ಕ್ಷಮಸ್ತ್ವಂ ಭವಿಷ್ಯಸಿ ೥೨೭೥",
+      "kannada_meaning": "ಹೇ ಕೃಷ್ಣನೇ, ಗಣೇಶಕವಚದಿಂದಲೂ ಶಂಕರನಿಂದಲೂ ರಕ್ಷಿಸಲ್ಪಟ್ಟಿರುವ ಬಾಣನನ್ನು ರಣದಲ್ಲಿ ಕೊಲ್ಲಲು ನೀನು ಸಮರ್ಥನಾಗಲಾರೆ. ॥೨೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-14-27",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v028",
+      "verse": 28,
+      "sequence_position": 28,
+      "printed_verse_label": 28,
+      "sanskrit_devanagari": "शिवदत्ता भुजास्तस्य शिवशापेन छेदिताः । जन्मस्थौ द्वौ भुजौ प्राज्ञ कवचेन प्ररक्षितौ ॥२८॥",
+      "sanskrit_kannada_script": "ಶಿವದತ್ತಾ ಭುಜಾಸ್ತಸ್ಯ ಶಿವಶಾಪೇನ ಛೇದಿತಾಃ ೤ ಜನ್ಮಸ್ಥೌ ದ್ವೌ ಭುಜೌ ಪ್ರಾಜ್ಞ ಕವಚೇನ ಪ್ರರಕ್ಷಿತೌ ೥೨೮೥",
+      "kannada_meaning": "ಹೇ ಪ್ರಾಜ್ಞನೇ, ಅವನಿಗೆ ಶಿವನಿಂದ ಕೊಡಲ್ಪಟ್ಟ ಭುಜಗಳು ಶಿವನ ಶಾಪದಿಂದ ಕತ್ತರಿಸಲ್ಪಟ್ಟಿವೆ; ಹುಟ್ಟಿನಿಂದಲೇ ಇರುವ ಎರಡು ಭುಜಗಳು ಕವಚದಿಂದ ಚೆನ್ನಾಗಿ ರಕ್ಷಿಸಲ್ಪಟ್ಟಿವೆ. ॥೨೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-14-28",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v029",
+      "verse": 29,
+      "sequence_position": 29,
+      "printed_verse_label": 29,
+      "sanskrit_devanagari": "ततो हर्षेण संयुक्तः कृष्णश्चक्रं निवर्त्य च । संस्थितः संयुगे सद्यो जृंभास्त्रैर्वजितोऽभवम् ॥२९॥",
+      "sanskrit_kannada_script": "ತತೋ ಹರ್ಷೇಣ ಸಂಯುಕ್ತಃ ಕೃಷ್ಣಶ್ಚಕ್ರಂ ನಿವರ್ತ್ಯ ಚ ೤ ಸಂಸ್ಥಿತಃ ಸಂಯುಗೇ ಸದ್ಯೋ ಜೃಂಭಾಸ್ತ್ರೈರ್ವಜಿತೋಽಭವಮ್ ೥೨೯೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P908-API-U-1, P908-API-U-2, P909-API-U-1, CH14-PAGE909-ALIGNMENT, REVIEW-8-14-29 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೨೯॥",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-8-14-29",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Saved source has जृंभास्त्रैर्वजितोऽभवम्, plausibly a damaged/omitted r in varjita. p909 enlargement does not justify certifying the exact conjunct here. Saved Kannada first-person release is contextually coherent but remains an unaccepted reading; do not silently regularize Sanskrit."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v030",
+      "verse": 30,
+      "sequence_position": 30,
+      "printed_verse_label": 30,
+      "sanskrit_devanagari": "ततो मयाऽतिबोधेन ज्ञातं विघ्नेशचेष्टितम् । कृष्णो ननाम मां तत्र ववजेऽहं जनार्दनम् ॥३०॥",
+      "sanskrit_kannada_script": "ತತೋ ಮಯಾಽತಿಬೋಧೇನ ಜ್ಞಾತಂ ವಿಘ್ನೇಶಚೇಷ್ಟಿತಮ್ ೤ ಕೃಷ್ಣೋ ನನಾಮ ಮಾಂ ತತ್ರ ವವಜೇಽಹಂ ಜನಾರ್ದನಮ್ ೥೩೦೥",
+      "kannada_meaning": "ಬಳಿಕ ಅತಿಬೋಧದಿಂದ ನನ್ನಿಂದ ವಿಘ್ನೇಶನ ಚೇಷ್ಟೆಯು ತಿಳಿಯಲ್ಪಟ್ಟಿತು. ಕೃಷ್ಣನು ಅಲ್ಲಿ ನನಗೆ ನಮಸ್ಕರಿಸಿದನು ಮತ್ತು ನಾನು ಜನಾರ್ದನನನ್ನು ಆಲಿಂಗಿಸಿದೆನು ॥೩೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-SOURCE-8-14-30",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "\"ततो मयाऽतिबोधेन ज्ञातं विघ्नेशचेष्टितम् । कृष्णो ननाम मां तत्र सस्वजेऽहं जनार्दनम् ॥३०॥\""
+        },
+        {
+          "id": "REF-COMP-8-14-30",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v031",
+      "verse": 31,
+      "sequence_position": 31,
+      "printed_verse_label": 31,
+      "sanskrit_devanagari": "यथाविधि विवाहं स चकार दैत्यनायकः । अनिरुद्धाय पुत्रीं स्वां ददौ प्रेमपरिप्लुतः ॥३१॥",
+      "sanskrit_kannada_script": "ಯಥಾವಿಧಿ ವಿವಾಹಂ ಸ ಚಕಾರ ದೈತ್ಯನಾಯಕಃ ೤ ಅನಿರುದ್ಧಾಯ ಪುತ್ರೀಂ ಸ್ವಾಂ ದದೌ ಪ್ರೇಮಪರಿಪ್ಲುತಃ ೥೩೧೥",
+      "kannada_meaning": "ಆ ದೈತ್ಯನಾಯಕನು ವಿಧಿಪೂರ್ವಕವಾಗಿ ವಿವಾಹವನ್ನು ಮಾಡಿದನು ಮತ್ತು ಪ್ರೇಮದಿಂದ ತುಂಬಿದವನಾಗಿ ತನ್ನ ಮಗಳನ್ನು ಅನಿರುದ್ಧನಿಗೆ ಕೊಟ್ಟನು ॥೩೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v032",
+      "verse": 32,
+      "sequence_position": 32,
+      "printed_verse_label": 32,
+      "sanskrit_devanagari": "ततः स्वभवनं कृष्णो ययौ हर्षसमन्वितः । बाणो राज्यं परित्यज्य महाकालो बभूव ह ॥३२॥",
+      "sanskrit_kannada_script": "ತತಃ ಸ್ವಭವನಂ ಕೃಷ್ಣೋ ಯಯೌ ಹರ್ಷಸಮನ್ವಿತಃ ೤ ಬಾಣೋ ರಾಜ್ಯಂ ಪರಿತ್ಯಜ್ಯ ಮಹಾಕಾಲೋ ಬಭೂವ ಹ ೥೩೨೥",
+      "kannada_meaning": "ಅನಂತರ ಕೃಷ್ಣನು ಸಂತೋಷದಿಂದ ಕೂಡಿದವನಾಗಿ ತನ್ನ ಭವನಕ್ಕೆ ಹೋದನು. ಬಾಣನು ರಾಜ್ಯವನ್ನು ತ್ಯಜಿಸಿ ಮಹಾಕಾಲನಾದನು ॥೩೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v033",
+      "verse": 33,
+      "sequence_position": 33,
+      "printed_verse_label": 33,
+      "sanskrit_devanagari": "कैलासे प्रातरुत्थाय पुपूज द्विरदाननम् । शमीमंदारदूर्वादिरक्तपुष्पैर्विशेषतः ॥३३॥",
+      "sanskrit_kannada_script": "ಕೈಲಾಸೇ ಪ್ರಾತರುತ್ಥಾಯ ಪುಪೂಜ ದ್ವಿರದಾನನಮ್ ೤ ಶಮೀಮಂದಾರದೂರ್ವಾದಿರಕ್ತಪುಷ್ಪೈರ್ವಿಶೇಷತಃ ೥೩೩೥",
+      "kannada_meaning": "ಕೈಲಾಸದಲ್ಲಿ ಪ್ರಾತಃಕಾಲದಲ್ಲಿ ಎದ್ದು ಶಮೀ, ಮಂದಾರ, ದೂರ್ವಾದಿಗಳು ಮತ್ತು ವಿಶೇಷವಾಗಿ ಕೆಂಪು ಹೂವುಗಳಿಂದ ಗಜಮುಖನನ್ನು ಪೂಜಿಸಿದನು ॥೩೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v034",
+      "verse": 34,
+      "sequence_position": 34,
+      "printed_verse_label": 34,
+      "sanskrit_devanagari": "संपूज्यादौ गणपतिं पश्चाच्छंभुं महागणः । सदा ध्यानपरो भूत्वा तोषयामास तौ परौ ॥३४॥",
+      "sanskrit_kannada_script": "ಸಂಪೂಜ್ಯಾದೌ ಗಣಪತಿಂ ಪಶ್ಚಾಚ್ಛಂಭುಂ ಮಹಾಗಣಃ ೤ ಸದಾ ಧ್ಯಾನಪರೋ ಭೂತ್ವಾ ತೋಷಯಾಮಾಸ ತೌ ಪರೌ ೥೩೪೥",
+      "kannada_meaning": "ಆ ಮಹಾಗಣನು ಮೊದಲು ಗಣಪತಿಯನ್ನು ಚೆನ್ನಾಗಿ ಪೂಜಿಸಿ, ಆಮೇಲೆ ಶಂಭುವನ್ನು ಪೂಜಿಸಿ, ಸದಾ ಧ್ಯಾನಪರನಾಗಿ ಆ ಇಬ್ಬರು ಶ್ರೇಷ್ಠರನ್ನು ಸಂತೋಷಪಡಿಸಿದನು ॥೩೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v035",
+      "verse": 35,
+      "sequence_position": 35,
+      "printed_verse_label": 35,
+      "sanskrit_devanagari": "शौनक उवाच । सूत विघ्नेश्वरस्तस्यैव प्रियोऽत्यंतं बभूव ह । रक्तवर्णः कथं तेन तुष्टो भवति सर्वपः ॥३५॥",
+      "sanskrit_kannada_script": "ಶೌನಕ ಉವಾಚ ೤ ಸೂತ ವಿಘ್ನೇಶ್ವರಸ್ತಸ್ಯೈವ ಪ್ರಿಯೋಽತ್ಯಂತಂ ಬಭೂವ ಹ ೤ ರಕ್ತವರ್ಣಃ ಕಥಂ ತೇನ ತುಷ್ಟೋ ಭವತಿ ಸರ್ವಪಃ ೥೩೫೥",
+      "kannada_meaning": "ಶೌನಕನು ಹೇಳಿದನು: ಎಲೈ ಸೂತನೇ, ವಿಘ್ನೇಶ್ವರನು ಅವನಿಗೆ ಅತ್ಯಂತ ಪ್ರಿಯನಾದನು. ಸರ್ವಪಾಲಕನಾದ ಅವನು ಕೆಂಪು ಬಣ್ಣದಿಂದ ಹೇಗೆ ಸಂತುಷ್ಟನಾಗುತ್ತಾನೆ? ॥೩೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v036",
+      "verse": 36,
+      "sequence_position": 36,
+      "printed_verse_label": 36,
+      "sanskrit_devanagari": "रक्तवर्णः स्वयं साक्षाद्गणेशो ब्रह्मणां पतिः । रक्तवस्त्रधरो रक्तचंदनेन विराजितः ॥३६॥",
+      "sanskrit_kannada_script": "ರಕ್ತವರ್ಣಃ ಸ್ವಯಂ ಸಾಕ್ಷಾದ್ಗಣೇಶೋ ಬ್ರಹ್ಮಣಾಂ ಪತಿಃ ೤ ರಕ್ತವಸ್ತ್ರಧರೋ ರಕ್ತಚಂದನೇನ ವಿರಾಜಿತಃ ೥೩೬೥",
+      "kannada_meaning": "ಬ್ರಹ್ಮಗಳ ಪತಿಯಾದ ಸಾಕ್ಷಾತ್ ಗಣೇಶನು ಸ್ವಯಂ ರಕ್ತವರ್ಣನಾಗಿದ್ದಾನೆ, ಕೆಂಪು ವಸ್ತ್ರವನ್ನು ಧರಿಸಿದವನೂ, ಕೆಂಪು ಚಂದನದಿಂದ ಶೋಭಿಸುವವನೂ ಆಗಿದ್ದಾನೆ ॥೩೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v037",
+      "verse": 37,
+      "sequence_position": 37,
+      "printed_verse_label": 37,
+      "sanskrit_devanagari": "रक्तपुष्पधरः पूर्णः सिंधूरांगविलेपनः । रक्तसागरखेली स वद कारणमुत्तमम् ॥३७॥",
+      "sanskrit_kannada_script": "ರಕ್ತಪುಷ್ಪಧರಃ ಪೂರ್ಣಃ ಸಿಂಧೂರಾಂಗವಿಲೇಪನಃ ೤ ರಕ್ತಸಾಗರಖೇಲೀ ಸ ವದ ಕಾರಣಮುತ್ತಮಮ್ ೥೩೭೥",
+      "kannada_meaning": "ಕೆಂಪು ಹೂವುಗಳನ್ನು ಧರಿಸಿದವನೂ, ಪೂರ್ಣನೂ, ಸಿಂಧೂರದ ಅಂಗಲೇಪನವುಳ್ಳವನೂ, ರಕ್ತಸಾಗರದಲ್ಲಿ ವಿಹರಿಸುವವನೂ ಆಗಿದ್ದಾನೆ; ಇದಕ್ಕೆ ಉತ್ತಮವಾದ ಕಾರಣವನ್ನು ಹೇಳು ॥೩೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v038",
+      "verse": 38,
+      "sequence_position": 38,
+      "printed_verse_label": 38,
+      "sanskrit_devanagari": "सर्ववर्णमयश्चायं कथमेकं समाश्रितः । तन्नः संशयदं साधो नुद सर्वज्ञसत्तम ॥३८॥",
+      "sanskrit_kannada_script": "ಸರ್ವವರ್ಣಮಯಶ್ಚಾಯಂ ಕಥಮೇಕಂ ಸಮಾಶ್ರಿತಃ ೤ ತನ್ನಃ ಸಂಶಯದಂ ಸಾಧೋ ನುದ ಸರ್ವಜ್ಞಸತ್ತಮ ೥೩೮೥",
+      "kannada_meaning": "ಸರ್ವವರ್ಣಮಯನಾದ ಇವನು ಒಂದೇ ವರ್ಣವನ್ನು ಹೇಗೆ ಆಶ್ರಯಿಸಿದನು? ಎಲೈ ಸಾಧುವೇ, ಸರ್ವಜ್ಞರಲ್ಲಿ ಶ್ರೇಷ್ಠನೇ, ನಮಗೆ ಸಂಶಯವನ್ನುಂಟುಮಾಡುವ ಅದನ್ನು ನಿವಾರಿಸು ॥೩೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v039",
+      "verse": 39,
+      "sequence_position": 39,
+      "printed_verse_label": 39,
+      "sanskrit_devanagari": "सूत उवाच । वर्णाः पंच समुद्भूताः सृष्ट्यादौ श्वेतशामलौ । रक्तः पीतस्तथा नीलः सर्ववर्णमयाः पुरा ॥३९॥",
+      "sanskrit_kannada_script": "ಸೂತ ಉವಾಚ ೤ ವರ್ಣಾಃ ಪಂಚ ಸಮುದ್ಭೂತಾಃ ಸೃಷ್ಟ್ಯಾದೌ ಶ್ವೇತಶಾಮಲೌ ೤ ರಕ್ತಃ ಪೀತಸ್ತಥಾ ನೀಲಃ ಸರ್ವವರ್ಣಮಯಾಃ ಪುರಾ ೥೩೯೥",
+      "kannada_meaning": "ಸೂತನು ಹೇಳಿದನು: ಹಿಂದೆ ಸೃಷ್ಟಿಯ ಆದಿಯಲ್ಲಿ ಬಿಳಿ, ಕಪ್ಪು, ಕೆಂಪು, ಹಳದಿ ಮತ್ತು ನೀಲಿ ಎಂಬ, ಸರ್ವವರ್ಣಮಯವಾದ ಐದು ಬಣ್ಣಗಳು ಹುಟ್ಟಿದವು. ॥೩೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-14-39",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v040",
+      "verse": 40,
+      "sequence_position": 40,
+      "printed_verse_label": 40,
+      "sanskrit_devanagari": "परस्परविभेदेन तथा संमीलनेन च । अनंता वर्णकाः प्रोक्ता जानीहि द्विजसत्तम ॥४०॥",
+      "sanskrit_kannada_script": "ಪರಸ್ಪರವಿಭೇದೇನ ತಥಾ ಸಂಮೀಲನೇನ ಚ ೤ ಅನಂತಾ ವರ್ಣಕಾಃ ಪ್ರೋಕ್ತಾ ಜಾನೀಹಿ ದ್ವಿಜಸತ್ತಮ ೥೪೦೥",
+      "kannada_meaning": "ಹೇ ದ್ವಿಜಶ್ರೇಷ್ಠನೇ, ಪರಸ್ಪರ ಭೇದದಿಂದಲೂ ಸೇರುವಿಕೆಯಿಂದಲೂ ಅನಂತ ವರ್ಣಗಳು ಉಂಟಾಗುತ್ತವೆಂದು ಹೇಳಲಾಗಿದೆ ಎಂಬುದನ್ನು ತಿಳಿ. ॥೪೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-14-40",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v041",
+      "verse": 41,
+      "sequence_position": 41,
+      "printed_verse_label": 41,
+      "sanskrit_devanagari": "तैस्तपो गणनाथस्य कृतं घोरं तु पंचभिः । वर्षकेषु शते तान् स आययौ गणनायकः ॥४१॥",
+      "sanskrit_kannada_script": "ತೈಸ್ತಪೋ ಗಣನಾಥಸ್ಯ ಕೃತಂ ಘೋರಂ ತು ಪಂಚಭಿಃ ೤ ವರ್ಷಕೇಷು ಶತೇ ತಾನ್ ಸ ಆಯಯೌ ಗಣನಾಯಕಃ ೥೪೧೥",
+      "kannada_meaning": "ಆ ಐದು ವರ್ಣಗಳಿಂದ ಗಣನಾಥನನ್ನು ಕುರಿತು ಘೋರವಾದ ತಪಸ್ಸು ಮಾಡಲ್ಪಟ್ಟಿತು. ನೂರು ವರ್ಷಗಳಲ್ಲಿ ಆ ಗಣನಾಯಕನು ಅವುಗಳ ಬಳಿಗೆ ಬಂದನು ॥೪೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v042",
+      "verse": 42,
+      "sequence_position": 42,
+      "printed_verse_label": 42,
+      "sanskrit_devanagari": "तं दृष्ट्वा प्रणताः सर्वे वर्णाः संतुष्टुवुः परम् । वरान् वव्रुः तथा विप्र स्वस्वशोभासमन्वितान् ॥४२॥",
+      "sanskrit_kannada_script": "ತಂ ದೃಷ್ಟ್ವಾ ಪ್ರಣತಾಃ ಸರ್ವೇ ವರ್ಣಾಃ ಸಂತುಷ್ಟುವುಃ ಪರಮ್ ೤ ವರಾನ್ ವವ್ರುಃ ತಥಾ ವಿಪ್ರ ಸ್ವಸ್ವಶೋಭಾಸಮನ್ವಿತಾನ್ ೥೪೨೥",
+      "kannada_meaning": "ಎಲೈ ವಿಪ್ರನೇ, ಅವನನ್ನು ನೋಡಿ ಎಲ್ಲ ವರ್ಣಗಳೂ ನಮಸ್ಕರಿಸಿ ಪರಮ ಸ್ತುತಿಯನ್ನು ಮಾಡಿದವು ಮತ್ತು ತಮ್ಮ ತಮ್ಮ ಶೋಭೆಯಿಂದ ಕೂಡಿದ ವರಗಳನ್ನು ಕೇಳಿದವು ॥೪೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v043",
+      "verse": 43,
+      "sequence_position": 43,
+      "printed_verse_label": 43,
+      "sanskrit_devanagari": "अन्ये गणेश्वरं ते तु जगुस्तं ब्रह्मनायकम् । अस्मदीयस्वरूपस्थो भव स्वामिन्नमोऽस्तु ते ॥४३॥",
+      "sanskrit_kannada_script": "ಅನ್ಯೇ ಗಣೇಶ್ವರಂ ತೇ ತು ಜಗುಸ್ತಂ ಬ್ರಹ್ಮನಾಯಕಮ್ ೤ ಅಸ್ಮದೀಯಸ್ವರೂಪಸ್ಥೋ ಭವ ಸ್ವಾಮಿನ್ನಮೋಽಸ್ತು ತೇ ೥೪೩೥",
+      "kannada_meaning": "ಇತರ ವರ್ಣಗಳೂ ಬ್ರಹ್ಮನಾಯಕನಾದ ಆ ಗಣೇಶ್ವರನಿಗೆ ಹೀಗೆ ಹೇಳಿದವು: “ಹೇ ಸ್ವಾಮಿಯೇ, ನೀನು ನಮ್ಮ ಸ್ವರೂಪದಲ್ಲಿ ನೆಲೆಸಿರುವವನಾಗು; ನಿನಗೆ ನಮಸ್ಕಾರವಿರಲಿ.” ॥೪೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-14-43",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v044",
+      "verse": 44,
+      "sequence_position": 44,
+      "printed_verse_label": 44,
+      "sanskrit_devanagari": "वयं तेन गणाध्यक्ष कृतकृत्या भवामहे । मायाबंधनहीनास्त्वां भजामह निरंतरम् ॥४४॥",
+      "sanskrit_kannada_script": "ವಯಂ ತೇನ ಗಣಾಧ್ಯಕ್ಷ ಕೃತಕೃತ್ಯಾ ಭವಾಮಹೇ ೤ ಮಾಯಾಬಂಧನಹೀನಾಸ್ತ್ವಾಂ ಭಜಾಮಹ ನಿರಂತರಮ್ ೥೪೪೥",
+      "kannada_meaning": "ಎಲೈ ಗಣಾಧ್ಯಕ್ಷನೇ, ಅದರಿಂದ ನಾವು ಕೃತಕೃತ್ಯರಾಗುತ್ತೇವೆ; ಮಾಯಾಬಂಧನವಿಲ್ಲದವರಾಗಿ ನಿನ್ನನ್ನು ನಿರಂತರವಾಗಿ ಭಜಿಸುತ್ತೇವೆ ॥೪೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v045",
+      "verse": 45,
+      "sequence_position": 45,
+      "printed_verse_label": 45,
+      "sanskrit_devanagari": "तथेति तानुवाचैव गणेशोऽंतर्दधे ततः । वर्णा हर्षयुताः सर्वे स्वस्वकार्यरताः पुरा ॥४५॥",
+      "sanskrit_kannada_script": "ತಥೇತಿ ತಾನುವಾಚೈವ ಗಣೇಶೋಽಂತರ್ದಧೇ ತತಃ ೤ ವರ್ಣಾ ಹರ್ಷಯುತಾಃ ಸರ್ವೇ ಸ್ವಸ್ವಕಾರ್ಯರತಾಃ ಪುರಾ ೥೪೫೥",
+      "kannada_meaning": "ಗಣೇಶನು ಅವುಗಳಿಗೆ ಹಾಗೆಯೇ ಆಗಲಿ ಎಂದು ಹೇಳಿ ಅಲ್ಲಿಂದ ಅಂತರ್ಧಾನನಾದನು. ಹಿಂದೆ ಎಲ್ಲ ವರ್ಣಗಳೂ ಸಂತೋಷದಿಂದ ಕೂಡಿದವುಗಳಾಗಿ ತಮ್ಮ ತಮ್ಮ ಕಾರ್ಯಗಳಲ್ಲಿ ತೊಡಗಿದವು ॥೪೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v046",
+      "verse": 46,
+      "sequence_position": 46,
+      "printed_verse_label": 46,
+      "sanskrit_devanagari": "वर्णैः संशोभितं सर्वं नानाभेदैः समंततः । चराचरं विशेषेण वर्णयुक्तं बभूव ह ॥४६॥",
+      "sanskrit_kannada_script": "ವರ್ಣೈಃ ಸಂಶೋಭಿತಂ ಸರ್ವಂ ನಾನಾಭೇದೈಃ ಸಮಂತತಃ ೤ ಚರಾಚರಂ ವಿಶೇಷೇಣ ವರ್ಣಯುಕ್ತಂ ಬಭೂವ ಹ ೥೪೬೥",
+      "kannada_meaning": "ನಾನಾ ಭೇದಗಳಿಂದ ಕೂಡಿದ ವರ್ಣಗಳಿಂದ ಎಲ್ಲವೂ ಸುತ್ತಲೂ ಚೆನ್ನಾಗಿ ಶೋಭಿಸಿತು; ಚರಾಚರವು ವಿಶೇಷವಾಗಿ ಬಣ್ಣದಿಂದ ಕೂಡಿದ್ದಾಯಿತು ॥೪೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v047",
+      "verse": 47,
+      "sequence_position": 47,
+      "printed_verse_label": 47,
+      "sanskrit_devanagari": "काश्यपो गणनाथस्तु नीलवर्णाकृतिं धरः । मयूरेशस्तथा श्वेतवर्णयुक्तो बभूव ह ॥४७॥",
+      "sanskrit_kannada_script": "ಕಾಶ್ಯಪೋ ಗಣನಾಥಸ್ತು ನೀಲವರ್ಣಾಕೃತಿಂ ಧರಃ ೤ ಮಯೂರೇಶಸ್ತಥಾ ಶ್ವೇತವರ್ಣಯುಕ್ತೋ ಬಭೂವ ಹ ೥೪೭೥",
+      "kannada_meaning": "ಕಾಶ್ಯಪನಾದ ಗಣನಾಥನು ನೀಲವರ್ಣದ ಆಕೃತಿಯನ್ನು ಧರಿಸಿದವನಾದನು; ಹಾಗೆಯೇ ಮಯೂರೇಶನು ಶ್ವೇತವರ್ಣದಿಂದ ಕೂಡಿದವನಾದನು ॥೪೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v048",
+      "verse": 48,
+      "sequence_position": 48,
+      "printed_verse_label": 48,
+      "sanskrit_devanagari": "वरेण्यस्य सुतो रक्तवर्णयुक्तो गजाननः । धूम्रवर्णस्तथा श्यामवर्णरूपधरो बभौ ॥४८॥",
+      "sanskrit_kannada_script": "ವರೇಣ್ಯಸ್ಯ ಸುತೋ ರಕ್ತವರ್ಣಯುಕ್ತೋ ಗಜಾನನಃ ೤ ಧೂಮ್ರವರ್ಣಸ್ತಥಾ ಶ್ಯಾಮವರ್ಣರೂಪಧರೋ ಬಭೌ ೥೪೮೥",
+      "kannada_meaning": "ವರೇಣ್ಯನ ಮಗನಾದ ಗಜಾನನನು ರಕ್ತವರ್ಣದಿಂದ ಕೂಡಿದವನಾದನು; ಹಾಗೆಯೇ ಧೂಮ್ರವರ್ಣನು ಶ್ಯಾಮವರ್ಣದ ರೂಪವನ್ನು ಧರಿಸಿ ಶೋಭಿಸಿದನು ॥೪೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v049",
+      "verse": 49,
+      "sequence_position": 49,
+      "printed_verse_label": 49,
+      "sanskrit_devanagari": "हरिद्रागणपः पीतवर्णाकृतिपरोऽभवत् । नानावताररूपैः स नानावर्णधरोऽभवत् ॥४९॥",
+      "sanskrit_kannada_script": "ಹರಿದ್ರಾಗಣಪಃ ಪೀತವರ್ಣಾಕೃತಿಪರೋಽಭವತ್ ೤ ನಾನಾವತಾರರೂಪೈಃ ಸ ನಾನಾವರ್ಣಧರೋಽಭವತ್ ೥೪೯೥",
+      "kannada_meaning": "ಹರಿದ್ರಾಗಣಪತಿಯು ಹಳದಿ ಬಣ್ಣದ ಆಕೃತಿಯಲ್ಲಿ ತೊಡಗಿದವನಾದನು. ಅವನು ನಾನಾ ಅವತಾರರೂಪಗಳಿಂದ ನಾನಾ ಬಣ್ಣಗಳನ್ನು ಧರಿಸಿದವನಾದನು ॥೪೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v050",
+      "verse": 50,
+      "sequence_position": 50,
+      "printed_verse_label": 50,
+      "sanskrit_devanagari": "एवं वरप्रदानेन वर्णाः सर्वे महामुने । गणेशाराधने सक्ताः स्वस्वकार्यपरायणाः ॥५०॥",
+      "sanskrit_kannada_script": "ಏವಂ ವರಪ್ರದಾನೇನ ವರ್ಣಾಃ ಸರ್ವೇ ಮಹಾಮುನೇ ೤ ಗಣೇಶಾರಾಧನೇ ಸಕ್ತಾಃ ಸ್ವಸ್ವಕಾರ್ಯಪರಾಯಣಾಃ ೥೫೦೥",
+      "kannada_meaning": "ಎಲೈ ಮಹಾಮುನಿಯೇ, ಹೀಗೆ ವರಪ್ರದಾನದಿಂದ ಎಲ್ಲ ವರ್ಣಗಳೂ ಗಣೇಶನ ಆರಾಧನೆಯಲ್ಲಿ ಆಸಕ್ತವಾಗಿ ತಮ್ಮ ತಮ್ಮ ಕಾರ್ಯಗಳಲ್ಲಿ ಪರಾಯಣವಾದವು ॥೫೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v051",
+      "verse": 51,
+      "sequence_position": 51,
+      "printed_verse_label": 51,
+      "sanskrit_devanagari": "ततो रक्तेन वर्णेन पुनस्तप्तं तपो महत् । निराहारेण विप्रेश ध्यात्वा हृदि गजाननम् ॥५१॥",
+      "sanskrit_kannada_script": "ತತೋ ರಕ್ತೇನ ವರ್ಣೇನ ಪುನಸ್ತಪ್ತಂ ತಪೋ ಮಹತ್ ೤ ನಿರಾಹಾರೇಣ ವಿಪ್ರೇಶ ಧ್ಯಾತ್ವಾ ಹೃದಿ ಗಜಾನನಮ್ ೥೫೧೥",
+      "kannada_meaning": "ಎಲೈ ವಿಪ್ರೇಶನೇ, ತರುವಾಯ ಕೆಂಪು ವರ್ಣದಿಂದ ಹೃದಯದಲ್ಲಿ ಗಜಾನನನ್ನು ಧ್ಯಾನಿಸಿ ನಿರಾಹಾರವಾಗಿ ಮತ್ತೆ ಮಹತ್ತಾದ ತಪಸ್ಸು ಮಾಡಲ್ಪಟ್ಟಿತು ॥೫೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v052",
+      "verse": 52,
+      "sequence_position": 52,
+      "printed_verse_label": 52,
+      "sanskrit_devanagari": "सहस्रवर्षे च गते गणपस्तं समाययौ । वरान् दातुं महाभागं स ननाम गणाधिपम् ॥५२॥",
+      "sanskrit_kannada_script": "ಸಹಸ್ರವರ್ಷೇ ಚ ಗತೇ ಗಣಪಸ್ತಂ ಸಮಾಯಯೌ ೤ ವರಾನ್ ದಾತುಂ ಮಹಾಭಾಗಂ ಸ ನನಾಮ ಗಣಾಧಿಪಮ್ ೥೫೨೥",
+      "kannada_meaning": "ಸಾವಿರ ವರ್ಷಗಳು ಕಳೆದ ಮೇಲೆ ವರಗಳನ್ನು ಕೊಡಲು ಗಣಪತಿಯು ಅದರ ಬಳಿಗೆ ಬಂದನು; ಮಹಾಭಾಗನಾದ ಅವನು ಗಣಾಧಿಪನಿಗೆ ನಮಸ್ಕರಿಸಿದನು ॥೫೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0842.png",
+          "printed_page": 33,
+          "printed_page_status": "visually verified",
+          "original_image_index": 842,
+          "sha256": "9971eb2411dc4518dff54e35e37005ee72194fa8bc87ff919803fa2deef0a5c7",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE909-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v053",
+      "verse": 53,
+      "sequence_position": 53,
+      "printed_verse_label": 53,
+      "sanskrit_devanagari": "पूजयित्वा प्रतुष्टाव रक्तवर्णः प्रहर्षितः । स्तोत्रैर्नानाविधैस्तं तु गाणेशैर्गणपप्रियैः ॥५३॥",
+      "sanskrit_kannada_script": "ಪೂಜಯಿತ್ವಾ ಪ್ರತುಷ್ಟಾವ ರಕ್ತವರ್ಣಃ ಪ್ರಹರ್ಷಿತಃ ೤ ಸ್ತೋತ್ರೈರ್ನಾನಾವಿಧೈಸ್ತಂ ತು ಗಾಣೇಶೈರ್ಗಣಪಪ್ರಿಯೈಃ ೥೫೩೥",
+      "kannada_meaning": "ಅತಿಯಾದ ಹರ್ಷದಿಂದ ಕೂಡಿದ ರಕ್ತವರ್ಣನು ಪೂಜಿಸಿ, ಗಣಪತಿಗೆ ಪ್ರಿಯವಾದ ನಾನಾವಿಧವಾದ ಗಾಣೇಶ ಸ್ತೋತ್ರಗಳಿಂದ ಅವನನ್ನು ಸ್ತುತಿಸಿದನು ॥೫೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0843.png",
+          "printed_page": 34,
+          "printed_page_status": "visually verified",
+          "original_image_index": 843,
+          "sha256": "1479ca5a7b2bb10f9f62e182b79f1395ab4d5c279aa55f046e46a4030e6ac047",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE910-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v054",
+      "verse": 54,
+      "sequence_position": 54,
+      "printed_verse_label": 54,
+      "sanskrit_devanagari": "ततः प्रसन्नभावेन विघ्नेशस्तमुवाच ह । वरान् वृणु महाभाग रक्तवर्ण हृदीप्सितान् ॥५४॥",
+      "sanskrit_kannada_script": "ತತಃ ಪ್ರಸನ್ನಭಾವೇನ ವಿಘ್ನೇಶಸ್ತಮುವಾಚ ಹ ೤ ವರಾನ್ ವೃಣು ಮಹಾಭಾಗ ರಕ್ತವರ್ಣ ಹೃದೀಪ್ಸಿತಾನ್ ೥೫೪೥",
+      "kannada_meaning": "ತದನಂತರ ಪ್ರಸನ್ನಭಾವದಿಂದ ವಿಘ್ನೇಶನು ಅವನಿಗೆ ಹೇಳಿದನು: ಎಲೈ ಮಹಾಭಾಗನಾದ ರಕ್ತವರ್ಣನೇ, ಮನಸ್ಸಿಗೆ ಇಷ್ಟವಾದ ವರಗಳನ್ನು ಕೇಳಿಕೊ ॥೫೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0843.png",
+          "printed_page": 34,
+          "printed_page_status": "visually verified",
+          "original_image_index": 843,
+          "sha256": "1479ca5a7b2bb10f9f62e182b79f1395ab4d5c279aa55f046e46a4030e6ac047",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE910-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v055",
+      "verse": 55,
+      "sequence_position": 55,
+      "printed_verse_label": 55,
+      "sanskrit_devanagari": "रक्तवर्ण उवाच । रक्तवर्णस्वरूपस्यो भव त्वं गणनायक । सदा रक्तप्रियो नाथ नानावर्णेषु मानद ॥५५॥",
+      "sanskrit_kannada_script": "ರಕ್ತವರ್ಣ ಉವಾಚ ೤ ರಕ್ತವರ್ಣಸ್ವರೂಪಸ್ಯೋ ಭವ ತ್ವಂ ಗಣನಾಯಕ ೤ ಸದಾ ರಕ್ತಪ್ರಿಯೋ ನಾಥ ನಾನಾವರ್ಣೇಷು ಮಾನದ ೥೫೫೥",
+      "kannada_meaning": "ರಕ್ತವರ್ಣನು ಹೇಳಿದನು: ಎಲೈ ಗಣನಾಯಕನೇ, ಗೌರವವನ್ನು ನೀಡುವ ಒಡೆಯನೇ, ನಾನಾವರ್ಣಗಳಲ್ಲಿ ನೀನು ರಕ್ತವರ್ಣಸ್ವರೂಪದವನಾಗು ಮತ್ತು ಸದಾ ರಕ್ತವರ್ಣಪ್ರಿಯನಾಗು ॥೫೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0843.png",
+          "printed_page": 34,
+          "printed_page_status": "visually verified",
+          "original_image_index": 843,
+          "sha256": "1479ca5a7b2bb10f9f62e182b79f1395ab4d5c279aa55f046e46a4030e6ac047",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE910-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-SOURCE-8-14-55",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "\"रक्तवर्ण उवाच । रक्तवर्णस्वरूपस्थो भव त्वं गणनायक । सदा रक्तप्रियो नाथ नानावर्णेषु मानद ॥५५॥\""
+        },
+        {
+          "id": "REF-COMP-8-14-55",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v056",
+      "verse": 56,
+      "sequence_position": 56,
+      "printed_verse_label": 56,
+      "sanskrit_devanagari": "तेनाऽहं सर्ववर्णेषु श्रेष्ठो भावी न संशयः । सततं कृतकृत्यश्च तव संनिधिसंस्थितः ॥५६॥",
+      "sanskrit_kannada_script": "ತೇನಾಽಹಂ ಸರ್ವವರ್ಣೇಷು ಶ್ರೇಷ್ಠೋ ಭಾವೀ ನ ಸಂಶಯಃ ೤ ಸತತಂ ಕೃತಕೃತ್ಯಶ್ಚ ತವ ಸಂನಿಧಿಸಂಸ್ಥಿತಃ ೥೫೬೥",
+      "kannada_meaning": "ಅದರಿಂದ ನಾನು ಎಲ್ಲ ವರ್ಣಗಳಲ್ಲಿಯೂ ಶ್ರೇಷ್ಠನಾಗುವೆನು ಎಂಬುದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ; ಮತ್ತು ಸದಾ ನಿನ್ನ ಸನ್ನಿಧಿಯಲ್ಲಿ ನೆಲೆಸಿದ್ದು ಕೃತಕೃತ್ಯನಾಗುವೆನು ॥೫೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0843.png",
+          "printed_page": 34,
+          "printed_page_status": "visually verified",
+          "original_image_index": 843,
+          "sha256": "1479ca5a7b2bb10f9f62e182b79f1395ab4d5c279aa55f046e46a4030e6ac047",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE910-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v057",
+      "verse": 57,
+      "sequence_position": 57,
+      "printed_verse_label": 57,
+      "sanskrit_devanagari": "तथेति तमथोक्त्वाऽसौ गणेशोऽंतर्दधे स्वयम् । तदादि वेदशास्त्रेषु रक्तवस्तुप्रियोऽभवत् ॥५७॥",
+      "sanskrit_kannada_script": "ತಥೇತಿ ತಮಥೋಕ್ತ್ವಾಽಸೌ ಗಣೇಶೋಽಂತರ್ದಧೇ ಸ್ವಯಮ್ ೤ ತದಾದಿ ವೇದಶಾಸ್ತ್ರೇಷು ರಕ್ತವಸ್ತುಪ್ರಿಯೋಽಭವತ್ ೥೫೭೥",
+      "kannada_meaning": "ಹಾಗೆಯೇ ಆಗಲಿ ಎಂದು ಅವನಿಗೆ ಹೇಳಿ ಆ ಗಣೇಶನು ಸ್ವಯಂ ಅಂತರ್ಧಾನನಾದನು. ಅಂದಿನಿಂದ ವೇದಶಾಸ್ತ್ರಗಳಲ್ಲಿ ಅವನು ರಕ್ತವಸ್ತುಪ್ರಿಯನಾದನು ॥೫೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0843.png",
+          "printed_page": 34,
+          "printed_page_status": "visually verified",
+          "original_image_index": 843,
+          "sha256": "1479ca5a7b2bb10f9f62e182b79f1395ab4d5c279aa55f046e46a4030e6ac047",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE910-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch014-v058",
+      "verse": 58,
+      "sequence_position": 58,
+      "printed_verse_label": 58,
+      "sanskrit_devanagari": "इदं बाणचरित्रं यः शृणुयाद्वर्णसंभवम् । पठेत्तस्य गणाधीशो वरदश्च भविष्यति ॥५८॥",
+      "sanskrit_kannada_script": "ಇದಂ ಬಾಣಚರಿತ್ರಂ ಯಃ ಶೃಣುಯಾದ್ವರ್ಣಸಂಭವಮ್ ೤ ಪಠೇತ್ತಸ್ಯ ಗಣಾಧೀಶೋ ವರದಶ್ಚ ಭವಿಷ್ಯತಿ ೥೫೮೥",
+      "kannada_meaning": "ವರ್ಣದ ಉತ್ಪತ್ತಿಯಿಂದ ಕೂಡಿದ ಈ ಬಾಣಚರಿತ್ರೆಯನ್ನು ಯಾರು ಕೇಳುತ್ತಾರೋ ಅಥವಾ ಓದುತ್ತಾರೋ, ಅವರಿಗೆ ಗಣಾಧೀಶನು ವರವನ್ನು ನೀಡುವವನಾಗುತ್ತಾನೆ ॥೫೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0843.png",
+          "printed_page": 34,
+          "printed_page_status": "visually verified",
+          "original_image_index": 843,
+          "sha256": "1479ca5a7b2bb10f9f62e182b79f1395ab4d5c279aa55f046e46a4030e6ac047",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P908-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The conjunct in 'प्रसब्रजे' (presumably printed for प्रषस्वजे / सष्वजे) is slightly unclear in type."
+        },
+        {
+          "id": "P908-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'खयमाकाश-' at the page break; the initial 'ख' may be a damaged 'स्व' (स्वयमाकाश-), kept raw as visible."
+        },
+        {
+          "id": "P909-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The initial conjunct of the word before जनार्दनम् is slightly smudged; it appears as ववजेऽहं or खखजेऽहं (intended सस्वजेऽहं). Transcribed as ववजेऽहं."
+        },
+        {
+          "id": "CH14-PAGE910-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "kh08-ch014-g001",
+      "verse_ids": [
+        "kh08-ch014-v001"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g002",
+      "verse_ids": [
+        "kh08-ch014-v002"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g003",
+      "verse_ids": [
+        "kh08-ch014-v003"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g004",
+      "verse_ids": [
+        "kh08-ch014-v004"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g005",
+      "verse_ids": [
+        "kh08-ch014-v005"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g006",
+      "verse_ids": [
+        "kh08-ch014-v006"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g007",
+      "verse_ids": [
+        "kh08-ch014-v007"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g008",
+      "verse_ids": [
+        "kh08-ch014-v008"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g009",
+      "verse_ids": [
+        "kh08-ch014-v009"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g010",
+      "verse_ids": [
+        "kh08-ch014-v010"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g011",
+      "verse_ids": [
+        "kh08-ch014-v011"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g012",
+      "verse_ids": [
+        "kh08-ch014-v012"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g013",
+      "verse_ids": [
+        "kh08-ch014-v013"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g014",
+      "verse_ids": [
+        "kh08-ch014-v014"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g015",
+      "verse_ids": [
+        "kh08-ch014-v015"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g016",
+      "verse_ids": [
+        "kh08-ch014-v016"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g017",
+      "verse_ids": [
+        "kh08-ch014-v017"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g018",
+      "verse_ids": [
+        "kh08-ch014-v018"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g019",
+      "verse_ids": [
+        "kh08-ch014-v019"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g020",
+      "verse_ids": [
+        "kh08-ch014-v020"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g021",
+      "verse_ids": [
+        "kh08-ch014-v021"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g022",
+      "verse_ids": [
+        "kh08-ch014-v022"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g023",
+      "verse_ids": [
+        "kh08-ch014-v023"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g024",
+      "verse_ids": [
+        "kh08-ch014-v024"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g025",
+      "verse_ids": [
+        "kh08-ch014-v025"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g026",
+      "verse_ids": [
+        "kh08-ch014-v026"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g027",
+      "verse_ids": [
+        "kh08-ch014-v027"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g028",
+      "verse_ids": [
+        "kh08-ch014-v028"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g029",
+      "verse_ids": [
+        "kh08-ch014-v029"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g030",
+      "verse_ids": [
+        "kh08-ch014-v030"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g031",
+      "verse_ids": [
+        "kh08-ch014-v031"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g032",
+      "verse_ids": [
+        "kh08-ch014-v032"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g033",
+      "verse_ids": [
+        "kh08-ch014-v033"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g034",
+      "verse_ids": [
+        "kh08-ch014-v034"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g035",
+      "verse_ids": [
+        "kh08-ch014-v035"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g036",
+      "verse_ids": [
+        "kh08-ch014-v036"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g037",
+      "verse_ids": [
+        "kh08-ch014-v037"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g038",
+      "verse_ids": [
+        "kh08-ch014-v038"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g039",
+      "verse_ids": [
+        "kh08-ch014-v039"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g040",
+      "verse_ids": [
+        "kh08-ch014-v040"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g041",
+      "verse_ids": [
+        "kh08-ch014-v041"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g042",
+      "verse_ids": [
+        "kh08-ch014-v042"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g043",
+      "verse_ids": [
+        "kh08-ch014-v043"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g044",
+      "verse_ids": [
+        "kh08-ch014-v044"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g045",
+      "verse_ids": [
+        "kh08-ch014-v045"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g046",
+      "verse_ids": [
+        "kh08-ch014-v046"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g047",
+      "verse_ids": [
+        "kh08-ch014-v047"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g048",
+      "verse_ids": [
+        "kh08-ch014-v048"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g049",
+      "verse_ids": [
+        "kh08-ch014-v049"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g050",
+      "verse_ids": [
+        "kh08-ch014-v050"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g051",
+      "verse_ids": [
+        "kh08-ch014-v051"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g052",
+      "verse_ids": [
+        "kh08-ch014-v052"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g053",
+      "verse_ids": [
+        "kh08-ch014-v053"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g054",
+      "verse_ids": [
+        "kh08-ch014-v054"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g055",
+      "verse_ids": [
+        "kh08-ch014-v055"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g056",
+      "verse_ids": [
+        "kh08-ch014-v056"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g057",
+      "verse_ids": [
+        "kh08-ch014-v057"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch014-g058",
+      "verse_ids": [
+        "kh08-ch014-v058"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    }
+  ],
+  "separate_invocation_devanagari": "॥ श्रीगणेशाय नमः ॥",
+  "separate_invocation_kannada_script": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+  "colophon": {}
+}

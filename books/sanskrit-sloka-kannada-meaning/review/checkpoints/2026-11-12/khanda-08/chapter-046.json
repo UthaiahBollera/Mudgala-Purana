@@ -1,0 +1,4147 @@
+{
+  "edition": "Mudgala Purana paired review checkpoint",
+  "checkpoint_date": "2026-11-12",
+  "status": "Review draft; not expert verified; not integrated into the canonical reader",
+  "khanda": 8,
+  "chapter": 46,
+  "source_draft_sha256": "ee295e15bfc0903cd95bc021834d33cca2aba913fed5436c30ba51cdbbe01d09",
+  "entries": [
+    {
+      "id": "kh08-ch046-v001",
+      "verse": 1,
+      "sequence_position": 1,
+      "printed_verse_label": 1,
+      "sanskrit_devanagari": "आस्तीक उवाच । बाल्यात्प्रभृति शैवोऽहं पितरंस्तं त्यज्य विघ्नपम् । कथं भजामि विप्रेश अतः शैवं वदस्व माम् ॥१॥",
+      "sanskrit_kannada_script": "ಆಸ್ತೀಕ ಉವಾಚ ೤ ಬಾಲ್ಯಾತ್ಪ್ರಭೃತಿ ಶೈವೋಽಹಂ ಪಿತರಂಸ್ತಂ ತ್ಯಜ್ಯ ವಿಘ್ನಪಮ್ ೤ ಕಥಂ ಭಜಾಮಿ ವಿಪ್ರೇಶ ಅತಃ ಶೈವಂ ವದಸ್ವ ಮಾಮ್ ೥೧೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P983-API-U-1, P983-API-U-2, P983-API-U-3, P983-API-U-4, P984-API-U-1, P984-API-U-2, P984-API-U-3, P984-API-U-4, CH46-PAGE983-ALIGNMENT, REVIEW-8-46-1 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧॥",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-8-46-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The draft reverses the objects: Vighnapa is the proposed object of worship; tam refers back to Shiva, whom Astika asks about leaving. The exact pitaraṃstam/pitastam printed cluster remains an inherited source hold. Speaker Astika is correct."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v002",
+      "verse": 2,
+      "sequence_position": 2,
+      "printed_verse_label": 2,
+      "sanskrit_devanagari": "जरत्कारुरुवाच । त्यक्त्वा गणेशं शांतिस्थो न कोऽपि सुत संभवेत् । गणेशानं शंभुमुखा ध्यात्वा शांतियुता बभुः ॥२॥",
+      "sanskrit_kannada_script": "ಜರತ್ಕಾರುರುವಾಚ ೤ ತ್ಯಕ್ತ್ವಾ ಗಣೇಶಂ ಶಾಂತಿಸ್ಥೋ ನ ಕೋಽಪಿ ಸುತ ಸಂಭವೇತ್ ೤ ಗಣೇಶಾನಂ ಶಂಭುಮುಖಾ ಧ್ಯಾತ್ವಾ ಶಾಂತಿಯುತಾ ಬಭುಃ ೥೨೥",
+      "kannada_meaning": "ಜರತ್ಕಾರುವು ಹೇಳಿದನು: ಎಲೈ ಮಗನೇ, ಗಣೇಶನನ್ನು ತ್ಯಜಿಸಿ ಯಾರೊಬ್ಬನೂ ಶಾಂತಿಯಲ್ಲಿ ನೆಲೆಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಶಂಭು ಮೊದಲಾದವರೂ ಗಣೇಶಾನನನ್ನು ಧ್ಯಾನಿಸಿ ಶಾಂತಿಯುತರಾದರು ॥೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v003",
+      "verse": 3,
+      "sequence_position": 3,
+      "printed_verse_label": 3,
+      "sanskrit_devanagari": "शिवविष्ण्वादि भावेषु ब्रह्मशब्दः प्रकीर्तितः । एकांशेन गणेशस्य वेदेषु वेदवादिभिः ॥३॥",
+      "sanskrit_kannada_script": "ಶಿವವಿಷ್ಣ್ವಾದಿ ಭಾವೇಷು ಬ್ರಹ್ಮಶಬ್ದಃ ಪ್ರಕೀರ್ತಿತಃ ೤ ಏಕಾಂಶೇನ ಗಣೇಶಸ್ಯ ವೇದೇಷು ವೇದವಾದಿಭಿಃ ೥೩೥",
+      "kannada_meaning": "ಶಿವ, ವಿಷ್ಣು ಮೊದಲಾದ ಭಾವಗಳಲ್ಲಿ ಗಣೇಶನ ಒಂದು ಅಂಶದಿಂದಾಗಿ ವೇದಗಳಲ್ಲಿ ವೇದವಾದಿಗಳಿಂದ ಬ್ರಹ್ಮಶಬ್ದವು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದೆ ॥೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v004",
+      "verse": 4,
+      "sequence_position": 4,
+      "printed_verse_label": 4,
+      "sanskrit_devanagari": "तेषु योगं समाराध्य शांतिं प्राप्ताः सुयोगिनः । सा शांतिः स्वल्पभावाख्या न मुख्या योगिनां मते ॥४॥",
+      "sanskrit_kannada_script": "ತೇಷು ಯೋಗಂ ಸಮಾರಾಧ್ಯ ಶಾಂತಿಂ ಪ್ರಾಪ್ತಾಃ ಸುಯೋಗಿನಃ ೤ ಸಾ ಶಾಂತಿಃ ಸ್ವಲ್ಪಭಾವಾಖ್ಯಾ ನ ಮುಖ್ಯಾ ಯೋಗಿನಾಂ ಮತೇ ೥೪೥",
+      "kannada_meaning": "ಅವುಗಳಲ್ಲಿ ಯೋಗವನ್ನು ಸಮಾರಾಧಿಸಿ ಸುಯೋಗಿಗಳು ಶಾಂತಿಯನ್ನು ಪಡೆದಿದ್ದಾರೆ. ಆ ಶಾಂತಿಯು ಸ್ವಲ್ಪಭಾವವೆಂದು ಕರೆಯಲ್ಪಡುತ್ತದೆ; ಯೋಗಿಗಳ ಮತದಲ್ಲಿ ಅದು ಮುಖ್ಯವಲ್ಲ ॥೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v005",
+      "verse": 5,
+      "sequence_position": 5,
+      "printed_verse_label": 5,
+      "sanskrit_devanagari": "शांतिस्थः शांतिदः प्रोक्तो गणेशो ब्रह्मणस्पतिः । तं भजस्व विधानेन तदा शांतिमवाप्स्यसि ॥५॥",
+      "sanskrit_kannada_script": "ಶಾಂತಿಸ್ಥಃ ಶಾಂತಿದಃ ಪ್ರೋಕ್ತೋ ಗಣೇಶೋ ಬ್ರಹ್ಮಣಸ್ಪತಿಃ ೤ ತಂ ಭಜಸ್ವ ವಿಧಾನೇನ ತದಾ ಶಾಂತಿಮವಾಪ್ಸ್ಯಸಿ ೥೫೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P983-API-U-1, P983-API-U-2, P983-API-U-3, P983-API-U-4, P984-API-U-1, P984-API-U-2, P984-API-U-3, P984-API-U-4, CH46-PAGE983-ALIGNMENT, REVIEW-8-46-5 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೫॥",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-8-46-5",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Scan prints śāntibhyaḥ, not the saved śāntisthaḥ. Literal OCR also has a corrupt but plural-ending śāntibhyaḥ-like form. Kannada invents being established in peace from the faulty saved source. Exact construal of śāntibhyaḥ śāntidaḥ should be adjudicated before replacement."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v006",
+      "verse": 6,
+      "sequence_position": 6,
+      "printed_verse_label": 6,
+      "sanskrit_devanagari": "गणेशो मायया युक्तः पंचधा परिकीर्तितः । पंचभेदविहीनः स निर्ममायिक उदाहृतः ॥६॥",
+      "sanskrit_kannada_script": "ಗಣೇಶೋ ಮಾಯಯಾ ಯುಕ್ತಃ ಪಂಚಧಾ ಪರಿಕೀರ್ತಿತಃ ೤ ಪಂಚಭೇದವಿಹೀನಃ ಸ ನಿರ್ಮಮಾಯಿಕ ಉದಾಹೃತಃ ೥೬೥",
+      "kannada_meaning": "ಮಾಯೆಯಿಂದ ಕೂಡಿದ ಗಣೇಶನು ಐದು ವಿಧವಾಗಿ ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದ್ದಾನೆ. ಪಂಚಭೇದರಹಿತನಾದ ಅವನು ನಿರ್ಮಾಯಿಕನೆಂದು ಕರೆಯಲ್ಪಟ್ಟಿದ್ದಾನೆ ॥೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v007",
+      "verse": 7,
+      "sequence_position": 7,
+      "printed_verse_label": 7,
+      "sanskrit_devanagari": "मायायुक्तविहीनत्वं भ्रांतिमात्रं प्रकीर्तितम् । तयोर्र्योगे गणेशानः शांतिरूपो न संशयः ॥७॥",
+      "sanskrit_kannada_script": "ಮಾಯಾಯುಕ್ತವಿಹೀನತ್ವಂ ಭ್ರಾಂತಿಮಾತ್ರಂ ಪ್ರಕೀರ್ತಿತಮ್ ೤ ತಯೋರ್ರ್ಯೋಗೇ ಗಣೇಶಾನಃ ಶಾಂತಿರೂಪೋ ನ ಸಂಶಯಃ ೥೭೥",
+      "kannada_meaning": "ಮಾಯಾಯುಕ್ತತ್ವ ಮತ್ತು ಮಾಯಾರಹಿತತ್ವಗಳು ಭ್ರಾಂತಿಮಾತ್ರವೆಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿವೆ. ಅವೆರಡರ ಯೋಗದಲ್ಲಿ ಗಣೇಶಾನನು ಶಾಂತಿರೂಪನು ಎಂಬುದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ ॥೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v008",
+      "verse": 8,
+      "sequence_position": 8,
+      "printed_verse_label": 8,
+      "sanskrit_devanagari": "अतो गणेशरूपाद्वै शिवो भिन्नः प्रकीर्तितः । त्यजाज्ञानभवं दुःखमभेदं गणपं भज ॥८॥",
+      "sanskrit_kannada_script": "ಅತೋ ಗಣೇಶರೂಪಾದ್ವೈ ಶಿವೋ ಭಿನ್ನಃ ಪ್ರಕೀರ್ತಿತಃ ೤ ತ್ಯಜಾಜ್ಞಾನಭವಂ ದುಃಖಮಭೇದಂ ಗಣಪಂ ಭಜ ೥೮೥",
+      "kannada_meaning": "ಆದುದರಿಂದ ಗಣೇಶರೂಪದಿಂದ ಶಿವನು ಭಿನ್ನನೆಂದು ಕೀರ್ತಿಸಲ್ಪಟ್ಟಿದ್ದಾನೆ. ಅಜ್ಞಾನದಿಂದ ಉಂಟಾದ ದುಃಖವನ್ನು ತ್ಯಜಿಸಿ, ಅಭೇದನಾದ ಗಣಪನನ್ನು ಭಜಿಸು ॥೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v009",
+      "verse": 9,
+      "sequence_position": 9,
+      "printed_verse_label": 9,
+      "sanskrit_devanagari": "अत्र ते कथयिष्यामि संवादं शंकरस्य च । उपमन्योर्महाभाग सर्वशांतिप्रदायकम् ॥९॥",
+      "sanskrit_kannada_script": "ಅತ್ರ ತೇ ಕಥಯಿಷ್ಯಾಮಿ ಸಂವಾದಂ ಶಂಕರಸ್ಯ ಚ ೤ ಉಪಮನ್ಯೋರ್ಮಹಾಭಾಗ ಸರ್ವಶಾಂತಿಪ್ರದಾಯಕಮ್ ೥೯೥",
+      "kannada_meaning": "ಎಲೈ ಮಹಾಭಾಗನೇ, ಇಲ್ಲಿ ನಿನಗೆ ಎಲ್ಲ ಶಾಂತಿಯನ್ನು ನೀಡುವ ಶಂಕರ ಮತ್ತು ಉಪಮನ್ಯುವಿನ ಸಂವಾದವನ್ನು ಹೇಳುತ್ತೇನೆ ॥೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v010",
+      "verse": 10,
+      "sequence_position": 10,
+      "printed_verse_label": 10,
+      "sanskrit_devanagari": "महापाशुपतो विप्र उपमन्युर्महायशाः । सहजं शंकरं ब्रह्म ज्ञात्वा खेदयुतोऽभवत् ॥१०॥",
+      "sanskrit_kannada_script": "ಮಹಾಪಾಶುಪತೋ ವಿಪ್ರ ಉಪಮನ್ಯುರ್ಮಹಾಯಶಾಃ ೤ ಸಹಜಂ ಶಂಕರಂ ಬ್ರಹ್ಮ ಜ್ಞಾತ್ವಾ ಖೇದಯುತೋಽಭವತ್ ೥೧೦೥",
+      "kannada_meaning": "ಮಹಾಪಾಶುಪತನೂ ಮಹಾಯಶಸ್ವಿಯೂ ಆದ ಉಪಮನ್ಯು ಎಂಬ ವಿಪ್ರನು ಶಂಕರನನ್ನು ಸಹಜ ಬ್ರಹ್ಮವೆಂದು ತಿಳಿದು ಖೇದಯುಕ್ತನಾದನು ॥೧೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v011",
+      "verse": 11,
+      "sequence_position": 11,
+      "printed_verse_label": 11,
+      "sanskrit_devanagari": "जगाम शंकरं विप्रस्तं प्रणम्य प्रपूज्य ह । स्तुत्वा नस्य जगादाथ कृतांजलिर्महामुनिः ॥११॥",
+      "sanskrit_kannada_script": "ಜಗಾಮ ಶಂಕರಂ ವಿಪ್ರಸ್ತಂ ಪ್ರಣಮ್ಯ ಪ್ರಪೂಜ್ಯ ಹ ೤ ಸ್ತುತ್ವಾ ನಸ್ಯ ಜಗಾದಾಥ ಕೃತಾಂಜಲಿರ್ಮಹಾಮುನಿಃ ೥೧೧೥",
+      "kannada_meaning": "ಆ ವಿಪ್ರನು ಶಂಕರನ ಬಳಿಗೆ ಹೋದನು; ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ, ಪೂಜಿಸಿ, ಸ್ತುತಿಸಿ, ಬಾಗಿ ನಮಿಸಿ, ಕೈಮುಗಿದು ಆ ಮಹಾಮುನಿಯು ಹೀಗೆ ಹೇಳಿದನು ॥೧೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v012",
+      "verse": 12,
+      "sequence_position": 12,
+      "printed_verse_label": 12,
+      "sanskrit_devanagari": "उपमन्युरुवाच । सहजं शांकरं ब्रह्म स्वाधीनं दोषसंयुतम् । स्वाधीनं च पराधीनं नैव ब्रह्मणि विद्यते ॥१२॥",
+      "sanskrit_kannada_script": "ಉಪಮನ್ಯುರುವಾಚ ೤ ಸಹಜಂ ಶಾಂಕರಂ ಬ್ರಹ್ಮ ಸ್ವಾಧೀನಂ ದೋಷಸಂಯುತಮ್ ೤ ಸ್ವಾಧೀನಂ ಚ ಪರಾಧೀನಂ ನೈವ ಬ್ರಹ್ಮಣಿ ವಿದ್ಯತೇ ೥೧೨೥",
+      "kannada_meaning": "ಉಪಮನ್ಯುವು ಹೇಳಿದನು: ಸಹಜವಾದ ಶಾಂಕರ ಬ್ರಹ್ಮವು ಸ್ವಾಧೀನವೂ ದೋಷಸಂಯುಕ್ತವೂ ಆಗಿದೆ. ಬ್ರಹ್ಮದಲ್ಲಿ ಸ್ವಾಧೀನತೆಯಾಗಲಿ ಪರಾದೀನತೆಯಾಗಲಿ ಇರುವುದಿಲ್ಲ ॥೧೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v013",
+      "verse": 13,
+      "sequence_position": 13,
+      "printed_verse_label": 13,
+      "sanskrit_devanagari": "ब्रह्मभूयकरं योगं वद शैव सदाशिव । येनाहं शिवतां प्राप्य शांतिसंस्थो भजे सदा ॥१३॥",
+      "sanskrit_kannada_script": "ಬ್ರಹ್ಮಭೂಯಕರಂ ಯೋಗಂ ವದ ಶೈವ ಸದಾಶಿವ ೤ ಯೇನಾಹಂ ಶಿವತಾಂ ಪ್ರಾಪ್ಯ ಶಾಂತಿಸಂಸ್ಥೋ ಭಜೇ ಸದಾ ೥೧೩೥",
+      "kannada_meaning": "ಎಲೈ ಶೈವ ಸದಾಶಿವನೇ, ಬ್ರಹ್ಮಭಾವವನ್ನುಂಟುಮಾಡುವ ಯೋಗವನ್ನು ಹೇಳು; ಅದರಿಂದ ನಾನು ಶಿವತ್ವವನ್ನು ಪಡೆದು ಶಾಂತಿಯಲ್ಲಿ ನೆಲೆಸಿ ಆತನನ್ನು ಸದಾ ಭಜಿಸುವಂತಾಗಲಿ. ॥೧೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-46-13",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v014",
+      "verse": 14,
+      "sequence_position": 14,
+      "printed_verse_label": 14,
+      "sanskrit_devanagari": "इति तस्य वचः श्रुत्वा हर्षयुक्तः सदाशिवः । उवाच तं महाभागं योगं गाणेशसंज्ञकम् ॥१४॥",
+      "sanskrit_kannada_script": "ಇತಿ ತಸ್ಯ ವಚಃ ಶ್ರುತ್ವಾ ಹರ್ಷಯುಕ್ತಃ ಸದಾಶಿವಃ ೤ ಉವಾಚ ತಂ ಮಹಾಭಾಗಂ ಯೋಗಂ ಗಾಣೇಶಸಂಜ್ಞಕಮ್ ೥೧೪೥",
+      "kannada_meaning": "ಹೀಗೆ ಅವನ ಮಾತನ್ನು ಕೇಳಿ ಸಂತೋಷಗೊಂಡ ಸದಾಶಿವನು, ಆ ಮಹಾಭಾಗನಿಗೆ ಗಾಣೇಶವೆಂಬ ಹೆಸರಿನ ಯೋಗವನ್ನು ಹೇಳಿದನು ॥೧೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v015",
+      "verse": 15,
+      "sequence_position": 15,
+      "printed_verse_label": 15,
+      "sanskrit_devanagari": "शिव उवाच । एकदा काशीसंस्थं मामुवाच मुनिसत्तमः । जैगीषव्यो यथा त्वं वै तथा पाशुपताग्रणीः ॥१५॥",
+      "sanskrit_kannada_script": "ಶಿವ ಉವಾಚ ೤ ಏಕದಾ ಕಾಶೀಸಂಸ್ಥಂ ಮಾಮುವಾಚ ಮುನಿಸತ್ತಮಃ ೤ ಜೈಗೀಷವ್ಯೋ ಯಥಾ ತ್ವಂ ವೈ ತಥಾ ಪಾಶುಪತಾಗ್ರಣೀಃ ೥೧೫೥",
+      "kannada_meaning": "ಶಿವನು ಹೇಳಿದನು: ಒಮ್ಮೆ ಕಾಶಿಯಲ್ಲಿದ್ದ ನನ್ನನ್ನು ಕುರಿತು, ನಿನ್ನಂತೆಯೇ ಪಾಶುಪತರಲ್ಲಿ ಅಗ್ರಗಣ್ಯನಾದ ಮುನಿಶ್ರೇಷ್ಠ ಜೈಗೀಷವ್ಯನು ಹೇಳಿದನು ॥೧೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v016",
+      "verse": 16,
+      "sequence_position": 16,
+      "printed_verse_label": 16,
+      "sanskrit_devanagari": "जैगीषव्य उवाच । शिवः सहजसंज्ञस्यो ब्रह्मणि सहजं कथम् । अतः शैवं परं योगं वद मे शांतिदायकम् ॥१६॥",
+      "sanskrit_kannada_script": "ಜೈಗೀಷವ್ಯ ಉವಾಚ ೤ ಶಿವಃ ಸಹಜಸಂಜ್ಞಸ್ಯೋ ಬ್ರಹ್ಮಣಿ ಸಹಜಂ ಕಥಮ್ ೤ ಅತಃ ಶೈವಂ ಪರಂ ಯೋಗಂ ವದ ಮೇ ಶಾಂತಿದಾಯಕಮ್ ೥೧೬೥",
+      "kannada_meaning": "ಜೈಗೀಷವ್ಯನು ಹೇಳಿದನು: ಶಿವನು ‘ಸಹಜ’ ಎಂಬ ಸಂಜ್ಞೆಯಲ್ಲಿರುವವನು. ಬ್ರಹ್ಮದಲ್ಲಿ ಸಹಜತ್ವವು ಹೇಗಿರಲು ಸಾಧ್ಯ? ಆದುದರಿಂದ ನನಗೆ ಶಾಂತಿದಾಯಕವಾದ ಪರಮ ಶೈವಯೋಗವನ್ನು ಹೇಳು. ॥೧೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-46-16",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v017",
+      "verse": 17,
+      "sequence_position": 17,
+      "printed_verse_label": 17,
+      "sanskrit_devanagari": "विश्वनाथ उवाच । गणेशं भज भावेन तदा शांतिमवाप्स्यसि । ढुंढयित्वा मया योगात् हृतो ढुंढिः हृदि स्थितः ॥१७॥",
+      "sanskrit_kannada_script": "ವಿಶ್ವನಾಥ ಉವಾಚ ೤ ಗಣೇಶಂ ಭಜ ಭಾವೇನ ತದಾ ಶಾಂತಿಮವಾಪ್ಸ್ಯಸಿ ೤ ಢುಂಢಯಿತ್ವಾ ಮಯಾ ಯೋಗಾತ್ ಹೃತೋ ಢುಂಢಿಃ ಹೃದಿ ಸ್ಥಿತಃ ೥೧೭೥",
+      "kannada_meaning": "ವಿಶ್ವನಾಥನು ಹೇಳಿದನು: ಭಾವದಿಂದ ಗಣೇಶನನ್ನು ಭಜಿಸು; ಆಗ ಶಾಂತಿಯನ್ನು ಪಡೆಯುವೆ. ಯೋಗದ ಮೂಲಕ ನಾನು ಹುಡುಕಿ ಪಡೆದ ಢುಂಢಿಯು ಹೃದಯದಲ್ಲಿ ನೆಲೆಸಿದ್ದಾನೆ. ॥೧೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-46-17",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v018",
+      "verse": 18,
+      "sequence_position": 18,
+      "printed_verse_label": 18,
+      "sanskrit_devanagari": "मम श्रुत्वा वचो रम्यं दुःखितो मामुवाच ह । जैगीषव्यो वचो विप्र तदहं कथयामि ते ॥१८॥",
+      "sanskrit_kannada_script": "ಮಮ ಶ್ರುತ್ವಾ ವಚೋ ರಮ್ಯಂ ದುಃಖಿತೋ ಮಾಮುವಾಚ ಹ ೤ ಜೈಗೀಷವ್ಯೋ ವಚೋ ವಿಪ್ರ ತದಹಂ ಕಥಯಾಮಿ ತೇ ೥೧೮೥",
+      "kannada_meaning": "ನನ್ನ ರಮ್ಯವಾದ ಮಾತನ್ನು ಕೇಳಿ ದುಃಖಿತನಾದ ಜೈಗೀಷವ್ಯನು ನನಗೆ ಹೇಳಿದ ಮಾತುಗಳನ್ನು ಎಲೈ ವಿಪ್ರನೇ ನಿನಗೆ ಹೇಳುತ್ತೇನೆ ॥೧೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v019",
+      "verse": 19,
+      "sequence_position": 19,
+      "printed_verse_label": 19,
+      "sanskrit_devanagari": "जैगीषव्य उवाच । त्यक्त्वा विश्वेश्वरं देवं भजाम्यन्यं न विश्वप । अशांतिशांतिदो वाऽपि शिवो मे परमा गतिः ॥१९॥",
+      "sanskrit_kannada_script": "ಜೈಗೀಷವ್ಯ ಉವಾಚ ೤ ತ್ಯಕ್ತ್ವಾ ವಿಶ್ವೇಶ್ವರಂ ದೇವಂ ಭಜಾಮ್ಯನ್ಯಂ ನ ವಿಶ್ವಪ ೤ ಅಶಾಂತಿಶಾಂತಿದೋ ವಾಽಪಿ ಶಿವೋ ಮೇ ಪರಮಾ ಗತಿಃ ೥೧೯೥",
+      "kannada_meaning": "ಜೈಗೀಷವ್ಯನು ಹೇಳಿದನು: ಎಲೈ ವಿಶ್ವಪನೇ, ವಿಶ್ವೇಶ್ವರ ದೇವನನ್ನು ತ್ಯಜಿಸಿ ನಾನು ಬೇರೊಬ್ಬನನ್ನು ಭಜಿಸುವುದಿಲ್ಲ. ಅಶಾಂತಿಯನ್ನು ಕೊಡುವವನಾಗಲಿ ಅಥವಾ ಶಾಂತಿಯನ್ನು ಕೊಡುವವನಾಗಲಿ ಶಿವನೇ ನನಗೆ ಪರಮ ಗತಿಯು ॥೧೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v020",
+      "verse": 20,
+      "sequence_position": 20,
+      "printed_verse_label": 20,
+      "sanskrit_devanagari": "विश्वनाथ उवाच । असच्छक्तिश्च सद्भानुः समो हरिरहं शिवः । अव्यक्तश्च चतुर्णां वै योगे स्वानंद उच्यते ॥२०॥",
+      "sanskrit_kannada_script": "ವಿಶ್ವನಾಥ ಉವಾಚ ೤ ಅಸಚ್ಛಕ್ತಿಶ್ಚ ಸದ್ಭಾನುಃ ಸಮೋ ಹರಿರಹಂ ಶಿವಃ ೤ ಅವ್ಯಕ್ತಶ್ಚ ಚತುರ್ಣಾಂ ವೈ ಯೋಗೇ ಸ್ವಾನಂದ ಉಚ್ಯತೇ ೥೨೦೥",
+      "kannada_meaning": "ವಿಶ್ವನಾಥನು ಹೇಳಿದನು: ಅಸತ್‌ರೂಪಿಣಿ ಶಕ್ತಿ, ಸತ್‌ರೂಪಿ ಭಾನು, ಸಮರೂಪಿ ಹರಿ ಮತ್ತು ಶಿವನಾದ ನಾನು. ಈ ನಾಲ್ವರ ಯೋಗದಲ್ಲಿ ಅವ್ಯಕ್ತವು ಸ್ವಾನಂದವೆಂದು ಕರೆಯಲ್ಪಡುತ್ತದೆ. ॥೨೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-46-20",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v021",
+      "verse": 21,
+      "sequence_position": 21,
+      "printed_verse_label": 21,
+      "sanskrit_devanagari": "स एव गणनाथेोऽयं मायया पंचधा बभौ । मायाहीनो ह्ययोगस्थः पंचभिर्वर्जितो मतः ॥२१॥",
+      "sanskrit_kannada_script": "ಸ ಏವ ಗಣನಾಥೇೋಽಯಂ ಮಾಯಯಾ ಪಂಚಧಾ ಬಭೌ ೤ ಮಾಯಾಹೀನೋ ಹ್ಯಯೋಗಸ್ಥಃ ಪಂಚಭಿರ್ವರ್ಜಿತೋ ಮತಃ ೥೨೧೥",
+      "kannada_meaning": "ಆ ಗಣನಾಥನೇ ಈ ರೀತಿಯಾಗಿ ಮಾಯೆಯಿಂದ ಐದು ವಿಧವಾಗಿ ಪ್ರಕಾಶಿಸಿದನು. ಮಾಯಾರಹಿತನೂ ಆಯೋಗಸ್ಥನೂ ಆದವನು ಈ ಐದರಿಂದಲೂ ವರ್ಜಿತನೆಂದು ತಿಳಿಯಲ್ಪಟ್ಟಿದ್ದಾನೆ ॥೨೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v022",
+      "verse": 22,
+      "sequence_position": 22,
+      "printed_verse_label": 22,
+      "sanskrit_devanagari": "तयोर्योगे गणाधीशः शांतिदः पूर्णवाचकः । अतोऽयं ब्रह्मणां नाथो वयं ब्रह्मप्रवाचकाः ॥२२॥",
+      "sanskrit_kannada_script": "ತಯೋರ್ಯೋಗೇ ಗಣಾಧೀಶಃ ಶಾಂತಿದಃ ಪೂರ್ಣವಾಚಕಃ ೤ ಅತೋಽಯಂ ಬ್ರಹ್ಮಣಾಂ ನಾಥೋ ವಯಂ ಬ್ರಹ್ಮಪ್ರವಾಚಕಾಃ ೥೨೨೥",
+      "kannada_meaning": "ಅವೆರಡರ ಯೋಗದಲ್ಲಿ ಗಣಾಧೀಶನು ಶಾಂತಿದಾಯಕನೂ ಪೂರ್ಣವಾಚಕನೂ ಆಗಿದ್ದಾನೆ. ಆದುದರಿಂದ ಇವನು ಬ್ರಹ್ಮಗಳ ನಾಥನು ಮತ್ತು ನಾವು ಬ್ರಹ್ಮಪ್ರವಾಚಕರು ॥೨೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v023",
+      "verse": 23,
+      "sequence_position": 23,
+      "printed_verse_label": 23,
+      "sanskrit_devanagari": "खेलनाद्गणनाथोऽयमस्मद्रूपधरोऽभवत् । कलया तत्र किं भिन्नं मन्यसे मुनिसत्तम ॥२३॥",
+      "sanskrit_kannada_script": "ಖೇಲನಾದ್ಗಣನಾಥೋಽಯಮಸ್ಮದ್ರೂಪಧರೋಽಭವತ್ ೤ ಕಲಯಾ ತತ್ರ ಕಿಂ ಭಿನ್ನಂ ಮನ್ಯಸೇ ಮುನಿಸತ್ತಮ ೥೨೩೥",
+      "kannada_meaning": "ಲೀಲೆಯಿಂದ ಈ ಗಣನಾಥನು ತನ್ನ ಅಂಶದಿಂದ ನಮ್ಮ ರೂಪವನ್ನು ಧರಿಸಿದವನಾದನು. ಎಲೈ ಮುನಿಶ್ರೇಷ್ಠನೇ, ಅಲ್ಲಿ ಏನು ಭಿನ್ನತೆಯನ್ನು ಭಾವಿಸುತ್ತೀಯೆ? ॥೨೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v024",
+      "verse": 24,
+      "sequence_position": 24,
+      "printed_verse_label": 24,
+      "sanskrit_devanagari": "भेदबुद्धिं परित्यज्य भज विघ्नेशमादरात् । न भिन्नः शंकरस्तस्मात्तद्रूपं तं विभावय ॥२४॥",
+      "sanskrit_kannada_script": "ಭೇದಬುದ್ಧಿಂ ಪರಿತ್ಯಜ್ಯ ಭಜ ವಿಘ್ನೇಶಮಾದರಾತ್ ೤ ನ ಭಿನ್ನಃ ಶಂಕರಸ್ತಸ್ಮಾತ್ತದ್ರೂಪಂ ತಂ ವಿಭಾವಯ ೥೨೪೥",
+      "kannada_meaning": "ಭೇದಬುದ್ಧಿಯನ್ನು ಪರಿತ್ಯಜಿಸಿ ಆದರದಿಂದ ವಿಘ್ನೇಶನನ್ನು ಭಜಿಸು. ಶಂಕರನು ಅವನಿಂದ ಭಿನ್ನನಲ್ಲ, ಆದುದರಿಂದ ಅವನನ್ನು ಆ ರೂಪವಾಗಿಯೇ ಭಾವಿಸು ॥೨೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0916.png",
+          "printed_page": 107,
+          "printed_page_status": "visually verified",
+          "original_image_index": 916,
+          "sha256": "494abf3fa2e7087bf1177383417ea93e880670efe6fc7d807b8f0c91da6d1a10",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE983-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v025",
+      "verse": 25,
+      "sequence_position": 25,
+      "printed_verse_label": 25,
+      "sanskrit_devanagari": "एवमुक्त्वाऽददात्तस्मै मंत्रमेकाक्षरं ततः । सविधिं गणनायस्य ततो ध्यानप्रसिद्धये ॥२५॥",
+      "sanskrit_kannada_script": "ಏವಮುಕ್ತ್ವಾಽದದಾತ್ತಸ್ಮೈ ಮಂತ್ರಮೇಕಾಕ್ಷರಂ ತತಃ ೤ ಸವಿಧಿಂ ಗಣನಾಯಸ್ಯ ತತೋ ಧ್ಯಾನಪ್ರಸಿದ್ಧಯೇ ೥೨೫೥",
+      "kannada_meaning": "ಹೀಗೆ ಹೇಳಿ, ಅನಂತರ ಅವನು ಗಣನಾಥನ ಧ್ಯಾನಸಿದ್ಧಿಗಾಗಿ ವಿಧಿಸಹಿತವಾದ ಏಕಾಕ್ಷರ ಮಂತ್ರವನ್ನು ಅವನಿಗೆ ನೀಡಿದನು ॥೨೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v026",
+      "verse": 26,
+      "sequence_position": 26,
+      "printed_verse_label": 26,
+      "sanskrit_devanagari": "साधयित्वा यथान्यायं योगं गाणेशसंज्ञितम् । ततो यज्ञं समारेभे ब्राह्मणस्पत्यसंज्ञकम् ॥२६॥",
+      "sanskrit_kannada_script": "ಸಾಧಯಿತ್ವಾ ಯಥಾನ್ಯಾಯಂ ಯೋಗಂ ಗಾಣೇಶಸಂಜ್ಞಿತಮ್ ೤ ತತೋ ಯಜ್ಞಂ ಸಮಾರೇಭೇ ಬ್ರಾಹ್ಮಣಸ್ಪತ್ಯಸಂಜ್ಞಕಮ್ ೥೨೬೥",
+      "kannada_meaning": "ಗಾಣೇಶವೆಂಬ ಹೆಸರಿನ ಯೋಗವನ್ನು ಯಥಾನ್ಯಾಯವಾಗಿ ಸಾಧಿಸಿ, ಅನಂತರ ಅವನು ಬ್ರಾಹ್ಮಣಸ್ಪತ್ಯವೆಂಬ ಯಜ್ಞವನ್ನು ಪ್ರಾರಂಭಿಸಿದನು ॥೨೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v027",
+      "verse": 27,
+      "sequence_position": 27,
+      "printed_verse_label": 27,
+      "sanskrit_devanagari": "कृत्वा यज्ञं मुदायुक्तो द्विजान्नत्वा विसृज्य सः । संस्थितस्तत्र विघ्नेशः प्रययौ वरदायकः ॥२७॥",
+      "sanskrit_kannada_script": "ಕೃತ್ವಾ ಯಜ್ಞಂ ಮುದಾಯುಕ್ತೋ ದ್ವಿಜಾನ್ನತ್ವಾ ವಿಸೃಜ್ಯ ಸಃ ೤ ಸಂಸ್ಥಿತಸ್ತತ್ರ ವಿಘ್ನೇಶಃ ಪ್ರಯಯೌ ವರದಾಯಕಃ ೥೨೭೥",
+      "kannada_meaning": "ಸಂತೋಷದಿಂದ ಕೂಡಿದವನಾಗಿ ಯಜ್ಞವನ್ನು ಮಾಡಿ, ಅವನು ಬ್ರಾಹ್ಮಣರಿಗೆ ನಮಸ್ಕರಿಸಿ ಬೀಳ್ಕೊಟ್ಟು ಅಲ್ಲಿಯೇ ನೆಲೆಸಿದಾಗ, ವರದಾಯಕನಾದ ವಿಘ್ನೇಶನು ಪ್ರತ್ಯಕ್ಷನಾದನು ॥೨೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v028",
+      "verse": 28,
+      "sequence_position": 28,
+      "printed_verse_label": 28,
+      "sanskrit_devanagari": "तं दृष्ट्वा सहसोत्थाय प्रणनाम पुपूज ह । पुनः प्रणम्य तुष्टाव यजुःस्तोत्रेण विघ्नपम् ॥२८॥",
+      "sanskrit_kannada_script": "ತಂ ದೃಷ್ಟ್ವಾ ಸಹಸೋತ್ಥಾಯ ಪ್ರಣನಾಮ ಪುಪೂಜ ಹ ೤ ಪುನಃ ಪ್ರಣಮ್ಯ ತುಷ್ಟಾವ ಯಜುಃಸ್ತೋತ್ರೇಣ ವಿಘ್ನಪಮ್ ೥೨೮೥",
+      "kannada_meaning": "ಅವನನ್ನು ಕಂಡು ಕೂಡಲೇ ಎದ್ದು ನಮಸ್ಕರಿಸಿ ಪೂಜಿಸಿದನು. ಪುನಃ ನಮಸ್ಕರಿಸಿ ಯಜುಃಸ್ತೋತ್ರದಿಂದ ವಿಘ್ನಪತಿಯನ್ನು ಸ್ತುತಿಸಿದನು ॥೨೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v029",
+      "verse": 29,
+      "sequence_position": 29,
+      "printed_verse_label": 29,
+      "sanskrit_devanagari": "योगशांतिं प्रदत्वासौ जैगीषव्याय धीमते । आचार्यतां तु योगस्य स्वयमंतर्दधे विभुः ॥२९॥",
+      "sanskrit_kannada_script": "ಯೋಗಶಾಂತಿಂ ಪ್ರದತ್ವಾಸೌ ಜೈಗೀಷವ್ಯಾಯ ಧೀಮತೇ ೤ ಆಚಾರ್ಯತಾಂ ತು ಯೋಗಸ್ಯ ಸ್ವಯಮಂತರ್ದಧೇ ವಿಭುಃ ೥೨೯೥",
+      "kannada_meaning": "ಬುದ್ಧಿವಂತನಾದ ಆ ಜೈಗೀಷವ್ಯನಿಗೆ ಯೋಗಶಾಂತಿಯನ್ನೂ ಮತ್ತು ಯೋಗದ ಆಚಾರ್ಯತ್ವವನ್ನೂ ನೀಡಿ ವಿಭುವು ಸ್ವಯಂ ಅಂತರ್ಧಾನನಾದನು ॥೨೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v030",
+      "verse": 30,
+      "sequence_position": 30,
+      "printed_verse_label": 30,
+      "sanskrit_devanagari": "ततो गुरुं शिवं सोऽपि ढुंढिराजं तु दैवतम् । गाणपत्यस्वभावेनाभजत्काशीस्थितो मुनिः ॥३०॥",
+      "sanskrit_kannada_script": "ತತೋ ಗುರುಂ ಶಿವಂ ಸೋಽಪಿ ಢುಂಢಿರಾಜಂ ತು ದೈವತಮ್ ೤ ಗಾಣಪತ್ಯಸ್ವಭಾವೇನಾಭಜತ್ಕಾಶೀಸ್ಥಿತೋ ಮುನಿಃ ೥೩೦೥",
+      "kannada_meaning": "ಅನಂತರ ಕಾಶಿಯಲ್ಲಿ ನೆಲೆಸಿದ ಆ ಮುನಿಯು ಗುರುವಾದ ಶಿವನನ್ನೂ ಮತ್ತು ದೈವವಾದ ಢುಂಢಿರಾಜನನ್ನೂ ಗಾಣಪತ್ಯ ಸ್ವಭಾವದಿಂದ ಭಜಿಸಿದನು ॥೩೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v031",
+      "verse": 31,
+      "sequence_position": 31,
+      "printed_verse_label": 31,
+      "sanskrit_devanagari": "अतस्त्वं गणनायं तं भज शांतिप्रसिद्धये । शांतिभ्यः शांतिदः प्रोक्तः सर्वेषां योगधारकः ॥३१॥",
+      "sanskrit_kannada_script": "ಅತಸ್ತ್ವಂ ಗಣನಾಯಂ ತಂ ಭಜ ಶಾಂತಿಪ್ರಸಿದ್ಧಯೇ ೤ ಶಾಂತಿಭ್ಯಃ ಶಾಂತಿದಃ ಪ್ರೋಕ್ತಃ ಸರ್ವೇಷಾಂ ಯೋಗಧಾರಕಃ ೥೩೧೥",
+      "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P983-API-U-1, P983-API-U-2, P983-API-U-3, P983-API-U-4, P984-API-U-1, P984-API-U-2, P984-API-U-3, P984-API-U-4, CH46-PAGE984-ALIGNMENT, REVIEW-8-46-31 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೩೧॥",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "pending",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REVIEW-8-46-31",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "The source/scan have śāntibhyaḥ śāntidaḥ, not an explicit comparative adjective. Kannada ಎಲ್ಲಾ ಶಾಂತಿಗಳಿಗಿಂತಲೂ ಶಾಂತಿದಾಯಕ is an interpretive expansion. Keep this together with the parallel v5 and the inherited Gananāya source hold for adjudication."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v032",
+      "verse": 32,
+      "sequence_position": 32,
+      "printed_verse_label": 32,
+      "sanskrit_devanagari": "जरत्कारुरुवाच । एवमुक्त्वा ददौ तस्मै मंत्रमेकाक्षरं परम् । विधियुक्तं गणेशस्य स्वशिष्यायोपमन्यवे ॥३२॥",
+      "sanskrit_kannada_script": "ಜರತ್ಕಾರುರುವಾಚ ೤ ಏವಮುಕ್ತ್ವಾ ದದೌ ತಸ್ಮೈ ಮಂತ್ರಮೇಕಾಕ್ಷರಂ ಪರಮ್ ೤ ವಿಧಿಯುಕ್ತಂ ಗಣೇಶಸ್ಯ ಸ್ವಶಿಷ್ಯಾಯೋಪಮನ್ಯವೇ ೥೩೨೥",
+      "kannada_meaning": "ಜರತ್ಕಾರುವು ಹೇಳಿದನು: ಹೀಗೆ ಹೇಳಿ ಅವನು ತನ್ನ ಶಿಷ್ಯನಾದ ಉಪಮನ್ಯುವಿಗೆ ಗಣೇಶನ ವಿಧಿಯುಕ್ತವಾದ ಪರಮ ಏಕಾಕ್ಷರ ಮಂತ್ರವನ್ನು ನೀಡಿದನು ॥೩೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v033",
+      "verse": 33,
+      "sequence_position": 33,
+      "printed_verse_label": 33,
+      "sanskrit_devanagari": "तं प्रणम्य ययौ सोऽपि मंत्रध्यानपरोऽभवत् । इष्टिं कृत्वा गणेशस्य शांतिरूपो बभूव ह ॥३३॥",
+      "sanskrit_kannada_script": "ತಂ ಪ್ರಣಮ್ಯ ಯಯೌ ಸೋಽಪಿ ಮಂತ್ರಧ್ಯಾನಪರೋಽಭವತ್ ೤ ಇಷ್ಟಿಂ ಕೃತ್ವಾ ಗಣೇಶಸ್ಯ ಶಾಂತಿರೂಪೋ ಬಭೂವ ಹ ೥೩೩೥",
+      "kannada_meaning": "ಅವನಿಗೆ ನಮಸ್ಕರಿಸಿ ತೆರಳಿ, ಅವನೂ ಸಹ ಮಂತ್ರಧ್ಯಾನಪರನಾದನು. ಗಣೇಶನ ಇಷ್ಟಿಯನ್ನು ಮಾಡಿ ಶಾಂತಿರೂಪನಾದನು ॥೩೩॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v034",
+      "verse": 34,
+      "sequence_position": 34,
+      "printed_verse_label": 34,
+      "sanskrit_devanagari": "गणराजस्तुनमपि ययौ भक्तं महामुनिम् । दत्वा शांतिं स्तुतस्तेनाऽतर्दधे ब्रह्मनायकः ॥३४॥",
+      "sanskrit_kannada_script": "ಗಣರಾಜಸ್ತುನಮಪಿ ಯಯೌ ಭಕ್ತಂ ಮಹಾಮುನಿಮ್ ೤ ದತ್ವಾ ಶಾಂತಿಂ ಸ್ತುತಸ್ತೇನಾಽತರ್ದಧೇ ಬ್ರಹ್ಮನಾಯಕಃ ೥೩೪೥",
+      "kannada_meaning": "ಗಣರಾಜನು ಭಕ್ತನಾದ ಆ ಮಹಾಮುನಿಯ ಬಳಿಗೂ ಬಂದನು. ಶಾಂತಿಯನ್ನು ನೀಡಿ, ಅವನಿಂದ ಸ್ತುತಿಸಲ್ಪಟ್ಟು ಬ್ರಹ್ಮನಾಯಕನು ಅಂತರ್ಧಾನನಾದನು ॥೩೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v035",
+      "verse": 35,
+      "sequence_position": 35,
+      "printed_verse_label": 35,
+      "sanskrit_devanagari": "अतस्त्वं संशयं त्यक्त्वा भज विघ्नपतिं सुत । व्यभिचारो न ते भावी शंतियुक्तो भविष्यसि ॥३५॥",
+      "sanskrit_kannada_script": "ಅತಸ್ತ್ವಂ ಸಂಶಯಂ ತ್ಯಕ್ತ್ವಾ ಭಜ ವಿಘ್ನಪತಿಂ ಸುತ ೤ ವ್ಯಭಿಚಾರೋ ನ ತೇ ಭಾವೀ ಶಂತಿಯುಕ್ತೋ ಭವಿಷ್ಯಸಿ ೥೩೫೥",
+      "kannada_meaning": "ಆದುದರಿಂದ ಮಗನೇ, ಸಂಶಯವನ್ನು ತೊರೆದು ವಿಘ್ನಪತಿಯನ್ನು ಭಜಿಸು. ಇದರಿಂದ ನಿನಗೆ ಆರಾಧನಾಮಾರ್ಗದಿಂದ ಚ್ಯುತಿ ಉಂಟಾಗುವುದಿಲ್ಲ; ನೀನು ಶಾಂತಿಯುಕ್ತನಾಗುವೆ. ॥೩೫॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        },
+        {
+          "id": "REF-COMP-8-46-35",
+          "reading": null,
+          "status": "open",
+          "kind": "reference_OCR_comparison",
+          "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v036",
+      "verse": 36,
+      "sequence_position": 36,
+      "printed_verse_label": 36,
+      "sanskrit_devanagari": "सूत उवाच । एवमुक्त्वा ददौ तस्मै स्वमंत्रं तु षडक्षरम् । विधियुक्तं गणेशस्यास्तीकाय मुनिसत्तमः ॥३६॥",
+      "sanskrit_kannada_script": "ಸೂತ ಉವಾಚ ೤ ಏವಮುಕ್ತ್ವಾ ದದೌ ತಸ್ಮೈ ಸ್ವಮಂತ್ರಂ ತು ಷಡಕ್ಷರಮ್ ೤ ವಿಧಿಯುಕ್ತಂ ಗಣೇಶಸ್ಯಾಸ್ತೀಕಾಯ ಮುನಿಸತ್ತಮಃ ೥೩೬೥",
+      "kannada_meaning": "ಸೂತನು ಹೇಳಿದನು: ಹೀಗೆ ಹೇಳಿ ಮುನಿಸತ್ತಮನು ಆಸ್ತೀಕನಿಗೆ ಗಣೇಶನ ವಿಧಿಯುಕ್ತವಾದ ತನ್ನ ಷಡಕ್ಷರ ಮಂತ್ರವನ್ನು ನೀಡಿದನು ॥೩೬॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v037",
+      "verse": 37,
+      "sequence_position": 37,
+      "printed_verse_label": 37,
+      "sanskrit_devanagari": "आस्तीकः साधयामास ध्यात्वा हृदि गजाननम् । इष्टिं कृत्वा गणेशस्य शांतियुक्तो बभूव ह ॥३७॥",
+      "sanskrit_kannada_script": "ಆಸ್ತೀಕಃ ಸಾಧಯಾಮಾಸ ಧ್ಯಾತ್ವಾ ಹೃದಿ ಗಜಾನನಮ್ ೤ ಇಷ್ಟಿಂ ಕೃತ್ವಾ ಗಣೇಶಸ್ಯ ಶಾಂತಿಯುಕ್ತೋ ಬಭೂವ ಹ ೥೩೭೥",
+      "kannada_meaning": "ಆಸ್ತೀಕನು ಹೃದಯದಲ್ಲಿ ಗಜಾನನನ್ನು ಧ್ಯಾನಿಸಿ ಸಾಧನೆ ಮಾಡಿದನು. ಗಣೇಶನ ಇಷ್ಟಿಯನ್ನು ಮಾಡಿ ಶಾಂತಿಯುಕ್ತನಾದನು ॥೩೭॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v038",
+      "verse": 38,
+      "sequence_position": 38,
+      "printed_verse_label": 38,
+      "sanskrit_devanagari": "गाणपत्यप्रियोऽत्यंतं मातरं स जगाम ह । उपदिश्य गणेशानं शांतियुक्तां चकार ताम् ॥३८॥",
+      "sanskrit_kannada_script": "ಗಾಣಪತ್ಯಪ್ರಿಯೋಽತ್ಯಂತಂ ಮಾತರಂ ಸ ಜಗಾಮ ಹ ೤ ಉಪದಿಶ್ಯ ಗಣೇಶಾನಂ ಶಾಂತಿಯುಕ್ತಾಂ ಚಕಾರ ತಾಮ್ ೥೩೮೥",
+      "kannada_meaning": "ಅತ್ಯಂತ ಗಾಣಪತ್ಯಪ್ರಿಯನಾದ ಅವನು ತಾಯಿಯ ಬಳಿಗೆ ಹೋದನು. ಗಣೇಶಾನನನ್ನು ಉಪದೇಶಿಸಿ ಅವಳನ್ನು ಶಾಂತಿಯುಕ್ತಳನ್ನಾಗಿ ಮಾಡಿದನು ॥೩೮॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v039",
+      "verse": 39,
+      "sequence_position": 39,
+      "printed_verse_label": 39,
+      "sanskrit_devanagari": "अतो गणपतिं नित्यमभजत् प्रीतिसंयुतः । अंते गाणेश्वरे धाम्नि ब्रह्मैव स बभूव ह ॥३९॥",
+      "sanskrit_kannada_script": "ಅತೋ ಗಣಪತಿಂ ನಿತ್ಯಮಭಜತ್ ಪ್ರೀತಿಸಂಯುತಃ ೤ ಅಂತೇ ಗಾಣೇಶ್ವರೇ ಧಾಮ್ನಿ ಬ್ರಹ್ಮೈವ ಸ ಬಭೂವ ಹ ೥೩೯೥",
+      "kannada_meaning": "ಅನಂತರ ಪ್ರೀತಿಯಿಂದ ಕೂಡಿದವನಾಗಿ ಪ್ರತಿನಿತ್ಯ ಗಣಪತಿಯನ್ನು ಭಜಿಸಿದನು. ಕೊನೆಯಲ್ಲಿ ಗಾಣೇಶ್ವರ ಧಾಮದಲ್ಲಿ ಅವನು ಬ್ರಹ್ಮಸ್ವರೂಪನೇ ಆದನು ॥೩೯॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v040",
+      "verse": 40,
+      "sequence_position": 40,
+      "printed_verse_label": 40,
+      "sanskrit_devanagari": "एतत्ते कथितं सर्वं ब्राह्मणस्पत्ययज्ञजम् । माहात्म्यं गाणपत्यानां प्रियं संक्षेपतो मया ॥४०॥",
+      "sanskrit_kannada_script": "ಏತತ್ತೇ ಕಥಿತಂ ಸರ್ವಂ ಬ್ರಾಹ್ಮಣಸ್ಪತ್ಯಯಜ್ಞಜಮ್ ೤ ಮಾಹಾತ್ಮ್ಯಂ ಗಾಣಪತ್ಯಾನಾಂ ಪ್ರಿಯಂ ಸಂಕ್ಷೇಪತೋ ಮಯಾ ೥೪೦೥",
+      "kannada_meaning": "ಗಾಣಪತ್ಯರಿಗೆ ಪ್ರಿಯವಾದ, ಬ್ರಾಹ್ಮಣಸ್ಪತ್ಯ ಯಜ್ಞದಿಂದ ಉಂಟಾದ ಈ ಎಲ್ಲಾ ಮಾಹಾತ್ಮ್ಯವನ್ನು ನಾನು ನಿನಗೆ ಸಂಕ್ಷೇಪವಾಗಿ ಹೇಳಿದ್ದೇನೆ ॥೪೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v041",
+      "verse": 41,
+      "sequence_position": 41,
+      "printed_verse_label": 41,
+      "sanskrit_devanagari": "यः शृणोति नरो भक्त्या पठते तस्य सिद्धिदम् । भविष्यति न संदेहो भुक्तिमुक्तिप्रदायकम् ॥४१॥",
+      "sanskrit_kannada_script": "ಯಃ ಶೃಣೋತಿ ನರೋ ಭಕ್ತ್ಯಾ ಪಠತೇ ತಸ್ಯ ಸಿದ್ಧಿದಮ್ ೤ ಭವಿಷ್ಯತಿ ನ ಸಂದೇಹೋ ಭುಕ್ತಿಮುಕ್ತಿಪ್ರದಾಯಕಮ್ ೥೪೧೥",
+      "kannada_meaning": "ಯಾವ ಮನುಷ್ಯನು ಇದನ್ನು ಭಕ್ತಿಯಿಂದ ಕೇಳುತ್ತಾನೆಯೋ ಅಥವಾ ಓದುತ್ತಾನೆಯೋ, ಅವನಿಗೆ ಇದು ಸಿದ್ಧಿದಾಯಕವಾಗುವುದು ಹಾಗೂ ಭುಕ್ತಿ-ಮುಕ್ತಿಗಳನ್ನು ನೀಡುವುದಾಗುವುದು ಎಂಬುದರಲ್ಲಿ ಸಂದೇಹವಿಲ್ಲ ॥೪೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    },
+    {
+      "id": "kh08-ch046-v042",
+      "verse": 42,
+      "sequence_position": 42,
+      "printed_verse_label": 42,
+      "sanskrit_devanagari": "ब्राह्मणस्पत्ययज्ञस्य पुण्यं स लभते परम् । अंते स्वानंदगो भूत्वा ब्रह्मभूतो भवेन्नरः ॥४२॥",
+      "sanskrit_kannada_script": "ಬ್ರಾಹ್ಮಣಸ್ಪತ್ಯಯಜ್ಞಸ್ಯ ಪುಣ್ಯಂ ಸ ಲಭತೇ ಪರಮ್ ೤ ಅಂತೇ ಸ್ವಾನಂದಗೋ ಭೂತ್ವಾ ಬ್ರಹ್ಮಭೂತೋ ಭವೇನ್ನರಃ ೥೪೨೥",
+      "kannada_meaning": "ಅವನು ಬ್ರಾಹ್ಮಣಸ್ಪತ್ಯ ಯಜ್ಞದ ಪರಮ ಪುಣ್ಯವನ್ನು ಪಡೆಯುತ್ತಾನೆ. ಕೊನೆಯಲ್ಲಿ ಮನುಷ್ಯನು ಸ್ವಾನಂದವನ್ನು ಹೊಂದಿ ಬ್ರಹ್ಮಭೂತನಾಗುತ್ತಾನೆ ॥೪೨॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+      "source_refs": [
+        {
+          "file": "page_0917.png",
+          "printed_page": 108,
+          "printed_page_status": "visually verified",
+          "original_image_index": 917,
+          "sha256": "89977ae572c0dc864a2fce05f6d44af4057c480250de0fcbf00e683276cf9c1c",
+          "source_kind": "Supplied original Khanda8 imagery visually inspected; alignment and inherited meanings remain qualified."
+        }
+      ],
+      "meaning_status": "qualified-draft",
+      "retained_qualifications": [
+        "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+        "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+        "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+      ],
+      "source_issues": [
+        {
+          "id": "P983-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'पितरंस्तं' or 'पितस्तं' with an unusual cluster/mark over 'त/र'; exact intended printed character sequence is slightly ambiguous."
+        },
+        {
+          "id": "P983-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is 'बभुः' or 'यभुः' due to slight ink wear on the initial consonant."
+        },
+        {
+          "id": "P983-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment has an extra repha-like mark or print artifact in 'निर्ममायिक' / 'निर्मायिक'."
+        },
+        {
+          "id": "P983-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Visible raw fragment is printed as 'नस्य' (likely for 'नम्य'), preserved as printed."
+        },
+        {
+          "id": "P984-API-U-1",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायस्य' instead of 'गणनाथस्य'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-2",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणनायं' instead of 'गणनाथं'; preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-3",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'गणराजस्तुनमपि' (likely a print error for 'गणराजस्तु तमपि') and 'स्तुतस्तेनाऽतर्दधे' (missing anusvara on ना); preserved exact printed forms in Sanskrit."
+        },
+        {
+          "id": "P984-API-U-4",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Printed as 'शंतियुक्तो' (missing आकार matra on श); preserved exact printed form in Sanskrit."
+        },
+        {
+          "id": "CH46-PAGE984-ALIGNMENT",
+          "reading": null,
+          "status": "open",
+          "kind": "source_or_scope_review",
+          "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "kh08-ch046-g001",
+      "verse_ids": [
+        "kh08-ch046-v001"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g002",
+      "verse_ids": [
+        "kh08-ch046-v002"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g003",
+      "verse_ids": [
+        "kh08-ch046-v003"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g004",
+      "verse_ids": [
+        "kh08-ch046-v004"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g005",
+      "verse_ids": [
+        "kh08-ch046-v005"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g006",
+      "verse_ids": [
+        "kh08-ch046-v006"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g007",
+      "verse_ids": [
+        "kh08-ch046-v007"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g008",
+      "verse_ids": [
+        "kh08-ch046-v008"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g009",
+      "verse_ids": [
+        "kh08-ch046-v009"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g010",
+      "verse_ids": [
+        "kh08-ch046-v010"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g011",
+      "verse_ids": [
+        "kh08-ch046-v011"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g012",
+      "verse_ids": [
+        "kh08-ch046-v012"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g013",
+      "verse_ids": [
+        "kh08-ch046-v013"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g014",
+      "verse_ids": [
+        "kh08-ch046-v014"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g015",
+      "verse_ids": [
+        "kh08-ch046-v015"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g016",
+      "verse_ids": [
+        "kh08-ch046-v016"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g017",
+      "verse_ids": [
+        "kh08-ch046-v017"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g018",
+      "verse_ids": [
+        "kh08-ch046-v018"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g019",
+      "verse_ids": [
+        "kh08-ch046-v019"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g020",
+      "verse_ids": [
+        "kh08-ch046-v020"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g021",
+      "verse_ids": [
+        "kh08-ch046-v021"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g022",
+      "verse_ids": [
+        "kh08-ch046-v022"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g023",
+      "verse_ids": [
+        "kh08-ch046-v023"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g024",
+      "verse_ids": [
+        "kh08-ch046-v024"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g025",
+      "verse_ids": [
+        "kh08-ch046-v025"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g026",
+      "verse_ids": [
+        "kh08-ch046-v026"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g027",
+      "verse_ids": [
+        "kh08-ch046-v027"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g028",
+      "verse_ids": [
+        "kh08-ch046-v028"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g029",
+      "verse_ids": [
+        "kh08-ch046-v029"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g030",
+      "verse_ids": [
+        "kh08-ch046-v030"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g031",
+      "verse_ids": [
+        "kh08-ch046-v031"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g032",
+      "verse_ids": [
+        "kh08-ch046-v032"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g033",
+      "verse_ids": [
+        "kh08-ch046-v033"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g034",
+      "verse_ids": [
+        "kh08-ch046-v034"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g035",
+      "verse_ids": [
+        "kh08-ch046-v035"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g036",
+      "verse_ids": [
+        "kh08-ch046-v036"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g037",
+      "verse_ids": [
+        "kh08-ch046-v037"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g038",
+      "verse_ids": [
+        "kh08-ch046-v038"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g039",
+      "verse_ids": [
+        "kh08-ch046-v039"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g040",
+      "verse_ids": [
+        "kh08-ch046-v040"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g041",
+      "verse_ids": [
+        "kh08-ch046-v041"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    },
+    {
+      "id": "kh08-ch046-g042",
+      "verse_ids": [
+        "kh08-ch046-v042"
+      ],
+      "rationale": "Source speaker or narrative-context boundary; grouping is editorial and outside reader text."
+    }
+  ],
+  "separate_invocation_devanagari": "॥ श्रीगणेशाय नमः ॥",
+  "separate_invocation_kannada_script": "॥ ಶ್ರೀಗಣೇಶಾಯ ನಮಃ ॥",
+  "colophon": {}
+}
