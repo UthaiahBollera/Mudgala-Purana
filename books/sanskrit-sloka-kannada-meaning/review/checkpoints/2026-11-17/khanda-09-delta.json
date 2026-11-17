@@ -1,0 +1,1027 @@
+{
+  "baseline": "../2026-11-12/",
+  "operation": "Replace each named entry in place by its stable ID; preserve all omitted entries, chapters and fields. replace_groups and replace_colophon, when present, replace those entire chapter fields.",
+  "chapters": [
+    {
+      "khanda": 9,
+      "chapter": 3,
+      "replace_entries": [
+        {
+          "id": "kh09-ch003-v110",
+          "verse": 110,
+          "sequence_position": 110,
+          "printed_verse_label": 110,
+          "sanskrit_devanagari": "संयोगायोगभावाख्या भ्रांतिः सर्वत्र पठ्यते । निरोधचित्ताग दक्ष सा सिद्धिः परिकीर्तिता ॥१०॥",
+          "sanskrit_kannada_script": "ಸಂಯೋಗಾಯೋಗಭಾವಾಖ್ಯಾ ಭ್ರಾಂತಿಃ ಸರ್ವತ್ರ ಪಠ್ಯತೇ ೤ ನಿರೋಧಚಿತ್ತಾಗ ದಕ್ಷ ಸಾ ಸಿದ್ಧಿಃ ಪರಿಕೀರ್ತಿತಾ ೥೧೦೥",
+          "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P1010-API-U-1, P1013-API-U-1, P1014-API-U-1, P1014-API-U-2, P1014-API-U-3, CH3-PAGE1014-ALIGNMENT, CH3-NUMBER-110, REVIEW-9-3-110 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೧೧೦॥",
+          "source_refs": [
+            {
+              "file": "page_0938.png",
+              "printed_page": 10,
+              "printed_page_status": "visually verified",
+              "original_image_index": 938,
+              "sha256": "c8849d4622e6510cddcacff2f1e99e854b0bfc276ef842a1a99a13271a5b5501",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "pending",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references.",
+            "Printed labels restart at 1 after position 100; sequence position retained separately. This is not a new chapter.",
+            "Nativeindividuallyconfirmsfullprinted110; metadataonly10→110. ExistingS/scriptshortenedterminalnumeral retained as explicitconflict; allKannada/groups/broadholdsunchanged."
+          ],
+          "source_issues": [
+            {
+              "id": "P1010-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The last conjunct of 'मायाहीनप्रभावेणायोगस्यः' looks like 'स्यः' or 'स्थः' with slight ink bleed; preserved as printed 'मायाहीनप्रभावेणायोगस्यः'."
+            },
+            {
+              "id": "P1013-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The printed cluster in 'आभ्येत्तेन' and 'हृदिस्यं' is slightly unusual or smudged; transcribed exactly as visibly printed."
+            },
+            {
+              "id": "P1014-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is printed as 'भेवं' (likely a print anomaly for 'भेदं'); preserved as printed."
+            },
+            {
+              "id": "P1014-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is 'देहादिषुतं' where the fourth syllable is slightly smudged."
+            },
+            {
+              "id": "P1014-API-U-3",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is 'गणेम्बरं' where the conjunct letter appears as म्ब instead of श्व."
+            },
+            {
+              "id": "CH3-PAGE1014-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH3-NUMBER-110",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Stable sequential ordinal 110; original source label 10 retained exactly. Number reset after100/200 requires review; no source numeral repaired."
+            },
+            {
+              "id": "REVIEW-9-3-110",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Saved and reference निरोधचित्ताग is grammatically suspect; enlarged scan does not settle a possible transposition to निरोधचित्तगा. Raw Kannada ಚಿತ್ತನಿರೋಧದಿಂದ supplies an instrumental meaning not securely established. Keep Siddhi/illusion relation open until source reading is decided."
+            }
+          ]
+        },
+        {
+          "id": "kh09-ch003-v120",
+          "verse": 120,
+          "sequence_position": 120,
+          "printed_verse_label": 120,
+          "sanskrit_devanagari": "तदा ह्ययोगजः प्रोक्तोऽनुभवः शांतिदायकः । अतोऽयोगमयो योगः कथं तत्र प्रवर्तते ॥२०॥",
+          "sanskrit_kannada_script": "ತದಾ ಹ್ಯಯೋಗಜಃ ಪ್ರೋಕ್ತೋಽನುಭವಃ ಶಾಂತಿದಾಯಕಃ ೤ ಅತೋಽಯೋಗಮಯೋ ಯೋಗಃ ಕಥಂ ತತ್ರ ಪ್ರವರ್ತತೇ ೥೨೦೥",
+          "kannada_meaning": "ಆಗ ಶಾಂತಿದಾಯಕವಾದ ಆ ಅನುಭವವನ್ನು ಅಯೋಗಜ ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಅಯೋಗಮಯವಾದ ಯೋಗವು ಅಲ್ಲಿ ಹೇಗೆ ಪ್ರವರ್ತಿಸುತ್ತದೆ? (೨೦). ॥೧೨೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+          "source_refs": [
+            {
+              "file": "page_0939.png",
+              "printed_page": 11,
+              "printed_page_status": "visually verified",
+              "original_image_index": 939,
+              "sha256": "dea0168dacbe3f51fbe4c6dea1a4d8f11350c0d77da54d726814cfbefff0538b",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references.",
+            "Printed labels restart at 1 after position 100; sequence position retained separately. This is not a new chapter.",
+            "Nativeindividuallyconfirmsfullprinted120; metadataonly20→120. ExistingS/scriptshortenedterminalnumeral retained as explicitconflict; allKannada/groups/broadholdsunchanged."
+          ],
+          "source_issues": [
+            {
+              "id": "P1010-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The last conjunct of 'मायाहीनप्रभावेणायोगस्यः' looks like 'स्यः' or 'स्थः' with slight ink bleed; preserved as printed 'मायाहीनप्रभावेणायोगस्यः'."
+            },
+            {
+              "id": "P1013-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The printed cluster in 'आभ्येत्तेन' and 'हृदिस्यं' is slightly unusual or smudged; transcribed exactly as visibly printed."
+            },
+            {
+              "id": "P1014-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is printed as 'भेवं' (likely a print anomaly for 'भेदं'); preserved as printed."
+            },
+            {
+              "id": "P1014-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is 'देहादिषुतं' where the fourth syllable is slightly smudged."
+            },
+            {
+              "id": "P1014-API-U-3",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is 'गणेम्बरं' where the conjunct letter appears as म्ब instead of श्व."
+            },
+            {
+              "id": "CH3-PAGE1015-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH3-NUMBER-120",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Stable sequential ordinal 120; original source label 20 retained exactly. Number reset after100/200 requires review; no source numeral repaired."
+            }
+          ]
+        },
+        {
+          "id": "kh09-ch003-v124",
+          "verse": 124,
+          "sequence_position": 124,
+          "printed_verse_label": 124,
+          "sanskrit_devanagari": "एतत् सर्वं समाख्यातं रहस्यं परमाद्भुतम् । गजाननस्य ते दक्ष प्रकृतं शृणु सांप्रतम् ॥२४॥",
+          "sanskrit_kannada_script": "ಏತತ್ ಸರ್ವಂ ಸಮಾಖ್ಯಾತಂ ರಹಸ್ಯಂ ಪರಮಾದ್ಭುತಮ್ ೤ ಗಜಾನನಸ್ಯ ತೇ ದಕ್ಷ ಪ್ರಕೃತಂ ಶೃಣು ಸಾಂಪ್ರತಮ್ ೥೨೪೥",
+          "kannada_meaning": "ಹೇ ದಕ್ಷನೇ, ಗಜಾನನನ ಈ ಪರಮ ಅದ್ಭುತವಾದ ಎಲ್ಲ ರಹಸ್ಯವನ್ನು ನಿನಗೆ ಸಮಗ್ರವಾಗಿ ಹೇಳಿದ್ದೇನೆ. ಈಗ ಪ್ರಕೃತವಾದ ವಿಷಯವನ್ನು ಕೇಳು (೨೪). ॥೧೨೪॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+          "source_refs": [
+            {
+              "file": "page_0939.png",
+              "printed_page": 11,
+              "printed_page_status": "visually verified",
+              "original_image_index": 939,
+              "sha256": "dea0168dacbe3f51fbe4c6dea1a4d8f11350c0d77da54d726814cfbefff0538b",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references.",
+            "Printed labels restart at 1 after position 100; sequence position retained separately. This is not a new chapter.",
+            "Nativeindividuallyconfirmsfullprinted124; metadataonly24→124. ExistingS/scriptshortenedterminalnumeral retained as explicitconflict; allKannada/groups/broadholdsunchanged."
+          ],
+          "source_issues": [
+            {
+              "id": "P1010-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The last conjunct of 'मायाहीनप्रभावेणायोगस्यः' looks like 'स्यः' or 'स्थः' with slight ink bleed; preserved as printed 'मायाहीनप्रभावेणायोगस्यः'."
+            },
+            {
+              "id": "P1013-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The printed cluster in 'आभ्येत्तेन' and 'हृदिस्यं' is slightly unusual or smudged; transcribed exactly as visibly printed."
+            },
+            {
+              "id": "P1014-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is printed as 'भेवं' (likely a print anomaly for 'भेदं'); preserved as printed."
+            },
+            {
+              "id": "P1014-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is 'देहादिषुतं' where the fourth syllable is slightly smudged."
+            },
+            {
+              "id": "P1014-API-U-3",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment is 'गणेम्बरं' where the conjunct letter appears as म्ब instead of श्व."
+            },
+            {
+              "id": "CH3-PAGE1015-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH3-NUMBER-124",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Stable sequential ordinal 124; original source label 24 retained exactly. Number reset after100/200 requires review; no source numeral repaired."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "khanda": 9,
+      "chapter": 5,
+      "replace_entries": [
+        {
+          "id": "kh09-ch005-v110",
+          "verse": 110,
+          "sequence_position": 110,
+          "printed_verse_label": 110,
+          "sanskrit_devanagari": "कीदृशं ब्रह्म तत्राहं योगेन कीदृशेन च । ब्रह्मभूतः स्वयं जात एभ्यः शांतिं लभेन्नरः ॥११०॥",
+          "sanskrit_kannada_script": "ಕೀದೃಶಂ ಬ್ರಹ್ಮ ತತ್ರಾಹಂ ಯೋಗೇನ ಕೀದೃಶೇನ ಚ ೤ ಬ್ರಹ್ಮಭೂತಃ ಸ್ವಯಂ ಜಾತ ಏಭ್ಯಃ ಶಾಂತಿಂ ಲಭೇನ್ನರಃ ೥೧೧೦೥",
+          "kannada_meaning": "“ಬ್ರಹ್ಮವು ಎಂತಹುದು? ಯಾವ ಬಗೆಯ ಯೋಗದಿಂದ ನಾನು ಸ್ವತಃ ಬ್ರಹ್ಮಭೂತನಾದೆ?” ಎಂಬ ಇಂತಹ ವಿಚಾರಗಳೂ ಶಮನಗೊಳ್ಳುವ ಶಾಂತಿಯನ್ನು ಮನುಷ್ಯನು ಪಡೆಯಬೇಕು. ॥೧೧೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+          "source_refs": [
+            {
+              "file": "page_0945.png",
+              "printed_page": 17,
+              "printed_page_status": "visually verified",
+              "original_image_index": 945,
+              "sha256": "ef3eb374a84069b728dfba94178117453c5d86292e1bbfeffe7233444b67631b",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references.",
+            "Printed labels intermittently omit the hundreds digit; sequential position and printed label recorded separately, not a new chapter. Numeral reading remains reviewable against image.",
+            "Individuallynativeconfirmedfullprinted110; metadataonly10→110. ExistingS/scriptterminal10 preserved as explicitconflict; allKannada/groups/flagsunchanged."
+          ],
+          "source_issues": [
+            {
+              "id": "P1022-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Typesetting line-beginning transposition in the printed Sanskrit: the starts of the last three lines ('भ्रांत्या मायायुतं हीनं वदंत्ययोगिनः सदा ॥१३॥', 'संभवेत् कदा ॥१४॥', and 'नष्टेऽभ्रे किं रविः') are printed vertically shifted by one line relative to their preceding halves ('न विश्वस्मिन्नहं जीवो न शिवः साक्षिभावगः ।', 'यथाऽऽकाशभवं मेघपटलं सर्वतः स्थितम् । तत्र सूर्यस्य किं दक्षाच्छादनं')."
+            },
+            {
+              "id": "CH5-PAGE1021-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "REF-COMP-9-5-110",
+              "reading": null,
+              "status": "open",
+              "kind": "reference_OCR_comparison",
+              "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "khanda": 9,
+      "chapter": 6,
+      "replace_entries": [
+        {
+          "id": "kh09-ch006-v037",
+          "verse": 37,
+          "sequence_position": 37,
+          "printed_verse_label": 37,
+          "sanskrit_devanagari": "ब्रह्मरूपं च मां दृष्ट्वा स्वयमेव विनश्यति । माया ततः स्वयं साक्षात् सत्यरूपो भविष्यति ॥३७॥",
+          "sanskrit_kannada_script": "ಬ್ರಹ್ಮರೂಪಂ ಚ ಮಾಂ ದೃಷ್ಟ್ವಾ ಸ್ವಯಮೇವ ವಿನಶ್ಯತಿ ೤ ಮಾಯಾ ತತಃ ಸ್ವಯಂ ಸಾಕ್ಷಾತ್ ಸತ್ಯರೂಪೋ ಭವಿಷ್ಯತಿ ೥೩೭೥",
+          "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P1022-API-U-1, P1025-API-U-1, P1025-API-U-2, P1026-API-U-1, P1027-API-U-1, CH6-PAGE1023-ALIGNMENT, REVIEW-9-6-37 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೩೭॥",
+          "source_refs": [
+            {
+              "file": "page_0947.png",
+              "printed_page": 19,
+              "printed_page_status": "visually verified",
+              "original_image_index": 947,
+              "sha256": "e0ac9ff1dfb47877463e17e18af0ea98bb59692d5aaf2fb96c686f28338ab379",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "pending",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+          ],
+          "source_issues": [
+            {
+              "id": "P1022-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Typesetting line-beginning transposition in the printed Sanskrit: the starts of the last three lines ('भ्रांत्या मायायुतं हीनं वदंत्ययोगिनः सदा ॥१३॥', 'संभवेत् कदा ॥१४॥', and 'नष्टेऽभ्रे किं रविः') are printed vertically shifted by one line relative to their preceding halves ('न विश्वस्मिन्नहं जीवो न शिवः साक्षिभावगः ।', 'यथाऽऽकाशभवं मेघपटलं सर्वतः स्थितम् । तत्र सूर्यस्य किं दक्षाच्छादनं')."
+            },
+            {
+              "id": "P1025-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The consonant in 'मृतभूलं' vs 'मृतमूलं' has a loop resembling 'भ' as printed, preserved raw form 'मृतभूलं'."
+            },
+            {
+              "id": "P1025-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Printed cluster 'व्यक्तसंज्ञस्यं' has an unusual final conjunct/anusvara; preserved exact printed characters."
+            },
+            {
+              "id": "P1026-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first consonant cluster of 'बस्वरूपिणि' (likely intended as 'स्वस्वरूपिणि') has indistinct printing where 'स्व' appears as 'ब'."
+            },
+            {
+              "id": "P1027-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The vowel mark on ण in ब्रह्मणो/ब्रह्मणि is slightly smudged; printed fragment appears as ब्रह्मणो or ब्रह्मणि."
+            },
+            {
+              "id": "CH6-PAGE1023-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "REVIEW-9-6-37",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Maya perishes on seeing Brahman, then masculine सत्यरूपो भविष्यति has implicit subject. Kannada likewise leaves subject unclear. Do not assert that maya becomes true or invent a named review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "khanda": 9,
+      "chapter": 7,
+      "replace_entries": [
+        {
+          "id": "kh09-ch007-v094",
+          "verse": 94,
+          "sequence_position": 94,
+          "printed_verse_label": 94,
+          "printed_label_status": "visible source ordering",
+          "sanskrit_devanagari": "न कस्याहं- कृतिस्तस्य तुरीयस्य कदाचन । यादृशं कुरुते कर्म तादृशं फलमश्नुते ॥९४॥",
+          "sanskrit_kannada_script": "ನ ಕಸ್ಯಾಹಂ- ಕೃತಿಸ್ತಸ್ಯ ತುರೀಯಸ್ಯ ಕದಾಚನ ೤ ಯಾದೃಶಂ ಕುರುತೇ ಕರ್ಮ ತಾದೃಶಂ ಫಲಮಶ್ನುತೇ ೥೯೪೥",
+          "kannada_meaning": "ಅನಿಶ್ಚಿತ ಪಾಠ — ಈ ಶ್ಲೋಕದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. (ಪರಿಶೀಲನೆ: P1029-API-U-1, P1029-API-U-2, P1030-API-U-1, P1032-API-U-1, CH7-PAGE1032-ALIGNMENT, REVIEW-9-7-94 — ಮೂಲಪಾಠ ಅಥವಾ ಅರ್ಥದ ನಿರ್ಣಯ ಬಾಕಿಯಿದೆ.) ॥೯೪॥",
+          "source_refs": [
+            {
+              "file": "page_0956.png",
+              "printed_page": 28,
+              "printed_page_status": "visually verified",
+              "original_image_index": 956,
+              "sha256": "6e7428521941f68d93bccebc44173ce24416a6b601953b3c4e5abf0114e66975",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "pending",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+          ],
+          "source_issues": [
+            {
+              "id": "P1029-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first two characters of 'अचस्थासंभवं' (likely intended as 'अवस्थासंभवं') have a slightly smudged or unusual print appearance where 'अच' or 'अव' is ambiguous."
+            },
+            {
+              "id": "P1029-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first conjunct in 'कचिदंजसा' appears printed as 'क' rather than 'क्व', leaving slight visual ambiguity as to whether a subscript 'व' was faintly intended."
+            },
+            {
+              "id": "P1030-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The conjunct character in 'स्रष्टुं' / 'स्पृष्टुं' is slightly smudged in print."
+            },
+            {
+              "id": "P1032-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The printed cluster मूरुपकम् appears unusual (possibly for मोहकम् or मूलकम्), preserved exactly as printed मूरुपकम्."
+            },
+            {
+              "id": "CH7-PAGE1032-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "REVIEW-9-7-94",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "न कस्याहंकृतिस्तस्य तुरीयस्य is a difficult ego/agency construction. Kannada follows its surface wording; do not infer a new review for the following karma-result sentence without resolving syntax."
+            }
+          ]
+        },
+        {
+          "id": "kh09-ch007-v110",
+          "verse": 110,
+          "sequence_position": 110,
+          "printed_verse_label": 110,
+          "printed_label_status": "Provisional after100; intermittent full hundreds require close numeral review; sequence is distinct",
+          "sanskrit_devanagari": "चतुर्भिः संयुतो भूत्वा चतुर्भिर्वर्जितस्तथा । तिष्ठेद्योगमयीं दक्षावस्थामाश्रित्य सर्वदा ॥१०॥",
+          "sanskrit_kannada_script": "ಚತುರ್ಭಿಃ ಸಂಯುತೋ ಭೂತ್ವಾ ಚತುರ್ಭಿರ್ವರ್ಜಿತಸ್ತಥಾ ೤ ತಿಷ್ಠೇದ್ಯೋಗಮಯೀಂ ದಕ್ಷಾವಸ್ಥಾಮಾಶ್ರಿತ್ಯ ಸರ್ವದಾ ೥೧೦೥",
+          "kannada_meaning": "ಎಲೈ ದಕ್ಷನೇ, ನಾಲ್ಕರಿಂದ ಕೂಡಿದವನಾಗಿಯೂ ನಾಲ್ಕರಿಂದ ವರ್ಜಿತನಾಗಿಯೂ, ಯೋಗಮಯವಾದ ಅವಸ್ಥೆಯನ್ನು ಆಶ್ರಯಿಸಿ ಯಾವಾಗಲೂ ನೆಲೆಸಬೇಕು. ॥೧೧೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+          "source_refs": [
+            {
+              "file": "page_0956.png",
+              "printed_page": 28,
+              "printed_page_status": "visually verified",
+              "original_image_index": 956,
+              "sha256": "6e7428521941f68d93bccebc44173ce24416a6b601953b3c4e5abf0114e66975",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references.",
+            "Source printed numbering restarts after100 with intermittent full hundreds; metadata remains provisional pending close numeral review. No new chapter inferred.",
+            "Native source individually confirms printed११०, correcting only printedlabelmetadata10→110. ExistingS/scriptclosing10 versus source110 remains explicit unresolved transcription conflict; Kannada and all previous qualifications unchanged. No blanketnumberingnormalization."
+          ],
+          "source_issues": [
+            {
+              "id": "P1029-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first two characters of 'अचस्थासंभवं' (likely intended as 'अवस्थासंभवं') have a slightly smudged or unusual print appearance where 'अच' or 'अव' is ambiguous."
+            },
+            {
+              "id": "P1029-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first conjunct in 'कचिदंजसा' appears printed as 'क' rather than 'क्व', leaving slight visual ambiguity as to whether a subscript 'व' was faintly intended."
+            },
+            {
+              "id": "P1030-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The conjunct character in 'स्रष्टुं' / 'स्पृष्टुं' is slightly smudged in print."
+            },
+            {
+              "id": "P1032-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The printed cluster मूरुपकम् appears unusual (possibly for मोहकम् or मूलकम्), preserved exactly as printed मूरुपकम्."
+            },
+            {
+              "id": "CH7-PAGE1032-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH7-NUMBER-110",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Stable sequential ordinal 110; original source label 10 retained exactly. Number reset after100/200 requires review; no source numeral repaired."
+            },
+            {
+              "id": "REF-COMP-9-7-110",
+              "reading": null,
+              "status": "open",
+              "kind": "reference_OCR_comparison",
+              "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+            }
+          ]
+        },
+        {
+          "id": "kh09-ch007-v120",
+          "verse": 120,
+          "sequence_position": 120,
+          "printed_verse_label": 120,
+          "printed_label_status": "Provisional after100; intermittent full hundreds require close numeral review; sequence is distinct",
+          "sanskrit_devanagari": "ब्रह्मणि ब्रह्मभूतोऽहं मयि मायामयं परम् । पंचकं च कुतो भाति मायाहीनमयोगकम् ॥२०॥",
+          "sanskrit_kannada_script": "ಬ್ರಹ್ಮಣಿ ಬ್ರಹ್ಮಭೂತೋಽಹಂ ಮಯಿ ಮಾಯಾಮಯಂ ಪರಮ್ ೤ ಪಂಚಕಂ ಚ ಕುತೋ ಭಾತಿ ಮಾಯಾಹೀನಮಯೋಗಕಮ್ ೥೨೦೥",
+          "kannada_meaning": " ಬ್ರಹ್ಮನಲ್ಲಿ ನಾನು ಬ್ರಹ್ಮಭೂತನಾಗಿದ್ದೇನೆ; ಮಾಯಾರಹಿತವೂ ಅಯೋಗಕವೂ ಆದ ನನ್ನಲ್ಲಿ ಪರವಾದ ಮಾಯಾಮಯ ಪಂಚಕವು ಹೇಗೆ ತಾನೇ ತೋರೀತು? (೨೦). ॥೧೨೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+          "source_refs": [
+            {
+              "file": "page_0957.png",
+              "printed_page": 29,
+              "printed_page_status": "visually verified",
+              "original_image_index": 957,
+              "sha256": "bea1c68ed98dcab43419293b47c5fdbcb2730efe74808aaabedc6371bf1b9b94",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references.",
+            "Source printed numbering restarts after100 with intermittent full hundreds; metadata remains provisional pending close numeral review. No new chapter inferred.",
+            "Individually nativecropconfirmed printed120; metadataonly20→120. ExistingS/scriptshortenedterminalnumeral and all prior qualifications unchanged; no fullmeaningacceptance."
+          ],
+          "source_issues": [
+            {
+              "id": "P1029-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first two characters of 'अचस्थासंभवं' (likely intended as 'अवस्थासंभवं') have a slightly smudged or unusual print appearance where 'अच' or 'अव' is ambiguous."
+            },
+            {
+              "id": "P1029-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first conjunct in 'कचिदंजसा' appears printed as 'क' rather than 'क्व', leaving slight visual ambiguity as to whether a subscript 'व' was faintly intended."
+            },
+            {
+              "id": "P1030-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The conjunct character in 'स्रष्टुं' / 'स्पृष्टुं' is slightly smudged in print."
+            },
+            {
+              "id": "P1032-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The printed cluster मूरुपकम् appears unusual (possibly for मोहकम् or मूलकम्), preserved exactly as printed मूरुपकम्."
+            },
+            {
+              "id": "CH7-PAGE1033-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH7-NUMBER-120",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Stable sequential ordinal 120; original source label 20 retained exactly. Number reset after100/200 requires review; no source numeral repaired."
+            }
+          ]
+        },
+        {
+          "id": "kh09-ch007-v130",
+          "verse": 130,
+          "sequence_position": 130,
+          "printed_verse_label": 130,
+          "printed_label_status": "Provisional after100; intermittent full hundreds require close numeral review; sequence is distinct",
+          "sanskrit_devanagari": "यदा स्थितिविहीनोऽयं तिष्ठेत् संकथितं परम् । वेदेषु स निषेधेन तदा युक्तो भवेत् परः ॥३०॥",
+          "sanskrit_kannada_script": "ಯದಾ ಸ್ಥಿತಿವಿಹೀನೋಽಯಂ ತಿಷ್ಠೇತ್ ಸಂಕಥಿತಂ ಪರಮ್ ೤ ವೇದೇಷು ಸ ನಿಷೇಧೇನ ತದಾ ಯುಕ್ತೋ ಭವೇತ್ ಪರಃ ೥೩೦೥",
+          "kannada_meaning": " ಯಾವಾಗ ಇವನು ಸ್ಥಿತಿರಹಿತನಾಗಿರುತ್ತಾನೋ, ಆಗ ವೇದಗಳಲ್ಲಿ ಹೇಳಲ್ಪಟ್ಟ ಪರಮ ನಿಷೇಧದಿಂದ ಕೂಡಿದವನಾಗುತ್ತಾನೆ (೩೦). ॥೧೩೦॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+          "source_refs": [
+            {
+              "file": "page_0957.png",
+              "printed_page": 29,
+              "printed_page_status": "visually verified",
+              "original_image_index": 957,
+              "sha256": "bea1c68ed98dcab43419293b47c5fdbcb2730efe74808aaabedc6371bf1b9b94",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references.",
+            "Source printed numbering restarts after100 with intermittent full hundreds; metadata remains provisional pending close numeral review. No new chapter inferred.",
+            "Individually nativecropconfirmed printed130; metadataonly30→130. ExistingS/scriptshortenedterminalnumeral and all prior qualifications unchanged; no fullmeaningacceptance."
+          ],
+          "source_issues": [
+            {
+              "id": "P1029-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first two characters of 'अचस्थासंभवं' (likely intended as 'अवस्थासंभवं') have a slightly smudged or unusual print appearance where 'अच' or 'अव' is ambiguous."
+            },
+            {
+              "id": "P1029-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first conjunct in 'कचिदंजसा' appears printed as 'क' rather than 'क्व', leaving slight visual ambiguity as to whether a subscript 'व' was faintly intended."
+            },
+            {
+              "id": "P1030-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The conjunct character in 'स्रष्टुं' / 'स्पृष्टुं' is slightly smudged in print."
+            },
+            {
+              "id": "P1032-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The printed cluster मूरुपकम् appears unusual (possibly for मोहकम् or मूलकम्), preserved exactly as printed मूरुपकम्."
+            },
+            {
+              "id": "CH7-PAGE1033-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH7-NUMBER-130",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Stable sequential ordinal 130; original source label 30 retained exactly. Number reset after100/200 requires review; no source numeral repaired."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "khanda": 9,
+      "chapter": 13,
+      "replace_entries": [
+        {
+          "id": "kh09-ch013-v041",
+          "verse": 41,
+          "sequence_position": 41,
+          "printed_verse_label": 41,
+          "sanskrit_devanagari": "स्वेच्छया खेलति ब्रह्म चतुर्भेदमयं परम् । शुभाशुभं तस्य नास्ति वृथाऽहंतां त्यजेन्नरः ॥४१॥",
+          "sanskrit_kannada_script": "ಸ್ವೇಚ್ಛಯಾ ಖೇಲತಿ ಬ್ರಹ್ಮ ಚತುರ್ಭೇದಮಯಂ ಪರಮ್ ೤ ಶುಭಾಶುಭಂ ತಸ್ಯ ನಾಸ್ತಿ ವೃಥಾಽಹಂತಾಂ ತ್ಯಜೇನ್ನರಃ ೥೪೧೥",
+          "kannada_meaning": "ನಾಲ್ಕು ಭೇದಗಳಿಂದ ಕೂಡಿದ ಪರಬ್ರಹ್ಮವು ಸ್ವೇಚ್ಛೆಯಿಂದ ಕ್ರೀಡಿಸುತ್ತದೆ. ಅದಕ್ಕೆ ಶುಭಾಶುಭಗಳಿಲ್ಲ. ಮನುಷ್ಯನು ವ್ಯರ್ಥವಾದ ಅಹಂಭಾವವನ್ನು ತ್ಯಜಿಸಬೇಕು. ॥೪೧॥ (ಪರಿಶೀಲನೆ: ಮೂಲಪಾಠ ಅಥವಾ ಪದ್ಯಗಳ ನಡುವಿನ ಅರ್ಥಸಂಬಂಧದ ಪ್ರಶ್ನೆಗಳು ದಾಖಲೆಗಳಲ್ಲಿ ಉಳಿದಿವೆ; ಅಂತಿಮ ಪಾಠನಿರ್ಣಯವಾಗಿಲ್ಲ.)",
+          "source_refs": [
+            {
+              "file": "page_0974.png",
+              "printed_page": 46,
+              "printed_page_status": "visually verified",
+              "original_image_index": 974,
+              "sha256": "8e05fd962a66573cb347de0c3fac48d2cfd75fc24ca4a5610f68b46f12f3b76c",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            },
+            {
+              "file": "page_0975.png",
+              "printed_page": 47,
+              "printed_page_status": "visually verified",
+              "original_image_index": 975,
+              "sha256": "3e12d783c95541b39132e2ae5e0ddd87a599b742bea7303f4256167f5ef7bad4",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references.",
+            "Removed only accidentally embedded pageheader between974→975versefragments. All historical source/meaning/grouping holds retained. Not new fullmeaningacceptance."
+          ],
+          "source_issues": [
+            {
+              "id": "P1049-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The conjunct after 'स्थूलसूक्ष्मसमा' is slightly unclear in print, appearing as 'स्याख्यैर्भावैर्माया' or 'प्त्यैर्भावैर्माया'."
+            },
+            {
+              "id": "P1050-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment 'गुणस्यंः' has an unusual anusvara and visarga combination as printed; preserved as printed."
+            },
+            {
+              "id": "P1050-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment 'घेत्तुर्यं' (or 'चेत्तुर्यं' with print smudge closing the loop of च to look like घ); preserved exact visible shape."
+            },
+            {
+              "id": "P1052-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Printed with misplaced repha as चर्तुदशोऽध्यायः instead of चतुर्दशोऽध्यायः; preserved as चतुर्दशोऽध्यायः in transcription or noted here for exact visual form चर्तुदशोऽध्यायः."
+            },
+            {
+              "id": "CH13-PAGE1050-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH13-PAGE1051-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH13-JOIN41",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Join original page fragments exactly once; no invented continuation."
+            },
+            {
+              "id": "REVIEW-SOURCE-9-13-41",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "\"स्वेच्छया खेलति ब्रह्म चतुर्भेदमयं परम् । शुभाशुभं तस्य नास्ति वृथाऽहंतां त्यजेन्नरः ॥४१॥\""
+            },
+            {
+              "id": "REF-COMP-9-13-41",
+              "reading": null,
+              "status": "open",
+              "kind": "reference_OCR_comparison",
+              "detail": "Actual uploaded reference excerpt compared and retained. OCR text differs or verse-span assignment remains mechanical/unverified; no source emendation accepted. See reference comparison report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "khanda": 9,
+      "chapter": 15,
+      "replace_entries": [
+        {
+          "id": "kh09-ch015-v062",
+          "verse": 62,
+          "sequence_position": 62,
+          "printed_verse_label": 62,
+          "sanskrit_devanagari": "विघ्नं मौद्गलशास्त्रेऽहं करिष्यामि भ्रमप्रदम् । अश्रद्धं तेन नष्टं तद्भविष्यति कदा कदा ॥६२॥",
+          "sanskrit_kannada_script": "ವಿಘ್ನಂ ಮೌದ್ಗಲಶಾಸ್ತ್ರೇಽಹಂ ಕರಿಷ್ಯಾಮಿ ಭ್ರಮಪ್ರದಮ್ ೤ ಅಶ್ರದ್ಧಂ ತೇನ ನಷ್ಟಂ ತದ್ಭವಿಷ್ಯತಿ ಕದಾ ಕದಾ ೥೬೨೥",
+          "kannada_meaning": "ಭ್ರಮೆಯನ್ನುಂಟುಮಾಡುವ ವಿಘ್ನವನ್ನು ಮೌದ್ಗಲಶಾಸ್ತ್ರದಲ್ಲಿ ನಾನು ಉಂಟುಮಾಡುವೆನು. ಅದರಿಂದ ಅದು ಕೆಲವೊಮ್ಮೆ ಶ್ರದ್ಧೆಯಿಂದ ಪರಿಗಣಿಸಲ್ಪಡದೆ ನಾಶವಾಗುವುದು. ॥೬೨॥",
+          "source_refs": [
+            {
+              "file": "page_0981.png",
+              "printed_page": 53,
+              "printed_page_status": "visually verified",
+              "original_image_index": 981,
+              "sha256": "978cce96cc9803c497b9de29af05086764bef4fbc807b3766dc656e9f55c8672",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "accepted-qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+          ],
+          "source_issues": [
+            {
+              "id": "P1055-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Printed glyph in 'गणनायोऽयं' appears as 'यो' instead of expected 'थो', preserved exactly as printed."
+            },
+            {
+              "id": "CH15-PAGE1057-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "REVIEW-9-15-62",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "अश्रद्धं…नष्टं may concern the text becoming disregarded/lost through an obstacle; raw supplies ಶ್ರದ್ಧೆಯಿಲ್ಲದವರಲ್ಲಿ absent from explicit Sanskrit. Preserve the difficult declaration by Ganesha without softening or assigning a new recipient; exact construction requires editorial review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "khanda": 9,
+      "chapter": 16,
+      "replace_entries": [
+        {
+          "id": "kh09-ch016-v037",
+          "verse": 37,
+          "sequence_position": 37,
+          "printed_verse_label": 37,
+          "sanskrit_devanagari": "लोकानां रुचिदं तस्य भजनं जायते कदा । कदा तेषां विरुद्धं वा भक्त्या\nतदेवतुष्टिदम् ॥३७॥",
+          "sanskrit_kannada_script": "ಲೋಕಾನಾಂ ರುಚಿದಂ ತಸ್ಯ ಭಜನಂ ಜಾಯತೇ ಕದಾ ೤ ಕದಾ ತೇಷಾಂ ವಿರುದ್ಧಂ ವಾ ಭಕ್ತ್ಯಾ\nತದೇವತುಷ್ಟಿದಮ್ ೥೩೭೥",
+          "kannada_meaning": "ಅವನ ಭಜನೆಯು ಕೆಲವೊಮ್ಮೆ ಜನರಿಗೆ ರುಚಿಕರವಾಗುತ್ತದೆ; ಕೆಲವೊಮ್ಮೆ ಅವರಿಗೆ ವಿರುದ್ಧವಾಗಿಯೂ ಆಗುತ್ತದೆ. ಭಕ್ತಿಯಿಂದ ಅದೇ ತೃಪ್ತಿಯನ್ನು ನೀಡುತ್ತದೆ. ॥೩೭॥",
+          "source_refs": [
+            {
+              "file": "page_0982.png",
+              "printed_page": 54,
+              "printed_page_status": "visually verified",
+              "original_image_index": 982,
+              "sha256": "e83322cebb09d0df07cb9c5215a9771e7fd490701a0df981bd97afa582e36e2b",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            },
+            {
+              "file": "page_0983.png",
+              "printed_page": 55,
+              "printed_page_status": "visually verified",
+              "original_image_index": 983,
+              "sha256": "cd652d3d81dc98d81c6fa64098bfe6b706455f4243f7d78e452c4a0b74d8145e",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "accepted-qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine and source/meaning interpretation remain qualified; verbatim reuse and source alignment do not resolve inherited holds or establish expert certification."
+          ],
+          "source_issues": [
+            {
+              "id": "P1059-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment printed as 'श्रवणात्रान्न' (appears to be a typographic cluster for श्रवणादत्र न); preserved verbatim as printed."
+            },
+            {
+              "id": "P1059-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visible raw fragment printed as 'पेठेदेतां' (with initial पे instead of प); preserved verbatim as printed."
+            },
+            {
+              "id": "CH16-PAGE1058-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH16-PAGE1059-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "CH16-JOIN37",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Join original page fragments exactly once; no invented continuation."
+            },
+            {
+              "id": "REVIEW-9-16-37",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Both scan pages inspected. Page1059 begins तदेवतुष्टिदम्, reference तदेवतुष्टिदम्, saved joined source तथैवतुष्टिदम्. Provisional Kannada restores deity as recipient; source correction awaits approval. Remove page ellipsis only in proposed joined candidate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "khanda": 9,
+      "chapter": 17,
+      "replace_entries": [
+        {
+          "id": "kh09-ch017-v051",
+          "verse": 51,
+          "sequence_position": 51,
+          "printed_verse_label": 51,
+          "sanskrit_devanagari": "ततो दक्षं समानंद्य मुद्गलः प्रययौ मुने । स्वाश्रमं गाणपत्यैः संसेवितं गणपप्रियः ॥५१॥",
+          "sanskrit_kannada_script": "ತತೋ ದಕ್ಷಂ ಸಮಾನಂದ್ಯ ಮುದ್ಗಲಃ ಪ್ರಯಯೌ ಮುನೇ ೤ ಸ್ವಾಶ್ರಮಂ ಗಾಣಪತ್ಯೈಃ ಸಂಸೇವಿತಂ ಗಣಪಪ್ರಿಯಃ ೥೫೧೥",
+          "kannada_meaning": "ಮುನಿಯೇ, ಅನಂತರ ಗಣಪತಿಗೆ ಪ್ರಿಯನಾದ ಮುದ್ಗಲನು ದಕ್ಷನನ್ನು ಸಂತೋಷಪಡಿಸಿ, ಗಾಣಪತ್ಯರಿಂದ ಸೇವಿಸಲ್ಪಡುವ ತನ್ನ ಆಶ್ರಮಕ್ಕೆ ಹೊರಟನು.",
+          "source_refs": [
+            {
+              "file": "page_0986.png",
+              "printed_page": 58,
+              "printed_page_status": "inferred from adjacent verified pages; header cropped",
+              "original_image_index": 986,
+              "sha256": "098ad135e14864bf157479351c119a083b3e80a5c9588e9d30e95d9a006f53f5",
+              "source_kind": "Supplied original Khanda9 imagery visually inspected; inherited text and meanings remain qualified."
+            }
+          ],
+          "meaning_status": "accepted-qualified-draft",
+          "retained_qualifications": [
+            "Historical Kannada review hold retained verbatim; source alignment does not clear it.",
+            "Existing Kannada meaning explicitly unaccepted/pending; not filled speculatively.",
+            "Legacy source/transcription issues retained; see legacy_source_issues and exact review file.",
+            "Deity narrative, doctrine, stotra/mantra wording and source/meaning interpretation remain qualified; no unsupported restoration, normalization or expanded mantra references."
+          ],
+          "source_issues": [
+            {
+              "id": "P1060-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The first conjunct or repha in पवननायकाः / पर्वतनायकाः is slightly smudged in print."
+            },
+            {
+              "id": "P1060-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The vowel mark on र in परंश्वरम् / परमेश्वरम् appears as an anusvara-like dot instead of a clear e-matra."
+            },
+            {
+              "id": "P1062-API-U-1",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Printed as 'गमिष्यायि' (instead of 'गमिष्यामि'); preserved exactly as printed."
+            },
+            {
+              "id": "P1062-API-U-2",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "The conjunct in 'सहक्' / 'सदृक्' is printed looking like 'सहक्'; preserved as visible."
+            },
+            {
+              "id": "P1062-API-U-3",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Anusvara placement printed as 'निरंहकारसंयुक्तं' (instead of 'निरहंकारसंयुक्तं'); preserved exactly as printed."
+            },
+            {
+              "id": "P1062-API-U-4",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Visarga printed inside compound as 'समःचूर्ण्य' (for 'समं चूर्ण्य' / 'संचूर्ण्य'); preserved exactly as printed."
+            },
+            {
+              "id": "CH17-PAGE1062-ALIGNMENT",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Raw chapter-scoped Kannada page cannot be safely assigned by numeric markers; exact nonoverlapping segmentation or hold required. Never repeat shared context as per-verse translation."
+            },
+            {
+              "id": "REVIEW-9-17-51",
+              "reading": null,
+              "status": "open",
+              "kind": "source_or_scope_review",
+              "detail": "Scan verb is visibly समानं…्य, saved समानंथ्य, reference समानय. Raw ಮಂಥನಮಾಡಿ (ಬೋಧಿಸಿ) is unjustified and semantically jarring. Do not substitute consoling/honouring without secure glyph adjudication; hold the whole verse, preserving the return to the Ganapatya-served hermitage as secure context."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
