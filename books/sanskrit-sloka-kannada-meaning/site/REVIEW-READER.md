@@ -1,13 +1,14 @@
-# Isolated qualified review reader
+# Isolated Sanskrit–Kannada reading drafts
 
-`/kn/mudgala-purana/review/` exposes the saved November 17 review checkpoint separately from the canonical edition. It is a draft, not expert verified. The tracked queue has 985 accepted-qualified and 548 pending records; this does not imply the remaining draft records are verified and excludes separate Khanda 9 chapters 25–41 qualifications.
+`/kn/mudgala-purana/review/` contains 428 draft chapters across all nine khandas. It is not an expert-verified edition. The canonical book, search, sitemap, EPUB and PDF remain separate and unchanged.
 
-`prepare-review.py` reads the immutable November 12 baseline, verifies November 17 delta hashes, replaces entries in their original positions by stable ID, and applies complete group/colophon replacements. Its 300 chapters and 16,734 records are generated under `.generated/review/`, never added to canonical book data, search, sitemap or download generation. Checkpoint sources are not modified.
+Khandas 1–2 use the existing chapter drafts from the November 21 GitHub checkpoint. For Khandas 3–9, the loader verifies the November 17 checkpoint deltas over the November 12 baseline. It then applies the November 22 Kannada overlay to the exact 548 stable IDs that were pending. The overlay modifies meanings and working status only, never source language, Kannada-script Sanskrit, order, grouping, separable invocation or printed numbering.
 
-The separate server-rendered static routes use existing source context groups: Kannada-script Sanskrit above a divider, then exactly corresponding numbered Kannada meanings. Each record retains its source and original Devanagari, numbering flags, current meaning status and historical qualifications in a disclosure. No modernization or inferred corrections are applied. Draft pages are noindex, follow and linked once from the canonical book index. Existing EPUB/PDF links still refer to the unchanged published canonical edition (Khanda 1 chapters 1–18).
+Of the 461 passages reviewed in this narrow queue, 217 are resolved for the working Kannada draft, 166 remain partially interpreted, and 78 remain unresolved (244 marked). Another 87 positions are provisional first-pass readings. This does not count other qualifications, including Khanda 9 chapters 25–41. The missing source slot at Khanda 5 chapter 41 verse 35 stays explicit; no Sanskrit was supplied for it.
 
-`npm run build` includes `scripts/test-review.py`, checking all exported chapters, exact source strings, stable IDs and meaning mappings, internal links, actual noindex HTML and sitemap isolation. Baseline/delta integrity and status counts fail closed in prebuild.
+Every review page is noindex. The build validates scope, source/order, stable verse associations, inline uncertainty, archive markup, snapshot equivalence, internal links and canonical sitemap isolation.
 
 Acceptance URLs:
-- `/kn/mudgala-purana/review/khanda-5/2/#kh05-ch002-v016`: current accepted-qualified-draft, with earlier pending/uncertain prose retained as historical source qualifications.
-- `/kn/mudgala-purana/review/khanda-5/41/#kh05-ch041-v035`: unresolved numbered placeholder, unchanged.
+- `/kn/mudgala-purana/review/khanda-1/54/` and `/kn/mudgala-purana/review/khanda-2/74/`: draft coverage endpoints.
+- `/kn/mudgala-purana/review/khanda-5/41/#kh05-ch041-v035`: held missing-Sanskrit slot.
+- `/kn/mudgala-purana/review/khanda-9/41/`: later Khanda 9 chapters remain separate saved drafts.

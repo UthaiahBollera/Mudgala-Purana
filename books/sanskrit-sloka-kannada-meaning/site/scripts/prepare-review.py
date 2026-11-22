@@ -4,12 +4,17 @@ Never feeds canonical readers, search, sitemap, or downloads.
 from pathlib import Path
 import copy
 import hashlib
+import gzip
 import html
 import json
 from collections import Counter
+from html.parser import HTMLParser
 
 SITE = Path(__file__).resolve().parents[1]
 ROOT = SITE.parent / 'review/checkpoints'
+RELEASE = ROOT / '2026-11-22'
+MARK = '⟦ಅಸ್ಪಷ್ಟ⟧'
+REVIEW_DISPOSITIONS = {'resolved': 217, 'partial': 166, 'held': 78, 'first-pass': 87}
 
 def load_review():
     chapters = {}
@@ -43,6 +48,27 @@ def load_review():
     assert statuses['pending'] == manifest['pending_total'] == 548
     for c in chapters.values():
         assert [i for g in c['groups'] for i in g['verse_ids']] == [e['id'] for e in c['entries']]
+    overlay = json.loads((RELEASE / 'meaning-overlay.json').read_text())
+    updates = {item['id']: item for item in overlay['entries']}
+    pending = {row['id']: row for row in rows if row['meaning_status'] == 'pending'}
+    assert len(overlay['entries']) == len(updates) == len(pending) == 548
+    assert updates.keys() == pending.keys()
+    assert Counter(entry['disposition'] for entry in updates.values()) == REVIEW_DISPOSITIONS
+    for ident, entry in updates.items():
+        assert set(entry) == {'id', 'disposition', 'kannada_meaning'}
+        row = pending[ident]
+        status = entry['disposition']
+        meaning = entry['kannada_meaning']
+        if ident == 'kh05-ch041-v035':
+            assert not row['sanskrit_devanagari'] and status == 'held'
+        assert bool(meaning) and (MARK in meaning) == (status in ('partial', 'held')), ident
+        row['kannada_meaning'] = meaning
+        row['meaning_status'] = {
+            'resolved': 'reviewed-working-draft',
+            'partial': 'partial-review-draft',
+            'held': 'unresolved-review-draft',
+            'first-pass': 'provisional-first-pass',
+        }[status]
     return manifest, list(chapters.values())
 
 def esc(value):
@@ -79,18 +105,77 @@ def render(chapter):
         parts.append('<details><summary lang="en">Colophon source and qualifications</summary><pre>' + esc(json.dumps(colophon, ensure_ascii=False, indent=2)) + '</pre></details></section>')
     return ''.join(parts)
 
+class DraftMarkup(HTMLParser):
+    """Structural defense in depth for the separately packaged K1–2 draft."""
+    tags = set('section h2 h3 p a div hr abbr'.split())
+    attrs = {'id', 'class', 'lang', 'style', 'data-meaning-for', 'data-reading-uncertain',
+             'href', 'tabindex', 'title'}
+
+    def __init__(self):
+        super().__init__()
+        self.ids = []
+        self.meanings = []
+
+    def handle_starttag(self, tag, pairs):
+        assert tag in self.tags, tag
+        for name, value in pairs:
+            assert name in self.attrs, (tag, name)
+            if name == 'id':
+                assert value and value != 'reading'
+                self.ids.append(value)
+            elif name == 'data-meaning-for':
+                assert value
+                self.meanings.append(value)
+            elif name == 'href':
+                assert tag == 'a' and value and value.startswith('#'), value
+            elif name == 'style':
+                assert tag == 'p' and value == 'white-space:pre-wrap', value
+
+    def handle_endtag(self, tag):
+        assert tag in self.tags, tag
+
+
+def load_k12():
+    packed = (RELEASE / 'k12-review.json.gz').read_bytes()
+    assert hashlib.sha256(packed).hexdigest() == '93c1470ce09a71066579dd61916210eca34e12366d54af8aeb022ccc06458538'
+    raw = gzip.decompress(packed)
+    chapters = json.loads(raw)
+    assert [(c['khanda'], c['chapter']) for c in chapters] == [
+        (k, n) for k, total in ((1, 54), (2, 74)) for n in range(1, total + 1)]
+    for chapter in chapters:
+        k, n = chapter['khanda'], chapter['chapter']
+        assert chapter['count'] > 0 and chapter['slug'] == f'khanda-{k}/{n}'
+        markup = DraftMarkup()
+        markup.feed(chapter['html'])
+        markup.close()
+        assert len(set(markup.ids)) == len(markup.ids)
+        assert len(set(markup.meanings)) == len(markup.meanings) == chapter['count'], (k, n, markup.meanings[:2])
+        assert set(markup.meanings) <= set(markup.ids)
+    assert sum(c['count'] for c in chapters) == 6410
+    return chapters
+
+
 def main():
     manifest, chapters = load_review()
     target = SITE / '.generated/review'
     target.mkdir(parents=True, exist_ok=True)
     index = []
-    for c in chapters:
+    all_chapters = load_k12()
+    for c in all_chapters:
+        (target / f'{c["khanda"]}-{c["chapter"]}.json').write_text(json.dumps(c, ensure_ascii=False))
+        index.append({k: c[k] for k in ('khanda', 'chapter', 'count', 'slug')})
+    for c in sorted(chapters, key=lambda c: (c['khanda'], c['chapter'])):
         slug = f'khanda-{c["khanda"]}/{c["chapter"]}'
         item = {'khanda': c['khanda'], 'chapter': c['chapter'], 'count': len(c['entries']), 'slug': slug}
         index.append(item)
         (target / f'{c["khanda"]}-{c["chapter"]}.json').write_text(json.dumps({**item, 'html': render(c)}, ensure_ascii=False))
-    (target / 'index.json').write_text(json.dumps({'manifest': manifest, 'chapters': index}, ensure_ascii=False))
-    print('Prepared isolated review: 300 chapters / 16,734 records; canonical content unchanged.')
+    stats = {'chapters': len(index), 'records': sum(c['count'] for c in index),
+             'reviewed_queue': 461, 'working_resolved': REVIEW_DISPOSITIONS['resolved'],
+             'still_marked': REVIEW_DISPOSITIONS['partial'] + REVIEW_DISPOSITIONS['held'],
+             'provisional': REVIEW_DISPOSITIONS['first-pass']}
+    assert stats['chapters'] == 428
+    (target / 'index.json').write_text(json.dumps({'stats': stats, 'chapters': index}, ensure_ascii=False))
+    print(f"Prepared isolated draft reader: {stats['chapters']} chapters / {stats['records']:,} numbered records; canonical content unchanged.")
 
 if __name__ == '__main__':
     main()

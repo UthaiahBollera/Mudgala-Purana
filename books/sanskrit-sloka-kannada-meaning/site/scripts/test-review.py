@@ -42,7 +42,7 @@ for c in chapters:
     page = Page(initial)
     assert page.noindex
     assert len(page.ids) == len(set(page.ids))
-    assert '548' in initial and '985' in initial and 'Not expert verified' in initial
+    assert all(x in initial for x in ('217', '461', '244', 'Not expert verified'))
     for e in c['entries']:
         assert e['id'] in page.ids
         assert f'data-meaning-for="{e["id"]}"' in initial
@@ -55,7 +55,21 @@ for c in chapters:
 assert len(all_ids) == len(set(all_ids)) == 16734
 index = (out / root.lstrip('/') / 'index.html').read_text()
 assert Page(index).noindex
+k12 = module['load_k12']()
+for c in k12:
+    location = out / root.lstrip('/') / c['slug'] / 'index.html'
+    raw = location.read_text()
+    initial = re.sub(r'<script\b[^>]*>.*?</script>', '', raw, flags=re.S)
+    page = Page(initial)
+    assert page.noindex and c['html'] in initial
+    assert len(page.ids) == len(set(page.ids))
+    for href in page.links:
+        if href.startswith('#'): assert href[1:] in page.ids, (c['slug'], href)
+        elif href.startswith('/'):
+            target = out / href.lstrip('/')
+            assert (target / 'index.html').exists() if href.endswith('/') else target.exists(), (c['slug'], href)
+    assert root + c['slug'] + '/' in index
 for c in chapters: assert root + f'khanda-{c["khanda"]}/{c["chapter"]}/' in index
 assert '/review/' not in (out / 'sitemap.xml').read_text()
 assert root in (out / 'kn/mudgala-purana/index.html').read_text()
-print('PASS: 300 exact source chapters; 16,734 stable paired IDs; statuses, internal links, noindex, isolation.')
+print('PASS: 428 isolated chapters; 16,734 K3–9 stable paired IDs plus the exact K1–2 draft; statuses, links, noindex and isolation.')
