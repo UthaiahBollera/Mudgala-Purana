@@ -6,6 +6,7 @@
   --k1-gold: #af7934;
   --k1-pill: #f7e8d0;
   --k1-seal-ink: #700d28;
+  container: k1-reading / inline-size;
   width: min(calc(100% - 24px), 880px);
   margin: 20px auto 30px;
   padding: clamp(7px, 1.6vw, 16px);
@@ -42,14 +43,14 @@
 .ornamental-end::after { bottom: -2px; right: -2px; transform: scale(-1); }
 .ornamental-masthead {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(100px, 212px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, min(46%, 212px)) minmax(0, 1fr);
   gap: clamp(5px, 2vw, 20px);
   align-items: center;
   margin: 0 auto 24px;
   text-align: center;
   font-size: clamp(.85rem, 2.2vw, 1.25rem);
 }
-.ornamental-masthead span { border-bottom: 1px solid var(--k1-gold); padding-bottom: 5px; }
+.ornamental-masthead span { min-width: 0; overflow-wrap: anywhere; border-bottom: 1px solid var(--k1-gold); padding-bottom: 5px; }
 .ornamental-masthead span:first-child { text-align: left; }
 .ornamental-masthead span:last-child { text-align: right; }
 .ornamental-masthead img, .ornamental-end img { display: block; max-width: 100%; height: auto; }
@@ -74,6 +75,7 @@
 }
 .ornamental-plaque::after { transform: scaleX(-1); }
 .ornamental-plaque span {
+  min-width: 0;
   padding: .18em .85em .24em;
   color: #fff9ed;
   background: var(--k1-plaque) center / 100% 100% no-repeat;
@@ -196,4 +198,25 @@
   .ornamental-chapter { padding: 0; width: auto; margin: 0; }
   .ornamental-chapter .ornamental-pair { break-inside: avoid; }
   .ornamental-inside { border: none; }
+}
+
+/* CSS/browser zoom can make the reading panel narrower than the viewport breakpoint. */
+@container k1-reading (max-width: 180px) {
+  .ornamental-inside { padding-inline: 4px; }
+  .ornamental-masthead {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px 8px;
+  }
+  .ornamental-masthead img {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: center;
+    width: min(90%, 120px);
+  }
+  .ornamental-plaque {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+  .ornamental-plaque span { padding-inline: .4em; }
+  .ornamental-plaque::before, .ornamental-plaque::after { display: none; }
 }
