@@ -14,6 +14,6 @@
    frame.hidden=false;
    status.textContent="";
  } catch {
-   status.textContent="Couldn’t load this khanda. Try reloading in a current browser, or open the shloka analysis above.";
+   status.textContent="Couldn’t load this khanda. Try reloading in a current browser.";
  }
 })();
