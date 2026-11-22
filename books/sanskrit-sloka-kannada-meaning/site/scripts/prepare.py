@@ -1,5 +1,6 @@
 """Derive Next.js pages from the same reviewed sources as web and EPUB."""
 from pathlib import Path
+from ornamental import canonical_chapter
 import importlib.util,json,shutil,xml.etree.ElementTree as E
 site=Path(__file__).resolve().parents[1];book=site.parent
 spec=importlib.util.spec_from_file_location('book_build',book/'build.py');build=importlib.util.module_from_spec(spec);spec.loader.exec_module(build);build.build()
@@ -31,6 +32,7 @@ target=site/'public/book'
 if target.exists():shutil.rmtree(target)
 target.mkdir(parents=True,exist_ok=True)
 for folder in ['assets','styles']:shutil.copytree(book/folder,target/folder,dirs_exist_ok=True)
+shutil.copytree(site/'ornamental-assets',target/'assets/ornamental')
 shutil.copy2(book/'dist/mudgala-preview.epub',target/'mudgala-purana.epub');print(f"Prepared {len(data['chapters'])} chapters/{sum(c['count'] for c in data['chapters'])} pairs; Khanda1 baseline preserved.")
 
 search=[]
@@ -44,4 +46,17 @@ for c in data['chapters']:
 import runpy
 runpy.run_path(str(site/'scripts/editions.py'))
 
+# The canonical PDF/EPUB fingerprint and search index are derived above from
+# the original source presentation. Only the website gets paired styling.
+paired={c['id']:canonical_chapter(c['html']) for c in data['chapters'] if c['khanda']==1}
+(site/'.generated/book-ornamental.json').write_text(json.dumps(paired,ensure_ascii=False))
+
 runpy.run_path(str(site/'scripts/prepare-review.py'), run_name='__main__')
+
+# Keep this full Khanda 1 reading copy separate from source-matched canonical downloads.
+import hashlib
+khanda1_print = site/'downloads'/'mudgala-purana-khanda-1-kannada.pdf'
+khanda1_print_sha256 = '41a710e1679535ac3a1aa5807752ddc056313d34d944ede0b148b6d63749c748'
+if hashlib.sha256(khanda1_print.read_bytes()).hexdigest() != khanda1_print_sha256:
+ raise SystemExit('Khanda 1 ornamental print copy does not match the validated release.')
+shutil.copy2(khanda1_print, target/khanda1_print.name)

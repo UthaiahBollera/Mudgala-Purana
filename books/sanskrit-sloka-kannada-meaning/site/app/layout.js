@@ -1,3 +1,4 @@
+import './ornamental.css';
 import {preferenceBootstrap} from '../lib/reader-preferences';
 import {localPath} from '../lib/paths';
 import WebAnalytics from '../lib/WebAnalytics';

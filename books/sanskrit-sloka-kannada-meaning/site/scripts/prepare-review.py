@@ -2,6 +2,7 @@
 Never feeds canonical readers, search, sitemap, or downloads.
 """
 from pathlib import Path
+from ornamental import draft_chapter
 import copy
 import hashlib
 import gzip
@@ -162,6 +163,8 @@ def main():
     index = []
     all_chapters = load_k12()
     for c in all_chapters:
+        if c['khanda'] == 1:
+            c = {**c, 'html': draft_chapter(c['html'])}
         (target / f'{c["khanda"]}-{c["chapter"]}.json').write_text(json.dumps(c, ensure_ascii=False))
         index.append({k: c[k] for k in ('khanda', 'chapter', 'count', 'slug')})
     for c in sorted(chapters, key=lambda c: (c['khanda'], c['chapter'])):

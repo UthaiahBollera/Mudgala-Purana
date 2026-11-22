@@ -12,3 +12,9 @@ Acceptance URLs:
 - `/kn/mudgala-purana/review/khanda-1/54/` and `/kn/mudgala-purana/review/khanda-2/74/`: draft coverage endpoints.
 - `/kn/mudgala-purana/review/khanda-5/41/#kh05-ch041-v035`: held missing-Sanskrit slot.
 - `/kn/mudgala-purana/review/khanda-9/41/`: later Khanda 9 chapters remain separate saved drafts.
+
+## Khanda 1 ornamental layout and print edition
+
+The canonical Khanda 1 web routes and complete Khanda 1 review chapters render the approved maroon-and-gold layout. Sanskrit in Kannada script is centered in regular weight; every numbered verse is followed by its matching Kannada meaning. Source text, verse anchors, and uncertainty marks are retained. Decorations are from the supplied design reference, and the EPUB and existing canonical print editions are unchanged.
+
+The separately labelled full Khanda 1 draft PDF is a 635-page A4 reading edition with all 54 chapters, 2,796 numbered pairs, a linked contents page, selectable Kannada, and compact marks for unresolved readings. It is not a claim of expert verification.

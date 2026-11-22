@@ -61,7 +61,10 @@ for c in k12:
     raw = location.read_text()
     initial = re.sub(r'<script\b[^>]*>.*?</script>', '', raw, flags=re.S)
     page = Page(initial)
-    assert page.noindex and c['html'] in initial
+    expected = module['draft_chapter'](c['html']) if c['khanda'] == 1 else c['html']
+    assert page.noindex and expected in initial
+    assert initial.count('class="ornamental-pair"') == (c['count'] if c['khanda'] == 1 else 0)
+    assert ('class="ornamental-chapter"' in initial) == (c['khanda'] == 1)
     assert len(page.ids) == len(set(page.ids))
     for href in page.links:
         if href.startswith('#'): assert href[1:] in page.ids, (c['slug'], href)

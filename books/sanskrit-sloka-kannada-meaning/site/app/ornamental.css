@@ -1,0 +1,199 @@
+/* Khanda 1 web presentation. Canonical source, EPUB and other khandas stay unchanged. */
+.ornamental-chapter {
+  --k1-paper: #fffbf4;
+  --k1-ink: #30251f;
+  --k1-verse: #760e2a;
+  --k1-gold: #af7934;
+  --k1-pill: #f7e8d0;
+  --k1-seal-ink: #700d28;
+  width: min(calc(100% - 24px), 880px);
+  margin: 20px auto 30px;
+  padding: clamp(7px, 1.6vw, 16px);
+  background: var(--k1-paper);
+  color: var(--k1-ink);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .ornamental-chapter {
+    --k1-paper: #29201c; --k1-ink: #faeee0; --k1-verse: #ffc3c8; --k1-gold: #cf9c59;
+  }
+}
+:root[data-theme="dark"] .ornamental-chapter {
+  --k1-paper: #29201c; --k1-ink: #faeee0; --k1-verse: #ffc3c8; --k1-gold: #cf9c59;
+}
+.ornamental-inside {
+  position: relative;
+  min-width: 0;
+  padding: clamp(10px, 4vw, 40px);
+  border: 1px solid var(--k1-gold);
+}
+.ornamental-inside::before, .ornamental-inside::after,
+.ornamental-masthead::before, .ornamental-end::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: clamp(20px, 5vw, 40px);
+  aspect-ratio: 1;
+  background: var(--k1-paper) var(--k1-corner) center / contain no-repeat;
+  pointer-events: none;
+}
+.ornamental-inside::before { top: -2px; left: -2px; }
+.ornamental-inside::after { top: -2px; right: -2px; transform: scaleX(-1); }
+.ornamental-masthead::before { bottom: -2px; left: -2px; transform: scaleY(-1); }
+.ornamental-end::after { bottom: -2px; right: -2px; transform: scale(-1); }
+.ornamental-masthead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(100px, 212px) minmax(0, 1fr);
+  gap: clamp(5px, 2vw, 20px);
+  align-items: center;
+  margin: 0 auto 24px;
+  text-align: center;
+  font-size: clamp(.85rem, 2.2vw, 1.25rem);
+}
+.ornamental-masthead span { border-bottom: 1px solid var(--k1-gold); padding-bottom: 5px; }
+.ornamental-masthead span:first-child { text-align: left; }
+.ornamental-masthead span:last-child { text-align: right; }
+.ornamental-masthead img, .ornamental-end img { display: block; max-width: 100%; height: auto; }
+.ornamental-plaque {
+  display: grid;
+  grid-template-columns: minmax(0, 40px) minmax(0, 310px) minmax(0, 40px);
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  margin: 0 auto 1.25rem;
+  text-align: center;
+  font-size: clamp(1.3rem, 4.5vw, 2.3rem);
+  line-height: 1.45;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.ornamental-plaque::before, .ornamental-plaque::after {
+  content: "";
+  height: 24px;
+  background: var(--k1-leaf) center / contain no-repeat;
+}
+.ornamental-plaque::after { transform: scaleX(-1); }
+.ornamental-plaque span {
+  padding: .18em .85em .24em;
+  color: #fff9ed;
+  background: var(--k1-plaque) center / 100% 100% no-repeat;
+}
+.ornamental-rule, .ornamental-pair:not(:first-child)::before,
+.ornamental-chapter :is(.verse-group,.review-group):not(:first-child) > .ornamental-pair:first-child::before {
+  display: block;
+  height: 20px;
+  margin: 0 auto 1.15rem;
+  background: var(--k1-lotus) center / auto 20px no-repeat,
+    linear-gradient(90deg, var(--k1-gold) 0 calc(50% - 20px), transparent 0 calc(50% + 20px), var(--k1-gold) 0) center / 100% 1px no-repeat;
+  width: min(90%, 620px);
+}
+.ornamental-chapter .chapter {
+  max-width: none;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+.ornamental-chapter .chapter h1 { font-size: 1.07rem; text-align: center; margin: 0 0 .75rem; }
+.ornamental-chapter .source-page + .source-page { margin-top: 0; }
+.ornamental-chapter :is(.verse-group,.review-group) { margin: 0; padding: 0; border: 0; }
+.ornamental-chapter :is(.sloka-entry,.review-sloka) {
+  display: grid;
+  grid-template-columns: minmax(44px, 95px) minmax(0,1fr);
+  align-items: center;
+  gap: .4rem 1rem;
+  scroll-margin-top: 22px;
+}
+.ornamental-chapter :is(.sloka-entry,.review-sloka):target {
+  outline: 2px solid var(--k1-gold);
+  outline-offset: 5px;
+  border-radius: 4px;
+}
+.ornamental-chapter :is(.sloka-entry,.review-sloka) .num {
+  justify-self: start;
+  padding: 0;
+  color: var(--k1-seal-ink);
+}
+.ornamental-chapter :is(.sloka-entry,.review-sloka) .num a {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  min-height: 46px;
+  padding: 4px;
+  background: var(--k1-seal) center / contain no-repeat;
+  font: 700 .92rem/1 "Tiro Kannada", serif;
+  white-space: nowrap;
+}
+.ornamental-chapter .review-sloka > p { grid-column: 2; }
+.ornamental-chapter p[lang="sa-Knda"] {
+  text-align: center;
+  color: var(--k1-verse);
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.ornamental-chapter :is(.sloka-entry,.review-sloka) p[lang="sa-Knda"] {
+  font-size: calc(21px * var(--reader-scale, 1));
+}
+.ornamental-chapter :is(.meaning-entry,.review-meaning) {
+  display: grid;
+  grid-template-columns: minmax(0, 95px) minmax(0,1fr);
+  gap: .45rem 1rem;
+  align-items: start;
+  margin: .75rem 0 0;
+}
+.ornamental-chapter :is(.meaning-entry,.review-meaning) p[lang="kn"] {
+  margin: 0;
+  color: var(--k1-ink);
+  text-align: start;
+  font-size: calc(18px * var(--reader-scale, 1));
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.ornamental-pill {
+  justify-self: start;
+  display: inline-block;
+  border-radius: 2em;
+  color: var(--k1-seal-ink);
+  background: var(--k1-pill);
+  padding: .16em .75em .1em;
+  font: 700 .92rem/1.6 "Tiro Kannada", serif;
+}
+.ornamental-chapter :is(.meaning-entry > .num,.ornamental-repeated-number) { display: none; }
+.ornamental-chapter .ornamental-pair {
+  position: relative;
+  padding: 0 0 1.4rem;
+}
+.ornamental-pair:not(:first-child)::before,
+.ornamental-chapter :is(.verse-group,.review-group):not(:first-child) > .ornamental-pair:first-child::before { content: ""; }
+.ornamental-chapter :is(.unit[data-unit="ಆವಾಹನೆ"],.review-entry[id$="-invocation"]) {
+  max-width: 650px;
+  text-align: center;
+  border: 0;
+  padding: .25rem 0 .65rem;
+}
+.ornamental-chapter :is(.unit[data-unit="ಆವಾಹನೆ"],.review-entry[id$="-invocation"]) > :is(p,.verse-pair) { margin: .4rem auto; }
+.ornamental-chapter .review-entry { border: 0; }
+.ornamental-end { display: flex; align-items: center; margin: 1rem auto 0; }
+.ornamental-end::before { content: ""; height: 1px; flex: 1; order: -1; background: var(--k1-gold); }
+.ornamental-end img { width: min(150px, 40%); margin-inline: auto; }
+.ornamental-end { background: linear-gradient(var(--k1-gold),var(--k1-gold)) right center / 31% 1px no-repeat; }
+.ornamental-end::before { max-width: calc(50% - min(75px, 20%)); }
+@media (max-width: 540px) {
+  .ornamental-chapter { width: calc(100% - 14px); }
+  .ornamental-chapter :is(.meaning-entry,.review-meaning) { grid-template-columns: minmax(0, 1fr); }
+  .ornamental-chapter :is(.sloka-entry,.review-sloka) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: .35rem;
+  }
+  .ornamental-chapter .review-sloka > p { grid-column: 1; }
+  .ornamental-chapter :is(.sloka-entry,.review-sloka) .num { justify-self: center; }
+  .ornamental-plaque { grid-template-columns: minmax(0, 25px) minmax(0, 245px) minmax(0, 25px); }
+  .review-reader .ornamental-chapter { width: 100%; }
+}
+@media print {
+  .ornamental-chapter { padding: 0; width: auto; margin: 0; }
+  .ornamental-chapter .ornamental-pair { break-inside: avoid; }
+  .ornamental-inside { border: none; }
+}
