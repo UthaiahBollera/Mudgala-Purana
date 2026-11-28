@@ -50,7 +50,9 @@ for k, chapters in enumerate(expected, 1):
         raise ValueError(f"Khanda {k}: verse or meaning text changed")
     if k == 5 and ('id="kh05-ch041-v035"' not in public or "ಕ್ರಮವು ೩೪ರಿಂದ ನೇರವಾಗಿ ೩೬ಕ್ಕೆ ಸಾಗುತ್ತದೆ" not in public):
         raise ValueError("The source numbering note must be retained")
-    public = public.replace("</head>", f'<link rel="canonical" href="{origin}/khanda-{k}.html">{style}</head>', 1)
-    public = public.replace("<body>", '<body><p class="public-nav"><a href="index.html">ಎಲ್ಲ ಖಂಡಗಳು</a> · <a href="/">ಮುಖಪುಟ</a></p>', 1)
-    (output_dir / f"khanda-{k}.html").write_text(public, encoding="utf-8")
+    public = public.replace("</head>", f'<link rel="canonical" href="{origin}/khanda-{k}/">{style}</head>', 1)
+    public = public.replace("<body>", '<body><p class="public-nav"><a href="../">ಎಲ್ಲ ಖಂಡಗಳು</a> · <a href="/">ಮುಖಪುಟ</a></p>', 1)
+    chapter_dir = output_dir / f"khanda-{k}"
+    chapter_dir.mkdir(exist_ok=True)
+    (chapter_dir / "index.html").write_text(public, encoding="utf-8")
     print(f"Public Khanda {k}: {chapters} chapters; source Sanskrit and Kannada verified")
