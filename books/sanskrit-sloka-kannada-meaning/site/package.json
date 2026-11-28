@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prebuild": "python3 scripts/prepare.py",
+    "prebuild": "python3 scripts/prepare.py && python3 scripts/prepare-public-edition.py",
     "build": "next build",
     "dev": "next dev",
     "test": "node --test scripts/reader.test.mjs",
